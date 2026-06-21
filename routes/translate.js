@@ -21,13 +21,15 @@ function cleanForTranslation(word) {
 }
 
 // บริการแปลภาษาฟรีบางครั้งมี "ขยะ" หลุดมาในฐานข้อมูลแปล (เช่นข้อความ
-// คอมเมนต์ภาษาอังกฤษทั้งดุ้นที่ไม่ใช่คำแปลจริง) ดังนั้นคำแปลที่ใช้ได้
-// ต้องมีตัวอักษรไทยอยู่จริง ไม่ใช่ภาษาอังกฤษเพียวๆ
+// คอมเมนต์ภาษาอังกฤษ หรือข้อความปนภาษาอังกฤษที่ไม่ใช่คำแปลจริง) ดังนั้น
+// คำแปลที่ใช้ได้ต้องเป็นภาษาไทยล้วน ๆ ไม่มีตัวอักษรอังกฤษปนอยู่เลย
 const THAI_CHAR_RE = /[\u0E00-\u0E7F]/;
+const LATIN_LETTER_RE = /[a-zA-Z]/;
 function looksLikeRealThaiTranslation(text) {
   if (!text) return false;
   if (text.length > 50) return false; // คำแปลควรสั้น ไม่ใช่ทั้งประโยค/ทั้งหมายเหตุ
   if (!THAI_CHAR_RE.test(text)) return false; // ต้องมีตัวอักษรไทยอย่างน้อย 1 ตัว
+  if (LATIN_LETTER_RE.test(text)) return false; // ต้องไม่มีตัวอักษรอังกฤษปนอยู่เลย
   return true;
 }
 
