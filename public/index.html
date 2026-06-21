@@ -146,42 +146,24 @@
 
       <div class="footprints" id="footprints"></div>
 
-      <div class="card-stage">
+      <div class="card-stage" id="card-stage">
         <div class="deck-shadow two"></div>
         <div class="deck-shadow"></div>
-        <div class="flip-card" id="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-face flip-face-front">
-              <span class="card-level-tag" id="card-level-tag-front">A1</span>
-              <span class="card-pos-chip" id="card-pos-chip-front"></span>
-              <div class="card-word" id="card-word-front">word</div>
-              <svg class="card-compass" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                <circle cx="18" cy="18" r="16" stroke="#6a6189" stroke-width="2"/>
-                <path d="M18 8 L22 18 L18 28 L14 18 Z" fill="#6a6189"/>
-              </svg>
-              <div class="card-hint">👆 แตะการ์ดเพื่อดูคำตอบ</div>
-            </div>
-            <div class="flip-face flip-face-back">
-              <span class="card-level-tag" id="card-level-tag-back">A1</span>
-              <div class="card-word" id="card-word-back" style="font-size:1.5rem;">word</div>
-              <div class="card-pos-full" id="card-pos-full">คำนาม</div>
-              <div class="card-pos-raw" id="card-pos-raw">n.</div>
-              <div class="card-question">คุณรู้ความหมายคำนี้ไหม?</div>
-            </div>
+        <div class="flip-face quiz-face" id="quiz-face">
+          <span class="card-level-tag" id="card-level-tag-front">A1</span>
+          <span class="card-pos-chip" id="card-pos-chip-front"></span>
+          <div class="card-word" id="card-word-front">word</div>
+          <div class="card-question">เลือกความหมายที่ถูกต้อง</div>
+          <div class="quiz-loading hidden" id="quiz-loading">
+            <div class="loading-spinner" style="margin:16px auto;"></div>
+            <div>กำลังเตรียมตัวเลือก...</div>
           </div>
         </div>
       </div>
 
-      <div class="answer-row hidden" id="answer-row">
-        <button class="answer-btn answer-no" id="btn-dont-know">
-          <span>❌ ยังไม่รู้</span>
-          <small>+3 EXP</small>
-        </button>
-        <button class="answer-btn answer-yes" id="btn-know">
-          <span>✅ รู้แล้ว!</span>
-          <small>+10 EXP</small>
-        </button>
-      </div>
+      <div class="quiz-choices" id="quiz-choices"></div>
+
+      <button class="btn btn-primary quiz-next-btn hidden" id="btn-quiz-next">ถัดไป →</button>
     </div>
   </section>
 
@@ -192,8 +174,8 @@
       <h2>จบด่านแล้ว!</h2>
       <p id="summary-sub">เก่งมาก ไปต่อกันเลย</p>
       <div class="summary-stats">
-        <div class="summary-stat"><div class="num" id="summary-known">0</div><div class="lbl">รู้แล้ว</div></div>
-        <div class="summary-stat"><div class="num" id="summary-learning">0</div><div class="lbl">ยังไม่รู้</div></div>
+        <div class="summary-stat"><div class="num" id="summary-known">0</div><div class="lbl">ตอบถูก</div></div>
+        <div class="summary-stat"><div class="num" id="summary-learning">0</div><div class="lbl">ตอบผิด</div></div>
         <div class="summary-stat"><div class="num" id="summary-exp">0</div><div class="lbl">EXP ที่ได้</div></div>
       </div>
       <div class="summary-actions">
