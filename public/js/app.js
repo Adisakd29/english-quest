@@ -298,6 +298,10 @@
     document.getElementById('game-level-chip').textContent = level;
     document.getElementById('game-level-chip').style.background = LEVEL_META[level].color;
     document.getElementById('footprints').innerHTML = '<div class="loading-spinner"></div>';
+    document.getElementById('quiz-choices').innerHTML = '';
+    document.getElementById('btn-quiz-next').classList.add('hidden');
+    document.getElementById('card-word-front').textContent = '...';
+    setQuizLoading(true);
 
     try {
       const data = await api(`/words/${level}`);
@@ -305,21 +309,72 @@
       const notKnown = words.filter((w) => w.status !== 'known');
       const known = words.filter((w) => w.status === 'known');
 
-      let pool;
+      let candidatePool;
       if (notKnown.length >= SESSION_SIZE) {
-        pool = shuffle(notKnown).slice(0, SESSION_SIZE);
+        candidatePool = shuffle(notKnown);
       } else {
-        const reviewFill = shuffle(known).slice(0, SESSION_SIZE - notKnown.length);
-        pool = shuffle([...notKnown, ...reviewFill]);
+        candidatePool = shuffle([...notKnown, ...shuffle(known)]);
+      }
+      const sessionCandidates = candidatePool.slice(0, SESSION_SIZE);
+      const backupCandidates = candidatePool.slice(SESSION_SIZE, SESSION_SIZE + 20);
+      const allCandidates = [...sessionCandidates, ...backupCandidates];
+
+      const { translations } = await api('/translate', {
+        method: 'POST',
+        body: { wordIds: allCandidates.map((w) => w.id) },
+      });
+
+      const translatedPool = allCandidates
+        .filter((w) => translations[w.id])
+        .map((w) => ({ ...w, th: translations[w.id] }));
+
+      // กันคำซ้ำความหมาย (เช่น big / large แปลไทยเหมือนกัน) ไว้แค่ตัวแรกที่เจอ
+      // เพราะ sessionCandidates เรียงมาก่อน backupCandidates ในลิสต์เสมอ
+      // คำที่ผู้เล่นต้องตอบจะถูกเก็บไว้ก่อนคำสำรองที่ใช้เป็นตัวลวงเท่านั้น
+      const seenText = new Set();
+      const dedupedPool = [];
+      for (const item of translatedPool) {
+        const key = item.th.trim().toLowerCase();
+        if (seenText.has(key)) continue;
+        seenText.add(key);
+        dedupedPool.push(item);
       }
 
-      state.session = { level, queue: pool, index: 0, knownCount: 0, learningCount: 0, expGained: 0 };
+      if (dedupedPool.length < 2) {
+        toast('ระบบแปลคำศัพท์ขัดข้องชั่วคราว ลองใหม่อีกครั้งภายหลัง', 'error');
+        showScreen('screen-map');
+        return;
+      }
+
+      const sessionIds = new Set(sessionCandidates.map((w) => w.id));
+      let queue = dedupedPool.filter((item) => sessionIds.has(item.id));
+      if (queue.length < SESSION_SIZE) {
+        const extra = dedupedPool.filter((item) => !sessionIds.has(item.id));
+        queue = [...queue, ...extra].slice(0, SESSION_SIZE);
+      } else {
+        queue = queue.slice(0, SESSION_SIZE);
+      }
+
+      const questions = queue.map((item) => {
+        const decoyCandidates = dedupedPool.filter((p) => p.id !== item.id);
+        const decoys = shuffle(decoyCandidates).slice(0, Math.min(3, decoyCandidates.length));
+        const options = shuffle([item, ...decoys]);
+        return { ...item, options, level };
+      });
+
+      state.session = { level, queue: questions, index: 0, knownCount: 0, learningCount: 0, expGained: 0 };
       renderFootprints();
-      renderCard();
+      renderQuizCard();
     } catch (err) {
       toast(err.message, 'error');
       showScreen('screen-map');
+    } finally {
+      setQuizLoading(false);
     }
+  }
+
+  function setQuizLoading(isLoading) {
+    document.getElementById('quiz-loading').classList.toggle('hidden', !isLoading);
   }
 
   function renderFootprints() {
@@ -335,53 +390,51 @@
     });
   }
 
-  function renderCard() {
+  function renderQuizCard() {
     const { queue, index, level } = state.session;
-    const word = queue[index];
+    const q = queue[index];
     const meta = LEVEL_META[level];
-
-    const card = document.getElementById('flip-card');
-    card.classList.remove('flipped');
-    document.getElementById('answer-row').classList.add('hidden');
 
     document.getElementById('card-level-tag-front').textContent = level;
     document.getElementById('card-level-tag-front').style.background = meta.color;
-    document.getElementById('card-level-tag-back').textContent = level;
-    document.getElementById('card-level-tag-back').style.background = meta.color;
-    document.getElementById('card-pos-chip-front').textContent = word.category === 'other' ? '' : '';
-    document.getElementById('card-word-front').textContent = word.word;
-    document.getElementById('card-word-back').textContent = word.word;
-    document.getElementById('card-pos-full').textContent = CATEGORY_TH[word.category] || CATEGORY_TH.other;
-    document.getElementById('card-pos-raw').textContent = word.pos;
+    document.getElementById('card-pos-chip-front').textContent = q.pos || '';
+    document.getElementById('card-word-front').textContent = q.word;
+
+    const choicesWrap = document.getElementById('quiz-choices');
+    choicesWrap.innerHTML = '';
+    q.options.forEach((opt) => {
+      const btn = document.createElement('button');
+      btn.className = 'quiz-choice';
+      btn.textContent = opt.th;
+      btn.dataset.correct = opt.id === q.id ? 'true' : 'false';
+      btn.addEventListener('click', () => answerQuiz(btn, q));
+      choicesWrap.appendChild(btn);
+    });
+
+    document.getElementById('btn-quiz-next').classList.add('hidden');
   }
 
-  document.getElementById('flip-card').addEventListener('click', () => {
-    const card = document.getElementById('flip-card');
-    const justFlipped = !card.classList.contains('flipped');
-    card.classList.toggle('flipped');
-    if (justFlipped) {
-      document.getElementById('answer-row').classList.remove('hidden');
-    } else {
-      document.getElementById('answer-row').classList.add('hidden');
-    }
-  });
-
-  async function answerCard(known) {
+  async function answerQuiz(clickedBtn, question) {
     const session = state.session;
-    const word = session.queue[session.index];
+    const choicesWrap = document.getElementById('quiz-choices');
+    const buttons = Array.from(choicesWrap.querySelectorAll('.quiz-choice'));
+    const isCorrect = clickedBtn.dataset.correct === 'true';
 
-    document.getElementById('btn-know').disabled = true;
-    document.getElementById('btn-dont-know').disabled = true;
+    buttons.forEach((b) => {
+      b.disabled = true;
+      if (b.dataset.correct === 'true') b.classList.add('correct');
+    });
+    if (!isCorrect) clickedBtn.classList.add('wrong');
 
     try {
       const result = await api('/progress/review', {
         method: 'POST',
-        body: { wordId: word.id, level: session.level, known },
+        body: { wordId: question.id, level: session.level, known: isCorrect },
       });
 
       popExp(result.gainedExp);
       session.expGained += result.gainedExp;
-      if (known) session.knownCount += 1; else session.learningCount += 1;
+      if (isCorrect) session.knownCount += 1; else session.learningCount += 1;
 
       state.user.exp = result.levelInfo.exp;
       state.user.level = result.levelInfo.level;
@@ -393,18 +446,14 @@
       if (result.leveledUp) {
         showLevelUp(result.levelInfo);
       }
-
-      nextCard();
     } catch (err) {
       toast(err.message, 'error');
-    } finally {
-      document.getElementById('btn-know').disabled = false;
-      document.getElementById('btn-dont-know').disabled = false;
     }
+
+    document.getElementById('btn-quiz-next').classList.remove('hidden');
   }
 
-  document.getElementById('btn-know').addEventListener('click', () => answerCard(true));
-  document.getElementById('btn-dont-know').addEventListener('click', () => answerCard(false));
+  document.getElementById('btn-quiz-next').addEventListener('click', nextCard);
 
   function nextCard() {
     const session = state.session;
@@ -414,7 +463,7 @@
       return;
     }
     renderFootprints();
-    setTimeout(renderCard, 150);
+    renderQuizCard();
   }
 
   function finishSession() {
