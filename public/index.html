@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<title>WordQuest — ผจญภัยคำศัพท์ภาษาอังกฤษ</title>
+<meta name="description" content="เกมเรียนคำศัพท์ภาษาอังกฤษ Oxford 3000 ระดับ A1-B2 พร้อมระบบ EXP และเลเวล" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Chonburi&family=Manrope:wght@500;700;800&family=Noto+Sans+Thai:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2224%22 font-size=%2226%22>🦊</text></svg>">
+</head>
+<body>
 
+<div id="toast-container"></div>
+
+<!-- ============== AUTH SCREEN ============== -->
+<section id="screen-auth" class="screen">
+  <div class="auth-wrap">
+    <div class="auth-hero">
+      <div>
+        <div class="brand">
+          <svg width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="30" fill="#ff6f3c"/>
+            <path d="M20 40c0-10 5-18 12-18s12 8 12 18" stroke="#fff8ec" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="26" cy="26" r="3" fill="#fff8ec"/>
+            <circle cx="38" cy="26" r="3" fill="#fff8ec"/>
+            <path d="M32 30v6" stroke="#fff8ec" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-title display">WordQuest</span>
+        </div>
+        <p class="brand-sub">ผจญภัยไปทีละด่าน A1 → B2<br>สะสม EXP จากการ์ดคำศัพท์ Oxford 3000<br>แล้วเลเวลอัปตัวเองให้เก่งภาษาอังกฤษ</p>
+
+        <div class="hero-trail">
+          <div class="mini-trail">
+            <div class="mini-node" style="background:#4f9d69">A1</div>
+            <div class="mini-rail"></div>
+            <div class="mini-node" style="background:#e0a458">A2</div>
+            <div class="mini-rail"></div>
+            <div class="mini-node" style="background:#4d6fa8">B1</div>
+            <div class="mini-rail"></div>
+            <div class="mini-node" style="background:#7c5cbf">B2</div>
+          </div>
+        </div>
+      </div>
+
+      <svg class="fox" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <ellipse cx="100" cy="140" rx="60" ry="10" fill="#000" opacity="0.15"/>
+        <path d="M60 70 L40 20 L80 55 Z" fill="#e0a458"/>
+        <path d="M140 70 L160 20 L120 55 Z" fill="#e0a458"/>
+        <path d="M65 72 L48 32 L78 58 Z" fill="#fff8ec"/>
+        <path d="M135 72 L152 32 L122 58 Z" fill="#fff8ec"/>
+        <ellipse cx="100" cy="95" rx="55" ry="45" fill="#e0a458"/>
+        <ellipse cx="100" cy="110" rx="32" ry="26" fill="#fff8ec"/>
+        <circle cx="80" cy="85" r="6" fill="#2b2440"/>
+        <circle cx="120" cy="85" r="6" fill="#2b2440"/>
+        <path d="M92 100 Q100 108 108 100" stroke="#2b2440" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M100 100 L100 92" stroke="#2b2440" stroke-width="3" stroke-linecap="round"/>
+        <path d="M40 130 Q20 110 35 85 Q50 100 55 120 Z" fill="#e0a458"/>
+        <path d="M40 128 Q28 112 38 95" stroke="#fff8ec" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <div class="auth-card">
+      <div class="tabs">
+        <button class="tab-btn active" id="tab-login" type="button">เข้าสู่ระบบ</button>
+        <button class="tab-btn" id="tab-register" type="button">สมัครสมาชิก</button>
+      </div>
+
+      <form id="form-login">
+        <div class="form-group">
+          <label for="login-identifier">ชื่อผู้ใช้ หรืออีเมล</label>
+          <input id="login-identifier" type="text" autocomplete="username" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">รหัสผ่าน</label>
+          <input id="login-password" type="password" autocomplete="current-password" required />
+        </div>
+        <div class="form-error" id="login-error"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="login-submit">เข้าสู่ระบบ</button>
+      </form>
+
+      <form id="form-register" class="hidden">
+        <div class="form-group">
+          <label for="reg-username">ชื่อผู้ใช้</label>
+          <input id="reg-username" type="text" autocomplete="username" required minlength="3" maxlength="20" />
+        </div>
+        <div class="form-group">
+          <label for="reg-email">อีเมล</label>
+          <input id="reg-email" type="email" autocomplete="email" required />
+        </div>
+        <div class="form-group">
+          <label for="reg-password">รหัสผ่าน (อย่างน้อย 6 ตัวอักษร)</label>
+          <input id="reg-password" type="password" autocomplete="new-password" required minlength="6" />
+        </div>
+        <div class="form-error" id="register-error"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="register-submit">สร้างบัญชีและเริ่มผจญภัย</button>
+      </form>
+
+      <div class="auth-foot">เรียนคำศัพท์ระดับ A1–B2 จาก Oxford 3000 ฟรี ไม่มีโฆษณา</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== APP SHELL ============== -->
+<div id="app-shell" class="hidden">
+
+  <header id="hud">
+    <div class="container">
+      <div class="hud-avatar" id="hud-avatar">🦊</div>
+      <div class="hud-id">
+        <div class="hud-username" id="hud-username">—</div>
+        <div class="hud-level-tag" id="hud-level-tag">LV.1</div>
+      </div>
+      <div class="hud-exp-wrap" id="hud-exp-wrap">
+        <div class="hud-exp-bar-bg"><div class="hud-exp-bar-fill" id="hud-exp-fill"></div></div>
+        <div class="hud-exp-label" id="hud-exp-label">0 / 80 EXP</div>
+      </div>
+      <button class="hud-logout" id="btn-logout">ออกจากระบบ</button>
+    </div>
+  </header>
+
+  <!-- ============== MAP SCREEN ============== -->
+  <section id="screen-map" class="screen">
+    <div class="container">
+      <div class="map-heading">
+        <h1>เลือกด่านที่จะผจญภัย</h1>
+        <p>เริ่มจาก A1 แล้วเดินทางไปจนถึง B2 — แตะที่ด่านเพื่อเริ่มเล่น Flashcard</p>
+      </div>
+
+      <div class="trail-track" id="trail-track">
+        <!-- generated by JS -->
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== GAME SCREEN ============== -->
+  <section id="screen-game" class="screen hidden">
+    <div class="container">
+      <div class="game-top">
+        <button class="game-exit" id="btn-exit-game">← กลับแผนที่</button>
+        <span class="game-level-chip" id="game-level-chip">A1</span>
+      </div>
+
+      <div class="footprints" id="footprints"></div>
+
+      <div class="card-stage">
+        <div class="deck-shadow two"></div>
+        <div class="deck-shadow"></div>
+        <div class="flip-card" id="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-face flip-face-front">
+              <span class="card-level-tag" id="card-level-tag-front">A1</span>
+              <span class="card-pos-chip" id="card-pos-chip-front"></span>
+              <div class="card-word" id="card-word-front">word</div>
+              <svg class="card-compass" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <circle cx="18" cy="18" r="16" stroke="#6a6189" stroke-width="2"/>
+                <path d="M18 8 L22 18 L18 28 L14 18 Z" fill="#6a6189"/>
+              </svg>
+              <div class="card-hint">👆 แตะการ์ดเพื่อดูคำตอบ</div>
+            </div>
+            <div class="flip-face flip-face-back">
+              <span class="card-level-tag" id="card-level-tag-back">A1</span>
+              <div class="card-word" id="card-word-back" style="font-size:1.5rem;">word</div>
+              <div class="card-pos-full" id="card-pos-full">คำนาม</div>
+              <div class="card-pos-raw" id="card-pos-raw">n.</div>
+              <div class="card-question">คุณรู้ความหมายคำนี้ไหม?</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="answer-row hidden" id="answer-row">
+        <button class="answer-btn answer-no" id="btn-dont-know">
+          <span>❌ ยังไม่รู้</span>
+          <small>+3 EXP</small>
+        </button>
+        <button class="answer-btn answer-yes" id="btn-know">
+          <span>✅ รู้แล้ว!</span>
+          <small>+10 EXP</small>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== SUMMARY SCREEN ============== -->
+  <section id="screen-summary" class="screen hidden">
+    <div class="summary-card">
+      <div style="font-size:2.4rem;">🏁</div>
+      <h2>จบด่านแล้ว!</h2>
+      <p id="summary-sub">เก่งมาก ไปต่อกันเลย</p>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="num" id="summary-known">0</div><div class="lbl">รู้แล้ว</div></div>
+        <div class="summary-stat"><div class="num" id="summary-learning">0</div><div class="lbl">ยังไม่รู้</div></div>
+        <div class="summary-stat"><div class="num" id="summary-exp">0</div><div class="lbl">EXP ที่ได้</div></div>
+      </div>
+      <div class="summary-actions">
+        <button class="btn btn-secondary" id="btn-summary-map" style="flex:1;">กลับแผนที่</button>
+        <button class="btn btn-primary" id="btn-summary-again" style="flex:1;">เล่นด่านนี้อีกรอบ</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
