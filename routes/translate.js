@@ -20,6 +20,17 @@ function cleanForTranslation(word) {
     .trim();
 }
 
+// บริการแปลภาษาฟรีบางครั้งมี "ขยะ" หลุดมาในฐานข้อมูลแปล (เช่นข้อความ
+// คอมเมนต์ภาษาอังกฤษทั้งดุ้นที่ไม่ใช่คำแปลจริง) ดังนั้นคำแปลที่ใช้ได้
+// ต้องมีตัวอักษรไทยอยู่จริง ไม่ใช่ภาษาอังกฤษเพียวๆ
+const THAI_CHAR_RE = /[\u0E00-\u0E7F]/;
+function looksLikeRealThaiTranslation(text) {
+  if (!text) return false;
+  if (text.length > 50) return false; // คำแปลควรสั้น ไม่ใช่ทั้งประโยค/ทั้งหมายเหตุ
+  if (!THAI_CHAR_RE.test(text)) return false; // ต้องมีตัวอักษรไทยอย่างน้อย 1 ตัว
+  return true;
+}
+
 async function fetchThaiTranslation(text) {
   const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|th`;
   const controller = new AbortController();
@@ -31,7 +42,7 @@ async function fetchThaiTranslation(text) {
     const translated = ((data && data.responseData && data.responseData.translatedText) || '').trim();
     if (!translated) throw new Error('empty_translation');
     if (translated.toLowerCase() === text.toLowerCase()) throw new Error('untranslated_echo');
-    if (translated.length > 60) throw new Error('translation_too_long'); // likely a junk/whole-sentence response
+    if (!looksLikeRealThaiTranslation(translated)) throw new Error('not_real_thai_translation');
     return translated;
   } finally {
     clearTimeout(timeout);
@@ -55,7 +66,13 @@ router.post('/', async (req, res) => {
       'SELECT word_id, th_text FROM translations WHERE word_id = ANY($1)',
       [ids]
     );
-    for (const row of cached.rows) result[row.word_id] = row.th_text;
+    for (const row of cached.rows) {
+      // เผื่อมีคำแปลขยะที่เคยแคชไว้ก่อนหน้านี้ (จากตอนยังไม่มีตัวกรอง) —
+      // ถ้าไม่ผ่านตัวกรองตอนนี้ ให้ถือว่ายังไม่มีแคช จะลองแปลใหม่ด้านล่าง
+      if (looksLikeRealThaiTranslation(row.th_text)) {
+        result[row.word_id] = row.th_text;
+      }
+    }
 
     const missingIds = ids.filter((id) => !result[id]);
 
