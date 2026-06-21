@@ -1,0 +1,119 @@
+const express = require('express');
+const pool = require('../config/db');
+const { authRequired } = require('../middleware/auth');
+const { getLevelInfo, calcReviewExp } = require('../utils/leveling');
+const wordsData = require('../data/words.json');
+
+const router = express.Router();
+const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
+
+function findWord(level, wordId) {
+  const list = wordsData.levels[level] || [];
+  return list.find((w) => w.id === wordId);
+}
+
+router.post('/review', authRequired, async (req, res) => {
+  let client;
+  try {
+    const { wordId, level, known } = req.body || {};
+    const lvl = (level || '').toUpperCase();
+
+    if (!wordId || !VALID_LEVELS.has(lvl) || typeof known !== 'boolean') {
+      return res.status(400).json({ error: 'ข้อมูลที่ส่งมาไม่ถูกต้อง' });
+    }
+    if (!findWord(lvl, wordId)) {
+      return res.status(404).json({ error: 'ไม่พบคำศัพท์นี้' });
+    }
+
+    client = await pool.connect();
+    await client.query('BEGIN');
+
+    const existingResult = await client.query(
+      'SELECT * FROM word_progress WHERE user_id = $1 AND word_id = $2',
+      [req.userId, wordId]
+    );
+    const existing = existingResult.rows[0];
+    const isFirstTimeKnown = known && (!existing || existing.status !== 'known');
+    const newStatus = known ? 'known' : 'learning';
+
+    if (existing) {
+      await client.query(
+        `UPDATE word_progress
+         SET status = $1, times_seen = times_seen + 1,
+             times_correct = times_correct + $2, last_reviewed = NOW()
+         WHERE id = $3`,
+        [newStatus, known ? 1 : 0, existing.id]
+      );
+    } else {
+      await client.query(
+        `INSERT INTO word_progress (user_id, word_id, level, status, times_seen, times_correct, last_reviewed)
+         VALUES ($1, $2, $3, $4, 1, $5, NOW())`,
+        [req.userId, wordId, lvl, newStatus, known ? 1 : 0]
+      );
+    }
+
+    const userResult = await client.query('SELECT exp FROM users WHERE id = $1', [req.userId]);
+    const beforeExp = userResult.rows[0].exp;
+    const gained = calcReviewExp({ known, isFirstTimeKnown });
+    const afterExp = beforeExp + gained;
+
+    await client.query('UPDATE users SET exp = $1 WHERE id = $2', [afterExp, req.userId]);
+    await client.query(
+      'INSERT INTO exp_log (user_id, amount, reason) VALUES ($1, $2, $3)',
+      [req.userId, gained, known ? 'card_known' : 'card_review']
+    );
+
+    await client.query('COMMIT');
+
+    const beforeLevel = getLevelInfo(beforeExp);
+    const afterLevel = getLevelInfo(afterExp);
+
+    res.json({
+      gainedExp: gained,
+      isFirstTimeKnown,
+      status: newStatus,
+      leveledUp: afterLevel.level > beforeLevel.level,
+      levelInfo: afterLevel,
+    });
+  } catch (err) {
+    if (client) {
+      try { await client.query('ROLLBACK'); } catch (_rollbackErr) { /* ignore */ }
+    }
+    console.error('[progress/review]', err);
+    res.status(500).json({ error: 'บันทึกผลไม่สำเร็จ ลองใหม่อีกครั้ง' });
+  } finally {
+    if (client) client.release();
+  }
+});
+
+router.get('/summary', authRequired, async (req, res) => {
+  try {
+    const result = await pool.query(
+      `SELECT level, status, COUNT(*) AS count
+       FROM word_progress WHERE user_id = $1
+       GROUP BY level, status`,
+      [req.userId]
+    );
+
+    const summary = {};
+    for (const lvl of VALID_LEVELS) {
+      summary[lvl] = { known: 0, learning: 0, total: wordsData.counts[lvl] };
+    }
+    for (const row of result.rows) {
+      if (summary[row.level]) {
+        summary[row.level][row.status] = Number(row.count);
+      }
+    }
+    for (const lvl of VALID_LEVELS) {
+      const s = summary[lvl];
+      s.newCount = s.total - s.known - s.learning;
+    }
+
+    res.json({ summary });
+  } catch (err) {
+    console.error('[progress/summary]', err);
+    res.status(500).json({ error: 'โหลดสรุปความก้าวหน้าไม่สำเร็จ' });
+  }
+});
+
+module.exports = router;
