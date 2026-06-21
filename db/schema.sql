@@ -32,3 +32,12 @@ CREATE TABLE IF NOT EXISTS exp_log (
   reason     VARCHAR(64) NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- แคชคำแปลภาษาไทย (แปลครั้งแรกแล้วเก็บไว้ใช้ซ้ำ ทุกผู้ใช้ใช้แคชร่วมกัน
+-- เพื่อลดการเรียกบริการแปลภาษาภายนอก และให้โหลดเร็วขึ้นเรื่อย ๆ เมื่อใช้งานไปนาน ๆ)
+CREATE TABLE IF NOT EXISTS translations (
+  word_id    VARCHAR(16) PRIMARY KEY,
+  word       VARCHAR(64) NOT NULL,
+  th_text    VARCHAR(255) NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
