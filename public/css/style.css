@@ -509,14 +509,39 @@ h1, h2, h3, .display {
   color: var(--parchment);
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
   box-shadow: var(--shadow-soft);
+  position: relative;
+  overflow: hidden;
 }
 .trail-node:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-card);
 }
 
+.node-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.node-scene svg {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  opacity: 0.4;
+}
+.node-scene::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--bg-night-2) 45%, transparent 88%);
+}
+
 .stamp {
   position: relative;
+  z-index: 1;
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -545,16 +570,18 @@ h1, h2, h3, .display {
 .node-b1 .stamp { background: var(--b1); }
 .node-b2 .stamp { background: var(--b2); }
 
-.node-info { flex: 1; min-width: 0; }
+.node-info { flex: 1; min-width: 0; position: relative; z-index: 1; }
 .node-title {
   font-weight: 800;
   font-size: 1.05rem;
   color: var(--white);
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
 }
 .node-sub {
   font-size: 0.82rem;
   color: var(--ink-faint);
   margin-top: 2px;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
 }
 .node-progress-bar-bg {
   margin-top: 8px;
@@ -575,10 +602,13 @@ h1, h2, h3, .display {
 
 .node-cta {
   flex-shrink: 0;
+  position: relative;
+  z-index: 1;
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: var(--gold);
   white-space: nowrap;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.6);
 }
 
 .rail {
