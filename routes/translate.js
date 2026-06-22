@@ -42,9 +42,13 @@ async function fetchThaiTranslation(text) {
     if (!res.ok) throw new Error(`http_${res.status}`);
     const data = await res.json();
     const translated = ((data && data.responseData && data.responseData.translatedText) || '').trim();
+    const matchScore = data && data.responseData && Number(data.responseData.match);
+
     if (!translated) throw new Error('empty_translation');
     if (translated.toLowerCase() === text.toLowerCase()) throw new Error('untranslated_echo');
     if (!looksLikeRealThaiTranslation(translated)) throw new Error('not_real_thai_translation');
+    // คะแนนความเชื่อมั่นต่ำ = มีโอกาสสูงว่าแปลผิดความหมาย (fuzzy match ที่ไม่เกี่ยวกัน)
+    if (!Number.isNaN(matchScore) && matchScore < 0.85) throw new Error('low_confidence_match');
     return translated;
   } finally {
     clearTimeout(timeout);
