@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const pool = require('../config/db');
 const { authRequired } = require('../middleware/auth');
 const { getLevelInfo } = require('../utils/leveling');
+const { AVATAR_IDS } = require('../utils/avatars');
 
 const router = express.Router();
 
@@ -106,6 +107,26 @@ router.get('/me', authRequired, async (req, res) => {
   } catch (err) {
     console.error('[auth/me]', err);
     res.status(500).json({ error: 'โหลดข้อมูลผู้ใช้ไม่สำเร็จ' });
+  }
+});
+
+router.patch('/avatar', authRequired, async (req, res) => {
+  try {
+    const { avatar } = req.body || {};
+    if (!AVATAR_IDS.includes(avatar)) {
+      return res.status(400).json({ error: 'อวตารนี้ไม่ถูกต้อง' });
+    }
+
+    const result = await pool.query(
+      'UPDATE users SET avatar = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, created_at',
+      [avatar, req.userId]
+    );
+    const user = result.rows[0];
+    if (!user) return res.status(404).json({ error: 'ไม่พบผู้ใช้' });
+    res.json({ user: publicUser(user) });
+  } catch (err) {
+    console.error('[auth/avatar]', err);
+    res.status(500).json({ error: 'เปลี่ยนอวตารไม่สำเร็จ ลองใหม่อีกครั้ง' });
   }
 });
 
