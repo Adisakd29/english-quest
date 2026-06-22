@@ -28,6 +28,22 @@
     other: 'คำศัพท์',
   };
 
+  const AVATARS = [
+    { id: 'fox', emoji: '🦊' },
+    { id: 'owl', emoji: '🦉' },
+    { id: 'cat', emoji: '🐱' },
+    { id: 'dog', emoji: '🐶' },
+    { id: 'rabbit', emoji: '🐰' },
+    { id: 'bear', emoji: '🐻' },
+    { id: 'panda', emoji: '🐼' },
+    { id: 'lion', emoji: '🦁' },
+    { id: 'tiger', emoji: '🐯' },
+    { id: 'koala', emoji: '🐨' },
+    { id: 'penguin', emoji: '🐧' },
+    { id: 'dragon', emoji: '🐲' },
+  ];
+  const AVATAR_EMOJI = Object.fromEntries(AVATARS.map((a) => [a.id, a.emoji]));
+
   // ---------------------------------------------------------------
   // State
   // ---------------------------------------------------------------
@@ -176,10 +192,52 @@
   function renderHud() {
     const u = state.user;
     if (!u) return;
+    document.getElementById('hud-avatar').textContent = AVATAR_EMOJI[u.avatar] || '🦊';
     document.getElementById('hud-username').textContent = u.username;
     document.getElementById('hud-level-tag').textContent = `LV.${u.level}`;
     document.getElementById('hud-exp-fill').style.width = `${u.progressPercent}%`;
     document.getElementById('hud-exp-label').textContent = `${u.expIntoLevel} / ${u.expForNextLevel} EXP`;
+  }
+
+  document.getElementById('hud-avatar').addEventListener('click', showAvatarPicker);
+
+  function showAvatarPicker() {
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+
+    const optionsHtml = AVATARS.map((a) => {
+      const selected = state.user && state.user.avatar === a.id ? ' selected' : '';
+      return `<button class="avatar-option${selected}" data-avatar-id="${a.id}">${a.emoji}</button>`;
+    }).join('');
+
+    overlay.innerHTML = `
+      <div class="modal-card">
+        <h2>เลือกอวตารของคุณ</h2>
+        <p>แตะตัวที่ชอบเพื่อเปลี่ยนได้เลย</p>
+        <div class="avatar-grid">${optionsHtml}</div>
+        <button class="btn btn-secondary btn-block" style="margin-top:18px;" id="avatar-cancel">ปิด</button>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.querySelectorAll('.avatar-option').forEach((btn) => {
+      btn.addEventListener('click', () => selectAvatar(btn.dataset.avatarId, overlay));
+    });
+    overlay.querySelector('#avatar-cancel').addEventListener('click', () => overlay.remove());
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) overlay.remove();
+    });
+  }
+
+  async function selectAvatar(avatarId, overlay) {
+    try {
+      const { user } = await api('/auth/avatar', { method: 'PATCH', body: { avatar: avatarId } });
+      state.user.avatar = user.avatar;
+      renderHud();
+      overlay.remove();
+      toast('เปลี่ยนอวตารแล้ว!', 'success');
+    } catch (err) {
+      toast(err.message, 'error');
+    }
   }
 
   function popExp(amount) {
