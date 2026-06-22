@@ -12,6 +12,63 @@
     B2: { name: 'ยอดเขาสุดท้าย', sub: 'คำศัพท์ระดับสูง', color: '#7c5cbf' },
   };
 
+  // ภาพประกอบฉากของแต่ละด่าน วาดง่าย ๆ แบบ flat-icon ให้เข้าธีมเว็บ
+  const LEVEL_SCENES = {
+    A1: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 110 Q60 90 110 105 T220 100 V140 H0 Z" fill="#3a8a55"/>
+      <g>
+        <rect x="28" y="78" width="34" height="28" rx="2" fill="#fff8ec"/>
+        <path d="M22 80 L45 58 L68 80 Z" fill="#e0552a"/>
+        <rect x="40" y="90" width="10" height="16" fill="#37548a"/>
+      </g>
+      <g>
+        <rect x="92" y="64" width="42" height="36" rx="2" fill="#fff8ec"/>
+        <path d="M85 66 L113 38 L141 66 Z" fill="#c2823a"/>
+        <rect x="105" y="80" width="12" height="20" fill="#37548a"/>
+        <rect x="124" y="78" width="8" height="8" fill="#7c5cbf"/>
+      </g>
+      <g>
+        <rect x="156" y="84" width="30" height="24" rx="2" fill="#fff8ec"/>
+        <path d="M150 86 L171 66 L192 86 Z" fill="#e0552a"/>
+      </g>
+      <circle cx="195" cy="30" r="14" fill="#ffd166" opacity="0.85"/>
+    </svg>`,
+    A2: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="188" cy="26" r="16" fill="#ffd166" opacity="0.9"/>
+      <path d="M0 95 Q40 75 90 92 T220 85 V140 H0 Z" fill="#c2823a"/>
+      <path d="M0 112 Q50 96 120 110 T220 105 V140 H0 Z" fill="#a8702e"/>
+      <g stroke="#fff8ec" stroke-width="3" stroke-linecap="round" opacity="0.7">
+        <path d="M30 100 L30 88"/>
+        <path d="M42 104 L42 90"/>
+        <path d="M54 100 L54 86"/>
+        <path d="M150 110 L150 96"/>
+        <path d="M162 113 L162 98"/>
+        <path d="M174 110 L174 94"/>
+      </g>
+      <g>
+        <rect x="92" y="76" width="6" height="30" fill="#6a4423"/>
+        <circle cx="95" cy="64" r="22" fill="#387a4d"/>
+      </g>
+    </svg>`,
+    B1: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-10 115 L40 55 L75 85 L115 35 L160 90 L190 60 L230 115 Z" fill="#37548a"/>
+      <path d="M40 55 L55 75 L25 75 Z" fill="#fff8ec" opacity="0.85"/>
+      <path d="M115 35 L132 58 L98 58 Z" fill="#fff8ec" opacity="0.9"/>
+      <path d="M190 60 L202 76 L178 76 Z" fill="#fff8ec" opacity="0.85"/>
+      <path d="M-10 125 L50 95 L100 122 L150 92 L230 125 V140 H-10 Z" fill="#2c4170"/>
+    </svg>`,
+    B2: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="55" cy="40" rx="26" ry="12" fill="#fff8ec" opacity="0.35"/>
+      <ellipse cx="180" cy="55" rx="22" ry="10" fill="#fff8ec" opacity="0.3"/>
+      <path d="M-10 125 L70 25 L110 70 L150 15 L230 125 Z" fill="#5e3f9c"/>
+      <path d="M150 15 L168 42 L132 42 Z" fill="#fff8ec"/>
+      <path d="M70 25 L84 46 L56 46 Z" fill="#fff8ec"/>
+      <path d="M150 15 L150 -2" stroke="#fff8ec" stroke-width="3"/>
+      <path d="M150 -2 L168 4 L150 10 Z" fill="#ff6f3c"/>
+      <path d="M-10 132 L60 108 L120 130 L180 105 L230 130 V140 H-10 Z" fill="#4a2f7c"/>
+    </svg>`,
+  };
+
   const CATEGORY_TH = {
     noun: 'คำนาม (noun)',
     verb: 'คำกริยา (verb)',
@@ -305,6 +362,7 @@
       row.className = 'trail-node-row';
       row.innerHTML = `
         <button class="trail-node node-${lvl.toLowerCase()}" data-level="${lvl}">
+          <div class="node-scene">${LEVEL_SCENES[lvl]}</div>
           <div class="stamp">
             <span class="stamp-label">${lvl}</span>
           </div>
