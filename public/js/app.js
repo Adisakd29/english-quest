@@ -504,7 +504,12 @@
 
     try {
       const data = await api(`/words/${level}`);
-      const words = data.words;
+      // คำไวยากรณ์ (det/pron/prep/conj/modal/aux/exclam/number) ไม่มีความหมาย
+      // ที่ยืนเดี่ยว ๆ แปลได้ชัดเจนแบบคำนาม/กริยา/คุณศัพท์ทั่วไป (เช่น "its",
+      // "the", "can") บริการแปลฟรีมักแปลผิดความหมายสำหรับคำกลุ่มนี้ จึงตัด
+      // ออกจากโหมดเลือกความหมายไปเลย เหลือไว้เฉพาะคำที่มีความหมายชัดเจน
+      const CONTENT_CATEGORIES = new Set(['noun', 'verb', 'adj', 'adv']);
+      const words = data.words.filter((w) => CONTENT_CATEGORIES.has(w.category));
       const notKnown = words.filter((w) => w.status !== 'known');
       const known = words.filter((w) => w.status === 'known');
 
