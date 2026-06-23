@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const fs = require('fs');
 const path = require('path');
 const pool = require('./config/db');
+const pkg = require('./package.json');
 
 process.on('unhandledRejection', (err) => {
   console.error('[unhandledRejection]', err);
@@ -17,6 +18,7 @@ const authRoutes = require('./routes/auth');
 const wordsRoutes = require('./routes/words');
 const progressRoutes = require('./routes/progress');
 const translateRoutes = require('./routes/translate');
+const leaderboardRoutes = require('./routes/leaderboard');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -29,8 +31,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/words', wordsRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/translate', translateRoutes);
+app.use('/api/leaderboard', leaderboardRoutes);
 
-app.get('/api/health', (_req, res) => res.json({ ok: true }));
+app.get('/api/health', (_req, res) => res.json({ ok: true, version: pkg.version }));
 
 // เสิร์ฟหน้าเว็บ (frontend) แบบ static จากโฟลเดอร์ public
 app.use(express.static(path.join(__dirname, 'public')));
