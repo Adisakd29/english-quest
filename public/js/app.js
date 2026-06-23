@@ -256,9 +256,10 @@
     document.getElementById('hud-exp-label').textContent = `${u.expIntoLevel} / ${u.expForNextLevel} EXP`;
   }
 
-  document.getElementById('hud-avatar').addEventListener('click', showAvatarPicker);
+  document.getElementById('hud-avatar').addEventListener('click', showProfileModal);
+  document.getElementById('hud-username').addEventListener('click', showProfileModal);
 
-  function showAvatarPicker() {
+  function showProfileModal() {
     const overlay = document.createElement('div');
     overlay.className = 'modal-overlay';
 
@@ -269,20 +270,48 @@
 
     overlay.innerHTML = `
       <div class="modal-card">
-        <h2>เลือกอวตารของคุณ</h2>
-        <p>แตะตัวที่ชอบเพื่อเปลี่ยนได้เลย</p>
+        <h2>โปรไฟล์ของฉัน</h2>
+        <p class="profile-section-label" style="margin-top:8px;">ชื่อผู้ใช้</p>
+        <div class="profile-username-row">
+          <input type="text" id="profile-username-input" value="${state.user.username}" maxlength="20" />
+          <button class="btn btn-primary" id="profile-username-save">บันทึก</button>
+        </div>
+        <div class="form-error" id="profile-username-error"></div>
+        <p class="profile-section-label">เลือกอวตาร</p>
         <div class="avatar-grid">${optionsHtml}</div>
-        <button class="btn btn-secondary btn-block" style="margin-top:18px;" id="avatar-cancel">ปิด</button>
+        <button class="btn btn-secondary btn-block" style="margin-top:18px;" id="profile-close">ปิด</button>
       </div>`;
     document.body.appendChild(overlay);
 
     overlay.querySelectorAll('.avatar-option').forEach((btn) => {
       btn.addEventListener('click', () => selectAvatar(btn.dataset.avatarId, overlay));
     });
-    overlay.querySelector('#avatar-cancel').addEventListener('click', () => overlay.remove());
+    overlay.querySelector('#profile-username-save').addEventListener('click', () => saveUsername(overlay));
+    overlay.querySelector('#profile-username-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') saveUsername(overlay);
+    });
+    overlay.querySelector('#profile-close').addEventListener('click', () => overlay.remove());
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) overlay.remove();
     });
+  }
+
+  async function saveUsername(overlay) {
+    const input = overlay.querySelector('#profile-username-input');
+    const errEl = overlay.querySelector('#profile-username-error');
+    const newUsername = input.value.trim();
+    errEl.textContent = '';
+
+    if (newUsername === state.user.username) return;
+
+    try {
+      const { user } = await api('/auth/username', { method: 'PATCH', body: { username: newUsername } });
+      state.user.username = user.username;
+      renderHud();
+      toast('เปลี่ยนชื่อผู้ใช้แล้ว!', 'success');
+    } catch (err) {
+      errEl.textContent = err.message;
+    }
   }
 
   async function selectAvatar(avatarId, overlay) {
@@ -290,7 +319,9 @@
       const { user } = await api('/auth/avatar', { method: 'PATCH', body: { avatar: avatarId } });
       state.user.avatar = user.avatar;
       renderHud();
-      overlay.remove();
+      overlay.querySelectorAll('.avatar-option').forEach((b) => {
+        b.classList.toggle('selected', b.dataset.avatarId === avatarId);
+      });
       toast('เปลี่ยนอวตารแล้ว!', 'success');
     } catch (err) {
       toast(err.message, 'error');
@@ -385,6 +416,58 @@
     track.querySelectorAll('.trail-node').forEach((btn) => {
       btn.addEventListener('click', () => startSession(btn.dataset.level));
     });
+  }
+
+  // ---------------------------------------------------------------
+  // LEADERBOARD screen
+  // ---------------------------------------------------------------
+  document.getElementById('btn-leaderboard').addEventListener('click', () => {
+    showScreen('screen-leaderboard');
+    loadLeaderboard();
+  });
+  document.getElementById('btn-leaderboard-back').addEventListener('click', () => {
+    showScreen('screen-map');
+  });
+
+  async function loadLeaderboard() {
+    const list = document.getElementById('leaderboard-list');
+    list.innerHTML = '<div class="loading-spinner"></div>';
+    try {
+      const { top, me } = await api('/leaderboard');
+      renderLeaderboard(top, me);
+    } catch (err) {
+      list.innerHTML = `<div class="form-error" style="text-align:center;">${err.message}</div>`;
+    }
+  }
+
+  function leaderboardRowHtml(entry) {
+    const rankClass = entry.rank <= 3 ? ` rank-${entry.rank}` : '';
+    const meClass = entry.isMe ? ' is-me' : '';
+    const medal = entry.rank === 1 ? '🥇' : entry.rank === 2 ? '🥈' : entry.rank === 3 ? '🥉' : `#${entry.rank}`;
+    return `
+      <div class="leaderboard-row${rankClass}${meClass}">
+        <div class="leaderboard-rank">${medal}</div>
+        <div class="leaderboard-avatar">${AVATAR_EMOJI[entry.avatar] || '🦊'}</div>
+        <div class="leaderboard-info">
+          <div class="leaderboard-username">${entry.isMe ? `${entry.username} (คุณ)` : entry.username}</div>
+          <div class="leaderboard-level">LV.${entry.level}</div>
+        </div>
+        <div class="leaderboard-exp">${entry.exp} EXP</div>
+      </div>`;
+  }
+
+  function renderLeaderboard(top, me) {
+    const list = document.getElementById('leaderboard-list');
+    if (!top || top.length === 0) {
+      list.innerHTML = '<div class="form-error" style="text-align:center;">ยังไม่มีข้อมูลผู้เล่น</div>';
+      return;
+    }
+
+    let html = top.map(leaderboardRowHtml).join('');
+    if (me && !top.some((r) => r.isMe)) {
+      html += `<div class="leaderboard-divider">⋯</div>${leaderboardRowHtml(me)}`;
+    }
+    list.innerHTML = html;
   }
 
   document.getElementById('btn-exit-game').addEventListener('click', () => {
@@ -604,6 +687,7 @@
   // Boot
   // ---------------------------------------------------------------
   async function boot() {
+    loadVersion();
     if (!state.token) {
       showAuth();
       return;
@@ -618,6 +702,18 @@
       state.token = null;
       localStorage.removeItem(TOKEN_KEY);
       showAuth();
+    }
+  }
+
+  async function loadVersion() {
+    try {
+      const res = await fetch(API + '/health');
+      const data = await res.json();
+      if (data.version) {
+        document.getElementById('version-tag').textContent = `WordQuest v${data.version}`;
+      }
+    } catch (_err) {
+      // ไม่ต้องทำอะไรถ้าดึงเวอร์ชันไม่ได้ ไม่ใช่ส่วนสำคัญของแอป
     }
   }
 
