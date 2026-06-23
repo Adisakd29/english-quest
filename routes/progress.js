@@ -6,6 +6,15 @@ const wordsData = require('../data/words.json');
 
 const router = express.Router();
 const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
+const CONTENT_CATEGORIES = new Set(['noun', 'verb', 'adj', 'adv']);
+
+// จำนวนคำที่ "เล่นได้จริง" ในโหมดเลือกความหมาย (ไม่รวมคำไวยากรณ์อย่าง
+// det/pron/prep ที่ไม่มีความหมายยืนเดี่ยว ๆ ชัดเจน) ใช้เป็นตัวหารเพื่อให้
+// % ความก้าวหน้าไปถึง 100% ได้จริงเมื่อรู้ครบทุกคำที่เล่นได้
+const CONTENT_COUNTS = {};
+for (const lvl of VALID_LEVELS) {
+  CONTENT_COUNTS[lvl] = (wordsData.levels[lvl] || []).filter((w) => CONTENT_CATEGORIES.has(w.category)).length;
+}
 
 function findWord(level, wordId) {
   const list = wordsData.levels[level] || [];
@@ -97,7 +106,7 @@ router.get('/summary', authRequired, async (req, res) => {
 
     const summary = {};
     for (const lvl of VALID_LEVELS) {
-      summary[lvl] = { known: 0, learning: 0, total: wordsData.counts[lvl] };
+      summary[lvl] = { known: 0, learning: 0, total: CONTENT_COUNTS[lvl] };
     }
     for (const row of result.rows) {
       if (summary[row.level]) {
