@@ -544,7 +544,11 @@
         dedupedPool.push(item);
       }
 
-      if (dedupedPool.length < 2) {
+      // ต้องมีคำแปลที่ใช้ได้พอสมควรก่อนเริ่มด่าน ไม่งั้นตัวเลือกจะเหลือ
+      // น้อยเกินไป (เช่น 2 ตัวเลือกแทน 4) ดูเหมือนเกมพังและกดต่อไม่ได้
+      // ดีกว่าแจ้งเตือนให้ลองใหม่ตั้งแต่แรกเลย
+      const MIN_POOL_FOR_SESSION = 8;
+      if (dedupedPool.length < MIN_POOL_FOR_SESSION) {
         toast('ระบบแปลคำศัพท์ขัดข้องชั่วคราว ลองใหม่อีกครั้งภายหลัง', 'error');
         showScreen('screen-map');
         return;
