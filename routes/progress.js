@@ -98,9 +98,7 @@ router.post('/review', authRequired, async (req, res) => {
 router.get('/summary', authRequired, async (req, res) => {
   try {
     const result = await pool.query(
-      `SELECT level, status, COUNT(*) AS count
-       FROM word_progress WHERE user_id = $1
-       GROUP BY level, status`,
+      'SELECT word_id, level, status FROM word_progress WHERE user_id = $1',
       [req.userId]
     );
 
@@ -108,14 +106,22 @@ router.get('/summary', authRequired, async (req, res) => {
     for (const lvl of VALID_LEVELS) {
       summary[lvl] = { known: 0, learning: 0, total: CONTENT_COUNTS[lvl] };
     }
+
     for (const row of result.rows) {
-      if (summary[row.level]) {
-        summary[row.level][row.status] = Number(row.count);
+      if (!summary[row.level]) continue;
+      // ข้ามแถวเก่าที่เป็นคำไวยากรณ์ (det/pron/prep ฯลฯ) ที่ผู้เล่นอาจตอบไว้
+      // ก่อนหน้านี้ตั้งแต่ตอนที่ระบบยังไม่ตัดคำกลุ่มนี้ออกจากโหมดเกม —
+      // ไม่งั้นยอด known จะเกินกว่า total ใหม่ที่นับเฉพาะคำที่เล่นได้จริง
+      const wordEntry = findWord(row.level, row.word_id);
+      if (!wordEntry || !CONTENT_CATEGORIES.has(wordEntry.category)) continue;
+      if (row.status === 'known' || row.status === 'learning') {
+        summary[row.level][row.status] += 1;
       }
     }
+
     for (const lvl of VALID_LEVELS) {
       const s = summary[lvl];
-      s.newCount = s.total - s.known - s.learning;
+      s.newCount = Math.max(0, s.total - s.known - s.learning);
     }
 
     res.json({ summary });
