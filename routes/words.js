@@ -4,7 +4,7 @@ const pool = require('../config/db');
 const wordsData = require('../data/words.json');
 
 const router = express.Router();
-const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
+const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1']);
 
 // optional auth: ถ้ามี token แนบมาก็จะ merge สถานะคำศัพท์ของผู้ใช้ ถ้าไม่มีก็ส่งแค่รายการคำ
 function optionalAuth(req, _res, next) {
