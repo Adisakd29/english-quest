@@ -9,7 +9,8 @@
     A1: { name: 'หมู่บ้านเริ่มต้น', sub: 'คำศัพท์พื้นฐานที่สุด', color: '#4f9d69' },
     A2: { name: 'ทุ่งหญ้ากว้าง', sub: 'คำศัพท์ใช้ในชีวิตประจำวัน', color: '#e0a458' },
     B1: { name: 'เทือกเขาสูง', sub: 'คำศัพท์ระดับกลาง', color: '#4d6fa8' },
-    B2: { name: 'ยอดเขาสุดท้าย', sub: 'คำศัพท์ระดับสูง', color: '#7c5cbf' },
+    B2: { name: 'ยอดเขาเมฆหมอก', sub: 'คำศัพท์ระดับสูง', color: '#7c5cbf' },
+    C1: { name: 'แดนเหนือเมฆ', sub: 'คำศัพท์ระดับสูงมาก (Oxford 5000)', color: '#e0b341' },
   };
 
   // ภาพประกอบฉากของแต่ละด่าน วาดง่าย ๆ แบบ flat-icon ให้เข้าธีมเว็บ
@@ -66,6 +67,21 @@
       <path d="M150 15 L150 -2" stroke="#fff8ec" stroke-width="3"/>
       <path d="M150 -2 L168 4 L150 10 Z" fill="#ff6f3c"/>
       <path d="M-10 132 L60 108 L120 130 L180 105 L230 130 V140 H-10 Z" fill="#4a2f7c"/>
+    </svg>`,
+    C1: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="28" r="2" fill="#fff8ec" opacity="0.8"/>
+      <circle cx="70" cy="16" r="1.5" fill="#fff8ec" opacity="0.7"/>
+      <circle cx="170" cy="20" r="2" fill="#fff8ec" opacity="0.8"/>
+      <circle cx="190" cy="40" r="1.5" fill="#fff8ec" opacity="0.6"/>
+      <path d="M95 90 L100 20 L105 90 Z" fill="#c2823a"/>
+      <path d="M88 95 L100 0 L112 95 Z" fill="#e0b341"/>
+      <circle cx="100" cy="6" r="9" fill="#fff8ec" opacity="0.9"/>
+      <rect x="94" y="60" width="12" height="14" fill="#a8702e"/>
+      <ellipse cx="40" cy="105" rx="38" ry="16" fill="#fff8ec" opacity="0.9"/>
+      <ellipse cx="75" cy="115" rx="30" ry="14" fill="#fff8ec" opacity="0.95"/>
+      <ellipse cx="150" cy="108" rx="34" ry="15" fill="#fff8ec" opacity="0.9"/>
+      <ellipse cx="185" cy="118" rx="28" ry="13" fill="#fff8ec" opacity="0.95"/>
+      <ellipse cx="110" cy="122" rx="40" ry="18" fill="#fff8ec"/>
     </svg>`,
   };
 
@@ -381,7 +397,7 @@
 
   function renderMap() {
     const track = document.getElementById('trail-track');
-    const levels = ['A1', 'A2', 'B1', 'B2'];
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
     track.innerHTML = '';
 
     levels.forEach((lvl, idx) => {
@@ -640,7 +656,12 @@
         body: { wordId: question.id, level: session.level, known: isCorrect },
       });
 
-      popExp(result.gainedExp);
+      if (result.gainedExp > 0) {
+        popExp(result.gainedExp);
+      } else if (result.levelComplete && !session.completeNoticeShown) {
+        session.completeNoticeShown = true;
+        toast('ด่านนี้รู้ครบ 100% แล้ว ทบทวนได้แต่ไม่ได้ EXP เพิ่ม', 'success');
+      }
       session.expGained += result.gainedExp;
       if (isCorrect) session.knownCount += 1; else session.learningCount += 1;
 
