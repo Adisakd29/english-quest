@@ -403,7 +403,7 @@
     levels.forEach((lvl, idx) => {
       const meta = LEVEL_META[lvl];
       const s = state.summary[lvl];
-      const pct = s.total ? Math.min(100, Math.round((s.known / s.total) * 100)) : 0;
+      const pct = s.total ? (s.known >= s.total ? 100 : Math.floor((s.known / s.total) * 100)) : 0;
 
       const row = document.createElement('div');
       row.className = 'trail-node-row';
