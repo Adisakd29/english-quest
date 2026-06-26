@@ -1,6 +1,7 @@
 const express = require('express');
 const pool = require('../config/db');
 const wordsData = require('../data/words.json');
+const { VERIFIED_TRANSLATIONS } = require('../data/verified_translations');
 
 const router = express.Router();
 const MAX_IDS_PER_REQUEST = 60;
@@ -107,10 +108,25 @@ router.post('/', async (req, res) => {
     const result = {};
     const cacheFixes = [];
 
-    const cached = await pool.query(
-      'SELECT word_id, th_text FROM translations WHERE word_id = ANY($1)',
-      [ids]
-    );
+    // 1) เช็คคลังคำแปลที่ยืนยันถูกต้องแล้วก่อนเลย — คำเหล่านี้ไม่ต้องผ่าน
+    //    บริการแปลภาษาฟรีอีก และจะเขียนทับคำแปลผิดที่อาจแคชไว้แล้วด้วย
+    const remainingAfterVerified = [];
+    for (const id of ids) {
+      const wordEntry = findWordById(id);
+      const cleanWord = wordEntry ? cleanForTranslation(wordEntry.word).toLowerCase() : null;
+      const verified = cleanWord && VERIFIED_TRANSLATIONS[cleanWord];
+      if (verified) {
+        result[id] = verified;
+        cacheFixes.push([id, wordEntry.word, verified]);
+      } else {
+        remainingAfterVerified.push(id);
+      }
+    }
+
+    // 2) เช็คแคชสำหรับคำที่เหลือ (ที่ไม่ได้อยู่ในคลังคำแปลที่ยืนยันแล้ว)
+    const cached = remainingAfterVerified.length
+      ? await pool.query('SELECT word_id, th_text FROM translations WHERE word_id = ANY($1)', [remainingAfterVerified])
+      : { rows: [] };
     for (const row of cached.rows) {
       // เผื่อมีคำแปลที่เคยแคชไว้ก่อนหน้านี้แล้วมีขยะติดมา (เช่น &#10;) —
       // ทำความสะอาดแล้วเช็คอีกครั้ง ถ้าผ่านก็ใช้ค่าที่สะอาดแล้ว และแก้ไขแคช
@@ -118,14 +134,20 @@ router.post('/', async (req, res) => {
       const cleaned = cleanTranslationArtifacts(row.th_text);
       if (looksLikeRealThaiTranslation(cleaned)) {
         result[row.word_id] = cleaned;
-        if (cleaned !== row.th_text) cacheFixes.push([row.word_id, cleaned]);
+        if (cleaned !== row.th_text) cacheFixes.push([row.word_id, null, cleaned]);
       }
     }
 
     if (cacheFixes.length > 0) {
       await Promise.all(
-        cacheFixes.map(([wordId, cleanedText]) =>
-          pool.query('UPDATE translations SET th_text = $1 WHERE word_id = $2', [cleanedText, wordId])
+        cacheFixes.map(([wordId, word, th]) =>
+          word
+            ? pool.query(
+                `INSERT INTO translations (word_id, word, th_text) VALUES ($1, $2, $3)
+                 ON CONFLICT (word_id) DO UPDATE SET th_text = EXCLUDED.th_text`,
+                [wordId, word, th]
+              )
+            : pool.query('UPDATE translations SET th_text = $1 WHERE word_id = $2', [th, wordId])
         )
       );
     }
