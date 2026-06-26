@@ -24,6 +24,11 @@ CREATE TABLE IF NOT EXISTS word_progress (
 
 CREATE INDEX IF NOT EXISTS idx_word_progress_user_level ON word_progress (user_id, level);
 
+-- ติดตามว่าคำนี้ "เคยรู้แล้ว" มาก่อนหรือไม่ (แบบติดถาวร ไม่รีเซ็ตแม้สถานะ
+-- ปัจจุบันจะเปลี่ยนกลับเป็น learning) ใช้กันไม่ให้กดตอบผิด-ถูกสลับไปมาเพื่อ
+-- รับโบนัส "รู้เป็นครั้งแรก" ซ้ำได้เรื่อย ๆ
+ALTER TABLE word_progress ADD COLUMN IF NOT EXISTS ever_known BOOLEAN NOT NULL DEFAULT FALSE;
+
 -- ตารางบันทึกเหตุการณ์ EXP (เผื่อทำ activity log / กันโกงในอนาคต)
 CREATE TABLE IF NOT EXISTS exp_log (
   id         SERIAL PRIMARY KEY,
