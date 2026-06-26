@@ -1,13 +1,16 @@
 // ระบบ EXP / Level ของ WordQuest
-// แต่ละเลเวลใช้ EXP มากขึ้นเรื่อย ๆ (เริ่ม 80 แล้วเพิ่มทีละ 20 ต่อเลเวล)
-// เลเวล 1 -> 2 ใช้ 80 EXP, เลเวล 2 -> 3 ใช้ 100 EXP, เลเวล 3 -> 4 ใช้ 120 EXP, ...
+// แต่ละเลเวลใช้ EXP มากขึ้นแบบเร่งขึ้นเรื่อย ๆ (โตแบบ quadratic ไม่ใช่
+// เพิ่มทีละเท่าเดิมแบบเส้นตรงเหมือนเดิม) ยิ่งเลเวลสูง ยิ่งต้องใช้ EXP มากขึ้น
+// เร็วกว่าตอนเลเวลต้น ๆ มาก เช่น เลเวล 1->2 ใช้ ~78 EXP แต่เลเวล 35->36
+// ใช้เกือบ 4,500 EXP
 
-const BASE_EXP = 80;
-const STEP_EXP = 20;
+const BASE_EXP = 60;
+const LINEAR_FACTOR = 15;
+const QUAD_FACTOR = 3;
 
 function expRequiredForLevel(level) {
   // EXP ที่ต้องใช้เพื่อ "ผ่าน" เลเวลนี้ไปเลเวลถัดไป
-  return BASE_EXP + (level - 1) * STEP_EXP;
+  return Math.round(BASE_EXP + LINEAR_FACTOR * level + QUAD_FACTOR * level * level);
 }
 
 function getLevelInfo(totalExp) {
