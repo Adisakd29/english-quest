@@ -5,7 +5,7 @@ const { getLevelInfo, calcReviewExp } = require('../utils/leveling');
 const wordsData = require('../data/words.json');
 
 const router = express.Router();
-const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2']);
+const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1']);
 const CONTENT_CATEGORIES = new Set(['noun', 'verb', 'adj', 'adv']);
 
 // จำนวนคำที่ "เล่นได้จริง" ในโหมดเลือกความหมาย (ไม่รวมคำไวยากรณ์อย่าง
@@ -42,35 +42,54 @@ router.post('/review', authRequired, async (req, res) => {
       [req.userId, wordId]
     );
     const existing = existingResult.rows[0];
-    const isFirstTimeKnown = known && (!existing || existing.status !== 'known');
+    // ใช้ ever_known (ติดถาวร) แทนสถานะปัจจุบัน เพื่อกันการกดตอบผิด-ถูกสลับ
+    // ไปมาเพื่อรับโบนัส "รู้เป็นครั้งแรก" ซ้ำได้เรื่อย ๆ
+    const isFirstTimeKnown = known && !(existing && existing.ever_known);
     const newStatus = known ? 'known' : 'learning';
 
     if (existing) {
       await client.query(
         `UPDATE word_progress
          SET status = $1, times_seen = times_seen + 1,
-             times_correct = times_correct + $2, last_reviewed = NOW()
+             times_correct = times_correct + $2, last_reviewed = NOW(),
+             ever_known = ever_known OR $4
          WHERE id = $3`,
-        [newStatus, known ? 1 : 0, existing.id]
+        [newStatus, known ? 1 : 0, existing.id, known]
       );
     } else {
       await client.query(
-        `INSERT INTO word_progress (user_id, word_id, level, status, times_seen, times_correct, last_reviewed)
-         VALUES ($1, $2, $3, $4, 1, $5, NOW())`,
-        [req.userId, wordId, lvl, newStatus, known ? 1 : 0]
+        `INSERT INTO word_progress (user_id, word_id, level, status, times_seen, times_correct, last_reviewed, ever_known)
+         VALUES ($1, $2, $3, $4, 1, $5, NOW(), $6)`,
+        [req.userId, wordId, lvl, newStatus, known ? 1 : 0, known]
       );
     }
 
     const userResult = await client.query('SELECT exp FROM users WHERE id = $1', [req.userId]);
     const beforeExp = userResult.rows[0].exp;
-    const gained = calcReviewExp({ known, isFirstTimeKnown });
+
+    // ถ้าด่านนี้ "รู้แล้ว 100%" อยู่แล้ว (ทบทวนคำที่รู้หมดแล้วซ้ำ ๆ) จะไม่ได้
+    // EXP เพิ่มอีก เพราะไม่มีอะไรใหม่ให้เรียนแล้ว กันการฟาร์ม EXP จากด่านที่
+    // เรียนครบแล้ว
+    const knownRowsResult = await client.query(
+      'SELECT word_id FROM word_progress WHERE user_id = $1 AND level = $2 AND status = $3',
+      [req.userId, lvl, 'known']
+    );
+    const knownContentCount = knownRowsResult.rows.filter((r) => {
+      const w = findWord(lvl, r.word_id);
+      return w && CONTENT_CATEGORIES.has(w.category);
+    }).length;
+    const levelAlreadyComplete = knownContentCount >= (CONTENT_COUNTS[lvl] || Infinity);
+
+    const gained = levelAlreadyComplete ? 0 : calcReviewExp({ known, isFirstTimeKnown });
     const afterExp = beforeExp + gained;
 
     await client.query('UPDATE users SET exp = $1 WHERE id = $2', [afterExp, req.userId]);
-    await client.query(
-      'INSERT INTO exp_log (user_id, amount, reason) VALUES ($1, $2, $3)',
-      [req.userId, gained, known ? 'card_known' : 'card_review']
-    );
+    if (gained > 0) {
+      await client.query(
+        'INSERT INTO exp_log (user_id, amount, reason) VALUES ($1, $2, $3)',
+        [req.userId, gained, known ? 'card_known' : 'card_review']
+      );
+    }
 
     await client.query('COMMIT');
 
@@ -81,6 +100,7 @@ router.post('/review', authRequired, async (req, res) => {
       gainedExp: gained,
       isFirstTimeKnown,
       status: newStatus,
+      levelComplete: levelAlreadyComplete,
       leveledUp: afterLevel.level > beforeLevel.level,
       levelInfo: afterLevel,
     });
