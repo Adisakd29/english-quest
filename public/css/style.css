@@ -24,6 +24,8 @@
   --b1-dark: #37548a;
   --b2: #7c5cbf;
   --b2-dark: #5e3f9c;
+  --c1: #e0b341;
+  --c1-dark: #b88a26;
 
   /* accent / สถานะ */
   --ember: #ff6f3c;
@@ -580,6 +582,7 @@ h1, h2, h3, .display {
 .node-a2 .stamp { background: var(--a2); }
 .node-b1 .stamp { background: var(--b1); }
 .node-b2 .stamp { background: var(--b2); }
+.node-c1 .stamp { background: var(--c1); }
 
 .node-info { flex: 1; min-width: 0; position: relative; z-index: 1; }
 .node-title {
@@ -610,6 +613,7 @@ h1, h2, h3, .display {
 .node-a2 .node-progress-bar-fill { background: var(--a2); }
 .node-b1 .node-progress-bar-fill { background: var(--b1); }
 .node-b2 .node-progress-bar-fill { background: var(--b2); }
+.node-c1 .node-progress-bar-fill { background: var(--c1); }
 
 .node-cta {
   flex-shrink: 0;
