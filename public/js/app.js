@@ -10,7 +10,7 @@
     A2: { name: 'ทุ่งหญ้ากว้าง', sub: 'คำศัพท์ใช้ในชีวิตประจำวัน', color: '#e0a458' },
     B1: { name: 'เทือกเขาสูง', sub: 'คำศัพท์ระดับกลาง', color: '#4d6fa8' },
     B2: { name: 'ยอดเขาเมฆหมอก', sub: 'คำศัพท์ระดับสูง', color: '#7c5cbf' },
-    C1: { name: 'แดนเหนือเมฆ', sub: 'คำศัพท์ระดับสูงมาก', color: '#e0b341' },
+    C1: { name: 'แดนเหนือเมฆ', sub: 'คำศัพท์ระดับสูงมาก (Oxford 5000)', color: '#e0b341' },
   };
 
   // ภาพประกอบฉากของแต่ละด่าน วาดง่าย ๆ แบบ flat-icon ให้เข้าธีมเว็บ
@@ -383,6 +383,16 @@
   // ---------------------------------------------------------------
   // MAP screen
   // ---------------------------------------------------------------
+  const state_map = { mode: 'flashcard' }; // 'flashcard' | 'battle'
+
+  document.querySelectorAll('.mode-tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.mode-tab').forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      state_map.mode = tab.dataset.mode;
+    });
+  });
+
   async function loadMap() {
     const track = document.getElementById('trail-track');
     track.innerHTML = '<div class="loading-spinner"></div>';
@@ -430,7 +440,13 @@
     });
 
     track.querySelectorAll('.trail-node').forEach((btn) => {
-      btn.addEventListener('click', () => startSession(btn.dataset.level));
+      btn.addEventListener('click', () => {
+        if (state_map.mode === 'battle') {
+          startBattle(btn.dataset.level);
+        } else {
+          startSession(btn.dataset.level);
+        }
+      });
     });
   }
 
@@ -711,6 +727,348 @@
   document.getElementById('btn-summary-again').addEventListener('click', () => {
     const lvl = state.session ? state.session.level : 'A1';
     startSession(lvl);
+  });
+
+  // ---------------------------------------------------------------
+  // BATTLE MODE
+  // ---------------------------------------------------------------
+
+  // ศัตรู: SVG + ชื่อ + HP สำหรับแต่ละระดับ
+  const ENEMIES = {
+    A1: {
+      name: 'สไลม์มือใหม่', hp: 12,
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="80" cy="100" rx="58" ry="44" fill="#5dc85d"/>
+        <ellipse cx="80" cy="90" rx="52" ry="52" fill="#6ee06e"/>
+        <circle cx="60" cy="82" r="10" fill="#1a1a1a"/>
+        <circle cx="100" cy="82" r="10" fill="#1a1a1a"/>
+        <circle cx="63" cy="79" r="3" fill="#fff"/>
+        <circle cx="103" cy="79" r="3" fill="#fff"/>
+        <path d="M66 100 Q80 112 94 100" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <ellipse cx="80" cy="140" rx="40" ry="8" fill="#000" opacity="0.2"/>
+      </svg>`,
+    },
+    A2: {
+      name: 'กอบลิน', hp: 14,
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="80" cy="135" rx="32" ry="10" fill="#000" opacity="0.2"/>
+        <rect x="55" y="95" width="50" height="45" rx="8" fill="#8bc34a"/>
+        <ellipse cx="80" cy="72" rx="38" ry="36" fill="#9ccc65"/>
+        <ellipse cx="62" cy="58" rx="8" ry="14" fill="#8bc34a" transform="rotate(-15 62 58)"/>
+        <ellipse cx="98" cy="58" rx="8" ry="14" fill="#8bc34a" transform="rotate(15 98 58)"/>
+        <circle cx="68" cy="74" r="8" fill="#1a1a1a"/>
+        <circle cx="92" cy="74" r="8" fill="#1a1a1a"/>
+        <circle cx="70" cy="72" r="2.5" fill="#fff"/>
+        <circle cx="94" cy="72" r="2.5" fill="#fff"/>
+        <ellipse cx="80" cy="86" rx="10" ry="6" fill="#8bc34a"/>
+        <path d="M68 90 Q80 100 92 90" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+        <rect x="40" y="105" width="14" height="30" rx="5" fill="#8bc34a" transform="rotate(-10 40 105)"/>
+        <rect x="106" y="105" width="14" height="30" rx="5" fill="#8bc34a" transform="rotate(10 106 105)"/>
+        <rect x="42" y="130" width="16" height="18" rx="4" fill="#6d4c41"/>
+        <rect x="102" y="130" width="16" height="18" rx="4" fill="#6d4c41"/>
+        <rect x="45" y="97" width="18" height="8" rx="3" fill="#ff8f00"/>
+      </svg>`,
+    },
+    B1: {
+      name: 'หมาป่าน้ำแข็ง', hp: 16,
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="80" cy="140" rx="40" ry="10" fill="#000" opacity="0.18"/>
+        <rect x="45" y="100" width="70" height="48" rx="12" fill="#607d8b"/>
+        <rect x="52" y="115" width="18" height="34" rx="6" fill="#546e7a"/>
+        <rect x="90" y="115" width="18" height="34" rx="6" fill="#546e7a"/>
+        <ellipse cx="80" cy="76" rx="42" ry="38" fill="#78909c"/>
+        <ellipse cx="58" cy="50" rx="10" ry="18" fill="#607d8b" transform="rotate(-20 58 50)"/>
+        <ellipse cx="102" cy="50" rx="10" ry="18" fill="#607d8b" transform="rotate(20 102 50)"/>
+        <circle cx="66" cy="78" r="9" fill="#111"/>
+        <circle cx="94" cy="78" r="9" fill="#111"/>
+        <circle cx="68" cy="76" r="3" fill="#adf"/>
+        <circle cx="96" cy="76" r="3" fill="#adf"/>
+        <ellipse cx="80" cy="92" rx="12" ry="6" fill="#607d8b"/>
+        <path d="M68 96 L72 104 L80 98 L88 104 L92 96" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <ellipse cx="80" cy="60" rx="8" ry="5" fill="#90a4ae"/>
+        <path d="M40 105 Q30 120 35 135" stroke="#546e7a" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <path d="M120 105 Q130 120 125 135" stroke="#546e7a" stroke-width="10" stroke-linecap="round" fill="none"/>
+      </svg>`,
+    },
+    B2: {
+      name: 'พ่อมดมืด', hp: 18,
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="80" cy="148" rx="36" ry="8" fill="#000" opacity="0.2"/>
+        <rect x="55" y="98" width="50" height="52" rx="6" fill="#4a148c"/>
+        <rect x="48" y="112" width="14" height="36" rx="4" fill="#4a148c"/>
+        <rect x="98" y="112" width="14" height="36" rx="4" fill="#4a148c"/>
+        <rect x="42" y="138" width="18" height="12" rx="3" fill="#311b92"/>
+        <rect x="100" y="138" width="18" height="12" rx="3" fill="#311b92"/>
+        <ellipse cx="80" cy="76" rx="36" ry="34" fill="#6a1b9a"/>
+        <path d="M44 68 L80 15 L116 68 Z" fill="#4a148c"/>
+        <circle cx="67" cy="78" r="8" fill="#ce93d8"/>
+        <circle cx="93" cy="78" r="8" fill="#ce93d8"/>
+        <circle cx="67" cy="78" r="4" fill="#4a0072"/>
+        <circle cx="93" cy="78" r="4" fill="#4a0072"/>
+        <path d="M68 92 Q80 100 92 92" stroke="#ce93d8" stroke-width="2.5" fill="none"/>
+        <circle cx="52" cy="112" r="6" fill="#ce93d8" opacity="0.8"/>
+        <path d="M46 112 L30 90 L40 112 Z" fill="#e040fb" opacity="0.7"/>
+        <circle cx="108" cy="112" r="6" fill="#ce93d8" opacity="0.8"/>
+        <path d="M114 112 L130 90 L120 112 Z" fill="#e040fb" opacity="0.7"/>
+      </svg>`,
+    },
+    C1: {
+      name: 'มังกรทอง', hp: 22,
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="80" cy="148" rx="45" ry="8" fill="#000" opacity="0.2"/>
+        <path d="M30 90 Q20 70 35 55 Q50 40 65 60" fill="#e65100" stroke="#bf360c" stroke-width="1"/>
+        <path d="M130 90 Q140 70 125 55 Q110 40 95 60" fill="#e65100" stroke="#bf360c" stroke-width="1"/>
+        <ellipse cx="80" cy="100" rx="48" ry="42" fill="#f57f17"/>
+        <ellipse cx="80" cy="100" rx="36" ry="34" fill="#ff8f00"/>
+        <path d="M50 62 L60 40 L70 62 Z" fill="#e65100"/>
+        <path d="M75 58 L80 38 L85 58 Z" fill="#e65100"/>
+        <path d="M90 62 L100 40 L110 62 Z" fill="#e65100"/>
+        <ellipse cx="80" cy="72" rx="38" ry="28" fill="#ffa000"/>
+        <circle cx="68" cy="68" r="10" fill="#1a1a1a"/>
+        <circle cx="92" cy="68" r="10" fill="#1a1a1a"/>
+        <circle cx="65" cy="66" r="3.5" fill="#ffd54f"/>
+        <circle cx="89" cy="66" r="3.5" fill="#ffd54f"/>
+        <ellipse cx="80" cy="84" rx="14" ry="7" fill="#e65100"/>
+        <path d="M67 88 L70 96 L80 90 L90 96 L93 88" stroke="#ffd54f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M120 92 Q138 80 145 100 Q138 118 120 108" fill="#f57f17" stroke="#e65100" stroke-width="1"/>
+        <path d="M40 92 Q22 80 15 100 Q22 118 40 108" fill="#f57f17" stroke="#e65100" stroke-width="1"/>
+        <circle cx="80" cy="56" r="6" fill="#ffd54f"/>
+      </svg>`,
+    },
+  };
+
+  const PLAYER_MAX_HP = 100;
+  const PLAYER_DAMAGE = 25;   // HP ที่เสียต่อครั้งที่ตอบผิด
+  const BATTLE_SIZE = 10;     // จำนวนคำต่อ 1 การสู้
+
+  let battleState = null;
+
+  function startBattle(level) {
+    showScreen('screen-battle');
+    document.getElementById('battle-level-chip').textContent = level;
+    document.getElementById('battle-level-chip').style.background = LEVEL_META[level].color;
+    document.getElementById('battle-input').value = '';
+    document.getElementById('battle-feedback').classList.add('hidden');
+
+    const enemy = ENEMIES[level] || ENEMIES.A1;
+    document.getElementById('enemy-name').textContent = enemy.name;
+    document.getElementById('enemy-sprite').innerHTML = enemy.svg;
+    document.getElementById('enemy-sprite').className = 'enemy-sprite idle';
+
+    battleState = {
+      level,
+      queue: [],
+      index: 0,
+      playerHp: PLAYER_MAX_HP,
+      enemyMaxHp: enemy.hp,
+      enemyHp: enemy.hp,
+      correct: 0,
+      wrong: 0,
+      expGained: 0,
+      showingHint: false,
+      hintTimer: null,
+    };
+
+    updateBattleHP();
+    loadBattleWords(level);
+  }
+
+  async function loadBattleWords(level) {
+    try {
+      const data = await api(`/words/${level}`);
+      const CONTENT_CATEGORIES = new Set(['noun', 'verb', 'adj', 'adv']);
+      const words = data.words.filter((w) => CONTENT_CATEGORIES.has(w.category));
+
+      // เน้นคำที่ยังไม่รู้ก่อน เอาคำที่รู้แล้วเติมถ้าไม่พอ
+      const notKnown = words.filter((w) => w.status !== 'known');
+      const known = words.filter((w) => w.status === 'known');
+      const pool = shuffle(notKnown.length >= BATTLE_SIZE
+        ? notKnown
+        : [...notKnown, ...shuffle(known)]
+      ).slice(0, BATTLE_SIZE + 10); // เผื่อหาคำแปลไม่ได้บางคำ
+
+      // ดึงคำแปลสำหรับทุกคำ
+      const { translations } = await api('/translate', {
+        method: 'POST',
+        body: { wordIds: pool.map((w) => w.id) },
+      });
+
+      const queue = pool
+        .filter((w) => translations[w.id])
+        .map((w) => ({ ...w, th: translations[w.id] }))
+        .slice(0, BATTLE_SIZE);
+
+      if (queue.length < 3) {
+        toast('หาคำแปลไม่พอสำหรับโหมดนี้ ลองใหม่อีกครั้ง', 'error');
+        showScreen('screen-map');
+        return;
+      }
+
+      battleState.queue = queue;
+      battleState.enemyMaxHp = queue.length;
+      battleState.enemyHp = queue.length;
+      document.getElementById('enemy-hp-num').textContent = queue.length;
+      updateBattleHP();
+      renderBattleWord();
+      document.getElementById('battle-input').focus();
+    } catch (err) {
+      toast(err.message, 'error');
+      showScreen('screen-map');
+    }
+  }
+
+  function renderBattleWord() {
+    if (!battleState || battleState.index >= battleState.queue.length) return;
+    const word = battleState.queue[battleState.index];
+    document.getElementById('battle-meaning').textContent = word.th;
+    document.getElementById('battle-pos').textContent = word.pos || '';
+    document.getElementById('battle-hint').classList.add('hidden');
+    document.getElementById('battle-hint').textContent = '';
+    document.getElementById('battle-input').value = '';
+    document.getElementById('battle-input').className = 'battle-input';
+    document.getElementById('battle-feedback').classList.add('hidden');
+    battleState.showingHint = false;
+    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
+    // แสดงคำใบ้หลังจาก 6 วินาที ถ้ายังไม่ตอบ
+    battleState.hintTimer = setTimeout(showBattleHint, 6000);
+  }
+
+  function showBattleHint() {
+    if (!battleState) return;
+    const word = battleState.queue[battleState.index];
+    // แสดงตัวอักษรตัวแรก + _ สำหรับตัวที่เหลือ
+    const hint = word.word[0] + '_'.repeat(Math.max(0, word.word.length - 1));
+    const hintEl = document.getElementById('battle-hint');
+    hintEl.textContent = hint;
+    hintEl.classList.remove('hidden');
+    battleState.showingHint = true;
+  }
+
+  function updateBattleHP() {
+    const playerPct = Math.max(0, (battleState.playerHp / PLAYER_MAX_HP) * 100);
+    const enemyPct = Math.max(0, (battleState.enemyHp / battleState.enemyMaxHp) * 100);
+    document.getElementById('player-hp-fill').style.width = `${playerPct}%`;
+    document.getElementById('player-hp-num').textContent = Math.max(0, battleState.playerHp);
+    document.getElementById('enemy-hp-fill').style.width = `${enemyPct}%`;
+    document.getElementById('enemy-hp-num').textContent = Math.max(0, battleState.enemyHp);
+  }
+
+  function showBattleDamagePop(text, isCorrect) {
+    const el = document.getElementById('battle-damage-pop');
+    el.textContent = text;
+    el.className = 'battle-damage-pop' + (isCorrect ? ' correct' : '');
+    el.classList.remove('hidden');
+    setTimeout(() => el.classList.add('hidden'), 900);
+  }
+
+  async function submitBattleAnswer() {
+    if (!battleState || battleState.index >= battleState.queue.length) return;
+    const input = document.getElementById('battle-input');
+    const answer = input.value.trim().toLowerCase();
+    if (!answer) return;
+
+    const word = battleState.queue[battleState.index];
+    const correct = answer === word.word.toLowerCase();
+
+    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
+
+    const feedbackEl = document.getElementById('battle-feedback');
+    feedbackEl.classList.remove('hidden', 'correct', 'wrong');
+    input.className = 'battle-input ' + (correct ? 'correct' : 'wrong');
+
+    if (correct) {
+      // โจมตีศัตรู
+      battleState.correct += 1;
+      battleState.enemyHp -= 1;
+      const spriteEl = document.getElementById('enemy-sprite');
+      spriteEl.className = 'enemy-sprite hurt';
+      setTimeout(() => { spriteEl.className = 'enemy-sprite idle'; }, 400);
+      showBattleDamagePop('⚔️ -1', true);
+      feedbackEl.classList.add('correct');
+      feedbackEl.textContent = `✅ ถูกต้อง! "${word.word}"`;
+
+      // บันทึก EXP
+      try {
+        const result = await api('/progress/review', {
+          method: 'POST',
+          body: { wordId: word.id, level: battleState.level, known: true },
+        });
+        battleState.expGained += result.gainedExp;
+        if (result.gainedExp > 0) popExp(result.gainedExp);
+        state.user.exp = result.levelInfo.exp;
+        state.user.level = result.levelInfo.level;
+        state.user.expIntoLevel = result.levelInfo.expIntoLevel;
+        state.user.expForNextLevel = result.levelInfo.expForNextLevel;
+        state.user.progressPercent = result.levelInfo.progressPercent;
+        renderHud();
+        if (result.leveledUp) showLevelUp(result.levelInfo);
+      } catch (_e) { /* ไม่หยุดเกม ถ้า EXP บันทึกไม่ได้ */ }
+    } else {
+      // ผู้เล่นเสียเลือด
+      battleState.wrong += 1;
+      battleState.playerHp -= PLAYER_DAMAGE;
+      showBattleDamagePop(`💥 -${PLAYER_DAMAGE}`, false);
+      feedbackEl.classList.add('wrong');
+      feedbackEl.textContent = `❌ ผิด! คำที่ถูกคือ "${word.word}"`;
+
+      // บันทึกว่าตอบผิด
+      try {
+        await api('/progress/review', {
+          method: 'POST',
+          body: { wordId: word.id, level: battleState.level, known: false },
+        });
+      } catch (_e) { /* ignore */ }
+    }
+
+    updateBattleHP();
+
+    // เช็คเงื่อนไขสิ้นสุดการต่อสู้
+    const playerDead = battleState.playerHp <= 0;
+    const enemyDead = battleState.enemyHp <= 0;
+
+    if (playerDead || enemyDead || battleState.index >= battleState.queue.length - 1) {
+      setTimeout(() => finishBattle(enemyDead && !playerDead), 1200);
+    } else {
+      battleState.index += 1;
+      setTimeout(renderBattleWord, 1100);
+    }
+  }
+
+  function finishBattle(won) {
+    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
+    const icon = won ? '🏆' : '💀';
+    const title = won ? 'ชนะแล้ว!' : 'แพ้แล้ว...';
+    const sub = won
+      ? `ยอดเยี่ยมมาก! คุณกำจัด${ENEMIES[battleState.level]?.name || 'ศัตรู'}ได้สำเร็จ`
+      : `ไม่เป็นไร สู้ใหม่ได้เสมอ! HP หมดก่อน`;
+    document.getElementById('battle-result-icon').textContent = icon;
+    document.getElementById('battle-result-title').textContent = title;
+    document.getElementById('battle-result-sub').textContent = sub;
+    document.getElementById('br-correct').textContent = battleState.correct;
+    document.getElementById('br-wrong').textContent = battleState.wrong;
+    document.getElementById('br-exp').textContent = battleState.expGained;
+    showScreen('screen-battle-result');
+  }
+
+  // Battle event listeners
+  document.getElementById('btn-battle-submit').addEventListener('click', submitBattleAnswer);
+  document.getElementById('battle-input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') submitBattleAnswer();
+  });
+  document.getElementById('btn-exit-battle').addEventListener('click', () => {
+    if (battleState && battleState.hintTimer) clearTimeout(battleState.hintTimer);
+    battleState = null;
+    showScreen('screen-map');
+    loadMap();
+  });
+  document.getElementById('btn-br-map').addEventListener('click', () => {
+    battleState = null;
+    showScreen('screen-map');
+    loadMap();
+  });
+  document.getElementById('btn-br-again').addEventListener('click', () => {
+    const level = battleState ? battleState.level : 'A1';
+    startBattle(level);
   });
 
   // ---------------------------------------------------------------
