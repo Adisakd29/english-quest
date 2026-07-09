@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 <title>WordQuest — ผจญภัยคำศัพท์ภาษาอังกฤษ</title>
-<meta name="description" content="เกมเรียนคำศัพท์ภาษาอังกฤษ Oxford ระดับ A1-C1 พร้อมระบบ EXP และเลเวล" />
+<meta name="description" content="เกมเรียนคำศัพท์ภาษาอังกฤษ Oxford 3000 ระดับ A1-B2 พร้อมระบบ EXP และเลเวล" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Chonburi&family=Manrope:wght@500;700;800&family=Noto+Sans+Thai:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
           </svg>
           <span class="brand-title display">WordQuest</span>
         </div>
-        <p class="brand-sub">ผจญภัยไปทีละด่าน A1 → C1<br>สะสม EXP จากการ์ดคำศัพท์ Oxford<br>แล้วเลเวลอัปตัวเองให้เก่งภาษาอังกฤษ</p>
+        <p class="brand-sub">ผจญภัยไปทีละด่าน A1 → B2<br>สะสม EXP จากการ์ดคำศัพท์ Oxford 3000<br>แล้วเลเวลอัปตัวเองให้เก่งภาษาอังกฤษ</p>
 
         <div class="hero-trail">
           <div class="mini-trail">
@@ -129,7 +129,15 @@
     <div class="container">
       <div class="map-heading">
         <h1>เลือกด่านที่จะผจญภัย</h1>
-        <p>เริ่มจาก A1 แล้วเดินทางไปจนถึง C1 — แตะที่ด่านเพื่อเริ่มเล่น Flashcard</p>
+        <p>เลือกโหมดและด่านเพื่อเริ่มผจญภัย</p>
+        <div class="mode-tabs">
+          <button class="mode-tab active" id="mode-tab-flashcard" data-mode="flashcard">
+            🃏 Flashcard
+          </button>
+          <button class="mode-tab" id="mode-tab-battle" data-mode="battle">
+            ⚔️ Battle Mode
+          </button>
+        </div>
       </div>
 
       <div class="trail-track" id="trail-track">
@@ -203,6 +211,72 @@
       <div class="summary-actions">
         <button class="btn btn-secondary" id="btn-summary-map" style="flex:1;">กลับแผนที่</button>
         <button class="btn btn-primary" id="btn-summary-again" style="flex:1;">เล่นด่านนี้อีกรอบ</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== BATTLE SCREEN ============== -->
+  <section id="screen-battle" class="screen hidden">
+    <div class="container">
+      <div class="battle-top">
+        <button class="game-exit" id="btn-exit-battle">← กลับแผนที่</button>
+        <span class="game-level-chip" id="battle-level-chip">A1</span>
+      </div>
+
+      <div class="battle-arena">
+        <div class="battle-hpbar enemy-hpbar">
+          <span class="hpbar-label" id="enemy-name">สไลม์</span>
+          <div class="hpbar-track">
+            <div class="hpbar-fill enemy-fill" id="enemy-hp-fill" style="width:100%"></div>
+          </div>
+          <span class="hpbar-num" id="enemy-hp-num">10</span>
+        </div>
+
+        <div class="enemy-stage">
+          <div class="battle-damage-pop hidden" id="battle-damage-pop"></div>
+          <div class="enemy-sprite" id="enemy-sprite"></div>
+        </div>
+
+        <div class="battle-prompt">
+          <div class="battle-meaning" id="battle-meaning">ความหมาย</div>
+          <div class="battle-pos" id="battle-pos"></div>
+          <div class="battle-hint hidden" id="battle-hint"></div>
+        </div>
+
+        <div class="battle-input-row">
+          <input type="text" id="battle-input" class="battle-input"
+            placeholder="พิมพ์คำภาษาอังกฤษ..." autocomplete="off" autocorrect="off"
+            autocapitalize="off" spellcheck="false" />
+          <button class="btn btn-primary battle-submit" id="btn-battle-submit">⚔️ โจมตี</button>
+        </div>
+
+        <div class="battle-feedback hidden" id="battle-feedback"></div>
+
+        <div class="battle-hpbar player-hpbar">
+          <span class="hpbar-label">🧙 ผู้เล่น</span>
+          <div class="hpbar-track">
+            <div class="hpbar-fill player-fill" id="player-hp-fill" style="width:100%"></div>
+          </div>
+          <span class="hpbar-num" id="player-hp-num">100</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== BATTLE RESULT SCREEN ============== -->
+  <section id="screen-battle-result" class="screen hidden">
+    <div class="summary-card">
+      <div style="font-size:3rem;" id="battle-result-icon">🏆</div>
+      <h2 id="battle-result-title">ชนะแล้ว!</h2>
+      <p id="battle-result-sub"></p>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="num" id="br-correct">0</div><div class="lbl">ตอบถูก</div></div>
+        <div class="summary-stat"><div class="num" id="br-wrong">0</div><div class="lbl">ตอบผิด</div></div>
+        <div class="summary-stat"><div class="num" id="br-exp">0</div><div class="lbl">EXP ที่ได้</div></div>
+      </div>
+      <div class="summary-actions">
+        <button class="btn btn-secondary" id="btn-br-map" style="flex:1;">กลับแผนที่</button>
+        <button class="btn btn-primary" id="btn-br-again" style="flex:1;">⚔️ สู้อีกรอบ!</button>
       </div>
     </div>
   </section>
