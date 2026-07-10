@@ -442,7 +442,7 @@
     track.querySelectorAll('.trail-node').forEach((btn) => {
       btn.addEventListener('click', () => {
         if (state_map.mode === 'battle') {
-          startBattle(btn.dataset.level);
+          openQuestSelect(btn.dataset.level);
         } else {
           startSession(btn.dataset.level);
         }
@@ -730,345 +730,631 @@
   });
 
   // ---------------------------------------------------------------
-  // BATTLE MODE
+  // BATTLE MODE — Dragon Quest style dungeon crawl
+  // เดินด่าน เจอศัตรู 3 ตัว แล้วบอสท้ายด่าน มี timer ต่อคำ
   // ---------------------------------------------------------------
 
-  // ศัตรู: SVG + ชื่อ + HP สำหรับแต่ละระดับ
-  const ENEMIES = {
-    A1: {
-      name: 'สไลม์มือใหม่', hp: 12,
-      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="80" cy="100" rx="58" ry="44" fill="#5dc85d"/>
-        <ellipse cx="80" cy="90" rx="52" ry="52" fill="#6ee06e"/>
-        <circle cx="60" cy="82" r="10" fill="#1a1a1a"/>
-        <circle cx="100" cy="82" r="10" fill="#1a1a1a"/>
-        <circle cx="63" cy="79" r="3" fill="#fff"/>
-        <circle cx="103" cy="79" r="3" fill="#fff"/>
-        <path d="M66 100 Q80 112 94 100" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
-        <ellipse cx="80" cy="140" rx="40" ry="8" fill="#000" opacity="0.2"/>
-      </svg>`,
-    },
-    A2: {
-      name: 'กอบลิน', hp: 14,
-      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="80" cy="135" rx="32" ry="10" fill="#000" opacity="0.2"/>
-        <rect x="55" y="95" width="50" height="45" rx="8" fill="#8bc34a"/>
-        <ellipse cx="80" cy="72" rx="38" ry="36" fill="#9ccc65"/>
-        <ellipse cx="62" cy="58" rx="8" ry="14" fill="#8bc34a" transform="rotate(-15 62 58)"/>
-        <ellipse cx="98" cy="58" rx="8" ry="14" fill="#8bc34a" transform="rotate(15 98 58)"/>
-        <circle cx="68" cy="74" r="8" fill="#1a1a1a"/>
-        <circle cx="92" cy="74" r="8" fill="#1a1a1a"/>
-        <circle cx="70" cy="72" r="2.5" fill="#fff"/>
-        <circle cx="94" cy="72" r="2.5" fill="#fff"/>
-        <ellipse cx="80" cy="86" rx="10" ry="6" fill="#8bc34a"/>
-        <path d="M68 90 Q80 100 92 90" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
-        <rect x="40" y="105" width="14" height="30" rx="5" fill="#8bc34a" transform="rotate(-10 40 105)"/>
-        <rect x="106" y="105" width="14" height="30" rx="5" fill="#8bc34a" transform="rotate(10 106 105)"/>
-        <rect x="42" y="130" width="16" height="18" rx="4" fill="#6d4c41"/>
-        <rect x="102" y="130" width="16" height="18" rx="4" fill="#6d4c41"/>
-        <rect x="45" y="97" width="18" height="8" rx="3" fill="#ff8f00"/>
-      </svg>`,
-    },
-    B1: {
-      name: 'หมาป่าน้ำแข็ง', hp: 16,
-      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="80" cy="140" rx="40" ry="10" fill="#000" opacity="0.18"/>
-        <rect x="45" y="100" width="70" height="48" rx="12" fill="#607d8b"/>
-        <rect x="52" y="115" width="18" height="34" rx="6" fill="#546e7a"/>
-        <rect x="90" y="115" width="18" height="34" rx="6" fill="#546e7a"/>
-        <ellipse cx="80" cy="76" rx="42" ry="38" fill="#78909c"/>
-        <ellipse cx="58" cy="50" rx="10" ry="18" fill="#607d8b" transform="rotate(-20 58 50)"/>
-        <ellipse cx="102" cy="50" rx="10" ry="18" fill="#607d8b" transform="rotate(20 102 50)"/>
-        <circle cx="66" cy="78" r="9" fill="#111"/>
-        <circle cx="94" cy="78" r="9" fill="#111"/>
-        <circle cx="68" cy="76" r="3" fill="#adf"/>
-        <circle cx="96" cy="76" r="3" fill="#adf"/>
-        <ellipse cx="80" cy="92" rx="12" ry="6" fill="#607d8b"/>
-        <path d="M68 96 L72 104 L80 98 L88 104 L92 96" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
-        <ellipse cx="80" cy="60" rx="8" ry="5" fill="#90a4ae"/>
-        <path d="M40 105 Q30 120 35 135" stroke="#546e7a" stroke-width="10" stroke-linecap="round" fill="none"/>
-        <path d="M120 105 Q130 120 125 135" stroke="#546e7a" stroke-width="10" stroke-linecap="round" fill="none"/>
-      </svg>`,
-    },
-    B2: {
-      name: 'พ่อมดมืด', hp: 18,
-      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="80" cy="148" rx="36" ry="8" fill="#000" opacity="0.2"/>
-        <rect x="55" y="98" width="50" height="52" rx="6" fill="#4a148c"/>
-        <rect x="48" y="112" width="14" height="36" rx="4" fill="#4a148c"/>
-        <rect x="98" y="112" width="14" height="36" rx="4" fill="#4a148c"/>
-        <rect x="42" y="138" width="18" height="12" rx="3" fill="#311b92"/>
-        <rect x="100" y="138" width="18" height="12" rx="3" fill="#311b92"/>
-        <ellipse cx="80" cy="76" rx="36" ry="34" fill="#6a1b9a"/>
-        <path d="M44 68 L80 15 L116 68 Z" fill="#4a148c"/>
-        <circle cx="67" cy="78" r="8" fill="#ce93d8"/>
-        <circle cx="93" cy="78" r="8" fill="#ce93d8"/>
-        <circle cx="67" cy="78" r="4" fill="#4a0072"/>
-        <circle cx="93" cy="78" r="4" fill="#4a0072"/>
-        <path d="M68 92 Q80 100 92 92" stroke="#ce93d8" stroke-width="2.5" fill="none"/>
-        <circle cx="52" cy="112" r="6" fill="#ce93d8" opacity="0.8"/>
-        <path d="M46 112 L30 90 L40 112 Z" fill="#e040fb" opacity="0.7"/>
-        <circle cx="108" cy="112" r="6" fill="#ce93d8" opacity="0.8"/>
-        <path d="M114 112 L130 90 L120 112 Z" fill="#e040fb" opacity="0.7"/>
-      </svg>`,
-    },
-    C1: {
-      name: 'มังกรทอง', hp: 22,
-      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="80" cy="148" rx="45" ry="8" fill="#000" opacity="0.2"/>
-        <path d="M30 90 Q20 70 35 55 Q50 40 65 60" fill="#e65100" stroke="#bf360c" stroke-width="1"/>
-        <path d="M130 90 Q140 70 125 55 Q110 40 95 60" fill="#e65100" stroke="#bf360c" stroke-width="1"/>
-        <ellipse cx="80" cy="100" rx="48" ry="42" fill="#f57f17"/>
-        <ellipse cx="80" cy="100" rx="36" ry="34" fill="#ff8f00"/>
-        <path d="M50 62 L60 40 L70 62 Z" fill="#e65100"/>
-        <path d="M75 58 L80 38 L85 58 Z" fill="#e65100"/>
-        <path d="M90 62 L100 40 L110 62 Z" fill="#e65100"/>
-        <ellipse cx="80" cy="72" rx="38" ry="28" fill="#ffa000"/>
-        <circle cx="68" cy="68" r="10" fill="#1a1a1a"/>
-        <circle cx="92" cy="68" r="10" fill="#1a1a1a"/>
-        <circle cx="65" cy="66" r="3.5" fill="#ffd54f"/>
-        <circle cx="89" cy="66" r="3.5" fill="#ffd54f"/>
-        <ellipse cx="80" cy="84" rx="14" ry="7" fill="#e65100"/>
-        <path d="M67 88 L70 96 L80 90 L90 96 L93 88" stroke="#ffd54f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <path d="M120 92 Q138 80 145 100 Q138 118 120 108" fill="#f57f17" stroke="#e65100" stroke-width="1"/>
-        <path d="M40 92 Q22 80 15 100 Q22 118 40 108" fill="#f57f17" stroke="#e65100" stroke-width="1"/>
-        <circle cx="80" cy="56" r="6" fill="#ffd54f"/>
-      </svg>`,
-    },
+  const PLAYER_MAX_HP = 100;
+  const WORD_TIME_MS = 10000;     // เวลาต่อคำ (10 วินาที)
+  const TIMEOUT_DAMAGE = 20;      // เสีย HP เมื่อหมดเวลา
+  const WRONG_DAMAGE = 15;        // เสีย HP เมื่อตอบผิด
+  const HINT_AT_MS = 6000;        // แสดงคำใบ้เมื่อเหลือเวลาเท่านี้
+
+  // ---------------------------------------------------------------
+  // QUEST SYSTEM — แต่ละระดับมี 5 ด่าน (ด่าน 5 คือบอส)
+  // ---------------------------------------------------------------
+  const QUEST_ZONES = {
+    A1: { title: 'ที่ราบมือใหม่', sub: 'เดินทางผ่าน 5 ด่าน โค่นราชาสไลม์', icon: '🌿' },
+    A2: { title: 'ป่ากอบลิน', sub: 'บุกป่าลึก โค่นจอมกอบลิน', icon: '🌲' },
+    B1: { title: 'หุบเขาน้ำแข็ง', sub: 'ฝ่าความหนาว โค่นหมาป่าราชันย์', icon: '🏔️' },
+    B2: { title: 'หอคอยเวทมนตร์', sub: 'ปีนหอคอย โค่นจอมเวทย์ดำ', icon: '🗼' },
+    C1: { title: 'รังมังกรทอง', sub: 'ด่านสุดท้าย โค่นมังกรทองโบราณ', icon: '🌋' },
   };
 
-  const PLAYER_MAX_HP = 100;
-  const PLAYER_DAMAGE = 25;   // HP ที่เสียต่อครั้งที่ตอบผิด
-  const BATTLE_SIZE = 10;     // จำนวนคำต่อ 1 การสู้
+  // ด่านทั้ง 5 ของแต่ละโซน: ศัตรูในด่าน (ด่านหลังยิ่งยาก ด่าน 5 = บอส)
+  const QUEST_STAGES = {
+    A1: [
+      { name: 'ชายทุ่งหญ้า', enemies: ['slime'] },
+      { name: 'บึงสไลม์', enemies: ['slime', 'slime'] },
+      { name: 'ถ้ำค้างคาว', enemies: ['bat', 'slime'] },
+      { name: 'ป่าเห็ดพิษ', enemies: ['mushroom', 'bat', 'slime'] },
+      { name: 'บัลลังก์ราชาสไลม์', enemies: ['slime', 'kingslime'], boss: true },
+    ],
+    A2: [
+      { name: 'ชายป่า', enemies: ['slime', 'bat'] },
+      { name: 'ค่ายกอบลิน', enemies: ['goblin', 'goblin'] },
+      { name: 'ป่าลึก', enemies: ['bat', 'goblin', 'mushroom'] },
+      { name: 'หน้าผาอันตราย', enemies: ['goblin', 'goblin', 'bat'] },
+      { name: 'ถ้ำจอมกอบลิน', enemies: ['goblin', 'goblinlord'], boss: true },
+    ],
+    B1: [
+      { name: 'เชิงเขาน้ำแข็ง', enemies: ['wolf', 'bat'] },
+      { name: 'ทุ่งหิมะ', enemies: ['wolf', 'goblin'] },
+      { name: 'ธารน้ำแข็ง', enemies: ['wolf', 'wolf', 'mushroom'] },
+      { name: 'ยอดเขาหนาวเหน็บ', enemies: ['wolf', 'wolf', 'goblin'] },
+      { name: 'รังหมาป่าราชันย์', enemies: ['wolf', 'frostwolf'], boss: true },
+    ],
+    B2: [
+      { name: 'ประตูหอคอย', enemies: ['wizard', 'goblin'] },
+      { name: 'ห้องสมุดต้องมนตร์', enemies: ['wizard', 'bat', 'bat'] },
+      { name: 'บันไดวนลึกลับ', enemies: ['wizard', 'wolf', 'wizard'] },
+      { name: 'ห้องทดลองมืด', enemies: ['wizard', 'wizard', 'wolf'] },
+      { name: 'ยอดหอจอมเวทย์', enemies: ['wizard', 'darkwizard'], boss: true },
+    ],
+    C1: [
+      { name: 'เชิงภูเขาไฟ', enemies: ['wolf', 'wizard', 'goblin'] },
+      { name: 'ทางลาวาเดือด', enemies: ['wizard', 'wizard', 'wolf'] },
+      { name: 'ถ้ำสมบัติมังกร', enemies: ['wizard', 'wolf', 'wizard'] },
+      { name: 'ปากปล่องไฟนรก', enemies: ['wizard', 'wizard', 'wizard'] },
+      { name: 'รังมังกรทองโบราณ', enemies: ['darkwizard', 'dragon'], boss: true },
+    ],
+  };
 
-  let battleState = null;
+  // ความคืบหน้าด่าน (เก็บใน localStorage แยกตามผู้ใช้)
+  function questProgressKey() {
+    return `wq_quest_${state.user ? state.user.id : 'guest'}`;
+  }
+  function getQuestProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(questProgressKey())) || {};
+    } catch (_e) { return {}; }
+  }
+  function getClearedStage(level) {
+    const p = getQuestProgress();
+    return p[level] || 0; // จำนวนด่านที่ผ่านแล้วในโซนนี้ (0 = ยังไม่ผ่านเลย)
+  }
+  function markStageCleared(level, stageIndex) {
+    const p = getQuestProgress();
+    p[level] = Math.max(p[level] || 0, stageIndex + 1);
+    localStorage.setItem(questProgressKey(), JSON.stringify(p));
+  }
 
-  function startBattle(level) {
+  let questState = null; // { level }
+
+  function openQuestSelect(level) {
+    questState = { level };
+    showScreen('screen-quest-select');
+    const zone = QUEST_ZONES[level];
+    document.getElementById('quest-level-chip').textContent = level;
+    document.getElementById('quest-level-chip').style.background = LEVEL_META[level].color;
+    document.getElementById('quest-zone-title').textContent = `${zone.icon} ${zone.title}`;
+    document.getElementById('quest-zone-sub').textContent = zone.sub;
+    renderQuestStages();
+  }
+
+  function renderQuestStages() {
+    const level = questState.level;
+    const stages = QUEST_STAGES[level];
+    const cleared = getClearedStage(level);
+    const list = document.getElementById('quest-stage-list');
+    list.innerHTML = '';
+
+    stages.forEach((stage, i) => {
+      const isCleared = i < cleared;
+      const isLocked = i > cleared;
+      const isBoss = !!stage.boss;
+      const enemyIcons = stage.enemies.map((k) => (ENEMY_DEFS[k].boss ? '👑' : '👾')).join('');
+
+      const row = document.createElement('div');
+      row.className = 'quest-stage-row';
+      row.innerHTML = `
+        <button class="quest-stage${isLocked ? ' locked' : ''}${isCleared ? ' cleared' : ''}${isBoss ? ' boss' : ''}" data-stage="${i}" ${isLocked ? 'disabled' : ''}>
+          <div class="quest-stage-icon">${isBoss ? '👑' : isCleared ? '✅' : isLocked ? '🔒' : '⚔️'}</div>
+          <div class="quest-stage-info">
+            <div class="quest-stage-name">ด่าน ${i + 1}: ${stage.name}</div>
+            <div class="quest-stage-sub">ศัตรู ${stage.enemies.length} ตัว ${enemyIcons}</div>
+          </div>
+          <div class="quest-stage-status">${isCleared ? '⭐' : ''}</div>
+        </button>`;
+      list.appendChild(row);
+
+      if (i < stages.length - 1) {
+        const conn = document.createElement('div');
+        conn.className = 'quest-stage-connector';
+        list.appendChild(conn);
+      }
+    });
+
+    list.querySelectorAll('.quest-stage:not(.locked)').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        startBattle(level, parseInt(btn.dataset.stage, 10));
+      });
+    });
+  }
+
+  document.getElementById('btn-quest-back').addEventListener('click', () => {
+    questState = null;
+    showScreen('screen-map');
+    loadMap();
+  });
+
+  // นิยามศัตรูแต่ละชนิด: ชื่อ, HP, สี, SVG (การ์ตูนน่ารักสีสันสดใส)
+  const ENEMY_DEFS = {
+    slime: { name: 'สไลม์', hp: 3, boss: false, svg: `
+      <ellipse class="e-body" cx="80" cy="98" rx="52" ry="46" fill="#6ee06e"/>
+      <ellipse cx="80" cy="90" rx="46" ry="46" fill="#8bef8b"/>
+      <ellipse cx="66" cy="70" rx="10" ry="14" fill="#fff" opacity="0.5"/>
+      <circle cx="62" cy="86" r="9" fill="#1a1a2e"/><circle cx="98" cy="86" r="9" fill="#1a1a2e"/>
+      <circle cx="65" cy="83" r="3" fill="#fff"/><circle cx="101" cy="83" r="3" fill="#fff"/>
+      <path d="M68 104 Q80 116 92 104" stroke="#1a1a2e" stroke-width="3" fill="none" stroke-linecap="round"/>` },
+    bat: { name: 'ค้างคาว', hp: 3, boss: false, svg: `
+      <path class="e-wing-l" d="M60 78 Q20 50 12 82 Q30 78 34 96 Q46 82 60 88 Z" fill="#8e6bd6"/>
+      <path class="e-wing-r" d="M100 78 Q140 50 148 82 Q130 78 126 96 Q114 82 100 88 Z" fill="#8e6bd6"/>
+      <ellipse cx="80" cy="86" rx="26" ry="24" fill="#a986e8"/>
+      <path d="M64 64 L58 50 L74 62 Z" fill="#a986e8"/><path d="M96 64 L102 50 L86 62 Z" fill="#a986e8"/>
+      <circle cx="72" cy="84" r="6" fill="#1a1a2e"/><circle cx="88" cy="84" r="6" fill="#1a1a2e"/>
+      <circle cx="74" cy="82" r="2" fill="#fff"/><circle cx="90" cy="82" r="2" fill="#fff"/>
+      <path d="M74 96 L78 100 L82 96 L86 100" stroke="#fff" stroke-width="2" fill="none"/>` },
+    mushroom: { name: 'เห็ดพิษ', hp: 3, boss: false, svg: `
+      <rect x="66" y="96" width="28" height="34" rx="10" fill="#f5e6c8"/>
+      <circle cx="74" cy="112" r="4" fill="#1a1a2e"/><circle cx="86" cy="112" r="4" fill="#1a1a2e"/>
+      <path d="M72 122 Q80 128 88 122" stroke="#1a1a2e" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path class="e-body" d="M32 96 Q32 50 80 48 Q128 50 128 96 Z" fill="#e0554e"/>
+      <circle cx="58" cy="72" r="9" fill="#fff"/><circle cx="98" cy="68" r="11" fill="#fff"/><circle cx="80" cy="88" r="7" fill="#fff"/>` },
+    goblin: { name: 'กอบลิน', hp: 4, boss: false, svg: `
+      <ellipse cx="80" cy="130" rx="30" ry="8" fill="#000" opacity="0.15"/>
+      <rect x="60" y="98" width="40" height="34" rx="8" fill="#8bc34a"/>
+      <ellipse cx="80" cy="78" rx="34" ry="32" fill="#9ccc65"/>
+      <path class="e-ear-l" d="M50 66 L34 54 L52 76 Z" fill="#8bc34a"/>
+      <path class="e-ear-r" d="M110 66 L126 54 L108 76 Z" fill="#8bc34a"/>
+      <circle cx="70" cy="78" r="7" fill="#1a1a2e"/><circle cx="90" cy="78" r="7" fill="#1a1a2e"/>
+      <circle cx="72" cy="76" r="2" fill="#fff"/><circle cx="92" cy="76" r="2" fill="#fff"/>
+      <path d="M70 92 L78 96 L74 100 Z" fill="#5a8a2a"/>
+      <path d="M72 94 Q80 100 88 94" stroke="#1a1a2e" stroke-width="2" fill="none"/>` },
+    wolf: { name: 'หมาป่าน้ำแข็ง', hp: 4, boss: false, svg: `
+      <ellipse cx="80" cy="132" rx="34" ry="8" fill="#000" opacity="0.15"/>
+      <rect x="54" y="100" width="52" height="32" rx="12" fill="#78909c"/>
+      <ellipse cx="80" cy="80" rx="38" ry="34" fill="#90a4ae"/>
+      <path class="e-ear-l" d="M54 56 L46 34 L68 56 Z" fill="#78909c"/>
+      <path class="e-ear-r" d="M106 56 L114 34 L92 56 Z" fill="#78909c"/>
+      <circle cx="68" cy="80" r="8" fill="#4fc3f7"/><circle cx="92" cy="80" r="8" fill="#4fc3f7"/>
+      <circle cx="68" cy="80" r="3" fill="#1a1a2e"/><circle cx="92" cy="80" r="3" fill="#1a1a2e"/>
+      <ellipse cx="80" cy="96" rx="10" ry="7" fill="#546e7a"/>
+      <path d="M70 100 L74 106 L80 101 L86 106 L90 100" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>` },
+    wizard: { name: 'พ่อมดมืด', hp: 5, boss: false, svg: `
+      <ellipse cx="80" cy="134" rx="30" ry="8" fill="#000" opacity="0.15"/>
+      <path d="M56 132 L80 96 L104 132 Z" fill="#5e35b1"/>
+      <ellipse cx="80" cy="82" rx="30" ry="28" fill="#7e57c2"/>
+      <path class="e-hat" d="M50 70 L80 20 L110 70 Z" fill="#4527a0"/>
+      <circle cx="80" cy="30" r="5" fill="#ffd54f"/>
+      <circle cx="70" cy="84" r="7" fill="#ce93d8"/><circle cx="90" cy="84" r="7" fill="#ce93d8"/>
+      <circle cx="70" cy="84" r="3" fill="#311b92"/><circle cx="90" cy="84" r="3" fill="#311b92"/>
+      <path d="M72 98 Q80 104 88 98" stroke="#ce93d8" stroke-width="2" fill="none"/>` },
+    // BOSSES — ใหญ่กว่า HP เยอะกว่า
+    kingslime: { name: '👑 ราชาสไลม์', hp: 7, boss: true, svg: `
+      <ellipse cx="80" cy="128" rx="62" ry="14" fill="#000" opacity="0.18"/>
+      <ellipse class="e-body" cx="80" cy="94" rx="60" ry="52" fill="#43c443"/>
+      <ellipse cx="80" cy="84" rx="54" ry="52" fill="#6ee06e"/>
+      <path d="M48 44 L56 20 L64 44 M72 42 L80 14 L88 42 M96 44 L104 20 L112 44 Z" fill="#ffd54f" stroke="#f9a825" stroke-width="1"/>
+      <rect x="46" y="40" width="68" height="8" rx="3" fill="#ffd54f"/>
+      <circle cx="60" cy="86" r="11" fill="#1a1a2e"/><circle cx="100" cy="86" r="11" fill="#1a1a2e"/>
+      <circle cx="64" cy="82" r="4" fill="#fff"/><circle cx="104" cy="82" r="4" fill="#fff"/>
+      <path d="M64 106 Q80 122 96 106" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linecap="round"/>` },
+    goblinlord: { name: '👑 จอมกอบลิน', hp: 8, boss: true, svg: `
+      <ellipse cx="80" cy="132" rx="40" ry="10" fill="#000" opacity="0.18"/>
+      <rect x="52" y="94" width="56" height="40" rx="10" fill="#689f38"/>
+      <ellipse cx="80" cy="74" rx="42" ry="38" fill="#8bc34a"/>
+      <path class="e-ear-l" d="M44 60 L24 44 L48 72 Z" fill="#689f38"/>
+      <path class="e-ear-r" d="M116 60 L136 44 L112 72 Z" fill="#689f38"/>
+      <path d="M52 46 L60 28 L68 46 M74 44 L80 24 L86 44 M92 46 L100 28 L108 46 Z" fill="#ffd54f" stroke="#f9a825" stroke-width="1"/>
+      <rect x="50" y="42" width="60" height="8" rx="3" fill="#ffd54f"/>
+      <circle cx="68" cy="76" r="9" fill="#c62828"/><circle cx="92" cy="76" r="9" fill="#c62828"/>
+      <circle cx="68" cy="76" r="3" fill="#1a1a2e"/><circle cx="92" cy="76" r="3" fill="#1a1a2e"/>
+      <path d="M64 92 L72 98 L68 102 Z M96 92 L88 98 L92 102 Z" fill="#fff"/>` },
+    frostwolf: { name: '👑 หมาป่าราชันย์', hp: 9, boss: true, svg: `
+      <ellipse cx="80" cy="134" rx="44" ry="10" fill="#000" opacity="0.18"/>
+      <rect x="46" y="98" width="68" height="36" rx="14" fill="#607d8b"/>
+      <ellipse cx="80" cy="76" rx="46" ry="40" fill="#90a4ae"/>
+      <path class="e-ear-l" d="M46 50 L36 24 L66 52 Z" fill="#607d8b"/>
+      <path class="e-ear-r" d="M114 50 L124 24 L94 52 Z" fill="#607d8b"/>
+      <path d="M60 34 L66 18 L72 34 M74 32 L80 14 L86 32 M88 34 L94 18 L100 34 Z" fill="#b3e5fc" stroke="#4fc3f7" stroke-width="1"/>
+      <circle cx="66" cy="78" r="10" fill="#4fc3f7"/><circle cx="94" cy="78" r="10" fill="#4fc3f7"/>
+      <circle cx="66" cy="78" r="4" fill="#1a1a2e"/><circle cx="94" cy="78" r="4" fill="#1a1a2e"/>
+      <ellipse cx="80" cy="98" rx="12" ry="8" fill="#455a64"/>
+      <path d="M68 102 L74 110 L80 103 L86 110 L92 102" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>` },
+    darkwizard: { name: '👑 จอมเวทย์ดำ', hp: 10, boss: true, svg: `
+      <ellipse cx="80" cy="136" rx="40" ry="10" fill="#000" opacity="0.2"/>
+      <path d="M48 134 L80 90 L112 134 Z" fill="#4527a0"/>
+      <ellipse cx="80" cy="80" rx="36" ry="32" fill="#673ab7"/>
+      <path class="e-hat" d="M44 66 L80 8 L116 66 Z" fill="#311b92"/>
+      <circle cx="80" cy="18" r="7" fill="#ffd54f"/>
+      <path d="M60 66 L54 50 M100 66 L106 50" stroke="#e040fb" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="68" cy="82" r="8" fill="#e040fb"/><circle cx="92" cy="82" r="8" fill="#e040fb"/>
+      <circle cx="68" cy="82" r="3" fill="#1a0033"/><circle cx="92" cy="82" r="3" fill="#1a0033"/>
+      <path d="M70 98 Q80 92 90 98" stroke="#e040fb" stroke-width="2.5" fill="none"/>
+      <circle class="e-orb" cx="40" cy="100" r="8" fill="#e040fb" opacity="0.8"/>
+      <circle class="e-orb" cx="120" cy="100" r="8" fill="#e040fb" opacity="0.8"/>` },
+    dragon: { name: '🐲 มังกรทองโบราณ', hp: 12, boss: true, svg: `
+      <ellipse cx="80" cy="138" rx="54" ry="10" fill="#000" opacity="0.2"/>
+      <path class="e-wing-l" d="M40 88 Q10 60 24 44 Q40 64 56 72 Z" fill="#e65100"/>
+      <path class="e-wing-r" d="M120 88 Q150 60 136 44 Q120 64 104 72 Z" fill="#e65100"/>
+      <ellipse cx="80" cy="98" rx="50" ry="44" fill="#ffa726"/>
+      <ellipse cx="80" cy="90" rx="42" ry="42" fill="#ffb74d"/>
+      <path d="M52 54 L60 30 L68 54 M74 50 L80 24 L86 50 M92 54 L100 30 L108 54 Z" fill="#f57f17"/>
+      <ellipse cx="80" cy="76" rx="40" ry="30" fill="#ffcc80"/>
+      <circle cx="66" cy="72" r="10" fill="#1a1a2e"/><circle cx="94" cy="72" r="10" fill="#1a1a2e"/>
+      <circle cx="63" cy="68" r="4" fill="#ffd54f"/><circle cx="91" cy="68" r="4" fill="#ffd54f"/>
+      <ellipse cx="80" cy="90" rx="14" ry="8" fill="#e65100"/>
+      <path d="M68 94 L72 102 L80 95 L88 102 L92 94" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="80" cy="58" r="5" fill="#ffd54f"/>` },
+  };
+
+  let battle = null;
+
+  function enemySvgWrap(inner) {
+    return `<svg viewBox="0 0 160 150" xmlns="http://www.w3.org/2000/svg">${inner}</svg>`;
+  }
+
+  async function startBattle(level, stageIndex = 0) {
     showScreen('screen-battle');
-    document.getElementById('battle-level-chip').textContent = level;
-    document.getElementById('battle-level-chip').style.background = LEVEL_META[level].color;
-    document.getElementById('battle-input').value = '';
-    document.getElementById('battle-feedback').classList.add('hidden');
-
-    const enemy = ENEMIES[level] || ENEMIES.A1;
-    document.getElementById('enemy-name').textContent = enemy.name;
-    document.getElementById('enemy-sprite').innerHTML = enemy.svg;
-    document.getElementById('enemy-sprite').className = 'enemy-sprite idle';
-
-    battleState = {
+    document.getElementById('battle-scene').className = `battle-scene zone-${level}`;
+    const stage = (QUEST_STAGES[level] || QUEST_STAGES.A1)[stageIndex] || QUEST_STAGES.A1[0];
+    battle = {
       level,
-      queue: [],
-      index: 0,
+      stageIndex,
       playerHp: PLAYER_MAX_HP,
-      enemyMaxHp: enemy.hp,
-      enemyHp: enemy.hp,
+      enemyKeys: [...stage.enemies],
+      enemyIndex: 0,
+      words: [],
+      wordIndex: 0,
       correct: 0,
       wrong: 0,
       expGained: 0,
-      showingHint: false,
-      hintTimer: null,
+      timerId: null,
+      timerStart: 0,
+      hintShown: false,
+      busy: false,
     };
+    renderStageDots();
+    updatePlayerHp();
+    document.getElementById('battle-feedback').classList.add('hidden');
+    document.getElementById('battle-input').value = '';
+    await loadBattleWords(level);
+  }
 
-    updateBattleHP();
-    loadBattleWords(level);
+  function renderStageDots() {
+    const wrap = document.getElementById('battle-stage-dots');
+    wrap.innerHTML = '';
+    battle.enemyKeys.forEach((key, i) => {
+      const def = ENEMY_DEFS[key];
+      const dot = document.createElement('div');
+      dot.className = 'stage-dot';
+      if (def.boss) dot.classList.add('boss');
+      if (i < battle.enemyIndex) dot.classList.add('done');
+      if (i === battle.enemyIndex) dot.classList.add('current');
+      dot.textContent = def.boss ? '👑' : '';
+      wrap.appendChild(dot);
+    });
   }
 
   async function loadBattleWords(level) {
+    const meaningEl = document.getElementById('battle-meaning');
+    meaningEl.textContent = 'กำลังเตรียมด่าน...';
     try {
       const data = await api(`/words/${level}`);
-      const CONTENT_CATEGORIES = new Set(['noun', 'verb', 'adj', 'adv']);
-      const words = data.words.filter((w) => CONTENT_CATEGORIES.has(w.category));
-
-      // เน้นคำที่ยังไม่รู้ก่อน เอาคำที่รู้แล้วเติมถ้าไม่พอ
+      const CONTENT = new Set(['noun', 'verb', 'adj', 'adv']);
+      const words = data.words.filter((w) => CONTENT.has(w.category));
       const notKnown = words.filter((w) => w.status !== 'known');
       const known = words.filter((w) => w.status === 'known');
-      const pool = shuffle(notKnown.length >= BATTLE_SIZE
+
+      // ต้องการคำมากพอสำหรับศัตรูทุกตัว (รวม HP ทุกตัว)
+      const totalNeeded = battle.enemyKeys.reduce((sum, k) => sum + ENEMY_DEFS[k].hp, 0);
+      const pool = shuffle(notKnown.length >= totalNeeded
         ? notKnown
         : [...notKnown, ...shuffle(known)]
-      ).slice(0, BATTLE_SIZE + 10); // เผื่อหาคำแปลไม่ได้บางคำ
+      ).slice(0, totalNeeded + 12);
 
-      // ดึงคำแปลสำหรับทุกคำ
       const { translations } = await api('/translate', {
         method: 'POST',
         body: { wordIds: pool.map((w) => w.id) },
       });
 
-      const queue = pool
+      const usable = pool
         .filter((w) => translations[w.id])
-        .map((w) => ({ ...w, th: translations[w.id] }))
-        .slice(0, BATTLE_SIZE);
+        .map((w) => ({ ...w, th: translations[w.id] }));
 
-      if (queue.length < 3) {
-        toast('หาคำแปลไม่พอสำหรับโหมดนี้ ลองใหม่อีกครั้ง', 'error');
+      if (usable.length < totalNeeded) {
+        toast('หาคำแปลไม่พอสำหรับด่านนี้ ลองใหม่อีกครั้ง', 'error');
         showScreen('screen-map');
         return;
       }
 
-      battleState.queue = queue;
-      battleState.enemyMaxHp = queue.length;
-      battleState.enemyHp = queue.length;
-      document.getElementById('enemy-hp-num').textContent = queue.length;
-      updateBattleHP();
-      renderBattleWord();
-      document.getElementById('battle-input').focus();
+      battle.words = usable;
+      battle.wordIndex = 0;
+      spawnEnemy();
     } catch (err) {
       toast(err.message, 'error');
       showScreen('screen-map');
     }
   }
 
-  function renderBattleWord() {
-    if (!battleState || battleState.index >= battleState.queue.length) return;
-    const word = battleState.queue[battleState.index];
+  function spawnEnemy() {
+    const key = battle.enemyKeys[battle.enemyIndex];
+    const def = ENEMY_DEFS[key];
+    battle.enemyHpMax = def.hp;
+    battle.enemyHp = def.hp;
+
+    document.getElementById('enemy-name').textContent = def.name;
+    const sprite = document.getElementById('enemy-sprite');
+    sprite.innerHTML = enemySvgWrap(def.svg);
+    sprite.className = 'enemy-sprite spawn' + (def.boss ? ' boss' : '');
+    // remove spawn class after animation to allow idle
+    setTimeout(() => { sprite.className = 'enemy-sprite idle' + (def.boss ? ' boss' : ''); }, 600);
+    updateEnemyHp();
+    renderStageDots();
+    nextWord();
+  }
+
+  function updateEnemyHp() {
+    const pct = Math.max(0, (battle.enemyHp / battle.enemyHpMax) * 100);
+    document.getElementById('enemy-hp-fill').style.width = `${pct}%`;
+  }
+  function updatePlayerHp() {
+    const pct = Math.max(0, (battle.playerHp / PLAYER_MAX_HP) * 100);
+    const fill = document.getElementById('player-hp-fill');
+    fill.style.width = `${pct}%`;
+    fill.classList.toggle('low', battle.playerHp <= 30);
+    document.getElementById('player-hp-num').textContent = Math.max(0, battle.playerHp);
+  }
+
+  function nextWord() {
+    if (!battle) return;
+    const word = battle.words[battle.wordIndex % battle.words.length];
+    battle.currentWord = word;
+    battle.wordIndex += 1;
+    battle.hintShown = false;
+    battle.busy = false;
+
     document.getElementById('battle-meaning').textContent = word.th;
     document.getElementById('battle-pos').textContent = word.pos || '';
-    document.getElementById('battle-hint').classList.add('hidden');
-    document.getElementById('battle-hint').textContent = '';
-    document.getElementById('battle-input').value = '';
-    document.getElementById('battle-input').className = 'battle-input';
-    document.getElementById('battle-feedback').classList.add('hidden');
-    battleState.showingHint = false;
-    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
-    // แสดงคำใบ้หลังจาก 6 วินาที ถ้ายังไม่ตอบ
-    battleState.hintTimer = setTimeout(showBattleHint, 6000);
-  }
-
-  function showBattleHint() {
-    if (!battleState) return;
-    const word = battleState.queue[battleState.index];
-    // แสดงตัวอักษรตัวแรก + _ สำหรับตัวที่เหลือ
-    const hint = word.word[0] + '_'.repeat(Math.max(0, word.word.length - 1));
     const hintEl = document.getElementById('battle-hint');
-    hintEl.textContent = hint;
+    hintEl.classList.add('hidden');
+    hintEl.textContent = '';
+    const input = document.getElementById('battle-input');
+    input.value = '';
+    input.className = 'battle-input';
+    input.disabled = false;
+    input.focus();
+    document.getElementById('battle-feedback').classList.add('hidden');
+
+    startWordTimer();
+  }
+
+  function startWordTimer() {
+    stopWordTimer();
+    battle.timerStart = Date.now();
+    const fill = document.getElementById('battle-timer-fill');
+    fill.classList.remove('danger');
+
+    battle.timerId = setInterval(() => {
+      const elapsed = Date.now() - battle.timerStart;
+      const remaining = Math.max(0, WORD_TIME_MS - elapsed);
+      const pct = (remaining / WORD_TIME_MS) * 100;
+      fill.style.width = `${pct}%`;
+      if (remaining <= 3500) fill.classList.add('danger');
+
+      if (!battle.hintShown && remaining <= WORD_TIME_MS - HINT_AT_MS) {
+        showWordHint();
+      }
+      if (remaining <= 0) {
+        handleTimeout();
+      }
+    }, 100);
+  }
+  function stopWordTimer() {
+    if (battle && battle.timerId) { clearInterval(battle.timerId); battle.timerId = null; }
+  }
+
+  function showWordHint() {
+    battle.hintShown = true;
+    const w = battle.currentWord.word;
+    const hint = w[0] + ' ' + '_ '.repeat(Math.max(0, w.length - 1)).trim();
+    const hintEl = document.getElementById('battle-hint');
+    hintEl.textContent = `💡 ${hint}   (${w.length} ตัวอักษร)`;
     hintEl.classList.remove('hidden');
-    battleState.showingHint = true;
   }
 
-  function updateBattleHP() {
-    const playerPct = Math.max(0, (battleState.playerHp / PLAYER_MAX_HP) * 100);
-    const enemyPct = Math.max(0, (battleState.enemyHp / battleState.enemyMaxHp) * 100);
-    document.getElementById('player-hp-fill').style.width = `${playerPct}%`;
-    document.getElementById('player-hp-num').textContent = Math.max(0, battleState.playerHp);
-    document.getElementById('enemy-hp-fill').style.width = `${enemyPct}%`;
-    document.getElementById('enemy-hp-num').textContent = Math.max(0, battleState.enemyHp);
-  }
-
-  function showBattleDamagePop(text, isCorrect) {
-    const el = document.getElementById('battle-damage-pop');
-    el.textContent = text;
-    el.className = 'battle-damage-pop' + (isCorrect ? ' correct' : '');
-    el.classList.remove('hidden');
-    setTimeout(() => el.classList.add('hidden'), 900);
+  function handleTimeout() {
+    if (battle.busy) return;
+    battle.busy = true;
+    stopWordTimer();
+    const input = document.getElementById('battle-input');
+    input.disabled = true;
+    input.className = 'battle-input wrong';
+    heroHurt();
+    battle.playerHp -= TIMEOUT_DAMAGE;
+    battle.wrong += 1;
+    updatePlayerHp();
+    flashScreen();
+    const fb = document.getElementById('battle-feedback');
+    fb.className = 'battle-feedback wrong';
+    fb.textContent = `⏰ หมดเวลา! คำที่ถูกคือ "${battle.currentWord.word}"`;
+    recordReview(battle.currentWord, false);
+    afterAnswer(false);
   }
 
   async function submitBattleAnswer() {
-    if (!battleState || battleState.index >= battleState.queue.length) return;
+    if (!battle || battle.busy) return;
     const input = document.getElementById('battle-input');
     const answer = input.value.trim().toLowerCase();
     if (!answer) return;
+    battle.busy = true;
+    stopWordTimer();
+    input.disabled = true;
 
-    const word = battleState.queue[battleState.index];
+    const word = battle.currentWord;
     const correct = answer === word.word.toLowerCase();
-
-    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
-
-    const feedbackEl = document.getElementById('battle-feedback');
-    feedbackEl.classList.remove('hidden', 'correct', 'wrong');
-    input.className = 'battle-input ' + (correct ? 'correct' : 'wrong');
+    const fb = document.getElementById('battle-feedback');
 
     if (correct) {
-      // โจมตีศัตรู
-      battleState.correct += 1;
-      battleState.enemyHp -= 1;
-      const spriteEl = document.getElementById('enemy-sprite');
-      spriteEl.className = 'enemy-sprite hurt';
-      setTimeout(() => { spriteEl.className = 'enemy-sprite idle'; }, 400);
-      showBattleDamagePop('⚔️ -1', true);
-      feedbackEl.classList.add('correct');
-      feedbackEl.textContent = `✅ ถูกต้อง! "${word.word}"`;
-
-      // บันทึก EXP
-      try {
-        const result = await api('/progress/review', {
-          method: 'POST',
-          body: { wordId: word.id, level: battleState.level, known: true },
-        });
-        battleState.expGained += result.gainedExp;
-        if (result.gainedExp > 0) popExp(result.gainedExp);
-        state.user.exp = result.levelInfo.exp;
-        state.user.level = result.levelInfo.level;
-        state.user.expIntoLevel = result.levelInfo.expIntoLevel;
-        state.user.expForNextLevel = result.levelInfo.expForNextLevel;
-        state.user.progressPercent = result.levelInfo.progressPercent;
-        renderHud();
-        if (result.leveledUp) showLevelUp(result.levelInfo);
-      } catch (_e) { /* ไม่หยุดเกม ถ้า EXP บันทึกไม่ได้ */ }
+      input.className = 'battle-input correct';
+      battle.correct += 1;
+      battle.enemyHp -= 1;
+      updateEnemyHp();
+      enemyHurt();
+      heroAttack();
+      floatText('⚔️ -1', 'dmg');
+      fb.className = 'battle-feedback correct';
+      fb.textContent = `✅ ถูกต้อง! "${word.word}"`;
+      recordReview(word, true);
     } else {
-      // ผู้เล่นเสียเลือด
-      battleState.wrong += 1;
-      battleState.playerHp -= PLAYER_DAMAGE;
-      showBattleDamagePop(`💥 -${PLAYER_DAMAGE}`, false);
-      feedbackEl.classList.add('wrong');
-      feedbackEl.textContent = `❌ ผิด! คำที่ถูกคือ "${word.word}"`;
-
-      // บันทึกว่าตอบผิด
-      try {
-        await api('/progress/review', {
-          method: 'POST',
-          body: { wordId: word.id, level: battleState.level, known: false },
-        });
-      } catch (_e) { /* ignore */ }
+      input.className = 'battle-input wrong';
+      battle.wrong += 1;
+      battle.playerHp -= WRONG_DAMAGE;
+      updatePlayerHp();
+      heroHurt();
+      flashScreen();
+      fb.className = 'battle-feedback wrong';
+      fb.textContent = `❌ ผิด! คำที่ถูกคือ "${word.word}"`;
+      recordReview(word, false);
     }
+    afterAnswer(correct);
+  }
 
-    updateBattleHP();
+  function afterAnswer(wasCorrect) {
+    const enemyDead = battle.enemyHp <= 0;
+    const playerDead = battle.playerHp <= 0;
 
-    // เช็คเงื่อนไขสิ้นสุดการต่อสู้
-    const playerDead = battleState.playerHp <= 0;
-    const enemyDead = battleState.enemyHp <= 0;
+    setTimeout(() => {
+      if (playerDead) { finishBattle(false); return; }
+      if (enemyDead) {
+        enemyDefeated();
+        return;
+      }
+      nextWord();
+    }, wasCorrect ? 850 : 1250);
+  }
 
-    if (playerDead || enemyDead || battleState.index >= battleState.queue.length - 1) {
-      setTimeout(() => finishBattle(enemyDead && !playerDead), 1200);
-    } else {
-      battleState.index += 1;
-      setTimeout(renderBattleWord, 1100);
-    }
+  function enemyDefeated() {
+    const sprite = document.getElementById('enemy-sprite');
+    sprite.className = 'enemy-sprite defeated';
+    setTimeout(() => {
+      battle.enemyIndex += 1;
+      if (battle.enemyIndex >= battle.enemyKeys.length) {
+        finishBattle(true);
+      } else {
+        spawnEnemy();
+      }
+    }, 700);
+  }
+
+  async function recordReview(word, known) {
+    try {
+      const result = await api('/progress/review', {
+        method: 'POST',
+        body: { wordId: word.id, level: battle.level, known },
+      });
+      battle.expGained += result.gainedExp;
+      if (known && result.gainedExp > 0) popExp(result.gainedExp);
+      state.user.exp = result.levelInfo.exp;
+      state.user.level = result.levelInfo.level;
+      state.user.expIntoLevel = result.levelInfo.expIntoLevel;
+      state.user.expForNextLevel = result.levelInfo.expForNextLevel;
+      state.user.progressPercent = result.levelInfo.progressPercent;
+      renderHud();
+      if (result.leveledUp) showLevelUp(result.levelInfo);
+    } catch (_e) { /* keep playing even if save fails */ }
+  }
+
+  // --- animations ---
+  function enemyHurt() {
+    const s = document.getElementById('enemy-sprite');
+    s.classList.remove('idle');
+    s.classList.add('hurt');
+    setTimeout(() => { s.classList.remove('hurt'); s.classList.add('idle'); }, 400);
+  }
+  function heroAttack() {
+    const h = document.getElementById('hero-sprite');
+    h.classList.add('attack');
+    setTimeout(() => h.classList.remove('attack'), 400);
+  }
+  function heroHurt() {
+    const h = document.getElementById('hero-sprite');
+    h.classList.add('hurt');
+    setTimeout(() => h.classList.remove('hurt'), 400);
+  }
+  function flashScreen() {
+    const f = document.getElementById('battle-flash');
+    f.classList.add('active');
+    setTimeout(() => f.classList.remove('active'), 250);
+  }
+  function floatText(text, cls) {
+    const el = document.getElementById('enemy-float');
+    el.textContent = text;
+    el.className = 'floating-text ' + (cls || '');
+    // force reflow to restart animation
+    void el.offsetWidth;
+    el.classList.add('go');
+    setTimeout(() => { el.className = 'floating-text hidden'; }, 900);
   }
 
   function finishBattle(won) {
-    if (battleState.hintTimer) clearTimeout(battleState.hintTimer);
-    const icon = won ? '🏆' : '💀';
-    const title = won ? 'ชนะแล้ว!' : 'แพ้แล้ว...';
-    const sub = won
-      ? `ยอดเยี่ยมมาก! คุณกำจัด${ENEMIES[battleState.level]?.name || 'ศัตรู'}ได้สำเร็จ`
-      : `ไม่เป็นไร สู้ใหม่ได้เสมอ! HP หมดก่อน`;
+    stopWordTimer();
+    if (won) {
+      markStageCleared(battle.level, battle.stageIndex);
+    }
+    const stages = QUEST_STAGES[battle.level];
+    const isLastStage = battle.stageIndex >= stages.length - 1;
+    const hasNext = won && !isLastStage;
+
+    const icon = won ? (isLastStage ? '👑' : '🏆') : '💀';
     document.getElementById('battle-result-icon').textContent = icon;
-    document.getElementById('battle-result-title').textContent = title;
-    document.getElementById('battle-result-sub').textContent = sub;
-    document.getElementById('br-correct').textContent = battleState.correct;
-    document.getElementById('br-wrong').textContent = battleState.wrong;
-    document.getElementById('br-exp').textContent = battleState.expGained;
+    document.getElementById('battle-result-title').textContent = won
+      ? (isLastStage ? 'พิชิตโซนสำเร็จ!' : 'ผ่านด่านแล้ว!')
+      : 'พ่ายแพ้...';
+    document.getElementById('battle-result-sub').textContent = won
+      ? (isLastStage
+          ? `สุดยอด! คุณพิชิต${QUEST_ZONES[battle.level].title}ครบทุกด่านแล้ว`
+          : `ผ่านด่าน ${battle.stageIndex + 1} เรียบร้อย เดินหน้าสู่ด่านต่อไป!`)
+      : 'HP หมดก่อน ลองสู้ใหม่อีกครั้ง!';
+    document.getElementById('br-correct').textContent = battle.correct;
+    document.getElementById('br-wrong').textContent = battle.wrong;
+    document.getElementById('br-exp').textContent = battle.expGained;
+
+    // ปุ่มขวา: ถ้าชนะและมีด่านถัดไป → "ด่านถัดไป", ถ้าแพ้ → "ลองใหม่", ถ้าจบโซน → "เลือกด่าน"
+    const againBtn = document.getElementById('btn-br-again');
+    againBtn.textContent = hasNext ? '➡️ ด่านถัดไป' : (won ? '🗺️ เลือกด่าน' : '🔄 ลองใหม่');
+    battle.resultAction = hasNext ? 'next' : (won ? 'select' : 'retry');
+
     showScreen('screen-battle-result');
   }
 
-  // Battle event listeners
+  // --- event listeners ---
   document.getElementById('btn-battle-submit').addEventListener('click', submitBattleAnswer);
   document.getElementById('battle-input').addEventListener('keydown', (e) => {
     if (e.key === 'Enter') submitBattleAnswer();
   });
   document.getElementById('btn-exit-battle').addEventListener('click', () => {
-    if (battleState && battleState.hintTimer) clearTimeout(battleState.hintTimer);
-    battleState = null;
-    showScreen('screen-map');
-    loadMap();
+    stopWordTimer();
+    const level = battle ? battle.level : null;
+    battle = null;
+    if (level) {
+      openQuestSelect(level);
+    } else {
+      showScreen('screen-map');
+      loadMap();
+    }
   });
   document.getElementById('btn-br-map').addEventListener('click', () => {
-    battleState = null;
-    showScreen('screen-map');
-    loadMap();
+    const level = battle ? battle.level : null;
+    battle = null;
+    if (level) {
+      openQuestSelect(level);
+    } else {
+      showScreen('screen-map');
+      loadMap();
+    }
   });
   document.getElementById('btn-br-again').addEventListener('click', () => {
-    const level = battleState ? battleState.level : 'A1';
-    startBattle(level);
+    if (!battle) { showScreen('screen-map'); loadMap(); return; }
+    const { level, stageIndex, resultAction } = battle;
+    if (resultAction === 'next') {
+      startBattle(level, stageIndex + 1);
+    } else if (resultAction === 'select') {
+      openQuestSelect(level);
+    } else {
+      startBattle(level, stageIndex);
+    }
   });
 
   // ---------------------------------------------------------------
