@@ -119,6 +119,7 @@
         <div class="hud-exp-bar-bg"><div class="hud-exp-bar-fill" id="hud-exp-fill"></div></div>
         <div class="hud-exp-label" id="hud-exp-label">0 / 80 EXP</div>
       </div>
+      <button class="hud-icon-btn" id="btn-grammar" title="เรียนแกรมม่า">📚</button>
       <button class="hud-icon-btn" id="btn-leaderboard" title="ดูอันดับ">🏆</button>
       <button class="hud-logout" id="btn-logout">ออกจากระบบ</button>
     </div>
@@ -129,15 +130,7 @@
     <div class="container">
       <div class="map-heading">
         <h1>เลือกด่านที่จะผจญภัย</h1>
-        <p>เลือกโหมดและด่านเพื่อเริ่มผจญภัย</p>
-        <div class="mode-tabs">
-          <button class="mode-tab active" id="mode-tab-flashcard" data-mode="flashcard">
-            🃏 Flashcard
-          </button>
-          <button class="mode-tab" id="mode-tab-battle" data-mode="battle">
-            ⚔️ Battle Mode
-          </button>
-        </div>
+        <p>เลือกด่านเพื่อเริ่มเล่น Flashcard</p>
       </div>
 
       <div class="trail-track" id="trail-track">
@@ -215,119 +208,77 @@
     </div>
   </section>
 
-  <!-- ============== QUEST SELECT SCREEN ============== -->
-  <section id="screen-quest-select" class="screen hidden">
+  <!-- ============== GRAMMAR LIST SCREEN ============== -->
+  <section id="screen-grammar-list" class="screen hidden">
     <div class="container">
-      <div class="battle-top">
-        <button class="game-exit" id="btn-quest-back">← กลับแผนที่</button>
-        <span class="game-level-chip" id="quest-level-chip">A1</span>
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-grammar-back">← กลับแผนที่</button>
+        <div class="grammar-header-title">📚 บทเรียนแกรมม่า</div>
       </div>
-      <div class="quest-select-head">
-        <h1 id="quest-zone-title">ที่ราบมือใหม่</h1>
-        <p id="quest-zone-sub">เดินทางผ่าน 5 ด่าน สู้ศัตรูให้ครบแล้วโค่นบอส</p>
+      <div class="grammar-intro-card">
+        <div class="grammar-intro-icon">🎓</div>
+        <div>
+          <div class="grammar-intro-title">เรียน 16 บทหลักของภาษาอังกฤษ</div>
+          <div class="grammar-intro-sub">อ่านเนื้อหา + ทำข้อสอบท้ายบท ได้ EXP ทุกครั้งที่ทำได้ดีขึ้น</div>
+        </div>
       </div>
-      <div class="quest-stage-list" id="quest-stage-list">
+      <div class="grammar-chapters" id="grammar-chapters">
         <div class="loading-spinner"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============== BATTLE SCREEN (Dragon Quest style) ============== -->
-  <section id="screen-battle" class="screen hidden">
-    <div class="battle-scene" id="battle-scene">
-      <div class="battle-flash" id="battle-flash"></div>
-
-      <!-- Top bar: retreat + stage indicator -->
-      <div class="battle-scene-top">
-        <button class="battle-retreat" id="btn-exit-battle">✕ ถอย</button>
-        <div class="battle-stage-dots" id="battle-stage-dots"></div>
+  <!-- ============== GRAMMAR LESSON SCREEN ============== -->
+  <section id="screen-grammar-lesson" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-lesson-back">← กลับรายการบท</button>
+        <div class="grammar-chapter-badge" id="lesson-badge">บทที่ 1</div>
       </div>
-
-      <!-- Enemy area -->
-      <div class="enemy-area">
-        <div class="enemy-hp-wrap">
-          <span class="enemy-hp-name" id="enemy-name">สไลม์</span>
-          <div class="enemy-hp-track">
-            <div class="enemy-hp-fill" id="enemy-hp-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="enemy-stage">
-          <div class="floating-text hidden" id="enemy-float"></div>
-          <div class="enemy-sprite idle" id="enemy-sprite"></div>
-          <div class="enemy-shadow"></div>
-        </div>
+      <div class="grammar-lesson-head" id="lesson-head">
+        <div class="loading-spinner"></div>
       </div>
-
-      <!-- Hero area -->
-      <div class="hero-area">
-        <div class="hero-sprite" id="hero-sprite">
-          <svg viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="40" cy="84" rx="22" ry="5" fill="#000" opacity="0.25"/>
-            <path d="M28 44 L52 44 L48 78 L32 78 Z" fill="#3556a8"/>
-            <rect x="30" y="42" width="20" height="22" rx="4" fill="#4d6fa8"/>
-            <circle cx="40" cy="28" r="14" fill="#f0c088"/>
-            <path d="M26 26 Q40 8 54 26 Q54 16 40 14 Q26 16 26 26" fill="#6d4423"/>
-            <circle cx="35" cy="28" r="2" fill="#1a1a1a"/>
-            <circle cx="45" cy="28" r="2" fill="#1a1a1a"/>
-            <rect x="18" y="46" width="8" height="24" rx="3" fill="#f0c088"/>
-            <rect x="54" y="46" width="8" height="24" rx="3" fill="#f0c088"/>
-            <g id="hero-sword">
-              <rect x="58" y="20" width="4" height="40" rx="2" fill="#d8d8e0"/>
-              <rect x="52" y="56" width="16" height="5" rx="2" fill="#c2823a"/>
-              <rect x="58" y="60" width="4" height="8" fill="#8d5a2b"/>
-            </g>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Player HP + timer -->
-      <div class="battle-status-bar">
-        <div class="player-hp-block">
-          <span class="player-hp-label">❤️</span>
-          <div class="player-hp-track">
-            <div class="player-hp-fill" id="player-hp-fill" style="width:100%"></div>
-          </div>
-          <span class="player-hp-num" id="player-hp-num">100</span>
-        </div>
-        <div class="battle-timer-block">
-          <div class="battle-timer-track">
-            <div class="battle-timer-fill" id="battle-timer-fill" style="width:100%"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- RPG message box -->
-      <div class="rpg-box">
-        <div class="rpg-prompt-row">
-          <div class="rpg-meaning" id="battle-meaning">ความหมาย</div>
-          <div class="rpg-pos" id="battle-pos"></div>
-        </div>
-        <div class="rpg-hint hidden" id="battle-hint"></div>
-        <div class="battle-input-row">
-          <input type="text" id="battle-input" class="battle-input"
-            placeholder="พิมพ์คำภาษาอังกฤษ..." autocomplete="off" autocorrect="off"
-            autocapitalize="off" spellcheck="false" />
-          <button class="btn btn-primary battle-submit" id="btn-battle-submit">⚔️</button>
-        </div>
-        <div class="battle-feedback hidden" id="battle-feedback"></div>
+      <div class="grammar-lesson-body" id="lesson-body"></div>
+      <div class="grammar-lesson-actions">
+        <button class="btn btn-primary" id="btn-start-quiz" style="width:100%;">📝 ทำข้อสอบท้ายบท</button>
       </div>
     </div>
   </section>
 
-  <!-- ============== BATTLE RESULT SCREEN ============== -->
-  <section id="screen-battle-result" class="screen hidden">
-    <div class="summary-card">
-      <div style="font-size:3rem;" id="battle-result-icon">🏆</div>
-      <h2 id="battle-result-title">ชนะแล้ว!</h2>
-      <p id="battle-result-sub"></p>
-      <div class="summary-stats">
-        <div class="summary-stat"><div class="num" id="br-correct">0</div><div class="lbl">ตอบถูก</div></div>
-        <div class="summary-stat"><div class="num" id="br-wrong">0</div><div class="lbl">ตอบผิด</div></div>
-        <div class="summary-stat"><div class="num" id="br-exp">0</div><div class="lbl">EXP ที่ได้</div></div>
+  <!-- ============== GRAMMAR QUIZ SCREEN ============== -->
+  <section id="screen-grammar-quiz" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-quiz-back">← กลับบทเรียน</button>
+        <div class="grammar-chapter-badge" id="quiz-badge">ข้อสอบ</div>
       </div>
-      <div class="summary-actions">
-        <button class="btn btn-secondary" id="btn-br-map" style="flex:1;">🗺️ เลือกด่าน</button>
-        <button class="btn btn-primary" id="btn-br-again" style="flex:1;" >เล่นต่อ</button>
+      <div class="grammar-quiz-progress" id="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+      <div class="grammar-quiz-count" id="quiz-count">ข้อ 1 / 5</div>
+      <div class="grammar-quiz-question" id="quiz-question"></div>
+      <div class="grammar-quiz-choices" id="quiz-choices"></div>
+    </div>
+  </section>
+
+  <!-- ============== GRAMMAR QUIZ RESULT SCREEN ============== -->
+  <section id="screen-grammar-result" class="screen hidden">
+    <div class="container">
+      <div class="summary-card">
+        <div style="font-size:3rem;" id="gr-icon">🎉</div>
+        <h2 id="gr-title">ผลข้อสอบ</h2>
+        <div class="gr-score" id="gr-score">4 / 5</div>
+        <div class="gr-message" id="gr-message"></div>
+        <div class="summary-stats">
+          <div class="summary-stat"><div class="num" id="gr-correct-num">0</div><div class="lbl">ตอบถูก</div></div>
+          <div class="summary-stat"><div class="num" id="gr-wrong-num">0</div><div class="lbl">ตอบผิด</div></div>
+          <div class="summary-stat"><div class="num" id="gr-exp-num">0</div><div class="lbl">EXP ที่ได้</div></div>
+        </div>
+        <div class="gr-review" id="gr-review"></div>
+        <div class="summary-actions">
+          <button class="btn btn-secondary" id="btn-gr-lesson" style="flex:1;">📖 กลับบทเรียน</button>
+          <button class="btn btn-primary" id="btn-gr-retry" style="flex:1;">🔄 ทำใหม่</button>
+        </div>
       </div>
     </div>
   </section>
