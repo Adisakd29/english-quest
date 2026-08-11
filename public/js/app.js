@@ -714,6 +714,235 @@
   });
 
   // ---------------------------------------------------------------
+  // GRAMMAR — บทเรียน + ข้อสอบท้ายบท
+  // ---------------------------------------------------------------
+  const grammarState = {
+    chapters: [],
+    currentChapter: null,
+    quiz: null,     // { chapterId, title, questions[], answers[], index }
+  };
+
+  document.getElementById('btn-grammar').addEventListener('click', openGrammarList);
+  document.getElementById('btn-grammar-back').addEventListener('click', () => {
+    showScreen('screen-map');
+    loadMap();
+  });
+  document.getElementById('btn-lesson-back').addEventListener('click', openGrammarList);
+  document.getElementById('btn-quiz-back').addEventListener('click', () => {
+    if (grammarState.currentChapter) {
+      openLesson(grammarState.currentChapter.id);
+    } else {
+      openGrammarList();
+    }
+  });
+  document.getElementById('btn-start-quiz').addEventListener('click', () => {
+    if (grammarState.currentChapter) startQuiz(grammarState.currentChapter.id);
+  });
+  document.getElementById('btn-gr-lesson').addEventListener('click', () => {
+    if (grammarState.currentChapter) openLesson(grammarState.currentChapter.id);
+    else openGrammarList();
+  });
+  document.getElementById('btn-gr-retry').addEventListener('click', () => {
+    if (grammarState.currentChapter) startQuiz(grammarState.currentChapter.id);
+  });
+
+  async function openGrammarList() {
+    showScreen('screen-grammar-list');
+    const wrap = document.getElementById('grammar-chapters');
+    wrap.innerHTML = '<div class="loading-spinner"></div>';
+    try {
+      const { chapters } = await api('/grammar');
+      grammarState.chapters = chapters;
+      renderGrammarList();
+    } catch (err) {
+      wrap.innerHTML = `<div class="form-error" style="text-align:center;">${err.message}</div>`;
+    }
+  }
+
+  function renderGrammarList() {
+    const wrap = document.getElementById('grammar-chapters');
+    wrap.innerHTML = '';
+    grammarState.chapters.forEach((c) => {
+      const p = c.progress || { completed: false, score: 0, total: c.quizCount };
+      const scoreBadge = p.completed
+        ? `<div class="chapter-score done"><span class="star">⭐</span> ${p.score}/${p.total}</div>`
+        : `<div class="chapter-score">${c.quizCount} ข้อ</div>`;
+      const btn = document.createElement('button');
+      btn.className = 'chapter-card' + (p.completed && p.score === p.total ? ' completed' : '');
+      btn.innerHTML = `
+        <div class="chapter-icon-wrap" style="background:${c.color};">${c.icon}</div>
+        <div class="chapter-info">
+          <div class="chapter-num">บทที่ ${c.num}</div>
+          <div class="chapter-title-text">${c.title}</div>
+          <div class="chapter-sub">${c.intro}</div>
+        </div>
+        ${scoreBadge}
+      `;
+      btn.addEventListener('click', () => openLesson(c.id));
+      wrap.appendChild(btn);
+    });
+  }
+
+  async function openLesson(chapterId) {
+    showScreen('screen-grammar-lesson');
+    const head = document.getElementById('lesson-head');
+    const body = document.getElementById('lesson-body');
+    head.innerHTML = '<div class="loading-spinner"></div>';
+    body.innerHTML = '';
+    try {
+      const { chapter } = await api(`/grammar/${chapterId}`);
+      grammarState.currentChapter = chapter;
+      document.getElementById('lesson-badge').textContent = `บทที่ ${chapter.num}`;
+      head.style.background = `linear-gradient(135deg, ${chapter.color}22, var(--bg-night-2))`;
+      head.innerHTML = `
+        <div class="lesson-icon">${chapter.icon}</div>
+        <div class="lesson-title">${chapter.title}</div>
+        <div class="lesson-intro">${chapter.intro}</div>
+      `;
+      body.innerHTML = chapter.sections.map((s) => renderSectionCard(s)).join('');
+    } catch (err) {
+      head.innerHTML = `<div class="form-error">${err.message}</div>`;
+    }
+  }
+
+  function renderSectionCard(section) {
+    const examples = (section.examples || []).map((ex) => `
+      <div class="example-item">
+        <div class="example-en">${ex.en}</div>
+        <div class="example-th">${escapeHtml(ex.th)}</div>
+      </div>
+    `).join('');
+    return `
+      <div class="section-card">
+        <div class="section-heading">${escapeHtml(section.heading)}</div>
+        <div class="section-content">${section.content}</div>
+        ${examples ? `<div class="examples-list">${examples}</div>` : ''}
+      </div>
+    `;
+  }
+
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+    }[c]));
+  }
+
+  async function startQuiz(chapterId) {
+    showScreen('screen-grammar-quiz');
+    document.getElementById('quiz-choices').innerHTML = '<div class="loading-spinner"></div>';
+    try {
+      const data = await api(`/grammar/${chapterId}/quiz`);
+      grammarState.quiz = {
+        chapterId: data.chapterId,
+        title: data.title,
+        questions: data.quiz,
+        answers: new Array(data.quiz.length).fill(null),
+        index: 0,
+      };
+      document.getElementById('quiz-badge').textContent = `📝 ${data.title}`;
+      renderQuizQuestion();
+    } catch (err) {
+      document.getElementById('quiz-choices').innerHTML = `<div class="form-error">${err.message}</div>`;
+    }
+  }
+
+  function renderQuizQuestion() {
+    const q = grammarState.quiz;
+    const question = q.questions[q.index];
+    const pct = ((q.index) / q.questions.length) * 100;
+    document.getElementById('quiz-progress-fill').style.width = `${pct}%`;
+    document.getElementById('quiz-count').textContent = `ข้อ ${q.index + 1} / ${q.questions.length}`;
+    document.getElementById('quiz-question').textContent = question.question;
+
+    const choicesWrap = document.getElementById('quiz-choices');
+    choicesWrap.innerHTML = '';
+    question.choices.forEach((choice, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'quiz-choice';
+      btn.textContent = choice;
+      btn.addEventListener('click', () => chooseAnswer(i));
+      choicesWrap.appendChild(btn);
+    });
+  }
+
+  function chooseAnswer(choiceIndex) {
+    const q = grammarState.quiz;
+    q.answers[q.index] = choiceIndex;
+    // ไฮไลต์คำตอบที่เลือก
+    document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === choiceIndex) btn.classList.add('chosen');
+    });
+    // ไปข้อถัดไปหลังหน่วงเล็กน้อย หรือส่งคำตอบถ้าจบแล้ว
+    setTimeout(() => {
+      if (q.index < q.questions.length - 1) {
+        q.index += 1;
+        renderQuizQuestion();
+      } else {
+        submitQuizAnswers();
+      }
+    }, 350);
+  }
+
+  async function submitQuizAnswers() {
+    const q = grammarState.quiz;
+    try {
+      const result = await api(`/grammar/${q.chapterId}/submit`, {
+        method: 'POST',
+        body: { answers: q.answers },
+      });
+      showQuizResult(result);
+    } catch (err) {
+      toast(err.message || 'ส่งคำตอบไม่สำเร็จ', 'error');
+    }
+  }
+
+  function showQuizResult(result) {
+    showScreen('screen-grammar-result');
+    const wrongCount = result.total - result.score;
+    const icon = result.perfect ? '🏆' : result.score >= result.total * 0.7 ? '🎉' : result.score >= result.total * 0.4 ? '👍' : '💪';
+    const title = result.perfect ? 'สุดยอด! ตอบถูกหมดเลย' : result.score >= result.total * 0.7 ? 'เก่งมาก!' : result.score >= result.total * 0.4 ? 'พอใช้ได้' : 'ลองใหม่นะ';
+    document.getElementById('gr-icon').textContent = icon;
+    document.getElementById('gr-title').textContent = title;
+    document.getElementById('gr-score').textContent = `${result.score} / ${result.total}`;
+    document.getElementById('gr-correct-num').textContent = result.score;
+    document.getElementById('gr-wrong-num').textContent = wrongCount;
+    document.getElementById('gr-exp-num').textContent = result.gainedExp;
+    let msg = '';
+    if (result.gainedExp > 0) msg = `ได้ EXP เพิ่ม ${result.gainedExp} คะแนน!`;
+    else if (result.previousBest > 0) msg = 'ต้องทำได้ดีกว่าสถิติเดิมจึงจะได้ EXP เพิ่ม';
+    else msg = '';
+    document.getElementById('gr-message').textContent = msg;
+
+    // แสดงเฉลย
+    const reviewWrap = document.getElementById('gr-review');
+    reviewWrap.innerHTML = result.results.map((r) => {
+      const yourAnswer = r.chosenIndex != null ? r.choices[r.chosenIndex] : '(ไม่ตอบ)';
+      const correctAnswer = r.choices[r.correctIndex];
+      return `
+        <div class="gr-review-item ${r.correct ? 'correct' : 'wrong'}">
+          <div class="gr-review-q">${r.correct ? '✅' : '❌'} ${escapeHtml(r.question)}</div>
+          <div class="gr-review-a">
+            คำตอบของคุณ: <b>${escapeHtml(yourAnswer)}</b>${r.correct ? '' : `<br>คำตอบที่ถูก: <b>${escapeHtml(correctAnswer)}</b>`}
+            <br>${escapeHtml(r.explain)}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // update HUD
+    if (result.levelInfo) {
+      state.user.exp = result.levelInfo.exp;
+      state.user.level = result.levelInfo.level;
+      state.user.expIntoLevel = result.levelInfo.expIntoLevel;
+      state.user.expForNextLevel = result.levelInfo.expForNextLevel;
+      state.user.progressPercent = result.levelInfo.progressPercent;
+      renderHud();
+      if (result.leveledUp) showLevelUp(result.levelInfo);
+    }
+  }
+
+  // ---------------------------------------------------------------
   // Boot
   // ---------------------------------------------------------------
   async function boot() {
