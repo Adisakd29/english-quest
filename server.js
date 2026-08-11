@@ -19,6 +19,7 @@ const wordsRoutes = require('./routes/words');
 const progressRoutes = require('./routes/progress');
 const translateRoutes = require('./routes/translate');
 const leaderboardRoutes = require('./routes/leaderboard');
+const grammarRoutes = require('./routes/grammar');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -32,6 +33,7 @@ app.use('/api/words', wordsRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/translate', translateRoutes);
 app.use('/api/leaderboard', leaderboardRoutes);
+app.use('/api/grammar', grammarRoutes);
 
 app.get('/api/health', (_req, res) => res.json({ ok: true, version: pkg.version }));
 
