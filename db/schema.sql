@@ -46,3 +46,17 @@ CREATE TABLE IF NOT EXISTS translations (
   th_text    VARCHAR(255) NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- ตารางความคืบหน้าบทเรียนแกรมม่า
+CREATE TABLE IF NOT EXISTS grammar_progress (
+  id             SERIAL PRIMARY KEY,
+  user_id        INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  chapter_id     VARCHAR(32) NOT NULL,
+  quiz_completed BOOLEAN NOT NULL DEFAULT FALSE,
+  quiz_score     INTEGER NOT NULL DEFAULT 0,
+  quiz_total     INTEGER NOT NULL DEFAULT 0,
+  last_attempted TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  UNIQUE (user_id, chapter_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_grammar_progress_user ON grammar_progress (user_id);
