@@ -119,16 +119,47 @@
         <div class="hud-exp-bar-bg"><div class="hud-exp-bar-fill" id="hud-exp-fill"></div></div>
         <div class="hud-exp-label" id="hud-exp-label">0 / 80 EXP</div>
       </div>
-      <button class="hud-icon-btn" id="btn-grammar" title="เรียนแกรมม่า">📚</button>
+      <button class="hud-icon-btn" id="btn-home" title="หน้าหลัก">🏠</button>
       <button class="hud-icon-btn" id="btn-leaderboard" title="ดูอันดับ">🏆</button>
       <button class="hud-logout" id="btn-logout">ออกจากระบบ</button>
     </div>
   </header>
 
+  <!-- ============== HOME SCREEN ============== -->
+  <section id="screen-home" class="screen">
+    <div class="container">
+      <div class="home-heading">
+        <h1 id="home-greeting">สวัสดี!</h1>
+        <p>เลือกสิ่งที่อยากเรียนวันนี้</p>
+      </div>
+
+      <div class="home-menu">
+        <button class="home-menu-card grammar-card" id="home-btn-grammar">
+          <div class="home-menu-icon">📚</div>
+          <div class="home-menu-info">
+            <div class="home-menu-title">เรียนแกรมม่า</div>
+            <div class="home-menu-sub">16 บท พร้อมข้อสอบท้ายเรื่อง</div>
+          </div>
+          <div class="home-menu-arrow">→</div>
+        </button>
+
+        <button class="home-menu-card vocab-card" id="home-btn-vocab">
+          <div class="home-menu-icon">🗺️</div>
+          <div class="home-menu-info">
+            <div class="home-menu-title">เรียนคำศัพท์</div>
+            <div class="home-menu-sub">5 ระดับ A1-C1 · Oxford 5000</div>
+          </div>
+          <div class="home-menu-arrow">→</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
   <!-- ============== MAP SCREEN ============== -->
-  <section id="screen-map" class="screen">
+  <section id="screen-map" class="screen hidden">
     <div class="container">
       <div class="map-heading">
+        <button class="game-exit map-back-btn" id="btn-map-back">← กลับหน้าหลัก</button>
         <h1>เลือกด่านที่จะผจญภัย</h1>
         <p>เลือกด่านเพื่อเริ่มเล่น Flashcard</p>
       </div>
@@ -144,7 +175,7 @@
   <section id="screen-leaderboard" class="screen hidden">
     <div class="container">
       <div class="game-top">
-        <button class="game-exit" id="btn-leaderboard-back">← กลับแผนที่</button>
+        <button class="game-exit" id="btn-leaderboard-back">← กลับหน้าหลัก</button>
         <span class="game-level-chip" style="background:var(--gold); color:var(--ink);">🏆 อันดับ EXP</span>
       </div>
 
@@ -212,7 +243,7 @@
   <section id="screen-grammar-list" class="screen hidden">
     <div class="container">
       <div class="grammar-top">
-        <button class="game-exit" id="btn-grammar-back">← กลับแผนที่</button>
+        <button class="game-exit" id="btn-grammar-back">← กลับหน้าหลัก</button>
         <div class="grammar-header-title">📚 บทเรียนแกรมม่า</div>
       </div>
       <div class="grammar-intro-card">
