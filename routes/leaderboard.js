@@ -11,6 +11,7 @@ function toEntry(row) {
     rank: Number(row.rank),
     username: row.username,
     avatar: row.avatar,
+    avatarImage: row.avatar_image || null,
     exp: row.exp,
     level: getLevelInfo(row.exp).level,
   };
@@ -19,7 +20,7 @@ function toEntry(row) {
 router.get('/', authRequired, async (req, res) => {
   try {
     const topResult = await pool.query(
-      `SELECT id, username, avatar, exp, RANK() OVER (ORDER BY exp DESC) AS rank
+      `SELECT id, username, avatar, avatar_image, exp, RANK() OVER (ORDER BY exp DESC) AS rank
        FROM users
        ORDER BY exp DESC
        LIMIT $1`,
@@ -31,8 +32,8 @@ router.get('/', authRequired, async (req, res) => {
 
     if (!me) {
       const meResult = await pool.query(
-        `SELECT username, avatar, exp, rank FROM (
-           SELECT id, username, avatar, exp, RANK() OVER (ORDER BY exp DESC) AS rank
+        `SELECT username, avatar, avatar_image, exp, rank FROM (
+           SELECT id, username, avatar, avatar_image, exp, RANK() OVER (ORDER BY exp DESC) AS rank
            FROM users
          ) ranked WHERE id = $1`,
         [req.userId]

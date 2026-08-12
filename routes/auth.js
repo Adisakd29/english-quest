@@ -57,6 +57,7 @@ function publicUser(row) {
     username: row.username,
     email: row.email,
     avatar: row.avatar,
+    avatarImage: row.avatar_image || null,
     exp: row.exp,
     ...levelInfo,
   };
@@ -97,7 +98,7 @@ router.post('/register', async (req, res) => {
     const result = await pool.query(
       `INSERT INTO users (username, email, password_hash)
        VALUES ($1, $2, $3)
-       RETURNING id, username, email, exp, avatar, created_at`,
+       RETURNING id, username, email, exp, avatar, avatar_image, created_at`,
       [username, email.toLowerCase(), passwordHash]
     );
 
@@ -167,7 +168,7 @@ router.patch('/username', authRequired, async (req, res) => {
     }
 
     const result = await pool.query(
-      'UPDATE users SET username = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, created_at',
+      'UPDATE users SET username = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, avatar_image, created_at',
       [username, req.userId]
     );
     const user = result.rows[0];
@@ -187,7 +188,7 @@ router.patch('/avatar', authRequired, async (req, res) => {
     }
 
     const result = await pool.query(
-      'UPDATE users SET avatar = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, created_at',
+      'UPDATE users SET avatar = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, avatar_image, created_at',
       [avatar, req.userId]
     );
     const user = result.rows[0];
@@ -196,6 +197,52 @@ router.patch('/avatar', authRequired, async (req, res) => {
   } catch (err) {
     console.error('[auth/avatar]', err);
     res.status(500).json({ error: 'เปลี่ยนอวตารไม่สำเร็จ ลองใหม่อีกครั้ง' });
+  }
+});
+
+// อัปโหลดรูปโปรไฟล์ที่ผู้ใช้ถ่ายเอง — รับ data URL ที่ย่อรูปแล้วจากฝั่ง client
+// จำกัดขนาดที่ ~150KB base64 (~110KB ไฟล์จริง) เพื่อไม่ให้ database บวมเกินไป
+const MAX_AVATAR_BYTES = 150 * 1024;
+const AVATAR_DATA_URL_RE = /^data:image\/(png|jpe?g|webp);base64,[A-Za-z0-9+/=]+$/;
+
+router.patch('/avatar-image', authRequired, async (req, res) => {
+  try {
+    const { image } = req.body || {};
+    if (!image || typeof image !== 'string') {
+      return res.status(400).json({ error: 'ไม่ได้รับรูปภาพ' });
+    }
+    if (image.length > MAX_AVATAR_BYTES) {
+      return res.status(413).json({ error: 'รูปใหญ่เกินไป (จำกัด ~110KB หลังย่อ)' });
+    }
+    if (!AVATAR_DATA_URL_RE.test(image)) {
+      return res.status(400).json({ error: 'รูปแบบไฟล์ไม่ถูกต้อง (รองรับ PNG/JPG/WebP)' });
+    }
+    const result = await pool.query(
+      'UPDATE users SET avatar_image = $1 WHERE id = $2 RETURNING id, username, email, exp, avatar, avatar_image, created_at',
+      [image, req.userId]
+    );
+    const user = result.rows[0];
+    if (!user) return res.status(404).json({ error: 'ไม่พบผู้ใช้' });
+    res.json({ user: publicUser(user) });
+  } catch (err) {
+    console.error('[auth/avatar-image]', err);
+    res.status(500).json({ error: 'อัปโหลดรูปไม่สำเร็จ ลองใหม่อีกครั้ง' });
+  }
+});
+
+// ลบรูปโปรไฟล์ที่อัปโหลด — กลับไปใช้ emoji avatar
+router.delete('/avatar-image', authRequired, async (req, res) => {
+  try {
+    const result = await pool.query(
+      'UPDATE users SET avatar_image = NULL WHERE id = $1 RETURNING id, username, email, exp, avatar, avatar_image, created_at',
+      [req.userId]
+    );
+    const user = result.rows[0];
+    if (!user) return res.status(404).json({ error: 'ไม่พบผู้ใช้' });
+    res.json({ user: publicUser(user) });
+  } catch (err) {
+    console.error('[auth/avatar-image-delete]', err);
+    res.status(500).json({ error: 'ลบรูปไม่สำเร็จ' });
   }
 });
 
