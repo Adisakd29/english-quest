@@ -1434,3 +1434,257 @@ h1, h2, h3, .display {
   line-height: 1.5;
 }
 .gr-review-a b { color: var(--gold); font-weight: 700; }
+
+/* ============================================================
+   HOME SCREEN
+   ============================================================ */
+#screen-home {
+  padding: 32px 0 60px;
+}
+.home-heading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.home-heading h1 {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  color: var(--white);
+  font-weight: 800;
+}
+.home-heading p {
+  color: var(--ink-faint);
+  font-size: 0.95rem;
+  margin-top: 6px;
+}
+.home-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.home-menu-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 20px;
+  background: var(--bg-night-2);
+  border: 2px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-lg);
+  color: var(--parchment);
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.2s ease;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.home-menu-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 40%, rgba(255,255,255,0.05) 50%, transparent 60%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+.home-menu-card:hover::before { transform: translateX(100%); }
+.home-menu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+}
+.grammar-card:hover { border-color: #c14a4a; }
+.vocab-card:hover { border-color: #e0a458; }
+
+.home-menu-icon {
+  width: 68px; height: 68px;
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.4rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(0,0,0,0.15));
+}
+.grammar-card .home-menu-icon { background: linear-gradient(135deg, #c14a4a, #8a2f2f); }
+.vocab-card .home-menu-icon { background: linear-gradient(135deg, #e0a458, #b57a2a); }
+
+.home-menu-info { flex: 1; min-width: 0; }
+.home-menu-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--white);
+  font-weight: 800;
+}
+.home-menu-sub {
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.home-menu-arrow {
+  font-size: 1.4rem;
+  color: var(--gold);
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: transform 0.15s ease;
+}
+.home-menu-card:hover .home-menu-arrow {
+  transform: translateX(6px);
+  opacity: 1;
+}
+.map-back-btn { margin-bottom: 8px; }
+
+/* ============================================================
+   PROFILE PICTURE UPLOAD
+   ============================================================ */
+.hud-avatar.has-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+.leaderboard-avatar.has-image {
+  padding: 0;
+  overflow: hidden;
+}
+.leaderboard-avatar.has-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-pic-section {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  background: var(--bg-night-3);
+  border-radius: var(--radius-sm);
+}
+.profile-pic-preview {
+  width: 84px; height: 84px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--bg-night-2);
+  border: 3px solid var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  font-size: 2.6rem;
+}
+.profile-pic-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.profile-pic-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+.btn-sm {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+.profile-pic-hint {
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  margin-top: 2px;
+}
+
+/* ============================================================
+   IN-LESSON PRACTICE EXERCISES
+   ============================================================ */
+.practice-wrap {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.practice-block {
+  background: linear-gradient(135deg, #fff4d6, #ffeab8);
+  border: 2px dashed #e0a848;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.practice-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #7a5a1a;
+  background: #ffd166;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+}
+.practice-prompt {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.94rem;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.practice-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.practice-choice {
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.1);
+  color: var(--ink);
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.12s ease;
+  width: 100%;
+}
+.practice-choice:hover:not(:disabled) {
+  border-color: #e0a848;
+  transform: translateX(3px);
+}
+.practice-choice:disabled { cursor: default; opacity: 0.75; }
+.practice-choice.correct {
+  border-color: #4caf50;
+  background: #e8f5e9;
+  color: #1b5e20;
+  font-weight: 700;
+  opacity: 1;
+}
+.practice-choice.wrong {
+  border-color: #f44336;
+  background: #ffebee;
+  color: #b71c1c;
+  font-weight: 700;
+  opacity: 1;
+}
+.practice-feedback {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.practice-feedback.correct {
+  background: rgba(76,175,80,0.15);
+  color: #1b5e20;
+  border-left: 3px solid #4caf50;
+}
+.practice-feedback.wrong {
+  background: rgba(244,67,54,0.12);
+  color: #b71c1c;
+  border-left: 3px solid #f44336;
+}
+.practice-explain {
+  display: block;
+  font-weight: 400;
+  margin-top: 4px;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
