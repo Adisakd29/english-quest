@@ -249,7 +249,7 @@
     localStorage.setItem(TOKEN_KEY, token);
     renderHud();
     showApp();
-    loadMap();
+    openHome();
   }
 
   document.getElementById('btn-logout').addEventListener('click', () => {
@@ -265,7 +265,16 @@
   function renderHud() {
     const u = state.user;
     if (!u) return;
-    document.getElementById('hud-avatar').textContent = AVATAR_EMOJI[u.avatar] || '🦊';
+    const hudAvatar = document.getElementById('hud-avatar');
+    if (u.avatarImage) {
+      hudAvatar.textContent = '';
+      hudAvatar.style.backgroundImage = `url("${u.avatarImage}")`;
+      hudAvatar.classList.add('has-image');
+    } else {
+      hudAvatar.style.backgroundImage = '';
+      hudAvatar.classList.remove('has-image');
+      hudAvatar.textContent = AVATAR_EMOJI[u.avatar] || '🦊';
+    }
     document.getElementById('hud-username').textContent = u.username;
     document.getElementById('hud-level-tag').textContent = `LV.${u.level}`;
     document.getElementById('hud-exp-fill').style.width = `${u.progressPercent}%`;
@@ -284,16 +293,37 @@
       return `<button class="avatar-option${selected}" data-avatar-id="${a.id}">${a.emoji}</button>`;
     }).join('');
 
+    const hasCustomImage = !!(state.user && state.user.avatarImage);
+    const previewContent = hasCustomImage
+      ? `<img src="${state.user.avatarImage}" alt="profile" />`
+      : `<span>${AVATAR_EMOJI[state.user.avatar] || '🦊'}</span>`;
+
     overlay.innerHTML = `
       <div class="modal-card">
         <h2>โปรไฟล์ของฉัน</h2>
-        <p class="profile-section-label" style="margin-top:8px;">ชื่อผู้ใช้</p>
+
+        <p class="profile-section-label" style="margin-top:8px;">รูปโปรไฟล์</p>
+        <div class="profile-pic-section">
+          <div class="profile-pic-preview ${hasCustomImage ? 'has-image' : ''}" id="profile-pic-preview">
+            ${previewContent}
+          </div>
+          <div class="profile-pic-controls">
+            <input type="file" id="profile-pic-input" accept="image/png,image/jpeg,image/webp" style="display:none;" />
+            <button class="btn btn-primary btn-sm" id="profile-pic-upload">📷 อัปโหลดรูป</button>
+            <button class="btn btn-secondary btn-sm ${hasCustomImage ? '' : 'hidden'}" id="profile-pic-remove">ลบรูป</button>
+            <div class="profile-pic-hint">รองรับ PNG / JPG / WebP</div>
+          </div>
+        </div>
+        <div class="form-error" id="profile-pic-error"></div>
+
+        <p class="profile-section-label">ชื่อผู้ใช้</p>
         <div class="profile-username-row">
           <input type="text" id="profile-username-input" value="${state.user.username}" maxlength="20" />
           <button class="btn btn-primary" id="profile-username-save">บันทึก</button>
         </div>
         <div class="form-error" id="profile-username-error"></div>
-        <p class="profile-section-label">เลือกอวตาร</p>
+
+        <p class="profile-section-label">หรือเลือกอวตารสำเร็จรูป</p>
         <div class="avatar-grid">${optionsHtml}</div>
         <button class="btn btn-secondary btn-block" style="margin-top:18px;" id="profile-close">ปิด</button>
       </div>`;
@@ -310,6 +340,105 @@
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) overlay.remove();
     });
+
+    // Profile picture upload wiring
+    const picInput = overlay.querySelector('#profile-pic-input');
+    overlay.querySelector('#profile-pic-upload').addEventListener('click', () => picInput.click());
+    picInput.addEventListener('change', (e) => handleAvatarUpload(e, overlay));
+    overlay.querySelector('#profile-pic-remove').addEventListener('click', () => removeAvatarImage(overlay));
+  }
+
+  // ย่อรูปให้เป็น 256x256 (คง aspect ratio, crop กลาง) แล้วเข้ารหัส JPEG คุณภาพ 0.82
+  // เพื่อไม่ให้ไฟล์บวมเกินไป (ปกติจะได้ ~30-70KB)
+  function processAvatarImage(file) {
+    return new Promise((resolve, reject) => {
+      if (!file.type.match(/^image\/(png|jpe?g|webp)$/)) {
+        reject(new Error('รองรับเฉพาะไฟล์ PNG / JPG / WebP'));
+        return;
+      }
+      if (file.size > 10 * 1024 * 1024) {
+        reject(new Error('ไฟล์ใหญ่เกินไป (สูงสุด 10MB)'));
+        return;
+      }
+      const reader = new FileReader();
+      reader.onerror = () => reject(new Error('อ่านไฟล์ไม่สำเร็จ'));
+      reader.onload = () => {
+        const img = new Image();
+        img.onerror = () => reject(new Error('รูปเสียหรือรูปแบบไม่ถูกต้อง'));
+        img.onload = () => {
+          const SIZE = 256;
+          const canvas = document.createElement('canvas');
+          canvas.width = SIZE;
+          canvas.height = SIZE;
+          const ctx = canvas.getContext('2d');
+          // Crop กลางแบบ square
+          const side = Math.min(img.width, img.height);
+          const sx = (img.width - side) / 2;
+          const sy = (img.height - side) / 2;
+          ctx.drawImage(img, sx, sy, side, side, 0, 0, SIZE, SIZE);
+          // ลองย่อคุณภาพลงเรื่อย ๆ ถ้ายังใหญ่เกินขีดจำกัด
+          let quality = 0.82;
+          let dataUrl = canvas.toDataURL('image/jpeg', quality);
+          while (dataUrl.length > 140 * 1024 && quality > 0.4) {
+            quality -= 0.1;
+            dataUrl = canvas.toDataURL('image/jpeg', quality);
+          }
+          if (dataUrl.length > 140 * 1024) {
+            reject(new Error('รูปใหญ่เกินไปแม้ย่อแล้ว ลองใช้รูปอื่น'));
+            return;
+          }
+          resolve(dataUrl);
+        };
+        img.src = reader.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  async function handleAvatarUpload(event, overlay) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+    const errEl = overlay.querySelector('#profile-pic-error');
+    const uploadBtn = overlay.querySelector('#profile-pic-upload');
+    errEl.textContent = '';
+    uploadBtn.disabled = true;
+    uploadBtn.textContent = 'กำลังอัปโหลด...';
+    try {
+      const dataUrl = await processAvatarImage(file);
+      const { user } = await api('/auth/avatar-image', {
+        method: 'PATCH',
+        body: { image: dataUrl },
+      });
+      state.user.avatarImage = user.avatarImage;
+      renderHud();
+      // อัพเดตการแสดงผลใน modal
+      const preview = overlay.querySelector('#profile-pic-preview');
+      preview.innerHTML = `<img src="${dataUrl}" alt="profile" />`;
+      preview.classList.add('has-image');
+      overlay.querySelector('#profile-pic-remove').classList.remove('hidden');
+      toast('อัปโหลดรูปโปรไฟล์แล้ว!', 'success');
+    } catch (err) {
+      errEl.textContent = err.message || 'อัปโหลดไม่สำเร็จ';
+    } finally {
+      uploadBtn.disabled = false;
+      uploadBtn.textContent = '📷 อัปโหลดรูป';
+      event.target.value = ''; // ให้เลือกไฟล์เดิมซ้ำได้
+    }
+  }
+
+  async function removeAvatarImage(overlay) {
+    try {
+      const { user } = await api('/auth/avatar-image', { method: 'DELETE' });
+      state.user.avatarImage = user.avatarImage;
+      renderHud();
+      const preview = overlay.querySelector('#profile-pic-preview');
+      preview.innerHTML = `<span>${AVATAR_EMOJI[state.user.avatar] || '🦊'}</span>`;
+      preview.classList.remove('has-image');
+      overlay.querySelector('#profile-pic-remove').classList.add('hidden');
+      toast('ลบรูปโปรไฟล์แล้ว', 'success');
+    } catch (err) {
+      toast(err.message || 'ลบไม่สำเร็จ', 'error');
+    }
   }
 
   async function saveUsername(overlay) {
@@ -381,6 +510,28 @@
   }
 
   // ---------------------------------------------------------------
+  // ---------------------------------------------------------------
+  // HOME screen — เมนูหลัก 2 อย่าง (เรียนแกรมม่า / เรียนคำศัพท์)
+  // ---------------------------------------------------------------
+  function openHome() {
+    showScreen('screen-home');
+    const greetEl = document.getElementById('home-greeting');
+    if (greetEl && state.user) {
+      greetEl.textContent = `สวัสดี, ${state.user.username}!`;
+    }
+  }
+
+  document.getElementById('home-btn-grammar').addEventListener('click', () => {
+    openGrammarList();
+  });
+  document.getElementById('home-btn-vocab').addEventListener('click', () => {
+    showScreen('screen-map');
+    loadMap();
+  });
+  document.getElementById('btn-home').addEventListener('click', openHome);
+  document.getElementById('btn-map-back').addEventListener('click', openHome);
+
+  // ---------------------------------------------------------------
   // MAP screen
   // ---------------------------------------------------------------
   async function loadMap() {
@@ -442,7 +593,7 @@
     loadLeaderboard();
   });
   document.getElementById('btn-leaderboard-back').addEventListener('click', () => {
-    showScreen('screen-map');
+    openHome();
   });
 
   async function loadLeaderboard() {
@@ -460,10 +611,14 @@
     const rankClass = entry.rank <= 3 ? ` rank-${entry.rank}` : '';
     const meClass = entry.isMe ? ' is-me' : '';
     const medal = entry.rank === 1 ? '🥇' : entry.rank === 2 ? '🥈' : entry.rank === 3 ? '🥉' : `#${entry.rank}`;
+    const avatarContent = entry.avatarImage
+      ? `<img src="${entry.avatarImage}" alt="" />`
+      : (AVATAR_EMOJI[entry.avatar] || '🦊');
+    const avatarClass = entry.avatarImage ? 'leaderboard-avatar has-image' : 'leaderboard-avatar';
     return `
       <div class="leaderboard-row${rankClass}${meClass}">
         <div class="leaderboard-rank">${medal}</div>
-        <div class="leaderboard-avatar">${AVATAR_EMOJI[entry.avatar] || '🦊'}</div>
+        <div class="${avatarClass}">${avatarContent}</div>
         <div class="leaderboard-info">
           <div class="leaderboard-username">${entry.isMe ? `${entry.username} (คุณ)` : entry.username}</div>
           <div class="leaderboard-level">LV.${entry.level}</div>
@@ -722,10 +877,8 @@
     quiz: null,     // { chapterId, title, questions[], answers[], index }
   };
 
-  document.getElementById('btn-grammar').addEventListener('click', openGrammarList);
   document.getElementById('btn-grammar-back').addEventListener('click', () => {
-    showScreen('screen-map');
-    loadMap();
+    openHome();
   });
   document.getElementById('btn-lesson-back').addEventListener('click', openGrammarList);
   document.getElementById('btn-quiz-back').addEventListener('click', () => {
@@ -812,14 +965,53 @@
         <div class="example-th">${escapeHtml(ex.th)}</div>
       </div>
     `).join('');
+
+    // แบบฝึกหัดในบทเรียน — คลิกเลือก แล้วจะเปิดเผยเฉลย (ไม่ให้ EXP)
+    const practiceHtml = (section.practice || []).map((p, pi) => {
+      const choices = p.choices.map((c, ci) =>
+        `<button class="practice-choice" data-correct="${ci === p.correctIndex ? '1' : '0'}" data-explain="${escapeHtml(p.explain)}">${escapeHtml(c)}</button>`
+      ).join('');
+      return `
+        <div class="practice-block" data-idx="${pi}">
+          <div class="practice-label">💡 ลองทำดู</div>
+          <div class="practice-prompt">${escapeHtml(p.prompt)}</div>
+          <div class="practice-choices">${choices}</div>
+          <div class="practice-feedback hidden"></div>
+        </div>
+      `;
+    }).join('');
+
     return `
       <div class="section-card">
         <div class="section-heading">${escapeHtml(section.heading)}</div>
         <div class="section-content">${section.content}</div>
         ${examples ? `<div class="examples-list">${examples}</div>` : ''}
+        ${practiceHtml ? `<div class="practice-wrap">${practiceHtml}</div>` : ''}
       </div>
     `;
   }
+
+  // Event delegation สำหรับ practice choices (ผูกครั้งเดียว)
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.practice-choice');
+    if (!btn) return;
+    const block = btn.closest('.practice-block');
+    if (!block || block.dataset.answered === '1') return;
+    block.dataset.answered = '1';
+
+    const isCorrect = btn.dataset.correct === '1';
+    const explain = btn.dataset.explain;
+    // ปิดปุ่มทั้งหมด, ไฮไลต์ผลลัพธ์
+    block.querySelectorAll('.practice-choice').forEach((b) => {
+      b.disabled = true;
+      if (b.dataset.correct === '1') b.classList.add('correct');
+      else if (b === btn) b.classList.add('wrong');
+    });
+    const fb = block.querySelector('.practice-feedback');
+    fb.classList.remove('hidden');
+    fb.className = `practice-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+    fb.innerHTML = `${isCorrect ? '✅ ถูกต้อง!' : '❌ ผิด'} <span class="practice-explain">${explain}</span>`;
+  });
 
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, (c) => ({
