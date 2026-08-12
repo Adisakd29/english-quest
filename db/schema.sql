@@ -9,6 +9,10 @@ CREATE TABLE IF NOT EXISTS users (
   created_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW()
 );
 
+-- รูปโปรไฟล์ที่ผู้ใช้อัปโหลดเอง (เก็บเป็น base64 data URL) ถ้าไม่ null จะใช้
+-- แทน avatar ที่เป็น emoji preset ขนาดจำกัดที่ ~100KB หลังจากย่อรูปแล้ว
+ALTER TABLE users ADD COLUMN IF NOT EXISTS avatar_image TEXT;
+
 -- ตารางสถานะคำศัพท์ของผู้ใช้แต่ละคน (สำหรับ flashcard / สถิติความก้าวหน้า)
 CREATE TABLE IF NOT EXISTS word_progress (
   id            SERIAL PRIMARY KEY,
