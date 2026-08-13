@@ -1688,3 +1688,143 @@ h1, h2, h3, .display {
   font-size: 0.82rem;
   line-height: 1.4;
 }
+
+/* ============================================================
+   MODE SELECTOR (quiz difficulty & exam type)
+   ============================================================ */
+.mode-selector-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--parchment);
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.mode-selector-sub {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 16px 0 8px;
+  font-weight: 700;
+}
+.mode-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.mode-selector-empty {
+  text-align: center;
+  color: var(--ink-faint);
+  padding: 20px;
+  font-style: italic;
+}
+.mode-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--bg-night-2);
+  border: 2px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  color: var(--parchment);
+  text-align: left;
+  min-height: 78px;
+}
+.mode-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+.mode-card.perfect {
+  background: linear-gradient(135deg, var(--bg-night-2), rgba(255,209,102,0.1));
+}
+.mode-card-icon {
+  width: 44px; height: 44px;
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  color: #fff;
+}
+.mode-card-body { flex: 1; min-width: 0; }
+.mode-card-name {
+  font-weight: 800;
+  color: var(--white);
+  font-size: 0.95rem;
+}
+.mode-card-count {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin-top: 2px;
+}
+.mode-card-score {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-align: right;
+  flex-shrink: 0;
+}
+.mode-card-score.not-done { color: var(--ink-faint); font-weight: 400; font-size: 0.72rem; }
+
+.chapter-badge.multi {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.7rem;
+  color: var(--gold);
+  background: rgba(255,209,102,0.12);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+/* ============================================================
+   QUIZ PASSAGE (TOEIC / TOEFL)
+   ============================================================ */
+.grammar-quiz-passage {
+  background: #f6efe0;
+  color: var(--ink);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-soft);
+  border-left: 4px solid var(--gold);
+}
+.grammar-quiz-passage .passage-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.grammar-quiz-passage .passage-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+.grammar-quiz-passage .passage-toggle {
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: var(--ink-soft);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.grammar-quiz-passage .passage-body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+  transition: max-height 0.3s ease;
+}
+.grammar-quiz-passage.collapsed .passage-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
