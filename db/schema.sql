@@ -51,7 +51,8 @@ CREATE TABLE IF NOT EXISTS translations (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- ตารางความคืบหน้าบทเรียนแกรมม่า
+-- ตารางความคืบหน้าบทเรียนแกรมม่า (ต่อบท ต่อโหมด)
+-- mode: 'basic' | 'intermediate' | 'advanced' | 'expert' | 'toeic' | 'toefl'
 CREATE TABLE IF NOT EXISTS grammar_progress (
   id             SERIAL PRIMARY KEY,
   user_id        INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -64,3 +65,17 @@ CREATE TABLE IF NOT EXISTS grammar_progress (
 );
 
 CREATE INDEX IF NOT EXISTS idx_grammar_progress_user ON grammar_progress (user_id);
+
+-- เพิ่ม mode column (ค่าเริ่มต้น 'basic' — เข้ากันได้กับข้อมูลเดิม)
+ALTER TABLE grammar_progress ADD COLUMN IF NOT EXISTS mode VARCHAR(16) NOT NULL DEFAULT 'basic';
+
+-- เปลี่ยน unique constraint ให้รวม mode ด้วย
+DO $$
+BEGIN
+  IF EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'grammar_progress_user_id_chapter_id_key') THEN
+    ALTER TABLE grammar_progress DROP CONSTRAINT grammar_progress_user_id_chapter_id_key;
+  END IF;
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'grammar_progress_user_chapter_mode_key') THEN
+    ALTER TABLE grammar_progress ADD CONSTRAINT grammar_progress_user_chapter_mode_key UNIQUE (user_id, chapter_id, mode);
+  END IF;
+END $$;
