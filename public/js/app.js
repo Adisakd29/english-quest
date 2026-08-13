@@ -869,12 +869,22 @@
   });
 
   // ---------------------------------------------------------------
-  // GRAMMAR — บทเรียน + ข้อสอบท้ายบท
+  // GRAMMAR — บทเรียน + ข้อสอบท้ายบท (หลายโหมด: basic → expert + TOEIC/TOEFL)
   // ---------------------------------------------------------------
+  const MODE_META = {
+    basic:        { icon: '🌱', name: 'พื้นฐาน',  color: '#4caf50', tier: 1 },
+    intermediate: { icon: '🌿', name: 'ปานกลาง',  color: '#8bc34a', tier: 2 },
+    advanced:     { icon: '🌳', name: 'ยาก',      color: '#e0a848', tier: 3 },
+    expert:       { icon: '🔥', name: 'ยากมาก',   color: '#c14a4a', tier: 4 },
+    toeic:        { icon: '💼', name: 'TOEIC',    color: '#4a7cc1', tier: 5 },
+    toefl:        { icon: '🎓', name: 'TOEFL',    color: '#8e6bd6', tier: 6 },
+  };
+
   const grammarState = {
     chapters: [],
     currentChapter: null,
-    quiz: null,     // { chapterId, title, questions[], answers[], index }
+    currentModes: [],   // modes summary from GET /grammar/:id
+    quiz: null,         // { chapterId, mode, title, questions[], answers[], index }
   };
 
   document.getElementById('btn-grammar-back').addEventListener('click', () => {
@@ -888,15 +898,14 @@
       openGrammarList();
     }
   });
-  document.getElementById('btn-start-quiz').addEventListener('click', () => {
-    if (grammarState.currentChapter) startQuiz(grammarState.currentChapter.id);
-  });
   document.getElementById('btn-gr-lesson').addEventListener('click', () => {
     if (grammarState.currentChapter) openLesson(grammarState.currentChapter.id);
     else openGrammarList();
   });
   document.getElementById('btn-gr-retry').addEventListener('click', () => {
-    if (grammarState.currentChapter) startQuiz(grammarState.currentChapter.id);
+    if (grammarState.quiz && grammarState.currentChapter) {
+      startQuiz(grammarState.currentChapter.id, grammarState.quiz.mode);
+    }
   });
 
   async function openGrammarList() {
@@ -916,18 +925,23 @@
     const wrap = document.getElementById('grammar-chapters');
     wrap.innerHTML = '';
     grammarState.chapters.forEach((c) => {
-      const p = c.progress || { completed: false, score: 0, total: c.quizCount };
-      const scoreBadge = p.completed
-        ? `<div class="chapter-score done"><span class="star">⭐</span> ${p.score}/${p.total}</div>`
-        : `<div class="chapter-score">${c.quizCount} ข้อ</div>`;
+      const modeBadge = c.modeCount > 1
+        ? `<div class="chapter-badge multi">🎯 ${c.modeCount} โหมด</div>`
+        : '';
+      const scoreBadge = c.perfectCount > 0
+        ? `<div class="chapter-score done"><span class="star">⭐</span> ${c.perfectCount}/${c.modeCount}</div>`
+        : (c.anyCompleted
+            ? `<div class="chapter-score">${c.modeCount} โหมด</div>`
+            : `<div class="chapter-score">${c.modeCount} โหมด</div>`);
       const btn = document.createElement('button');
-      btn.className = 'chapter-card' + (p.completed && p.score === p.total ? ' completed' : '');
+      btn.className = 'chapter-card' + (c.perfectCount === c.modeCount && c.perfectCount > 0 ? ' completed' : '');
       btn.innerHTML = `
         <div class="chapter-icon-wrap" style="background:${c.color};">${c.icon}</div>
         <div class="chapter-info">
           <div class="chapter-num">บทที่ ${c.num}</div>
           <div class="chapter-title-text">${c.title}</div>
           <div class="chapter-sub">${c.intro}</div>
+          ${modeBadge}
         </div>
         ${scoreBadge}
       `;
@@ -942,9 +956,12 @@
     const body = document.getElementById('lesson-body');
     head.innerHTML = '<div class="loading-spinner"></div>';
     body.innerHTML = '';
+    const actionsWrap = document.querySelector('.grammar-lesson-actions');
+    if (actionsWrap) actionsWrap.innerHTML = '';
     try {
-      const { chapter } = await api(`/grammar/${chapterId}`);
+      const { chapter, modes } = await api(`/grammar/${chapterId}`);
       grammarState.currentChapter = chapter;
+      grammarState.currentModes = modes || [];
       document.getElementById('lesson-badge').textContent = `บทที่ ${chapter.num}`;
       head.style.background = `linear-gradient(135deg, ${chapter.color}22, var(--bg-night-2))`;
       head.innerHTML = `
@@ -953,9 +970,62 @@
         <div class="lesson-intro">${chapter.intro}</div>
       `;
       body.innerHTML = chapter.sections.map((s) => renderSectionCard(s)).join('');
+      renderModeSelector();
     } catch (err) {
       head.innerHTML = `<div class="form-error">${err.message}</div>`;
     }
+  }
+
+  function renderModeSelector() {
+    const actionsWrap = document.querySelector('.grammar-lesson-actions');
+    if (!actionsWrap) return;
+    const modes = grammarState.currentModes || [];
+    if (!modes.length) {
+      actionsWrap.innerHTML = '<div class="mode-selector-empty">บทนี้ยังไม่มีข้อสอบ</div>';
+      return;
+    }
+    // แยกกลุ่ม: tier (basic-expert) กับ exam (toeic/toefl)
+    const tierModes = modes.filter((m) => ['basic','intermediate','advanced','expert'].includes(m.mode));
+    const examModes = modes.filter((m) => ['toeic','toefl'].includes(m.mode));
+
+    let html = '<div class="mode-selector-title">📝 เลือกโหมดข้อสอบ</div>';
+    if (tierModes.length) {
+      html += '<div class="mode-selector-sub">ระดับความยาก</div>';
+      html += '<div class="mode-selector-grid">';
+      tierModes.forEach((m) => { html += renderModeCard(m); });
+      html += '</div>';
+    }
+    if (examModes.length) {
+      html += '<div class="mode-selector-sub">แนวข้อสอบมาตรฐาน</div>';
+      html += '<div class="mode-selector-grid">';
+      examModes.forEach((m) => { html += renderModeCard(m); });
+      html += '</div>';
+    }
+    actionsWrap.innerHTML = html;
+    actionsWrap.querySelectorAll('[data-mode]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        startQuiz(grammarState.currentChapter.id, btn.dataset.mode);
+      });
+    });
+  }
+
+  function renderModeCard(m) {
+    const meta = MODE_META[m.mode] || { icon: '📝', name: m.mode, color: '#888', tier: 0 };
+    const p = m.progress;
+    const scoreLine = p
+      ? `<div class="mode-card-score">${p.score === p.total ? '⭐' : ''} ${p.score}/${p.total}</div>`
+      : `<div class="mode-card-score not-done">ยังไม่ทำ</div>`;
+    const perfectClass = p && p.score === p.total && p.total > 0 ? ' perfect' : '';
+    return `
+      <button class="mode-card${perfectClass}" data-mode="${m.mode}" style="border-color: ${meta.color};">
+        <div class="mode-card-icon" style="background: ${meta.color};">${meta.icon}</div>
+        <div class="mode-card-body">
+          <div class="mode-card-name">${meta.name}</div>
+          <div class="mode-card-count">${m.count} ข้อ</div>
+        </div>
+        ${scoreLine}
+      </button>
+    `;
   }
 
   function renderSectionCard(section) {
@@ -965,8 +1035,6 @@
         <div class="example-th">${escapeHtml(ex.th)}</div>
       </div>
     `).join('');
-
-    // แบบฝึกหัดในบทเรียน — คลิกเลือก แล้วจะเปิดเผยเฉลย (ไม่ให้ EXP)
     const practiceHtml = (section.practice || []).map((p, pi) => {
       const choices = p.choices.map((c, ci) =>
         `<button class="practice-choice" data-correct="${ci === p.correctIndex ? '1' : '0'}" data-explain="${escapeHtml(p.explain)}">${escapeHtml(c)}</button>`
@@ -991,7 +1059,7 @@
     `;
   }
 
-  // Event delegation สำหรับ practice choices (ผูกครั้งเดียว)
+  // Event delegation for practice choices — bound once, works for all sections
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('.practice-choice');
     if (!btn) return;
@@ -1001,7 +1069,6 @@
 
     const isCorrect = btn.dataset.correct === '1';
     const explain = btn.dataset.explain;
-    // ปิดปุ่มทั้งหมด, ไฮไลต์ผลลัพธ์
     block.querySelectorAll('.practice-choice').forEach((b) => {
       b.disabled = true;
       if (b.dataset.correct === '1') b.classList.add('correct');
@@ -1019,22 +1086,28 @@
     }[c]));
   }
 
-  async function startQuiz(chapterId) {
+  async function startQuiz(chapterId, mode = 'basic') {
     showScreen('screen-grammar-quiz');
-    document.getElementById('quiz-choices').innerHTML = '<div class="loading-spinner"></div>';
+    const choicesEl = document.getElementById('grammar-quiz-choices');
+    choicesEl.innerHTML = '<div class="loading-spinner"></div>';
+    // ซ่อน passage ระหว่าง loading
+    const passageEl = document.getElementById('grammar-quiz-passage');
+    if (passageEl) passageEl.classList.add('hidden');
     try {
-      const data = await api(`/grammar/${chapterId}/quiz`);
+      const data = await api(`/grammar/${chapterId}/quiz?mode=${encodeURIComponent(mode)}`);
       grammarState.quiz = {
         chapterId: data.chapterId,
+        mode: data.mode,
         title: data.title,
         questions: data.quiz,
         answers: new Array(data.quiz.length).fill(null),
         index: 0,
       };
-      document.getElementById('quiz-badge').textContent = `📝 ${data.title}`;
+      const meta = MODE_META[data.mode] || { icon: '📝', name: data.mode };
+      document.getElementById('quiz-badge').textContent = `${meta.icon} ${meta.name}`;
       renderQuizQuestion();
     } catch (err) {
-      document.getElementById('quiz-choices').innerHTML = `<div class="form-error">${err.message}</div>`;
+      choicesEl.innerHTML = `<div class="form-error">${err.message}</div>`;
     }
   }
 
@@ -1044,9 +1117,36 @@
     const pct = ((q.index) / q.questions.length) * 100;
     document.getElementById('quiz-progress-fill').style.width = `${pct}%`;
     document.getElementById('quiz-count').textContent = `ข้อ ${q.index + 1} / ${q.questions.length}`;
-    document.getElementById('quiz-question').textContent = question.question;
+    document.getElementById('grammar-quiz-question').textContent = question.question;
 
-    const choicesWrap = document.getElementById('quiz-choices');
+    // Passage display (สำหรับ TOEIC/TOEFL)
+    const passageEl = document.getElementById('grammar-quiz-passage');
+    if (passageEl) {
+      if (question.passage) {
+        // แสดง passage แบบยุบ/ขยายได้ ถ้าข้อก่อนหน้ามี passage เดียวกันจะแสดงย่ออยู่แล้ว
+        const prevQuestion = q.index > 0 ? q.questions[q.index - 1] : null;
+        const sameGroup = prevQuestion && prevQuestion.groupId === question.groupId && question.groupId;
+        passageEl.classList.remove('hidden');
+        passageEl.classList.toggle('collapsed', !!sameGroup);
+        passageEl.innerHTML = `
+          <div class="passage-header">
+            <span class="passage-title">📖 ${escapeHtml(question.passageTitle || 'บทอ่าน')}</span>
+            <button class="passage-toggle" type="button">${sameGroup ? 'แสดงบทอ่าน' : 'ซ่อน'}</button>
+          </div>
+          <div class="passage-body">${escapeHtml(question.passage).replace(/\n/g, '<br>')}</div>
+        `;
+        passageEl.querySelector('.passage-toggle').addEventListener('click', () => {
+          passageEl.classList.toggle('collapsed');
+          passageEl.querySelector('.passage-toggle').textContent =
+            passageEl.classList.contains('collapsed') ? 'แสดงบทอ่าน' : 'ซ่อน';
+        });
+      } else {
+        passageEl.classList.add('hidden');
+        passageEl.innerHTML = '';
+      }
+    }
+
+    const choicesWrap = document.getElementById('grammar-quiz-choices');
     choicesWrap.innerHTML = '';
     question.choices.forEach((choice, i) => {
       const btn = document.createElement('button');
@@ -1060,12 +1160,10 @@
   function chooseAnswer(choiceIndex) {
     const q = grammarState.quiz;
     q.answers[q.index] = choiceIndex;
-    // ไฮไลต์คำตอบที่เลือก
-    document.querySelectorAll('#quiz-choices .quiz-choice').forEach((btn, i) => {
+    document.querySelectorAll('#grammar-quiz-choices .quiz-choice').forEach((btn, i) => {
       btn.disabled = true;
       if (i === choiceIndex) btn.classList.add('chosen');
     });
-    // ไปข้อถัดไปหลังหน่วงเล็กน้อย หรือส่งคำตอบถ้าจบแล้ว
     setTimeout(() => {
       if (q.index < q.questions.length - 1) {
         q.index += 1;
@@ -1081,7 +1179,7 @@
     try {
       const result = await api(`/grammar/${q.chapterId}/submit`, {
         method: 'POST',
-        body: { answers: q.answers },
+        body: { mode: q.mode, answers: q.answers },
       });
       showQuizResult(result);
     } catch (err) {
@@ -1092,21 +1190,21 @@
   function showQuizResult(result) {
     showScreen('screen-grammar-result');
     const wrongCount = result.total - result.score;
-    const icon = result.perfect ? '🏆' : result.score >= result.total * 0.7 ? '🎉' : result.score >= result.total * 0.4 ? '👍' : '💪';
-    const title = result.perfect ? 'สุดยอด! ตอบถูกหมดเลย' : result.score >= result.total * 0.7 ? 'เก่งมาก!' : result.score >= result.total * 0.4 ? 'พอใช้ได้' : 'ลองใหม่นะ';
+    const pct = result.score / result.total;
+    const icon = result.perfect ? '🏆' : pct >= 0.7 ? '🎉' : pct >= 0.4 ? '👍' : '💪';
+    const title = result.perfect ? 'สุดยอด! ตอบถูกหมดเลย' : pct >= 0.7 ? 'เก่งมาก!' : pct >= 0.4 ? 'พอใช้ได้' : 'ลองใหม่นะ';
+    const modeMeta = MODE_META[result.mode] || { icon: '📝', name: result.mode };
     document.getElementById('gr-icon').textContent = icon;
     document.getElementById('gr-title').textContent = title;
     document.getElementById('gr-score').textContent = `${result.score} / ${result.total}`;
     document.getElementById('gr-correct-num').textContent = result.score;
     document.getElementById('gr-wrong-num').textContent = wrongCount;
     document.getElementById('gr-exp-num').textContent = result.gainedExp;
-    let msg = '';
-    if (result.gainedExp > 0) msg = `ได้ EXP เพิ่ม ${result.gainedExp} คะแนน!`;
-    else if (result.previousBest > 0) msg = 'ต้องทำได้ดีกว่าสถิติเดิมจึงจะได้ EXP เพิ่ม';
-    else msg = '';
+    let msg = `โหมด: ${modeMeta.icon} ${modeMeta.name}`;
+    if (result.gainedExp > 0) msg += ` · ได้ EXP เพิ่ม ${result.gainedExp} คะแนน!`;
+    else if (result.previousBest > 0) msg += ' · ต้องทำได้ดีกว่าสถิติเดิมจึงจะได้ EXP เพิ่ม';
     document.getElementById('gr-message').textContent = msg;
 
-    // แสดงเฉลย
     const reviewWrap = document.getElementById('gr-review');
     reviewWrap.innerHTML = result.results.map((r) => {
       const yourAnswer = r.chosenIndex != null ? r.choices[r.chosenIndex] : '(ไม่ตอบ)';
@@ -1122,7 +1220,6 @@
       `;
     }).join('');
 
-    // update HUD
     if (result.levelInfo) {
       state.user.exp = result.levelInfo.exp;
       state.user.level = result.levelInfo.level;
