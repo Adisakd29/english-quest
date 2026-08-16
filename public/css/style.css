@@ -1828,3 +1828,45 @@ h1, h2, h3, .display {
   overflow: hidden;
   padding: 0;
 }
+
+/* ============================================================
+   PWA / SAFE AREA — เมื่อเปิดจากไอคอนบนหน้าจอโทรศัพท์
+   iPhone ที่มีรอยบาก (notch) หรือแถบ home indicator ด้านล่าง
+   จะต้องเว้นระยะไม่ให้เนื้อหาโดนบัง
+   ============================================================ */
+#hud {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+#hud .container {
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+}
+body {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+/* ปุ่ม/แถบที่ตรึงติดขอบล่าง ก็ต้องเว้นระยะเช่นกัน */
+#toast-container {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* เปิดในโหมดแอป (standalone) — ปิดการเลือกข้อความโดยไม่ตั้งใจ
+   และปิด pull-to-refresh ที่ทำให้เลื่อนแล้วรีเฟรชหน้าโดยบังเอิญ */
+@media (display-mode: standalone) {
+  html, body {
+    overscroll-behavior-y: contain;
+  }
+  .quiz-choice,
+  .practice-choice,
+  .mode-card,
+  .chapter-card,
+  .btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+/* ปิดไฮไลต์สีฟ้าตอนแตะปุ่มบนมือถือ */
+button, a, .chapter-card, .mode-card {
+  -webkit-tap-highlight-color: transparent;
+}
