@@ -1,0 +1,40 @@
+{
+  "name": "WordQuest — เรียนภาษาอังกฤษ",
+  "short_name": "WordQuest",
+  "description": "เรียนคำศัพท์และแกรมม่าภาษาอังกฤษ Oxford 3000+5000 พร้อมข้อสอบแนว TOEIC/TOEFL ระบบ EXP และเลเวล",
+  "lang": "th",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b1530",
+  "theme_color": "#1b1530",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
