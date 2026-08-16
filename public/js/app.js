@@ -1265,5 +1265,15 @@
     }
   }
 
+  // ลงทะเบียน Service Worker — ทำให้ติดตั้งเป็นแอปบนหน้าจอโทรศัพท์ได้
+  // และเปิดใช้งานได้บ้างตอนออฟไลน์ (ใช้กลยุทธ์ network-first จึงไม่ค้างเวอร์ชันเก่า)
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(() => {
+        // ถ้าลงทะเบียนไม่สำเร็จก็ไม่เป็นไร แอปยังใช้งานได้ปกติ
+      });
+    });
+  }
+
   boot();
 })();
