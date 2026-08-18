@@ -18,6 +18,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The <b>cat</b> is on the <b>table</b>.', th: 'cat, table เป็นคำนาม' },
           { en: '<b>Bangkok</b> is a big <b>city</b>.', th: 'Bangkok, city เป็นคำนาม' },
         ],
+        practice: [
+          { prompt: 'ใน "The quick fox runs fast." คำใดเป็นคำนาม', choices: ['quick', 'fox', 'runs', 'fast'], correctIndex: 1, explain: 'fox = ชื่อสัตว์ เป็นคำนาม (quick=adj, runs=verb, fast=adv)' },
+          { prompt: 'ภาษาอังกฤษแบ่งชนิดของคำเป็นกี่ชนิด', choices: ['6 ชนิด', '7 ชนิด', '8 ชนิด', '10 ชนิด'], correctIndex: 2, explain: '8 ชนิด: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, Interjection' },
+        ],
       },
       {
         heading: 'คำนาม 5 ประเภท',
@@ -95,6 +99,104 @@ const GRAMMAR_CHAPTERS = [
         practice: [
           { prompt: '"หนังสือของ Tom" ในภาษาอังกฤษ', choices: ['Tom book', 'Toms book', 'Tom\'s book', 'Tomes book'], correctIndex: 2, explain: 'เอกพจน์ + \'s = Tom\'s book' },
           { prompt: '"ของเล่นของเด็ก ๆ" (children เป็นพหูพจน์ผิดปกติ)', choices: ['childrens toys', 'children\'s toys', 'childrens\' toys', 'children toys'], correctIndex: 1, explain: 'พหูพจน์ผิดปกติ + \'s = children\'s toys' },
+        ],
+      },
+      {
+        heading: 'หน้าที่ของคำนามในประโยค (4 ตำแหน่ง)',
+        content: 'คำนามวางได้ 4 ตำแหน่งหลัก จำให้แม่นจะแต่งประโยคไม่ผิด:<br><br><b>1) Subject (ประธาน)</b> — ผู้ทำกริยา อยู่หน้ากริยา<br>  <b>The dog</b> barks.<br><b>2) Object (กรรม)</b> — ผู้ถูกกระทำ อยู่หลังกริยา<br>  I saw <b>the dog</b>.<br><b>3) Complement (ส่วนเติมเต็ม)</b> — อยู่หลัง verb to be / become / seem ขยายประธาน<br>  She is <b>a doctor</b>.<br><b>4) Object of Preposition</b> — อยู่หลังคำบุพบท<br>  I sat on <b>the chair</b>.<br><br>⚠️ กริยาบางตัวมีกรรม 2 ตัว (Indirect + Direct Object)<br>  She gave <b>me</b> (กรรมรอง) <b>a book</b> (กรรมตรง).',
+        examples: [
+          { en: '<b>Students</b> love <b>holidays</b>.', th: 'Students = ประธาน, holidays = กรรม' },
+          { en: 'My brother is <b>an engineer</b>.', th: 'an engineer = complement ขยายประธาน' },
+          { en: 'He put the key in <b>his pocket</b>.', th: 'his pocket = หลัง preposition (in)' },
+          { en: 'I sent <b>her</b> <b>an email</b>.', th: 'her = กรรมรอง, an email = กรรมตรง' },
+        ],
+        practice: [
+          { prompt: 'ใน "The teacher gave the students homework." คำว่า homework ทำหน้าที่อะไร', choices: ['ประธาน', 'กรรมตรง', 'กรรมรอง', 'Complement'], correctIndex: 1, explain: 'students = กรรมรอง (ผู้รับ), homework = กรรมตรง (สิ่งที่ให้)' },
+          { prompt: 'ใน "She became a lawyer." คำว่า a lawyer ทำหน้าที่อะไร', choices: ['ประธาน', 'กรรม', 'Complement', 'หลัง preposition'], correctIndex: 2, explain: 'หลัง became (linking verb) → Complement ขยายประธาน' },
+        ],
+      },
+      {
+        heading: 'Compound Noun (คำนามประสม)',
+        content: 'คำนาม 2 คำขึ้นไปมารวมกันเป็นคำใหม่ มี 3 รูปแบบการเขียน:<br>• <b>เขียนติดกัน</b>: bedroom, toothbrush, football, sunglasses<br>• <b>เขียนแยกกัน</b>: bus stop, swimming pool, credit card<br>• <b>มีขีดกลาง</b>: mother-in-law, check-in, T-shirt<br><br><b>กฎสำคัญ:</b> คำหน้าทำหน้าที่<b>ขยาย</b> คำหลังคือ<b>ตัวจริง</b><br>  a <b>tooth</b>brush = แปรง (brush) สำหรับฟัน ไม่ใช่ฟัน<br>  a <b>book</b>shop = ร้าน (shop) ขายหนังสือ<br><br><b>การทำพหูพจน์:</b> เติม s ที่คำ<b>หลัง</b><br>  bedroom → bedroom<b>s</b>, bus stop → bus stop<b>s</b><br>  ⚠️ ยกเว้น -in-law เติมที่คำแรก: mother<b>s</b>-in-law<br><br><b>คำหน้าเป็นเอกพจน์เสมอ</b> แม้ความหมายจะหลาย:<br>  a <b>shoe</b> shop (ไม่ใช่ shoes shop), a <b>three-hour</b> trip (ไม่ใช่ three-hours)',
+        examples: [
+          { en: 'I bought a new <b>toothbrush</b>.', th: 'เขียนติดกัน' },
+          { en: 'Wait at the <b>bus stop</b>.', th: 'เขียนแยกกัน' },
+          { en: 'My <b>sister-in-law</b> is kind.', th: 'มีขีดกลาง' },
+          { en: 'It was a <b>two-hour</b> meeting.', th: 'คำหน้าเอกพจน์ (ไม่ใช่ two-hours)' },
+        ],
+        practice: [
+          { prompt: 'รูปพหูพจน์ของ "toothbrush" คือ', choices: ['teethbrush', 'toothbrushes', 'teethbrushes', 'toothbrush'], correctIndex: 1, explain: 'เติม s ที่คำหลัง (brush → brushes) คำหน้าไม่เปลี่ยน' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['a five-years-old boy', 'a five-year-old boy', 'a five years old boy', 'a five-year old boy'], correctIndex: 1, explain: 'compound adjective คำหน้าเอกพจน์ + ขีดกลาง = five-year-old' },
+          { prompt: 'รูปพหูพจน์ของ "passer-by" คือ', choices: ['passer-bys', 'passers-by', 'passer-bies', 'passers-bys'], correctIndex: 1, explain: 'เติม s ที่คำหลัก (passer) ไม่ใช่คำท้าย' },
+        ],
+      },
+      {
+        heading: 'นับนามนับไม่ได้ด้วย "หน่วย" (Partitive)',
+        content: 'นามนับไม่ได้บอกจำนวนตรง ๆ ไม่ได้ ต้องใส่<b>หน่วย</b>นำหน้า → <b>หน่วย + of + นาม</b><br><br><b>หน่วยที่ใช้บ่อย:</b><br>• <b>a piece of</b> — information, advice, news, furniture, paper, cake<br>• <b>a cup of</b> — coffee, tea<br>• <b>a glass of</b> — water, milk, juice<br>• <b>a bottle of</b> — water, wine<br>• <b>a slice of</b> — bread, pizza, cheese<br>• <b>a loaf of</b> — bread<br>• <b>a bar of</b> — soap, chocolate<br>• <b>a kilo of</b> — rice, sugar<br>• <b>a sheet of</b> — paper<br>• <b>a bowl of</b> — soup, rice<br><br><b>ทำพหูพจน์ที่หน่วย ไม่ใช่ที่นาม:</b><br>  two <b>pieces</b> of advice (ไม่ใช่ two advices)<br>  three <b>cups</b> of coffee (ไม่ใช่ three coffees*)<br>  <i>*ในร้านกาแฟพูด "two coffees" ได้ เพราะหมายถึง "กาแฟ 2 แก้ว"</i>',
+        examples: [
+          { en: 'Let me give you <b>a piece of advice</b>.', th: 'คำแนะนำ 1 ข้อ' },
+          { en: 'I drank <b>two glasses of water</b>.', th: 'เติม s ที่ glasses ไม่ใช่ water' },
+          { en: 'She bought <b>three loaves of bread</b>.', th: 'loaf → loaves' },
+        ],
+        practice: [
+          { prompt: '"ข้อมูล 3 ชิ้น" ในภาษาอังกฤษ', choices: ['three informations', 'three information', 'three pieces of information', 'three piece of informations'], correctIndex: 2, explain: 'เติม s ที่หน่วย (pieces) ส่วน information ไม่เปลี่ยน' },
+          { prompt: '"สบู่ 1 ก้อน" ใช้หน่วยอะไร', choices: ['a piece of soap', 'a bar of soap', 'a slice of soap', 'a loaf of soap'], correctIndex: 1, explain: 'สบู่ใช้ a bar of' },
+        ],
+      },
+      {
+        heading: 'คำนามที่เป็นพหูพจน์เสมอ (Plural-only)',
+        content: 'บางคำมีแต่รูปพหูพจน์ ใช้กริยาพหูพจน์เสมอ มักเป็นของที่มี<b>สองส่วนคู่กัน</b>:<br><br><b>เครื่องแต่งกาย:</b> trousers, pants, jeans, shorts, pyjamas, tights<br><b>เครื่องมือ:</b> scissors, glasses (แว่นตา), binoculars, pliers, tweezers<br><b>อื่น ๆ:</b> clothes, goods, belongings, outskirts, stairs, thanks, congratulations<br><br><b>ถ้าจะนับ ต้องใช้ "a pair of":</b><br>  a pair of scissors, two pairs of jeans<br><br>⚠️ ระวัง: <b>glass</b> (แก้วน้ำ/กระจก) นับได้ปกติ แต่ <b>glasses</b> (แว่นตา) เป็นพหูพจน์เสมอ',
+        examples: [
+          { en: 'My <b>trousers are</b> too tight.', th: 'กริยาพหูพจน์ (are)' },
+          { en: 'Where <b>are</b> my <b>glasses</b>?', th: 'แว่นตา = พหูพจน์เสมอ' },
+          { en: 'I bought <b>two pairs of jeans</b>.', th: 'นับด้วย pairs' },
+          { en: 'The <b>stairs are</b> steep.', th: 'บันได = พหูพจน์' },
+        ],
+        practice: [
+          { prompt: '"These scissors ___ sharp."', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'scissors = พหูพจน์เสมอ → are' },
+          { prompt: '"กางเกงยีนส์ 2 ตัว" ในภาษาอังกฤษ', choices: ['two jeans', 'two jean', 'two pairs of jeans', 'two pair of jean'], correctIndex: 2, explain: 'ต้องใช้ two pairs of jeans' },
+        ],
+      },
+      {
+        heading: 'คำที่ความหมายเปลี่ยนเมื่อเป็นพหูพจน์',
+        content: 'บางคำเป็นได้ทั้งนับได้และนับไม่ได้ แต่<b>ความหมายต่างกัน</b> — ข้อสอบชอบออก:<br><br>• <b>work</b> (งาน, นับไม่ได้) / <b>works</b> (ผลงาน, โรงงาน)<br>• <b>time</b> (เวลา) / <b>times</b> (ครั้ง, ยุคสมัย)<br>• <b>paper</b> (กระดาษ) / <b>a paper</b> (หนังสือพิมพ์, บทความ) / <b>papers</b> (เอกสาร)<br>• <b>glass</b> (แก้ว/กระจก) / <b>glasses</b> (แว่นตา)<br>• <b>experience</b> (ประสบการณ์รวม) / <b>experiences</b> (เหตุการณ์ที่ประสบ)<br>• <b>hair</b> (ผมทั้งหัว) / <b>hairs</b> (เส้นผมทีละเส้น)<br>• <b>room</b> (พื้นที่ว่าง) / <b>a room</b> (ห้อง)<br>• <b>chicken</b> (เนื้อไก่) / <b>a chicken</b> (ไก่ทั้งตัว)<br>• <b>light</b> (แสง) / <b>a light</b> (ดวงไฟ)',
+        examples: [
+          { en: 'I have a lot of <b>work</b> today.', th: 'งาน (นับไม่ได้)' },
+          { en: 'Shakespeare\'s <b>works</b> are famous.', th: 'ผลงาน (นับได้)' },
+          { en: 'I don\'t have <b>time</b>. / I called three <b>times</b>.', th: 'เวลา vs ครั้ง' },
+          { en: 'There\'s no <b>room</b> in the car.', th: 'ไม่มีที่ว่าง (ไม่ใช่ "ไม่มีห้อง")' },
+        ],
+        practice: [
+          { prompt: '"ฉันโทรไป 3 ครั้ง" ใช้คำไหน', choices: ['three time', 'three times', 'three of time', 'threes time'], correctIndex: 1, explain: 'ครั้ง = times (นับได้)' },
+          { prompt: '"There isn\'t enough ___ in this bag." (ที่ว่าง)', choices: ['a room', 'rooms', 'room', 'the room'], correctIndex: 2, explain: 'room = พื้นที่ว่าง (นับไม่ได้ ไม่มี a)' },
+        ],
+      },
+      {
+        heading: '\'s หรือ of — เลือกใช้ตัวไหน',
+        content: 'ภาษาอังกฤษแสดงความเป็นเจ้าของได้ 2 แบบ ใช้ต่างกัน:<br><br><b>ใช้ \'s กับ:</b><br>• คน / สัตว์: John\'s car, the dog\'s tail<br>• กลุ่มคน: the team\'s victory, the government\'s policy<br>• เวลา: today\'s news, a week\'s holiday, ten minutes\' walk<br>• ประเทศ/เมือง: Thailand\'s economy, Bangkok\'s traffic<br><br><b>ใช้ of กับ:</b><br>• สิ่งของ: the leg <b>of</b> the table (ไม่ใช่ the table\'s leg)<br>• สิ่งที่เป็นนามธรรม: the beginning <b>of</b> the story<br>• เมื่อคำนามยาวมาก: the opinion <b>of</b> the man standing over there<br><br><b>Double possessive</b> (ใช้ทั้งคู่พร้อมกัน):<br>  a friend <b>of</b> my brother<b>\'s</b> = เพื่อนคนหนึ่งของพี่ชายฉัน',
+        examples: [
+          { en: '<b>Tom\'s</b> bike (คน → \'s)', th: 'จักรยานของทอม' },
+          { en: 'the roof <b>of</b> the house (สิ่งของ → of)', th: 'หลังคาของบ้าน' },
+          { en: '<b>today\'s</b> lesson (เวลา → \'s)', th: 'บทเรียนวันนี้' },
+          { en: 'a colleague <b>of</b> mine', th: 'Double possessive' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดเป็นธรรมชาติที่สุด', choices: ['the table\'s leg', 'the leg of the table', 'the table leg\'s', 'the of table leg'], correctIndex: 1, explain: 'สิ่งของใช้ of (แต่ the table leg แบบ compound noun ก็ใช้ได้)' },
+          { prompt: '"ข่าวเมื่อวาน" ในภาษาอังกฤษ', choices: ['the news of yesterday', 'yesterday\'s news', 'yesterday news', 'news yesterday\'s'], correctIndex: 1, explain: 'คำบอกเวลาใช้ \'s' },
+        ],
+      },
+      {
+        heading: 'สร้างคำนามจากคำชนิดอื่น (Word Formation)',
+        content: 'ข้อสอบชอบให้เติมคำในช่องว่าง โดยต้องแปลงคำให้เป็นคำนาม จำรูปแบบนี้ไว้:<br><br><b>กริยา → คำนาม</b><br>• decide → decision, discuss → discussion<br>• arrive → arrival, refuse → refusal<br>• improve → improvement, agree → agreement<br>• perform → performance, exist → existence<br>• fail → failure, please → pleasure<br><br><b>คุณศัพท์ → คำนาม</b><br>• happy → happiness, kind → kindness<br>• strong → strength, long → length, wide → width, deep → depth<br>• able → ability, possible → possibility<br>• safe → safety, difficult → difficulty<br>• proud → pride, hot → heat<br><br><b>คำนาม → คำนาม (เปลี่ยนความหมาย)</b><br>• child → childhood, friend → friendship<br>• king → kingdom, art → artist, music → musician',
+        examples: [
+          { en: 'They made a <b>decision</b>. (decide → decision)', th: 'กริยา → คำนาม' },
+          { en: 'His <b>strength</b> is amazing. (strong → strength)', th: 'คุณศัพท์ → คำนาม' },
+          { en: 'She is a talented <b>musician</b>. (music → musician)', th: 'คำนาม → คนที่ทำอาชีพ' },
+        ],
+        practice: [
+          { prompt: 'คำนามของ "arrive" คือ', choices: ['arrivement', 'arrival', 'arriveness', 'arrivation'], correctIndex: 1, explain: 'arrive → arrival' },
+          { prompt: 'คำนามของ "strong" คือ', choices: ['strongness', 'strongth', 'strength', 'strongity'], correctIndex: 2, explain: 'strong → strength (เปลี่ยนสระด้วย)' },
+          { prompt: '"We need to make an important ___." (decide)', choices: ['decide', 'decided', 'decision', 'decisive'], correctIndex: 2, explain: 'หลัง an important ต้องเป็นคำนาม → decision' },
         ],
       },
     ],
@@ -303,6 +405,93 @@ const GRAMMAR_CHAPTERS = [
           { prompt: '"___ apple looks delicious." (ในมือ)', choices: ['This', 'That', 'These', 'Those'], correctIndex: 0, explain: 'apple = เอกพจน์ + ใกล้ → This' },
         ],
       },
+      {
+        heading: 'Zero Article — เมื่อไหร่ไม่ต้องใส่อะไรเลย',
+        content: 'หลายครั้งภาษาอังกฤษ<b>ไม่ต้องมี article เลย</b> คนไทยมักเผลอใส่ the:<br><br><b>1) พูดถึงสิ่งนั้นโดยทั่วไป (generic)</b><br>• นามพหูพจน์: <b>Dogs</b> are loyal. (สุนัขโดยทั่วไป)<br>• นามนับไม่ได้: <b>Water</b> is essential.<br>  ⚠️ ถ้าใส่ the จะกลายเป็นเจาะจง: <b>The dogs</b> are loyal = สุนัขกลุ่มนั้น<br><br><b>2) ชื่อเฉพาะส่วนใหญ่</b><br>• คน: <b>John</b>, <b>Dr. Smith</b><br>• ประเทศ/เมืองเอกพจน์: <b>Thailand</b>, <b>Japan</b>, <b>Bangkok</b><br>• ทวีป: <b>Asia</b>, <b>Europe</b><br>• ภูเขาลูกเดียว: <b>Mount Fuji</b><br>• ทะเลสาบ: <b>Lake Superior</b><br>• ถนน: <b>Sukhumvit Road</b><br><br><b>3) มื้ออาหาร กีฬา วิชา ภาษา สี</b><br>  have <b>breakfast</b>, play <b>tennis</b>, study <b>math</b>, speak <b>Thai</b><br><br><b>4) สถานที่ที่ใช้ตามหน้าที่</b><br>  go to <b>bed</b> (ไปนอน), go to <b>school</b> (ไปเรียน), in <b>hospital</b> (ป่วยนอนโรงพยาบาล)<br>  ⚠️ ถ้าไปในฐานะอาคาร ต้องใส่ the: go to <b>the school</b> to meet the teacher',
+        examples: [
+          { en: '<b>Cats</b> hate water. (แมวโดยทั่วไป)', th: 'ไม่ใส่ article' },
+          { en: '<b>The cats</b> in my house are noisy.', th: 'เจาะจง → ใส่ the' },
+          { en: 'He went to <b>prison</b>. (ติดคุก)', th: 'ตามหน้าที่' },
+          { en: 'He went to <b>the prison</b> to visit his friend.', th: 'ไปที่ตัวอาคาร' },
+        ],
+        practice: [
+          { prompt: '"___ elephants are intelligent animals." (ช้างโดยทั่วไป)', choices: ['The', 'An', 'A', 'ไม่ใส่อะไร'], correctIndex: 3, explain: 'พูดถึงโดยทั่วไป + นามพหูพจน์ → ไม่ใส่ article' },
+          { prompt: '"She is in ___ hospital. She had an accident."', choices: ['a', 'the', 'an', 'ไม่ใส่อะไร'], correctIndex: 3, explain: 'ป่วยนอนโรงพยาบาล = ใช้ตามหน้าที่ → ไม่ใส่' },
+          { prompt: '"I love ___ music." (ดนตรีโดยทั่วไป)', choices: ['a', 'the', 'ไม่ใส่อะไร', 'an'], correctIndex: 2, explain: 'นามนับไม่ได้ + ทั่วไป → ไม่ใส่' },
+        ],
+      },
+      {
+        heading: 'Some vs Any',
+        content: '<b>Some</b> = บ้าง / จำนวนหนึ่ง → ใช้ใน<b>ประโยคบอกเล่า</b><br><b>Any</b> = บ้าง (ใด ๆ) → ใช้ใน<b>ปฏิเสธและคำถาม</b><br><br>ใช้ได้ทั้งกับนามพหูพจน์และนามนับไม่ได้<br><br><b>ข้อยกเว้นสำคัญ:</b><br>• ใช้ <b>some</b> ในคำถามได้ เมื่อ<b>เสนอ</b>หรือ<b>ขอ</b> (คาดว่าจะได้คำตอบว่าใช่)<br>  Would you like <b>some</b> coffee? (เสนอ)<br>  Can I have <b>some</b> water? (ขอ)<br>• ใช้ <b>any</b> ในบอกเล่าได้ แปลว่า "อันไหนก็ได้"<br>  <b>Any</b> student can join. (นักเรียนคนไหนก็เข้าร่วมได้)<br><br><b>คำในตระกูลเดียวกัน:</b><br>  something / anything / nothing<br>  somebody / anybody / nobody<br>  somewhere / anywhere / nowhere',
+        examples: [
+          { en: 'I have <b>some</b> money.', th: 'บอกเล่า → some' },
+          { en: 'I don\'t have <b>any</b> money.', th: 'ปฏิเสธ → any' },
+          { en: 'Do you have <b>any</b> questions?', th: 'คำถาม → any' },
+          { en: 'Would you like <b>some</b> tea?', th: 'เสนอ → some (ข้อยกเว้น)' },
+        ],
+        practice: [
+          { prompt: '"There aren\'t ___ apples left."', choices: ['some', 'any', 'much', 'a'], correctIndex: 1, explain: 'ประโยคปฏิเสธ → any' },
+          { prompt: '"Would you like ___ help?" (เสนอความช่วยเหลือ)', choices: ['any', 'some', 'many', 'a'], correctIndex: 1, explain: 'คำถามเชิงเสนอ → some' },
+          { prompt: '"I looked everywhere but couldn\'t find it ___."', choices: ['somewhere', 'anywhere', 'nowhere', 'everywhere'], correctIndex: 1, explain: 'ปฏิเสธ (couldn\'t) → anywhere' },
+        ],
+      },
+      {
+        heading: 'No / None / Not any',
+        content: '<b>No + นาม</b> = ไม่มี... (ใช้แทน not any ได้ ฟังหนักแน่นกว่า)<br>  I have <b>no</b> money. = I don\'t have <b>any</b> money.<br><br><b>None</b> = ไม่มีสักอัน (ยืนเดี่ยว ไม่มีนามตาม)<br>  How many are left? — <b>None</b>.<br><br><b>None of + the/my/these + นาม</b><br>  <b>None of</b> the students came.<br><br>⚠️ <b>ห้ามปฏิเสธซ้อน</b>: ถ้ามี no/none แล้ว ห้ามมี not อีก<br>  ❌ I don\'t have no money.  ✅ I have no money. / I don\'t have any money.',
+        examples: [
+          { en: 'There is <b>no</b> milk in the fridge.', th: 'no + นาม' },
+          { en: '<b>None</b> of my friends smoke.', th: 'None of + นาม' },
+          { en: 'A: How many tickets? B: <b>None</b>.', th: 'ยืนเดี่ยว' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I don\'t have no time.', 'I have no time.', 'I haven\'t no time.', 'I don\'t have none time.'], correctIndex: 1, explain: 'ห้ามปฏิเสธซ้อน → I have no time' },
+          { prompt: '"___ of the answers was correct."', choices: ['No', 'None', 'Any', 'Not'], correctIndex: 1, explain: 'None of + นาม' },
+        ],
+      },
+      {
+        heading: 'Another / Other / The other / Others',
+        content: 'กลุ่มนี้สับสนบ่อยมาก จำจากจำนวนที่เหลือ:<br><br><b>another</b> + นามเอกพจน์ = อีกอันหนึ่ง (จากหลายอันที่เหลือ ไม่เจาะจง)<br>  Can I have <b>another</b> cup? (อีกแก้ว)<br><br><b>other</b> + นามพหูพจน์ = อื่น ๆ (ไม่เจาะจง)<br>  <b>Other</b> people disagree.<br><br><b>the other</b> + นามเอกพจน์/พหูพจน์ = อีกอัน/อีกกลุ่มที่<b>เหลืออยู่ทั้งหมด</b> (เจาะจง)<br>  I have two cats. One is black, <b>the other</b> is white.<br><br><b>others</b> = คนอื่น/สิ่งอื่น (พหูพจน์ ยืนเดี่ยว ไม่มีนามตาม)<br>  Some agree, <b>others</b> don\'t.<br><br><b>the others</b> = ที่เหลือทั้งหมด (ยืนเดี่ยว)<br>  Three left early, <b>the others</b> stayed.',
+        examples: [
+          { en: 'Would you like <b>another</b> biscuit?', th: 'อีกชิ้น (ไม่เจาะจง)' },
+          { en: 'I have two hands. One holds the pen, <b>the other</b> holds the book.', th: 'เหลืออันเดียว → the other' },
+          { en: 'Some students passed; <b>others</b> failed.', th: 'ยืนเดี่ยว พหูพจน์' },
+        ],
+        practice: [
+          { prompt: '"I have 2 brothers. One is a doctor, ___ is a teacher."', choices: ['another', 'other', 'the other', 'others'], correctIndex: 2, explain: 'เหลือคนเดียว เจาะจง → the other' },
+          { prompt: '"Would you like ___ cup of tea?"', choices: ['another', 'other', 'the other', 'others'], correctIndex: 0, explain: 'อีกแก้ว + นามเอกพจน์ → another' },
+          { prompt: '"Some people like coffee, ___ prefer tea."', choices: ['another', 'other', 'the other', 'others'], correctIndex: 3, explain: 'ยืนเดี่ยว ไม่มีนามตาม → others' },
+        ],
+      },
+      {
+        heading: 'Quantifier ครบชุด — ใช้กับนามแบบไหน',
+        content: 'ตารางสรุปว่าคำไหนใช้กับนามประเภทใด:<br><br><b>ใช้กับนับได้พหูพจน์เท่านั้น:</b><br>  many, few, a few, several, a number of, both, each of, every one of<br><br><b>ใช้กับนับไม่ได้เท่านั้น:</b><br>  much, little, a little, a great deal of, a bit of, an amount of<br><br><b>ใช้ได้ทั้งสองแบบ:</b><br>  some, any, no, a lot of, lots of, plenty of, most, all, enough<br><br><b>ใช้กับนับได้เอกพจน์:</b><br>  each, every, another, one<br><br><b>คำที่ควรจำเพิ่ม:</b><br>• <b>plenty of</b> = เยอะแยะ (พอเพียง)<br>• <b>enough</b> = เพียงพอ<br>• <b>most (of)</b> = ส่วนใหญ่<br>• <b>a great deal of</b> = มากมาย (นับไม่ได้ ทางการ)<br>• <b>a large number of</b> = จำนวนมาก (นับได้)',
+        examples: [
+          { en: 'We have <b>plenty of</b> time.', th: 'time นับไม่ได้ — plenty of ใช้ได้' },
+          { en: '<b>Most</b> students passed.', th: 'most + พหูพจน์' },
+          { en: '<b>Most of the</b> students passed.', th: 'มี the ต้องมี of' },
+          { en: 'There is <b>a great deal of</b> interest.', th: 'นับไม่ได้ + ทางการ' },
+        ],
+        practice: [
+          { prompt: '"She has ___ experience in this field." (มาก, นับไม่ได้)', choices: ['many', 'a great deal of', 'several', 'a few'], correctIndex: 1, explain: 'experience (นับไม่ได้) → a great deal of' },
+          { prompt: '"___ of the water was polluted."', choices: ['Many', 'Several', 'Most', 'A few'], correctIndex: 2, explain: 'water นับไม่ได้ → Most of' },
+          { prompt: '"There were ___ people at the concert."', choices: ['much', 'a great deal of', 'a large number of', 'a little'], correctIndex: 2, explain: 'people นับได้พหูพจน์ → a large number of' },
+        ],
+      },
+      {
+        heading: 'ลำดับของ Determiner (เมื่อมีหลายตัว)',
+        content: 'ถ้ามี determiner หลายตัวขยายนามเดียวกัน ต้องเรียงตามลำดับนี้:<br><br><b>1) Pre-determiner</b> — all, both, half, double, such, what<br><b>2) Central determiner</b> — a/an/the, this/that, my/your, some/any, no<br><b>3) Post-determiner</b> — ตัวเลข (one, two), few, many, other<br><br>ตัวอย่าง: <b>all</b> (pre) + <b>the</b> (central) + <b>three</b> (post) + students<br><br>⚠️ <b>Central determiner ใช้ได้ทีละตัวเท่านั้น</b><br>  ❌ the my book, a this pen<br>  ✅ my book / this pen / a book of mine<br><br><b>สำนวนที่ต้องจำ:</b><br>  <b>such a</b> + adj + นามเอกพจน์: such a good idea<br>  <b>what a</b> + adj + นามเอกพจน์: What a beautiful day!<br>  <b>half the</b> / <b>all the</b> / <b>both the</b>',
+        examples: [
+          { en: '<b>All the three</b> boys are here.', th: 'pre + central + post' },
+          { en: '<b>Such a</b> lovely garden!', th: 'such + a + adj + นาม' },
+          { en: '<b>What a</b> surprise!', th: 'what + a + นาม' },
+          { en: '<b>Half the</b> class was absent.', th: 'half + the' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['the my car', 'my the car', 'my car', 'a my car'], correctIndex: 2, explain: 'Central determiner (the, my, a) ใช้ได้ทีละตัว → my car' },
+          { prompt: '"___ interesting book!" (อุทาน)', choices: ['What', 'What a', 'Such', 'How a'], correctIndex: 1, explain: 'What + a + adj + นามเอกพจน์' },
+          { prompt: 'เรียงลำดับให้ถูก', choices: ['the all four students', 'all the four students', 'four all the students', 'the four all students'], correctIndex: 1, explain: 'all (pre) → the (central) → four (post)' },
+        ],
+      },
     ],
     quiz: {
       basic: [
@@ -412,6 +601,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The building is <b>tall</b>.', th: 'หลัง verb to be' },
           { en: 'The soup tastes <b>delicious</b>.', th: 'หลังกริยาแสดงสภาพ' },
         ],
+        practice: [
+          { prompt: 'ใน "She bought a red car." คำว่า red ทำหน้าที่อะไร', choices: ['ประธาน', 'ขยายคำนาม car', 'กริยา', 'ขยายกริยา bought'], correctIndex: 1, explain: 'red เป็น adjective ขยายคำนาม car' },
+          { prompt: 'ประโยคใดวาง adjective ผิดตำแหน่ง', choices: ['a happy child', 'The child is happy.', 'The child happy is.', 'She looks happy.'], correctIndex: 2, explain: 'adjective ต้องอยู่หน้านาม หรือหลัง verb to be' },
+        ],
       },
       {
         heading: 'Adjective Suffix (คำลงท้ายบ่งบอกว่าเป็น adj)',
@@ -433,6 +626,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'a <b>big</b> house', th: 'ขนาด' },
           { en: '<b>red</b> apples', th: 'สี' },
           { en: '<b>hot</b> coffee', th: 'อุณหภูมิ' },
+        ],
+        practice: [
+          { prompt: 'คำใดเป็น adjective บอกขนาด', choices: ['sweet', 'wide', 'green', 'young'], correctIndex: 1, explain: 'wide (กว้าง) บอกขนาด — sweet=รสชาติ, green=สี, young=อายุ' },
+          { prompt: 'คำใดไม่ใช่ adjective', choices: ['bitter', 'rich', 'speak', 'cool'], correctIndex: 2, explain: 'speak เป็นกริยา ไม่ใช่ adjective' },
         ],
       },
       {
@@ -466,6 +663,100 @@ const GRAMMAR_CHAPTERS = [
         examples: [
           { en: 'The soup <b>isn\'t</b> hot.', th: 'ปฏิเสธ' },
           { en: '<b>Are</b> you tired?', th: 'คำถาม' },
+        ],
+        practice: [
+          { prompt: 'เปลี่ยน "The room is clean." เป็นปฏิเสธ', choices: ['The room not is clean.', 'The room isn\'t clean.', 'The room doesn\'t clean.', 'The room is not cleanly.'], correctIndex: 1, explain: 'verb to be + not → isn\'t clean' },
+          { prompt: 'เปลี่ยน "They are ready." เป็นคำถาม', choices: ['Do they ready?', 'Are they ready?', 'They are ready?', 'Is they ready?'], correctIndex: 1, explain: 'สลับ verb to be มาหน้าประธาน → Are they ready?' },
+        ],
+      },
+      {
+        heading: 'ตำแหน่ง Adjective — บางคำใช้ได้ตำแหน่งเดียว',
+        content: 'Adjective มี 2 ตำแหน่ง:<br><b>Attributive</b> = วางหน้าคำนาม → a <b>big</b> house<br><b>Predicative</b> = วางหลัง verb to be / linking verb → The house is <b>big</b>.<br><br>ส่วนใหญ่ใช้ได้ทั้งสองตำแหน่ง แต่มีข้อยกเว้นที่ข้อสอบชอบออก:<br><br><b>ใช้ได้เฉพาะหลัง verb (Predicative only)</b> — มักขึ้นต้นด้วย a-<br>  <b>afraid, alive, alone, asleep, awake, aware, ashamed, glad, ill, well</b><br>  ✅ The baby is <b>asleep</b>. ❌ an asleep baby<br>  → ถ้าจะขยายนาม ต้องเปลี่ยนคำ: a <b>sleeping</b> baby<br><br><b>ใช้ได้เฉพาะหน้านาม (Attributive only)</b><br>  <b>main, chief, principal, only, mere, former, latter, elder, indoor, outdoor</b><br>  ✅ the <b>main</b> reason ❌ The reason is main.<br><br><b>Linking verbs ที่ตามด้วย adjective:</b><br>  be, become, seem, appear, look, feel, sound, smell, taste, get, turn, grow, remain, stay',
+        examples: [
+          { en: 'The child is <b>afraid</b>. (ไม่ใช่ an afraid child)', th: 'Predicative only' },
+          { en: 'That was the <b>only</b> option. (ไม่ใช่ The option is only.)', th: 'Attributive only' },
+          { en: 'The soup <b>tastes</b> delicious.', th: 'linking verb + adj' },
+          { en: 'It <b>got</b> dark quickly.', th: 'get + adj = กลายเป็น' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['an asleep cat', 'a sleeping cat', 'a asleep cat', 'the asleep cat'], correctIndex: 1, explain: 'asleep ใช้หน้านามไม่ได้ ต้องใช้ sleeping' },
+          { prompt: '"The milk ___ sour."', choices: ['tastes', 'tastes like', 'taste', 'is tasting'], correctIndex: 0, explain: 'taste (linking verb) + adj = tastes sour' },
+          { prompt: 'ข้อใดผิด', choices: ['the main problem', 'The problem is main.', 'The problem is serious.', 'a serious problem'], correctIndex: 1, explain: 'main ใช้ได้เฉพาะหน้านาม' },
+        ],
+      },
+      {
+        heading: 'Adjective + Preposition (คู่ที่ต้องจำ)',
+        content: 'ข้อสอบชอบออกมาก ต้องจำเป็นคู่:<br><br><b>+ of</b>: afraid of, proud of, aware of, tired of, fond of, capable of, jealous of, full of, ashamed of<br><b>+ at</b>: good at, bad at, clever at, surprised at, shocked at<br><b>+ in</b>: interested in, involved in, successful in, experienced in<br><b>+ with</b>: pleased with, satisfied with, bored with, angry with (คน), familiar with, busy with<br><b>+ about</b>: worried about, excited about, sorry about (เรื่อง), curious about, angry about (เรื่อง)<br><b>+ to</b>: similar to, married to, kind to, rude to, used to, addicted to, related to<br><b>+ for</b>: famous for, responsible for, sorry for (คน), suitable for, ready for<br><b>+ from</b>: different from, absent from, safe from<br><br>⚠️ คู่ที่สับสน:<br>  angry <b>with</b> someone / angry <b>about</b> something<br>  sorry <b>for</b> someone / sorry <b>about</b> something<br>  good <b>at</b> (เก่ง) / good <b>for</b> (ดีต่อ) / good <b>to</b> (ใจดีกับ)',
+        examples: [
+          { en: 'She is <b>good at</b> maths.', th: 'เก่งเรื่อง' },
+          { en: 'Exercise is <b>good for</b> your health.', th: 'ดีต่อสุขภาพ' },
+          { en: 'I\'m <b>worried about</b> the exam.', th: 'กังวลเรื่อง' },
+          { en: 'This is <b>different from</b> that.', th: 'ต่างจาก' },
+        ],
+        practice: [
+          { prompt: '"I\'m not familiar ___ this software."', choices: ['of', 'to', 'with', 'in'], correctIndex: 2, explain: 'familiar with = คุ้นเคยกับ' },
+          { prompt: '"He is afraid ___ spiders."', choices: ['of', 'at', 'with', 'from'], correctIndex: 0, explain: 'afraid of = กลัว' },
+          { prompt: '"She was angry ___ her brother."', choices: ['about', 'with', 'of', 'for'], correctIndex: 1, explain: 'โกรธคน → angry with (โกรธเรื่อง → angry about)' },
+        ],
+      },
+      {
+        heading: 'Adjective + to V. / that clause',
+        content: '<b>1) It is + adj + to + V.1</b> — โครงสร้างยอดฮิต<br>  <b>It is important to</b> study hard.<br>  <b>It is difficult to</b> learn a language.<br><br><b>2) It is + adj + of/for + คน + to + V.1</b><br>• ใช้ <b>of</b> เมื่อ adj บอก<b>นิสัยของคน</b>: kind, nice, silly, clever, rude, generous<br>  <b>It was kind of</b> you <b>to</b> help me.<br>• ใช้ <b>for</b> เมื่อ adj บอก<b>ความยากง่าย/จำเป็น</b>: easy, hard, important, necessary, possible<br>  <b>It is difficult for</b> me <b>to</b> understand.<br><br><b>3) S + be + adj + to + V.1</b><br>  I am <b>happy to</b> meet you. / She is <b>ready to</b> go.<br><br><b>4) S + be + adj + that + ประโยค</b><br>  I am <b>sure that</b> he will come.<br>  She is <b>afraid that</b> it will rain.<br>  adj ที่ใช้ได้: sure, certain, afraid, glad, sorry, aware, surprised, confident',
+        examples: [
+          { en: '<b>It is easy to</b> make mistakes.', th: 'It is + adj + to V.' },
+          { en: '<b>It was nice of</b> her <b>to</b> call.', th: 'นิสัยคน → of' },
+          { en: '<b>It is hard for</b> children <b>to</b> sit still.', th: 'ความยาก → for' },
+          { en: 'I\'m <b>glad that</b> you came.', th: 'adj + that clause' },
+        ],
+        practice: [
+          { prompt: '"It was very generous ___ him to donate."', choices: ['for', 'of', 'to', 'with'], correctIndex: 1, explain: 'generous = นิสัยของคน → of' },
+          { prompt: '"It is impossible ___ me to finish today."', choices: ['of', 'for', 'to', 'with'], correctIndex: 1, explain: 'impossible = ความยากง่าย → for' },
+          { prompt: '"She is ready ___ the exam."', choices: ['take', 'to take', 'taking', 'takes'], correctIndex: 1, explain: 'ready + to + V.1' },
+        ],
+      },
+      {
+        heading: 'Compound Adjective (คุณศัพท์ประสม)',
+        content: 'คำ 2 คำขึ้นไปรวมกันด้วย<b>ขีดกลาง (-)</b> ทำหน้าที่เป็น adjective ตัวเดียว วางหน้านาม<br><br><b>รูปแบบที่พบบ่อย:</b><br>• <b>ตัวเลข + นามเอกพจน์</b>: a <b>five-year-old</b> boy, a <b>two-hour</b> film, a <b>10-page</b> report<br>  ⚠️ นามต้องเป็น<b>เอกพจน์เสมอ</b> (ไม่ใช่ five-years-old)<br>• <b>adj/adv + V.3</b>: <b>well-known</b>, <b>hand-made</b>, <b>home-made</b>, <b>old-fashioned</b><br>• <b>adj/adv + V.ing</b>: <b>good-looking</b>, <b>hard-working</b>, <b>time-consuming</b>, <b>easy-going</b><br>• <b>นาม + V.3</b>: <b>sun-dried</b>, <b>heart-broken</b>, <b>hand-written</b><br>• <b>นาม + adj</b>: <b>world-famous</b>, <b>ice-cold</b>, <b>duty-free</b><br><br>⚠️ ถ้าวาง<b>หลัง</b> verb to be มักไม่ต้องใส่ขีด:<br>  a <b>well-known</b> artist → The artist is <b>well known</b>.<br>⚠️ ถ้าคำแรกลงท้าย -ly ไม่ต้องใส่ขีด:<br>  a <b>highly skilled</b> worker (ไม่ใช่ highly-skilled)',
+        examples: [
+          { en: 'a <b>three-day</b> holiday', th: 'ตัวเลข + นามเอกพจน์' },
+          { en: 'a <b>hard-working</b> student', th: 'adj + V.ing' },
+          { en: 'a <b>world-famous</b> singer', th: 'นาม + adj' },
+          { en: 'a <b>beautifully designed</b> house', th: '-ly ไม่ต้องมีขีด' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['a ten-years-old girl', 'a ten-year-old girl', 'a ten year-old girl', 'a ten-years old girl'], correctIndex: 1, explain: 'ตัวเลข + นามเอกพจน์ + ขีดกลางครบ' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['a highly-trained dog', 'a highly trained dog', 'a high-trained dog', 'a highly-train dog'], correctIndex: 1, explain: 'คำลงท้าย -ly ไม่ต้องใส่ขีดกลาง' },
+          { prompt: '"เป็นการเดินทาง 5 ชั่วโมง"', choices: ['a five-hours trip', 'a five-hour trip', 'a five hour\'s trip', 'a fives-hour trip'], correctIndex: 1, explain: 'five-hour (เอกพจน์)' },
+        ],
+      },
+      {
+        heading: 'The + Adjective = คนกลุ่มนั้นทั้งหมด',
+        content: 'ใส่ <b>the</b> หน้า adjective → กลายเป็นคำนามหมายถึง<b>คนทั้งกลุ่ม</b> และถือเป็น<b>พหูพจน์</b><br><br>  <b>the rich</b> = คนรวย (ทุกคน)<br>  <b>the poor</b> = คนจน<br>  <b>the young</b> = คนหนุ่มสาว<br>  <b>the elderly</b> / <b>the old</b> = ผู้สูงอายุ<br>  <b>the unemployed</b> = คนว่างงาน<br>  <b>the homeless</b> = คนไร้บ้าน<br>  <b>the disabled</b> = คนพิการ<br>  <b>the injured</b> = ผู้บาดเจ็บ<br><br>⚠️ ใช้กริยา<b>พหูพจน์</b>เสมอ: The rich <b>are</b> getting richer.<br>⚠️ ถ้าหมายถึงคนเดียว ต้องมีคำนามตาม: a rich <b>man</b><br><br><b>สัญชาติบางคำก็ใช้แบบนี้:</b><br>  the French, the Chinese, the Japanese, the British, the Thai',
+        examples: [
+          { en: '<b>The poor need</b> more support.', th: 'พหูพจน์ → need (ไม่ใช่ needs)' },
+          { en: '<b>The elderly are</b> more vulnerable.', th: 'กริยาพหูพจน์' },
+          { en: '<b>The French are</b> known for their cuisine.', th: 'สัญชาติ' },
+        ],
+        practice: [
+          { prompt: '"The homeless ___ shelter during winter."', choices: ['needs', 'need', 'is needing', 'has needed'], correctIndex: 1, explain: 'the + adj = พหูพจน์ → need' },
+          { prompt: '"เขาเป็นคนรวย" ในภาษาอังกฤษ', choices: ['He is the rich.', 'He is a rich.', 'He is a rich man.', 'He is rich man.'], correctIndex: 2, explain: 'คนเดียวต้องมีนามตาม → a rich man (หรือ He is rich.)' },
+        ],
+      },
+      {
+        heading: 'So / Such / Too / Enough',
+        content: 'สี่คำนี้ขยายระดับของ adjective แต่โครงสร้างต่างกัน — ข้อสอบออกบ่อยมาก<br><br><b>so + adj/adv</b> (+ that + ผลลัพธ์)<br>  It was <b>so cold that</b> I stayed home.<br><br><b>such + (a/an) + adj + นาม</b> (+ that)<br>  It was <b>such a cold day that</b> I stayed home.<br>  It was <b>such cold weather that</b>... (นับไม่ได้ ไม่มี a)<br>  → จำ: <b>so</b> ตามด้วย adj เปล่า ๆ / <b>such</b> ตามด้วยกลุ่มคำที่มีนาม<br><br><b>too + adj + (for คน) + to + V.1</b> = ...เกินไปที่จะ (แง่ลบ ทำไม่ได้)<br>  The coffee is <b>too hot to</b> drink. (ร้อนเกินจะดื่ม)<br><br><b>adj + enough + (for คน) + to + V.1</b> = ...พอที่จะ (แง่บวก ทำได้)<br>  He is <b>tall enough to</b> reach it.<br>  ⚠️ enough วาง<b>หลัง</b> adjective แต่วาง<b>หน้า</b>คำนาม<br>    old <b>enough</b> / <b>enough</b> money',
+        examples: [
+          { en: 'She is <b>so</b> kind.', th: 'so + adj' },
+          { en: 'She is <b>such a</b> kind person.', th: 'such + a + adj + นาม' },
+          { en: 'It\'s <b>too</b> heavy <b>to</b> lift.', th: 'หนักเกินจะยก' },
+          { en: 'It\'s light <b>enough to</b> carry.', th: 'เบาพอที่จะถือ' },
+          { en: 'I don\'t have <b>enough money</b>.', th: 'enough หน้าคำนาม' },
+        ],
+        practice: [
+          { prompt: '"It was ___ a good movie that I watched it twice."', choices: ['so', 'such', 'too', 'very'], correctIndex: 1, explain: 'ตามด้วย a + adj + นาม → such' },
+          { prompt: '"The box is ___ heavy for me to carry."', choices: ['so', 'such', 'too', 'enough'], correctIndex: 2, explain: 'หนักเกินไปจนยกไม่ได้ → too' },
+          { prompt: '"She isn\'t old ___ to drive."', choices: ['too', 'so', 'enough', 'such'], correctIndex: 2, explain: 'adj + enough + to V.' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I have money enough.', 'I have enough money.', 'I have enough of money.', 'I have money too enough.'], correctIndex: 1, explain: 'enough วางหน้าคำนาม' },
         ],
       },
     ],
@@ -629,6 +920,109 @@ const GRAMMAR_CHAPTERS = [
           { prompt: '"She is a ___ dancer."', choices: ['beautiful', 'beautifully', 'beauty', 'beautify'], correctIndex: 0, explain: 'ขยายนาม dancer ใช้ adj = beautiful' },
         ],
       },
+      {
+        heading: 'กฎการเติม -ly ให้ถูกต้อง',
+        content: 'เปลี่ยน adjective เป็น adverb ด้วยการเติม <b>-ly</b> แต่มีกฎย่อย:<br><br>• ปกติเติม <b>-ly</b> ตรง ๆ: quick → quick<b>ly</b>, slow → slow<b>ly</b><br>• ลงท้าย <b>-y</b> (นำหน้าด้วยพยัญชนะ) → เปลี่ยน y เป็น i: happy → happ<b>ily</b>, easy → eas<b>ily</b>, angry → angr<b>ily</b><br>• ลงท้าย <b>-le</b> → ตัด e เติม y: gentle → gent<b>ly</b>, simple → simp<b>ly</b>, possible → possib<b>ly</b><br>• ลงท้าย <b>-ic</b> → เติม <b>-ally</b>: basic → basic<b>ally</b>, automatic → automatic<b>ally</b><br>  ⚠️ ยกเว้น public → <b>publicly</b><br>• ลงท้าย <b>-ll</b> → เติมแค่ y: full → ful<b>ly</b>, dull → dul<b>ly</b><br>• ลงท้าย <b>-ue</b> → ตัด e: true → tru<b>ly</b>, due → du<b>ly</b><br><br><b>⚠️ กับดัก: คำที่ลงท้าย -ly แต่เป็น ADJECTIVE ไม่ใช่ adverb</b><br>  <b>friendly, lovely, lonely, silly, ugly, likely, elderly, costly, daily, weekly</b><br>  → She is <b>friendly</b>. (adj) ✅ / She smiled friendly ❌<br>  → ต้องพูดว่า: She smiled <b>in a friendly way</b>.',
+        examples: [
+          { en: 'happy → <b>happily</b>', th: 'y → i + ly' },
+          { en: 'gentle → <b>gently</b>', th: '-le → ตัด e + y' },
+          { en: 'automatic → <b>automatically</b>', th: '-ic → +ally' },
+          { en: 'She is a <b>friendly</b> person.', th: 'friendly = adjective (ไม่ใช่ adverb)' },
+        ],
+        practice: [
+          { prompt: 'Adverb ของ "simple" คือ', choices: ['simplely', 'simply', 'simpley', 'simplly'], correctIndex: 1, explain: '-le → ตัด e เติม y = simply' },
+          { prompt: 'Adverb ของ "tragic" คือ', choices: ['tragicly', 'tragically', 'tragicaly', 'tragicly'], correctIndex: 1, explain: '-ic → เติม -ally' },
+          { prompt: 'คำใดเป็น adjective (ไม่ใช่ adverb) แม้ลงท้าย -ly', choices: ['quickly', 'lovely', 'carefully', 'slowly'], correctIndex: 1, explain: 'lovely เป็น adjective — friendly, lonely, silly ก็เช่นกัน' },
+        ],
+      },
+      {
+        heading: 'คำที่เป็นได้ทั้ง Adj และ Adv (รูปเดียวกัน)',
+        content: 'คำกลุ่มนี้ใช้รูปเดิมทั้งเป็น adjective และ adverb ห้ามเติม -ly:<br><br>  <b>fast, hard, late, early, high, low, near, far, straight, long, deep, wrong, right, daily, weekly, monthly</b><br><br>  a <b>fast</b> car (adj) / He drives <b>fast</b> (adv)<br>  a <b>hard</b> job (adj) / She works <b>hard</b> (adv)<br><br><b>⚠️ ระวังมาก: บางคำมี 2 รูป ความหมายต่างกันสิ้นเชิง</b><br>• <b>hard</b> = หนัก, ขยัน / <b>hardly</b> = แทบจะไม่<br>  He works <b>hard</b>. (ขยัน) ≠ He <b>hardly</b> works. (แทบไม่ทำงาน)<br>• <b>late</b> = สาย / <b>lately</b> = เมื่อเร็ว ๆ นี้<br>  He arrived <b>late</b>. ≠ I haven\'t seen him <b>lately</b>.<br>• <b>near</b> = ใกล้ / <b>nearly</b> = เกือบ<br>  He lives <b>near</b>. ≠ I <b>nearly</b> fell.<br>• <b>high</b> = สูง / <b>highly</b> = อย่างมาก<br>  Birds fly <b>high</b>. ≠ She is <b>highly</b> intelligent.<br>• <b>free</b> = ฟรี / <b>freely</b> = อย่างอิสระ<br>• <b>most</b> = มากที่สุด / <b>mostly</b> = ส่วนใหญ่',
+        examples: [
+          { en: 'He works <b>hard</b>.', th: 'ขยันทำงาน' },
+          { en: 'He <b>hardly</b> works.', th: 'แทบไม่ทำงานเลย (ความหมายตรงข้าม!)' },
+          { en: 'The train came <b>late</b>.', th: 'มาสาย' },
+          { en: 'I\'ve been busy <b>lately</b>.', th: 'ช่วงนี้ยุ่ง' },
+        ],
+        practice: [
+          { prompt: '"She studies ___ every night." (ขยัน)', choices: ['hard', 'hardly', 'harder', 'hardness'], correctIndex: 0, explain: 'ขยัน → hard (hardly = แทบไม่)' },
+          { prompt: '"I ___ know him." (แทบจะไม่รู้จัก)', choices: ['hard', 'hardly', 'near', 'late'], correctIndex: 1, explain: 'แทบจะไม่ → hardly' },
+          { prompt: '"Have you seen her ___?" (ช่วงนี้)', choices: ['late', 'lately', 'later', 'latest'], correctIndex: 1, explain: 'เมื่อเร็ว ๆ นี้ → lately' },
+          { prompt: '"He ___ missed the train." (เกือบพลาด)', choices: ['near', 'nearly', 'nearby', 'close'], correctIndex: 1, explain: 'เกือบ → nearly' },
+        ],
+      },
+      {
+        heading: 'Adverb of Degree (บอกระดับ) ใช้ให้ถูก',
+        content: 'ขยาย adjective / adverb / กริยา เพื่อบอกว่ามาก-น้อยแค่ไหน<br><br><b>ระดับสูง:</b> very, extremely, incredibly, really, absolutely, completely, totally<br><b>ระดับกลาง:</b> quite, fairly, rather, pretty, somewhat<br><b>ระดับต่ำ:</b> a little, a bit, slightly, hardly, scarcely, barely<br><br><b>⚠️ กฎสำคัญ: adjective มี 2 ประเภท ใช้ตัวขยายต่างกัน</b><br><br><b>1) Gradable adjective</b> (มีระดับ) เช่น big, cold, tired, good<br>  → ใช้ <b>very, quite, a bit, extremely</b><br>  ✅ very cold, a bit tired<br><br><b>2) Non-gradable / Extreme adjective</b> (สุดขั้วอยู่แล้ว) เช่น freezing, exhausted, perfect, huge, terrible, impossible, dead<br>  → ใช้ <b>absolutely, completely, totally, utterly</b><br>  ✅ absolutely freezing / ❌ very freezing<br>  ✅ completely exhausted / ❌ very exhausted<br><br>💡 <b>really</b> กับ <b>quite</b> ใช้ได้ทั้งสองแบบ',
+        examples: [
+          { en: 'It\'s <b>very cold</b> today.', th: 'gradable → very' },
+          { en: 'It\'s <b>absolutely freezing</b>!', th: 'extreme → absolutely' },
+          { en: 'I\'m <b>completely exhausted</b>.', th: 'extreme → completely' },
+          { en: 'The film was <b>quite good</b>.', th: 'ระดับกลาง' },
+        ],
+        practice: [
+          { prompt: '"The view was ___ stunning."', choices: ['very', 'absolutely', 'a bit', 'slightly'], correctIndex: 1, explain: 'stunning = extreme adjective → absolutely' },
+          { prompt: '"I\'m ___ tired after work."', choices: ['absolutely', 'utterly', 'very', 'completely'], correctIndex: 2, explain: 'tired = gradable → very (ถ้าเป็น exhausted จึงใช้ completely)' },
+          { prompt: 'ข้อใดผิด', choices: ['very hungry', 'absolutely starving', 'very starving', 'really hungry'], correctIndex: 2, explain: 'starving = extreme ห้ามใช้ very' },
+        ],
+      },
+      {
+        heading: 'Sentence Adverb (ขยายทั้งประโยค)',
+        content: 'Adverb บางตัวไม่ได้ขยายกริยา แต่ขยาย<b>ทั้งประโยค</b> เพื่อบอกทัศนคติหรือเชื่อมความคิด มักวาง<b>ต้นประโยคแล้วตามด้วย comma</b><br><br><b>บอกความคิดเห็น/ทัศนคติ:</b><br>  Fortunately, Unfortunately, Luckily, Sadly, Surprisingly, Honestly, Obviously, Clearly, Apparently, Hopefully, Personally<br><br><b>เชื่อมความคิด (Linking adverb):</b><br>• เพิ่มเติม: Moreover, Furthermore, In addition, Besides, Also<br>• ขัดแย้ง: However, Nevertheless, Nonetheless, On the other hand, In contrast<br>• ผลลัพธ์: Therefore, Thus, Consequently, As a result, Hence<br>• ลำดับ: First, Then, Next, Finally, Meanwhile<br>• สรุป: In conclusion, To sum up, Overall, In short<br><br>⚠️ <b>However ≠ But</b> — however เป็น adverb ต้องมี comma หรือ semicolon<br>  ✅ It was raining. <b>However,</b> we went out.<br>  ✅ It was raining; <b>however,</b> we went out.<br>  ❌ It was raining however we went out.',
+        examples: [
+          { en: '<b>Fortunately,</b> no one was hurt.', th: 'โชคดีที่ไม่มีใครเจ็บ' },
+          { en: '<b>However,</b> the results were unclear.', th: 'ขัดแย้งกับประโยคก่อน' },
+          { en: 'He studied hard. <b>Therefore,</b> he passed.', th: 'บอกผลลัพธ์' },
+        ],
+        practice: [
+          { prompt: '"The test was hard. ___, everyone passed."', choices: ['Therefore', 'Moreover', 'However', 'Thus'], correctIndex: 2, explain: 'ขัดแย้งกับประโยคก่อน → However' },
+          { prompt: '"She was ill. ___, she couldn\'t attend."', choices: ['However', 'Nevertheless', 'Therefore', 'In contrast'], correctIndex: 2, explain: 'เป็นผลลัพธ์ → Therefore' },
+          { prompt: 'ข้อใดเขียนถูกต้อง', choices: ['I was tired however I kept working.', 'I was tired. However, I kept working.', 'I was tired, however I kept working', 'I was tired but however I kept working.'], correctIndex: 1, explain: 'however เป็น adverb ต้องขึ้นประโยคใหม่ + comma' },
+        ],
+      },
+      {
+        heading: 'การเปรียบเทียบ Adverb',
+        content: 'Adverb เปรียบเทียบได้เหมือน adjective แต่กฎต่างเล็กน้อย<br><br><b>1) Adverb ที่ลงท้าย -ly</b> → ใช้ <b>more / most</b><br>  quickly → <b>more</b> quickly → <b>the most</b> quickly<br>  carefully → <b>more</b> carefully → <b>the most</b> carefully<br><br><b>2) Adverb สั้นที่รูปเหมือน adjective</b> → เติม <b>-er / -est</b><br>  fast → fast<b>er</b> → <b>the</b> fast<b>est</b><br>  hard → hard<b>er</b>, early → earl<b>ier</b>, late → lat<b>er</b><br><br><b>3) รูปผิดปกติ (ต้องจำ)</b><br>  well → <b>better</b> → <b>the best</b><br>  badly → <b>worse</b> → <b>the worst</b><br>  little → <b>less</b> → <b>the least</b><br>  much → <b>more</b> → <b>the most</b><br>  far → <b>farther/further</b> → <b>the farthest/furthest</b><br><br><b>โครงสร้างเปรียบเทียบ:</b><br>  as + adv + as = เท่ากับ → He runs <b>as fast as</b> me.<br>  adv-er/more adv + than = กว่า → She sings <b>more beautifully than</b> him.',
+        examples: [
+          { en: 'He speaks English <b>more fluently than</b> I do.', th: '-ly → more...than' },
+          { en: 'She arrived <b>earlier than</b> expected.', th: 'early → earlier' },
+          { en: 'He did <b>better</b> this time.', th: 'well → better' },
+        ],
+        practice: [
+          { prompt: '"Please drive ___ than that." (ระวังกว่า)', choices: ['carefullier', 'more carefully', 'carefuller', 'most carefully'], correctIndex: 1, explain: 'adverb ลงท้าย -ly → more + adv' },
+          { prompt: '"He runs ___ of all the students."', choices: ['fast', 'faster', 'fastest', 'the fastest'], correctIndex: 3, explain: 'ขั้นสูงสุด of all → the fastest' },
+          { prompt: '"She performed ___ than last year."', choices: ['gooder', 'weller', 'better', 'best'], correctIndex: 2, explain: 'well → better (ผิดปกติ)' },
+        ],
+      },
+      {
+        heading: 'ตำแหน่ง Adverb 3 จุด (Front / Mid / End)',
+        content: 'Adverb วางได้ 3 จุดในประโยค แต่ละประเภทมีที่ประจำ:<br><br><b>1) Front position</b> (ต้นประโยค) — sentence adverb, time adverb<br>  <b>Suddenly,</b> the lights went out.<br>  <b>Yesterday</b> I met him.<br><br><b>2) Mid position</b> (กลางประโยค) — frequency, degree, certainty<br>  กฎ 3 ข้อ:<br>  • หน้ากริยาทั่วไป: She <b>often</b> visits.<br>  • หลัง verb to be: She is <b>often</b> late.<br>  • หลัง auxiliary ตัวแรก: She has <b>often</b> visited. / She will <b>probably</b> come.<br><br><b>3) End position</b> (ท้ายประโยค) — manner, place, time<br>  She sang <b>beautifully</b>. / He waited <b>outside</b>.<br><br><b>⚠️ ห้ามวาง adverb คั่นระหว่างกริยากับกรรม</b><br>  ❌ She speaks <b>fluently</b> English.<br>  ✅ She speaks English <b>fluently</b>.<br>  ✅ She <b>fluently</b> speaks English. (ได้แต่ไม่นิยม)',
+        examples: [
+          { en: '<b>Suddenly</b>, it started raining.', th: 'Front' },
+          { en: 'He has <b>never</b> been abroad.', th: 'Mid — หลัง auxiliary (has)' },
+          { en: 'They played <b>well</b>.', th: 'End' },
+          { en: '❌ I like very much this song. → ✅ I like this song very much.', th: 'ห้ามคั่นกริยากับกรรม' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['She speaks fluently French.', 'She speaks French fluently.', 'She fluently French speaks.', 'Fluently she French speaks.'], correctIndex: 1, explain: 'ห้ามคั่นระหว่างกริยา (speaks) กับกรรม (French)' },
+          { prompt: '"He ___ has finished his work." (เพิ่งจะ)', choices: ['just', 'has just', 'just has', 'finished just'], correctIndex: 0, explain: 'ที่ถูกคือ He has just finished — just วางหลัง auxiliary' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I very much enjoyed the film.', 'I enjoyed very much the film.', 'Very much I enjoyed the film.', 'I enjoyed the film very much.'], correctIndex: 3, explain: 'very much วางท้ายประโยค (ข้อ A ก็ใช้ได้แต่เป็นทางการ)' },
+        ],
+      },
+      {
+        heading: 'Inversion — เอา Adverb ขึ้นต้นแล้วสลับประธาน',
+        content: 'เมื่อเอา adverb เชิงปฏิเสธ/จำกัดความขึ้นต้นประโยค ต้อง<b>สลับกริยาช่วยมาหน้าประธาน</b> (เหมือนประโยคคำถาม) — ใช้ในภาษาเขียนเชิงทางการและออกสอบระดับสูงบ่อย<br><br><b>คำที่ทำให้เกิด inversion:</b><br>  Never, Rarely, Seldom, Hardly, Scarcely, Barely, Little, Nowhere, Not only, Not until, No sooner, Only then, Only after, Under no circumstances, At no time<br><br><b>โครงสร้าง:</b> Adverb + auxiliary + ประธาน + กริยาแท้<br><br>  ปกติ: I have <b>never</b> seen such beauty.<br>  Inversion: <b>Never have I</b> seen such beauty.<br><br>  ปกติ: He <b>rarely</b> complains.<br>  Inversion: <b>Rarely does he</b> complain. (ต้องเติม does เพราะไม่มี auxiliary)<br><br><b>คู่ที่ต้องจำ:</b><br>  <b>No sooner</b> had I arrived <b>than</b> it rained.<br>  <b>Hardly</b> had I arrived <b>when</b> it rained.<br>  <b>Not only</b> does he sing, <b>but</b> he <b>also</b> dances.',
+        examples: [
+          { en: '<b>Never have I</b> been so happy.', th: 'Never + have + I' },
+          { en: '<b>Rarely does she</b> arrive late.', th: 'ไม่มี auxiliary → เติม does' },
+          { en: '<b>Not until</b> he called <b>did I</b> understand.', th: 'Not until + clause + did + S' },
+        ],
+        practice: [
+          { prompt: '"Never ___ such a beautiful sunset."', choices: ['I have seen', 'have I seen', 'I saw', 'did I saw'], correctIndex: 1, explain: 'Never → inversion: have + I + seen' },
+          { prompt: '"Seldom ___ to the cinema."', choices: ['he goes', 'goes he', 'does he go', 'he does go'], correctIndex: 2, explain: 'ไม่มี auxiliary → เติม does + he + go (V.1)' },
+          { prompt: '"No sooner had she left ___ the phone rang."', choices: ['when', 'than', 'that', 'then'], correctIndex: 1, explain: 'No sooner...than (คู่กันเสมอ)' },
+        ],
+      },
     ],
     quiz: {
       basic: [
@@ -734,6 +1128,10 @@ const GRAMMAR_CHAPTERS = [
         examples: [
           { en: '<b>She</b> gave <b>him</b> <b>her</b> book. It\'s <b>hers</b>.', th: 'She=ประธาน, him=กรรม, her=แสดงเจ้าของ, hers=แทนสิ่งของ' },
         ],
+        practice: [
+          { prompt: 'Pronoun มีทั้งหมดกี่รูป (กี่แถวในตาราง)', choices: ['3 รูป', '4 รูป', '5 รูป', '6 รูป'], correctIndex: 2, explain: '5 รูป: ประธาน, กรรม, ของ+นาม, ของ(เดี่ยว), ตัวเอง' },
+          { prompt: '"him" เป็น pronoun รูปใด', choices: ['ประธาน', 'กรรม', 'แสดงความเป็นเจ้าของ', 'สะท้อนตัวเอง'], correctIndex: 1, explain: 'him = Object Pronoun (รูปกรรม)' },
+        ],
       },
       {
         heading: 'Subject Pronoun (ประธาน)',
@@ -799,6 +1197,102 @@ const GRAMMAR_CHAPTERS = [
           { prompt: '"I\'m" ย่อมาจาก', choices: ['I will', 'I have', 'I am', 'I do'], correctIndex: 2, explain: 'I\'m = I am' },
           { prompt: '"won\'t" ย่อมาจาก', choices: ['will not', 'want not', 'would not', 'was not'], correctIndex: 0, explain: 'won\'t = will not (รูปพิเศษ)' },
           { prompt: 'ประโยคใดถูก', choices: ['Its raining outside.', 'It\'s raining outside.', 'Its\' raining outside.', 'It raining outside.'], correctIndex: 1, explain: '"มันกำลังฝนตก" = It is → It\'s' },
+        ],
+      },
+      {
+        heading: 'Demonstrative Pronoun (this/that/these/those)',
+        content: 'คำเหล่านี้เป็นได้ทั้ง <b>Determiner</b> (มีนามตาม) และ <b>Pronoun</b> (ยืนเดี่ยว)<br><br>  Determiner: <b>This book</b> is mine.<br>  Pronoun: <b>This</b> is mine.<br><br><b>ใช้ตามระยะ:</b><br>  <b>this / these</b> = ใกล้ผู้พูด (ทั้งระยะทางและเวลา)<br>  <b>that / those</b> = ไกลผู้พูด<br><br><b>การใช้พิเศษ:</b><br>• แนะนำตัวทางโทรศัพท์: <b>This is</b> John speaking.<br>• อ้างถึงสิ่งที่เพิ่งพูด: I failed the test. <b>That</b> was disappointing.<br>• อ้างถึงสิ่งที่กำลังจะพูด: Listen to <b>this</b> — I got the job!<br>• <b>those who</b> = คนที่... → <b>Those who</b> arrive early get seats.<br><br>⚠️ <b>ใช้ that/those แทนคำนามที่พูดไปแล้ว เพื่อไม่ให้ซ้ำ</b> (ทางการ)<br>  The climate of Thailand is hotter than <b>that of</b> Japan.<br>  (that = the climate — เลี่ยงพูดซ้ำ)<br>  The books on the shelf are newer than <b>those on</b> the table.',
+        examples: [
+          { en: '<b>This</b> is my brother.', th: 'Pronoun ยืนเดี่ยว' },
+          { en: '<b>Those who</b> work hard succeed.', th: 'those who = คนที่' },
+          { en: 'His salary is higher than <b>that of</b> his manager.', th: 'that แทน salary' },
+        ],
+        practice: [
+          { prompt: '"The population of Bangkok is larger than ___ of Chiang Mai."', choices: ['this', 'that', 'these', 'those'], correctIndex: 1, explain: 'แทน the population (เอกพจน์) → that of' },
+          { prompt: '"___ who study regularly do better."', choices: ['This', 'That', 'These', 'Those'], correctIndex: 3, explain: 'those who = คนที่ (พหูพจน์)' },
+        ],
+      },
+      {
+        heading: 'Indefinite Pronoun (someone / anything / everybody)',
+        content: 'สรรพนามไม่ชี้เฉพาะ สร้างจาก <b>some/any/no/every</b> + <b>one/body/thing/where</b><br><br><table style="width:100%;font-size:0.9em"><tr><td></td><td><b>-one/-body</b></td><td><b>-thing</b></td><td><b>-where</b></td></tr><tr><td><b>some-</b></td><td>someone</td><td>something</td><td>somewhere</td></tr><tr><td><b>any-</b></td><td>anyone</td><td>anything</td><td>anywhere</td></tr><tr><td><b>no-</b></td><td>no one</td><td>nothing</td><td>nowhere</td></tr><tr><td><b>every-</b></td><td>everyone</td><td>everything</td><td>everywhere</td></tr></table><br><b>กฎสำคัญ 3 ข้อ:</b><br><b>1) ถือเป็นเอกพจน์เสมอ</b> → ใช้กริยาเอกพจน์<br>  <b>Everyone is</b> here. (ไม่ใช่ are)<br>  <b>Nothing has</b> changed.<br><br><b>2) adjective วางไว้ข้างหลัง</b> (ไม่ใช่ข้างหน้า)<br>  ✅ something <b>interesting</b> / ❌ interesting something<br>  ✅ someone <b>special</b> / ❌ special someone*<br><br><b>3) ใช้ they/their อ้างถึงได้</b> (แม้เป็นเอกพจน์) เมื่อไม่รู้เพศ<br>  <b>Someone</b> left <b>their</b> bag here.<br>  <b>Everyone</b> should do <b>their</b> best.',
+        examples: [
+          { en: '<b>Everybody knows</b> the answer.', th: 'เอกพจน์ → knows' },
+          { en: 'I need <b>something cold</b> to drink.', th: 'adj วางข้างหลัง' },
+          { en: '<b>Nobody</b> came, did <b>they</b>?', th: 'ใช้ they อ้างถึงได้' },
+        ],
+        practice: [
+          { prompt: '"Everything ___ ready for the party."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'Indefinite pronoun = เอกพจน์ → is' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I want new something.', 'I want something new.', 'I want a new something.', 'I want something of new.'], correctIndex: 1, explain: 'adjective วางหลัง indefinite pronoun' },
+          { prompt: '"___ has taken my pen."', choices: ['Someone', 'Some', 'Anyone', 'Something'], correctIndex: 0, explain: 'คน + บอกเล่า → Someone' },
+        ],
+      },
+      {
+        heading: 'Reciprocal Pronoun (each other / one another)',
+        content: '<b>each other</b> และ <b>one another</b> = ซึ่งกันและกัน<br><br>  They love <b>each other</b>. = เขารักกัน (คนหนึ่งรักอีกคน)<br><br><b>ความต่าง (แบบดั้งเดิม):</b><br>  <b>each other</b> → ใช้กับ 2 คน<br>  <b>one another</b> → ใช้กับ 3 คนขึ้นไป<br>  💡 ปัจจุบันใช้แทนกันได้เกือบทุกกรณี<br><br><b>⚠️ ต่างจาก Reflexive อย่างไร — ข้อสอบชอบออก</b><br>  They looked at <b>themselves</b>. = ต่างคนต่างมองตัวเองในกระจก<br>  They looked at <b>each other</b>. = มองหน้ากัน<br><br><b>รูปแสดงความเป็นเจ้าของ:</b> each other<b>\'s</b><br>  They wore <b>each other\'s</b> clothes.',
+        examples: [
+          { en: 'Tom and Ann help <b>each other</b>.', th: 'ช่วยเหลือกัน (2 คน)' },
+          { en: 'The students helped <b>one another</b>.', th: 'ช่วยกัน (หลายคน)' },
+          { en: 'They blamed <b>themselves</b>.', th: 'โทษตัวเอง (ไม่ใช่โทษกัน)' },
+        ],
+        practice: [
+          { prompt: '"The two brothers always argue with ___." (ทะเลาะกัน)', choices: ['themselves', 'each other', 'them', 'theirs'], correctIndex: 1, explain: 'ทะเลาะกันเอง (คนละคน) → each other' },
+          { prompt: '"They introduced ___ to the audience." (แนะนำตัวเอง)', choices: ['each other', 'themselves', 'them', 'one another'], correctIndex: 1, explain: 'แนะนำตัวเอง → themselves' },
+        ],
+      },
+      {
+        heading: 'การใช้ "it" แบบพิเศษ',
+        content: '<b>it</b> ไม่ได้แปลว่า "มัน" เสมอไป มีการใช้พิเศษที่ต้องจำ:<br><br><b>1) พูดถึงสภาพอากาศ เวลา ระยะทาง อุณหภูมิ</b><br>  <b>It\'s</b> raining. / <b>It\'s</b> 3 o\'clock. / <b>It\'s</b> 5 km to town. / <b>It\'s</b> hot.<br><br><b>2) Empty subject (ประธานหลอก)</b> — วางแทนประธานจริงที่ยาว แล้วย้ายของจริงไปท้าย<br>  ยาก: <b>To learn English</b> is important.<br>  ธรรมชาติกว่า: <b>It is</b> important <b>to learn English</b>.<br>  <b>It</b> seems <b>that</b> he is late.<br><br><b>3) Cleft sentence (เน้นย้ำ)</b> — It is/was + สิ่งที่เน้น + that/who<br>  <b>It was John who</b> broke the window. (เน้นว่าเป็นจอห์น)<br>  <b>It is money that</b> he wants. (เน้นว่าเงินต่างหาก)<br><br><b>4) พูดถึงคนที่ยังไม่รู้ว่าใคร</b><br>  Someone\'s knocking. Who is <b>it</b>? — <b>It\'s</b> me.<br><br><b>เทียบกับ "there"</b><br>  <b>There is</b> a book on the table. (บอกว่ามีอยู่)<br>  <b>It is</b> a good book. (บรรยายลักษณะ)',
+        examples: [
+          { en: '<b>It\'s</b> getting dark.', th: 'สภาพอากาศ/เวลา' },
+          { en: '<b>It is</b> difficult <b>to</b> explain.', th: 'ประธานหลอก' },
+          { en: '<b>It was</b> her <b>who</b> called.', th: 'Cleft — เน้นว่าเป็นเธอ' },
+          { en: '<b>There is</b> a problem.', th: 'บอกว่ามี → there (ไม่ใช่ it)' },
+        ],
+        practice: [
+          { prompt: '"___ is a beautiful day today."', choices: ['There', 'It', 'That', 'This'], correctIndex: 1, explain: 'พูดถึงสภาพอากาศ/วัน → It' },
+          { prompt: '"___ are many people waiting outside."', choices: ['It', 'They', 'There', 'Those'], correctIndex: 2, explain: 'บอกว่ามีอยู่ → There are' },
+          { prompt: '"___ is important to arrive on time."', choices: ['There', 'That', 'It', 'This'], correctIndex: 2, explain: 'ประธานหลอก: It is + adj + to V.' },
+        ],
+      },
+      {
+        heading: 'One / Ones — แทนคำนามที่พูดไปแล้ว',
+        content: 'ใช้ <b>one/ones</b> แทนคำนามนับได้ที่พูดไปแล้ว เพื่อไม่ให้ซ้ำ<br><br>  <b>one</b> = แทนนามเอกพจน์<br>  <b>ones</b> = แทนนามพหูพจน์<br><br>  I don\'t like this shirt. I prefer that <b>one</b>. (one = shirt)<br>  These apples are fresh; those <b>ones</b> aren\'t. (ones = apples)<br><br><b>ใช้กับ:</b><br>  • which one, this one, that one, the red one<br>  • the one that/who... → The <b>one who</b> called was my sister.<br><br><b>⚠️ ห้ามใช้ one/ones แทนนามนับไม่ได้</b><br>  ❌ This water is cleaner than that one.<br>  ✅ This water is cleaner than that.<br><br><b>⚠️ "one" อีกความหมาย = คนเราโดยทั่วไป</b> (ทางการมาก)<br>  <b>One</b> should always be polite. = คนเราควรสุภาพ<br>  (ภาษาพูดใช้ <b>you</b> แทน: You should always be polite.)',
+        examples: [
+          { en: 'Which shirt? — The blue <b>one</b>.', th: 'one = shirt' },
+          { en: 'I need new shoes. These <b>ones</b> are worn out.', th: 'ones = shoes' },
+          { en: '<b>One</b> must respect the law.', th: 'คนเราโดยทั่วไป (ทางการ)' },
+        ],
+        practice: [
+          { prompt: '"I have two pens. The red ___ is mine."', choices: ['one', 'ones', 'it', 'that'], correctIndex: 0, explain: 'แทนนามเอกพจน์ (pen) → one' },
+          { prompt: 'ข้อใดผิด', choices: ['This coffee is better than that one.', 'This book is better than that one.', 'These shoes are nicer than those ones.', 'The blue one is mine.'], correctIndex: 0, explain: 'coffee นับไม่ได้ ห้ามใช้ one → ต้องพูดว่า "better than that"' },
+        ],
+      },
+      {
+        heading: 'ข้อผิดพลาดยอดฮิตเรื่อง Pronoun',
+        content: 'รวมจุดที่คนไทยพลาดบ่อยที่สุด:<br><br><b>1) it\'s vs its</b><br>  <b>it\'s</b> = it is / it has → <b>It\'s</b> raining.<br>  <b>its</b> = ของมัน (ไม่มี apostrophe!) → The dog wagged <b>its</b> tail.<br>  💡 ถ้าแทนด้วย "it is" แล้วความหมายยังถูก ให้ใช้ it\'s<br><br><b>2) your vs you\'re / their vs they\'re vs there</b><br>  your = ของคุณ / you\'re = you are<br>  their = ของพวกเขา / they\'re = they are / there = ที่นั่น, มี<br><br><b>3) I vs me เมื่ออยู่กับคนอื่น</b><br>  💡 <b>เทคนิค:</b> ลองตัดคนอื่นออก แล้วดูว่าเหลืออะไรถูก<br>  "John and (I/me) went." → ตัด John: "<b>I</b> went" ✅ → John and <b>I</b> went.<br>  "She invited John and (I/me)." → ตัด John: "She invited <b>me</b>" ✅ → John and <b>me</b>.<br><br><b>4) myself ใช้ผิด</b><br>  ❌ Please contact <b>myself</b>. → ✅ Please contact <b>me</b>.<br>  ใช้ myself ได้เฉพาะเมื่อประธานคือ I เท่านั้น<br><br><b>5) ลืมประธาน</b> (ภาษาไทยละได้ อังกฤษละไม่ได้)<br>  ❌ Is raining. → ✅ <b>It</b> is raining.<br>  ❌ Have many people. → ✅ <b>There</b> are many people.',
+        examples: [
+          { en: '<b>It\'s</b> cold, and the cat lost <b>its</b> collar.', th: 'it is / ของมัน' },
+          { en: 'She gave the book to Tom and <b>me</b>.', th: 'หลัง to → me' },
+          { en: 'Tom and <b>I</b> are friends.', th: 'ประธาน → I' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The company changed it\'s logo.', 'The company changed its logo.', 'The company changed its\' logo.', 'The company changed it logo.'], correctIndex: 1, explain: 'ของมัน → its (ไม่มี apostrophe)' },
+          { prompt: '"My sister and ___ went shopping."', choices: ['me', 'I', 'myself', 'mine'], correctIndex: 1, explain: 'ตัด "my sister" ออก → "I went" → ใช้ I' },
+          { prompt: '"He sent an email to my boss and ___."', choices: ['I', 'me', 'myself', 'mine'], correctIndex: 1, explain: 'ตัด "my boss" ออก → "to me" → ใช้ me' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Is very hot today.', 'It is very hot today.', 'Have very hot today.', 'Very hot today is.'], correctIndex: 1, explain: 'ภาษาอังกฤษต้องมีประธานเสมอ → It' },
+        ],
+      },
+      {
+        heading: 'สรุปตาราง Pronoun ทั้งหมด (ท่องให้ขึ้นใจ)',
+        content: 'ตารางนี้คือหัวใจของบทนี้ ท่องได้จะใช้ถูกทันที:<br><br><table style="width:100%;font-size:0.86em;line-height:1.9"><tr><td><b>ประธาน</b></td><td><b>กรรม</b></td><td><b>ของ+นาม</b></td><td><b>ของ(เดี่ยว)</b></td><td><b>ตัวเอง</b></td></tr><tr><td>I</td><td>me</td><td>my</td><td>mine</td><td>myself</td></tr><tr><td>You</td><td>you</td><td>your</td><td>yours</td><td>yourself</td></tr><tr><td>He</td><td>him</td><td>his</td><td>his</td><td>himself</td></tr><tr><td>She</td><td>her</td><td>her</td><td>hers</td><td>herself</td></tr><tr><td>It</td><td>it</td><td>its</td><td>—</td><td>itself</td></tr><tr><td>We</td><td>us</td><td>our</td><td>ours</td><td>ourselves</td></tr><tr><td>They</td><td>them</td><td>their</td><td>theirs</td><td>themselves</td></tr></table><br><b>จุดที่ต้องระวังในตาราง:</b><br>• <b>his</b> ซ้ำ 2 ช่อง (his book / this is his)<br>• <b>her</b> ซ้ำ 2 ช่อง แต่คนละหน้าที่ (I saw her / her book)<br>• <b>its</b> ไม่มีรูป possessive pronoun<br>• <b>you</b> เหมือนกันทั้งเอกพจน์และพหูพจน์ แต่ reflexive ต่างกัน: yourself (คนเดียว) / yourselves (หลายคน)<br>• พหูพจน์ลงท้าย <b>-selves</b> ทั้งหมด<br>• ห้ามมี apostrophe ในช่อง "ของ" เลย: its, hers, ours, theirs, yours (ไม่มี \')',
+        examples: [
+          { en: '<b>I</b> gave <b>him</b> <b>my</b> book because <b>his</b> was lost.', th: 'ครบ 4 รูปในประโยคเดียว' },
+          { en: 'Help <b>yourself</b>. (คนเดียว) / Help <b>yourselves</b>. (หลายคน)', th: 'ต่างกันที่จำนวน' },
+        ],
+        practice: [
+          { prompt: 'รูป reflexive ของ "you" (หลายคน) คือ', choices: ['yourself', 'yourselves', 'yourselfs', 'youselves'], correctIndex: 1, explain: 'หลายคน → yourselves' },
+          { prompt: 'ข้อใดสะกดผิด', choices: ['theirs', 'ours', 'her\'s', 'yours'], correctIndex: 2, explain: 'ต้องเป็น hers (ไม่มี apostrophe)' },
+          { prompt: '"This pen is ___ and that one is ___." (ของฉัน / ของเธอ)', choices: ['my / her', 'mine / hers', 'mine / her', 'my / hers'], correctIndex: 1, explain: 'ไม่มีนามตาม ต้องใช้ possessive pronoun ทั้งคู่' },
         ],
       },
     ],
@@ -974,6 +1468,105 @@ const GRAMMAR_CHAPTERS = [
           { prompt: '"___ car is this?" (ของใคร)', choices: ['Who', 'Whom', 'Whose', 'Which'], correctIndex: 2, explain: 'Whose = ของใคร' },
         ],
       },
+      {
+        heading: 'คำถามที่ถามประธาน vs ถามกรรม (สำคัญมาก)',
+        content: 'จุดนี้คนไทยพลาดบ่อยที่สุดในบทนี้<br><br><b>1) ถามที่ประธาน (Subject Question)</b><br>  → <b>ไม่ต้องใช้ do/does/did</b> และเรียงคำเหมือนประโยคบอกเล่า<br>  <b>Who</b> called you? (ใครโทรหาคุณ)<br>  <b>What</b> happened? (เกิดอะไรขึ้น)<br>  <b>Which team</b> won? (ทีมไหนชนะ)<br>  ❌ Who did call you? ❌ What did happen?<br><br><b>2) ถามที่กรรม (Object Question)</b><br>  → <b>ต้องใช้ do/does/did</b> ตามปกติ<br>  <b>Who did</b> you call? (คุณโทรหาใคร)<br>  <b>What did</b> you see? (คุณเห็นอะไร)<br><br><b>💡 วิธีแยก:</b> ลองตอบคำถามดู<br>  "Who called you?" → "<b>Tom</b> called me." → Tom เป็นประธาน = Subject question<br>  "Who did you call?" → "I called <b>Tom</b>." → Tom เป็นกรรม = Object question<br><br><b>⚠️ Subject question ใช้กริยาเอกพจน์เสมอ</b><br>  <b>Who wants</b> coffee? (ไม่ใช่ want)<br>  <b>What makes</b> you happy?',
+        examples: [
+          { en: '<b>Who broke</b> the window?', th: 'ถามประธาน — ไม่มี did' },
+          { en: '<b>What did</b> he break?', th: 'ถามกรรม — มี did' },
+          { en: '<b>Who knows</b> the answer?', th: 'Subject question → กริยาเอกพจน์' },
+        ],
+        practice: [
+          { prompt: '"___ the door?" (ใครเปิดประตู — ถามประธาน)', choices: ['Who did open', 'Who opened', 'Who open', 'Whom opened'], correctIndex: 1, explain: 'ถามประธาน ไม่ต้องมี did → Who opened' },
+          { prompt: '"___ you invite to the party?" (คุณเชิญใคร)', choices: ['Who invited', 'Who did', 'Whom did', 'Who does'], correctIndex: 2, explain: 'ถามกรรม → Whom/Who did you invite' },
+          { prompt: '"Who ___ the best score?" (ใครได้คะแนนดีสุด)', choices: ['have', 'has', 'do have', 'are having'], correctIndex: 1, explain: 'Subject question → กริยาเอกพจน์ = has' },
+        ],
+      },
+      {
+        heading: 'Indirect Question (คำถามทางอ้อม) — ห้ามสลับคำ',
+        content: 'เมื่อเอาคำถามไปฝังในประโยคอื่น (เพื่อความสุภาพหรือรายงาน) ต้อง<b>เรียงคำแบบประโยคบอกเล่า</b><br><br><b>โครงสร้าง:</b> วลีนำ + <b>Wh-word + ประธาน + กริยา</b><br><br>  Direct: <b>Where is</b> the station?<br>  Indirect: Could you tell me <b>where the station is</b>?<br>  ❌ Could you tell me where is the station?<br><br>  Direct: <b>What time does</b> it start?<br>  Indirect: Do you know <b>what time it starts</b>? (ตัด does, เติม s ที่กริยา)<br><br><b>วลีนำที่พบบ่อย:</b><br>  Could you tell me... / Do you know... / I wonder... / I\'d like to know... / Can you explain...<br><br><b>ถ้าเป็นคำถาม Yes-No → ใช้ if หรือ whether</b><br>  Direct: <b>Is</b> he coming?<br>  Indirect: I wonder <b>if/whether he is</b> coming.<br><br><b>⚠️ เครื่องหมายท้ายประโยค</b><br>  Do you know where he lives<b>?</b> (วลีนำเป็นคำถาม → ใส่ ?)<br>  I wonder where he lives<b>.</b> (วลีนำเป็นบอกเล่า → ใส่ .)',
+        examples: [
+          { en: 'Can you tell me <b>where the toilet is</b>?', th: 'ประธาน + กริยา (ไม่สลับ)' },
+          { en: 'I don\'t know <b>what he wants</b>.', th: 'ตัด does + เติม s' },
+          { en: 'I wonder <b>if she will come</b>.', th: 'Yes-No question → if' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Do you know where is the bank?', 'Do you know where the bank is?', 'Do you know where does the bank?', 'Do you know is where the bank?'], correctIndex: 1, explain: 'Indirect question เรียงแบบบอกเล่า: where + the bank + is' },
+          { prompt: 'เปลี่ยน "What does she want?" เป็นทางอ้อม', choices: ['I wonder what does she want.', 'I wonder what she wants.', 'I wonder what want she.', 'I wonder does she want what.'], correctIndex: 1, explain: 'ตัด does แล้วเติม s ที่ want' },
+          { prompt: '"Could you tell me ___ the meeting starts?"', choices: ['when does', 'when is', 'when', 'that when'], correctIndex: 2, explain: 'when + the meeting (ประธาน) + starts' },
+        ],
+      },
+      {
+        heading: 'Question Tag (ใช่ไหม / ไม่ใช่หรือ)',
+        content: 'ประโยคสั้นท้ายประโยคเพื่อถามยืนยัน แปลว่า "ใช่ไหม"<br><br><b>กฎทอง: ประโยคบวก → หางลบ / ประโยคลบ → หางบวก</b><br>  You are a student, <b>aren\'t you</b>?<br>  You aren\'t a student, <b>are you</b>?<br><br><b>วิธีสร้าง:</b> ใช้ auxiliary ตัวเดียวกับประโยคหลัก + สรรพนาม<br>  She <b>can</b> swim, <b>can\'t she</b>?<br>  They <b>have</b> finished, <b>haven\'t they</b>?<br>  ถ้าไม่มี auxiliary → ใช้ do/does/did<br>  He <b>likes</b> coffee, <b>doesn\'t he</b>?<br>  She <b>went</b> home, <b>didn\'t she</b>?<br><br><b>กรณีพิเศษที่ต้องจำ:</b><br>  <b>I am</b> right, <b>aren\'t I</b>? (ไม่ใช่ amn\'t I)<br>  <b>Let\'s</b> go, <b>shall we</b>?<br>  <b>Open</b> the door, <b>will you</b>? (ประโยคคำสั่ง)<br>  <b>There is</b> a problem, <b>isn\'t there</b>?<br>  <b>Everyone</b> came, <b>didn\'t they</b>? (everyone → they)<br>  <b>Nothing</b> happened, <b>did it</b>? (nothing เป็นลบอยู่แล้ว → หางบวก)<br>  He <b>never</b> calls, <b>does he</b>? (never = ลบ → หางบวก)',
+        examples: [
+          { en: 'You like pizza, <b>don\'t you</b>?', th: 'บวก → หางลบ' },
+          { en: 'She didn\'t come, <b>did she</b>?', th: 'ลบ → หางบวก' },
+          { en: 'Let\'s start, <b>shall we</b>?', th: 'Let\'s → shall we' },
+        ],
+        practice: [
+          { prompt: '"He can drive, ___?"', choices: ['can he', 'can\'t he', 'doesn\'t he', 'does he'], correctIndex: 1, explain: 'บวก → หางลบ ใช้ auxiliary เดิม (can) = can\'t he' },
+          { prompt: '"They haven\'t arrived, ___?"', choices: ['haven\'t they', 'have they', 'didn\'t they', 'do they'], correctIndex: 1, explain: 'ลบ → หางบวก = have they' },
+          { prompt: '"Let\'s have dinner, ___?"', choices: ['will we', 'don\'t we', 'shall we', 'do we'], correctIndex: 2, explain: 'Let\'s → shall we (จำเป็นกรณีพิเศษ)' },
+          { prompt: '"Nobody called, ___?"', choices: ['didn\'t they', 'did they', 'did he', 'didn\'t he'], correctIndex: 1, explain: 'nobody = ลบอยู่แล้ว → หางบวก + ใช้ they' },
+        ],
+      },
+      {
+        heading: 'Negative Question (คำถามเชิงปฏิเสธ)',
+        content: 'คำถามที่ขึ้นต้นด้วยรูปปฏิเสธ ใช้แสดง<b>ความประหลาดใจ</b> หรือ<b>ชวน/เสนอ</b><br><br>  <b>Don\'t you</b> like coffee? (ไม่ชอบกาแฟเหรอ — ประหลาดใจ)<br>  <b>Aren\'t you</b> coming? (ไม่มาเหรอ)<br>  <b>Wouldn\'t you</b> like some tea? (รับชาไหม — เชิญชวน)<br><br><b>⚠️ การตอบต่างจากภาษาไทยสิ้นเชิง!</b><br>  คำถาม: "<b>Don\'t you</b> like coffee?" (ไม่ชอบกาแฟเหรอ)<br>  • ถ้า<b>ชอบ</b> → <b>Yes</b>, I do. (ภาษาไทยตอบ "ไม่ ชอบสิ")<br>  • ถ้า<b>ไม่ชอบ</b> → <b>No</b>, I don\'t. (ภาษาไทยตอบ "ใช่ ไม่ชอบ")<br><br>  💡 <b>กฎง่าย ๆ:</b> ภาษาอังกฤษยึด<b>ข้อเท็จจริง</b> ไม่ได้ยึดคำถาม<br>  ข้อเท็จจริงเป็นบวก → Yes เสมอ<br>  ข้อเท็จจริงเป็นลบ → No เสมอ<br><br><b>เทียบให้ชัด:</b><br>  Q: Aren\'t you hungry? (ไม่หิวเหรอ)<br>  A: <b>Yes, I am.</b> = หิวครับ<br>  A: <b>No, I\'m not.</b> = ไม่หิวครับ',
+        examples: [
+          { en: 'Q: Didn\'t you study? A: <b>Yes, I did.</b>', th: 'อ่านแล้วนะ (ข้อเท็จจริงบวก → Yes)' },
+          { en: 'Q: Didn\'t you study? A: <b>No, I didn\'t.</b>', th: 'ไม่ได้อ่าน (ข้อเท็จจริงลบ → No)' },
+          { en: '<b>Why don\'t</b> we go out? ', th: 'ชักชวน = ไปเที่ยวกันไหม' },
+        ],
+        practice: [
+          { prompt: '"Aren\'t you tired?" ถ้าคุณเหนื่อย ต้องตอบว่า', choices: ['No, I am.', 'Yes, I am.', 'No, I\'m not.', 'Yes, I\'m not.'], correctIndex: 1, explain: 'ข้อเท็จจริงเป็นบวก (เหนื่อย) → Yes, I am' },
+          { prompt: '"Don\'t you have a car?" ถ้าคุณไม่มีรถ ต้องตอบว่า', choices: ['Yes, I do.', 'Yes, I don\'t.', 'No, I don\'t.', 'No, I do.'], correctIndex: 2, explain: 'ข้อเท็จจริงเป็นลบ (ไม่มี) → No, I don\'t' },
+          { prompt: '"___ we take a break?" (ชวนพัก)', choices: ['Why don\'t', 'Why not do', 'Why we don\'t', 'Why isn\'t'], correctIndex: 0, explain: 'Why don\'t we + V.1 = ชักชวน' },
+        ],
+      },
+      {
+        heading: 'Preposition ในคำถาม — วางไว้ตรงไหน',
+        content: 'เมื่อคำถามมี preposition เกี่ยวข้อง มี 2 แบบ:<br><br><b>1) วางท้ายประโยค (ภาษาพูด นิยมที่สุด)</b><br>  <b>Who</b> are you talking <b>to</b>?<br>  <b>What</b> are you looking <b>for</b>?<br>  <b>Where</b> do you come <b>from</b>?<br>  <b>Which</b> hotel did you stay <b>at</b>?<br><br><b>2) วางหน้า Wh-word (ทางการ — ต้องใช้ whom)</b><br>  <b>To whom</b> are you talking?<br>  <b>For what</b> are you looking?<br>  <b>At which</b> hotel did you stay?<br><br>💡 ในชีวิตประจำวันและข้อสอบส่วนใหญ่ใช้แบบที่ 1<br>💡 ถ้า preposition อยู่หน้า <b>ต้อง</b>ใช้ whom ไม่ใช่ who<br><br><b>กริยาที่ต้องจำ preposition คู่:</b><br>  listen <b>to</b>, look <b>at/for/after</b>, wait <b>for</b>, talk/speak <b>to/about</b>, think <b>about/of</b>, belong <b>to</b>, depend <b>on</b>, agree <b>with</b>, laugh <b>at</b><br><br>⚠️ <b>อย่าลืม preposition</b> — คนไทยชอบตกหล่น<br>  ❌ What are you waiting? → ✅ What are you waiting <b>for</b>?<br>  ❌ Who are you speaking? → ✅ Who are you speaking <b>to</b>?',
+        examples: [
+          { en: '<b>What</b> are you thinking <b>about</b>?', th: 'preposition ท้ายประโยค' },
+          { en: '<b>To whom</b> should I address this?', th: 'ทางการ — preposition + whom' },
+          { en: '<b>Who</b> does this book belong <b>to</b>?', th: 'belong to' },
+        ],
+        practice: [
+          { prompt: '"What are you looking ___?" (หาอะไรอยู่)', choices: ['at', 'for', 'to', 'in'], correctIndex: 1, explain: 'look for = ค้นหา' },
+          { prompt: 'ข้อใดถูกต้อง (ทางการ)', choices: ['To who did you speak?', 'To whom did you speak?', 'Whom to did you speak?', 'To whom you spoke?'], correctIndex: 1, explain: 'preposition + whom เสมอ (ไม่ใช่ who)' },
+          { prompt: '"Who are you waiting ___?"', choices: ['to', 'at', 'for', 'on'], correctIndex: 2, explain: 'wait for = รอ' },
+        ],
+      },
+      {
+        heading: 'การตอบคำถามแบบสั้น (Short Answer)',
+        content: 'ฝรั่งไม่ตอบแค่ Yes/No แต่จะเติม auxiliary ตามด้วย เพื่อให้ฟังสุภาพและเป็นธรรมชาติ<br><br><b>โครงสร้าง:</b> Yes/No + สรรพนาม + auxiliary<br><br>  Are you ready? → <b>Yes, I am.</b> / <b>No, I\'m not.</b><br>  Do you like it? → <b>Yes, I do.</b> / <b>No, I don\'t.</b><br>  Did she call? → <b>Yes, she did.</b> / <b>No, she didn\'t.</b><br>  Can he swim? → <b>Yes, he can.</b> / <b>No, he can\'t.</b><br>  Have you eaten? → <b>Yes, I have.</b> / <b>No, I haven\'t.</b><br>  Will they come? → <b>Yes, they will.</b> / <b>No, they won\'t.</b><br><br><b>⚠️ กฎ 3 ข้อ</b><br>  1) ใช้ auxiliary <b>ตัวเดียวกับ</b>คำถาม<br>  2) รูปบวก<b>ห้ามย่อ</b>: ✅ Yes, I am. ❌ Yes, I\'m.<br>  3) รูปลบ<b>ย่อได้</b>: No, I\'m not. / No, he isn\'t.<br><br><b>ตอบ Wh-question ไม่ต้องมี Yes/No</b><br>  Where do you live? → <b>In Bangkok.</b> (ไม่ใช่ Yes, in Bangkok)',
+        examples: [
+          { en: 'Q: Is she a doctor? A: <b>Yes, she is.</b>', th: 'ห้ามย่อในรูปบวก' },
+          { en: 'Q: Do they work here? A: <b>No, they don\'t.</b>', th: 'ใช้ auxiliary เดียวกัน' },
+          { en: 'Q: How old are you? A: <b>I\'m 25.</b>', th: 'Wh-question ไม่ต้องมี Yes/No' },
+        ],
+        practice: [
+          { prompt: '"Have you finished?" ตอบรับสั้น ๆ ว่า', choices: ['Yes, I finished.', 'Yes, I have.', 'Yes, I do.', 'Yes, I\'ve.'], correctIndex: 1, explain: 'ใช้ auxiliary เดียวกัน (have) และห้ามย่อในรูปบวก' },
+          { prompt: '"Can she cook?" ตอบปฏิเสธว่า', choices: ['No, she doesn\'t.', 'No, she can\'t.', 'No, she isn\'t.', 'No, she not can.'], correctIndex: 1, explain: 'auxiliary = can → No, she can\'t' },
+          { prompt: 'ข้อใดผิด', choices: ['Yes, I am.', 'Yes, I\'m.', 'No, I\'m not.', 'Yes, he does.'], correctIndex: 1, explain: 'รูปบวกห้ามย่อ' },
+        ],
+      },
+      {
+        heading: 'Wh- + ever (อะไรก็ตาม / ใครก็ตาม)',
+        content: 'เติม <b>-ever</b> ท้าย Wh-word → แปลว่า "...ก็ตาม" ใช้ 2 แบบ<br><br><b>1) แปลว่า "ก็ตาม" (เชื่อมประโยค)</b><br>  <b>whatever</b> = อะไรก็ตาม → Eat <b>whatever</b> you like.<br>  <b>whoever</b> = ใครก็ตาม → <b>Whoever</b> comes first gets a prize.<br>  <b>whenever</b> = เมื่อไหร่ก็ตาม → Call me <b>whenever</b> you need help.<br>  <b>wherever</b> = ที่ไหนก็ตาม → I\'ll follow you <b>wherever</b> you go.<br>  <b>whichever</b> = อันไหนก็ตาม → Choose <b>whichever</b> you prefer.<br>  <b>however</b> = อย่างไรก็ตาม/แค่ไหนก็ตาม → <b>However</b> hard I try, I fail.<br><br><b>2) ใช้ในคำถามเพื่อเน้นความประหลาดใจ</b> (แยกเขียนก็ได้)<br>  <b>Whatever</b> are you doing? = ทำอะไรของคุณเนี่ย!<br>  <b>Wherever</b> did you find that? = ไปเจอมาจากไหนเนี่ย!<br><br><b>⚠️ however มี 2 ความหมาย อย่าสับสน</b><br>  • อย่างไรก็ตาม (แต่): It was late. <b>However</b>, we continued.<br>  • ...แค่ไหนก็ตาม: <b>However</b> tired you are, keep going.<br><br><b>โครงสร้างพิเศษ:</b> however + adj/adv + ประธาน + กริยา<br>  <b>However</b> expensive it is, I\'ll buy it.',
+        examples: [
+          { en: 'You can sit <b>wherever</b> you want.', th: 'ที่ไหนก็ได้' },
+          { en: '<b>Whoever</b> wins will get a trophy.', th: 'ใครก็ตามที่ชนะ' },
+          { en: '<b>However</b> hard it is, don\'t give up.', th: 'ยากแค่ไหนก็ตาม' },
+        ],
+        practice: [
+          { prompt: '"___ you go, I will support you."', choices: ['Whatever', 'Wherever', 'Whenever', 'However'], correctIndex: 1, explain: 'ไปที่ไหนก็ตาม → Wherever' },
+          { prompt: '"___ much you pay, it won\'t be enough."', choices: ['Whatever', 'Whichever', 'However', 'Whenever'], correctIndex: 2, explain: 'However + much/adj = ...แค่ไหนก็ตาม' },
+          { prompt: '"Take ___ seat you like."', choices: ['whoever', 'whichever', 'whenever', 'however'], correctIndex: 1, explain: 'whichever + นาม = อันไหนก็ได้' },
+        ],
+      },
     ],
     quiz: {
       basic: [
@@ -1080,6 +1673,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The boy <b>who</b> is running is my brother.', th: 'เด็กผู้ชาย<b>ที่</b>กำลังวิ่งคือน้องชายฉัน' },
           { en: 'The book <b>which</b> I bought is new.', th: 'หนังสือ<b>ที่</b>ฉันซื้อเป็นเล่มใหม่' },
         ],
+        practice: [
+          { prompt: 'ใน "The girl who sings is my friend." คำว่า who แปลว่าอะไร', choices: ['ใคร', 'ที่/ซึ่ง', 'ของใคร', 'อย่างไร'], correctIndex: 1, explain: 'ในบริบท relative clause แปลว่า "ที่" ไม่ใช่คำถาม' },
+          { prompt: 'Relative Pronoun ทำหน้าที่อะไร', choices: ['ตั้งคำถาม', 'เชื่อมประโยคและแทนคำนาม', 'ขยายกริยา', 'บอกเวลา'], correctIndex: 1, explain: 'เชื่อมประโยคย่อยเข้ากับคำนามที่ถูกขยาย' },
+        ],
       },
       {
         heading: 'who, whom, that = คน',
@@ -1137,6 +1734,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The book (which) I bought is new.', th: 'ละ which ได้ (กรรม)' },
           { en: 'The man <b>who</b> called (ห้ามละ)', th: 'who เป็นประธาน ห้ามละ' },
         ],
+        practice: [
+          { prompt: 'ประโยคใดละ relative pronoun ได้', choices: ['The man who lives here is kind.', 'The book which is on the table is mine.', 'The film that we watched was long.', 'The dog which barks is loud.'], correctIndex: 2, explain: 'that เป็นกรรมของ watched → ละได้ (ข้ออื่นเป็นประธาน ละไม่ได้)' },
+          { prompt: '"The song ___ I like most is this one." (ละได้ไหม)', choices: ['ต้องมี which เสมอ', 'ละได้ เพราะเป็นกรรม', 'ละได้ เพราะเป็นประธาน', 'ต้องใช้ who'], correctIndex: 1, explain: 'I like the song → เป็นกรรม จึงละได้' },
+        ],
       },
       {
         heading: 'Defining vs Non-defining Clause',
@@ -1144,6 +1745,105 @@ const GRAMMAR_CHAPTERS = [
         examples: [
           { en: 'The book that I bought is new. (Defining)', th: 'บ่งชี้ว่าเล่มไหน' },
           { en: 'My mother, who lives in Chiang Mai, is 60. (Non-defining)', th: 'เสริมข้อมูลเรื่องแม่' },
+        ],
+        practice: [
+          { prompt: '"My wife, who is a nurse, works nights." ประโยคนี้บอกอะไร', choices: ['เขามีภรรยาหลายคน', 'เขามีภรรยาคนเดียว', 'ภรรยาคนที่เป็นพยาบาลทำงานกลางคืน', 'ไม่สามารถบอกได้'], correctIndex: 1, explain: 'มี comma = Non-defining = เสริมข้อมูล แปลว่ามีภรรยาคนเดียว' },
+          { prompt: 'Non-defining clause ห้ามใช้คำใด', choices: ['who', 'which', 'that', 'whose'], correctIndex: 2, explain: 'Non-defining (มี comma) ห้ามใช้ that' },
+        ],
+      },
+      {
+        heading: 'that vs which — เลือกใช้ตัวไหน',
+        content: 'สองตัวนี้ใช้แทนกันได้ในหลายกรณี แต่มีกฎที่ต้องรู้:<br><br><b>ใช้ที่ไหนก็ได้ (Defining clause):</b><br>  The book <b>that</b> I bought = The book <b>which</b> I bought ✅<br><br><b>⚠️ ต้องใช้ that เท่านั้น เมื่อ:</b><br>• หลัง <b>คำขั้นสูงสุด</b>: the best film <b>that</b> I\'ve seen<br>• หลัง <b>all, any, every, some, no, none, little, much</b>: everything <b>that</b> happened<br>• หลัง <b>the only, the first, the last, the same</b>: the only person <b>that</b> knows<br>• เมื่อขยาย<b>คนและสิ่งของพร้อมกัน</b>: the people and the places <b>that</b> I saw<br><br><b>⚠️ ห้ามใช้ that เมื่อ:</b><br>• เป็น <b>Non-defining clause</b> (มี comma)<br>  ✅ My car, <b>which</b> is red, is new.<br>  ❌ My car, that is red, is new.<br>• มี <b>preposition</b> อยู่ข้างหน้า<br>  ✅ the house <b>in which</b> he lives<br>  ❌ the house in that he lives',
+        examples: [
+          { en: 'This is the best song <b>that</b> I know.', th: 'หลังขั้นสูงสุด → that' },
+          { en: 'Everything <b>that</b> glitters is not gold.', th: 'หลัง everything → that' },
+          { en: 'His novel, <b>which</b> won a prize, is short.', th: 'Non-defining → which' },
+        ],
+        practice: [
+          { prompt: '"This is the first time ___ I\'ve been here."', choices: ['which', 'that', 'what', 'where'], correctIndex: 1, explain: 'หลัง the first → ใช้ that' },
+          { prompt: '"My laptop, ___ I bought last year, broke."', choices: ['that', 'which', 'what', 'who'], correctIndex: 1, explain: 'Non-defining (มี comma) → ห้ามใช้ that' },
+          { prompt: '"She told me everything ___ she knew."', choices: ['which', 'that', 'who', 'whose'], correctIndex: 1, explain: 'หลัง everything → that' },
+        ],
+      },
+      {
+        heading: 'Preposition กับ Relative Pronoun',
+        content: 'เมื่อ relative pronoun เป็นกรรมของ preposition วางได้ 2 แบบ:<br><br><b>1) วางท้าย clause (ภาษาพูด)</b><br>  the man <b>who</b> I spoke <b>to</b><br>  the house <b>which</b> I live <b>in</b><br>  → ละ relative pronoun ได้ด้วย: the man I spoke <b>to</b><br><br><b>2) วางหน้า relative pronoun (ทางการ)</b><br>  the man <b>to whom</b> I spoke<br>  the house <b>in which</b> I live<br><br><b>⚠️ กฎเหล็ก 3 ข้อของแบบทางการ:</b><br>  • คน → ต้องใช้ <b>whom</b> (ไม่ใช่ who)<br>  • สิ่งของ → ต้องใช้ <b>which</b> (ห้ามใช้ that)<br>  • <b>ห้ามละ</b> relative pronoun<br><br>  ✅ the person <b>with whom</b> I work<br>  ❌ the person with who I work<br>  ❌ the person with that I work<br><br><b>เทียบให้ชัด:</b><br>  พูด: The company <b>that</b> I work <b>for</b> is big.<br>  เขียนทางการ: The company <b>for which</b> I work is big.',
+        examples: [
+          { en: 'The girl <b>whom</b> I danced <b>with</b> is my cousin.', th: 'preposition ท้าย' },
+          { en: 'The girl <b>with whom</b> I danced is my cousin.', th: 'preposition หน้า whom' },
+          { en: 'The topic <b>on which</b> he spoke was complex.', th: 'ทางการ' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง (ทางการ)', choices: ['the chair on that I sat', 'the chair on which I sat', 'the chair on who I sat', 'the chair which I sat on that'], correctIndex: 1, explain: 'preposition + which (ห้าม that)' },
+          { prompt: '"The friend ___ I travelled is from Japan." (ทางการ)', choices: ['with who', 'with whom', 'with that', 'whom with'], correctIndex: 1, explain: 'preposition + whom สำหรับคน' },
+        ],
+      },
+      {
+        heading: 'Quantifier + of which / of whom',
+        content: 'โครงสร้างระดับสูงที่ใช้บอกจำนวนบางส่วนของกลุ่ม — ใช้ใน Non-defining clause<br><br><b>โครงสร้าง:</b> ..., <b>[จำนวน] + of which/of whom</b> + กริยา<br><br>  I have 30 students, <b>ten of whom</b> are from China.<br>  He wrote five books, <b>two of which</b> became bestsellers.<br>  She has many friends, <b>most of whom</b> live abroad.<br>  There were 20 questions, <b>none of which</b> I could answer.<br><br><b>คำที่ใช้นำหน้าได้:</b><br>  all, some, many, most, none, both, half, several, few, a number of, ตัวเลข, the majority<br><br><b>⚠️ ใช้ whom กับคน / which กับสิ่งของ เท่านั้น</b> (ห้าม who, ห้าม that)<br><br><b>เปรียบเทียบกับการเขียนแยกประโยค:</b><br>  ธรรมดา: He wrote five books. Two of them became bestsellers.<br>  รวบ: He wrote five books, <b>two of which</b> became bestsellers.<br>  💡 สังเกต: <b>them → which</b> เมื่อรวมประโยค',
+        examples: [
+          { en: 'The company hired 50 people, <b>most of whom</b> were engineers.', th: 'คน → of whom' },
+          { en: 'She owns three cars, <b>one of which</b> is electric.', th: 'สิ่งของ → of which' },
+          { en: 'I read many articles, <b>none of which</b> were useful.', th: 'none of which' },
+        ],
+        practice: [
+          { prompt: '"He has two sisters, both ___ are doctors."', choices: ['of who', 'of whom', 'of which', 'of that'], correctIndex: 1, explain: 'sisters = คน → of whom' },
+          { prompt: '"They released 10 songs, three ___ topped the charts."', choices: ['of whom', 'of which', 'of that', 'of them'], correctIndex: 1, explain: 'songs = สิ่งของ → of which' },
+        ],
+      },
+      {
+        heading: 'which ที่ขยาย "ทั้งประโยคก่อนหน้า"',
+        content: 'ปกติ relative pronoun ขยาย<b>คำนาม</b> แต่ <b>which</b> ขยาย<b>ทั้งประโยค</b>ได้ ใช้แสดงความคิดเห็นต่อเหตุการณ์<br><br>  He passed the exam, <b>which</b> surprised everyone.<br>  → which ไม่ได้ขยาย "the exam" แต่ขยาย "เขาสอบผ่าน" ทั้งเหตุการณ์<br><br>  She arrived late, <b>which</b> annoyed the teacher.<br>  He didn\'t call, <b>which</b> was strange.<br><br><b>⚠️ ต้องมี comma เสมอ และใช้ which เท่านั้น</b> (ห้าม that, ห้าม what)<br>  ❌ He passed the exam, that surprised everyone.<br>  ❌ He passed the exam what surprised everyone.<br><br><b>สำนวนที่พบบ่อย:</b><br>  ..., <b>which means</b> = ซึ่งหมายความว่า<br>  ..., <b>which is why</b> = ซึ่งเป็นเหตุผลที่<br>  ..., <b>in which case</b> = ซึ่งในกรณีนั้น<br>  ..., <b>at which point</b> = ซึ่ง ณ จุดนั้น<br><br>  It might rain, <b>in which case</b> we\'ll stay home.',
+        examples: [
+          { en: 'He forgot my birthday, <b>which</b> upset me.', th: 'which = การที่เขาลืม' },
+          { en: 'The train was late, <b>which means</b> we missed the meeting.', th: 'which means' },
+          { en: 'She works weekends, <b>which is why</b> she\'s tired.', th: 'which is why' },
+        ],
+        practice: [
+          { prompt: '"He lied to me, ___ made me angry."', choices: ['that', 'what', 'which', 'who'], correctIndex: 2, explain: 'ขยายทั้งประโยค → which (ต้องมี comma)' },
+          { prompt: '"She got promoted, ___ she deserved."', choices: ['which', 'that', 'what', 'whom'], correctIndex: 0, explain: 'ขยายเหตุการณ์ทั้งหมด → which' },
+        ],
+      },
+      {
+        heading: 'การลดรูป Relative Clause (Reduced Clause)',
+        content: 'ทำประโยคให้สั้นลงโดยตัด relative pronoun + verb to be ออก — ใช้บ่อยมากในภาษาเขียน<br><br><b>กฎ 3 แบบ:</b><br><br><b>1) Active → ใช้ V.ing</b><br>  The man <b>who is standing</b> there → The man <b>standing</b> there<br>  Students <b>who study</b> hard → Students <b>studying</b> hard<br><br><b>2) Passive → ใช้ V.3</b><br>  The book <b>which was written</b> by him → The book <b>written</b> by him<br>  Cars <b>that are made</b> in Japan → Cars <b>made</b> in Japan<br><br><b>3) ตามด้วย adjective/วลี → ตัด who/which + be ทิ้ง</b><br>  The people <b>who were</b> at the party → The people <b>at the party</b><br>  Anyone <b>who is</b> interested → Anyone <b>interested</b><br><br><b>4) ลดเป็น to-infinitive</b> (หลังขั้นสูงสุด / the first / the only / the next)<br>  He was the first person <b>who arrived</b> → the first person <b>to arrive</b><br>  She is the only one <b>who can help</b> → the only one <b>to help</b><br><br><b>⚠️ ลดได้เฉพาะเมื่อ relative pronoun เป็นประธาน</b><br>  ✅ The man who is waiting → The man waiting<br>  ❌ The man who I met → The man met (ผิด!)',
+        examples: [
+          { en: 'The girl <b>wearing</b> a red dress is my sister.', th: 'ลดจาก who is wearing' },
+          { en: 'The letter <b>sent</b> yesterday arrived today.', th: 'ลดจาก which was sent' },
+          { en: 'He was the last student <b>to leave</b>.', th: 'ลดเป็น to-infinitive' },
+        ],
+        practice: [
+          { prompt: 'ลดรูป: "The people who are waiting outside..."', choices: ['The people waited outside', 'The people waiting outside', 'The people wait outside', 'The people to wait outside'], correctIndex: 1, explain: 'Active → V.ing' },
+          { prompt: 'ลดรูป: "The bridge which was built in 1950..."', choices: ['The bridge building in 1950', 'The bridge builds in 1950', 'The bridge built in 1950', 'The bridge to build in 1950'], correctIndex: 2, explain: 'Passive → V.3' },
+          { prompt: 'ลดรูป: "She was the first woman who won the prize."', choices: ['the first woman winning the prize', 'the first woman to win the prize', 'the first woman won the prize', 'the first woman win the prize'], correctIndex: 1, explain: 'หลัง the first → to-infinitive' },
+        ],
+      },
+      {
+        heading: 'what เป็น Relative Pronoun (= สิ่งที่)',
+        content: '<b>what</b> ในบทนี้ไม่ใช่คำถาม แต่แปลว่า "<b>สิ่งที่</b>" และ<b>รวมคำนามไว้ในตัวแล้ว</b><br><br>  <b>what</b> = the thing(s) that/which<br><br>  I don\'t understand <b>what</b> you said. (= the thing that you said)<br>  <b>What</b> he needs is rest. (= The thing that he needs)<br>  Show me <b>what</b> you bought.<br><br><b>⚠️ กฎเหล็ก: ห้ามมีคำนามอยู่หน้า what</b><br>  ❌ the thing <b>what</b> I want<br>  ✅ the thing <b>that</b> I want<br>  ✅ <b>what</b> I want<br><br>  ❌ Everything <b>what</b> he said was true.<br>  ✅ Everything <b>that</b> he said was true.<br>  💡 นี่คือข้อผิดพลาดที่คนไทยทำบ่อยที่สุดในบทนี้<br><br><b>สำนวนที่ใช้บ่อย:</b><br>  <b>what is more</b> = ยิ่งไปกว่านั้น<br>  <b>what is called</b> = ที่เรียกว่า<br>  <b>what we call</b> = สิ่งที่เราเรียกว่า<br>  <b>What if...?</b> = จะเป็นอย่างไรถ้า...',
+        examples: [
+          { en: '<b>What</b> matters most is health.', th: 'สิ่งที่สำคัญที่สุด' },
+          { en: 'Tell me <b>what</b> happened.', th: 'บอกฉันสิ่งที่เกิดขึ้น' },
+          { en: 'This is <b>what</b> I meant.', th: 'นี่คือสิ่งที่ฉันหมายถึง' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Everything what he said was true.', 'Everything that he said was true.', 'Everything which what he said was true.', 'What everything he said was true.'], correctIndex: 1, explain: 'มีคำนาม (everything) อยู่หน้า → ใช้ that ห้ามใช้ what' },
+          { prompt: '"I couldn\'t hear ___ she was saying."', choices: ['that', 'which', 'what', 'who'], correctIndex: 2, explain: 'ไม่มีคำนามนำหน้า = "สิ่งที่" → what' },
+          { prompt: '"___ I need is a holiday."', choices: ['That', 'Which', 'What', 'It'], correctIndex: 2, explain: 'สิ่งที่ฉันต้องการ → What' },
+        ],
+      },
+      {
+        heading: 'ข้อผิดพลาดยอดฮิตเรื่อง Relative Clause',
+        content: 'รวมจุดพลาดที่เจอบ่อยที่สุด:<br><br><b>1) ใส่สรรพนามซ้ำ</b> (ผิดที่คนไทยทำบ่อยสุด)<br>  ❌ The man who <b>he</b> called me is my uncle.<br>  ✅ The man who called me is my uncle.<br>  ❌ The book which I read <b>it</b> was good.<br>  ✅ The book which I read was good.<br>  💡 relative pronoun ทำหน้าที่เป็นประธาน/กรรมอยู่แล้ว ไม่ต้องมีสรรพนามซ้ำ<br><br><b>2) ผัน verb ผิดจำนวน</b> — กริยาต้องตามคำนามที่ถูกขยาย<br>  The <b>student who studies</b> hard... (เอกพจน์)<br>  The <b>students who study</b> hard... (พหูพจน์)<br>  ⚠️ I am the one <b>who is</b> responsible. (who = the one → เอกพจน์)<br><br><b>3) วาง clause ไกลจากคำที่ขยาย</b><br>  ❌ I found a book in the library <b>which</b> was interesting. (which = library?)<br>  ✅ In the library, I found a book <b>which</b> was interesting.<br><br><b>4) ลืม comma ใน Non-defining</b> — ความหมายเปลี่ยนไปเลย<br>  My brother <b>who lives in London</b> is a doctor.<br>  → มีพี่หลายคน คนที่อยู่ลอนดอนเป็นหมอ<br>  My brother<b>,</b> who lives in London<b>,</b> is a doctor.<br>  → มีพี่คนเดียว และเขาอยู่ลอนดอน',
+        examples: [
+          { en: '✅ The car <b>that I bought</b> is red.', th: 'ไม่มี it ซ้ำท้าย' },
+          { en: '✅ People <b>who live</b> here are friendly.', th: 'people (พหู) → live' },
+          { en: 'My sister<b>,</b> who is a nurse<b>,</b> lives nearby.', th: 'มีพี่สาวคนเดียว' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The man who he helped me was kind.', 'The man who helped me was kind.', 'The man which he helped me was kind.', 'The man helped me who was kind.'], correctIndex: 1, explain: 'ห้ามใส่ he ซ้ำ — who เป็นประธานอยู่แล้ว' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The songs that she sang them were nice.', 'The songs that she sang were nice.', 'The songs which them she sang were nice.', 'The songs she sang them were nice.'], correctIndex: 1, explain: 'ห้ามใส่ them ซ้ำ — that เป็นกรรมอยู่แล้ว' },
+          { prompt: '"The people who ___ in this village are farmers."', choices: ['lives', 'live', 'living', 'is living'], correctIndex: 1, explain: 'people = พหูพจน์ → live' },
         ],
       },
     ],
@@ -1316,6 +2016,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'She <b>might</b> come tomorrow.', th: 'อาจจะมา (ไม่แน่ใจ)' },
           { en: '<b>May</b> I come in?', th: 'ขออนุญาตแบบสุภาพ' },
         ],
+        practice: [
+          { prompt: '"She ___ come, but I doubt it." (โอกาสน้อย)', choices: ['must', 'may', 'might', 'will'], correctIndex: 2, explain: 'might = โอกาสน้อยกว่า may' },
+          { prompt: '"___ I ask you a question?" (สุภาพ)', choices: ['Might', 'May', 'Must', 'Will'], correctIndex: 1, explain: 'May I = ขออนุญาตแบบสุภาพ' },
+        ],
       },
       {
         heading: 'Must, Have to',
@@ -1326,6 +2030,103 @@ const GRAMMAR_CHAPTERS = [
         ],
         practice: [
           { prompt: '"You ___ wear a seatbelt. It\'s the law."', choices: ['may', 'might', 'must', 'should'], correctIndex: 2, explain: 'บังคับตามกฎ → must' },
+        ],
+      },
+      {
+        heading: 'กริยาช่วย vs กริยาแท้ (คำเดียวกันแต่คนละหน้าที่)',
+        content: '<b>be, do, have</b> เป็นได้ทั้ง<b>กริยาช่วย</b>และ<b>กริยาแท้</b> ต้องแยกให้ออก<br><br><b>เป็นกริยาแท้</b> (มีความหมายในตัว ยืนคนเดียวได้)<br>  I <b>have</b> a car. (มี)<br>  I <b>do</b> my homework. (ทำ)<br>  She <b>is</b> a teacher. (เป็น)<br><br><b>เป็นกริยาช่วย</b> (ช่วยกริยาตัวอื่น ไม่มีความหมายในตัว)<br>  I <b>have</b> finished. (ช่วยสร้าง Perfect)<br>  I <b>do</b>n\'t know. (ช่วยสร้างปฏิเสธ)<br>  She <b>is</b> running. (ช่วยสร้าง Continuous)<br><br><b>⚠️ ประโยคเดียวมีได้ทั้งคู่</b><br>  I <b>have</b> (ช่วย) <b>had</b> (แท้) enough. = ฉันพอแล้ว<br>  <b>Do</b> (ช่วย) you <b>do</b> (แท้) yoga? = คุณเล่นโยคะไหม<br>  She <b>has been</b> (ช่วย+ช่วย) <b>waiting</b> (แท้).<br><br><b>💡 วิธีเช็ค:</b> ทำเป็นคำถาม/ปฏิเสธดู<br>  ถ้าเป็น<b>กริยาแท้</b> (มี = have) ต้องยืม do มาช่วย → <b>Do</b> you have a car?<br>  ถ้าเป็น<b>กริยาช่วย</b> ยกมาหน้าประธานได้เลย → <b>Have</b> you finished?',
+        examples: [
+          { en: '<b>Does</b> he <b>do</b> the dishes?', th: 'ช่วย + แท้' },
+          { en: 'I <b>haven\'t had</b> lunch yet.', th: 'ช่วย(have) + แท้(had)' },
+          { en: 'She <b>is being</b> silly.', th: 'ช่วย(is) + แท้(being)' },
+        ],
+        practice: [
+          { prompt: 'ใน "She has finished her work." คำว่า has ทำหน้าที่อะไร', choices: ['กริยาแท้ (แปลว่ามี)', 'กริยาช่วยสร้าง Perfect', 'กริยาช่วยสร้างปฏิเสธ', 'คำนาม'], correctIndex: 1, explain: 'has + V.3 = กริยาช่วยสร้าง Present Perfect' },
+          { prompt: 'เปลี่ยน "You have a bike." เป็นคำถาม', choices: ['Have you a bike?', 'Do you have a bike?', 'Are you have a bike?', 'Does you have a bike?'], correctIndex: 1, explain: 'have = กริยาแท้ (มี) → ต้องยืม do มาช่วย' },
+        ],
+      },
+      {
+        heading: 'กฎเหล็ก 5 ข้อของ Modal Verb',
+        content: 'Modal = can, could, may, might, will, would, shall, should, must, ought to<br><br><b>กฎ 1: ตามด้วย V.1 เสมอ</b> (ไม่มี to, ไม่เติม s/ed/ing)<br>  ✅ She <b>can swim</b>. ❌ She can swims / can to swim<br>  ⚠️ ยกเว้น <b>ought to</b> + V.1<br><br><b>กฎ 2: ไม่ผันตามประธาน</b> (ไม่เติม s แม้ประธานเป็น he/she/it)<br>  ✅ He <b>can</b> go. ❌ He cans go.<br><br><b>กฎ 3: ปฏิเสธเติม not ต่อท้ายเลย</b> (ไม่ต้องใช้ do)<br>  ✅ She <b>cannot/can\'t</b> come. ❌ She doesn\'t can come.<br><br><b>กฎ 4: คำถามยกมาหน้าประธาน</b> (ไม่ต้องใช้ do)<br>  ✅ <b>Can</b> you help? ❌ Do you can help?<br><br><b>กฎ 5: ใช้ modal ซ้อนกันไม่ได้</b><br>  ❌ He will can come. → ✅ He <b>will be able to</b> come.<br>  ❌ You must can do it. → ✅ You must <b>be able to</b> do it.<br><br><b>ตัวแทนเมื่อต้องใช้ tense อื่น:</b><br>  can → <b>be able to</b> (I will be able to / I have been able to)<br>  must → <b>have to</b> (I will have to / I had to)<br>  may → <b>be allowed to</b>',
+        examples: [
+          { en: 'She <b>can</b> speak three languages.', th: 'ไม่เติม s' },
+          { en: 'I <b>will be able to</b> help tomorrow.', th: 'แทน will can (ผิด)' },
+          { en: 'We <b>had to</b> leave early.', th: 'อดีตของ must' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['He can plays guitar.', 'He can play guitar.', 'He can to play guitar.', 'He cans play guitar.'], correctIndex: 1, explain: 'modal + V.1 เสมอ' },
+          { prompt: '"Next year I ___ drive a car." (จะขับได้)', choices: ['will can', 'will be able to', 'can will', 'will could'], correctIndex: 1, explain: 'ใช้ modal ซ้อนไม่ได้ → will be able to' },
+          { prompt: 'อดีตของ "I must go." คือ', choices: ['I musted go.', 'I had to go.', 'I did must go.', 'I must went.'], correctIndex: 1, explain: 'must ไม่มีรูปอดีต → ใช้ had to' },
+        ],
+      },
+      {
+        heading: 'Modal + have + V.3 (พูดถึงอดีต)',
+        content: 'โครงสร้างสำคัญมากในข้อสอบระดับสูง ใช้พูดถึงเรื่อง<b>ที่ผ่านไปแล้ว</b><br><br><b>must have + V.3</b> = คงจะ...แน่ ๆ (มั่นใจมาก)<br>  The ground is wet. It <b>must have rained</b>.<br><br><b>can\'t / couldn\'t have + V.3</b> = เป็นไปไม่ได้ที่จะ...<br>  He <b>can\'t have finished</b> already — it\'s too fast!<br><br><b>may/might/could have + V.3</b> = อาจจะ...ก็ได้ (ไม่แน่ใจ)<br>  She <b>might have forgotten</b> the meeting.<br><br><b>should have + V.3</b> = ควรจะ...แต่ไม่ได้ทำ (เสียดาย/ตำหนิ)<br>  You <b>should have told</b> me earlier!<br><br><b>shouldn\'t have + V.3</b> = ไม่ควรทำ...แต่ทำไปแล้ว<br>  I <b>shouldn\'t have eaten</b> so much.<br><br><b>could have + V.3</b> = ทำได้นะ...แต่ไม่ได้ทำ<br>  You <b>could have called</b> me. (โทรมาก็ได้นี่)<br><br><b>needn\'t have + V.3</b> = ไม่จำเป็นต้องทำ...แต่ทำไปแล้ว<br>  You <b>needn\'t have brought</b> a gift.<br><br><b>💡 เทียบให้เห็นภาพ (สอบตก):</b><br>  You <b>must have failed</b>. = เธอคงสอบตกแน่ ๆ<br>  You <b>should have studied</b>. = เธอน่าจะอ่านหนังสือ (แต่ไม่อ่าน)<br>  You <b>could have passed</b>. = เธอสอบผ่านได้นะ (แต่ไม่ผ่าน)',
+        examples: [
+          { en: 'He\'s not here. He <b>must have left</b>.', th: 'คงไปแล้วแน่ ๆ' },
+          { en: 'I <b>should have studied</b> harder.', th: 'น่าจะอ่านมากกว่านี้ (เสียดาย)' },
+          { en: 'She <b>can\'t have seen</b> me.', th: 'เป็นไปไม่ได้ที่เธอจะเห็นฉัน' },
+        ],
+        practice: [
+          { prompt: '"The lights are off. They ___ home." (คงกลับไปแล้ว)', choices: ['must go', 'must have gone', 'should go', 'can have gone'], correctIndex: 1, explain: 'สรุปจากหลักฐานเรื่องอดีต → must have + V.3' },
+          { prompt: '"I\'m sorry. I ___ that." (ไม่ควรพูด แต่พูดไปแล้ว)', choices: ['shouldn\'t say', 'shouldn\'t have said', 'couldn\'t say', 'mustn\'t say'], correctIndex: 1, explain: 'shouldn\'t have + V.3 = ไม่ควรทำแต่ทำไปแล้ว' },
+          { prompt: '"She ___ the message — she was asleep." (เป็นไปไม่ได้)', choices: ['mustn\'t have seen', 'can\'t have seen', 'shouldn\'t have seen', 'may not see'], correctIndex: 1, explain: 'เป็นไปไม่ได้ → can\'t have + V.3' },
+        ],
+      },
+      {
+        heading: 'ระดับความมั่นใจ (Degrees of Certainty)',
+        content: 'Modal บอกว่าผู้พูดมั่นใจแค่ไหน เรียงจากมั่นใจมากไปน้อย:<br><br><b>ปัจจุบัน/อนาคต:</b><br>  100% แน่นอน → <b>will</b> / <b>is</b><br>  95% คงจะ (สรุปจากหลักฐาน) → <b>must</b><br>  70% น่าจะ → <b>should</b> / <b>ought to</b><br>  50% อาจจะ → <b>may</b><br>  30% อาจจะ (ไม่ค่อยแน่) → <b>might</b> / <b>could</b><br>  0% เป็นไปไม่ได้ → <b>can\'t</b> / <b>couldn\'t</b><br><br><b>⚠️ จุดที่ผิดบ่อย: must not ≠ can\'t</b><br>  He <b>can\'t</b> be at home. = เป็นไปไม่ได้ที่เขาจะอยู่บ้าน (สรุปเชิงลบ)<br>  He <b>must not</b> be at home. = เขาห้ามอยู่บ้าน (ห้าม) ✗ ไม่ใช่การสรุป<br>  💡 การสรุปเชิงลบใช้ <b>can\'t</b> เท่านั้น ไม่ใช้ mustn\'t<br><br><b>ตัวอย่างชุดเดียวกัน:</b><br>  He <b>must</b> be tired. (คงเหนื่อยแน่)<br>  He <b>should</b> be tired. (น่าจะเหนื่อย)<br>  He <b>may</b> be tired. (อาจจะเหนื่อย)<br>  He <b>might</b> be tired. (อาจจะเหนื่อยมั้ง)<br>  He <b>can\'t</b> be tired. (เป็นไปไม่ได้ที่จะเหนื่อย)',
+        examples: [
+          { en: 'She\'s been working all day. She <b>must</b> be exhausted.', th: 'มั่นใจสูง' },
+          { en: 'The parcel <b>should</b> arrive tomorrow.', th: 'น่าจะ' },
+          { en: 'That <b>can\'t</b> be true!', th: 'เป็นไปไม่ได้' },
+        ],
+        practice: [
+          { prompt: '"He just ate a huge meal. He ___ be hungry." (เป็นไปไม่ได้)', choices: ['mustn\'t', 'can\'t', 'shouldn\'t', 'may not'], correctIndex: 1, explain: 'สรุปเชิงลบ → can\'t (ไม่ใช่ mustn\'t ซึ่งแปลว่าห้าม)' },
+          { prompt: '"There\'s smoke. There ___ be a fire." (มั่นใจสูง)', choices: ['might', 'may', 'must', 'could'], correctIndex: 2, explain: 'สรุปจากหลักฐานชัดเจน → must' },
+        ],
+      },
+      {
+        heading: 'ขออนุญาต ขอร้อง เสนอ แนะนำ',
+        content: 'Modal ใช้ทำหน้าที่ทางสังคม เรียงตามระดับความสุภาพ<br><br><b>ขออนุญาต (ขอทำเอง):</b><br>  <b>Can I</b>...? (กันเอง) < <b>Could I</b>...? < <b>May I</b>...? (สุภาพสุด)<br>  <b>Can I</b> borrow your pen?<br>  <b>May I</b> come in?<br><br><b>ขอร้อง (ขอให้คนอื่นทำ):</b><br>  <b>Can you</b>...? < <b>Could you</b>...? < <b>Would you</b>...? < <b>Would you mind</b> + V.ing?<br>  <b>Could you</b> help me?<br>  <b>Would you mind opening</b> the window? (สุภาพสุด)<br>  ⚠️ ตอบ Would you mind...? ให้ระวัง: <b>Not at all</b> / <b>Of course not</b> = ยินดีทำ<br><br><b>เสนอตัวช่วย:</b><br>  <b>Shall I</b> help you? / <b>Can I</b> get you anything?<br><br><b>เชิญชวน:</b><br>  <b>Would you like</b> some tea? / <b>Shall we</b> go?<br>  <b>Why don\'t we</b>...? / <b>How about</b> + V.ing?<br><br><b>แนะนำ:</b><br>  You <b>should</b> see a doctor. (ควร)<br>  You <b>ought to</b> apologize. (ควร - ทางการกว่า)<br>  You <b>had better</b> hurry. (ควรรีบ - เตือนว่าถ้าไม่ทำจะแย่)<br>  ⚠️ had better + V.1 (ไม่มี to) ปฏิเสธ = had better <b>not</b> + V.1',
+        examples: [
+          { en: '<b>Could you</b> pass the salt, please?', th: 'ขอร้องสุภาพ' },
+          { en: '<b>Would you mind</b> waiting a moment?', th: 'สุภาพที่สุด + V.ing' },
+          { en: 'You\'<b>d better</b> take an umbrella.', th: 'เตือน (ควรเอาไป)' },
+        ],
+        practice: [
+          { prompt: '"Would you mind ___ the door?"', choices: ['to close', 'close', 'closing', 'closed'], correctIndex: 2, explain: 'Would you mind + V.ing' },
+          { prompt: '"You had better ___ late again."', choices: ['not be', 'not to be', 'don\'t be', 'be not'], correctIndex: 0, explain: 'had better not + V.1' },
+          { prompt: '"___ I use your phone?" (สุภาพที่สุด)', choices: ['Can', 'Will', 'May', 'Shall'], correctIndex: 2, explain: 'ขออนุญาตแบบสุภาพที่สุด → May I' },
+        ],
+      },
+      {
+        heading: 'used to / be used to / get used to',
+        content: 'สามตัวนี้หน้าตาคล้ายกันแต่<b>ความหมายและโครงสร้างต่างกันสิ้นเชิง</b> — ออกสอบบ่อยมาก<br><br><b>1) used to + V.1</b> = เคยทำในอดีต (ตอนนี้ไม่ทำแล้ว)<br>  I <b>used to smoke</b>, but I quit.<br>  She <b>used to live</b> in Paris.<br>  ปฏิเสธ: I <b>didn\'t use to</b> like coffee. (ตัด d)<br>  คำถาม: <b>Did</b> you <b>use to</b> play football?<br><br><b>2) be used to + V.ing/นาม</b> = คุ้นเคยกับ (ทำจนชินแล้ว)<br>  I <b>am used to waking</b> up early.<br>  She <b>is used to</b> the noise.<br><br><b>3) get used to + V.ing/นาม</b> = กำลังเริ่มคุ้นเคย (กระบวนการปรับตัว)<br>  I\'m <b>getting used to</b> the new job.<br>  You\'ll <b>get used to</b> it soon.<br><br><b>💡 วิธีจำ:</b><br>  <b>used to + V.1</b> → พูดถึงอดีต<br>  <b>used to + V.ing</b> → พูดถึงความเคยชิน (มี be/get นำหน้า)<br><br><b>เทียบให้ชัด:</b><br>  I <b>used to drive</b> to work. = เมื่อก่อนขับรถไปทำงาน (ตอนนี้ไม่แล้ว)<br>  I <b>am used to driving</b> to work. = ชินกับการขับรถไปทำงานแล้ว',
+        examples: [
+          { en: 'He <b>used to be</b> shy.', th: 'เมื่อก่อนขี้อาย (ตอนนี้ไม่แล้ว)' },
+          { en: 'I\'m <b>used to living</b> alone.', th: 'ชินกับการอยู่คนเดียว' },
+          { en: 'It takes time to <b>get used to</b> a new city.', th: 'กำลังปรับตัว' },
+        ],
+        practice: [
+          { prompt: '"I ___ in Bangkok, but now I live in Chiang Mai."', choices: ['used to live', 'am used to live', 'am used to living', 'get used to live'], correctIndex: 0, explain: 'เคยทำในอดีต → used to + V.1' },
+          { prompt: '"She ___ working night shifts now." (ชินแล้ว)', choices: ['used to', 'is used to', 'use to', 'used'], correctIndex: 1, explain: 'คุ้นเคยกับ → be used to + V.ing' },
+          { prompt: 'ข้อใดถูกต้อง (ปฏิเสธของ used to)', choices: ['I didn\'t used to smoke.', 'I didn\'t use to smoke.', 'I don\'t used to smoke.', 'I wasn\'t used to smoke.'], correctIndex: 1, explain: 'มี did แล้ว → use to (ตัด d)' },
+        ],
+      },
+      {
+        heading: 'Shall / Ought to / Need / Dare (Modal พิเศษ)',
+        content: '<b>Shall</b> — ปัจจุบันใช้น้อย เหลือแค่ 2 กรณี<br>• เสนอตัว/ขอความเห็น (I, We): <b>Shall I</b> open the window? / <b>Shall we</b> dance?<br>• ในเอกสารกฎหมาย = ต้อง: The tenant <b>shall</b> pay rent monthly.<br><br><b>Ought to</b> — เหมือน should แต่ทางการกว่า เน้นหน้าที่/ศีลธรรม<br>  You <b>ought to</b> respect your parents.<br>  ⚠️ ต้องมี <b>to</b> เสมอ (ต่างจาก modal ตัวอื่น)<br>  ปฏิเสธ: <b>ought not to</b> + V.1<br><br><b>Need</b> — เป็นได้ทั้งกริยาแท้และ modal<br>• กริยาแท้ (นิยมกว่า): You <b>don\'t need to</b> come. / <b>Do</b> you <b>need to</b> go?<br>• Modal (ใช้ในปฏิเสธ/คำถามเท่านั้น): You <b>needn\'t</b> come.<br>  ⚠️ <b>needn\'t</b> = ไม่จำเป็น (ต่างจาก mustn\'t = ห้าม)<br>  You <b>needn\'t</b> wear a tie. (ไม่ใส่ก็ได้)<br>  You <b>mustn\'t</b> wear jeans. (ห้ามใส่)<br><br><b>Dare</b> — กล้า<br>  How <b>dare</b> you! (กล้าดียังไง!)<br>  I <b>daren\'t</b> tell him. / I <b>don\'t dare to</b> tell him.<br><br><b>⚠️ สรุปคู่ที่สับสนที่สุด</b><br>  <b>mustn\'t</b> = ห้าม (prohibition)<br>  <b>don\'t have to / needn\'t</b> = ไม่จำเป็น (no obligation)',
+        examples: [
+          { en: '<b>Shall we</b> begin?', th: 'ขอความเห็น/ชวน' },
+          { en: 'You <b>ought to</b> see a dentist.', th: 'ควร (ทางการ)' },
+          { en: 'You <b>mustn\'t</b> smoke here. (ห้าม)', th: 'ต่างจาก needn\'t' },
+          { en: 'You <b>don\'t have to</b> pay. (ไม่ต้องจ่ายก็ได้)', th: 'ไม่จำเป็น' },
+        ],
+        practice: [
+          { prompt: '"You ___ touch that — it\'s dangerous!" (ห้าม)', choices: ['needn\'t', 'don\'t have to', 'mustn\'t', 'shouldn\'t have'], correctIndex: 2, explain: 'ห้ามเด็ดขาด → mustn\'t' },
+          { prompt: '"It\'s Sunday. You ___ get up early." (ไม่จำเป็น)', choices: ['mustn\'t', 'don\'t have to', 'can\'t', 'shouldn\'t'], correctIndex: 1, explain: 'ไม่จำเป็น → don\'t have to (mustn\'t = ห้าม ความหมายผิด)' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['You ought respect him.', 'You ought to respect him.', 'You ought to respecting him.', 'You ought respecting him.'], correctIndex: 1, explain: 'ought to + V.1 (ต้องมี to)' },
         ],
       },
     ],
@@ -1473,6 +2274,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'A lot of water <b>is</b> needed.', th: 'water นับไม่ได้ → is' },
           { en: 'A lot of people <b>are</b> here.', th: 'people พหูพจน์ → are' },
         ],
+        practice: [
+          { prompt: '"A number of students ___ absent today."', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'A number of + พหู → กริยาพหูพจน์' },
+          { prompt: '"The number of cars ___ increasing."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'The number of → กริยาเอกพจน์เสมอ' },
+        ],
       },
       {
         heading: 'กฎลวง 4: คำที่ลงท้าย s แต่เป็นเอกพจน์',
@@ -1492,6 +2297,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'My family <b>is</b> big.', th: 'family = หน่วยเดียว → is' },
           { en: 'The team <b>has</b> won.', th: 'team = หน่วยเดียว → has' },
         ],
+        practice: [
+          { prompt: '"My family ___ going on holiday." (มองเป็นหน่วยเดียว)', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'family มองเป็นก้อนเดียว → is' },
+          { prompt: '"The staff ___ divided in their opinions." (เน้นความหลากหลายของสมาชิก)', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'เน้นสมาชิกที่คิดต่างกัน → are' },
+        ],
       },
       {
         heading: 'ประธานเชื่อมด้วย and → พหูพจน์',
@@ -1502,6 +2311,103 @@ const GRAMMAR_CHAPTERS = [
         ],
         practice: [
           { prompt: '"She and her friend ___ singing."', choices: ['is', 'are', 'was', 'am'], correctIndex: 1, explain: '2 คน → are' },
+        ],
+      },
+      {
+        heading: 'There is / There are — ผันตามอะไร',
+        content: 'ประโยค <b>There + be</b> ผันกริยาตาม<b>คำนามที่ตามหลัง</b> ไม่ใช่ตาม "there"<br><br>  <b>There is</b> a book on the table. (book = เอกพจน์)<br>  <b>There are</b> books on the table. (books = พหูพจน์)<br>  <b>There is</b> some water. (uncountable → is)<br><br><b>⚠️ ถ้ามีหลายอย่างต่อกัน ผันตามตัวแรก</b><br>  <b>There is</b> a pen and two books on the desk.<br>  <b>There are</b> two books and a pen on the desk.<br>  💡 ทั้งสองแบบถูกต้อง เปลี่ยนตามลำดับที่พูด<br><br><b>รูปอื่น ๆ ที่ใช้บ่อย:</b><br>  There <b>was/were</b>... (อดีต)<br>  There <b>will be</b>... (อนาคต)<br>  There <b>has been / have been</b>... (Perfect)<br>  There <b>seems/seem to be</b>...<br>  There <b>used to be</b>...<br><br>⚠️ <b>ภาษาพูดมักใช้ "There\'s" กับพหูพจน์</b> แต่ในข้อสอบและงานเขียนถือว่า<b>ผิด</b><br>  พูด: There\'s three people waiting.<br>  เขียน/สอบ: There <b>are</b> three people waiting. ✅',
+        examples: [
+          { en: '<b>There are</b> many reasons.', th: 'reasons พหูพจน์ → are' },
+          { en: '<b>There is</b> a lot of traffic.', th: 'traffic นับไม่ได้ → is' },
+          { en: '<b>There were</b> no survivors.', th: 'อดีต + พหูพจน์' },
+        ],
+        practice: [
+          { prompt: '"___ several problems with this plan."', choices: ['There is', 'There are', 'There was', 'It is'], correctIndex: 1, explain: 'several problems = พหูพจน์ → There are' },
+          { prompt: '"___ a cat and two dogs in the yard."', choices: ['There is', 'There are', 'There were', 'It is'], correctIndex: 0, explain: 'ผันตามตัวแรก (a cat) → There is' },
+          { prompt: '"___ any milk left?"', choices: ['Are there', 'Is there', 'Have there', 'Does there'], correctIndex: 1, explain: 'milk นับไม่ได้ → Is there' },
+        ],
+      },
+      {
+        heading: 'ระยะทาง เวลา เงิน น้ำหนัก = เอกพจน์',
+        content: 'ตัวเลขที่บอก<b>ปริมาณเป็นก้อนเดียว</b> ถือเป็น<b>เอกพจน์</b> แม้จะดูเป็นพหูพจน์<br><br>  <b>Ten kilometers is</b> a long way. (ระยะทาง)<br>  <b>Two hours is</b> enough. (เวลา)<br>  <b>Five hundred baht is</b> too expensive. (เงิน)<br>  <b>Twenty kilos is</b> heavy. (น้ำหนัก)<br>  <b>Thirty degrees is</b> hot. (อุณหภูมิ)<br><br>💡 <b>เหตุผล:</b> เรามองมันเป็น "จำนวนหนึ่งก้อน" ไม่ใช่หน่วยแยก ๆ<br><br><b>⚠️ แต่ถ้าเน้นแต่ละหน่วยแยกกัน → พหูพจน์</b><br>  <b>Ten years have</b> passed since we met. (ปีผ่านไปทีละปี)<br>  There <b>are</b> five coins on the table. (เหรียญแยกชิ้น)<br><br><b>กลุ่มคำที่ใช้แบบเดียวกัน:</b><br>  • ชื่อวิชา: <b>Economics is</b> difficult.<br>  • ชื่อโรค: <b>Measles is</b> contagious.<br>  • ชื่อเกม: <b>Darts is</b> popular in the UK.<br>  • ชื่อประเทศพหูพจน์: <b>The Philippines is</b> in Asia. / <b>The United States is</b> large.',
+        examples: [
+          { en: '<b>Three months is</b> a long time to wait.', th: 'ระยะเวลาเป็นก้อน' },
+          { en: '<b>Fifty dollars is</b> all I have.', th: 'จำนวนเงิน' },
+          { en: '<b>The Netherlands is</b> famous for tulips.', th: 'ประเทศลงท้าย s' },
+        ],
+        practice: [
+          { prompt: '"Twenty kilometers ___ too far to walk."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'ระยะทางเป็นก้อนเดียว → is' },
+          { prompt: '"The United States ___ a federal republic."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'ชื่อประเทศแม้ลงท้าย s → เอกพจน์' },
+          { prompt: '"Economics ___ my favorite subject."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'ชื่อวิชา → เอกพจน์' },
+        ],
+      },
+      {
+        heading: 'กริยาใน Relative Clause ผันตามอะไร',
+        content: 'กริยาใน relative clause ผันตาม<b>คำนามที่ถูกขยาย (antecedent)</b><br><br>  The <b>boy who lives</b> here... (boy เอกพจน์ → lives)<br>  The <b>boys who live</b> here... (boys พหูพจน์ → live)<br><br><b>⚠️ กรณีที่หลอกที่สุด: one of the + N.พหู + who/that</b><br>  She is <b>one of the students who study</b> hard.<br>  → who ขยาย "the students" (พหูพจน์) ไม่ใช่ "one" → ใช้ <b>study</b><br><br>  แต่ถ้ามี <b>the only</b> อยู่ด้วย ความหมายเปลี่ยน:<br>  She is <b>the only one of the students who studies</b> hard.<br>  → the only one → เจาะจงคนเดียว → ใช้ <b>studies</b><br><br><b>💡 วิธีเช็ค:</b> ลองสลับประโยคดู<br>  "Of the students who <b>study</b> hard, she is one." ✅<br><br><b>อีกกรณี: I who / you who</b><br>  It is <b>I who am</b> responsible. (I → am)<br>  You are the one <b>who is</b> to blame. (the one → is)',
+        examples: [
+          { en: 'This is one of the books <b>that were</b> banned.', th: 'that ขยาย books → were' },
+          { en: 'He is the only person <b>who knows</b>.', th: 'the only person → knows' },
+          { en: 'People <b>who exercise</b> live longer.', th: 'People → exercise' },
+        ],
+        practice: [
+          { prompt: '"He is one of the players who ___ every match."', choices: ['plays', 'play', 'is playing', 'has played'], correctIndex: 1, explain: 'who ขยาย the players (พหูพจน์) → play' },
+          { prompt: '"She is the only student who ___ the answer."', choices: ['know', 'knows', 'are knowing', 'have known'], correctIndex: 1, explain: 'the only student → เอกพจน์ → knows' },
+        ],
+      },
+      {
+        heading: 'เศษส่วน เปอร์เซ็นต์ และ All/Some/Most of',
+        content: 'กลุ่มนี้ผันตาม<b>คำนามที่ตามหลัง of</b> (ไม่ใช่ตามตัวเลข)<br><br><b>โครงสร้าง:</b> [ปริมาณ] of + นาม → ผันตาม<b>นาม</b><br><br>  <b>Half of the cake is</b> gone. (cake นับไม่ได้/เอกพจน์ → is)<br>  <b>Half of the students are</b> absent. (students พหูพจน์ → are)<br><br>  <b>50% of the population is</b> young. (population เอกพจน์)<br>  <b>50% of the people are</b> young. (people พหูพจน์)<br><br>  <b>Two-thirds of the water was</b> wasted.<br>  <b>Two-thirds of the bottles were</b> empty.<br><br><b>คำในกลุ่มเดียวกัน:</b><br>  all of, some of, most of, none of, half of, the rest of, plenty of, a lot of, lots of, percentages, fractions<br><br><b>⚠️ เปรียบเทียบกับกลุ่มที่ผันตายตัว (ไม่ดูคำหลัง of)</b><br>  <b>each of</b> + N.พหู → กริยา<b>เอกพจน์</b>: Each of the boys <b>is</b> ready.<br>  <b>every one of</b> + N.พหู → <b>เอกพจน์</b>: Every one of them <b>was</b> late.<br>  <b>one of</b> + N.พหู → <b>เอกพจน์</b>: One of my friends <b>lives</b> abroad.<br>  <b>the number of</b> → <b>เอกพจน์</b> / <b>a number of</b> → <b>พหูพจน์</b>',
+        examples: [
+          { en: '<b>Most of the money was</b> spent.', th: 'money นับไม่ได้ → was' },
+          { en: '<b>Most of the coins were</b> old.', th: 'coins พหูพจน์ → were' },
+          { en: '<b>Each of</b> the rooms <b>has</b> a bathroom.', th: 'each of → เอกพจน์เสมอ' },
+        ],
+        practice: [
+          { prompt: '"Three-quarters of the pizza ___ eaten."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'pizza เอกพจน์ → is' },
+          { prompt: '"Some of the books ___ missing."', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'books พหูพจน์ → are' },
+          { prompt: '"One of my friends ___ in Japan."', choices: ['live', 'lives', 'are living', 'have lived'], correctIndex: 1, explain: 'one of + พหู → กริยาเอกพจน์ = lives' },
+        ],
+      },
+      {
+        heading: 'ชื่อหนังสือ ชื่อวง ชื่อบริษัท',
+        content: '<b>ชื่อเฉพาะที่เป็นหน่วยเดียว → เอกพจน์เสมอ</b> แม้จะลงท้ายด้วย s หรือมี and<br><br>  <b>"The Lord of the Rings" is</b> a great film.<br>  <b>"Great Expectations" is</b> a novel by Dickens.<br>  <b>The United Nations has</b> 193 members.<br>  <b>Marks and Spencer is</b> a British retailer.<br><br><b>⚠️ ชื่อวงดนตรี — ต่างกันตามภูมิภาค</b><br>  อเมริกัน (มองเป็นหน่วย): <b>The Beatles was</b> influential.<br>  อังกฤษ (มองเป็นสมาชิก): <b>The Beatles were</b> influential.<br>  💡 ในข้อสอบ ถ้าชื่อวงลงท้ายด้วย s มักใช้ <b>were/are</b><br><br><b>บริษัท:</b><br>  อเมริกัน: <b>Apple is</b> launching a new phone. (เอกพจน์)<br>  อังกฤษ: <b>Apple are</b> launching... (ก็ใช้ได้)<br><br><b>อาหารที่เป็นชุด → เอกพจน์</b><br>  <b>Fish and chips is</b> my favorite meal.<br>  <b>Bread and butter is</b> a simple breakfast.<br>  ⚠️ แต่ถ้าเป็นคนละอย่างจริง ๆ → พหูพจน์<br>  <b>Bread and butter are</b> sold separately here.',
+        examples: [
+          { en: '<b>"The Avengers" was</b> released in 2012.', th: 'ชื่อหนัง → เอกพจน์' },
+          { en: '<b>Fish and chips is</b> popular in Britain.', th: 'อาหารชุดเดียว → is' },
+          { en: '<b>Johnson & Johnson makes</b> medical products.', th: 'ชื่อบริษัท → เอกพจน์' },
+        ],
+        practice: [
+          { prompt: '"The Chronicles of Narnia ___ a famous book series."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'ชื่อหนังสือ = หน่วยเดียว → is' },
+          { prompt: '"Bread and butter ___ all I had for breakfast."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'อาหารชุดเดียว → is' },
+        ],
+      },
+      {
+        heading: 'as well as / along with / together with',
+        content: 'คำเชื่อมกลุ่มนี้ <b>ไม่ทำให้ประธานกลายเป็นพหูพจน์</b> — ผันตาม<b>ประธานตัวแรก</b>เท่านั้น<br><br><b>คำในกลุ่มนี้:</b><br>  as well as, along with, together with, in addition to, accompanied by, including, besides, rather than, no less than<br><br>  The <b>teacher</b>, as well as the students, <b>is</b> excited.<br>  → ประธานคือ teacher (เอกพจน์) → is<br><br>  The <b>students</b>, along with their teacher, <b>are</b> going.<br>  → ประธานคือ students (พหูพจน์) → are<br><br><b>⚠️ เทียบกับ "and" ที่ทำให้เป็นพหูพจน์</b><br>  The teacher <b>and</b> the students <b>are</b> excited. (2 ฝ่าย → are)<br>  The teacher, <b>as well as</b> the students, <b>is</b> excited. (1 ประธาน → is)<br><br>💡 <b>เทคนิค:</b> ส่วนที่อยู่ระหว่าง comma สองตัว ให้<b>ปิดตาไม่ต้องมอง</b><br>  The manager<s>, together with his staff,</s> <b>was</b> present. → The manager was present ✅<br><br><b>⚠️ ข้อยกเว้น: "and" ที่หมายถึงคนเดียว/สิ่งเดียว → เอกพจน์</b><br>  My <b>friend and colleague is</b> coming. (คนเดียว เป็นทั้งเพื่อนและเพื่อนร่วมงาน)<br>  My <b>friend and my colleague are</b> coming. (2 คน — สังเกต my ซ้ำ)',
+        examples: [
+          { en: 'The <b>captain</b>, along with his crew, <b>was</b> rescued.', th: 'ผันตาม captain' },
+          { en: 'The <b>books</b>, including the manual, <b>are</b> on sale.', th: 'ผันตาม books' },
+          { en: 'The <b>secretary and treasurer is</b> here.', th: 'คนเดียวทำ 2 ตำแหน่ง → is' },
+        ],
+        practice: [
+          { prompt: '"The president, together with his advisers, ___ arriving."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'ผันตาม president (เอกพจน์) → is' },
+          { prompt: '"My brother, as well as my parents, ___ coming."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'as well as ไม่ทำให้เป็นพหูพจน์ → is' },
+          { prompt: '"The players and the coach ___ celebrating."', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'เชื่อมด้วย and → พหูพจน์ → are' },
+        ],
+      },
+      {
+        heading: 'เช็กลิสต์รวมทุกกฎ (สรุปก่อนสอบ)',
+        content: 'รวมทุกกฎในบทนี้ไว้ที่เดียว อ่านทวนก่อนสอบ:<br><br><b>✅ ใช้กริยาเอกพจน์เมื่อประธานคือ:</b><br>  • each, every, everyone, everybody, everything<br>  • someone, somebody, anyone, nobody, nothing<br>  • one of + N.พหู<br>  • the number of + N.พหู<br>  • ชื่อวิชา (mathematics, physics, economics, politics)<br>  • ชื่อโรค (measles, mumps)<br>  • news<br>  • ระยะทาง/เวลา/เงิน/น้ำหนัก (Ten years is...)<br>  • ชื่อประเทศลงท้าย s (the Philippines, the United States)<br>  • ชื่อหนังสือ/หนัง/บริษัท<br>  • อาหารชุด (fish and chips)<br>  • collective noun มองเป็นหน่วย (family, team)<br>  • Gerund เป็นประธาน (<b>Swimming is</b> fun.)<br>  • To-infinitive เป็นประธาน (<b>To err is</b> human.)<br>  • Noun clause เป็นประธาน (<b>What he said was</b> true.)<br><br><b>✅ ใช้กริยาพหูพจน์เมื่อประธานคือ:</b><br>  • ประธาน 2 ตัวเชื่อมด้วย and<br>  • a number of + N.พหู<br>  • both, few, many, several<br>  • the + adjective (the rich, the poor)<br>  • คำที่เป็นพหูพจน์เสมอ (scissors, trousers, glasses)<br>  • police, people, cattle<br><br><b>✅ ผันตามคำที่อยู่ใกล้ที่สุด:</b><br>  • either A or B / neither A nor B → ผันตาม B<br>  • not only A but also B → ผันตาม B<br>  • there is/are → ผันตามคำถัดไป<br><br><b>✅ ผันตามคำหลัง of:</b><br>  • all/some/most/half/none/percentages/fractions of',
+        examples: [
+          { en: '<b>Swimming is</b> good exercise.', th: 'Gerund ประธาน → เอกพจน์' },
+          { en: '<b>What she needs is</b> support.', th: 'Noun clause ประธาน → เอกพจน์' },
+          { en: 'The <b>police are</b> investigating.', th: 'police = พหูพจน์เสมอ' },
+        ],
+        practice: [
+          { prompt: '"Reading books ___ my favorite hobby."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'Gerund (Reading) เป็นประธาน → เอกพจน์' },
+          { prompt: '"The police ___ arrived at the scene."', choices: ['has', 'have', 'is', 'was'], correctIndex: 1, explain: 'police = พหูพจน์เสมอ → have' },
+          { prompt: '"What I want ___ a good night\'s sleep."', choices: ['are', 'is', 'were', 'have'], correctIndex: 1, explain: 'Noun clause เป็นประธาน → เอกพจน์' },
+          { prompt: '"Neither the manager nor the employees ___ satisfied."', choices: ['is', 'are', 'was', 'has'], correctIndex: 1, explain: 'ผันตามตัวหลัง (employees) → are' },
         ],
       },
     ],
@@ -1614,6 +2520,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'I <b>worked</b> (Past Simple)', th: 'ทำงาน (อดีตจบแล้ว)' },
           { en: 'I <b>will work</b> (Future Simple)', th: 'จะทำงาน' },
         ],
+        practice: [
+          { prompt: '12 Tense เกิดจากอะไรคูณกัน', choices: ['4 เวลา × 3 ลักษณะ', '3 เวลา × 4 ลักษณะ', '2 เวลา × 6 ลักษณะ', '6 เวลา × 2 ลักษณะ'], correctIndex: 1, explain: '3 ช่วงเวลา (Past/Present/Future) × 4 ลักษณะ' },
+          { prompt: 'สูตรของ Perfect Continuous คือ', choices: ['be + V.ing', 'have + V.3', 'have been + V.ing', 'will + V.1'], correctIndex: 2, explain: 'Perfect Continuous = have been + V.ing' },
+        ],
       },
       {
         heading: 'พื้นฐาน: Verb 1, 2, 3 คืออะไร',
@@ -1624,6 +2534,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'eat → ate → eaten', th: 'ต้องจำ' },
           { en: 'write → wrote → written', th: 'ต้องจำ' },
           { en: 'be → was/were → been', th: 'be มี 2 รูปใน V.2' },
+        ],
+        practice: [
+          { prompt: 'V.3 ของ "eat" คือ', choices: ['ate', 'eaten', 'eated', 'eating'], correctIndex: 1, explain: 'eat → ate → eaten' },
+          { prompt: 'Regular verb มีลักษณะอย่างไร', choices: ['V.2 และ V.3 เหมือนกัน เติม -ed', 'V.2 และ V.3 ต่างกันเสมอ', 'ไม่มี V.3', 'เติม -ing เท่านั้น'], correctIndex: 0, explain: 'Regular verb: V.2 = V.3 = V.1 + ed' },
         ],
       },
       {
@@ -1734,6 +2648,9 @@ const GRAMMAR_CHAPTERS = [
           { en: 'She <b>had been waiting</b> for 2 hours when I arrived.', th: 'เธอรอมา 2 ชั่วโมงก่อนที่ฉันจะมาถึง' },
           { en: 'He was tired because he <b>had been running</b>.', th: 'เหนื่อยเพราะวิ่งมาต่อเนื่อง' },
         ],
+        practice: [
+          { prompt: '"They ___ for an hour when the bus finally came."', choices: ['waited', 'were waiting', 'had been waiting', 'have been waiting'], correctIndex: 2, explain: 'ทำต่อเนื่องก่อนอีกเหตุการณ์ในอดีต → had been + V.ing' },
+        ],
       },
       {
         heading: '9️⃣ Future Simple — จะ...ในอนาคต',
@@ -1756,6 +2673,9 @@ const GRAMMAR_CHAPTERS = [
           { en: 'At 8 PM tomorrow, I <b>will be watching</b> the game.', th: 'จะกำลังดูอยู่ตอน 2 ทุ่มพรุ่งนี้' },
           { en: 'This time next year, we <b>will be living</b> in a new house.', th: 'เวลานี้ปีหน้า' },
         ],
+        practice: [
+          { prompt: '"At 9 PM tomorrow, I ___ dinner."', choices: ['will have', 'will be having', 'will have had', 'have'], correctIndex: 1, explain: 'จะกำลังทำอยู่ในอนาคต → will be + V.ing' },
+        ],
       },
       {
         heading: '1️⃣1️⃣ Future Perfect — จะได้ทำเสร็จก่อนอนาคตหนึ่ง',
@@ -1775,12 +2695,19 @@ const GRAMMAR_CHAPTERS = [
           { en: 'By next month, I <b>will have been working</b> here <b>for</b> 10 years.', th: 'เดือนหน้าจะครบ 10 ปีที่ทำงานที่นี่' },
           { en: 'When she retires, she <b>will have been teaching</b> for 40 years.', th: 'ตอนเธอเกษียณ จะสอนมา 40 ปี' },
         ],
+        practice: [
+          { prompt: '"By December, they ___ married for 20 years."', choices: ['will be', 'will have been', 'have been', 'will have'], correctIndex: 1, explain: 'by + อนาคต + ครบระยะเวลา → will have been' },
+        ],
       },
       {
         heading: 'สรุป Time Markers ทุก Tense',
         content: '<b>Present Simple:</b> always, usually, often, sometimes, never, every day<br><b>Present Continuous:</b> now, right now, at the moment, today, this week<br><b>Present Perfect:</b> already, just, yet, ever, never, for, since, recently<br><b>Present Perfect Continuous:</b> for, since, all day, lately<br><br><b>Past Simple:</b> yesterday, last week, ago, in 1990<br><b>Past Continuous:</b> at 8 PM yesterday, when, while<br><b>Past Perfect:</b> already, by the time, before, after<br><b>Past Perfect Continuous:</b> for + ระยะเวลา + before...<br><br><b>Future Simple:</b> tomorrow, next week, soon, in 2030<br><b>Future Continuous:</b> at 8 PM tomorrow, this time next week<br><b>Future Perfect:</b> by 2030, by next Monday<br><b>Future Perfect Continuous:</b> by + เวลา + for + ระยะ',
         examples: [
           { en: 'สังเกตคำบอกเวลาช่วยเลือก tense ให้ถูก', th: 'ทุก tense มีคำเฉพาะของตัวเอง' },
+        ],
+        practice: [
+          { prompt: 'เห็นคำว่า "since 2020" ควรใช้ tense ใด', choices: ['Past Simple', 'Present Simple', 'Present Perfect', 'Future Simple'], correctIndex: 2, explain: 'since + จุดเริ่มต้น → Present Perfect' },
+          { prompt: 'เห็นคำว่า "two days ago" ควรใช้ tense ใด', choices: ['Present Perfect', 'Past Simple', 'Present Simple', 'Future'], correctIndex: 1, explain: 'ago = อดีตจบแล้ว → Past Simple' },
         ],
       },
       {
@@ -1790,6 +2717,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'She said, "I <b>am</b> tired." → She said (that) she <b>was</b> tired.', th: 'am → was' },
           { en: 'He said, "I <b>will</b> come." → He said (that) he <b>would</b> come.', th: 'will → would' },
           { en: 'She said, "I <b>have finished</b>." → She said she <b>had finished</b>.', th: 'have → had' },
+        ],
+        practice: [
+          { prompt: '"He said, \'I am busy.\'" → "He said he ___ busy."', choices: ['is', 'was', 'has been', 'will be'], correctIndex: 1, explain: 'กริยาหลักเป็นอดีต (said) → am เลื่อนเป็น was' },
+          { prompt: '"She said, \'I can help.\'" → "She said she ___ help."', choices: ['can', 'could', 'will', 'may'], correctIndex: 1, explain: 'can → could' },
         ],
       },
     ],
@@ -1994,6 +2925,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'Passive: The apple <b>is eaten</b> by her.', th: 'แอปเปิ้ลถูกกินโดยเธอ' },
           { en: 'My car <b>was stolen</b> yesterday.', th: 'ไม่รู้ใครขโมย → Passive' },
         ],
+        practice: [
+          { prompt: 'ประโยคใดเป็น Passive Voice', choices: ['The chef cooked the meal.', 'The meal was cooked by the chef.', 'The chef is cooking.', 'The chef cooks well.'], correctIndex: 1, explain: 'was + V.3 = Passive (ประธานถูกกระทำ)' },
+          { prompt: 'ใช้ Passive เมื่อไหร่', choices: ['เมื่อรู้ชัดว่าใครทำและสำคัญ', 'เมื่อไม่รู้หรือไม่สำคัญว่าใครทำ', 'เมื่อประโยคสั้น', 'เมื่อเป็นอดีตเท่านั้น'], correctIndex: 1, explain: 'Passive เน้นสิ่งที่ถูกกระทำ ไม่เน้นผู้ทำ' },
+        ],
       },
       {
         heading: 'สูตร Passive Voice',
@@ -2017,6 +2952,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'Active: The chef cooks the food.', th: 'chef → wrote → food' },
           { en: 'Passive: The food is cooked by the chef.', th: 'food (กรรมเดิม) เป็นประธาน' },
         ],
+        practice: [
+          { prompt: 'ขั้นตอนแรกในการเปลี่ยน Active เป็น Passive คือ', choices: ['เปลี่ยนกริยาเป็น V.3', 'เอากรรมมาเป็นประธาน', 'ใส่ by ท้ายประโยค', 'ตัดประธานเดิมทิ้ง'], correctIndex: 1, explain: 'เอากรรมของ Active มาเป็นประธานของ Passive ก่อน' },
+          { prompt: 'Passive ของ "The dog chased the cat." คือ', choices: ['The cat chased the dog.', 'The cat was chased by the dog.', 'The dog was chased by the cat.', 'The cat is chasing the dog.'], correctIndex: 1, explain: 'cat (กรรม) → ประธาน, chased → was chased, dog → by the dog' },
+        ],
       },
       {
         heading: 'Be + ing / V.3 ต่างกันยังไง',
@@ -2038,6 +2977,127 @@ const GRAMMAR_CHAPTERS = [
         ],
         practice: [
           { prompt: '"The report ___ by Friday." (ต้องส่ง)', choices: ['must submit', 'must be submitted', 'must submitted', 'must submits'], correctIndex: 1, explain: 'modal + be + V.3 → must be submitted' },
+        ],
+      },
+      {
+        heading: 'ตาราง Passive ครบ 12 Tense',
+        content: 'สูตรกลาง: <b>Verb to be (ผันตาม tense) + V.3</b><br>เปลี่ยนแค่รูปของ be เท่านั้น V.3 อยู่คงที่เสมอ<br><br><table style="width:100%;font-size:0.86em;line-height:1.9"><tr><td><b>Tense</b></td><td><b>Active</b></td><td><b>Passive</b></td></tr><tr><td>Present Simple</td><td>writes</td><td><b>is/are written</b></td></tr><tr><td>Present Cont.</td><td>is writing</td><td><b>is being written</b></td></tr><tr><td>Present Perfect</td><td>has written</td><td><b>has been written</b></td></tr><tr><td>Past Simple</td><td>wrote</td><td><b>was/were written</b></td></tr><tr><td>Past Cont.</td><td>was writing</td><td><b>was being written</b></td></tr><tr><td>Past Perfect</td><td>had written</td><td><b>had been written</b></td></tr><tr><td>Future Simple</td><td>will write</td><td><b>will be written</b></td></tr><tr><td>Future Perfect</td><td>will have written</td><td><b>will have been written</b></td></tr><tr><td>be going to</td><td>is going to write</td><td><b>is going to be written</b></td></tr><tr><td>Modal</td><td>must write</td><td><b>must be written</b></td></tr></table><br><b>⚠️ Tense ที่ไม่นิยมทำ Passive</b> (ฟังเยิ่นเย้อ)<br>  Future Continuous: will be being written ✗<br>  Perfect Continuous: has been being written ✗<br>  → ถ้าเจอในข้อสอบ มักเป็นตัวเลือกหลอก<br><br><b>💡 จุดสังเกตในการทำข้อสอบ</b><br>  เห็น <b>been</b> → เป็น Perfect<br>  เห็น <b>being</b> → เป็น Continuous<br>  เห็น <b>been being</b> → มักเป็นตัวเลือกผิด',
+        examples: [
+          { en: 'The room <b>is being cleaned</b> now.', th: 'Present Continuous Passive' },
+          { en: 'The work <b>had been finished</b> before noon.', th: 'Past Perfect Passive' },
+          { en: 'The report <b>will have been sent</b> by Friday.', th: 'Future Perfect Passive' },
+        ],
+        practice: [
+          { prompt: 'Passive ของ "They are repairing the road."', choices: ['The road is repaired.', 'The road is being repaired.', 'The road has been repaired.', 'The road was repaired.'], correctIndex: 1, explain: 'Present Continuous → is being + V.3' },
+          { prompt: 'Passive ของ "Someone had stolen the car."', choices: ['The car was stolen.', 'The car has been stolen.', 'The car had been stolen.', 'The car is stolen.'], correctIndex: 2, explain: 'Past Perfect → had been + V.3' },
+          { prompt: 'ข้อใดเป็นรูป Passive ที่ไม่นิยมใช้', choices: ['is being built', 'has been built', 'will be built', 'has been being built'], correctIndex: 3, explain: 'Perfect Continuous Passive ฟังเยิ่นเย้อ ไม่นิยมใช้' },
+        ],
+      },
+      {
+        heading: 'กริยาที่มีกรรม 2 ตัว → ทำ Passive ได้ 2 แบบ',
+        content: 'กริยาบางตัวมีกรรม 2 ตัว (กรรมรอง=คน + กรรมตรง=สิ่งของ) จึงทำ passive ได้ 2 แบบ<br><br>  Active: She gave <b>me</b> (กรรมรอง) <b>a book</b> (กรรมตรง).<br>  Passive 1: <b>I was given</b> a book. ← เอาคนขึ้นต้น (นิยมกว่า)<br>  Passive 2: <b>A book was given</b> to me. ← เอาของขึ้นต้น (ต้องเติม to)<br><br><b>กริยากลุ่มนี้:</b><br>  give, send, show, tell, teach, offer, lend, pay, promise, bring, hand, award, ask<br><br><b>⚠️ อย่าลืม preposition เมื่อเอาสิ่งของขึ้นต้น</b><br>  ✅ A letter was sent <b>to</b> him.<br>  ❌ A letter was sent him.<br>  → ใช้ <b>to</b> กับ give, send, show, tell, lend, pay<br>  → ใช้ <b>for</b> กับ buy, make, cook, find, get<br><br><b>ตัวอย่างครบชุด:</b><br>  Active: They offered <b>her</b> <b>the job</b>.<br>  → <b>She was offered</b> the job. ✅ (นิยม)<br>  → <b>The job was offered to her</b>. ✅',
+        examples: [
+          { en: '<b>I was told</b> the truth.', th: 'เอาคนขึ้นต้น (นิยม)' },
+          { en: '<b>The truth was told to</b> me.', th: 'เอาของขึ้นต้น + to' },
+          { en: '<b>He was awarded</b> a medal.', th: 'award + คน' },
+        ],
+        practice: [
+          { prompt: 'Passive ของ "They sent me an email." (เอาคนขึ้นต้น)', choices: ['An email was sent me.', 'I was sent an email.', 'Me was sent an email.', 'I sent an email.'], correctIndex: 1, explain: 'เอากรรมรอง (me→I) ขึ้นเป็นประธาน' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['A gift was given her.', 'A gift was given to her.', 'A gift was given for her.', 'A gift gave to her.'], correctIndex: 1, explain: 'give ใช้ to → was given to her' },
+        ],
+      },
+      {
+        heading: 'เมื่อไหร่ต้องละ "by + ผู้กระทำ"',
+        content: 'ประมาณ <b>80% ของประโยค Passive จริง ๆ ไม่มี by</b> เลย ให้ใส่เฉพาะเมื่อจำเป็น<br><br><b>ละ by เมื่อ:</b><br>• <b>ไม่รู้ว่าใครทำ</b>: My wallet <b>was stolen</b>. (ไม่รู้ใครขโมย)<br>• <b>ไม่สำคัญว่าใครทำ</b>: The road <b>is being repaired</b>.<br>• <b>เห็นได้ชัดว่าใครทำ</b>: He <b>was arrested</b>. (ตำรวจแน่นอน)<br>• <b>ผู้ทำคือคนทั่วไป</b>: English <b>is spoken</b> here. (โดยคนทั่วไป)<br><br><b>ใส่ by เมื่อ:</b><br>• ผู้ทำเป็น<b>ข้อมูลใหม่ที่สำคัญ</b><br>  The theory <b>was developed by Einstein</b>.<br>  Hamlet <b>was written by Shakespeare</b>.<br><br><b>⚠️ ใช้ with แทน by เมื่อพูดถึงเครื่องมือ/วัสดุ</b><br>  The cake was made <b>by</b> my mother. (ผู้ทำ)<br>  The cake was made <b>with</b> fresh eggs. (วัตถุดิบ)<br>  He was killed <b>by</b> a robber <b>with</b> a knife. (คน / อาวุธ)<br><br><b>💡 ในข้อสอบ TOEIC/TOEFL</b> ตัวเลือกที่มี by ทั้งที่ไม่จำเป็น มักไม่ใช่คำตอบที่ดีที่สุด',
+        examples: [
+          { en: 'The window <b>was broken</b>.', th: 'ไม่รู้ใครทำ → ละ by' },
+          { en: '"Mona Lisa" <b>was painted by</b> Leonardo.', th: 'ผู้ทำสำคัญ → ใส่ by' },
+          { en: 'The soup was flavored <b>with</b> herbs.', th: 'วัตถุดิบ → with' },
+        ],
+        practice: [
+          { prompt: 'ประโยคใดควรละ "by"', choices: ['The novel was written by Orwell.', 'My bike was stolen by someone.', 'The law was passed by Parliament.', 'The song was composed by Mozart.'], correctIndex: 1, explain: '"by someone" ไม่ให้ข้อมูลอะไร → ละได้ → My bike was stolen.' },
+          { prompt: '"The letter was written ___ a pen."', choices: ['by', 'with', 'from', 'of'], correctIndex: 1, explain: 'เครื่องมือ → with' },
+        ],
+      },
+      {
+        heading: 'Reporting Passive (It is said that...)',
+        content: 'ใช้รายงานความเชื่อ/ข่าวลือ โดยไม่ระบุว่าใครพูด — พบบ่อยในข่าวและงานวิชาการ<br><br><b>Active:</b> People say <b>that</b> he is rich.<br><br><b>Passive แบบที่ 1 (ใช้ It ขึ้นต้น):</b><br>  <b>It is said that</b> he is rich.<br><br><b>Passive แบบที่ 2 (เอาประธานในอนุประโยคขึ้นต้น + to):</b><br>  <b>He is said to be</b> rich.<br><br><b>⚠️ กฎการเลือก to + V.1 หรือ to have + V.3</b><br>  • เหตุการณ์เกิด<b>พร้อมกัน</b> → <b>to + V.1</b><br>    People say he <b>is</b> rich. → He is said <b>to be</b> rich.<br>  • เหตุการณ์เกิด<b>ก่อน</b> → <b>to have + V.3</b><br>    People say he <b>was</b> rich. → He is said <b>to have been</b> rich.<br>    They believe she <b>stole</b> it. → She is believed <b>to have stolen</b> it.<br><br><b>กริยาที่ใช้ในโครงสร้างนี้:</b><br>  say, believe, think, know, report, consider, expect, understand, allege, claim, rumour, suppose',
+        examples: [
+          { en: '<b>It is believed that</b> the painting is genuine.', th: 'แบบ It' },
+          { en: 'The painting <b>is believed to be</b> genuine.', th: 'แบบเอาประธานขึ้น' },
+          { en: 'He <b>is thought to have left</b> the country.', th: 'เกิดก่อน → to have + V.3' },
+        ],
+        practice: [
+          { prompt: 'เปลี่ยน "People think he is a genius." เป็น passive (แบบเอาประธานขึ้น)', choices: ['He is thought to be a genius.', 'He is thought that a genius.', 'It is thought he to be a genius.', 'He thinks to be a genius.'], correctIndex: 0, explain: 'S + is thought + to be + ...' },
+          { prompt: '"They say she won the prize." → "She is said ___ the prize."', choices: ['to win', 'to have won', 'to winning', 'to be won'], correctIndex: 1, explain: 'won เกิดก่อน → to have + V.3' },
+        ],
+      },
+      {
+        heading: 'Causative — ให้คนอื่นทำให้ (have/get something done)',
+        content: 'ใช้เมื่อ<b>เราไม่ได้ทำเอง แต่จ้าง/ให้คนอื่นทำให้</b> — ออกสอบบ่อยมาก<br><br><b>โครงสร้าง:</b> <b>have/get + สิ่งของ + V.3</b><br><br>  I <b>had my hair cut</b>. = ไปตัดผมมา (ช่างตัดให้ ไม่ได้ตัดเอง)<br>  She <b>got her car repaired</b>. = เอารถไปซ่อม<br>  We <b>had the house painted</b>. = จ้างคนมาทาสีบ้าน<br><br><b>⚠️ เทียบให้ชัด — ความหมายต่างกันมาก</b><br>  I <b>cut my hair</b>. = ฉันตัดผมตัวเอง<br>  I <b>had my hair cut</b>. = ฉันไปให้ช่างตัด<br><br><b>ใช้กับเรื่องร้ายที่เกิดกับเราก็ได้:</b><br>  He <b>had his wallet stolen</b>. = เขาโดนขโมยกระเป๋าเงิน<br>  She <b>had her phone taken</b>. = เธอโดนยึดโทรศัพท์<br><br><b>ผันตาม tense ได้ปกติ (ผันที่ have/get):</b><br>  I <b>will have</b> my car washed. / I <b>am having</b> it fixed.<br>  I <b>have had</b> my eyes tested.<br><br><b>Causative อีก 2 แบบ (ให้คนทำ — ตามด้วยคน):</b><br>  <b>have + คน + V.1</b>: I <b>had the plumber fix</b> the pipe.<br>  <b>get + คน + to V.1</b>: I <b>got the plumber to fix</b> the pipe.<br>  <b>make + คน + V.1</b> (บังคับ): She <b>made him apologize</b>.<br>  <b>let + คน + V.1</b> (อนุญาต): They <b>let me go</b>.',
+        examples: [
+          { en: 'I need to <b>have my teeth checked</b>.', th: 'ให้หมอตรวจฟัน' },
+          { en: 'She <b>got her nails done</b>.', th: 'ไปทำเล็บมา' },
+          { en: 'They <b>had their luggage searched</b>.', th: 'โดนตรวจกระเป๋า' },
+        ],
+        practice: [
+          { prompt: '"ฉันไปตัดผมมา" ในภาษาอังกฤษ', choices: ['I cut my hair.', 'I had my hair cut.', 'I was cut my hair.', 'My hair had cut.'], correctIndex: 1, explain: 'ให้คนอื่นทำ → have + สิ่งของ + V.3' },
+          { prompt: '"She ___ her car ___ yesterday." (เอาไปล้าง)', choices: ['had / wash', 'had / washed', 'has / washing', 'was / washed'], correctIndex: 1, explain: 'had + car + washed (V.3)' },
+          { prompt: '"The teacher made the students ___ the essay."', choices: ['to rewrite', 'rewrite', 'rewriting', 'rewritten'], correctIndex: 1, explain: 'make + คน + V.1 (ไม่มี to)' },
+        ],
+      },
+      {
+        heading: 'Get-Passive (ภาษาพูด)',
+        content: 'ใช้ <b>get + V.3</b> แทน be + V.3 ในภาษาพูด<br><br>  He <b>got fired</b>. = He was fired. (โดนไล่ออก)<br>  They <b>got married</b> last year.<br>  I <b>got caught</b> in the rain.<br><br><b>ใช้เมื่อ:</b><br>• เหตุการณ์<b>ไม่คาดคิด/ไม่ดี</b>: got hurt, got lost, got arrested, got robbed<br>• เหตุการณ์ที่<b>เกิดขึ้นเอง</b>ไม่มีใครทำให้: got broken, got stuck<br>• เน้น<b>การเปลี่ยนแปลงสภาพ</b>: got dressed, got engaged, got confused<br><br><b>⚠️ ข้อจำกัด</b><br>  • ไม่ใช้ในภาษาเขียนทางการ<br>  • ไม่ใช้กับกริยาที่เป็น "สภาพ" (know, believe, own)<br>    ❌ It got known. → ✅ It was known.<br>  • มักไม่ใส่ by<br>    ✅ He got fired. / △ He got fired by his boss. (ฟังแปลก)<br><br><b>สำนวน get ที่ใช้บ่อย:</b><br>  get dressed, get married, get divorced, get lost, get hurt, get paid, get promoted, get used to, get done',
+        examples: [
+          { en: 'My phone <b>got broken</b>.', th: 'โทรศัพท์พัง (ไม่ได้ตั้งใจ)' },
+          { en: 'She <b>got promoted</b> last month.', th: 'ได้เลื่อนตำแหน่ง' },
+          { en: 'Don\'t <b>get caught</b>!', th: 'อย่าโดนจับได้' },
+        ],
+        practice: [
+          { prompt: '"He ___ in a car accident." (บาดเจ็บ - ภาษาพูด)', choices: ['got hurt', 'got hurting', 'get hurt', 'was hurting'], correctIndex: 0, explain: 'get + V.3 = get hurt (อดีต → got)' },
+          { prompt: 'ข้อใดไม่เหมาะกับ get-passive', choices: ['He got arrested.', 'She got promoted.', 'The answer got known.', 'They got married.'], correctIndex: 2, explain: 'know เป็นสภาพ ไม่ใช้กับ get-passive → was known' },
+        ],
+      },
+      {
+        heading: 'กริยาที่ทำ Passive ไม่ได้',
+        content: 'ไม่ใช่ทุกกริยาจะทำ passive ได้ — ต้อง<b>มีกรรม</b>เท่านั้นจึงทำได้<br><br><b>1) Intransitive Verb (ไม่มีกรรม) → ทำไม่ได้เลย</b><br>  arrive, come, go, sleep, die, happen, occur, appear, disappear, fall, rise, exist, belong, wait, laugh, cry<br>  ❌ The accident was happened. → ✅ The accident <b>happened</b>.<br>  ❌ He was arrived. → ✅ He <b>arrived</b>.<br>  💡 นี่คือข้อผิดพลาดที่คนไทยทำบ่อยมาก โดยเฉพาะ happen<br><br><b>2) State Verb บางตัว → ทำไม่ได้</b><br>  have (มี), lack, resemble, suit, fit, cost, weigh, seem, become<br>  ❌ A car is had by me. → ✅ I <b>have</b> a car.<br>  ❌ 500 baht is cost by the book. → ✅ The book <b>costs</b> 500 baht.<br><br><b>3) Reflexive/Reciprocal → ทำไม่ได้</b><br>  ❌ Himself was hurt by him. → ✅ He hurt <b>himself</b>.<br><br><b>💡 วิธีเช็คง่าย ๆ:</b> ถามว่า "ทำอะไร?" ถ้าตอบไม่ได้ = ไม่มีกรรม = ทำ passive ไม่ได้<br>  He slept. → "นอนอะไร?" ตอบไม่ได้ → ทำ passive ไม่ได้',
+        examples: [
+          { en: '✅ The earthquake <b>occurred</b> at 3 AM.', th: 'occur ไม่มีกรรม' },
+          { en: '❌ The earthquake was occurred.', th: 'ผิด' },
+          { en: '✅ This shirt <b>suits</b> you.', th: 'suit ทำ passive ไม่ได้' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The accident was happened yesterday.', 'The accident happened yesterday.', 'The accident is happened yesterday.', 'The accident has been happened.'], correctIndex: 1, explain: 'happen ไม่มีกรรม → ทำ passive ไม่ได้' },
+          { prompt: 'กริยาใดทำ Passive ไม่ได้', choices: ['build', 'write', 'arrive', 'send'], correctIndex: 2, explain: 'arrive เป็น intransitive verb (ไม่มีกรรม)' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['A new car is had by him.', 'He has a new car.', 'A new car was had by him.', 'He is had a new car.'], correctIndex: 1, explain: 'have (มี) ทำ passive ไม่ได้' },
+        ],
+      },
+      {
+        heading: 'Passive กับ V.ing และ to-infinitive',
+        content: 'เมื่อ passive ต้องอยู่หลังกริยาที่ต้องการ V.ing หรือ to<br><br><b>1) Passive Gerund: being + V.3</b><br>  I don\'t like <b>being told</b> what to do. (ไม่ชอบถูกสั่ง)<br>  He avoided <b>being seen</b>. (เลี่ยงไม่ให้ถูกเห็น)<br>  She remembers <b>being praised</b>.<br><br><b>2) Passive Infinitive: to be + V.3</b><br>  I want <b>to be promoted</b>. (อยากได้เลื่อนตำแหน่ง)<br>  This form needs <b>to be signed</b>.<br>  He hopes <b>to be selected</b>.<br><br><b>3) Perfect Passive Infinitive: to have been + V.3</b><br>  She claims <b>to have been cheated</b>. (อ้างว่าถูกโกง)<br><br><b>4) หลัง need — 2 แบบความหมายเดียวกัน</b><br>  The car needs <b>washing</b>. (V.ing รูป active แต่ความหมาย passive)<br>  The car needs <b>to be washed</b>. ✅ ความหมายเหมือนกัน<br>  ⚠️ ใช้ได้กับ need, want, require, deserve<br><br><b>⚠️ อย่าสับสน active กับ passive</b><br>  I like <b>teaching</b>. = ชอบสอนคนอื่น (active)<br>  I like <b>being taught</b>. = ชอบให้คนสอน (passive)',
+        examples: [
+          { en: 'Nobody likes <b>being criticized</b>.', th: 'ไม่มีใครชอบถูกวิจารณ์' },
+          { en: 'The door needs <b>to be fixed</b>.', th: 'ประตูต้องได้รับการซ่อม' },
+          { en: 'He expects <b>to be paid</b> today.', th: 'คาดว่าจะได้รับเงินวันนี้' },
+        ],
+        practice: [
+          { prompt: '"She hates ___ at." (ถูกจ้องมอง)', choices: ['staring', 'being stared', 'to stare', 'stared'], correctIndex: 1, explain: 'hate + V.ing + passive → being + V.3' },
+          { prompt: '"This report needs ___ before Friday."', choices: ['to submit', 'to be submitted', 'submitting to', 'be submitted'], correctIndex: 1, explain: 'need + to be + V.3 (หรือ needs submitting)' },
+          { prompt: '"He wants ___ for his work." (ได้รับการยอมรับ)', choices: ['to recognize', 'to be recognized', 'recognizing', 'being recognize'], correctIndex: 1, explain: 'want + to be + V.3' },
+        ],
+      },
+      {
+        heading: 'ใช้ Passive ตอนไหนถึงจะดี',
+        content: 'Passive ไม่ได้ดีกว่า Active เสมอไป — ใช้ผิดที่จะทำให้ประโยคอ่อนแอและอ้อมค้อม<br><br><b>✅ ควรใช้ Passive เมื่อ:</b><br>• <b>ไม่รู้/ไม่สำคัญว่าใครทำ</b><br>  The temple <b>was built</b> in 1782.<br>• <b>เน้นสิ่งที่ถูกกระทำมากกว่าผู้ทำ</b><br>  Three people <b>were injured</b> in the crash.<br>• <b>เขียนงานวิชาการ/วิทยาศาสตร์</b> (เน้นวิธีการ ไม่เน้นตัวผู้วิจัย)<br>  The samples <b>were heated</b> to 100°C.<br>• <b>ต้องการเลี่ยงการกล่าวโทษ</b> (ภาษาราชการ/ธุรกิจ)<br>  A mistake <b>was made</b>. (แทน "You made a mistake")<br>• <b>ทำให้ประโยคเชื่อมกันลื่นขึ้น</b> (เอาข้อมูลเก่าขึ้นต้น)<br>  I bought a book. It <b>was written</b> by a Thai author.<br><br><b>❌ ไม่ควรใช้ Passive เมื่อ:</b><br>• ผู้ทำชัดเจนและสำคัญ → ใช้ active ตรงไปตรงมากว่า<br>  △ The ball was kicked by John. → ✅ John kicked the ball.<br>• ใช้ซ้อนกันหลายชั้นจนอ่านยาก<br>  △ It was decided that the meeting be postponed by the committee.<br>  ✅ The committee postponed the meeting.<br><br><b>💡 ในข้อสอบ TOEIC</b> ประกาศ/ป้ายในที่ทำงานมักใช้ passive เพราะไม่ต้องระบุผู้ทำ<br>  Visitors <b>are required</b> to sign in.<br>  Smoking <b>is not permitted</b> in this area.',
+        examples: [
+          { en: 'This bridge <b>was constructed</b> in 1932.', th: 'ไม่สำคัญว่าใครสร้าง' },
+          { en: 'Payments <b>must be made</b> by the 5th.', th: 'ประกาศทางการ' },
+          { en: 'The solution <b>was added</b> slowly.', th: 'งานวิทยาศาสตร์' },
+        ],
+        practice: [
+          { prompt: 'ประโยคใดควรใช้ Active มากกว่า Passive', choices: ['The vaccine was discovered in 1955.', 'The cake was eaten by me.', 'Twenty people were rescued.', 'Entry is prohibited.'], correctIndex: 1, explain: 'ผู้ทำชัดเจนและสำคัญ → I ate the cake.' },
+          { prompt: 'ในประกาศทางการ "ห้ามสูบบุหรี่" ควรเขียนอย่างไร', choices: ['We do not allow you to smoke.', 'Smoking is not permitted.', 'You must not to smoke.', 'Nobody smokes here.'], correctIndex: 1, explain: 'ประกาศทางการนิยม passive → Smoking is not permitted.' },
         ],
       },
     ],
@@ -2146,6 +3206,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The <b>crying</b> baby (เด็กที่ร้องไห้ - เด็กทำเอง)', th: '-ing' },
           { en: 'The <b>stolen</b> money (เงินที่ถูกขโมย)', th: '-ed / V.3' },
         ],
+        practice: [
+          { prompt: '"the ___ window" (หน้าต่างที่แตก)', choices: ['breaking', 'broken', 'break', 'breaks'], correctIndex: 1, explain: 'หน้าต่างถูกทำแตก (passive) → V.3' },
+          { prompt: '"the ___ water" (น้ำที่กำลังเดือด)', choices: ['boiled', 'boiling', 'boil', 'to boil'], correctIndex: 1, explain: 'น้ำเดือดเอง (active) → V.ing' },
+        ],
       },
       {
         heading: 'Participles ใช้เป็น Adjective',
@@ -2179,6 +3243,131 @@ const GRAMMAR_CHAPTERS = [
         content: 'Participle Phrase ใช้ขึ้นต้นประโยคเพื่อเชื่อม 2 เหตุการณ์<br><br>• V.ing = เหตุการณ์ Active<br><b>Feeling</b> tired, I went to bed. (รู้สึกเหนื่อย ฉันจึงเข้านอน)<br>• V.3 = เหตุการณ์ Passive<br><b>Written</b> in French, the book is hard to read. (เพราะเขียนเป็นฝรั่งเศส)',
         examples: [
           { en: '<b>Walking</b> in the park, I met an old friend.', th: 'ตอนเดินในสวน ฉันเจอเพื่อนเก่า' },
+        ],
+        practice: [
+          { prompt: '"___ tired, she went to bed early."', choices: ['Feel', 'Feeling', 'Felt', 'To feel'], correctIndex: 1, explain: 'Active participle phrase → V.ing' },
+          { prompt: '"___ in French, the letter was hard to read."', choices: ['Writing', 'Written', 'Write', 'To write'], correctIndex: 1, explain: 'จดหมายถูกเขียน (passive) → V.3' },
+        ],
+      },
+      {
+        heading: 'Participle มีกี่รูป (สรุปครบ)',
+        content: 'Participle มี 4 รูป ใช้ต่างกันตามความหมาย<br><br><b>1) Present Participle: V.ing</b> = กำลังทำ / เป็นผู้ทำ (Active)<br>  the <b>crying</b> baby (เด็กที่กำลังร้อง)<br><br><b>2) Past Participle: V.3</b> = ถูกกระทำ / เสร็จแล้ว (Passive)<br>  the <b>broken</b> window (หน้าต่างที่ถูกทำแตก)<br><br><b>3) Perfect Participle: having + V.3</b> = ทำเสร็จก่อนแล้ว (Active)<br>  <b>Having finished</b> the work, he went home.<br><br><b>4) Perfect Passive Participle: having been + V.3</b> = ถูกกระทำก่อนแล้ว<br>  <b>Having been warned</b>, she left early.<br><br><b>💡 ตารางเทียบให้เห็นภาพ (กริยา write)</b><br>  writing = กำลังเขียน<br>  written = ถูกเขียน<br>  having written = เขียนเสร็จแล้ว (จึง...)<br>  having been written = ถูกเขียนเสร็จแล้ว (จึง...)<br><br><b>⚠️ Participle ไม่ใช่กริยาแท้</b> ยืนเดี่ยวเป็นกริยาของประโยคไม่ได้<br>  ❌ He <b>running</b> fast. → ✅ He <b>is running</b> fast.<br>  ❌ The door <b>broken</b>. → ✅ The door <b>is broken</b>.',
+        examples: [
+          { en: 'The <b>barking</b> dog woke me up.', th: 'V.ing = สุนัขเห่าเอง' },
+          { en: 'The <b>stolen</b> car was found.', th: 'V.3 = รถถูกขโมย' },
+          { en: '<b>Having eaten</b>, we left.', th: 'กินเสร็จแล้วจึงไป' },
+        ],
+        practice: [
+          { prompt: '"the ___ leaves" (ใบไม้ที่ร่วง — ร่วงเอง)', choices: ['fallen', 'falling', 'fell', 'to fall'], correctIndex: 0, explain: 'fallen leaves = ใบไม้ที่ร่วงลงแล้ว (fall เป็น intransitive จึงใช้ V.3 บอกสภาพเสร็จสิ้น)' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The window broken.', 'The window is broken.', 'The window breaking.', 'The window break.'], correctIndex: 1, explain: 'participle ยืนเดี่ยวเป็นกริยาไม่ได้ ต้องมี verb to be' },
+        ],
+      },
+      {
+        heading: 'คู่ -ing / -ed ที่ต้องจำให้ครบ',
+        content: '<b>-ing = สิ่งนั้นทำให้รู้สึก</b> (ขยายสิ่งของ/เหตุการณ์)<br><b>-ed = คนรู้สึกอย่างนั้น</b> (ขยายคน)<br><br><b>คู่ที่ออกสอบบ่อยที่สุด:</b><br>  interesting / interested (น่าสนใจ / สนใจ)<br>  boring / bored (น่าเบื่อ / เบื่อ)<br>  exciting / excited (น่าตื่นเต้น / ตื่นเต้น)<br>  tiring / tired (น่าเหนื่อย / เหนื่อย)<br>  surprising / surprised (น่าแปลกใจ / แปลกใจ)<br>  amazing / amazed (น่าทึ่ง / ทึ่ง)<br>  confusing / confused (น่าสับสน / สับสน)<br>  shocking / shocked (น่าตกใจ / ตกใจ)<br>  disappointing / disappointed (น่าผิดหวัง / ผิดหวัง)<br>  frightening / frightened (น่ากลัว / กลัว)<br>  embarrassing / embarrassed (น่าอาย / อาย)<br>  relaxing / relaxed (ผ่อนคลาย / รู้สึกผ่อนคลาย)<br>  worrying / worried (น่าเป็นห่วง / เป็นห่วง)<br>  satisfying / satisfied (น่าพอใจ / พอใจ)<br>  annoying / annoyed (น่ารำคาญ / รำคาญ)<br>  terrifying / terrified (น่าหวาดกลัว / หวาดกลัว)<br><br><b>💡 เทคนิคจำ:</b> ถาม "ใครทำให้ใครรู้สึก?"<br>  หนังทำให้ฉันเบื่อ → หนัง = bor<b>ing</b>, ฉัน = bor<b>ed</b><br><br><b>⚠️ กับดัก: คนก็เป็น -ing ได้ ถ้าคนนั้นทำให้คนอื่นรู้สึก</b><br>  He is <b>boring</b>. = เขาเป็นคนน่าเบื่อ (ทำให้คนอื่นเบื่อ)<br>  He is <b>bored</b>. = เขารู้สึกเบื่อ<br>  → ทั้งสองประโยคถูก แต่ความหมายต่างกันสิ้นเชิง!',
+        examples: [
+          { en: 'The lecture was <b>boring</b>, so I was <b>bored</b>.', th: 'เห็นทั้งคู่ในประโยคเดียว' },
+          { en: 'She is an <b>amazing</b> singer.', th: 'เธอทำให้คนอื่นทึ่ง' },
+          { en: 'I was <b>amazed</b> by her voice.', th: 'ฉันรู้สึกทึ่ง' },
+        ],
+        practice: [
+          { prompt: '"The news was ___ and everyone was ___."', choices: ['shocked / shocking', 'shocking / shocked', 'shocking / shocking', 'shocked / shocked'], correctIndex: 1, explain: 'ข่าว = shocking (ทำให้ตกใจ), คน = shocked (รู้สึกตกใจ)' },
+          { prompt: '"He never listens. He is so ___."', choices: ['annoyed', 'annoying', 'annoy', 'annoyance'], correctIndex: 1, explain: 'เขาทำให้คนอื่นรำคาญ → annoying' },
+          { prompt: '"I felt ___ after the long flight."', choices: ['exhausting', 'exhausted', 'exhaust', 'exhaustion'], correctIndex: 1, explain: 'คนรู้สึก → exhausted' },
+        ],
+      },
+      {
+        heading: 'ตำแหน่งของ Participle เมื่อขยายคำนาม',
+        content: '<b>คำเดียว → วางหน้าคำนาม</b><br>  a <b>sleeping</b> child, a <b>broken</b> promise, <b>boiling</b> water<br><br><b>เป็นวลี (มีคำตามหลัง) → วางหลังคำนาม</b><br>  the child <b>sleeping in the room</b><br>  a promise <b>broken by her friend</b><br>  the man <b>standing at the door</b><br><br>  ❌ the sleeping in the room child<br>  ✅ the child sleeping in the room<br><br><b>⚠️ ความหมายเปลี่ยนตามตำแหน่ง (บางคำ)</b><br>  the <b>concerned</b> parents = พ่อแม่ที่เป็นห่วง<br>  the parents <b>concerned</b> = พ่อแม่ที่เกี่ยวข้อง<br><br>  the <b>involved</b> process = กระบวนการที่ซับซ้อน<br>  the people <b>involved</b> = คนที่เกี่ยวข้อง<br><br><b>💡 Participle หลังคำนาม = relative clause ที่ลดรูปแล้ว</b><br>  the man <b>standing</b> there = the man <b>who is standing</b> there<br>  the letter <b>written</b> yesterday = the letter <b>which was written</b> yesterday',
+        examples: [
+          { en: 'a <b>running</b> tap', th: 'คำเดียว → หน้านาม' },
+          { en: 'the tap <b>running in the kitchen</b>', th: 'เป็นวลี → หลังนาม' },
+          { en: 'the students <b>selected for the program</b>', th: 'วลี passive → หลังนาม' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['the waiting outside people', 'the people waiting outside', 'the outside waiting people', 'waiting the people outside'], correctIndex: 1, explain: 'เป็นวลี (waiting outside) → วางหลังคำนาม' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['a written well essay', 'a well-written essay', 'an essay written well', 'ถูกทั้ง B และ C'], correctIndex: 3, explain: 'a well-written essay (compound หน้านาม) หรือ an essay written well ก็ได้' },
+        ],
+      },
+      {
+        heading: 'Perfect Participle (Having + V.3)',
+        content: 'ใช้เมื่อ<b>เหตุการณ์แรกจบก่อน</b>แล้วเหตุการณ์ที่สองจึงเกิด — เน้นลำดับเวลาชัดเจน<br><br><b>โครงสร้าง:</b> <b>Having + V.3</b>, ประโยคหลัก<br><br>  <b>Having finished</b> her homework, she watched TV.<br>  (= After she had finished her homework, she watched TV.)<br><br>  <b>Having lived</b> in Japan for 10 years, he speaks fluent Japanese.<br><br><b>รูป Passive: Having been + V.3</b><br>  <b>Having been rejected</b> twice, he gave up.<br>  <b>Having been built</b> in 1900, the house needs repair.<br><br><b>⚠️ เทียบกับ V.ing ธรรมดา</b><br>  <b>Walking</b> home, I met a friend. = ระหว่างเดินกลับ (เกิดพร้อมกัน)<br>  <b>Having walked</b> home, I took a shower. = เดินกลับถึงแล้ว จึงอาบน้ำ (เกิดก่อน-หลัง)<br><br><b>⚠️ ประธานต้องเป็นคนเดียวกัน</b><br>  ✅ <b>Having eaten</b>, <b>we</b> left. (we กินและ we ออกไป)<br>  ❌ Having eaten, the bill was paid. (bill ไม่ได้กิน!)<br><br><b>💡 ใช้ Not นำหน้าเพื่อทำเป็นปฏิเสธ</b><br>  <b>Not having</b> studied, he failed the exam.<br>  <b>Not knowing</b> what to say, she remained silent.',
+        examples: [
+          { en: '<b>Having read</b> the book, I understood the film.', th: 'อ่านก่อน จึงเข้าใจ' },
+          { en: '<b>Having been informed</b>, they prepared well.', th: 'passive — ถูกแจ้งก่อน' },
+          { en: '<b>Not having</b> a car, she takes the bus.', th: 'ปฏิเสธ' },
+        ],
+        practice: [
+          { prompt: '"___ the report, he submitted it." (เขียนเสร็จแล้ว)', choices: ['Writing', 'Having written', 'Written', 'Being written'], correctIndex: 1, explain: 'เสร็จก่อนแล้วจึงส่ง → Having + V.3' },
+          { prompt: '"___ warned about the danger, they proceeded anyway."', choices: ['Having', 'Having been', 'Being have', 'Have been'], correctIndex: 1, explain: 'ถูกเตือน (passive) + เกิดก่อน → Having been + V.3' },
+          { prompt: '"___ what to do, she asked for help."', choices: ['Not knowing', 'Knowing not', 'Not know', 'Don\'t knowing'], correctIndex: 0, explain: 'ปฏิเสธ → Not + V.ing' },
+        ],
+      },
+      {
+        heading: 'Dangling Participle (ผิดที่ต้องระวัง)',
+        content: '<b>กฎเหล็ก:</b> ประธานของ participle phrase ต้องเป็น<b>ประธานเดียวกัน</b>กับประโยคหลัก<br>ถ้าไม่ตรงกัน = <b>Dangling Participle</b> (ผิดไวยากรณ์ และมักได้ความหมายตลก)<br><br><b>❌ ตัวอย่างที่ผิด:</b><br>  <b>Walking</b> down the street, <b>the trees</b> looked beautiful.<br>  → แปลว่า "ต้นไม้เดินไปตามถนน" (ตลก!)<br>  ✅ <b>Walking</b> down the street, <b>I</b> thought the trees looked beautiful.<br><br>  ❌ <b>Being</b> tired, <b>the work</b> was postponed.<br>  → งานเหนื่อย?<br>  ✅ <b>Being</b> tired, <b>we</b> postponed the work.<br><br>  ❌ <b>Having finished</b> dinner, <b>the plates</b> were washed.<br>  ✅ <b>Having finished</b> dinner, <b>she</b> washed the plates.<br><br><b>💡 วิธีตรวจ 2 ขั้นตอน:</b><br>  1. ดูว่าใครทำกริยาใน participle phrase<br>  2. ประธานของประโยคหลักต้องเป็นคนคนนั้น<br><br><b>วิธีแก้ 2 ทาง:</b><br>  ก) เปลี่ยนประธานประโยคหลักให้ตรงกัน<br>  ข) เขียนเป็นประโยคเต็ม: <b>While I was walking</b> down the street, the trees looked beautiful.<br><br>⚠️ ข้อสอบมักให้เลือกว่าประโยคไหนถูก — ให้เช็คประธานเสมอ',
+        examples: [
+          { en: '✅ <b>Feeling</b> sick, <b>I</b> went home.', th: 'ฉันรู้สึกป่วย และฉันกลับบ้าน' },
+          { en: '❌ <b>Feeling</b> sick, <b>the meeting</b> was cancelled.', th: 'การประชุมป่วย? ผิด' },
+          { en: '✅ <b>Being</b> a doctor, <b>he</b> knew what to do.', th: 'ประธานตรงกัน' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Running fast, the finish line appeared.', 'Running fast, she crossed the finish line.', 'Running fast, the race was won.', 'Running fast, it was tiring.'], correctIndex: 1, explain: 'she เป็นคนวิ่ง และ she ข้ามเส้นชัย → ประธานตรงกัน' },
+          { prompt: 'ข้อใดเป็น Dangling Participle', choices: ['Opening the door, I saw a cat.', 'Opening the door, the cat ran out.', 'Opening the door, she smiled.', 'Opening the door, he entered.'], correctIndex: 1, explain: 'แมวเป็นคนเปิดประตู? ผิด — ควรเป็น "When I opened the door, the cat ran out."' },
+        ],
+      },
+      {
+        heading: 'Absolute Construction (ประธานคนละตัว)',
+        content: 'ถ้าประธานของ participle phrase <b>ต่างจาก</b>ประโยคหลักจริง ๆ ต้อง<b>ใส่ประธานเข้าไปด้วย</b> — เรียกว่า Absolute Construction<br><br><b>โครงสร้าง:</b> <b>นาม + participle</b>, ประโยคหลัก<br><br>  <b>The weather being fine</b>, we went for a walk.<br>  (อากาศดี — weather เป็นประธานของ being)<br><br>  <b>His work finished</b>, he went home.<br>  (งานเสร็จแล้ว — work ถูกทำเสร็จ → V.3)<br><br>  <b>There being no bus</b>, we walked.<br>  <b>All things considered</b>, it was a success.<br>  <b>Weather permitting</b>, we\'ll have a picnic.<br><br><b>💡 เทียบกับ dangling ให้ชัด</b><br>  ❌ Being fine, we went for a walk. (เราอากาศดี?)<br>  ✅ <b>The weather</b> being fine, we went for a walk.<br><br><b>สำนวน Absolute ที่ใช้บ่อย (ท่องได้เลย):</b><br>  <b>All things considered</b> = เมื่อพิจารณาทุกอย่างแล้ว<br>  <b>Weather permitting</b> = ถ้าอากาศเอื้ออำนวย<br>  <b>Other things being equal</b> = ถ้าปัจจัยอื่นเท่ากัน<br>  <b>That being said</b> = ถึงอย่างนั้นก็ตาม<br>  <b>This being the case</b> = ในกรณีนี้',
+        examples: [
+          { en: '<b>The rain having stopped</b>, we continued.', th: 'ฝนหยุดแล้ว เราจึงไปต่อ' },
+          { en: '<b>Weather permitting</b>, the match will go ahead.', th: 'สำนวนสำเร็จรูป' },
+          { en: '<b>His homework done</b>, he played games.', th: 'การบ้านเสร็จ (passive → V.3)' },
+        ],
+        practice: [
+          { prompt: '"___ fine, we decided to go hiking."', choices: ['Being', 'The weather being', 'Weather is', 'It being weather'], correctIndex: 1, explain: 'ประธานต่างกัน ต้องใส่ประธาน → The weather being fine' },
+          { prompt: '"___, it was a good decision." (เมื่อพิจารณาทุกอย่าง)', choices: ['All things considering', 'All things considered', 'Considering all thing', 'All consider things'], correctIndex: 1, explain: 'สำนวน All things considered' },
+        ],
+      },
+      {
+        heading: 'Participle หลังกริยารับรู้และกริยาบางตัว',
+        content: '<b>1) กริยารับรู้ (see, hear, watch, notice, feel, find, smell)</b><br>  ตามด้วย <b>กรรม + V.ing</b> หรือ <b>กรรม + V.1</b> ความหมายต่างกัน<br><br>  I saw him <b>crossing</b> the road. = เห็นตอนกำลังข้าม (เห็นบางส่วน)<br>  I saw him <b>cross</b> the road. = เห็นเขาข้ามจนจบ (เห็นทั้งหมด)<br><br>  รูป Passive: I saw him <b>arrested</b>. = เห็นเขาถูกจับ<br><br><b>2) find / leave / keep / catch + กรรม + participle</b><br>  I <b>found</b> the door <b>locked</b>. (พบว่าประตูล็อกอยู่)<br>  Don\'t <b>leave</b> the tap <b>running</b>. (อย่าเปิดน้ำทิ้งไว้)<br>  She <b>kept</b> me <b>waiting</b>. (เธอทำให้ฉันรอ)<br>  He was <b>caught</b> <b>cheating</b>. (โดนจับได้ว่าโกง)<br><br><b>3) spend / waste + เวลา + V.ing</b><br>  I <b>spent</b> two hours <b>studying</b>.<br>  Don\'t <b>waste</b> time <b>arguing</b>.<br><br><b>4) go + V.ing (กิจกรรม)</b><br>  go <b>shopping</b>, go <b>swimming</b>, go <b>fishing</b>, go <b>camping</b>',
+        examples: [
+          { en: 'I heard someone <b>knocking</b>.', th: 'ได้ยินตอนกำลังเคาะ' },
+          { en: 'We found the house <b>abandoned</b>.', th: 'พบว่าบ้านถูกทิ้งร้าง' },
+          { en: 'She spent the day <b>cleaning</b>.', th: 'spend + เวลา + V.ing' },
+        ],
+        practice: [
+          { prompt: '"I saw him ___ into the building." (กำลังเข้าไป)', choices: ['to go', 'going', 'gone', 'goes'], correctIndex: 1, explain: 'เห็นตอนกำลังทำ → V.ing' },
+          { prompt: '"Don\'t leave the lights ___."', choices: ['turn on', 'to turn on', 'turned on', 'turning on'], correctIndex: 2, explain: 'ไฟถูกเปิดไว้ (passive) → V.3' },
+          { prompt: '"He spent all night ___ for the exam."', choices: ['study', 'to study', 'studying', 'studied'], correctIndex: 2, explain: 'spend + เวลา + V.ing' },
+        ],
+      },
+      {
+        heading: 'with + นาม + Participle',
+        content: 'โครงสร้าง <b>with + นาม + participle</b> ใช้บรรยายสภาพที่เกิดขึ้นพร้อมกัน<br><br><b>with + นาม + V.ing</b> (Active)<br>  He stood there <b>with his heart pounding</b>. (หัวใจเต้นแรง)<br>  She fell asleep <b>with the TV playing</b>.<br><br><b>with + นาม + V.3</b> (Passive)<br>  He sat <b>with his arms folded</b>. (กอดอก)<br>  She listened <b>with her eyes closed</b>. (หลับตาฟัง)<br><br><b>with + นาม + adj/วลี</b><br>  He slept <b>with the window open</b>.<br>  She left <b>with tears in her eyes</b>.<br><br><b>💡 สำนวนที่เจอบ่อย (ภาษาท่าทาง)</b><br>  with arms <b>folded</b> = กอดอก<br>  with legs <b>crossed</b> = ไขว่ห้าง<br>  with eyes <b>closed</b> = หลับตา<br>  with mouth <b>open</b> = อ้าปาก<br>  with hair <b>tied back</b> = มัดผม<br><br><b>⚠️ ใช้ V.ing หรือ V.3?</b> ถามว่าคำนามนั้น "ทำเอง" หรือ "ถูกทำ"<br>  the engine <b>running</b> (เครื่องยนต์ทำงานเอง → V.ing)<br>  the door <b>locked</b> (ประตูถูกล็อก → V.3)',
+        examples: [
+          { en: 'She waited <b>with her fingers crossed</b>.', th: 'ไขว้นิ้วขอให้โชคดี' },
+          { en: 'He drove off <b>with the engine roaring</b>.', th: 'เครื่องยนต์คำราม (active)' },
+          { en: 'Don\'t talk <b>with your mouth full</b>.', th: 'with + นาม + adj' },
+        ],
+        practice: [
+          { prompt: '"He was sitting with his legs ___." (ไขว่ห้าง)', choices: ['crossing', 'crossed', 'cross', 'to cross'], correctIndex: 1, explain: 'ขาถูกไขว้ (passive) → V.3' },
+          { prompt: '"She couldn\'t sleep with the dog ___ all night."', choices: ['barked', 'to bark', 'barking', 'bark'], correctIndex: 2, explain: 'สุนัขเห่าเอง (active) → V.ing' },
+        ],
+      },
+      {
+        heading: 'Verb 3 ที่ผันผิดปกติ (ต้องจำ)',
+        content: 'Participle ใช้ V.3 บ่อยมาก ต้องจำรูปผิดปกติให้ได้ จัดกลุ่มให้จำง่าย:<br><br><b>กลุ่มเหมือนกันหมด (V1=V2=V3):</b><br>  cut, cut, cut / put, put, put / let, let, let<br>  hit, hit, hit / cost, cost, cost / hurt, hurt, hurt<br>  set, set, set / shut, shut, shut / read, read, read (ออกเสียงต่าง)<br><br><b>กลุ่ม V2=V3:</b><br>  buy, bought, bought / bring, brought, brought<br>  think, thought, thought / catch, caught, caught<br>  teach, taught, taught / find, found, found<br>  make, made, made / say, said, said / pay, paid, paid<br>  sit, sat, sat / stand, stood, stood / lose, lost, lost<br>  leave, left, left / feel, felt, felt / keep, kept, kept<br>  build, built, built / send, sent, sent / spend, spent, spent<br><br><b>กลุ่ม V3 ลงท้าย -en:</b><br>  write, wrote, <b>written</b> / eat, ate, <b>eaten</b><br>  give, gave, <b>given</b> / take, took, <b>taken</b><br>  speak, spoke, <b>spoken</b> / break, broke, <b>broken</b><br>  choose, chose, <b>chosen</b> / drive, drove, <b>driven</b><br>  forget, forgot, <b>forgotten</b> / steal, stole, <b>stolen</b><br>  see, saw, <b>seen</b> / be, was/were, <b>been</b><br>  do, did, <b>done</b> / go, went, <b>gone</b><br><br><b>กลุ่มเปลี่ยนสระ i-a-u:</b><br>  begin, began, begun / drink, drank, drunk<br>  sing, sang, sung / swim, swam, swum / ring, rang, rung',
+        examples: [
+          { en: 'a <b>broken</b> heart', th: 'break → broken' },
+          { en: 'a <b>hidden</b> treasure', th: 'hide → hidden' },
+          { en: 'the <b>chosen</b> one', th: 'choose → chosen' },
+        ],
+        practice: [
+          { prompt: 'V.3 ของ "choose" คือ', choices: ['choosed', 'chose', 'chosen', 'choosen'], correctIndex: 2, explain: 'choose → chose → chosen' },
+          { prompt: 'V.3 ของ "forget" คือ', choices: ['forgot', 'forgotten', 'forgetted', 'forget'], correctIndex: 1, explain: 'forget → forgot → forgotten' },
+          { prompt: '"The glass is ___." (แตก)', choices: ['break', 'broke', 'broken', 'breaking'], correctIndex: 2, explain: 'break → broke → broken' },
         ],
       },
     ],
@@ -2288,6 +3477,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'I enjoy <b>reading</b> books.', th: 'กรรม' },
           { en: 'She is interested in <b>learning</b>.', th: 'หลัง preposition (in)' },
         ],
+        practice: [
+          { prompt: '"___ is good exercise."', choices: ['Swim', 'Swimming', 'To swimming', 'Swam'], correctIndex: 1, explain: 'Gerund เป็นประธาน → Swimming' },
+          { prompt: 'Gerund คืออะไร', choices: ['V.ing ที่ทำหน้าที่เป็นคำนาม', 'V.ing ที่เป็นกริยาแท้', 'to + V.1', 'V.3 ที่เป็นคุณศัพท์'], correctIndex: 0, explain: 'Gerund = V.ing ทำหน้าที่เป็นคำนาม' },
+        ],
       },
       {
         heading: 'Infinitive (to + V.1)',
@@ -2296,6 +3489,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'I want <b>to eat</b>.', th: 'หลังกริยา want' },
           { en: 'She went <b>to buy</b> food.', th: 'บอกจุดประสงค์' },
           { en: 'It\'s hard <b>to understand</b>.', th: 'หลัง adj (hard)' },
+        ],
+        practice: [
+          { prompt: '"It is easy ___ this game."', choices: ['play', 'playing', 'to play', 'played'], correctIndex: 2, explain: 'It is + adj + to + V.1' },
+          { prompt: '"I don\'t know what ___."', choices: ['say', 'saying', 'to say', 'said'], correctIndex: 2, explain: 'question word + to + V.1' },
         ],
       },
       {
@@ -2331,6 +3528,10 @@ const GRAMMAR_CHAPTERS = [
         examples: [
           { en: 'I <b>love reading</b>. / I <b>love to read</b>.', th: 'ความหมายเหมือนกัน' },
         ],
+        practice: [
+          { prompt: 'กริยาใดตามได้ทั้ง V.ing และ to V.1 โดยความหมายไม่ต่างกัน', choices: ['enjoy', 'want', 'start', 'avoid'], correctIndex: 2, explain: 'start/begin/like/love/hate/continue ตามได้ทั้งคู่' },
+          { prompt: 'ข้อใดผิด', choices: ['She began singing.', 'She began to sing.', 'She enjoyed to sing.', 'She enjoyed singing.'], correctIndex: 2, explain: 'enjoy ตามด้วย V.ing เท่านั้น' },
+        ],
       },
       {
         heading: 'กริยาที่ตามได้ทั้งคู่ (ความหมายต่างกัน!)',
@@ -2338,6 +3539,11 @@ const GRAMMAR_CHAPTERS = [
         examples: [
           { en: 'I <b>remembered to lock</b> the door. (จำได้ว่าต้องทำ)', th: 'to + V.1 = ทำแล้ว' },
           { en: 'I <b>remember locking</b> the door. (จำได้ว่าเคยล็อค)', th: 'V.ing = จำอดีต' },
+        ],
+        practice: [
+          { prompt: '"Please remember ___ the letter." (อย่าลืมส่ง)', choices: ['posting', 'to post', 'posted', 'post'], correctIndex: 1, explain: 'remember + to V.1 = จำได้ว่าต้องทำ (ยังไม่ได้ทำ)' },
+          { prompt: '"I\'ll never forget ___ the Eiffel Tower." (ไม่ลืมตอนที่เคยเห็น)', choices: ['to see', 'seeing', 'saw', 'see'], correctIndex: 1, explain: 'forget + V.ing = ลืมเรื่องที่เคยทำไปแล้ว' },
+          { prompt: '"He stopped ___ a cigarette." (หยุดเพื่อสูบ)', choices: ['smoking', 'to smoke', 'smoked', 'smoke'], correctIndex: 1, explain: 'stop + to V.1 = หยุดเพื่อจะทำสิ่งนั้น' },
         ],
       },
       {
@@ -2350,6 +3556,104 @@ const GRAMMAR_CHAPTERS = [
         ],
         practice: [
           { prompt: '"Thank you for ___ me."', choices: ['help', 'to help', 'helping', 'helped'], correctIndex: 2, explain: 'for + V.ing = helping' },
+        ],
+      },
+      {
+        heading: 'Gerund ทำหน้าที่อะไรได้บ้าง (4 ตำแหน่ง)',
+        content: 'Gerund = V.ing ที่ทำหน้าที่เป็น<b>คำนาม</b> วางได้ 4 ตำแหน่งเหมือนคำนามทุกประการ<br><br><b>1) ประธาน</b><br>  <b>Smoking</b> is bad for your health.<br>  <b>Learning</b> a language takes time.<br>  ⚠️ Gerund เป็นประธาน → ใช้กริยา<b>เอกพจน์</b>เสมอ<br>  <b>Reading books is</b> fun. (ไม่ใช่ are)<br><br><b>2) กรรมของกริยา</b><br>  I enjoy <b>swimming</b>.<br>  She avoided <b>answering</b>.<br><br><b>3) กรรมของ preposition</b><br>  She is good at <b>cooking</b>.<br>  Thanks for <b>coming</b>.<br><br><b>4) Complement (หลัง verb to be)</b><br>  My hobby is <b>painting</b>.<br>  Seeing is <b>believing</b>.<br><br><b>รูปพิเศษของ Gerund:</b><br>  • ปฏิเสธ: <b>not</b> + V.ing → <b>Not knowing</b> the answer was embarrassing.<br>  • Passive: <b>being</b> + V.3 → I hate <b>being ignored</b>.<br>  • Perfect: <b>having</b> + V.3 → He denied <b>having stolen</b> it.<br><br><b>⚠️ อย่าสับสน Gerund กับ Present Participle</b><br>  I like <b>swimming</b>. (Gerund = คำนาม — ชอบการว่ายน้ำ)<br>  The <b>swimming</b> pool. (Participle = adjective — สระว่ายน้ำ)<br>  He is <b>swimming</b>. (ส่วนหนึ่งของกริยา Continuous)',
+        examples: [
+          { en: '<b>Waiting</b> is boring.', th: 'ประธาน' },
+          { en: 'I dislike <b>waiting</b>.', th: 'กรรมของกริยา' },
+          { en: 'I\'m tired of <b>waiting</b>.', th: 'หลัง preposition' },
+          { en: 'I hate <b>being kept</b> waiting.', th: 'Passive gerund' },
+        ],
+        practice: [
+          { prompt: '"___ early ___ good for health."', choices: ['Wake / is', 'Waking / is', 'Waking / are', 'To waking / is'], correctIndex: 1, explain: 'Gerund เป็นประธาน + กริยาเอกพจน์' },
+          { prompt: '"He admitted ___ the money." (ยอมรับว่าขโมยไปแล้ว)', choices: ['stealing', 'having stolen', 'ถูกทั้งสอง', 'to steal'], correctIndex: 2, explain: 'admit + V.ing หรือ having + V.3 (เน้นว่าเกิดก่อน) ใช้ได้ทั้งคู่' },
+          { prompt: '"___ what to do, he asked for help."', choices: ['Not knowing', 'Knowing not', 'Don\'t knowing', 'No knowing'], correctIndex: 0, explain: 'ปฏิเสธ gerund → not + V.ing' },
+        ],
+      },
+      {
+        heading: 'Bare Infinitive (V.1 ไม่มี to)',
+        content: 'บางกรณีต้องใช้ <b>V.1 เปล่า ๆ ไม่มี to</b> — ออกสอบบ่อย<br><br><b>1) หลัง Modal Verbs</b><br>  can, could, may, might, will, would, shall, should, must<br>  She <b>can swim</b>. (ไม่ใช่ can to swim)<br><br><b>2) หลัง make / let / have (causative)</b><br>  She <b>made</b> me <b>cry</b>.<br>  They <b>let</b> him <b>go</b>.<br>  I\'ll <b>have</b> him <b>call</b> you.<br>  ⚠️ แต่ <b>get</b> ต้องมี to: I\'ll <b>get</b> him <b>to call</b> you.<br>  ⚠️ make ในรูป passive ต้องมี to: He <b>was made to</b> apologize.<br><br><b>3) หลังกริยารับรู้ (see, hear, watch, feel, notice)</b><br>  I <b>saw</b> her <b>leave</b>. (เห็นจนจบ)<br>  I <b>heard</b> him <b>shout</b>.<br><br><b>4) หลัง had better / would rather</b><br>  You <b>had better go</b> now.<br>  I <b>would rather stay</b> home.<br><br><b>5) หลัง why (not) ในคำแนะนำ</b><br>  <b>Why not try</b> again?<br>  <b>Why worry</b> about it?<br><br><b>6) หลัง do nothing but / cannot but</b><br>  He did nothing but <b>complain</b>.<br><br><b>💡 สรุปคู่ที่สับสน:</b><br>  make/let/have + คน + <b>V.1</b><br>  get/want/ask/tell + คน + <b>to V.1</b>',
+        examples: [
+          { en: 'My parents <b>let me stay</b> out late.', th: 'let + คน + V.1' },
+          { en: 'She <b>got me to help</b> her.', th: 'get + คน + to V.1' },
+          { en: 'I\'d rather <b>walk</b> than drive.', th: 'would rather + V.1' },
+        ],
+        practice: [
+          { prompt: '"The teacher made us ___ the room."', choices: ['to clean', 'clean', 'cleaning', 'cleaned'], correctIndex: 1, explain: 'make + คน + V.1 (ไม่มี to)' },
+          { prompt: '"I got my brother ___ me with homework."', choices: ['help', 'to help', 'helping', 'helped'], correctIndex: 1, explain: 'get + คน + to + V.1' },
+          { prompt: '"You had better ___ a doctor."', choices: ['to see', 'see', 'seeing', 'seen'], correctIndex: 1, explain: 'had better + V.1' },
+        ],
+      },
+      {
+        heading: 'กริยา + กรรม + to V.1 (สั่ง/ขอ/อยากให้)',
+        content: 'กริยากลุ่มนี้ต้องมี<b>กรรม (คน) คั่นกลาง</b>ก่อน to + V.1<br><br><b>โครงสร้าง:</b> V. + <b>คน</b> + <b>to + V.1</b><br><br><b>กริยาในกลุ่มนี้:</b><br>  want, ask, tell, advise, allow, permit, encourage, expect, force, invite, order, persuade, remind, teach, warn, get, need, require, enable, cause<br><br>  I <b>want you to</b> come.<br>  She <b>asked me to</b> wait.<br>  He <b>told her to</b> leave.<br>  They <b>encouraged us to</b> apply.<br><br><b>⚠️ ห้ามใช้ that-clause กับกริยากลุ่มนี้</b><br>  ❌ I want <b>that you come</b>. (คนไทยผิดบ่อย — เพราะภาษาไทยพูด "อยากให้คุณมา")<br>  ✅ I want <b>you to come</b>.<br>  ❌ She asked that I wait. → ✅ She asked <b>me to wait</b>.<br><br><b>⚠️ เทียบกับ suggest/recommend ที่ใช้ที่ต่างกัน</b><br>  ❌ He suggested me to go.<br>  ✅ He suggested <b>that I go</b>. / He suggested <b>going</b>.<br><br><b>รูปปฏิเสธ: not + to V.1</b><br>  She told me <b>not to worry</b>.<br>  The doctor advised him <b>not to smoke</b>.',
+        examples: [
+          { en: 'They <b>invited us to</b> the wedding.', th: 'invite + คน' },
+          { en: 'He <b>warned me not to</b> go there.', th: 'ปฏิเสธ → not to' },
+          { en: 'The rain <b>caused the game to</b> be cancelled.', th: 'cause + สิ่งของ + to' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I want that you help me.', 'I want you to help me.', 'I want you help me.', 'I want helping you.'], correctIndex: 1, explain: 'want + คน + to + V.1 (ห้ามใช้ that)' },
+          { prompt: '"The teacher told us ___ during the exam."', choices: ['not talk', 'not to talk', 'to not talk', 'don\'t talk'], correctIndex: 1, explain: 'tell + คน + not to + V.1' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['He suggested me to leave.', 'He suggested that I leave.', 'He suggested me leaving.', 'He suggested to me leave.'], correctIndex: 1, explain: 'suggest ใช้ that-clause หรือ V.ing (ไม่ใช้ + คน + to)' },
+        ],
+      },
+      {
+        heading: 'Preposition + V.ing ที่ต้องจำเป็นชุด',
+        content: 'หลัง preposition ต้องใช้ <b>V.ing เสมอ</b> ไม่มีข้อยกเว้น จำเป็นชุดจะใช้ได้เร็ว<br><br><b>Verb + preposition + V.ing</b><br>  think <b>of/about</b>, dream <b>of</b>, believe <b>in</b>, insist <b>on</b>, succeed <b>in</b>, depend <b>on</b>, apologize <b>for</b>, thank <b>for</b>, worry <b>about</b>, complain <b>about</b>, approve <b>of</b>, consist <b>of</b>, benefit <b>from</b>, prevent...<b>from</b>, stop...<b>from</b>, keep...<b>from</b>, look forward <b>to</b>, object <b>to</b>, get used <b>to</b>, be accustomed <b>to</b><br><br><b>Adjective + preposition + V.ing</b><br>  good <b>at</b>, bad <b>at</b>, interested <b>in</b>, tired <b>of</b>, afraid <b>of</b>, capable <b>of</b>, fond <b>of</b>, proud <b>of</b>, keen <b>on</b>, famous <b>for</b>, responsible <b>for</b>, worried <b>about</b>, excited <b>about</b>, used <b>to</b><br><br><b>Noun + preposition + V.ing</b><br>  the idea <b>of</b>, the chance <b>of</b>, the risk <b>of</b>, a way <b>of</b>, the reason <b>for</b>, interest <b>in</b>, difficulty <b>in</b><br><br><b>สำนวนที่ตามด้วย V.ing (จำเลย)</b><br>  It\'s no use / It\'s no good / There\'s no point in<br>  It\'s worth / can\'t help / can\'t stand / feel like<br>  be busy / have difficulty / have trouble / spend time<br>  <b>It\'s no use crying</b> over spilt milk.<br>  I <b>can\'t help laughing</b>. (อดหัวเราะไม่ได้)<br>  Do you <b>feel like going</b> out?',
+        examples: [
+          { en: 'She insisted <b>on paying</b>.', th: 'insist on + V.ing' },
+          { en: 'It\'s worth <b>visiting</b>.', th: 'worth + V.ing' },
+          { en: 'I can\'t stand <b>waiting</b>.', th: "can't stand + V.ing" },
+        ],
+        practice: [
+          { prompt: '"He apologized for ___ late."', choices: ['be', 'to be', 'being', 'been'], correctIndex: 2, explain: 'for (preposition) + V.ing' },
+          { prompt: '"There\'s no point in ___ about it."', choices: ['argue', 'to argue', 'arguing', 'argued'], correctIndex: 2, explain: 'in (preposition) + V.ing' },
+          { prompt: '"She prevented me from ___."', choices: ['leave', 'to leave', 'leaving', 'left'], correctIndex: 2, explain: 'prevent...from + V.ing' },
+        ],
+      },
+      {
+        heading: '"to" ที่เป็น Preposition (กับดักใหญ่)',
+        content: 'ปกติเห็น <b>to</b> เราจะเติม V.1 ทันที แต่บางสำนวน <b>to</b> เป็น <b>preposition</b> → ต้องตามด้วย <b>V.ing</b>!<br><br><b>สำนวนที่ to = preposition (ตามด้วย V.ing):</b><br>  • <b>look forward to</b> + V.ing (ตั้งตารอ)<br>    I look forward to <b>hearing</b> from you. (ไม่ใช่ to hear)<br>  • <b>be/get used to</b> + V.ing (คุ้นเคย)<br>    I\'m used to <b>waking</b> up early.<br>  • <b>be accustomed to</b> + V.ing<br>  • <b>object to</b> + V.ing (คัดค้าน)<br>  • <b>be opposed to</b> + V.ing<br>  • <b>in addition to</b> + V.ing<br>  • <b>be committed to</b> + V.ing<br>  • <b>devote oneself to</b> + V.ing<br>  • <b>when it comes to</b> + V.ing<br>  • <b>with a view to</b> + V.ing<br><br><b>💡 วิธีเช็คว่า to เป็น preposition ไหม</b><br>  ลองเติมคำนามดู ถ้าใส่ได้ = preposition = ต้องใช้ V.ing<br>  "I look forward to <b>the party</b>." ✅ ใส่คำนามได้ → to เป็น preposition → look forward to <b>going</b><br>  "I want to <b>the party</b>." ❌ ใส่ไม่ได้ → to เป็น infinitive marker → want <b>to go</b><br><br><b>⚠️ เทียบให้ชัด:</b><br>  I <b>used to</b> smoke. (เคยสูบ — to + V.1)<br>  I\'m <b>used to</b> smoking. (ชินกับการสูบ — to + V.ing)',
+        examples: [
+          { en: 'I look forward to <b>seeing</b> you.', th: 'to = preposition → V.ing' },
+          { en: 'She objects to <b>working</b> weekends.', th: 'object to + V.ing' },
+          { en: 'When it comes to <b>cooking</b>, he\'s the best.', th: 'when it comes to + V.ing' },
+        ],
+        practice: [
+          { prompt: '"I look forward to ___ from you soon."', choices: ['hear', 'hearing', 'heard', 'be hearing'], correctIndex: 1, explain: 'look forward to + V.ing (to เป็น preposition)' },
+          { prompt: '"She is used to ___ in a big city."', choices: ['live', 'living', 'lived', 'to live'], correctIndex: 1, explain: 'be used to + V.ing' },
+          { prompt: '"In addition to ___ English, she speaks French."', choices: ['speak', 'speaking', 'spoke', 'to speak'], correctIndex: 1, explain: 'in addition to + V.ing' },
+        ],
+      },
+      {
+        heading: 'Possessive + Gerund (ทางการ)',
+        content: 'เมื่อ gerund มี "เจ้าของ" คนละคนกับประธาน ให้ใส่รูปแสดงความเป็นเจ้าของนำหน้า<br><br><b>แบบทางการ (ใช้ possessive):</b><br>  I don\'t mind <b>his</b> coming late.<br>  <b>Tom\'s</b> arriving early surprised us.<br>  Do you mind <b>my</b> opening the window?<br><br><b>แบบไม่ทางการ (ใช้ object pronoun):</b><br>  I don\'t mind <b>him</b> coming late.<br>  Do you mind <b>me</b> opening the window?<br>  💡 ในภาษาพูดใช้แบบนี้กันมากกว่า และไม่ถือว่าผิด<br><br><b>⚠️ ความหมายต่างกันเล็กน้อย</b><br>  I remember <b>his</b> telling me. = จำได้ว่าเขาบอก (เน้นการกระทำ)<br>  I remember <b>him</b> telling me. = จำเขาได้ตอนที่บอก (เน้นตัวคน)<br><br><b>ในข้อสอบทางการ (TOEFL) มักเลือก possessive</b><br>  We appreciate <b>your</b> helping us.<br>  His parents disapproved of <b>his</b> marrying her.<br><br><b>⚠️ ถ้าเจ้าของเป็นสิ่งของ ใช้รูปธรรมดาได้เลย</b><br>  I remember <b>the door</b> being locked. (ไม่ต้องใช้ the door\'s)',
+        examples: [
+          { en: 'Would you mind <b>my</b> smoking here?', th: 'ทางการ' },
+          { en: 'Would you mind <b>me</b> smoking here?', th: 'ภาษาพูด' },
+          { en: 'We appreciate <b>your</b> coming.', th: 'ขอบคุณที่คุณมา' },
+        ],
+        practice: [
+          { prompt: '"I appreciate ___ helping me." (ทางการ)', choices: ['you', 'your', 'yours', 'yourself'], correctIndex: 1, explain: 'Possessive + gerund (ทางการ) → your helping' },
+          { prompt: '"Do you mind ___ asking a question?"', choices: ['I', 'me/my', 'mine', 'myself'], correctIndex: 1, explain: 'me (พูด) หรือ my (ทางการ) ใช้ได้ทั้งคู่' },
+        ],
+      },
+      {
+        heading: 'Infinitive บอกจุดประสงค์ (เพื่อที่จะ)',
+        content: '<b>to + V.1</b> ใช้บอกว่า "ทำเพื่ออะไร" — ตอบคำถาม Why?<br><br>  I went to the shop <b>to buy</b> milk. (ไปเพื่อซื้อนม)<br>  She studies hard <b>to pass</b> the exam.<br><br><b>รูปที่เป็นทางการกว่า:</b><br>  <b>in order to</b> + V.1<br>  <b>so as to</b> + V.1<br>  He left early <b>in order to</b> avoid traffic.<br><br><b>รูปปฏิเสธ (สำคัญ!)</b><br>  ⚠️ ปฏิเสธต้องใช้ <b>in order not to</b> หรือ <b>so as not to</b> เท่านั้น<br>  ✅ He whispered <b>so as not to</b> wake the baby.<br>  ✅ He whispered <b>in order not to</b> wake the baby.<br>  ❌ He whispered <b>not to</b> wake the baby. (ผิด)<br><br><b>ถ้าประธานต่างกัน → ใช้ so that + clause</b><br>  I spoke slowly <b>so that they could</b> understand.<br>  (ฉันพูด แต่พวกเขาเข้าใจ — ประธานคนละตัว)<br><br><b>⚠️ อย่าใช้ for + V.ing บอกจุดประสงค์ของการกระทำ</b><br>  ❌ I went to the shop <b>for buying</b> milk.<br>  ✅ I went to the shop <b>to buy</b> milk.<br>  💡 แต่ <b>for + V.ing</b> ใช้บอก<b>หน้าที่ของสิ่งของ</b>ได้<br>  A knife is <b>for cutting</b>. (มีดมีไว้ตัด) ✅<br>  This room is <b>for storing</b> equipment. ✅',
+        examples: [
+          { en: 'She saves money <b>to buy</b> a house.', th: 'จุดประสงค์' },
+          { en: 'He ran <b>so as not to</b> be late.', th: 'ปฏิเสธ' },
+          { en: 'This tool is <b>for opening</b> cans.', th: 'หน้าที่ของสิ่งของ → for + V.ing' },
+        ],
+        practice: [
+          { prompt: '"I went to the library ___ some research."', choices: ['for doing', 'to do', 'for do', 'doing'], correctIndex: 1, explain: 'บอกจุดประสงค์ → to + V.1' },
+          { prompt: '"She left quietly ___ disturb anyone."', choices: ['not to', 'to not', 'so as not to', 'for not'], correctIndex: 2, explain: 'ปฏิเสธจุดประสงค์ → so as not to / in order not to' },
+          { prompt: '"A thermometer is ___ temperature."', choices: ['to measure', 'for measuring', 'ถูกทั้งสอง', 'for measure'], correctIndex: 2, explain: 'บอกหน้าที่ของสิ่งของ ใช้ได้ทั้ง to + V.1 และ for + V.ing' },
         ],
       },
     ],
@@ -2501,6 +3805,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'She walked <b>into</b> the room.', th: 'เดินเข้าไปในห้อง' },
           { en: 'The cat jumped <b>out of</b> the box.', th: 'กระโดดออกจากกล่อง' },
         ],
+        practice: [
+          { prompt: '"She ran ___ the room and slammed the door." (วิ่งเข้าไป)', choices: ['in', 'into', 'at', 'on'], correctIndex: 1, explain: 'การเคลื่อนที่เข้าไป → into' },
+          { prompt: '"The keys are ___ my bag." (อยู่ข้างใน)', choices: ['into', 'in', 'onto', 'to'], correctIndex: 1, explain: 'อยู่ข้างในแล้ว ไม่เคลื่อนที่ → in' },
+        ],
       },
       {
         heading: 'between vs among',
@@ -2524,6 +3832,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'Walk <b>along</b> the river.', th: 'เดินไปตามแม่น้ำ' },
           { en: 'The dog ran <b>toward</b> me.', th: 'วิ่งมาทางฉัน' },
         ],
+        practice: [
+          { prompt: '"We drove ___ the tunnel." (ทะลุอุโมงค์)', choices: ['across', 'through', 'along', 'over'], correctIndex: 1, explain: 'ผ่านทะลุพื้นที่ปิด → through' },
+          { prompt: '"They walked ___ the bridge." (ข้ามสะพาน)', choices: ['through', 'across', 'along', 'into'], correctIndex: 1, explain: 'ข้ามจากฝั่งหนึ่งไปอีกฝั่ง → across' },
+        ],
       },
       {
         heading: 'Common Preposition Phrases',
@@ -2532,6 +3844,110 @@ const GRAMMAR_CHAPTERS = [
           { en: 'The train arrived <b>on time</b>.', th: 'ตรงเวลาเป๊ะ' },
           { en: 'I got there just <b>in time</b>.', th: 'ทันเวลาพอดี' },
           { en: '<b>At last</b>, we finished the project.', th: 'ในที่สุด...' },
+        ],
+        practice: [
+          { prompt: '"___, I didn\'t like him, but now we\'re friends." (ตอนแรก)', choices: ['At last', 'At first', 'In fact', 'At least'], correctIndex: 1, explain: 'at first = ตอนแรก' },
+          { prompt: '"You should sleep ___ 7 hours a night." (อย่างน้อย)', choices: ['at most', 'at last', 'at least', 'at first'], correctIndex: 2, explain: 'at least = อย่างน้อย' },
+        ],
+      },
+      {
+        heading: 'Preposition บอกตำแหน่ง (ครบชุด)',
+        content: 'คำบอกตำแหน่งที่ใช้บ่อย จำเป็นคู่ตรงข้ามจะจำง่าย:<br><br>• <b>on</b> = บน (สัมผัสพื้นผิว) ↔ <b>under</b> = ใต้<br>• <b>above</b> = เหนือ (ไม่สัมผัส) ↔ <b>below</b> = ต่ำกว่า<br>• <b>over</b> = เหนือ/คร่อม/ข้าม ↔ <b>under</b><br>• <b>in front of</b> = ข้างหน้า ↔ <b>behind</b> = ข้างหลัง<br>• <b>inside</b> = ข้างใน ↔ <b>outside</b> = ข้างนอก<br>• <b>next to / beside</b> = ข้าง ๆ<br>• <b>near</b> = ใกล้ / <b>far from</b> = ไกลจาก<br>• <b>opposite</b> = ตรงข้าม (คนละฝั่ง)<br>• <b>between</b> = ระหว่าง (2) / <b>among</b> = ท่ามกลาง (3+)<br>• <b>around</b> = รอบ ๆ<br>• <b>against</b> = พิงกับ<br>• <b>by</b> = ข้าง ๆ (ใกล้มาก)<br><br><b>⚠️ คู่ที่สับสน</b><br>  <b>on vs over vs above</b><br>  The book is <b>on</b> the table. (วางแตะโต๊ะ)<br>  A lamp hangs <b>over</b> the table. (แขวนคร่อมด้านบน)<br>  The plane flew <b>above</b> the clouds. (สูงกว่า ไม่จำเป็นต้องตรงกัน)<br><br>  <b>beside vs besides</b><br>  Sit <b>beside</b> me. = นั่งข้าง ๆ ฉัน<br>  <b>Besides</b> English, she speaks Thai. = นอกจากภาษาอังกฤษ',
+        examples: [
+          { en: 'The cat is <b>under</b> the chair.', th: 'ใต้เก้าอี้' },
+          { en: 'She sat <b>opposite</b> me.', th: 'นั่งตรงข้าม' },
+          { en: 'He leaned <b>against</b> the wall.', th: 'พิงกำแพง' },
+        ],
+        practice: [
+          { prompt: '"The clock hangs ___ the door." (เหนือประตู)', choices: ['on', 'above', 'in', 'at'], correctIndex: 1, explain: 'แขวนเหนือ ไม่สัมผัส → above (หรือ over)' },
+          { prompt: '"___ playing football, he also swims." (นอกจาก)', choices: ['Beside', 'Besides', 'Between', 'Behind'], correctIndex: 1, explain: 'Besides = นอกจาก (beside = ข้าง ๆ)' },
+          { prompt: '"The bank is ___ the post office." (ตรงข้าม)', choices: ['opposite', 'against', 'among', 'over'], correctIndex: 0, explain: 'opposite = ตรงข้าม คนละฝั่ง' },
+        ],
+      },
+      {
+        heading: 'for / since / during / while / by / until',
+        content: 'กลุ่มคำบอกเวลาที่สับสนที่สุด — ต้องแยกให้ออก<br><br><b>for + ระยะเวลา</b> = เป็นเวลา...<br>  for 3 hours, for two weeks, for a long time<br><br><b>since + จุดเริ่มต้น</b> = ตั้งแต่...<br>  since 2020, since Monday, since I was a child<br>  ⚠️ ใช้กับ Present Perfect เสมอ<br><br><b>during + คำนาม</b> = ระหว่าง (ช่วงเวลานั้น)<br>  during the meeting, during the summer<br><b>while + ประโยค</b> = ในขณะที่<br>  while I was sleeping<br>  ❌ during I was sleeping / ❌ while the meeting<br><br><b>by</b> = ไม่เกิน / ภายใน (เส้นตาย)<br>  Finish it <b>by</b> Friday. (ไม่เกินวันศุกร์)<br><b>until / till</b> = จนกระทั่ง (ต่อเนื่องถึง)<br>  Wait <b>until</b> Friday. (รอไปเรื่อย ๆ จนถึงศุกร์)<br>  ⚠️ เทียบ: I\'ll be here <b>until</b> 5. (อยู่ถึง 5 โมง) / I\'ll come <b>by</b> 5. (มาไม่เกิน 5 โมง)<br><br><b>in + ระยะเวลา</b> = อีก...ถึงจะ (อนาคต)<br>  I\'ll be back <b>in</b> an hour. (อีก 1 ชั่วโมง)<br><b>within</b> = ภายใน (ไม่เกิน)<br>  within 24 hours<br><br><b>from...to / from...until</b> = จาก...ถึง<br>  I work <b>from</b> 9 <b>to</b> 5.',
+        examples: [
+          { en: 'I\'ve lived here <b>for</b> five years.', th: 'ระยะเวลา' },
+          { en: 'I\'ve lived here <b>since</b> 2019.', th: 'จุดเริ่มต้น' },
+          { en: 'He fell asleep <b>during</b> the film.', th: 'during + คำนาม' },
+          { en: 'He fell asleep <b>while</b> watching the film.', th: 'while + V.ing/ประโยค' },
+        ],
+        practice: [
+          { prompt: '"She has worked here ___ 2018."', choices: ['for', 'since', 'during', 'from'], correctIndex: 1, explain: 'ปี = จุดเริ่มต้น → since' },
+          { prompt: '"I met him ___ my trip to Japan."', choices: ['while', 'during', 'since', 'until'], correctIndex: 1, explain: 'ตามด้วยคำนาม (my trip) → during' },
+          { prompt: '"Please submit the report ___ Monday." (ไม่เกินวันจันทร์)', choices: ['until', 'by', 'since', 'during'], correctIndex: 1, explain: 'เส้นตาย → by' },
+          { prompt: '"The shop is open ___ 8 PM." (เปิดถึง)', choices: ['by', 'until', 'in', 'since'], correctIndex: 1, explain: 'ต่อเนื่องถึงเวลานั้น → until' },
+        ],
+      },
+      {
+        heading: 'Verb + Preposition ที่ต้องจำเป็นคู่',
+        content: 'กริยาหลายตัวมี preposition ประจำตัว จำผิดคือผิดทั้งประโยค<br><br><b>+ to</b>: listen to, belong to, happen to, reply to, refer to, object to, apologize to (คน), talk to, explain to, introduce to<br><b>+ for</b>: wait for, look for, ask for, pay for, apologize for (เรื่อง), search for, blame for, thank for, apply for, care for<br><b>+ at</b>: look at, laugh at, shout at, arrive at (สถานที่เล็ก), stare at, point at, aim at<br><b>+ on</b>: depend on, rely on, insist on, concentrate on, focus on, congratulate on, comment on, spend on<br><b>+ with</b>: agree with (คน), deal with, cope with, provide with, compare with, argue with, help with<br><b>+ of</b>: think of, dream of, consist of, approve of, accuse of, remind of, take care of, get rid of<br><b>+ from</b>: suffer from, differ from, prevent from, recover from, borrow from, escape from, protect from<br><b>+ in</b>: believe in, succeed in, participate in, specialize in, result in, invest in<br><b>+ about</b>: talk about, worry about, complain about, think about, care about, know about<br><br><b>⚠️ คู่ที่ความหมายเปลี่ยนตาม preposition</b><br>  <b>look at</b> = มอง / <b>look for</b> = หา / <b>look after</b> = ดูแล / <b>look up</b> = เปิดหา<br>  <b>think of</b> = นึกถึง / <b>think about</b> = คิดพิจารณา<br>  <b>agree with</b> คน / <b>agree to</b> ข้อเสนอ / <b>agree on</b> เรื่องที่ตกลง<br>  <b>apologize to</b> คน <b>for</b> เรื่อง<br>  <b>arrive at</b> สถานที่เล็ก / <b>arrive in</b> เมือง-ประเทศ',
+        examples: [
+          { en: 'I\'m <b>looking for</b> my keys.', th: 'หา' },
+          { en: 'Please <b>look after</b> my cat.', th: 'ดูแล' },
+          { en: 'She <b>apologized to</b> me <b>for</b> being late.', th: 'to คน + for เรื่อง' },
+        ],
+        practice: [
+          { prompt: '"You can\'t ___ on him. He always forgets."', choices: ['depend', 'trust', 'believe', 'agree'], correctIndex: 0, explain: 'depend on = พึ่งพา' },
+          { prompt: '"We arrived ___ Bangkok at midnight."', choices: ['at', 'in', 'to', 'on'], correctIndex: 1, explain: 'arrive in + เมือง/ประเทศ' },
+          { prompt: '"Could you ___ after my dog?" (ดูแล)', choices: ['look', 'take', 'care', 'watch'], correctIndex: 0, explain: 'look after = ดูแล' },
+        ],
+      },
+      {
+        heading: 'Phrasal Verb (กริยาวลี)',
+        content: '<b>กริยา + preposition/adverb</b> รวมกันแล้วได้ความหมายใหม่ที่เดาจากคำเดิมไม่ได้<br><br>  <b>give up</b> = เลิก (ไม่ใช่ "ให้ขึ้น")<br>  <b>look after</b> = ดูแล<br>  <b>put off</b> = เลื่อน<br>  <b>turn down</b> = ปฏิเสธ / หรี่เสียง<br>  <b>find out</b> = ค้นพบ<br>  <b>get along with</b> = เข้ากันได้<br>  <b>run out of</b> = ...หมด<br>  <b>look forward to</b> = ตั้งตารอ<br>  <b>take off</b> = ถอด / เครื่องบินขึ้น<br>  <b>put up with</b> = ทน<br>  <b>bring up</b> = เลี้ยงดู / ยกเรื่องขึ้นมา<br>  <b>call off</b> = ยกเลิก<br>  <b>break down</b> = เสีย (เครื่องจักร)<br>  <b>carry out</b> = ดำเนินการ<br>  <b>set up</b> = จัดตั้ง<br><br><b>⚠️ Separable vs Inseparable</b><br><b>1) แยกได้</b> (กรรมวางกลางได้): turn off, put on, pick up, throw away<br>  Turn <b>the light</b> off. = Turn off <b>the light</b>. ✅<br>  ⚠️ ถ้ากรรมเป็น<b>สรรพนาม ต้องวางกลางเสมอ</b><br>  ✅ Turn <b>it</b> off. ❌ Turn off it.<br><br><b>2) แยกไม่ได้</b>: look after, get on, run into, take after, come across<br>  ✅ Look after <b>the baby</b>. / Look after <b>her</b>.<br>  ❌ Look the baby after.',
+        examples: [
+          { en: 'He <b>gave up</b> smoking last year.', th: 'เลิก' },
+          { en: 'Please <b>turn it off</b>.', th: 'สรรพนามต้องอยู่กลาง' },
+          { en: 'We <b>ran out of</b> milk.', th: 'นมหมด (แยกไม่ได้)' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Turn off it.', 'Turn it off.', 'Off turn it.', 'It turn off.'], correctIndex: 1, explain: 'กรรมเป็นสรรพนาม (it) ต้องวางกลาง' },
+          { prompt: '"I can\'t ___ with his rudeness anymore." (ทน)', choices: ['put up', 'put off', 'put on', 'put down'], correctIndex: 0, explain: 'put up with = ทน' },
+          { prompt: '"The meeting was ___ due to the storm." (ยกเลิก)', choices: ['called on', 'called off', 'called up', 'called for'], correctIndex: 1, explain: 'call off = ยกเลิก' },
+        ],
+      },
+      {
+        heading: 'Noun / Adjective + Preposition',
+        content: 'ไม่ใช่แค่กริยา — คำนามและคุณศัพท์ก็มี preposition ประจำตัว<br><br><b>Noun + preposition</b><br>  reason <b>for</b>, cause <b>of</b>, solution <b>to</b>, answer <b>to</b>, key <b>to</b>, increase/decrease <b>in</b>, effect <b>on</b>, influence <b>on</b>, attitude <b>to/towards</b>, relationship <b>with</b>, difference <b>between</b>, example <b>of</b>, need <b>for</b>, demand <b>for</b>, interest <b>in</b>, advantage <b>of</b>, damage <b>to</b>, invitation <b>to</b><br><br><b>Adjective + preposition</b> (ทบทวนจากบทที่ 3)<br>  afraid <b>of</b>, good <b>at</b>, interested <b>in</b>, married <b>to</b>, famous <b>for</b>, different <b>from</b>, similar <b>to</b>, responsible <b>for</b>, aware <b>of</b>, proud <b>of</b>, worried <b>about</b>, satisfied <b>with</b>, full <b>of</b>, kind <b>to</b>, dependent <b>on</b><br><br><b>⚠️ ระวังคู่ที่ต่างกัน (คำเดียวกันแต่คนละชนิด)</b><br>  We <b>discussed</b> the problem. (กริยา — ไม่มี about!)<br>  We had a <b>discussion about</b> the problem. (คำนาม — มี about)<br><br>  She <b>influenced</b> me. (กริยา)<br>  She had an <b>influence on</b> me. (คำนาม)<br><br>  He <b>solved</b> it. (กริยา)<br>  He found a <b>solution to</b> it. (คำนาม)',
+        examples: [
+          { en: 'What is the <b>reason for</b> the delay?', th: 'reason for' },
+          { en: 'There is no <b>solution to</b> this problem.', th: 'solution to' },
+          { en: 'Smoking has a bad <b>effect on</b> health.', th: 'effect on' },
+        ],
+        practice: [
+          { prompt: '"There has been an increase ___ prices."', choices: ['of', 'in', 'to', 'on'], correctIndex: 1, explain: 'increase in = การเพิ่มขึ้นของ' },
+          { prompt: '"What\'s the difference ___ these two?"', choices: ['of', 'from', 'between', 'among'], correctIndex: 2, explain: 'difference between' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['We discussed about the plan.', 'We discussed the plan.', 'We discussed on the plan.', 'We discussed for the plan.'], correctIndex: 1, explain: 'discuss เป็นกริยาที่ไม่ต้องมี preposition' },
+        ],
+      },
+      {
+        heading: 'กริยาที่ห้ามใส่ Preposition (คนไทยผิดบ่อย)',
+        content: 'กริยากลุ่มนี้มีกรรมตรง ๆ <b>ห้ามใส่ preposition</b> — แต่คนไทยมักเผลอใส่เพราะแปลจากภาษาไทย<br><br>  ❌ discuss <b>about</b> → ✅ <b>discuss</b> the issue<br>  ❌ marry <b>with</b> → ✅ <b>marry</b> him (แต่ be married <b>to</b> him ✅)<br>  ❌ enter <b>into</b> the room → ✅ <b>enter</b> the room<br>  ❌ answer <b>to</b> the question → ✅ <b>answer</b> the question<br>  ❌ approach <b>to</b> → ✅ <b>approach</b> the building<br>  ❌ mention <b>about</b> → ✅ <b>mention</b> it<br>  ❌ emphasize <b>on</b> → ✅ <b>emphasize</b> the point<br>  ❌ contact <b>with</b> → ✅ <b>contact</b> me<br>  ❌ resemble <b>to</b> → ✅ <b>resemble</b> his father<br>  ❌ attend <b>to</b> the meeting → ✅ <b>attend</b> the meeting<br>  ❌ affect <b>to</b> → ✅ <b>affect</b> the result<br>  ❌ lack <b>of</b> (กริยา) → ✅ He <b>lacks</b> experience.<br>    (แต่คำนาม: a <b>lack of</b> experience ✅)<br>  ❌ reach <b>to</b> → ✅ <b>reach</b> the top<br>  ❌ join <b>with</b> → ✅ <b>join</b> the club<br><br><b>⚠️ กลับกัน — กริยาที่ต้องมี preposition แต่คนไทยมักลืม</b><br>  ❌ listen music → ✅ listen <b>to</b> music<br>  ❌ wait me → ✅ wait <b>for</b> me<br>  ❌ explain me → ✅ explain <b>to</b> me<br>  ❌ reply me → ✅ reply <b>to</b> me<br>  ❌ apologize me → ✅ apologize <b>to</b> me',
+        examples: [
+          { en: '✅ They <b>discussed the budget</b>.', th: 'ไม่มี about' },
+          { en: '✅ She <b>married a doctor</b>.', th: 'ไม่มี with' },
+          { en: '✅ Please <b>listen to</b> me.', th: 'ต้องมี to' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['He married with her.', 'He married her.', 'He married to her.', 'He married for her.'], correctIndex: 1, explain: 'marry + คน โดยตรง (แต่ be married to ✅)' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Let me explain you.', 'Let me explain to you.', 'Let me explain for you.', 'Let me explain about you.'], correctIndex: 1, explain: 'explain + to + คน' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I will attend to the seminar.', 'I will attend the seminar.', 'I will attend in the seminar.', 'I will attend for the seminar.'], correctIndex: 1, explain: 'attend + สถานที่/งาน โดยตรง' },
+        ],
+      },
+      {
+        heading: 'สำนวน Preposition ที่ออกสอบบ่อย',
+        content: 'จำเป็นวลีสำเร็จรูป ใช้ได้ทันที<br><br><b>in + ...</b><br>  in time (ทันเวลา), in fact (ที่จริง), in general (โดยทั่วไป), in particular (โดยเฉพาะ), in advance (ล่วงหน้า), in charge of (รับผิดชอบ), in touch with (ติดต่อ), in order (เรียบร้อย), in danger (อันตราย), in trouble, in public, in private, in cash, in person, in a hurry, in the end (ในที่สุด)<br><br><b>on + ...</b><br>  on time (ตรงเวลา), on purpose (ตั้งใจ), on average (โดยเฉลี่ย), on business (ไปธุระ), on holiday, on sale, on foot (เดินไป), on the whole (โดยรวม), on behalf of (ในนามของ), on the other hand<br><br><b>at + ...</b><br>  at first (ตอนแรก), at last (ในที่สุด), at least (อย่างน้อย), at most (อย่างมาก), at once (ทันที), at present, at the moment, at all (เลย), at risk, at war<br><br><b>by + ...</b><br>  by chance (บังเอิญ), by mistake (โดยผิดพลาด), by heart (ท่องจำ), by accident, by hand, by the way (อ้อ), by far (มากที่สุด)<br><br><b>out of + ...</b><br>  out of order (เสีย), out of date (ล้าสมัย), out of stock (หมด), out of work (ตกงาน), out of control<br><br><b>⚠️ คู่ที่สอบบ่อยที่สุด</b><br>  <b>in time</b> = ทันเวลา (ทันพอดี) / <b>on time</b> = ตรงเวลาเป๊ะ<br>  <b>at the end of</b> = ตอนจบของ (จุดสิ้นสุด) / <b>in the end</b> = ในที่สุด (สรุป)<br>  <b>in the way</b> = ขวางทาง / <b>on the way</b> = ระหว่างทาง',
+        examples: [
+          { en: 'The train arrived <b>on time</b>.', th: 'ตรงเวลาเป๊ะ' },
+          { en: 'I got there just <b>in time</b>.', th: 'ทันเวลาพอดี' },
+          { en: 'The machine is <b>out of order</b>.', th: 'เครื่องเสีย' },
+        ],
+        practice: [
+          { prompt: '"He broke the vase ___." (โดยบังเอิญ)', choices: ['on purpose', 'by chance', 'by accident', 'in fact'], correctIndex: 2, explain: 'by accident = โดยบังเอิญ (on purpose = ตั้งใจ)' },
+          { prompt: '"___, we decided to cancel the trip." (ในที่สุด)', choices: ['At the end', 'In the end', 'On the end', 'By the end'], correctIndex: 1, explain: 'in the end = ในที่สุด' },
+          { prompt: '"The elevator is ___." (เสีย)', choices: ['out of date', 'out of order', 'out of stock', 'out of work'], correctIndex: 1, explain: 'out of order = ใช้การไม่ได้' },
         ],
       },
     ],
@@ -2641,6 +4057,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'I stayed home <b>because</b> I was tired.', th: 'because เชื่อมประโยค' },
           { en: '<b>Both</b> Tom <b>and</b> Jane are here.', th: 'both...and เป็นคู่' },
         ],
+        practice: [
+          { prompt: 'FANBOYS จัดอยู่ในประเภทใด', choices: ['Coordinating', 'Subordinating', 'Correlative', 'Conjunctive adverb'], correctIndex: 0, explain: 'FANBOYS = Coordinating Conjunctions' },
+          { prompt: '"neither...nor" จัดอยู่ในประเภทใด', choices: ['Coordinating', 'Subordinating', 'Correlative', 'Preposition'], correctIndex: 2, explain: 'ใช้เป็นคู่ → Correlative Conjunctions' },
+        ],
       },
       {
         heading: 'FANBOYS - คำเชื่อมพื้นฐาน',
@@ -2690,6 +4110,136 @@ const GRAMMAR_CHAPTERS = [
           { en: '<b>I stayed home</b> because <b>it was raining</b>.', th: 'Main Clause + Subordinate Clause' },
           { en: '<b>In the morning</b>, I drink coffee.', th: '"In the morning" = phrase (บอกเวลา)' },
           { en: 'The book <b>on the table</b> is mine.', th: '"on the table" = phrase (ขยาย book)' },
+        ],
+        practice: [
+          { prompt: '"after the meeting" เป็น Clause หรือ Phrase', choices: ['Clause เพราะมีประธานและกริยา', 'Phrase เพราะไม่มีประธานและกริยา', 'Clause เพราะขึ้นต้นด้วย after', 'ไม่ใช่ทั้งสองอย่าง'], correctIndex: 1, explain: 'ไม่มีประธาน+กริยา → เป็น Phrase' },
+          { prompt: '"after the meeting ended" เป็นอะไร', choices: ['Phrase', 'Subordinate clause', 'Main clause', 'Simple sentence'], correctIndex: 1, explain: 'มีประธาน (the meeting) + กริยา (ended) + คำเชื่อม → Subordinate clause' },
+        ],
+      },
+      {
+        heading: 'กฎการใช้ Comma กับคำเชื่อม',
+        content: 'ใส่หรือไม่ใส่ comma เปลี่ยนความถูกต้องของประโยค — ข้อสอบเขียนออกบ่อย<br><br><b>1) FANBOYS เชื่อม 2 ประโยคเต็ม → ใส่ comma หน้าคำเชื่อม</b><br>  I was tired<b>,</b> so I went to bed.<br>  She studied hard<b>,</b> but she failed.<br>  ⚠️ ถ้าเชื่อมแค่คำหรือวลี ไม่ต้องใส่<br>  I like tea and coffee. (ไม่มี comma)<br><br><b>2) Subordinating conjunction ขึ้นต้นประโยค → ใส่ comma คั่นกลาง</b><br>  <b>Because</b> it was raining<b>,</b> we stayed home.<br>  <b>Although</b> he tried<b>,</b> he failed.<br>  ⚠️ ถ้าอยู่กลางประโยค ไม่ต้องใส่<br>  We stayed home <b>because</b> it was raining. (ไม่มี comma)<br><br><b>3) Conjunctive adverb (however, therefore) → ใช้ ; หรือขึ้นประโยคใหม่</b><br>  It rained<b>;</b> however<b>,</b> we went out. ✅<br>  It rained. <b>However,</b> we went out. ✅<br>  ❌ It rained, however, we went out. (comma splice — ผิด)<br><br><b>⚠️ Comma Splice — ข้อผิดพลาดที่พบบ่อยที่สุด</b><br>  คือการใช้ comma เชื่อม 2 ประโยคเต็มโดยไม่มีคำเชื่อม<br>  ❌ It was late, we went home.<br>  ✅ It was late<b>, so</b> we went home. (เติมคำเชื่อม)<br>  ✅ It was late<b>;</b> we went home. (ใช้ semicolon)<br>  ✅ It was late. We went home. (แยกประโยค)',
+        examples: [
+          { en: 'He was hungry<b>,</b> so he ate.', th: 'FANBOYS + 2 ประโยค → มี comma' },
+          { en: '<b>When</b> I arrived<b>,</b> she was sleeping.', th: 'ขึ้นต้น → มี comma' },
+          { en: 'She was sleeping <b>when</b> I arrived.', th: 'อยู่กลาง → ไม่มี comma' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดเขียนถูกต้อง', choices: ['It was cold, we stayed inside.', 'It was cold so we stayed inside.', 'It was cold, so we stayed inside.', 'It was cold; so, we stayed inside.'], correctIndex: 2, explain: 'FANBOYS เชื่อม 2 ประโยค → comma หน้า so' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['Although he was tired he kept working.', 'Although he was tired, he kept working.', 'Although, he was tired he kept working.', 'He kept working, although, he was tired.'], correctIndex: 1, explain: 'Although ขึ้นต้น → ใส่ comma คั่นกลาง' },
+        ],
+      },
+      {
+        heading: 'คำเชื่อมแสดงความขัดแย้ง (แม้ว่า / แต่)',
+        content: 'กลุ่มนี้แปลคล้ายกันแต่<b>โครงสร้างต่างกัน</b> — จุดที่ข้อสอบชอบหลอก<br><br><b>ตามด้วยประโยค (S + V):</b><br>  <b>although / though / even though</b> + S + V<br>  <b>while / whereas</b> + S + V (เปรียบเทียบสองสิ่ง)<br>  <b>Although it was expensive</b>, I bought it.<br><br><b>ตามด้วยคำนาม/วลี:</b><br>  <b>despite / in spite of</b> + นาม/V.ing<br>  <b>Despite the rain</b>, we went out.<br>  <b>In spite of being tired</b>, he continued.<br>  ⚠️ ห้ามใส่ of หลัง despite → ❌ despite of<br>  ⚠️ ถ้าอยากตามด้วยประโยค ต้องเติม <b>the fact that</b><br>    <b>Despite the fact that</b> it was raining, we went out. ✅<br><br><b>เป็น adverb (ต้องมี ; หรือขึ้นประโยคใหม่):</b><br>  <b>however, nevertheless, nonetheless, still, yet</b><br>  It was raining. <b>However,</b> we went out.<br><br><b>💡 ตารางเทียบ 3 ประโยคความหมายเดียวกัน</b><br>  <b>Although</b> he was rich, he was unhappy.<br>  <b>Despite</b> his wealth, he was unhappy.<br>  He was rich<b>; however,</b> he was unhappy.<br>  He was rich<b>, but</b> he was unhappy.<br><br>⚠️ <b>ห้ามใช้ although กับ but พร้อมกัน</b><br>  ❌ Although he tried, but he failed.<br>  ✅ Although he tried, he failed.',
+        examples: [
+          { en: '<b>Despite</b> the traffic, we arrived on time.', th: 'despite + คำนาม' },
+          { en: '<b>Although</b> there was traffic, we arrived on time.', th: 'although + ประโยค' },
+          { en: 'He likes tea<b>, whereas</b> she prefers coffee.', th: 'whereas = ในทางตรงข้าม' },
+        ],
+        practice: [
+          { prompt: '"___ his illness, he came to work."', choices: ['Although', 'Even though', 'Despite', 'While'], correctIndex: 2, explain: 'ตามด้วยคำนาม (his illness) → Despite' },
+          { prompt: '"___ he was ill, he came to work."', choices: ['Despite', 'In spite of', 'Although', 'Despite of'], correctIndex: 2, explain: 'ตามด้วยประโยค → Although' },
+          { prompt: 'ข้อใดผิด', choices: ['Although it rained, we went.', 'Despite the rain, we went.', 'Although it rained, but we went.', 'It rained; however, we went.'], correctIndex: 2, explain: 'ห้ามใช้ although กับ but พร้อมกัน' },
+        ],
+      },
+      {
+        heading: 'คำเชื่อมบอกเหตุและผล',
+        content: '<b>บอกเหตุผล (เพราะ):</b><br>  <b>because / since / as</b> + S + V<br>  <b>because of / due to / owing to / thanks to</b> + นาม<br><br>  He was late <b>because</b> the traffic was bad. (+ ประโยค)<br>  He was late <b>because of</b> the traffic. (+ คำนาม)<br><br>  ⚠️ <b>due to</b> ทางการควรตามหลัง verb to be<br>  His absence was <b>due to</b> illness. ✅<br>  <b>thanks to</b> = เพราะ (แง่บวก)<br>  <b>Thanks to</b> your help, I passed.<br><br><b>บอกผลลัพธ์ (ดังนั้น):</b><br>  <b>so</b> + S + V (คำเชื่อม)<br>  <b>therefore / thus / hence / consequently / as a result</b> (adverb ต้องมี ; หรือขึ้นประโยคใหม่)<br><br>  It rained<b>, so</b> we stayed home.<br>  It rained<b>. Therefore,</b> we stayed home.<br><br><b>so...that / such...that = ...จน...</b><br>  It was <b>so</b> hot <b>that</b> I couldn\'t sleep.<br>  It was <b>such a</b> hot day <b>that</b> I couldn\'t sleep.<br><br><b>⚠️ ห้ามใช้ because กับ so พร้อมกัน</b><br>  ❌ <b>Because</b> it rained, <b>so</b> we stayed home. (คนไทยผิดบ่อยมาก)<br>  ✅ <b>Because</b> it rained, we stayed home.<br>  ✅ It rained<b>, so</b> we stayed home.',
+        examples: [
+          { en: 'The flight was cancelled <b>due to</b> fog.', th: 'due to + คำนาม' },
+          { en: '<b>Since</b> you\'re here, let\'s start.', th: 'since = เพราะ' },
+          { en: 'Sales dropped<b>. Consequently,</b> jobs were cut.', th: 'ผลลัพธ์' },
+        ],
+        practice: [
+          { prompt: '"The match was postponed ___ heavy rain."', choices: ['because', 'since', 'because of', 'as'], correctIndex: 2, explain: 'ตามด้วยคำนาม → because of' },
+          { prompt: 'ข้อใดผิด', choices: ['Because he was ill, he stayed home.', 'He was ill, so he stayed home.', 'Because he was ill, so he stayed home.', 'He stayed home because he was ill.'], correctIndex: 2, explain: 'ห้ามใช้ because กับ so ในประโยคเดียวกัน' },
+          { prompt: '"___ your advice, I got the job." (ขอบคุณที่แนะนำ)', choices: ['Because', 'Thanks to', 'Due', 'Since'], correctIndex: 1, explain: 'Thanks to = เพราะ (แง่บวก) + คำนาม' },
+        ],
+      },
+      {
+        heading: 'คำเชื่อมบอกเวลา',
+        content: '<b>when</b> = เมื่อ / <b>while</b> = ในขณะที่ (เน้นช่วงเวลายาว)<br>  <b>When</b> I arrived, she left. (มาถึงแล้วเธอจึงไป)<br>  <b>While</b> I was cooking, she called. (กำลังทำอยู่)<br><br><b>as soon as</b> = ทันทีที่<br><b>before / after</b> = ก่อน / หลัง<br><b>until / till</b> = จนกระทั่ง<br><b>since</b> = ตั้งแต่<br><b>by the time</b> = เมื่อถึงเวลาที่<br><b>whenever</b> = เมื่อไหร่ก็ตาม<br><b>once</b> = พอ...แล้ว<br><b>no sooner...than / hardly...when</b> = ทันทีที่<br><br><b>⚠️ กฎเหล็ก: ประโยคเวลาห้ามใช้ will</b><br>  ใช้ Present Simple แทนอนาคต<br>  ❌ I\'ll call you when I <b>will arrive</b>.<br>  ✅ I\'ll call you when I <b>arrive</b>.<br>  ❌ Wait until he <b>will come</b>.<br>  ✅ Wait until he <b>comes</b>.<br>  💡 กฎนี้ใช้กับ when, before, after, until, as soon as, by the time, once<br><br><b>⚠️ ถ้าเน้นว่าเสร็จก่อน ใช้ Present Perfect ได้</b><br>  I\'ll leave after I <b>have finished</b>. ✅<br><br><b>⚠️ when ที่เป็นคำถามทางอ้อม ใช้ will ได้</b><br>  I don\'t know when he <b>will</b> arrive. ✅ (ไม่ใช่ประโยคเวลา แต่เป็น noun clause)',
+        examples: [
+          { en: 'Call me <b>as soon as</b> you <b>get</b> home.', th: 'ห้ามใช้ will' },
+          { en: '<b>By the time</b> we arrived, it had started.', th: 'by the time' },
+          { en: '<b>Once</b> you learn it, you won\'t forget.', th: 'once = พอ...แล้ว' },
+        ],
+        practice: [
+          { prompt: '"I\'ll text you when I ___ there."', choices: ['will arrive', 'arrive', 'arrived', 'am arriving'], correctIndex: 1, explain: 'ประโยคเวลาห้ามใช้ will → Present Simple' },
+          { prompt: '"Please wait until the meeting ___."', choices: ['will end', 'ends', 'ended', 'will have ended'], correctIndex: 1, explain: 'until + Present Simple แทนอนาคต' },
+          { prompt: '"___ I was walking home, it started to rain."', choices: ['When', 'While', 'As soon as', 'Until'], correctIndex: 1, explain: 'กำลังทำอยู่ต่อเนื่อง → While' },
+        ],
+      },
+      {
+        heading: 'If-Clause (ประโยคเงื่อนไข 4 แบบ)',
+        content: '<b>Type 0 — ความจริงเสมอ</b><br>  <b>If</b> + Present Simple, Present Simple<br>  <b>If</b> you heat ice, it <b>melts</b>.<br><br><b>Type 1 — เป็นไปได้จริงในอนาคต</b><br>  <b>If</b> + Present Simple, <b>will</b> + V.1<br>  <b>If</b> it <b>rains</b>, I <b>will stay</b> home.<br>  ⚠️ ในประโยค if ห้ามใช้ will → ❌ If it will rain<br><br><b>Type 2 — สมมติปัจจุบัน (ไม่จริง)</b><br>  <b>If</b> + Past Simple, <b>would</b> + V.1<br>  <b>If</b> I <b>had</b> money, I <b>would buy</b> a car. (ตอนนี้ไม่มีเงิน)<br>  ⚠️ ใช้ <b>were</b> กับทุกประธาน (ทางการ)<br>  <b>If I were</b> you, I would apologize.<br><br><b>Type 3 — สมมติอดีต (ไม่เกิดขึ้นแล้ว)</b><br>  <b>If</b> + Past Perfect, <b>would have</b> + V.3<br>  <b>If</b> I <b>had studied</b>, I <b>would have passed</b>. (แต่ไม่ได้อ่าน จึงสอบตก)<br><br><b>Mixed Conditional</b> — เหตุในอดีต ผลในปัจจุบัน<br>  <b>If</b> I <b>had studied</b> medicine, I <b>would be</b> a doctor now.<br><br><b>คำเชื่อมอื่นในกลุ่มเงื่อนไข:</b><br>  <b>unless</b> = ถ้าไม่ (= if...not) — ห้ามใส่ not ซ้ำ<br>    You\'ll fail <b>unless</b> you study. (ถ้าไม่อ่านจะสอบตก)<br>  <b>as long as / provided that / on condition that</b> = ตราบใดที่<br>  <b>in case</b> = เผื่อว่า → Take an umbrella <b>in case</b> it rains.<br>  <b>otherwise</b> = มิฉะนั้น',
+        examples: [
+          { en: '<b>If</b> you <b>study</b>, you <b>will pass</b>.', th: 'Type 1' },
+          { en: '<b>If</b> I <b>were</b> rich, I <b>would travel</b>.', th: 'Type 2' },
+          { en: '<b>If</b> she <b>had left</b> earlier, she <b>wouldn\'t have missed</b> it.', th: 'Type 3' },
+        ],
+        practice: [
+          { prompt: '"If it ___ tomorrow, we\'ll cancel the picnic."', choices: ['will rain', 'rains', 'rained', 'would rain'], correctIndex: 1, explain: 'Type 1: if + Present Simple (ห้ามใช้ will)' },
+          { prompt: '"If I ___ you, I would take the job."', choices: ['am', 'was', 'were', 'will be'], correctIndex: 2, explain: 'Type 2 ใช้ were กับทุกประธาน' },
+          { prompt: '"You won\'t succeed ___ you work hard."', choices: ['if', 'unless', 'if not', 'until'], correctIndex: 1, explain: 'unless = ถ้าไม่ (ไม่ต้องเติม not อีก)' },
+          { prompt: '"If they ___ earlier, they would have caught the train."', choices: ['left', 'had left', 'have left', 'would leave'], correctIndex: 1, explain: 'Type 3: if + Past Perfect' },
+        ],
+      },
+      {
+        heading: 'คำเชื่อมบอกจุดประสงค์',
+        content: '<b>so that / in order that</b> + S + modal + V.1<br>  I saved money <b>so that</b> I <b>could</b> travel.<br>  She spoke loudly <b>so that</b> everyone <b>could</b> hear.<br>  💡 modal ที่ใช้บ่อย: can, could, will, would, may, might<br><br><b>in order to / so as to</b> + V.1 (ประธานเดียวกัน)<br>  I saved money <b>in order to</b> travel.<br><br><b>⚠️ เลือกใช้ตัวไหน</b><br>  ประธาน<b>เดียวกัน</b> → ใช้ to / in order to (สั้นกว่า)<br>    <b>I</b> studied hard <b>to pass</b> the exam. (I เรียน I สอบ)<br>  ประธาน<b>ต่างกัน</b> → ต้องใช้ so that<br>    <b>I</b> spoke slowly <b>so that they could</b> understand. (I พูด they เข้าใจ)<br>    ❌ I spoke slowly to they understand.<br><br><b>รูปปฏิเสธ:</b><br>  <b>so that...not</b> → I left early <b>so that I wouldn\'t</b> be late.<br>  <b>in order not to / so as not to</b> → I left early <b>so as not to</b> be late.<br>  <b>for fear that</b> = เพราะกลัวว่า<br>  <b>lest</b> + S + V.1 = เกรงว่าจะ (ทางการมาก)<br>    He whispered <b>lest</b> anyone <b>hear</b> him.<br><br><b>⚠️ for + V.ing ห้ามใช้บอกจุดประสงค์ของการกระทำ</b><br>  ❌ I went out <b>for buying</b> milk. → ✅ <b>to buy</b> milk',
+        examples: [
+          { en: 'He works hard <b>so that</b> his family can live well.', th: 'ประธานต่างกัน' },
+          { en: 'He works hard <b>to support</b> his family.', th: 'ประธานเดียวกัน' },
+          { en: 'Speak up <b>so that</b> we <b>can</b> hear you.', th: 'so that + modal' },
+        ],
+        practice: [
+          { prompt: '"She turned on the light ___ she could read."', choices: ['to', 'in order to', 'so that', 'for'], correctIndex: 2, explain: 'ตามด้วยประโยค (she could read) → so that' },
+          { prompt: '"He whispered ___ wake the baby."', choices: ['not to', 'so as not to', 'for not', 'to not'], correctIndex: 1, explain: 'ปฏิเสธจุดประสงค์ → so as not to' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['I came here for meeting you.', 'I came here to meet you.', 'I came here for meet you.', 'I came here for to meet you.'], correctIndex: 1, explain: 'จุดประสงค์ → to + V.1' },
+        ],
+      },
+      {
+        heading: 'Conjunction vs Conjunctive Adverb vs Preposition',
+        content: 'สามกลุ่มนี้แปลคล้ายกัน แต่<b>ใช้ต่างกันสิ้นเชิง</b> — จุดตัดสินข้อสอบ<br><br><table style="width:100%;font-size:0.85em;line-height:1.8"><tr><td><b>ความหมาย</b></td><td><b>Conjunction<br>(+ประโยค)</b></td><td><b>Prep.<br>(+คำนาม)</b></td><td><b>Adverb<br>(; หรือ .)</b></td></tr><tr><td>แต่</td><td>although, but</td><td>despite, in spite of</td><td>however, nevertheless</td></tr><tr><td>เพราะ</td><td>because, since, as</td><td>because of, due to</td><td>—</td></tr><tr><td>ดังนั้น</td><td>so</td><td>—</td><td>therefore, thus</td></tr><tr><td>นอกจาก</td><td>—</td><td>besides, apart from</td><td>moreover, furthermore</td></tr><tr><td>ระหว่าง</td><td>while</td><td>during</td><td>meanwhile</td></tr></table><br><b>ตัวอย่างเปรียบเทียบ (ความหมายเดียวกัน 3 แบบ):</b><br>  <b>Although</b> he was tired, he worked. ← conjunction + ประโยค<br>  <b>Despite</b> his tiredness, he worked. ← preposition + คำนาม<br>  He was tired<b>; however,</b> he worked. ← adverb + semicolon<br><br><b>💡 วิธีเลือกในข้อสอบ 2 ขั้นตอน</b><br>  1. ดูว่าหลังช่องว่างเป็น<b>ประโยค (S+V)</b> หรือ<b>คำนาม</b><br>  2. ถ้าเป็นประโยค → conjunction / ถ้าเป็นคำนาม → preposition<br>  3. ถ้ามี <b>;</b> หรือ <b>.</b> อยู่หน้าช่องว่าง → adverb',
+        examples: [
+          { en: '<b>Because of</b> the noise, I couldn\'t sleep.', th: 'preposition + คำนาม' },
+          { en: '<b>Because</b> it was noisy, I couldn\'t sleep.', th: 'conjunction + ประโยค' },
+          { en: 'It was noisy<b>. Therefore,</b> I couldn\'t sleep.', th: 'adverb' },
+        ],
+        practice: [
+          { prompt: '"___ the heavy rain, the game continued."', choices: ['Although', 'Despite', 'However', 'Because'], correctIndex: 1, explain: 'ตามด้วยคำนาม (the heavy rain) → Despite' },
+          { prompt: '"The road was closed. ___, we took a detour."', choices: ['Although', 'Despite', 'Therefore', 'Because'], correctIndex: 2, explain: 'ขึ้นประโยคใหม่ + บอกผลลัพธ์ → Therefore' },
+          { prompt: '"___ she was ill, she attended the meeting."', choices: ['Despite', 'In spite of', 'Even though', 'However'], correctIndex: 2, explain: 'ตามด้วยประโยค → Even though' },
+        ],
+      },
+      {
+        heading: 'So / Neither / Either — เห็นด้วยแบบสั้น',
+        content: 'ใช้ตอบรับว่า "เหมือนกัน" — ต้องสลับกริยามาหน้าประธาน<br><br><b>ประโยคบวก → So + auxiliary + ประธาน</b><br>  A: I like coffee. → B: <b>So do I.</b> (ฉันก็เหมือนกัน)<br>  A: She is tired. → B: <b>So am I.</b><br>  A: They can swim. → B: <b>So can we.</b><br>  A: He has finished. → B: <b>So have I.</b><br><br><b>ประโยคลบ → Neither/Nor + auxiliary + ประธาน</b><br>  A: I don\'t like coffee. → B: <b>Neither do I.</b><br>  A: She isn\'t coming. → B: <b>Neither am I.</b><br>  ⚠️ neither เป็นลบอยู่แล้ว ห้ามใส่ not อีก<br>  ❌ Neither I don\'t.<br><br><b>อีกแบบ: ...either (วางท้าย)</b><br>  A: I don\'t like it. → B: I don\'t <b>either</b>.<br>  💡 "Neither do I" = "I don\'t either" ความหมายเดียวกัน<br><br><b>⚠️ ถ้าไม่เห็นด้วย ใช้รูปตรงข้าม</b><br>  A: I like coffee. → B: <b>I don\'t.</b> (ฉันไม่ชอบ)<br>  A: I don\'t like it. → B: <b>I do.</b> (ฉันชอบนะ)<br><br><b>💡 กฎเลือก auxiliary — ใช้ตัวเดียวกับประโยคแรก</b><br>  ถ้าไม่มี auxiliary → ใช้ do/does/did',
+        examples: [
+          { en: 'A: I\'m hungry. B: <b>So am I.</b>', th: 'ใช้ am ตามประโยคแรก' },
+          { en: 'A: I went there. B: <b>So did I.</b>', th: 'ไม่มี auxiliary → did' },
+          { en: 'A: I can\'t swim. B: <b>Neither can I.</b>', th: 'ลบ → Neither' },
+        ],
+        practice: [
+          { prompt: 'A: "I love pizza." B: "___"', choices: ['So do I.', 'So I do.', 'So am I.', 'Neither do I.'], correctIndex: 0, explain: 'บวก + กริยาทั่วไป → So do I' },
+          { prompt: 'A: "I haven\'t seen it." B: "___"', choices: ['So have I.', 'Neither have I.', 'Neither I have.', 'So do I.'], correctIndex: 1, explain: 'ลบ + have → Neither have I' },
+          { prompt: 'A: "She isn\'t ready." B: "___"', choices: ['So am I.', 'Neither do I.', 'Neither am I.', 'Either am I.'], correctIndex: 2, explain: 'ลบ + is → Neither am I' },
+        ],
+      },
+      {
+        heading: 'ประเภทของประโยค (Simple / Compound / Complex)',
+        content: 'เข้าใจโครงสร้างประโยคจะใช้คำเชื่อมถูกทันที<br><br><b>1) Simple Sentence</b> — มี 1 clause<br>  <b>I like coffee.</b><br>  ⚠️ ยังมีประธาน/กรรมหลายตัวได้ ตราบใดที่มีกริยาชุดเดียว<br>  Tom and Ann like coffee and tea. (ยังเป็น simple)<br><br><b>2) Compound Sentence</b> — 2 main clause เชื่อมด้วย FANBOYS / ;<br>  I like coffee<b>, but</b> she likes tea.<br>  I like coffee<b>;</b> she likes tea.<br><br><b>3) Complex Sentence</b> — 1 main + 1 subordinate clause<br>  <b>Although</b> I like coffee, I drink tea. (Although... = รอง)<br>  I know <b>that he is right</b>.<br><br><b>4) Compound-Complex</b> — 2 main + อย่างน้อย 1 รอง<br>  <b>When I woke up</b>, it was raining<b>, so</b> I stayed home.<br><br><b>💡 Subordinate clause มี 3 ชนิด</b><br>  • <b>Noun clause</b> — ทำหน้าที่เป็นคำนาม<br>    <b>What he said</b> was true. / I know <b>that she left</b>.<br>  • <b>Adjective clause</b> — ขยายคำนาม (relative clause)<br>    The man <b>who called</b> is my uncle.<br>  • <b>Adverb clause</b> — ขยายกริยา บอกเวลา/เหตุผล/เงื่อนไข<br>    I left <b>because I was tired</b>.<br><br><b>⚠️ Sentence Fragment (ประโยคไม่สมบูรณ์)</b><br>  ❌ <b>Because I was tired.</b> (มีแต่ clause รอง ไม่มีประโยคหลัก)<br>  ✅ I went home <b>because I was tired</b>.',
+        examples: [
+          { en: 'She sings. (Simple)', th: '1 clause' },
+          { en: 'She sings<b>, and</b> he dances. (Compound)', th: '2 main clause' },
+          { en: '<b>When she sings</b>, everyone listens. (Complex)', th: 'main + subordinate' },
+        ],
+        practice: [
+          { prompt: '"I stayed home because it rained." เป็นประโยคชนิดใด', choices: ['Simple', 'Compound', 'Complex', 'Compound-Complex'], correctIndex: 2, explain: 'main clause + subordinate clause (because...) → Complex' },
+          { prompt: 'ข้อใดเป็น Sentence Fragment (ไม่สมบูรณ์)', choices: ['I was tired.', 'Because I was tired.', 'I was tired, so I slept.', 'When I was tired, I slept.'], correctIndex: 1, explain: 'มีแต่ subordinate clause ขาดประโยคหลัก' },
+          { prompt: '"Tom and Ann sang and danced." เป็นประโยคชนิดใด', choices: ['Simple', 'Compound', 'Complex', 'Fragment'], correctIndex: 0, explain: 'มีกริยาชุดเดียว ประธานร่วม → ยังเป็น Simple' },
         ],
       },
     ],
@@ -2799,6 +4349,10 @@ const GRAMMAR_CHAPTERS = [
           { en: 'She is <b>taller than</b> me.', th: 'สูงกว่า' },
           { en: 'She is <b>the tallest</b> in the class.', th: 'สูงที่สุด' },
         ],
+        practice: [
+          { prompt: 'การเปรียบเทียบมีกี่ขั้น', choices: ['2 ขั้น', '3 ขั้น', '4 ขั้น', '5 ขั้น'], correctIndex: 1, explain: '3 ขั้น: ขั้นธรรมดา, ขั้นกว่า, ขั้นสูงสุด' },
+          { prompt: '"as tall as" ใช้เปรียบเทียบขั้นใด', choices: ['ขั้นธรรมดา (เท่ากัน)', 'ขั้นกว่า', 'ขั้นสูงสุด', 'ไม่ใช่การเปรียบเทียบ'], correctIndex: 0, explain: 'as + adj + as = เท่ากัน' },
+        ],
       },
       {
         heading: 'กฎการผัน Adjective',
@@ -2859,6 +4413,122 @@ const GRAMMAR_CHAPTERS = [
           { en: '✅ She is taller than him.', th: 'ถูก' },
           { en: '❌ He is smartest.', th: 'ผิด: ขาด the' },
           { en: '✅ He is the smartest.', th: 'ถูก' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดผิด', choices: ['She is taller than me.', 'She is more taller than me.', 'She is the tallest.', 'She is as tall as me.'], correctIndex: 1, explain: 'ห้ามใช้ more ซ้ำกับ -er' },
+          { prompt: 'ข้อใดขาดคำสำคัญ', choices: ['He is the best.', 'He is better than me.', 'He is best player.', 'He is as good as me.'], correctIndex: 2, explain: 'ขั้นสูงสุดต้องมี the → the best player' },
+        ],
+      },
+      {
+        heading: 'กฎการสะกดเมื่อเติม -er / -est',
+        content: 'เติม -er/-est ไม่ได้เติมตรง ๆ เสมอ มีกฎการสะกด 4 ข้อ:<br><br><b>1) ปกติเติมตรง ๆ</b><br>  tall → taller → tallest<br>  small → smaller → smallest<br><br><b>2) ลงท้ายด้วย -e → เติมแค่ -r / -st</b><br>  large → larg<b>er</b> → larg<b>est</b><br>  nice → nic<b>er</b> → nic<b>est</b><br>  simple → simpl<b>er</b> → simpl<b>est</b><br><br><b>3) ลงท้ายด้วย -y (นำหน้าด้วยพยัญชนะ) → เปลี่ยน y เป็น i</b><br>  happy → happ<b>ier</b> → happ<b>iest</b><br>  easy → eas<b>ier</b>, busy → bus<b>ier</b>, early → earl<b>ier</b><br>  ⚠️ ถ้า y นำหน้าด้วยสระ ไม่เปลี่ยน: gray → grayer<br><br><b>4) พยางค์เดียว ลงท้าย พยัญชนะ-สระ-พยัญชนะ → ซ้ำตัวท้าย</b><br>  big → bi<b>gg</b>er → bi<b>gg</b>est<br>  hot → ho<b>tt</b>er, thin → thi<b>nn</b>er, sad → sa<b>dd</b>er, fat → fa<b>tt</b>er<br>  ⚠️ ไม่ซ้ำถ้าลงท้ายด้วย w, x, y: new → newer (ไม่ใช่ newwer)<br>  ⚠️ ไม่ซ้ำถ้ามีสระ 2 ตัว: cheap → cheaper (ไม่ใช่ cheapper)<br><br><b>คำ 2 พยางค์ที่ใช้ได้ทั้ง 2 แบบ:</b><br>  clever → cleverer / more clever<br>  quiet, simple, narrow, gentle, common, polite, friendly<br>  💡 ใช้ more ก็ไม่ผิด ปลอดภัยกว่า',
+        examples: [
+          { en: 'hot → <b>hotter</b> → <b>the hottest</b>', th: 'ซ้ำพยัญชนะ' },
+          { en: 'nice → <b>nicer</b> → <b>the nicest</b>', th: 'ลงท้าย e เติมแค่ r' },
+          { en: 'busy → <b>busier</b> → <b>the busiest</b>', th: 'y → i' },
+        ],
+        practice: [
+          { prompt: 'รูปขั้นกว่าของ "thin" คือ', choices: ['thiner', 'thinner', 'more thin', 'thinest'], correctIndex: 1, explain: 'พยางค์เดียว พยัญชนะ-สระ-พยัญชนะ → ซ้ำ n' },
+          { prompt: 'รูปขั้นสูงสุดของ "large" คือ', choices: ['the largeest', 'the largest', 'the larggest', 'the most large'], correctIndex: 1, explain: 'ลงท้าย e → เติมแค่ st' },
+          { prompt: 'รูปขั้นกว่าของ "new" คือ', choices: ['newwer', 'newer', 'more new', 'newier'], correctIndex: 1, explain: 'ลงท้ายด้วย w ไม่ซ้ำพยัญชนะ' },
+        ],
+      },
+      {
+        heading: 'การเปรียบเทียบว่าเท่ากัน (ครบทุกรูปแบบ)',
+        content: '<b>as + adj/adv + as</b> = เท่ากับ<br>  She is <b>as tall as</b> her brother.<br>  He runs <b>as fast as</b> me.<br><br><b>not as/so + adj + as</b> = ไม่เท่ากับ<br>  This is <b>not as expensive as</b> that.<br>  💡 ในรูปปฏิเสธใช้ <b>so</b> แทน as ตัวแรกได้: not <b>so</b> good as<br><br><b>as much/many + นาม + as</b><br>  I have <b>as much money as</b> you. (นับไม่ได้)<br>  I have <b>as many books as</b> you. (นับได้)<br><br><b>ใส่ตัวคูณข้างหน้าได้</b><br>  <b>twice as</b> expensive <b>as</b> = แพงเป็น 2 เท่า<br>  <b>three times as</b> big <b>as</b> = ใหญ่เป็น 3 เท่า<br>  <b>half as</b> long <b>as</b> = ยาวครึ่งหนึ่ง<br><br><b>สำนวนเปรียบเทียบอื่น ๆ:</b><br>  <b>the same as</b> = เหมือนกับ → My bag is <b>the same as</b> yours.<br>  <b>the same + นาม + as</b> → We are <b>the same age as</b> them.<br>  <b>similar to</b> = คล้ายกับ<br>  <b>different from</b> = ต่างจาก<br>  <b>like</b> = เหมือน (+ คำนาม) → He sings <b>like</b> a professional.<br>  <b>as</b> = เหมือน (+ ประโยค) → Do <b>as</b> I say.<br><br>⚠️ <b>the same as</b> (ไม่ใช่ the same with)<br>⚠️ <b>different from</b> (US) / <b>different to</b> (UK) — ห้ามใช้ different than ในข้อสอบ',
+        examples: [
+          { en: 'This car is <b>twice as expensive as</b> mine.', th: 'แพงเป็น 2 เท่า' },
+          { en: 'She isn\'t <b>as busy as</b> she was.', th: 'ไม่ยุ่งเท่าเมื่อก่อน' },
+          { en: 'His answer is <b>the same as</b> mine.', th: 'the same as' },
+        ],
+        practice: [
+          { prompt: '"This bag costs ___ that one." (แพงเป็น 2 เท่า)', choices: ['twice as much as', 'twice more than', 'two times more', 'as twice as'], correctIndex: 0, explain: 'twice as much as = เป็น 2 เท่า' },
+          { prompt: '"My phone is ___ yours." (เหมือนกัน)', choices: ['the same with', 'the same as', 'same as', 'the same than'], correctIndex: 1, explain: 'the same as' },
+          { prompt: '"I don\'t have ___ money ___ you."', choices: ['as many / as', 'as much / as', 'so many / than', 'as much / than'], correctIndex: 1, explain: 'money นับไม่ได้ → as much...as' },
+        ],
+      },
+      {
+        heading: 'คำขยายขั้นกว่า (much / far / a bit)',
+        content: 'ใส่คำขยายหน้า comparative เพื่อบอกว่าต่างกันมากหรือน้อย<br><br><b>ต่างกันมาก:</b> much, far, a lot, considerably, significantly, way (ภาษาพูด)<br>  She is <b>much taller</b> than me.<br>  This is <b>far more difficult</b> than I thought.<br><br><b>ต่างกันน้อย:</b> a bit, a little, slightly, somewhat<br>  It\'s <b>a little colder</b> today.<br><br><b>เน้นว่าไม่ต่างเลย:</b> no, not any<br>  He is <b>no better</b> than before. (ไม่ดีขึ้นเลย)<br><br><b>⚠️ กฎเหล็ก: ห้ามใช้ very กับ comparative</b><br>  ❌ very taller / very more expensive<br>  ✅ <b>much</b> taller / <b>far</b> more expensive<br>  💡 very ใช้ได้กับ adjective ธรรมดาเท่านั้น (very tall ✅)<br><br><b>⚠️ แต่ very ใช้กับ superlative ได้</b><br>  the <b>very best</b> = ดีที่สุดจริง ๆ<br>  the <b>very first</b> = อันแรกสุดจริง ๆ<br><br><b>สำนวนเน้นขั้นสูงสุด:</b><br>  <b>by far the</b> best = ดีที่สุดแบบทิ้งห่าง<br>  <b>easily the</b> best = ดีที่สุดอย่างชัดเจน<br>  one of <b>the + superlative + นามพหูพจน์</b><br>    She is one of <b>the best students</b>. (ต้องเป็นพหูพจน์)',
+        examples: [
+          { en: 'This is <b>much better</b> than before.', th: 'ดีกว่ามาก' },
+          { en: 'It\'s <b>slightly warmer</b> today.', th: 'อุ่นขึ้นนิดหน่อย' },
+          { en: 'He is <b>by far the</b> tallest.', th: 'สูงที่สุดแบบทิ้งห่าง' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['She is very taller than me.', 'She is much taller than me.', 'She is very more tall than me.', 'She is more taller than me.'], correctIndex: 1, explain: 'ห้ามใช้ very กับ comparative → ใช้ much' },
+          { prompt: '"He is one of the ___ in the company."', choices: ['best engineer', 'best engineers', 'better engineers', 'most best engineers'], correctIndex: 1, explain: 'one of the + superlative + นามพหูพจน์' },
+          { prompt: '"This restaurant is ___ the best in town."', choices: ['very', 'much', 'by far', 'more'], correctIndex: 2, explain: 'by far + the + superlative' },
+        ],
+      },
+      {
+        heading: 'ยิ่ง...ยิ่ง (The + comparative, the + comparative)',
+        content: '<b>โครงสร้าง:</b> <b>The</b> + comparative + S + V, <b>the</b> + comparative + S + V<br><br>  <b>The more</b> you practice, <b>the better</b> you become.<br>  <b>The older</b> I get, <b>the wiser</b> I feel.<br>  <b>The sooner</b>, <b>the better</b>. (ยิ่งเร็วยิ่งดี — รูปสั้น)<br>  <b>The more</b> expensive the hotel, <b>the better</b> the service.<br><br><b>⚠️ ต้องมี the ทั้งสองท่อน</b><br>  ❌ More you study, better you get.<br>  ✅ <b>The</b> more you study, <b>the</b> better you get.<br><br><b>⚠️ comparative ต้องอยู่ต้นแต่ละท่อน ไม่ใช่ตำแหน่งปกติ</b><br>  ❌ The you practice more, the you become better.<br>  ✅ <b>The more</b> you practice, <b>the better</b> you become.<br><br><b>อีกรูปแบบ: comparative + and + comparative</b> = ...ขึ้นเรื่อย ๆ<br>  It\'s getting <b>hotter and hotter</b>.<br>  She became <b>more and more</b> confident.<br>  Prices are rising <b>higher and higher</b>.<br>  💡 คำยาวใช้ <b>more and more</b> + adj<br><br><b>สำนวนที่ใช้บ่อย:</b><br>  The more, the merrier. = ยิ่งเยอะยิ่งสนุก<br>  The bigger they are, the harder they fall.',
+        examples: [
+          { en: '<b>The harder</b> you work, <b>the luckier</b> you get.', th: 'ยิ่งขยันยิ่งโชคดี' },
+          { en: 'The weather is getting <b>colder and colder</b>.', th: 'หนาวขึ้นเรื่อย ๆ' },
+          { en: '<b>The more</b> I know him, <b>the more</b> I like him.', th: 'ยิ่งรู้จักยิ่งชอบ' },
+        ],
+        practice: [
+          { prompt: '"___ you leave, ___ you\'ll arrive."', choices: ['Earlier / sooner', 'The earlier / the sooner', 'More early / more soon', 'The early / the soon'], correctIndex: 1, explain: 'ต้องมี the ทั้งสองท่อน + รูป comparative' },
+          { prompt: '"The traffic is getting ___."', choices: ['bad and bad', 'worse and worse', 'more bad and bad', 'the worse'], correctIndex: 1, explain: 'comparative + and + comparative (bad → worse)' },
+          { prompt: '"___ the exercise, ___ the result."', choices: ['More / better', 'The more / the better', 'Much / good', 'The much / the good'], correctIndex: 1, explain: 'The + comparative, the + comparative' },
+        ],
+      },
+      {
+        heading: 'รายละเอียดของขั้นสูงสุด (Superlative)',
+        content: '<b>โครงสร้าง:</b> <b>the</b> + adj-est / <b>the most</b> + adj<br><br><b>คำที่ตามหลัง superlative:</b><br>  <b>in</b> + สถานที่/กลุ่ม → the tallest <b>in</b> the class / <b>in</b> the world<br>  <b>of</b> + กลุ่มคน/สิ่งของ → the best <b>of</b> all / <b>of</b> the three<br>  <b>ที่เคย...</b> → the best film <b>I have ever seen</b><br>  💡 ประโยค ever ใช้ Present Perfect เสมอ<br><br><b>⚠️ ห้ามลืม the</b><br>  ❌ She is tallest. → ✅ She is <b>the</b> tallest.<br>  💡 ยกเว้น: ถ้ามี possessive นำหน้าแล้วไม่ต้องมี the<br>  ✅ my <b>best</b> friend (ไม่ใช่ my the best friend)<br><br><b>⚠️ ใช้ superlative เมื่อเทียบ 3 อย่างขึ้นไป</b><br>  2 อย่าง → comparative + the<br>  He is <b>the taller</b> of the two brothers.<br>  3 อย่างขึ้นไป → superlative<br>  He is <b>the tallest</b> of the three brothers.<br><br><b>Superlative แบบไม่ใช้ superlative:</b><br>  No one is <b>as tall as</b> him. = He is the tallest.<br>  No one is <b>taller than</b> him. = He is the tallest.<br>  He is <b>taller than any other</b> student. = He is the tallest.<br>  💡 ต้องมี <b>other</b> ถ้าเทียบในกลุ่มเดียวกัน<br>  ❌ He is taller than any student. (รวมตัวเขาเองด้วย ผิดตรรกะ)',
+        examples: [
+          { en: 'It\'s <b>the most beautiful</b> place <b>in</b> Thailand.', th: 'the most + in' },
+          { en: 'This is <b>the best</b> book <b>I\'ve ever read</b>.', th: 'ever + Present Perfect' },
+          { en: 'She is <b>the smarter</b> of the two.', th: '2 คน → the + comparative' },
+        ],
+        practice: [
+          { prompt: '"This is the worst film I ___ seen."', choices: ['ever', 'have ever', 'had ever', 'never'], correctIndex: 1, explain: 'superlative + I have ever + V.3' },
+          { prompt: '"Of the two options, this is ___."', choices: ['the best', 'the better', 'better', 'best'], correctIndex: 1, explain: '2 อย่าง → the + comparative' },
+          { prompt: '"He runs faster than ___ boy in the team."', choices: ['any', 'any other', 'other', 'the other'], correctIndex: 1, explain: 'อยู่ในกลุ่มเดียวกัน → any other' },
+        ],
+      },
+      {
+        heading: 'เปรียบเทียบปริมาณคำนาม (more/fewer/less)',
+        content: 'เปรียบเทียบ<b>จำนวน</b>ของคำนาม ไม่ใช่คุณสมบัติ<br><br><b>มากกว่า:</b> <b>more</b> + นาม + than (ใช้ได้ทั้งนับได้และนับไม่ได้)<br>  I have <b>more books than</b> you. (นับได้)<br>  I have <b>more money than</b> you. (นับไม่ได้)<br><br><b>น้อยกว่า:</b><br>  <b>fewer</b> + นามนับได้พหูพจน์ + than<br>    <b>Fewer people</b> came this year.<br>  <b>less</b> + นามนับไม่ได้ + than<br>    I have <b>less time than</b> before.<br>  ⚠️ คนมักใช้ less กับนามนับได้ผิด<br>  ❌ less books → ✅ <b>fewer</b> books<br>  ❌ less people → ✅ <b>fewer</b> people<br>  💡 ป้าย "10 items or less" ในซูเปอร์มาร์เก็ตจริง ๆ ควรเป็น "fewer"<br><br><b>ขั้นสูงสุด:</b><br>  <b>the most</b> + นาม = มากที่สุด<br>  <b>the fewest</b> + นามนับได้ = น้อยที่สุด<br>  <b>the least</b> + นามนับไม่ได้ = น้อยที่สุด<br><br><b>⚠️ อย่าสับสน 2 ความหมายของ more/most</b><br>  <b>more books</b> = หนังสือมากกว่า (จำนวน)<br>  <b>more interesting</b> = น่าสนใจกว่า (คุณสมบัติ)<br><br><b>⚠️ less vs fewer ในข้อสอบ</b><br>  ดูคำนามที่ตามมา: มี s = fewer / ไม่มี s = less',
+        examples: [
+          { en: 'There are <b>fewer students</b> this term.', th: 'students นับได้ → fewer' },
+          { en: 'I drink <b>less coffee</b> now.', th: 'coffee นับไม่ได้ → less' },
+          { en: 'She has <b>the most</b> experience.', th: 'มากที่สุด' },
+        ],
+        practice: [
+          { prompt: '"There were ___ people at the party than last year."', choices: ['less', 'fewer', 'lesser', 'little'], correctIndex: 1, explain: 'people นับได้ → fewer' },
+          { prompt: '"I have ___ free time than before."', choices: ['fewer', 'less', 'fewest', 'few'], correctIndex: 1, explain: 'time นับไม่ได้ → less' },
+          { prompt: '"This option costs ___ money."', choices: ['fewer', 'the fewest', 'less', 'few'], correctIndex: 2, explain: 'money นับไม่ได้ → less' },
+        ],
+      },
+      {
+        heading: 'prefer / would rather (ชอบ...มากกว่า)',
+        content: 'สองตัวนี้ใช้เปรียบเทียบความชอบ แต่โครงสร้างต่างกัน<br><br><b>prefer</b> (ชอบมากกว่า - ทั่วไป)<br>  prefer + <b>นาม</b> + <b>to</b> + นาม<br>    I <b>prefer</b> tea <b>to</b> coffee.<br>  prefer + <b>V.ing</b> + <b>to</b> + V.ing<br>    I <b>prefer walking to driving</b>.<br>  prefer + <b>to V.1</b> + <b>rather than</b> + V.1<br>    I <b>prefer to walk rather than drive</b>.<br>  ⚠️ prefer ใช้ <b>to</b> ไม่ใช่ than<br>  ❌ I prefer tea than coffee.<br><br><b>would prefer</b> (ชอบมากกว่า - ครั้งนี้)<br>  would prefer + <b>to V.1</b><br>    I <b>would prefer to stay</b> home tonight.<br><br><b>would rather</b> (อยากจะ...มากกว่า)<br>  would rather + <b>V.1</b> + <b>than</b> + V.1<br>    I <b>would rather stay than go</b>.<br>  ⚠️ ไม่มี to ทั้งสองฝั่ง!<br>  ❌ I would rather to stay than to go.<br><br><b>would rather + ประธานอื่น + Past Simple</b> (อยากให้คนอื่นทำ)<br>  I <b>would rather you didn\'t</b> smoke. (อยากให้คุณไม่สูบ)<br>  💡 ใช้ Past Simple แม้พูดถึงปัจจุบัน (subjunctive)<br><br><b>had better vs would rather</b><br>  You <b>had better</b> go. = ควรไป (เตือน)<br>  I <b>would rather</b> go. = อยากไปมากกว่า (ความชอบ)',
+        examples: [
+          { en: 'I <b>prefer</b> summer <b>to</b> winter.', th: 'prefer + to' },
+          { en: 'I\'<b>d rather</b> read <b>than</b> watch TV.', th: 'would rather + than (ไม่มี to)' },
+          { en: 'I\'<b>d rather</b> you <b>came</b> tomorrow.', th: 'อยากให้คุณมาพรุ่งนี้' },
+        ],
+        practice: [
+          { prompt: '"I prefer coffee ___ tea."', choices: ['than', 'to', 'from', 'over than'], correctIndex: 1, explain: 'prefer A to B (ไม่ใช่ than)' },
+          { prompt: '"I would rather ___ at home tonight."', choices: ['to stay', 'stay', 'staying', 'stayed'], correctIndex: 1, explain: 'would rather + V.1 (ไม่มี to)' },
+          { prompt: '"I\'d rather you ___ me the truth."', choices: ['tell', 'told', 'to tell', 'telling'], correctIndex: 1, explain: 'would rather + ประธานอื่น + Past Simple' },
+        ],
+      },
+      {
+        heading: 'ข้อผิดพลาดยอดฮิตในการเปรียบเทียบ',
+        content: 'รวมจุดพลาดทั้งหมด — อ่านทวนก่อนสอบ<br><br><b>1) Double comparative (ซ้ำซ้อน)</b><br>  ❌ more taller / most tallest / more better<br>  ✅ taller / the tallest / better<br><br><b>2) ลืม than</b><br>  ❌ She is taller me. → ✅ She is taller <b>than</b> me.<br><br><b>3) ลืม the ในขั้นสูงสุด</b><br>  ❌ He is best player. → ✅ He is <b>the</b> best player.<br><br><b>4) ใส่ the ในขั้นกว่า</b><br>  ❌ She is the taller than me. → ✅ She is taller than me.<br>  💡 ยกเว้นเทียบ 2 สิ่ง: the taller of the two ✅<br><br><b>5) เทียบคนละประเภทกัน (illogical comparison)</b><br>  ❌ My car is faster than <b>you</b>. (เทียบรถกับคน!)<br>  ✅ My car is faster than <b>yours</b>. / than <b>your car</b>.<br>  ❌ The weather in Thailand is hotter than <b>Japan</b>.<br>  ✅ ...hotter than <b>that in Japan</b>. / than <b>in Japan</b>.<br><br><b>6) ใช้ very กับ comparative</b><br>  ❌ very better → ✅ much better<br><br><b>7) ลืม other ในการเทียบกลุ่มเดียวกัน</b><br>  ❌ He is taller than any student in his class.<br>  ✅ He is taller than any <b>other</b> student in his class.<br><br><b>8) สับสน as...as กับ than</b><br>  ❌ as tall than / ❌ taller as<br>  ✅ as tall as / ✅ taller than<br><br><b>9) less กับนามนับได้</b><br>  ❌ less students → ✅ fewer students',
+        examples: [
+          { en: '✅ Her hair is longer than <b>mine</b>.', th: 'เทียบผมกับผม' },
+          { en: '❌ Her hair is longer than <b>me</b>.', th: 'เทียบผมกับคน — ผิด' },
+          { en: '✅ He is <b>much</b> more careful <b>than</b> before.', th: 'ถูกทุกจุด' },
+        ],
+        practice: [
+          { prompt: 'ข้อใดถูกต้อง', choices: ['This is more better.', 'This is much better.', 'This is very better.', 'This is more good.'], correctIndex: 1, explain: 'much + comparative (ห้าม more better / very better)' },
+          { prompt: 'ข้อใดถูกต้อง', choices: ['The population of Bangkok is bigger than Chiang Mai.', 'The population of Bangkok is bigger than that of Chiang Mai.', 'Bangkok population bigger than Chiang Mai.', 'The population of Bangkok is more big than Chiang Mai.'], correctIndex: 1, explain: 'ต้องเทียบประชากรกับประชากร → that of' },
+          { prompt: 'ข้อใดผิด', choices: ['She is the tallest in the class.', 'She is taller than me.', 'She is the taller than me.', 'She is as tall as me.'], correctIndex: 2, explain: 'ขั้นกว่าไม่ใส่ the (ยกเว้นเทียบ 2 สิ่ง)' },
         ],
       },
     ],
