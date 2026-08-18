@@ -1870,3 +1870,41 @@ body {
 button, a, .chapter-card, .mode-card {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* ============================================================
+   ลืมรหัสผ่าน / ตั้งรหัสผ่านใหม่
+   ============================================================ */
+.link-btn {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 6px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+.link-btn:hover { color: var(--ember, #e07b3c); }
+
+.auth-note {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.form-success {
+  background: rgba(79, 157, 105, 0.14);
+  border-left: 3px solid var(--success, #4f9d69);
+  color: #1b5e20;
+  padding: 11px 13px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
