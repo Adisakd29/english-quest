@@ -98,6 +98,38 @@
         </div>
         <div class="form-error" id="login-error"></div>
         <button type="submit" class="btn btn-primary btn-block" id="login-submit">เข้าสู่ระบบ</button>
+        <button type="button" class="link-btn" id="btn-forgot">ลืมรหัสผ่าน?</button>
+      </form>
+
+      <!-- ฟอร์มขอลิงก์ตั้งรหัสผ่านใหม่ -->
+      <form id="form-forgot" class="hidden">
+        <p class="auth-note">
+          กรอกอีเมลที่ใช้สมัคร เราจะส่งลิงก์สำหรับตั้งรหัสผ่านใหม่ไปให้
+        </p>
+        <div class="form-group">
+          <label for="forgot-email">อีเมล</label>
+          <input id="forgot-email" type="email" autocomplete="email" required />
+        </div>
+        <div class="form-error" id="forgot-error"></div>
+        <div class="form-success hidden" id="forgot-success"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="forgot-submit">ส่งลิงก์ตั้งรหัสผ่านใหม่</button>
+        <button type="button" class="link-btn" id="btn-back-login">← กลับไปเข้าสู่ระบบ</button>
+      </form>
+
+      <!-- ฟอร์มตั้งรหัสผ่านใหม่ (เปิดจากลิงก์ในอีเมล) -->
+      <form id="form-reset" class="hidden">
+        <p class="auth-note" id="reset-greeting">ตั้งรหัสผ่านใหม่</p>
+        <div class="form-group">
+          <label for="reset-password">รหัสผ่านใหม่ (อย่างน้อย 6 ตัวอักษร)</label>
+          <input id="reset-password" type="password" autocomplete="new-password" required minlength="6" />
+        </div>
+        <div class="form-group">
+          <label for="reset-password2">ยืนยันรหัสผ่านใหม่</label>
+          <input id="reset-password2" type="password" autocomplete="new-password" required minlength="6" />
+        </div>
+        <div class="form-error" id="reset-error"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="reset-submit">บันทึกรหัสผ่านใหม่</button>
+        <button type="button" class="link-btn" id="btn-reset-cancel">← กลับไปเข้าสู่ระบบ</button>
       </form>
 
       <form id="form-register" class="hidden">
