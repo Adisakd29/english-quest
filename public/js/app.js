@@ -191,19 +191,131 @@
   const tabRegister = document.getElementById('tab-register');
   const formLogin = document.getElementById('form-login');
   const formRegister = document.getElementById('form-register');
+  const formForgot = document.getElementById('form-forgot');
+  const formReset = document.getElementById('form-reset');
+  const authTabs = document.querySelector('#screen-auth .tabs');
 
-  tabLogin.addEventListener('click', () => {
-    tabLogin.classList.add('active');
-    tabRegister.classList.remove('active');
-    formLogin.classList.remove('hidden');
-    formRegister.classList.add('hidden');
+  // สลับแผงในการ์ดล็อกอิน: 'login' | 'register' | 'forgot' | 'reset'
+  function showAuthPanel(which) {
+    [formLogin, formRegister, formForgot, formReset].forEach((f) => f.classList.add('hidden'));
+    // แท็บโชว์เฉพาะตอนล็อกอิน/สมัคร
+    authTabs.classList.toggle('hidden', which === 'forgot' || which === 'reset');
+    if (which === 'login') {
+      formLogin.classList.remove('hidden');
+      tabLogin.classList.add('active');
+      tabRegister.classList.remove('active');
+    } else if (which === 'register') {
+      formRegister.classList.remove('hidden');
+      tabRegister.classList.add('active');
+      tabLogin.classList.remove('active');
+    } else if (which === 'forgot') {
+      formForgot.classList.remove('hidden');
+    } else if (which === 'reset') {
+      formReset.classList.remove('hidden');
+    }
+  }
+
+  tabLogin.addEventListener('click', () => showAuthPanel('login'));
+  tabRegister.addEventListener('click', () => showAuthPanel('register'));
+  document.getElementById('btn-forgot').addEventListener('click', () => {
+    document.getElementById('forgot-error').textContent = '';
+    document.getElementById('forgot-success').classList.add('hidden');
+    // เติมอีเมลให้อัตโนมัติถ้าผู้ใช้พิมพ์อีเมลไว้ในช่องล็อกอินแล้ว
+    const typed = document.getElementById('login-identifier').value.trim();
+    if (typed.includes('@')) document.getElementById('forgot-email').value = typed;
+    showAuthPanel('forgot');
   });
-  tabRegister.addEventListener('click', () => {
-    tabRegister.classList.add('active');
-    tabLogin.classList.remove('active');
-    formRegister.classList.remove('hidden');
-    formLogin.classList.add('hidden');
+  document.getElementById('btn-back-login').addEventListener('click', () => showAuthPanel('login'));
+  document.getElementById('btn-reset-cancel').addEventListener('click', () => {
+    clearResetParam();
+    showAuthPanel('login');
   });
+
+  // ---- ขอลิงก์ตั้งรหัสผ่านใหม่ ----
+  formForgot.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = document.getElementById('forgot-email').value.trim();
+    const errEl = document.getElementById('forgot-error');
+    const okEl = document.getElementById('forgot-success');
+    const btn = document.getElementById('forgot-submit');
+    errEl.textContent = '';
+    okEl.classList.add('hidden');
+    btn.disabled = true;
+    try {
+      const res = await api('/auth/forgot-password', { method: 'POST', body: { email } });
+      okEl.textContent = res.message;
+      okEl.classList.remove('hidden');
+      if (res.mailEnabled === false) {
+        okEl.textContent += ' (หมายเหตุ: ผู้ดูแลระบบยังไม่ได้ตั้งค่าอีเมล ลิงก์จะอยู่ใน log ของเซิร์ฟเวอร์)';
+      }
+    } catch (err) {
+      errEl.textContent = err.message;
+    } finally {
+      btn.disabled = false;
+    }
+  });
+
+  // ---- ตั้งรหัสผ่านใหม่ ----
+  let resetToken = null;
+
+  function clearResetParam() {
+    resetToken = null;
+    // ลบ ?reset=... ออกจาก URL เพื่อไม่ให้โทเคนค้างอยู่ในช่องที่อยู่เว็บ
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+  }
+
+  formReset.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const p1 = document.getElementById('reset-password').value;
+    const p2 = document.getElementById('reset-password2').value;
+    const errEl = document.getElementById('reset-error');
+    const btn = document.getElementById('reset-submit');
+    errEl.textContent = '';
+    if (p1 !== p2) {
+      errEl.textContent = 'รหัสผ่านทั้งสองช่องไม่ตรงกัน';
+      return;
+    }
+    if (p1.length < 6) {
+      errEl.textContent = 'รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร';
+      return;
+    }
+    btn.disabled = true;
+    try {
+      const { token, user } = await api('/auth/reset-password', {
+        method: 'POST',
+        body: { token: resetToken, password: p1 },
+      });
+      clearResetParam();
+      toast('ตั้งรหัสผ่านใหม่เรียบร้อย ยินดีต้อนรับกลับ!', 'success');
+      onAuthSuccess(token, user);
+    } catch (err) {
+      errEl.textContent = err.message;
+    } finally {
+      btn.disabled = false;
+    }
+  });
+
+  // ถ้าเปิดเว็บมาพร้อม ?reset=<token> ให้เช็คลิงก์แล้วโชว์ฟอร์มตั้งรหัสใหม่
+  async function checkResetLink() {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('reset');
+    if (!token) return false;
+    showAuth();
+    try {
+      const res = await api(`/auth/reset-password/${encodeURIComponent(token)}`);
+      resetToken = token;
+      document.getElementById('reset-greeting').textContent =
+        `สวัสดีคุณ ${res.username} — ตั้งรหัสผ่านใหม่ได้เลย`;
+      showAuthPanel('reset');
+    } catch (err) {
+      clearResetParam();
+      showAuthPanel('login');
+      document.getElementById('login-error').textContent = err.message;
+    }
+    return true;
+  }
 
   formLogin.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -1236,6 +1348,8 @@
   // ---------------------------------------------------------------
   async function boot() {
     loadVersion();
+    // มาจากลิงก์รีเซ็ตรหัสผ่านในอีเมล → แสดงฟอร์มตั้งรหัสใหม่ก่อนเสมอ
+    if (await checkResetLink()) return;
     if (!state.token) {
       showAuth();
       return;
@@ -1245,7 +1359,7 @@
       state.user = user;
       renderHud();
       showApp();
-      loadMap();
+      openHome();
     } catch (_err) {
       state.token = null;
       localStorage.removeItem(TOKEN_KEY);
