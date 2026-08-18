@@ -47,6 +47,26 @@ app.get('*', (req, res, next) => {
 // 404 handler สำหรับ API ที่ไม่มีจริง
 app.use('/api', (_req, res) => res.status(404).json({ error: 'ไม่พบ endpoint นี้' }));
 
+// ตัวจัดการ error รวม — ต้องอยู่ท้ายสุดเสมอ
+// ป้องกันไม่ให้ stack trace (ซึ่งเปิดเผย path ของเซิร์ฟเวอร์) หลุดออกไปหาผู้ใช้
+app.use((err, req, res, _next) => {
+  // ส่ง JSON ผิดรูปแบบมา
+  if (err && err.type === 'entity.parse.failed') {
+    return res.status(400).json({ error: 'รูปแบบข้อมูลไม่ถูกต้อง' });
+  }
+  // ส่งข้อมูลใหญ่เกินกำหนด (เช่น รูปโปรไฟล์)
+  if (err && err.type === 'entity.too.large') {
+    return res.status(413).json({ error: 'ข้อมูลมีขนาดใหญ่เกินไป' });
+  }
+
+  console.error('[server/error]', err && err.stack ? err.stack : err);
+
+  if (req.path && req.path.startsWith('/api')) {
+    return res.status(500).json({ error: 'เกิดข้อผิดพลาดในระบบ กรุณาลองใหม่' });
+  }
+  res.status(500).send('เกิดข้อผิดพลาดในระบบ');
+});
+
 async function runMigrations() {
   const schemaPath = path.join(__dirname, 'db', 'schema.sql');
   const schemaSql = fs.readFileSync(schemaPath, 'utf8');
