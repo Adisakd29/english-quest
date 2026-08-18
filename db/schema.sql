@@ -79,3 +79,18 @@ BEGIN
     ALTER TABLE grammar_progress ADD CONSTRAINT grammar_progress_user_chapter_mode_key UNIQUE (user_id, chapter_id, mode);
   END IF;
 END $$;
+
+-- ตารางโทเคนรีเซ็ตรหัสผ่าน
+-- เก็บเฉพาะ "ค่าแฮช" ของโทเคน ไม่เก็บตัวจริง เพื่อว่าถ้าฐานข้อมูลรั่ว
+-- คนที่ได้ข้อมูลไปก็ยังรีเซ็ตรหัสผ่านของผู้ใช้ไม่ได้
+CREATE TABLE IF NOT EXISTS password_resets (
+  id         SERIAL PRIMARY KEY,
+  user_id    INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  token_hash TEXT        NOT NULL,
+  expires_at TIMESTAMPTZ NOT NULL,
+  used_at    TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_password_resets_user ON password_resets (user_id);
+CREATE INDEX IF NOT EXISTS idx_password_resets_hash ON password_resets (token_hash);
