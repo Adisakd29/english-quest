@@ -317,9 +317,14 @@ h1, h2, h3, .display {
 }
 
 .auth-foot {
-  margin-top: auto;
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.55);
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-align: center;
+  /* การ์ดฝั่งนี้พื้นสีครีม ต้องใช้สีเข้ม ไม่ใช่สีขาว */
+  color: var(--ink-faint, #8a7fb0);
 }
 
 @media (max-width: 760px) {
@@ -1907,4 +1912,382 @@ button, a, .chapter-card, .mode-card {
   font-size: 0.85rem;
   line-height: 1.6;
   margin-bottom: 12px;
+}
+
+/* ============================================================
+   ONLINE BADGE + FRIENDS
+   ============================================================ */
+.online-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 6px 14px;
+  background: rgba(79,157,105,0.15);
+  border: 1px solid rgba(79,157,105,0.35);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  color: #8fd6a6;
+  font-weight: 600;
+}
+.online-badge.offline {
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+  color: var(--ink-faint);
+}
+.online-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #4caf50;
+  box-shadow: 0 0 0 0 rgba(76,175,80,0.7);
+  animation: pulse-dot 2s infinite;
+}
+.online-badge.offline .online-dot { background: #888; animation: none; }
+@keyframes pulse-dot {
+  0%   { box-shadow: 0 0 0 0 rgba(76,175,80,0.6); }
+  70%  { box-shadow: 0 0 0 7px rgba(76,175,80,0); }
+  100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
+}
+
+/* การ์ดเมนูเพื่อนบนหน้าหลัก */
+.home-menu-card.friends-card .home-menu-icon { background: linear-gradient(135deg,#5aa76b,#3d7a4d); }
+.menu-badge {
+  min-width: 22px; height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--danger, #e0552a);
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+/* แถบค้นหา */
+.friends-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.friends-search input {
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-night-2);
+  border: 2px solid rgba(255,255,255,0.1);
+  color: var(--parchment);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+}
+.friends-search input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+.friends-search .btn { flex-shrink: 0; padding: 12px 20px; }
+
+.friends-section { margin-top: 22px; }
+.friends-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--parchment);
+  margin-bottom: 10px;
+}
+.count-pill {
+  background: rgba(255,255,255,0.12);
+  color: var(--parchment);
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+}
+
+.friend-list { display: flex; flex-direction: column; gap: 8px; }
+
+.friend-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-night-2);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-md);
+  padding: 11px 14px;
+}
+.friend-avatar-wrap { position: relative; flex-shrink: 0; }
+.friend-avatar {
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: var(--bg-night-3);
+  border: 2px solid var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.25rem;
+  overflow: hidden;
+}
+.friend-avatar.has-image { padding: 0; }
+.friend-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.status-dot {
+  position: absolute;
+  right: -1px; bottom: -1px;
+  width: 13px; height: 13px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-night-2);
+}
+.status-dot.online  { background: #4caf50; }
+.status-dot.offline { background: #6b6b7d; }
+
+.friend-info { flex: 1; min-width: 0; }
+.friend-name {
+  font-weight: 700;
+  color: var(--white);
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.friend-meta { font-size: 0.76rem; color: var(--ink-faint); margin-top: 2px; }
+.online-text { color: #7cc98f; font-weight: 700; }
+
+.friend-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.mini-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 7px 13px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.15s ease;
+  white-space: nowrap;
+}
+.mini-btn:active { transform: scale(0.95); }
+.mini-btn:disabled { opacity: 0.5; cursor: default; }
+.mini-btn.accept { background: var(--success, #4f9d69); color: #fff; }
+.mini-btn.ghost {
+  background: transparent;
+  color: var(--ink-faint);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.mini-btn.ghost:hover { color: var(--danger, #e0552a); border-color: var(--danger, #e0552a); }
+
+.relation-tag {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  white-space: nowrap;
+}
+.friend-empty {
+  text-align: center;
+  color: var(--ink-faint);
+  font-size: 0.86rem;
+  padding: 22px 14px;
+  background: rgba(255,255,255,0.03);
+  border-radius: var(--radius-md);
+  border: 1px dashed rgba(255,255,255,0.1);
+}
+
+@media (max-width: 420px) {
+  .friend-actions { flex-direction: column; }
+  .mini-btn { padding: 6px 10px; font-size: 0.72rem; }
+}
+
+/* ============================================================
+   BATTLE ROOM — ห้องแข่งคำศัพท์
+   ============================================================ */
+.home-menu-card.battle-card .home-menu-icon {
+  background: linear-gradient(135deg, #c14a4a, #8e2f2f);
+}
+
+.battle-panel {
+  background: var(--bg-night-2);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  margin-bottom: 16px;
+}
+.battle-panel-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--parchment);
+  margin-bottom: 14px;
+  font-size: 1.02rem;
+}
+.battle-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin: 12px 0 7px;
+  font-weight: 700;
+}
+.level-picker { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 6px; }
+.level-chip {
+  background: var(--bg-night-3);
+  border: 2px solid rgba(255,255,255,0.1);
+  color: var(--ink-faint);
+  border-radius: 999px;
+  padding: 7px 15px;
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.14s ease;
+}
+.level-chip.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #2b2440;
+}
+
+/* กล่องรหัสห้อง */
+.room-code-box {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255,209,102,0.14), rgba(224,123,60,0.10));
+  border: 2px dashed var(--gold);
+  border-radius: var(--radius-md);
+  padding: 20px 16px;
+  margin-bottom: 18px;
+}
+.room-code-label { font-size: 0.8rem; color: var(--ink-faint); margin-bottom: 8px; }
+.room-code {
+  font-family: var(--font-mono, monospace);
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 0.32em;
+  color: var(--gold);
+  margin-bottom: 12px;
+  text-indent: 0.32em; /* ชดเชย letter-spacing ให้ดูอยู่กึ่งกลางจริง */
+}
+.battle-hint {
+  text-align: center;
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+  margin-top: 14px;
+}
+
+/* แถบบนตอนแข่ง */
+.battle-hud {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.battle-q-count {
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.battle-timer-wrap {
+  flex: 1;
+  height: 9px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.battle-timer-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #4caf50, #8bc34a);
+  border-radius: 999px;
+  transition: background 0.3s ease;
+}
+.battle-timer-fill.warning {
+  background: linear-gradient(90deg, #e0552a, #ff8a4c);
+}
+.battle-score {
+  font-family: var(--font-mono, monospace);
+  font-weight: 800;
+  color: var(--gold);
+  font-size: 1.05rem;
+  min-width: 52px;
+  text-align: right;
+}
+
+/* กระดานคะแนนสด */
+.battle-scoreboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.sb-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-night-2);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.78rem;
+}
+.sb-item.me { border-color: var(--gold); background: rgba(255,209,102,0.12); }
+.sb-rank { color: var(--ink-faint); font-weight: 700; }
+.sb-name {
+  color: var(--parchment);
+  font-weight: 600;
+  max-width: 92px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sb-score { color: var(--gold); font-weight: 800; }
+.sb-check { color: #7cc98f; }
+
+.battle-question {
+  background: var(--parchment);
+  border-radius: var(--radius-md);
+  padding: 26px 20px;
+  text-align: center;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-card);
+}
+.battle-q-kind {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.battle-q-prompt {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--ink);
+  word-break: break-word;
+}
+.battle-progress {
+  text-align: center;
+  color: var(--ink-faint);
+  font-size: 0.8rem;
+  margin-top: 12px;
+  min-height: 18px;
+}
+
+/* หน้าผลการแข่ง */
+.rank-num {
+  width: 34px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.rank-score {
+  font-family: var(--font-mono, monospace);
+  font-weight: 800;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.friend-row.me-row {
+  border-color: var(--gold);
+  background: rgba(255,209,102,0.1);
+}
+
+@media (max-width: 420px) {
+  .room-code { font-size: 1.8rem; letter-spacing: 0.22em; text-indent: 0.22em; }
+  .battle-q-prompt { font-size: 1.5rem; }
 }
