@@ -94,3 +94,24 @@ CREATE TABLE IF NOT EXISTS password_resets (
 
 CREATE INDEX IF NOT EXISTS idx_password_resets_user ON password_resets (user_id);
 CREATE INDEX IF NOT EXISTS idx_password_resets_hash ON password_resets (token_hash);
+
+-- เวลาที่ผู้ใช้ออนไลน์ล่าสุด (ใช้แสดงสถานะ/เรียงลำดับเพื่อน)
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_seen TIMESTAMPTZ;
+
+-- ตารางเพื่อน
+-- 1 แถว = 1 ความสัมพันธ์ (ไม่เก็บซ้ำสองทาง)
+-- status: 'pending' รอตอบรับ | 'accepted' เป็นเพื่อนแล้ว
+CREATE TABLE IF NOT EXISTS friendships (
+  id            SERIAL PRIMARY KEY,
+  requester_id  INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  addressee_id  INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  status        VARCHAR(16) NOT NULL DEFAULT 'pending',
+  created_at    TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  responded_at  TIMESTAMPTZ,
+  UNIQUE (requester_id, addressee_id),
+  CHECK (requester_id <> addressee_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_friendships_requester ON friendships (requester_id);
+CREATE INDEX IF NOT EXISTS idx_friendships_addressee ON friendships (addressee_id);
+CREATE INDEX IF NOT EXISTS idx_friendships_status ON friendships (status);
