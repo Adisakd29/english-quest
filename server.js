@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const fs = require('fs');
+const http = require('http');
 const path = require('path');
 const pool = require('./config/db');
 const pkg = require('./package.json');
@@ -20,6 +21,9 @@ const progressRoutes = require('./routes/progress');
 const translateRoutes = require('./routes/translate');
 const leaderboardRoutes = require('./routes/leaderboard');
 const grammarRoutes = require('./routes/grammar');
+const friendsRoutes = require('./routes/friends');
+const realtime = require('./realtime');
+const rooms = require('./rooms');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -34,6 +38,7 @@ app.use('/api/progress', progressRoutes);
 app.use('/api/translate', translateRoutes);
 app.use('/api/leaderboard', leaderboardRoutes);
 app.use('/api/grammar', grammarRoutes);
+app.use('/api/friends', friendsRoutes);
 
 app.get('/api/health', (_req, res) => res.json({ ok: true, version: pkg.version }));
 
@@ -82,7 +87,13 @@ async function start() {
     console.error('[db] ตรวจสอบว่าตั้งค่า DATABASE_URL ถูกต้อง และเพิ่ม PostgreSQL plugin บน Railway แล้ว');
   }
 
-  app.listen(PORT, () => {
+  // สร้าง HTTP server เอง เพื่อให้ WebSocket ใช้พอร์ตเดียวกันได้
+  // (Railway เปิดให้ใช้พอร์ตเดียว จึงต้องแชร์กัน)
+  const httpServer = http.createServer(app);
+  realtime.attach(httpServer);
+  rooms.init();
+
+  httpServer.listen(PORT, () => {
     console.log(`🚀 WordQuest server running on port ${PORT}`);
   });
 }
