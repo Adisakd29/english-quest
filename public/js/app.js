@@ -362,9 +362,12 @@
     renderHud();
     showApp();
     openHome();
+    rtConnect();      // เริ่มเชื่อมต่อ realtime หลังล็อกอินสำเร็จ
+    loadFriendData(); // ดึงข้อมูลเพื่อนไว้โชว์ badge บนหน้าหลัก
   }
 
   document.getElementById('btn-logout').addEventListener('click', () => {
+    rtDisconnect();   // ตัดการเชื่อมต่อ realtime ก่อนออกจากระบบ
     state.token = null;
     state.user = null;
     localStorage.removeItem(TOKEN_KEY);
@@ -642,6 +645,690 @@
   });
   document.getElementById('btn-home').addEventListener('click', openHome);
   document.getElementById('btn-map-back').addEventListener('click', openHome);
+  document.getElementById('home-btn-friends').addEventListener('click', openFriends);
+
+  // ---------------------------------------------------------------
+  // REALTIME — เชื่อมต่อ WebSocket เพื่อดูว่าใครออนไลน์
+  // ---------------------------------------------------------------
+  const rt = {
+    socket: null,
+    onlineCount: 0,
+    onlineIds: new Set(),
+    retryDelay: 1000,   // เริ่มลองใหม่หลัง 1 วินาที แล้วค่อย ๆ ถ่างออก
+    retryTimer: null,
+    manuallyClosed: false,
+  };
+
+  function rtConnect() {
+    if (!state.token) return;
+    if (rt.socket && (rt.socket.readyState === WebSocket.OPEN
+      || rt.socket.readyState === WebSocket.CONNECTING)) return;
+
+    rt.manuallyClosed = false;
+    const proto = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const url = `${proto}//${window.location.host}/ws?token=${encodeURIComponent(state.token)}`;
+
+    let socket;
+    try {
+      socket = new WebSocket(url);
+    } catch (_err) {
+      scheduleReconnect();
+      return;
+    }
+    rt.socket = socket;
+
+    socket.onopen = () => {
+      rt.retryDelay = 1000; // เชื่อมได้แล้ว รีเซ็ตเวลารอ
+      socket.send(JSON.stringify({ type: 'presence:who' }));
+    };
+
+    socket.onmessage = (event) => {
+      let msg;
+      try { msg = JSON.parse(event.data); } catch (_e) { return; }
+      handleRealtimeMessage(msg);
+    };
+
+    socket.onclose = () => {
+      rt.socket = null;
+      setOnlineCount(null); // แสดงว่ากำลังเชื่อมต่อใหม่
+      if (!rt.manuallyClosed) scheduleReconnect();
+    };
+
+    socket.onerror = () => {
+      try { socket.close(); } catch (_e) { /* ปิดไปแล้ว */ }
+    };
+  }
+
+  function scheduleReconnect() {
+    if (rt.retryTimer) return;
+    rt.retryTimer = setTimeout(() => {
+      rt.retryTimer = null;
+      rtConnect();
+    }, rt.retryDelay);
+    // ถ่างเวลารอออกไปเรื่อย ๆ สูงสุด 30 วินาที กันยิงถี่ตอนเซิร์ฟเวอร์ล่ม
+    rt.retryDelay = Math.min(rt.retryDelay * 1.8, 30000);
+  }
+
+  function rtDisconnect() {
+    rt.manuallyClosed = true;
+    if (rt.retryTimer) { clearTimeout(rt.retryTimer); rt.retryTimer = null; }
+    if (rt.socket) { try { rt.socket.close(); } catch (_e) { /* ปิดไปแล้ว */ } }
+    rt.socket = null;
+    rt.onlineIds.clear();
+  }
+
+  function handleRealtimeMessage(msg) {
+    // ข้อความของระบบห้องแข่งให้โมดูลนั้นจัดการก่อน
+    if (typeof msg.type === 'string' && msg.type.startsWith('room:')) {
+      if (handleRoomMessage(msg)) return;
+    }
+    switch (msg.type) {
+      case 'connected':
+        setOnlineCount(msg.onlineCount);
+        break;
+
+      case 'presence:count':
+        setOnlineCount(msg.count);
+        break;
+
+      case 'presence:list':
+        rt.onlineIds = new Set(msg.userIds || []);
+        setOnlineCount(msg.count);
+        if (currentScreenIs('screen-friends')) renderFriendsScreen();
+        break;
+
+      case 'friend:presence':
+        if (msg.online) rt.onlineIds.add(msg.userId);
+        else rt.onlineIds.delete(msg.userId);
+        if (currentScreenIs('screen-friends')) renderFriendsScreen();
+        break;
+
+      case 'friend:request':
+        toast('มีคำขอเป็นเพื่อนใหม่!', 'success');
+        loadFriendData();
+        break;
+
+      case 'friend:accepted':
+        toast('มีคนตอบรับคำขอเป็นเพื่อนของคุณแล้ว', 'success');
+        loadFriendData();
+        break;
+
+      case 'friend:removed':
+        loadFriendData();
+        break;
+
+      default:
+        break;
+    }
+  }
+
+  function currentScreenIs(id) {
+    const el = document.getElementById(id);
+    return el && !el.classList.contains('hidden');
+  }
+
+  function setOnlineCount(count) {
+    rt.onlineCount = count;
+    const textEl = document.getElementById('online-count-text');
+    const badgeEl = document.getElementById('online-badge');
+    const friendsBadge = document.getElementById('friends-online-badge');
+
+    if (count === null || count === undefined) {
+      if (textEl) textEl.textContent = 'กำลังเชื่อมต่อ…';
+      if (badgeEl) badgeEl.classList.add('offline');
+      return;
+    }
+    if (badgeEl) badgeEl.classList.remove('offline');
+    if (textEl) {
+      textEl.textContent = count === 1
+        ? 'มีคุณคนเดียวที่ออนไลน์อยู่'
+        : `กำลังใช้งานอยู่ ${count} คน`;
+    }
+    if (friendsBadge) friendsBadge.textContent = `ออนไลน์ ${count} คน`;
+  }
+
+
+  // ---------------------------------------------------------------
+  // BATTLE ROOM — ห้องแข่งคำศัพท์
+  // ---------------------------------------------------------------
+  const battle = {
+    room: null,
+    level: 'A1',
+    count: 10,
+    myScore: 0,
+    answered: false,
+    timerRAF: null,
+    questionEndsAt: 0,
+  };
+
+  function rtSend(type, payload = {}) {
+    if (!rt.socket || rt.socket.readyState !== WebSocket.OPEN) {
+      toast('ยังไม่ได้เชื่อมต่อ กำลังลองใหม่…', 'error');
+      rtConnect();
+      return false;
+    }
+    rt.socket.send(JSON.stringify({ type, ...payload }));
+    return true;
+  }
+
+  document.getElementById('home-btn-battle').addEventListener('click', () => {
+    document.getElementById('battle-error').textContent = '';
+    showScreen('screen-battle-home');
+  });
+  document.getElementById('btn-battle-back').addEventListener('click', openHome);
+
+  document.getElementById('battle-level-picker').addEventListener('click', (e) => {
+    const chip = e.target.closest('[data-level]');
+    if (!chip) return;
+    document.querySelectorAll('#battle-level-picker .level-chip')
+      .forEach((c) => c.classList.remove('active'));
+    chip.classList.add('active');
+    battle.level = chip.dataset.level;
+  });
+  document.getElementById('battle-count-picker').addEventListener('click', (e) => {
+    const chip = e.target.closest('[data-count]');
+    if (!chip) return;
+    document.querySelectorAll('#battle-count-picker .level-chip')
+      .forEach((c) => c.classList.remove('active'));
+    chip.classList.add('active');
+    battle.count = Number(chip.dataset.count);
+  });
+
+  document.getElementById('btn-create-room').addEventListener('click', () => {
+    rtSend('room:create', { level: battle.level, questionCount: battle.count });
+  });
+
+  document.getElementById('btn-join-room').addEventListener('click', joinByCode);
+  document.getElementById('join-code-input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); joinByCode(); }
+  });
+
+  function joinByCode() {
+    const code = document.getElementById('join-code-input').value.trim().toUpperCase();
+    const errEl = document.getElementById('battle-error');
+    errEl.textContent = '';
+    if (code.length !== 6) {
+      errEl.textContent = 'รหัสห้องต้องมี 6 ตัวอักษร';
+      return;
+    }
+    rtSend('room:join', { code });
+  }
+
+  document.getElementById('btn-lobby-leave').addEventListener('click', () => {
+    rtSend('room:leave');
+    battle.room = null;
+    openHome();
+  });
+
+  document.getElementById('btn-start-battle').addEventListener('click', () => {
+    rtSend('room:start');
+  });
+
+  document.getElementById('btn-copy-code').addEventListener('click', async () => {
+    const code = battle.room ? battle.room.code : '';
+    try {
+      await navigator.clipboard.writeText(code);
+      toast('คัดลอกรหัสแล้ว', 'success');
+    } catch (_err) {
+      toast(`รหัสห้อง: ${code}`);
+    }
+  });
+
+  document.getElementById('btn-battle-again').addEventListener('click', () => {
+    if (battle.room) {
+      showScreen('screen-battle-lobby');
+      renderLobby();
+    } else {
+      openHome();
+    }
+  });
+  document.getElementById('btn-battle-exit').addEventListener('click', () => {
+    rtSend('room:leave');
+    battle.room = null;
+    openHome();
+  });
+
+  document.getElementById('lobby-invite-list').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-invite]');
+    if (!btn) return;
+    rtSend('room:invite', { userId: Number(btn.dataset.invite) });
+    btn.disabled = true;
+    btn.textContent = 'ชวนแล้ว';
+  });
+
+  function renderLobby() {
+    const room = battle.room;
+    if (!room) return;
+
+    document.getElementById('room-code').textContent = room.code;
+    document.getElementById('lobby-level').textContent =
+      `${room.level} · ${room.questionCount} ข้อ`;
+    document.getElementById('lobby-player-count').textContent = room.players.length;
+
+    document.getElementById('lobby-players').innerHTML = room.players.map((p) => {
+      const tags = [];
+      if (p.isHost) tags.push('<span class="relation-tag">เจ้าของห้อง</span>');
+      if (!p.connected) tags.push('<span class="relation-tag">หลุดการเชื่อมต่อ</span>');
+      return `
+        <div class="friend-row">
+          <div class="friend-avatar-wrap">
+            ${friendAvatarHtml(p)}
+            <span class="status-dot ${p.connected ? 'online' : 'offline'}"></span>
+          </div>
+          <div class="friend-info">
+            <div class="friend-name">${escapeHtml(p.username)}</div>
+          </div>
+          <div class="friend-actions">${tags.join('')}</div>
+        </div>`;
+    }).join('');
+
+    const isHost = state.user && room.hostId === state.user.id;
+    const startBtn = document.getElementById('btn-start-battle');
+    const hint = document.getElementById('lobby-hint');
+    startBtn.classList.toggle('hidden', !isHost);
+    hint.classList.toggle('hidden', isHost);
+    if (isHost) {
+      startBtn.disabled = false;
+      startBtn.textContent = room.players.length < 2
+        ? 'เริ่มแข่ง (เล่นคนเดียวไม่ได้ EXP)'
+        : 'เริ่มแข่ง';
+    }
+
+    const inRoom = new Set(room.players.map((p) => p.id));
+    const invitable = friendState.friends.filter((f) => isUserOnline(f.id) && !inRoom.has(f.id));
+    const section = document.getElementById('lobby-invite-section');
+    section.classList.toggle('hidden', invitable.length === 0);
+    document.getElementById('lobby-invite-list').innerHTML = invitable.map((f) =>
+      friendRowHtml(f, `<button class="mini-btn accept" data-invite="${f.id}">ชวน</button>`)
+    ).join('');
+  }
+
+  function renderScoreboard(players) {
+    const el = document.getElementById('battle-scoreboard');
+    if (!el || !players) return;
+    el.innerHTML = players.slice(0, 6).map((p, i) => `
+      <div class="sb-item ${state.user && p.id === state.user.id ? 'me' : ''}">
+        <span class="sb-rank">${i + 1}</span>
+        <span class="sb-name">${escapeHtml(p.username)}</span>
+        <span class="sb-score">${p.score}</span>
+        ${p.answered ? '<span class="sb-check">✓</span>' : ''}
+      </div>
+    `).join('');
+  }
+
+  function startQuestionTimer(durationMs) {
+    cancelAnimationFrame(battle.timerRAF);
+    battle.questionEndsAt = Date.now() + durationMs;
+    const fill = document.getElementById('battle-timer-fill');
+
+    function tick() {
+      const remain = Math.max(0, battle.questionEndsAt - Date.now());
+      const pct = (remain / durationMs) * 100;
+      fill.style.width = `${pct}%`;
+      fill.classList.toggle('warning', pct < 33);
+      if (remain > 0) battle.timerRAF = requestAnimationFrame(tick);
+    }
+    tick();
+  }
+
+  function renderBattleQuestion(msg) {
+    battle.answered = false;
+    showScreen('screen-battle-play');
+
+    document.getElementById('battle-q-count').textContent =
+      `ข้อ ${msg.index + 1} / ${msg.total}`;
+    document.getElementById('battle-my-score').textContent = battle.myScore;
+    document.getElementById('battle-q-kind').textContent =
+      msg.kind === 'spelling' ? '✏️ เลือกคำที่สะกดถูก' : '📖 คำนี้แปลว่าอะไร';
+    document.getElementById('battle-q-prompt').textContent = msg.prompt;
+    document.getElementById('battle-progress').textContent = '';
+
+    const wrap = document.getElementById('battle-choices');
+    wrap.innerHTML = '';
+    msg.choices.forEach((choice, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'quiz-choice';
+      btn.textContent = choice;
+      btn.dataset.index = i;
+      btn.addEventListener('click', () => {
+        if (battle.answered) return;
+        battle.answered = true;
+        btn.classList.add('chosen');
+        wrap.querySelectorAll('.quiz-choice').forEach((b) => { b.disabled = true; });
+        rtSend('room:answer', { index: i });
+      });
+      wrap.appendChild(btn);
+    });
+
+    startQuestionTimer(msg.durationMs || 12000);
+  }
+
+  function showBattleReveal(msg) {
+    cancelAnimationFrame(battle.timerRAF);
+    const wrap = document.getElementById('battle-choices');
+    wrap.querySelectorAll('.quiz-choice').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === msg.correctIndex) btn.classList.add('correct');
+      else if (btn.classList.contains('chosen')) btn.classList.add('wrong');
+    });
+    renderScoreboard(msg.players);
+  }
+
+  function showBattleResult(msg) {
+    showScreen('screen-battle-result');
+    const me = msg.ranking.find((r) => state.user && r.id === state.user.id);
+    const icons = { 1: '🥇', 2: '🥈', 3: '🥉' };
+
+    document.getElementById('battle-result-icon').textContent =
+      me ? (icons[me.rank] || '🎯') : '🏁';
+    document.getElementById('battle-result-title').textContent =
+      me && me.rank === 1 ? 'ชนะแล้ว!' : 'จบเกม!';
+    document.getElementById('battle-result-rank').textContent =
+      me ? `อันดับ ${me.rank} · ${me.score} คะแนน · ตอบถูก ${me.correctCount}/${me.total}` : '';
+
+    const expEl = document.getElementById('battle-result-exp');
+    if (msg.noExpReason) expEl.textContent = msg.noExpReason;
+    else expEl.textContent = msg.gainedExp > 0
+      ? `ได้รับ ${msg.gainedExp} EXP`
+      : 'ไม่ได้ EXP รอบนี้';
+
+    document.getElementById('battle-ranking').innerHTML = msg.ranking.map((r) => `
+      <div class="friend-row ${state.user && r.id === state.user.id ? 'me-row' : ''}">
+        <div class="rank-num">${icons[r.rank] || r.rank}</div>
+        <div class="friend-info">
+          <div class="friend-name">${escapeHtml(r.username)}</div>
+          <div class="friend-meta">ตอบถูก ${r.correctCount}/${r.total}</div>
+        </div>
+        <div class="rank-score">${r.score}</div>
+      </div>
+    `).join('');
+
+    if (msg.levelInfo && state.user) {
+      const before = state.user.level;
+      Object.assign(state.user, {
+        exp: msg.levelInfo.exp,
+        level: msg.levelInfo.level,
+        expIntoLevel: msg.levelInfo.expIntoLevel,
+        expForNextLevel: msg.levelInfo.expForNextLevel,
+        progressPercent: msg.levelInfo.progressPercent,
+      });
+      renderHud();
+      if (msg.levelInfo.level > before) showLevelUp(msg.levelInfo);
+    }
+  }
+
+  function showInvite(msg) {
+    const ok = window.confirm(
+      `${msg.from} ชวนคุณเข้าห้องแข่งคำศัพท์ (ระดับ ${msg.level})\nเข้าร่วมเลยไหม?`
+    );
+    if (ok) rtSend('room:join', { code: msg.code });
+  }
+
+  function handleRoomMessage(msg) {
+    switch (msg.type) {
+      case 'room:joined':
+        battle.room = msg;
+        battle.myScore = 0;
+        showScreen('screen-battle-lobby');
+        renderLobby();
+        return true;
+
+      case 'room:state':
+        battle.room = msg;
+        if (currentScreenIs('screen-battle-lobby')) renderLobby();
+        if (msg.status === 'lobby' && currentScreenIs('screen-battle-play')) {
+          showScreen('screen-battle-lobby');
+          renderLobby();
+        }
+        return true;
+
+      case 'room:left':
+        battle.room = null;
+        return true;
+
+      case 'room:countdown':
+        showScreen('screen-battle-play');
+        document.getElementById('battle-q-kind').textContent = 'เตรียมตัว…';
+        document.getElementById('battle-q-prompt').textContent = msg.seconds;
+        document.getElementById('battle-choices').innerHTML = '';
+        document.getElementById('battle-progress').textContent = '';
+        return true;
+
+      case 'room:question':
+        renderBattleQuestion(msg);
+        return true;
+
+      case 'room:answered':
+        battle.myScore = msg.score;
+        document.getElementById('battle-my-score').textContent = msg.score;
+        if (msg.gained > 0) toast(`+${msg.gained} คะแนน`, 'success');
+        return true;
+
+      case 'room:progress':
+        document.getElementById('battle-progress').textContent =
+          `ตอบแล้ว ${msg.answered} / ${msg.total} คน`;
+        return true;
+
+      case 'room:reveal':
+        showBattleReveal(msg);
+        return true;
+
+      case 'room:ended':
+        showBattleResult(msg);
+        return true;
+
+      case 'room:invited':
+        showInvite(msg);
+        return true;
+
+      case 'room:inviteSent':
+        toast('ส่งคำเชิญแล้ว', 'success');
+        return true;
+
+      case 'room:error': {
+        toast(msg.message || 'เกิดข้อผิดพลาด', 'error');
+        const errEl = document.getElementById('battle-error');
+        if (errEl && currentScreenIs('screen-battle-home')) errEl.textContent = msg.message;
+        return true;
+      }
+
+      default:
+        return false;
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // FRIENDS — ระบบเพื่อน
+  // ---------------------------------------------------------------
+  const friendState = { friends: [], incoming: [], outgoing: [], searchResults: [] };
+
+  document.getElementById('btn-friends-back').addEventListener('click', openHome);
+  document.getElementById('friend-search-btn').addEventListener('click', doFriendSearch);
+  document.getElementById('friend-search-input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); doFriendSearch(); }
+  });
+
+  async function openFriends() {
+    showScreen('screen-friends');
+    await loadFriendData();
+    // ขอรายชื่อคนออนไลน์ล่าสุดอีกครั้ง เผื่อข้อมูลเก่า
+    if (rt.socket && rt.socket.readyState === WebSocket.OPEN) {
+      rt.socket.send(JSON.stringify({ type: 'presence:who' }));
+    }
+  }
+
+  async function loadFriendData() {
+    try {
+      const [fr, rq] = await Promise.all([
+        api('/friends'),
+        api('/friends/requests'),
+      ]);
+      friendState.friends = fr.friends || [];
+      friendState.incoming = rq.incoming || [];
+      friendState.outgoing = rq.outgoing || [];
+      renderFriendsScreen();
+      updateFriendBadges();
+    } catch (err) {
+      const list = document.getElementById('friends-list');
+      if (list) list.innerHTML = `<div class="form-error">${escapeHtml(err.message)}</div>`;
+    }
+  }
+
+  function updateFriendBadges() {
+    const badge = document.getElementById('friend-request-badge');
+    const n = friendState.incoming.length;
+    if (badge) {
+      badge.textContent = n;
+      badge.classList.toggle('hidden', n === 0);
+    }
+    const sub = document.getElementById('home-friends-sub');
+    if (sub) {
+      const onlineFriends = friendState.friends.filter((f) => isUserOnline(f.id)).length;
+      sub.textContent = friendState.friends.length === 0
+        ? 'ยังไม่มีเพื่อน — ค้นหาเพื่อนได้เลย'
+        : `เพื่อน ${friendState.friends.length} คน · ออนไลน์ ${onlineFriends} คน`;
+    }
+  }
+
+  // ใช้ข้อมูลสด ๆ จาก WebSocket ถ้ามี ไม่งั้นใช้ค่าที่ API ส่งมา
+  function isUserOnline(userId) {
+    if (rt.onlineIds.size > 0) return rt.onlineIds.has(userId);
+    const f = friendState.friends.find((x) => x.id === userId);
+    return f ? f.online : false;
+  }
+
+  function friendAvatarHtml(u) {
+    if (u.avatarImage) {
+      return `<div class="friend-avatar has-image">
+                <img src="${u.avatarImage}" alt="">
+              </div>`;
+    }
+    const emoji = { fox: '🦊', cat: '🐱', dog: '🐶', owl: '🦉', bear: '🐻' }[u.avatar] || '🦊';
+    return `<div class="friend-avatar">${emoji}</div>`;
+  }
+
+  function friendRowHtml(u, actionsHtml) {
+    const online = isUserOnline(u.id);
+    return `
+      <div class="friend-row">
+        <div class="friend-avatar-wrap">
+          ${friendAvatarHtml(u)}
+          <span class="status-dot ${online ? 'online' : 'offline'}"></span>
+        </div>
+        <div class="friend-info">
+          <div class="friend-name">${escapeHtml(u.username)}</div>
+          <div class="friend-meta">
+            LV.${u.level} · ${online ? '<span class="online-text">ออนไลน์</span>' : 'ออฟไลน์'}
+          </div>
+        </div>
+        <div class="friend-actions">${actionsHtml}</div>
+      </div>
+    `;
+  }
+
+  function renderFriendsScreen() {
+    // --- คำขอที่เข้ามา ---
+    const reqSection = document.getElementById('friend-requests-section');
+    const reqList = document.getElementById('friend-requests-list');
+    reqSection.classList.toggle('hidden', friendState.incoming.length === 0);
+    document.getElementById('requests-count').textContent = friendState.incoming.length;
+    reqList.innerHTML = friendState.incoming.map((u) => friendRowHtml(u, `
+      <button class="mini-btn accept" data-accept="${u.friendshipId}">ตอบรับ</button>
+      <button class="mini-btn ghost" data-decline="${u.friendshipId}">ปฏิเสธ</button>
+    `)).join('');
+
+    // --- คำขอที่ส่งไป ---
+    const outSection = document.getElementById('friend-outgoing-section');
+    const outList = document.getElementById('friend-outgoing-list');
+    outSection.classList.toggle('hidden', friendState.outgoing.length === 0);
+    outList.innerHTML = friendState.outgoing.map((u) => friendRowHtml(u, `
+      <button class="mini-btn ghost" data-cancel="${u.friendshipId}">ยกเลิก</button>
+    `)).join('');
+
+    // --- รายชื่อเพื่อน ---
+    const list = document.getElementById('friends-list');
+    document.getElementById('friends-count').textContent = friendState.friends.length;
+    if (friendState.friends.length === 0) {
+      list.innerHTML = '<div class="friend-empty">ยังไม่มีเพื่อน ลองค้นหาชื่อผู้ใช้ด้านบนเพื่อเพิ่มเพื่อนดูสิ</div>';
+    } else {
+      // เรียงใหม่ทุกครั้ง เพราะสถานะออนไลน์เปลี่ยนได้ตลอด
+      const sorted = [...friendState.friends].sort((a, b) => {
+        const ao = isUserOnline(a.id), bo = isUserOnline(b.id);
+        if (ao !== bo) return ao ? -1 : 1;
+        return b.exp - a.exp;
+      });
+      list.innerHTML = sorted.map((u) => friendRowHtml(u, `
+        <button class="mini-btn ghost" data-remove="${u.friendshipId}">ลบ</button>
+      `)).join('');
+    }
+
+    updateFriendBadges();
+  }
+
+  async function doFriendSearch() {
+    const input = document.getElementById('friend-search-input');
+    const box = document.getElementById('friend-search-results');
+    const q = input.value.trim();
+    if (q.length < 2) {
+      box.innerHTML = '<div class="friend-empty">พิมพ์อย่างน้อย 2 ตัวอักษร</div>';
+      return;
+    }
+    box.innerHTML = '<div class="loading-spinner"></div>';
+    try {
+      const { results } = await api(`/friends/search?q=${encodeURIComponent(q)}`);
+      friendState.searchResults = results;
+      if (results.length === 0) {
+        box.innerHTML = '<div class="friend-empty">ไม่พบผู้ใช้ที่ตรงกับคำค้นหา</div>';
+        return;
+      }
+      box.innerHTML = results.map((u) => {
+        let action;
+        if (u.relation === 'friend') action = '<span class="relation-tag">เป็นเพื่อนแล้ว</span>';
+        else if (u.relation === 'requested') action = '<span class="relation-tag">รอตอบรับ</span>';
+        else if (u.relation === 'incoming') {
+          action = `<button class="mini-btn accept" data-accept="${u.friendshipId}">ตอบรับ</button>`;
+        } else {
+          action = `<button class="mini-btn accept" data-add="${u.id}">+ เพิ่มเพื่อน</button>`;
+        }
+        return friendRowHtml(u, action);
+      }).join('');
+    } catch (err) {
+      box.innerHTML = `<div class="form-error">${escapeHtml(err.message)}</div>`;
+    }
+  }
+
+  // ใช้ event delegation ตัวเดียวคุมปุ่มทั้งหน้า (ปุ่มถูกสร้างใหม่บ่อย)
+  document.getElementById('screen-friends').addEventListener('click', async (e) => {
+    const btn = e.target.closest('button[data-add], button[data-accept], button[data-decline], button[data-cancel], button[data-remove]');
+    if (!btn) return;
+    btn.disabled = true;
+    try {
+      if (btn.dataset.add) {
+        const res = await api('/friends/request', {
+          method: 'POST', body: { userId: Number(btn.dataset.add) },
+        });
+        toast(res.message || 'ส่งคำขอแล้ว', 'success');
+        await doFriendSearch();
+      } else if (btn.dataset.accept) {
+        await api(`/friends/${btn.dataset.accept}/accept`, { method: 'POST' });
+        toast('เป็นเพื่อนกันแล้ว!', 'success');
+        document.getElementById('friend-search-results').innerHTML = '';
+      } else if (btn.dataset.decline) {
+        await api(`/friends/${btn.dataset.decline}/decline`, { method: 'POST' });
+        toast('ปฏิเสธคำขอแล้ว');
+      } else if (btn.dataset.cancel) {
+        await api(`/friends/${btn.dataset.cancel}`, { method: 'DELETE' });
+        toast('ยกเลิกคำขอแล้ว');
+      } else if (btn.dataset.remove) {
+        await api(`/friends/${btn.dataset.remove}`, { method: 'DELETE' });
+        toast('ลบเพื่อนแล้ว');
+      }
+      await loadFriendData();
+    } catch (err) {
+      toast(err.message || 'ทำรายการไม่สำเร็จ', 'error');
+      btn.disabled = false;
+    }
+  });
 
   // ---------------------------------------------------------------
   // MAP screen
@@ -1360,6 +2047,8 @@
       renderHud();
       showApp();
       openHome();
+      rtConnect();
+      loadFriendData();
     } catch (_err) {
       state.token = null;
       localStorage.removeItem(TOKEN_KEY);
