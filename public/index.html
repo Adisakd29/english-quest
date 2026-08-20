@@ -47,7 +47,7 @@
           </svg>
           <span class="brand-title display">WordQuest</span>
         </div>
-        <p class="brand-sub">ผจญภัยไปทีละด่าน A1 → B2<br>สะสม EXP จากการ์ดคำศัพท์ Oxford 3000<br>แล้วเลเวลอัปตัวเองให้เก่งภาษาอังกฤษ</p>
+        <p class="brand-sub">ผจญภัยไปทีละด่าน A1 → C1<br>สะสม EXP จากคำศัพท์ Oxford 3000+5000<br>พร้อมแกรมม่า 16 บท และข้อสอบแนว TOEIC/TOEFL</p>
 
         <div class="hero-trail">
           <div class="mini-trail">
@@ -149,7 +149,7 @@
         <button type="submit" class="btn btn-primary btn-block" id="register-submit">สร้างบัญชีและเริ่มผจญภัย</button>
       </form>
 
-      <div class="auth-foot">เรียนคำศัพท์ระดับ A1–B2 จาก Oxford 3000 ฟรี ไม่มีโฆษณา</div>
+      <div class="auth-foot">เรียนคำศัพท์ A1–C1 กว่า 5,000 คำ และแกรมม่า 16 บท ฟรี ไม่มีโฆษณา</div>
     </div>
   </div>
 </section>
@@ -180,6 +180,10 @@
       <div class="home-heading">
         <h1 id="home-greeting">สวัสดี!</h1>
         <p>เลือกสิ่งที่อยากเรียนวันนี้</p>
+        <div class="online-badge" id="online-badge" title="จำนวนคนที่กำลังใช้งานอยู่ตอนนี้">
+          <span class="online-dot"></span>
+          <span id="online-count-text">กำลังเชื่อมต่อ…</span>
+        </div>
       </div>
 
       <div class="home-menu">
@@ -200,7 +204,173 @@
           </div>
           <div class="home-menu-arrow">→</div>
         </button>
+
+        <button class="home-menu-card battle-card" id="home-btn-battle">
+          <div class="home-menu-icon">⚔️</div>
+          <div class="home-menu-info">
+            <div class="home-menu-title">ห้องแข่งคำศัพท์</div>
+            <div class="home-menu-sub">สร้างห้องแล้วชวนเพื่อนมาแข่งกัน</div>
+          </div>
+          <div class="home-menu-arrow">→</div>
+        </button>
+
+        <button class="home-menu-card friends-card" id="home-btn-friends">
+          <div class="home-menu-icon">👥</div>
+          <div class="home-menu-info">
+            <div class="home-menu-title">เพื่อน</div>
+            <div class="home-menu-sub" id="home-friends-sub">ดูว่าใครออนไลน์อยู่บ้าง</div>
+          </div>
+          <span class="menu-badge hidden" id="friend-request-badge">0</span>
+          <div class="home-menu-arrow">→</div>
+        </button>
       </div>
+    </div>
+  </section>
+
+  <!-- ============== FRIENDS SCREEN ============== -->
+  <section id="screen-friends" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-friends-back">← กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge" id="friends-online-badge">ออนไลน์ 0 คน</div>
+      </div>
+
+      <div class="friends-search">
+        <input type="text" id="friend-search-input" placeholder="ค้นหาเพื่อนจากชื่อผู้ใช้…"
+               autocomplete="off" />
+        <button class="btn btn-primary" id="friend-search-btn">ค้นหา</button>
+      </div>
+      <div class="friend-list" id="friend-search-results"></div>
+
+      <div class="friends-section hidden" id="friend-requests-section">
+        <div class="friends-section-title">
+          📨 คำขอเป็นเพื่อน <span class="count-pill" id="requests-count">0</span>
+        </div>
+        <div class="friend-list" id="friend-requests-list"></div>
+      </div>
+
+      <div class="friends-section hidden" id="friend-outgoing-section">
+        <div class="friends-section-title">⏳ คำขอที่ส่งไป</div>
+        <div class="friend-list" id="friend-outgoing-list"></div>
+      </div>
+
+      <div class="friends-section">
+        <div class="friends-section-title">
+          👥 เพื่อนของฉัน <span class="count-pill" id="friends-count">0</span>
+        </div>
+        <div class="friend-list" id="friends-list"></div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== BATTLE ROOM SCREENS ============== -->
+  <section id="screen-battle-home" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-battle-back">← กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge">⚔️ ห้องแข่ง</div>
+      </div>
+
+      <div class="battle-panel">
+        <div class="battle-panel-title">สร้างห้องใหม่</div>
+        <label class="battle-label">ระดับคำศัพท์</label>
+        <div class="level-picker" id="battle-level-picker">
+          <button class="level-chip active" data-level="A1">A1</button>
+          <button class="level-chip" data-level="A2">A2</button>
+          <button class="level-chip" data-level="B1">B1</button>
+          <button class="level-chip" data-level="B2">B2</button>
+          <button class="level-chip" data-level="C1">C1</button>
+        </div>
+        <label class="battle-label">จำนวนข้อ</label>
+        <div class="level-picker" id="battle-count-picker">
+          <button class="level-chip" data-count="5">5 ข้อ</button>
+          <button class="level-chip active" data-count="10">10 ข้อ</button>
+          <button class="level-chip" data-count="15">15 ข้อ</button>
+        </div>
+        <button class="btn btn-primary btn-block" id="btn-create-room">สร้างห้อง</button>
+      </div>
+
+      <div class="battle-panel">
+        <div class="battle-panel-title">เข้าห้องเพื่อน</div>
+        <div class="friends-search">
+          <input type="text" id="join-code-input" placeholder="ใส่รหัสห้อง 6 หลัก"
+                 maxlength="6" autocomplete="off" style="text-transform:uppercase;" />
+          <button class="btn btn-primary" id="btn-join-room">เข้าห้อง</button>
+        </div>
+        <div class="form-error" id="battle-error"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-battle-lobby" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-lobby-leave">← ออกจากห้อง</button>
+        <div class="grammar-chapter-badge" id="lobby-level">A1</div>
+      </div>
+
+      <div class="room-code-box">
+        <div class="room-code-label">รหัสห้อง — บอกเพื่อนให้เข้ามาได้เลย</div>
+        <div class="room-code" id="room-code">------</div>
+        <button class="mini-btn accept" id="btn-copy-code">📋 คัดลอกรหัส</button>
+      </div>
+
+      <div class="friends-section">
+        <div class="friends-section-title">
+          ผู้เล่นในห้อง <span class="count-pill" id="lobby-player-count">0</span>
+        </div>
+        <div class="friend-list" id="lobby-players"></div>
+      </div>
+
+      <div class="friends-section" id="lobby-invite-section">
+        <div class="friends-section-title">ชวนเพื่อนที่ออนไลน์</div>
+        <div class="friend-list" id="lobby-invite-list"></div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="btn-start-battle" style="margin-top:18px;">
+        เริ่มแข่ง
+      </button>
+      <div class="battle-hint" id="lobby-hint">รอเจ้าของห้องกดเริ่ม…</div>
+    </div>
+  </section>
+
+  <section id="screen-battle-play" class="screen hidden">
+    <div class="container">
+      <div class="battle-hud">
+        <div class="battle-q-count" id="battle-q-count">ข้อ 1 / 10</div>
+        <div class="battle-timer-wrap">
+          <div class="battle-timer-fill" id="battle-timer-fill"></div>
+        </div>
+        <div class="battle-score" id="battle-my-score">0</div>
+      </div>
+
+      <div class="battle-scoreboard" id="battle-scoreboard"></div>
+
+      <div class="battle-question" id="battle-question">
+        <div class="battle-q-kind" id="battle-q-kind"></div>
+        <div class="battle-q-prompt" id="battle-q-prompt"></div>
+      </div>
+
+      <div class="grammar-quiz-choices" id="battle-choices"></div>
+      <div class="battle-progress" id="battle-progress"></div>
+    </div>
+  </section>
+
+  <section id="screen-battle-result" class="screen hidden">
+    <div class="container">
+      <div class="result-card">
+        <div class="result-icon" id="battle-result-icon">🏆</div>
+        <div class="result-title" id="battle-result-title">จบเกม!</div>
+        <div class="result-score" id="battle-result-rank">อันดับ 1</div>
+        <div class="gr-exp-line" id="battle-result-exp"></div>
+      </div>
+      <div class="friends-section">
+        <div class="friends-section-title">อันดับทั้งหมด</div>
+        <div class="friend-list" id="battle-ranking"></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="btn-battle-again" style="margin-top:16px;">
+        กลับห้องรอ
+      </button>
+      <button class="link-btn" id="btn-battle-exit">← กลับหน้าหลัก</button>
     </div>
   </section>
 
