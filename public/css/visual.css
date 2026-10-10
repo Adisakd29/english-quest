@@ -1,0 +1,598 @@
+/* =====================================================================
+   EnglishQuest — Visual Design System (โหลดหลังสุด ทับ theme.css / theme-dark.css)
+   Art direction: "Flat + subtle depth"
+     - Icon: Lucide ชุดเดียว (stroke 2px) · Illustration / Mascot / Avatar / Badge: สไตล์เดียว (scripts/build-graphics.py)
+     - เน้นความโดดเด่นที่เดียวต่อหน้า (ปุ่ม "เรียนต่อ") ที่เหลือเงียบและเป็นระเบียบ
+     - ไม่ใช้ gradient ทุกการ์ด · เงาเบา · animation 150–350ms และเคารพ prefers-reduced-motion
+   ===================================================================== */
+
+:root {
+  /* ---------- Icon ---------- */
+  --icon-sm: 16px; --icon-md: 20px; --icon-lg: 24px; --icon-xl: 32px;
+  /* ---------- Illustration ---------- */
+  --illo-xs: 96px; --illo-sm: 140px; --illo-md: 200px; --illo-lg: 300px;
+  /* ---------- Motion ---------- */
+  --motion-fast: 150ms; --motion-base: 220ms; --motion-slow: 350ms;
+  --ease-out: cubic-bezier(.2, .7, .3, 1);
+  /* ---------- Surface ---------- */
+  --brand: #4F46E5; --brand-dark: #3730A3; --brand-accent: #FF6F3C;
+  --tile-radius: 14px;
+
+  /* ---------- พาเลตภาพประกอบ (ใช้ใน SVG ผ่าน var(--il-*)) ---------- */
+  --il-indigo: #4F46E5; --il-indigo-d: #3730A3;
+  --il-lilac: #C7D2FE;  --il-lilac-d: #A5B4FC;
+  --il-coral: #FF7A3D;  --il-coral-d: #D9541C;
+  --il-teal: #14B8A6;   --il-teal-d: #0E8C7E;
+  --il-amber: #FBBF24;  --il-amber-d: #D99A0B;
+  --il-paper: #FFFFFF;  --il-paper-d: #DDE1EE;
+  --il-ink: #1F2340;    --il-line: #E3E6F0;
+  --il-bg: #EEF0FF;     --il-ground: rgba(31, 35, 64, 0.08);
+}
+
+/* ธีมมืด: กระดาษเข้มขึ้น เส้นสว่างขึ้น สีหลักคงเดิม (ภาพยังเป็นชุดเดียวกัน) */
+:root[data-theme="dark"] {
+  --il-paper: #2B3050; --il-paper-d: #1F2340; --il-line: #3E4570; --il-bg: #22264A;
+  --il-ground: rgba(0, 0, 0, 0.28); --il-lilac: #4B4F9A; --il-lilac-d: #6F74C8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --il-paper: #2B3050; --il-paper-d: #1F2340; --il-line: #3E4570; --il-bg: #22264A;
+    --il-ground: rgba(0, 0, 0, 0.28); --il-lilac: #4B4F9A; --il-lilac-d: #6F74C8;
+  }
+}
+
+/* =====================================================================
+   1) ICON — ขนาดมาตรฐาน + สถานะ
+   ===================================================================== */
+.icon { width: var(--icon-md); height: var(--icon-md); flex-shrink: 0; vertical-align: -0.22em; stroke-width: 2; }
+.icon.icon-sm { width: var(--icon-sm); height: var(--icon-sm); vertical-align: -0.18em; }
+.icon.icon-lg { width: var(--icon-lg); height: var(--icon-lg); }
+.icon.icon-xl { width: var(--icon-xl); height: var(--icon-xl); }
+
+/* ปุ่มที่มีไอคอน: ไอคอนตามสีข้อความ · hover / active / disabled / selected มาจากปุ่มเอง */
+button .icon, a .icon { transition: transform var(--motion-fast) var(--ease-out); }
+button:not(:disabled):active .icon { transform: scale(0.92); }
+button:disabled .icon { opacity: 0.5; }
+
+/* เมนูล่าง: unselected = muted · selected = primary + พื้นอ่อน */
+.nav-item .nav-icon { display: inline-grid; place-items: center; width: 44px; height: 32px; border-radius: 999px;
+  transition: background-color var(--motion-base) var(--ease-out), color var(--motion-base); }
+.nav-item:hover .nav-icon { background: var(--color-surface-2); }
+.nav-item.active .nav-icon, .nav-item[aria-current="page"] .nav-icon { background: var(--color-primary-soft); color: var(--color-primary); }
+
+/* ไอคอนในกล่องสี (icon tile) — ใช้ร่วมหลายการ์ด */
+.icon-tile, .dash-review-icon, .dash-mistakes-icon, .dash-placement-icon, .play-card-icon, .gp-ch-icon, .mode-card-icon, .lesson-icon {
+  display: inline-grid; place-items: center; flex-shrink: 0; border-radius: var(--tile-radius);
+}
+
+/* ตัว mark inline (แทน ✓ ✗ ⚠ 💡 ในข้อความ) */
+.mark { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; vertical-align: -0.1em; white-space: nowrap; }
+.mark .icon { vertical-align: 0; }
+.mark-ok { color: var(--color-success); }
+.mark-bad { color: var(--color-danger); }
+.mark-warn { color: var(--color-warning); }
+.mark-tip { color: var(--color-primary); }
+.mark-lock, .mark-open, .mark-up { color: var(--color-text-muted); }
+
+/* วงสถานะการจำ (แทน ○ ◐ ◕ ●) */
+.mem-ring { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; margin-right: 2px;
+  background: conic-gradient(var(--color-primary) calc(var(--p, 0) * 1%), var(--color-border) 0); }
+.mem-ring::after { content: ''; display: block; width: 6px; height: 6px; margin: 3px; border-radius: 50%; background: var(--color-surface); }
+.mem-new { --p: 0; } .mem-learning { --p: 40; } .mem-reviewing { --p: 75; } .mem-mastered { --p: 100; }
+
+/* =====================================================================
+   2) ILLUSTRATION / MASCOT / AVATAR
+   ===================================================================== */
+.illo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; overflow: visible; }
+.mascot { display: block; width: 100%; height: auto; aspect-ratio: 1; overflow: visible; }
+.mascot-md { width: 112px; margin: 0 auto; }
+.mascot-lg { width: 148px; margin: 0 auto; }
+
+.avatar-svg, .avatar-img { display: block; width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+.hud-avatar, .friend-avatar, .leaderboard-avatar, .profile-avatar-lg, .profile-pic-preview, .avatar-option {
+  padding: 0; overflow: hidden; background: var(--color-surface-2); font-size: 0; line-height: 0;
+}
+.hud-avatar { overflow: visible; border-radius: 50%; }
+.hud-avatar > .avatar-svg { border-radius: 50%; }
+.avatar-option { aspect-ratio: 1; border-radius: 50%; border: 3px solid transparent; transition: transform var(--motion-fast) var(--ease-out), border-color var(--motion-fast); }
+.avatar-option:hover { transform: translateY(-2px); border-color: var(--color-border); }
+.avatar-option.selected { border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-soft); }
+.profile-pic-preview > span { display: contents; }
+
+/* ปุ่มแก้ไขบนอวตาร: ไอคอน pencil (Lucide) แทน ✎ */
+.hud-avatar::after {
+  content: ''; border-radius: 50%;
+  background: var(--brand) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21.17 6.81a1 1 0 0 0-3.99-3.99L3.84 16.17a2 2 0 0 0-.5.83l-1.32 4.35a.5.5 0 0 0 .62.62l4.35-1.32a2 2 0 0 0 .83-.5z'/%3E%3C/svg%3E") center / 9px no-repeat;
+}
+
+/* =====================================================================
+   3) BADGES — ตรา CEFR + เหรียญ
+   ===================================================================== */
+.lv-a1 { --lv: var(--a1-strong); --lv-d: #064E3B; }
+.lv-a2 { --lv: var(--a2-strong); --lv-d: #0C4A6E; }
+.lv-b1 { --lv: var(--b1-strong); --lv-d: #4C1D95; }
+.lv-b2 { --lv: var(--b2-strong); --lv-d: #7C2D12; }
+.lv-c1 { --lv: var(--c1-strong); --lv-d: #831843; }
+:root[data-theme="dark"] .emblem { --lv-d: rgba(0, 0, 0, 0.45); }
+
+.emblem { position: relative; display: inline-grid; place-items: center; flex-shrink: 0; width: 40px; height: 40px; vertical-align: middle; }
+.emblem > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.emblem > b { position: relative; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 0.8rem; line-height: 1;
+  letter-spacing: 0; transform: translateY(-1px); }
+.lv-b2 > b { transform: translateY(-4px); }            /* บับเบิลคำพูด: จุดกึ่งกลางอยู่สูงกว่า */
+.lv-c1 > b { font-size: 0.72em; }
+.emblem-xs { width: 24px; height: 24px; } .emblem-xs > b { font-size: 0.56rem; }
+.emblem-xs.lv-b2 > b { transform: translateY(-2px); }
+.emblem-sm { width: 32px; height: 32px; } .emblem-sm > b { font-size: 0.68rem; }
+.emblem-lg { width: 60px; height: 60px; } .emblem-lg > b { font-size: 1.1rem; }
+.emblem-xl { width: 96px; height: 96px; } .emblem-xl > b { font-size: 1.75rem; }
+.emblem-lg.lv-b2 > b { transform: translateY(-6px); } .emblem-xl.lv-b2 > b { transform: translateY(-10px); }
+.emblem-named { display: inline-flex; align-items: center; gap: 8px; }
+.emblem-text b { font-weight: 800; }
+
+.tier-badge { position: relative; display: inline-grid; place-items: center; width: 48px; height: 50px; flex-shrink: 0; vertical-align: middle; }
+.tier-badge > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.tier-badge > b { position: relative; color: #fff; font-weight: 800; font-size: 0.95rem; line-height: 1; transform: translateY(-4px);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+.tier-badge.tier-sm { width: 32px; height: 34px; } .tier-sm > b { font-size: 0.78rem; transform: translateY(-3px); }
+.tier-badge.tier-md { width: 40px; height: 42px; }
+.tier-badge.tier-xl { width: 104px; height: 108px; } .tier-xl > b { font-size: 2rem; transform: translateY(-8px); }
+.tier-badge.tier-inline { width: 20px; height: 21px; margin-left: 6px; vertical-align: -4px; }
+.rank-plain { display: inline-grid; place-items: center; min-width: 32px; height: 28px; padding: 0 6px; border-radius: 8px;
+  background: var(--color-surface-2); color: var(--color-text-muted); font-weight: 800; font-size: 0.85rem; }
+
+/* =====================================================================
+   4) FEEDBACK / EMPTY / LOADING
+   ===================================================================== */
+.feedback { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: var(--radius-md); margin-top: 12px;
+  border: 1px solid transparent; animation: eq-rise var(--motion-base) var(--ease-out); text-align: left; }
+.feedback-ok { background: var(--color-success-soft); border-color: color-mix(in srgb, var(--color-success) 30%, transparent); }
+.feedback-bad { background: var(--color-danger-soft); border-color: color-mix(in srgb, var(--color-danger) 30%, transparent); }
+.feedback-icon { flex-shrink: 0; line-height: 0; }
+.feedback-ok .feedback-icon { color: var(--color-success); }
+.feedback-bad .feedback-icon { color: var(--color-danger); }
+.feedback-ok .feedback-icon .icon { animation: eq-pop var(--motion-slow) var(--ease-out); }
+.feedback-title { display: block; font-weight: 800; color: var(--color-text); }
+.feedback-text { color: var(--color-text); font-size: var(--text-sm); }
+.quiz-feedback:empty { display: none; }
+
+/* ไฮไลต์ตัวเลือกถูก/ผิด: ไอคอนนำหน้า (ไม่พึ่งสีอย่างเดียว) */
+.quiz-choice.correct::before, .quiz-choice.wrong::before {
+  content: ''; display: inline-block; width: 18px; height: 18px; margin-right: 8px; vertical-align: -3px; background: currentColor;
+  -webkit-mask: var(--choice-mark) center / contain no-repeat; mask: var(--choice-mark) center / contain no-repeat;
+}
+.quiz-choice.correct { --choice-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E"); }
+.quiz-choice.wrong { --choice-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m15 9-6 6M9 9l6 6'/%3E%3C/svg%3E"); }
+
+.gq-verdict { display: flex; align-items: center; gap: 8px; }
+.gq-feedback.ok .gq-verdict .icon { color: var(--color-success); }
+.gq-feedback.bad .gq-verdict .icon { color: var(--color-danger); }
+.practice-feedback .feedback { margin-top: 0; }
+.practice-feedback.correct, .practice-feedback.wrong { background: none; border: 0; padding: 0; }
+
+.state-empty { text-align: center; padding: var(--space-5) var(--space-4) var(--space-6); }
+.state-empty-art { width: min(var(--illo-md), 70%); margin: 0 auto var(--space-2); }
+.state-empty h2 { margin-top: var(--space-2); }
+.state-empty p { max-width: 42ch; margin-left: auto; margin-right: auto; }
+.state-empty .btn { display: inline-flex; align-items: center; gap: 8px; }
+.state-empty-compact { padding: var(--space-4); }
+.state-empty-compact .state-empty-art { width: min(var(--illo-sm), 55%); }
+.state-empty-compact h2 { font-size: var(--text-base); }
+
+.skel-list { display: flex; flex-direction: column; gap: 12px; }
+.skel-item { display: flex; align-items: center; gap: 12px; padding: 14px; border-radius: var(--radius-md);
+  background: var(--color-surface); border: 1px solid var(--color-border); }
+.skel-dot { width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0; }
+.skel-lines { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.skel-line { display: block; height: 12px; border-radius: 6px; }
+.skel-short { width: 45%; }
+.skel-grid { display: grid; gap: 12px; }
+.skel-tile { height: 112px; border-radius: var(--radius-lg); }
+
+/* =====================================================================
+   5) LOGIN
+   ===================================================================== */
+.auth-wrap { background: var(--color-surface); }
+.auth-hero { position: relative; overflow: hidden; gap: var(--space-5); padding: 40px 36px 32px; isolation: isolate; }
+/* พื้นหลังมีมิติแบบเบา: ลายจุด + วงแสงเบลอ (ไม่รบกวนตัวอักษร) */
+.auth-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; opacity: 0.5;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.18) 1.2px, transparent 1.3px); background-size: 20px 20px; }
+.auth-hero::after { content: ''; position: absolute; z-index: -1; width: 320px; height: 320px; right: -120px; top: -120px;
+  border-radius: 50%; background: rgba(255, 122, 61, 0.28); filter: blur(60px); }
+.auth-hero .brand { gap: 12px; }
+.auth-message { margin: var(--space-5) 0 var(--space-3); color: #fff; font-size: clamp(1.6rem, 2.6vw, 2.15rem); line-height: 1.2; font-weight: 800;
+  letter-spacing: -0.02em; }
+.auth-hero .brand-sub { max-width: 36ch; margin: 0; }
+.hero-levels { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-4); }
+.hero-levels .emblem { --lv-d: rgba(0, 0, 0, 0.25); }
+.auth-hero-art { width: min(340px, 100%); align-self: center; margin-top: auto; }
+.auth-hero-art .illo { --il-ground: rgba(0, 0, 0, 0.18); }
+.auth-verify-icon { display: inline-grid; place-items: center; width: 72px; height: 72px; margin: 0 auto; border-radius: 50%;
+  background: var(--color-primary-soft); color: var(--color-primary); }
+
+@media (max-width: 760px) {
+  .auth-hero { min-height: 0; padding: 24px 20px; gap: 0; }
+  .auth-message { font-size: 1.35rem; margin: var(--space-3) 0 var(--space-2); }
+  .auth-message br { display: none; }               /* มือถือ: ข้อความยาวบรรทัดเดียวไหลต่อกัน */
+  .auth-hero .brand-sub { display: none; }
+  .auth-hero-art { display: none; }                 /* ประหยัดพื้นที่ — ฟอร์มขึ้นเร็ว */
+  .hero-levels { margin-top: var(--space-3); }
+}
+
+/* =====================================================================
+   6) HOME — Hero + Mascot tip + การ์ด (ลด gradient: เหลือจุดเน้นเดียว)
+   ===================================================================== */
+.home-hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-4); align-items: center;
+  margin: var(--space-4) 0 var(--space-4); padding: var(--space-5); border-radius: var(--radius-lg); position: relative; overflow: hidden;
+  background: var(--color-surface); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); isolation: isolate; }
+.home-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; opacity: 0.7;
+  background-image: url("/assets/backgrounds/dots.svg"); background-size: 24px 24px;
+  -webkit-mask-image: linear-gradient(110deg, transparent 35%, #000 85%); mask-image: linear-gradient(110deg, transparent 35%, #000 85%); }
+.home-title { font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.2; overflow-wrap: anywhere; }
+.home-hero-sub { margin: 4px 0 var(--space-4); color: var(--color-text-muted); }
+.home-hero-art { order: -1; width: min(220px, 60%); justify-self: center; }
+.home-hero .home-card-primary { margin-bottom: 0; }
+
+/* การ์ด "เรียนต่อ" = จุดเน้นเดียวของหน้า: พื้นสีแบรนด์ทึบ + รูปทรงตกแต่งจาง ๆ */
+.dash-continue { background: var(--brand); position: relative; overflow: hidden; isolation: isolate;
+  transition: transform var(--motion-base) var(--ease-out), box-shadow var(--motion-base); }
+.dash-continue::before { content: ''; position: absolute; z-index: -1; width: 220px; height: 220px; right: -70px; bottom: -110px;
+  border-radius: 50%; background: rgba(255, 255, 255, 0.10); }
+.dash-continue::after { content: ''; position: absolute; z-index: -1; width: 90px; height: 90px; right: 90px; top: -40px;
+  border-radius: 28px; transform: rotate(20deg); background: rgba(255, 122, 61, 0.35); }
+.dash-continue:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(79, 70, 229, 0.28); }
+.home-cta { color: var(--brand-dark); }
+.dash-continue-detail { display: flex; flex-direction: column; gap: 4px; }
+.cont-meta { display: inline-flex; align-items: center; gap: 8px; font-size: var(--text-sm); font-weight: 700; opacity: 0.95; }
+.cont-meta .emblem { --lv-d: rgba(0, 0, 0, 0.3); }
+.cont-title { display: block; }
+
+/* การ์ดรอง: พื้นผิวเรียบ + icon tile สีประจำ (เลิก gradient) */
+.dash-review, .dash-mistakes, .dash-placement, .review-mistakes {
+  background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);
+  transition: border-color var(--motion-fast), transform var(--motion-base) var(--ease-out);
+}
+.dash-review:hover, .dash-mistakes:hover, .dash-placement:hover, .review-mistakes:hover { border-color: var(--color-primary); transform: translateY(-1px); }
+.dash-review-icon, .dash-mistakes-icon, .dash-placement-icon { width: 48px; height: 48px; }
+.dash-review-icon { background: #CCFBF1; color: #0F766E; }
+.dash-mistakes-icon { background: #FFE4E6; color: #BE123C; }
+.dash-placement-icon { background: var(--color-primary-soft); color: var(--color-primary); }
+.home-card-review .dash-review-icon .icon { width: var(--icon-lg); height: var(--icon-lg); }
+.home-cta-sm { background: var(--color-primary-soft); color: var(--color-primary); }
+.dash-mistakes { display: flex; align-items: center; gap: var(--space-3); min-height: 64px; padding: var(--space-4); border-radius: var(--radius-lg); cursor: pointer; }
+.dash-mistakes-text, .dash-placement-text { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.dash-mistakes-count, .dash-placement-title { font-weight: 800; }
+.dash-mistakes-label, .dash-placement-sub { color: var(--color-text-muted); font-size: var(--text-sm); }
+.dash-review-count .icon { color: var(--color-success); }
+:root[data-theme="dark"] .dash-review-icon { background: #12302C; color: #5EEAD4; }
+:root[data-theme="dark"] .dash-mistakes-icon { background: #3B1520; color: #FDA4AF; }
+:root[data-theme="dark"] .dash-continue { background: #4F46E5; }
+
+.dash-level-row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; }
+
+.mascot-tip { display: flex; align-items: center; gap: var(--space-3); margin: 0 0 var(--space-4); padding: 10px var(--space-4) 10px 10px;
+  border-radius: var(--radius-lg); background: var(--color-primary-soft); animation: eq-rise var(--motion-slow) var(--ease-out); }
+.mascot-tip-fox { flex-shrink: 0; width: 56px; height: 56px; }
+.mascot-tip-text { margin: 0; color: var(--color-text); font-weight: 600; }
+.mascot-tip-text .link-btn { margin-left: 4px; }
+
+@media (min-width: 640px) {
+  .home-hero { grid-template-columns: minmax(0, 1fr) minmax(160px, 34%); padding: var(--space-5) var(--space-6); }
+  .home-hero-art { order: 0; width: 100%; }
+}
+@media (min-width: 1024px) {
+  .home-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 40%); min-height: 300px; }
+  .home-hero-art { max-width: var(--illo-lg); }
+}
+@media (max-width: 380px) { .home-hero-art { display: none; } }
+
+/* =====================================================================
+   7) PAGE HERO (หัวหน้า Review / Vocab / Grammar / Leaderboard / Battle / Play)
+   ===================================================================== */
+.page-hero { display: flex; align-items: center; gap: var(--space-4); margin: var(--space-3) 0 var(--space-4); }
+.page-hero-text { flex: 1; min-width: 0; }
+.page-hero-text .page-title, .page-hero-text .path-title { margin-top: 0; }
+.page-hero-text .page-sub, .page-hero-text .path-sub { margin-bottom: 0; }
+.page-hero-art { width: clamp(96px, 22vw, 180px); flex-shrink: 0; }
+@media (max-width: 480px) { .page-hero-art { width: 88px; } }
+.pl-intro-art { width: min(var(--illo-md), 70%); margin: 0 auto var(--space-2); }
+
+/* =====================================================================
+   8) PLAY CARDS — icon tile + accent + ภาพประกอบมุมการ์ด (ไม่ใช่ไอคอนในวงกลมเหมือนกันทุกใบ)
+   ===================================================================== */
+.play-card { position: relative; overflow: hidden; isolation: isolate; min-height: 168px; padding-right: 42%;
+  transition: transform var(--motion-base) var(--ease-out), border-color var(--motion-fast), box-shadow var(--motion-base); }
+.play-card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: var(--shadow-md); }
+.play-card:active { transform: translateY(0); }
+.play-card::before { content: ''; position: absolute; z-index: -1; right: -40px; bottom: -60px; width: 200px; height: 200px;
+  border-radius: 40% 60% 55% 45%; background: var(--accent-soft); }
+.play-card-icon { width: 48px; height: 48px; background: var(--accent); color: #fff; margin-bottom: 4px; }
+.play-card-art { position: absolute; z-index: -1; right: -6px; bottom: -4px; width: 46%; max-width: 190px; pointer-events: none; }
+.play-card-art .illo { --il-bg: transparent; }
+.accent-coral { --accent: #C2410C; --accent-soft: #FFEDD5; }
+.accent-teal { --accent: #0F766E; --accent-soft: #CCFBF1; }
+.accent-indigo { --accent: #4F46E5; --accent-soft: #E0E7FF; }
+:root[data-theme="dark"] .accent-coral { --accent-soft: #3A2316; }
+:root[data-theme="dark"] .accent-teal { --accent-soft: #11302C; }
+:root[data-theme="dark"] .accent-indigo { --accent-soft: #24264F; }
+
+/* =====================================================================
+   9) LEARNING PATH — Journey (เส้นทาง + Node)
+   ===================================================================== */
+.path-level-head .emblem { margin-right: 4px; }
+.path-level-world { font-weight: 600; color: var(--color-text-muted); }
+.path-level-chev { display: inline-grid; transition: transform var(--motion-base) var(--ease-out); color: var(--color-text-muted); }
+.path-level-chev.open { transform: rotate(90deg); }
+
+.path-journey { position: relative; gap: 0; padding: 4px 12px 12px; }
+.path-unit-row { position: relative; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; align-items: start; padding-bottom: 10px; }
+/* เส้นทางเชื่อม Node */
+.path-unit-row::before { content: ''; position: absolute; left: 21px; top: 44px; bottom: -2px; width: 3px; border-radius: 2px;
+  background: var(--color-border); }
+.path-unit-row:last-child::before { display: none; }
+.path-unit-row.node-done::before { background: var(--lv, var(--color-success)); }
+
+.path-node { position: relative; z-index: 1; display: grid; place-items: center; width: 44px; height: 44px; margin-top: 6px; border-radius: 50%;
+  color: var(--color-text-muted); background: var(--color-surface);
+  box-shadow: inset 0 0 0 3px var(--color-border); }
+/* กำลังเรียน: วงความคืบหน้า (conic) */
+.node-active .path-node { color: var(--lv); background:
+  radial-gradient(closest-side, var(--color-surface) calc(100% - 4px), transparent calc(100% - 3px)),
+  conic-gradient(var(--lv) calc(var(--p) * 1%), var(--color-border) 0); box-shadow: none; }
+.node-done .path-node { background: var(--lv, var(--color-success)); color: #fff; box-shadow: 0 3px 0 rgba(0, 0, 0, 0.18); }
+.node-locked .path-node { background: var(--color-surface-2); box-shadow: inset 0 0 0 2px var(--color-border); }
+/* ตำแหน่งปัจจุบัน: วงแหวนเน้น + pulse เบา ๆ */
+.node-current .path-node { background: var(--lv); color: #fff; box-shadow: 0 0 0 4px var(--color-surface), 0 0 0 7px var(--lv); }
+.node-current .path-node::after { content: ''; position: absolute; inset: -7px; border-radius: 50%; border: 3px solid var(--lv);
+  animation: eq-pulse 2.4s var(--ease-out) infinite; }
+.path-unit-body { min-width: 0; }
+.path-unit-line { display: flex; gap: 6px; align-items: stretch; }
+.path-unit-line .path-unit { flex: 1; min-width: 0; }
+.path-unit { transition: border-color var(--motion-fast), transform var(--motion-fast) var(--ease-out); }
+.path-unit:not(:disabled):hover { border-color: var(--lv, var(--color-primary)); }
+.path-unit-icon { display: none; }
+.path-here { display: inline-block; margin: 0 0 6px; }
+.path-pct { font-variant-numeric: tabular-nums; }
+.path-test-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; }
+.path-boss { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.path-boss-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: #FEF3C7; color: #B45309; }
+
+/* แผนที่ระดับ (Flashcard): ตรา CEFR แทนฉากวาดแยกสไตล์ */
+.trail-node .node-scene { display: grid; place-items: center; background: var(--color-surface-2); }
+.trail-node .node-scene::after { display: none; }
+.node-world { font-weight: 600; color: var(--color-text-muted); }
+
+/* =====================================================================
+   10) GRAMMAR / QUIZ / RESULTS
+   ===================================================================== */
+.gp-ch-icon { width: 40px; height: 40px; background: var(--color-primary-soft); color: var(--color-primary); font-size: inherit; }
+.gp-ch.passed .gp-ch-icon { background: var(--color-success); color: #fff; }
+.gp-ch-meta .icon { vertical-align: -0.15em; }
+.lesson-icon { width: 64px; height: 64px; background: var(--color-surface); color: var(--color-primary); box-shadow: var(--shadow-sm); font-size: inherit; }
+.mode-card-icon { width: 48px; height: 48px; color: #fff; font-size: inherit; }
+.mode-selector-title { display: flex; align-items: center; gap: 8px; }
+.practice-label { display: inline-flex; align-items: center; gap: 6px; }
+
+.result-art { display: grid; place-items: center; min-height: 112px; margin: 0 auto var(--space-3); }
+.result-art-sm { min-height: 0; }
+.result-art:empty { display: none; }
+.result-icon { font-size: inherit; line-height: 1; display: grid; place-items: center; min-height: 112px; }
+.pl-result-overall { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.pl-result-name { font-size: var(--text-lg); font-weight: 800; }
+.levelup-art { position: relative; width: 148px; margin: 0 auto; }
+.levelup-num { position: absolute; right: -8px; top: 4px; display: grid; place-items: center; min-width: 40px; height: 40px; padding: 0 8px;
+  border-radius: 12px; background: var(--brand); color: #fff; font-weight: 800; font-size: 1.15rem; box-shadow: 0 3px 0 var(--brand-dark); }
+.review-hero-art { width: min(var(--illo-sm), 50%); margin: 0 auto; }
+.listen-glyph { display: inline-grid; place-items: center; width: 88px; height: 88px; border-radius: 50%; background: var(--color-primary-soft);
+  color: var(--color-primary); }
+.relation-tag { display: inline-flex; align-items: center; gap: 4px; }
+.sb-check { display: inline-grid; color: var(--color-success); }
+.rank-num { display: flex; align-items: center; gap: 2px; }
+.leaderboard-rank { display: grid; place-items: center; }
+.vc-rate-btn, .profile-google-linked, .battle-q-kind, #battle-q-kind { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.grammar-chapter-badge, .grammar-header-title, .friends-section-title, .path-mode-btn { display: inline-flex; align-items: center; gap: 6px; }
+.game-exit, .link-btn, .mini-btn { display: inline-flex; align-items: center; gap: 6px; }
+@media (min-width: 1024px) { #bottom-nav .nav-brand, .nav-brand { display: flex; align-items: center; gap: 10px; } }
+
+/* =====================================================================
+   11) MOTION — 150–350ms · เฉพาะจุด (feedback, achievement, progress)
+   ===================================================================== */
+.home-progress > span, .path-unit-bar > span, .hud-exp-bar-fill, .pl-progress-fill { transition: width var(--motion-slow) var(--ease-out); }
+.tier-unlock { animation: eq-unlock var(--motion-slow) var(--ease-out) both; }
+@keyframes eq-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes eq-pop { 0% { transform: scale(0.6); } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
+@keyframes eq-unlock { 0% { opacity: 0; transform: scale(0.7) rotate(-8deg); } 100% { opacity: 1; transform: none; } }
+@keyframes eq-pulse { 0% { opacity: 0.55; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(1.35); } }
+.screen:not(.hidden) { animation: eq-fade var(--motion-base) var(--ease-out); }
+@keyframes eq-fade { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .node-current .path-node::after { display: none; }
+}
+
+/* ---------- แก้ทับสีตัวอักษรเดิม (เดิมเป็นขาวบนพื้น gradient — ตอนนี้การ์ดรองเป็นพื้นผิวเรียบ) ---------- */
+.dash-review .dash-review-count, .dash-mistakes .dash-mistakes-count, .dash-placement .dash-placement-title { color: var(--color-text); }
+.dash-review .dash-review-label, .dash-mistakes .dash-mistakes-label, .dash-placement .dash-placement-sub { color: var(--color-text-muted); }
+.dash-placement > .icon { color: var(--color-text-muted); }
+.dash-review-count { display: inline-flex; align-items: center; gap: 8px; }
+
+/* ตรา CEFR บนพื้นม่วงหน้า Login: วางบนแผ่นรองโปร่งแสง ให้ B1 (ม่วง) ไม่กลืนพื้น */
+.hero-levels { display: inline-flex; padding: 8px 12px; border-radius: 999px; background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 14px rgba(20, 16, 60, 0.18); }
+.hero-levels .emblem { --lv-d: rgba(0, 0, 0, 0.22); }
+
+/* ---------- Journey: ล้างเส้น/จุดแบบเดิมของ theme.css แล้วใช้ Node ใหม่ ---------- */
+.path-journey { padding-left: 12px; }
+.path-journey::before { display: none; }
+.path-journey .path-unit-row::before, .path-journey .path-unit-row.is-current::before {
+  left: 21px; top: 50px; bottom: -6px; width: 3px; height: auto; border: 0; border-radius: 2px; box-shadow: none; animation: none;
+  background: var(--color-border);
+}
+.path-journey .path-unit-row.node-done::before { background: var(--lv, var(--color-success)); }
+.path-journey .path-unit-row:last-child::before { display: none; }
+.path-journey .path-unit-row.is-current .path-here { left: 56px; }
+.path-journey .path-unit-row.is-current { margin-top: var(--space-5); }
+
+/* Play card: ภาพประกอบมุมขวาบน ข้อความเต็มความกว้างด้านล่าง (ไม่ซ้อนทับตัวอักษร) */
+.play-card { padding-right: var(--space-5); padding-top: var(--space-5); }
+.play-card::before { right: -50px; top: -70px; bottom: auto; width: 190px; height: 170px; }
+.play-card-art { top: 6px; right: 4px; bottom: auto; width: 116px; }
+.play-card-icon { margin-bottom: var(--space-4); }
+.play-card-title { padding-right: 0; }
+.leaderboard-rank { min-width: 44px; }
+.leaderboard-rank .tier-badge, .rank-num .tier-badge { width: 38px; height: 40px; }
+.leaderboard-rank .tier-badge > b, .rank-num .tier-badge > b { font-size: 0.95rem; transform: translateY(-4px); }
+
+/* ผลตอบกว้างเท่าคอลัมน์ตัวเลือก */
+.quiz-feedback { width: min(92vw, 380px); margin: 0 auto; }
+/* ตัวอย่างในบทเรียน: เดิมพื้นครีม hard-code -> อ่านไม่ออกในธีมมืด */
+.example-item { background: var(--color-warning-soft); border-left-color: var(--color-warning); }
+
+/* บรรทัด EXP ในแผงผลตอบ */
+.feedback-exp { display: flex; align-items: flex-start; gap: 6px; margin-top: 6px; font-size: 0.85rem; font-weight: 700; }
+.feedback-exp .icon { margin-top: 2px; }
+.feedback-exp.is-gain { color: var(--color-warning); }
+.feedback-exp.is-none { color: var(--color-text-muted); font-weight: 600; }
+
+/* ---------- กัน "เฉลยหลุด" จาก hover ค้าง ----------
+   เดิม: ตัวเลือกที่บังเอิญอยู่ใต้นิ้ว/เมาส์ตอนกดปุ่มก่อนหน้า (เช่น FIND MATCH) จะถูกไฮไลต์ทันทีที่ข้อแรกโผล่
+   (จอสัมผัสมี sticky hover) — ดูเหมือนระบบบอกคำตอบ
+   ใหม่: ไฮไลต์ตอน hover เฉพาะอุปกรณ์ที่มีเมาส์จริง และต้อง "ขยับเมาส์ในกลุ่มตัวเลือก" ก่อน (คลาส .hover-armed) */
+.quiz-choice:hover:not(:disabled):not(.chosen):not(.correct):not(.wrong) {
+  border-color: var(--color-border); background: var(--color-surface); transform: none;
+}
+/* ตัวเลือกที่ปิดแล้ว (หลังตอบ/เฉลย): hover ไม่เปลี่ยนสีเลย — กันเข้าใจผิดว่าเป็นเฉลย เมื่อ layout เลื่อนมาอยู่ใต้เมาส์ */
+.quiz-choice:disabled:hover:not(.chosen):not(.correct):not(.wrong) {
+  border-color: var(--color-border); background: var(--color-surface); transform: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .hover-armed .quiz-choice:hover:not(:disabled):not(.chosen):not(.correct):not(.wrong) {
+    border-color: var(--color-primary); background: var(--color-primary-soft);
+  }
+}
+
+/* ลิงก์สนับสนุนผู้พัฒนา (หน้าหลัก + โปรไฟล์) */
+.support-card { display: flex; align-items: center; gap: var(--space-3); margin: var(--space-3) 0; padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text);
+  text-decoration: none; min-height: 64px; transition: border-color var(--motion-fast); }
+.support-card:hover, .support-card:focus-visible { border-color: var(--brand-accent, #FF6F3C); }
+.support-icon { display: grid; place-items: center; width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px;
+  background: rgba(255, 111, 60, 0.14); color: #D9541C; }
+.support-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.support-title { font-weight: 800; }
+.support-sub { font-size: var(--text-sm); color: var(--color-text-muted); }
+.support-card > .icon:last-child { color: var(--color-text-muted); flex-shrink: 0; }
+:root[data-theme="dark"] .support-icon { color: #FF9A6B; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) .support-icon { color: #FF9A6B; } }
+
+/* โลโก้จิ้งจอก (รูปภาพ) — วงกลมพร้อมขอบบาง ให้เด่นทั้งบนพื้นม่วงและพื้นมืด */
+img.brand-mark { border-radius: 50%; box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.85), 0 2px 6px rgba(31, 35, 64, 0.18); flex-shrink: 0; object-fit: cover; }
+
+/* หน้าเรียน: ปุ่มค้นหาคำศัพท์ + ปุ่มทบทวน (ทบทวนย้ายจากเมนูล่างมาไว้ที่นี่และหน้าหลัก) */
+.path-quick { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.path-quick .vb-open { flex: 1 1 auto; }
+.path-review-btn { position: relative; }
+.path-review-btn .nav-badge { position: static; margin-left: 6px; }
+
+/* ---------- เพิ่มเพื่อนจากกระดานอันดับ ---------- */
+.lb-friend { flex-shrink: 0; display: inline-flex; min-width: 36px; justify-content: center; }
+.lb-friend:empty { min-width: 0; }
+.lb-fr-btn, .lb-fr-chip { display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-primary); cursor: pointer; }
+.lb-fr-btn:hover, .lb-fr-btn:focus-visible { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.lb-fr-btn.is-accept { background: var(--color-success-soft); color: var(--color-success); border-color: var(--color-success); }
+.lb-fr-btn.is-friend { color: var(--color-text-muted); }
+.lb-fr-chip { cursor: default; color: var(--color-text-muted); border-style: dashed; }
+.lb-fr-btn:disabled { opacity: .5; cursor: progress; }
+
+/* ---------- ปุ่มแชทบนแถบบน ---------- */
+#hud .hud-chat { flex-shrink: 0; margin-left: auto; position: relative; }
+#hud .hud-chat + .hud-audio { margin-left: var(--space-2, 8px); }
+#hud .hud-chat-badge { position: absolute; top: -4px; right: -6px; min-width: 18px; height: 18px; padding: 0 5px; font-size: 11px; line-height: 18px; }
+
+/* ---------- หน้าแชท ---------- */
+.chat-convos { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.chat-convo { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 10px 12px; cursor: pointer;
+  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); color: var(--color-text); font: inherit; }
+.chat-convo:hover, .chat-convo:focus-visible { border-color: var(--color-primary); }
+.chat-convo.has-unread { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.chat-convo-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.chat-convo-main small { color: var(--color-text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chat-convo.has-unread .chat-convo-main small { color: var(--color-text); font-weight: 600; }
+.chat-convo-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; color: var(--color-text-muted); flex-shrink: 0; }
+.chat-convo-meta .nav-badge { position: static; }
+
+.chat-thread-view { display: flex; flex-direction: column; height: calc(100dvh - 190px); min-height: 360px; }
+.chat-thread-head { display: flex; align-items: center; gap: 10px; padding: 6px 0 10px; border-bottom: 1px solid var(--color-border); }
+.chat-peer { flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.chat-peer > span:last-child { display: flex; flex-direction: column; min-width: 0; }
+.chat-peer b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chat-peer small { color: var(--color-text-muted); font-size: .8rem; }
+.chat-messages { flex: 1; overflow-y: auto; padding: 12px 2px; display: flex; flex-direction: column; gap: 6px; overscroll-behavior: contain; }
+.chat-older { align-self: center; margin-bottom: 6px; }
+.chat-day { align-self: center; font-size: .75rem; color: var(--color-text-muted); padding: 2px 10px; margin: 6px 0;
+  border-radius: 999px; background: var(--color-surface); border: 1px solid var(--color-border); }
+.chat-empty { margin: auto; color: var(--color-text-muted); text-align: center; padding: 24px; }
+.chat-bubble { max-width: 78%; padding: 8px 12px; border-radius: 16px; display: flex; flex-direction: column; gap: 2px; word-break: break-word; }
+.chat-bubble .chat-text { white-space: pre-wrap; line-height: 1.45; }
+.chat-bubble .chat-meta { font-size: .7rem; opacity: .75; align-self: flex-end; }
+.chat-bubble.theirs { align-self: flex-start; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-bottom-left-radius: 4px; }
+.chat-bubble.mine { align-self: flex-end; background: var(--color-primary); color: #fff; border-bottom-right-radius: 4px; }
+.chat-bubble.pending { opacity: .6; }
+.chat-compose { display: flex; gap: 8px; align-items: flex-end; padding-top: 10px; border-top: 1px solid var(--color-border); }
+.chat-compose textarea { flex: 1; resize: none; min-height: 44px; max-height: 120px; padding: 10px 12px; border-radius: 22px; font: inherit;
+  border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); }
+.chat-compose textarea:focus { outline: none; border-color: var(--color-primary); }
+.chat-send { width: 44px; height: 44px; padding: 0; border-radius: 50%; display: inline-grid; place-items: center; flex-shrink: 0; }
+.friend-actions .mini-btn .icon { vertical-align: -2px; }
+
+/* ป้ายเวอร์ชันมุมจอ: มือถือที่มีเมนูล่าง ป้ายไปทับชื่อเมนู -> ซ่อน (ดูเวอร์ชันได้ในหน้าเข้าสู่ระบบ) */
+@media (max-width: 1023px) { body:has(#bottom-nav:not(.hidden)) .version-tag { display: none; } }
+
+/* =====================================================================
+   อ่านง่ายขึ้น (ตรวจ contrast อัตโนมัติทุกธีม) — ตัวอักษรเล็ก/จางที่ต่ำกว่า 4.5:1
+   ===================================================================== */
+.path-test-btn span { color: var(--color-primary); font-size: 0.72rem; }               /* "สอบ" เดิมฟ้าอ่อนบนขาว 1.7:1 */
+.path-level.locked { opacity: 1; }                                                       /* ระดับที่ยังล็อก: ใช้ไอคอนกุญแจ+สีจางแทนการลดความทึบทั้งก้อน */
+.path-level.locked .path-level-head, .path-level.locked > button { filter: saturate(0.6); }
+.home-card-primary .dash-continue-label, .dash-continue-label { opacity: 1; color: #FFFFFF; }
+.vb-chip span { opacity: 1; font-weight: 600; }
+
+/* ---------- แจ้งเตือนบนโทรศัพท์ ---------- */
+.notif-row { grid-template-columns: 1fr auto; }
+.notif-time { display: flex; align-items: center; gap: 10px; margin: 8px 0; flex-wrap: wrap; }
+.notif-time span { font-weight: 600; }
+.notif-time select { min-height: 40px; padding: 0 12px; border-radius: var(--radius-sm); border: 1px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font: inherit; }
+.notif-time small { color: var(--color-text-muted); }
+.notif-time.is-off { opacity: .6; }
+.notif-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.notif-actions .btn { flex: 1; min-width: 130px; }
+.notif-steps { padding-left: 1.3em; margin: 8px 0 16px; display: grid; gap: 6px; }
+.notif-nudge { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 0 0 var(--space-4); padding: 12px 14px;
+  border-radius: var(--radius-md); background: var(--color-primary-soft); border: 1px solid var(--color-border); }
+.notif-nudge-icon { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--color-surface); color: var(--color-primary); flex-shrink: 0; }
+.notif-nudge-text { flex: 1; min-width: 160px; display: flex; flex-direction: column; }
+.notif-nudge-text small { color: var(--color-text-muted); }
+.notif-nudge-actions { display: flex; gap: 6px; }
+#btn-whats-new { margin-bottom: var(--space-4); }
+
+/* ---------- แพตช์โน้ต ---------- */
+.cl-card { max-width: 480px; }
+.cl-kicker { display: flex; justify-content: center; align-items: center; gap: 6px; margin: 0 0 4px; font-weight: 800; font-size: .85rem; color: var(--color-primary); }
+.cl-body { text-align: left; max-height: min(62vh, 560px); overflow-y: auto; margin-bottom: 14px; padding-right: 2px; }
+.cl-meta { margin: 0; color: var(--color-text-muted); font-size: .85rem; }
+.cl-title { margin: 2px 0 10px; font-size: var(--text-lg); line-height: 1.35; }
+.cl-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.cl-list li { display: flex; gap: 12px; align-items: flex-start; }
+.cl-list li > span:last-child { display: flex; flex-direction: column; }
+.cl-list small { color: var(--color-text-muted); line-height: 1.5; }
+.cl-icon { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; flex-shrink: 0;
+  background: var(--color-primary-soft); color: var(--color-primary); }
+.cl-sep { border: 0; border-top: 1px dashed var(--color-border); margin: 16px 0; }
+
+/* ---------- ปุ่ม "ถัดไป" ของการ์ดคำศัพท์: ลอยติดขอบล่างจอ ไม่ต้องเลื่อนหา ---------- */
+#btn-quiz-next { position: sticky; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 20; overflow: hidden; isolation: isolate;
+  min-height: 52px; box-shadow: 0 8px 22px rgba(31, 35, 64, .28); }
+#gq-next:not(.hidden) { position: sticky; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 20; box-shadow: 0 8px 22px rgba(31, 35, 64, .28); }

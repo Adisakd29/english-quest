@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>EnglishQuest — ผจญภัยคำศัพท์ภาษาอังกฤษ</title>
+<meta name="description" content="เรียนคำศัพท์และแกรมม่าภาษาอังกฤษ Oxford 3000+5000 พร้อมข้อสอบแนว TOEIC/TOEFL ระบบ EXP และเลเวล" />
+
+<!-- ===== PWA / ไอคอนบนหน้าจอโทรศัพท์ ===== -->
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta name="theme-color" content="#F6F7FB" />
+
+<!-- favicon (แท็บเบราว์เซอร์) -->
+<link rel="icon" href="/img/favicon.ico?v=2" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png?v=2" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png?v=2" />
+
+<!-- iOS: ไอคอนบนหน้าจอ + เปิดแบบเต็มจอไม่มีแถบ Safari -->
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png?v=2" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="EnglishQuest" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="application-name" content="EnglishQuest" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Noto+Sans+Thai:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<!-- ธีมสว่าง "Colorful Learning Adventure" (ถอดสองบรรทัดนี้ = กลับเป็นธีมเดิม) -->
+<link rel="stylesheet" href="css/theme-auto.css" />
+<link rel="stylesheet" href="css/theme.css" />
+<link rel="stylesheet" href="css/theme-dark.css" />
+<link rel="stylesheet" href="css/visual.css" />
+<link rel="stylesheet" href="css/ranked.css" />
+<link rel="stylesheet" href="css/rankmap.css" />
+<link rel="stylesheet" href="css/theme-cute.css" />
+<link rel="stylesheet" href="css/event.css" />
+<link rel="stylesheet" href="css/theme-halloween.css" />
+<script>
+  /* ตั้งธีมก่อนวาดหน้า (กันจอกะพริบสว่าง->มืด): light / dark / ไม่ตั้ง = ตามระบบ */
+  try { var t = localStorage.getItem('eq_theme'), d = document.documentElement;
+    if (t === 'light' || t === 'dark' || t === 'cute') d.dataset.theme = t;
+    else if (t === 'halloween-2026') { d.dataset.theme = 'dark'; d.dataset.skin = 'halloween'; d.classList.add('hw-booting'); } } catch (e) {}
+</script>
+</head>
+<body>
+
+<div class="sys-bar hidden" id="update-bar" role="status" aria-live="polite">
+  <span>มีเวอร์ชันใหม่ของ EnglishQuest</span>
+  <button class="mini-btn" id="update-apply" type="button">อัปเดตเลย</button>
+  <button class="mini-btn ghost" id="update-later" type="button" aria-label="ภายหลัง">ภายหลัง</button>
+</div>
+<div class="sys-bar sys-bar-offline hidden" id="offline-bar" role="status" aria-live="polite">ออฟไลน์อยู่ — การบันทึกความก้าวหน้าต้องใช้อินเทอร์เน็ต</div>
+<div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+
+<!-- ============== AUTH SCREEN ============== -->
+<section id="screen-auth" class="screen">
+  <div class="auth-wrap">
+    <div class="auth-hero">
+      <div class="auth-hero-top">
+        <div class="brand">
+          <img class="brand-mark" src="/img/logo-fox-96.png?v=1" srcset="/img/logo-fox-96.png?v=1 1x, /img/logo-fox-192.png?v=1 2x" width="40" height="40" alt="" />
+          <span class="brand-title display">EnglishQuest</span>
+        </div>
+        <h1 class="auth-message">Learn English. <br />Build confidence. <br />Level up every day.</h1>
+        <p class="brand-sub">เรียนภาษาอังกฤษทีละขั้น จาก A1 ถึง C1 ด้วยคำศัพท์ Oxford แกรมม่า และการทบทวนที่ปรับตามคุณ</p>
+        <div class="hero-levels" aria-label="ระดับ CEFR ที่เรียนได้: A1 ถึง C1">
+          <span data-emblem="A1" data-size="sm"></span>
+          <span data-emblem="A2" data-size="sm"></span>
+          <span data-emblem="B1" data-size="sm"></span>
+          <span data-emblem="B2" data-size="sm"></span>
+          <span data-emblem="C1" data-size="sm"></span>
+        </div>
+      </div>
+      <div class="auth-hero-art" data-illo="login"></div>
+    </div>
+
+    <div class="auth-card">
+      <!-- เข้าสู่ระบบด้วย Google (แสดงเมื่อเซิร์ฟเวอร์ตั้ง GOOGLE_CLIENT_ID) — ใช้ร่วมกันทั้งแท็บเข้าสู่ระบบ/สมัคร -->
+      <div class="google-auth hidden" id="google-auth">
+        <div class="google-btn-wrap" id="google-btn"></div>
+        <div class="google-loading hidden" id="google-loading" aria-live="polite">กำลังเข้าสู่ระบบด้วย Google…</div>
+        <div class="form-error" id="google-error" role="alert"></div>
+        <div class="auth-divider"><span id="google-divider-text">หรือใช้อีเมล</span></div>
+      </div>
+      <div class="tabs">
+        <button class="tab-btn active" id="tab-login" type="button">เข้าสู่ระบบ</button>
+        <button class="tab-btn" id="tab-register" type="button">สมัครสมาชิก</button>
+      </div>
+
+      <form id="form-login">
+        <div class="form-group">
+          <label for="login-identifier">ชื่อผู้ใช้ หรืออีเมล</label>
+          <input id="login-identifier" type="text" autocomplete="username" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">รหัสผ่าน</label>
+          <input id="login-password" type="password" autocomplete="current-password" required />
+        </div>
+        <div class="form-error" id="login-error"></div>
+        <button type="button" class="link-btn hidden" id="login-resend">ส่งอีเมลยืนยันอีกครั้ง</button>
+        <button type="submit" class="btn btn-primary btn-block" id="login-submit">เข้าสู่ระบบ</button>
+        <button type="button" class="link-btn" id="btn-forgot">ลืมรหัสผ่าน?</button>
+      </form>
+
+      <!-- ฟอร์มขอลิงก์ตั้งรหัสผ่านใหม่ -->
+      <form id="form-forgot" class="hidden">
+        <p class="auth-note">
+          กรอกอีเมลที่ใช้สมัคร เราจะส่งลิงก์สำหรับตั้งรหัสผ่านใหม่ไปให้
+        </p>
+        <div class="form-group">
+          <label for="forgot-email">อีเมล</label>
+          <input id="forgot-email" type="email" autocomplete="email" required />
+        </div>
+        <div class="form-error" id="forgot-error"></div>
+        <div class="form-success hidden" id="forgot-success"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="forgot-submit">ส่งลิงก์ตั้งรหัสผ่านใหม่</button>
+        <button type="button" class="link-btn" id="btn-back-login"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับไปเข้าสู่ระบบ</button>
+      </form>
+
+      <!-- ฟอร์มตั้งรหัสผ่านใหม่ (เปิดจากลิงก์ในอีเมล) -->
+      <form id="form-reset" class="hidden">
+        <p class="auth-note" id="reset-greeting">ตั้งรหัสผ่านใหม่</p>
+        <div class="form-group">
+          <label for="reset-password">รหัสผ่านใหม่ (อย่างน้อย <span data-min-pw>8</span> ตัวอักษร)</label>
+          <input id="reset-password" type="password" autocomplete="new-password" required minlength="8" data-min-pw-input />
+        </div>
+        <div class="form-group">
+          <label for="reset-password2">ยืนยันรหัสผ่านใหม่</label>
+          <input id="reset-password2" type="password" autocomplete="new-password" required minlength="8" data-min-pw-input />
+        </div>
+        <div class="form-error" id="reset-error"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="reset-submit">บันทึกรหัสผ่านใหม่</button>
+        <button type="button" class="link-btn" id="btn-reset-cancel"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับไปเข้าสู่ระบบ</button>
+      </form>
+
+      <div class="auth-verify hidden" id="auth-verify-panel" role="status" aria-live="polite">
+        <div class="auth-verify-icon" data-icon="mail-check" data-icon-class="icon-xl"></div>
+        <h2>ตรวจสอบอีเมลของคุณ</h2>
+        <p>เราส่งลิงก์ยืนยันไปที่ <b id="verify-email-to"></b> แล้ว — กดลิงก์ในอีเมลเพื่อเริ่มใช้งาน (ลิงก์ใช้ได้ 24 ชั่วโมง)</p>
+        <p class="auth-verify-hint">ไม่เห็นอีเมล? ลองดูในโฟลเดอร์สแปม</p>
+        <button type="button" class="btn btn-secondary btn-block" id="verify-resend">ส่งอีเมลอีกครั้ง</button>
+        <div class="form-error" id="verify-msg" role="alert"></div>
+        <button type="button" class="link-btn" id="verify-back">กลับไปหน้าเข้าสู่ระบบ</button>
+      </div>
+      <form id="form-register" class="hidden">
+        <div class="form-group">
+          <label for="reg-username">ชื่อผู้ใช้</label>
+          <input id="reg-username" type="text" autocomplete="username" required minlength="3" maxlength="20" />
+        </div>
+        <div class="form-group">
+          <label for="reg-email">อีเมล</label>
+          <input id="reg-email" type="email" autocomplete="email" required />
+        </div>
+        <div class="form-group">
+          <label for="reg-password">รหัสผ่าน (อย่างน้อย <span data-min-pw>8</span> ตัวอักษร)</label>
+          <input id="reg-password" type="password" autocomplete="new-password" required minlength="8" data-min-pw-input />
+        </div>
+        <div class="form-error" id="register-error"></div>
+        <button type="submit" class="btn btn-primary btn-block" id="register-submit">สร้างบัญชีและเริ่มผจญภัย</button>
+      </form>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ============== APP SHELL ============== -->
+<div id="app-shell" class="hidden">
+
+  <header id="hud">
+    <div class="container">
+      <button class="hud-avatar" id="hud-avatar" type="button" aria-label="เปิดหน้าโปรไฟล์"></button>
+      <div class="hud-id">
+        <div class="hud-username" id="hud-username">—</div>
+        <div class="hud-level-tag" id="hud-level-tag">LV.1</div>
+      </div>
+      <div class="hud-exp-wrap" id="hud-exp-wrap">
+        <div class="hud-exp-bar-bg"><div class="hud-exp-bar-fill" id="hud-exp-fill"></div></div>
+        <div class="hud-exp-label" id="hud-exp-label">0 / 80 EXP</div>
+      </div>
+      <button class="rk-icon-btn hud-chat" type="button" id="hud-chat" aria-label="แชทกับเพื่อน"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#message-circle"></use></svg><span class="nav-badge hud-chat-badge hidden" id="hud-chat-badge">0</span></button>
+      <button class="rk-icon-btn hud-audio" type="button" data-audio-menu aria-label="ตั้งค่าเสียงและเพลง"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#volume-2"></use></svg></button>
+    </div>
+  </header>
+
+  <!-- ============== HOME SCREEN ==============
+       ลำดับตามความสำคัญ: เรียนต่อ -> เป้าหมายวันนี้ -> Mastery -> สำรวจ -> อื่น ๆ
+       (Battle / เพื่อน / อันดับ อยู่ในเมนู "เล่น" ไม่เด่นกว่าการเรียน) -->
+  <section id="screen-home" class="screen">
+    <div class="container container-wide">
+      <header class="home-hero">
+        <div class="home-hero-text">
+          <h1 id="home-greeting" class="home-title">ยินดีต้อนรับกลับมา</h1>
+          <p class="home-hero-sub">พร้อมสำหรับบทเรียนวันนี้หรือยัง?</p>
+          <button class="dash-continue home-card-primary" id="dash-continue" type="button">
+            <span class="dash-continue-text">
+              <span class="dash-continue-label">เรียนต่อ</span>
+              <span class="dash-continue-detail" id="dash-continue-detail">เริ่มเรียนคำศัพท์ A1</span>
+              <span class="home-progress" aria-hidden="true"><span id="dash-continue-bar" style="width:0%"></span></span>
+              <span class="home-progress-label" id="dash-continue-pct"></span>
+            </span>
+            <span class="home-cta"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#play"></use></svg> เรียนต่อ</span>
+          </button>
+        </div>
+        <div class="home-hero-art" data-illo="home"></div>
+      </header>
+      <div class="mascot-tip hidden" id="home-mascot-wrap">
+        <span class="mascot-tip-fox" id="home-mascot-fox" data-mascot="normal"></span>
+        <p class="mascot-tip-text" id="home-mascot" aria-live="polite"></p>
+      </div>
+      <div class="notif-nudge hidden" id="notif-nudge" role="region" aria-label="เปิดการแจ้งเตือน"></div>
+      <div class="verify-banner hidden" id="verify-banner" role="region" aria-label="ยืนยันอีเมล">
+        <span>ยืนยันอีเมลเพื่อปกป้องบัญชีและกู้รหัสผ่านได้</span>
+        <button class="mini-btn" id="verify-banner-send" type="button">ส่งลิงก์ยืนยัน</button>
+      </div>
+      <button class="ev-banner hidden" id="event-banner" type="button" data-nav-to="event"></button>
+      <div class="home-grid">
+        <div class="home-main">
+
+          <section class="home-card" aria-labelledby="goal-title">
+            <h2 class="home-card-title" id="goal-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#target"></use></svg> เป้าหมายวันนี้</h2>
+            <div class="home-goal-num"><b id="goal-done">0</b> / <span id="goal-target">20</span> ข้อ</div>
+            <div class="home-progress home-progress-lg" role="progressbar" aria-labelledby="goal-title" aria-valuemin="0" aria-valuemax="20" aria-valuenow="0" id="goal-bar-wrap"><span id="goal-bar" style="width:0%"></span></div>
+            <p class="home-card-sub" id="goal-sub">ตอบคำถามจากบทเรียนใดก็ได้ — นับทั้งคำศัพท์และแกรมม่า</p>
+          </section>
+        </div>
+
+        <aside class="home-side">
+          <section class="home-card" aria-labelledby="mastery-title">
+            <h2 class="home-card-title" id="mastery-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#sparkles"></use></svg> ความแม่นยำ 30 วันล่าสุด</h2>
+            <div id="home-mastery" class="home-mastery"><div class="skeleton skeleton-row"></div><div class="skeleton skeleton-row"></div><div class="skeleton skeleton-row"></div></div>
+            <p class="home-card-sub">วัดจากคำตอบจริง ไม่ใช่ EXP · คำที่จำได้แล้ว <b id="home-words-known">0</b> คำ</p>
+          </section>
+
+          <section class="home-card" aria-labelledby="progress-title">
+            <h2 class="home-card-title" id="progress-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#book-open"></use></svg> ความคืบหน้าคำศัพท์</h2>
+            <div class="dash-progress" id="dash-progress"><div class="skeleton skeleton-row"></div><div class="skeleton skeleton-row"></div></div>
+          </section>
+
+          <nav class="home-explore" aria-label="สำรวจเนื้อหา">
+            <button class="home-link" id="home-btn-words" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#search"></use></svg><span>ค้นหาคำศัพท์</span><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+            <button class="home-link" id="home-btn-grammar" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#languages"></use></svg><span>เรียนแกรมม่า 16 บท</span><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+          </nav>
+
+          <button class="dash-mistakes hidden" id="dash-mistakes" type="button">
+            <span class="dash-mistakes-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#target"></use></svg></span>
+            <span class="dash-mistakes-text">
+              <span class="dash-mistakes-count" id="dash-mistakes-count">0 คำ</span>
+              <span class="dash-mistakes-label">คำที่ตอบผิดบ่อย — ฝึกจุดอ่อน</span>
+            </span>
+            <span class="home-cta-sm">ฝึกเลย</span>
+          </button>
+
+          <button class="dash-placement" id="dash-placement" type="button">
+            <span class="dash-placement-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#compass"></use></svg></span>
+            <span class="dash-placement-text">
+              <span class="dash-placement-title" id="dash-placement-title">วัดระดับภาษาอังกฤษของคุณ</span>
+              <span class="dash-placement-sub" id="dash-placement-sub">31 ข้อ ~10 นาที · รู้ว่าควรเริ่มเรียนระดับไหน</span>
+            </span>
+            <svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg>
+          </button>
+
+          <!-- ลิงก์สนับสนุนผู้พัฒนา (เปิดแท็บใหม่ · ไม่ส่งข้อมูลผู้ใช้ไปด้วย) -->
+          <a class="support-card" href="https://ezdn.app/defadisak" target="_blank" rel="noopener noreferrer">
+            <span class="support-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#coffee"></use></svg></span>
+            <span class="support-text"><span class="support-title">สนับสนุน EnglishQuest</span>
+              <span class="support-sub">ช่วยค่าเซิร์ฟเวอร์และพัฒนาเนื้อหาใหม่ ๆ — ใช้งานฟรีเหมือนเดิม</span></span>
+            <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#external-link"></use></svg>
+          </a>
+
+          <button class="dash-admin hidden" id="dash-admin" type="button">
+            <svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#shield-check"></use></svg> จัดการเนื้อหาคำศัพท์ (ผู้ดูแล)
+            <span class="dash-admin-badge" id="dash-admin-badge"></span>
+          </button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============== RANKED QUEST (Animal League) ============== -->
+  <section id="screen-ranked" class="screen hidden" aria-labelledby="rk-title">
+    <div class="container">
+      <h1 class="sr-only" id="rk-title">Ranked Quest</h1>
+      <div id="rk-lobby" aria-live="polite"><div class="skeleton skeleton-card"></div></div>
+    </div>
+  </section>
+  <section id="screen-ranked-match" class="screen hidden" aria-label="Ranked Quest match">
+    <div class="container rk-match-wrap" id="rk-match"></div>
+    <div class="rk-comms hidden" id="rk-comms" aria-label="คุยกับเพื่อนร่วมทีม"></div>
+  </section>
+  <section id="screen-ranked-result" class="screen hidden" aria-label="ผลการแข่ง Ranked Quest">
+    <div class="container" id="rk-result"></div>
+  </section>
+  <section id="screen-ranked-journey" class="screen hidden" aria-labelledby="rk-journey-title">
+    <div class="container container-wide rkm-page">
+      <div class="rkm-top">
+        <button class="game-exit" id="rk-journey-back" type="button" aria-label="กลับหน้าแรงค์"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> <span class="rkm-back-text">กลับหน้าแรงค์</span></button>
+        <div id="rk-journey-modes"></div>
+      </div>
+      <h1 class="page-title rkm-title" id="rk-journey-title">เส้นทางสู่แรงค์สูงสุด</h1>
+      <ul class="rkm-legend" aria-label="ความหมายของสัญลักษณ์">
+        <li><span class="rkm-lg rkm-lg-done"></span>ผ่านแล้ว</li><li><span class="rkm-lg rkm-lg-cur"></span>กำลังแข่งขัน</li>
+        <li><span class="rkm-lg rkm-lg-ready"></span>พร้อมเลื่อนแรงค์</li><li><span class="rkm-lg rkm-lg-lock"></span>ยังไม่ปลดล็อก</li>
+      </ul>
+      <div id="rk-journey" class="rkm-root"></div>
+    </div>
+  </section>
+  <section id="screen-ranked-history" class="screen hidden" aria-labelledby="rk-hist-title">
+    <div class="container">
+      <div class="rkm-top">
+        <button class="game-exit" id="rk-hist-back" type="button" aria-label="กลับหน้าแรงค์"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> <span class="rkm-back-text">กลับหน้าแรงค์</span></button>
+        <div id="rk-hist-modes"></div>
+      </div>
+      <h1 class="page-title" id="rk-hist-title">ประวัติการแข่ง</h1>
+      <ul class="rk-hc-list rk-hc-full" id="rk-hist-list" aria-live="polite"></ul>
+      <button class="btn btn-secondary btn-block hidden" id="rk-hist-more" type="button">โหลดเพิ่ม</button>
+    </div>
+  </section>
+  <section id="screen-event" class="screen hidden ev-screen" aria-labelledby="ev-title">
+    <div class="container container-wide">
+      <button class="game-exit" id="ev-back" type="button"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับ</button>
+      <div id="ev-root" aria-live="polite"></div>
+    </div>
+  </section>
+  <section id="screen-ranked-leaderboard" class="screen hidden" aria-labelledby="rk-lb-title">
+    <div class="container">
+      <button class="game-exit" id="rk-lb-back" type="button"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับ Ranked Quest</button>
+      <h1 class="page-title" id="rk-lb-title">Ranked Leaderboard</h1>
+      <div class="vd-seg lb-mode" role="group" aria-label="ชนิดกระดานอันดับ">
+        <button type="button" class="vd-seg-btn" aria-pressed="false" data-lb-mode="exp">EXP การเรียน</button>
+        <button type="button" class="vd-seg-btn active" aria-pressed="true" data-lb-mode="ranked">Ranked Quest</button>
+      </div>
+      <div id="rk-lb-modes"></div>
+      <div class="lb-tabs" role="tablist" aria-label="ช่วงของอันดับ" id="rk-lb-tabs">
+        <button class="lb-tab active" role="tab" aria-selected="true" data-scope="season" type="button">Season</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-scope="friends" type="button">เพื่อน</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-scope="weekly" type="button">สัปดาห์นี้</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-scope="global" type="button">Global</button>
+      </div>
+      <p class="page-sub" id="rk-lb-sub"></p>
+      <ol class="rk-lb" id="rk-lb-list" aria-live="polite"></ol>
+    </div>
+  </section>
+
+  <!-- ============== PLAY ============== -->
+  <section id="screen-play" class="screen hidden">
+    <div class="container">
+      <header class="page-hero"><div class="page-hero-text"><h1 class="page-title">เล่น</h1>
+        <p class="page-sub">แข่งคำศัพท์กับเพื่อนแบบเรียลไทม์ แล้วเก็บ EXP ขึ้นอันดับ</p></div><div class="page-hero-art" data-illo="battle"></div></header>
+      <div class="online-badge" id="online-badge" title="จำนวนคนที่กำลังใช้งานอยู่ตอนนี้">
+        <span class="online-dot"></span>
+        <span id="online-count-text">กำลังเชื่อมต่อ…</span>
+      </div>
+      <div id="play-event-slot"></div>
+      <div class="play-grid">
+        <button class="play-card accent-coral" id="home-btn-battle" type="button">
+          <span class="play-card-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#swords"></use></svg></span>
+          <span class="play-card-title">ห้องแข่งคำศัพท์</span><span class="play-card-sub">สร้างห้องแล้วชวนเพื่อนมาแข่งกันแบบเรียลไทม์</span>
+          <span class="play-card-art" data-illo="battle"></span>
+        </button>
+        <button class="play-card accent-teal" id="home-btn-friends" type="button">
+          <span class="play-card-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#users"></use></svg></span>
+          <span class="play-card-title">เพื่อน <span class="nav-badge hidden" id="nav-friend-badge">0</span></span><span class="play-card-sub">ดูว่าใครออนไลน์ และคำขอเป็นเพื่อน</span>
+          <span class="play-card-art" data-illo="empty-friends"></span>
+        </button>
+        <button class="play-card accent-indigo" id="btn-leaderboard" type="button">
+          <span class="play-card-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#trophy"></use></svg></span>
+          <span class="play-card-title">อันดับ</span><span class="play-card-sub">EXP การเรียน และ Ranked Quest</span>
+          <span class="play-card-art" data-illo="leaderboard"></span>
+        </button>
+        <button class="play-card accent-teal" type="button" data-nav-to="chat">
+          <span class="play-card-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#message-circle"></use></svg></span>
+          <span class="play-card-title">แชท</span><span class="play-card-sub">คุยกับเพื่อนในแอป</span>
+          <span class="play-card-art" data-illo="empty-friends"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PROFILE ============== -->
+  <section id="screen-profile" class="screen hidden">
+    <div class="container">
+      <div class="profile-head">
+        <div class="profile-avatar-lg" id="profile-avatar-lg" aria-hidden="true"></div>
+        <div>
+          <h1 class="page-title profile-name" id="profile-name">—</h1>
+          <div class="profile-level" id="profile-level">LV.1</div>
+        </div>
+      </div>
+      <section class="home-card" aria-labelledby="exp-title">
+        <h2 class="home-card-title" id="exp-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#flame"></use></svg> EXP และเลเวล</h2>
+        <div class="home-goal-num"><b id="profile-exp">0 / 80</b> EXP</div>
+        <div class="home-progress home-progress-lg" aria-hidden="true"><span id="profile-exp-bar" style="width:0%"></span></div>
+        <p class="home-card-sub" id="profile-exp-next">EXP วัดปริมาณกิจกรรมที่ทำ — ความสามารถจริงดูที่ "ความแม่นยำ" ในหน้าหลัก</p>
+      </section>
+      <section class="home-card hidden" aria-labelledby="profile-rank-title" id="profile-rank"></section>
+      <section class="home-card" aria-labelledby="theme-title">
+        <h2 class="home-card-title" id="theme-title">การแสดงผล</h2>
+        <div class="vd-seg theme-seg" role="radiogroup" aria-labelledby="theme-title">
+          <button type="button" class="vd-seg-btn" role="radio" data-theme-choice="system">ตามระบบ</button>
+          <button type="button" class="vd-seg-btn" role="radio" data-theme-choice="light">สว่าง</button>
+          <button type="button" class="vd-seg-btn" role="radio" data-theme-choice="dark">มืด</button>
+          <button type="button" class="vd-seg-btn" role="radio" data-theme-choice="cute"><span class="theme-swatch" aria-hidden="true"></span>พาสเทล</button>
+        </div>
+        <div class="theme-premium" id="theme-premium"></div>
+      </section>
+      <section class="home-card" aria-labelledby="notif-title" id="notif-card">
+        <h2 class="home-card-title" id="notif-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#mail"></use></svg> การแจ้งเตือน</h2>
+        <div id="notif-body"><p class="page-sub">กำลังโหลด…</p></div>
+      </section>
+      <button class="home-link" type="button" id="btn-whats-new"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#sparkles"></use></svg><span>มีอะไรใหม่ (แพตช์โน้ต)</span><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+      <a class="support-card" href="https://ezdn.app/defadisak" target="_blank" rel="noopener noreferrer">
+        <span class="support-icon"><svg class="icon icon-lg" aria-hidden="true"><use href="/assets/icons/icons.svg#coffee"></use></svg></span>
+        <span class="support-text"><span class="support-title">สนับสนุนผู้พัฒนา</span>
+          <span class="support-sub">ชอบ EnglishQuest? ร่วมสนับสนุนได้ที่ ezdn.app</span></span>
+        <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#external-link"></use></svg>
+      </a>
+      <section class="home-card audio-card" id="audio-settings-card" aria-labelledby="audio-title"></section>
+      <div class="profile-actions">
+        <button class="home-link" id="profile-edit" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#settings"></use></svg><span>แก้ไขโปรไฟล์ อวตาร และบัญชี Google</span><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+        <button class="home-link hidden" id="profile-admin" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#shield-check"></use></svg><span>จัดการเนื้อหา (ผู้ดูแล)</span><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+        <button class="home-link home-link-danger" id="btn-logout" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#log-out"></use></svg><span>ออกจากระบบ</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CHAT SCREEN (แชทกับเพื่อน) ============== -->
+  <section id="screen-chat" class="screen hidden">
+    <div class="container">
+      <div class="chat-list-view" id="chat-list-view">
+        <div class="grammar-top">
+          <button class="game-exit" id="chat-back-home" type="button"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับ</button>
+          <button class="mini-btn ghost" type="button" data-nav-to="friends"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#user-plus"></use></svg> เพิ่มเพื่อน</button>
+        </div>
+        <h1 class="page-title">แชท</h1>
+        <p class="page-sub">คุยได้เฉพาะเพื่อนที่ตอบรับแล้ว · ข้อความเป็นตัวอักษรเท่านั้น</p>
+        <div class="chat-convos" id="chat-convos" aria-live="polite"></div>
+      </div>
+      <div class="chat-thread-view hidden" id="chat-thread-view">
+        <div class="chat-thread-head">
+          <button class="rk-icon-btn" id="chat-thread-back" type="button" aria-label="กลับไปรายการแชท"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg></button>
+          <div class="chat-peer" id="chat-peer"></div>
+          <button class="mini-btn ghost friend-more" id="chat-peer-menu" type="button" aria-label="ตัวเลือก">⋯</button>
+        </div>
+        <div class="chat-messages" id="chat-messages" role="log" aria-live="polite"></div>
+        <form class="chat-compose" id="chat-compose" autocomplete="off">
+          <textarea id="chat-input" rows="1" maxlength="500" placeholder="พิมพ์ข้อความ…" aria-label="ข้อความ"></textarea>
+          <button class="btn btn-primary chat-send" type="submit" aria-label="ส่ง"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#send"></use></svg></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FRIENDS SCREEN ============== -->
+  <section id="screen-friends" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-friends-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge" id="friends-online-badge">ออนไลน์ 0 คน</div>
+      </div>
+
+      <div class="friends-search">
+        <input type="text" id="friend-search-input" placeholder="ค้นหาเพื่อนจากชื่อผู้ใช้…"
+               autocomplete="off" />
+        <button class="btn btn-primary" id="friend-search-btn">ค้นหา</button>
+      </div>
+      <div class="friend-list" id="friend-search-results"></div>
+
+      <div class="friends-section hidden" id="friend-requests-section">
+        <div class="friends-section-title">
+          <svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#mail"></use></svg> คำขอเป็นเพื่อน <span class="count-pill" id="requests-count">0</span>
+        </div>
+        <div class="friend-list" id="friend-requests-list"></div>
+      </div>
+
+      <div class="friends-section hidden" id="friend-outgoing-section">
+        <div class="friends-section-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#hourglass"></use></svg> คำขอที่ส่งไป</div>
+        <div class="friend-list" id="friend-outgoing-list"></div>
+      </div>
+
+      <div class="friends-section">
+        <div class="friends-section-title">
+          <svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#users"></use></svg> เพื่อนของฉัน <span class="count-pill" id="friends-count">0</span>
+        </div>
+        <div class="friend-list" id="friends-list"></div>
+      <section class="friends-section hidden" id="blocked-section" aria-labelledby="blocked-title">
+        <h2 class="friends-section-title" id="blocked-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#ban"></use></svg> ผู้ใช้ที่บล็อกไว้</h2>
+        <div class="friend-list" id="blocked-list"></div>
+      </section>
+      </div>
+    </div>
+  </section>
+  <!-- ============== BATTLE ROOM SCREENS ============== -->
+  <section id="screen-battle-home" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-battle-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#swords"></use></svg> ห้องแข่ง</div>
+      </div>
+
+      <header class="page-hero"><div class="page-hero-text"><h1 class="page-title">ห้องแข่งคำศัพท์</h1>
+        <p class="page-sub">สร้างห้องแล้วส่งรหัสให้เพื่อน หรือใส่รหัสเพื่อเข้าห้องที่มีอยู่</p></div><div class="page-hero-art" data-illo="battle"></div></header>
+      <div class="battle-panel">
+        <div class="battle-panel-title">สร้างห้องใหม่</div>
+        <label class="battle-label">ระดับคำศัพท์</label>
+        <div class="level-picker" id="battle-level-picker">
+          <button class="level-chip active" data-level="A1">A1</button>
+          <button class="level-chip" data-level="A2">A2</button>
+          <button class="level-chip" data-level="B1">B1</button>
+          <button class="level-chip" data-level="B2">B2</button>
+          <button class="level-chip" data-level="C1">C1</button>
+        </div>
+        <label class="battle-label">จำนวนข้อ</label>
+        <div class="level-picker" id="battle-count-picker">
+          <button class="level-chip" data-count="5">5 ข้อ</button>
+          <button class="level-chip active" data-count="10">10 ข้อ</button>
+          <button class="level-chip" data-count="15">15 ข้อ</button>
+        </div>
+        <button class="btn btn-primary btn-block" id="btn-create-room">สร้างห้อง</button>
+      </div>
+
+      <div class="battle-panel">
+        <div class="battle-panel-title">เข้าห้องเพื่อน</div>
+        <div class="friends-search">
+          <input type="text" id="join-code-input" placeholder="ใส่รหัสห้อง 6 หลัก"
+                 maxlength="6" autocomplete="off" style="text-transform:uppercase;" />
+          <button class="btn btn-primary" id="btn-join-room">เข้าห้อง</button>
+        </div>
+        <div class="form-error" id="battle-error"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-battle-lobby" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-lobby-leave"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> ออกจากห้อง</button>
+        <div class="grammar-chapter-badge" id="lobby-level">A1</div>
+      </div>
+
+      <div class="room-code-box">
+        <div class="room-code-label">รหัสห้อง — บอกเพื่อนให้เข้ามาได้เลย</div>
+        <div class="room-code" id="room-code">------</div>
+        <button class="mini-btn accept" id="btn-copy-code"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#copy"></use></svg> คัดลอกรหัส</button>
+      </div>
+
+      <div class="friends-section">
+        <div class="friends-section-title">
+          ผู้เล่นในห้อง <span class="count-pill" id="lobby-player-count">0</span>
+        </div>
+        <div class="friend-list" id="lobby-players"></div>
+      </div>
+
+      <div class="friends-section" id="lobby-invite-section">
+        <div class="friends-section-title">ชวนเพื่อนที่ออนไลน์</div>
+        <div class="friend-list" id="lobby-invite-list"></div>
+      </div>
+
+      <button class="btn btn-secondary btn-block hidden" id="btn-ready" type="button" aria-pressed="false" style="margin-top:18px;">ฉันพร้อมแล้ว</button>
+      <p class="lobby-ready-count" id="lobby-ready-count" aria-live="polite"></p>
+      <button class="btn btn-primary btn-block" id="btn-start-battle" style="margin-top:18px;">
+        เริ่มแข่ง
+      </button>
+      <div class="battle-hint" id="lobby-hint">รอเจ้าของห้องกดเริ่ม…</div>
+    </div>
+  </section>
+
+  <section id="screen-battle-play" class="screen hidden">
+    <div class="container">
+      <div class="battle-hud">
+        <div class="battle-q-count" id="battle-q-count">ข้อ 1 / 10</div>
+        <div class="battle-timer-wrap">
+          <div class="battle-timer-fill" id="battle-timer-fill"></div>
+        </div>
+        <div class="battle-score" id="battle-my-score">0</div>
+      </div>
+
+      <div class="battle-scoreboard" id="battle-scoreboard"></div>
+
+      <div class="battle-question" id="battle-question">
+        <div class="battle-q-kind" id="battle-q-kind"></div>
+        <div class="battle-q-prompt" id="battle-q-prompt"></div>
+      </div>
+
+      <div class="grammar-quiz-choices" id="battle-choices"></div>
+      <div class="battle-progress" id="battle-progress"></div>
+    </div>
+  </section>
+
+  <section id="screen-battle-result" class="screen hidden">
+    <div class="container">
+      <div class="result-card">
+        <div class="result-icon" id="battle-result-icon"></div>
+        <div class="result-title" id="battle-result-title">จบเกม!</div>
+        <div class="result-score" id="battle-result-rank">อันดับ 1</div>
+        <div class="gr-exp-line" id="battle-result-exp"></div>
+      </div>
+      <div class="friends-section">
+        <div class="friends-section-title">อันดับทั้งหมด</div>
+        <div class="friend-list" id="battle-ranking"></div>
+      </div>
+      <button class="btn btn-primary btn-block" id="btn-battle-again" style="margin-top:16px;">
+        กลับห้องรอ
+      </button>
+      <button class="link-btn" id="btn-battle-exit"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+    </div>
+  </section>
+
+  <!-- ============== VOCABULARY BROWSER ============== -->
+  <section id="screen-vocab" class="screen hidden">
+    <div class="container">
+      <header class="page-hero"><div class="page-hero-text"><h1 class="path-title">ค้นหาคำศัพท์</h1>
+        <p class="path-sub">คำศัพท์ Oxford 3000 และ Oxford 5000 · ค้นได้ทั้งภาษาอังกฤษและภาษาไทย</p></div><div class="page-hero-art" data-illo="vocab"></div></header>
+      <label class="sr-only" for="vb-q">ค้นหาคำศัพท์</label>
+      <input type="search" id="vb-q" class="vb-search" placeholder="พิมพ์คำ เช่น achieve หรือ ธนาคาร" maxlength="40" autocomplete="off" />
+      <div class="vb-levels" id="vb-levels" role="group" aria-label="ระดับ CEFR"></div>
+      <button class="vb-filter-btn" id="vb-filter-btn" type="button" aria-haspopup="dialog">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#sliders-horizontal"></use></svg>
+        <span>ตัวกรอง</span><span class="vb-filter-count hidden" id="vb-filter-count">0</span>
+      </button>
+      <div class="vb-filters" id="vb-filter-fields">
+        <label class="sr-only" for="vb-pos">ชนิดคำ</label>
+        <select id="vb-pos">
+          <option value="">ทุกชนิดคำ</option>
+          <option value="noun">คำนาม (noun)</option><option value="verb">คำกริยา (verb)</option>
+          <option value="adjective">คำคุณศัพท์ (adjective)</option><option value="adverb">คำกริยาวิเศษณ์ (adverb)</option>
+          <option value="preposition">คำบุพบท (preposition)</option><option value="pronoun">คำสรรพนาม (pronoun)</option>
+          <option value="conjunction">คำเชื่อม (conjunction)</option><option value="determiner">คำนำหน้านาม (determiner)</option>
+          <option value="modal verb">กริยาช่วย (modal verb)</option><option value="exclamation">คำอุทาน (exclamation)</option>
+          <option value="number">ตัวเลข (number)</option>
+        </select>
+        <label class="sr-only" for="vb-status">สถานะ</label>
+        <select id="vb-status">
+          <option value="">ทุกสถานะ</option>
+          <option value="new">ยังไม่เคยเรียน</option><option value="learning">กำลังเรียน</option>
+          <option value="reviewing">กำลังทบทวน</option><option value="mastered">จำได้แม่นแล้ว</option>
+        </select>
+        <label class="sr-only" for="vb-source">รายการ</label>
+        <select id="vb-source">
+          <option value="">Oxford ทั้งหมด</option>
+          <option value="OXFORD_3000">Oxford 3000</option>
+          <option value="OXFORD_5000_ADDITIONAL">Oxford 5000 (เพิ่มเติม)</option>
+        </select>
+      </div>
+      <div class="vb-count" id="vb-count" aria-live="polite"></div>
+      <div class="vb-list" id="vb-list"></div>
+      <div class="admin-pager">
+        <button class="mini-btn ghost" id="vb-prev"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> ก่อนหน้า</button>
+        <span id="vb-page"></span>
+        <button class="mini-btn ghost" id="vb-next">ถัดไป <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== VOCABULARY CARD ============== -->
+  <section id="screen-vocab-card" class="screen hidden">
+    <div class="container">
+      <button class="game-exit" id="vc-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับไปรายการคำ</button>
+      <article class="vc-card" id="vc-card" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <!-- ============== LEARNING PATH SCREEN ============== -->
+  <section id="screen-path" class="screen hidden">
+    <div class="container">
+      <div class="path-head">
+        <header class="page-hero"><div class="page-hero-text"><h1 class="path-title">เส้นทางการเรียน</h1></div><div class="page-hero-art" data-illo="vocab"></div></header>
+        <div class="path-quick">
+          <button class="vb-open" id="path-open-vocab" type="button"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#search"></use></svg> ค้นหาคำศัพท์ทั้งหมด</button>
+        </div>
+        <div class="path-view" role="radiogroup" aria-label="รูปแบบเส้นทาง">
+          <button class="path-view-btn active" data-view="recommended" role="radio" aria-checked="true" type="button">เส้นทางแนะนำ</button>
+          <button class="path-view-btn" data-view="explore" role="radio" aria-checked="false" type="button">สำรวจอิสระ</button>
+        </div>
+        <p class="path-sub" id="path-view-sub">เรียนตามลำดับ · รู้ 80% ของคำใน Unit = ผ่าน · ผ่าน 60% ของระดับ = ปลดล็อกระดับถัดไป</p>
+        <div class="path-mode" role="radiogroup" aria-label="โหมดฝึก">
+          <button class="path-mode-btn active" data-mode="read" role="radio" aria-checked="true"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#book-open"></use></svg> อ่าน</button>
+          <button class="path-mode-btn" data-mode="listening" role="radio" aria-checked="false"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#headphones"></use></svg> ฟัง</button>
+        </div>
+        <div class="path-mode-note hidden" id="path-mode-note"></div>
+      </div>
+      <div id="path-levels"></div>
+    </div>
+  </section>
+
+  <!-- ============== ASSESSMENT SCREEN (Unit Test / Boss) ============== -->
+  <section id="screen-assessment" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-as-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับเส้นทางการเรียน</button>
+        <div class="grammar-chapter-badge" id="as-badge"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#file-pen-line"></use></svg> สอบ</div>
+      </div>
+
+      <div id="as-quiz" class="pl-panel">
+        <div class="pl-progress-row">
+          <span id="as-counter">ข้อ 1 / 10</span>
+          <span id="as-title" class="admin-tag"></span>
+        </div>
+        <div class="pl-progress"><div class="pl-progress-fill" id="as-progress-fill"></div></div>
+        <div class="pl-question-label" id="as-question-label"></div>
+        <div class="pl-question" id="as-question"></div>
+        <div class="grammar-quiz-choices" id="as-choices"></div>
+        <div class="pl-nav">
+          <button class="mini-btn ghost" id="as-prev"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> ข้อก่อน</button>
+          <button class="mini-btn ghost" id="as-skip">ไม่รู้ / ข้าม</button>
+        </div>
+      </div>
+
+      <div id="as-result" class="pl-panel hidden">
+        <div class="result-art" id="as-result-art"></div>
+        <div class="pl-result-label" id="as-result-label">ผลการสอบ</div>
+        <div class="pl-result-overall" id="as-result-big">80%</div>
+        <div class="pl-recommend" id="as-result-msg"></div>
+        <div class="gr-exp-line" id="as-result-exp"></div>
+        <button class="btn btn-primary btn-block" id="as-continue">กลับเส้นทางการเรียน</button>
+        <button class="link-btn" id="as-show-review">ดูเฉลยทั้งหมด</button>
+        <div class="friend-list hidden" id="as-review"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PLACEMENT TEST SCREEN ============== -->
+  <section id="screen-placement" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-placement-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#compass"></use></svg> วัดระดับ</div>
+      </div>
+
+      <!-- หน้าแนะนำ -->
+      <div id="pl-intro" class="pl-panel">
+        <div class="pl-intro-art" data-illo="placement"></div>
+        <h2 class="pl-title">หาระดับของคุณ</h2>
+        <ul class="pl-facts">
+          <li><b>31</b> ข้อ</li>
+          <li>ประมาณ <b>10</b> นาที</li>
+          <li>ข้อไหนไม่รู้ กด <b>ข้าม</b> ได้</li>
+        </ul>
+        <p class="pl-note">ผลเป็นระดับโดยประมาณ (Estimated CEFR) ใช้แนะนำจุดเริ่มเรียน ไม่ใช่การรับรองอย่างเป็นทางการ</p>
+        <button class="btn btn-primary btn-block" id="pl-start">เริ่มทำแบบทดสอบ</button>
+        <button class="btn btn-secondary btn-block hidden" id="pl-resume" type="button">ทำต่อ</button>
+        <div class="form-error" id="pl-error"></div>
+      </div>
+
+      <!-- หน้าทำข้อสอบ -->
+      <div id="pl-quiz" class="pl-panel hidden">
+        <div class="pl-progress-row">
+          <span id="pl-counter">ข้อ 1 / 31</span>
+          <span id="pl-skill-tag" class="admin-tag"></span>
+        </div>
+        <div class="pl-progress"><div class="pl-progress-fill" id="pl-progress-fill"></div></div>
+        <div class="pl-question-label" id="pl-question-label"></div>
+        <div class="pl-question" id="pl-question"></div>
+        <div class="grammar-quiz-choices" id="pl-choices"></div>
+        <div class="pl-nav">
+          <button class="mini-btn ghost" id="pl-prev"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> ข้อก่อน</button>
+          <button class="mini-btn ghost" id="pl-skip">ไม่แน่ใจ / ข้าม</button>
+        </div>
+      </div>
+
+      <!-- หน้าผล -->
+      <div id="pl-result" class="pl-panel hidden">
+        <div class="result-art result-art-sm" id="pl-result-art"></div>
+        <div class="pl-result-label">Estimated CEFR Level</div>
+        <div class="pl-result-overall" id="pl-result-overall">B1</div>
+        <div class="pl-result-grid">
+          <div class="pl-result-item"><span>คำศัพท์</span><b id="pl-result-vocab">-</b></div>
+          <div class="pl-result-item"><span>แกรมม่า</span><b id="pl-result-grammar">-</b></div>
+          <div class="pl-result-item"><span>ตอบถูก</span><b id="pl-result-score">-</b></div>
+        </div>
+        <div class="pl-insights">
+          <section class="pl-insight pl-good"><h3><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#circle-check"></use></svg> จุดแข็ง</h3><ul id="pl-strengths"></ul></section>
+          <section class="pl-insight pl-work"><h3><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-up-right"></use></svg> ควรฝึกเพิ่ม</h3><ul id="pl-practice"></ul></section>
+        </div>
+        <div class="pl-recommend" id="pl-recommend"></div>
+        <div class="pl-disclaimer">ระดับโดยประมาณจากแบบทดสอบ 31 ข้อ ไม่ใช่การรับรอง CEFR อย่างเป็นทางการ ทำซ้ำได้ทุกเมื่อ</div>
+        <button class="btn btn-primary btn-block" id="pl-go-learn">เริ่มเรียนจุดที่แนะนำ</button>
+        <button class="link-btn" id="pl-show-review">ดูเฉลยทั้งหมด</button>
+        <div class="friend-list hidden" id="pl-review"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ADMIN SCREEN ============== -->
+  <section id="screen-admin" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-admin-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <div class="grammar-chapter-badge"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#wrench"></use></svg> ผู้ดูแล</div>
+      </div>
+
+      <div class="admin-stats" id="admin-stats"></div>
+      <details class="admin-reports" id="admin-reports">
+        <summary><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#flag"></use></svg> รายงานผู้ใช้ที่รอตรวจ <span class="nav-badge hidden" id="admin-reports-count">0</span></summary>
+        <div id="admin-reports-list" class="admin-reports-list"></div>
+      </details>
+
+      <div class="admin-filters">
+        <select id="admin-filter-status" aria-label="สถานะ">
+          <option value="flagged">ต้องตรวจ (flag)</option>
+          <option value="auto">ยังไม่ตรวจ</option>
+          <option value="reviewed">ตรวจแล้ว</option>
+          <option value="">ทั้งหมด</option>
+        </select>
+        <select id="admin-filter-level" aria-label="ระดับ">
+          <option value="">ทุกระดับ</option>
+          <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option>
+        </select>
+        <select id="admin-filter-sort" aria-label="เรียงตาม">
+          <option value="risky">เสี่ยงผิดก่อน</option>
+          <option value="id">ตามลำดับ</option>
+        </select>
+        <input type="search" id="admin-filter-q" placeholder="ค้นหาคำ…" maxlength="40" />
+      </div>
+
+      <div class="admin-hint">
+        "ต้องตรวจ" = คำแปลที่ AI ไม่มั่นใจ (เช่น คำเดียวมีหลายความหมาย) — ยังไม่ถูกใช้ในแบบทดสอบจนกว่าจะยืนยันหรือแก้ไข
+      </div>
+
+      <div class="friend-list" id="admin-word-list"></div>
+
+      <div class="admin-pager">
+        <button class="mini-btn ghost" id="admin-prev"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> ก่อนหน้า</button>
+        <span id="admin-page-info"></span>
+        <button class="mini-btn ghost" id="admin-next">ถัดไป <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- กล่องแก้ไขคำ -->
+  <div class="admin-modal hidden" id="admin-modal" role="dialog" aria-modal="true" aria-labelledby="admin-edit-title">
+    <div class="admin-modal-card">
+      <div class="admin-edit-title" id="admin-edit-title"></div>
+      <div class="admin-edit-meta" id="admin-edit-meta"></div>
+      <label class="battle-label" for="admin-edit-thai">คำแปลไทย (ใช้ในแบบฝึกคำศัพท์ทันทีหลังบันทึก)</label>
+      <input id="admin-edit-thai" maxlength="255" />
+      <label class="battle-label" for="admin-edit-topic">หัวข้อ (ใช้จัด Unit ใน Learning Path)</label>
+      <select id="admin-edit-topic"></select>
+      <label class="battle-label" for="admin-edit-ipa">คำอ่าน (IPA ไม่ต้องใส่ / /)</label>
+      <input id="admin-edit-ipa" maxlength="128" />
+      <label class="battle-label" for="admin-edit-def">ความหมายภาษาอังกฤษ</label>
+      <textarea id="admin-edit-def" maxlength="500" rows="3"></textarea>
+      <label class="battle-label" for="admin-edit-ex">ประโยคตัวอย่าง</label>
+      <textarea id="admin-edit-ex" maxlength="500" rows="2"></textarea>
+      <div class="form-error" id="admin-edit-error"></div>
+      <div class="admin-modal-actions">
+        <button class="btn btn-secondary" id="admin-edit-cancel">ยกเลิก</button>
+        <button class="btn btn-primary" id="admin-edit-save">บันทึก (ตรวจแล้ว)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============== MAP SCREEN ============== -->
+  <section id="screen-map" class="screen hidden">
+    <div class="container">
+      <div class="map-heading">
+        <button class="game-exit map-back-btn" id="btn-map-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <h1>เลือกด่านที่จะผจญภัย</h1>
+        <p>เลือกด่านเพื่อเริ่มเล่น Flashcard</p>
+      </div>
+
+      <div class="trail-track" id="trail-track">
+        <!-- generated by JS -->
+        <div class="skel-grid"><div class="skeleton skel-tile"></div><div class="skeleton skel-tile"></div><div class="skeleton skel-tile"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== LEADERBOARD SCREEN ============== -->
+  <section id="screen-leaderboard" class="screen hidden">
+    <div class="container">
+      <button class="game-exit" id="btn-leaderboard-back" type="button"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับ</button>
+      <header class="page-hero"><div class="page-hero-text"><h1 class="page-title">อันดับ</h1></div><div class="page-hero-art" data-illo="leaderboard"></div></header>
+      <div class="vd-seg lb-mode" role="group" aria-label="ชนิดกระดานอันดับ">
+        <button type="button" class="vd-seg-btn active" aria-pressed="true" data-lb-mode="exp">EXP การเรียน</button>
+        <button type="button" class="vd-seg-btn" aria-pressed="false" data-lb-mode="ranked">Ranked Quest</button>
+      </div>
+      <div class="lb-tabs" role="tablist" aria-label="ช่วงเวลาของอันดับ" id="lb-tabs">
+        <button class="lb-tab active" role="tab" aria-selected="true" data-lb="week" type="button">สัปดาห์นี้</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-lb="month" type="button">เดือนนี้</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-lb="all" type="button">ตลอดกาล</button>
+        <button class="lb-tab" role="tab" aria-selected="false" data-lb="friends" type="button">เพื่อน</button>
+      </div>
+      <p class="page-sub" id="lb-sub">EXP ที่ได้ตั้งแต่วันจันทร์ — ทุกคนเริ่มนับใหม่ทุกสัปดาห์</p>
+      <div class="leaderboard-list" id="leaderboard-list">
+        <div class="skeleton skeleton-row"></div><div class="skeleton skeleton-row"></div><div class="skeleton skeleton-row"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== GAME SCREEN ============== -->
+  <section id="screen-game" class="screen hidden">
+    <div class="container">
+      <div class="game-top">
+        <button class="game-exit" id="btn-exit-game"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับแผนที่</button>
+        <span class="game-level-chip" id="game-level-chip">A1</span>
+      </div>
+
+      <div class="footprints" id="footprints"></div>
+
+      <div class="card-stage" id="card-stage">
+        <div class="deck-shadow two"></div>
+        <div class="deck-shadow"></div>
+        <div class="flip-face quiz-face" id="quiz-face">
+          <span class="card-level-tag" id="card-level-tag-front">A1</span>
+          <span class="card-pos-chip" id="card-pos-chip-front"></span>
+          <div class="card-word" id="card-word-front">word</div>
+          <div class="card-ipa hidden" id="card-ipa" aria-label="คำอ่าน"></div>
+          <button class="speak-btn hidden" id="card-speak" type="button" aria-label="ฟังเสียงคำนี้"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#volume-2"></use></svg></button>
+          <div class="card-question" id="card-question">เลือกความหมายที่ถูกต้อง</div>
+          <div class="quiz-loading hidden" id="quiz-loading">
+            <div class="loading-spinner" style="margin:16px auto;"></div>
+            <div>กำลังเตรียมตัวเลือก...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz-choices" id="quiz-choices"></div>
+      <div class="quiz-feedback" id="quiz-feedback" aria-live="polite"></div>
+
+      <!-- ข้อมูลเสริมจากพจนานุกรม: แสดงหลังตอบเท่านั้น (ไม่เฉลยก่อน) -->
+      <div class="word-dict hidden" id="word-dict">
+        <div class="word-dict-head">ข้อมูลเสริมจากพจนานุกรม</div>
+        <div class="word-dict-def" id="word-dict-def"></div>
+        <div class="word-dict-ex hidden" id="word-dict-ex"></div>
+        <button class="mini-btn ghost hidden" id="word-dict-ex-speak" type="button" aria-label="ฟังประโยคตัวอย่าง"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#volume-2"></use></svg> ฟังประโยค</button>
+        <div class="word-dict-syn hidden" id="word-dict-syn"></div>
+      </div>
+
+      <!-- ตอบถูกแล้วเลือกว่าจำได้แค่ไหน — กำหนดว่าจะเจอคำนี้อีกเมื่อไร (ไม่มีผลกับ EXP) -->
+      
+      <p class="srs-next-info" id="srs-next-info" aria-live="polite"></p>
+      <button class="btn btn-primary quiz-next-btn hidden" id="btn-quiz-next">ถัดไป <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+    </div>
+  </section>
+
+  <!-- ============== SUMMARY SCREEN ============== -->
+  <section id="screen-summary" class="screen hidden">
+    <div class="summary-card">
+      <div class="result-art" id="session-result-art"></div>
+      <h2>จบด่านแล้ว!</h2>
+      <p id="summary-sub">เก่งมาก ไปต่อกันเลย</p>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="num" id="summary-known">0</div><div class="lbl">ตอบถูก</div></div>
+        <div class="summary-stat"><div class="num" id="summary-learning">0</div><div class="lbl">ตอบผิด</div></div>
+        <div class="summary-stat"><div class="num" id="summary-exp">0</div><div class="lbl">EXP ที่ได้</div></div>
+      </div>
+      <div class="summary-actions">
+        <button class="btn btn-secondary" id="btn-summary-map" style="flex:1;">กลับแผนที่</button>
+        <button class="btn btn-primary" id="btn-summary-again" style="flex:1;">เล่นด่านนี้อีกรอบ</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== GRAMMAR LIST SCREEN ============== -->
+  <section id="screen-grammar-list" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-grammar-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับหน้าหลัก</button>
+        <div class="grammar-header-title"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#library"></use></svg> บทเรียนแกรมม่า</div>
+      </div>
+      <header class="page-hero"><div class="page-hero-text"><h1 class="page-title">เส้นทางแกรมม่า</h1>
+        <p class="page-sub" id="gp-sub">16 บทหลัก จัดเป็นขั้นตามระดับ · อ่านบทเรียนแล้วทำแบบฝึก · ผ่าน 80% = ผ่านบท</p></div><div class="page-hero-art" data-illo="grammar"></div></header>
+      <div class="gp-next hidden" id="gp-next"></div>
+      <div class="grammar-chapters" id="grammar-chapters">
+        <div class="skeleton skeleton-card"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== GRAMMAR LESSON SCREEN ============== -->
+  <section id="screen-grammar-lesson" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-lesson-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับรายการบท</button>
+        <div class="grammar-chapter-badge" id="lesson-badge">บทที่ 1</div>
+      </div>
+      <div class="grammar-lesson-head" id="lesson-head">
+        <div class="skeleton skeleton-card"></div>
+      </div>
+      <div class="grammar-lesson-body" id="lesson-body"></div>
+      <div class="grammar-lesson-actions"></div>
+    </div>
+  </section>
+
+  <!-- ============== GRAMMAR QUIZ SCREEN ============== -->
+  <section id="screen-grammar-quiz" class="screen hidden">
+    <div class="container">
+      <div class="grammar-top">
+        <button class="game-exit" id="btn-quiz-back"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#arrow-left"></use></svg> กลับบทเรียน</button>
+        <div class="grammar-chapter-badge" id="quiz-badge">ข้อสอบ</div>
+      </div>
+      <div class="grammar-quiz-progress" id="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+      <div class="grammar-quiz-count" id="quiz-count">ข้อ 1 / 5</div>
+      <div class="grammar-quiz-passage hidden" id="grammar-quiz-passage"></div>
+      <div class="grammar-quiz-question" id="grammar-quiz-question"></div>
+      <div class="grammar-quiz-choices" id="grammar-quiz-choices"></div>
+      <!-- Fill in the blank: พิมพ์คำตอบเอง (เฉพาะข้อที่มีช่องว่างและคำตอบเป็นคำเดียว) -->
+      <div class="gq-type hidden" id="gq-type">
+        <label for="gq-type-input" class="gq-type-label">พิมพ์คำที่หายไป</label>
+        <div class="gq-type-row">
+          <input id="gq-type-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="40" />
+          <button class="btn btn-primary" id="gq-type-submit" type="button">ตรวจ</button>
+        </div>
+      </div>
+      <button class="link-btn hidden" id="gq-type-toggle" type="button">พิมพ์คำตอบเอง (ยากขึ้น)</button>
+      <!-- คำอธิบายทันทีหลังตอบ -->
+      <div class="gq-feedback hidden" id="gq-feedback" role="status" aria-live="polite"></div>
+      <button class="btn btn-primary btn-block hidden" id="gq-next" type="button">ข้อถัดไป <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#chevron-right"></use></svg></button>
+    </div>
+  </section>
+
+  <!-- ============== GRAMMAR QUIZ RESULT SCREEN ============== -->
+  <section id="screen-grammar-result" class="screen hidden">
+    <div class="container">
+      <div class="summary-card">
+        <div class="result-art" id="gr-icon"></div>
+        <h2 id="gr-title">ผลข้อสอบ</h2>
+        <div class="gr-score" id="gr-score">4 / 5</div>
+        <div class="gr-message" id="gr-message"></div>
+        <div class="summary-stats">
+          <div class="summary-stat"><div class="num" id="gr-correct-num">0</div><div class="lbl">ตอบถูก</div></div>
+          <div class="summary-stat"><div class="num" id="gr-wrong-num">0</div><div class="lbl">ตอบผิด</div></div>
+          <div class="summary-stat"><div class="num" id="gr-exp-num">0</div><div class="lbl">EXP ที่ได้</div></div>
+        </div>
+        <div class="gr-review" id="gr-review"></div>
+        <div class="summary-actions">
+          <button class="btn btn-secondary" id="btn-gr-lesson" style="flex:1;"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#book-open"></use></svg> กลับบทเรียน</button>
+          <button class="btn btn-primary" id="btn-gr-retry" style="flex:1;"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons/icons.svg#refresh-cw"></use></svg> ทำใหม่</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== BOTTOM NAVIGATION ============== -->
+  <nav id="bottom-nav" class="hidden" aria-label="เมนูหลัก">
+    <div class="nav-brand" aria-hidden="true"><img class="brand-mark" src="/img/logo-fox-96.png?v=1" srcset="/img/logo-fox-96.png?v=1 1x, /img/logo-fox-192.png?v=1 2x" width="28" height="28" alt="" /> EnglishQuest</div>
+    <button class="nav-item" data-nav="home" type="button">
+      <span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#house"></use></svg></span>
+      <span class="nav-label">หน้าหลัก</span>
+    </button>
+    <button class="nav-item" data-nav="learn" type="button">
+      <span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#book-open"></use></svg></span>
+      <span class="nav-label">เรียน</span>
+    </button>
+    <button class="nav-item" data-nav="ranked" type="button">
+      <span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#swords"></use></svg></span>
+      <span class="nav-label">แรงค์</span>
+    </button>
+    <button class="nav-item" data-nav="play" type="button">
+      <span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#gamepad-2"></use></svg></span>
+      <span class="nav-label">เล่น</span>
+    </button>
+    <button class="nav-item" data-nav="profile" type="button">
+      <span class="nav-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons/icons.svg#user-round"></use></svg></span>
+      <span class="nav-label">โปรไฟล์</span>
+    </button>
+  </nav>
+
+</div>
+
+
+<div class="version-tag" id="version-tag"></div>
+
+<script src="js/graphics.js"></script>
+<script src="js/app.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/rankmap.js"></script>
+<script src="js/ranked.js"></script>
+<script src="js/notify.js"></script>
+<script src="js/hwart.js"></script>
+<script src="js/halloween-fx.js"></script>
+<script src="js/event.js"></script>
+</body>
+</html>

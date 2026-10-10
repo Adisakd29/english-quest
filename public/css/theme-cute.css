@@ -1,0 +1,82 @@
+/* =====================================================================
+   ธีม "พาสเทล" (น่ารัก) — :root[data-theme="cute"]
+   ต่อยอดจากธีมสว่าง: เปลี่ยนเฉพาะสี/มุมโค้ง/ฟอนต์หัวข้อ — โครงสร้างหน้าเหมือนเดิมทุกอย่าง
+   ตัวอักษรทุกคู่สีผ่าน WCAG AA (>= 4.5:1) · ใช้ฟอนต์เดียวกับธีมอื่น (อ่านง่าย — เลิกใช้ฟอนต์ลายมือ)
+   ===================================================================== */
+:root[data-theme="cute"] {
+  --color-bg: #FFF4F8;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #FFEAF3;
+  --color-border: #F7D3E3;
+  --color-text: #4A2540;          /* ม่วงพลัม 11.9:1 บนขาว */
+  --color-text-muted: #7A4868;    /* 6.6:1 */
+  --color-primary: #C2337A;       /* ชมพูเบอร์รี่ — ขาวบนพื้น 5.0:1 */
+  --color-primary-dark: #A3265F;
+  --color-primary-soft: #FFE3EF;
+  --color-secondary: #0E7468;     /* มิ้นต์เข้ม */
+  --color-accent: #B4480C;
+  --color-accent-bright: #FF9EC4;
+  --color-success: #167A43;
+  --color-success-soft: #DDF7E8;
+  --color-warning: #A1520A;
+  --color-warning-soft: #FFF1D6;
+  --color-danger: #B42343;
+  --color-danger-soft: #FFE1E7;
+  --shadow-sm: 0 1px 2px rgba(194, 51, 122, 0.06), 0 2px 6px rgba(194, 51, 122, 0.07);
+  --shadow-md: 0 6px 18px rgba(194, 51, 122, 0.12), 0 2px 4px rgba(194, 51, 122, 0.06);
+  --focus-ring: 0 0 0 3px #FFFFFF, 0 0 0 6px var(--color-primary);
+  --radius-sm: 16px;
+  --radius-md: 22px;
+  --radius-lg: 28px;
+  --white: #3B1C33; --parchment-dim: #5C3350;
+  /* ภาพประกอบ: กระดาษอมชมพู */
+  --il-paper: #FFFFFF; --il-bg: #FFE9F2; --il-line: #F3C6DA; --il-lilac: #F9C9DE; --il-lilac-d: #E79BC0;
+  color-scheme: light;
+}
+
+/* พื้นหลัง: จุดพาสเทลสองสีบนชมพูนม (เบา ไม่รบกวนตัวอักษร) */
+:root[data-theme="cute"] body {
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(rgba(244, 143, 177, 0.22) 1.6px, transparent 1.8px),
+    radial-gradient(rgba(149, 205, 230, 0.26) 1.6px, transparent 1.8px);
+  background-size: 34px 34px, 34px 34px;
+  background-position: 0 0, 17px 17px;
+  background-attachment: fixed;
+}
+:root[data-theme="cute"] h1, :root[data-theme="cute"] h2, :root[data-theme="cute"] h3,
+:root[data-theme="cute"] .page-title, :root[data-theme="cute"] .home-title { letter-spacing: 0; }
+
+/* แถบบน / เมนูล่าง */
+:root[data-theme="cute"] #hud { background: rgba(255, 250, 252, 0.92); box-shadow: 0 1px 0 var(--color-border); }
+:root[data-theme="cute"] #bottom-nav { background: rgba(255, 250, 252, 0.96);
+  box-shadow: 0 -1px 0 var(--color-border), 0 -6px 18px rgba(194, 51, 122, 0.08); }
+:root[data-theme="cute"] .hud-exp-bar-fill { background: linear-gradient(90deg, #FF9EC4, #C9A7FF); }
+
+/* ปุ่ม: ทรงเม็ดยา นุ่ม ๆ */
+:root[data-theme="cute"] .btn, :root[data-theme="cute"] .mini-btn { border-radius: 999px; }
+:root[data-theme="cute"] .btn-primary { box-shadow: 0 4px 0 #9E2462, 0 8px 18px rgba(194, 51, 122, 0.25); }
+:root[data-theme="cute"] .btn-primary:active { transform: translateY(2px); box-shadow: 0 2px 0 #9E2462; }
+:root[data-theme="cute"] .quiz-choice { border-radius: var(--radius-md); }
+
+/* การ์ดเด่น: สีลูกกวาด (ตัวอักษรขาวยังอ่านชัด) */
+:root[data-theme="cute"] .auth-hero { background: linear-gradient(150deg, #C2337A, #9B3FCF 65%, #6D49D8); }
+:root[data-theme="cute"] .dash-continue { background: linear-gradient(135deg, #D0427F, #B02A69); }
+:root[data-theme="cute"] .dash-review { background: linear-gradient(135deg, #0E7468, #0B5E55); }
+:root[data-theme="cute"] .dash-mistakes { background: linear-gradient(135deg, #B42343, #951B37); }
+:root[data-theme="cute"] .dash-placement { background: linear-gradient(135deg, #8A4AD6, #6D35B8); }
+:root[data-theme="cute"] .path-boss.available { background: linear-gradient(135deg, #FFF0F6, #F1E8FF); }
+:root[data-theme="cute"] .skeleton { background: linear-gradient(90deg, var(--color-surface-2) 25%, #FFDDEA 50%, var(--color-surface-2) 75%);
+  background-size: 200% 100%; }
+:root[data-theme="cute"] .toast { border-radius: 999px; }
+:root[data-theme="cute"] .chat-bubble { border-radius: 20px; }
+:root[data-theme="cute"] .version-tag { color: rgba(74, 37, 64, 0.35); }
+
+/* ตัวเลือกธีม: ปุ่มพาสเทลมีจุดสีให้เห็นก่อนกด */
+.theme-swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0;
+  background: linear-gradient(135deg, #FF9EC4, #C9A7FF); box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08); }
+/* ตัวเลือกธีม 4 ปุ่ม: ไม่ตัดคำกลางปุ่มบนจอแคบ */
+.theme-seg .vd-seg-btn { white-space: nowrap; padding-left: 8px; padding-right: 8px; }
+
+/* ตัวอักษรสีหลักขนาดเล็กบนพื้นชมพูอ่อน: ใช้เฉดเข้มขึ้นให้ผ่าน 4.5:1 */
+:root[data-theme="cute"] .gp-next-label, :root[data-theme="cute"] .rk-mode .vd-seg-btn.active small { color: var(--color-primary-dark); }
