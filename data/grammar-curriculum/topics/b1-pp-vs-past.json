@@ -1,0 +1,515 @@
+{
+  "id": "b1-pp-vs-past",
+  "summaryTh": "เลือกให้ถูกระหว่าง \"เกิดแล้ว ยังเกี่ยวกับตอนนี้\" กับ \"จบแล้วในอดีต\"",
+  "concept": {
+    "what": "Present Perfect (have/has + V3) กับ Past Simple (V2) พูดถึงเรื่องที่เกิดแล้วทั้งคู่ ต่างกันที่มุมมอง: Present Perfect เชื่อมอดีตกับตอนนี้ ส่วน Past Simple มองว่าเรื่องจบไปแล้ว อยู่ในช่วงเวลาที่ผ่านไปแล้ว",
+    "when": [
+      "Past Simple: มีเวลาในอดีตที่ระบุชัด เช่น yesterday, last year, two days ago, in 2020, when I was a child",
+      "Present Perfect: เรื่องที่เริ่มในอดีตและยังต่อเนื่องถึงตอนนี้ ใช้กับ for / since (I have lived here since 2019.)",
+      "Present Perfect: ประสบการณ์ในชีวิต ไม่บอกว่าเมื่อไร ใช้กับ ever / never / before / three times",
+      "Present Perfect: ผลยังอยู่ตอนนี้ หรือช่วงเวลายังไม่จบ ใช้กับ just / already / yet / today / this week / so far",
+      "ถามว่า \"เมื่อไร\" (When …?) ใช้ Past Simple เสมอ"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ฉันไปญี่ปุ่นแล้ว\" ได้ทั้งสองความหมาย แต่ภาษาอังกฤษต้องเลือกรูปกริยา ผู้เรียนไทยจึงมักใส่ have กับ yesterday หรือใช้ V2 กับ since ซึ่งเจ้าของภาษาฟังแล้วรู้ทันทีว่าผิด"
+  },
+  "structure": {
+    "formula": "Present Perfect: Subject + have/has + V3 · Past Simple: Subject + V2",
+    "rows": [
+      {
+        "label": "Present Perfect (ต่อเนื่องถึงตอนนี้)",
+        "formula": "Subject + have/has + V3 + for/since …",
+        "example": "She [[has worked]] here [[since]] 2019."
+      },
+      {
+        "label": "Present Perfect (ประสบการณ์)",
+        "formula": "Have/Has + Subject + ever + V3 …?",
+        "example": "[[Have]] you [[ever been]] to Korea?"
+      },
+      {
+        "label": "Past Simple (เวลาในอดีตชัดเจน)",
+        "formula": "Subject + V2 + เวลาในอดีต",
+        "example": "She [[started]] work here [[in 2019]]."
+      },
+      {
+        "label": "Past Simple (ถามรายละเอียด)",
+        "formula": "When/Where/How + did + Subject + V1 …?",
+        "example": "When [[did]] you [[go]] there?"
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "haven't/hasn't + V3 · didn't + V1",
+        "example": "I [[haven't seen]] Tom since Monday. / I [[didn't see]] him yesterday."
+      }
+    ],
+    "notes": [
+      "for + ระยะเวลา (for three years) · since + จุดเริ่มต้น (since 2020, since Monday) — ทั้งคู่ใช้กับ Present Perfect",
+      "… ago, yesterday, last …, in + ปี ใช้กับ Past Simple เท่านั้น ห้ามใช้กับ have/has",
+      "บทสนทนาจริงมักเปิดด้วย Present Perfect (Have you ever …?) แล้วเล่ารายละเอียดต่อด้วย Past Simple (When did you go?)",
+      "been กับ gone: She has been to Japan. (ไปแล้วกลับมาแล้ว) · She has gone to Japan. (ไปแล้ว ตอนนี้ยังอยู่ที่นั่น)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I [[have lived]] in Bangkok [[for]] six years.",
+      "th": "ฉันอาศัยอยู่กรุงเทพฯ มาหกปีแล้ว (ตอนนี้ยังอยู่)"
+    },
+    {
+      "en": "I [[lived]] in Khon Kaen [[for]] six years when I was a child.",
+      "th": "ตอนเด็กฉันเคยอยู่ขอนแก่นหกปี (ตอนนี้ไม่ได้อยู่แล้ว)"
+    },
+    {
+      "en": "[[Have]] you [[ever eaten]] durian? — Yes, I [[tried]] it [[last summer]].",
+      "th": "เคยกินทุเรียนไหม — เคย ลองกินเมื่อหน้าร้อนที่แล้ว"
+    },
+    {
+      "en": "He [[has just finished]] his report, so he can go home now.",
+      "th": "เขาเพิ่งทำรายงานเสร็จ ตอนนี้กลับบ้านได้แล้ว"
+    },
+    {
+      "en": "We [[haven't heard]] from Lek [[since]] she moved to Australia.",
+      "th": "พวกเราไม่ได้ข่าวจากเล็กเลยตั้งแต่เธอย้ายไปออสเตรเลีย"
+    },
+    {
+      "en": "My sister [[got]] her first job [[two years ago]].",
+      "th": "พี่สาวฉันได้งานแรกเมื่อสองปีก่อน"
+    },
+    {
+      "en": "I [[have posted]] three photos on Instagram [[today]].",
+      "th": "วันนี้ฉันโพสต์รูปไปแล้วสามรูป (วันนี้ยังไม่จบ)"
+    },
+    {
+      "en": "When [[did]] you [[start]] learning English? — I [[started]] in Grade 1.",
+      "th": "คุณเริ่มเรียนภาษาอังกฤษเมื่อไร — เริ่มตอน ป.1"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have visited Phuket last year.",
+      "right": "I visited Phuket last year.",
+      "whyTh": "last year เป็นเวลาในอดีตที่จบแล้ว ใช้กับ have/has ไม่ได้ ต้องใช้ Past Simple"
+    },
+    {
+      "wrong": "I live here since 2020.",
+      "right": "I have lived here since 2020.",
+      "whyTh": "since บอกว่าเริ่มในอดีตและยังต่อเนื่องถึงตอนนี้ ต้องใช้ have/has + V3 ภาษาไทยพูด \"อยู่ที่นี่ตั้งแต่ปี 2020\" ไม่เปลี่ยนกริยา จึงพลาดบ่อย"
+    },
+    {
+      "wrong": "When have you arrived?",
+      "right": "When did you arrive?",
+      "whyTh": "คำถาม When ถามจุดเวลาในอดีต จึงใช้ Past Simple เสมอ"
+    },
+    {
+      "wrong": "I have studied English three years ago.",
+      "right": "I started studying English three years ago. / I have studied English for three years.",
+      "whyTh": "ago ใช้กับ Past Simple ถ้าจะบอกระยะเวลาถึงตอนนี้ให้ใช้ for + Present Perfect"
+    },
+    {
+      "wrong": "Did you ever see snow? I never saw it in my life.",
+      "right": "Have you ever seen snow? I have never seen it in my life.",
+      "whyTh": "ประสบการณ์ตลอดชีวิตจนถึงตอนนี้ (ever / never / in my life) ในภาษาอังกฤษมาตรฐานใช้ Present Perfect"
+    }
+  ],
+  "compare": {
+    "title": "Present Perfect vs Past Simple",
+    "with": [
+      "a2-past-simple",
+      "a2-present-perfect-intro"
+    ],
+    "rows": [
+      {
+        "label": "มุมมอง",
+        "a": "Present Perfect: อดีตที่ยังเชื่อมกับตอนนี้",
+        "b": "Past Simple: อดีตที่จบแล้ว ตัดขาดจากตอนนี้"
+      },
+      {
+        "label": "คำบอกเวลา",
+        "a": "for, since, ever, never, just, already, yet, so far, today, this week",
+        "b": "yesterday, last …, … ago, in 2020, when I was …"
+      },
+      {
+        "label": "คำถาม",
+        "a": "Have you ever been to Japan?",
+        "b": "When did you go to Japan?"
+      },
+      {
+        "label": "ตัวอย่างคู่",
+        "a": "She has taught here for ten years. (ยังสอนอยู่)",
+        "b": "She taught here for ten years. (ไม่ได้สอนแล้ว)"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่า \"ช่วงเวลานั้นจบหรือยัง\" ถ้าจบแล้ว หรือมีเวลาในอดีตระบุชัด ใช้ Past Simple · ถ้ายังไม่จบหรือไม่บอกเวลา ใช้ Present Perfect"
+  },
+  "contexts": [
+    {
+      "kind": "conversation",
+      "title": "Meeting a new classmate",
+      "lines": [
+        {
+          "speaker": "Ploy",
+          "text": "How long [[have]] you [[lived]] in Thailand, Sam?"
+        },
+        {
+          "speaker": "Sam",
+          "text": "I[['ve been]] here [[for]] about eight months. I [[arrived]] in February."
+        },
+        {
+          "speaker": "Ploy",
+          "text": "[[Have]] you [[travelled]] much?"
+        },
+        {
+          "speaker": "Sam",
+          "text": "Yes, I[['ve visited]] five provinces so far. [[Last month]] I [[went]] to Nan. It [[was]] beautiful."
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "A post about a new job",
+      "lines": [
+        {
+          "text": "Big news! I[['ve just started]] a new job at a travel company. I [[worked]] at a bank [[for]] three years, but I [[didn't enjoy]] it. I[['ve learned]] so much [[this week]] already. Wish me luck!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Present Perfect",
+      "th": "ปัจจุบันสมบูรณ์ — อดีตที่ยังเกี่ยวกับตอนนี้"
+    },
+    {
+      "en": "Past Simple",
+      "th": "อดีตกาลธรรมดา — เรื่องที่จบไปแล้ว"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ใช้หลัง have/has (เช่น gone, seen, worked)"
+    },
+    {
+      "en": "Finished time",
+      "th": "ช่วงเวลาที่จบไปแล้ว เช่น yesterday, last year"
+    },
+    {
+      "en": "Unfinished time",
+      "th": "ช่วงเวลาที่ยังไม่จบ เช่น today, this week, so far"
+    },
+    {
+      "en": "for / since",
+      "th": "for = นานเท่าไร (ระยะเวลา) · since = ตั้งแต่เมื่อไร (จุดเริ่มต้น)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-pp-vs-past-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "We ___ to Chiang Mai last December.",
+      "choices": [
+        "went",
+        "have gone",
+        "have been",
+        "go"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have gone ใช้กับเวลาที่ระบุชัดอย่าง last December ไม่ได้",
+        "2": "have been เป็น Present Perfect ใช้กับ last December ไม่ได้เช่นกัน",
+        "3": "go เป็นปัจจุบัน แต่ last December จบไปแล้ว"
+      },
+      "explainTh": "last December เป็นเวลาในอดีตที่จบแล้ว จึงใช้ Past Simple: went",
+      "structure": "Subject + V2 + เวลาในอดีต",
+      "example": "We went to Chiang Mai last December."
+    },
+    {
+      "id": "b1-pp-vs-past-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ploy ___ at this company since 2019.",
+      "choices": [
+        "works",
+        "has worked",
+        "worked",
+        "is working"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "works เป็นปัจจุบันธรรมดา ใช้กับ since ไม่ได้ (ภาษาไทยพูดแบบนี้ได้ แต่ภาษาอังกฤษไม่ได้)",
+        "2": "worked บอกว่าจบแล้ว แต่ since 2019 บอกว่ายังทำอยู่ถึงตอนนี้",
+        "3": "is working เป็นปัจจุบันกำลังทำ ใช้กับ since ไม่ได้"
+      },
+      "explainTh": "since + จุดเริ่มต้น (2019) บอกว่าเริ่มในอดีตและยังทำต่อถึงตอนนี้ ใช้ Present Perfect: has worked",
+      "structure": "Subject + have/has + V3 + since …",
+      "example": "Ploy has worked at this company since 2019."
+    },
+    {
+      "id": "b1-pp-vs-past-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "My parents ___ (buy) a new house two months ago.",
+      "accepted": [
+        "bought"
+      ],
+      "explainTh": "two months ago เป็นเวลาในอดีตที่ระบุชัด ใช้ Past Simple · buy เป็นกริยาอปกติ → bought",
+      "structure": "Subject + V2 + … ago",
+      "example": "My parents bought a new house two months ago."
+    },
+    {
+      "id": "b1-pp-vs-past-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I ___ (not / see) Tom since Monday. Is he OK?",
+      "accepted": [
+        "haven't seen",
+        "have not seen"
+      ],
+      "explainTh": "since Monday = ตั้งแต่วันจันทร์จนถึงตอนนี้ ใช้ Present Perfect ปฏิเสธ: haven't + V3 → haven't seen",
+      "structure": "Subject + haven't/hasn't + V3 + since …",
+      "example": "I haven't seen Tom since Monday."
+    },
+    {
+      "id": "b1-pp-vs-past-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "She ___ (live) in London since 2020, and she loves it there.",
+      "accepted": [
+        "has lived",
+        "has been living"
+      ],
+      "explainTh": "since 2020 + ยังอยู่ตอนนี้ (she loves it there) → Present Perfect: has lived (หรือ has been living ก็ได้ เพราะ live ใช้ได้ทั้งสองแบบ)",
+      "structure": "Subject + has + V3 + since …",
+      "example": "She has lived in London since 2020."
+    },
+    {
+      "id": "b1-pp-vs-past-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "She started studying English three years ago.",
+      "instruction": "เขียนใหม่ให้ความหมายเหมือนเดิม โดยใช้ for (ตอนนี้เธอยังเรียนอยู่)",
+      "accepted": [
+        "She has studied English for three years.",
+        "She has been studying English for three years.",
+        "She has learned English for three years.",
+        "She has been learning English for three years.",
+        "She has learnt English for three years."
+      ],
+      "explainTh": "started … ago (Past Simple) บอกจุดเริ่ม ถ้าจะบอกระยะเวลาถึงตอนนี้ ใช้ Present Perfect + for + ระยะเวลา → has studied / has been studying English for three years",
+      "structure": "Subject + have/has + V3 + for + ระยะเวลา",
+      "example": "She has studied English for three years."
+    },
+    {
+      "id": "b1-pp-vs-past-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "The last time I saw Nam was in March.",
+      "instruction": "เขียนใหม่ให้ความหมายเหมือนเดิม ขึ้นต้นด้วย I haven't … และใช้ since",
+      "accepted": [
+        "I haven't seen Nam since March.",
+        "I have not seen Nam since March."
+      ],
+      "explainTh": "\"ครั้งสุดท้ายที่เห็นคือเดือนมีนาคม\" = ตั้งแต่มีนาคมจนถึงตอนนี้ยังไม่เห็นอีกเลย → haven't + V3 + since March",
+      "structure": "Subject + haven't + V3 + since …",
+      "example": "I haven't seen Nam since March."
+    },
+    {
+      "id": "b1-pp-vs-past-08",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I have visited Phuket last year.",
+      "errorPart": "have visited",
+      "accepted": [
+        "I visited Phuket last year."
+      ],
+      "explainTh": "last year เป็นเวลาในอดีตที่จบแล้ว ใช้ Present Perfect ไม่ได้ ต้องใช้ Past Simple: visited",
+      "structure": "Subject + V2 + last …"
+    },
+    {
+      "id": "b1-pp-vs-past-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "How long are you living in Bangkok?",
+      "errorPart": "are you living",
+      "accepted": [
+        "How long have you lived in Bangkok?",
+        "How long have you been living in Bangkok?"
+      ],
+      "explainTh": "How long …? ถามระยะเวลาตั้งแต่อดีตจนถึงตอนนี้ ต้องใช้ Present Perfect (have you lived / have you been living) ไม่ใช่ Present Continuous",
+      "structure": "How long + have/has + Subject + V3 …?"
+    },
+    {
+      "id": "b1-pp-vs-past-10",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "When have you arrived at the airport?",
+      "errorPart": "have you arrived",
+      "accepted": [
+        "When did you arrive at the airport?"
+      ],
+      "explainTh": "When ถามจุดเวลาที่แน่นอนในอดีต จึงใช้ Past Simple: When did you arrive …?",
+      "structure": "When + did + Subject + V1 …?"
+    },
+    {
+      "id": "b1-pp-vs-past-11",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "have",
+        "we",
+        "each",
+        "known",
+        "for",
+        "years",
+        "ten",
+        "other"
+      ],
+      "accepted": [
+        "We have known each other for ten years.",
+        "For ten years we have known each other.",
+        "Have we known each other for ten years?"
+      ],
+      "explainTh": "รู้จักกันมาสิบปีและยังรู้จักกันอยู่ → Subject + have + V3 + for + ระยะเวลา: We have known each other for ten years."
+    },
+    {
+      "id": "b1-pp-vs-past-12",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยคให้ถูกไวยากรณ์",
+      "pairs": [
+        [
+          "She has worked here",
+          "for five years."
+        ],
+        [
+          "She started work here",
+          "five years ago."
+        ],
+        [
+          "Have you ever",
+          "been to Korea?"
+        ],
+        [
+          "When did you",
+          "go to Korea?"
+        ]
+      ],
+      "explainTh": "has worked + for (ยังทำอยู่) · started + ago (จุดเวลาในอดีต) · Have you ever + V3 (ประสบการณ์) · When did you + V1 (ถามเวลาในอดีต)"
+    },
+    {
+      "id": "b1-pp-vs-past-13",
+      "type": "choose",
+      "difficulty": 1,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I have seen that film last week.",
+        "I saw that film last week.",
+        "I have saw that film last week.",
+        "I did see that film since last week."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "last week เป็นเวลาที่จบแล้ว ใช้กับ have seen ไม่ได้",
+        "2": "หลัง have ต้องใช้ V3 (seen) และยังใช้กับ last week ไม่ได้อยู่ดี",
+        "3": "since ใช้กับ Present Perfect ไม่ใช้กับ Past Simple"
+      },
+      "explainTh": "last week = เวลาในอดีตที่ระบุชัด → Past Simple: I saw that film last week."
+    },
+    {
+      "id": "b1-pp-vs-past-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Have you ever been to Japan?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yes, I ___ there in 2022. It was amazing!"
+          }
+        ]
+      },
+      "choices": [
+        "went",
+        "have gone",
+        "have been",
+        "go"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "in 2022 เป็นเวลาที่ระบุชัด ใช้ Present Perfect ไม่ได้",
+        "2": "have been ใช้ตอบว่า \"เคย\" ได้ แต่ใช้กับ in 2022 ไม่ได้",
+        "3": "go เป็นปัจจุบัน แต่ in 2022 จบไปแล้ว"
+      },
+      "explainTh": "คำถามเปิดด้วย Present Perfect (Have you ever …?) แต่พอบอกเวลาชัดเจน (in 2022) ต้องเปลี่ยนเป็น Past Simple: went"
+    },
+    {
+      "id": "b1-pp-vs-past-15",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "Email from Lek",
+        "lines": [
+          {
+            "text": "Hi Dan, I've lived in Chiang Mai for two years now. I moved here from Bangkok in 2024. I've made lots of new friends, but I haven't learned the northern dialect yet. Last month I joined a cooking class, and I loved it. Write soon! Lek"
+          }
+        ]
+      },
+      "question": "What is TRUE about Lek?",
+      "choices": [
+        "She still lives in Chiang Mai.",
+        "She moved to Chiang Mai two months ago.",
+        "She can speak the northern dialect well.",
+        "She is going to join a cooking class next month."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I moved here … in 2024 และ for two years บอกว่าย้ายมาสองปีแล้ว ไม่ใช่สองเดือน",
+        "2": "I haven't learned … yet แปลว่ายังพูดไม่เป็น",
+        "3": "Last month I joined แปลว่าเข้าเรียนไปแล้วเมื่อเดือนที่แล้ว"
+      },
+      "explainTh": "I've lived in Chiang Mai for two years now — Present Perfect + for บอกว่าเริ่มในอดีตและยังอยู่ที่นั่นถึงตอนนี้"
+    },
+    {
+      "id": "b1-pp-vs-past-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "This is the first time I ___ a presentation in English, so I'm a bit nervous.",
+      "choices": [
+        "have given",
+        "gave",
+        "give",
+        "had given"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "gave เป็นอดีตที่จบแล้ว แต่ This is the first time … พูดถึงประสบการณ์จนถึงตอนนี้",
+        "2": "give เป็นปัจจุบันธรรมดา ภาษาไทยพูด \"ครั้งแรกที่ให้\" ได้ แต่ภาษาอังกฤษต้องใช้ Present Perfect",
+        "3": "had given เป็น Past Perfect ใช้คู่กับ It was the first time … (อดีต) ไม่ใช่ This is"
+      },
+      "explainTh": "โครงสร้าง This is the first time + Subject + have/has + V3 เป็นรูปตายตัว เพราะนับประสบการณ์ถึงตอนนี้ → have given"
+    },
+    {
+      "id": "b1-pp-vs-past-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3–4 ประโยคเกี่ยวกับสถานที่ที่คุณเคยไป ใช้ Present Perfect อย่างน้อย 1 ประโยค และ Past Simple พร้อมเวลาในอดีตอย่างน้อย 1 ประโยค (Write 3–4 sentences about a place you have visited. Use the Present Perfect and the Past Simple with a past time.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(have|has|'ve|'s)\\s+(\\w+\\s+)?(\\w+ed|been|seen|done|gone|made|met|had|eaten|taken|bought|got|known|written|heard|read|found|swum|flown|ridden|spent|left|come|driven|given|drunk|slept|sung|won|taught|felt|kept|brought|caught|stood|built|sent|lost|become)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ Present Perfect อย่างน้อย 1 ประโยค เช่น I have been to … / I have never seen …"
+        },
+        {
+          "re": "\\b(yesterday|ago|last \\w+|in (19|20)\\d\\d|in (January|February|March|April|May|June|July|August|September|October|November|December)|when (I|we) (was|were))\\b",
+          "flags": "i",
+          "msgTh": "ใส่เวลาในอดีตที่ระบุชัดในประโยค Past Simple เช่น in 2021, last year, two years ago"
+        }
+      ],
+      "sample": "I have been to Chiang Rai twice. I first went there in 2021 with my family. We visited the White Temple and ate khao soi. I have never seen such a beautiful temple.",
+      "explainTh": "ประโยคประสบการณ์ (twice, never) ใช้ have/has + V3 · ประโยคที่บอกเวลาชัด (in 2021) ใช้ V2 และห้ามใส่ have กับ ago / last / in + ปี"
+    }
+  ]
+}

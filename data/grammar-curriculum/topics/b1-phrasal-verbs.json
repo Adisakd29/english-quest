@@ -1,0 +1,526 @@
+{
+  "id": "b1-phrasal-verbs",
+  "summaryTh": "กริยาวลี (กริยา + up / off / after …) และตำแหน่งของกรรม: turn it off ไม่ใช่ turn off it",
+  "concept": {
+    "what": "Phrasal verb คือกริยาที่มีคำเล็ก ๆ (particle) อย่าง up, off, on, out, after, for มาต่อท้าย แล้วได้ความหมายใหม่ เช่น look = มอง แต่ look after = ดูแล หัวข้อนี้เน้น \"โครงสร้าง\" ว่ากรรมวางตรงไหนได้บ้าง",
+    "when": [
+      "แบบไม่มีกรรม (intransitive): get up, break down, grow up — My car broke down.",
+      "แบบแยกได้ (separable): turn off, pick up, put on, write down — กรรมเป็นคำนาม วางได้สองที่ (turn off the light / turn the light off) แต่ถ้ากรรมเป็นสรรพนาม ต้องวางตรงกลางเท่านั้น (turn it off)",
+      "แบบแยกไม่ได้ (inseparable): look after, look for, get on (a bus), take care of — กรรมอยู่หลัง particle เสมอ (look after her)",
+      "แบบสามคำ: look forward to, run out of, get on with — แยกไม่ได้ และ to ใน look forward to ตามด้วย V-ing"
+    ],
+    "why": "คนไทยมักแปลทีละคำ เช่น \"ปิดมัน\" → turn off it ซึ่งผิด ภาษาอังกฤษบังคับให้สรรพนาม (it, them, her …) อยู่กลาง phrasal verb แบบแยกได้ ถ้าวางผิด ผู้ฟังเข้าใจ แต่ฟังไม่เป็นธรรมชาติและเป็นจุดที่ข้อสอบชอบออก"
+  },
+  "structure": {
+    "formula": "Verb + particle (+ object) · แยกได้: Verb + it/them + particle",
+    "rows": [
+      {
+        "label": "ไม่มีกรรม (Intransitive)",
+        "formula": "Subject + verb + particle",
+        "example": "I [[get up]] at six every day."
+      },
+      {
+        "label": "แยกได้ + คำนาม",
+        "formula": "verb + particle + noun / verb + noun + particle",
+        "example": "[[Turn off]] the light. / [[Turn]] the light [[off]]."
+      },
+      {
+        "label": "แยกได้ + สรรพนาม",
+        "formula": "verb + it / them / her … + particle",
+        "example": "[[Turn it off]], please. (ไม่ใช่ turn off it)"
+      },
+      {
+        "label": "แยกไม่ได้",
+        "formula": "verb + particle + noun / pronoun",
+        "example": "My aunt [[looks after]] her. (ไม่ใช่ looks her after)"
+      },
+      {
+        "label": "สามคำ",
+        "formula": "verb + particle + preposition + object",
+        "example": "We've [[run out of]] rice. · I'm [[looking forward to]] seeing you."
+      }
+    ],
+    "notes": [
+      "แยกได้ที่พบบ่อย: turn on / off / up / down, put on / away, pick up, take off, write down, throw away, wake up (someone), try on, give back, fill in",
+      "แยกไม่ได้ที่พบบ่อย: look after, look for, get on / off (a bus), get over, run into, come across",
+      "สรรพนามกรรม (it, them, him, her, me, us) + phrasal verb แบบแยกได้ → วางตรงกลางเสมอ: pick me up, put them away",
+      "ในคำถาม particle อยู่ท้ายได้: What are you looking for? · Who is she looking after?",
+      "look forward to + V-ing (to เป็นบุพบท) → I'm looking forward to seeing you. ไม่ใช่ to see"
+    ]
+  },
+  "examples": [
+    {
+      "en": "It's late. Please [[turn]] the music [[down]].",
+      "th": "ดึกแล้ว ช่วยเบาเพลงหน่อย"
+    },
+    {
+      "en": "Your coat is on the chair. [[Put it on]] — it's cold outside.",
+      "th": "เสื้อโค้ตอยู่บนเก้าอี้ ใส่เลย ข้างนอกหนาว"
+    },
+    {
+      "en": "My grandma is ill, so my mum is [[looking after]] her.",
+      "th": "ยายป่วย แม่เลยดูแลยายอยู่"
+    },
+    {
+      "en": "I can't find my glasses. Can you help me [[look for]] them?",
+      "th": "หาแว่นไม่เจอ ช่วยหาหน่อยได้ไหม"
+    },
+    {
+      "en": "Her number is long, so I [[wrote it down]].",
+      "th": "เบอร์ของเธอยาว ฉันเลยจดไว้"
+    },
+    {
+      "en": "We [[ran out of]] petrol on the way to Pattaya.",
+      "th": "น้ำมันหมดระหว่างทางไปพัทยา"
+    },
+    {
+      "en": "The bus is here. Let's [[get on]].",
+      "th": "รถเมล์มาแล้ว ขึ้นกันเถอะ"
+    },
+    {
+      "en": "I'll [[pick you up]] at the station at five.",
+      "th": "ฉันจะไปรับเธอที่สถานีตอนห้าโมงเย็น"
+    },
+    {
+      "en": "I'm [[looking forward to]] meeting the new team.",
+      "th": "ฉันตั้งตารอที่จะได้เจอทีมใหม่"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The TV is too loud. Turn off it.",
+      "right": "The TV is too loud. Turn it off.",
+      "whyTh": "turn off แยกได้ ถ้ากรรมเป็นสรรพนาม (it) ต้องวางตรงกลางเสมอ — คนไทยแปลตรง \"ปิดมัน\" จึงพลาดบ่อย"
+    },
+    {
+      "wrong": "Who will look your sister after?",
+      "right": "Who will look after your sister?",
+      "whyTh": "look after (ดูแล) แยกไม่ได้ กรรมต้องอยู่หลัง after เสมอ"
+    },
+    {
+      "wrong": "Wake up me at six, please.",
+      "right": "Wake me up at six, please.",
+      "whyTh": "wake up (ปลุก) แยกได้ สรรพนาม me ต้องอยู่ตรงกลาง → wake me up"
+    },
+    {
+      "wrong": "I'm looking forward to see you.",
+      "right": "I'm looking forward to seeing you.",
+      "whyTh": "to ใน look forward to เป็นบุพบท จึงตามด้วย V-ing ไม่ใช่ V1"
+    },
+    {
+      "wrong": "What are you looking? — My keys.",
+      "right": "What are you looking for? — My keys.",
+      "whyTh": "\"หา\" = look for ต้องมี for เสมอ แม้กรรม (what) จะย้ายไปอยู่หน้าประโยค"
+    }
+  ],
+  "compare": {
+    "title": "Separable vs Inseparable phrasal verbs",
+    "with": [],
+    "rows": [
+      {
+        "label": "ตัวอย่างกริยา",
+        "a": "turn off, put on, pick up, write down",
+        "b": "look after, look for, get on, run out of"
+      },
+      {
+        "label": "กรรมเป็นคำนาม",
+        "a": "turn off the TV / turn the TV off (ได้ทั้งสองแบบ)",
+        "b": "look after the baby (แบบเดียว)"
+      },
+      {
+        "label": "กรรมเป็นสรรพนาม",
+        "a": "turn it off (สรรพนามอยู่ตรงกลางเท่านั้น)",
+        "b": "look after it (สรรพนามอยู่หลัง particle)"
+      },
+      {
+        "label": "รูปที่ผิด",
+        "a": "turn off it ×",
+        "b": "look it after ×"
+      }
+    ],
+    "tipTh": "จำเป็นคู่ ๆ ไว้เลย: turn it off / look after it — ถ้าไม่แน่ใจว่าแยกได้ไหม ให้ดูพจนานุกรม (เขียนแบบ turn sth off = แยกได้ · look after sb = แยกไม่ได้)"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "At home in the evening",
+      "lines": [
+        {
+          "speaker": "Mum",
+          "text": "Ton, your music is really loud. Please [[turn it down]]."
+        },
+        {
+          "speaker": "Ton",
+          "text": "Sorry, Mum. Can I [[turn]] the TV [[on]] instead?"
+        },
+        {
+          "speaker": "Mum",
+          "text": "After you [[put]] your toys [[away]]. And remember, you need to [[look after]] your little sister tomorrow."
+        },
+        {
+          "speaker": "Ton",
+          "text": "OK. I'll [[pick them up]] now."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Office message",
+      "lines": [
+        {
+          "text": "Hi team, the printer [[broke down]] again this morning. The technician will come after lunch, so please don't [[turn it off]]. If you [[run out of]] paper, there's more in the cupboard. Could someone [[set up]] the meeting room for 3 p.m.? Thanks, Dan"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Phrasal verb",
+      "th": "กริยาวลี — กริยา + คำเล็ก ๆ ที่รวมกันแล้วได้ความหมายใหม่"
+    },
+    {
+      "en": "Particle",
+      "th": "คำเล็ก ๆ ที่ต่อท้ายกริยา เช่น up, off, on, out, away"
+    },
+    {
+      "en": "Separable",
+      "th": "แยกได้ — วางกรรมไว้ตรงกลางได้ (turn it off)"
+    },
+    {
+      "en": "Inseparable",
+      "th": "แยกไม่ได้ — กรรมอยู่หลัง particle เสมอ (look after her)"
+    },
+    {
+      "en": "Object pronoun",
+      "th": "สรรพนามที่เป็นกรรม เช่น it, them, him, her, me, us"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-phrasal-verbs-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The radio is too loud. Can you ___, please?",
+      "choices": [
+        "turn it down",
+        "turn down it",
+        "turn it up",
+        "turn down"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "turn down แยกได้ สรรพนาม it ต้องอยู่ตรงกลาง ไม่ใช่ท้าย",
+        "2": "turn up = เพิ่มเสียง ขัดกับ \"ดังเกินไป\"",
+        "3": "turn down (ลดเสียง) ต้องมีกรรมว่าลดเสียงอะไร"
+      },
+      "explainTh": "ดังเกินไป → ลดเสียง = turn down · กรรมเป็นสรรพนาม it → วางตรงกลาง: turn it down",
+      "structure": "verb + it + particle",
+      "example": "Can you turn it down, please?"
+    },
+    {
+      "id": "b1-phrasal-verbs-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "My grandmother is ill, so my mum is looking ___ this week.",
+      "choices": [
+        "after her",
+        "her after",
+        "after she",
+        "for her"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "look after แยกไม่ได้ กรรมต้องอยู่หลัง after",
+        "2": "หลัง after ต้องใช้สรรพนามกรรม (her) ไม่ใช่ she",
+        "3": "look for = ตามหา ความหมายไม่เข้ากับคนป่วย"
+      },
+      "explainTh": "ดูแล = look after (แยกไม่ได้) → look after + her",
+      "structure": "look after + object",
+      "example": "My mum is looking after her."
+    },
+    {
+      "id": "b1-phrasal-verbs-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "These are your new shoes. Put ___ (them / on) and let's see if they fit.",
+      "accepted": [
+        "them on"
+      ],
+      "explainTh": "put on แยกได้ และกรรมเป็นสรรพนาม (them) → วางตรงกลาง: put them on",
+      "structure": "put + them + on",
+      "example": "Put them on."
+    },
+    {
+      "id": "b1-phrasal-verbs-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I can't find my keys. Can you help me look ___ them?",
+      "accepted": [
+        "for"
+      ],
+      "explainTh": "\"หา\" = look for (แยกไม่ได้) → look for them",
+      "structure": "look for + object",
+      "example": "Can you help me look for them?"
+    },
+    {
+      "id": "b1-phrasal-verbs-05",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "We've run ___ milk. Can you buy some on your way home? (หมด — ใช้ 2 คำ)",
+      "accepted": [
+        "out of"
+      ],
+      "explainTh": "\"(ของ) หมด\" = run out of + สิ่งของ (phrasal verb สามคำ แยกไม่ได้)",
+      "structure": "run out of + noun",
+      "example": "We've run out of milk."
+    },
+    {
+      "id": "b1-phrasal-verbs-06",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "I'm really looking forward ___ (see) you next week.",
+      "accepted": [
+        "to seeing"
+      ],
+      "explainTh": "look forward to + V-ing — to เป็นบุพบท ไม่ใช่ to + V1 → to seeing",
+      "structure": "look forward to + V-ing",
+      "example": "I'm looking forward to seeing you."
+    },
+    {
+      "id": "b1-phrasal-verbs-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Here's your jacket. Put on it, or you'll get cold.",
+      "errorPart": "Put on it",
+      "accepted": [
+        "Here's your jacket. Put it on, or you'll get cold."
+      ],
+      "explainTh": "put on แยกได้ สรรพนาม it ต้องอยู่ตรงกลาง → Put it on"
+    },
+    {
+      "id": "b1-phrasal-verbs-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Who will look your little brother after while your parents are away?",
+      "errorPart": "look your little brother after",
+      "accepted": [
+        "Who will look after your little brother while your parents are away?"
+      ],
+      "explainTh": "look after แยกไม่ได้ กรรม (your little brother) ต้องอยู่หลัง after"
+    },
+    {
+      "id": "b1-phrasal-verbs-09",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Her phone number was really long, so I wrote down it.",
+      "errorPart": "wrote down it",
+      "accepted": [
+        "Her phone number was really long, so I wrote it down."
+      ],
+      "explainTh": "write down แยกได้ สรรพนาม it ต้องอยู่ตรงกลาง → wrote it down"
+    },
+    {
+      "id": "b1-phrasal-verbs-10",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "please",
+        "turn",
+        "off",
+        "the",
+        "TV"
+      ],
+      "accepted": [
+        "Please turn off the TV.",
+        "Please turn the TV off.",
+        "Turn off the TV please.",
+        "Turn the TV off please."
+      ],
+      "explainTh": "turn off แยกได้ และกรรมเป็นคำนาม (the TV) → วางได้ทั้ง turn off the TV และ turn the TV off"
+    },
+    {
+      "id": "b1-phrasal-verbs-11",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "can",
+        "you",
+        "pick",
+        "it",
+        "up",
+        "please"
+      ],
+      "accepted": [
+        "Can you pick it up please?",
+        "Can you please pick it up?",
+        "Please can you pick it up?"
+      ],
+      "explainTh": "pick up แยกได้ สรรพนาม it ต้องอยู่ตรงกลาง → pick it up"
+    },
+    {
+      "id": "b1-phrasal-verbs-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Turn off the computer.",
+      "instruction": "เปลี่ยน the computer เป็นสรรพนาม it",
+      "accepted": [
+        "Turn it off."
+      ],
+      "explainTh": "กรรมเป็นสรรพนาม + phrasal verb แบบแยกได้ → วางตรงกลาง: Turn it off. (ไม่ใช่ Turn off it.)"
+    },
+    {
+      "id": "b1-phrasal-verbs-13",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "She is taking care of her sick father.",
+      "instruction": "เขียนใหม่โดยใช้ look after และเปลี่ยน her sick father เป็นสรรพนาม",
+      "accepted": [
+        "She is looking after him."
+      ],
+      "explainTh": "take care of = look after (แยกไม่ได้) · her sick father → him (สรรพนามกรรม) วางหลัง after → She is looking after him."
+    },
+    {
+      "id": "b1-phrasal-verbs-14",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ phrasal verb กับความหมาย",
+      "pairs": [
+        [
+          "give up",
+          "เลิกทำ (สิ่งที่เคยทำ)"
+        ],
+        [
+          "look after",
+          "ดูแล"
+        ],
+        [
+          "find out",
+          "รู้ / ค้นพบข้อมูล"
+        ],
+        [
+          "get on (a bus)",
+          "ขึ้น (รถเมล์)"
+        ],
+        [
+          "run out of",
+          "(ของ) หมด"
+        ],
+        [
+          "put on",
+          "สวม / ใส่ (เสื้อผ้า)"
+        ]
+      ],
+      "explainTh": "phrasal verb มีความหมายใหม่ที่เดาจากคำแยกไม่ได้เสมอ ต้องจำเป็นชุด เช่น give up = เลิก, look after = ดูแล"
+    },
+    {
+      "id": "b1-phrasal-verbs-15",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "The meeting is at nine, so I'll pick up you at eight.",
+        "The meeting is at nine, so I'll pick you up at eight.",
+        "The meeting is at nine, so I'll pick you at eight up.",
+        "The meeting is at nine, so I'll pick on you at eight."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "pick up แยกได้ สรรพนาม you ต้องอยู่ตรงกลาง (pick you up)",
+        "2": "particle up ต้องตามหลังกรรมทันที ไม่วางไว้ท้ายหลังคำบอกเวลา",
+        "3": "pick on = แกล้ง / หาเรื่อง ความหมายไม่ใช่ \"ไปรับ\""
+      },
+      "explainTh": "ไปรับ = pick up (แยกได้) · กรรมเป็นสรรพนาม → pick you up"
+    },
+    {
+      "id": "b1-phrasal-verbs-16",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "Mum",
+            "text": "Are these your toys all over the floor?"
+          },
+          {
+            "speaker": "Ton",
+            "text": "Yes, sorry."
+          },
+          {
+            "speaker": "Mum",
+            "text": "Please ___ before dinner."
+          }
+        ]
+      },
+      "choices": [
+        "put them away",
+        "put away them",
+        "put them",
+        "put them off"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "put away แยกได้ สรรพนาม them ต้องอยู่ตรงกลาง",
+        "2": "ขาด away — put them เฉย ๆ ไม่ได้แปลว่าเก็บ และไม่ครบประโยค",
+        "3": "put off = เลื่อนออกไป (put the meeting off) ไม่ใช่ \"เก็บของ\""
+      },
+      "explainTh": "เก็บให้เข้าที่ = put away (แยกได้) · กรรมเป็นสรรพนาม them → put them away"
+    },
+    {
+      "id": "b1-phrasal-verbs-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "work",
+        "title": "Office message",
+        "lines": [
+          {
+            "text": "Hi team, the printer broke down again this morning. The technician will come after lunch, so please don't turn it off. If you run out of paper, there's more in the cupboard. Could someone set up the meeting room for 3 p.m.? Thanks, Dan"
+          }
+        ]
+      },
+      "question": "Which phrasal verb in the message has NO object?",
+      "choices": [
+        "broke down",
+        "turn it off",
+        "run out of paper",
+        "set up the meeting room"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "turn it off มีกรรมคือ it (ปิดเครื่องพิมพ์)",
+        "2": "run out of มีกรรมคือ paper",
+        "3": "set up มีกรรมคือ the meeting room"
+      },
+      "explainTh": "break down (เสีย) เป็น phrasal verb ไม่มีกรรม: The printer broke down. ส่วนข้ออื่นมีกรรมตามหลังหรืออยู่ตรงกลาง"
+    },
+    {
+      "id": "b1-phrasal-verbs-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับงานบ้านหรือกิจวัตร ใช้ phrasal verb แบบแยกได้ + สรรพนาม (เช่น put them away, turn it off) อย่างน้อย 1 ครั้ง และแบบแยกไม่ได้ (เช่น look after, look for) อย่างน้อย 1 ครั้ง (Write 3 sentences about housework or your routine. Use a separable phrasal verb with a pronoun and an inseparable one.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(turn|switch|put|pick|take|took|throw|threw|clean|wash|tidy|tidied|give|gave|write|wrote|fill|try|tried|hang|hung|wake|woke|bring|brought|let|clear|pack|set|sort|cut)\\w*\\s+(it|them|him|her|me|us|you)\\s+(on|off|up|down|away|out|back|in)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ phrasal verb แบบแยกได้ + สรรพนามตรงกลางอย่างน้อย 1 ครั้ง (เช่น turn it off, put them away)"
+        },
+        {
+          "re": "\\b(look(s|ed|ing)?\\s+(after|for|forward\\s+to)|get(s|ting)?\\s+(on|off|over)|got\\s+(on|off|over)|take(s)?\\s+care\\s+of|took\\s+care\\s+of|taking\\s+care\\s+of|run(s|ning)?\\s+(out\\s+of|into)|ran\\s+(out\\s+of|into)|c[oa]me(s)?\\s+across)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ phrasal verb แบบแยกไม่ได้อย่างน้อย 1 ครั้ง (เช่น look after, look for, run out of)"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\b(turn|switch|put|pick|throw|threw|clean|tidy|tidied|fill|wake|woke|take|took)\\w*\\s+(on|off|up|down|away|out|back)\\s+(it|them)\\b|\\b(write|wrote|written|writing)\\s+down\\s+(it|them)\\b",
+          "flags": "i",
+          "msgTh": "สรรพนาม it / them ต้องอยู่ตรงกลาง phrasal verb แบบแยกได้ (turn it off ไม่ใช่ turn off it)"
+        }
+      ],
+      "sample": "After dinner I wash the dishes and put them away. My little sister is scared of the dark, so I look after her at night. Before I go to bed, I turn the lights off.",
+      "explainTh": "แยกได้ + สรรพนาม → วางตรงกลาง (put them away) · แยกไม่ได้ → กรรมอยู่หลัง particle (look after her)"
+    }
+  ]
+}

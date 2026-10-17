@@ -1,0 +1,459 @@
+{
+  "id": "a1-plural-nouns",
+  "summaryTh": "เปลี่ยนคำนามให้เป็นพหูพจน์ (มากกว่าหนึ่ง) ด้วย -s, -es, -ies และรูปพิเศษ",
+  "concept": {
+    "what": "คำนามนับได้มี 2 รูป: เอกพจน์ (singular) = 1 สิ่ง เช่น a book และพหูพจน์ (plural) = มากกว่า 1 สิ่ง เช่น two books ส่วนใหญ่เติม -s แต่บางคำเติม -es, เปลี่ยน y เป็น -ies หรือเปลี่ยนรูปไปเลย",
+    "when": [
+      "หลังตัวเลขที่มากกว่า 1 (two cats, ten students)",
+      "หลังคำบอกจำนวนมาก เช่น many, a lot of, some (many people, some apples)",
+      "พูดถึงสิ่งทั่วไปแบบรวม ๆ (I like dogs.)",
+      "หลัง these / those และกับกริยา are (These books are new.)"
+    ],
+    "why": "ภาษาไทยไม่เปลี่ยนรูปคำนาม (หนังสือ 1 เล่ม / หนังสือ 2 เล่ม) แต่ภาษาอังกฤษต้องเปลี่ยนคำนามเอง เช่น two book ผิด ต้องเป็น two books — ผู้ฟังจะรู้จำนวนจากรูปคำ"
+  },
+  "structure": {
+    "formula": "Noun + -s / -es / -ies (หรือรูปพิเศษ)",
+    "rows": [
+      {
+        "label": "ส่วนใหญ่ + s",
+        "formula": "book → books · cat → cats",
+        "example": "I have two [[brothers]]."
+      },
+      {
+        "label": "ลงท้าย s, ss, sh, ch, x (และบางคำ -o) + es",
+        "formula": "box → boxes · watch → watches · tomato → tomatoes",
+        "example": "We need five [[boxes]]."
+      },
+      {
+        "label": "พยัญชนะ + y → ies",
+        "formula": "baby → babies · city → cities",
+        "example": "Those [[babies]] are cute."
+      },
+      {
+        "label": "สระ + y → + s",
+        "formula": "boy → boys · day → days",
+        "example": "The [[boys]] are at the park."
+      },
+      {
+        "label": "f / fe → ves",
+        "formula": "leaf → leaves · knife → knives",
+        "example": "The [[leaves]] are yellow."
+      },
+      {
+        "label": "รูปพิเศษ (Irregular)",
+        "formula": "man → men · child → children · foot → feet · tooth → teeth · person → people",
+        "example": "The [[children]] are in the garden."
+      }
+    ],
+    "notes": [
+      "บางคำรูปเหมือนเดิม: fish → fish, sheep → sheep",
+      "a / an ใช้กับเอกพจน์เท่านั้น: a book (ไม่ใช่ a books)",
+      "people เป็นพหูพจน์อยู่แล้ว (ไม่เติม -s): Many people are here.",
+      "คำนามพหูพจน์เป็นประธาน ใช้กริยา are / have และกริยาไม่เติม -s"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I have two [[brothers]] and one sister.",
+      "th": "ฉันมีพี่น้องผู้ชายสองคน และพี่น้องผู้หญิงหนึ่งคน"
+    },
+    {
+      "en": "We need five [[boxes]] for the books.",
+      "th": "พวกเราต้องใช้กล่องห้าใบใส่หนังสือ"
+    },
+    {
+      "en": "The [[babies]] are sleeping.",
+      "th": "เด็กทารกกำลังหลับ"
+    },
+    {
+      "en": "The [[children]] are in the playground.",
+      "th": "เด็ก ๆ อยู่ที่สนามเด็กเล่น"
+    },
+    {
+      "en": "Mum buys six [[tomatoes]] at the market.",
+      "th": "แม่ซื้อมะเขือเทศหกลูกที่ตลาด"
+    },
+    {
+      "en": "My [[feet]] hurt after the long walk.",
+      "th": "เดินนานจนเท้าเจ็บ"
+    },
+    {
+      "en": "We have ten [[fish]] in the tank.",
+      "th": "พวกเรามีปลาสิบตัวในตู้"
+    },
+    {
+      "en": "Many [[people]] visit Bangkok every year.",
+      "th": "มีคนจำนวนมากมาเที่ยวกรุงเทพฯ ทุกปี"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have two book.",
+      "right": "I have two books.",
+      "whyTh": "ภาษาไทยไม่เปลี่ยนคำนาม แต่ภาษาอังกฤษจำนวนมากกว่าหนึ่งต้องเติม -s"
+    },
+    {
+      "wrong": "There are three childs.",
+      "right": "There are three children.",
+      "whyTh": "child เป็นคำพิเศษ พหูพจน์คือ children (ไม่เติม -s)"
+    },
+    {
+      "wrong": "The babys are cute.",
+      "right": "The babies are cute.",
+      "whyTh": "พยัญชนะ + y (b-y) เปลี่ยน y เป็น i แล้วเติม -es → babies"
+    },
+    {
+      "wrong": "I have two boxs.",
+      "right": "I have two boxes.",
+      "whyTh": "คำที่ลงท้ายด้วย x, s, sh, ch เติม -es เพื่อให้ออกเสียงได้"
+    },
+    {
+      "wrong": "Many peoples are here.",
+      "right": "Many people are here.",
+      "whyTh": "people เป็นพหูพจน์ของ person อยู่แล้ว ไม่ต้องเติม -s"
+    },
+    {
+      "wrong": "She has a books.",
+      "right": "She has a book.",
+      "whyTh": "a แปลว่า \"หนึ่ง\" ต้องตามด้วยเอกพจน์ — ถ้าหลายเล่มให้ตัด a ออก: She has books."
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "message",
+      "title": "Shopping list",
+      "lines": [
+        {
+          "text": "Hi Ben, please buy these things for dinner: two [[potatoes]], three [[tomatoes]], one fish and a bag of [[cherries]]. Thanks! Mum"
+        }
+      ]
+    },
+    {
+      "kind": "school",
+      "title": "My class",
+      "lines": [
+        {
+          "text": "There are thirty [[students]] in my class: sixteen [[girls]] and fourteen [[boys]]. We have two [[teachers]]. Our classroom has big [[windows]] and lots of [[shelves]] for our [[dictionaries]]."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Singular",
+      "th": "เอกพจน์ — หนึ่งสิ่ง"
+    },
+    {
+      "en": "Plural",
+      "th": "พหูพจน์ — มากกว่าหนึ่งสิ่ง"
+    },
+    {
+      "en": "Irregular plural",
+      "th": "พหูพจน์รูปพิเศษ ต้องจำ เช่น men, children, feet"
+    },
+    {
+      "en": "Countable noun",
+      "th": "คำนามที่นับเป็นชิ้น เป็นตัวได้ เช่น book, cat"
+    }
+  ],
+  "practice": [
+    {
+      "id": "a1-plural-nouns-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I have three ___ in my pencil case.",
+      "choices": [
+        "pen",
+        "pens",
+        "penes",
+        "a pen"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "three = มากกว่าหนึ่ง คำนามต้องเป็นพหูพจน์",
+        "2": "pen ไม่ได้ลงท้ายด้วย s, sh, ch, x จึงเติมแค่ -s",
+        "3": "a ใช้กับ 1 สิ่ง ใช้กับ three ไม่ได้"
+      },
+      "explainTh": "ตัวเลขมากกว่า 1 + คำนามพหูพจน์ · คำส่วนใหญ่เติม -s → pens",
+      "structure": "number + noun-s",
+      "example": "I have three pens."
+    },
+    {
+      "id": "a1-plural-nouns-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I have one cat, but my friend has two ___. (cat)",
+      "accepted": [
+        "cats"
+      ],
+      "explainTh": "two = มากกว่าหนึ่ง → cat + s = cats",
+      "structure": "number + noun-s",
+      "example": "My friend has two cats."
+    },
+    {
+      "id": "a1-plural-nouns-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "We need five ___ for the party. (box)",
+      "accepted": [
+        "boxes"
+      ],
+      "explainTh": "box ลงท้ายด้วย x จึงเติม -es → boxes",
+      "structure": "-x + es",
+      "example": "We need five boxes."
+    },
+    {
+      "id": "a1-plural-nouns-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "The ___ are playing football in the park. (child)",
+      "accepted": [
+        "children"
+      ],
+      "explainTh": "child เป็นคำพิเศษ (irregular) พหูพจน์คือ children — are บอกว่าเป็นพหูพจน์",
+      "structure": "child → children",
+      "example": "The children are playing football."
+    },
+    {
+      "id": "a1-plural-nouns-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I brush my ___ twice a day. (tooth)",
+      "accepted": [
+        "teeth"
+      ],
+      "explainTh": "tooth เป็นคำพิเศษ พหูพจน์คือ teeth (เปลี่ยน oo เป็น ee เหมือน foot → feet)",
+      "structure": "tooth → teeth",
+      "example": "I brush my teeth twice a day."
+    },
+    {
+      "id": "a1-plural-nouns-06",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่คำนามเอกพจน์กับพหูพจน์รูปพิเศษ",
+      "pairs": [
+        [
+          "man",
+          "men"
+        ],
+        [
+          "woman",
+          "women"
+        ],
+        [
+          "foot",
+          "feet"
+        ],
+        [
+          "mouse",
+          "mice"
+        ],
+        [
+          "person",
+          "people"
+        ]
+      ],
+      "explainTh": "คำนามพหูพจน์รูปพิเศษไม่เติม -s ต้องจำ: man–men, woman–women, foot–feet, mouse–mice, person–people"
+    },
+    {
+      "id": "a1-plural-nouns-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I have two sister.",
+      "errorPart": "sister",
+      "accepted": [
+        "I have two sisters."
+      ],
+      "explainTh": "two = มากกว่าหนึ่ง คำนามต้องเติม -s → sisters",
+      "structure": "number + noun-s"
+    },
+    {
+      "id": "a1-plural-nouns-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "There are many babys in the hospital.",
+      "errorPart": "babys",
+      "accepted": [
+        "There are many babies in the hospital."
+      ],
+      "explainTh": "baby ลงท้ายด้วยพยัญชนะ + y เปลี่ยน y เป็น i แล้วเติม -es → babies",
+      "structure": "consonant + y → ies"
+    },
+    {
+      "id": "a1-plural-nouns-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "has",
+        "she",
+        "dogs",
+        "two"
+      ],
+      "accepted": [
+        "She has two dogs."
+      ],
+      "explainTh": "Subject + has + ตัวเลข + คำนามพหูพจน์ → She has two dogs."
+    },
+    {
+      "id": "a1-plural-nouns-10",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "buys",
+        "my",
+        "mum",
+        "tomatoes",
+        "six"
+      ],
+      "accepted": [
+        "My mum buys six tomatoes."
+      ],
+      "explainTh": "tomato ลงท้ายด้วย -o เติม -es → tomatoes · ตัวเลขวางหน้าคำนาม"
+    },
+    {
+      "id": "a1-plural-nouns-11",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I have a cherry.",
+      "instruction": "เขียนใหม่โดยเปลี่ยนจำนวนเป็น three",
+      "accepted": [
+        "I have three cherries."
+      ],
+      "explainTh": "ตัด a ออก ใส่ three และเปลี่ยน cherry → cherries (พยัญชนะ + y → ies)",
+      "structure": "consonant + y → ies",
+      "example": "I have three cherries."
+    },
+    {
+      "id": "a1-plural-nouns-12",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "This man is a dentist.",
+      "instruction": "เปลี่ยนทั้งประโยคเป็นพหูพจน์ ขึ้นต้นด้วย These …",
+      "accepted": [
+        "These men are dentists."
+      ],
+      "explainTh": "เปลี่ยนทุกส่วน: This → These · man → men · is → are · ตัด a ออก · dentist → dentists",
+      "structure": "These + plural noun + are + plural noun",
+      "example": "These men are dentists."
+    },
+    {
+      "id": "a1-plural-nouns-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I can see two mouses.",
+        "I can see two mice.",
+        "I can see two mices.",
+        "I can see two mouse."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "mouse เป็นคำพิเศษ ไม่เติม -s",
+        "2": "mice เป็นพหูพจน์อยู่แล้ว ไม่ต้องเติม -s ซ้ำ",
+        "3": "two = มากกว่าหนึ่ง ต้องใช้รูปพหูพจน์"
+      },
+      "explainTh": "mouse (หนู) → mice เป็นพหูพจน์รูปพิเศษ",
+      "structure": "mouse → mice",
+      "example": "I can see two mice."
+    },
+    {
+      "id": "a1-plural-nouns-14",
+      "type": "dialogue",
+      "difficulty": 3,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How many ___ are in your family?"
+          },
+          {
+            "speaker": "B",
+            "text": "Five — my parents, my two sisters and me."
+          }
+        ]
+      },
+      "choices": [
+        "person",
+        "people",
+        "peoples",
+        "a people"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "How many ต้องตามด้วยพหูพจน์ แต่ person เป็นเอกพจน์",
+        "2": "people เป็นพหูพจน์อยู่แล้ว ไม่ต้องเติม -s",
+        "3": "a ใช้กับเอกพจน์ และ How many ไม่ตามด้วย a"
+      },
+      "explainTh": "How many + คำนามพหูพจน์ · person → people (รูปพิเศษ)",
+      "structure": "How many + plural noun",
+      "example": "How many people are in your family?"
+    },
+    {
+      "id": "a1-plural-nouns-15",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Shopping list",
+        "lines": [
+          {
+            "text": "Hi Ben, please buy these things for dinner: two potatoes, three tomatoes, one fish and a bag of cherries. Thanks! Mum"
+          }
+        ]
+      },
+      "question": "Which word in the list is singular (only one)?",
+      "choices": [
+        "potatoes",
+        "tomatoes",
+        "fish",
+        "cherries"
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "potatoes เติม -es เป็นพหูพจน์ (two potatoes)",
+        "1": "tomatoes เป็นพหูพจน์ (three tomatoes)",
+        "3": "cherries มาจาก cherry เป็นพหูพจน์ (y → ies)"
+      },
+      "explainTh": "\"one fish\" — fish รูปเอกพจน์และพหูพจน์เหมือนกัน ต้องดูตัวเลขข้างหน้า ซึ่งในข้อความคือ one"
+    },
+    {
+      "id": "a1-plural-nouns-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "There are a lot of ___ on my uncle's farm.",
+      "choices": [
+        "sheep",
+        "sheeps",
+        "sheepes",
+        "a sheep"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "sheep เป็นคำที่รูปพหูพจน์เหมือนเอกพจน์ ไม่เติม -s",
+        "2": "sheep ไม่เติม -es",
+        "3": "a lot of ต้องตามด้วยพหูพจน์ ไม่ใช่ a sheep"
+      },
+      "explainTh": "sheep (แกะ) เป็นคำที่รูปเหมือนเดิมทั้งเอกพจน์และพหูพจน์ (เหมือน fish)",
+      "structure": "sheep → sheep",
+      "example": "There are a lot of sheep on the farm."
+    },
+    {
+      "id": "a1-plural-nouns-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับคนหรือสิ่งของที่บ้านหรือที่โรงเรียน ใช้ตัวเลขหรือ many + คำนามพหูพจน์ (Write 3 sentences about people or things at home or at school. Use numbers or \"many\" + plural nouns, e.g. two cats.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|many|\\d+)\\s+(?:[a-z]+\\s+)?[a-z]+(s|men|ren|ple|eet|eeth|ice|fish|sheep)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ตัวเลขหรือ many ตามด้วยคำนามพหูพจน์อย่างน้อย 1 ครั้ง (เช่น two books)"
+        }
+      ],
+      "sample": "I have two brothers. There are thirty students in my class. My grandmother has five cats.",
+      "explainTh": "ตัวเลขมากกว่า 1 หรือ many + คำนามพหูพจน์ (เติม -s / -es / -ies หรือรูปพิเศษ เช่น children)"
+    }
+  ]
+}

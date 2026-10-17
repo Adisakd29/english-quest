@@ -1,0 +1,531 @@
+{
+  "id": "c1-advanced-conditionals",
+  "summaryTh": "เงื่อนไขขั้นสูง: ตัด if แล้วสลับ (Had I known …), provided that, unless, but for, in case, supposing",
+  "concept": {
+    "what": "นอกจาก if แบบ 0–3 และแบบผสมแล้ว ภาษาอังกฤษระดับสูงยังมีวิธีพูดเงื่อนไขอีกหลายแบบ: ตัด if แล้วสลับกริยาช่วย (Should you … / Were I to … / Had I known …), ใช้คำเชื่อมอื่นแทน if (provided that, as long as, on condition that, unless, supposing, even if) และใช้วลีคำนาม (But for your help …, Were it not for …)",
+    "when": [
+      "ภาษาเขียนทางการ อีเมลธุรกิจ ประกาศ: Should you have any questions, …",
+      "สมมุติเรื่องที่ไม่น่าเกิดในอนาคต: Were the company to close, 200 people would lose their jobs.",
+      "เสียดายอดีต แบบทางการ: Had we left earlier, we would have caught the train.",
+      "ตั้งเงื่อนไขชัด ๆ ว่า \"ก็ต่อเมื่อ\": You can borrow it provided that / as long as you return it.",
+      "ถ้าไม่มีสิ่งนี้ (+ คำนาม): But for / Without / Were it not for / Had it not been for …"
+    ],
+    "why": "ภาษาไทยใช้ \"ถ้า\" \"หาก\" \"เผื่อ\" \"เว้นแต่\" แทนกันได้ค่อนข้างหลวม แต่ภาษาอังกฤษแต่ละคำมีความหมายต่างกันชัด — ผู้เรียนไทยมักใช้ unless คู่กับ not (ปฏิเสธซ้อน), ใช้ in case แทน if และใส่ will หลังคำเชื่อมเงื่อนไข"
+  },
+  "structure": {
+    "formula": "Should / Were / Had + S …, main clause  ·  provided that / unless / in case + present",
+    "rows": [
+      {
+        "label": "Should (อนาคต ไม่แน่นอน)",
+        "formula": "Should + S + V1, … (= If + S + V1/should + V1)",
+        "example": "[[Should you need]] any assistance, please call reception."
+      },
+      {
+        "label": "Were … to (สมมุติอนาคตที่ไม่น่าเกิด)",
+        "formula": "Were + S + to + V1, S + would + V1",
+        "example": "[[Were the government to raise]] taxes, there would be protests."
+      },
+      {
+        "label": "Were (ปัจจุบันไม่จริง)",
+        "formula": "Were + S + …, S + would + V1",
+        "example": "[[Were I]] in your position, I would accept the offer."
+      },
+      {
+        "label": "Had (อดีตไม่จริง)",
+        "formula": "Had + S + (not) + V3, S + would have + V3",
+        "example": "[[Had I known]] about the strike, I would have taken a taxi."
+      },
+      {
+        "label": "ถ้าไม่มี … (+ คำนาม)",
+        "formula": "But for / Were it not for / Had it not been for + noun",
+        "example": "[[But for]] your advice, I would have made a terrible mistake."
+      },
+      {
+        "label": "คำเชื่อมแทน if",
+        "formula": "provided (that) / as long as / on condition that / unless / supposing / even if + clause",
+        "example": "You can use the lab [[provided that]] you wear safety glasses."
+      },
+      {
+        "label": "เผื่อไว้ (ไม่ใช่เงื่อนไข)",
+        "formula": "S + V … + in case + present",
+        "example": "Take an umbrella [[in case]] it rains."
+      }
+    ],
+    "notes": [
+      "หลัง provided that, as long as, unless, in case ใช้ Present Simple แม้จะหมายถึงอนาคต (ไม่ใส่ will) · ส่วน Should + ประธาน ตามด้วยกริยาช่องที่ 1",
+      "unless = if … not จึงไม่ใช้ not ซ้ำ: unless you hurry (ไม่ใช่ unless you don't hurry)",
+      "in case = เผื่อว่า (ทำไว้ก่อนเพื่อป้องกัน) ต่างจาก if = ถ้า … ก็จะ",
+      "Inversion รูปปฏิเสธ: Had I not … / Were it not for … / Should you not … (ไม่ขึ้นต้นด้วยรูปย่อ Hadn't / Weren't)",
+      "But for / Without ตามด้วยคำนาม ไม่ใช่ประโยค"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[Should the flight be delayed]], passengers will receive a meal voucher.",
+      "th": "หากเที่ยวบินล่าช้า ผู้โดยสารจะได้รับคูปองอาหาร"
+    },
+    {
+      "en": "[[Were I to win]] the lottery, I would set up a scholarship fund.",
+      "th": "ถ้า (สมมุติว่า) ฉันถูกลอตเตอรี่ ฉันจะตั้งกองทุนทุนการศึกษา"
+    },
+    {
+      "en": "[[Had she not missed]] the interview, she would have got the job.",
+      "th": "ถ้าเธอไม่พลาดการสัมภาษณ์ เธอก็คงได้งานนั้นไปแล้ว"
+    },
+    {
+      "en": "[[But for]] the scholarship, he could never have studied in Japan.",
+      "th": "ถ้าไม่มีทุนนั้น เขาคงไม่มีทางได้เรียนที่ญี่ปุ่น"
+    },
+    {
+      "en": "You can work from home [[as long as]] you attend the Monday meeting.",
+      "th": "คุณทำงานที่บ้านได้ ตราบใดที่มาประชุมวันจันทร์"
+    },
+    {
+      "en": "[[Unless]] we reduce costs, the company will not survive.",
+      "th": "ถ้าเราไม่ลดต้นทุน บริษัทจะอยู่รอดไม่ได้"
+    },
+    {
+      "en": "I'll save the file on a USB drive [[in case]] the laptop crashes.",
+      "th": "ฉันจะเซฟไฟล์ไว้ในแฟลชไดรฟ์ด้วย เผื่อโน้ตบุ๊กพัง"
+    },
+    {
+      "en": "[[Supposing]] you lost your passport abroad, what would you do?",
+      "th": "สมมุติว่าคุณทำพาสปอร์ตหายตอนอยู่ต่างประเทศ คุณจะทำอย่างไร"
+    },
+    {
+      "en": "I'm going to the concert [[even if]] it rains.",
+      "th": "ฉันจะไปคอนเสิร์ตถึงแม้ว่าฝนจะตกก็ตาม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Unless you don't hurry, you'll miss the train.",
+      "right": "Unless you hurry, you'll miss the train.",
+      "whyTh": "unless มีความหมาย \"ถ้าไม่\" อยู่แล้ว ใส่ don't ซ้ำจะกลายเป็นปฏิเสธซ้อน"
+    },
+    {
+      "wrong": "You can borrow my car provided that you will return it by six.",
+      "right": "You can borrow my car provided that you return it by six.",
+      "whyTh": "หลังคำเชื่อมเงื่อนไข (provided that, as long as, if) ใช้ Present Simple แม้จะเป็นอนาคต"
+    },
+    {
+      "wrong": "Had I knew about the meeting, I would have come.",
+      "right": "Had I known about the meeting, I would have come.",
+      "whyTh": "Had + S + V3 (known) — เหมือน If I had known"
+    },
+    {
+      "wrong": "But for you helped us, we would have failed.",
+      "right": "But for your help, we would have failed.",
+      "whyTh": "But for ตามด้วยคำนาม (your help) ไม่ใช่ประโยค"
+    },
+    {
+      "wrong": "In case it rains, the match will be cancelled.",
+      "right": "If it rains, the match will be cancelled.",
+      "whyTh": "in case = เผื่อไว้ก่อน (ทำอะไรเพื่อป้องกัน) แต่ประโยคนี้บอกผลที่จะเกิดถ้าฝนตก จึงต้องใช้ if"
+    },
+    {
+      "wrong": "If I would have known, I would have helped.",
+      "right": "If I had known, I would have helped.",
+      "whyTh": "ในส่วน if ของเงื่อนไขแบบที่ 3 ใช้ had + V3 ไม่ใช้ would have"
+    }
+  ],
+  "compare": {
+    "title": "Mixed conditionals (B2) vs Advanced conditionals (C1)",
+    "with": [
+      "b2-mixed-conditionals"
+    ],
+    "rows": [
+      {
+        "label": "จุดเด่น",
+        "a": "ผสมเวลา: เงื่อนไขอดีต → ผลปัจจุบัน (หรือกลับกัน)",
+        "b": "เปลี่ยนรูป if: ตัด if แล้วสลับ หรือใช้คำเชื่อมอื่น"
+      },
+      {
+        "label": "รูปแบบ",
+        "a": "If I had studied, I would be a doctor now.",
+        "b": "Had I studied, I would be a doctor now. / Provided that …"
+      },
+      {
+        "label": "ระดับภาษา",
+        "a": "ใช้ได้ทั้งพูดและเขียน",
+        "b": "inversion เป็นทางการ เหมาะกับงานเขียน อีเมลธุรกิจ"
+      },
+      {
+        "label": "คำเชื่อม",
+        "a": "if เป็นหลัก",
+        "b": "unless, provided that, as long as, but for, supposing, in case"
+      }
+    ],
+    "tipTh": "Inversion ใช้ได้กับเงื่อนไขทุกแบบรวมถึงแบบผสม (Had I studied, I would be …) — ขั้นแรกให้เลือก tense ให้ถูกก่อน แล้วค่อยแปลงรูป if"
+  },
+  "contexts": [
+    {
+      "kind": "email",
+      "title": "Hotel booking confirmation",
+      "lines": [
+        {
+          "text": "Dear Mr Tanaka, Your room is confirmed for 12–15 May. [[Should you wish]] to cancel, please let us know at least 48 hours in advance. Free cancellation is available [[provided that]] you book directly with us. [[Unless]] we hear from you, we will assume you will arrive after 2 p.m. Kind regards, Reservations Team"
+        }
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "Talking about a narrow escape",
+      "lines": [
+        {
+          "speaker": "Fern",
+          "text": "I heard you nearly missed your flight to Seoul!"
+        },
+        {
+          "speaker": "Jay",
+          "text": "I did. [[Had the taxi driver not known]] a shortcut, I would never have made it."
+        },
+        {
+          "speaker": "Fern",
+          "text": "Lucky you! I always leave three hours early [[in case]] there's traffic."
+        },
+        {
+          "speaker": "Jay",
+          "text": "Next time I will — [[as long as]] I can get up that early!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Conditional inversion",
+      "th": "เงื่อนไขที่ตัด if แล้วยก Should / Were / Had ขึ้นต้น"
+    },
+    {
+      "en": "Hypothetical",
+      "th": "เป็นเรื่องสมมุติ ไม่จริงหรือไม่น่าเกิด"
+    },
+    {
+      "en": "Precaution (in case)",
+      "th": "การทำไว้ก่อนเผื่อเกิดบางอย่าง"
+    },
+    {
+      "en": "Condition",
+      "th": "เงื่อนไข — สิ่งที่ต้องเกิดก่อน อีกสิ่งจึงจะเกิด"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-advanced-conditionals-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ I known about the traffic, I would have left earlier.",
+      "choices": [
+        "Had",
+        "If",
+        "Have",
+        "Should"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "If ต้องตามด้วย I had known — If I known ขาด had",
+        "2": "Have I known ไม่ใช่รูปเงื่อนไข (ผลเป็น would have left = อดีต)",
+        "3": "Should ใช้กับเงื่อนไขอนาคตและตามด้วย V1 ไม่ใช่ V3"
+      },
+      "explainTh": "ผลเป็นอดีตไม่จริง (would have left) → Had + S + V3 = If I had known",
+      "structure": "Had + S + V3, S + would have + V3",
+      "example": "Had I known about the traffic, I would have left earlier."
+    },
+    {
+      "id": "c1-advanced-conditionals-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "You can borrow my car ___ you bring it back by six.",
+      "choices": [
+        "provided that",
+        "unless",
+        "in case",
+        "even though"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "unless = ถ้าไม่ → \"ยืมได้ถ้าไม่เอามาคืน\" ความหมายกลับกัน",
+        "2": "in case = เผื่อว่า ใช้กับการเตรียมไว้ก่อน ไม่ใช่การตั้งเงื่อนไข",
+        "3": "even though = ถึงแม้ว่า (เรื่องจริง) ไม่ใช่เงื่อนไข"
+      },
+      "explainTh": "provided that = ก็ต่อเมื่อ / โดยมีเงื่อนไขว่า (เหมือน as long as) ตามด้วย Present Simple",
+      "structure": "S + V … provided that + S + V(present)"
+    },
+    {
+      "id": "c1-advanced-conditionals-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "___ I in your position, I would accept the offer. (คำเดียว)",
+      "accepted": [
+        "Were"
+      ],
+      "explainTh": "ปัจจุบันไม่จริง ตัด if แล้วสลับ: Were + I (= If I were in your position) — ใช้ were กับทุกประธาน",
+      "structure": "Were + S + …, S + would + V1"
+    },
+    {
+      "id": "c1-advanced-conditionals-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "___ it not been for the volunteers, the event would have been a disaster. (คำเดียว)",
+      "accepted": [
+        "Had"
+      ],
+      "explainTh": "ผลเป็นอดีต (would have been) → Had it not been for + คำนาม = If it hadn't been for …",
+      "structure": "Had it not been for + noun, S + would have + V3"
+    },
+    {
+      "id": "c1-advanced-conditionals-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "___ for the scholarship, she could never have studied abroad. (คำเดียว = ถ้าไม่มี)",
+      "accepted": [
+        "But"
+      ],
+      "explainTh": "But for + คำนาม = ถ้าไม่มี … (= Without / If it hadn't been for …)",
+      "structure": "But for + noun, S + could/would have + V3"
+    },
+    {
+      "id": "c1-advanced-conditionals-06",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Unless you don't submit the form by Friday, your application will be rejected.",
+      "errorPart": "don't submit",
+      "accepted": [
+        "Unless you submit the form by Friday, your application will be rejected.",
+        "If you don't submit the form by Friday, your application will be rejected."
+      ],
+      "explainTh": "unless = if … not อยู่แล้ว จึงต้องตัด don't ออก (หรือเปลี่ยน Unless เป็น If)"
+    },
+    {
+      "id": "c1-advanced-conditionals-07",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Should you will need any assistance, please ask at reception.",
+      "errorPart": "will need",
+      "accepted": [
+        "Should you need any assistance, please ask at reception.",
+        "If you need any assistance, please ask at reception."
+      ],
+      "explainTh": "Should + S + V1 — ไม่ต้องใส่ will เพราะ should เป็นกริยาช่วยอยู่แล้ว"
+    },
+    {
+      "id": "c1-advanced-conditionals-08",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "If I would have known about the meeting, I would have attended.",
+      "errorPart": "would have known",
+      "accepted": [
+        "If I had known about the meeting, I would have attended.",
+        "Had I known about the meeting, I would have attended."
+      ],
+      "explainTh": "ส่วน if ของเงื่อนไขแบบที่ 3 ใช้ had + V3 (If I had known / Had I known) ส่วน would have ใช้เฉพาะในประโยคผล"
+    },
+    {
+      "id": "c1-advanced-conditionals-09",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "If you happen to see Mark, tell him to call me.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Should",
+      "accepted": [
+        "Should you see Mark, tell him to call me.",
+        "Should you happen to see Mark, tell him to call me."
+      ],
+      "explainTh": "If you happen to … (ถ้าบังเอิญ) → Should you + V1 ซึ่งมีความหมาย \"ถ้าบังเอิญ\" อยู่แล้ว",
+      "structure": "Should + S + V1, imperative"
+    },
+    {
+      "id": "c1-advanced-conditionals-10",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "If the government were to raise taxes, there would be protests.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Were (ตัด if)",
+      "accepted": [
+        "Were the government to raise taxes, there would be protests."
+      ],
+      "explainTh": "If + S + were to + V1 → Were + S + to + V1 (สมมุติอนาคตที่ไม่น่าเกิด แบบทางการ)",
+      "structure": "Were + S + to + V1, S + would + V1"
+    },
+    {
+      "id": "c1-advanced-conditionals-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Without your advice, I would have made a terrible mistake.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Had it not been",
+      "accepted": [
+        "Had it not been for your advice, I would have made a terrible mistake."
+      ],
+      "explainTh": "Without + คำนาม (อดีต) = Had it not been for + คำนาม — อย่าลืม for",
+      "structure": "Had it not been for + noun, S + would have + V3"
+    },
+    {
+      "id": "c1-advanced-conditionals-12",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "supposing",
+        "you",
+        "lost",
+        "your",
+        "job",
+        "what",
+        "would",
+        "you",
+        "do"
+      ],
+      "accepted": [
+        "Supposing you lost your job, what would you do?",
+        "What would you do supposing you lost your job?",
+        "What would you do, supposing you lost your job?"
+      ],
+      "explainTh": "Supposing (สมมุติว่า) + Past Simple สำหรับเรื่องสมมุติ ตามด้วยคำถาม what would you do?",
+      "structure": "Supposing + S + V2, what would + S + V1?"
+    },
+    {
+      "id": "c1-advanced-conditionals-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "Take an umbrella in case it will rain later.",
+        "Take an umbrella in case it rains later.",
+        "Take an umbrella in case of it rains later.",
+        "Take an umbrella unless it rains later."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "หลัง in case ใช้ Present Simple ไม่ใส่ will",
+        "2": "in case of ตามด้วยคำนาม (in case of rain) ไม่ใช่ประโยค",
+        "3": "unless = ถ้าไม่ → \"เอาร่มไปถ้าฝนไม่ตก\" ความหมายไม่สมเหตุสมผล"
+      },
+      "explainTh": "in case + Present Simple = เผื่อว่า … → เอาร่มไปเผื่อฝนตก"
+    },
+    {
+      "id": "c1-advanced-conditionals-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "I'll lend you the money ___ you pay me back within a month — but not otherwise.",
+      "choices": [
+        "on condition that",
+        "even if",
+        "in case",
+        "whether or not"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "even if = ถึงแม้ว่า (ผลไม่เปลี่ยน) ขัดกับ but not otherwise",
+        "2": "in case = เผื่อไว้ ไม่ใช่การตั้งเงื่อนไข",
+        "3": "whether or not = ไม่ว่าจะ … หรือไม่ ขัดกับ but not otherwise ที่บอกว่ามีเงื่อนไข"
+      },
+      "explainTh": "but not otherwise (ถ้าไม่ทำก็ไม่ให้) บอกว่ามีเงื่อนไขชัดเจน → on condition that = โดยมีเงื่อนไขว่า"
+    },
+    {
+      "id": "c1-advanced-conditionals-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่คำเชื่อมกับความหมาย",
+      "pairs": [
+        [
+          "unless",
+          "ถ้าไม่ … (= if not)"
+        ],
+        [
+          "provided that",
+          "ก็ต่อเมื่อ / โดยมีเงื่อนไขว่า"
+        ],
+        [
+          "in case",
+          "เผื่อว่า (เตรียมไว้ก่อน)"
+        ],
+        [
+          "even if",
+          "ถึงแม้ว่า … ก็ (ผลไม่เปลี่ยน)"
+        ],
+        [
+          "but for",
+          "ถ้าไม่มี … (+ คำนาม)"
+        ]
+      ],
+      "explainTh": "คำเชื่อมเงื่อนไขแต่ละคำมีความหมายเฉพาะ — unless = if not · provided that = ก็ต่อเมื่อ · in case = เผื่อ · even if = ถึงแม้ · but for + noun = ถ้าไม่มี"
+    },
+    {
+      "id": "c1-advanced-conditionals-16",
+      "type": "dialogue",
+      "difficulty": 1,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Are you coming to the conference on Friday?"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm not sure. ___ I finish the report in time, I'll be there."
+          }
+        ]
+      },
+      "choices": [
+        "As long as",
+        "Unless",
+        "In case",
+        "Even though"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "unless = ถ้าไม่ → \"ถ้าทำรายงานไม่เสร็จจะไป\" ความหมายกลับกัน",
+        "2": "in case = เผื่อไว้ ใช้กับการเตรียมการ ไม่ใช่เงื่อนไขของการไป",
+        "3": "even though ใช้กับเรื่องที่เป็นจริงแล้ว ขัดกับ I'm not sure"
+      },
+      "explainTh": "B ยังไม่แน่ใจ และการไปขึ้นอยู่กับการทำรายงานเสร็จ → As long as = ตราบใดที่ / ก็ต่อเมื่อ"
+    },
+    {
+      "id": "c1-advanced-conditionals-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "announcement",
+        "title": "Online shop: returns policy",
+        "lines": [
+          {
+            "text": "Customers may return items within 30 days provided that they keep the receipt. Should an item arrive damaged, please contact us within 48 hours. Unless otherwise stated, sale items cannot be returned."
+          }
+        ]
+      },
+      "question": "A customer bought a sale item. There is no special note on the item. Can she return it?",
+      "choices": [
+        "No, normally sale items cannot be returned.",
+        "Yes, within 30 days if she keeps the receipt.",
+        "Yes, but only within 48 hours.",
+        "Yes, as long as it is not damaged."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "เงื่อนไข 30 วันใช้กับสินค้าทั่วไป แต่สินค้าลดราคามีกฎแยก",
+        "2": "48 ชั่วโมงใช้กับกรณีสินค้ามาถึงแล้วเสียหาย (Should an item arrive damaged)",
+        "3": "นโยบายไม่ได้บอกว่าสินค้าลดราคาคืนได้ถ้าไม่เสียหาย"
+      },
+      "explainTh": "Unless otherwise stated = ถ้าไม่ได้ระบุไว้เป็นอย่างอื่น → สินค้าลดราคาที่ไม่มีหมายเหตุพิเศษจึงคืนไม่ได้"
+    },
+    {
+      "id": "c1-advanced-conditionals-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคแนะนำนักศึกษาใหม่แบบทางการ โดยใช้ inversion (Should you … / Had I … / Were …) อย่างน้อย 1 ครั้ง และคำเชื่อม provided that / as long as / unless / in case อย่างน้อย 1 ครั้ง (Write 3 formal sentences of advice for new students.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "(^|[.!?]\\s+)(should|had|were)\\s+(i|you|we|they|he|she|it|the|there|students?)\\b",
+          "flags": "i",
+          "msgTh": "ขึ้นต้นประโยคด้วย Should / Had / Were + ประธาน อย่างน้อย 1 ครั้ง (เช่น Should you need help, …)"
+        },
+        {
+          "re": "\\b(provided|providing|as long as|on condition that|unless|in case|but for|supposing|even if)\\b",
+          "flags": "i",
+          "msgTh": "ใช้คำเชื่อมเงื่อนไขอย่างน้อย 1 คำ: provided that, as long as, unless, in case, but for …"
+        }
+      ],
+      "sample": "Should you have any questions, please contact the student office. You may use the library at night provided that you show your student card. Had I known these rules earlier, I would have saved a lot of time.",
+      "explainTh": "หลัง Should + S ใช้ V1 · หลัง Had + S ใช้ V3 · หลัง provided that / unless / in case ใช้ Present Simple ไม่ใส่ will"
+    }
+  ]
+}

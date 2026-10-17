@@ -1,0 +1,214 @@
+{
+  "id": "a2-countable-uncountable",
+  "summaryTh": "แยกคำนามที่นับเป็นชิ้นได้ กับคำนามที่นับไม่ได้",
+  "concept": {
+    "what": "คำนามนับได้ (countable) คือสิ่งที่นับเป็นหนึ่ง สอง สาม ได้ มีรูปเอกพจน์และพหูพจน์ (an apple, two apples) ส่วนคำนามนับไม่ได้ (uncountable) คือสิ่งที่เป็นของเหลว ผง วัสดุ หรือความคิด ไม่มีรูปพหูพจน์และไม่ใช้ a/an (water, rice, money, advice)",
+    "when": [
+      "คำนามนับได้เอกพจน์ต้องมี a / an / the / my … นำหน้า (a book, my phone)",
+      "คำนามนับได้พหูพจน์เติม -s/-es และใช้กริยาพหูพจน์ (The books are …)",
+      "คำนามนับไม่ได้ใช้กริยาเอกพจน์เสมอ ไม่เติม -s (The information is useful.)",
+      "อยากนับคำนามนับไม่ได้ ให้ใช้หน่วยนับ: a bottle of water, two cups of coffee, a piece of advice"
+    ],
+    "why": "ภาษาไทยไม่มีการเติม -s และใช้ลักษณนามกับทุกคำนาม (น้ำสองขวด กล้วยสองลูก) จึงยากที่จะรู้ว่าคำไหนนับได้ในภาษาอังกฤษ — บางคำที่คนไทยคิดว่านับได้ เช่น homework, information, furniture, advice, news ในภาษาอังกฤษนับไม่ได้ ถ้าใช้ผิดจะเลือก a/an, many/much และกริยาผิดตามไปทั้งประโยค"
+  },
+  "structure": {
+    "formula": "Countable: a/an + noun · numbers + nouns · Uncountable: (some) + noun (ไม่มี -s, ไม่ใช้ a/an)",
+    "rows": [
+      { "label": "นับได้ เอกพจน์", "formula": "a / an + noun + is", "example": "There [[is an egg]] in the fridge." },
+      { "label": "นับได้ พหูพจน์", "formula": "number / some + noun-s + are", "example": "There [[are three eggs]] in the fridge." },
+      { "label": "นับไม่ได้", "formula": "(some) + noun + is", "example": "There [[is some milk]] in the fridge." },
+      { "label": "หน่วยนับ + of", "formula": "a / two + container + of + uncountable noun", "example": "I bought [[two bottles of water]] and [[a loaf of bread]]." },
+      { "label": "คำถามปริมาณ", "formula": "How many + plural noun? · How much + uncountable noun?", "example": "[[How much]] money do you have? · [[How many]] apples do you want?" }
+    ],
+    "notes": [
+      "คำนามนับไม่ได้ที่พบบ่อย: water, milk, rice, bread, money, homework, information, advice, furniture, luggage, news, music, weather, traffic",
+      "news ลงท้ายด้วย s แต่เป็นคำนามนับไม่ได้: The news is good.",
+      "หน่วยนับต่างหากที่เติม -s: two bottles of water (ไม่ใช่ two bottle of waters)",
+      "บางคำใช้ได้ทั้งสองแบบแต่ความหมายต่าง: a chicken (ไก่ทั้งตัว) / some chicken (เนื้อไก่) · a coffee (กาแฟหนึ่งแก้ว ภาษาพูด) / coffee (กาแฟทั่วไป)"
+    ]
+  },
+  "examples": [
+    { "en": "I need [[some information]] about the school trip.", "th": "ฉันต้องการข้อมูลเกี่ยวกับทัศนศึกษา" },
+    { "en": "We have [[a lot of homework]] this weekend.", "th": "สุดสัปดาห์นี้พวกเรามีการบ้านเยอะ" },
+    { "en": "Can I have [[two bananas]] and [[a bottle of water]], please?", "th": "ขอกล้วยสองลูกกับน้ำหนึ่งขวดครับ" },
+    { "en": "[[The news is]] on TV at 7 p.m.", "th": "ข่าวออกทีวีตอนหนึ่งทุ่ม" },
+    { "en": "My grandma gave me [[a piece of advice]]: save your money.", "th": "ยายให้คำแนะนำฉันข้อหนึ่ง: เก็บเงินไว้นะ" },
+    { "en": "There [[isn't much traffic]] on Sunday mornings.", "th": "เช้าวันอาทิตย์รถไม่ค่อยติด" },
+    { "en": "[[How many suitcases]] are you taking? — Just one. I don't have [[much luggage]].", "th": "เธอเอากระเป๋าเดินทางไปกี่ใบ — ใบเดียว ฉันมีสัมภาระไม่เยอะ" },
+    { "en": "This shop sells [[old furniture]] — tables, chairs and beds.", "th": "ร้านนี้ขายเฟอร์นิเจอร์เก่า ทั้งโต๊ะ เก้าอี้ และเตียง" }
+  ],
+  "mistakes": [
+    { "wrong": "I have a lot of homeworks tonight.", "right": "I have a lot of homework tonight.", "whyTh": "homework เป็นคำนามนับไม่ได้ ไม่เติม -s (ถ้าอยากนับใช้ two pieces of homework หรือ two exercises)" },
+    { "wrong": "She gave me an advice.", "right": "She gave me some advice. / She gave me a piece of advice.", "whyTh": "advice นับไม่ได้ ใช้ a/an ไม่ได้ ต้องใช้ some หรือ a piece of" },
+    { "wrong": "The news are very exciting.", "right": "The news is very exciting.", "whyTh": "news ลงท้าย s แต่เป็นคำนามนับไม่ได้ ใช้กริยาเอกพจน์ (is)" },
+    { "wrong": "I bought two bottle of waters.", "right": "I bought two bottles of water.", "whyTh": "เติม -s ที่หน่วยนับ (bottles) ส่วน water นับไม่ได้ไม่เติม -s" },
+    { "wrong": "Can you give me some informations?", "right": "Can you give me some information?", "whyTh": "information นับไม่ได้ ไม่มีรูปพหูพจน์ — ภาษาไทยพูด \"ข้อมูลหลายอย่าง\" ได้ แต่ภาษาอังกฤษไม่เติม -s" }
+  ],
+  "compare": {
+    "title": "Countable vs Uncountable",
+    "with": ["a2-quantifiers"],
+    "rows": [
+      { "label": "a / an", "a": "นับได้: ใช้ได้ (an apple, a chair)", "b": "นับไม่ได้: ใช้ไม่ได้ (some water, a piece of furniture)" },
+      { "label": "พหูพจน์ -s", "a": "นับได้: two apples, three chairs", "b": "นับไม่ได้: ไม่เติม -s (water, furniture)" },
+      { "label": "กริยา", "a": "นับได้พหูพจน์: The apples are fresh.", "b": "นับไม่ได้: The water is cold." },
+      { "label": "คำถามปริมาณ", "a": "How many apples?", "b": "How much water?" }
+    ],
+    "tipTh": "ลองถามว่า \"นับเป็นหนึ่ง สอง สาม ได้โดยไม่ต้องใช้ขวด ถ้วย ชิ้น ไหม\" ถ้าได้ = นับได้ (three eggs) ถ้าต้องใช้หน่วยนับ = นับไม่ได้ (three glasses of milk)"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "At the market",
+      "lines": [
+        { "speaker": "Seller", "text": "Good morning! What would you like?" },
+        { "speaker": "Fon", "text": "I'd like [[two kilos of rice]], [[six eggs]] and [[some bread]], please." },
+        { "speaker": "Seller", "text": "Sorry, we don't have [[any bread]] today. Would you like [[some cakes]] instead?" },
+        { "speaker": "Fon", "text": "No, thanks. Just [[a bottle of fish sauce]], please." }
+      ]
+    },
+    {
+      "kind": "announcement", "title": "School trip notice",
+      "lines": [
+        { "text": "For Friday's trip, please bring [[some money]] for lunch, [[two bottles of water]] and [[a hat]]. Don't bring [[too much luggage]] — [[one small bag]] is enough. For [[more information]], ask Ms Lee." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Countable noun", "th": "คำนามนับได้ — นับเป็นหนึ่ง สอง สาม ได้ มีรูป -s" },
+    { "en": "Uncountable noun", "th": "คำนามนับไม่ได้ — ไม่มีรูป -s ไม่ใช้ a/an" },
+    { "en": "Singular / Plural", "th": "เอกพจน์ (หนึ่ง) / พหูพจน์ (มากกว่าหนึ่ง)" },
+    { "en": "Unit of measure (container)", "th": "หน่วยนับ เช่น a bottle of, a cup of, a piece of — คล้ายลักษณนามในภาษาไทย" }
+  ],
+  "practice": [
+    {
+      "id": "a2-countable-uncountable-01", "type": "mc", "difficulty": 1,
+      "question": "There is ___ milk in the fridge.",
+      "choices": ["a", "an", "some", "many"], "answer": 2,
+      "whyNot": { "0": "milk เป็นคำนามนับไม่ได้ ใช้ a ไม่ได้", "1": "an ก็ใช้กับคำนามนับได้เอกพจน์เท่านั้น และ milk ขึ้นต้นด้วยเสียงพยัญชนะ", "3": "many ใช้กับคำนามนับได้พหูพจน์ (many eggs)" },
+      "explainTh": "milk นับไม่ได้ → ใช้ some (ไม่ใช้ a/an/many) และใช้ There is",
+      "structure": "There is + some + uncountable noun", "example": "There is some milk in the fridge."
+    },
+    {
+      "id": "a2-countable-uncountable-02", "type": "mc", "difficulty": 1,
+      "question": "My teacher gave me ___ about my essay.",
+      "choices": ["some advice", "some advices", "an advice", "many advices"], "answer": 0,
+      "whyNot": { "1": "advice นับไม่ได้ ไม่เติม -s", "2": "advice นับไม่ได้ ใช้ an ไม่ได้", "3": "advice ไม่มีรูปพหูพจน์ และ many ใช้กับคำนามนับได้" },
+      "explainTh": "advice เป็นคำนามนับไม่ได้ → some advice หรือ a piece of advice (ไม่ใช้ an และไม่เติม -s)",
+      "structure": "some + uncountable noun", "example": "My teacher gave me some advice."
+    },
+    {
+      "id": "a2-countable-uncountable-03", "type": "fill", "difficulty": 1,
+      "question": "I bought two ___ (bottle) of water.",
+      "accepted": ["bottles"],
+      "explainTh": "two = มากกว่าหนึ่ง → หน่วยนับเติม -s (bottles) ส่วน water นับไม่ได้จึงไม่เติม -s",
+      "structure": "number + container-s + of + uncountable noun", "example": "I bought two bottles of water."
+    },
+    {
+      "id": "a2-countable-uncountable-04", "type": "fill", "difficulty": 2,
+      "question": "There ___ (be — Present Simple) a lot of furniture in this room.",
+      "accepted": ["is"],
+      "explainTh": "furniture เป็นคำนามนับไม่ได้ ใช้กริยาเอกพจน์เสมอ แม้มี a lot of → There is",
+      "structure": "There is + uncountable noun", "example": "There is a lot of furniture in this room."
+    },
+    {
+      "id": "a2-countable-uncountable-05", "type": "fill", "difficulty": 2,
+      "question": "Can you give me a ___ of information about the trip? (หน่วยนับ = ชิ้น/ส่วน)",
+      "accepted": ["piece", "bit"],
+      "explainTh": "information นับไม่ได้ ถ้าจะนับต้องใช้หน่วย a piece of (หรือ a bit of ในภาษาพูด) → a piece of information",
+      "structure": "a piece of + uncountable noun", "example": "Can you give me a piece of information?"
+    },
+    {
+      "id": "a2-countable-uncountable-06", "type": "order", "difficulty": 1,
+      "tokens": ["a", "bread", "loaf", "of", "I", "bought"],
+      "accepted": ["I bought a loaf of bread."],
+      "explainTh": "bread นับไม่ได้ → ใช้หน่วยนับ a loaf of bread (ขนมปังหนึ่งก้อน/แถว)"
+    },
+    {
+      "id": "a2-countable-uncountable-07", "type": "order", "difficulty": 3,
+      "tokens": ["any", "news", "have", "you", "heard"],
+      "accepted": ["Have you heard any news?"],
+      "explainTh": "news นับไม่ได้ (ไม่ใช่พหูพจน์แม้ลงท้าย s) ในคำถามใช้ any → Have you heard any news?"
+    },
+    {
+      "id": "a2-countable-uncountable-08", "type": "error", "difficulty": 1,
+      "sentence": "I have a lot of homeworks tonight.",
+      "errorPart": "homeworks",
+      "accepted": ["I have a lot of homework tonight."],
+      "explainTh": "homework เป็นคำนามนับไม่ได้ ไม่เติม -s",
+      "structure": "a lot of + uncountable noun"
+    },
+    {
+      "id": "a2-countable-uncountable-09", "type": "error", "difficulty": 2,
+      "sentence": "The news are very good today.",
+      "errorPart": "are",
+      "accepted": ["The news is very good today."],
+      "explainTh": "news นับไม่ได้ ใช้กริยาเอกพจน์ (is) แม้ลงท้ายด้วย s",
+      "structure": "uncountable noun + is"
+    },
+    {
+      "id": "a2-countable-uncountable-10", "type": "error", "difficulty": 3,
+      "sentence": "We need to buy a new furniture for the living room.",
+      "errorPart": "a new furniture",
+      "accepted": ["We need to buy new furniture for the living room.", "We need to buy some new furniture for the living room.", "We need to buy a new piece of furniture for the living room."],
+      "explainTh": "furniture นับไม่ได้ ใช้ a ไม่ได้ → ตัด a ออก ใช้ some หรือใช้หน่วยนับ a piece of furniture",
+      "structure": "(some) + uncountable noun"
+    },
+    {
+      "id": "a2-countable-uncountable-11", "type": "transform", "difficulty": 1,
+      "source": "There is an apple on the table.",
+      "instruction": "เขียนใหม่โดยเปลี่ยน an apple เป็น three (สามลูก)",
+      "accepted": ["There are three apples on the table."],
+      "explainTh": "apple นับได้ → พหูพจน์เติม -s (apples) และเปลี่ยน is เป็น are"
+    },
+    {
+      "id": "a2-countable-uncountable-12", "type": "transform", "difficulty": 3,
+      "source": "I have one piece of luggage.",
+      "instruction": "เขียนใหม่โดยเปลี่ยน one เป็น two",
+      "accepted": ["I have two pieces of luggage."],
+      "explainTh": "luggage นับไม่ได้ จึงเติม -s ที่หน่วยนับ → two pieces of luggage (ไม่ใช่ two piece of luggages)"
+    },
+    {
+      "id": "a2-countable-uncountable-13", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่หน่วยนับกับคำนามที่ใช้คู่กันได้ (ใช้แต่ละคำครั้งเดียว)",
+      "pairs": [["a loaf of", "bread"], ["a bar of", "soap"], ["a piece of", "advice"], ["a bottle of", "shampoo"], ["a cup of", "tea"]],
+      "explainTh": "หน่วยนับช่วยนับคำนามนับไม่ได้: a loaf of bread, a bar of soap, a piece of advice, a bottle of shampoo, a cup of tea — คล้ายลักษณนามในภาษาไทย (ก้อน ขวด ถ้วย)"
+    },
+    {
+      "id": "a2-countable-uncountable-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I need some informations.", "I need an information.", "I need some information.", "I need many information."], "answer": 2,
+      "whyNot": { "0": "information นับไม่ได้ ไม่เติม -s", "1": "information นับไม่ได้ ใช้ an ไม่ได้", "3": "many ใช้กับคำนามนับได้พหูพจน์ (ใช้ much หรือ a lot of กับ information)" },
+      "explainTh": "information เป็นคำนามนับไม่ได้ → some information (ไม่มี a/an, ไม่มี -s)"
+    },
+    {
+      "id": "a2-countable-uncountable-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "Seller", "text": "Can I help you?" },
+        { "speaker": "Customer", "text": "Yes, I'd like two ___ of rice, please." }
+      ] },
+      "choices": ["bags", "bag", "rices", "piece"], "answer": 0,
+      "whyNot": { "1": "two = มากกว่าหนึ่ง หน่วยนับต้องเติม -s (bags)", "2": "rice นับไม่ได้ ไม่เติม -s และต้องมีหน่วยนับ", "3": "piece ไม่ใช้กับข้าว และต้องเติม -s หลัง two" },
+      "explainTh": "rice นับไม่ได้ → ใช้หน่วยนับ: two bags of rice (เติม -s ที่ bag ไม่ใช่ที่ rice)"
+    },
+    {
+      "id": "a2-countable-uncountable-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "Trip notice", "lines": [
+        { "text": "For Saturday's trip, please bring some money, two bottles of water and a jacket. Don't bring too much luggage — one small bag is enough. Mr Lee" }
+      ] },
+      "question": "Which word from the notice is a countable noun?",
+      "choices": ["money", "water", "luggage", "bag"], "answer": 3,
+      "whyNot": { "0": "money นับไม่ได้ (some money ไม่ใช่ a money) — ที่นับได้คือ coins / notes", "1": "water นับไม่ได้ จึงต้องใช้ two bottles of water", "2": "luggage นับไม่ได้ (too much luggage) — ที่นับได้คือ bags / suitcases" },
+      "explainTh": "bag นับได้: one small bag, two bags — ส่วน money, water, luggage นับไม่ได้ (ใช้ some / much / หน่วยนับ)"
+    },
+    {
+      "id": "a2-countable-uncountable-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกว่าในตู้เย็นบ้านคุณมีอะไรบ้าง ใช้ทั้งคำนามนับได้และนับไม่ได้ (Write 3 sentences about what is in your fridge.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(some|a lot of|a little|much|any|no)\\s+(milk|water|juice|rice|bread|cheese|butter|meat|food|fruit|soup|sugar|coffee|tea|ice cream|chocolate|yogh?urt|chicken|fish|cake|jam|sauce)\\b|\\b(bottles?|cartons?|pieces?|slices?|bags?|loaf|loaves|bars?|cups?|bowls?|packets?|box|boxes|kilos?|glass|glasses|jars?|cans?)\\s+of\\b", "flags": "i", "msgTh": "ใช้คำนามนับไม่ได้อย่างน้อย 1 ครั้ง กับ some / a lot of หรือหน่วยนับ เช่น some milk, a bottle of water" },
+        { "re": "\\b(two|three|four|five|six|seven|eight|nine|ten|some|a lot of|lots of|many|a few|\\d+)\\s+(\\w+\\s+)?\\w+s\\b", "flags": "i", "msgTh": "ใช้คำนามนับได้รูปพหูพจน์อย่างน้อย 1 ครั้ง เช่น three eggs, some apples" }
+      ],
+      "sample": "There is some milk in our fridge. There are three eggs and a lot of apples. We also have two bottles of water and a piece of cheese.",
+      "explainTh": "คำนามนับไม่ได้ (milk, water, cheese) ใช้ some / หน่วยนับ และกริยาเอกพจน์ ส่วนคำนามนับได้พหูพจน์ (eggs, apples) เติม -s และใช้ There are"
+    }
+  ]
+}

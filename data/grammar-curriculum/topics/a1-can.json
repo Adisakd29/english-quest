@@ -1,0 +1,200 @@
+{
+  "id": "a1-can",
+  "summaryTh": "บอกความสามารถ ขออนุญาต และขอร้อง ด้วย can / can't",
+  "concept": {
+    "what": "can เป็นกริยาช่วย แปลว่า \"ทำได้ / สามารถ\" ส่วน can't (cannot) แปลว่า \"ทำไม่ได้\" ตามด้วยกริยาช่องที่ 1 เสมอ เช่น I can swim.",
+    "when": [
+      "บอกความสามารถ (She can speak Chinese. / I can't drive.)",
+      "ขออนุญาต (Can I go to the toilet, please?)",
+      "ขอให้คนอื่นช่วย (Can you help me, please?)",
+      "บอกว่าอนุญาตหรือไม่อนุญาต (You can sit here. / You can't park here.)"
+    ],
+    "why": "can ใช้ง่ายเพราะรูปเดียวกันทุกประธาน — ไม่เติม -s ไม่มี to และไม่ใช้ do ช่วย แต่คนไทยมักติดนิสัยจากกริยาอื่น เช่น She cans …, I can to …, Do you can …?"
+  },
+  "structure": {
+    "formula": "Subject + can / can't + V1",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "Subject + can + V1", "example": "My brother [[can swim]]." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + can't / cannot + V1", "example": "I [[can't ride]] a horse." },
+      { "label": "คำถาม (Question)", "formula": "Can + Subject + V1 …?", "example": "[[Can]] you [[play]] the guitar?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + can. / No, Subject + can't.", "example": "Yes, I [[can]]. · No, she [[can't]]." },
+      { "label": "คำถาม Wh-", "formula": "Wh- + can + Subject + V1?", "example": "What [[can]] you [[cook]]?" },
+      { "label": "ขออนุญาต / ขอร้อง", "formula": "Can I …? / Can you …, please?", "example": "[[Can I use]] your pen? · [[Can you close]] the door, please?" }
+    ],
+    "notes": [
+      "ทุกประธานใช้ can เหมือนกัน: I can, she can, they can (ไม่มี cans)",
+      "หลัง can / can't ใช้กริยาช่องที่ 1 ทันที ไม่มี to และไม่เติม -s (She can swim.)",
+      "can't = cannot (เขียนติดกันเป็นคำเดียว)",
+      "ถามโดยย้าย can ไปหน้าประธาน ไม่ใช้ do / does (Can you …? ไม่ใช่ Do you can …?)"
+    ]
+  },
+  "examples": [
+    { "en": "I [[can swim]], but I [[can't dive]].", "th": "ฉันว่ายน้ำได้ แต่กระโดดน้ำไม่เป็น" },
+    { "en": "My grandma [[can speak]] three languages.", "th": "คุณยายของฉันพูดได้สามภาษา" },
+    { "en": "[[Can]] you [[ride]] a bike? — Yes, I [[can]].", "th": "คุณขี่จักรยานเป็นไหม — เป็นค่ะ" },
+    { "en": "He [[can't come]] to school today. He is sick.", "th": "วันนี้เขามาโรงเรียนไม่ได้ เขาป่วย" },
+    { "en": "[[Can I use]] your pen, please?", "th": "ขอใช้ปากกาของคุณได้ไหม" },
+    { "en": "[[Can you open]] the window, please?", "th": "ช่วยเปิดหน้าต่างหน่อยได้ไหม" },
+    { "en": "Cats [[can see]] well in the dark.", "th": "แมวมองเห็นในที่มืดได้ดี" },
+    { "en": "What languages [[can]] you [[speak]]?", "th": "คุณพูดภาษาอะไรได้บ้าง" },
+    { "en": "You [[can't take]] photos in the museum.", "th": "ห้ามถ่ายรูปในพิพิธภัณฑ์" }
+  ],
+  "mistakes": [
+    { "wrong": "I can to swim.", "right": "I can swim.", "whyTh": "หลัง can ใช้กริยาช่องที่ 1 ทันที ไม่มี to" },
+    { "wrong": "She cans play the guitar.", "right": "She can play the guitar.", "whyTh": "can ไม่เติม -s แม้ประธานจะเป็น she / he / it" },
+    { "wrong": "He can plays football.", "right": "He can play football.", "whyTh": "กริยาหลัง can ไม่เติม -s — -s ใช้กับ Present Simple ที่ไม่มีกริยาช่วยเท่านั้น" },
+    { "wrong": "Do you can cook?", "right": "Can you cook?", "whyTh": "can เป็นกริยาช่วยอยู่แล้ว ถามโดยย้าย can ไปหน้าประธาน ไม่ต้องใช้ do" },
+    { "wrong": "I no can drive.", "right": "I can't drive.", "whyTh": "ปฏิเสธใช้ can't / cannot ไม่ใช่ no can (มาจากการแปลตรง \"ไม่ได้\")" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Club day",
+      "lines": [
+        { "speaker": "Teacher", "text": "Which club do you want, Noon? [[Can]] you [[sing]]?" },
+        { "speaker": "Noon", "text": "No, I [[can't]]. But I [[can draw]] and I [[can play]] the piano." },
+        { "speaker": "Teacher", "text": "Great! The art club meets on Wednesdays. [[Can]] you [[come]] at 3 p.m.?" },
+        { "speaker": "Noon", "text": "Yes, I [[can]]. [[Can]] my friend [[come]] too?" }
+      ]
+    },
+    {
+      "kind": "announcement", "title": "Library rules",
+      "lines": [
+        { "text": "Welcome to the school library! You [[can borrow]] three books for two weeks. You [[can use]] the computers for one hour. You [[can't eat]] or drink here, and you [[can't talk]] on the phone." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Modal verb", "th": "กริยาช่วยพิเศษ เช่น can — ไม่เติม -s และตามด้วย V1" },
+    { "en": "Ability", "th": "ความสามารถ — ทำได้ / ทำเป็น" },
+    { "en": "Permission", "th": "การขออนุญาต / การอนุญาต" },
+    { "en": "Request", "th": "การขอร้องให้คนอื่นช่วย" }
+  ],
+  "practice": [
+    {
+      "id": "a1-can-01", "type": "mc", "difficulty": 1,
+      "question": "My little sister is two years old. She ___ read.",
+      "choices": ["can't", "can", "cans", "can to"], "answer": 0,
+      "whyNot": { "1": "เด็กอายุสองขวบยังอ่านหนังสือไม่ได้ ความหมายไม่เข้ากับบริบท", "2": "can ไม่เติม -s แม้ประธานเป็น she", "3": "หลัง can ไม่มี to" },
+      "explainTh": "เด็กสองขวบอ่านหนังสือไม่ได้ → can't + V1 → She can't read.",
+      "structure": "Subject + can't + V1", "example": "She can't read."
+    },
+    {
+      "id": "a1-can-02", "type": "mc", "difficulty": 1,
+      "question": "Can you ___ the piano?",
+      "choices": ["play", "plays", "to play", "playing"], "answer": 0,
+      "whyNot": { "1": "หลัง can ไม่เติม -s", "2": "หลัง can ไม่มี to", "3": "หลัง can ใช้ V1 ไม่ใช่ V-ing" },
+      "explainTh": "Can + Subject + V1 → Can you play the piano?"
+    },
+    {
+      "id": "a1-can-03", "type": "fill", "difficulty": 1,
+      "question": "Birds ___ fly, but fish can't. (ทำได้)",
+      "accepted": ["can"],
+      "explainTh": "นกบินได้ → can + V1 (fly) · ประโยคหลังใช้ can't เพื่อเทียบว่าปลาบินไม่ได้"
+    },
+    {
+      "id": "a1-can-04", "type": "fill", "difficulty": 2,
+      "question": "I'm sorry, I ___ come to your party on Saturday. I'm busy. (ไปไม่ได้)",
+      "accepted": ["can't", "cannot"],
+      "explainTh": "I'm busy = ไปไม่ได้ → can't / cannot + V1 (come)"
+    },
+    {
+      "id": "a1-can-05", "type": "error", "difficulty": 1,
+      "sentence": "He can speaks English very well.",
+      "errorPart": "speaks",
+      "accepted": ["He can speak English very well."],
+      "explainTh": "หลัง can ใช้กริยาช่องที่ 1 ไม่เติม -s → can speak",
+      "structure": "Subject + can + V1"
+    },
+    {
+      "id": "a1-can-06", "type": "error", "difficulty": 2,
+      "sentence": "We can to go to the beach today.",
+      "errorPart": "can to",
+      "accepted": ["We can go to the beach today."],
+      "explainTh": "can ตามด้วยกริยาช่องที่ 1 ทันที ไม่มี to → can go"
+    },
+    {
+      "id": "a1-can-07", "type": "error", "difficulty": 3,
+      "sentence": "Do you can help me?",
+      "errorPart": "Do you can",
+      "accepted": ["Can you help me?"],
+      "explainTh": "can เป็นกริยาช่วย ถามโดยย้าย can ไปหน้าประธาน ไม่ต้องใช้ do → Can you help me?",
+      "structure": "Can + Subject + V1?"
+    },
+    {
+      "id": "a1-can-08", "type": "order", "difficulty": 1,
+      "tokens": ["can", "my", "cook", "dad"],
+      "accepted": ["My dad can cook.", "Can my dad cook?"],
+      "explainTh": "Subject + can + V1 → My dad can cook. (ถ้าย้าย can ขึ้นหน้า จะเป็นคำถาม Can my dad cook?)"
+    },
+    {
+      "id": "a1-can-09", "type": "order", "difficulty": 2,
+      "tokens": ["you", "can", "what", "make"],
+      "accepted": ["What can you make?"],
+      "explainTh": "คำถาม Wh-: Wh- + can + Subject + V1? → What can you make?"
+    },
+    {
+      "id": "a1-can-10", "type": "order", "difficulty": 3,
+      "tokens": ["can't", "she", "fast", "run", "very"],
+      "accepted": ["She can't run very fast.", "Can't she run very fast?"],
+      "explainTh": "Subject + can't + V1 + คำขยาย → She can't run very fast. (very fast อยู่หลังกริยา)"
+    },
+    {
+      "id": "a1-can-11", "type": "transform", "difficulty": 2,
+      "source": "I can drive a car.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ (Negative)",
+      "accepted": ["I can't drive a car.", "I cannot drive a car."],
+      "explainTh": "ปฏิเสธ: can → can't / cannot (เขียนติดกัน) กริยาหลังยังเป็น V1"
+    },
+    {
+      "id": "a1-can-12", "type": "transform", "difficulty": 3,
+      "source": "Your brother can swim.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": ["Can your brother swim?"],
+      "explainTh": "คำถาม: ย้าย can ไปไว้หน้าประธาน → Can your brother swim? (ไม่ใช้ Does)"
+    },
+    {
+      "id": "a1-can-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับหน้าที่ของ can",
+      "pairs": [["I can swim.", "บอกความสามารถ"], ["Can I go to the toilet?", "ขออนุญาต"], ["Can you help me, please?", "ขอร้องให้ช่วย"], ["You can't take photos here.", "ห้าม / ไม่อนุญาต"]],
+      "explainTh": "can ใช้ได้หลายหน้าที่: I can … = ทำได้ · Can I …? = ขออนุญาต · Can you …? = ขอให้ช่วย · You can't … = ไม่อนุญาต"
+    },
+    {
+      "id": "a1-can-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["She can sings well.", "She can sing well.", "She cans sing well.", "She can to sing well."], "answer": 1,
+      "whyNot": { "0": "กริยาหลัง can ไม่เติม -s", "2": "can ไม่เติม -s ทุกประธาน", "3": "หลัง can ไม่มี to" },
+      "explainTh": "Subject + can + V1 (ไม่เติม -s ทั้ง can และกริยา) → She can sing well."
+    },
+    {
+      "id": "a1-can-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Can you come to my house after school?" },
+        { "speaker": "B", "text": "Sorry, I ___. I have a piano lesson." }
+      ] },
+      "choices": ["can't", "can", "don't can", "can't to"], "answer": 0,
+      "whyNot": { "1": "Sorry และ I have a piano lesson บอกว่าไปไม่ได้ ไม่ใช่ไปได้", "2": "ปฏิเสธ can ไม่ใช้ don't", "3": "คำตอบสั้นจบที่ can't ไม่มี to" },
+      "explainTh": "ปฏิเสธคำชวนแบบสั้น: Sorry, I can't. — แล้วให้เหตุผล (I have a piano lesson.)"
+    },
+    {
+      "id": "a1-can-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "Swimming pool rules", "lines": [
+        { "text": "You can swim here from 8 a.m. to 6 p.m. Children under 10 can't swim without an adult. You can't eat or drink in the pool. You can use the showers for free." }
+      ] },
+      "question": "Which sentence is TRUE?",
+      "choices": ["A 7-year-old child can't swim alone.", "You can eat in the pool.", "You can swim at 7 p.m.", "You can't use the showers."], "answer": 0,
+      "whyNot": { "1": "ป้ายบอกว่า You can't eat or drink in the pool.", "2": "สระเปิดถึง 6 p.m. เท่านั้น", "3": "ป้ายบอกว่า You can use the showers for free." },
+      "explainTh": "Children under 10 can't swim without an adult. → เด็ก 7 ขวบว่ายน้ำคนเดียวไม่ได้ (can't = ไม่อนุญาต)"
+    },
+    {
+      "id": "a1-can-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกสิ่งที่คุณทำได้และทำไม่ได้ (Write 3 sentences about what you can and can't do.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bcan\\s+(?!not\\b)[a-z]+", "flags": "i", "msgTh": "เขียนสิ่งที่ทำได้อย่างน้อย 1 ประโยค: I can + V1" },
+        { "re": "\\b(can't|cannot|can not)\\s+[a-z]+", "flags": "i", "msgTh": "เขียนสิ่งที่ทำไม่ได้อย่างน้อย 1 ประโยค: I can't + V1" }
+      ],
+      "sample": "I can swim very well. I can cook fried rice. I can't play the guitar.",
+      "explainTh": "can / can't ตามด้วยกริยาช่องที่ 1 เสมอ (can swim, can't play) ไม่มี to และไม่เติม -s"
+    }
+  ]
+}

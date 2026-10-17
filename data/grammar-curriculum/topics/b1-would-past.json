@@ -1,0 +1,500 @@
+{
+  "id": "b1-would-past",
+  "summaryTh": "ใช้ would เล่ากิจวัตรที่ทำซ้ำ ๆ ในอดีต (ใช้กับการกระทำเท่านั้น ไม่ใช้กับสภาพ)",
+  "concept": {
+    "what": "would + V1 ใช้เล่า \"การกระทำที่ทำซ้ำ ๆ เป็นประจำในอดีต\" คล้าย used to เช่น Every summer, we would go to the beach. มักใช้เวลาเล่าความทรงจำหรือเล่าเรื่องเก่า ๆ",
+    "when": [
+      "การกระทำที่เกิดซ้ำ ๆ ในอดีต (Every night, Dad would read us a story.)",
+      "เล่าความทรงจำต่อเนื่อง หลังจากบอกช่วงเวลาไว้แล้ว เช่น When I was a kid … / Every summer …",
+      "ห้ามใช้กับกริยาสภาพ (state verbs) เช่น be, have (= มี), live, like, love, know, believe — ต้องใช้ used to หรือ Past Simple แทน"
+    ],
+    "why": "would ทำให้การเล่าเรื่องในอดีตฟังเป็นธรรมชาติและมีอารมณ์ \"รำลึกความหลัง\" แต่คนไทยมักใช้ would กับทุกกริยาแบบเดียวกับ used to เช่น We would live in Hat Yai × ซึ่งผิด เพราะ live เป็นสภาพ ไม่ใช่การกระทำที่ทำซ้ำ"
+  },
+  "structure": {
+    "formula": "Subject + would ('d) + V1 (การกระทำที่ทำซ้ำในอดีต)",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + would + V1",
+        "example": "Every Sunday, my grandma [[would cook]] a big lunch."
+      },
+      {
+        "label": "รูปย่อ (Contraction)",
+        "formula": "Subject + 'd + V1",
+        "example": "After school, [[we'd play]] football until dark."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + wouldn't + V1 (มักแปลว่า \"ไม่ยอม\")",
+        "example": "My little brother [[wouldn't eat]] vegetables when he was small."
+      },
+      {
+        "label": "สภาพในอดีต (State) → ใช้ used to",
+        "formula": "Subject + used to + be / have / live / like …",
+        "example": "We [[used to live]] near the sea. (ไม่ใช่ would live)"
+      }
+    ],
+    "notes": [
+      "would ใช้ได้กับการกระทำ (action verbs) เท่านั้น เช่น play, go, cook, visit, read, walk",
+      "กริยาสภาพ (state verbs) เช่น be, have (มี), live, like, love, hate, know, believe, own ใช้กับ would แบบนี้ไม่ได้ → ใช้ used to หรือ Past Simple",
+      "หลัง would ใช้กริยาช่องที่ 1 เสมอ ไม่มี to ไม่เติม -s / -ed",
+      "มักบอกช่วงเวลาในอดีตก่อน (When I was young, … / Every summer, …) ถ้าไม่มีบริบท ผู้ฟังอาจเข้าใจว่าเป็นประโยคสมมุติ",
+      "ประโยคคำถามและปฏิเสธเรื่องนิสัยในอดีตนิยมใช้ used to มากกว่า (Did you use to …?) — wouldn't มักแปลว่า \"ไม่ยอม\""
+    ]
+  },
+  "examples": [
+    {
+      "en": "Every summer, we [[would go]] to my grandparents' farm in Nan.",
+      "th": "ทุกหน้าร้อนพวกเราจะไปฟาร์มของปู่ย่าที่น่าน"
+    },
+    {
+      "en": "My mum [[would sing]] to us every night before bed.",
+      "th": "แม่จะร้องเพลงให้ฟังทุกคืนก่อนนอน"
+    },
+    {
+      "en": "After school, [[we'd play]] football until it got dark.",
+      "th": "หลังเลิกเรียนพวกเราจะเล่นฟุตบอลจนมืด"
+    },
+    {
+      "en": "On rainy days, my brother and I [[would watch]] cartoons all afternoon.",
+      "th": "วันที่ฝนตก ฉันกับพี่ชายจะดูการ์ตูนกันทั้งบ่าย"
+    },
+    {
+      "en": "We [[used to live]] in a small house, and my dad [[would cycle]] to work every day.",
+      "th": "เราเคยอยู่บ้านหลังเล็ก และพ่อจะปั่นจักรยานไปทำงานทุกวัน (live = สภาพ ใช้ used to · cycle = การกระทำ ใช้ would ได้)"
+    },
+    {
+      "en": "When I worked in Phuket, I [[would swim]] in the sea before work.",
+      "th": "ตอนทำงานที่ภูเก็ต ฉันจะว่ายน้ำทะเลก่อนไปทำงาน"
+    },
+    {
+      "en": "My cat [[wouldn't come]] inside when it rained.",
+      "th": "แมวของฉันไม่ยอมเข้าบ้านเวลาฝนตก"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "We would live in Hat Yai when I was a child.",
+      "right": "We used to live in Hat Yai when I was a child.",
+      "whyTh": "live เป็นกริยาสภาพ (ไม่ใช่การกระทำที่ทำซ้ำ) จึงใช้ would ไม่ได้ ต้องใช้ used to หรือ lived"
+    },
+    {
+      "wrong": "I would have a dog called Lucky.",
+      "right": "I used to have a dog called Lucky.",
+      "whyTh": "have (= มี) เป็นสภาพ ใช้ would ไม่ได้ → used to have หรือ had"
+    },
+    {
+      "wrong": "Every weekend we would to go to the market.",
+      "right": "Every weekend we would go to the market.",
+      "whyTh": "would เป็นกริยาช่วย ตามด้วยกริยาช่องที่ 1 ทันที ไม่มี to (ต่างจาก used to)"
+    },
+    {
+      "wrong": "My grandpa would tells us funny stories.",
+      "right": "My grandpa would tell us funny stories.",
+      "whyTh": "หลัง would ใช้กริยาช่องที่ 1 ไม่เติม -s แม้ประธานเป็นบุรุษที่ 3"
+    },
+    {
+      "wrong": "When I was a teenager, I would be very shy.",
+      "right": "When I was a teenager, I used to be very shy.",
+      "whyTh": "be shy เป็นสภาพ / นิสัยใจคอ ไม่ใช่การกระทำที่ทำซ้ำ จึงใช้ used to หรือ was"
+    }
+  ],
+  "compare": {
+    "title": "would vs used to (นิสัยและสภาพในอดีต)",
+    "with": [
+      "b1-used-to"
+    ],
+    "rows": [
+      {
+        "label": "การกระทำที่ทำซ้ำ",
+        "a": "ได้: We would play in the park.",
+        "b": "ได้: We used to play in the park."
+      },
+      {
+        "label": "สภาพ (be, have, live, like, know)",
+        "a": "ไม่ได้: We would live in Krabi. ×",
+        "b": "ได้: We used to live in Krabi."
+      },
+      {
+        "label": "ปฏิเสธ / คำถาม",
+        "a": "ไม่นิยม — wouldn't มักแปลว่า \"ไม่ยอม\"",
+        "b": "ใช้ได้ปกติ: didn't use to / Did you use to …?"
+      },
+      {
+        "label": "บริบท",
+        "a": "ต้องบอกช่วงเวลาในอดีตก่อน (Every summer …)",
+        "b": "ขึ้นต้นเรื่องได้เลย"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่ากริยานั้นเป็น \"การกระทำที่ทำซ้ำได้\" หรือ \"สภาพ\" — ถ้าเป็นสภาพ (be, have, live, like, know) ใช้ได้แค่ used to · ถ้าเป็นการกระทำ ใช้ได้ทั้ง would และ used to"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "Childhood memories",
+      "lines": [
+        {
+          "text": "When I was a child, we [[used to live]] next to a rice field. Every afternoon after school, my sister and I [[would fly]] kites, and on hot days we [[would swim]] in the canal. My mum [[would cook]] rice soup on Sunday mornings, and the whole house [[used to smell]] of ginger. I [[used to love]] those Sundays."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Talking to Grandpa",
+      "lines": [
+        {
+          "speaker": "Mint",
+          "text": "Grandpa, what was school like when you were young?"
+        },
+        {
+          "speaker": "Grandpa",
+          "text": "Our school [[used to be]] very small. Every morning, I [[would walk]] three kilometres to get there."
+        },
+        {
+          "speaker": "Mint",
+          "text": "Three kilometres! Didn't you have a bike?"
+        },
+        {
+          "speaker": "Grandpa",
+          "text": "No, we [[used to have]] only one bike, and my father needed it. So my friends and I [[would sing]] songs all the way to school."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Past habit",
+      "th": "สิ่งที่ทำเป็นประจำในอดีต"
+    },
+    {
+      "en": "Action verb",
+      "th": "กริยาที่เป็นการกระทำ ทำซ้ำได้ เช่น play, go, cook"
+    },
+    {
+      "en": "State verb",
+      "th": "กริยาบอกสภาพ / ความรู้สึก / ความเป็นเจ้าของ เช่น be, have, live, like, know"
+    },
+    {
+      "en": "would ('d)",
+      "th": "กริยาช่วย ในหัวข้อนี้แปลว่า \"(เมื่อก่อน) จะ…เป็นประจำ\""
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-would-past-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "When we were kids, my brother and I ___ in a small house near the river.",
+      "choices": [
+        "used to live",
+        "would live",
+        "would living",
+        "use to live"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "live เป็นกริยาสภาพ (ไม่ใช่การกระทำที่ทำซ้ำ) จึงใช้กับ would ไม่ได้",
+        "2": "หลัง would ใช้ V1 ไม่ใช่ V-ing และ live ก็ใช้กับ would ไม่ได้อยู่แล้ว",
+        "3": "ประโยคบอกเล่าต้องเป็น used (มี d)"
+      },
+      "explainTh": "live = สภาพ (state) → ใช้ used to + V1 ได้ แต่ใช้ would ไม่ได้ → used to live",
+      "structure": "Subject + used to + state verb",
+      "example": "We used to live in a small house."
+    },
+    {
+      "id": "b1-would-past-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Every summer, my grandmother ___ us mango sticky rice.",
+      "choices": [
+        "would make",
+        "would makes",
+        "would made",
+        "would making"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง would ไม่เติม -s แม้ประธานเป็นเอกพจน์",
+        "2": "หลัง would ใช้ V1 ไม่ใช่ช่องที่ 2",
+        "3": "หลัง would ใช้ V1 ไม่ใช่ V-ing"
+      },
+      "explainTh": "ทำขนมให้ทุกหน้าร้อน = การกระทำที่ทำซ้ำในอดีต → would + V1 → would make",
+      "structure": "Subject + would + V1",
+      "example": "My grandmother would make us mango sticky rice."
+    },
+    {
+      "id": "b1-would-past-03",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "My uncle would have a big farm in Nan.",
+        "My uncle used to have a big farm in Nan.",
+        "My uncle would to have a big farm in Nan.",
+        "My uncle was used to have a big farm in Nan."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "have (= มี) เป็นสภาพ ใช้ would ไม่ได้",
+        "2": "would ไม่มี to ตามหลัง และ have (มี) ใช้กับ would ไม่ได้",
+        "3": "was used to = ชิน และต้องตามด้วย V-ing ไม่ใช่ V1"
+      },
+      "explainTh": "\"เคยมีฟาร์ม\" เป็นสภาพในอดีต → used to have (would ใช้กับการกระทำที่ทำซ้ำเท่านั้น)"
+    },
+    {
+      "id": "b1-would-past-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "On Sunday mornings, my dad ___ (would / wash) the car while we watched cartoons.",
+      "accepted": [
+        "would wash"
+      ],
+      "explainTh": "ล้างรถทุกเช้าวันอาทิตย์ = การกระทำที่ทำซ้ำในอดีต → would + V1 → would wash",
+      "structure": "Subject + would + V1",
+      "example": "My dad would wash the car on Sunday mornings."
+    },
+    {
+      "id": "b1-would-past-05",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "When I was a teenager, I ___ (love) K-pop. My room was full of posters. (เลือกใช้ used to หรือ would ให้ถูก)",
+      "accepted": [
+        "used to love",
+        "loved"
+      ],
+      "explainTh": "love เป็นกริยาสภาพ (ความรู้สึก) ใช้กับ would ไม่ได้ → used to love (would love แปลว่า \"อยากจะ\")",
+      "structure": "Subject + used to + state verb",
+      "example": "I used to love K-pop."
+    },
+    {
+      "id": "b1-would-past-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Every evening, my grandfather ___ (sit) on the porch and tell us ghost stories. (ใช้ would)",
+      "accepted": [
+        "would sit"
+      ],
+      "explainTh": "นั่งเล่าเรื่องผีทุกเย็น = การกระทำที่ทำซ้ำ → would + V1 → would sit (และ tell ก็อยู่หลัง would เช่นกัน)",
+      "structure": "Subject + would + V1 and V1",
+      "example": "He would sit on the porch and tell us stories."
+    },
+    {
+      "id": "b1-would-past-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "We would have a big garden when I was a child.",
+      "errorPart": "would have",
+      "accepted": [
+        "We used to have a big garden when I was a child.",
+        "We had a big garden when I was a child."
+      ],
+      "explainTh": "have (= มี) เป็นสภาพ ใช้ would ไม่ได้ → used to have หรือ had"
+    },
+    {
+      "id": "b1-would-past-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "When I was a student, I would to study in the library every night.",
+      "errorPart": "would to study",
+      "accepted": [
+        "When I was a student, I would study in the library every night.",
+        "When I was a student, I used to study in the library every night.",
+        "When I was a student, I studied in the library every night."
+      ],
+      "explainTh": "would เป็นกริยาช่วย ตามด้วย V1 ทันที ไม่มี to → would study"
+    },
+    {
+      "id": "b1-would-past-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "My parents would live in Hat Yai before they moved to Bangkok.",
+      "errorPart": "would live",
+      "accepted": [
+        "My parents used to live in Hat Yai before they moved to Bangkok.",
+        "My parents lived in Hat Yai before they moved to Bangkok.",
+        "My parents had lived in Hat Yai before they moved to Bangkok."
+      ],
+      "explainTh": "live เป็นสภาพ ไม่ใช่การกระทำที่ทำซ้ำ → ใช้ used to live หรือ lived (would ใช้ไม่ได้)"
+    },
+    {
+      "id": "b1-would-past-10",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "we",
+        "would",
+        "go",
+        "to",
+        "the",
+        "beach",
+        "every",
+        "weekend"
+      ],
+      "accepted": [
+        "We would go to the beach every weekend.",
+        "Every weekend we would go to the beach."
+      ],
+      "explainTh": "Subject + would + V1 + สถานที่ + เวลา → We would go to the beach every weekend."
+    },
+    {
+      "id": "b1-would-past-11",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "My grandpa used to take me fishing on Saturdays.",
+      "instruction": "เขียนใหม่โดยใช้ would แทน used to",
+      "accepted": [
+        "My grandpa would take me fishing on Saturdays.",
+        "On Saturdays my grandpa would take me fishing.",
+        "On Saturdays, my grandpa would take me fishing."
+      ],
+      "explainTh": "take me fishing เป็นการกระทำที่ทำซ้ำ จึงเปลี่ยน used to เป็น would ได้ → would take"
+    },
+    {
+      "id": "b1-would-past-12",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "When we lived in the village, we went to the market every morning.",
+      "instruction": "เขียนใหม่โดยใช้ would กับกิจวัตรที่ทำซ้ำ (ส่วนที่เป็นสภาพให้คงไว้)",
+      "accepted": [
+        "When we lived in the village, we would go to the market every morning.",
+        "When we lived in the village we would go to the market every morning."
+      ],
+      "explainTh": "went to the market every morning = การกระทำซ้ำ → would go · แต่ lived in the village เป็นสภาพ จึงคงเป็น lived (ห้ามเปลี่ยนเป็น would live)"
+    },
+    {
+      "id": "b1-would-past-13",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่ประโยคกับการใช้ would",
+      "pairs": [
+        [
+          "Every night, Dad would read us a story.",
+          "กิจวัตรที่ทำซ้ำในอดีต"
+        ],
+        [
+          "I would buy a car if I had more money.",
+          "สมมุติ (ประโยคเงื่อนไข)"
+        ],
+        [
+          "Would you open the window, please?",
+          "ขอให้อีกฝ่ายช่วยทำอย่างสุภาพ (Would you …?)"
+        ],
+        [
+          "I'd like a cup of tea, please.",
+          "บอกว่าตัวเองอยากได้อะไรอย่างสุภาพ (= I want)"
+        ],
+        [
+          "She said she would call me later.",
+          "เล่าคำพูดที่พูดถึงอนาคต"
+        ]
+      ],
+      "explainTh": "would มีหลายหน้าที่ — ในหัวข้อนี้ would = สิ่งที่ทำเป็นประจำในอดีต สังเกตจากคำบอกความถี่ในอดีต เช่น Every night …"
+    },
+    {
+      "id": "b1-would-past-14",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "กริยาใดใช้กับ would (เล่ากิจวัตรในอดีต) ไม่ได้?",
+      "choices": [
+        "walk",
+        "believe",
+        "visit",
+        "play"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "walk เป็นการกระทำที่ทำซ้ำได้ เช่น We would walk to school.",
+        "2": "visit เป็นการกระทำ เช่น We would visit Grandma every Sunday.",
+        "3": "play เป็นการกระทำ เช่น We would play football after school."
+      },
+      "explainTh": "believe เป็นกริยาสภาพ (ความคิด / ความเชื่อ) ใช้กับ would ไม่ได้ → I used to believe in ghosts."
+    },
+    {
+      "id": "b1-would-past-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What was your primary school like?"
+          },
+          {
+            "speaker": "B",
+            "text": "It was great. We ___ a big playground, and after lunch we would play football there."
+          }
+        ]
+      },
+      "choices": [
+        "used to have",
+        "would have",
+        "would had",
+        "use to have"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have (= มี) เป็นสภาพ ใช้ would ไม่ได้",
+        "2": "หลัง would ใช้ V1 และ have (มี) ใช้กับ would ไม่ได้อยู่แล้ว",
+        "3": "ประโยคบอกเล่าต้องเป็น used (มี d)"
+      },
+      "explainTh": "\"มีสนามเด็กเล่น\" = สภาพ → used to have · ส่วน play football เป็นการกระทำ จึงใช้ would play ได้"
+    },
+    {
+      "id": "b1-would-past-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "Childhood memories",
+        "lines": [
+          {
+            "text": "When I was a child, we used to live next to a rice field. Every afternoon after school, my sister and I used to fly kites, and on hot days we used to swim in the canal. My mum used to cook rice soup on Sunday mornings."
+          }
+        ]
+      },
+      "question": "Which sentence can you NOT rewrite with \"would\"?",
+      "choices": [
+        "We used to live next to a rice field.",
+        "My sister and I used to fly kites.",
+        "We used to swim in the canal.",
+        "My mum used to cook rice soup on Sunday mornings."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "fly kites เป็นการกระทำที่ทำซ้ำ → My sister and I would fly kites. ได้",
+        "2": "swim เป็นการกระทำ → we would swim in the canal. ได้",
+        "3": "cook เป็นการกระทำที่ทำทุกเช้าวันอาทิตย์ → My mum would cook … ได้"
+      },
+      "explainTh": "live เป็นกริยาสภาพ จึงเปลี่ยน used to เป็น would ไม่ได้ ส่วน fly, swim, cook เป็นการกระทำที่ทำซ้ำ เปลี่ยนเป็น would ได้ทั้งหมด"
+    },
+    {
+      "id": "b1-would-past-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่ากิจวัตรตอนเด็ก ใช้ would กับการกระทำอย่างน้อย 2 ครั้ง และใช้ used to กับกริยาสภาพ (be, have, live, like …) 1 ครั้ง (Write 3 sentences about your childhood routines. Use would at least twice for actions and used to once with a state verb.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "(\\bwould|[’']d)\\s+(?!to\\b)\\w+[\\s\\S]*(\\bwould|[’']d)\\s+(?!to\\b)\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ would + กริยาช่องที่ 1 อย่างน้อย 2 ครั้ง (เช่น we would play …)"
+        },
+        {
+          "re": "\\bused to\\s+(be|have|live|like|love|hate|know|own|believe|think|want)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ used to กับกริยาสภาพ 1 ครั้ง (เช่น used to live / used to have / used to be)"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\b(would|[’']d)\\s+(be|live|like|love|hate|know|own|believe)\\b",
+          "flags": "i",
+          "msgTh": "กริยาสภาพ (be, live, like, know …) ใช้กับ would ไม่ได้ — ใช้ used to แทน"
+        }
+      ],
+      "sample": "When I was a child, we used to live in a small village. Every morning my mother would wake me up at six. After school my friends and I would play football until dark.",
+      "explainTh": "would + V1 ใช้กับการกระทำที่ทำซ้ำ (wake up, play, go) · กริยาสภาพ (live, have, be, like) ใช้ used to"
+    }
+  ]
+}

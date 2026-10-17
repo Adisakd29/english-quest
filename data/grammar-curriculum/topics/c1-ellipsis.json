@@ -1,0 +1,494 @@
+{
+  "id": "c1-ellipsis",
+  "summaryTh": "ละคำที่ซ้ำโดยเหลือแค่กริยาช่วยหรือ to เพื่อให้ประโยคกระชับและเป็นธรรมชาติ",
+  "concept": {
+    "what": "Ellipsis คือการละคำที่ผู้ฟังเข้าใจได้จากบริบทแล้ว เพื่อไม่ต้องพูดซ้ำ เช่น She can swim and so can I. (ละ swim) · I wanted to come, but I couldn't. (ละ come) · \"Are you coming?\" \"I'd love to.\" (ละ come) — สิ่งสำคัญคือต้องเหลือ \"กริยาช่วย\" หรือ \"to\" ไว้ ห้ามละทิ้งหมด",
+    "when": [
+      "ตอบรับ/เห็นด้วยสั้น ๆ: So do I. / Neither can she. / Nor have we.",
+      "ประโยคที่สองซ้ำกริยาของประโยคแรก: I haven't finished, but Tom has.",
+      "ละกริยาหลัง to: You don't have to come if you don't want to.",
+      "เปรียบเทียบ: She earns more than I do.",
+      "งานเขียนทางการ ละกริยาที่ซ้ำ (gapping): Some chose French, and others Spanish."
+    ],
+    "why": "การพูดซ้ำทั้งประโยคฟังดูแข็งและยืดยาด ภาษาไทยละประธาน/กริยาได้อิสระ (\"ฉันก็ด้วย\" \"อยากไปแต่ไปไม่ได้\") ผู้เรียนไทยจึงมักละมากเกินไป เช่น I'd love. / I don't want. (ขาด to) หรือเลือกกริยาช่วยไม่ตรงกับประโยคแรก (He has finished and so did I ✗)"
+  },
+  "structure": {
+    "formula": "… + auxiliary (ละส่วนที่ซ้ำ)  ·  So / Neither + auxiliary + S",
+    "rows": [
+      {
+        "label": "เห็นด้วย (บอกเล่า)",
+        "formula": "So + aux + S",
+        "example": "\"I'm exhausted.\" \"[[So am I]].\""
+      },
+      {
+        "label": "เห็นด้วย (ปฏิเสธ)",
+        "formula": "Neither / Nor + aux + S · S + aux + not + either",
+        "example": "\"I can't stand cold weather.\" \"[[Neither can I]].\""
+      },
+      {
+        "label": "ละหลังกริยาช่วย",
+        "formula": "Clause 1, but / and + S + aux",
+        "example": "I haven't read the report yet, but my colleagues [[have]]."
+      },
+      {
+        "label": "ละหลัง to (to-infinitive)",
+        "formula": "… want / like / love / try / have + to",
+        "example": "\"Will you join us?\" \"I'd love [[to]].\""
+      },
+      {
+        "label": "เปรียบเทียบ",
+        "formula": "… than / as + S + aux",
+        "example": "She speaks Japanese better than I [[do]]."
+      },
+      {
+        "label": "Gapping (ภาษาเขียน)",
+        "formula": "S1 + V + X, and S2 (+ ละ V) + Y",
+        "example": "Some delegates voted for the proposal, and [[others against it]]."
+      }
+    ],
+    "notes": [
+      "กริยาช่วยต้องตรงกับประโยคแรก: has finished → so has · can swim → so can · likes → so does · went → so did",
+      "So / Neither + aux + S ต้องสลับเสมอ (So do I ไม่ใช่ So I do — So I do แปลว่า \"ใช่ ฉันทำจริง\")",
+      "Neither ใช้กับประโยคปฏิเสธ และตามด้วยกริยาช่วยรูปบอกเล่า: Neither do I (ไม่ใช่ Neither don't I)",
+      "ละหลัง to แต่ต้องเหลือ to ไว้: I'd like to. / I don't want to.",
+      "หลัง be ละได้เช่นกัน: I thought it would be difficult, and it was."
+    ]
+  },
+  "examples": [
+    {
+      "en": "Anna can play the violin, and [[so can]] her brother.",
+      "th": "แอนนาเล่นไวโอลินได้ และน้องชายเธอก็เล่นได้เหมือนกัน"
+    },
+    {
+      "en": "\"I didn't enjoy the lecture.\" \"[[Neither did I]].\"",
+      "th": "\"ฉันไม่ชอบเลกเชอร์นั้นเลย\" \"ฉันก็ไม่ชอบเหมือนกัน\""
+    },
+    {
+      "en": "I wanted to apply for the job, but I [[didn't]] in the end.",
+      "th": "ฉันอยากสมัครงานนั้น แต่สุดท้ายก็ไม่ได้สมัคร"
+    },
+    {
+      "en": "You don't have to stay late if you don't want [[to]].",
+      "th": "ไม่ต้องอยู่เลิกดึกก็ได้ ถ้าไม่อยากอยู่"
+    },
+    {
+      "en": "Our team worked harder than theirs [[did]].",
+      "th": "ทีมเราทำงานหนักกว่าทีมพวกเขา"
+    },
+    {
+      "en": "I thought the exam would be easy, but it [[wasn't]].",
+      "th": "ฉันคิดว่าข้อสอบจะง่าย แต่มันไม่ง่ายเลย"
+    },
+    {
+      "en": "\"Have you finished the survey?\" \"Not yet, but I [[will]] by Friday.\"",
+      "th": "\"ทำแบบสำรวจเสร็จหรือยัง\" \"ยังเลย แต่จะทำให้เสร็จภายในวันศุกร์\""
+    },
+    {
+      "en": "The first group studied online, and [[the second in the classroom]].",
+      "th": "กลุ่มแรกเรียนออนไลน์ ส่วนกลุ่มที่สองเรียนในห้องเรียน"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She can speak Japanese, and so do I.",
+      "right": "She can speak Japanese, and so can I.",
+      "whyTh": "กริยาช่วยต้องตรงกับประโยคแรก ประโยคแรกใช้ can จึงตอบ so can I"
+    },
+    {
+      "wrong": "\"Would you like to join us?\" \"I'd love.\"",
+      "right": "\"Would you like to join us?\" \"I'd love to.\"",
+      "whyTh": "ละกริยาได้ แต่ต้องเหลือ to ไว้ (love to = love to join)"
+    },
+    {
+      "wrong": "\"I don't eat meat.\" \"Neither I do.\"",
+      "right": "\"I don't eat meat.\" \"Neither do I.\"",
+      "whyTh": "หลัง Neither / So ต้องสลับกริยาช่วยมาไว้หน้าประธาน"
+    },
+    {
+      "wrong": "He has visited Japan, but I didn't.",
+      "right": "He has visited Japan, but I haven't.",
+      "whyTh": "ประโยคแรกเป็น Present Perfect (has visited) จึงละด้วย have/haven't ให้ตรงกัน"
+    },
+    {
+      "wrong": "I'm not tired, and Tom isn't too.",
+      "right": "I'm not tired, and Tom isn't either.",
+      "whyTh": "ประโยคปฏิเสธใช้ either (หรือ neither is Tom) — too ใช้กับประโยคบอกเล่า"
+    }
+  ],
+  "compare": {
+    "title": "Ellipsis vs Substitution",
+    "with": [
+      "c1-substitution"
+    ],
+    "rows": [
+      {
+        "label": "วิธีการ",
+        "a": "ละคำที่ซ้ำออกไปเลย เหลือแค่กริยาช่วย/to",
+        "b": "ใส่คำแทนสั้น ๆ (so, not, one, do so)"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "\"Is it raining?\" \"It might be.\"",
+        "b": "\"Is it raining?\" \"I think so.\""
+      },
+      {
+        "label": "อีกตัวอย่าง",
+        "a": "I can't come, but Ann can.",
+        "b": "I need a pen. Have you got one?"
+      }
+    ],
+    "tipTh": "หลังกริยาช่วยหรือ to → ละได้เลย · หลัง think / hope / be afraid → ใช้ so / not แทน · แทนคำนามนับได้ → ใช้ one / ones"
+  },
+  "contexts": [
+    {
+      "kind": "message",
+      "title": "Group chat about a workshop",
+      "lines": [
+        {
+          "speaker": "Nina",
+          "text": "Are you coming to the workshop on Friday?"
+        },
+        {
+          "speaker": "Leo",
+          "text": "I'd love [[to]], but I [[can't]]. I've got an exam."
+        },
+        {
+          "speaker": "Nina",
+          "text": "Shame. Kate [[is]], though."
+        },
+        {
+          "speaker": "Leo",
+          "text": "Is she? I thought she [[wasn't]]. Anyway, I didn't go to the last one, and [[neither did]] Max, so we'll need your notes!"
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Project update",
+      "lines": [
+        {
+          "text": "Team A has completed the user survey, but Team B [[hasn't]] yet. We hoped to launch in May, and we still [[might]]. Some clients preferred the old design, and [[others the new one]]. We will update the layout if we need [[to]]."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Ellipsis",
+      "th": "การละคำที่ซ้ำ ซึ่งผู้ฟังเข้าใจจากบริบทได้แล้ว"
+    },
+    {
+      "en": "Auxiliary verb",
+      "th": "กริยาช่วย (be, do, have, can, will …) — ส่วนที่ต้องเหลือไว้เมื่อละ"
+    },
+    {
+      "en": "Gapping",
+      "th": "การละกริยาที่ซ้ำในประโยคที่สอง (Some chose tea, and others coffee.)"
+    },
+    {
+      "en": "Short response",
+      "th": "การตอบสั้น ๆ เช่น So do I. / Neither can she."
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-ellipsis-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Anna has already finished her essay, and so ___ Ben.",
+      "choices": [
+        "has",
+        "does",
+        "is",
+        "did"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "does ใช้ตอบประโยค Present Simple แต่ประโยคแรกเป็น has finished",
+        "2": "is ใช้กับประโยคที่มี be แต่ประโยคแรกใช้ has",
+        "3": "did ใช้กับ Past Simple แต่ประโยคแรกเป็น Present Perfect (has … finished)"
+      },
+      "explainTh": "กริยาช่วยต้องตรงกับประโยคแรก: has finished → so has Ben",
+      "structure": "so + aux + S"
+    },
+    {
+      "id": "c1-ellipsis-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "A: \"I don't like horror films.\" B: \"___\"",
+      "choices": [
+        "Neither do I.",
+        "So do I.",
+        "Neither I do.",
+        "I don't too."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "So do I ใช้เห็นด้วยกับประโยคบอกเล่า แต่ A พูดประโยคปฏิเสธ",
+        "2": "หลัง Neither ต้องสลับกริยาช่วยมาไว้หน้าประธาน",
+        "3": "ประโยคปฏิเสธใช้ either (I don't either) ไม่ใช่ too"
+      },
+      "explainTh": "เห็นด้วยกับประโยคปฏิเสธ → Neither + do + I (do เพราะประโยคแรกเป็น Present Simple)"
+    },
+    {
+      "id": "c1-ellipsis-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I can't speak French, but my sister ___. (กริยาช่วย)",
+      "accepted": [
+        "can"
+      ],
+      "explainTh": "ประโยคแรกใช้ can't speak → ประโยคที่สองละ speak French เหลือแค่กริยาช่วย can"
+    },
+    {
+      "id": "c1-ellipsis-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "You don't have to come to the party if you don't want ___.",
+      "accepted": [
+        "to"
+      ],
+      "explainTh": "ละ come to the party หลัง want ได้ แต่ต้องเหลือ to ไว้ (want to)"
+    },
+    {
+      "id": "c1-ellipsis-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "My assistant earns more than her manager ___. (กริยาช่วย)",
+      "accepted": [
+        "does"
+      ],
+      "explainTh": "ประโยคแรกเป็น Present Simple (earns) ประธาน her manager เอกพจน์ → does (= earns)"
+    },
+    {
+      "id": "c1-ellipsis-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I thought the exam would be difficult, and it ___. (กริยาช่วย ในอดีต)",
+      "accepted": [
+        "was"
+      ],
+      "explainTh": "ละ difficult หลัง be: it was (difficult) — ใช้ was เพราะเล่าเรื่องในอดีต"
+    },
+    {
+      "id": "c1-ellipsis-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Mark doesn't eat meat, and neither I do.",
+      "errorPart": "neither I do",
+      "accepted": [
+        "Mark doesn't eat meat, and neither do I.",
+        "Mark doesn't eat meat, and nor do I.",
+        "Mark doesn't eat meat, and I don't either."
+      ],
+      "explainTh": "Neither / Nor + กริยาช่วย + ประธาน (สลับ) → neither do I"
+    },
+    {
+      "id": "c1-ellipsis-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "I haven't read the report yet, but my colleagues did.",
+      "errorPart": "did",
+      "accepted": [
+        "I haven't read the report yet, but my colleagues have.",
+        "I haven't read the report yet, but my colleagues have read it."
+      ],
+      "explainTh": "ประโยคแรกเป็น Present Perfect (haven't read … yet) ส่วนที่ละต้องใช้กริยาช่วยเดียวกัน → have"
+    },
+    {
+      "id": "c1-ellipsis-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "\"Will you apply for the job?\" \"I'd like, but I don't have enough experience.\"",
+      "errorPart": "I'd like,",
+      "accepted": [
+        "\"Will you apply for the job?\" \"I'd like to, but I don't have enough experience.\""
+      ],
+      "explainTh": "ละ apply for the job ได้ แต่ต้องเหลือ to หลัง like → I'd like to"
+    },
+    {
+      "id": "c1-ellipsis-10",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Tom can play the guitar. I can play the guitar too.",
+      "instruction": "รวมเป็นประโยคเดียวโดยใช้ and so",
+      "accepted": [
+        "Tom can play the guitar, and so can I.",
+        "Tom can play the guitar and so can I."
+      ],
+      "explainTh": "ละ play the guitar ในส่วนที่สอง แล้วใช้ so + can + I (กริยาช่วยตรงกับประโยคแรก)",
+      "structure": "Clause, and so + aux + S"
+    },
+    {
+      "id": "c1-ellipsis-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Some delegates voted for the proposal, and other delegates voted against the proposal.",
+      "instruction": "ตัดคำที่ซ้ำให้กระชับ โดยใช้ others และ it",
+      "accepted": [
+        "Some delegates voted for the proposal, and others against it.",
+        "Some delegates voted for the proposal and others against it.",
+        "Some delegates voted for the proposal, and others voted against it.",
+        "Some delegates voted for the proposal and others voted against it."
+      ],
+      "explainTh": "other delegates → others · the proposal → it · ละ voted ได้ (gapping) เพราะซ้ำกับประโยคแรก"
+    },
+    {
+      "id": "c1-ellipsis-12",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "she",
+        "said",
+        "she",
+        "would",
+        "call",
+        "but",
+        "she",
+        "didn't"
+      ],
+      "accepted": [
+        "She said she would call, but she didn't.",
+        "She said she would call but she didn't."
+      ],
+      "explainTh": "ละ call ในส่วนที่สอง เหลือกริยาช่วย didn't (= didn't call)"
+    },
+    {
+      "id": "c1-ellipsis-13",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I've never been to Iceland, but my parents did.",
+        "I've never been to Iceland, but my parents have.",
+        "I've never been to Iceland, but my parents had.",
+        "I've never been to Iceland, but my parents are."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "ประโยคแรกเป็น Present Perfect (I've never been) จึงละด้วย have ไม่ใช่ did",
+        "2": "had เป็น Past Perfect ไม่ตรงกับ tense ของประโยคแรก",
+        "3": "are เป็น be ปัจจุบัน — my parents are (to Iceland) ไม่มีความหมาย"
+      },
+      "explainTh": "I've never been … (Present Perfect) → but my parents have (been to Iceland)"
+    },
+    {
+      "id": "c1-ellipsis-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "You promised to call the client this morning."
+          },
+          {
+            "speaker": "B",
+            "text": "I know I ___, but the meeting ran late."
+          }
+        ]
+      },
+      "choices": [
+        "did",
+        "do",
+        "have",
+        "was"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "promised เป็นอดีต (this morning ผ่านไปแล้ว) ใช้ do ไม่ได้",
+        "2": "A ใช้ Past Simple (promised) และ the meeting ran late ก็เป็นอดีต จึงละด้วย did",
+        "3": "was ใช้แทนประโยคที่มี be แต่ promised เป็นกริยาทั่วไป"
+      },
+      "explainTh": "ละ promised to call the client → เหลือกริยาช่วย did (= I know I promised)"
+    },
+    {
+      "id": "c1-ellipsis-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับคำตอบที่แสดงว่า \"ฉันก็เหมือนกัน\"",
+      "pairs": [
+        [
+          "I'm exhausted.",
+          "So am I."
+        ],
+        [
+          "I didn't sleep well.",
+          "Neither did I."
+        ],
+        [
+          "I've never been to Laos.",
+          "Neither have I."
+        ],
+        [
+          "I can't stand cold weather.",
+          "Neither can I."
+        ],
+        [
+          "I loved the film.",
+          "So did I."
+        ]
+      ],
+      "explainTh": "ดูกริยาช่วยของประโยคแรก (am, did, have, can, V2) และดูว่าบอกเล่า (So) หรือปฏิเสธ (Neither)"
+    },
+    {
+      "id": "c1-ellipsis-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Group chat",
+        "lines": [
+          {
+            "speaker": "Nina",
+            "text": "Are you coming to the workshop on Friday?"
+          },
+          {
+            "speaker": "Leo",
+            "text": "I'd love to, but I can't. I've got an exam."
+          },
+          {
+            "speaker": "Nina",
+            "text": "Shame. Kate is, though."
+          }
+        ]
+      },
+      "question": "What does Nina mean by \"Kate is, though\"?",
+      "choices": [
+        "Kate is coming to the workshop.",
+        "Kate has an exam too.",
+        "Kate would love to come but can't.",
+        "Kate is busy on Friday."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "is ไม่ได้แทน has got an exam (ถ้าแทนต้องใช้ has)",
+        "2": "is แทน is coming ไม่ใช่ would love to",
+        "3": "is ละคำว่า coming to the workshop ไม่ใช่ busy — though ยังบอกว่าตรงข้ามกับ Leo"
+      },
+      "explainTh": "is ในที่นี้ละคำที่ซ้ำกับคำถาม (coming to the workshop) → Kate is coming. ส่วน though บอกว่าต่างจาก Leo ที่มาไม่ได้"
+    },
+    {
+      "id": "c1-ellipsis-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียนข้อความ 3 ประโยคเล่าเรื่องงานสัมมนาที่เพิ่งไป โดยใช้ ellipsis หลังกริยาช่วย (เช่น so did my friends / but I couldn't) อย่างน้อย 1 ครั้ง และละหลัง to อย่างน้อย 1 ครั้ง (Write 3 sentences about a seminar using ellipsis.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(so|neither|nor)\\s+(am|is|are|was|were|do|does|did|have|has|had|can|could|will|would)\\s+\\w+|\\b(i|you|we|they|he|she|it)\\s+(am|is|are|was|were|do|does|did|have|has|had|can|could|will|would|can't|couldn't|don't|didn't|haven't|hasn't|won't|wasn't|isn't|doesn't|wouldn't)\\s*[.,!]",
+          "flags": "i",
+          "msgTh": "ละหลังกริยาช่วยอย่างน้อย 1 ครั้ง เช่น so did my colleagues / but I couldn't."
+        },
+        {
+          "re": "\\bto\\s*[.,!]",
+          "flags": "i",
+          "msgTh": "ละกริยาหลัง to อย่างน้อย 1 ครั้ง เช่น … if my manager allows me to."
+        }
+      ],
+      "sample": "I loved the seminar, and so did my colleagues. I wanted to stay for the final session, but I couldn't. I'll try to join the next one if my manager allows me to.",
+      "explainTh": "ตรวจว่ากริยาช่วยตรงกับประโยคแรก (loved → so did) และเหลือ to ไว้เมื่อละกริยา"
+    }
+  ]
+}

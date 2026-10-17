@@ -1,0 +1,506 @@
+{
+  "id": "b1-past-perfect",
+  "summaryTh": "บอกว่าเรื่องหนึ่งเกิดขึ้น \"ก่อน\" อีกเรื่องในอดีต",
+  "concept": {
+    "what": "Past Perfect (had + V3) ใช้เมื่อเล่าเรื่องในอดีต แล้วต้องการย้อนไปบอกว่ามีอีกเหตุการณ์หนึ่งเกิดขึ้นก่อนหน้านั้นแล้ว เป็น \"อดีตของอดีต\"",
+    "when": [
+      "เหตุการณ์หนึ่งเสร็จไปแล้ว ก่อนอีกเหตุการณ์ในอดีต: When we arrived, the film had already started.",
+      "อธิบายเหตุผลของสิ่งที่เกิดในอดีต: I was hungry because I hadn't eaten all day.",
+      "ประสบการณ์จนถึงจุดหนึ่งในอดีต: It was the first time I had flown. / I had never seen snow before that trip.",
+      "มักใช้กับ already, just, never, by the time, when, because"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"แล้ว\" หรือ \"ก่อนหน้านั้น\" บอกลำดับ แต่ภาษาอังกฤษใช้รูปกริยา ถ้าใช้ Past Simple ทั้งหมด บางครั้งความหมายเปลี่ยน เช่น When I arrived, the train left. (รถออกตอนที่ฉันมาถึงพอดี) กับ When I arrived, the train had left. (รถออกไปก่อนแล้ว ฉันตกรถ)"
+  },
+  "structure": {
+    "formula": "Subject + had + V3",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + had + V3",
+        "example": "The train [[had left]] when we got to the station."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + had not (hadn't) + V3",
+        "example": "She [[hadn't finished]] her homework when her friends arrived."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "Had + Subject + V3 …?",
+        "example": "[[Had]] you ever [[tried]] Thai food before you came here?"
+      },
+      {
+        "label": "ใช้คู่กับ Past Simple",
+        "formula": "Past Simple (เรื่องหลัง) + Past Perfect (เรื่องก่อน)",
+        "example": "When I [[opened]] the door, the cat [[had run]] away."
+      }
+    ],
+    "notes": [
+      "had ใช้กับประธานทุกตัว (I / she / they had gone) และย่อเป็น 'd ได้ (She'd gone.)",
+      "ใช้เมื่อมี \"จุดอ้างอิงในอดีต\" แล้วเท่านั้น ถ้าเล่าเหตุการณ์เดียว ใช้ Past Simple พอ",
+      "ถ้า before / after บอกลำดับชัดอยู่แล้ว มักใช้ Past Simple ได้ (I had dinner after I finished work.)",
+      "เทียบ: Present Perfect (have + V3) จุดอ้างอิงคือตอนนี้ · Past Perfect (had + V3) จุดอ้างอิงคือในอดีต"
+    ]
+  },
+  "examples": [
+    {
+      "en": "When we got to the cinema, the film [[had already started]].",
+      "th": "พอไปถึงโรงหนัง หนังก็เริ่มไปแล้ว"
+    },
+    {
+      "en": "I [[had never seen]] the sea before I was ten.",
+      "th": "ฉันไม่เคยเห็นทะเลเลยจนกระทั่งอายุสิบขวบ"
+    },
+    {
+      "en": "She was upset because she [[had lost]] her phone.",
+      "th": "เธอเสียใจเพราะทำโทรศัพท์หาย (หายไปก่อนหน้านั้น)"
+    },
+    {
+      "en": "By the time the police arrived, the thief [[had escaped]].",
+      "th": "กว่าตำรวจจะมาถึง ขโมยก็หนีไปแล้ว"
+    },
+    {
+      "en": "It was the first time they [[had travelled]] abroad.",
+      "th": "นั่นเป็นครั้งแรกที่พวกเขาได้เดินทางไปต่างประเทศ"
+    },
+    {
+      "en": "I didn't recognise him because he [[had changed]] so much since school.",
+      "th": "ฉันจำเขาไม่ได้เพราะเขาเปลี่ยนไปมากตั้งแต่สมัยเรียน"
+    },
+    {
+      "en": "[[Had]] you [[met]] Nok before the party?",
+      "th": "คุณเคยเจอนกก่อนงานปาร์ตี้ไหม"
+    },
+    {
+      "en": "We [[hadn't booked]] a table, so we couldn't get in.",
+      "th": "พวกเราไม่ได้จองโต๊ะไว้ก่อน เลยเข้าไม่ได้"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I had visited my grandma yesterday.",
+      "right": "I visited my grandma yesterday.",
+      "whyTh": "เล่าเหตุการณ์เดียวในอดีต ไม่มีอีกเหตุการณ์ให้เทียบ ใช้ Past Simple พอ Past Perfect ไม่ได้แปลว่า \"อดีตที่นานมาก\""
+    },
+    {
+      "wrong": "When I arrived, everyone has gone home.",
+      "right": "When I arrived, everyone had gone home.",
+      "whyTh": "จุดอ้างอิงคืออดีต (When I arrived) เหตุการณ์ที่เกิดก่อนหน้านั้นจึงใช้ had ไม่ใช่ has"
+    },
+    {
+      "wrong": "She had saw the film before.",
+      "right": "She had seen the film before.",
+      "whyTh": "หลัง had ต้องใช้กริยาช่องที่ 3 (seen) ไม่ใช่ช่องที่ 2 (saw)"
+    },
+    {
+      "wrong": "It was the first time I have flown.",
+      "right": "It was the first time I had flown.",
+      "whyTh": "It was the first time … (อดีต) ตามด้วย had + V3 ส่วน This is the first time … (ปัจจุบัน) ใช้ have + V3"
+    },
+    {
+      "wrong": "I was tired because I didn't sleep since Monday.",
+      "right": "I was tired because I hadn't slept since Monday.",
+      "whyTh": "since นับจากจุดเริ่มต้นจนถึงจุดอ้างอิงในอดีต จึงต้องใช้ Past Perfect (hadn't slept)"
+    }
+  ],
+  "compare": {
+    "title": "Past Perfect vs Past Simple",
+    "with": [
+      "a2-past-simple"
+    ],
+    "rows": [
+      {
+        "label": "หน้าที่",
+        "a": "Past Perfect: เหตุการณ์ที่เกิด \"ก่อน\" อีกเหตุการณ์ในอดีต",
+        "b": "Past Simple: เหตุการณ์หลักในเรื่องที่เล่า เรียงตามลำดับ"
+      },
+      {
+        "label": "รูป",
+        "a": "had + V3 (had left)",
+        "b": "V2 (left)"
+      },
+      {
+        "label": "ตัวอย่างคู่",
+        "a": "When I arrived, the train had left. (ตกรถ)",
+        "b": "When I arrived, the train left. (รถออกตอนที่มาถึงพอดี)"
+      },
+      {
+        "label": "เมื่อไม่จำเป็น",
+        "a": "ใช้เมื่อลำดับเวลาไม่ชัด หรือความหมายจะเปลี่ยน",
+        "b": "มี before / after หรือเล่าตามลำดับอยู่แล้ว ใช้ Past Simple ได้"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่า \"ตอนที่เรื่องหลักเกิด เรื่องนี้เสร็จไปแล้วหรือยัง\" ถ้าเสร็จไปแล้วและสำคัญต่อความหมาย ใช้ had + V3"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "A bad morning",
+      "lines": [
+        {
+          "text": "Last Monday was a disaster. When I woke up, I saw that my alarm [[hadn't rung]]. I ran to the bus stop, but the bus [[had already left]]. When I finally got to the office, the meeting [[had started]]. Then I realised I [[had left]] my laptop at home!"
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Talking about a trip",
+      "lines": [
+        {
+          "speaker": "Ben",
+          "text": "How was your trip to Korea?"
+        },
+        {
+          "speaker": "Aom",
+          "text": "Amazing! It was the first time I [[had seen]] snow."
+        },
+        {
+          "speaker": "Ben",
+          "text": "Really? [[Had]] you ever [[been]] somewhere cold before?"
+        },
+        {
+          "speaker": "Aom",
+          "text": "No, I [[hadn't]]. I [[had only travelled]] to Malaysia and Vietnam before that."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Past Perfect",
+      "th": "อดีตสมบูรณ์ — อดีตที่เกิดก่อนอีกอดีตหนึ่ง"
+    },
+    {
+      "en": "Reference point",
+      "th": "จุดอ้างอิงเวลา (เหตุการณ์หลักที่เราใช้เทียบ)"
+    },
+    {
+      "en": "Sequence of events",
+      "th": "ลำดับเหตุการณ์ (อะไรเกิดก่อน อะไรเกิดหลัง)"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ใช้หลัง had"
+    },
+    {
+      "en": "by the time",
+      "th": "กว่าจะ … / ภายในเวลาที่ …"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-past-perfect-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "When we arrived at the cinema, the film ___ already started, so we missed the beginning.",
+      "choices": [
+        "had",
+        "has",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "has ใช้เมื่อจุดอ้างอิงคือตอนนี้ แต่เรื่องนี้เล่าในอดีต (arrived)",
+        "2": "was started เป็น passive และไม่ใช่วิธีบอกว่าหนังเริ่มไปก่อนแล้ว",
+        "3": "is ใช้กับเรื่องปัจจุบัน และ is started ไม่เป็นธรรมชาติ"
+      },
+      "explainTh": "หนังเริ่มก่อนที่เราจะมาถึง (เหตุการณ์ก่อนอีกเหตุการณ์ในอดีต) → had + V3: had already started",
+      "structure": "Subject + had + V3",
+      "example": "When we arrived, the film had already started."
+    },
+    {
+      "id": "b1-past-perfect-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "She was very hungry because she ___ anything since the morning.",
+      "choices": [
+        "hadn't eaten",
+        "didn't eat",
+        "hasn't eaten",
+        "wasn't eating"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "didn't eat ใช้กับ since ไม่ได้ เพราะ since นับต่อเนื่องจนถึงจุดอ้างอิง",
+        "2": "hasn't eaten จุดอ้างอิงคือตอนนี้ แต่ประโยคเล่าอดีต (was hungry)",
+        "3": "wasn't eating บอกการกระทำที่กำลังเกิด ไม่ได้นับต่อเนื่องจาก since"
+      },
+      "explainTh": "จุดอ้างอิงคืออดีต (was hungry) + since the morning → Past Perfect ปฏิเสธ: hadn't + V3 → hadn't eaten",
+      "structure": "Subject + hadn't + V3 + since …",
+      "example": "She was hungry because she hadn't eaten since the morning."
+    },
+    {
+      "id": "b1-past-perfect-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "By the time I got to the station, the train ___ (leave).",
+      "accepted": [
+        "had left",
+        "had already left"
+      ],
+      "explainTh": "By the time I got … = กว่าฉันจะไปถึง รถไฟออกไปก่อนแล้ว → had + V3: had left",
+      "structure": "By the time + Past Simple, Subject + had + V3",
+      "example": "By the time I got to the station, the train had left."
+    },
+    {
+      "id": "b1-past-perfect-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I didn't recognise Somchai because he ___ (change) a lot since our school days.",
+      "accepted": [
+        "had changed"
+      ],
+      "explainTh": "จุดอ้างอิงคืออดีต (didn't recognise) และ since our school days นับการเปลี่ยนแปลงจนถึงตอนนั้น → had changed",
+      "structure": "Subject + had + V3 + since …",
+      "example": "He had changed a lot since our school days."
+    },
+    {
+      "id": "b1-past-perfect-05",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "It was my first time on a plane. I ___ (never / fly) before.",
+      "accepted": [
+        "had never flown"
+      ],
+      "explainTh": "ประสบการณ์จนถึงจุดหนึ่งในอดีต (It was my first time) → had + never + V3 · fly → flown",
+      "structure": "Subject + had never + V3",
+      "example": "I had never flown before."
+    },
+    {
+      "id": "b1-past-perfect-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Nok finished her homework. Then she went out.",
+      "instruction": "รวมเป็นประโยคเดียว ขึ้นต้นด้วย When Nok went out, … และใช้ already",
+      "accepted": [
+        "When Nok went out, she had already finished her homework.",
+        "When Nok went out, she'd already finished her homework.",
+        "When Nok went out, she had finished her homework already.",
+        "When Nok went out, she'd finished her homework already."
+      ],
+      "explainTh": "การบ้านเสร็จก่อนออกไปข้างนอก → เหตุการณ์ก่อนใช้ had + V3 (had already finished) เหตุการณ์หลังใช้ Past Simple (went out)",
+      "structure": "When + Past Simple, Subject + had already + V3",
+      "example": "When Nok went out, she had already finished her homework."
+    },
+    {
+      "id": "b1-past-perfect-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "I lost my keys. Later, I couldn't get into my house.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย because และใช้ Past Perfect ขึ้นต้นด้วย I couldn't …",
+      "accepted": [
+        "I couldn't get into my house because I had lost my keys.",
+        "I couldn't get into my house because I'd lost my keys."
+      ],
+      "explainTh": "ทำกุญแจหายก่อน (เหตุ) จึงเข้าบ้านไม่ได้ทีหลัง (ผล) → เหตุที่เกิดก่อนใช้ had + V3: because I had lost my keys",
+      "structure": "Past Simple + because + Subject + had + V3",
+      "example": "I couldn't get into my house because I had lost my keys."
+    },
+    {
+      "id": "b1-past-perfect-08",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "When I arrived at the party, everyone has gone home.",
+      "errorPart": "has gone",
+      "accepted": [
+        "When I arrived at the party, everyone had gone home.",
+        "When I arrived at the party, everyone had already gone home."
+      ],
+      "explainTh": "จุดอ้างอิงคืออดีต (When I arrived) เหตุการณ์ที่เกิดก่อนหน้านั้นจึงใช้ had gone ไม่ใช่ has gone",
+      "structure": "When + Past Simple, Subject + had + V3"
+    },
+    {
+      "id": "b1-past-perfect-09",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "I had visited my grandma yesterday.",
+      "errorPart": "had visited",
+      "accepted": [
+        "I visited my grandma yesterday."
+      ],
+      "explainTh": "มีเหตุการณ์เดียวในอดีต ไม่ได้เทียบกับเหตุการณ์อื่น จึงใช้ Past Simple (visited) — Past Perfect ไม่ได้แปลว่า \"อดีตที่ไกลกว่า\"",
+      "structure": "Subject + V2 + yesterday"
+    },
+    {
+      "id": "b1-past-perfect-10",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "She told me she had saw the film twice.",
+      "errorPart": "had saw",
+      "accepted": [
+        "She told me she had seen the film twice.",
+        "She told me that she had seen the film twice."
+      ],
+      "explainTh": "หลัง had ต้องใช้กริยาช่องที่ 3 → see–saw–seen: had seen",
+      "structure": "had + V3"
+    },
+    {
+      "id": "b1-past-perfect-11",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "had",
+        "the",
+        "already",
+        "we",
+        "shop",
+        "closed",
+        "when",
+        "arrived"
+      ],
+      "accepted": [
+        "The shop had already closed when we arrived.",
+        "When we arrived, the shop had already closed.",
+        "When we arrived the shop had already closed.",
+        "The shop had closed already when we arrived.",
+        "When we arrived, the shop had closed already.",
+        "When we arrived the shop had closed already."
+      ],
+      "explainTh": "ร้านปิดก่อนที่เราจะมาถึง → เหตุการณ์ก่อน: had already closed · เหตุการณ์หลัง: when we arrived (Past Simple)"
+    },
+    {
+      "id": "b1-past-perfect-12",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูปช่องที่ 3 (ใช้หลัง had)",
+      "pairs": [
+        [
+          "go",
+          "gone"
+        ],
+        [
+          "eat",
+          "eaten"
+        ],
+        [
+          "write",
+          "written"
+        ],
+        [
+          "take",
+          "taken"
+        ],
+        [
+          "forget",
+          "forgotten"
+        ]
+      ],
+      "explainTh": "Past Perfect = had + V3 กริยาอปกติต้องจำรูปช่องที่ 3: go–gone, eat–eaten, write–written, take–taken, forget–forgotten"
+    },
+    {
+      "id": "b1-past-perfect-13",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I have never seen snow before I went to Japan last year.",
+        "I had never seen snow before I went to Japan last year.",
+        "I had never saw snow before I went to Japan last year.",
+        "I had never seen snow before I go to Japan last year."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "have never seen ใช้จุดอ้างอิงตอนนี้ แต่ประสบการณ์นี้นับถึงตอนไปญี่ปุ่นเมื่อปีที่แล้ว (อดีต)",
+        "2": "หลัง had ต้องใช้ V3 (seen) ไม่ใช่ saw",
+        "3": "last year เป็นอดีต ต้องใช้ went ไม่ใช่ go"
+      },
+      "explainTh": "ประสบการณ์ \"ไม่เคย\" นับถึงจุดหนึ่งในอดีต (ตอนไปญี่ปุ่นปีที่แล้ว) → had never + V3"
+    },
+    {
+      "id": "b1-past-perfect-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Did you enjoy the concert last night?"
+          },
+          {
+            "speaker": "B",
+            "text": "No, we missed it completely! When we got there, it ___."
+          }
+        ]
+      },
+      "choices": [
+        "had finished",
+        "has finished",
+        "finished",
+        "was finishing"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "has finished ใช้จุดอ้างอิงตอนนี้ แต่เรื่องนี้เกิดเมื่อคืน (got there)",
+        "2": "it finished จะแปลว่าคอนเสิร์ตจบตอนที่เรามาถึงพอดี ไม่ใช่จบไปก่อนแล้ว",
+        "3": "was finishing แปลว่ากำลังจะจบ ยังทันดูตอนท้าย ไม่ตรงกับ missed it completely"
+      },
+      "explainTh": "พลาดทั้งหมด = คอนเสิร์ตจบไปก่อนที่เราจะมาถึง → had + V3: had finished"
+    },
+    {
+      "id": "b1-past-perfect-15",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "At the airport",
+        "lines": [
+          {
+            "text": "Last Saturday Mali went to the airport to meet her cousin. When she got there, the plane had landed an hour earlier, and her cousin had already taken a taxi to the hotel. Mali felt silly — she had written down the wrong time."
+          }
+        ]
+      },
+      "question": "Why did Mali miss her cousin?",
+      "choices": [
+        "She had written down the wrong arrival time.",
+        "The plane landed an hour late.",
+        "Her cousin had missed the plane.",
+        "She took a taxi to the wrong hotel."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "เครื่องลงก่อนหน้าที่มะลิมาถึงหนึ่งชั่วโมง (an hour earlier) ไม่ได้ช้า",
+        "2": "ลูกพี่ลูกน้องมาถึงแล้วและนั่งแท็กซี่ไปโรงแรม ไม่ได้ตกเครื่อง",
+        "3": "คนที่นั่งแท็กซี่คือลูกพี่ลูกน้อง ไม่ใช่มะลิ"
+      },
+      "explainTh": "she had written down the wrong time — Past Perfect บอกสาเหตุที่เกิดก่อนเรื่องหลัก (ไปถึงสนามบินแล้วไม่เจอ)"
+    },
+    {
+      "id": "b1-past-perfect-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "I was really nervous before my job interview because I ___ one before.",
+      "choices": [
+        "had never had",
+        "have never had",
+        "never have",
+        "had never have"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have never had จุดอ้างอิงคือตอนนี้ แต่ความประหม่าเกิดในอดีต (was nervous)",
+        "2": "never have เป็นปัจจุบัน ไม่เข้ากับเรื่องในอดีต",
+        "3": "หลัง had ต้องใช้ V3 (had) ไม่ใช่ have"
+      },
+      "explainTh": "ประสบการณ์ที่ \"ไม่เคย\" จนถึงจุดหนึ่งในอดีต (ก่อนสัมภาษณ์) → had never + V3 · have–had–had จึงเป็น had never had"
+    },
+    {
+      "id": "b1-past-perfect-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าเหตุการณ์ที่คุณไปถึงที่ไหนสักแห่งช้าเกินไป ใช้ had + V3 อย่างน้อย 1 ครั้ง (Write 3 sentences about a time you arrived somewhere too late. Use the Past Perfect at least once.)",
+      "minSentences": 3,
+      "expectTense": "past",
+      "checks": [
+        {
+          "re": "\\b(had|'d|hadn't)\\s+((already|just|never|not|also|still|only|ever|all|recently)\\s+)?(\\w+ed|been|gone|left|seen|done|eaten|taken|begun|sold|met|made|had|got|written|run|flown|come|become|forgotten|lost|shut|won|spent|found|bought|sent|told|said|heard|known|broken|stolen|driven|fallen|given|kept|brought|caught|taught|thought|rung|sung|drunk|put|set|cut)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ Past Perfect (had + V3) อย่างน้อย 1 ครั้ง เช่น the film had already started"
+        }
+      ],
+      "sample": "Last Friday I went to the cinema with my friend. When we arrived, the film had already started. We had also forgotten our tickets at home, so we went back.",
+      "explainTh": "เรื่องหลักเล่าด้วย Past Simple (went, arrived) · สิ่งที่เกิดก่อนหน้านั้นใช้ had + V3 (had already started, had forgotten)"
+    }
+  ]
+}

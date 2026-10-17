@@ -1,0 +1,497 @@
+{
+  "id": "c1-participle-clauses",
+  "summaryTh": "ย่อประโยคแบบภาษาเขียนด้วย Having + V3, Having been + V3, V3 และ with + กรรม + participle",
+  "concept": {
+    "what": "Participle clause ขั้นสูงคือการย่ออนุประโยคด้วยรูป having + V3 (ทำเสร็จก่อน), having been + V3 / V3 (ถูกกระทำ), not + V-ing (ปฏิเสธ) และ with + กรรม + V-ing/V3 (บอกสถานการณ์ประกอบ) เพื่อให้ประโยคกระชับแบบภาษาเขียน — ประธานที่ “ซ่อน” อยู่ใน participle clause ต้องเป็นตัวเดียวกับประธานของประโยคหลัก",
+    "when": [
+      "ทำสิ่งหนึ่งเสร็จก่อนอีกสิ่ง: Having finished the report, she went home.",
+      "ประธานเป็นผู้ถูกกระทำ: Having been delayed / Built in 1890, …",
+      "บอกเหตุผลแบบปฏิเสธ: Not knowing what to say, he stayed silent.",
+      "บอกสถานการณ์รอบตัวที่มีประธานของตัวเอง: With prices rising, … / With the work done, …"
+    ],
+    "why": "ทำให้งานเขียนกระชับและเชื่อมเหตุการณ์ได้ลื่น — คนไทยมักเขียน dangling participle (ประธานไม่ตรงกัน) เพราะภาษาไทยละประธานได้อิสระ เช่น “เดินไปสถานี ฝนก็ตก” → Walking to the station, the rain started. ✗ (ฝนไม่ได้เดิน) และมักสับสนระหว่าง V-ing (ทำเอง) กับ V3 (ถูกกระทำ)"
+  },
+  "structure": {
+    "formula": "Participle clause, + Subject + Verb (ประธานเดียวกัน)",
+    "rows": [
+      {
+        "label": "Present participle (ทำเอง เวลาเดียวกัน)",
+        "formula": "V-ing …, Subject + V",
+        "example": "[[Walking]] into the room, she noticed a strange smell."
+      },
+      {
+        "label": "Perfect participle (ทำเสร็จก่อน)",
+        "formula": "Having + V3 …, Subject + V",
+        "example": "[[Having completed]] the survey, the researchers analysed the data."
+      },
+      {
+        "label": "Past participle (ถูกกระทำ)",
+        "formula": "V3 …, Subject + V",
+        "example": "[[Written]] in plain language, the guide is easy to follow."
+      },
+      {
+        "label": "Perfect passive (ถูกกระทำก่อน)",
+        "formula": "Having been + V3 …, Subject + V",
+        "example": "[[Having been rejected]] by three publishers, the novel finally became a bestseller."
+      },
+      {
+        "label": "ปฏิเสธ",
+        "formula": "Not + V-ing / Not having + V3 …, Subject + V",
+        "example": "[[Not having received]] a reply, I called the office."
+      },
+      {
+        "label": "with + กรรม + participle",
+        "formula": "With + noun + V-ing / V3, Subject + V",
+        "example": "[[With]] inflation [[rising]], many families are cutting back."
+      }
+    ],
+    "notes": [
+      "ประธานของ participle clause ต้องตรงกับประธานประโยคหลัก — ถ้าไม่ตรงเรียกว่า dangling participle (ผิด)",
+      "Having + V3 เน้นว่าเกิดก่อน · V-ing ธรรมดาใช้กับเหตุการณ์พร้อมกันหรือต่อเนื่องทันที",
+      "with + กรรม + V-ing = กรรมเป็นผู้ทำ (with prices rising) · with + กรรม + V3 = กรรมถูกกระทำ (with the work done)",
+      "ปฏิเสธวาง not ไว้หน้า participle: Not knowing … / Not having seen …",
+      "คำเชื่อมบางคำใช้หน้า participle ได้: after / before / while / when / since / although + V-ing"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[Having finished]] her presentation, Dao answered questions from the audience.",
+      "th": "หลังจากนำเสนอเสร็จ ดาวก็ตอบคำถามจากผู้ฟัง"
+    },
+    {
+      "en": "[[Not wanting]] to disturb anyone, he left the room quietly.",
+      "th": "เพราะไม่อยากรบกวนใคร เขาจึงออกจากห้องเงียบ ๆ"
+    },
+    {
+      "en": "[[Founded]] in 1917, Chulalongkorn is the oldest university in Thailand.",
+      "th": "จุฬาลงกรณ์ฯ ซึ่งก่อตั้งในปี 1917 เป็นมหาวิทยาลัยที่เก่าแก่ที่สุดในไทย"
+    },
+    {
+      "en": "[[Having been warned]] about the storm, the fishermen stayed in port.",
+      "th": "เมื่อได้รับคำเตือนเรื่องพายุแล้ว ชาวประมงจึงไม่ออกจากท่า"
+    },
+    {
+      "en": "[[With]] more people [[working]] from home, demand for office space has fallen.",
+      "th": "เมื่อคนทำงานจากบ้านมากขึ้น ความต้องการพื้นที่สำนักงานก็ลดลง"
+    },
+    {
+      "en": "[[With]] all the paperwork [[completed]], we were finally able to submit the application.",
+      "th": "เมื่อเอกสารทั้งหมดเสร็จเรียบร้อย ในที่สุดเราก็ส่งใบสมัครได้"
+    },
+    {
+      "en": "[[Being]] a non-native speaker, she spent extra time checking her thesis.",
+      "th": "เนื่องจากไม่ใช่เจ้าของภาษา เธอจึงใช้เวลาตรวจวิทยานิพนธ์มากเป็นพิเศษ"
+    },
+    {
+      "en": "[[While travelling]] in Laos, I met a group of volunteer teachers.",
+      "th": "ขณะเดินทางในลาว ฉันได้พบกลุ่มครูอาสา"
+    },
+    {
+      "en": "[[Asked]] about the delay, the spokesperson declined to comment.",
+      "th": "เมื่อถูกถามเรื่องความล่าช้า โฆษกปฏิเสธที่จะแสดงความเห็น"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Walking to the station, the rain started.",
+      "right": "Walking to the station, I got caught in the rain.",
+      "whyTh": "dangling participle: ประธานประโยคหลักคือ the rain ทำให้ความหมายเป็น “ฝนเดินไปสถานี” ประธานต้องเป็นคนที่เดิน (I)"
+    },
+    {
+      "wrong": "Having finished the meal, the bill was paid.",
+      "right": "Having finished the meal, we paid the bill.",
+      "whyTh": "คนที่กินเสร็จคือ we ไม่ใช่ the bill — ประธานของสองส่วนต้องตรงกัน"
+    },
+    {
+      "wrong": "Writing in 1850, the novel is still popular today.",
+      "right": "Written in 1850, the novel is still popular today.",
+      "whyTh": "นวนิยาย “ถูกเขียน” จึงต้องใช้ V3 (Written) — V-ing แปลว่านวนิยายเป็นคนเขียนเอง"
+    },
+    {
+      "wrong": "With the prices rise, people buy less.",
+      "right": "With prices rising, people are buying less.",
+      "whyTh": "หลัง with + กรรม ต้องใช้ participle (rising) ไม่ใช่กริยาแท้ (rise)"
+    },
+    {
+      "wrong": "Being finished the work, he went home.",
+      "right": "Having finished the work, he went home.",
+      "whyTh": "ทำงานเสร็จก่อนแล้วกลับบ้าน (active) → Having + V3 — Being finished เป็น passive และตามด้วยกรรมไม่ได้"
+    },
+    {
+      "wrong": "Interesting in the job, she applied immediately.",
+      "right": "Interested in the job, she applied immediately.",
+      "whyTh": "เธอ “รู้สึกสนใจ” ใช้ interested (V3) — interesting แปลว่า “น่าสนใจ” ใช้กับสิ่งที่ทำให้คนอื่นสนใจ"
+    }
+  ],
+  "compare": {
+    "title": "B2 vs C1 participle clauses",
+    "with": [
+      "b2-participle-clauses"
+    ],
+    "rows": [
+      {
+        "label": "รูปที่ใช้",
+        "a": "V-ing / V3 พื้นฐาน (Feeling tired, … / Built in 1900, …)",
+        "b": "Having + V3, Having been + V3, Not having + V3, with + กรรม + participle"
+      },
+      {
+        "label": "ลำดับเวลา",
+        "a": "ส่วนใหญ่เกิดพร้อมกันหรือต่อเนื่อง",
+        "b": "บอกชัดว่าเกิดก่อน (having) หรือถูกกระทำก่อน (having been)"
+      },
+      {
+        "label": "ประธาน",
+        "a": "ต้องตรงกับประธานประโยคหลัก",
+        "b": "with + กรรม ทำให้ participle มีประธานของตัวเองได้ (With prices rising, …)"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "Feeling hungry, we stopped at a café.",
+        "b": "Having been awake all night, we stopped at a café."
+      }
+    ],
+    "tipTh": "ก่อนใช้ participle clause ให้ถามว่า “ใครทำ?” — ถ้าไม่ใช่ประธานของประโยคหลัก ให้ใช้ with + กรรม หรือเขียนเป็นอนุประโยคเต็ม (When I was …)"
+  },
+  "contexts": [
+    {
+      "kind": "travel",
+      "title": "Travel blog: A long night in Hanoi",
+      "lines": [
+        {
+          "text": "[[Having missed]] the last bus, we decided to walk back to our hostel. [[With]] the rain [[getting]] heavier every minute, we soon regretted it. [[Soaked]] to the skin, we finally arrived at midnight. [[Not having eaten]] since lunch, we were starving, but the kitchen was already closed."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Project update",
+      "lines": [
+        {
+          "text": "[[Having reviewed]] last month's sales figures, the team has agreed on three priorities. [[Launched]] in March, the new app has already attracted 10,000 users. [[With]] the budget [[approved]], we can start the marketing campaign next week. [[Having been delayed]] twice, the website redesign will now be completed in June."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Participle clause",
+      "th": "อนุประโยคที่ย่อเหลือแค่ V-ing / V3 / having + V3"
+    },
+    {
+      "en": "Perfect participle",
+      "th": "having + V3 — บอกว่าเกิดก่อนอีกเหตุการณ์"
+    },
+    {
+      "en": "Dangling participle",
+      "th": "participle ที่ประธานไม่ตรงกับประโยคหลัก ทำให้ความหมายผิด"
+    },
+    {
+      "en": "Absolute construction",
+      "th": "with + กรรม + participle — มีประธานของตัวเอง"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-participle-clauses-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ the report, she emailed it to her manager.",
+      "choices": [
+        "Having finished",
+        "Having been finished",
+        "Being finished",
+        "Finish"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Having been finished เป็น passive (ถูกทำให้เสร็จ) และตามด้วยกรรม the report ไม่ได้",
+        "2": "Being finished เป็น passive เช่นกัน ใช้กับกรรมไม่ได้",
+        "3": "Finish เป็นกริยารูปฐาน ทำให้กลายเป็นประโยคคำสั่ง แล้วต่อด้วยอีกประโยคไม่ได้"
+      },
+      "explainTh": "เธอเขียนรายงานเสร็จ “ก่อน” แล้วจึงส่งอีเมล (active) → Having + V3",
+      "structure": "Having + V3, Subject + V",
+      "example": "Having finished the report, she emailed it."
+    },
+    {
+      "id": "c1-participle-clauses-02",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "With the deadline ___, the team worked through the weekend.",
+      "choices": [
+        "approaching",
+        "approached",
+        "approach",
+        "to approach"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "approached = ถูกเข้าหา (passive) ไม่ตรงความหมาย — กำหนดส่ง “กำลังใกล้เข้ามา” เอง",
+        "2": "หลัง with + กรรม ใช้กริยารูปฐานไม่ได้",
+        "3": "with + กรรม + to V ใช้บอกสิ่งที่ต้องทำ ไม่ใช่สิ่งที่กำลังเกิด"
+      },
+      "explainTh": "with + กรรม + V-ing = กรรมเป็นผู้ทำ/กำลังเกิด → the deadline approaching (กำหนดส่งใกล้เข้ามา)"
+    },
+    {
+      "id": "c1-participle-clauses-03",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "___ the instructions carefully, I couldn't work out how to assemble the desk.",
+      "choices": [
+        "Not having read",
+        "Not having been read",
+        "Having read not",
+        "Not read"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Not having been read เป็น passive = ผู้พูด “ไม่ได้ถูกอ่าน” ไม่สมเหตุสมผล และตามด้วยกรรมไม่ได้",
+        "2": "not ต้องอยู่หน้า participle ไม่ใช่ข้างหลัง",
+        "3": "Not read เป็น passive (ไม่ถูกอ่าน) ใช้กับกรรม the instructions ไม่ได้"
+      },
+      "explainTh": "ปฏิเสธใน perfect participle: Not + having + V3 → เพราะไม่ได้อ่านคู่มือก่อน จึงประกอบโต๊ะไม่ได้"
+    },
+    {
+      "id": "c1-participle-clauses-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "___ (warn) about the traffic, we left home an hour early. (ใช้ Having been …)",
+      "accepted": [
+        "Having been warned"
+      ],
+      "explainTh": "เรา “ได้รับคำเตือน” (ถูกเตือน) ก่อนออกจากบ้าน → Having been + V3 → Having been warned",
+      "structure": "Having been + V3, Subject + V"
+    },
+    {
+      "id": "c1-participle-clauses-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "With the work ___ (finish), we went out for dinner.",
+      "accepted": [
+        "finished",
+        "having been finished"
+      ],
+      "explainTh": "งาน “ถูกทำเสร็จ” แล้ว → with + กรรม + V3 (finished) = กรรมถูกกระทำ"
+    },
+    {
+      "id": "c1-participle-clauses-06",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "___ (not / know) anyone at the conference, Mali felt rather isolated at first.",
+      "accepted": [
+        "Not knowing"
+      ],
+      "explainTh": "เหตุผลแบบปฏิเสธ: Not + V-ing → Not knowing anyone = เพราะไม่รู้จักใครเลย"
+    },
+    {
+      "id": "c1-participle-clauses-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Writing in 1850, the novel is still widely read today.",
+      "errorPart": "Writing",
+      "accepted": [
+        "Written in 1850, the novel is still widely read today.",
+        "Having been written in 1850, the novel is still widely read today."
+      ],
+      "explainTh": "นวนิยาย “ถูกเขียน” → ใช้ V3 (Written) แบบ passive — Writing แปลว่านวนิยายเขียนเอง"
+    },
+    {
+      "id": "c1-participle-clauses-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Having been finished the essay, Ton went to bed.",
+      "errorPart": "Having been finished",
+      "accepted": [
+        "Having finished the essay, Ton went to bed."
+      ],
+      "explainTh": "ต้นเป็นคนเขียนเรียงความเสร็จเอง (active) และมีกรรม the essay → Having + V3 ไม่ต้องมี been"
+    },
+    {
+      "id": "c1-participle-clauses-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "With rice prices rise sharply, many farmers are planting more rice.",
+      "errorPart": "rise",
+      "accepted": [
+        "With rice prices rising sharply, many farmers are planting more rice."
+      ],
+      "explainTh": "with + กรรม + participle → ราคากำลังสูงขึ้นเอง (active) ใช้ V-ing: rising ไม่ใช่กริยาแท้ rise"
+    },
+    {
+      "id": "c1-participle-clauses-10",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "having",
+        "been",
+        "told",
+        "to",
+        "wait",
+        "we",
+        "sat",
+        "down",
+        "in",
+        "the",
+        "lobby"
+      ],
+      "accepted": [
+        "Having been told to wait, we sat down in the lobby.",
+        "Having been told to wait we sat down in the lobby.",
+        "We sat down in the lobby having been told to wait."
+      ],
+      "explainTh": "Having been + V3 (ถูกบอกให้รอ) + , + ประโยคหลักที่ประธาน (we) คือคนที่ถูกบอก"
+    },
+    {
+      "id": "c1-participle-clauses-11",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "with",
+        "her",
+        "arms",
+        "folded",
+        "she",
+        "listened",
+        "to",
+        "the",
+        "complaint"
+      ],
+      "accepted": [
+        "With her arms folded, she listened to the complaint.",
+        "With her arms folded she listened to the complaint.",
+        "She listened to the complaint with her arms folded."
+      ],
+      "explainTh": "with + กรรม + V3 (her arms folded = แขนถูกกอดไว้) บอกท่าทางประกอบ วางหน้าหรือท้ายประโยคหลักก็ได้"
+    },
+    {
+      "id": "c1-participle-clauses-12",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "After she had checked the figures twice, she submitted the report.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Having …",
+      "accepted": [
+        "Having checked the figures twice, she submitted the report."
+      ],
+      "explainTh": "After + past perfect (ทำก่อน, ประธานเดียวกัน) → Having + V3 แล้วตัดประธานในส่วนแรกออก"
+    },
+    {
+      "id": "c1-participle-clauses-13",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Because he had been injured in the first match, Krit could not play in the final.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Having …",
+      "accepted": [
+        "Having been injured in the first match, Krit could not play in the final."
+      ],
+      "explainTh": "had been injured (ถูกทำให้บาดเจ็บ เกิดก่อน) → Having been + V3 · ประธาน Krit ตรงกันทั้งสองส่วน"
+    },
+    {
+      "id": "c1-participle-clauses-14",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "As the economy is slowing down, many companies are freezing recruitment.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย With …",
+      "accepted": [
+        "With the economy slowing down, many companies are freezing recruitment.",
+        "With the economy slowing, many companies are freezing recruitment."
+      ],
+      "explainTh": "ประธานสองส่วนไม่ตรงกัน (the economy / many companies) จึงต้องใช้ with + กรรม + V-ing → With the economy slowing down"
+    },
+    {
+      "id": "c1-participle-clauses-15",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ไม่มี dangling participle (ประธานตรงกัน)",
+      "choices": [
+        "Arriving at the airport, my passport was missing.",
+        "Arriving at the airport, I realised my passport was missing.",
+        "Arriving at the airport, there was no passport in my bag.",
+        "Arriving at the airport, it turned out that my passport was missing."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "ประธานคือ my passport → ความหมายกลายเป็น “หนังสือเดินทางมาถึงสนามบิน”",
+        "2": "there ไม่ใช่คนที่มาถึงสนามบิน — ประธานไม่ตรงกัน",
+        "3": "it ไม่ใช่คนที่มาถึง — เป็น dangling participle เช่นกัน"
+      },
+      "explainTh": "คนที่ “มาถึงสนามบิน” คือ I ดังนั้นประโยคหลักต้องขึ้นต้นด้วย I → Arriving at the airport, I realised …"
+    },
+    {
+      "id": "c1-participle-clauses-16",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ participle กับความหมาย",
+      "pairs": [
+        [
+          "Having invited",
+          "เชิญคนอื่นไปแล้ว (ทำเอง เกิดก่อน)"
+        ],
+        [
+          "Having been invited",
+          "ได้รับเชิญมาก่อนแล้ว (ถูกเชิญ เกิดก่อน)"
+        ],
+        [
+          "Inviting",
+          "เชิญ (ทำเอง เวลาเดียวกัน)"
+        ],
+        [
+          "Invited",
+          "ถูกเชิญ (ไม่เน้นลำดับเวลา)"
+        ],
+        [
+          "Not having invited",
+          "ยังไม่ได้เชิญ (ปฏิเสธ เกิดก่อน)"
+        ]
+      ],
+      "explainTh": "having + V3 = ทำเสร็จก่อน · having been + V3 = ถูกกระทำก่อน · V-ing = ทำเอง · V3 = ถูกกระทำ · not วางหน้า participle"
+    },
+    {
+      "id": "c1-participle-clauses-17",
+      "type": "context",
+      "difficulty": 2,
+      "context": {
+        "kind": "travel",
+        "title": "Travel blog",
+        "lines": [
+          {
+            "text": "Having missed the last bus, we decided to walk back to the hostel. With the rain getting heavier, we soon regretted it. Soaked to the skin, we finally arrived at midnight. Not having eaten since lunch, we were starving, but the kitchen was closed."
+          }
+        ]
+      },
+      "question": "Why were the writers so hungry when they arrived?",
+      "choices": [
+        "They hadn't eaten since lunch.",
+        "They had walked for six hours.",
+        "The rain had made them cold.",
+        "The bus didn't stop at a restaurant."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "บทความไม่ได้บอกว่าเดินหกชั่วโมง",
+        "2": "ฝนทำให้เปียก (Soaked to the skin) ไม่ใช่สาเหตุที่หิว",
+        "3": "พวกเขาพลาดรถบัส ไม่ได้นั่งรถบัสเลย"
+      },
+      "explainTh": "Not having eaten since lunch = เพราะไม่ได้กินอะไรเลยตั้งแต่มื้อกลางวัน (Not + having + V3 บอกเหตุผลที่เกิดก่อน)"
+    },
+    {
+      "id": "c1-participle-clauses-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าเหตุการณ์ (เช่น วันแรกที่ทำงาน หรือการเดินทาง) โดยใช้ participle clause อย่างน้อย 2 แบบ: Having (been) + V3 / V3 … , / With + กรรม + V-ing/V3 (Write 3 sentences using advanced participle clauses.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bhaving\\s+[a-z]+",
+          "flags": "i",
+          "msgTh": "ใช้ Having + V3 หรือ Having been + V3 อย่างน้อย 1 ครั้ง"
+        },
+        {
+          "re": "\\bwith\\s+([a-z']+\\s+){1,3}(?!children\\b|women\\b|men\\b|ten\\b|seven\\b|eleven\\b|kitchen\\b|garden\\b|something\\b|nothing\\b|everything\\b|anything\\b|morning\\b|evening\\b|thing\\b|ceiling\\b|building\\b|feeling\\b|meeting\\b|wedding\\b|bed\\b|need\\b|speed\\b|red\\b|hundred\\b)[a-z]+(ing|ed|en)\\b|(^|[.!?]\\s+)(not\\s+)?(?!having\\b|when\\b|then\\b|often\\b|even\\b|seven\\b|eleven\\b|ten\\b|during\\b|nothing\\b|something\\b|everything\\b|anything\\b|morning\\b|evening\\b|indeed\\b|women\\b|children\\b|men\\b)[a-z]+(ed|en|ing)\\b[^.!?,]*,",
+          "flags": "i",
+          "msgTh": "ใช้ participle clause อีกแบบอย่างน้อย 1 ครั้ง เช่น With + กรรม + V-ing/V3 หรือ V3 … , ที่ต้นประโยค"
+        }
+      ],
+      "sample": "Having moved to Chiang Mai for work, I didn't know anyone at first. Invited by a colleague, I joined a weekend hiking club. With the other members helping me, I soon felt at home.",
+      "explainTh": "ตรวจทุกประโยคว่าคนที่ทำกริยาใน participle clause คือประธานของประโยคหลัก — ถ้าไม่ใช่ ให้ใช้ with + กรรม + participle"
+    }
+  ]
+}

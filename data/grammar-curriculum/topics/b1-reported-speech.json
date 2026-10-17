@@ -1,0 +1,475 @@
+{
+  "id": "b1-reported-speech",
+  "summaryTh": "เล่าต่อว่าคนอื่นพูด ถาม หรือขอให้ทำอะไร",
+  "concept": {
+    "what": "Reported Speech คือการเล่าคำพูดของคนอื่นโดยไม่ยกคำพูดมาตรง ๆ เช่น \"I'm tired.\" → She said (that) she was tired. เมื่อกริยาที่ใช้เล่า (said, told, asked) เป็นอดีต มักต้องถอย tense กลับหนึ่งขั้น และเปลี่ยนสรรพนาม/คำบอกเวลาให้ตรงกับมุมมองของผู้เล่า",
+    "when": [
+      "เล่าว่าคนอื่นพูดอะไร: He said (that) he was busy. / He told me (that) he was busy.",
+      "เล่าคำถาม: She asked me where I lived. / She asked if I was hungry.",
+      "เล่าคำขอร้องหรือคำสั่ง: The teacher told us to be quiet. / Mum told me not to be late.",
+      "ถ้าสิ่งที่พูดยังจริงอยู่ตอนนี้ ไม่ต้องถอย tense ก็ได้: She said she lives in Bangkok. (ตอนนี้ยังอยู่)"
+    ],
+    "why": "ภาษาไทยเล่าคำพูดโดยไม่เปลี่ยนรูปกริยา (\"เขาบอกว่าเขาเหนื่อย\") แต่ภาษาอังกฤษต้องปรับ tense สรรพนาม และลำดับคำในคำถาม ผู้เรียนไทยจึงมักพูด He asked me where did I go. หรือ She said me … ซึ่งผิด"
+  },
+  "structure": {
+    "formula": "Subject + said (that) / told + someone (that) + Subject + verb (ถอย tense)",
+    "rows": [
+      {
+        "label": "บอกเล่า (Statement)",
+        "formula": "said (that) + clause · told + คน + (that) + clause",
+        "example": "\"I'm busy.\" → He [[said]] he [[was]] busy. / He [[told me]] he [[was]] busy."
+      },
+      {
+        "label": "คำถาม Yes/No",
+        "formula": "asked (+ คน) + if/whether + Subject + verb",
+        "example": "\"Are you OK?\" → She [[asked if]] I [[was]] OK."
+      },
+      {
+        "label": "คำถาม Wh-",
+        "formula": "asked (+ คน) + Wh- + Subject + verb",
+        "example": "\"Where do you work?\" → He asked me [[where I worked]]."
+      },
+      {
+        "label": "คำสั่ง/คำขอร้อง",
+        "formula": "told/asked + คน + (not) to + V1",
+        "example": "\"Don't run!\" → The teacher [[told us not to run]]."
+      }
+    ],
+    "notes": [
+      "ถอย tense: am/is → was · do/does → did · is doing → was doing · will → would · can → could · have done → had done · did → had done (หรือคงไว้ก็ได้)",
+      "say ไม่มีคนตามหลังตรง ๆ (said that …, said to me …) · tell ต้องมีคนตามหลัง (told me, told her)",
+      "คำถามที่เล่าต่อไม่ใช่คำถามแล้ว: เรียง Subject + verb ปกติ ไม่มี do/did และไม่มีเครื่องหมาย ?",
+      "เปลี่ยนคำบอกเวลา/สถานที่ถ้าเล่าในวันอื่น: today → that day · tomorrow → the next day · yesterday → the day before · here → there"
+    ]
+  },
+  "examples": [
+    {
+      "en": "\"I'm hungry.\" → Mai [[said]] she [[was]] hungry.",
+      "th": "ใหม่บอกว่าเธอหิว"
+    },
+    {
+      "en": "\"I'll call you tomorrow.\" → Ben [[told me]] he [[would call]] me [[the next day]].",
+      "th": "เบนบอกฉันว่าเขาจะโทรหาวันรุ่งขึ้น"
+    },
+    {
+      "en": "\"Can you help me?\" → Nok [[asked if]] I [[could]] help her.",
+      "th": "นกถามว่าฉันช่วยเธอได้ไหม"
+    },
+    {
+      "en": "\"Where are you going?\" → Dad asked me [[where I was going]].",
+      "th": "พ่อถามว่าฉันจะไปไหน"
+    },
+    {
+      "en": "\"Please close the door.\" → The teacher [[asked us to close]] the door.",
+      "th": "ครูขอให้พวกเราปิดประตู"
+    },
+    {
+      "en": "\"Don't touch the screen.\" → The guide [[told us not to touch]] the screen.",
+      "th": "ไกด์บอกพวกเราว่าอย่าแตะหน้าจอ"
+    },
+    {
+      "en": "\"I have finished.\" → Joe [[said]] he [[had finished]].",
+      "th": "โจบอกว่าเขาทำเสร็จแล้ว"
+    },
+    {
+      "en": "\"I live in Phuket.\" → She [[told me]] she [[lives]] in Phuket.",
+      "th": "เธอบอกว่าเธออยู่ภูเก็ต (ตอนนี้ยังอยู่ จึงไม่ถอย tense ก็ได้)"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She said me that she was busy.",
+      "right": "She told me that she was busy.",
+      "whyTh": "say ตามด้วยคนโดยตรงไม่ได้ ต้องใช้ tell + คน (told me) หรือ said to me"
+    },
+    {
+      "wrong": "He asked me where did I go.",
+      "right": "He asked me where I went.",
+      "whyTh": "คำถามที่เล่าต่อเรียงแบบประโยคบอกเล่า (Subject + verb) ไม่ใช้ did และไม่สลับที่"
+    },
+    {
+      "wrong": "My mum told me don't be late.",
+      "right": "My mum told me not to be late.",
+      "whyTh": "เล่าคำสั่งเชิงปฏิเสธใช้ told + คน + not to + V1"
+    },
+    {
+      "wrong": "She asked me that I liked spicy food.",
+      "right": "She asked me if I liked spicy food.",
+      "whyTh": "เล่าคำถาม Yes/No ใช้ if หรือ whether ไม่ใช้ that"
+    },
+    {
+      "wrong": "Tom said he will come to my party, but he didn't come.",
+      "right": "Tom said he would come to my party, but he didn't come.",
+      "whyTh": "เรื่องผ่านไปแล้ว (งานจบแล้วและเขาไม่มา) will ในคำพูดเดิมจึงต้องถอยเป็น would"
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "work",
+      "title": "Notes from a meeting",
+      "lines": [
+        {
+          "text": "At the meeting, the manager [[said]] sales [[had gone]] up by 10%. She [[told]] us that the new office [[would open]] in March. Lek [[asked]] her [[whether]] we [[could]] work from home on Fridays, and she [[said]] she [[would]] think about it. Finally, she [[asked]] everyone [[to send]] their reports by Thursday."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "After the doctor's appointment",
+      "lines": [
+        {
+          "speaker": "Ploy",
+          "text": "What did the doctor say?"
+        },
+        {
+          "speaker": "Ton",
+          "text": "She [[said]] I [[had]] a bad cold, and she [[told me to stay]] in bed for two days."
+        },
+        {
+          "speaker": "Ploy",
+          "text": "Did she give you any medicine?"
+        },
+        {
+          "speaker": "Ton",
+          "text": "Yes. She also [[asked]] me [[if I was]] allergic to anything."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Direct speech",
+      "th": "คำพูดตรง (ยกคำพูดในเครื่องหมายคำพูด)"
+    },
+    {
+      "en": "Reported / Indirect speech",
+      "th": "คำพูดที่เล่าต่อ (ไม่ใช้เครื่องหมายคำพูด)"
+    },
+    {
+      "en": "Reporting verb",
+      "th": "กริยาที่ใช้เล่า เช่น say, tell, ask"
+    },
+    {
+      "en": "Backshift",
+      "th": "การถอย tense กลับหนึ่งขั้น (is → was, will → would)"
+    },
+    {
+      "en": "Embedded question",
+      "th": "คำถามที่อยู่ในประโยค เรียงแบบบอกเล่า (where I lived)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-reported-speech-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Yesterday Ben said, \"I'm really tired.\" → Ben said that he ___ really tired.",
+      "choices": [
+        "was",
+        "am",
+        "were",
+        "has been"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ต้องเปลี่ยนสรรพนามและ tense ให้ตรงกับผู้เล่า: I am → he was",
+        "2": "ประธาน he ใช้ was ไม่ใช่ were",
+        "3": "am ถอย tense เป็น was ไม่ใช่ has been"
+      },
+      "explainTh": "กริยาเล่าเป็นอดีต (said) และพูดเมื่อวาน → ถอย tense: am → was",
+      "structure": "Subject + said (that) + Subject + was …",
+      "example": "Ben said that he was really tired."
+    },
+    {
+      "id": "b1-reported-speech-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "She ___ me that she liked my new haircut.",
+      "choices": [
+        "told",
+        "said",
+        "talked",
+        "spoke"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "said ตามด้วยคน (me) โดยตรงไม่ได้ ต้องเป็น said to me หรือ told me",
+        "2": "talked ใช้เล่าเนื้อหาคำพูดด้วย that ไม่ได้",
+        "3": "spoke ใช้เล่าเนื้อหาคำพูดด้วย that ไม่ได้"
+      },
+      "explainTh": "มีคนฟังตามหลังทันที (me) → ใช้ tell: told me that …",
+      "structure": "Subject + told + คน + (that) …",
+      "example": "She told me that she liked my new haircut."
+    },
+    {
+      "id": "b1-reported-speech-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "Last week Mai said, \"I can't come to the party tonight.\" → Mai said that she ___ come to the party that night.",
+      "accepted": [
+        "couldn't",
+        "could not"
+      ],
+      "explainTh": "พูดเมื่อสัปดาห์ที่แล้วและงานผ่านไปแล้ว → ถอย tense: can't → couldn't (tonight → that night)",
+      "structure": "said (that) + Subject + couldn't + V1",
+      "example": "Mai said that she couldn't come to the party that night."
+    },
+    {
+      "id": "b1-reported-speech-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Last night Tom said on the phone, \"I'm watching a film.\" → Tom said he ___ a film.",
+      "accepted": [
+        "was watching"
+      ],
+      "explainTh": "เล่าเรื่องเมื่อคืน → ถอย tense: am watching (Present Continuous) → was watching (Past Continuous)",
+      "structure": "said + Subject + was + V-ing",
+      "example": "Tom said he was watching a film."
+    },
+    {
+      "id": "b1-reported-speech-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Last month they told me, \"We will visit you next week.\" They did. → They told me they ___ visit me the following week.",
+      "accepted": [
+        "would"
+      ],
+      "explainTh": "การมาเยี่ยมเกิดขึ้นไปแล้ว → ถอย tense: will → would (next week → the following week)",
+      "structure": "told + คน + Subject + would + V1",
+      "example": "They told me they would visit me the following week."
+    },
+    {
+      "id": "b1-reported-speech-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Last year at the airport, the officer asked me, \"Where are you staying?\" → The officer asked me where I ___.",
+      "accepted": [
+        "was staying"
+      ],
+      "explainTh": "คำถามที่เล่าต่อเรียง Subject + verb และถอย tense: are you staying → I was staying (ไม่ใช่ was I staying)",
+      "structure": "asked + Wh- + Subject + verb (ถอย tense)",
+      "example": "The officer asked me where I was staying."
+    },
+    {
+      "id": "b1-reported-speech-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Yesterday Joe said, \"I have finished my homework.\"",
+      "instruction": "เขียนเป็น reported speech ขึ้นต้นด้วย Joe said …",
+      "accepted": [
+        "Joe said that he had finished his homework.",
+        "Joe said he had finished his homework.",
+        "Joe said that he'd finished his homework.",
+        "Joe said he'd finished his homework."
+      ],
+      "explainTh": "have finished → had finished (ถอย tense) · I → he · my → his · ใส่หรือไม่ใส่ that ก็ได้",
+      "structure": "said (that) + Subject + had + V3",
+      "example": "Joe said that he had finished his homework."
+    },
+    {
+      "id": "b1-reported-speech-08",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Anna asked me, \"Do you like spicy food?\"",
+      "instruction": "เขียนเป็น reported speech ขึ้นต้นด้วย Anna asked me …",
+      "accepted": [
+        "Anna asked me if I liked spicy food.",
+        "Anna asked me whether I liked spicy food.",
+        "Anna asked me if I like spicy food.",
+        "Anna asked me whether I like spicy food."
+      ],
+      "explainTh": "คำถาม Yes/No → asked + if/whether + Subject + verb · ตัด do ทิ้ง · ถอย tense เป็น liked (ถ้ายังชอบอยู่ตอนนี้ ใช้ like ก็ได้)",
+      "structure": "asked + คน + if/whether + Subject + verb",
+      "example": "Anna asked me if I liked spicy food."
+    },
+    {
+      "id": "b1-reported-speech-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "The teacher said to us, \"Close the windows, please.\"",
+      "instruction": "เขียนเป็น reported speech ขึ้นต้นด้วย The teacher … us …",
+      "accepted": [
+        "The teacher told us to close the windows.",
+        "The teacher asked us to close the windows.",
+        "The teacher asked us to please close the windows.",
+        "The teacher told us to please close the windows."
+      ],
+      "explainTh": "เล่าคำสั่ง/คำขอร้อง → told/asked + คน + to + V1 (please หายไป เพราะ asked บอกความสุภาพแล้ว)",
+      "structure": "told/asked + คน + to + V1",
+      "example": "The teacher asked us to close the windows."
+    },
+    {
+      "id": "b1-reported-speech-10",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "She said me that she was busy.",
+      "errorPart": "said me",
+      "accepted": [
+        "She told me that she was busy.",
+        "She told me she was busy.",
+        "She said to me that she was busy.",
+        "She said that she was busy.",
+        "She said she was busy."
+      ],
+      "explainTh": "say ตามด้วยคนโดยตรงไม่ได้ → told me หรือ said to me (หรือตัด me ออก)",
+      "structure": "told + คน / said (to + คน)"
+    },
+    {
+      "id": "b1-reported-speech-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "He asked me where did I work.",
+      "errorPart": "did I work",
+      "accepted": [
+        "He asked me where I worked.",
+        "He asked me where I work."
+      ],
+      "explainTh": "คำถาม Wh- ที่เล่าต่อเรียง Subject + verb แบบบอกเล่า ไม่ใช้ did → where I worked",
+      "structure": "asked + Wh- + Subject + verb"
+    },
+    {
+      "id": "b1-reported-speech-12",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "My mum told me don't be late for dinner.",
+      "errorPart": "don't be",
+      "accepted": [
+        "My mum told me not to be late for dinner."
+      ],
+      "explainTh": "เล่าคำสั่งเชิงปฏิเสธ: told + คน + not to + V1 → told me not to be late",
+      "structure": "told + คน + not to + V1"
+    },
+    {
+      "id": "b1-reported-speech-13",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "asked",
+        "me",
+        "she",
+        "was",
+        "if",
+        "I",
+        "hungry"
+      ],
+      "accepted": [
+        "She asked me if I was hungry."
+      ],
+      "explainTh": "เล่าคำถาม Yes/No: Subject + asked + คน + if + Subject + verb → She asked me if I was hungry. (ไม่สลับเป็น was I)"
+    },
+    {
+      "id": "b1-reported-speech-14",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่คำในคำพูดตรงกับรูปที่ใช้ใน reported speech (เมื่อเล่าในวันอื่น)",
+      "pairs": [
+        [
+          "am / is",
+          "was"
+        ],
+        [
+          "will",
+          "would"
+        ],
+        [
+          "can",
+          "could"
+        ],
+        [
+          "have done",
+          "had done"
+        ],
+        [
+          "today",
+          "that day"
+        ],
+        [
+          "tomorrow",
+          "the next day"
+        ]
+      ],
+      "explainTh": "ถอย tense กลับหนึ่งขั้น และเปลี่ยนคำบอกเวลาให้ตรงกับมุมมองของผู้เล่า: today → that day, tomorrow → the next day"
+    },
+    {
+      "id": "b1-reported-speech-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What did the doctor say?"
+          },
+          {
+            "speaker": "B",
+            "text": "She said I ___ stay in bed for two days."
+          }
+        ]
+      },
+      "choices": [
+        "had to",
+        "must to",
+        "has to",
+        "had"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง must ใช้ V1 ทันที ไม่มี to",
+        "2": "ประธาน I ใช้ have to/had to ไม่ใช่ has to",
+        "3": "had stay ผิดโครงสร้าง ต้องเป็น had to + V1"
+      },
+      "explainTh": "\"You must stay in bed.\" → เล่าต่อในอดีต must มักเปลี่ยนเป็น had to: She said I had to stay in bed."
+    },
+    {
+      "id": "b1-reported-speech-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "A phone message",
+        "lines": [
+          {
+            "text": "Hi Ben, Nina called this morning. She said she was going to be late for the meeting because her car had broken down. She asked if you could send her the report by email. She also told me not to start the meeting without her. — Kate"
+          }
+        ]
+      },
+      "question": "What did Nina ask Ben to do?",
+      "choices": [
+        "Send her the report by email",
+        "Start the meeting without her",
+        "Fix her car",
+        "Call her back this morning"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "told me not to start … = บอกว่าอย่าเริ่มประชุมก่อนเธอมา",
+        "2": "ข้อความบอกแค่ว่ารถเสีย ไม่ได้ขอให้ซ่อม",
+        "3": "ข้อความไม่ได้ขอให้โทรกลับ"
+      },
+      "explainTh": "She asked if you could send her the report — เล่าคำขอด้วย asked if + Subject + could"
+    },
+    {
+      "id": "b1-reported-speech-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าว่าเมื่อวานครูหรือเพื่อนพูด บอก หรือถามอะไรคุณ ใช้ said / told / asked (Write 3 sentences reporting what a teacher or friend said to you yesterday.)",
+      "minSentences": 3,
+      "expectTense": "past",
+      "checks": [
+        {
+          "re": "\\b(said|told|asked)\\b",
+          "flags": "i",
+          "msgTh": "ใช้กริยาเล่า said / told / asked"
+        },
+        {
+          "re": "\\b(would|could|was|were|had|to)\\b",
+          "flags": "i",
+          "msgTh": "ถอย tense (was, would, could, had) หรือใช้ told/asked + คน + to + V1"
+        }
+      ],
+      "sample": "Yesterday my teacher said that the test would be on Friday. She told us to read chapter five. My friend Ploy asked me if I was free after school.",
+      "explainTh": "said (that) + ถอย tense (would) · told + คน + to + V1 · asked + คน + if + Subject + verb"
+    }
+  ]
+}

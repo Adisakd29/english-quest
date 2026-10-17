@@ -1,0 +1,514 @@
+{
+  "id": "c1-emphasis",
+  "summaryTh": "เน้นความหมายด้วย do/does/did, การยกคำขึ้นต้นประโยค, the very และ whatsoever",
+  "concept": {
+    "what": "นอกจาก cleft sentence แล้ว ภาษาอังกฤษยังมีวิธีเน้นอีกหลายแบบ: ใส่ do/does/did หน้ากริยาเพื่อยืนยันว่า \"ทำจริง ๆ\" (I did call you!), ยกส่วนที่อยากเน้นขึ้นต้นประโยค (fronting) เช่น That decision I will never understand., ใช้ adj + as/though + S + V (Tired as she was, …) และใช้คำเน้นอย่าง the very (… นั่นแหละ) หรือ whatsoever (… เลยแม้แต่นิดเดียว)",
+    "when": [
+      "ยืนยันหรือเถียงกลับว่าทำจริง: \"You didn't lock the door.\" — \"I did lock it!\"",
+      "ยอมรับบางส่วนแล้วแย้ง: She does work hard, but she's often late.",
+      "คำสั่ง/เชิญแบบสุภาพและหนักแน่น: Do sit down. / Do let me know.",
+      "ยกส่วนที่สำคัญหรือสะดุดตาขึ้นก่อน (fronting): Strange as it may seem, I enjoy exams.",
+      "เน้นว่า \"ตรงนั้นเลย/อันนั้นเลย\": the very beginning, the very person; เน้นปฏิเสธให้หนักขึ้น: no doubt whatsoever"
+    ],
+    "why": "ในภาษาพูดเราเน้นด้วยน้ำเสียง แต่ภาษาเขียนต้องใช้โครงสร้าง — ภาษาไทยเน้นด้วยคำอย่าง \"จริง ๆ\" \"เลย\" \"นั่นแหละ\" ผู้เรียนไทยจึงมักใช้ really ซ้ำ ๆ ส่วนข้อผิดที่พบบ่อยคือ did + V2 (I did sent ✗) และวาง whatsoever ผิดตำแหน่ง"
+  },
+  "structure": {
+    "formula": "S + do/does/did + V1  ·  Fronted element + S + V",
+    "rows": [
+      {
+        "label": "Emphatic do (ปัจจุบัน)",
+        "formula": "S + do / does + V1",
+        "example": "She [[does work]] hard — she just doesn't show it."
+      },
+      {
+        "label": "Emphatic did (อดีต)",
+        "formula": "S + did + V1",
+        "example": "I [[did send]] the email. Check your spam folder."
+      },
+      {
+        "label": "Do + คำสั่ง (เชิญ/ขอร้อง)",
+        "formula": "Do + V1 …",
+        "example": "[[Do help]] yourself to some coffee."
+      },
+      {
+        "label": "Fronting (ยกกรรมขึ้นต้น)",
+        "formula": "Object + S + V",
+        "example": "[[That kind of behaviour]] we will not accept."
+      },
+      {
+        "label": "Adj / Adv + as + S + V",
+        "formula": "Adjective + as / though + S + be/V, …",
+        "example": "[[Tired as she was]], she finished the report."
+      },
+      {
+        "label": "the very + noun",
+        "formula": "the very + คำนาม",
+        "example": "This is [[the very]] book I was looking for."
+      },
+      {
+        "label": "whatsoever",
+        "formula": "no / any + noun + whatsoever",
+        "example": "There is no evidence [[whatsoever]]."
+      }
+    ],
+    "notes": [
+      "หลัง do / does / did ใช้กริยารูปฐาน (V1) เสมอ: did send, does work",
+      "ในภาษาพูดต้องลงเสียงหนักที่ do/does/did",
+      "Adj + as + S + V มีความหมายว่า \"ถึงแม้ว่า\" (= Although she was tired) — ไม่ต้องใส่ although ซ้ำ",
+      "the very ตามด้วยคำนาม = \"… นั่นเอง/พอดีเลย\" ต่างจาก very + คุณศัพท์ = \"มาก\"",
+      "whatsoever ตามหลังคำนามในประโยคปฏิเสธ (no …, not any …) และวางไว้หลังคำนามนั้นหรือท้ายประโยค"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I know you think I forgot, but I [[did remember]] your birthday.",
+      "th": "รู้ว่าเธอคิดว่าฉันลืม แต่ฉันจำวันเกิดเธอได้จริง ๆ นะ"
+    },
+    {
+      "en": "The new system [[does have]] some advantages, although it is expensive.",
+      "th": "ระบบใหม่ก็มีข้อดีอยู่จริง แม้ว่าจะแพงก็ตาม"
+    },
+    {
+      "en": "[[Do let]] me know if you need anything else.",
+      "th": "ถ้าต้องการอะไรเพิ่มเติม บอกได้เลยนะคะ"
+    },
+    {
+      "en": "[[Strange as it may seem]], I actually enjoy doing exams.",
+      "th": "ถึงจะฟังดูแปลก แต่ฉันชอบทำข้อสอบจริง ๆ"
+    },
+    {
+      "en": "[[That part of the report]] I found really confusing.",
+      "th": "ส่วนนั้นของรายงานนี่แหละที่ฉันอ่านแล้วงงมาก"
+    },
+    {
+      "en": "At [[the very]] beginning of the course, we were asked to give a presentation.",
+      "th": "ตั้งแต่ช่วงแรกสุดของคอร์สเลย เราก็ถูกให้นำเสนองาน"
+    },
+    {
+      "en": "He showed no interest [[whatsoever]] in the proposal.",
+      "th": "เขาไม่สนใจข้อเสนอเลยแม้แต่นิดเดียว"
+    },
+    {
+      "en": "[[Talented though he is]], he still needs more experience.",
+      "th": "ถึงเขาจะมีพรสวรรค์ แต่ก็ยังต้องการประสบการณ์อีกมาก"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I did sent the report on Monday.",
+      "right": "I did send the report on Monday.",
+      "whyTh": "did บอกอดีตแล้ว กริยาที่ตามมาจึงเป็น V1 (send) — เหมือนกฎของ didn't"
+    },
+    {
+      "wrong": "She does works very hard.",
+      "right": "She does work very hard.",
+      "whyTh": "does รับ -s ไปแล้ว กริยาหลักจึงไม่ต้องเติม -s ซ้ำ"
+    },
+    {
+      "wrong": "There is whatsoever no reason to worry.",
+      "right": "There is no reason whatsoever to worry.",
+      "whyTh": "whatsoever วางหลังคำนามที่มี no/any นำหน้า ไม่วางหน้า no"
+    },
+    {
+      "wrong": "Although tired as she was, she finished the race.",
+      "right": "Tired as she was, she finished the race.",
+      "whyTh": "โครงสร้าง adj + as + S + V มีความหมาย \"ถึงแม้ว่า\" อยู่แล้ว ใส่ although ซ้ำไม่ได้"
+    },
+    {
+      "wrong": "This is the very important meeting.",
+      "right": "This is a very important meeting.",
+      "whyTh": "the very ใช้กับคำนาม (the very meeting = การประชุมนั้นเลย) ถ้าแปลว่า \"มาก\" ใช้ a very + คุณศัพท์"
+    }
+  ],
+  "compare": {
+    "title": "Emphasis (do / fronting) vs Cleft sentences",
+    "with": [
+      "c1-cleft"
+    ],
+    "rows": [
+      {
+        "label": "เน้นอะไร",
+        "a": "ความจริงของการกระทำ (did call) หรือส่วนที่ยกขึ้นต้น",
+        "b": "ส่วนใดส่วนหนึ่งของประโยค (คน เวลา สิ่งของ การกระทำ)"
+      },
+      {
+        "label": "วิธี",
+        "a": "เติม do/does/did หรือย้ายตำแหน่งคำ",
+        "b": "แยกประโยคเป็นสองส่วน: It was … that / What … was"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "I did tell her about it.",
+        "b": "It was me who told her about it."
+      },
+      {
+        "label": "ความหมาย",
+        "a": "\"ฉันบอกเธอแล้วจริง ๆ\" (เถียงว่าทำแล้ว)",
+        "b": "\"ฉันนี่แหละที่บอกเธอ\" (เน้นว่าเป็นใคร)"
+      }
+    ],
+    "tipTh": "ถ้ามีคนบอกว่าคุณ \"ไม่ได้ทำ\" ใช้ do/did เถียงกลับ · ถ้ามีคนเข้าใจผิดว่า \"ใครทำ/ทำเมื่อไร\" ใช้ cleft"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "A disagreement between flatmates",
+      "lines": [
+        {
+          "speaker": "Nok",
+          "text": "You never do the washing-up!"
+        },
+        {
+          "speaker": "Sam",
+          "text": "That's not fair. I [[did do]] it yesterday, and I [[do clean]] the bathroom every week."
+        },
+        {
+          "speaker": "Nok",
+          "text": "OK, you [[do help]] sometimes. But the kitchen is a mess right now."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Fine. [[Do sit]] down — I'll make us some tea and then I'll clean it."
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "Online café review",
+      "lines": [
+        {
+          "text": "I wasn't expecting much from this new café, but I [[do have]] to admit the coffee is excellent. [[Small as the place is]], it never feels crowded. [[The service]], however, I found painfully slow — we waited forty minutes. Still, I have no regrets [[whatsoever]] about trying it."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Emphatic do",
+      "th": "do / does / did ที่ใส่เพื่อเน้นว่า \"จริง ๆ นะ\" (ไม่ใช่เพื่อถามหรือปฏิเสธ)"
+    },
+    {
+      "en": "Fronting",
+      "th": "การยกส่วนที่อยากเน้นขึ้นมาไว้ต้นประโยค"
+    },
+    {
+      "en": "Concessive clause",
+      "th": "อนุประโยคยอมรับ \"ถึงแม้ว่า …\" เช่น Tired as she was"
+    },
+    {
+      "en": "Intensifier",
+      "th": "คำเพิ่มน้ำหนักความหมาย เช่น the very, whatsoever, at all"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-emphasis-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I know you think I forgot, but I ___ lock the door before I left.",
+      "choices": [
+        "did",
+        "do",
+        "was",
+        "had"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "before I left บอกว่าเป็นอดีต ใช้ do (ปัจจุบัน) ไม่ได้",
+        "2": "was + V1 (was lock) ผิดโครงสร้าง",
+        "3": "had ต้องตามด้วย V3 (had locked) แต่ช่องว่างตามด้วย lock (V1)"
+      },
+      "explainTh": "เถียงว่าทำแล้วจริงในอดีต → did + V1: I did lock the door.",
+      "structure": "S + did + V1",
+      "example": "I did lock the door before I left."
+    },
+    {
+      "id": "c1-emphasis-02",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "There is no evidence ___ to support his claim.",
+      "choices": [
+        "whatsoever",
+        "however",
+        "at least",
+        "what ever"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "however แปลว่า \"อย่างไรก็ตาม\" ใช้เชื่อมความขัดแย้ง ไม่ได้เน้นคำปฏิเสธ",
+        "2": "at least แปลว่า \"อย่างน้อย\" ขัดกับ no evidence",
+        "3": "what ever (แยกคำ) ใช้ในคำถามแสดงความแปลกใจ เช่น What ever happened? ไม่ใช้เน้นปฏิเสธหลังคำนาม"
+      },
+      "explainTh": "no + คำนาม + whatsoever = ไม่มี … เลยแม้แต่นิดเดียว",
+      "structure": "no + noun + whatsoever"
+    },
+    {
+      "id": "c1-emphasis-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "You ___ look tired today. Did you sleep badly? (ใช้ do / does / did เพื่อเน้น)",
+      "accepted": [
+        "do"
+      ],
+      "explainTh": "today + พูดถึงตอนนี้ ประธาน you → do + V1: You do look tired. (ดูเหนื่อยจริง ๆ นะ)",
+      "structure": "S + do + V1"
+    },
+    {
+      "id": "c1-emphasis-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "This is the ___ moment I've been waiting for! (คำเน้น = นาทีนั้นเลย)",
+      "accepted": [
+        "very",
+        "exact",
+        "precise"
+      ],
+      "explainTh": "the very + คำนาม = … นั่นแหละ / พอดีเลย (ใช้ the exact ก็ได้ความหมายใกล้กัน)",
+      "structure": "the very + noun"
+    },
+    {
+      "id": "c1-emphasis-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "He does wants to help, but he's very busy this week.",
+      "errorPart": "wants",
+      "accepted": [
+        "He does want to help, but he's very busy this week."
+      ],
+      "explainTh": "does รับ -s แล้ว กริยาหลักใช้รูปฐาน: does want"
+    },
+    {
+      "id": "c1-emphasis-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "I did told her about the deadline twice.",
+      "errorPart": "told",
+      "accepted": [
+        "I did tell her about the deadline twice."
+      ],
+      "explainTh": "did บอกอดีตแล้ว กริยาที่ตามมาต้องเป็น V1: did tell (ไม่ใช่ did told)"
+    },
+    {
+      "id": "c1-emphasis-07",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "There is whatsoever no doubt about the result.",
+      "errorPart": "whatsoever no doubt",
+      "accepted": [
+        "There is no doubt whatsoever about the result.",
+        "There is no doubt about the result whatsoever."
+      ],
+      "explainTh": "whatsoever วางหลังคำนามที่มี no นำหน้า (no doubt whatsoever) หรือท้ายประโยค ไม่วางหน้า no"
+    },
+    {
+      "id": "c1-emphasis-08",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "strange",
+        "as",
+        "it",
+        "may",
+        "seem",
+        "I",
+        "enjoy",
+        "exams"
+      ],
+      "accepted": [
+        "Strange as it may seem, I enjoy exams.",
+        "Strange as it may seem I enjoy exams.",
+        "I enjoy exams, strange as it may seem.",
+        "I enjoy exams strange as it may seem."
+      ],
+      "explainTh": "Adj + as + S + may seem = ถึงจะดูแปลก … — ยกคุณศัพท์ขึ้นหน้า as แล้วตามด้วยประโยคหลัก",
+      "structure": "Adjective + as + S + V, main clause"
+    },
+    {
+      "id": "c1-emphasis-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "do",
+        "take",
+        "a",
+        "seat",
+        "and",
+        "make",
+        "yourself",
+        "comfortable"
+      ],
+      "accepted": [
+        "Do take a seat and make yourself comfortable.",
+        "Do make yourself comfortable and take a seat.",
+        "Take a seat and do make yourself comfortable.",
+        "Make yourself comfortable and do take a seat."
+      ],
+      "explainTh": "Do + คำสั่ง (V1) = เชิญอย่างสุภาพและเป็นกันเอง: Do take a seat …",
+      "structure": "Do + V1 (imperative)"
+    },
+    {
+      "id": "c1-emphasis-10",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Although she was exhausted, she kept working.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Exhausted as",
+      "accepted": [
+        "Exhausted as she was, she kept working."
+      ],
+      "explainTh": "Although + S + was + adj → Adj + as + S + was (ตัด although ออก เพราะโครงสร้างนี้มีความหมาย \"ถึงแม้ว่า\" อยู่แล้ว)",
+      "structure": "Adjective + as + S + be, main clause"
+    },
+    {
+      "id": "c1-emphasis-11",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I really appreciate your help.",
+      "instruction": "เน้นด้วย do แทนคำว่า really",
+      "accepted": [
+        "I do appreciate your help."
+      ],
+      "explainTh": "ตัด really แล้วใส่ do หน้ากริยา: I do appreciate … (ซาบซึ้งจริง ๆ)",
+      "structure": "S + do + V1"
+    },
+    {
+      "id": "c1-emphasis-12",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "We will never forget this experience.",
+      "instruction": "ยก this experience ขึ้นต้นประโยค (fronting)",
+      "accepted": [
+        "This experience we will never forget."
+      ],
+      "explainTh": "Fronting: ย้ายกรรม (this experience) มาไว้หน้าประธาน ส่วนที่เหลือคงลำดับเดิม → This experience we will never forget.",
+      "structure": "Object + S + V"
+    },
+    {
+      "id": "c1-emphasis-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "She did warned us about the risks, but we ignored her.",
+        "She does warned us about the risks, but we ignored her.",
+        "She did warn us about the risks, but we ignored her.",
+        "She did to warn us about the risks, but we ignored her."
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "หลัง did ต้องใช้ V1 (warn) ไม่ใช่ warned",
+        "1": "เรื่องเกิดในอดีต (ignored) ต้องใช้ did และ does ก็ตามด้วย V2 ไม่ได้",
+        "3": "did ตามด้วยกริยารูปฐานทันที ไม่มี to"
+      },
+      "explainTh": "เน้นว่าเตือนจริงในอดีต → did + V1: She did warn us …"
+    },
+    {
+      "id": "c1-emphasis-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "You never listen to my ideas."
+          },
+          {
+            "speaker": "B",
+            "text": "That's not true! I ___ listen — I just don't always agree."
+          }
+        ]
+      },
+      "choices": [
+        "do",
+        "am",
+        "did",
+        "does"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "am ต้องตามด้วย V-ing (am listening) ไม่ใช่ V1",
+        "2": "A พูดถึงนิสัยทั่วไป (never listen) และ B ต่อด้วย don't always agree (ปัจจุบัน) จึงใช้ did ไม่เหมาะ",
+        "3": "does ใช้กับ he / she / it ประธาน I ต้องใช้ do"
+      },
+      "explainTh": "เถียงกลับเรื่องนิสัยปัจจุบัน ประธาน I → do + V1: I do listen."
+    },
+    {
+      "id": "c1-emphasis-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับวิธีเน้นที่ใช้",
+      "pairs": [
+        [
+          "I did tell you!",
+          "emphatic did — ยืนยันว่าทำแล้วจริง"
+        ],
+        [
+          "Rich as he is, he isn't happy.",
+          "adj + as + S + V — ถึงแม้ว่า …"
+        ],
+        [
+          "That's the very book I lost.",
+          "the very + noun — อันนั้นแหละ"
+        ],
+        [
+          "I have no idea whatsoever.",
+          "whatsoever — ไม่ … เลยแม้แต่นิด"
+        ],
+        [
+          "Do sit down.",
+          "do + คำสั่ง — เชิญอย่างสุภาพ"
+        ]
+      ],
+      "explainTh": "แต่ละโครงสร้างเน้นคนละแบบ: did (ทำจริง) · adj + as (ถึงแม้) · the very (ตรงนั้นเลย) · whatsoever (ปฏิเสธหนัก) · Do + คำสั่ง (เชิญ)"
+    },
+    {
+      "id": "c1-emphasis-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "social",
+        "title": "Café review",
+        "lines": [
+          {
+            "text": "I wasn't expecting much from the new café, but I do have to admit the coffee is excellent. Small as the place is, it never feels crowded. The service, however, I found slow."
+          }
+        ]
+      },
+      "question": "Which statement matches the writer's opinion?",
+      "choices": [
+        "She expected little, but she admits the coffee is excellent.",
+        "She thinks the café is so small that it feels crowded.",
+        "She thinks the service is fast.",
+        "She did not try the coffee."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Small as the place is = ถึงร้านจะเล็ก (ไม่ใช่ \"เล็กจนแน่น\") และเธอบอกว่า it never feels crowded",
+        "2": "The service … I found slow — fronting ยก The service ขึ้นต้น แต่ความเห็นคือช้า",
+        "3": "I do have to admit the coffee is excellent — do เน้นว่าเธอยอมรับจริงว่ากาแฟดี แปลว่าได้ลองแล้ว"
+      },
+      "explainTh": "do have to admit = ต้องยอมรับจริง ๆ · Small as the place is = ถึงแม้ร้านจะเล็ก · The service I found slow = ยกกรรมขึ้นต้นเพื่อเน้นจุดที่ไม่ชอบ"
+    },
+    {
+      "id": "c1-emphasis-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "คุณเป็นพนักงานร้านค้าออนไลน์ เขียน 3 ประโยคตอบลูกค้าที่บ่นว่าไม่มีใครตอบอีเมล ใช้ emphatic do/did อย่างน้อย 1 ครั้ง และใช้ the very / whatsoever / adj + as + S + V อย่างน้อย 1 ครั้ง (Write a 3-sentence reply to a customer using emphatic do/did and one more emphasis structure.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(i|we|you|he|she|it|they)\\s+(do|does|did)\\s+(?!(not|n't|it|this|that|so|my|your|his|her|our|their|the|a|an|some|any|nothing|everything|something|anything|well|badly|what|all)\\b)[a-z]+",
+          "flags": "i",
+          "msgTh": "ใช้ emphatic do/does/did อย่างน้อย 1 ครั้ง เช่น We did receive … / We do apologise …"
+        },
+        {
+          "re": "\\b(the very|whatsoever)\\b|\\b\\w+\\s+(as|though)\\s+(i|you|we|they|he|she|it)\\s+(am|is|are|was|were|may|might)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ the very, whatsoever หรือ adj + as + S + V (เช่น Busy as we were) อย่างน้อย 1 ครั้ง"
+        }
+      ],
+      "sample": "We did receive your email, and we do apologise for the delay. Busy as we were last week, there is no excuse whatsoever for such a slow reply. Your order will arrive tomorrow.",
+      "explainTh": "ระวัง did + V1 (did receive ไม่ใช่ did received) และวาง whatsoever หลังคำนามที่มี no นำหน้า"
+    }
+  ]
+}

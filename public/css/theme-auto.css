@@ -1,0 +1,218 @@
+/* สร้างอัตโนมัติโดย scripts/build-theme-overrides.py — ห้ามแก้ด้วยมือ */
+/* แปลงเส้นขอบ/พื้นแบบขาวโปร่งแสง (ธีมมืด) เป็นเข้มโปร่งแสง (ธีมสว่าง) */
+
+.auth-wrap {
+  border: 1px solid rgba(31, 35, 64, 0.078);
+}
+.mini-rail {
+  border-top: 3px dashed rgba(31, 35, 64, 0.18);
+}
+#hud {
+  border-bottom: 1px solid rgba(31, 35, 64, 0.104);
+}
+.hud-exp-bar-bg {
+  background: rgba(31, 35, 64, 0.156);
+}
+.hud-icon-btn {
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.hud-icon-btn:hover {
+  background: rgba(31, 35, 64, 0.104);
+}
+.hud-logout {
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.hud-logout:hover {
+  background: rgba(31, 35, 64, 0.104);
+}
+.trail-node {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.stamp {
+  border: 3px solid rgba(31, 35, 64, 0.18);
+}
+.node-progress-bar-bg {
+  background: rgba(31, 35, 64, 0.13);
+}
+.game-exit {
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.footprint {
+  background: rgba(31, 35, 64, 0.18);
+}
+.quiz-choice {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.summary-card {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.btn-secondary {
+  background: rgba(31, 35, 64, 0.104);
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.leaderboard-row {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.loading-spinner {
+  border: 3px solid rgba(31, 35, 64, 0.18);
+}
+.grammar-intro-card {
+  border: 2px solid rgba(31, 35, 64, 0.104);
+}
+.chapter-card {
+  border: 2px solid rgba(31, 35, 64, 0.104);
+}
+.grammar-quiz-progress {
+  background: rgba(31, 35, 64, 0.13);
+}
+.quiz-choice {
+  border: 2px solid rgba(31, 35, 64, 0.156);
+}
+.gr-review-item {
+  border-left: 3px solid rgba(31, 35, 64, 0.18);
+}
+.home-menu-card {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.home-menu-card::before {
+  background: linear-gradient(120deg, transparent 40%, rgba(31, 35, 64, 0.065) 50%, transparent 60%);
+}
+.home-menu-icon {
+  background: linear-gradient(135deg, rgba(31, 35, 64, 0.078), rgba(0,0,0,0.15));
+}
+.mode-card {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.online-badge.offline {
+  background: rgba(31, 35, 64, 0.078);
+  border-color: rgba(31, 35, 64, 0.156);
+}
+.friends-search input {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.count-pill {
+  background: rgba(31, 35, 64, 0.156);
+}
+.friend-row {
+  border: 1px solid rgba(31, 35, 64, 0.091);
+}
+.mini-btn.ghost {
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.relation-tag {
+  background: rgba(31, 35, 64, 0.078);
+}
+.friend-empty {
+  background: rgba(31, 35, 64, 0.039);
+  border: 1px dashed rgba(31, 35, 64, 0.13);
+}
+.battle-panel {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.level-chip {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.battle-timer-wrap {
+  background: rgba(31, 35, 64, 0.13);
+}
+.sb-item {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+#bottom-nav {
+  border-top: 1px solid rgba(31, 35, 64, 0.13);
+}
+.dash-continue-go {
+  background: rgba(31, 35, 64, 0.18);
+}
+.dash-level-bar {
+  background: rgba(31, 35, 64, 0.13);
+}
+.dash-review-go {
+  background: rgba(31, 35, 64, 0.18);
+}
+.dash-mastery-bar {
+  background: rgba(31, 35, 64, 0.13);
+}
+.dash-mistakes-go {
+  background: rgba(31, 35, 64, 0.18);
+}
+.word-dict {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.admin-stat {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.admin-filters select,
+.admin-filters input,
+.admin-modal-card input,
+.admin-modal-card textarea {
+  border: 2px solid rgba(31, 35, 64, 0.13);
+}
+.admin-row {
+  border: 1px solid rgba(31, 35, 64, 0.091);
+}
+.admin-tag {
+  background: rgba(31, 35, 64, 0.13);
+}
+.admin-modal-card {
+  border: 1px solid rgba(31, 35, 64, 0.156);
+}
+.pl-disclaimer {
+  background: rgba(31, 35, 64, 0.052);
+}
+.pl-progress {
+  background: rgba(31, 35, 64, 0.13);
+}
+.pl-result-item {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.pl-review-row {
+  border: 1px solid rgba(31, 35, 64, 0.091);
+}
+.path-level {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.path-unit {
+  background: var(--bg-night-3, rgba(31, 35, 64, 0.052));
+  border: 1px solid rgba(31, 35, 64, 0.091);
+}
+.path-unit-bar {
+  background: rgba(31, 35, 64, 0.13);
+}
+.path-test-btn {
+  background: var(--bg-night-3, rgba(31, 35, 64, 0.052));
+}
+.path-boss.locked {
+  background: rgba(31, 35, 64, 0.039);
+  border: 1px dashed rgba(31, 35, 64, 0.156);
+}
+.speak-btn {
+  background: rgba(31, 35, 64, 0.18);
+}
+.path-mode {
+  border: 1px solid rgba(31, 35, 64, 0.13);
+}
+.vb-open {
+  border: 1px solid rgba(31, 35, 64, 0.18);
+}
+.vb-search {
+  border: 2px solid rgba(31, 35, 64, 0.156);
+}
+.vb-chip {
+  border: 2px solid var(--chip, rgba(31, 35, 64, 0.18));
+}
+.vb-filters select {
+  border: 2px solid rgba(31, 35, 64, 0.156);
+}
+.vb-row {
+  border: 1px solid rgba(31, 35, 64, 0.104);
+}
+.vc-other {
+  background: rgba(31, 35, 64, 0.18);
+}
+@media (min-width: 720px) {
+#bottom-nav {
+  border-left: 1px solid rgba(31, 35, 64, 0.13);
+  border-right: 1px solid rgba(31, 35, 64, 0.13);
+}
+}

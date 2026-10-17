@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+npm-debug.log*
+
+# เอกสาร Oxford เป็นลิขสิทธิ์ของ OUP — ไม่ commit
+*.pdf

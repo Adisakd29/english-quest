@@ -1,0 +1,227 @@
+{
+  "id": "a2-quantifiers",
+  "summaryTh": "บอกปริมาณด้วย much, many, some, any, a lot of",
+  "concept": {
+    "what": "คำบอกปริมาณ (quantifiers) คือคำที่วางหน้าคำนามเพื่อบอกว่ามีมากหรือน้อย เช่น some, any, much, many, a lot of — การเลือกคำขึ้นอยู่กับว่าคำนามนับได้หรือไม่ และประโยคเป็นบอกเล่า ปฏิเสธ หรือคำถาม",
+    "when": [
+      "many + คำนามนับได้พหูพจน์ (many friends) · much + คำนามนับไม่ได้ (much money) — นิยมใช้ในประโยคปฏิเสธและคำถาม",
+      "a lot of / lots of ใช้ได้ทั้งนับได้และนับไม่ได้ เหมาะกับประโยคบอกเล่า (a lot of friends, a lot of money)",
+      "some ใช้ในประโยคบอกเล่า และในคำถามที่เป็นการเสนอหรือขอ (Would you like some tea? / Can I have some water?)",
+      "any ใช้ในประโยคปฏิเสธและคำถามทั่วไป (I don't have any money. / Is there any milk?)",
+      "How many …? ถามจำนวนสิ่งที่นับได้ · How much …? ถามปริมาณสิ่งที่นับไม่ได้ และถามราคา"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"เยอะ\" \"บ้าง\" \"เลย\" กับคำนามทุกชนิด แต่ภาษาอังกฤษต้องดูชนิดของคำนามก่อน ถ้าใช้ many money หรือ I don't have some … คนฟังเข้าใจได้ แต่จะรู้ทันทีว่าผิด โดยเฉพาะในข้อสอบและการเขียน"
+  },
+  "structure": {
+    "formula": "quantifier + noun (นับได้พหูพจน์ / นับไม่ได้)",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "some / a lot of + noun", "example": "I have [[some]] friends in Japan. · She drinks [[a lot of]] water." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "not + any / much / many + noun", "example": "We don't have [[any]] bread. · I don't have [[much]] time." },
+      { "label": "คำถาม (Question)", "formula": "any + noun …? · How much / How many …?", "example": "Are there [[any]] questions? · [[How many]] students are in your class?" },
+      { "label": "เสนอ / ขอ (Offer / Request)", "formula": "Would you like / Can I have + some + noun?", "example": "Would you like [[some]] cake?" }
+    ],
+    "notes": [
+      "many / How many + คำนามนับได้พหูพจน์: many books, How many books?",
+      "much / How much + คำนามนับไม่ได้: much water, How much water?",
+      "ในประโยคบอกเล่า I have much money ฟังแปลก ให้ใช้ a lot of money",
+      "How much …? ใช้ถามราคาได้ด้วย: How much is this shirt?"
+    ]
+  },
+  "examples": [
+    { "en": "There are [[a lot of]] tourists in Bangkok in December.", "th": "เดือนธันวาคมกรุงเทพฯ มีนักท่องเที่ยวเยอะ" },
+    { "en": "I don't have [[much]] money this month.", "th": "เดือนนี้ฉันมีเงินไม่ค่อยเยอะ" },
+    { "en": "[[How many]] followers do you have on social media?", "th": "เธอมีผู้ติดตามบนโซเชียลมีเดียกี่คน" },
+    { "en": "Would you like [[some]] coffee? — Yes, please.", "th": "รับกาแฟไหมคะ — ค่ะ ขอบคุณ" },
+    { "en": "Are there [[any]] good restaurants near the hotel?", "th": "ใกล้โรงแรมมีร้านอาหารดี ๆ บ้างไหม" },
+    { "en": "We didn't see [[many]] animals at the zoo because it was raining.", "th": "เราเห็นสัตว์ที่สวนสัตว์ไม่ค่อยเยอะ เพราะฝนตก" },
+    { "en": "[[How much]] homework do you have tonight?", "th": "คืนนี้เธอมีการบ้านเยอะแค่ไหน" },
+    { "en": "There isn't [[any]] milk left. I'll buy [[some]] after school.", "th": "นมหมดแล้ว เดี๋ยวฉันซื้อหลังเลิกเรียน" }
+  ],
+  "mistakes": [
+    { "wrong": "How many money do you need?", "right": "How much money do you need?", "whyTh": "money เป็นคำนามนับไม่ได้ ใช้ How much (How many ใช้กับคำนามนับได้พหูพจน์)" },
+    { "wrong": "I don't have some free time today.", "right": "I don't have any free time today.", "whyTh": "ประโยคปฏิเสธใช้ any ไม่ใช่ some" },
+    { "wrong": "There are much people in the shop.", "right": "There are a lot of people in the shop.", "whyTh": "people นับได้ (พหูพจน์) ใช้ much ไม่ได้ และในประโยคบอกเล่านิยม a lot of" },
+    { "wrong": "I have much homework.", "right": "I have a lot of homework.", "whyTh": "much ในประโยคบอกเล่าฟังแข็งและไม่เป็นธรรมชาติ ให้ใช้ a lot of" },
+    { "wrong": "There are a lot people here.", "right": "There are a lot of people here.", "whyTh": "a lot ต้องตามด้วย of ก่อนคำนาม (a lot of people)" }
+  ],
+  "compare": {
+    "title": "คำนามนับได้ vs นับไม่ได้: ใช้ quantifier อะไร",
+    "with": ["a2-countable-uncountable"],
+    "rows": [
+      { "label": "มาก (ปฏิเสธ/คำถาม)", "a": "นับได้: many (not many books)", "b": "นับไม่ได้: much (not much water)" },
+      { "label": "มาก (บอกเล่า)", "a": "นับได้: a lot of books", "b": "นับไม่ได้: a lot of water" },
+      { "label": "บ้าง / เลย", "a": "นับได้: some books / any books", "b": "นับไม่ได้: some water / any water" },
+      { "label": "ถามปริมาณ", "a": "How many books?", "b": "How much water?" }
+    ],
+    "tipTh": "a lot of, some, any ใช้ได้ทั้งสองแบบ — ต้องเลือกเฉพาะ many (นับได้) กับ much (นับไม่ได้) เท่านั้น"
+  },
+  "contexts": [
+    {
+      "kind": "message", "title": "Shopping list from Mum",
+      "lines": [
+        { "text": "Hi Tom, can you go shopping after school? We need [[some]] rice and [[a lot of]] onions for the curry. We don't need [[any]] milk — there's [[a lot]] in the fridge. Oh, and [[how many]] eggs are there? Thanks! Mum" }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "At a friend's house",
+      "lines": [
+        { "speaker": "Ann", "text": "Would you like [[some]] juice?" },
+        { "speaker": "Pim", "text": "Yes, please. Just a little. I don't drink [[much]] juice." },
+        { "speaker": "Ann", "text": "Are there [[any]] snacks you like? We have [[a lot of]] chips." },
+        { "speaker": "Pim", "text": "Chips are great, thanks! [[How much]] time do we have before the film?" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Quantifier", "th": "คำบอกปริมาณ วางหน้าคำนาม เช่น some, many, much" },
+    { "en": "Countable / Uncountable noun", "th": "คำนามนับได้ / นับไม่ได้ — ใช้เลือกระหว่าง many กับ much" },
+    { "en": "Offer / Request", "th": "การเสนอ / การขอ — ใช้ some แม้เป็นคำถาม" },
+    { "en": "Positive / Negative / Question", "th": "ประโยคบอกเล่า / ปฏิเสธ / คำถาม — ใช้เลือกระหว่าง some กับ any" }
+  ],
+  "practice": [
+    {
+      "id": "a2-quantifiers-01", "type": "mc", "difficulty": 1,
+      "question": "How ___ brothers and sisters do you have?",
+      "choices": ["much", "many", "many of", "a lot of"], "answer": 1,
+      "whyNot": { "0": "much ใช้กับคำนามนับไม่ได้ แต่ brothers and sisters นับได้", "2": "How many ตามด้วยคำนามได้เลย ไม่มี of", "3": "a lot of ใช้ในประโยคบอกเล่า ใช้ตั้งคำถามจำนวนกับ How ไม่ได้" },
+      "explainTh": "brothers and sisters เป็นคำนามนับได้พหูพจน์ → ถามจำนวนด้วย How many",
+      "structure": "How many + plural noun …?", "example": "How many brothers and sisters do you have?"
+    },
+    {
+      "id": "a2-quantifiers-02", "type": "mc", "difficulty": 1,
+      "question": "There isn't ___ sugar in my coffee.",
+      "choices": ["many", "some", "any", "a"], "answer": 2,
+      "whyNot": { "0": "sugar นับไม่ได้ ใช้ many ไม่ได้", "1": "ประโยคปฏิเสธ (isn't) ใช้ any ไม่ใช่ some", "3": "sugar นับไม่ได้ ใช้ a ไม่ได้" },
+      "explainTh": "ประโยคปฏิเสธ + คำนามนับไม่ได้ → any: There isn't any sugar.",
+      "structure": "There isn't + any + noun", "example": "There isn't any sugar in my coffee."
+    },
+    {
+      "id": "a2-quantifiers-03", "type": "fill", "difficulty": 1,
+      "question": "How ___ (much / many) money do you need for the trip?",
+      "accepted": ["much"],
+      "explainTh": "money เป็นคำนามนับไม่ได้ → How much",
+      "structure": "How much + uncountable noun …?", "example": "How much money do you need?"
+    },
+    {
+      "id": "a2-quantifiers-04", "type": "fill", "difficulty": 2,
+      "question": "We don't have ___ (some / any) eggs. Can you buy a box?",
+      "accepted": ["any"],
+      "explainTh": "ประโยคปฏิเสธ (don't have) ใช้ any",
+      "structure": "don't have + any + noun", "example": "We don't have any eggs."
+    },
+    {
+      "id": "a2-quantifiers-05", "type": "fill", "difficulty": 3,
+      "question": "Would you like ___ (some / any) tea? I've just made it.",
+      "accepted": ["some"],
+      "explainTh": "Would you like …? เป็นการเสนอ แม้เป็นประโยคคำถามก็ใช้ some (คาดว่าผู้ฟังจะตอบรับ)",
+      "structure": "Would you like + some + noun?", "example": "Would you like some tea?"
+    },
+    {
+      "id": "a2-quantifiers-06", "type": "order", "difficulty": 1,
+      "tokens": ["a", "lot", "of", "she", "drinks", "water"],
+      "accepted": ["She drinks a lot of water."],
+      "explainTh": "ประโยคบอกเล่าใช้ a lot of + คำนาม (ได้ทั้งนับได้และนับไม่ได้) → She drinks a lot of water."
+    },
+    {
+      "id": "a2-quantifiers-07", "type": "order", "difficulty": 2,
+      "tokens": ["much", "how", "does", "cost", "it"],
+      "accepted": ["How much does it cost?"],
+      "explainTh": "ถามราคาใช้ How much + does + it + cost? → How much does it cost?"
+    },
+    {
+      "id": "a2-quantifiers-08", "type": "error", "difficulty": 1,
+      "sentence": "How many money do you have?",
+      "errorPart": "many",
+      "accepted": ["How much money do you have?"],
+      "explainTh": "money นับไม่ได้ → How much (How many ใช้กับคำนามนับได้พหูพจน์)",
+      "structure": "How much + uncountable noun"
+    },
+    {
+      "id": "a2-quantifiers-09", "type": "error", "difficulty": 2,
+      "sentence": "I don't have some free time today.",
+      "errorPart": "some",
+      "accepted": ["I don't have any free time today.", "I don't have much free time today.", "I don't have free time today."],
+      "explainTh": "ประโยคปฏิเสธใช้ any (ไม่มีเลย) หรือ much (มีไม่มาก) ไม่ใช้ some",
+      "structure": "don't have + any + noun"
+    },
+    {
+      "id": "a2-quantifiers-10", "type": "error", "difficulty": 3,
+      "sentence": "There are much tourists in Phuket in December.",
+      "errorPart": "much",
+      "accepted": ["There are many tourists in Phuket in December.", "There are a lot of tourists in Phuket in December.", "There are lots of tourists in Phuket in December."],
+      "explainTh": "tourists นับได้พหูพจน์ ใช้ much ไม่ได้ → many / a lot of / lots of (ประโยคบอกเล่านิยม a lot of)",
+      "structure": "a lot of / many + plural noun"
+    },
+    {
+      "id": "a2-quantifiers-11", "type": "transform", "difficulty": 2,
+      "source": "I have some homework.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ ใช้ don't และ any",
+      "accepted": ["I don't have any homework."],
+      "explainTh": "ปฏิเสธ: don't have และเปลี่ยน some เป็น any → I don't have any homework."
+    },
+    {
+      "id": "a2-quantifiers-12", "type": "transform", "difficulty": 2,
+      "source": "There are some apples in the bag.",
+      "instruction": "เปลี่ยนเป็นคำถาม Yes/No ใช้ any",
+      "accepted": ["Are there any apples in the bag?"],
+      "explainTh": "คำถามทั่วไป: ย้าย are ไปหน้า there และเปลี่ยน some เป็น any → Are there any apples in the bag?"
+    },
+    {
+      "id": "a2-quantifiers-13", "type": "match", "difficulty": 3,
+      "prompt": "จับคู่คำถามกับคำตอบที่เหมาะสม",
+      "pairs": [
+        ["How many people are in your class?", "Thirty-five students."],
+        ["How much does this shirt cost?", "Two hundred baht."],
+        ["Is there any milk?", "Yes, there's some in the fridge."],
+        ["Would you like some cake?", "Yes, please. Just a small piece."],
+        ["How much homework do you have?", "Not much — just one exercise."]
+      ],
+      "explainTh": "How many ถามจำนวน (คน) · How much ถามราคาและปริมาณสิ่งที่นับไม่ได้ (homework) · Is there any …? ถามว่ามีไหม · Would you like some …? เป็นการเสนอ"
+    },
+    {
+      "id": "a2-quantifiers-14", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Let's make pancakes!" },
+        { "speaker": "B", "text": "Good idea. Can you go to the shop first? We haven't got ___ eggs." }
+      ] },
+      "choices": ["any", "some", "much", "a lot"], "answer": 0,
+      "whyNot": { "1": "ประโยคปฏิเสธ (haven't got) ใช้ any ไม่ใช่ some", "2": "eggs นับได้ ใช้ much ไม่ได้", "3": "a lot ต้องมี of ก่อนคำนาม (a lot of eggs)" },
+      "explainTh": "ปฏิเสธ + คำนามนับได้พหูพจน์ → We haven't got any eggs. (ไม่มีไข่เลย จึงต้องไปซื้อ)"
+    },
+    {
+      "id": "a2-quantifiers-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Message from Mum", "lines": [
+        { "text": "Hi Tom, can you go shopping after school? We need some rice and a lot of onions for the curry. We don't need any milk — there's a lot in the fridge. How many eggs are there? I think we need some. Thanks! Mum" }
+      ] },
+      "question": "What doesn't Tom need to buy?",
+      "choices": ["rice", "onions", "milk", "eggs"], "answer": 2,
+      "whyNot": { "0": "We need some rice = ต้องซื้อข้าว", "1": "We need a lot of onions = ต้องซื้อหัวหอมเยอะ", "3": "แม่คิดว่าต้องซื้อไข่ด้วย (I think we need some)" },
+      "explainTh": "\"We don't need any milk\" — ประโยคปฏิเสธ + any = ไม่ต้องซื้อนมเลย เพราะในตู้เย็นมีเยอะแล้ว"
+    },
+    {
+      "id": "a2-quantifiers-16", "type": "choose", "difficulty": 1,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I haven't got many money.", "I haven't got much money.", "I haven't got some money.", "I haven't got a money."], "answer": 1,
+      "whyNot": { "0": "money นับไม่ได้ ใช้ many ไม่ได้", "2": "ประโยคปฏิเสธใช้ any หรือ much ไม่ใช้ some", "3": "money นับไม่ได้ ใช้ a ไม่ได้" },
+      "explainTh": "ปฏิเสธ + คำนามนับไม่ได้ → much: I haven't got much money. (= มีเงินไม่มาก)"
+    },
+    {
+      "id": "a2-quantifiers-17", "type": "mc", "difficulty": 3,
+      "question": "There are ___ good restaurants near my house, so we often eat out.",
+      "choices": ["a lot of", "much", "any", "a little"], "answer": 0,
+      "whyNot": { "1": "restaurants นับได้พหูพจน์ ใช้ much ไม่ได้", "2": "ประโยคบอกเล่าไม่ใช้ any ในความหมาย \"บ้าง/เยอะ\"", "3": "a little ใช้กับคำนามนับไม่ได้ และแปลว่า \"นิดหน่อย\" ไม่เข้ากับ we often eat out" },
+      "explainTh": "ประโยคบอกเล่า + คำนามนับได้พหูพจน์ + ความหมาย \"เยอะ\" (เลยออกไปกินข้าวนอกบ้านบ่อย) → a lot of"
+    },
+    {
+      "id": "a2-quantifiers-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับห้องของคุณ ใช้ some, any, a lot of, much หรือ many (Write 3 sentences about your room.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(some|any|much|many|a lot of|lots of)\\b", "flags": "i", "msgTh": "ใช้คำบอกปริมาณอย่างน้อย 1 ครั้ง เช่น some, any, a lot of" },
+        { "re": "\\b(any|much|many)\\b", "flags": "i", "msgTh": "ใช้ any / much / many อย่างน้อย 1 ครั้ง (เช่น ในประโยคปฏิเสธ: There isn't any … / I don't have many …)" }
+      ],
+      "sample": "There are a lot of books on my desk. There isn't any food in my room. I don't have many posters on the wall.",
+      "explainTh": "บอกเล่าใช้ a lot of / some · ปฏิเสธใช้ any หรือ much (นับไม่ได้) / many (นับได้)"
+    }
+  ]
+}
