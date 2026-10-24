@@ -1,0 +1,214 @@
+{
+  "id": "a1-present-simple",
+  "summaryTh": "พูดถึงกิจวัตร นิสัย ความชอบ และความจริงทั่วไป",
+  "concept": {
+    "what": "Present Simple คือรูปกริยาที่ใช้พูดถึงสิ่งที่ทำเป็นประจำ สิ่งที่เป็นจริงเสมอ และความชอบหรือข้อมูลเกี่ยวกับตัวเรา เช่น I live in Bangkok. / She likes cats.",
+    "when": [
+      "กิจวัตรหรือสิ่งที่ทำซ้ำ ๆ มักมีคำว่า every day, every morning, on Mondays (I get up at six every day.)",
+      "ความจริงทั่วไปที่ไม่เปลี่ยน (Water boils at 100 °C. / The sun rises in the east.)",
+      "ความชอบ ความรู้สึก และข้อมูลส่วนตัว (I like noodles. / He works in a hotel.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"เขาชอบ\" \"ฉันชอบ\" เหมือนกันหมด แต่ภาษาอังกฤษต้องเติม -s ที่กริยาเมื่อประธานเป็น he / she / it (He likes) — จุดนี้คนไทยลืมบ่อยที่สุด และเวลาปฏิเสธหรือถามต้องใช้ do / does ช่วย"
+  },
+  "structure": {
+    "formula": "Subject + V1 (he / she / it + V1-s/es)",
+    "rows": [
+      { "label": "บอกเล่า I / you / we / they", "formula": "Subject + V1", "example": "We [[play]] football after school." },
+      { "label": "บอกเล่า he / she / it", "formula": "Subject + V1-s/es", "example": "My dad [[cooks]] dinner every day." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + don't / doesn't + V1", "example": "I [[don't like]] milk. · She [[doesn't like]] milk." },
+      { "label": "คำถาม (Question)", "formula": "Do / Does + Subject + V1 …?", "example": "[[Do]] you [[speak]] Thai? · [[Does]] he [[speak]] Thai?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + do/does. / No, Subject + don't/doesn't.", "example": "Yes, I [[do]]. · No, he [[doesn't]]." },
+      { "label": "คำถาม Wh-", "formula": "Wh- + do / does + Subject + V1 …?", "example": "Where [[does]] your sister [[work]]?" }
+    ],
+    "notes": [
+      "เติม -es เมื่อกริยาลงท้ายด้วย s, sh, ch, x, o: watch → watches, go → goes, do → does",
+      "พยัญชนะ + y เปลี่ยน y เป็น i แล้วเติม -es: study → studies · แต่สระ + y เติม -s ได้เลย: play → plays",
+      "have กับ he / she / it เปลี่ยนเป็น has (She has a bike.)",
+      "หลัง don't / doesn't / do / does ใช้กริยาช่องที่ 1 เสมอ ไม่เติม -s (Does she like …? ไม่ใช่ Does she likes …?)",
+      "ไม่ต้องใส่ am / is / are หน้ากริยา: I go to school. (ไม่ใช่ I am go to school.)"
+    ]
+  },
+  "examples": [
+    { "en": "I [[get up]] at six o'clock every day.", "th": "ฉันตื่นนอนตอนหกโมงทุกวัน" },
+    { "en": "My sister [[works]] in a hospital.", "th": "พี่สาวของฉันทำงานที่โรงพยาบาล" },
+    { "en": "He [[watches]] TV after dinner.", "th": "เขาดูทีวีหลังอาหารเย็น" },
+    { "en": "We [[don't eat]] meat on Fridays.", "th": "พวกเราไม่กินเนื้อสัตว์ในวันศุกร์" },
+    { "en": "She [[doesn't like]] coffee. She [[drinks]] tea.", "th": "เธอไม่ชอบกาแฟ เธอดื่มชา" },
+    { "en": "[[Do]] you [[live]] near the school? — Yes, I [[do]].", "th": "คุณอยู่ใกล้โรงเรียนไหม — ใช่ค่ะ" },
+    { "en": "[[Does]] your dad [[speak]] English? — No, he [[doesn't]].", "th": "พ่อของคุณพูดภาษาอังกฤษได้ไหม — ไม่ได้ครับ" },
+    { "en": "The shop [[opens]] at 9 a.m. and [[closes]] at 8 p.m.", "th": "ร้านเปิดเก้าโมงเช้าและปิดสองทุ่ม" },
+    { "en": "Water [[boils]] at 100 °C.", "th": "น้ำเดือดที่ 100 องศาเซลเซียส (ความจริงทั่วไป)" }
+  ],
+  "mistakes": [
+    { "wrong": "She like cats.", "right": "She likes cats.", "whyTh": "ประธาน she เป็นเอกพจน์บุรุษที่ 3 กริยาต้องเติม -s ภาษาไทยไม่มีการเปลี่ยนรูปกริยาแบบนี้ จึงลืมบ่อย" },
+    { "wrong": "He don't play football.", "right": "He doesn't play football.", "whyTh": "he / she / it ใช้ doesn't ส่วน I / you / we / they ใช้ don't" },
+    { "wrong": "Does she plays the piano?", "right": "Does she play the piano?", "whyTh": "does มี -s อยู่แล้ว กริยาหลักจึงกลับเป็นช่องที่ 1 (play)" },
+    { "wrong": "I am go to school every day.", "right": "I go to school every day.", "whyTh": "Present Simple ไม่ต้องมี am / is / are หน้ากริยา คนไทยมักใส่ is/am เพราะคิดว่าทุกประโยคต้องมี be" },
+    { "wrong": "My brother studys English.", "right": "My brother studies English.", "whyTh": "study ลงท้ายด้วยพยัญชนะ + y ต้องเปลี่ยน y เป็น i แล้วเติม -es → studies" },
+    { "wrong": "He haves a new bike.", "right": "He has a new bike.", "whyTh": "have เป็นกริยาพิเศษ ประธาน he / she / it ใช้ has" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "A new classmate",
+      "lines": [
+        { "speaker": "Fah", "text": "Hi! Where [[do]] you [[live]]?" },
+        { "speaker": "Leo", "text": "I [[live]] near the market. My mum [[has]] a small noodle shop there." },
+        { "speaker": "Fah", "text": "Cool! [[Do]] you [[help]] her?" },
+        { "speaker": "Leo", "text": "Yes, I [[do]]. I [[help]] her on Saturdays. She [[doesn't open]] the shop on Sundays." }
+      ]
+    },
+    {
+      "kind": "story", "title": "Grandpa's day",
+      "lines": [
+        { "text": "My grandpa [[gets up]] at five o'clock. He [[walks]] in the park and [[feeds]] the birds. He [[doesn't drink]] coffee — he [[drinks]] warm water. In the afternoon he [[reads]] the newspaper and [[sleeps]] for an hour." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Present Simple", "th": "ปัจจุบันกาลธรรมดา — ใช้กับกิจวัตรและความจริง" },
+    { "en": "Base form (V1)", "th": "กริยาช่องที่ 1 รูปปกติ ไม่เติมอะไร เช่น go, eat" },
+    { "en": "Third person singular", "th": "ประธานเอกพจน์บุรุษที่ 3 คือ he / she / it หรือคนเดียว/สิ่งเดียว เช่น my dad, the cat" },
+    { "en": "Auxiliary (do / does)", "th": "กริยาช่วย ใช้ตอนปฏิเสธและถาม" },
+    { "en": "Routine", "th": "กิจวัตร สิ่งที่ทำเป็นประจำ" }
+  ],
+  "practice": [
+    {
+      "id": "a1-present-simple-01", "type": "mc", "difficulty": 1,
+      "question": "My brother ___ football every Saturday.",
+      "choices": ["play", "plays", "playing", "is play"], "answer": 1,
+      "whyNot": { "0": "my brother = he ต้องเติม -s ที่กริยา", "2": "playing ใช้เดี่ยว ๆ เป็นกริยาหลักไม่ได้ ต้องมี be นำหน้า และ every Saturday บอกว่าเป็นกิจวัตร", "3": "Present Simple ไม่มี is หน้ากริยาช่องที่ 1" },
+      "explainTh": "every Saturday = ทำเป็นประจำ → Present Simple · ประธาน my brother (= he) กริยาเติม -s → plays",
+      "structure": "he / she / it + V1-s", "example": "My brother plays football every Saturday."
+    },
+    {
+      "id": "a1-present-simple-02", "type": "fill", "difficulty": 1,
+      "question": "Ann ___ (drink) milk every morning.",
+      "accepted": ["drinks"],
+      "explainTh": "every morning = กิจวัตร · Ann เป็นคนเดียว (= she) จึงเติม -s → drinks",
+      "structure": "he / she / it + V1-s", "example": "Ann drinks milk every morning."
+    },
+    {
+      "id": "a1-present-simple-03", "type": "fill", "difficulty": 2,
+      "question": "My uncle ___ (watch) the news every evening.",
+      "accepted": ["watches"],
+      "explainTh": "ประธาน my uncle (= he) และ every evening = กิจวัตร · watch ลงท้ายด้วย ch จึงเติม -es → watches",
+      "structure": "he / she / it + V1-es", "example": "My uncle watches the news every evening."
+    },
+    {
+      "id": "a1-present-simple-04", "type": "fill", "difficulty": 2,
+      "question": "My father ___ (not / drink) coffee. He drinks tea.",
+      "accepted": ["doesn't drink", "does not drink"],
+      "explainTh": "ประโยคถัดไป He drinks tea. บอกว่าเป็นนิสัยปัจจุบัน · ปฏิเสธกับ he ใช้ doesn't + V1 → doesn't drink (ไม่ใช่ doesn't drinks)",
+      "structure": "Subject + doesn't + V1", "example": "My father doesn't drink coffee."
+    },
+    {
+      "id": "a1-present-simple-05", "type": "error", "difficulty": 1,
+      "sentence": "She go to school by bus every day.",
+      "errorPart": "go",
+      "accepted": ["She goes to school by bus every day."],
+      "explainTh": "ประธาน she ต้องเติม -es ที่ go → goes (go ลงท้ายด้วย o จึงเติม -es)",
+      "structure": "she + V1-s/es"
+    },
+    {
+      "id": "a1-present-simple-06", "type": "error", "difficulty": 2,
+      "sentence": "Does he likes pizza?",
+      "errorPart": "likes",
+      "accepted": ["Does he like pizza?"],
+      "explainTh": "คำถามที่ขึ้นต้นด้วย Does ใช้กริยาช่องที่ 1 ไม่เติม -s เพราะ does มี -s แล้ว → Does he like pizza?",
+      "structure": "Does + Subject + V1?"
+    },
+    {
+      "id": "a1-present-simple-07", "type": "error", "difficulty": 2,
+      "sentence": "They doesn't eat meat.",
+      "errorPart": "doesn't",
+      "accepted": ["They don't eat meat."],
+      "explainTh": "they เป็นพหูพจน์ ใช้ don't (doesn't ใช้กับ he / she / it เท่านั้น)",
+      "structure": "I / you / we / they + don't + V1"
+    },
+    {
+      "id": "a1-present-simple-08", "type": "order", "difficulty": 1,
+      "tokens": ["doesn't", "he", "milk", "like"],
+      "accepted": ["He doesn't like milk."],
+      "explainTh": "ปฏิเสธ: Subject + doesn't + V1 + กรรม → He doesn't like milk."
+    },
+    {
+      "id": "a1-present-simple-09", "type": "order", "difficulty": 2,
+      "tokens": ["does", "your", "where", "work", "mother"],
+      "accepted": ["Where does your mother work?"],
+      "explainTh": "คำถาม Wh-: Wh- + does + Subject + V1 → Where does your mother work?"
+    },
+    {
+      "id": "a1-present-simple-10", "type": "transform", "difficulty": 2,
+      "source": "I play the guitar.",
+      "instruction": "เขียนใหม่โดยเปลี่ยนประธานเป็น My sister",
+      "accepted": ["My sister plays the guitar."],
+      "explainTh": "my sister = she กริยาต้องเติม -s → plays (play ลงท้ายด้วยสระ + y จึงเติม -s ได้เลย)"
+    },
+    {
+      "id": "a1-present-simple-11", "type": "transform", "difficulty": 3,
+      "source": "Tom eats rice for lunch.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ (Negative)",
+      "accepted": ["Tom doesn't eat rice for lunch.", "Tom does not eat rice for lunch."],
+      "explainTh": "ปฏิเสธกับประธานเอกพจน์: doesn't + V1 · eats กลับเป็น eat เพราะ -s ย้ายไปอยู่ที่ does แล้ว"
+    },
+    {
+      "id": "a1-present-simple-12", "type": "transform", "difficulty": 3,
+      "source": "She speaks Thai.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": ["Does she speak Thai?"],
+      "explainTh": "คำถาม: Does + Subject + V1 → speaks กลับเป็น speak"
+    },
+    {
+      "id": "a1-present-simple-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูปที่ใช้กับ he / she / it",
+      "pairs": [["go", "goes"], ["watch", "watches"], ["study", "studies"], ["play", "plays"], ["have", "has"]],
+      "explainTh": "กฎการเติม -s: o/ch → -es (goes, watches) · พยัญชนะ + y → -ies (studies) · สระ + y → -s (plays) · have → has"
+    },
+    {
+      "id": "a1-present-simple-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["My cat sleep on the sofa.", "My cat sleeps on the sofa.", "My cat is sleep on the sofa.", "My cat sleepes on the sofa."], "answer": 1,
+      "whyNot": { "0": "my cat = it ต้องเติม -s → sleeps", "2": "ไม่ใช้ is หน้ากริยาช่องที่ 1 (ถ้าจะใช้ is ต้องเป็น is sleeping ซึ่งหมายถึงกำลังนอนตอนนี้)", "3": "sleep ไม่ได้ลงท้ายด้วย s, sh, ch, x, o จึงเติมแค่ -s ไม่ใช่ -es" },
+      "explainTh": "ประธานเป็นสัตว์ตัวเดียว (= it) → V1 + s → My cat sleeps on the sofa."
+    },
+    {
+      "id": "a1-present-simple-15", "type": "dialogue", "difficulty": 1,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "___ you like ice cream?" },
+        { "speaker": "B", "text": "Yes, I do. I love chocolate ice cream!" }
+      ] },
+      "choices": ["Do", "Does", "Are", "Is"], "answer": 0,
+      "whyNot": { "1": "Does ใช้กับ he / she / it แต่ประธานคือ you", "2": "Are you … ใช้กับคำคุณศัพท์หรือ V-ing ไม่ใช้กับกริยาช่องที่ 1 อย่าง like", "3": "Is ใช้กับ he / she / it และไม่ใช้กับกริยาช่องที่ 1" },
+      "explainTh": "ถามเรื่องความชอบด้วย Present Simple: Do + you + V1? และคำตอบ Yes, I do. ก็ยืนยันว่าต้องใช้ Do"
+    },
+    {
+      "id": "a1-present-simple-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "story", "title": "Nida's day", "lines": [
+        { "text": "Nida is a student. She gets up at six. She doesn't eat breakfast at home — she buys a sandwich near school. After school, she plays badminton with her friends. She does her homework after dinner." }
+      ] },
+      "question": "What does Nida do after school?",
+      "choices": ["She plays badminton.", "She buys a sandwich.", "She does her homework.", "She eats breakfast at home."], "answer": 0,
+      "whyNot": { "1": "ซื้อแซนด์วิชคือตอนเช้าก่อนเข้าเรียน", "2": "ทำการบ้านคือหลังอาหารเย็น (after dinner) ไม่ใช่หลังเลิกเรียน", "3": "เรื่องบอกว่า She doesn't eat breakfast at home. — เธอไม่กินข้าวเช้าที่บ้าน" },
+      "explainTh": "ประโยค After school, she plays badminton … — plays เป็น Present Simple บอกกิจวัตรหลังเลิกเรียน คำถามใช้ does + V1 (do) และคำตอบใช้ V1-s (plays)"
+    },
+    {
+      "id": "a1-present-simple-17", "type": "mc", "difficulty": 3,
+      "question": "___ your brother ___ in a bank?",
+      "choices": ["Does / work", "Do / works", "Does / works", "Is / work"], "answer": 0,
+      "whyNot": { "1": "your brother = he ต้องใช้ Does ไม่ใช่ Do และกริยาหลังต้องไม่มี -s", "2": "เมื่อใช้ Does แล้ว กริยาหลักต้องเป็นช่องที่ 1 (work) ไม่เติม -s ซ้ำ", "3": "Is ใช้กับ V-ing หรือคำคุณศัพท์ (Is he working …?) ไม่ใช้กับกริยาช่องที่ 1" },
+      "explainTh": "คำถาม Present Simple กับประธานเอกพจน์: Does + Subject + V1 → Does your brother work in a bank?",
+      "structure": "Does + Subject + V1?", "example": "Does your brother work in a bank?"
+    },
+    {
+      "id": "a1-present-simple-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่ากิจวัตรของคนในครอบครัวหรือเพื่อน 1 คน (Write 3 sentences about the daily routine of one family member or friend.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(he|she|my (mother|father|mum|mom|dad|sister|brother|friend|best friend|grandma|grandpa|grandmother|grandfather|aunt|uncle|cousin|teacher))\\s+(?:(?:always|usually|often|sometimes|never|also|normally)\\s+)?(?!is\\b|was\\b)(doesn't\\s+[a-z]+|[a-z]+(s|es))\\b", "flags": "i", "msgTh": "ใช้ประธาน he / she หรือ my … แล้วตามด้วยกริยาเติม -s เช่น She gets up …, My dad works …" },
+        { "re": "\\b(every|on (mondays?|tuesdays?|wednesdays?|thursdays?|fridays?|saturdays?|sundays?|weekends?)|at (the weekend|night|noon|\\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)|in the (morning|afternoon|evening)|after (school|work|dinner|lunch|breakfast)|before (school|work|bed|dinner|lunch|breakfast))\\b", "flags": "i", "msgTh": "ใส่คำบอกเวลาของกิจวัตรอย่างน้อย 1 ครั้ง เช่น every day, in the morning, at 7" }
+      ],
+      "sample": "My sister gets up at six every day. She goes to school by bus. In the evening she watches TV and does her homework.",
+      "explainTh": "กิจวัตรใช้ Present Simple · ประธาน he / she / my sister กริยาต้องเติม -s/-es (gets, goes, watches, does)"
+    }
+  ]
+}

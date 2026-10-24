@@ -1,0 +1,513 @@
+{
+  "id": "b2-reduced-relatives",
+  "summaryTh": "ตัด who / which / that (+ be) ออก ให้ประโยคขยายคำนามสั้นและกระชับขึ้น",
+  "concept": {
+    "what": "Reduced relative clause คือ relative clause (who / which / that …) ที่ถูกตัดให้สั้นลง โดยเหลือแค่กริยารูป V-ing, V3 หรือ to + V1 วางไว้หลังคำนามทันที เช่น the man (who is) sitting there → the man sitting there",
+    "when": [
+      "ความหมายเป็นผู้ทำ (active) ใช้ V-ing: the girl (who is) talking to Ms Lee → the girl talking to Ms Lee",
+      "ความหมายเป็นผู้ถูกกระทำ (passive) ใช้ V3: the book (which was) written by him → the book written by him",
+      "หลัง the first / the last / the only / the next ใช้ to + V1: the first person to arrive",
+      "ตัด who/which + be ออกหน้าบุพบทวลีได้: the keys (that are) on the table → the keys on the table",
+      "ใช้มากในข่าว ประกาศ รายงาน และงานเขียน เพราะสั้นและเป็นทางการกว่า"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"ที่\" ทุกครั้ง (ผู้ชายที่นั่งอยู่ตรงนั้น) ผู้เรียนไทยจึงมักเขียน who + V-ing (the man who sitting) ซึ่งผิด — ต้องเลือกว่าจะเขียนเต็ม (who is sitting) หรือตัดทั้ง who และ is ออก และต้องเลือก V-ing / V3 ให้ตรงกับความหมาย active / passive"
+  },
+  "structure": {
+    "formula": "Noun + V-ing / V3 / to + V1 …",
+    "rows": [
+      {
+        "label": "Active → V-ing",
+        "formula": "Noun + (who/which/that + be) + V-ing",
+        "example": "The man [[sitting]] by the window is my uncle."
+      },
+      {
+        "label": "Active (กริยาอื่น) → V-ing",
+        "formula": "Noun + (who live / which connects …) → V-ing",
+        "example": "People [[living]] near the river were told to leave."
+      },
+      {
+        "label": "Passive → V3",
+        "formula": "Noun + (who/which/that + be) + V3",
+        "example": "The photos [[taken]] at the wedding are beautiful."
+      },
+      {
+        "label": "Prepositional phrase",
+        "formula": "Noun + (that + be) + บุพบทวลี",
+        "example": "The bag [[on the chair]] is mine."
+      },
+      {
+        "label": "หลัง first / last / only",
+        "formula": "the first / last / only + Noun + to + V1",
+        "example": "She was the first student [[to finish]] the test."
+      }
+    ],
+    "notes": [
+      "ลดรูปได้เมื่อ who / which / that เป็น \"ประธาน\" ของ clause เท่านั้น (the book that I bought → ตัด that ได้ แต่เป็นอีกกฎหนึ่ง ไม่ใช่การลดรูปแบบนี้)",
+      "ห้ามเหลือ who / which ไว้แล้วตามด้วย V-ing หรือ V3 เฉย ๆ: the man who sitting ✗ → the man sitting ✓ / the man who is sitting ✓",
+      "V-ing = คำนามเป็นผู้ทำ · V3 = คำนามถูกกระทำ (the book written by … ไม่ใช่ the book writing by …)",
+      "เหตุการณ์เดียวที่จบแล้วในอดีต ไม่ควรลดเป็น V-ing: the man who stole my bike ✓ (ไม่ใช่ the man stealing my bike)",
+      "ใช้กับ non-defining (มีจุลภาค) ได้ด้วย: The bridge, built in 1932, is still in use."
+    ]
+  },
+  "examples": [
+    {
+      "en": "The man [[sitting]] next to the window is my uncle.",
+      "th": "ผู้ชายที่นั่งอยู่ข้างหน้าต่างเป็นลุงของฉัน"
+    },
+    {
+      "en": "Most of the vegetables [[sold]] in this market come from local farms.",
+      "th": "ผักส่วนใหญ่ที่ขายในตลาดนี้มาจากฟาร์มในท้องถิ่น"
+    },
+    {
+      "en": "Students [[wishing]] to join the trip must sign up by Friday.",
+      "th": "นักเรียนที่ต้องการไปทัศนศึกษาต้องลงชื่อภายในวันศุกร์"
+    },
+    {
+      "en": "The photos [[posted]] on her page got thousands of likes.",
+      "th": "รูปที่โพสต์บนเพจของเธอได้ไลก์เป็นพัน"
+    },
+    {
+      "en": "Anyone [[caught]] cheating will fail the exam.",
+      "th": "ใครก็ตามที่ถูกจับได้ว่าโกงจะสอบตก"
+    },
+    {
+      "en": "The bridge, [[built]] in 1932, is still in use today.",
+      "th": "สะพานนี้ ซึ่งสร้างเมื่อปี 1932 ยังใช้งานอยู่จนถึงทุกวันนี้"
+    },
+    {
+      "en": "She was the first woman in her village [[to go]] to university.",
+      "th": "เธอเป็นผู้หญิงคนแรกในหมู่บ้านที่ได้เข้ามหาวิทยาลัย"
+    },
+    {
+      "en": "The bag [[on the chair]] is mine.",
+      "th": "กระเป๋าที่อยู่บนเก้าอี้เป็นของฉัน"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The man who sitting there is my boss.",
+      "right": "The man sitting there is my boss.",
+      "whyTh": "ถ้าเก็บ who ไว้ต้องมี is ด้วย (who is sitting) — ถ้าจะลดรูปต้องตัดทั้ง who และ is ออก ภาษาไทยพูดว่า \"ที่นั่ง\" จึงชอบเหลือ who ไว้"
+    },
+    {
+      "wrong": "The poem writing by Sunthorn Phu is very famous.",
+      "right": "The poem written by Sunthorn Phu is very famous.",
+      "whyTh": "กลอนถูกเขียน (passive) ต้องใช้ V3 written ไม่ใช่ V-ing"
+    },
+    {
+      "wrong": "The people live next door are very friendly.",
+      "right": "The people living next door are very friendly.",
+      "whyTh": "ประโยคมีกริยาหลักคือ are แล้ว ส่วนขยายจึงต้องเป็น living (หรือ who live) — ใส่กริยาแท้ live ซ้อนไม่ได้"
+    },
+    {
+      "wrong": "The documents were sent yesterday are missing.",
+      "right": "The documents sent yesterday are missing.",
+      "whyTh": "ลดรูปจาก which were sent ต้องตัด were ออกด้วย ไม่อย่างนั้นจะมีกริยาแท้สองตัว (were … are)"
+    },
+    {
+      "wrong": "The man stealing my bike was arrested.",
+      "right": "The man who stole my bike was arrested.",
+      "whyTh": "การขโมยเป็นเหตุการณ์เดียวที่จบแล้ว ใช้ V-ing ไม่เหมาะ (V-ing ฟังเหมือนกำลังขโมยอยู่) ต้องเขียน clause เต็ม who stole"
+    }
+  ],
+  "compare": {
+    "title": "Relative clause แบบเต็ม vs แบบลดรูป",
+    "with": [
+      "b1-relative-clauses"
+    ],
+    "rows": [
+      {
+        "label": "รูปแบบ",
+        "a": "Noun + who/which/that + กริยาแท้",
+        "b": "Noun + V-ing / V3 / to + V1 (ไม่มี who/which และไม่มี be)"
+      },
+      {
+        "label": "Active",
+        "a": "the girl who is talking to Ms Lee",
+        "b": "the girl talking to Ms Lee"
+      },
+      {
+        "label": "Passive",
+        "a": "the cars which were made in Japan",
+        "b": "the cars made in Japan"
+      },
+      {
+        "label": "ลดรูปได้เมื่อ",
+        "a": "ใช้ได้ทุกกรณี",
+        "b": "who/which/that เป็นประธานของ clause เท่านั้น"
+      },
+      {
+        "label": "น้ำเสียง",
+        "a": "ชัดเจน ใช้ทั่วไป",
+        "b": "กระชับ ใช้มากในข่าว ประกาศ งานเขียน"
+      }
+    ],
+    "tipTh": "ลองเติม who is / which was กลับเข้าไป ถ้าได้ประโยคที่ถูก แปลว่าการลดรูปถูกต้อง — และถ้าคำนามถูกกระทำให้ใช้ V3"
+  },
+  "contexts": [
+    {
+      "kind": "announcement",
+      "title": "School library notice",
+      "lines": [
+        {
+          "text": "Notice to all students: Books [[borrowed]] before 1 June must be returned by Friday. Students [[wishing]] to borrow more than five books need a teacher's signature. Bags [[left]] in the reading room after 6 p.m. will be taken to the front desk."
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "Local news post",
+      "lines": [
+        {
+          "text": "The old cinema [[built]] in 1965 on Charoen Road will reopen next month as a community art centre. Residents [[living]] in the area say they are excited. The first event, a photo exhibition [[organised]] by local students, starts on 5 May."
+        }
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "At a party",
+      "lines": [
+        {
+          "speaker": "Fon",
+          "text": "Who's the guy [[standing]] next to the speakers?"
+        },
+        {
+          "speaker": "Jay",
+          "text": "That's Leo, the DJ. He was the only person [[to bring]] music, so he's in charge!"
+        },
+        {
+          "speaker": "Fon",
+          "text": "And the cake [[on the table]]? It looks amazing."
+        },
+        {
+          "speaker": "Jay",
+          "text": "It was made by Leo's sister. Everything [[made]] by her disappears in minutes."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Relative clause",
+      "th": "ส่วนขยายคำนามที่ขึ้นต้นด้วย who / which / that (คล้าย \"ที่ …\" ในภาษาไทย)"
+    },
+    {
+      "en": "Reduced relative clause",
+      "th": "relative clause แบบตัดให้สั้น เหลือแค่ V-ing / V3 / to + V1"
+    },
+    {
+      "en": "Present participle (V-ing)",
+      "th": "กริยาเติม -ing ใช้เมื่อคำนามเป็นผู้ทำ"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ใช้เมื่อคำนามถูกกระทำ"
+    },
+    {
+      "en": "Defining / Non-defining",
+      "th": "ส่วนขยายที่จำเป็นต่อความหมาย / ส่วนขยายข้อมูลเสริมที่มีจุลภาคคั่น"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-reduced-relatives-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The girl ___ to Ms Lee is the new student.",
+      "choices": [
+        "talking",
+        "talked",
+        "who talking",
+        "talks"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "talked เป็น V3 ความหมายถูกกระทำ (ถูกพูด) ไม่เข้ากับเด็กผู้หญิงที่เป็นคนพูด",
+        "2": "ถ้าเก็บ who ไว้ต้องมี is ด้วย (who is talking)",
+        "3": "talks เป็นกริยาแท้ ประโยคมี is เป็นกริยาหลักแล้ว ใส่กริยาแท้ซ้อนไม่ได้"
+      },
+      "explainTh": "เด็กผู้หญิงเป็นผู้ทำ (กำลังคุย) → ลดรูปจาก who is talking เหลือ talking",
+      "structure": "Noun + V-ing",
+      "example": "The girl talking to Ms Lee is the new student."
+    },
+    {
+      "id": "b2-reduced-relatives-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "All the cakes ___ at this bakery are made by hand.",
+      "choices": [
+        "selling",
+        "sold",
+        "sell",
+        "are sold"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "เค้กไม่ได้ขายของเอง เค้กถูกขาย จึงใช้ V-ing ไม่ได้",
+        "2": "sell เป็นกริยาแท้ แต่ประโยคมี are made เป็นกริยาหลักแล้ว",
+        "3": "are sold เป็นกริยาแท้ จะทำให้มีกริยาสองตัว (are sold … are made) ต้องตัด are ออก"
+      },
+      "explainTh": "เค้กถูกขาย (passive) → ลดรูปจาก which are sold เหลือ V3: sold",
+      "structure": "Noun + V3",
+      "example": "All the cakes sold at this bakery are made by hand."
+    },
+    {
+      "id": "b2-reduced-relatives-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "The letter ___ by my grandfather is over fifty years old. (write — ลดรูป ใช้คำเดียว)",
+      "accepted": [
+        "written"
+      ],
+      "explainTh": "จดหมายถูกเขียน (passive) → which was written → written (V3 ของ write)",
+      "structure": "Noun + V3 + by …",
+      "example": "The letter written by my grandfather is over fifty years old."
+    },
+    {
+      "id": "b2-reduced-relatives-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Passengers ___ to Chiang Mai should go to Gate 5. (travel — ลดรูป ใช้คำเดียว)",
+      "accepted": [
+        "travelling",
+        "traveling"
+      ],
+      "explainTh": "ผู้โดยสารเป็นผู้เดินทาง (active) → who are travelling → travelling (BrE: travelling · AmE: traveling)",
+      "structure": "Noun + V-ing",
+      "example": "Passengers travelling to Chiang Mai should go to Gate 5."
+    },
+    {
+      "id": "b2-reduced-relatives-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "The woman who standing at the door is our new manager.",
+      "errorPart": "who standing",
+      "accepted": [
+        "The woman standing at the door is our new manager.",
+        "The woman who is standing at the door is our new manager.",
+        "The woman that is standing at the door is our new manager."
+      ],
+      "explainTh": "who + V-ing เฉย ๆ ไม่ได้ — ตัดทั้ง who และ is (standing) หรือเขียนเต็ม who is standing",
+      "structure": "Noun + V-ing / Noun + who is + V-ing"
+    },
+    {
+      "id": "b2-reduced-relatives-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Most of the houses destroying in the flood have been rebuilt.",
+      "errorPart": "destroying",
+      "accepted": [
+        "Most of the houses destroyed in the flood have been rebuilt.",
+        "Most of the houses which were destroyed in the flood have been rebuilt.",
+        "Most of the houses that were destroyed in the flood have been rebuilt."
+      ],
+      "explainTh": "บ้านถูกน้ำท่วมทำลาย (passive) → ใช้ V3 destroyed ไม่ใช่ destroying",
+      "structure": "Noun + V3"
+    },
+    {
+      "id": "b2-reduced-relatives-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "the",
+        "students",
+        "chosen",
+        "for",
+        "the",
+        "team",
+        "must",
+        "attend",
+        "every",
+        "training",
+        "session"
+      ],
+      "accepted": [
+        "The students chosen for the team must attend every training session."
+      ],
+      "explainTh": "chosen for the team ขยาย the students (ถูกเลือก → V3) วางหลังคำนามทันที แล้วจึงตามด้วยกริยาหลัก must attend"
+    },
+    {
+      "id": "b2-reduced-relatives-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "The man who is waiting outside wants to see you.",
+      "instruction": "ลดรูป relative clause (ตัด who is ออก)",
+      "accepted": [
+        "The man waiting outside wants to see you."
+      ],
+      "explainTh": "who is waiting (active) → waiting วางหลัง the man ได้ทันที"
+    },
+    {
+      "id": "b2-reduced-relatives-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Anyone who wants to join the club should email Mr Tan.",
+      "instruction": "ลดรูป relative clause โดยใช้ V-ing",
+      "accepted": [
+        "Anyone wanting to join the club should email Mr Tan."
+      ],
+      "explainTh": "who wants (กริยาอื่นที่ไม่ใช่ be ก็ลดรูปได้) → wanting — ใช้บ่อยในประกาศ เช่น anyone wanting / wishing to …"
+    },
+    {
+      "id": "b2-reduced-relatives-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ relative clause แบบเต็มกับแบบลดรูป",
+      "pairs": [
+        [
+          "the boy who is playing the guitar",
+          "the boy playing the guitar"
+        ],
+        [
+          "the songs which were written by her",
+          "the songs written by her"
+        ],
+        [
+          "the cups that are on the shelf",
+          "the cups on the shelf"
+        ],
+        [
+          "the first person who arrived",
+          "the first person to arrive"
+        ],
+        [
+          "people who live near the river",
+          "people living near the river"
+        ]
+      ],
+      "explainTh": "active → V-ing · passive → V3 · be + บุพบทวลี → ตัด that are · หลัง the first → to + V1"
+    },
+    {
+      "id": "b2-reduced-relatives-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "The car parking outside belongs to my neighbour.",
+        "The car parked outside belongs to my neighbour.",
+        "The car is parked outside belongs to my neighbour.",
+        "The car who parked outside belongs to my neighbour."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "รถไม่ได้จอดตัวเอง รถถูกจอด จึงต้องใช้ V3 parked",
+        "2": "is parked เป็นกริยาแท้ ทำให้มีกริยาสองตัว (is parked … belongs)",
+        "3": "who ใช้กับคน และถ้าใช้ which ก็ต้องเป็น which is parked"
+      },
+      "explainTh": "รถถูกจอด (passive) → which is parked → parked วางหลัง the car"
+    },
+    {
+      "id": "b2-reduced-relatives-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Which one is your sister?"
+          },
+          {
+            "speaker": "B",
+            "text": "She's the girl ___ a red dress, next to the cake."
+          }
+        ]
+      },
+      "choices": [
+        "wearing",
+        "worn",
+        "wears",
+        "who wearing"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "worn เป็น V3 ความหมายถูกสวม แต่เด็กผู้หญิงเป็นคนสวม",
+        "2": "wears เป็นกริยาแท้ ประโยคมี is ('s) เป็นกริยาหลักแล้ว",
+        "3": "ถ้าเก็บ who ไว้ต้องเป็น who is wearing"
+      },
+      "explainTh": "เด็กผู้หญิงเป็นผู้สวม (active) → who is wearing → wearing"
+    },
+    {
+      "id": "b2-reduced-relatives-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "announcement",
+        "title": "Library notice",
+        "lines": [
+          {
+            "text": "Notice to all students: Books borrowed before 1 June must be returned by Friday. Students wishing to borrow more than five books need a teacher's signature. Items left in the reading room after 6 p.m. will be taken to the front desk."
+          }
+        ]
+      },
+      "question": "In the notice, \"Items left in the reading room\" means:",
+      "choices": [
+        "items that were left in the reading room",
+        "items that are leaving the reading room",
+        "items that left the reading room by themselves",
+        "items that will leave the reading room"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "แบบนี้ต้องใช้ V-ing (leaving) และของไม่ได้เดินออกไปเอง",
+        "2": "left ในที่นี้เป็น V3 (ถูกทิ้งไว้) ไม่ใช่ V2 ที่ของเป็นผู้ทำ",
+        "3": "left ไม่ได้บอกอนาคต และของไม่ใช่ผู้ทำ"
+      },
+      "explainTh": "left เป็น V3 ของ leave ลดรูปจาก items which were/are left → ของที่ถูกทิ้งไว้ (passive)"
+    },
+    {
+      "id": "b2-reduced-relatives-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Neil Armstrong was the first person ___ on the moon.",
+      "choices": [
+        "to walk",
+        "walking",
+        "walked",
+        "who walking"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง the first / the last / the only ไม่ใช้ V-ing ลดรูป ต้องใช้ to + V1",
+        "2": "walked เป็นกริยาแท้หรือ V3 ประโยคมี was เป็นกริยาหลักแล้ว",
+        "3": "who ต้องตามด้วยกริยาแท้ (who walked) ไม่ใช่ V-ing"
+      },
+      "explainTh": "the first / the last / the only + Noun + to + V1 → the first person to walk on the moon"
+    },
+    {
+      "id": "b2-reduced-relatives-15",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "The thief stealing the paintings last year has finally been caught.",
+      "errorPart": "stealing",
+      "accepted": [
+        "The thief who stole the paintings last year has finally been caught.",
+        "The thief that stole the paintings last year has finally been caught."
+      ],
+      "explainTh": "การขโมยเป็นเหตุการณ์เดียวที่จบแล้วในอดีต (last year) จึงลดรูปเป็น V-ing ไม่ได้ ต้องเขียนเต็ม who stole"
+    },
+    {
+      "id": "b2-reduced-relatives-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคบรรยายคนหรือสิ่งของรอบตัวคุณ (ห้องเรียน ที่ทำงาน บ้าน) ใช้ relative clause แบบลดรูปอย่างน้อย 2 ครั้ง เช่น the girl sitting next to me, the books kept in … (Write 3 sentences describing people or things around you using reduced relative clauses.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(?!(?:is|are|was|were|am|be|been|being|has|have|had|will|would|can|could|should|must|might|may|do|does|did|not|i|you|he|she|it|we|they|keep|keeps|kept|like|likes|liked|love|loves|loved|enjoy|enjoys|enjoyed|start|starts|started|stop|stops|stopped|finish|finished|go|goes|went|get|got|gets|also|always|never|still|just|really|very|so|and|but|or|of|for|to|in|on|at|by|about|from|with|the|a|an|my|your|his|her|our|their|this|that|these|those|some|every|each|no|any|who|which|feel|feels|felt|look|looks|looked|seem|seems|seemed|become|became|quite|too|more|most|while|when|after|before)\\b)[a-z]+\\s+(?!(?:morning|evening|building|thing|something|nothing|everything|anything|king|ring|spring|ceiling|wedding|meeting|painting|clothing|during|interesting|boring|amazing|exciting|sing|bring|swing|string|wing|red|bed|need|speed|seed|feed|shed|hundred|garden|children|kitchen|women|men|often|seven|eleven|chicken|golden|open|even|ten|then|when|than)\\b)(\\w+ing|\\w{2,}(?:ed|en|wn|pt|lt|ght|ld|ne|de)|made|kept|left|sold|built|cut|put|bought|found|held|sent|set|shown|seen|done|worn|grown|known)\\b[\\s\\S]*?\\b(?!(?:is|are|was|were|am|be|been|being|has|have|had|will|would|can|could|should|must|might|may|do|does|did|not|i|you|he|she|it|we|they|keep|keeps|kept|like|likes|liked|love|loves|loved|enjoy|enjoys|enjoyed|start|starts|started|stop|stops|stopped|finish|finished|go|goes|went|get|got|gets|also|always|never|still|just|really|very|so|and|but|or|of|for|to|in|on|at|by|about|from|with|the|a|an|my|your|his|her|our|their|this|that|these|those|some|every|each|no|any|who|which|feel|feels|felt|look|looks|looked|seem|seems|seemed|become|became|quite|too|more|most|while|when|after|before)\\b)[a-z]+\\s+(?!(?:morning|evening|building|thing|something|nothing|everything|anything|king|ring|spring|ceiling|wedding|meeting|painting|clothing|during|interesting|boring|amazing|exciting|sing|bring|swing|string|wing|red|bed|need|speed|seed|feed|shed|hundred|garden|children|kitchen|women|men|often|seven|eleven|chicken|golden|open|even|ten|then|when|than)\\b)(\\w+ing|\\w{2,}(?:ed|en|wn|pt|lt|ght|ld|ne|de)|made|kept|left|sold|built|cut|put|bought|found|held|sent|set|shown|seen|done|worn|grown|known)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ V-ing หรือ V3 วางหลังคำนามเพื่อขยายคำนาม อย่างน้อย 2 ครั้ง เช่น the man standing at the door, the books written by …"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\b(who|which)\\s+\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "who / which + V-ing ไม่ได้ — ตัด who ออกทั้งหมด (the man standing) หรือเขียนเต็ม (the man who is standing)"
+        }
+      ],
+      "sample": "The girl sitting next to me is my best friend. The books kept in the cupboard belong to our teacher. The man standing at the door is the school guard.",
+      "explainTh": "ส่วนขยายต้องอยู่หลังคำนามทันที ใช้ V-ing เมื่อคำนามเป็นผู้ทำ และ V3 เมื่อคำนามถูกกระทำ — อย่าลืมกริยาหลักของประโยค (is / belong)"
+    }
+  ]
+}

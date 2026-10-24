@@ -1,0 +1,483 @@
+{
+  "id": "b2-causative",
+  "summaryTh": "บอกว่าให้คนอื่นทำอะไรให้เรา: have/get something done, have someone do, get someone to do",
+  "concept": {
+    "what": "Causative คือโครงสร้างที่บอกว่า \"เราไม่ได้ทำเอง แต่ให้คนอื่นทำให้\" เช่น ไปตัดผมที่ร้าน ส่งรถเข้าอู่ หรือขอให้เพื่อนช่วย โดยใช้ have/get + สิ่งของ + V3 หรือ have + คน + V1 / get + คน + to + V1",
+    "when": [
+      "บริการที่เราจ้างหรือให้ผู้เชี่ยวชาญทำ (I had my hair cut. / We're getting the car serviced.)",
+      "สั่งหรือมอบหมายงานให้คนอื่น (The manager had his assistant book the hotel.)",
+      "โน้มน้าว ขอร้อง ให้ใครทำอะไร (I got my sister to lend me her laptop.)",
+      "เรื่องไม่ดีที่เกิดกับเรา โดยเราไม่ได้ตั้งใจ (He had his wallet stolen.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ฉันตัดผมมา\" ทั้งที่ช่างเป็นคนตัด ถ้าแปลตรง ๆ ว่า I cut my hair คนฟังจะเข้าใจว่าคุณตัดเอง ต้องใช้ I had my hair cut เพื่อบอกว่าคนอื่นทำให้"
+  },
+  "structure": {
+    "formula": "have / get + object + V3",
+    "rows": [
+      {
+        "label": "บริการ (สิ่งของถูกทำ)",
+        "formula": "Subject + have/get + object + V3",
+        "example": "I [[had]] my phone screen [[replaced]] last week."
+      },
+      {
+        "label": "ทุก tense ได้ (เปลี่ยนที่ have/get)",
+        "formula": "am having / have had / will get / need to have … + object + V3",
+        "example": "We [[are having]] our kitchen [[redecorated]]."
+      },
+      {
+        "label": "ให้คนทำ (have)",
+        "formula": "Subject + have + person + V1",
+        "example": "The teacher [[had]] us [[read]] the story aloud."
+      },
+      {
+        "label": "โน้มน้าวให้คนทำ (get)",
+        "formula": "Subject + get + person + to + V1",
+        "example": "I finally [[got]] my dad [[to buy]] a new laptop."
+      },
+      {
+        "label": "ปฏิเสธ / คำถาม",
+        "formula": "didn't have … V3 · Where do you get … V3?",
+        "example": "Where [[do]] you [[get]] your nails [[done]]?"
+      }
+    ],
+    "notes": [
+      "get something done เป็นภาษาพูดมากกว่า have something done แต่ความหมายเกือบเหมือนกัน",
+      "have + คน + V1 (ไม่มี to) · get + คน + to + V1 (ต้องมี to)",
+      "have something + V3 ยังใช้กับเรื่องไม่ดีที่เกิดกับเรา: She had her bag stolen.",
+      "ตำแหน่งสำคัญ: have + กรรม + V3 ถ้าสลับเป็น have + V3 + กรรม จะกลายเป็น Present Perfect (I have cut my hair = ตัดเอง)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I [[had]] my hair [[cut]] at a new salon yesterday.",
+      "th": "เมื่อวานฉันไปตัดผมที่ร้านใหม่"
+    },
+    {
+      "en": "We need to [[get]] the air conditioner [[fixed]] before summer.",
+      "th": "เราต้องเรียกช่างมาซ่อมแอร์ก่อนหน้าร้อน"
+    },
+    {
+      "en": "She [[is having]] her wedding dress [[made]] in Bangkok.",
+      "th": "เธอกำลังสั่งตัดชุดแต่งงานที่กรุงเทพฯ"
+    },
+    {
+      "en": "You should [[have]] your eyes [[tested]] every year.",
+      "th": "คุณควรไปตรวจสายตาทุกปี"
+    },
+    {
+      "en": "The manager [[had]] IT [[install]] new software on all the computers.",
+      "th": "ผู้จัดการให้ฝ่ายไอทีติดตั้งซอฟต์แวร์ใหม่ในคอมพิวเตอร์ทุกเครื่อง"
+    },
+    {
+      "en": "I [[got]] my brother [[to drive]] me to the airport.",
+      "th": "ฉันขอ (โน้มน้าว) ให้พี่ชายขับรถไปส่งที่สนามบิน"
+    },
+    {
+      "en": "He [[had]] his bike [[stolen]] outside the station.",
+      "th": "จักรยานของเขาถูกขโมยหน้าสถานี"
+    },
+    {
+      "en": "[[Have]] you ever [[had]] your photo [[taken]] by a professional?",
+      "th": "คุณเคยให้ช่างภาพมืออาชีพถ่ายรูปให้ไหม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I cut my hair yesterday. (ไปร้านตัดผม)",
+      "right": "I had my hair cut yesterday.",
+      "whyTh": "I cut my hair แปลว่าตัดเอง ถ้าช่างตัดให้ต้องใช้ have + กรรม + V3"
+    },
+    {
+      "wrong": "She had her car repair at the garage.",
+      "right": "She had her car repaired at the garage.",
+      "whyTh": "รถ \"ถูกซ่อม\" จึงต้องใช้ V3 (repaired) หลังกรรม ไม่ใช่ V1"
+    },
+    {
+      "wrong": "We had painted our house last month. (ช่างทาให้)",
+      "right": "We had our house painted last month.",
+      "whyTh": "ลำดับคำผิด have + V3 + กรรม กลายเป็น Past Perfect ที่แปลว่าทาเอง ต้องเป็น have + กรรม + V3"
+    },
+    {
+      "wrong": "I got my friend help me move.",
+      "right": "I got my friend to help me move.",
+      "whyTh": "get + คน ต้องตามด้วย to + V1 (ต่างจาก have + คน + V1 ที่ไม่มี to)"
+    },
+    {
+      "wrong": "The teacher had us to write an essay.",
+      "right": "The teacher had us write an essay.",
+      "whyTh": "have + คน + V1 ไม่มี to — ผู้เรียนมักสับสนกับ get someone to do"
+    }
+  ],
+  "compare": {
+    "title": "Passive vs Causative",
+    "with": [
+      "b2-advanced-passive"
+    ],
+    "rows": [
+      {
+        "label": "เน้นอะไร",
+        "a": "สิ่งที่ถูกกระทำ (ประธานคือสิ่งของ)",
+        "b": "คนที่จัดการให้คนอื่นทำให้ (ประธานคือเจ้าของ)"
+      },
+      {
+        "label": "โครงสร้าง",
+        "a": "Object + be + V3",
+        "b": "Owner + have/get + object + V3"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "My car was repaired yesterday.",
+        "b": "I had my car repaired yesterday."
+      }
+    ],
+    "tipTh": "ถ้าอยากบอกว่า \"ใคร\" เป็นคนจัดการ/จ้าง ให้ใช้ causative · ถ้าสนใจแค่ว่าสิ่งของถูกทำ ใช้ passive"
+  },
+  "contexts": [
+    {
+      "kind": "message",
+      "title": "Busy week",
+      "lines": [
+        {
+          "text": "Hi Sam, crazy week! On Monday I [[had]] the boiler [[serviced]], and on Wednesday I [[got]] my neighbour [[to look]] after the cat while I was in Chiang Mai. Tomorrow I'm [[having]] the windows [[cleaned]], so I'll be home all morning. Coffee on Saturday? — Fah"
+        }
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "At the phone shop",
+      "lines": [
+        {
+          "speaker": "Customer",
+          "text": "Hi, I'd like to [[have]] my screen [[replaced]]. How long will it take?"
+        },
+        {
+          "speaker": "Staff",
+          "text": "About an hour. Would you like to [[get]] the battery [[checked]] too?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. Last time I [[had]] it [[done]] somewhere else, and it broke again after a month."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Causative",
+      "th": "โครงสร้างที่บอกว่าเราให้คนอื่นทำอะไรให้"
+    },
+    {
+      "en": "have something done",
+      "th": "ให้คนอื่นทำสิ่งนั้นให้ (มักเป็นบริการ)"
+    },
+    {
+      "en": "get someone to do",
+      "th": "ขอร้อง/โน้มน้าวให้ใครทำอะไร"
+    },
+    {
+      "en": "have someone do",
+      "th": "สั่งหรือมอบหมายให้ใครทำ"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ใช้บอกว่าสิ่งนั้นถูกทำ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-causative-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I ___ my hair cut at the salon yesterday.",
+      "choices": [
+        "had",
+        "made",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "make + กรรม + V3 ไม่ใช้บอกบริการ (made my hair cut ผิดโครงสร้าง)",
+        "2": "do ไม่ใช้ในโครงสร้าง causative",
+        "3": "I was my hair cut ผิดโครงสร้าง — การบอกว่าให้คนอื่นทำให้ต้องใช้ have/get + กรรม + V3"
+      },
+      "explainTh": "ช่างตัดผมให้ → have + กรรม + V3: had my hair cut",
+      "structure": "have + object + V3",
+      "example": "I had my hair cut."
+    },
+    {
+      "id": "b2-causative-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "We're having our house ___ (paint) next week.",
+      "accepted": [
+        "painted"
+      ],
+      "explainTh": "บ้านถูกช่างทาสี → have + กรรม + V3 (painted)",
+      "structure": "be having + object + V3",
+      "example": "We're having our house painted."
+    },
+    {
+      "id": "b2-causative-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I need to get my eyes ___ (test) before I renew my driving licence.",
+      "accepted": [
+        "tested"
+      ],
+      "explainTh": "ตาถูกตรวจโดยคนอื่น → get + กรรม + V3 (tested)",
+      "structure": "get + object + V3",
+      "example": "I need to get my eyes tested."
+    },
+    {
+      "id": "b2-causative-04",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "She had her car repair at the garage.",
+      "errorPart": "repair",
+      "accepted": [
+        "She had her car repaired at the garage."
+      ],
+      "explainTh": "รถถูกซ่อม → have + กรรม + V3 ต้องใช้ repaired",
+      "structure": "have + object + V3"
+    },
+    {
+      "id": "b2-causative-05",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "After a lot of persuading, I finally got my brother ___ me with my homework.",
+      "choices": [
+        "to help",
+        "help",
+        "helped",
+        "helps"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "help เปล่า ๆ ใช้กับ have someone do ไม่ใช่ get",
+        "2": "helped (V3) ใช้เมื่อกรรมเป็นสิ่งของที่ถูกทำ แต่ที่นี่ my brother เป็นผู้ทำ",
+        "3": "หลังกรรมในโครงสร้างนี้ไม่ใช้กริยาเติม -s"
+      },
+      "explainTh": "โน้มน้าวให้คนทำ → get + คน + to + V1: got my brother to help",
+      "structure": "get + person + to + V1"
+    },
+    {
+      "id": "b2-causative-06",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "The manager had his assistant ___ the meeting room for 3 p.m.",
+      "choices": [
+        "book",
+        "to book",
+        "booked",
+        "books"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have + คน ไม่ตามด้วย to (to book ใช้กับ get someone)",
+        "2": "booked ใช้เมื่อกรรมเป็นสิ่งของ (had the room booked) แต่ที่นี่กรรมเป็นคน",
+        "3": "หลังกรรมใช้กริยารูปฐาน ไม่เติม -s"
+      },
+      "explainTh": "สั่งให้คนทำ → have + คน + V1 (ไม่มี to): had his assistant book",
+      "structure": "have + person + V1"
+    },
+    {
+      "id": "b2-causative-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "A mechanic is checking my car at the moment.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย I … (ใช้ have หรือ get + my car)",
+      "accepted": [
+        "I am having my car checked at the moment.",
+        "I am getting my car checked at the moment.",
+        "I am having my car checked by a mechanic at the moment.",
+        "I am getting my car checked by a mechanic at the moment.",
+        "At the moment I am having my car checked.",
+        "At the moment I am getting my car checked.",
+        "I am having a mechanic check my car at the moment.",
+        "I am getting a mechanic to check my car at the moment."
+      ],
+      "explainTh": "กำลังให้ช่างตรวจรถอยู่ → am having / am getting + my car + V3 (checked)",
+      "structure": "be having/getting + object + V3"
+    },
+    {
+      "id": "b2-causative-08",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Someone stole his wallet on the train.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย He had …",
+      "accepted": [
+        "He had his wallet stolen on the train."
+      ],
+      "explainTh": "เรื่องไม่ดีที่เกิดกับเขา → have + กรรม + V3: had his wallet stolen",
+      "structure": "have + object + V3 (เหตุการณ์ไม่ดี)"
+    },
+    {
+      "id": "b2-causative-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "we",
+        "are",
+        "having",
+        "our",
+        "kitchen",
+        "redecorated"
+      ],
+      "accepted": [
+        "We are having our kitchen redecorated.",
+        "Are we having our kitchen redecorated?"
+      ],
+      "explainTh": "Subject + be having + กรรม + V3 → We are having our kitchen redecorated."
+    },
+    {
+      "id": "b2-causative-10",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "you",
+        "should",
+        "get",
+        "that",
+        "tooth",
+        "checked"
+      ],
+      "accepted": [
+        "You should get that tooth checked.",
+        "Should you get that tooth checked?"
+      ],
+      "explainTh": "modal + get + กรรม + V3 → You should get that tooth checked."
+    },
+    {
+      "id": "b2-causative-11",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับความหมาย",
+      "pairs": [
+        [
+          "I cut my hair.",
+          "ฉันตัดผมเอง"
+        ],
+        [
+          "I had my hair cut.",
+          "ฉันไปให้ช่างตัดผมให้"
+        ],
+        [
+          "I got my friend to cut my hair.",
+          "ฉันขอให้เพื่อนตัดผมให้"
+        ],
+        [
+          "I had my bag stolen.",
+          "กระเป๋าของฉันถูกขโมย"
+        ]
+      ],
+      "explainTh": "ทำเอง = Subject + V · ให้ช่างทำ = have + กรรม + V3 · โน้มน้าวคนอื่น = get + คน + to + V1 · เรื่องร้ายที่เกิดกับเรา = have + กรรม + V3"
+    },
+    {
+      "id": "b2-causative-12",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I'm going to have my phone screen replaced.",
+        "I'm going to have replaced my phone screen.",
+        "I'm going to have my phone screen replace.",
+        "I'm going to have my phone screen to replace."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ลำดับผิด ต้องเป็น have + กรรม + V3 ไม่ใช่ have + V3 + กรรม",
+        "2": "จอถูกเปลี่ยน ต้องใช้ V3 (replaced) ไม่ใช่ V1",
+        "3": "หลังกรรมไม่ใช้ to + V1 ในความหมายนี้"
+      },
+      "explainTh": "have + กรรม + V3 → have my phone screen replaced"
+    },
+    {
+      "id": "b2-causative-13",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Your hair looks great! Did you do it yourself?"
+          },
+          {
+            "speaker": "B",
+            "text": "No way! I ___ at that new salon near the station."
+          }
+        ]
+      },
+      "choices": [
+        "had it done",
+        "did it",
+        "have done it",
+        "had done it"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "did it แปลว่าทำเอง แต่ B ตอบว่า No way! (ไม่ได้ทำเอง)",
+        "2": "have done it แปลว่าทำเองเช่นกัน (Present Perfect)",
+        "3": "had done it เป็น Past Perfect แปลว่าทำเองก่อนเหตุการณ์อื่น ไม่ใช่ให้ช่างทำ"
+      },
+      "explainTh": "ไม่ได้ทำเอง ช่างที่ร้านทำให้ → have + it + V3: had it done"
+    },
+    {
+      "id": "b2-causative-14",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Busy week",
+        "lines": [
+          {
+            "text": "Hi Sam, crazy week! On Monday I had the boiler serviced, and on Wednesday I got my neighbour to look after the cat while I was in Chiang Mai. Tomorrow I'm having the windows cleaned, so I'll be home all morning. — Fah"
+          }
+        ]
+      },
+      "question": "Who will clean the windows tomorrow?",
+      "choices": [
+        "Someone else, not Fah",
+        "Fah herself",
+        "Fah's neighbour",
+        "Sam"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I'm having the windows cleaned = ให้คนอื่นมาล้างให้ Fah ไม่ได้ล้างเอง",
+        "2": "เพื่อนบ้านช่วยดูแมวเมื่อวันพุธ ไม่ได้ล้างหน้าต่าง",
+        "3": "Sam เป็นคนรับข้อความ ไม่ได้ถูกขอให้ทำอะไร"
+      },
+      "explainTh": "having + the windows + cleaned = causative บอกว่ามีคนอื่นมาล้างให้ Fah แค่อยู่บ้านรอ"
+    },
+    {
+      "id": "b2-causative-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "They had their roof ___ (blow) off in the storm last night.",
+      "accepted": [
+        "blown"
+      ],
+      "explainTh": "เรื่องไม่ดีที่เกิดกับพวกเขา → have + กรรม + V3 · blow เป็นกริยาอปกติ: blow – blew – blown",
+      "structure": "have + object + V3",
+      "example": "They had their roof blown off."
+    },
+    {
+      "id": "b2-causative-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับสิ่งที่คุณให้คนอื่นทำให้ (เช่น ตัดผม ซ่อมโทรศัพท์ ตรวจสายตา) ใช้ have/get something done (Write 3 sentences about things other people do for you.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(have|has|had|having|get|gets|got|getting)\\s+(((my|your|his|her|our|their|the|a|an|this|that|these|those|some|all)\\s+(\\w+\\s+){1,3})|((it|them)\\s+))(\\w+(ed|en|wn|ut|ld|ght)|done|gone|made|paid|laid|built|sent|spent|lent|bent|kept|slept|left|dealt|felt|meant|hit|set|met|won|sung|hung|held|lost|found|told|sold|read|led|fed|shot|bound|ground|wound|dug|stuck|struck|spun|swept|wept|burnt|learnt|spelt|spoilt)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ have/get + กรรม + V3 อย่างน้อย 1 ครั้ง เช่น I had my hair cut."
+        }
+      ],
+      "sample": "Last month I had my hair cut at a small salon. Next week I am getting my phone screen repaired. I also need to have my eyes tested soon.",
+      "explainTh": "have/get + กรรม + V3 บอกว่าคนอื่นทำให้: had my hair cut, getting my phone screen repaired, have my eyes tested"
+    }
+  ]
+}

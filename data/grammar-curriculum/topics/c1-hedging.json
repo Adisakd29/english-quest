@@ -1,0 +1,223 @@
+{
+  "id": "c1-hedging",
+  "summaryTh": "พูด/เขียนแบบระมัดระวัง ไม่ฟันธง ด้วย may, appear to, tend to, It is likely that …",
+  "concept": {
+    "what": "Hedging คือการลดความแรงของข้ออ้างให้พอดีกับหลักฐาน เพื่อให้ฟังรอบคอบและน่าเชื่อถือ ใช้ modal (may, might, could), กริยา (appear, seem, tend, suggest, indicate), คุณศัพท์/กริยาวิเศษณ์ (likely, possible, probably, arguably), วลีจำกัดขอบเขต (to some extent, in some cases) และ It is likely/possible that …",
+    "when": [
+      "รายงานผลวิจัยที่ยังไม่แน่นอน 100%: The results suggest that …",
+      "สรุปแนวโน้มทั่วไปที่มีข้อยกเว้น: Older users tend to …",
+      "แสดงความเห็นอย่างสุภาพ ลดความขัดแย้ง: It could be argued that …",
+      "จำกัดขอบเขตข้อสรุป: to some extent, in most cases, at least partly"
+    ],
+    "why": "ในงานวิชาการ การเขียนว่า This proves that … หรือ Everyone knows … ถือว่าเกินหลักฐาน — คนไทยมักใช้ maybe ในงานเขียนทางการ ใช้ hedge ซ้อนกันมากเกินไป (may possibly perhaps) หรือใช้รูปผิด เช่น seem enjoying / tend using / It is likely to that …"
+  },
+  "structure": {
+    "formula": "Subject + may/might/could + V1 · Subject + appear/seem/tend + to + V1 · It is likely/possible that + clause",
+    "rows": [
+      { "label": "Modal", "formula": "Subject + may / might / could + V1", "example": "This [[may]] explain the low response rate." },
+      { "label": "appear / seem", "formula": "Subject + appear(s)/seem(s) + to + V1 / to have + V3", "example": "The drug [[appears to reduce]] symptoms in older patients." },
+      { "label": "tend to", "formula": "Subject + tend(s) + to + V1", "example": "First-year students [[tend to]] underestimate their workload." },
+      { "label": "likely", "formula": "It is likely that + clause / Subject + is likely to + V1", "example": "Prices [[are likely to]] rise again next year." },
+      { "label": "กริยารายงานผล", "formula": "The data suggest / indicate + that + clause", "example": "The data [[suggest that]] the policy has been effective." },
+      { "label": "วลีจำกัดขอบเขต", "formula": "to some extent / in some cases / largely / arguably", "example": "The campaign was, [[to some extent]], successful." }
+    ],
+    "notes": [
+      "ใช้ hedge 1–2 จุดต่อข้ออ้างก็พอ — may possibly perhaps ซ้อนกันทำให้ฟังไม่มั่นใจเลย",
+      "seem / appear / tend ตามด้วย to + V1 (ไม่ใช่ -ing) · ถ้าเป็นเรื่องที่เกิดไปแล้วใช้ to have + V3",
+      "likely เป็นคุณศัพท์: be likely to + V1 หรือ It is likely that … (ไม่ใช่ It is likely to that)",
+      "maybe เป็นภาษาพูด งานเขียนทางการใช้ perhaps / possibly หรือ modal แทน",
+      "prove ฟันธงเกินไปสำหรับงานวิจัยส่วนใหญ่ → ใช้ suggest / indicate / show"
+    ]
+  },
+  "examples": [
+    { "en": "These findings [[suggest that]] diet [[may]] play a role in memory loss.", "th": "ผลการวิจัยนี้ชี้ว่าอาหารอาจมีส่วนต่อการสูญเสียความจำ" },
+    { "en": "Online learners [[tend to]] drop out more often than classroom learners.", "th": "ผู้เรียนออนไลน์มีแนวโน้มเลิกเรียนกลางคันบ่อยกว่าผู้เรียนในห้อง" },
+    { "en": "The new teaching method [[appears to have improved]] students' confidence.", "th": "วิธีสอนแบบใหม่ดูเหมือนจะช่วยให้นักเรียนมั่นใจขึ้น" },
+    { "en": "[[It is likely that]] the number of electric cars will double by 2030.", "th": "มีแนวโน้มว่าจำนวนรถยนต์ไฟฟ้าจะเพิ่มเป็นสองเท่าภายในปี 2030" },
+    { "en": "This [[could]] be due to the small sample size.", "th": "สาเหตุอาจมาจากกลุ่มตัวอย่างมีขนาดเล็ก" },
+    { "en": "The policy has, [[to some extent]], reduced traffic in the city centre.", "th": "นโยบายนี้ช่วยลดการจราจรในใจกลางเมืองได้ในระดับหนึ่ง" },
+    { "en": "There [[seems to be]] a link between screen time and poor sleep.", "th": "ดูเหมือนจะมีความเชื่อมโยงระหว่างเวลาหน้าจอกับการนอนหลับที่ไม่ดี" },
+    { "en": "[[Arguably]], the most important factor is cost.", "th": "อาจกล่าวได้ว่าปัจจัยที่สำคัญที่สุดคือค่าใช้จ่าย" }
+  ],
+  "mistakes": [
+    { "wrong": "This small study proves that coffee causes heart disease.", "right": "This small study suggests that coffee may increase the risk of heart disease.", "whyTh": "การศึกษาเล็ก ๆ ไม่สามารถ “พิสูจน์” ได้ ใช้ suggest + may เพื่อให้ข้ออ้างพอดีกับหลักฐาน" },
+    { "wrong": "Students seem enjoying the new course.", "right": "Students seem to enjoy the new course.", "whyTh": "seem ตามด้วย to + V1 ไม่ใช่ -ing" },
+    { "wrong": "It is likely to that sales will fall.", "right": "It is likely that sales will fall.", "whyTh": "It is likely + that + ประโยค หรือ Sales are likely to fall. — ห้ามใช้ to กับ that ซ้อนกัน" },
+    { "wrong": "Maybe the results are not accurate.", "right": "The results may not be accurate.", "whyTh": "maybe เป็นภาษาพูด งานเขียนทางการใช้ modal (may) หรือ perhaps แทน" },
+    { "wrong": "Young people tend using social media late at night.", "right": "Young people tend to use social media late at night.", "whyTh": "tend + to + V1 เสมอ" },
+    { "wrong": "The data may possibly perhaps indicate a trend.", "right": "The data may indicate a trend.", "whyTh": "hedge ซ้อนสามคำทำให้ฟังลังเลเกินไป ใช้คำเดียวก็พอ" }
+  ],
+  "compare": {
+    "title": "Strong claim vs Hedged claim",
+    "with": ["c1-academic"],
+    "rows": [
+      { "label": "ความมั่นใจ", "a": "100% ฟันธง", "b": "พอดีกับหลักฐาน มีพื้นที่ให้ข้อยกเว้น" },
+      { "label": "กริยา", "a": "prove, show clearly, cause", "b": "suggest, indicate, appear to, may cause" },
+      { "label": "ตัวอย่าง", "a": "Social media causes depression.", "b": "Social media use may contribute to depression in some teenagers." },
+      { "label": "เมื่อไรควรใช้", "a": "ข้อเท็จจริงที่ยืนยันแล้ว (Water boils at 100°C.)", "b": "ผลวิจัย การตีความ ความเห็น การคาดการณ์" }
+    ],
+    "tipTh": "ถามตัวเองว่า “หลักฐานแข็งแรงแค่ไหน?” ถ้ามีข้อยกเว้นหรือกลุ่มตัวอย่างเล็ก ให้ hedge 1 จุด แต่อย่า hedge ข้อเท็จจริงที่ชัดเจน"
+  },
+  "contexts": [
+    {
+      "kind": "school", "title": "Discussion section of a study",
+      "lines": [
+        { "text": "The results [[indicate that]] students who sleep less than six hours [[tend to]] perform worse in morning exams. This [[may]] be because tiredness affects short-term memory. However, the sample was small, so the findings [[should be interpreted with caution]]. [[It is possible that]] other factors, such as stress, [[also played a role]]. Further research [[would be needed]] to confirm this link." }
+      ]
+    },
+    {
+      "kind": "conversation", "title": "Feedback from a supervisor",
+      "lines": [
+        { "speaker": "Dr Wan", "text": "Your conclusion says 'Group work improves grades.' That sounds too certain." },
+        { "speaker": "Pim", "text": "Should I write that group work [[might]] improve grades?" },
+        { "speaker": "Dr Wan", "text": "Yes, or 'Group work [[appears to]] improve grades [[in some subjects]].' Your data only covered science classes." },
+        { "speaker": "Pim", "text": "OK. And maybe add '[[It is likely that]] the effect depends on the teacher'?" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Hedging", "th": "การลดความแรงของข้ออ้าง ไม่ฟันธงเกินหลักฐาน" },
+    { "en": "Tentative language", "th": "ภาษาที่แสดงความไม่แน่นอน เช่น may, might, appear to" },
+    { "en": "Overgeneralisation", "th": "การสรุปเหมารวมเกินจริง เช่น Everyone thinks …" },
+    { "en": "Booster", "th": "คำที่เพิ่มความมั่นใจ เช่น clearly, definitely (ตรงข้ามกับ hedge)" }
+  ],
+  "practice": [
+    {
+      "id": "c1-hedging-01", "type": "mc", "difficulty": 1,
+      "question": "Taking short breaks ___ improve concentration, but more research is needed.",
+      "choices": ["may", "must", "can't", "should to"], "answer": 0,
+      "whyNot": { "1": "must = แน่นอนหรือบังคับ ขัดกับ more research is needed (ยังไม่แน่ใจ)", "2": "can't = เป็นไปไม่ได้ ขัดกับความหมายของประโยค", "3": "หลัง should ไม่มี to" },
+      "explainTh": "more research is needed บอกว่ายังไม่แน่นอน → ใช้ may + V1 เพื่อ hedge",
+      "structure": "Subject + may + V1", "example": "Short breaks may improve concentration."
+    },
+    {
+      "id": "c1-hedging-02", "type": "mc", "difficulty": 2,
+      "question": "Older employees ___ to prefer face-to-face meetings.",
+      "choices": ["tend", "tends", "are tending", "tending"], "answer": 0,
+      "whyNot": { "1": "ประธาน employees เป็นพหูพจน์ ไม่เติม -s", "2": "tend บอกแนวโน้มทั่วไป ไม่ใช้รูป continuous", "3": "tending ไม่ใช่กริยาแท้ ประโยคจะขาดกริยาหลัก" },
+      "explainTh": "บอกแนวโน้มทั่วไป (มีข้อยกเว้น): Subject (พหูพจน์) + tend + to + V1"
+    },
+    {
+      "id": "c1-hedging-03", "type": "mc", "difficulty": 2,
+      "question": "The new medicine appears ___ mild side effects in some patients.",
+      "choices": ["to cause", "causing", "cause", "to causing"], "answer": 0,
+      "whyNot": { "1": "appear ไม่ตามด้วย -ing", "2": "ต้องมี to หน้ากริยา", "3": "หลัง to ใช้กริยาช่องที่ 1 ไม่ใช่ -ing" },
+      "explainTh": "appear + to + V1 = ดูเหมือนจะ … (hedge ผลที่สังเกตได้แต่ยังไม่ยืนยัน)"
+    },
+    {
+      "id": "c1-hedging-04", "type": "fill", "difficulty": 1,
+      "question": "The results seem ___ (confirm) our original hypothesis.",
+      "accepted": ["to confirm"],
+      "explainTh": "seem + to + V1 → seem to confirm (ไม่ใช่ seem confirming)"
+    },
+    {
+      "id": "c1-hedging-05", "type": "fill", "difficulty": 2,
+      "question": "The economy ___ (likely / grow) by about 3% next year. (ใช้ be likely to …)",
+      "accepted": ["is likely to grow"],
+      "explainTh": "Subject + be likely + to + V1 = มีแนวโน้มว่าจะ … · economy เอกพจน์ → is"
+    },
+    {
+      "id": "c1-hedging-06", "type": "fill", "difficulty": 3,
+      "question": "There ___ (seem / be) a strong link between sleep and exam performance.",
+      "accepted": ["seems to be"],
+      "explainTh": "There + seem + to be + noun · ผันตามคำนามหลัง (a strong link = เอกพจน์) → seems to be"
+    },
+    {
+      "id": "c1-hedging-07", "type": "error", "difficulty": 1,
+      "sentence": "Students tend spending more money at the start of the term.",
+      "errorPart": "spending",
+      "accepted": ["Students tend to spend more money at the start of the term."],
+      "explainTh": "tend + to + V1 เสมอ → tend to spend"
+    },
+    {
+      "id": "c1-hedging-08", "type": "error", "difficulty": 2,
+      "sentence": "It is likely to that the company will cut jobs next year.",
+      "errorPart": "likely to that",
+      "accepted": ["It is likely that the company will cut jobs next year.", "The company is likely to cut jobs next year."],
+      "explainTh": "It is likely + that + ประโยค (ไม่มี to) หรือเปลี่ยนเป็น Subject + is likely to + V1"
+    },
+    {
+      "id": "c1-hedging-09", "type": "error", "difficulty": 3,
+      "sentence": "This small study proves that the drug may reduce headaches in some patients.",
+      "errorPart": "proves",
+      "accepted": ["This small study suggests that the drug may reduce headaches in some patients.", "This small study indicates that the drug may reduce headaches in some patients.", "This small study shows that the drug may reduce headaches in some patients.", "This small study implies that the drug may reduce headaches in some patients."],
+      "explainTh": "proves (พิสูจน์แน่นอน) ขัดกับ small study และ may — เปลี่ยนเป็นกริยารายงานผลแบบระมัดระวัง เช่น suggests / indicates"
+    },
+    {
+      "id": "c1-hedging-10", "type": "order", "difficulty": 2,
+      "tokens": ["the", "results", "appear", "to", "have", "been", "affected", "by", "the", "weather"],
+      "accepted": ["The results appear to have been affected by the weather."],
+      "explainTh": "appear + to have been + V3 = ดูเหมือนว่า (ในอดีต) ถูกกระทบ — hedge + เกิดก่อน + passive"
+    },
+    {
+      "id": "c1-hedging-11", "type": "order", "difficulty": 1,
+      "tokens": ["it", "is", "possible", "that", "the", "data", "are", "incomplete"],
+      "accepted": ["It is possible that the data are incomplete."],
+      "explainTh": "It is possible + that + clause = เป็นไปได้ว่า … (ไม่ฟันธงว่าข้อมูลไม่ครบ)"
+    },
+    {
+      "id": "c1-hedging-12", "type": "transform", "difficulty": 1,
+      "source": "Social media causes anxiety in teenagers.",
+      "instruction": "เขียนใหม่แบบระมัดระวัง โดยใช้ may",
+      "accepted": ["Social media may cause anxiety in teenagers."],
+      "explainTh": "may + V1 → causes กลับเป็น cause (หลัง modal ไม่เติม -s)"
+    },
+    {
+      "id": "c1-hedging-13", "type": "transform", "difficulty": 1,
+      "source": "Prices will probably rise next year.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย It is likely that …",
+      "accepted": ["It is likely that prices will rise next year."],
+      "explainTh": "probably → It is likely that … และตัด probably ออก (ไม่ hedge ซ้ำ)"
+    },
+    {
+      "id": "c1-hedging-14", "type": "transform", "difficulty": 3,
+      "source": "It seems that the new policy has reduced crime.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย The new policy …",
+      "accepted": ["The new policy seems to have reduced crime."],
+      "explainTh": "It seems that + present perfect → Subject + seems + to have + V3 (เรื่องที่เกิดขึ้นแล้ว)"
+    },
+    {
+      "id": "c1-hedging-15", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่คำ/วลี hedge กับหน้าที่",
+      "pairs": [
+        ["to some extent", "จำกัดขอบเขต — จริงเพียงบางส่วน"],
+        ["tend to", "บอกแนวโน้มทั่วไปที่มีข้อยกเว้น"],
+        ["It is likely that", "บอกว่ามีโอกาสเกิดสูง"],
+        ["could", "บอกความเป็นไปได้ที่ยังไม่แน่นอน"],
+        ["The data suggest that", "รายงานผลวิจัยอย่างระมัดระวัง"]
+      ],
+      "explainTh": "hedge แต่ละแบบลดความแรงต่างกัน: จำกัดขอบเขต / แนวโน้ม / ความน่าจะเป็นสูง / ความเป็นไปได้ / รายงานผล"
+    },
+    {
+      "id": "c1-hedging-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "Supervisor", "text": "You wrote 'Exercise prevents depression.' That's too strong for a study of only 40 people." },
+        { "speaker": "Student", "text": "OK. How about: 'Regular exercise ___ the risk of depression'?" }
+      ] },
+      "choices": ["may help to reduce", "definitely reduces", "is proving to reduce", "maybe reduces"], "answer": 0,
+      "whyNot": { "1": "definitely ฟันธงยิ่งกว่าเดิม ตรงข้ามกับที่อาจารย์แนะนำ", "2": "prove ไม่ใช้รูป continuous แบบนี้ และยังเป็นการฟันธง", "3": "maybe เป็นคำวิเศษณ์ภาษาพูด และวางหน้ากริยาแบบนี้ไม่เป็นธรรมชาติในงานเขียน" },
+      "explainTh": "กลุ่มตัวอย่างเล็ก (40 คน) → ลดความแรงด้วย may + help to reduce (อาจช่วยลด)"
+    },
+    {
+      "id": "c1-hedging-17", "type": "choose", "difficulty": 3,
+      "question": "เลือกประโยคที่ hedge ได้เหมาะสมที่สุดสำหรับงานวิชาการ",
+      "choices": ["These results may perhaps possibly suggest a link between diet and mood.", "These results suggest that there may be a link between diet and mood.", "These results prove that diet completely controls mood.", "Maybe these results are showing a link between diet and mood."], "answer": 1,
+      "whyNot": { "0": "hedge ซ้อนสามคำ (may perhaps possibly) ทำให้ฟังลังเลเกินไป", "2": "prove และ completely ฟันธงเกินหลักฐาน", "3": "maybe เป็นภาษาพูด และ are showing ไม่เหมาะกับการรายงานผล" },
+      "explainTh": "hedge พอดี ๆ: กริยารายงานผล (suggest) + modal หนึ่งคำ (may) = ระมัดระวังแต่ยังชัดเจน"
+    },
+    {
+      "id": "c1-hedging-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคสรุปผลสำรวจ (สมมุติ) เรื่องการใช้โทรศัพท์ของนักศึกษา โดยใช้ hedging อย่างน้อย 2 แบบ และไม่ใช้คำที่ฟันธง เช่น prove, definitely (Write 3 sentences reporting survey results with appropriate hedging.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(may|might|could)\\s+[a-z]+", "flags": "i", "msgTh": "ใช้ may / might / could อย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(appears?|seems?|tends?|appeared|seemed|tended)\\s+to\\b|\\b(likely|unlikely|possible|probable|arguably|perhaps|possibly)\\b|\\b(suggests?|indicates?|suggested|indicated)\\s+that\\b|\\bto some extent\\b", "flags": "i", "msgTh": "ใช้ hedge แบบอื่นอีกอย่างน้อย 1 แบบ เช่น tend to, appear to, It is likely that, suggest that" }
+      ],
+      "forbid": [
+        { "re": "\\b(prove|proves|proved|definitely|certainly)\\b", "flags": "i", "msgTh": "หลีกเลี่ยงคำที่ฟันธงเกินไป เช่น prove, definitely" }
+      ],
+      "sample": "The survey suggests that most students check their phones during lectures. Students who use their phones in class tend to have lower grades. This may be because they find it harder to concentrate.",
+      "explainTh": "ใช้ hedge 1–2 จุดต่อข้ออ้าง: suggest that / tend to / may — และระวังรูป tend to + V1, It is likely that + ประโยค"
+    }
+  ]
+}

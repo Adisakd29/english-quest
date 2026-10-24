@@ -1,0 +1,498 @@
+{
+  "id": "b2-reporting-verbs",
+  "summaryTh": "เล่าคำพูดด้วยกริยาที่บอกเจตนา เช่น advise, refuse, deny, accuse — และรู้ว่าแต่ละตัวตามด้วยอะไร",
+  "concept": {
+    "what": "Reporting verbs คือกริยาที่ใช้แทน said / told เพื่อบอก \"เจตนา\" ของผู้พูดด้วย เช่น แนะนำ (advise) ปฏิเสธ (deny) ขอโทษ (apologise) กล่าวหา (accuse) แต่ละตัวมีรูปแบบที่ตามหลังต่างกัน: to + V1, -ing, คน + to + V1, คำบุพบท + -ing หรือ that + ประโยค",
+    "when": [
+      "สรุปคำพูดให้สั้นและชัดว่าผู้พูดต้องการอะไร (\"I'm sorry I'm late.\" → She apologised for being late.)",
+      "เขียนรายงาน ข่าว อีเมลสรุปการประชุม ซึ่งไม่ยกคำพูดมาทั้งหมด",
+      "หลีกเลี่ยงการใช้ said ซ้ำ ๆ ทำให้ภาษาดูเป็นธรรมชาติและระดับสูงขึ้น"
+    ],
+    "why": "ภาษาไทยพูดว่า \"เขาแนะนำให้ไป\" \"เขาปฏิเสธว่าไม่ได้ทำ\" โดยไม่ต้องเปลี่ยนรูปกริยา แต่ภาษาอังกฤษแต่ละกริยามีแพทเทิร์นของตัวเอง เช่น suggest ตามด้วย -ing ไม่ใช่ to · deny ตามด้วย -ing · accuse ต้องใช้ of ถ้าใช้ผิดแพทเทิร์นจะเป็นข้อผิดที่เห็นชัด"
+  },
+  "structure": {
+    "formula": "Subject + reporting verb + (person) + to V1 / -ing / preposition + -ing / that-clause",
+    "rows": [
+      {
+        "label": "verb + to V1",
+        "formula": "agree, refuse, offer, promise, threaten + to + V1",
+        "example": "He [[refused to pay]] the bill."
+      },
+      {
+        "label": "verb + คน + to V1",
+        "formula": "advise, warn, remind, persuade, encourage, invite + person + to + V1",
+        "example": "The doctor [[advised me to rest]]."
+      },
+      {
+        "label": "verb + -ing",
+        "formula": "deny, admit, suggest, recommend + V-ing",
+        "example": "She [[denied breaking]] the vase."
+      },
+      {
+        "label": "verb + คำบุพบท + -ing",
+        "formula": "apologise for, insist on + V-ing",
+        "example": "He [[apologised for being]] late."
+      },
+      {
+        "label": "verb + คน + คำบุพบท + -ing",
+        "formula": "accuse sb of, blame sb for, congratulate sb on, thank sb for + V-ing",
+        "example": "They [[accused him of cheating]]."
+      },
+      {
+        "label": "verb + that",
+        "formula": "explain, admit, deny, suggest + that + clause",
+        "example": "Tom [[suggested that we leave]] early."
+      }
+    ],
+    "notes": [
+      "ปฏิเสธ: ใส่ not หน้า to หรือหน้า -ing: She promised not to tell. / He admitted not doing his homework.",
+      "suggest ไม่ใช้ suggest someone to do: ใช้ suggest doing หรือ suggest that someone (should) do",
+      "ใช้ having + V3 ได้เมื่อเน้นว่าเกิดก่อน: He denied having taken it. (ความหมายเหมือน denied taking)",
+      "apologise (BrE) = apologize (AmE)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "My teacher [[advised me to read]] more English news.",
+      "th": "ครูแนะนำให้ฉันอ่านข่าวภาษาอังกฤษให้มากขึ้น"
+    },
+    {
+      "en": "He [[offered to carry]] my suitcase.",
+      "th": "เขาเสนอตัวช่วยถือกระเป๋าเดินทางให้ฉัน"
+    },
+    {
+      "en": "The student [[denied copying]] the answers.",
+      "th": "นักเรียนปฏิเสธว่าไม่ได้ลอกคำตอบ"
+    },
+    {
+      "en": "Mai [[suggested going]] to the night market after class.",
+      "th": "ใหม่เสนอว่าไปตลาดกลางคืนกันหลังเลิกเรียน"
+    },
+    {
+      "en": "The company [[apologised for sending]] the wrong item.",
+      "th": "บริษัทขอโทษที่ส่งสินค้าผิด"
+    },
+    {
+      "en": "She [[accused her roommate of eating]] her snacks.",
+      "th": "เธอกล่าวหาว่ารูมเมทกินขนมของเธอ"
+    },
+    {
+      "en": "Mum [[reminded me to take]] my passport.",
+      "th": "แม่เตือนให้ฉันเอาพาสปอร์ตไปด้วย"
+    },
+    {
+      "en": "Everyone [[congratulated him on passing]] his driving test.",
+      "th": "ทุกคนแสดงความยินดีกับเขาที่สอบใบขับขี่ผ่าน"
+    },
+    {
+      "en": "He [[insisted on paying]] for dinner.",
+      "th": "เขายืนยันจะเป็นคนจ่ายค่าอาหารเย็น"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She suggested me to take a taxi.",
+      "right": "She suggested that I take a taxi.",
+      "whyTh": "suggest ไม่ตามด้วย คน + to ใช้ suggest that + ประโยค หรือ suggested taking a taxi"
+    },
+    {
+      "wrong": "He denied to steal the money.",
+      "right": "He denied stealing the money.",
+      "whyTh": "deny ตามด้วย V-ing (หรือ that + ประโยค) ไม่ใช้ to + V1 — และเพราะภาษาไทยพูดว่า \"ปฏิเสธว่าไม่ได้…\" หลายคนจึงใส่ not ซ้อนเข้าไป (denied not stealing) ซึ่งก็ผิดความหมาย"
+    },
+    {
+      "wrong": "They accused him for cheating.",
+      "right": "They accused him of cheating.",
+      "whyTh": "accuse ใช้คู่กับ of (accuse someone of doing) ส่วน blame ใช้ for"
+    },
+    {
+      "wrong": "I apologise to be late.",
+      "right": "I apologise for being late.",
+      "whyTh": "apologise ตามด้วย for + V-ing (หลังคำบุพบทใช้ -ing เสมอ)"
+    },
+    {
+      "wrong": "The doctor advised to me rest more.",
+      "right": "The doctor advised me to rest more.",
+      "whyTh": "advise + คน + to + V1 คนต้องอยู่หน้า to และไม่ต้องมี to หน้าคน"
+    },
+    {
+      "wrong": "She refused helping us.",
+      "right": "She refused to help us.",
+      "whyTh": "refuse ตามด้วย to + V1 ไม่ใช่ -ing"
+    }
+  ],
+  "compare": {
+    "title": "Reported speech (said/told) vs Reporting verbs",
+    "with": [
+      "b1-reported-speech"
+    ],
+    "rows": [
+      {
+        "label": "ทำงานอย่างไร",
+        "a": "เล่าคำพูดเกือบทุกคำ เปลี่ยน tense และสรรพนาม",
+        "b": "สรุปเจตนาของผู้พูดเป็นกริยาเดียว"
+      },
+      {
+        "label": "ตัวอย่าง: \"I'll help you.\"",
+        "a": "He said that he would help me.",
+        "b": "He offered to help me."
+      },
+      {
+        "label": "ตัวอย่าง: \"I didn't take it.\"",
+        "a": "She said that she hadn't taken it.",
+        "b": "She denied taking it."
+      }
+    ],
+    "tipTh": "ฟังว่าผู้พูด \"กำลังทำอะไร\" ด้วยคำพูดนั้น (เสนอ ปฏิเสธ ขอโทษ เตือน) แล้วเลือกกริยาที่ตรงเจตนา พร้อมจำแพทเทิร์นที่ตามหลัง"
+  },
+  "contexts": [
+    {
+      "kind": "email",
+      "title": "Meeting summary",
+      "lines": [
+        {
+          "text": "Hi team, here's a quick summary of today's meeting. Kate [[suggested moving]] the deadline to Friday. Tom [[refused to work]] at the weekend, and Lisa [[apologised for sending]] the wrong file last week. Finally, our manager [[reminded everyone to submit]] their reports by Thursday. Thanks, Nicha"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "title": "The missing cake",
+      "lines": [
+        {
+          "text": "When Mum saw the empty plate, she [[accused my brother of eating]] the whole cake. He [[denied touching]] it and [[blamed the dog for taking]] it. In the end, he [[admitted eating]] \"just one small piece\" and [[promised to buy]] a new cake."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Reporting verb",
+      "th": "กริยาที่ใช้เล่าคำพูด และบอกเจตนาของผู้พูดไปด้วย"
+    },
+    {
+      "en": "Verb pattern",
+      "th": "รูปแบบที่ตามหลังกริยา เช่น to + V1, V-ing"
+    },
+    {
+      "en": "Gerund (V-ing)",
+      "th": "กริยาเติม -ing ที่ทำหน้าที่เหมือนคำนาม"
+    },
+    {
+      "en": "to-infinitive",
+      "th": "to + กริยารูปฐาน"
+    },
+    {
+      "en": "Direct speech",
+      "th": "คำพูดตรงในเครื่องหมายคำพูด"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-reporting-verbs-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "My teacher advised me ___ more English films.",
+      "choices": [
+        "to watch",
+        "watching",
+        "watch",
+        "that I watch"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "advise + คน ต้องตามด้วย to + V1 ไม่ใช่ -ing",
+        "2": "ขาด to: advise someone to do",
+        "3": "advise + คน + that ใช้บอกข้อมูล ไม่ใช้ให้คำแนะนำแบบนี้"
+      },
+      "explainTh": "advise + คน + to + V1 → advised me to watch",
+      "structure": "advise + person + to + V1",
+      "example": "My teacher advised me to watch more English films."
+    },
+    {
+      "id": "b2-reporting-verbs-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "He denied ___ (take) the money from the drawer.",
+      "accepted": [
+        "taking",
+        "having taken"
+      ],
+      "explainTh": "deny ตามด้วย V-ing → denied taking (having taken ก็ได้ เน้นว่าเกิดก่อน)",
+      "structure": "deny + V-ing",
+      "example": "He denied taking the money."
+    },
+    {
+      "id": "b2-reporting-verbs-03",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "She suggested ___ to the beach for the weekend.",
+      "choices": [
+        "going",
+        "to go",
+        "us to go",
+        "go"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "suggest ไม่ตามด้วย to + V1",
+        "2": "suggest ไม่ใช้รูป suggest someone to do (ใช้ suggest that we go)",
+        "3": "หลัง suggest ใช้ V1 เปล่า ๆ ไม่ได้ ถ้าไม่มี that + ประธาน"
+      },
+      "explainTh": "suggest + V-ing → suggested going (หรือ suggested that we go)",
+      "structure": "suggest + V-ing"
+    },
+    {
+      "id": "b2-reporting-verbs-04",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "The police accused him ___ (steal) the car. (ใส่คำบุพบทด้วย)",
+      "accepted": [
+        "of stealing",
+        "of having stolen"
+      ],
+      "explainTh": "accuse + คน + of + V-ing → accused him of stealing",
+      "structure": "accuse + person + of + V-ing"
+    },
+    {
+      "id": "b2-reporting-verbs-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "She apologised to be late for the meeting.",
+      "errorPart": "to be",
+      "accepted": [
+        "She apologised for being late for the meeting.",
+        "She apologized for being late for the meeting."
+      ],
+      "explainTh": "apologise + for + V-ing → apologised for being late",
+      "structure": "apologise for + V-ing"
+    },
+    {
+      "id": "b2-reporting-verbs-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "He refused helping me with the project.",
+      "errorPart": "helping",
+      "accepted": [
+        "He refused to help me with the project."
+      ],
+      "explainTh": "refuse ตามด้วย to + V1 → refused to help",
+      "structure": "refuse + to + V1"
+    },
+    {
+      "id": "b2-reporting-verbs-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "\"I'll help you with your bags,\" he said to me.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย He offered …",
+      "accepted": [
+        "He offered to help me with my bags.",
+        "He offered to help with my bags.",
+        "He offered to help me carry my bags."
+      ],
+      "explainTh": "\"I'll help you\" = การเสนอช่วย → offer + to + V1 · your bags เปลี่ยนเป็น my bags ตามมุมของผู้เล่า",
+      "structure": "offer + to + V1"
+    },
+    {
+      "id": "b2-reporting-verbs-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "\"You should see a doctor,\" she told him.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย She advised him …",
+      "accepted": [
+        "She advised him to see a doctor."
+      ],
+      "explainTh": "\"You should …\" = คำแนะนำ → advise + คน + to + V1",
+      "structure": "advise + person + to + V1"
+    },
+    {
+      "id": "b2-reporting-verbs-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "\"It was you who broke the window!\" Mrs Brown said to the boy.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Mrs Brown accused …",
+      "accepted": [
+        "Mrs Brown accused the boy of breaking the window.",
+        "Mrs Brown accused the boy of having broken the window."
+      ],
+      "explainTh": "กล่าวหาว่าทำผิด → accuse + คน + of + V-ing: accused the boy of breaking",
+      "structure": "accuse + person + of + V-ing"
+    },
+    {
+      "id": "b2-reporting-verbs-10",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "\"Don't forget to lock the door,\" Mum said to me.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Mum reminded …",
+      "accepted": [
+        "Mum reminded me to lock the door.",
+        "Mum reminded me not to forget to lock the door."
+      ],
+      "explainTh": "\"Don't forget to …\" = เตือนความจำ → remind + คน + to + V1 (ไม่ต้องใส่ forget ซ้ำ)",
+      "structure": "remind + person + to + V1"
+    },
+    {
+      "id": "b2-reporting-verbs-11",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "she",
+        "admitted",
+        "making",
+        "a",
+        "mistake"
+      ],
+      "accepted": [
+        "She admitted making a mistake."
+      ],
+      "explainTh": "admit + V-ing → She admitted making a mistake."
+    },
+    {
+      "id": "b2-reporting-verbs-12",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "they",
+        "congratulated",
+        "her",
+        "on",
+        "winning",
+        "the",
+        "competition"
+      ],
+      "accepted": [
+        "They congratulated her on winning the competition."
+      ],
+      "explainTh": "congratulate + คน + on + V-ing → congratulated her on winning"
+    },
+    {
+      "id": "b2-reporting-verbs-13",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูปแบบที่ตามหลัง",
+      "pairs": [
+        [
+          "refuse",
+          "+ to do (refuse to go)"
+        ],
+        [
+          "deny",
+          "+ doing (deny taking)"
+        ],
+        [
+          "accuse",
+          "+ someone + of doing"
+        ],
+        [
+          "apologise",
+          "+ for doing"
+        ],
+        [
+          "advise",
+          "+ someone + to do"
+        ]
+      ],
+      "explainTh": "refuse to do · deny doing · accuse someone of doing · apologise for doing · advise someone to do"
+    },
+    {
+      "id": "b2-reporting-verbs-14",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "He insisted on paying for dinner.",
+        "He insisted to pay for dinner.",
+        "He insisted paying for dinner.",
+        "He insisted for paying for dinner."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "insist ไม่ตามด้วย to + V1",
+        "2": "ขาดคำบุพบท on",
+        "3": "insist ใช้คู่กับ on ไม่ใช่ for"
+      },
+      "explainTh": "insist + on + V-ing → insisted on paying"
+    },
+    {
+      "id": "b2-reporting-verbs-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Why is Mai so angry with Ben?"
+          },
+          {
+            "speaker": "B",
+            "text": "He promised ___ her birthday, but he completely forgot it."
+          }
+        ]
+      },
+      "choices": [
+        "not to forget",
+        "not forgetting",
+        "to not forgetting",
+        "that not forget"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "promise ตามด้วย to + V1 ไม่ใช่ -ing",
+        "2": "หลัง to ต้องเป็น V1 (forget) ไม่ใช่ -ing",
+        "3": "promise that ต้องตามด้วยประโยคเต็มที่มีประธาน (that he wouldn't forget)"
+      },
+      "explainTh": "promise + not + to + V1 → promised not to forget (not วางหน้า to)"
+    },
+    {
+      "id": "b2-reporting-verbs-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "Meeting summary",
+        "lines": [
+          {
+            "text": "Hi team, here's a quick summary of today's meeting. Kate suggested moving the deadline to Friday. Tom refused to work at the weekend, and Lisa apologised for sending the wrong file last week. Finally, our manager reminded everyone to submit their reports by Thursday. Thanks, Nicha"
+          }
+        ]
+      },
+      "question": "Which statement is TRUE?",
+      "choices": [
+        "Lisa said sorry for sending the wrong file.",
+        "Tom agreed to work at the weekend.",
+        "Kate wanted to keep the deadline on Thursday.",
+        "The manager forgot about the reports."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Tom refused to work = ปฏิเสธไม่ยอมทำงานวันหยุด",
+        "2": "Kate suggested moving the deadline to Friday = เสนอให้เลื่อนไปวันศุกร์",
+        "3": "reminded everyone = ผู้จัดการเป็นคนเตือนทุกคน ไม่ได้ลืม"
+      },
+      "explainTh": "apologise for + V-ing = ขอโทษที่ทำบางอย่าง → Lisa ขอโทษที่ส่งไฟล์ผิด"
+    },
+    {
+      "id": "b2-reporting-verbs-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าสิ่งที่คนรอบตัวพูดเมื่อวาน โดยใช้ reporting verbs ต่างกัน ต้องมีแบบ คน + to + V1 อย่างน้อย 1 ประโยค และแบบ -ing อย่างน้อย 1 ประโยค (Report 3 things people said yesterday using different reporting verbs.)",
+      "minSentences": 3,
+      "expectTense": "past",
+      "checks": [
+        {
+          "re": "\\b(advised|warned|reminded|persuaded|encouraged|invited|told|asked|begged|ordered|urged)\\s+(\\w+\\s+){1,3}(not\\s+)?to\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ verb + คน + to + V1 อย่างน้อย 1 ครั้ง เช่น My teacher reminded us to bring …"
+        },
+        {
+          "re": "\\b(denied|admitted|suggested|recommended|apologi[sz]ed\\s+for|insisted\\s+on|(accused|blamed|thanked|congratulated)\\s+(\\w+\\s+){1,3}(of|for|on))\\s+(not\\s+)?\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "ใช้แพทเทิร์น -ing อย่างน้อย 1 ครั้ง เช่น apologised for breaking, suggested going"
+        }
+      ],
+      "sample": "Yesterday my teacher reminded us to bring our books. My brother apologised for breaking my headphones. My friend suggested going to the night market after school.",
+      "explainTh": "reminded us to bring (คน + to + V1) · apologised for breaking (for + V-ing) · suggested going (V-ing)"
+    }
+  ]
+}

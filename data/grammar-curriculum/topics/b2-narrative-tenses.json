@@ -1,0 +1,511 @@
+{
+  "id": "b2-narrative-tenses",
+  "summaryTh": "ใช้ tense อดีต 4 แบบร่วมกันเพื่อเล่าเรื่องให้ชัดว่าอะไรเกิดก่อน-หลัง",
+  "concept": {
+    "what": "Narrative tenses คือชุดของ tense อดีต 4 แบบที่ใช้ร่วมกันเวลาเล่าเรื่อง: Past Simple (เหตุการณ์หลัก), Past Continuous (ฉากหลัง/สิ่งที่กำลังเกิดอยู่), Past Perfect (สิ่งที่เกิดก่อนหน้านั้น) และ Past Perfect Continuous (สิ่งที่ทำต่อเนื่องมาจนถึงจุดนั้น)",
+    "when": [
+      "Past Simple: เหตุการณ์หลักที่เกิดต่อกันในเรื่อง (I opened the door and saw a man.)",
+      "Past Continuous: บรรยายฉาก หรือเหตุการณ์ที่กำลังเกิดอยู่ตอนที่มีอีกเรื่องแทรกเข้ามา (It was raining. / I was cooking when the phone rang.)",
+      "Past Perfect: ย้อนไปเล่าเหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีต (When I arrived, the film had started.)",
+      "Past Perfect Continuous: การกระทำที่ทำต่อเนื่องมาระยะหนึ่งก่อนถึงจุดในอดีต มักบอกเหตุผล/ร่องรอย (She was tired because she had been working all day.)",
+      "ถ้าลำดับเหตุการณ์ชัดอยู่แล้วด้วยคำเชื่อม เช่น after, before ใช้ Past Simple ทั้งคู่ได้ (After I finished, I went home.) แต่ถ้าใช้ by the time หรือ when แล้วอีกเหตุการณ์จบไปก่อนแล้ว ประโยคหลักต้องใช้ Past Perfect (By the time I arrived, they had left.)"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"กำลัง\" \"แล้ว\" \"ไปก่อนแล้ว\" บอกลำดับ แต่ภาษาอังกฤษบอกด้วยรูปกริยา ถ้าใช้ Past Simple ทุกประโยค ผู้ฟังอาจเข้าใจลำดับเหตุการณ์ผิด เช่น When I arrived, the train left. (รถไฟออกหลังฉันมาถึง) ต่างจาก When I arrived, the train had left. (รถไฟออกไปก่อนแล้ว)"
+  },
+  "structure": {
+    "formula": "Past Simple (V2) · Past Continuous (was/were + V-ing) · Past Perfect (had + V3) · Past Perfect Continuous (had been + V-ing)",
+    "rows": [
+      {
+        "label": "Past Simple — เหตุการณ์หลัก",
+        "formula": "Subject + V2",
+        "example": "I [[opened]] the door and [[saw]] a cat on my bed."
+      },
+      {
+        "label": "Past Continuous — ฉากหลัง / ถูกขัดจังหวะ",
+        "formula": "Subject + was/were + V-ing",
+        "example": "We [[were watching]] TV when the lights [[went]] out."
+      },
+      {
+        "label": "Past Perfect — เกิดก่อนอีกเหตุการณ์",
+        "formula": "Subject + had + V3",
+        "example": "By the time we arrived, the party [[had finished]]."
+      },
+      {
+        "label": "Past Perfect Continuous — ทำต่อเนื่องมาก่อนจุดนั้น",
+        "formula": "Subject + had been + V-ing",
+        "example": "He was out of breath because he [[had been running]]."
+      },
+      {
+        "label": "ปฏิเสธ / คำถาม",
+        "formula": "wasn't + V-ing · hadn't + V3 · Had + S + V3 …?",
+        "example": "She [[hadn't eaten]] all day. / [[Had]] you [[met]] him before?"
+      }
+    ],
+    "notes": [
+      "while + Past Continuous (ช่วงเวลาที่ยาว) · when + Past Simple (เหตุการณ์สั้นที่แทรกเข้ามา)",
+      "by the time / already / before (ที่หมายถึงก่อนจุดในอดีต) มักไปกับ Past Perfect",
+      "Past Perfect Continuous มักมีระยะเวลา: for two hours, all day, since morning",
+      "กริยาบอกสภาพ (know, believe, own, like) ไม่ค่อยใช้รูป continuous: I had known him for years. (ไม่ใช่ had been knowing)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "It [[was getting]] dark and the wind [[was blowing]] hard.",
+      "th": "ฟ้ากำลังมืดลงและลมพัดแรง (บรรยายฉาก)"
+    },
+    {
+      "en": "I [[was waiting]] for the bus when I [[saw]] my old teacher.",
+      "th": "ฉันกำลังรอรถเมล์อยู่ตอนที่เห็นครูเก่า"
+    },
+    {
+      "en": "When we [[got]] to the airport, our flight [[had]] already [[left]].",
+      "th": "พอพวกเรามาถึงสนามบิน เที่ยวบินก็ออกไปแล้ว"
+    },
+    {
+      "en": "Her eyes were red because she [[had been crying]].",
+      "th": "ตาเธอแดงเพราะเธอร้องไห้มา"
+    },
+    {
+      "en": "He [[had never travelled]] abroad before he [[went]] to Japan last year.",
+      "th": "เขาไม่เคยไปต่างประเทศเลยก่อนจะไปญี่ปุ่นเมื่อปีที่แล้ว"
+    },
+    {
+      "en": "While I [[was scrolling]] through social media, I [[found]] a post about my school.",
+      "th": "ระหว่างที่ฉันเลื่อนดูโซเชียลมีเดีย ฉันเจอโพสต์เกี่ยวกับโรงเรียนของฉัน"
+    },
+    {
+      "en": "We [[had been driving]] for three hours when the car [[broke]] down.",
+      "th": "เราขับรถมาสามชั่วโมงแล้ว ตอนที่รถเสีย"
+    },
+    {
+      "en": "After she [[finished]] her presentation, everyone [[clapped]].",
+      "th": "หลังเธอนำเสนอเสร็จ ทุกคนก็ปรบมือ (after บอกลำดับแล้ว ใช้ Past Simple ได้)"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "When I arrived at the station, the train already left.",
+      "right": "When I arrived at the station, the train had already left.",
+      "whyTh": "ถ้ารถไฟออกไป \"ก่อน\" ที่ฉันมาถึง ต้องใช้ had + V3 ภาษาไทยพูดแค่ \"ไปแล้ว\" จึงมักลืมเปลี่ยนรูปกริยา"
+    },
+    {
+      "wrong": "I watched TV when my mum came home. (ตั้งใจบอกว่ากำลังดูอยู่ตอนแม่มา)",
+      "right": "I was watching TV when my mum came home.",
+      "whyTh": "ถ้าจะบอกว่า \"กำลังดูอยู่\" ตอนที่แม่กลับมา ต้องใช้ was/were + V-ing ถ้าใช้ watched จะฟังเหมือนเริ่มดูหลังแม่มาถึง"
+    },
+    {
+      "wrong": "She was tired because she has been working all day.",
+      "right": "She was tired because she had been working all day.",
+      "whyTh": "เรื่องทั้งหมดอยู่ในอดีต (was tired) จึงต้องถอยไปเป็น had been + V-ing ไม่ใช่ has been"
+    },
+    {
+      "wrong": "By the time the police came, the thief escaped.",
+      "right": "By the time the police came, the thief had escaped.",
+      "whyTh": "by the time + อดีต บอกว่าอีกเหตุการณ์เสร็จไปก่อนแล้ว ประโยคหลักจึงใช้ Past Perfect"
+    },
+    {
+      "wrong": "I had been knowing him for ten years when we started the company.",
+      "right": "I had known him for ten years when we started the company.",
+      "whyTh": "know เป็นกริยาบอกสภาพ ไม่ใช้รูป -ing จึงใช้ had known แทน had been knowing"
+    }
+  ],
+  "compare": {
+    "title": "Past Perfect vs Past Perfect Continuous",
+    "with": [
+      "b1-past-perfect"
+    ],
+    "rows": [
+      {
+        "label": "เน้น",
+        "a": "ผลที่เสร็จแล้วก่อนจุดในอดีต",
+        "b": "ความต่อเนื่อง / ระยะเวลาของการกระทำก่อนจุดนั้น"
+      },
+      {
+        "label": "คำที่มักเจอ",
+        "a": "already, never, by the time, before",
+        "b": "for two hours, all day, since morning"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "She had painted the room. (ทาสีเสร็จแล้ว)",
+        "b": "She had been painting the room. (ทาอยู่นาน มือเลอะสี อาจยังไม่เสร็จ)"
+      }
+    ],
+    "tipTh": "ถ้าอยากบอกว่า \"เสร็จแล้วกี่อย่าง/กี่ครั้ง\" ใช้ had + V3 · ถ้าอยากบอกว่า \"ทำมานานแค่ไหน\" หรืออธิบายร่องรอยที่เห็น ใช้ had been + V-ing"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "A strange night",
+      "lines": [
+        {
+          "text": "It [[was raining]] heavily and I [[was walking]] home from the library. I [[had been studying]] for six hours, so I [[was]] exhausted. When I [[reached]] my front door, I [[realised]] that I [[had left]] my keys in the library. I [[turned]] around and [[ran]] back through the rain."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Why were you late?",
+      "lines": [
+        {
+          "speaker": "Ploy",
+          "text": "You missed the start of the meeting! What happened?"
+        },
+        {
+          "speaker": "Dan",
+          "text": "I [[was driving]] to the office when a tyre [[burst]]. By the time I [[had changed]] it, I [[was]] already twenty minutes late."
+        },
+        {
+          "speaker": "Ploy",
+          "text": "Oh no! [[Had]] you ever [[changed]] a tyre before?"
+        },
+        {
+          "speaker": "Dan",
+          "text": "Never. I [[had been watching]] videos about it the night before, luckily!"
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "Travel post",
+      "lines": [
+        {
+          "text": "Last summer I finally [[visited]] Iceland. I [[had wanted]] to go there since I was a child. On our second night, we [[were sitting]] outside our hotel when the sky suddenly [[turned]] green — the Northern Lights!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Narrative tenses",
+      "th": "tense ที่ใช้เล่าเรื่องในอดีต (ใช้หลายแบบร่วมกัน)"
+    },
+    {
+      "en": "Past Continuous",
+      "th": "อดีตกำลังกระทำ — กำลังทำอยู่ ณ ตอนนั้น"
+    },
+    {
+      "en": "Past Perfect",
+      "th": "อดีตสมบูรณ์ — เกิดก่อนอีกเหตุการณ์ในอดีต"
+    },
+    {
+      "en": "Past Perfect Continuous",
+      "th": "ทำต่อเนื่องมาระยะหนึ่ง จนถึงจุดหนึ่งในอดีต"
+    },
+    {
+      "en": "Background action",
+      "th": "เหตุการณ์ฉากหลัง ที่กำลังเกิดอยู่ขณะเรื่องหลักเกิดขึ้น"
+    },
+    {
+      "en": "Interrupted action",
+      "th": "การกระทำที่ถูกเหตุการณ์อื่นแทรกกลางคัน"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-narrative-tenses-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I ___ a shower when the phone rang, so I didn't hear it.",
+      "choices": [
+        "was having",
+        "had had",
+        "have had",
+        "am having"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "had had แปลว่าอาบน้ำเสร็จไปก่อนแล้ว ถ้าอาบเสร็จแล้วก็ควรได้ยินโทรศัพท์ ไม่เข้ากับ so I didn't hear it",
+        "2": "have had เป็น Present Perfect ใช้เล่าเรื่องอดีตที่มี rang ไม่ได้",
+        "3": "am having เป็นปัจจุบัน แต่ทั้งเรื่องอยู่ในอดีต"
+      },
+      "explainTh": "กำลังอาบน้ำอยู่ (ฉากหลัง) แล้วโทรศัพท์ดังแทรกเข้ามา → Past Continuous: was having + when + Past Simple",
+      "structure": "was/were + V-ing … when + V2",
+      "example": "I was having a shower when the phone rang."
+    },
+    {
+      "id": "b2-narrative-tenses-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "While we ___ (walk — กำลังเดินอยู่) home, it started to rain heavily.",
+      "accepted": [
+        "were walking"
+      ],
+      "explainTh": "while + การกระทำที่กำลังดำเนินอยู่เป็นช่วงยาว → Past Continuous: we were walking",
+      "structure": "While + Subject + was/were + V-ing",
+      "example": "While we were walking home, it started to rain."
+    },
+    {
+      "id": "b2-narrative-tenses-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "When I got to the station, the train ___ (already / leave), so I had to wait an hour for the next one.",
+      "accepted": [
+        "had already left",
+        "already had left"
+      ],
+      "explainTh": "รถไฟออกไป \"ก่อน\" ที่ฉันมาถึง → Past Perfect: had + already + V3 (left) ถ้าใช้ Past Simple หลัง when จะฟังเหมือนรถไฟออกหลังฉันมาถึง",
+      "structure": "had + already + V3",
+      "example": "The train had already left."
+    },
+    {
+      "id": "b2-narrative-tenses-04",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "When I saw Mai that morning, she looked exhausted. She ___ for her exam all night.",
+      "choices": [
+        "had been studying",
+        "has been studying",
+        "is studying",
+        "had been study"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "has been studying เป็นปัจจุบัน แต่เรื่องเล่าอยู่ในอดีต (saw, looked) ต้องถอยเป็น had been",
+        "2": "is studying เป็นปัจจุบัน ไม่เข้ากับเรื่องเล่าในอดีต",
+        "3": "หลัง had been ต้องใช้ V-ing (studying) ไม่ใช่ V1"
+      },
+      "explainTh": "อ่านหนังสือต่อเนื่องทั้งคืน (all night) ก่อนจุดที่ฉันเห็นเธอ และเห็นร่องรอยคือเธอดูเหนื่อย → Past Perfect Continuous: had been studying",
+      "structure": "had been + V-ing",
+      "example": "She had been studying all night."
+    },
+    {
+      "id": "b2-narrative-tenses-05",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "By the time we arrived at the cinema, the film started.",
+      "errorPart": "started",
+      "accepted": [
+        "By the time we arrived at the cinema, the film had started.",
+        "By the time we arrived at the cinema, the film had already started."
+      ],
+      "explainTh": "by the time + อดีต บอกว่าอีกเหตุการณ์เกิดเสร็จไปก่อนแล้ว ประโยคหลักจึงต้องเป็น Past Perfect: had started",
+      "structure": "By the time + V2, Subject + had + V3"
+    },
+    {
+      "id": "b2-narrative-tenses-06",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "I",
+        "was",
+        "reading",
+        "when",
+        "the",
+        "lights",
+        "went",
+        "out"
+      ],
+      "accepted": [
+        "I was reading when the lights went out.",
+        "When the lights went out I was reading."
+      ],
+      "explainTh": "การกระทำที่กำลังเกิด (was reading) ถูกเหตุการณ์สั้นแทรก (went out) → was/were + V-ing + when + V2"
+    },
+    {
+      "id": "b2-narrative-tenses-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "she",
+        "had",
+        "never",
+        "flown",
+        "before",
+        "that",
+        "trip"
+      ],
+      "accepted": [
+        "She had never flown before that trip.",
+        "Before that trip she had never flown."
+      ],
+      "explainTh": "ประสบการณ์ที่ \"ยังไม่เคย\" จนถึงจุดหนึ่งในอดีต → had + never + V3 (flown)"
+    },
+    {
+      "id": "b2-narrative-tenses-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I finished my report. Then I went home.",
+      "instruction": "รวมเป็นประโยคเดียว ขึ้นต้นด้วย After I had …",
+      "accepted": [
+        "After I had finished my report, I went home.",
+        "After I had finished my report I went home.",
+        "After I'd finished my report, I went home.",
+        "After I'd finished my report I went home."
+      ],
+      "explainTh": "เหตุการณ์แรก (เขียนรายงานเสร็จ) ใช้ Past Perfect: had finished · เหตุการณ์ถัดมาใช้ Past Simple: went (หลัง after จะใช้ finished ก็ได้ แต่โจทย์ให้ใช้ had)",
+      "structure": "After + had + V3, Subject + V2"
+    },
+    {
+      "id": "b2-narrative-tenses-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Tom started waiting for the bus at 6 p.m. The bus finally came at 7 p.m.",
+      "instruction": "รวมเป็นประโยคเดียว: Tom … for an hour when the bus finally came. (ใช้ wait)",
+      "accepted": [
+        "Tom had been waiting for an hour when the bus finally came.",
+        "Tom'd been waiting for an hour when the bus finally came.",
+        "Tom had been waiting for one hour when the bus finally came.",
+        "Tom'd been waiting for one hour when the bus finally came."
+      ],
+      "explainTh": "รอต่อเนื่องหนึ่งชั่วโมงก่อนจุดที่รถมา → Past Perfect Continuous: had been waiting + for an hour",
+      "structure": "had been + V-ing + for … when + V2"
+    },
+    {
+      "id": "b2-narrative-tenses-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ tense กับหน้าที่ในการเล่าเรื่อง",
+      "pairs": [
+        [
+          "Past Simple",
+          "เหตุการณ์หลักที่เกิดต่อกันในเรื่อง"
+        ],
+        [
+          "Past Continuous",
+          "ฉากหลัง หรือสิ่งที่กำลังเกิดอยู่ตอนนั้น"
+        ],
+        [
+          "Past Perfect",
+          "เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีต"
+        ],
+        [
+          "Past Perfect Continuous",
+          "การกระทำที่ทำต่อเนื่องมาระยะหนึ่งก่อนจุดในอดีต"
+        ]
+      ],
+      "explainTh": "เล่าเรื่องให้ชัด: V2 = เหตุการณ์หลัก · was/were + V-ing = ฉากหลัง · had + V3 = ย้อนอดีตก่อนหน้า · had been + V-ing = ทำต่อเนื่องมาก่อนจุดนั้น"
+    },
+    {
+      "id": "b2-narrative-tenses-11",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Did you see the fireworks last night?"
+          },
+          {
+            "speaker": "B",
+            "text": "No! By the time I got to the beach, they ___, so I only saw the smoke."
+          }
+        ]
+      },
+      "choices": [
+        "had finished",
+        "have finished",
+        "finished",
+        "are finishing"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have finished เป็นปัจจุบัน ใช้กับเรื่องเมื่อคืนที่เล่าด้วย got ไม่ได้",
+        "2": "หลัง by the time + อดีต ประโยคหลักต้องเป็น Past Perfect เพื่อบอกว่าจบไปก่อนแล้ว",
+        "3": "are finishing เป็นปัจจุบัน ไม่เข้ากับเรื่องเมื่อคืน"
+      },
+      "explainTh": "by the time I got there = จุดในอดีต ดอกไม้ไฟจบไปก่อนจุดนั้น → had finished (และเห็นแต่ควัน ยืนยันว่าจบแล้ว)"
+    },
+    {
+      "id": "b2-narrative-tenses-12",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "Nina's birthday",
+        "lines": [
+          {
+            "text": "When Nina got home, the house was quiet. Her parents had gone out, and the dog was sleeping on the sofa. Then she walked into the kitchen and saw that someone had eaten half of her birthday cake."
+          }
+        ]
+      },
+      "question": "Which of these happened BEFORE Nina got home?",
+      "choices": [
+        "Someone ate half of her cake.",
+        "The dog woke up.",
+        "Nina walked into the kitchen.",
+        "Her parents came back."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "เรื่องบอกว่า the dog was sleeping (กำลังหลับอยู่) ไม่ได้บอกว่าตื่น",
+        "2": "เดินเข้าครัวเป็น Past Simple ที่เกิดหลังเธอกลับถึงบ้าน (Then …)",
+        "3": "had gone out แปลว่าพ่อแม่ออกไปข้างนอก ยังไม่กลับมา"
+      },
+      "explainTh": "someone had eaten = Past Perfect บอกว่าเค้กถูกกินไปก่อนที่ Nina จะเข้าบ้านและเห็น"
+    },
+    {
+      "id": "b2-narrative-tenses-13",
+      "type": "choose",
+      "difficulty": 1,
+      "question": "เลือกประโยคที่ตรงกับความหมาย: เพื่อน ๆ กลับบ้านไปก่อนที่ฉันจะมาถึง",
+      "choices": [
+        "When I arrived, my friends had gone home.",
+        "When I arrived, my friends have gone home.",
+        "When I arrived, my friends went home.",
+        "When I arrived, my friends were going home."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have gone เป็นปัจจุบัน ใช้กับเรื่องอดีตที่มี arrived ไม่ได้",
+        "2": "went หลัง when แปลว่าเพื่อนกลับ \"หลัง\" ฉันมาถึง ความหมายไม่ตรง",
+        "3": "were going home แปลว่าเพื่อนกำลังจะกลับ/กำลังเดินกลับตอนที่ฉันมาถึง ยังไม่ได้ไปก่อน"
+      },
+      "explainTh": "\"ไปก่อนแล้ว\" ก่อนอีกเหตุการณ์ในอดีต → had + V3: had gone"
+    },
+    {
+      "id": "b2-narrative-tenses-14",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Her hands were covered in paint because she ___ (paint — ทำต่อเนื่องมาทั้งเช้า) her bedroom all morning.",
+      "accepted": [
+        "had been painting"
+      ],
+      "explainTh": "ทาสีต่อเนื่องทั้งเช้า (all morning) และเห็นร่องรอยคือมือเปื้อนสี → Past Perfect Continuous: had been painting",
+      "structure": "had been + V-ing",
+      "example": "She had been painting all morning."
+    },
+    {
+      "id": "b2-narrative-tenses-15",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "I recognised the man in the café immediately. I ___ him on TV the night before.",
+      "choices": [
+        "had seen",
+        "was seeing",
+        "have seen",
+        "had been seeing"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "see เป็นกริยาการรับรู้ ปกติไม่ใช้รูป -ing และ was seeing ไม่ได้บอกว่าเกิดก่อน",
+        "2": "have seen เป็นปัจจุบัน และใช้กับเวลาที่ระบุชัด (the night before) ไม่ได้",
+        "3": "had been seeing someone มักแปลว่า \"คบหา/เดตกับใคร\" ความหมายไม่ตรง"
+      },
+      "explainTh": "เห็นในทีวีคืนก่อนหน้า (เกิดก่อน recognised) → Past Perfect: had seen · the night before คือ \"คืนก่อนวันนั้น\" ในเรื่องเล่า"
+    },
+    {
+      "id": "b2-narrative-tenses-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 4 ประโยคเล่าเรื่องวันที่มีบางอย่างผิดพลาด ใช้ Past Simple, Past Continuous และ Past Perfect อย่างน้อยอย่างละ 1 ครั้ง (Write 4 sentences about a day when something went wrong. Use past simple, past continuous and past perfect.)",
+      "minSentences": 4,
+      "expectTense": "past",
+      "checks": [
+        {
+          "re": "\\b(was|were)(n't|\\s+not)?\\s+(still\\s+|just\\s+|already\\s+|really\\s+)?\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "ใช้ Past Continuous อย่างน้อย 1 ครั้ง (was/were + V-ing) เช่น I was walking …"
+        },
+        {
+          "re": "(\\bhad|\\w'd)(n't|\\s+not)?\\s+(already\\s+|just\\s+|never\\s+|ever\\s+|not\\s+|completely\\s+)?(been|had|\\w+ed|\\w+en|gone|done|left|lost|forgot|bought|brought|caught|taught|thought|found|made|met|run|seen|sent|spent|told|said|won|heard|read|put|cut|begun|sold|felt|kept|got|come|become|hit|hurt|let|shut|set|paid|slept|stood|understood|built|drunk|swum|sung|rung|held|meant|fed|fought|lit)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ Past Perfect อย่างน้อย 1 ครั้ง (had + V3) เช่น I had left my bag …"
+        }
+      ],
+      "sample": "Last Monday I was walking to school when it started to rain. I had left my umbrella at home, so I got very wet. When I arrived, the lesson had already started. My teacher gave me a towel and I felt much better.",
+      "explainTh": "ใช้ was/were + V-ing บรรยายฉากหลัง ใช้ V2 เล่าเหตุการณ์หลัก และใช้ had + V3 ย้อนไปสิ่งที่เกิดก่อน (had left, had started)"
+    }
+  ]
+}

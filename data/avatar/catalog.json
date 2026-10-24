@@ -1,0 +1,3414 @@
+{
+ "version": 1,
+ "layerZ": {
+  "background": 0,
+  "effectBack": 2,
+  "back": 5,
+  "hairBack": 7,
+  "body": 10,
+  "bottom": 20,
+  "shoes": 22,
+  "top": 30,
+  "backFront": 33,
+  "outerwear": 35,
+  "face": 40,
+  "glasses": 45,
+  "hair": 50,
+  "headphones": 60,
+  "hat": 65,
+  "accessory": 70,
+  "effect": 90
+ },
+ "collections": [
+  {
+   "id": "everyday",
+   "name": "Everyday Casual",
+   "nameTh": "ชุดลำลองทุกวัน"
+  },
+  {
+   "id": "street",
+   "name": "Streetwear",
+   "nameTh": "สตรีทแวร์"
+  },
+  {
+   "id": "smart",
+   "name": "Smart Casual",
+   "nameTh": "สมาร์ตแคชชวล"
+  },
+  {
+   "id": "sport",
+   "name": "Sportwear",
+   "nameTh": "ชุดกีฬา"
+  },
+  {
+   "id": "school",
+   "name": "School & Campus",
+   "nameTh": "โรงเรียนและมหาวิทยาลัย"
+  },
+  {
+   "id": "minimal",
+   "name": "Minimal Fashion",
+   "nameTh": "มินิมอล"
+  },
+  {
+   "id": "vintage",
+   "name": "Vintage",
+   "nameTh": "วินเทจ"
+  },
+  {
+   "id": "fantasy",
+   "name": "Fantasy Adventure",
+   "nameTh": "แฟนตาซีผจญภัย"
+  },
+  {
+   "id": "cyber",
+   "name": "Cyber / Techwear",
+   "nameTh": "ไซเบอร์ / เทคแวร์"
+  },
+  {
+   "id": "winter",
+   "name": "Winter Fashion",
+   "nameTh": "แฟชั่นฤดูหนาว"
+  },
+  {
+   "id": "summer",
+   "name": "Summer Fashion",
+   "nameTh": "แฟชั่นฤดูร้อน"
+  },
+  {
+   "id": "seasonal",
+   "name": "Seasonal Events",
+   "nameTh": "เทศกาล"
+  },
+  {
+   "id": "halloween26",
+   "name": "Halloween Costume Festival 2026",
+   "nameTh": "เทศกาลชุดฮาโลวีน 2026"
+  }
+ ],
+ "items": [
+  {
+   "id": "body_light",
+   "slot": "body",
+   "name": "Skin Tone 1",
+   "nameTh": "สีผิว 1",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 0,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 10,
+     "url": "/assets/avatar/items/body_light.svg?v=6757e14a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/body_light.svg?v=f5a4ddd1"
+  },
+  {
+   "id": "body_warm",
+   "slot": "body",
+   "name": "Skin Tone 2",
+   "nameTh": "สีผิว 2",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 1,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 10,
+     "url": "/assets/avatar/items/body_warm.svg?v=1008f0e7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/body_warm.svg?v=5f2be160"
+  },
+  {
+   "id": "body_tan",
+   "slot": "body",
+   "name": "Skin Tone 3",
+   "nameTh": "สีผิว 3",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 2,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 10,
+     "url": "/assets/avatar/items/body_tan.svg?v=1edc7150"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/body_tan.svg?v=b8864f59"
+  },
+  {
+   "id": "body_deep",
+   "slot": "body",
+   "name": "Skin Tone 4",
+   "nameTh": "สีผิว 4",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 3,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 10,
+     "url": "/assets/avatar/items/body_deep.svg?v=3571a487"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/body_deep.svg?v=33e423ae"
+  },
+  {
+   "id": "face_smile",
+   "slot": "face",
+   "name": "Smile",
+   "nameTh": "ยิ้ม",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 4,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 40,
+     "url": "/assets/avatar/items/face_smile.svg?v=1b272207"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/face_smile.svg?v=c55d4481"
+  },
+  {
+   "id": "face_happy",
+   "slot": "face",
+   "name": "Happy",
+   "nameTh": "ดีใจ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 5,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 40,
+     "url": "/assets/avatar/items/face_happy.svg?v=b7e1474a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/face_happy.svg?v=08c0bb2b"
+  },
+  {
+   "id": "face_cool",
+   "slot": "face",
+   "name": "Cool",
+   "nameTh": "ชิล",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 6,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 40,
+     "url": "/assets/avatar/items/face_cool.svg?v=41fe1db8"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/face_cool.svg?v=cf7f6b19"
+  },
+  {
+   "id": "face_focused",
+   "slot": "face",
+   "name": "Focused",
+   "nameTh": "ตั้งใจ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 7,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 40,
+     "url": "/assets/avatar/items/face_focused.svg?v=c2b634a4"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/face_focused.svg?v=9cdbad19"
+  },
+  {
+   "id": "hair_crop",
+   "slot": "hair",
+   "name": "Short Crop",
+   "nameTh": "ผมสั้นเรียบ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 8,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_crop.svg?v=08ada166"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_crop.svg?v=67024b57"
+  },
+  {
+   "id": "hair_sidepart",
+   "slot": "hair",
+   "name": "Side Swept",
+   "nameTh": "ผมปัดข้าง",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 9,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_sidepart.svg?v=c561df41"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_sidepart.svg?v=e15debc3"
+  },
+  {
+   "id": "hair_bob",
+   "slot": "hair",
+   "name": "Bob Cut",
+   "nameTh": "ผมบ็อบ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 10,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_bob.svg?v=2e86feaa"
+    },
+    {
+     "kind": "back",
+     "z": 7,
+     "url": "/assets/avatar/items/hair_bob-back.svg?v=e99832e8"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_bob.svg?v=74d4ed07"
+  },
+  {
+   "id": "hair_ponytail",
+   "slot": "hair",
+   "name": "Ponytail",
+   "nameTh": "ผมหางม้า",
+   "rarity": "common",
+   "price": 110,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 11,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_ponytail.svg?v=0bec1a42"
+    },
+    {
+     "kind": "back",
+     "z": 7,
+     "url": "/assets/avatar/items/hair_ponytail-back.svg?v=3c77fa49"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_ponytail.svg?v=5f15bc3b"
+  },
+  {
+   "id": "hair_long",
+   "slot": "hair",
+   "name": "Long Hair",
+   "nameTh": "ผมยาว",
+   "rarity": "uncommon",
+   "price": 220,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 12,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_long.svg?v=0cbbe711"
+    },
+    {
+     "kind": "back",
+     "z": 7,
+     "url": "/assets/avatar/items/hair_long-back.svg?v=e4b5ecfb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_long.svg?v=c352b377"
+  },
+  {
+   "id": "top_tee_blue",
+   "slot": "top",
+   "name": "Blue Tee",
+   "nameTh": "เสื้อยืดสีฟ้า",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 13,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_tee_blue.svg?v=54ca2ab7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_tee_blue.svg?v=bc44556e"
+  },
+  {
+   "id": "top_polo_green",
+   "slot": "top",
+   "name": "Green Polo",
+   "nameTh": "เสื้อโปโลสีเขียว",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 14,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_polo_green.svg?v=4bd6583b"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_polo_green.svg?v=57f8ee22"
+  },
+  {
+   "id": "top_hoodie_gray",
+   "slot": "top",
+   "name": "Gray Hoodie",
+   "nameTh": "ฮู้ดดี้สีเทา",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 15,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_hoodie_gray.svg?v=b58d9fc8"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_hoodie_gray.svg?v=331958e3"
+  },
+  {
+   "id": "top_tee_stripe",
+   "slot": "top",
+   "name": "Striped Tee",
+   "nameTh": "เสื้อลายทาง",
+   "rarity": "common",
+   "price": 90,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 16,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_tee_stripe.svg?v=853f52be"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_tee_stripe.svg?v=c978661f"
+  },
+  {
+   "id": "top_sweater_knit",
+   "slot": "top",
+   "name": "Knit Sweater",
+   "nameTh": "สเวตเตอร์ไหมพรม",
+   "rarity": "uncommon",
+   "price": 180,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 17,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_sweater_knit.svg?v=72f1c08d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_sweater_knit.svg?v=fa044d66"
+  },
+  {
+   "id": "top_school_shirt",
+   "slot": "top",
+   "name": "School Shirt",
+   "nameTh": "เสื้อนักเรียนผูกไท",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 18,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_school_shirt.svg?v=321d594b"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_school_shirt.svg?v=a4d1cf25"
+  },
+  {
+   "id": "top_tee_star",
+   "slot": "top",
+   "name": "Star Tee",
+   "nameTh": "เสื้อยืดลายดาว",
+   "rarity": "rare",
+   "price": 380,
+   "starter": false,
+   "purchasable": true,
+   "featured": true,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 19,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_tee_star.svg?v=08a2edfa"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_tee_star.svg?v=583dc823"
+  },
+  {
+   "id": "top_hoodie_galaxy",
+   "slot": "top",
+   "name": "Galaxy Hoodie",
+   "nameTh": "ฮู้ดดี้กาแล็กซี",
+   "rarity": "epic",
+   "price": 850,
+   "starter": false,
+   "purchasable": true,
+   "featured": true,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 20,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_hoodie_galaxy.svg?v=486fc7df"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_hoodie_galaxy.svg?v=14486a2f"
+  },
+  {
+   "id": "bottom_jeans",
+   "slot": "bottom",
+   "name": "Blue Jeans",
+   "nameTh": "กางเกงยีนส์",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 21,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_jeans.svg?v=ddae2996"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_jeans.svg?v=413c2d85"
+  },
+  {
+   "id": "bottom_skirt_pleated",
+   "slot": "bottom",
+   "name": "Pleated Skirt",
+   "nameTh": "กระโปรงจีบ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 22,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_skirt_pleated.svg?v=bcfe46db"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_skirt_pleated.svg?v=14b40a37"
+  },
+  {
+   "id": "bottom_shorts_khaki",
+   "slot": "bottom",
+   "name": "Khaki Shorts",
+   "nameTh": "กางเกงขาสั้นสีกากี",
+   "rarity": "common",
+   "price": 80,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 23,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_shorts_khaki.svg?v=8997c514"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_shorts_khaki.svg?v=d90a0d3f"
+  },
+  {
+   "id": "bottom_cargo",
+   "slot": "bottom",
+   "name": "Cargo Pants",
+   "nameTh": "กางเกงคาร์โก",
+   "rarity": "uncommon",
+   "price": 170,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 24,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_cargo.svg?v=2fa9eb9c"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_cargo.svg?v=431d7ded"
+  },
+  {
+   "id": "bottom_skirt_plaid",
+   "slot": "bottom",
+   "name": "Plaid Skirt",
+   "nameTh": "กระโปรงลายสก็อต",
+   "rarity": "rare",
+   "price": 340,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 25,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_skirt_plaid.svg?v=f4793541"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_skirt_plaid.svg?v=1521fb33"
+  },
+  {
+   "id": "shoes_sneaker_white",
+   "slot": "shoes",
+   "name": "White Sneakers",
+   "nameTh": "รองเท้าผ้าใบขาว",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 26,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_sneaker_white.svg?v=9fb99e18"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_sneaker_white.svg?v=08f28361"
+  },
+  {
+   "id": "shoes_canvas_black",
+   "slot": "shoes",
+   "name": "Black Canvas",
+   "nameTh": "รองเท้าผ้าใบดำ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 27,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_canvas_black.svg?v=680f62c7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_canvas_black.svg?v=0609b998"
+  },
+  {
+   "id": "shoes_boots_brown",
+   "slot": "shoes",
+   "name": "Brown Boots",
+   "nameTh": "บูทสีน้ำตาล",
+   "rarity": "uncommon",
+   "price": 160,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 28,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_boots_brown.svg?v=5acc9426"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_boots_brown.svg?v=658cede3"
+  },
+  {
+   "id": "shoes_hightop_red",
+   "slot": "shoes",
+   "name": "Red High-tops",
+   "nameTh": "รองเท้าหุ้มข้อแดง",
+   "rarity": "rare",
+   "price": 360,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 29,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_hightop_red.svg?v=48b9c60b"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_hightop_red.svg?v=9102cbf4"
+  },
+  {
+   "id": "shoes_glow_sneaker",
+   "slot": "shoes",
+   "name": "Glow Sneakers",
+   "nameTh": "รองเท้าเรืองแสง",
+   "rarity": "epic",
+   "price": 760,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 30,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_glow_sneaker.svg?v=7aa988ad"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_glow_sneaker.svg?v=0d83249c"
+  },
+  {
+   "id": "hat_cap_red",
+   "slot": "hat",
+   "name": "Red Cap",
+   "nameTh": "หมวกแก๊ปแดง",
+   "rarity": "common",
+   "price": 90,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 31,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_cap_red.svg?v=d46cde4e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_cap_red.svg?v=47bd5096"
+  },
+  {
+   "id": "hat_beanie_teal",
+   "slot": "hat",
+   "name": "Teal Beanie",
+   "nameTh": "หมวกไหมพรม",
+   "rarity": "common",
+   "price": 110,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 32,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_beanie_teal.svg?v=40a867d7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_beanie_teal.svg?v=8f6163b4"
+  },
+  {
+   "id": "hat_bucket_tan",
+   "slot": "hat",
+   "name": "Bucket Hat",
+   "nameTh": "หมวกบักเก็ต",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 33,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_bucket_tan.svg?v=67610f0a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_bucket_tan.svg?v=aa24d370"
+  },
+  {
+   "id": "hat_grad_cap",
+   "slot": "hat",
+   "name": "Graduation Cap",
+   "nameTh": "หมวกรับปริญญา",
+   "rarity": "rare",
+   "price": 480,
+   "starter": false,
+   "purchasable": true,
+   "featured": true,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 34,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_grad_cap.svg?v=7ca363c3"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_grad_cap.svg?v=b323fe9a"
+  },
+  {
+   "id": "hat_wizard",
+   "slot": "hat",
+   "name": "Wizard Hat",
+   "nameTh": "หมวกพ่อมด",
+   "rarity": "epic",
+   "price": 920,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 35,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_wizard.svg?v=2598444c"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_wizard.svg?v=09c09419"
+  },
+  {
+   "id": "hat_pumpkin",
+   "slot": "hat",
+   "name": "Pumpkin Hat",
+   "nameTh": "หมวกฟักทอง",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween",
+   "collection": "seasonal",
+   "sortOrder": 36,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_pumpkin.svg?v=3a522369"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_pumpkin.svg?v=0c886872"
+  },
+  {
+   "id": "hat_crown_vocab",
+   "slot": "hat",
+   "name": "Vocabulary Crown",
+   "nameTh": "มงกุฎคำศัพท์",
+   "rarity": "legendary",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": "vocab_300",
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 37,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_crown_vocab.svg?v=46124c04"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_crown_vocab.svg?v=24cef6c6"
+  },
+  {
+   "id": "glasses_round",
+   "slot": "glasses",
+   "name": "Round Glasses",
+   "nameTh": "แว่นกลม",
+   "rarity": "common",
+   "price": 80,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 38,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_round.svg?v=cc9154cb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_round.svg?v=71423fe0"
+  },
+  {
+   "id": "glasses_sunglasses",
+   "slot": "glasses",
+   "name": "Sunglasses",
+   "nameTh": "แว่นกันแดด",
+   "rarity": "uncommon",
+   "price": 220,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 39,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_sunglasses.svg?v=0e560100"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_sunglasses.svg?v=194baf2a"
+  },
+  {
+   "id": "glasses_heart_shades",
+   "slot": "glasses",
+   "name": "Heart Shades",
+   "nameTh": "แว่นหัวใจ",
+   "rarity": "rare",
+   "price": 400,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 40,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_heart_shades.svg?v=cede1ab4"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_heart_shades.svg?v=d692ff2c"
+  },
+  {
+   "id": "glasses_visor",
+   "slot": "glasses",
+   "name": "Future Visor",
+   "nameTh": "ไวเซอร์อนาคต",
+   "rarity": "epic",
+   "price": 880,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 41,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_visor.svg?v=df571d0a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_visor.svg?v=81759be8"
+  },
+  {
+   "id": "glasses_grammar",
+   "slot": "glasses",
+   "name": "Grammar Glasses",
+   "nameTh": "แว่นแกรมม่า",
+   "rarity": "epic",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": "grammar_master",
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 42,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_grammar.svg?v=cb13adfa"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_grammar.svg?v=128154f9"
+  },
+  {
+   "id": "phones_basic",
+   "slot": "headphones",
+   "name": "Basic Headphones",
+   "nameTh": "หูฟังพื้นฐาน",
+   "rarity": "common",
+   "price": 120,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 43,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 60,
+     "url": "/assets/avatar/items/phones_basic.svg?v=7e843d38"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/phones_basic.svg?v=37c8f0ca"
+  },
+  {
+   "id": "phones_neon",
+   "slot": "headphones",
+   "name": "Neon Headphones",
+   "nameTh": "หูฟังนีออน",
+   "rarity": "rare",
+   "price": 420,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 44,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 60,
+     "url": "/assets/avatar/items/phones_neon.svg?v=ce6a1a21"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/phones_neon.svg?v=ee2e45a2"
+  },
+  {
+   "id": "phones_cat",
+   "slot": "headphones",
+   "name": "Cat-ear Headphones",
+   "nameTh": "หูฟังหูแมว",
+   "rarity": "epic",
+   "price": 780,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 45,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 60,
+     "url": "/assets/avatar/items/phones_cat.svg?v=1c3ed7eb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/phones_cat.svg?v=5cc07c62"
+  },
+  {
+   "id": "phones_toeic",
+   "slot": "headphones",
+   "name": "TOEIC Headphones",
+   "nameTh": "หูฟัง TOEIC",
+   "rarity": "epic",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": "toeic_listener",
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 46,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 60,
+     "url": "/assets/avatar/items/phones_toeic.svg?v=2ce51745"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/phones_toeic.svg?v=1b92ec5a"
+  },
+  {
+   "id": "back_backpack_school",
+   "slot": "back",
+   "name": "School Backpack",
+   "nameTh": "กระเป๋าเป้นักเรียน",
+   "rarity": "common",
+   "price": 100,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 47,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_backpack_school-back.svg?v=b4c0b608"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_backpack_school.svg?v=8318211d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_backpack_school.svg?v=970235ef"
+  },
+  {
+   "id": "back_backpack_explorer",
+   "slot": "back",
+   "name": "Explorer Pack",
+   "nameTh": "เป้นักสำรวจ",
+   "rarity": "uncommon",
+   "price": 240,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 48,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_backpack_explorer-back.svg?v=4136ede0"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_backpack_explorer.svg?v=71a854a6"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_backpack_explorer.svg?v=9e6e03e6"
+  },
+  {
+   "id": "back_jetpack",
+   "slot": "back",
+   "name": "Jetpack",
+   "nameTh": "เจ็ตแพ็ก",
+   "rarity": "legendary",
+   "price": 1500,
+   "starter": false,
+   "purchasable": true,
+   "featured": true,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 49,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_jetpack-back.svg?v=72b0f8b1"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_jetpack.svg?v=f66154f6"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_jetpack.svg?v=db99b7f6"
+  },
+  {
+   "id": "back_cape_c2",
+   "slot": "back",
+   "name": "C2 Cape",
+   "nameTh": "ผ้าคลุม C2",
+   "rarity": "legendary",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": "c2_scholar",
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 50,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_cape_c2-back.svg?v=1b05bd74"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_cape_c2.svg?v=d0367ff1"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_cape_c2.svg?v=dca79485"
+  },
+  {
+   "id": "outer_denim_jacket",
+   "slot": "outerwear",
+   "name": "Denim Jacket",
+   "nameTh": "แจ็กเก็ตยีนส์",
+   "rarity": "rare",
+   "price": 420,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 51,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_denim_jacket.svg?v=256b6cac"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_denim_jacket.svg?v=08f47d21"
+  },
+  {
+   "id": "outer_lab_coat",
+   "slot": "outerwear",
+   "name": "Lab Coat",
+   "nameTh": "เสื้อกาวน์",
+   "rarity": "uncommon",
+   "price": 280,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 52,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_lab_coat.svg?v=981c2327"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_lab_coat.svg?v=f2d67d45"
+  },
+  {
+   "id": "outer_rank_jacket",
+   "slot": "outerwear",
+   "name": "Rank Jacket",
+   "nameTh": "แจ็กเก็ตแรงค์",
+   "rarity": "epic",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": "rank_climber",
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 53,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_rank_jacket.svg?v=999b0a5e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_rank_jacket.svg?v=c8ea41b3"
+  },
+  {
+   "id": "acc_watch",
+   "slot": "accessory",
+   "name": "Wristwatch",
+   "nameTh": "นาฬิกาข้อมือ",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 54,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_watch.svg?v=bee5ea21"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_watch.svg?v=fed004ef"
+  },
+  {
+   "id": "acc_scarf_red",
+   "slot": "accessory",
+   "name": "Red Scarf",
+   "nameTh": "ผ้าพันคอแดง",
+   "rarity": "uncommon",
+   "price": 170,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 55,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_scarf_red.svg?v=02963404"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_scarf_red.svg?v=ed2ffe6a"
+  },
+  {
+   "id": "acc_medal",
+   "slot": "accessory",
+   "name": "Gold Medal",
+   "nameTh": "เหรียญทอง",
+   "rarity": "rare",
+   "price": 360,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 56,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_medal.svg?v=512eae96"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_medal.svg?v=f47641d5"
+  },
+  {
+   "id": "fx_sparkles",
+   "slot": "effect",
+   "name": "Sparkles",
+   "nameTh": "ประกายดาว",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "everyday",
+   "sortOrder": 57,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_sparkles.svg?v=0faa52d4"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_sparkles.svg?v=e8d11e0e"
+  },
+  {
+   "id": "fx_books_float",
+   "slot": "effect",
+   "name": "Floating Books",
+   "nameTh": "หนังสือลอย",
+   "rarity": "rare",
+   "price": 520,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 58,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_books_float.svg?v=86ea5f9d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_books_float.svg?v=27b5cba6"
+  },
+  {
+   "id": "fx_aurora",
+   "slot": "effect",
+   "name": "Aurora Glow",
+   "nameTh": "แสงออโรรา",
+   "rarity": "epic",
+   "price": 980,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 59,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 2,
+     "url": "/assets/avatar/items/fx_aurora-back.svg?v=4da995c9"
+    },
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_aurora.svg?v=2e9bf72b"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_aurora.svg?v=f03ffdb8"
+  },
+  {
+   "id": "fx_star_orbit",
+   "slot": "effect",
+   "name": "Star Orbit",
+   "nameTh": "วงโคจรดาว",
+   "rarity": "legendary",
+   "price": 1600,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 60,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 2,
+     "url": "/assets/avatar/items/fx_star_orbit-back.svg?v=51231ce3"
+    },
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_star_orbit.svg?v=ac28a23a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_star_orbit.svg?v=c1c5e155"
+  },
+  {
+   "id": "bg_sky",
+   "slot": "background",
+   "name": "Blue Sky",
+   "nameTh": "ท้องฟ้า",
+   "rarity": "common",
+   "price": 0,
+   "starter": true,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 61,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 0,
+     "url": "/assets/avatar/items/bg_sky.svg?v=a3c9f2b5"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_sky.svg?v=a3c9f2b5"
+  },
+  {
+   "id": "bg_library",
+   "slot": "background",
+   "name": "Library",
+   "nameTh": "ห้องสมุด",
+   "rarity": "common",
+   "price": 120,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 62,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 0,
+     "url": "/assets/avatar/items/bg_library.svg?v=f9303fe8"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_library.svg?v=f9303fe8"
+  },
+  {
+   "id": "bg_sunset",
+   "slot": "background",
+   "name": "Sunset",
+   "nameTh": "พระอาทิตย์ตก",
+   "rarity": "uncommon",
+   "price": 220,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 63,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 0,
+     "url": "/assets/avatar/items/bg_sunset.svg?v=d2bdd2ca"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_sunset.svg?v=d2bdd2ca"
+  },
+  {
+   "id": "bg_space",
+   "slot": "background",
+   "name": "Outer Space",
+   "nameTh": "อวกาศ",
+   "rarity": "rare",
+   "price": 500,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 64,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 0,
+     "url": "/assets/avatar/items/bg_space.svg?v=d8e6b26a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_space.svg?v=d8e6b26a"
+  },
+  {
+   "id": "hair_curly",
+   "slot": "hair",
+   "name": "Curly Crop",
+   "nameTh": "ผมหยิกสั้น",
+   "rarity": "common",
+   "price": 120,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 65,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_curly.svg?v=9f5eb39c"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_curly.svg?v=ad81f9e6"
+  },
+  {
+   "id": "hair_wavy_long",
+   "slot": "hair",
+   "name": "Long Waves",
+   "nameTh": "ผมยาวลอนคลื่น",
+   "rarity": "uncommon",
+   "price": 240,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 66,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_wavy_long.svg?v=20ea2979"
+    },
+    {
+     "kind": "back",
+     "z": 7,
+     "url": "/assets/avatar/items/hair_wavy_long-back.svg?v=320f4c3f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_wavy_long.svg?v=827a5636"
+  },
+  {
+   "id": "hair_twin_buns",
+   "slot": "hair",
+   "name": "Twin Buns",
+   "nameTh": "ผมมวยคู่",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 67,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_twin_buns.svg?v=8b1ddbb2"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_twin_buns.svg?v=05fdcc35"
+  },
+  {
+   "id": "hair_side_braid",
+   "slot": "hair",
+   "name": "Side Braid",
+   "nameTh": "ผมเปียข้าง",
+   "rarity": "rare",
+   "price": 360,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 68,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_side_braid.svg?v=667bf7f2"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_side_braid.svg?v=cd9c3dc2"
+  },
+  {
+   "id": "hair_spiky",
+   "slot": "hair",
+   "name": "Spiky Blue",
+   "nameTh": "ผมตั้งชี้สีฟ้า",
+   "rarity": "rare",
+   "price": 420,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": null,
+   "sortOrder": 69,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 50,
+     "url": "/assets/avatar/items/hair_spiky.svg?v=def95ad7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hair_spiky.svg?v=06da4eff"
+  },
+  {
+   "id": "top_oversize_graphic",
+   "slot": "top",
+   "name": "Oversized Graphic Tee",
+   "nameTh": "เสื้อโอเวอร์ไซซ์ลายกราฟิก",
+   "rarity": "uncommon",
+   "price": 220,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 70,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_oversize_graphic.svg?v=4d9a516f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_oversize_graphic.svg?v=3d46f2ce"
+  },
+  {
+   "id": "outer_bomber",
+   "slot": "outerwear",
+   "name": "Bomber Jacket",
+   "nameTh": "แจ็กเก็ตบอมเบอร์",
+   "rarity": "rare",
+   "price": 480,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 71,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_bomber.svg?v=9420fd98"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_bomber.svg?v=15ab4308"
+  },
+  {
+   "id": "shoes_chunky_street",
+   "slot": "shoes",
+   "name": "Chunky Sneakers",
+   "nameTh": "สนีกเกอร์พื้นหนา",
+   "rarity": "rare",
+   "price": 440,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 72,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_chunky_street.svg?v=65f40ea3"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_chunky_street.svg?v=1f873dea"
+  },
+  {
+   "id": "hat_snapback",
+   "slot": "hat",
+   "name": "Snapback",
+   "nameTh": "หมวกสแนปแบ็ก",
+   "rarity": "uncommon",
+   "price": 180,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 73,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_snapback.svg?v=bbdfb1af"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_snapback.svg?v=3c4ce7da"
+  },
+  {
+   "id": "acc_chain_necklace",
+   "slot": "accessory",
+   "name": "Chain Necklace",
+   "nameTh": "สร้อยโซ่",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 74,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_chain_necklace.svg?v=07030d05"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_chain_necklace.svg?v=4ecded8a"
+  },
+  {
+   "id": "back_skateboard",
+   "slot": "back",
+   "name": "Skateboard",
+   "nameTh": "สเก็ตบอร์ด",
+   "rarity": "epic",
+   "price": 760,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "street",
+   "sortOrder": 75,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_skateboard-back.svg?v=2780d238"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_skateboard.svg?v=4958d0a7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_skateboard.svg?v=47be3b56"
+  },
+  {
+   "id": "top_oxford_shirt",
+   "slot": "top",
+   "name": "Oxford Shirt",
+   "nameTh": "เชิ้ตอ็อกซ์ฟอร์ด",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "smart",
+   "sortOrder": 76,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_oxford_shirt.svg?v=41d04d7f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_oxford_shirt.svg?v=eeead3f8"
+  },
+  {
+   "id": "outer_blazer",
+   "slot": "outerwear",
+   "name": "Navy Blazer",
+   "nameTh": "เบลเซอร์กรมท่า",
+   "rarity": "rare",
+   "price": 520,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "smart",
+   "sortOrder": 77,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_blazer.svg?v=a2b18f05"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_blazer.svg?v=7fed6e68"
+  },
+  {
+   "id": "bottom_chinos",
+   "slot": "bottom",
+   "name": "Chinos",
+   "nameTh": "กางเกงชิโน่",
+   "rarity": "uncommon",
+   "price": 180,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "smart",
+   "sortOrder": 78,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_chinos.svg?v=b070f295"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_chinos.svg?v=0753d008"
+  },
+  {
+   "id": "shoes_loafers",
+   "slot": "shoes",
+   "name": "Leather Loafers",
+   "nameTh": "โลฟเฟอร์หนัง",
+   "rarity": "rare",
+   "price": 380,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "smart",
+   "sortOrder": 79,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_loafers.svg?v=ddc456e1"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_loafers.svg?v=74295f5d"
+  },
+  {
+   "id": "acc_bowtie",
+   "slot": "accessory",
+   "name": "Bow Tie",
+   "nameTh": "โบว์ไท",
+   "rarity": "common",
+   "price": 90,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "smart",
+   "sortOrder": 80,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_bowtie.svg?v=fec97381"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_bowtie.svg?v=7e16b745"
+  },
+  {
+   "id": "top_sport_jersey",
+   "slot": "top",
+   "name": "Team Jersey",
+   "nameTh": "เสื้อกีฬาทีม",
+   "rarity": "common",
+   "price": 110,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 81,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_sport_jersey.svg?v=6fb01c02"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_sport_jersey.svg?v=7001850b"
+  },
+  {
+   "id": "bottom_track_pants",
+   "slot": "bottom",
+   "name": "Track Pants",
+   "nameTh": "กางเกงวอร์ม",
+   "rarity": "common",
+   "price": 100,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 82,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_track_pants.svg?v=fa86e7ba"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_track_pants.svg?v=8c26d359"
+  },
+  {
+   "id": "shoes_runners",
+   "slot": "shoes",
+   "name": "Running Shoes",
+   "nameTh": "รองเท้าวิ่ง",
+   "rarity": "uncommon",
+   "price": 230,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 83,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_runners.svg?v=1f9158e7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_runners.svg?v=882cda13"
+  },
+  {
+   "id": "acc_sweatband",
+   "slot": "accessory",
+   "name": "Wristband",
+   "nameTh": "สายรัดข้อมือกีฬา",
+   "rarity": "common",
+   "price": 60,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 84,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_sweatband.svg?v=7c71d34a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_sweatband.svg?v=05c610fa"
+  },
+  {
+   "id": "hat_sport_headband",
+   "slot": "hat",
+   "name": "Sport Headband",
+   "nameTh": "ผ้าคาดหัวกีฬา",
+   "rarity": "common",
+   "price": 70,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "sport",
+   "sortOrder": 85,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_sport_headband.svg?v=dbbd2c0f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_sport_headband.svg?v=7d2cf2a8"
+  },
+  {
+   "id": "outer_varsity",
+   "slot": "outerwear",
+   "name": "Varsity Jacket",
+   "nameTh": "แจ็กเก็ตวาร์ซิตี้",
+   "rarity": "rare",
+   "price": 500,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 86,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_varsity.svg?v=a15b7cb2"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_varsity.svg?v=de56a2a1"
+  },
+  {
+   "id": "acc_id_lanyard",
+   "slot": "accessory",
+   "name": "Student ID",
+   "nameTh": "บัตรนักเรียนคล้องคอ",
+   "rarity": "common",
+   "price": 60,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "school",
+   "sortOrder": 87,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_id_lanyard.svg?v=29dbc238"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_id_lanyard.svg?v=8d83a043"
+  },
+  {
+   "id": "top_turtleneck",
+   "slot": "top",
+   "name": "Turtleneck",
+   "nameTh": "เสื้อคอเต่า",
+   "rarity": "uncommon",
+   "price": 190,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 88,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_turtleneck.svg?v=9d8fbffa"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_turtleneck.svg?v=565717c3"
+  },
+  {
+   "id": "bottom_wide_trousers",
+   "slot": "bottom",
+   "name": "Wide Trousers",
+   "nameTh": "กางเกงขากว้าง",
+   "rarity": "uncommon",
+   "price": 210,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 89,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_wide_trousers.svg?v=05e92940"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_wide_trousers.svg?v=e475ce11"
+  },
+  {
+   "id": "shoes_slipon_white",
+   "slot": "shoes",
+   "name": "White Slip-ons",
+   "nameTh": "สลิปออนสีขาว",
+   "rarity": "common",
+   "price": 120,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 90,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_slipon_white.svg?v=72f74e63"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_slipon_white.svg?v=5adcfcd3"
+  },
+  {
+   "id": "back_tote_canvas",
+   "slot": "back",
+   "name": "Canvas Tote",
+   "nameTh": "กระเป๋าผ้าแคนวาส",
+   "rarity": "common",
+   "price": 110,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 91,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_tote_canvas-back.svg?v=c4df7ce7"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_tote_canvas.svg?v=d0bb1f24"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_tote_canvas.svg?v=49e450fd"
+  },
+  {
+   "id": "acc_minimal_pendant",
+   "slot": "accessory",
+   "name": "Bar Pendant",
+   "nameTh": "สร้อยจี้มินิมอล",
+   "rarity": "uncommon",
+   "price": 160,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "minimal",
+   "sortOrder": 92,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_minimal_pendant.svg?v=2d4e55bb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_minimal_pendant.svg?v=484e332a"
+  },
+  {
+   "id": "top_ringer_tee",
+   "slot": "top",
+   "name": "Ringer Tee",
+   "nameTh": "เสื้อยืดริงเกอร์",
+   "rarity": "common",
+   "price": 100,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 93,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_ringer_tee.svg?v=e805acc7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_ringer_tee.svg?v=3e3360ff"
+  },
+  {
+   "id": "outer_cardigan",
+   "slot": "outerwear",
+   "name": "Knit Cardigan",
+   "nameTh": "คาร์ดิแกนไหมพรม",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 94,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_cardigan.svg?v=08968198"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_cardigan.svg?v=c3a6d864"
+  },
+  {
+   "id": "bottom_corduroy",
+   "slot": "bottom",
+   "name": "Corduroy Pants",
+   "nameTh": "กางเกงลูกฟูก",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 95,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_corduroy.svg?v=f4cae7bc"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_corduroy.svg?v=ae6865b6"
+  },
+  {
+   "id": "shoes_retro_court",
+   "slot": "shoes",
+   "name": "Retro Court Shoes",
+   "nameTh": "รองเท้าคอร์ทเรโทร",
+   "rarity": "uncommon",
+   "price": 240,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 96,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_retro_court.svg?v=7a047c64"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_retro_court.svg?v=c7f7a77e"
+  },
+  {
+   "id": "hat_beret",
+   "slot": "hat",
+   "name": "Beret",
+   "nameTh": "หมวกเบเรต์",
+   "rarity": "uncommon",
+   "price": 170,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 97,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_beret.svg?v=3296cf16"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_beret.svg?v=b530f690"
+  },
+  {
+   "id": "glasses_aviator",
+   "slot": "glasses",
+   "name": "Aviators",
+   "nameTh": "แว่นนักบิน",
+   "rarity": "rare",
+   "price": 360,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 98,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_aviator.svg?v=1146299e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_aviator.svg?v=a9ba1f6a"
+  },
+  {
+   "id": "acc_neckerchief",
+   "slot": "accessory",
+   "name": "Neckerchief",
+   "nameTh": "ผ้าผูกคอวินเทจ",
+   "rarity": "common",
+   "price": 90,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "vintage",
+   "sortOrder": 99,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_neckerchief.svg?v=f989a750"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_neckerchief.svg?v=e61a944c"
+  },
+  {
+   "id": "top_adventurer_tunic",
+   "slot": "top",
+   "name": "Adventurer Tunic",
+   "nameTh": "ทูนิกนักผจญภัย",
+   "rarity": "rare",
+   "price": 420,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 100,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_adventurer_tunic.svg?v=fcb9d822"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_adventurer_tunic.svg?v=0d445a88"
+  },
+  {
+   "id": "bottom_ranger_pants",
+   "slot": "bottom",
+   "name": "Ranger Pants",
+   "nameTh": "กางเกงเรนเจอร์",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 101,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_ranger_pants.svg?v=48dbb9c4"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_ranger_pants.svg?v=493ab195"
+  },
+  {
+   "id": "shoes_adventure_boots",
+   "slot": "shoes",
+   "name": "Adventure Boots",
+   "nameTh": "บูทนักผจญภัย",
+   "rarity": "rare",
+   "price": 400,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 102,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_adventure_boots.svg?v=1cd68deb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_adventure_boots.svg?v=0fa2e5b4"
+  },
+  {
+   "id": "acc_amulet",
+   "slot": "accessory",
+   "name": "Glow Amulet",
+   "nameTh": "เครื่องรางเรืองแสง",
+   "rarity": "epic",
+   "price": 720,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 103,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_amulet.svg?v=e2298a6f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_amulet.svg?v=c32314c7"
+  },
+  {
+   "id": "back_quiver",
+   "slot": "back",
+   "name": "Arrow Quiver",
+   "nameTh": "กระบอกลูกธนู",
+   "rarity": "rare",
+   "price": 460,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "fantasy",
+   "sortOrder": 104,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_quiver-back.svg?v=5d041061"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_quiver.svg?v=b6fca144"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_quiver.svg?v=751ed2e2"
+  },
+  {
+   "id": "top_tech_zip",
+   "slot": "top",
+   "name": "Tech Zip Top",
+   "nameTh": "เสื้อเทคซิปกลาง",
+   "rarity": "rare",
+   "price": 380,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 105,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_tech_zip.svg?v=5791b9a6"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_tech_zip.svg?v=98463c81"
+  },
+  {
+   "id": "outer_tech_shell",
+   "slot": "outerwear",
+   "name": "Tech Shell",
+   "nameTh": "เสื้อกันลมเทคแวร์",
+   "rarity": "epic",
+   "price": 860,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 106,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_tech_shell.svg?v=b31f459d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_tech_shell.svg?v=86e45142"
+  },
+  {
+   "id": "bottom_tech_joggers",
+   "slot": "bottom",
+   "name": "Tech Joggers",
+   "nameTh": "จ็อกเกอร์เทค",
+   "rarity": "rare",
+   "price": 360,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 107,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_tech_joggers.svg?v=d5355439"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_tech_joggers.svg?v=10c0f331"
+  },
+  {
+   "id": "shoes_tech_boots",
+   "slot": "shoes",
+   "name": "Tech Boots",
+   "nameTh": "บูทเทค",
+   "rarity": "epic",
+   "price": 740,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 108,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_tech_boots.svg?v=f08430ed"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_tech_boots.svg?v=c08f952b"
+  },
+  {
+   "id": "acc_smartband",
+   "slot": "accessory",
+   "name": "Smart Band",
+   "nameTh": "สมาร์ตแบนด์",
+   "rarity": "uncommon",
+   "price": 210,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 109,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_smartband.svg?v=00ea547f"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_smartband.svg?v=83ebcded"
+  },
+  {
+   "id": "back_sling_tech",
+   "slot": "back",
+   "name": "Tech Sling",
+   "nameTh": "กระเป๋าสลิงเทค",
+   "rarity": "uncommon",
+   "price": 240,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "cyber",
+   "sortOrder": 110,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_sling_tech-back.svg?v=3eec7296"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_sling_tech.svg?v=4782f1f9"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_sling_tech.svg?v=071d51a4"
+  },
+  {
+   "id": "outer_puffer",
+   "slot": "outerwear",
+   "name": "Puffer Jacket",
+   "nameTh": "เสื้อบุนวม",
+   "rarity": "rare",
+   "price": 540,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 111,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_puffer.svg?v=34b55edb"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_puffer.svg?v=50e2a646"
+  },
+  {
+   "id": "bottom_snow_pants",
+   "slot": "bottom",
+   "name": "Snow Pants",
+   "nameTh": "กางเกงกันหิมะ",
+   "rarity": "uncommon",
+   "price": 240,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 112,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_snow_pants.svg?v=1a8e3271"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_snow_pants.svg?v=20bded79"
+  },
+  {
+   "id": "shoes_snow_boots",
+   "slot": "shoes",
+   "name": "Snow Boots",
+   "nameTh": "บูทกันหิมะ",
+   "rarity": "uncommon",
+   "price": 260,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 113,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_snow_boots.svg?v=9c5138d7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_snow_boots.svg?v=8011f0d4"
+  },
+  {
+   "id": "acc_mittens",
+   "slot": "accessory",
+   "name": "Knit Mittens",
+   "nameTh": "ถุงมือไหมพรม",
+   "rarity": "common",
+   "price": 110,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 114,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_mittens.svg?v=a6552804"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_mittens.svg?v=c3c4c88f"
+  },
+  {
+   "id": "phones_earmuffs",
+   "slot": "headphones",
+   "name": "Fluffy Earmuffs",
+   "nameTh": "ที่ปิดหูขนนุ่ม",
+   "rarity": "uncommon",
+   "price": 190,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "winter",
+   "sortOrder": 115,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 60,
+     "url": "/assets/avatar/items/phones_earmuffs.svg?v=ff47b94a"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/phones_earmuffs.svg?v=c38ad7f0"
+  },
+  {
+   "id": "top_tank_summer",
+   "slot": "top",
+   "name": "Sunny Tank",
+   "nameTh": "เสื้อกล้ามซัมเมอร์",
+   "rarity": "common",
+   "price": 80,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 116,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_tank_summer.svg?v=abfa47f1"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_tank_summer.svg?v=ae54a574"
+  },
+  {
+   "id": "top_hawaiian_shirt",
+   "slot": "top",
+   "name": "Tropical Shirt",
+   "nameTh": "เชิ้ตลายทรอปิคอล",
+   "rarity": "uncommon",
+   "price": 220,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 117,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_hawaiian_shirt.svg?v=0d58240e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_hawaiian_shirt.svg?v=28e9d14a"
+  },
+  {
+   "id": "bottom_board_shorts",
+   "slot": "bottom",
+   "name": "Board Shorts",
+   "nameTh": "กางเกงชายหาด",
+   "rarity": "common",
+   "price": 100,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 118,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_board_shorts.svg?v=e25f4b72"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_board_shorts.svg?v=721d7d0f"
+  },
+  {
+   "id": "shoes_sandals",
+   "slot": "shoes",
+   "name": "Strap Sandals",
+   "nameTh": "รองเท้าแตะรัดส้น",
+   "rarity": "common",
+   "price": 90,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 119,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_sandals.svg?v=2addad1d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_sandals.svg?v=67a2761f"
+  },
+  {
+   "id": "hat_sun_hat",
+   "slot": "hat",
+   "name": "Straw Sun Hat",
+   "nameTh": "หมวกสานปีกกว้าง",
+   "rarity": "uncommon",
+   "price": 210,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 120,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_sun_hat.svg?v=58c29f51"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_sun_hat.svg?v=00b52389"
+  },
+  {
+   "id": "acc_bead_bracelet",
+   "slot": "accessory",
+   "name": "Bead Bracelet",
+   "nameTh": "กำไลลูกปัด",
+   "rarity": "common",
+   "price": 70,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": null,
+   "collection": "summer",
+   "sortOrder": 121,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_bead_bracelet.svg?v=47226070"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_bead_bracelet.svg?v=66d84f81"
+  },
+  {
+   "id": "top_holiday_sweater",
+   "slot": "top",
+   "name": "Holiday Sweater",
+   "nameTh": "สเวตเตอร์เทศกาล",
+   "rarity": "rare",
+   "price": 400,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "winter_festival",
+   "collection": "seasonal",
+   "sortOrder": 122,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_holiday_sweater.svg?v=f3b15b78"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_holiday_sweater.svg?v=52cc8ed8"
+  },
+  {
+   "id": "top_songkran_shirt",
+   "slot": "top",
+   "name": "Songkran Shirt",
+   "nameTh": "เสื้อลายดอกสงกรานต์",
+   "rarity": "uncommon",
+   "price": 230,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "songkran",
+   "collection": "seasonal",
+   "sortOrder": 123,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_songkran_shirt.svg?v=bdd2d98d"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_songkran_shirt.svg?v=4203fe12"
+  },
+  {
+   "id": "bottom_thai_fisherman",
+   "slot": "bottom",
+   "name": "Thai Fisherman Pants",
+   "nameTh": "กางเกงเลไทย",
+   "rarity": "uncommon",
+   "price": 180,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "songkran",
+   "collection": "seasonal",
+   "sortOrder": 124,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_thai_fisherman.svg?v=9e84412e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_thai_fisherman.svg?v=ca2a29b0"
+  },
+  {
+   "id": "shoes_holiday_booties",
+   "slot": "shoes",
+   "name": "Holiday Booties",
+   "nameTh": "บูทเทศกาลขอบขน",
+   "rarity": "rare",
+   "price": 380,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "winter_festival",
+   "collection": "seasonal",
+   "sortOrder": 125,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_holiday_booties.svg?v=3cf73532"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_holiday_booties.svg?v=5696ec1b"
+  },
+  {
+   "id": "acc_flower_garland",
+   "slot": "accessory",
+   "name": "Jasmine Garland",
+   "nameTh": "พวงมาลัยมะลิ",
+   "rarity": "uncommon",
+   "price": 200,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "songkran",
+   "collection": "seasonal",
+   "sortOrder": 126,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_flower_garland.svg?v=667757b1"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_flower_garland.svg?v=51bf33e7"
+  },
+  {
+   "id": "fx_snowfall",
+   "slot": "effect",
+   "name": "Snowfall",
+   "nameTh": "หิมะโปรย",
+   "rarity": "rare",
+   "price": 520,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "winter_festival",
+   "collection": "seasonal",
+   "sortOrder": 127,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_snowfall.svg?v=060b6280"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_snowfall.svg?v=041ace0e"
+  },
+  {
+   "id": "fx_lanterns",
+   "slot": "effect",
+   "name": "Floating Lanterns",
+   "nameTh": "โคมลอยยี่เป็ง",
+   "rarity": "epic",
+   "price": 900,
+   "starter": false,
+   "purchasable": true,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "loy_krathong",
+   "collection": "seasonal",
+   "sortOrder": 128,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 90,
+     "url": "/assets/avatar/items/fx_lanterns.svg?v=4d6cbe5b"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/fx_lanterns.svg?v=173ee2bd"
+  },
+  {
+   "id": "hat_hw26_pumpkin",
+   "slot": "hat",
+   "name": "Pumpkin Hat",
+   "nameTh": "หมวกฟักทองฮาโลวีน",
+   "rarity": "rare",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 129,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_hw26_pumpkin.svg?v=1b6aba41"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_hw26_pumpkin.svg?v=dfc70ca9"
+  },
+  {
+   "id": "back_hw26_batwings",
+   "slot": "back",
+   "name": "Bat Wings",
+   "nameTh": "ปีกค้างคาว",
+   "rarity": "epic",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 130,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_hw26_batwings-back.svg?v=b7cc2d96"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_hw26_batwings.svg?v=c891eb05"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_hw26_batwings.svg?v=d00bb17a"
+  },
+  {
+   "id": "top_hw26_ghost_hoodie",
+   "slot": "top",
+   "name": "Ghost Hoodie",
+   "nameTh": "ฮู้ดดี้ผีน้อย",
+   "rarity": "rare",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 131,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 30,
+     "url": "/assets/avatar/items/top_hw26_ghost_hoodie.svg?v=f0defa6e"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/top_hw26_ghost_hoodie.svg?v=df4bea1d"
+  },
+  {
+   "id": "hat_hw26_witch",
+   "slot": "hat",
+   "name": "Witch Hat",
+   "nameTh": "หมวกแม่มด",
+   "rarity": "epic",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 132,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 65,
+     "url": "/assets/avatar/items/hat_hw26_witch.svg?v=61772684"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/hat_hw26_witch.svg?v=8e959b60"
+  },
+  {
+   "id": "shoes_hw26_boots",
+   "slot": "shoes",
+   "name": "Halloween Boots",
+   "nameTh": "บูทฮาโลวีน",
+   "rarity": "rare",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 133,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 22,
+     "url": "/assets/avatar/items/shoes_hw26_boots.svg?v=c8ea6494"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/shoes_hw26_boots.svg?v=96fae1b2"
+  },
+  {
+   "id": "back_hw26_pumpkin_pack",
+   "slot": "back",
+   "name": "Pumpkin Backpack",
+   "nameTh": "เป้ฟักทอง",
+   "rarity": "rare",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 134,
+   "parts": [
+    {
+     "kind": "back",
+     "z": 5,
+     "url": "/assets/avatar/items/back_hw26_pumpkin_pack-back.svg?v=50f950c2"
+    },
+    {
+     "kind": "front",
+     "z": 33,
+     "url": "/assets/avatar/items/back_hw26_pumpkin_pack.svg?v=2dab2103"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/back_hw26_pumpkin_pack.svg?v=4b70c8c5"
+  },
+  {
+   "id": "outer_hw26_midnight",
+   "slot": "outerwear",
+   "name": "Midnight Cloak Coat",
+   "nameTh": "เสื้อคลุมรัตติกาล",
+   "rarity": "legendary",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 135,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 35,
+     "url": "/assets/avatar/items/outer_hw26_midnight.svg?v=830e4589"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/outer_hw26_midnight.svg?v=f9f4c901"
+  },
+  {
+   "id": "bottom_hw26_midnight",
+   "slot": "bottom",
+   "name": "Midnight Star Pants",
+   "nameTh": "กางเกงดาวรัตติกาล",
+   "rarity": "legendary",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 136,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 20,
+     "url": "/assets/avatar/items/bottom_hw26_midnight.svg?v=36501e77"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bottom_hw26_midnight.svg?v=544575a3"
+  },
+  {
+   "id": "acc_hw26_moon",
+   "slot": "accessory",
+   "name": "Crescent Moon Pendant",
+   "nameTh": "จี้พระจันทร์เสี้ยว",
+   "rarity": "legendary",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 137,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_hw26_moon.svg?v=322cbf7c"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_hw26_moon.svg?v=7a83e9ba"
+  },
+  {
+   "id": "acc_hw26_candy",
+   "slot": "accessory",
+   "name": "Candy Corn Necklace",
+   "nameTh": "สร้อยลูกอมแคนดี้คอร์น",
+   "rarity": "uncommon",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 138,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 70,
+     "url": "/assets/avatar/items/acc_hw26_candy.svg?v=31389344"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/acc_hw26_candy.svg?v=2b44aa87"
+  },
+  {
+   "id": "glasses_hw26_bat",
+   "slot": "glasses",
+   "name": "Bat Glasses",
+   "nameTh": "แว่นค้างคาว",
+   "rarity": "uncommon",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 139,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 45,
+     "url": "/assets/avatar/items/glasses_hw26_bat.svg?v=05ce4145"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/glasses_hw26_bat.svg?v=5ebdeecc"
+  },
+  {
+   "id": "bg_hw26_moonlit",
+   "slot": "background",
+   "name": "Moonlit Pumpkin Patch",
+   "nameTh": "ทุ่งฟักทองใต้แสงจันทร์",
+   "rarity": "rare",
+   "price": 0,
+   "starter": false,
+   "purchasable": false,
+   "featured": false,
+   "achievementId": null,
+   "eventId": "halloween-costume-2026",
+   "collection": "halloween26",
+   "sortOrder": 140,
+   "parts": [
+    {
+     "kind": "front",
+     "z": 0,
+     "url": "/assets/avatar/items/bg_hw26_moonlit.svg?v=0c1042b7"
+    }
+   ],
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_hw26_moonlit.svg?v=0c1042b7"
+  }
+ ]
+}

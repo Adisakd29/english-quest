@@ -1,0 +1,516 @@
+{
+  "id": "a2-future-will",
+  "summaryTh": "พูดถึงอนาคต: ตัดสินใจตอนนี้ คาดเดา สัญญา เสนอช่วย",
+  "concept": {
+    "what": "will + กริยาช่องที่ 1 ใช้พูดถึงอนาคต โดยเฉพาะสิ่งที่ \"เพิ่งตัดสินใจตอนพูด\" ไม่ได้วางแผนไว้ก่อน และใช้คาดเดาตามความคิดเห็น สัญญา เสนอความช่วยเหลือ หรือขอร้อง",
+    "when": [
+      "ตัดสินใจทันทีตอนพูด (Oh, the phone is ringing. I'll answer it.)",
+      "คาดเดาจากความคิดเห็น มักมี I think / I'm sure / probably (I think Thailand will win.)",
+      "สัญญา (I promise I'll call you tonight.) และเสนอช่วย (I'll carry that bag for you.)",
+      "ขอร้องอย่างสุภาพ (Will you open the window, please?)",
+      "ข้อเท็จจริงในอนาคตที่เปลี่ยนไม่ได้ (I'll be 16 next month.)"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"จะ\" กับอนาคตทุกแบบ แต่ภาษาอังกฤษมีหลายรูป will บอกผู้ฟังว่า \"เพิ่งคิดได้ตอนนี้\" หรือ \"เป็นความเห็นของฉัน\" ถ้าเรื่องนั้นวางแผนไว้ก่อนแล้วควรใช้ be going to หรือ Present Continuous แทน"
+  },
+  "structure": {
+    "formula": "Subject + will + V1",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + will ('ll) + V1",
+        "example": "I [['ll help]] you with your homework."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + will not (won't) + V1",
+        "example": "Don't worry. I [[won't tell]] anyone."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "Will + Subject + V1 …?",
+        "example": "[[Will]] you [[be]] at home this evening?"
+      },
+      {
+        "label": "ตอบสั้น (Short answer)",
+        "formula": "Yes, Subject + will. / No, Subject + won't.",
+        "example": "Yes, I [[will]]. / No, I [[won't]]."
+      },
+      {
+        "label": "เสนอช่วย / ขอความเห็น",
+        "formula": "Shall I / Shall we + V1 …?",
+        "example": "[[Shall]] I [[open]] the window?"
+      }
+    ],
+    "notes": [
+      "ประธานทุกตัวใช้ will เหมือนกัน (I/he/they will go) ไม่เติม -s ที่ will หรือที่กริยา",
+      "หลัง will ใช้ V1 ทันที ไม่มี to (will go ไม่ใช่ will to go)",
+      "รูปย่อ: I will = I'll · will not = won't",
+      "ในภาษาพูดนิยม I don't think … will มากกว่า I think … won't"
+    ]
+  },
+  "examples": [
+    {
+      "en": "It's hot in here. I [['ll open]] the window.",
+      "th": "ในนี้ร้อนจัง เดี๋ยวฉันเปิดหน้าต่างให้ (ตัดสินใจตอนนี้)"
+    },
+    {
+      "en": "I think it [[will rain]] later, so take an umbrella.",
+      "th": "ฉันคิดว่าเดี๋ยวฝนจะตก เอาร่มไปด้วยนะ"
+    },
+    {
+      "en": "I promise I [[won't be]] late again.",
+      "th": "ฉันสัญญาว่าจะไม่มาสายอีก"
+    },
+    {
+      "en": "That box looks heavy. I [['ll carry]] it for you.",
+      "th": "กล่องนั้นดูหนัก เดี๋ยวฉันช่วยถือให้"
+    },
+    {
+      "en": "[[Will]] you [[send]] me the photos from the trip, please?",
+      "th": "ช่วยส่งรูปจากทริปให้หน่อยได้ไหม"
+    },
+    {
+      "en": "My little brother [[will be]] ten next month.",
+      "th": "เดือนหน้าน้องชายจะอายุสิบขวบ"
+    },
+    {
+      "en": "I don't think she [[will like]] this film. It's too scary.",
+      "th": "ฉันไม่คิดว่าเธอจะชอบหนังเรื่องนี้ มันน่ากลัวเกินไป"
+    },
+    {
+      "en": "[[Shall]] we [[take]] a taxi? The bus is very slow.",
+      "th": "เรานั่งแท็กซี่กันไหม รถเมล์ช้ามาก"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I will to call you tonight.",
+      "right": "I will call you tonight.",
+      "whyTh": "หลัง will ใช้กริยาช่องที่ 1 ทันที ไม่มี to"
+    },
+    {
+      "wrong": "She will goes to university next year.",
+      "right": "She will go to university next year.",
+      "whyTh": "หลัง will ใช้ V1 ไม่เติม -s แม้ประธานเป็น he / she / it"
+    },
+    {
+      "wrong": "Will you can come to my party?",
+      "right": "Will you be able to come to my party?",
+      "whyTh": "will กับ can เป็นกริยาช่วยทั้งคู่ ใช้ติดกันไม่ได้ ถ้าต้องการความหมาย \"สามารถ\" ในอนาคตใช้ will be able to"
+    },
+    {
+      "wrong": "A: The phone's ringing. B: I'm going to answer it.",
+      "right": "A: The phone's ringing. B: I'll answer it.",
+      "whyTh": "B เพิ่งตัดสินใจตอนได้ยินเสียงโทรศัพท์ ไม่ได้วางแผนไว้ก่อน จึงใช้ will"
+    },
+    {
+      "wrong": "I will see the dentist at 3 p.m. tomorrow. I booked it last week.",
+      "right": "I'm seeing the dentist at 3 p.m. tomorrow. I booked it last week.",
+      "whyTh": "นัดหมายที่จองเวลาไว้แล้ว เจ้าของภาษานิยมใช้ Present Continuous (หรือ be going to) มากกว่า will เพราะเป็นแผนที่ตกลงไว้ก่อน ไม่ได้เพิ่งตัดสินใจ"
+    }
+  ],
+  "compare": {
+    "title": "will vs be going to vs Present Continuous",
+    "with": [
+      "a2-going-to",
+      "a2-present-continuous-future"
+    ],
+    "rows": [
+      {
+        "label": "ตัดสินใจเมื่อไร",
+        "a": "will: ตัดสินใจตอนพูด (I'll get it.)",
+        "b": "be going to / Present Continuous: ตัดสินใจไว้ก่อนแล้ว"
+      },
+      {
+        "label": "การคาดเดา",
+        "a": "will: จากความคิดเห็น (I think it will rain.)",
+        "b": "be going to: จากสิ่งที่เห็นตอนนี้ (Look at those clouds! It's going to rain.)"
+      },
+      {
+        "label": "นัดหมายที่มีวัน เวลา สถานที่",
+        "a": "will: ไม่นิยมใช้",
+        "b": "Present Continuous เป็นธรรมชาติที่สุด (I'm meeting Joe at 6.) · be going to ก็ใช้ได้"
+      },
+      {
+        "label": "สัญญา เสนอช่วย ขอร้อง",
+        "a": "will: ใช่ (I promise I'll …, I'll help you., Will you …?)",
+        "b": "be going to / Present Continuous: ไม่ใช้กับความหมายเหล่านี้"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่า \"ตัดสินใจตอนนี้หรือก่อนหน้านี้?\" ตอนนี้ → will · ก่อนหน้านี้ → be going to · ก่อนหน้านี้และนัดกับคนอื่นแล้ว มีเวลา/สถานที่ → Present Continuous"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "At the school canteen",
+      "lines": [
+        {
+          "speaker": "Ploy",
+          "text": "Oh no, I left my wallet at home!"
+        },
+        {
+          "speaker": "Ken",
+          "text": "Don't worry. I [['ll pay]] for your lunch."
+        },
+        {
+          "speaker": "Ploy",
+          "text": "Thanks, Ken! I promise I [['ll pay]] you back tomorrow."
+        },
+        {
+          "speaker": "Ken",
+          "text": "No problem. What would you like? I think I [['ll have]] the chicken rice."
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "A post before the match",
+      "lines": [
+        {
+          "text": "Big match tonight! I think our school team [[will win]] — our players are really strong this year. I [[won't miss]] it! [[Will]] you [[come]] and watch with us?"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Future with will",
+      "th": "อนาคตด้วย will — ตัดสินใจทันที คาดเดา สัญญา"
+    },
+    {
+      "en": "Spontaneous decision",
+      "th": "การตัดสินใจทันทีตอนพูด ไม่ได้วางแผนไว้ก่อน"
+    },
+    {
+      "en": "Prediction",
+      "th": "การคาดเดาว่าอนาคตจะเป็นอย่างไร"
+    },
+    {
+      "en": "Offer / Promise / Request",
+      "th": "การเสนอช่วย / การสัญญา / การขอร้อง"
+    },
+    {
+      "en": "Modal verb",
+      "th": "กริยาช่วย เช่น will, can, must — ตามด้วย V1 เสมอ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "a2-future-will-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Oh, the phone is ringing. I ___ it.",
+      "choices": [
+        "will answer",
+        "answered",
+        "answering",
+        "will to answer"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "answered เป็นอดีต แต่โทรศัพท์กำลังดังตอนนี้ การรับสายยังไม่เกิด",
+        "2": "answering ต้องมี be นำหน้า และไม่บอกอนาคต",
+        "3": "หลัง will ไม่มี to"
+      },
+      "explainTh": "ได้ยินเสียงโทรศัพท์แล้วตัดสินใจทันทีตอนพูด → will + V1: I'll answer it.",
+      "structure": "Subject + will + V1",
+      "example": "Oh, the phone is ringing. I'll answer it."
+    },
+    {
+      "id": "a2-future-will-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I think it ___ (rain — ใช้ will) this afternoon, so take an umbrella.",
+      "accepted": [
+        "will rain"
+      ],
+      "explainTh": "I think = คาดเดาจากความคิดเห็น → will + V1 → will rain (ไม่เติม -s ที่ rain)",
+      "structure": "I think + Subject + will + V1",
+      "example": "I think it will rain this afternoon."
+    },
+    {
+      "id": "a2-future-will-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "A: This bag is really heavy! B: Wait, I ___ (help — ใช้ will) you.",
+      "accepted": [
+        "will help",
+        "'ll help"
+      ],
+      "explainTh": "B เสนอช่วยทันทีหลังได้ยินว่ากระเป๋าหนัก (ตัดสินใจตอนพูด) → will help / 'll help",
+      "structure": "Subject + will + V1",
+      "example": "Wait, I'll help you."
+    },
+    {
+      "id": "a2-future-will-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I'm so sorry. I promise I ___ (not / be — ใช้ will) late again.",
+      "accepted": [
+        "won't be",
+        "will not be"
+      ],
+      "explainTh": "การสัญญาใช้ will · ปฏิเสธ: will not (won't) + V1 → won't be",
+      "structure": "Subject + won't + V1",
+      "example": "I promise I won't be late again."
+    },
+    {
+      "id": "a2-future-will-05",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "will",
+        "the",
+        "window",
+        "I",
+        "close"
+      ],
+      "accepted": [
+        "I will close the window.",
+        "Will I close the window?"
+      ],
+      "explainTh": "Subject + will + V1 + กรรม → I will close the window."
+    },
+    {
+      "id": "a2-future-will-06",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "won't",
+        "she",
+        "the",
+        "party",
+        "come",
+        "to"
+      ],
+      "accepted": [
+        "She won't come to the party.",
+        "Won't she come to the party?"
+      ],
+      "explainTh": "ปฏิเสธ: Subject + won't + V1 → She won't come to the party. (won't = will not)"
+    },
+    {
+      "id": "a2-future-will-07",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "I",
+        "think",
+        "they",
+        "will",
+        "win",
+        "the",
+        "match"
+      ],
+      "accepted": [
+        "I think they will win the match.",
+        "They will win the match, I think.",
+        "They will win the match I think."
+      ],
+      "explainTh": "การคาดเดาจากความคิดเห็น: I think + Subject + will + V1 → I think they will win the match."
+    },
+    {
+      "id": "a2-future-will-08",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I will to call you tonight.",
+      "errorPart": "to",
+      "accepted": [
+        "I will call you tonight."
+      ],
+      "explainTh": "will เป็นกริยาช่วย ตามด้วย V1 ทันที ไม่มี to → I will call you tonight.",
+      "structure": "Subject + will + V1"
+    },
+    {
+      "id": "a2-future-will-09",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "She will goes to university next year.",
+      "errorPart": "goes",
+      "accepted": [
+        "She will go to university next year."
+      ],
+      "explainTh": "หลัง will ใช้ V1 เสมอ ไม่เติม -s แม้ประธานเป็น she → will go",
+      "structure": "Subject + will + V1"
+    },
+    {
+      "id": "a2-future-will-10",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Will you can come to my party on Saturday?",
+      "errorPart": "can",
+      "accepted": [
+        "Will you be able to come to my party on Saturday?",
+        "Can you come to my party on Saturday?",
+        "Will you come to my party on Saturday?"
+      ],
+      "explainTh": "will กับ can เป็นกริยาช่วยทั้งคู่ ใช้ติดกันไม่ได้ → ใช้ Will you be able to …? หรือเลือกใช้ตัวเดียว (Can you come …? / Will you come …?)"
+    },
+    {
+      "id": "a2-future-will-11",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I'll tell you the answer.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ",
+      "accepted": [
+        "I won't tell you the answer.",
+        "I will not tell you the answer."
+      ],
+      "explainTh": "ปฏิเสธของ will: will not (won't) + V1 → I won't tell you the answer."
+    },
+    {
+      "id": "a2-future-will-12",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "It will be cold tomorrow.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": [
+        "Will it be cold tomorrow?"
+      ],
+      "explainTh": "คำถาม: ย้าย will ไปไว้หน้าประธาน → Will it be cold tomorrow?"
+    },
+    {
+      "id": "a2-future-will-13",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่ประโยคกับหน้าที่ของ will",
+      "pairs": [
+        [
+          "That box looks heavy. I'll carry it for you.",
+          "เสนอช่วย (offer)"
+        ],
+        [
+          "I promise I'll call you every day.",
+          "สัญญา (promise)"
+        ],
+        [
+          "I think Thailand will win the next match.",
+          "คาดเดาจากความคิดเห็น (prediction)"
+        ],
+        [
+          "Will you close the door, please?",
+          "ขอร้อง (request)"
+        ],
+        [
+          "I'm hungry. I'll make a sandwich.",
+          "ตัดสินใจตอนพูด (instant decision)"
+        ]
+      ],
+      "explainTh": "will ใช้ได้หลายหน้าที่: เสนอช่วย (I'll carry …), สัญญา (I promise I'll …), คาดเดา (I think … will …), ขอร้อง (Will you …, please?), ตัดสินใจทันที (I'm hungry. I'll …)"
+    },
+    {
+      "id": "a2-future-will-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Oh no! I forgot my wallet, and I want to buy this book."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't worry, I ___ you some money."
+          }
+        ]
+      },
+      "choices": [
+        "will lend",
+        "am going to lend",
+        "lend",
+        "lent"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "am going to ใช้กับสิ่งที่ตัดสินใจไว้ก่อนแล้ว แต่ B เพิ่งรู้ตอนนี้ว่า A ลืมกระเป๋าเงิน จึงตัดสินใจทันที",
+        "2": "lend (ปัจจุบันธรรมดา) ใช้กับนิสัย/ความจริง ไม่ใช้เสนอช่วยในอนาคต",
+        "3": "lent เป็นอดีต แต่การให้ยืมเงินยังไม่เกิดขึ้น"
+      },
+      "explainTh": "B เสนอช่วยและตัดสินใจตอนพูด (เพิ่งรู้ปัญหา) → will + V1: I'll lend you some money."
+    },
+    {
+      "id": "a2-future-will-15",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "A message from Mo",
+        "lines": [
+          {
+            "text": "Hi Jane, thanks for lending me your notes. I promise I'll give them back on Monday. I think the exam will be difficult, but I'm sure we'll be fine! See you, Mo"
+          }
+        ]
+      },
+      "question": "Which sentence from the message is a promise?",
+      "choices": [
+        "I promise I'll give them back on Monday.",
+        "I think the exam will be difficult.",
+        "I'm sure we'll be fine!",
+        "Thanks for lending me your notes."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I think … will … เป็นการคาดเดาจากความคิดเห็น ไม่ใช่การสัญญา",
+        "2": "I'm sure we'll be fine เป็นการคาดเดา/ให้กำลังใจ ไม่ได้สัญญาว่าจะทำอะไร",
+        "3": "ประโยคนี้เป็นการขอบคุณ ไม่ได้พูดถึงอนาคต"
+      },
+      "explainTh": "I promise + I'll + V1 คือรูปแบบการสัญญาด้วย will → I promise I'll give them back on Monday."
+    },
+    {
+      "id": "a2-future-will-16",
+      "type": "choose",
+      "difficulty": 1,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "Will you help me with my homework, please?",
+        "Will you helping me with my homework, please?",
+        "Do you will help me with my homework, please?",
+        "Will you to help me with my homework, please?"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง will ใช้ V1 (help) ไม่ใช่ V-ing",
+        "2": "คำถามของ will ไม่ใช้ do — ย้าย will ไปหน้าประธานได้เลย",
+        "3": "หลัง will ไม่มี to"
+      },
+      "explainTh": "ขอร้องอย่างสุภาพ: Will + Subject + V1 …, please? → Will you help me …?"
+    },
+    {
+      "id": "a2-future-will-17",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "It's very cold in here. ___ I close the window?",
+      "choices": [
+        "Shall",
+        "Will",
+        "Do",
+        "Am"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Will I …? ใช้ถามว่าจะเกิดอะไรขึ้นกับตัวเอง (คาดเดา) ไม่ใช่การเสนอช่วย",
+        "2": "Do I close …? เป็นการถามเรื่องนิสัย/ขั้นตอน ไม่ใช่การเสนอ",
+        "3": "Am ต้องตามด้วย V-ing หรือคำคุณศัพท์ ไม่ใช่ V1"
+      },
+      "explainTh": "การเสนอช่วยแบบถามความเห็นผู้ฟังใช้ Shall I + V1 …? → Shall I close the window? (= ให้ฉันปิดหน้าต่างไหม)"
+    },
+    {
+      "id": "a2-future-will-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคคาดเดาว่าชีวิตในปี 2050 จะเป็นอย่างไร ใช้ will หรือ will not (Write 3 predictions about life in 2050.)",
+      "minSentences": 3,
+      "expectTense": "future",
+      "checks": [
+        {
+          "re": "\\b(will|won't|'ll)\\s+(not\\s+)?\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ will / will not + กริยาช่องที่ 1 เช่น People will travel to the moon."
+        }
+      ],
+      "sample": "In 2050, people will travel to the moon for holidays. Robots will cook our food. I think children will not go to school every day.",
+      "explainTh": "การคาดเดาจากความคิดเห็นใช้ will + V1 ทุกประธาน ไม่เติม -s และไม่มี to หลัง will"
+    }
+  ]
+}

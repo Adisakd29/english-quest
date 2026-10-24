@@ -1,0 +1,510 @@
+{
+  "id": "c1-discourse",
+  "summaryTh": "เชื่อมหลายประโยคให้เป็นเนื้อความเดียว: This + คำนามสรุป คำเชื่อมข้ามประโยค และลำดับข้อมูลเก่า → ใหม่",
+  "concept": {
+    "what": "Discourse grammar คือไวยากรณ์ระดับ “ย่อหน้า” ที่ทำให้หลายประโยคต่อกันลื่นและอ่านเข้าใจง่าย ใช้ 3 เครื่องมือหลัก: (1) การอ้างถึง (reference) ด้วย this/these/such + คำนามสรุป เช่น this problem, these findings (2) คำเชื่อมข้ามประโยค เช่น However, As a result, Moreover (3) การเรียงข้อมูลเก่า → ใหม่ (given → new) คือเริ่มประโยคด้วยสิ่งที่ผู้อ่านรู้แล้ว แล้วจบด้วยข้อมูลใหม่",
+    "when": [
+      "อ้างกลับไปยังความคิดทั้งก้อนในประโยคก่อน: Rents rose by 20%. This increase …",
+      "แสดงความสัมพันธ์ระหว่างประโยค: ขัดแย้ง (However, Nevertheless) ผลลัพธ์ (As a result, Consequently) เพิ่มเติม (Moreover, In addition)",
+      "เริ่มประโยคใหม่ด้วยคำที่โยงกับประโยคก่อน: We launched an app. The app …",
+      "อ้างถึงสองสิ่งที่เพิ่งพูดถึง: the former (ตัวแรก) / the latter (ตัวหลัง)"
+    ],
+    "why": "ผู้ตรวจข้อเขียน C1 / IELTS ให้คะแนน “cohesion” จากตรงนี้ — คนไทยมักเขียนแต่ละประโยคถูก แต่ย่อหน้าไม่ต่อเนื่อง เช่น ใช้ This ลอย ๆ ไม่รู้หมายถึงอะไร ใช้ however เหมือน but แล้วเชื่อมด้วย comma หรือเลือกคำเชื่อมผิดความหมาย (On the other hand ทั้งที่จริงเป็นผลลัพธ์)"
+  },
+  "structure": {
+    "formula": "Sentence 1. + This/These + summary noun … / Linker, + Sentence 2.",
+    "rows": [
+      {
+        "label": "This/These + คำนามสรุป",
+        "formula": "Sentence. This/These + noun (problem, trend, decision, findings) + verb",
+        "example": "Rents rose by 20% last year. [[This increase]] forced many students to move."
+      },
+      {
+        "label": "คำเชื่อมข้ามประโยค",
+        "formula": "Sentence. However, / As a result, / Moreover, + sentence.",
+        "example": "The design was attractive. [[However]], it was expensive to produce."
+      },
+      {
+        "label": "คำเชื่อมกับ ;",
+        "formula": "Clause; however, clause.",
+        "example": "Sales fell in March; [[however]], they recovered in April."
+      },
+      {
+        "label": "Given → New",
+        "formula": "เริ่มด้วยข้อมูลเดิม → จบด้วยข้อมูลใหม่",
+        "example": "The team developed a new app. [[The app]] allows farmers to check prices in real time."
+      },
+      {
+        "label": "the former / the latter",
+        "formula": "A or B. The former (= A) / The latter (= B) …",
+        "example": "Students can choose Chinese or Japanese. [[The latter]] is more popular."
+      },
+      {
+        "label": "such + คำนาม",
+        "formula": "Sentence. Such + noun (plural/uncountable) …",
+        "example": "Some schools have banned phones. [[Such]] policies remain controversial."
+      }
+    ],
+    "notes": [
+      "This ลอย ๆ (This shows …) อาจกำกวม ให้เติมคำนามสรุป: This finding shows …",
+      "However / Moreover / Therefore เป็น adverb ไม่ใช่คำสันธาน — เชื่อมสองประโยคด้วย comma อย่างเดียวไม่ได้ ใช้จุดหรือ ; แทน",
+      "this/that + เอกพจน์ · these/those + พหูพจน์: this trend / these trends",
+      "On the other hand ใช้มองอีกด้านของเรื่องเดียวกัน · In contrast เทียบความต่างของสองสิ่ง · As a result บอกผลลัพธ์",
+      "such + คำนามพหูพจน์/นับไม่ได้ (such policies) · such + a + เอกพจน์ (such a policy)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Many graduates cannot find jobs in their field. [[This problem]] is especially serious in rural areas.",
+      "th": "บัณฑิตหลายคนหางานตรงสายไม่ได้ ปัญหานี้รุนแรงเป็นพิเศษในพื้นที่ชนบท"
+    },
+    {
+      "en": "The researchers tested 200 water samples. [[These tests]] revealed high levels of lead.",
+      "th": "นักวิจัยทดสอบตัวอย่างน้ำ 200 ตัวอย่าง การทดสอบเหล่านี้พบสารตะกั่วในระดับสูง"
+    },
+    {
+      "en": "Online courses are cheap and flexible. [[However]], they require a lot of self-discipline.",
+      "th": "คอร์สออนไลน์ราคาถูกและยืดหยุ่น อย่างไรก็ตาม ต้องมีวินัยในตัวเองสูง"
+    },
+    {
+      "en": "The factory closed in 2022. [[As a result]], hundreds of workers lost their jobs.",
+      "th": "โรงงานปิดตัวในปี 2022 ผลก็คือคนงานหลายร้อยคนตกงาน"
+    },
+    {
+      "en": "Some students prefer group work, while others prefer working alone. [[The former]] tend to develop stronger communication skills.",
+      "th": "นักเรียนบางคนชอบทำงานกลุ่ม บางคนชอบทำคนเดียว กลุ่มแรกมักพัฒนาทักษะการสื่อสารได้ดีกว่า"
+    },
+    {
+      "en": "The city introduced a congestion charge. [[This measure]] reduced traffic by 15%.",
+      "th": "เมืองเริ่มเก็บค่าธรรมเนียมรถติด มาตรการนี้ลดปริมาณการจราจรได้ 15%"
+    },
+    {
+      "en": "Several countries have banned single-use plastic bags. [[Such]] bans have had mixed results.",
+      "th": "หลายประเทศห้ามใช้ถุงพลาสติกแบบใช้ครั้งเดียว การห้ามลักษณะนี้ให้ผลที่หลากหลาย"
+    },
+    {
+      "en": "We launched a new mobile app last month. [[The app]] has already been downloaded 50,000 times.",
+      "th": "เราเปิดตัวแอปใหม่เมื่อเดือนที่แล้ว แอปนี้มียอดดาวน์โหลดแล้ว 50,000 ครั้ง"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The price of fuel went up, however people kept driving.",
+      "right": "The price of fuel went up. However, people kept driving.",
+      "whyTh": "however ไม่ใช่คำสันธานแบบ but — ใช้ comma เชื่อมสองประโยคไม่ได้ ต้องขึ้นประโยคใหม่หรือใช้ ; แล้วตามด้วย comma"
+    },
+    {
+      "wrong": "The school introduced new rules. This rules were unpopular.",
+      "right": "The school introduced new rules. These rules were unpopular.",
+      "whyTh": "rules เป็นพหูพจน์ ต้องใช้ these — ภาษาไทยใช้ “นี้” คำเดียวทั้งเอกพจน์และพหูพจน์"
+    },
+    {
+      "wrong": "The government raised taxes. On the other hand, people spent less.",
+      "right": "The government raised taxes. As a result, people spent less.",
+      "whyTh": "ประโยคที่สองเป็น “ผลลัพธ์” ของการขึ้นภาษี ไม่ใช่อีกมุมมอง จึงใช้ As a result / Consequently"
+    },
+    {
+      "wrong": "Smartphones are useful. In addition, they can be addictive.",
+      "right": "Smartphones are useful. However, they can be addictive.",
+      "whyTh": "ข้อดี → ข้อเสีย เป็นความขัดแย้ง ต้องใช้ However — In addition ใช้เพิ่มข้อมูลไปในทางเดียวกัน"
+    },
+    {
+      "wrong": "Although the plan was expensive. It was approved.",
+      "right": "Although the plan was expensive, it was approved.",
+      "whyTh": "Although เป็นคำสันธาน ต้องอยู่ในประโยคเดียวกับประโยคหลัก — แยกด้วยจุดจะเป็นประโยคไม่สมบูรณ์"
+    }
+  ],
+  "compare": {
+    "title": "However vs but / although",
+    "with": [
+      "b2-linking"
+    ],
+    "rows": [
+      {
+        "label": "ชนิดคำ",
+        "a": "However = adverb เชื่อมข้ามประโยค",
+        "b": "but / although = คำสันธาน เชื่อมในประโยคเดียว"
+      },
+      {
+        "label": "เครื่องหมาย",
+        "a": "Sentence. However, … / Clause; however, …",
+        "b": "Clause, but … / Although …, …"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "The plan was cheap. However, it failed.",
+        "b": "The plan was cheap, but it failed."
+      }
+    ],
+    "tipTh": "ถ้าอยากใช้ comma เดียวเชื่อมสองประโยค ให้ใช้ but — ถ้าใช้ However ต้องขึ้นประโยคใหม่หรือใช้ ;"
+  },
+  "contexts": [
+    {
+      "kind": "school",
+      "title": "Essay paragraph: Remote work",
+      "lines": [
+        {
+          "text": "Since 2020, the number of people working from home has risen sharply. [[This trend]] has brought clear benefits for employees, such as shorter commutes. [[However]], it has also created new problems. Many workers report feeling isolated, and [[this isolation]] can affect their mental health. [[As a result]], some companies now require staff to come to the office twice a week. [[Such policies]] aim to balance flexibility with team spirit."
+        }
+      ]
+    },
+    {
+      "kind": "email",
+      "title": "Project summary",
+      "lines": [
+        {
+          "text": "Dear team, We tested two suppliers last month: GreenPack and BoxPro. [[The former]] offered lower prices, while [[the latter]] delivered faster. [[These results]] make the decision difficult. [[Nevertheless]], we need to choose one supplier by Friday. [[This decision]] will affect our costs for the next two years, so please send me your views. Best, Ploy"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Cohesion",
+      "th": "ความต่อเนื่องเชื่อมโยงระหว่างประโยค"
+    },
+    {
+      "en": "Reference",
+      "th": "การอ้างกลับไปยังสิ่งที่พูดแล้ว (this, these, the former …)"
+    },
+    {
+      "en": "Summary noun",
+      "th": "คำนามที่สรุปความคิดในประโยคก่อน เช่น problem, trend, decision"
+    },
+    {
+      "en": "Linker / Discourse marker",
+      "th": "คำเชื่อมข้ามประโยค เช่น However, As a result, Moreover"
+    },
+    {
+      "en": "Given → New",
+      "th": "เริ่มประโยคด้วยข้อมูลที่ผู้อ่านรู้แล้ว แล้วจบด้วยข้อมูลใหม่"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-discourse-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Fuel prices rose by 30% last year. ___, many people started using public transport.",
+      "choices": [
+        "As a result",
+        "However",
+        "In contrast",
+        "For example"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "However แสดงความขัดแย้ง แต่การหันมาใช้รถสาธารณะเป็นผลที่สมเหตุสมผลของน้ำมันแพง",
+        "2": "In contrast ใช้เทียบความแตกต่างของสองสิ่ง ไม่ใช่เหตุ → ผล",
+        "3": "For example ใช้ยกตัวอย่าง แต่ประโยคที่สองไม่ใช่ตัวอย่างของราคาน้ำมันขึ้น"
+      },
+      "explainTh": "ประโยคที่สองเป็น “ผลลัพธ์” ของประโยคแรก → As a result, …",
+      "structure": "Sentence. As a result, + sentence.",
+      "example": "Fuel prices rose. As a result, people used public transport."
+    },
+    {
+      "id": "c1-discourse-02",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Some students live on campus, while others commute from home. ___ often spend over two hours a day travelling.",
+      "choices": [
+        "The latter",
+        "The former",
+        "The latters",
+        "Latter"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "the former = กลุ่มแรก (อยู่ในหอ) ซึ่งไม่ต้องเดินทางนานขนาดนั้น",
+        "2": "the latter ไม่เติม -s แม้จะหมายถึงคนหลายคน",
+        "3": "ต้องมี the เสมอ: the latter"
+      },
+      "explainTh": "คนที่เดินทางนานคือกลุ่มที่สอง (commute from home) → the latter = ตัวหลัง"
+    },
+    {
+      "id": "c1-discourse-03",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ต่อจาก “Our team has developed a new water filter.” ได้ลื่นที่สุด (given → new)",
+      "choices": [
+        "The filter can remove 99% of bacteria in under a minute.",
+        "99% of bacteria can be removed in under a minute by it.",
+        "A device that removes bacteria in under a minute is the filter.",
+        "In under a minute, 99% of bacteria are removed by this one."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ข้อมูลเดิม (it = the filter) ไปอยู่ท้ายประโยค ข้อมูลใหม่อยู่ข้างหน้า อ่านแล้วสะดุด",
+        "2": "เริ่มด้วยข้อมูลใหม่แล้วค่อยบอกว่าคือ the filter — ลำดับกลับด้าน",
+        "3": "ข้อมูลเดิมอยู่ท้ายประโยคและ by this one ฟังไม่เป็นธรรมชาติ"
+      },
+      "explainTh": "Given → New: เริ่มด้วย The filter (สิ่งที่เพิ่งพูดถึง) แล้วจบด้วยข้อมูลใหม่ (remove 99% of bacteria …)"
+    },
+    {
+      "id": "c1-discourse-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "The survey showed that most employees want flexible working hours. ___ finding surprised the managers. (this / these)",
+      "accepted": [
+        "This"
+      ],
+      "explainTh": "finding เป็นเอกพจน์ → This finding (คำนามสรุปที่อ้างถึงผลสำรวจในประโยคก่อน)"
+    },
+    {
+      "id": "c1-discourse-05",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "The policy was popular with voters. ___, it was very expensive to implement. (คำเชื่อมแสดงความขัดแย้ง 1 คำ ขึ้นต้นด้วย H)",
+      "accepted": [
+        "However"
+      ],
+      "explainTh": "ข้อดี (popular) → ข้อเสีย (expensive) = ความขัดแย้งข้ามประโยค → However, …"
+    },
+    {
+      "id": "c1-discourse-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Students can take either an online course or a classroom course. ___ is cheaper, but the classroom course offers more interaction. (2 คำ หมายถึงตัวแรกที่กล่าวถึง)",
+      "accepted": [
+        "The former"
+      ],
+      "explainTh": "the former = ตัวแรก (online course) · the latter = ตัวหลัง — ประโยคบอกแล้วว่า classroom course คืออีกตัว"
+    },
+    {
+      "id": "c1-discourse-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "The project was delayed, however the team still met the final deadline.",
+      "errorPart": "however",
+      "accepted": [
+        "The project was delayed. However, the team still met the final deadline.",
+        "The project was delayed; however, the team still met the final deadline.",
+        "The project was delayed, but the team still met the final deadline.",
+        "Although the project was delayed, the team still met the final deadline.",
+        "The project was delayed. Nevertheless, the team still met the final deadline."
+      ],
+      "explainTh": "however เชื่อมสองประโยคด้วย comma ไม่ได้ (comma splice) — ขึ้นประโยคใหม่ / ใช้ ; หรือเปลี่ยนเป็น but"
+    },
+    {
+      "id": "c1-discourse-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "The government introduced new tax rules last year. This rules have been heavily criticised.",
+      "errorPart": "This rules",
+      "accepted": [
+        "The government introduced new tax rules last year. These rules have been heavily criticised."
+      ],
+      "explainTh": "rules เป็นพหูพจน์ → These rules (this ใช้กับเอกพจน์เท่านั้น)"
+    },
+    {
+      "id": "c1-discourse-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Many young people are moving to big cities. On the other hand, rural schools are closing.",
+      "errorPart": "On the other hand",
+      "accepted": [
+        "Many young people are moving to big cities. As a result, rural schools are closing.",
+        "Many young people are moving to big cities. Consequently, rural schools are closing.",
+        "Many young people are moving to big cities. As a consequence, rural schools are closing.",
+        "Many young people are moving to big cities. Because of this, rural schools are closing.",
+        "Many young people are moving to big cities. For this reason, rural schools are closing.",
+        "Many young people are moving to big cities. Therefore, rural schools are closing.",
+        "Many young people are moving to big cities. Thus, rural schools are closing.",
+        "Many young people are moving to big cities. As a result rural schools are closing."
+      ],
+      "explainTh": "โรงเรียนชนบทปิดเป็น “ผล” ของการที่คนหนุ่มสาวย้ายเข้าเมือง จึงใช้ As a result / Consequently — On the other hand ใช้มองอีกด้านของเรื่อง ไม่ใช่เหตุ → ผล"
+    },
+    {
+      "id": "c1-discourse-10",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "this",
+        "approach",
+        "has",
+        "reduced",
+        "costs",
+        "significantly"
+      ],
+      "accepted": [
+        "This approach has reduced costs significantly.",
+        "This approach has significantly reduced costs."
+      ],
+      "explainTh": "This + คำนามสรุป (approach) เป็นประธาน อ้างกลับไปยังวิธีที่พูดถึงในประโยคก่อน"
+    },
+    {
+      "id": "c1-discourse-11",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "however",
+        "the",
+        "results",
+        "were",
+        "not",
+        "statistically",
+        "significant"
+      ],
+      "accepted": [
+        "However, the results were not statistically significant.",
+        "However the results were not statistically significant.",
+        "The results, however, were not statistically significant.",
+        "The results however were not statistically significant.",
+        "The results were not statistically significant, however.",
+        "The results were not statistically significant however."
+      ],
+      "explainTh": "However วางต้นประโยค (ตามด้วย comma) หรือแทรกหลังประธานโดยมี comma สองข้างก็ได้"
+    },
+    {
+      "id": "c1-discourse-12",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "Sales fell in the first quarter, but they recovered in the second.",
+      "instruction": "เขียนเป็นสองประโยค โดยขึ้นต้นประโยคที่สองด้วย However",
+      "accepted": [
+        "Sales fell in the first quarter. However, they recovered in the second.",
+        "Sales fell in the first quarter. However they recovered in the second.",
+        "Sales fell in the first quarter. However, sales recovered in the second.",
+        "Sales fell in the first quarter. However, they recovered in the second quarter.",
+        "Sales fell in the first quarter. However, sales recovered in the second quarter."
+      ],
+      "explainTh": "but (ในประโยคเดียว) → จุด + However, (ขึ้นประโยคใหม่) — ตัด but ออก และใส่ comma หลัง However"
+    },
+    {
+      "id": "c1-discourse-13",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "The company cut its prices by 20%, so its sales doubled within a month.",
+      "instruction": "เขียนเป็นสองประโยค โดยขึ้นต้นประโยคที่สองด้วย As a result",
+      "accepted": [
+        "The company cut its prices by 20%. As a result, its sales doubled within a month.",
+        "The company cut its prices by 20%. As a result its sales doubled within a month.",
+        "The company cut its prices by 20%. As a result, the company's sales doubled within a month.",
+        "The company cut its prices by 20%. As a result, sales doubled within a month."
+      ],
+      "explainTh": "so (ในประโยคเดียว) → จุด + As a result, (ข้ามประโยค) แสดงผลลัพธ์"
+    },
+    {
+      "id": "c1-discourse-14",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Researchers have developed a new vaccine. Children under five will be protected from dengue fever by the vaccine.",
+      "instruction": "เขียนประโยคที่สองใหม่ให้ขึ้นต้นด้วยข้อมูลเดิม The vaccine … (given → new) ใช้ active voice",
+      "accepted": [
+        "The vaccine will protect children under five from dengue fever.",
+        "Researchers have developed a new vaccine. The vaccine will protect children under five from dengue fever.",
+        "The vaccine will protect children under the age of five from dengue fever."
+      ],
+      "explainTh": "the vaccine คือข้อมูลเดิม (เพิ่งพูดถึง) จึงควรเป็นประธานต้นประโยค ส่วน children under five / dengue fever เป็นข้อมูลใหม่ไว้ท้าย"
+    },
+    {
+      "id": "c1-discourse-15",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่คำเชื่อมกับหน้าที่",
+      "pairs": [
+        [
+          "Consequently",
+          "บอกผลลัพธ์"
+        ],
+        [
+          "Nevertheless",
+          "แม้จะเป็นอย่างนั้นก็ตาม (ขัดแย้งกับความคาดหวัง)"
+        ],
+        [
+          "Moreover",
+          "เพิ่มข้อมูลไปในทางเดียวกัน"
+        ],
+        [
+          "For instance",
+          "ยกตัวอย่าง"
+        ],
+        [
+          "In contrast",
+          "เทียบความแตกต่างของสองสิ่ง"
+        ]
+      ],
+      "explainTh": "เลือกคำเชื่อมจากความสัมพันธ์ของสองประโยค: ผล / ขัดแย้ง / เพิ่ม / ตัวอย่าง / เทียบความต่าง"
+    },
+    {
+      "id": "c1-discourse-16",
+      "type": "context",
+      "difficulty": 2,
+      "context": {
+        "kind": "school",
+        "title": "An ageing society",
+        "lines": [
+          {
+            "text": "Thailand's population is ageing rapidly. By the early 2030s, more than a quarter of Thais will be over 60. This shift will put enormous pressure on the health system. Moreover, fewer young workers will be paying taxes to support it."
+          }
+        ]
+      },
+      "question": "What does 'This shift' refer to?",
+      "choices": [
+        "the ageing of the population",
+        "the pressure on the health system",
+        "the fall in tax payments",
+        "a change in government policy"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "แรงกดดันต่อระบบสาธารณสุขคือ “ผล” ของ this shift ไม่ใช่ตัว shift เอง",
+        "2": "เรื่องภาษีมาในประโยคหลัง this shift",
+        "3": "ข้อความไม่ได้พูดถึงนโยบายรัฐบาล"
+      },
+      "explainTh": "This + คำนามสรุป อ้างกลับไปยังความคิดในประโยคก่อนหน้า → การเปลี่ยนแปลงที่ประชากรสูงวัยขึ้น"
+    },
+    {
+      "id": "c1-discourse-17",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "Tutor",
+            "text": "This part of your report needs a linker: 'The app has attracted over a million users. ___, it has not made any profit yet.'"
+          },
+          {
+            "speaker": "Student",
+            "text": "Right — I want to show that the second sentence is surprising after the first."
+          }
+        ]
+      },
+      "choices": [
+        "Nevertheless",
+        "Therefore",
+        "Moreover",
+        "For example"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Therefore บอกผลลัพธ์ แต่การไม่มีกำไรไม่ใช่ผลของการมีผู้ใช้เยอะ",
+        "2": "Moreover เพิ่มข้อมูลไปทางเดียวกัน แต่สองประโยคนี้ขัดกัน",
+        "3": "ประโยคที่สองไม่ใช่ตัวอย่างของประโยคแรก"
+      },
+      "explainTh": "ผู้ใช้เยอะ (ดี) แต่ยังไม่มีกำไร (ขัดกับที่คาด) → Nevertheless, … = แม้จะเป็นเช่นนั้นก็ตาม"
+    },
+    {
+      "id": "c1-discourse-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียนย่อหน้าสั้น ๆ 3–4 ประโยค เกี่ยวกับปัญหาในเมืองของคุณ (เช่น รถติด ฝุ่น PM2.5) โดยใช้ This/These + คำนามสรุป อย่างน้อย 1 ครั้ง และคำเชื่อมข้ามประโยคอย่างน้อย 1 ครั้ง (Write a short paragraph about a problem in your city.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(this|these|such)\\s+(?!as\\b|is\\b|year\\b|week\\b|month\\b|morning\\b|time\\b|are\\b|was\\b|were\\b|has\\b|have\\b|will\\b|can\\b|could\\b|may\\b|might\\b|means\\b|meant\\b|shows\\b|suggests\\b|led\\b|leads\\b|caused\\b|causes\\b|made\\b|makes\\b)[a-z]+",
+          "flags": "i",
+          "msgTh": "ใช้ This/These + คำนามสรุป อย่างน้อย 1 ครั้ง เช่น This problem, These changes"
+        },
+        {
+          "re": "(^|[.;!?]\\s*)(However|As a result|Consequently|Moreover|In addition|Furthermore|Therefore|Nevertheless|For example|For instance|In contrast|Similarly|On the other hand|As a consequence|Thus)\\b",
+          "flags": "i",
+          "msgTh": "ใช้คำเชื่อมข้ามประโยคอย่างน้อย 1 ครั้ง เช่น However, / As a result, / Moreover,"
+        }
+      ],
+      "sample": "Air pollution in Chiang Mai gets very bad every March. This problem is mainly caused by forest fires and crop burning. As a result, many schools have to close for several days. Moreover, hospitals report more patients with breathing problems.",
+      "explainTh": "ใช้คำนามสรุปให้ตรงพจน์ (this problem / these fires) และเลือกคำเชื่อมให้ตรงความสัมพันธ์ (ผล / ขัดแย้ง / เพิ่มเติม)"
+    }
+  ]
+}

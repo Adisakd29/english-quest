@@ -1,0 +1,207 @@
+{
+  "id": "a1-there-is-are",
+  "summaryTh": "ใช้ there is / there are บอกว่า \"มี\" อะไรอยู่ที่ไหน",
+  "concept": {
+    "what": "There is / There are แปลว่า \"มี … (อยู่)\" ใช้บอกว่ามีคนหรือสิ่งของอยู่ในที่ใดที่หนึ่ง โดยไม่ได้บอกว่าใครเป็นเจ้าของ",
+    "when": [
+      "There is + คำนามเอกพจน์ หรือคำนามนับไม่ได้ (There is a bank near here. There is some milk.)",
+      "There are + คำนามพหูพจน์ (There are two parks in my town.)",
+      "บรรยายห้อง บ้าน โรงเรียน เมือง (In my room, there is a bed and there are two chairs.)",
+      "ถามว่ามีไหม: Is there …? / Are there …? · ถามจำนวน: How many … are there?"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ในห้องมีเตียง\" ผู้เรียนจึงมักแปลเป็น \"In my room have a bed\" ซึ่งผิด — ภาษาอังกฤษใช้ There is / There are เมื่อบอกว่ามีอะไรอยู่ที่ไหน"
+  },
+  "structure": {
+    "formula": "There is + singular noun · There are + plural noun",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "There is (There's) + a/an + noun · There are + nouns", "example": "[[There is]] a cat on the sofa. [[There are]] two dogs in the garden." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "There isn't a/any … · There aren't any …", "example": "[[There aren't]] any shops near my house." },
+      { "label": "คำถาม (Question)", "formula": "Is there a/any …? · Are there any …?", "example": "[[Is there]] a toilet on this floor?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, there is/are. · No, there isn't/aren't.", "example": "Yes, [[there is]]. / No, [[there aren't]]." },
+      { "label": "ถามจำนวน", "formula": "How many + plural noun + are there …?", "example": "How many students [[are there]] in your class?" }
+    ],
+    "notes": [
+      "เลือก is / are ตามคำนามที่ตามมา ไม่ใช่ตาม there",
+      "คำนามนับไม่ได้ (water, milk, rice) ใช้ there is: There is some water in the bottle.",
+      "ปฏิเสธและคำถามกับพหูพจน์มักใช้ any: Are there any …? There aren't any …",
+      "ตอบสั้นแบบบอกเล่าไม่ย่อ: Yes, there is. (ไม่ใช่ Yes, there's.)"
+    ]
+  },
+  "examples": [
+    { "en": "[[There is]] a cat on the sofa.", "th": "มีแมวอยู่บนโซฟา" },
+    { "en": "[[There are]] two banks near my house.", "th": "มีธนาคารสองแห่งใกล้บ้านฉัน" },
+    { "en": "[[There isn't]] any milk in the fridge.", "th": "ไม่มีนมในตู้เย็นเลย" },
+    { "en": "[[There aren't]] many people at the beach today.", "th": "วันนี้ที่ชายหาดมีคนไม่มาก" },
+    { "en": "[[Is there]] a toilet on this floor? — Yes, [[there is]].", "th": "ชั้นนี้มีห้องน้ำไหม — มีครับ" },
+    { "en": "[[Are there]] any good restaurants near the hotel?", "th": "ใกล้โรงแรมมีร้านอาหารดี ๆ ไหม" },
+    { "en": "How many students [[are there]] in your class?", "th": "ห้องของคุณมีนักเรียนกี่คน" },
+    { "en": "[[There is]] some water in the bottle.", "th": "ในขวดมีน้ำอยู่บ้าง (water นับไม่ได้ ใช้ is)" }
+  ],
+  "mistakes": [
+    { "wrong": "In my room have a bed.", "right": "There is a bed in my room.", "whyTh": "แปลตรงจาก \"ในห้องมีเตียง\" — บอกว่ามีอะไรอยู่ที่ไหนใช้ There is / There are ไม่ใช้ have" },
+    { "wrong": "There is three chairs in the room.", "right": "There are three chairs in the room.", "whyTh": "three chairs เป็นพหูพจน์ ต้องใช้ There are" },
+    { "wrong": "There are a bag on the desk.", "right": "There is a bag on the desk.", "whyTh": "a bag มีใบเดียว (เอกพจน์) ต้องใช้ There is" },
+    { "wrong": "There has a shop near my house.", "right": "There is a shop near my house.", "whyTh": "There ใช้คู่กับ is / are เท่านั้น ไม่ใช้ has / have" },
+    { "wrong": "Is there any students in the class?", "right": "Are there any students in the class?", "whyTh": "students เป็นพหูพจน์ คำถามต้องขึ้นต้นด้วย Are there" }
+  ],
+  "contexts": [
+    {
+      "kind": "announcement", "title": "Welcome to our school",
+      "lines": [
+        { "text": "Welcome to Green Hill School! [[There are]] 20 classrooms and [[there is]] a big library on the second floor. [[There isn't]] a swimming pool, but [[there are]] two football fields. [[There is]] a canteen next to the gym." }
+      ]
+    },
+    {
+      "kind": "travel", "title": "At the hotel",
+      "lines": [
+        { "speaker": "Guest", "text": "Excuse me, [[is there]] a pharmacy near the hotel?" },
+        { "speaker": "Receptionist", "text": "Yes, [[there is]]. It's on the corner." },
+        { "speaker": "Guest", "text": "Great. And [[are there]] any buses to the beach?" },
+        { "speaker": "Receptionist", "text": "Yes, [[there are]]. [[There's]] a bus every 20 minutes." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "There is / There are", "th": "มี … (บอกว่ามีอะไรอยู่ที่ไหน)" },
+    { "en": "Uncountable noun", "th": "คำนามนับไม่ได้ เช่น water, milk, rice — ใช้กับ there is" },
+    { "en": "Short answer", "th": "คำตอบสั้น เช่น Yes, there is. / No, there aren't." }
+  ],
+  "practice": [
+    {
+      "id": "a1-there-is-are-01", "type": "mc", "difficulty": 1,
+      "question": "___ a big tree in my garden.",
+      "choices": ["There is", "There are", "It has", "Have"], "answer": 0,
+      "whyNot": { "1": "There are ใช้กับพหูพจน์ แต่ a big tree มีต้นเดียว", "2": "It has แปลว่า \"มัน (สิ่งนั้น) มี\" ไม่ได้บอกว่ามีอะไรอยู่ในที่ไหน", "3": "แปลตรงจาก \"มี\" ในภาษาไทย แต่ภาษาอังกฤษขึ้นต้นประโยคด้วย Have แบบนี้ไม่ได้" },
+      "explainTh": "บอกว่ามีสิ่งของ 1 สิ่งอยู่ในที่หนึ่ง → There is + a + noun",
+      "structure": "There is + a + singular noun", "example": "There is a big tree in my garden."
+    },
+    {
+      "id": "a1-there-is-are-02", "type": "mc", "difficulty": 1,
+      "question": "___ five rooms in our house.",
+      "choices": ["There is", "There are", "There has", "They are"], "answer": 1,
+      "whyNot": { "0": "five rooms เป็นพหูพจน์ ใช้ There is ไม่ได้", "2": "There ใช้คู่กับ is / are ไม่ใช้ has", "3": "They are แปลว่า \"พวกมันเป็น…\" ไม่ได้แปลว่า \"มี\"" },
+      "explainTh": "five rooms = พหูพจน์ → There are",
+      "structure": "There are + plural noun", "example": "There are five rooms in our house."
+    },
+    {
+      "id": "a1-there-is-are-03", "type": "fill", "difficulty": 1,
+      "question": "There ___ a clock on the wall. (be – ปัจจุบัน)",
+      "accepted": ["is"],
+      "explainTh": "a clock มีเรือนเดียว (เอกพจน์) → There is",
+      "structure": "There is + a + noun", "example": "There is a clock on the wall."
+    },
+    {
+      "id": "a1-there-is-are-04", "type": "fill", "difficulty": 2,
+      "question": "There ___ any eggs in the fridge. We need to buy some. (be + not – ปัจจุบัน)",
+      "accepted": ["aren't", "are not"],
+      "explainTh": "eggs เป็นพหูพจน์ ปฏิเสธใช้ There aren't (are not) + any",
+      "structure": "There aren't any + plural noun", "example": "There aren't any eggs in the fridge."
+    },
+    {
+      "id": "a1-there-is-are-05", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยค (ดูจำนวนและเครื่องหมายท้ายประโยค)",
+      "pairs": [["There is", "a sofa in the living room."], ["There are", "three bedrooms upstairs."], ["Is there", "a garage?"], ["Are there", "any trees in the garden?"]],
+      "explainTh": "There is / Is there + เอกพจน์ · There are / Are there + พหูพจน์ · คำถามขึ้นต้นด้วย Is / Are และจบด้วย ?"
+    },
+    {
+      "id": "a1-there-is-are-06", "type": "error", "difficulty": 1,
+      "sentence": "There is two cats on the bed.",
+      "errorPart": "is",
+      "accepted": ["There are two cats on the bed."],
+      "explainTh": "two cats เป็นพหูพจน์ → There are",
+      "structure": "There are + plural noun"
+    },
+    {
+      "id": "a1-there-is-are-07", "type": "error", "difficulty": 2,
+      "sentence": "In my school have a big library.",
+      "errorPart": "have",
+      "accepted": ["There is a big library in my school.", "In my school there is a big library.", "My school has a big library."],
+      "explainTh": "บอกว่ามีอะไรอยู่ที่ไหนใช้ There is (ไม่ใช่ have ที่แปลตรงจาก \"มี\") — หรือใช้โรงเรียนเป็นประธาน: My school has …",
+      "structure": "There is + noun + place"
+    },
+    {
+      "id": "a1-there-is-are-08", "type": "error", "difficulty": 2,
+      "sentence": "Are there a supermarket near your house?",
+      "errorPart": "Are",
+      "accepted": ["Is there a supermarket near your house?"],
+      "explainTh": "a supermarket เป็นเอกพจน์ คำถามต้องขึ้นต้นด้วย Is there",
+      "structure": "Is there + a + singular noun?"
+    },
+    {
+      "id": "a1-there-is-are-09", "type": "order", "difficulty": 1,
+      "tokens": ["there", "a", "on", "is", "desk", "book", "the"],
+      "accepted": ["There is a book on the desk.", "Is there a book on the desk?", "On the desk there is a book."],
+      "explainTh": "There is + a book + สถานที่ (on the desk)"
+    },
+    {
+      "id": "a1-there-is-are-10", "type": "order", "difficulty": 2,
+      "tokens": ["many", "how", "are", "in", "there", "rooms", "the", "hotel"],
+      "accepted": ["How many rooms are there in the hotel?"],
+      "explainTh": "ถามจำนวน: How many + คำนามพหูพจน์ + are there + สถานที่?"
+    },
+    {
+      "id": "a1-there-is-are-11", "type": "transform", "difficulty": 2,
+      "source": "There is a dog in the garden.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ (Negative)",
+      "accepted": ["There isn't a dog in the garden.", "There is not a dog in the garden.", "There is no dog in the garden."],
+      "explainTh": "ปฏิเสธ: There isn't (is not) + a + noun — หรือใช้ There is no + noun ก็ได้",
+      "structure": "There isn't a + singular noun", "example": "There isn't a dog in the garden."
+    },
+    {
+      "id": "a1-there-is-are-12", "type": "transform", "difficulty": 3,
+      "source": "There is one chair in the room.",
+      "instruction": "เขียนใหม่โดยเปลี่ยน one เป็น four",
+      "accepted": ["There are four chairs in the room."],
+      "explainTh": "four chairs เป็นพหูพจน์ → เปลี่ยน is เป็น are และเติม -s ที่ chair",
+      "structure": "There are + plural noun", "example": "There are four chairs in the room."
+    },
+    {
+      "id": "a1-there-is-are-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["There is many books in the library.", "There are many books in the library.", "There have many books in the library.", "In the library have many books."], "answer": 1,
+      "whyNot": { "0": "many books เป็นพหูพจน์ ต้องใช้ There are", "2": "There ใช้คู่กับ is / are ไม่ใช้ have", "3": "แปลตรงจากภาษาไทย \"ในห้องสมุดมีหนังสือ\" — ภาษาอังกฤษใช้ There are" },
+      "explainTh": "many books = พหูพจน์ → There are many books …",
+      "structure": "There are + plural noun", "example": "There are many books in the library."
+    },
+    {
+      "id": "a1-there-is-are-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "travel", "lines": [
+        { "speaker": "Guest", "text": "Excuse me, ___ any restaurants near the hotel?" },
+        { "speaker": "Receptionist", "text": "Yes, there are. There are two on this street." }
+      ] },
+      "choices": ["is there", "are there", "there are", "have"], "answer": 1,
+      "whyNot": { "0": "restaurants เป็นพหูพจน์ ใช้ is there ไม่ได้", "2": "คำถามต้องสลับเป็น are there (there are เป็นรูปบอกเล่า)", "3": "ถามว่ามีอะไรอยู่ที่ไหนใช้ are there ไม่ใช้ have (และประโยคไม่มีประธาน)" },
+      "explainTh": "คำถามกับคำนามพหูพจน์ → Are there any + plural noun? และคำตอบ Yes, there are. ยืนยัน",
+      "structure": "Are there any + plural noun?", "example": "Are there any restaurants near the hotel?"
+    },
+    {
+      "id": "a1-there-is-are-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "Welcome to our school", "lines": [
+        { "text": "Welcome to Green Hill School! There are 20 classrooms and there is a big library on the second floor. There isn't a swimming pool, but there are two football fields." }
+      ] },
+      "question": "Which sentence is true?",
+      "choices": ["There is a swimming pool.", "There are two libraries.", "There are two football fields.", "There isn't a library."], "answer": 2,
+      "whyNot": { "0": "ประกาศบอกว่า There isn't a swimming pool", "1": "มีห้องสมุดเดียว: there is a big library", "3": "มีห้องสมุด: there is a big library on the second floor" },
+      "explainTh": "\"there are two football fields\" — two football fields เป็นพหูพจน์จึงใช้ there are"
+    },
+    {
+      "id": "a1-there-is-are-16", "type": "mc", "difficulty": 3,
+      "question": "There ___ some water in the bottle.",
+      "choices": ["is", "are", "have", "has"], "answer": 0,
+      "whyNot": { "1": "water เป็นคำนามนับไม่ได้ ใช้ are ไม่ได้ (แม้จะมี some)", "2": "There ไม่ใช้คู่กับ have", "3": "There ไม่ใช้คู่กับ has" },
+      "explainTh": "water เป็นคำนามนับไม่ได้ ใช้เหมือนเอกพจน์ → There is some water",
+      "structure": "There is + uncountable noun", "example": "There is some water in the bottle."
+    },
+    {
+      "id": "a1-there-is-are-17", "type": "write", "difficulty": 3,
+      "task": "บรรยายห้องนอนหรือห้องเรียนของคุณ 3 ประโยค ใช้ there is และ there are (Describe your bedroom or classroom in 3 sentences. Use there is and there are.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bthere\\s+is\\b|\\bthere's\\b", "flags": "i", "msgTh": "ใช้ there is อย่างน้อย 1 ครั้ง (กับคำนามเอกพจน์)" },
+        { "re": "\\bthere\\s+are\\b", "flags": "i", "msgTh": "ใช้ there are อย่างน้อย 1 ครั้ง (กับคำนามพหูพจน์)" }
+      ],
+      "sample": "There is a small bed in my bedroom. There are two windows. There isn't a TV, but there is a big desk.",
+      "explainTh": "There is + a/an + เอกพจน์ · There are + พหูพจน์ · ปฏิเสธ There isn't / There aren't"
+    }
+  ]
+}
