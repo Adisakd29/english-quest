@@ -1,0 +1,215 @@
+{
+  "id": "a2-infinitive",
+  "summaryTh": "กริยาบางตัวตามด้วย to + กริยาช่องที่ 1 เช่น want to go, decide to stay",
+  "concept": {
+    "what": "to-infinitive คือ to + กริยาช่องที่ 1 (to go, to eat) ใช้ตามหลังกริยาบางตัว เช่น want, need, decide, hope, plan และใช้บอกจุดประสงค์ว่า \"ทำ … เพื่อ …\"",
+    "when": [
+      "ตามหลังกริยาที่พูดถึงความต้องการ แผน หรือการตัดสินใจ: want, would like, need, hope, plan, decide, promise, learn, forget, agree, refuse, offer",
+      "บอกจุดประสงค์ (เพื่อ …): I went to the bank to get some money.",
+      "ตามหลังคำคุณศัพท์บางคำ: It's easy to cook. / I'm happy to help."
+    ],
+    "why": "ภาษาไทยวางกริยาต่อกันได้เลย (อยากไป ตัดสินใจอยู่) แต่ภาษาอังกฤษต้องมี to คั่น — ผู้เรียนไทยจึงมักลืม to (I want go) หรือเติม -s / -ed หลัง to (to goes, to went)"
+  },
+  "structure": {
+    "formula": "Subject + verb + to + V1",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "Subject + want / need / decide … + to + V1", "example": "I [[want to learn]] Korean." },
+      { "label": "ปฏิเสธกริยาตัวแรก", "formula": "Subject + don't / doesn't / didn't + verb + to + V1", "example": "She [[didn't want to go]] out last night." },
+      { "label": "ปฏิเสธตัว to-infinitive", "formula": "Subject + verb + not + to + V1", "example": "He [[decided not to buy]] the car." },
+      { "label": "คำถาม (Question)", "formula": "Do / Did + Subject + verb + to + V1?", "example": "[[Do]] you [[need to leave]] now?" },
+      { "label": "จุดประสงค์ (Purpose)", "formula": "… + to + V1 (= เพื่อ …)", "example": "I'm saving money [[to buy]] a new laptop." }
+    ],
+    "notes": [
+      "หลัง to ใช้กริยาช่องที่ 1 เสมอ แม้ประโยคจะเป็นอดีตหรือประธานเป็น he / she: She wanted to go. (ไม่ใช่ to went / to goes)",
+      "would like + to + V1 = want แบบสุภาพ: I would like (I'd like) to book a table.",
+      "บอกจุดประสงค์ใช้ to + V1 ไม่ใช่ for + V1: I came here to study. (ไม่ใช่ for study)",
+      "กริยาบางตัว (like, love, start, begin) ตามด้วย to + V1 หรือ -ing ก็ได้ — ดูหัวข้อ Gerunds"
+    ]
+  },
+  "examples": [
+    { "en": "I [[want to visit]] Japan next year.", "th": "ฉันอยากไปเที่ยวญี่ปุ่นปีหน้า" },
+    { "en": "We [[decided to stay]] at home because it was raining.", "th": "พวกเราตัดสินใจอยู่บ้านเพราะฝนตก" },
+    { "en": "Don't [[forget to lock]] the door.", "th": "อย่าลืมล็อกประตูนะ" },
+    { "en": "She [[hopes to get]] a job at a big hotel.", "th": "เธอหวังว่าจะได้งานที่โรงแรมใหญ่" },
+    { "en": "I [[would like to order]] a green curry, please.", "th": "ขอสั่งแกงเขียวหวานหนึ่งที่ค่ะ" },
+    { "en": "He [[promised not to be]] late again.", "th": "เขาสัญญาว่าจะไม่มาสายอีก" },
+    { "en": "I went to the market [[to buy]] some fruit.", "th": "ฉันไปตลาดเพื่อซื้อผลไม้" },
+    { "en": "My little brother is [[learning to swim]].", "th": "น้องชายของฉันกำลังหัดว่ายน้ำ" },
+    { "en": "It's not easy [[to find]] a cheap room in Bangkok.", "th": "หาห้องราคาถูกในกรุงเทพฯ ไม่ง่ายเลย" }
+  ],
+  "mistakes": [
+    { "wrong": "I want go home.", "right": "I want to go home.", "whyTh": "ภาษาไทยวางกริยาต่อกันได้ (อยากกลับบ้าน) แต่หลัง want ต้องมี to + V1" },
+    { "wrong": "She wanted to bought a new bag.", "right": "She wanted to buy a new bag.", "whyTh": "หลัง to ใช้กริยาช่องที่ 1 เสมอ — wanted บอกความเป็นอดีตไปแล้ว" },
+    { "wrong": "I went to the library for borrow a book.", "right": "I went to the library to borrow a book.", "whyTh": "บอกจุดประสงค์ (เพื่อ …) ใช้ to + V1 ไม่ใช่ for + V1" },
+    { "wrong": "He needs to finishes the work.", "right": "He needs to finish the work.", "whyTh": "เติม -s แค่กริยาตัวแรก (needs) ส่วนหลัง to ใช้ V1 ไม่เติมอะไร" },
+    { "wrong": "I hope see you soon.", "right": "I hope to see you soon.", "whyTh": "hope ตามด้วย to + V1" },
+    { "wrong": "She decided don't go.", "right": "She decided not to go.", "whyTh": "ปฏิเสธ to-infinitive ให้วาง not หน้า to (not to go) ไม่ใช้ don't" }
+  ],
+  "compare": {
+    "title": "to + V1 vs V-ing",
+    "with": ["a2-gerund"],
+    "rows": [
+      { "label": "กริยาที่ตามด้วย", "a": "want, need, decide, hope, plan, promise, would like", "b": "enjoy, finish, mind, avoid, practise, keep" },
+      { "label": "ตัวอย่าง", "a": "I want to swim.", "b": "I enjoy swimming." },
+      { "label": "ใช้ได้ทั้งสองแบบ", "a": "I like to cook. (like, love, start, begin)", "b": "I like cooking. (ความหมายแทบไม่ต่างกัน)" }
+    ],
+    "tipTh": "กริยาที่พูดถึงสิ่งที่ยังไม่เกิด เช่น แผน ความหวัง การตัดสินใจ (want, plan, hope, decide) มักตามด้วย to + V1"
+  },
+  "contexts": [
+    {
+      "kind": "message", "title": "Message to a friend",
+      "lines": [
+        { "text": "Hi Jay! I [[need to buy]] a present for Mum's birthday. Do you [[want to come]] to the mall with me on Saturday? I [[would like to find]] something nice, but I can't [[afford to spend]] too much! Let me know. — Pim" }
+      ]
+    },
+    {
+      "kind": "story", "title": "New Year plans",
+      "lines": [
+        { "text": "Last December, Tom [[decided to change]] his life. He [[wanted to be]] healthier, so he [[planned to run]] every morning. He also joined a gym [[to meet]] new people. In March, he [[managed to finish]] his first 10 km race!" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "to-infinitive", "th": "to + กริยาช่องที่ 1 เช่น to go, to eat" },
+    { "en": "Base form (V1)", "th": "กริยาช่องที่ 1 รูปเดิม ไม่เติมอะไร" },
+    { "en": "Verb pattern", "th": "แบบแผนกริยา — กริยาตัวแรกเป็นตัวกำหนดว่ากริยาตัวที่สองต้องเป็นรูปไหน" },
+    { "en": "Purpose", "th": "จุดประสงค์ (เพื่อ …) ใช้ to + V1" }
+  ],
+  "practice": [
+    {
+      "id": "a2-infinitive-01", "type": "mc", "difficulty": 1,
+      "question": "I want ___ a doctor when I grow up.",
+      "choices": ["be", "to be", "being", "to being"], "answer": 1,
+      "whyNot": { "0": "หลัง want ต้องมี to ก่อนกริยา", "2": "want ไม่ตามด้วย -ing", "3": "หลัง to ใช้กริยาช่องที่ 1 (be) ไม่ใช่ -ing" },
+      "explainTh": "want + to + V1 → I want to be a doctor.",
+      "structure": "want + to + V1", "example": "I want to be a doctor."
+    },
+    {
+      "id": "a2-infinitive-02", "type": "mc", "difficulty": 1,
+      "question": "We decided ___ a taxi because it was late.",
+      "choices": ["take", "taking", "to take", "to took"], "answer": 2,
+      "whyNot": { "0": "หลัง decide ต้องมี to ก่อนกริยา", "1": "decide ไม่ตามด้วย -ing", "3": "หลัง to ใช้ V1 เสมอ แม้ประโยคเป็นอดีต (decided บอกอดีตแล้ว)" },
+      "explainTh": "decide + to + V1 → decided to take (ความเป็นอดีตอยู่ที่ decided แล้ว)",
+      "structure": "decide + to + V1", "example": "We decided to take a taxi."
+    },
+    {
+      "id": "a2-infinitive-03", "type": "fill", "difficulty": 1,
+      "question": "She hopes ___ (pass) the exam.",
+      "accepted": ["to pass"],
+      "explainTh": "hope + to + V1 → She hopes to pass the exam. (เติม -s ที่ hopes แล้ว หลัง to ไม่ต้องเติม)",
+      "structure": "hope + to + V1", "example": "She hopes to pass the exam."
+    },
+    {
+      "id": "a2-infinitive-04", "type": "fill", "difficulty": 2,
+      "question": "I forgot ___ (call) my mum yesterday, so she was angry.",
+      "accepted": ["to call"],
+      "explainTh": "forget + to + V1 = ลืมทำสิ่งที่ควรทำ (เลยไม่ได้โทร แม่จึงโกรธ) → forgot to call",
+      "structure": "forget + to + V1", "example": "I forgot to call my mum."
+    },
+    {
+      "id": "a2-infinitive-05", "type": "fill", "difficulty": 2,
+      "question": "He went to the shop ___ (buy) some bread.",
+      "accepted": ["to buy", "in order to buy"],
+      "explainTh": "บอกจุดประสงค์ (ไปร้านเพื่อซื้อขนมปัง) ใช้ to + V1 → to buy",
+      "structure": "… + to + V1 (purpose)", "example": "He went to the shop to buy some bread."
+    },
+    {
+      "id": "a2-infinitive-06", "type": "fill", "difficulty": 3,
+      "question": "They agreed ___ (not / tell) anyone the secret.",
+      "accepted": ["not to tell", "to not tell"],
+      "explainTh": "ปฏิเสธ to-infinitive วาง not ไว้หน้า to → agreed not to tell (ไม่ใช่ agreed don't tell)",
+      "structure": "verb + not + to + V1", "example": "They agreed not to tell anyone."
+    },
+    {
+      "id": "a2-infinitive-07", "type": "error", "difficulty": 1,
+      "sentence": "I need go to the bank.",
+      "errorPart": "need go",
+      "accepted": ["I need to go to the bank."],
+      "explainTh": "need + to + V1 → need to go (ภาษาไทยพูดว่า \"ต้องไป\" ได้เลย แต่ภาษาอังกฤษต้องมี to)",
+      "structure": "need + to + V1"
+    },
+    {
+      "id": "a2-infinitive-08", "type": "error", "difficulty": 2,
+      "sentence": "My father decided to stopped smoking.",
+      "errorPart": "stopped",
+      "accepted": ["My father decided to stop smoking."],
+      "explainTh": "หลัง to ใช้กริยาช่องที่ 1 เสมอ → to stop (decided บอกอดีตไปแล้ว)",
+      "structure": "decide + to + V1"
+    },
+    {
+      "id": "a2-infinitive-09", "type": "error", "difficulty": 3,
+      "sentence": "I came to Bangkok for find a job.",
+      "errorPart": "for find",
+      "accepted": ["I came to Bangkok to find a job.", "I came to Bangkok in order to find a job."],
+      "explainTh": "บอกจุดประสงค์ด้วยกริยาใช้ to + V1 ไม่ใช่ for + V1 → to find a job",
+      "structure": "… + to + V1 (purpose)"
+    },
+    {
+      "id": "a2-infinitive-10", "type": "order", "difficulty": 1,
+      "tokens": ["would", "to", "I", "like", "a", "room", "book"],
+      "accepted": ["I would like to book a room.", "Would I like to book a room?"],
+      "explainTh": "ขออย่างสุภาพ: Subject + would like + to + V1 → I would like to book a room."
+    },
+    {
+      "id": "a2-infinitive-11", "type": "order", "difficulty": 2,
+      "tokens": ["not", "to", "decided", "she", "the", "job", "take"],
+      "accepted": ["She decided not to take the job.", "She decided to not take the job."],
+      "explainTh": "ปฏิเสธ to-infinitive: decided + not + to + V1 → She decided not to take the job."
+    },
+    {
+      "id": "a2-infinitive-12", "type": "transform", "difficulty": 3,
+      "source": "I went to the post office. I wanted to send a parcel.",
+      "instruction": "รวมเป็นประโยคเดียว ใช้ to + V1 บอกจุดประสงค์ (ตัด I wanted ออก)",
+      "accepted": ["I went to the post office to send a parcel.", "I went to the post office in order to send a parcel."],
+      "explainTh": "ไปไปรษณีย์ \"เพื่อ\" ส่งพัสดุ → … + to + V1 → to send a parcel"
+    },
+    {
+      "id": "a2-infinitive-13", "type": "transform", "difficulty": 3,
+      "source": "\"I'll help you with your homework,\" Ken said to me.",
+      "instruction": "เขียนใหม่ด้วย offered ขึ้นต้นด้วย Ken offered …",
+      "accepted": ["Ken offered to help me with my homework."],
+      "explainTh": "offer + to + V1 = เสนอว่าจะทำให้ → Ken offered to help me … (you / your เปลี่ยนเป็น me / my)"
+    },
+    {
+      "id": "a2-infinitive-14", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่สถานที่กับจุดประสงค์",
+      "pairs": [["I went to the bank", "to get some money."], ["I went to the pharmacy", "to buy some medicine."], ["I went to the library", "to borrow a book."], ["I went to the airport", "to catch a flight."], ["I went to the gym", "to do some exercise."]],
+      "explainTh": "to + V1 บอกจุดประสงค์ว่าไปที่นั่น \"เพื่อ\" ทำอะไร เช่น went to the bank to get some money"
+    },
+    {
+      "id": "a2-infinitive-15", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["He wants to goes home.", "He wants go home.", "He wants to go home.", "He want to go home."], "answer": 2,
+      "whyNot": { "0": "หลัง to ใช้ V1 (go) ไม่เติม -es", "1": "หลัง wants ต้องมี to", "3": "ประธาน he กริยาตัวแรกต้องเติม -s → wants" },
+      "explainTh": "he + wants (เติม -s ที่กริยาตัวแรก) + to + V1 (go) → He wants to go home."
+    },
+    {
+      "id": "a2-infinitive-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Are you free this evening? Would you like ___ dinner with us?" },
+        { "speaker": "B", "text": "I'd love to. Thanks!" }
+      ] },
+      "choices": ["to have", "having", "have", "to having"], "answer": 0,
+      "whyNot": { "1": "would like ตามด้วย to + V1 ไม่ใช่ -ing", "2": "หลัง would like ต้องมี to", "3": "หลัง to ใช้ V1 (have) ไม่ใช่ -ing" },
+      "explainTh": "ชวนอย่างสุภาพ: Would you like + to + V1? → Would you like to have dinner with us?"
+    },
+    {
+      "id": "a2-infinitive-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "email", "title": "Asking about a course", "lines": [
+        { "text": "Dear Mr Brown, I'm writing to ask about your English course. I want to improve my speaking because I plan to study in Australia next year. I would also like to know the price. I can't afford to pay more than 10,000 baht. Thank you, Nan" }
+      ] },
+      "question": "Why does Nan want to improve her speaking?",
+      "choices": ["To study in Australia.", "To get a cheap course.", "To meet Mr Brown.", "To write better emails."], "answer": 0,
+      "whyNot": { "1": "เรื่องราคาคือสิ่งที่ Nan อยากรู้ ไม่ใช่เหตุผลที่อยากพูดเก่งขึ้น", "2": "Nan เขียนถึง Mr Brown เพื่อถามเรื่องคอร์ส ไม่ได้บอกว่าอยากพบเขา", "3": "อีเมลไม่ได้พูดถึงการเขียนอีเมล" },
+      "explainTh": "\"I want to improve my speaking because I plan to study in Australia\" — เหตุผลคือจะไปเรียนที่ออสเตรเลีย คำตอบ To + V1 ก็คือการบอกจุดประสงค์"
+    },
+    {
+      "id": "a2-infinitive-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับแผนของคุณในปีหน้า ใช้ want / hope / plan / decide / would like + to + V1 (Write 3 sentences about your plans for next year.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b(want|wants|hope|hopes|plan|plans|planning|decide|decides|decided|would like|'d like|would love|'d love|need|needs|promise|learn|try)\\s+(not\\s+)?to\\s+[a-z]+", "flags": "i", "msgTh": "ใช้กริยา + to + V1 อย่างน้อย 1 ครั้ง เช่น I want to learn …, I hope to visit …" } ],
+      "sample": "Next year I want to learn Japanese. I hope to visit Osaka with my friends. I would also like to save some money for a new computer.",
+      "explainTh": "want / hope / plan / decide / would like ตามด้วย to + V1 เสมอ และหลัง to ไม่เติม -s หรือ -ed"
+    }
+  ]
+}

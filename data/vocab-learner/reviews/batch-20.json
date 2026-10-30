@@ -1,0 +1,116 @@
+{
+  "batch": "20",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0312",
+      "severity": "minor",
+      "problem": "Sense switched from the curated sense 'shoot' (currentThai ยิง (ปืน); flagNote only noted the other meaning) to 'dismiss', which is a different (B2) sense. Other flagged items kept their sense. Editor should confirm; a teen-safe fix for the original sense is given.",
+      "fix": {
+        "meaningEN": "to shoot a gun",
+        "thai": "ยิง (ปืน)",
+        "shortTH": "ยิง (ปืน)",
+        "thaiChangeReason": "คงความหมายเดิมตาม currentThai คือ ยิงปืน ซึ่งเป็นความหมายระดับ B1",
+        "example": "At the start of the race, a man fired a gun into the air.",
+        "form": "fired",
+        "exampleTH": "เมื่อเริ่มการแข่งขัน ชายคนหนึ่งยิงปืนขึ้นฟ้าเป็นสัญญาณ",
+        "collocations": [
+          "fire a gun",
+          "fire at",
+          "fire into the air"
+        ],
+        "gapOk": false,
+        "noteTH": "fire ยังแปลว่า ไล่ออก (จากงาน) ได้ด้วย เช่น get fired"
+      }
+    },
+    {
+      "id": "B1-S0308",
+      "severity": "minor",
+      "problem": "exampleTH uses ชาวนา (rice farmer) for a farmer keeping cows; เกษตรกร is more accurate.",
+      "fix": {
+        "exampleTH": "เกษตรกรสร้างรั้วลวดเพื่อกันไม่ให้วัวออกไปนอกทุ่ง"
+      }
+    },
+    {
+      "id": "B1-S0321",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'She ___ the letter carefully and put it into the envelope' fits wrote/read/checked.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0337",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Mum ___ two eggs in hot oil' fits 'cooked' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0350",
+      "severity": "minor",
+      "problem": "'giant panda' is a fixed species name, so it does not show the adjective meaning 'extremely large'; Thai panda reference also dated.",
+      "fix": {
+        "example": "We watched the football match on a giant screen at the mall.",
+        "form": "giant",
+        "exampleTH": "เราดูการแข่งขันฟุตบอลผ่านจอยักษ์ที่ห้าง",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0377",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The ___ of our trip was watching the sunrise' fits start/end.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0383",
+      "severity": "minor",
+      "problem": "Thai lists น่ากลัว first, but this sense (very bad/unpleasant, e.g. medicine tasted horrible) is not 'scary'.",
+      "fix": {
+        "thai": "แย่มาก, น่ารังเกียจ",
+        "shortTH": "แย่มาก",
+        "thaiChangeReason": "น่ากลัว ไม่ใช่ความหมายหลัก horrible ส่วนใหญ่แปลว่า แย่มาก หรือไม่น่าพึงพอใจ"
+      }
+    },
+    {
+      "id": "B1-S0390",
+      "severity": "minor",
+      "problem": "Example uses the compound 'identity card' (Thai บัตรประจำตัว), which does not show the noun sense 'who a person is'.",
+      "fix": {
+        "example": "At the airport, I showed my passport to prove my identity.",
+        "form": "identity",
+        "exampleTH": "ที่สนามบิน ฉันแสดงหนังสือเดินทางเพื่อยืนยันตัวตน"
+      }
+    },
+    {
+      "id": "B1-S0393",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Ploy had an ___ friend called Bobo' fits old/English.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0419",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My parents ___ their savings in a small coffee shop' fits put/spent.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0422",
+      "severity": "minor",
+      "problem": "'the iron is still hot after I used it' is unnatural tense/linking.",
+      "fix": {
+        "example": "Be careful, the iron is still hot because I just used it.",
+        "form": "iron",
+        "exampleTH": "ระวังนะ เตารีดยังร้อนอยู่เพราะฉันเพิ่งใช้เสร็จ"
+      }
+    }
+  ]
+}

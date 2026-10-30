@@ -1,0 +1,10 @@
+ALTER TABLE rank_history DROP COLUMN IF EXISTS mode;
+ALTER TABLE ranked_matches DROP COLUMN IF EXISTS mode;
+DROP INDEX IF EXISTS idx_ranked_profiles_season_mode_qr;
+DELETE FROM ranked_profiles WHERE mode = 'grammar';
+ALTER TABLE ranked_profiles DROP CONSTRAINT IF EXISTS ranked_profiles_mode_check;
+ALTER TABLE ranked_profiles DROP CONSTRAINT IF EXISTS ranked_profiles_pkey;
+ALTER TABLE ranked_profiles ADD CONSTRAINT ranked_profiles_pkey PRIMARY KEY (user_id, season_id);
+ALTER TABLE ranked_profiles DROP COLUMN IF EXISTS mode;
+CREATE INDEX IF NOT EXISTS idx_ranked_profiles_season_qr ON ranked_profiles (season_id, quest_rating DESC);
+DELETE FROM schema_migrations WHERE id = '033_ranked_modes.sql';

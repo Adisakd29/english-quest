@@ -1,0 +1,12 @@
+/* TOEIC Listening Part 2 (public/js/toeic2.js) — ต่อยอดจาก toeic.css */
+.t2-stage { display: grid; gap: 12px; padding: 16px; }
+.t2-instr { margin: 0; font-size: 0.86rem; color: var(--color-text-muted); font-style: italic; }
+.t2-answers { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.t2-answers .tq-ans { min-height: 64px; font-size: 1.2rem; }
+.t2-now { min-width: 72px; font-weight: 800; color: var(--tq-accent); font-variant-numeric: tabular-nums; }
+.t2-gap { position: relative; height: 34px; border-radius: 10px; background: var(--tq-soft); overflow: hidden; display: grid; place-items: center; font-weight: 800; color: var(--tq-accent); }
+.t2-gap::before { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--p, 100%); background: var(--tq-accent); opacity: 0.18; transition: width 1s linear; }
+.t2-gap span { position: relative; }
+.t2-line.is-now { background: var(--tq-soft); }
+.t2-q { background: var(--gl-card-2, rgba(0, 0, 0, 0.03)); }
+.t2-play .tq-top-text b { white-space: normal; }

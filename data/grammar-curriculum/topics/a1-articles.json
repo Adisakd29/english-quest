@@ -1,0 +1,210 @@
+{
+  "id": "a1-articles",
+  "summaryTh": "ใช้ a / an กับสิ่งของ 1 ชิ้นที่ยังไม่เจาะจง และ the กับสิ่งที่รู้กันว่าอันไหน",
+  "concept": {
+    "what": "Article คือคำเล็ก ๆ ที่วางหน้าคำนาม: a / an = \"หนึ่ง… (อันไหนก็ได้)\" ส่วน the = \"อันนั้น\" ที่ผู้พูดและผู้ฟังรู้ว่าหมายถึงอันไหน",
+    "when": [
+      "a / an: คำนามนับได้เอกพจน์ที่พูดถึงครั้งแรก หรือบอกอาชีพ (I have a dog. She is a teacher.)",
+      "a ก่อนเสียงพยัญชนะ (a book, a university) · an ก่อนเสียงสระ (an apple, an hour) — ดูที่ \"เสียง\" ไม่ใช่ตัวอักษร",
+      "the: สิ่งที่พูดถึงไปแล้ว สิ่งที่รู้กันในสถานการณ์ หรือสิ่งที่มีหนึ่งเดียว (the sun, the moon)",
+      "ไม่ใส่ article: คำนามพหูพจน์หรือสิ่งที่พูดแบบทั่วไป (I like cats. Dogs are friendly.)"
+    ],
+    "why": "ภาษาไทยไม่มี article เลย ผู้เรียนจึงมักพูด \"She is teacher\" — แต่ภาษาอังกฤษคำนามนับได้เอกพจน์ต้องมีคำนำหน้าเสมอ และ a / the บอกผู้ฟังว่ากำลังพูดถึงสิ่งใหม่หรือสิ่งที่รู้กันอยู่แล้ว"
+  },
+  "structure": {
+    "formula": "a / an / the + (adjective) + noun",
+    "rows": [
+      { "label": "a + เสียงพยัญชนะ", "formula": "a + b, c, d … / u (ยู) / eu", "example": "She has [[a]] bike and [[a]] uniform." },
+      { "label": "an + เสียงสระ", "formula": "an + a, e, i, o, u / h ไม่ออกเสียง", "example": "I eat [[an]] egg and wait [[an]] hour." },
+      { "label": "the + สิ่งที่รู้กันแล้ว", "formula": "a … (ครั้งแรก) → the … (ครั้งต่อไป)", "example": "I have a cat. [[The]] cat is black." },
+      { "label": "the + สิ่งที่มีหนึ่งเดียว", "formula": "the sun / the moon / the sky", "example": "[[The]] moon is beautiful tonight." },
+      { "label": "ไม่ใส่ article (พหูพจน์/ทั่วไป)", "formula": "plural noun (ความหมายทั่วไป)", "example": "I like [[cats]]." }
+    ],
+    "notes": [
+      "a / an ใช้กับคำนามเอกพจน์ที่นับได้เท่านั้น: a book (ไม่ใช่ a books)",
+      "ถ้ามีคำคุณศัพท์ ดูเสียงของคำแรกที่ตามมา: an old car · a big apple",
+      "university, uniform ขึ้นต้นด้วยเสียง \"ยู\" (พยัญชนะ) → a university",
+      "hour, honest ตัว h ไม่ออกเสียง → an hour",
+      "บอกอาชีพต้องมี a / an: He is a doctor. She is an engineer."
+    ]
+  },
+  "examples": [
+    { "en": "I have [[a]] dog and [[a]] cat.", "th": "ฉันมีหมาหนึ่งตัวและแมวหนึ่งตัว" },
+    { "en": "She eats [[an]] apple every day.", "th": "เธอกินแอปเปิลวันละลูก" },
+    { "en": "My mum is [[an]] English teacher.", "th": "แม่ของฉันเป็นครูภาษาอังกฤษ" },
+    { "en": "[[The]] sun is very hot today.", "th": "วันนี้แดดร้อนมาก (ดวงอาทิตย์มีดวงเดียว)" },
+    { "en": "I have a cat. [[The]] cat is black.", "th": "ฉันมีแมวตัวหนึ่ง แมวตัวนั้นสีดำ" },
+    { "en": "Can you close [[the]] door, please?", "th": "ช่วยปิดประตูหน่อยได้ไหม (ประตูบานที่รู้กันในห้องนี้)" },
+    { "en": "He is [[a]] university student.", "th": "เขาเป็นนักศึกษามหาวิทยาลัย (university ออกเสียง ยู)" },
+    { "en": "I like [[dogs]], but my sister likes [[cats]].", "th": "ฉันชอบหมา แต่น้องสาวชอบแมว (พูดแบบทั่วไป ไม่ใส่ article)" }
+  ],
+  "mistakes": [
+    { "wrong": "She is teacher.", "right": "She is a teacher.", "whyTh": "ภาษาไทยไม่มี article แต่ภาษาอังกฤษบอกอาชีพต้องมี a / an หน้าคำนามเอกพจน์" },
+    { "wrong": "I have a apple.", "right": "I have an apple.", "whyTh": "apple ขึ้นต้นด้วยเสียงสระ ต้องใช้ an" },
+    { "wrong": "He studies at an university.", "right": "He studies at a university.", "whyTh": "university ออกเสียง \"ยู\" ซึ่งเป็นเสียงพยัญชนะ จึงใช้ a — ดูที่เสียง ไม่ใช่ตัวอักษร" },
+    { "wrong": "I have a books.", "right": "I have some books.", "whyTh": "a / an ใช้กับสิ่งของ 1 ชิ้นเท่านั้น คำนามพหูพจน์ไม่ใช้ a (ใช้ some หรือไม่ใส่อะไรเลย)" },
+    { "wrong": "Look at a moon!", "right": "Look at the moon!", "whyTh": "ดวงจันทร์มีดวงเดียว ทุกคนรู้ว่าหมายถึงดวงไหน จึงใช้ the" },
+    { "wrong": "I have a cat. A cat is very cute.", "right": "I have a cat. The cat is very cute.", "whyTh": "พูดถึงครั้งแรกใช้ a พอพูดถึงตัวเดิมอีกครั้ง ผู้ฟังรู้แล้วว่าตัวไหน จึงเปลี่ยนเป็น the" }
+  ],
+  "contexts": [
+    {
+      "kind": "story", "title": "My pet",
+      "lines": [
+        { "text": "I have [[a]] brother and [[a]] sister. My brother is [[an]] engineer and my sister is [[a]] student. We also have [[a]] dog. [[The]] dog's name is Lucky. Every evening we walk in [[the]] park near our house. I love [[dogs]]!" }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "In the kitchen",
+      "lines": [
+        { "speaker": "Mum", "text": "Do you want [[an]] egg for breakfast?" },
+        { "speaker": "Bee", "text": "No, thanks. Can I have [[a]] banana?" },
+        { "speaker": "Mum", "text": "Sure. [[The]] bananas are on [[the]] table." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Article", "th": "คำนำหน้านาม — a, an, the" },
+    { "en": "Indefinite article (a / an)", "th": "คำนำหน้าแบบไม่เจาะจง — \"หนึ่ง… อันไหนก็ได้\"" },
+    { "en": "Definite article (the)", "th": "คำนำหน้าแบบเจาะจง — \"อันนั้น\" ที่รู้กันแล้ว" },
+    { "en": "Vowel sound", "th": "เสียงสระ (อะ เอะ อิ โอะ อุ) — ใช้ an" }
+  ],
+  "practice": [
+    {
+      "id": "a1-articles-01", "type": "mc", "difficulty": 1,
+      "question": "I eat ___ egg every morning.",
+      "choices": ["a", "an", "the", "no article"], "answer": 1,
+      "whyNot": { "0": "egg ขึ้นต้นด้วยเสียงสระ ใช้ a ไม่ได้", "2": "พูดถึงไข่ฟองไหนก็ได้ทุกเช้า ไม่ได้เจาะจงฟองใด จึงไม่ใช้ the", "3": "egg เป็นคำนามนับได้เอกพจน์ ต้องมีคำนำหน้า" },
+      "explainTh": "egg ขึ้นต้นด้วยเสียงสระ (เอ็ก) และเป็นไข่ 1 ฟองที่ไม่เจาะจง → an egg",
+      "structure": "an + vowel sound", "example": "I eat an egg every morning."
+    },
+    {
+      "id": "a1-articles-02", "type": "mc", "difficulty": 1,
+      "question": "My uncle is ___ doctor.",
+      "choices": ["a", "an", "one", "no article"], "answer": 0,
+      "whyNot": { "1": "doctor ขึ้นต้นด้วยเสียงพยัญชนะ (ด) จึงใช้ an ไม่ได้", "2": "บอกอาชีพใช้ a / an ไม่ใช้ one (one ใช้เน้นจำนวน)", "3": "บอกอาชีพของคนหนึ่งคนต้องมี a / an — ภาษาไทยไม่มีแต่ภาษาอังกฤษต้องมี" },
+      "explainTh": "บอกอาชีพ: be + a / an + อาชีพ · doctor ขึ้นต้นด้วยเสียงพยัญชนะ → a doctor",
+      "structure": "be + a + job", "example": "My uncle is a doctor."
+    },
+    {
+      "id": "a1-articles-03", "type": "fill", "difficulty": 1,
+      "question": "It's raining. She has ___ umbrella in her bag. (a / an)",
+      "accepted": ["an"],
+      "explainTh": "umbrella ออกเสียง \"อัม\" ขึ้นต้นด้วยเสียงสระ → an umbrella",
+      "structure": "an + vowel sound", "example": "She has an umbrella."
+    },
+    {
+      "id": "a1-articles-04", "type": "fill", "difficulty": 1,
+      "question": "My brother is ___ university student. (a / an)",
+      "accepted": ["a"],
+      "explainTh": "university ขึ้นต้นด้วยตัว u แต่ออกเสียง \"ยู\" ซึ่งเป็นเสียงพยัญชนะ → a university",
+      "structure": "a + consonant sound", "example": "He is a university student."
+    },
+    {
+      "id": "a1-articles-05", "type": "fill", "difficulty": 2,
+      "question": "The bus ride is long. It takes ___ hour. (a / an)",
+      "accepted": ["an"],
+      "explainTh": "hour ตัว h ไม่ออกเสียง ออกเสียงว่า \"อาว-เออะ\" ขึ้นต้นด้วยเสียงสระ → an hour",
+      "structure": "an + silent h", "example": "It takes an hour."
+    },
+    {
+      "id": "a1-articles-06", "type": "fill", "difficulty": 2,
+      "question": "Look at ___ moon! It's so beautiful tonight. (a / an / the)",
+      "accepted": ["the"],
+      "explainTh": "ดวงจันทร์มีดวงเดียว ทุกคนรู้ว่าหมายถึงดวงไหน → the moon",
+      "structure": "the + unique thing", "example": "Look at the moon!"
+    },
+    {
+      "id": "a1-articles-07", "type": "match", "difficulty": 3,
+      "prompt": "จับคู่กฎการใช้ article กับตัวอย่าง",
+      "pairs": [["คำนามขึ้นต้นด้วยเสียงพยัญชนะ", "a pen"], ["คำนามขึ้นต้นด้วยเสียงสระ", "an orange"], ["มีสิ่งเดียวในโลก", "the sky"], ["พูดถึงสิ่งที่พูดไปแล้ว", "I have a cat. The cat is white."], ["พหูพจน์ ความหมายทั่วไป", "Cats are cute."]],
+      "explainTh": "a + เสียงพยัญชนะ · an + เสียงสระ · the + สิ่งที่มีหนึ่งเดียว/สิ่งที่รู้กันแล้ว · ไม่ใส่ article กับพหูพจน์แบบทั่วไป"
+    },
+    {
+      "id": "a1-articles-08", "type": "error", "difficulty": 1,
+      "sentence": "I have a old bike.",
+      "errorPart": "a old",
+      "accepted": ["I have an old bike."],
+      "explainTh": "ดูเสียงของคำที่ตามหลังทันที — old ขึ้นต้นด้วยเสียงสระ จึงใช้ an (an old bike)",
+      "structure": "an + adjective (vowel sound) + noun"
+    },
+    {
+      "id": "a1-articles-09", "type": "error", "difficulty": 2,
+      "sentence": "My sister is nurse.",
+      "errorPart": "is nurse",
+      "accepted": ["My sister is a nurse."],
+      "explainTh": "บอกอาชีพของคนหนึ่งคนต้องมี a / an หน้าอาชีพ — nurse ขึ้นต้นด้วยเสียงพยัญชนะ → a nurse",
+      "structure": "be + a + job"
+    },
+    {
+      "id": "a1-articles-10", "type": "error", "difficulty": 2,
+      "sentence": "A sun is very strong today.",
+      "errorPart": "A sun",
+      "accepted": ["The sun is very strong today."],
+      "explainTh": "ดวงอาทิตย์มีดวงเดียว ใช้ the เสมอ → The sun",
+      "structure": "the + unique thing"
+    },
+    {
+      "id": "a1-articles-11", "type": "order", "difficulty": 1,
+      "tokens": ["has", "an", "she", "idea"],
+      "accepted": ["She has an idea."],
+      "explainTh": "Subject + has + an + idea — idea ขึ้นต้นด้วยเสียงสระ จึงใช้ an"
+    },
+    {
+      "id": "a1-articles-12", "type": "transform", "difficulty": 2,
+      "source": "I have an apple.",
+      "instruction": "เขียนใหม่โดยเปลี่ยนจำนวนเป็นสองลูก (two)",
+      "accepted": ["I have two apples."],
+      "explainTh": "พอเป็นพหูพจน์ ตัด an ออก แล้วเติม -s ที่คำนาม → two apples (a / an ใช้กับ 1 ชิ้นเท่านั้น)",
+      "structure": "number + plural noun (ไม่มี a/an)", "example": "I have two apples."
+    },
+    {
+      "id": "a1-articles-13", "type": "transform", "difficulty": 3,
+      "source": "I have a car.",
+      "instruction": "เขียนประโยคที่ 2 ว่ารถคันนั้นเป็นสีแดง โดยขึ้นต้นด้วย article + car (… car is red.)",
+      "accepted": ["The car is red.", "I have a car. The car is red."],
+      "explainTh": "รถคันนี้พูดถึงไปแล้วในประโยคแรก ผู้ฟังรู้ว่าคันไหน จึงเปลี่ยนจาก a เป็น the",
+      "structure": "a … (ครั้งแรก) → the … (ครั้งต่อไป)", "example": "I have a car. The car is red."
+    },
+    {
+      "id": "a1-articles-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["My dad has a new car.", "My dad has new car.", "My dad has an new car.", "My dad has a new cars."], "answer": 0,
+      "whyNot": { "1": "car เป็นคำนามนับได้เอกพจน์ ต้องมี a หน้า", "2": "คำที่ตามมาทันทีคือ new (เสียงพยัญชนะ) จึงใช้ a ไม่ใช่ an", "3": "a ใช้กับเอกพจน์ แต่ cars เป็นพหูพจน์" },
+      "explainTh": "a + new (เสียงพยัญชนะ) + car (เอกพจน์) → a new car",
+      "structure": "a + adjective + singular noun", "example": "My dad has a new car."
+    },
+    {
+      "id": "a1-articles-15", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "It's so hot today!" },
+        { "speaker": "B", "text": "Yes, ___ sun is really strong. Let's stay inside." }
+      ] },
+      "choices": ["a", "an", "the", "no article"], "answer": 2,
+      "whyNot": { "0": "a ใช้กับสิ่งที่มีหลายอันแล้วเลือกอันไหนก็ได้ แต่ดวงอาทิตย์มีดวงเดียว", "1": "sun ขึ้นต้นด้วยเสียงพยัญชนะ และก็ไม่ใช่สิ่งที่ไม่เจาะจง", "3": "sun เป็นคำนามเอกพจน์ ต้องมีคำนำหน้า" },
+      "explainTh": "สิ่งที่มีหนึ่งเดียวในโลก (sun, moon, sky) ใช้ the",
+      "structure": "the + unique thing", "example": "The sun is really strong."
+    },
+    {
+      "id": "a1-articles-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "story", "title": "My pet", "lines": [
+        { "text": "I have a brother and a sister. My brother is an engineer and my sister is a student. We also have a dog. The dog's name is Lucky." }
+      ] },
+      "question": "Why does the writer say \"The dog\" in the last sentence?",
+      "choices": ["Because the dog is very big.", "Because we already know which dog. It is in the sentence before.", "Because dog starts with a vowel sound.", "Because there are many dogs."], "answer": 1,
+      "whyNot": { "0": "ขนาดของหมาไม่เกี่ยวกับการเลือก a หรือ the", "2": "dog ขึ้นต้นด้วยเสียงพยัญชนะ และกฎเสียงใช้เลือก a / an ไม่ใช่ the", "3": "ในเรื่องมีหมาตัวเดียว และ the dog ก็เป็นเอกพจน์" },
+      "explainTh": "ครั้งแรกพูดว่า a dog (ผู้ฟังยังไม่รู้จัก) ครั้งต่อไปใช้ the dog เพราะรู้แล้วว่าหมายถึงตัวไหน"
+    },
+    {
+      "id": "a1-articles-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับของในกระเป๋าหรือห้องของคุณ ใช้ a, an และ the (Write 3 sentences about things in your bag or room. Use a, an and the.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\ba\\s+[a-z]", "flags": "i", "msgTh": "ใช้ a อย่างน้อย 1 ครั้ง (เช่น a pen)" },
+        { "re": "\\ban\\s+[a-z]", "flags": "i", "msgTh": "ใช้ an อย่างน้อย 1 ครั้ง (เช่น an eraser)" },
+        { "re": "\\bthe\\s+[a-z]", "flags": "i", "msgTh": "ใช้ the อย่างน้อย 1 ครั้ง กับสิ่งที่พูดถึงแล้ว" }
+      ],
+      "sample": "I have a pen and an eraser in my bag. The pen is blue. I also have an orange for lunch.",
+      "explainTh": "พูดถึงครั้งแรกใช้ a / an (ตามเสียง) แล้วพูดถึงสิ่งเดิมอีกครั้งใช้ the"
+    }
+  ]
+}

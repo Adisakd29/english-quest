@@ -1,0 +1,526 @@
+{
+  "id": "b1-second-conditional",
+  "summaryTh": "สมมุติสิ่งที่ไม่จริงหรือไม่น่าจะเกิด ในปัจจุบันหรืออนาคต",
+  "concept": {
+    "what": "Second Conditional (If + Past Simple, would + V1) ใช้สมมุติสถานการณ์ที่ไม่จริงตอนนี้ หรือมีโอกาสเกิดน้อยมาก เช่น If I had wings, I would fly. (ความจริงคือไม่มีปีก) แม้กริยาใน if จะเป็นรูปอดีต แต่ความหมายเป็นปัจจุบัน/อนาคต",
+    "when": [
+      "สมมุติสิ่งที่ตรงข้ามกับความจริงตอนนี้: If I lived near the sea, I'd go swimming every day. (ความจริงคือไม่ได้อยู่ใกล้ทะเล)",
+      "จินตนาการ/ความฝันที่ไม่น่าเกิด: If I won the lottery, I would travel around the world.",
+      "ให้คำแนะนำแบบสุภาพ: If I were you, I would talk to your teacher.",
+      "ถ้าเรื่องนั้นมีโอกาสเกิดจริง ใช้ First Conditional (If + Present, will + V1) แทน"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"ถ้า\" เหมือนกันทั้งเรื่องที่เป็นไปได้และเรื่องสมมุติ แต่ภาษาอังกฤษแยกด้วยรูปกริยา ผู้เรียนไทยจึงมักใช้ will ในประโยคสมมุติ หรือใส่ would ทั้งสองฝั่ง ซึ่งทำให้ผู้ฟังเข้าใจผิดว่าเรื่องนั้นเกิดได้จริง"
+  },
+  "structure": {
+    "formula": "If + Subject + V2, Subject + would + V1",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "If + Past Simple, would + V1",
+        "example": "If I [[had]] more time, I [[would learn]] Japanese."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "If + didn't + V1, wouldn't + V1",
+        "example": "If she [[didn't live]] so far away, she [[wouldn't be]] late every day."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "What would + Subject + V1 + if + Past Simple?",
+        "example": "What [[would]] you [[do]] if you [[saw]] a ghost?"
+      },
+      {
+        "label": "ให้คำแนะนำ",
+        "formula": "If I were you, I would/wouldn't + V1",
+        "example": "[[If I were you]], I [[would]] apologise."
+      },
+      {
+        "label": "could / might",
+        "formula": "If + Past Simple, could/might + V1",
+        "example": "If I [[had]] a car, I [[could drive]] you home."
+      }
+    ],
+    "notes": [
+      "สลับตำแหน่งได้: I would buy a house if I were rich. (ถ้า if อยู่หน้า ใส่ comma คั่น ถ้าอยู่หลังไม่ต้องใส่)",
+      "be ในฝั่ง if ใช้ were ได้กับทุกประธาน (If I were / If he were) ซึ่งเป็นแบบมาตรฐาน · If I was … พบในภาษาพูด",
+      "ห้ามใส่ would ในฝั่ง if: ✗ If I would have time … → If I had time …",
+      "would ย่อเป็น 'd ได้: I'd, she'd, they'd"
+    ]
+  },
+  "examples": [
+    {
+      "en": "If I [[had]] a lot of money, I [[would buy]] a house for my parents.",
+      "th": "ถ้าฉันมีเงินเยอะ ฉันจะซื้อบ้านให้พ่อแม่ (แต่ตอนนี้ไม่มี)"
+    },
+    {
+      "en": "[[If I were]] you, I[['d take]] the train. It's faster.",
+      "th": "ถ้าฉันเป็นคุณนะ ฉันจะนั่งรถไฟ เร็วกว่า"
+    },
+    {
+      "en": "What [[would]] you [[do]] if you [[lost]] your passport abroad?",
+      "th": "ถ้าคุณทำพาสปอร์ตหายตอนอยู่ต่างประเทศ คุณจะทำอย่างไร"
+    },
+    {
+      "en": "If my brother [[didn't play]] games all night, he [[wouldn't be]] so tired.",
+      "th": "ถ้าน้องชายฉันไม่เล่นเกมทั้งคืน เขาคงไม่เหนื่อยขนาดนี้"
+    },
+    {
+      "en": "We [[could go]] to the beach if it [[weren't]] so cold today.",
+      "th": "เราไปทะเลกันได้นะ ถ้าวันนี้ไม่หนาวขนาดนี้"
+    },
+    {
+      "en": "If I [[spoke]] Chinese, I [[would apply]] for that job in Shanghai.",
+      "th": "ถ้าฉันพูดภาษาจีนได้ ฉันจะสมัครงานนั้นที่เซี่ยงไฮ้"
+    },
+    {
+      "en": "If everyone [[used]] public transport, the air [[would be]] cleaner.",
+      "th": "ถ้าทุกคนใช้ขนส่งสาธารณะ อากาศก็จะสะอาดขึ้น"
+    },
+    {
+      "en": "[[Would]] you [[move]] abroad if you [[got]] a good job offer?",
+      "th": "ถ้าได้ข้อเสนองานดี ๆ คุณจะย้ายไปต่างประเทศไหม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I would have time, I would help you.",
+      "right": "If I had time, I would help you.",
+      "whyTh": "ฝั่ง if ใช้ Past Simple ไม่ใส่ would — would อยู่ฝั่งผลลัพธ์เท่านั้น"
+    },
+    {
+      "wrong": "If I were rich, I will buy a big house.",
+      "right": "If I were rich, I would buy a big house.",
+      "whyTh": "ประโยคสมมุติที่ไม่จริง ฝั่งผลลัพธ์ต้องใช้ would ไม่ใช่ will (will ใช้กับ First Conditional)"
+    },
+    {
+      "wrong": "If I have a million baht, I would travel the world.",
+      "right": "If I had a million baht, I would travel the world.",
+      "whyTh": "ฝั่ง if ของ Second Conditional ต้องเป็นรูปอดีต (had) แม้จะหมายถึงตอนนี้"
+    },
+    {
+      "wrong": "If I am you, I would call her.",
+      "right": "If I were you, I would call her.",
+      "whyTh": "ให้คำแนะนำด้วยสำนวนตายตัว If I were you … (เราไม่มีวันเป็นอีกคนได้ จึงเป็นเรื่องสมมุติ)"
+    },
+    {
+      "wrong": "If she studied harder, she would passed the exam.",
+      "right": "If she studied harder, she would pass the exam.",
+      "whyTh": "หลัง would ใช้กริยาช่องที่ 1 เสมอ"
+    }
+  ],
+  "compare": {
+    "title": "Second Conditional vs First Conditional",
+    "with": [
+      "a2-first-conditional"
+    ],
+    "rows": [
+      {
+        "label": "โอกาสเกิด",
+        "a": "Second: ไม่จริง/แทบเป็นไปไม่ได้",
+        "b": "First: มีโอกาสเกิดจริง"
+      },
+      {
+        "label": "รูปประโยค",
+        "a": "If + V2, would + V1",
+        "b": "If + Present Simple, will + V1"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "If I won the lottery, I would stop working. (แค่ฝัน)",
+        "b": "If I pass the exam, I will have a party. (เป็นไปได้)"
+      },
+      {
+        "label": "ตัวอย่างคู่",
+        "a": "If it snowed in Bangkok, I'd be shocked.",
+        "b": "If it rains tomorrow, I'll stay at home."
+      }
+    ],
+    "tipTh": "ถามตัวเองว่า \"เรื่องนี้เกิดได้จริงไหม\" ถ้าเป็นไปได้จริงใช้ If + Present, will · ถ้าเป็นเรื่องสมมุติหรือความฝัน ใช้ V2 ในฝั่ง if และ would + V1 ในฝั่งผล"
+  },
+  "contexts": [
+    {
+      "kind": "conversation",
+      "title": "Dream holiday",
+      "lines": [
+        {
+          "speaker": "Mew",
+          "text": "If you [[could go]] anywhere in the world, where [[would]] you [[go]]?"
+        },
+        {
+          "speaker": "Tom",
+          "text": "I[['d go]] to Iceland. If I [[had]] enough money, I[['d stay]] there for a month."
+        },
+        {
+          "speaker": "Mew",
+          "text": "Really? It's so cold! If I [[were]] you, I[['d choose]] somewhere warm, like Bali."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Maybe. But if I [[saw]] the northern lights, I [[wouldn't care]] about the cold!"
+        }
+      ]
+    },
+    {
+      "kind": "message",
+      "title": "Advice to a friend",
+      "lines": [
+        {
+          "text": "Hi Jay, I'm sorry you're stressed about your new job. [[If I were]] you, I[['d talk]] to your manager. If you [[explained]] the problem, I'm sure she [[would understand]]. And if you [[didn't stay]] at the office until 9 p.m. every night, you [[wouldn't feel]] so tired! Take care, Ploy"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Second Conditional",
+      "th": "ประโยคเงื่อนไขแบบที่ 2 — สมมุติเรื่องที่ไม่จริงในปัจจุบัน/อนาคต"
+    },
+    {
+      "en": "if-clause",
+      "th": "ส่วนเงื่อนไข (ส่วนที่มี if)"
+    },
+    {
+      "en": "main clause / result clause",
+      "th": "ส่วนผลลัพธ์ (ส่วนที่มี would)"
+    },
+    {
+      "en": "Unreal / hypothetical",
+      "th": "ไม่จริง / เป็นการสมมุติ"
+    },
+    {
+      "en": "If I were you",
+      "th": "ถ้าฉันเป็นคุณ — สำนวนให้คำแนะนำ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-second-conditional-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "If I ___ a lot of money, I would travel around the world.",
+      "choices": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have เป็นปัจจุบัน ใช้กับ First Conditional แต่ฝั่งผลใช้ would แล้ว จึงต้องเป็นอดีต",
+        "2": "ห้ามใส่ would ในฝั่ง if",
+        "3": "will ไม่ใช้ในฝั่ง if และไม่เข้ากับ would"
+      },
+      "explainTh": "ฝั่งผลมี would + V1 = สมมุติเรื่องไม่จริง → ฝั่ง if ใช้ Past Simple: had",
+      "structure": "If + V2, would + V1",
+      "example": "If I had a lot of money, I would travel around the world."
+    },
+    {
+      "id": "b1-second-conditional-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "If she studied harder, she ___ the exam.",
+      "choices": [
+        "would pass",
+        "will pass",
+        "passes",
+        "would passed"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ฝั่ง if เป็นอดีต (studied) ซึ่งเป็นการสมมุติ ฝั่งผลจึงใช้ would ไม่ใช่ will",
+        "2": "passes เป็นปัจจุบัน ไม่ใช้ในฝั่งผลของประโยคสมมุติ",
+        "3": "หลัง would ใช้ V1 (pass) ไม่ใช่ V2"
+      },
+      "explainTh": "If + Past Simple (studied) → ฝั่งผลใช้ would + V1: would pass",
+      "structure": "If + V2, would + V1",
+      "example": "If she studied harder, she would pass the exam."
+    },
+    {
+      "id": "b1-second-conditional-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "If I ___ (be) you, I would talk to the teacher about it.",
+      "accepted": [
+        "were",
+        "was"
+      ],
+      "explainTh": "If I were you … เป็นสำนวนให้คำแนะนำ ใช้ were ได้กับทุกประธาน (มาตรฐาน) · was ใช้ในภาษาพูด",
+      "structure": "If I were you, I would + V1",
+      "example": "If I were you, I would talk to the teacher."
+    },
+    {
+      "id": "b1-second-conditional-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "What ___ (you / do) if you won the lottery?",
+      "accepted": [
+        "would you do"
+      ],
+      "explainTh": "ฝั่ง if เป็นอดีต (won) = สมมุติ → คำถามฝั่งผล: What + would + Subject + V1 → would you do",
+      "structure": "What would + Subject + V1 + if + V2?",
+      "example": "What would you do if you won the lottery?"
+    },
+    {
+      "id": "b1-second-conditional-05",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "If we ___ (live) near the sea, we would go swimming every day.",
+      "accepted": [
+        "lived",
+        "were living"
+      ],
+      "explainTh": "ความจริงคือไม่ได้อยู่ใกล้ทะเล (สมมุติ) + ฝั่งผลมี would → ฝั่ง if ใช้ Past Simple: lived",
+      "structure": "If + V2, would + V1",
+      "example": "If we lived near the sea, we would go swimming every day."
+    },
+    {
+      "id": "b1-second-conditional-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I don't know her number. If I knew it, I ___ (call) her right now.",
+      "accepted": [
+        "would call",
+        "could call"
+      ],
+      "explainTh": "ความจริงคือไม่รู้เบอร์ (สมมุติ) → ฝั่งผลใช้ would + V1: would call (could call = โทรได้ ก็ถูก)",
+      "structure": "If + V2, would/could + V1",
+      "example": "If I knew her number, I would call her."
+    },
+    {
+      "id": "b1-second-conditional-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I don't have a car, so I can't drive you home.",
+      "instruction": "เขียนใหม่เป็นประโยคสมมุติ ขึ้นต้นด้วย If I …",
+      "accepted": [
+        "If I had a car, I could drive you home.",
+        "If I had a car, I would drive you home.",
+        "If I had a car I could drive you home.",
+        "If I had a car I would drive you home.",
+        "I could drive you home if I had a car.",
+        "I would drive you home if I had a car."
+      ],
+      "explainTh": "ความจริง: don't have / can't → สมมุติกลับด้าน: If I had (V2) …, I could/would + V1",
+      "structure": "If + V2, could/would + V1",
+      "example": "If I had a car, I could drive you home."
+    },
+    {
+      "id": "b1-second-conditional-08",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "He doesn't speak Thai, so he doesn't understand the jokes.",
+      "instruction": "เขียนใหม่เป็นประโยคสมมุติ ขึ้นต้นด้วย If he …",
+      "accepted": [
+        "If he spoke Thai, he would understand the jokes.",
+        "If he spoke Thai, he could understand the jokes.",
+        "If he spoke Thai he would understand the jokes.",
+        "If he spoke Thai he could understand the jokes.",
+        "He would understand the jokes if he spoke Thai.",
+        "He could understand the jokes if he spoke Thai."
+      ],
+      "explainTh": "ความจริงเป็นปฏิเสธ (doesn't speak / doesn't understand) → สมมุติกลับเป็นบอกเล่า: If he spoke (V2) …, he would understand",
+      "structure": "If + V2, would + V1",
+      "example": "If he spoke Thai, he would understand the jokes."
+    },
+    {
+      "id": "b1-second-conditional-09",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "If I would have more time, I would help you.",
+      "errorPart": "would have",
+      "accepted": [
+        "If I had more time, I would help you."
+      ],
+      "explainTh": "ฝั่ง if ห้ามใช้ would ต้องเป็น Past Simple: If I had …",
+      "structure": "If + V2, would + V1"
+    },
+    {
+      "id": "b1-second-conditional-10",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "If I were rich, I will buy a big house by the sea.",
+      "errorPart": "will buy",
+      "accepted": [
+        "If I were rich, I would buy a big house by the sea."
+      ],
+      "explainTh": "If I were rich เป็นการสมมุติเรื่องไม่จริง ฝั่งผลจึงต้องใช้ would + V1 ไม่ใช่ will",
+      "structure": "If + were, would + V1"
+    },
+    {
+      "id": "b1-second-conditional-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "If she lived closer, she visits us more often.",
+      "errorPart": "visits",
+      "accepted": [
+        "If she lived closer, she would visit us more often.",
+        "If she lived closer, she could visit us more often."
+      ],
+      "explainTh": "ฝั่ง if เป็นอดีต (lived) = สมมุติ → ฝั่งผลต้องเป็น would + V1: would visit",
+      "structure": "If + V2, would + V1"
+    },
+    {
+      "id": "b1-second-conditional-12",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "would",
+        "if",
+        "I",
+        "you",
+        "I",
+        "were",
+        "apologise"
+      ],
+      "accepted": [
+        "If I were you, I would apologise.",
+        "If I were you I would apologise.",
+        "I would apologise if I were you."
+      ],
+      "explainTh": "สำนวนให้คำแนะนำ If I were you, I would + V1 · สลับให้ส่วน if อยู่ท้ายได้ (ไม่ต้องใส่ comma)"
+    },
+    {
+      "id": "b1-second-conditional-13",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ส่วนเงื่อนไขกับส่วนผลลัพธ์ให้ถูกทั้งความหมายและไวยากรณ์",
+      "pairs": [
+        [
+          "If I had wings,",
+          "I would fly over the mountains."
+        ],
+        [
+          "If it rains tomorrow,",
+          "we'll stay at home."
+        ],
+        [
+          "If you heat ice,",
+          "it melts."
+        ],
+        [
+          "If I were the head teacher,",
+          "I would make lunch free for everyone."
+        ]
+      ],
+      "explainTh": "If + V2 คู่กับ would (สมมุติ: wings, head teacher) · If + Present คู่กับ will (เป็นไปได้: rains tomorrow) · ข้อเท็จจริงทั่วไปใช้ Present ทั้งสองฝั่ง (heat ice → melts)"
+    },
+    {
+      "id": "b1-second-conditional-14",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "If I would know the answer, I would tell you.",
+        "If I knew the answer, I would tell you.",
+        "If I knew the answer, I will tell you.",
+        "If I know the answer, I would tell you."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "ฝั่ง if ห้ามใช้ would",
+        "2": "ฝั่ง if เป็นอดีต (สมมุติ) ฝั่งผลต้องใช้ would ไม่ใช่ will",
+        "3": "ถ้าฝั่งผลใช้ would ฝั่ง if ต้องเป็นอดีต (knew)"
+      },
+      "explainTh": "Second Conditional: If + V2 (knew), would + V1 (tell)"
+    },
+    {
+      "id": "b1-second-conditional-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Would you like to come to the beach with us on Saturday?"
+          },
+          {
+            "speaker": "B",
+            "text": "I'd love to, but I can't. If I ___ so much homework, I'd come."
+          }
+        ]
+      },
+      "choices": [
+        "didn't have",
+        "don't have",
+        "wouldn't have",
+        "hadn't"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "don't have เป็นปัจจุบัน ใช้กับ First Conditional แต่ฝั่งผลเป็น I'd (would)",
+        "2": "ห้ามใช้ would ในฝั่ง if",
+        "3": "If I hadn't so much homework เป็นรูปเก่าที่แทบไม่มีใครใช้แล้ว ปัจจุบันใช้ didn't have"
+      },
+      "explainTh": "ความจริงคือมีการบ้านเยอะ (สมมุติตรงข้าม) + ฝั่งผล I'd come → ฝั่ง if ใช้ Past Simple ปฏิเสธ: didn't have"
+    },
+    {
+      "id": "b1-second-conditional-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "social",
+        "title": "Nan's post",
+        "lines": [
+          {
+            "text": "If I could live anywhere in the world, I'd choose New Zealand. I'd live in a small house near the mountains and I'd go hiking every weekend. But I'm a nurse in Bangkok and I love my job, so it's just a dream for now!"
+          }
+        ]
+      },
+      "question": "What is TRUE about Nan?",
+      "choices": [
+        "She lives in Bangkok now.",
+        "She lives in New Zealand now.",
+        "She goes hiking every weekend.",
+        "She is moving to New Zealand soon."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I'd choose New Zealand เป็นการสมมุติ (If I could live …) ไม่ใช่ความจริง",
+        "2": "I'd go hiking เป็นสิ่งที่จะทำถ้าได้อยู่นิวซีแลนด์ ไม่ใช่สิ่งที่ทำจริง",
+        "3": "it's just a dream for now = เป็นแค่ความฝัน ไม่ได้มีแผนย้าย"
+      },
+      "explainTh": "ประโยค If I could … / I'd … เป็นเรื่องสมมุติ ส่วนความจริงคือ I'm a nurse in Bangkok (Present Simple)"
+    },
+    {
+      "id": "b1-second-conditional-17",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "I don't think it'll ever happen, but if a famous singer ___ me to sing with her, I'd say yes!",
+      "choices": [
+        "asked",
+        "asks",
+        "would ask",
+        "will ask"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "asks ใช้กับเรื่องที่มีโอกาสเกิด (First Conditional) แต่ผู้พูดบอกว่าไม่คิดว่าจะเกิด และฝั่งผลใช้ I'd",
+        "2": "ห้ามใช้ would ในฝั่ง if",
+        "3": "ห้ามใช้ will ในฝั่ง if"
+      },
+      "explainTh": "I don't think it'll ever happen = โอกาสน้อยมาก + ฝั่งผล I'd (would) → Second Conditional: if + V2 → asked"
+    },
+    {
+      "id": "b1-second-conditional-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคว่าคุณจะทำอะไรถ้าล่องหนได้หนึ่งวัน ใช้ If + V2 และ would/could + V1 (Write 3 sentences: What would you do if you were invisible for a day?)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bif\\b[^.!?]*\\b(were|was|had|could|knew|got|went|saw|did|\\w+ed)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ If + Past Simple อย่างน้อย 1 ครั้ง เช่น If I were invisible, …"
+        },
+        {
+          "re": "\\b(would|'d|could|might)\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ would / could + V1 บอกผลลัพธ์ เช่น I would go …"
+        }
+      ],
+      "sample": "If I were invisible for a day, I would go to the cinema for free. I would also visit the kitchen of a famous restaurant. If I got hungry, I could take some food without paying.",
+      "explainTh": "ฝั่ง if ใช้ V2 (were, got) แม้หมายถึงปัจจุบัน/อนาคต · ฝั่งผลใช้ would/could + V1 และห้ามใส่ would ในฝั่ง if"
+    }
+  ]
+}

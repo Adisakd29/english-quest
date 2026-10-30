@@ -1,0 +1,58 @@
+{
+  "batch": "29",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0495",
+      "severity": "minor",
+      "problem": "Collocation 'nevertheless, it is true that' is invented, not a real high-frequency pattern",
+      "fix": {
+        "collocations": [
+          "but nevertheless",
+          "small but nevertheless important",
+          "was nevertheless a success"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0507",
+      "severity": "minor",
+      "problem": "noteTH 'สะกดด้วย cc ตัวเดียว s' is garbled Thai and confusing as a spelling tip",
+      "fix": {
+        "noteTH": "สะกด c สองตัว s ตัวเดียว: occasionally (ไม่ใช่ ocassionally)"
+      }
+    },
+    {
+      "id": "B2-S0548",
+      "severity": "minor",
+      "problem": "Collocations 'pile into a car' (crowd into) and 'pile things on' are different/unclear senses, not 'put things on top of each other'",
+      "fix": {
+        "collocations": [
+          "pile something up",
+          "be piled high with",
+          "pile boxes in the corner"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0552",
+      "severity": "minor",
+      "problem": "'suitable for children aged ten plus and adults' is unnatural and ambiguous (plus could be read as 'and')",
+      "fix": {
+        "example": "The escape room game is for players aged twelve plus, so my little brother can't join us.",
+        "form": "plus",
+        "exampleTH": "เกมห้องปริศนานี้สำหรับผู้เล่นอายุสิบสองปีขึ้นไป น้องชายของฉันจึงมาเล่นด้วยไม่ได้"
+      }
+    },
+    {
+      "id": "B2-S0603",
+      "severity": "minor",
+      "problem": "Weight-loss goal example is a poor choice for teenage users (body-image); a study goal shows the sense equally well",
+      "fix": {
+        "example": "Set realistic goals, like reading one chapter a day, not a whole book.",
+        "form": "realistic",
+        "exampleTH": "ตั้งเป้าหมายที่ทำได้จริง เช่น อ่านวันละหนึ่งบท ไม่ใช่ทั้งเล่ม"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "batch": "12",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0302",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'daily' fits 'part of ___ life' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0305",
+      "severity": "minor",
+      "problem": "thai 'แน่นอน' is the usual gloss for definitely/certainly (S0231 shortTH is 'แน่นอน'), so as an answer choice it is ambiguous; use 'แน่ชัด'.",
+      "fix": {
+        "thai": "ที่แน่ชัด, ตรงเป๊ะ",
+        "shortTH": "ที่แน่ชัด, ตรงเป๊ะ",
+        "thaiChangeReason": "แน่นอน ซ้ำกับคำแปลของ definitely อาจสับสนในตัวเลือก จึงใช้ แน่ชัด",
+        "exampleTH": "เรายังไม่รู้จำนวนแขกที่แน่ชัด น่าจะประมาณห้าสิบคน"
+      }
+    },
+    {
+      "id": "A2-S0307",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'good', 'great', 'high' all fit 'got an ___ score'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0326",
+      "severity": "minor",
+      "problem": "'farmed rice' and collocation 'farm rice' are unnatural (we grow rice, farm the land).",
+      "fix": {
+        "example": "Her family has farmed the same land in Isan for many years.",
+        "form": "farmed",
+        "exampleTH": "ครอบครัวของเธอทำการเกษตรบนที่ดินผืนเดิมในภาคอีสานมาหลายปีแล้ว",
+        "collocations": [
+          "farm the land",
+          "farm organically",
+          "farm for a living"
+        ]
+      }
+    },
+    {
+      "id": "A2-S0341",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'match'/'game' fit 'play Japan in the ___ on Sunday' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0354",
+      "severity": "minor",
+      "problem": "'Waiter, there's a fly in my soup!' is a famous stock joke (not original), and 'บริกรครับ' is unnatural Thai.",
+      "fix": {
+        "example": "Close the bin, or flies will come and sit on the rubbish.",
+        "form": "flies",
+        "exampleTH": "ปิดถังขยะด้วย ไม่งั้นแมลงวันจะมาตอมขยะ"
+      }
+    },
+    {
+      "id": "A2-S0358",
+      "severity": "minor",
+      "problem": "collocation 'the centre of focus' is not a common combination.",
+      "fix": {
+        "collocations": [
+          "main focus",
+          "the focus of",
+          "a clear focus"
+        ]
+      }
+    },
+    {
+      "id": "A2-S0393",
+      "severity": "minor",
+      "problem": "meaningEN 'a weapon that shoots bullets' does not match the example (water guns).",
+      "fix": {
+        "meaningEN": "a weapon that shoots bullets; toy ones can shoot water"
+      }
+    }
+  ]
+}

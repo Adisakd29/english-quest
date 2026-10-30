@@ -1,0 +1,106 @@
+{
+  "batch": "03",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0251",
+      "severity": "minor",
+      "problem": "exampleTH is redundant/contradictory: 'วันละสองแก้วทุกเช้า' mixes 'per day' and 'every morning'.",
+      "fix": {
+        "exampleTH": "นกดื่มน้ำสองแก้วทุกเช้า"
+      }
+    },
+    {
+      "id": "A1-S0256",
+      "severity": "minor",
+      "problem": "Awkward word order: 'Each student has a computer in this room' (place phrase should follow 'student').",
+      "fix": {
+        "example": "Each student in this room has a computer.",
+        "form": "Each",
+        "exampleTH": "นักเรียนแต่ละคนในห้องนี้มีคอมพิวเตอร์"
+      }
+    },
+    {
+      "id": "A1-S0260",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'She has an ___ class at seven' also fits English/art/online.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0266",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can we ___ something now?' also fits have/get/buy.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0299",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can I have ___ cheese on my pizza?' fits 'more' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0301",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I wash my ___ with cold water' also fits hands/hair.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0307",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Tom Yum is a ___ Thai soup' also fits popular/delicious/spicy.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0332",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I had a cold, but I'm ___ now' fits 'better'/'OK' equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0333",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Have you ___ your homework yet?' fits 'done' equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0347",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My left ___ hurts after the long walk' also fits leg/knee.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0364",
+      "severity": "minor",
+      "problem": "meaningEN 'grows on trees' is inaccurate (watermelon, pineapple, strawberries do not).",
+      "fix": {
+        "meaningEN": "the sweet part of a plant that you eat, like mangoes"
+      }
+    },
+    {
+      "id": "A1-S0367",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My uncle tells ___ stories' also fits scary/long/interesting; rewrite so laughing makes it clear.",
+      "fix": {
+        "example": "My uncle's funny stories always make us laugh.",
+        "form": "funny",
+        "exampleTH": "เรื่องตลกของลุงทำให้พวกเราหัวเราะทุกครั้ง"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+/* v1.10.0 Phase 3 — Writing Studio + ผู้ช่วยค้นคำตอบ (public/js/studio.js) */
+.st-hero { margin: 8px 0 14px; }
+.st-mystats { display: flex; gap: 6px; align-items: center; font-size: 0.85rem; color: var(--color-text-muted); margin: 6px 0 0; }
+.st-prompts details { border-top: 1px solid var(--color-border); padding: 4px 0; }
+.st-prompts details:first-of-type { border-top: 0; }
+.st-prompts summary { min-height: 44px; display: flex; align-items: center; font-weight: 800; cursor: pointer; }
+.st-prompts ul { list-style: none; margin: 0 0 8px; padding: 0; display: grid; gap: 8px; }
+@media (min-width: 720px) { .st-prompts ul { grid-template-columns: 1fr 1fr; } }
+.st-prompt { width: 100%; min-height: 44px; display: grid; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 12px;
+  border: 1px solid var(--color-border); background: var(--color-surface); color: inherit; font: inherit; cursor: pointer; }
+.st-prompt span { font-size: 0.85rem; color: var(--color-text-muted); }
+.st-prompt small { font-size: 0.75rem; color: var(--color-text-muted); }
+.st-prompt.is-on, .st-prompt:hover { border-color: var(--color-primary, #4f46e5); }
+.st-form { display: grid; gap: 8px; margin-top: 12px; }
+.st-cur { margin: 0; font-size: 0.9rem; line-height: 1.6; }
+.st-label { font-weight: 800; }
+.st-text, .st-input { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; line-height: 1.6; padding: 10px 12px; border-radius: 12px;
+  border: 2px solid var(--color-border); background: var(--color-surface); color: inherit; min-height: 48px; }
+.st-text { resize: vertical; min-height: 180px; }
+.st-text:focus, .st-input:focus { outline: none; border-color: var(--color-primary, #4f46e5); }
+.st-row { display: flex; justify-content: flex-end; }
+.st-count { font-size: 0.8rem; color: var(--color-text-muted); }
+.st-privacy { display: flex; gap: 6px; align-items: flex-start; font-size: 0.8rem; color: var(--color-text-muted); line-height: 1.55; margin: 6px 0 0; }
+.st-privacy .icon { flex: none; margin-top: 3px; }
+#st-result > section, #st-answers > * { margin-top: 12px; }
+.st-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 8px 0 12px; }
+@media (max-width: 520px) { .st-tiles { grid-template-columns: 1fr 1fr; } .st-tiles .pmd-tile:last-child { grid-column: 1 / -1; } }
+.st-tips { margin: 0; padding-left: 1.3em; display: grid; gap: 6px; line-height: 1.6; }
+.st-issues { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.st-issues li { display: grid; gap: 4px; padding: 10px 12px; border-radius: 10px; border-left: 4px solid var(--color-border); background: var(--color-surface); line-height: 1.6; }
+.st-issues li.is-error { border-left-color: #d9534f; }
+.st-issues li.is-tip { border-left-color: #e0a458; }
+.st-issues small { color: var(--color-text-muted); }
+.st-bar { display: flex; height: 30px; border-radius: 8px; overflow: hidden; margin: 6px 0 10px; }
+.st-bar span { display: flex; align-items: center; justify-content: center; min-width: 26px; color: #fff; font-size: 0.75rem; }
+.st-bar-A1 { background: var(--a1, #4f9d69); } .st-bar-A2 { background: var(--a2, #e0a458); } .st-bar-B1 { background: var(--b1, #4d6fa8); }
+.st-bar-B2 { background: var(--b2, #7c5cbf); } .st-bar-C1 { background: #b0791f; } .st-bar-C2 { background: #a3324e; }
+.st-lv { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 0.9rem; line-height: 1.6; }
+.st-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; margin: 2px 0; border-radius: 999px; border: 1px solid var(--color-border);
+  background: var(--color-surface); font-size: 0.85rem; }
+.st-chip small { color: var(--color-text-muted); }
+.st-chip.is-ok { border-color: #4f9d69; } .st-chip.is-miss { border-color: #d9534f; }
+.st-alt { display: grid; gap: 2px; padding: 8px 0; border-top: 1px dashed var(--color-border); line-height: 1.6; }
+.st-alt small { color: var(--color-text-muted); }
+.st-search { display: flex; gap: 8px; margin-bottom: 4px; }
+.st-search .btn { min-height: 48px; white-space: nowrap; }
+@media (max-width: 420px) { .st-search { flex-direction: column; } }
+.st-examples { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 10px; }
+.st-examples p { margin: 0; width: 100%; font-weight: 800; }
+.st-ask { min-height: 44px; cursor: pointer; color: inherit; font: inherit; font-size: 0.9rem; }
+.st-faq p { line-height: 1.7; margin: 6px 0; }
+.st-ex { margin: 6px 0; padding-left: 1.2em; color: var(--color-text-muted); }
+.st-words, .st-topics { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.st-words li { display: grid; gap: 2px; padding-bottom: 8px; border-bottom: 1px solid var(--color-border); line-height: 1.55; }
+.st-words li:last-child { border-bottom: 0; }
+.st-words small { color: var(--color-text-muted); }
+.st-topic { width: 100%; min-height: 44px; display: grid; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--color-border);
+  background: var(--color-surface); color: inherit; font: inherit; cursor: pointer; }
+.st-topic span, .st-topic small { color: var(--color-text-muted); font-size: 0.85rem; }
+.st-topic:hover { border-color: var(--color-primary, #4f46e5); }

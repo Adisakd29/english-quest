@@ -1,0 +1,39 @@
+/* v1.10.0 Phase 4 — TOEIC Academy + คะแนนคาดการณ์ (public/js/toeicacademy.js) */
+.ta-slot:empty { display: none; }
+.ta-predict { margin: 0 0 12px; }
+.ta-scores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 8px 0; }
+@media (max-width: 520px) { .ta-scores { grid-template-columns: 1fr 1fr; } .ta-scores .ta-score:last-child { grid-column: 1 / -1; } }
+.ta-score.is-wait b { color: var(--color-text-muted); }
+.ta-tips { margin: 6px 0; padding-left: 1.2em; display: grid; gap: 4px; line-height: 1.6; font-size: 0.9rem; }
+.ta-academy-card { width: 100%; margin: 0 0 16px; }
+.ta-exam { display: grid; gap: 4px; margin-bottom: 12px; line-height: 1.6; }
+.ta-exam span { color: var(--color-text-muted); font-size: 0.9rem; }
+.ta-card small + small { display: block; margin-top: 2px; }
+.ta-done { display: inline-flex; gap: 4px; align-items: center; font-size: 0.8rem; font-weight: 800; color: #2f7d4a; white-space: nowrap; }
+#screen-toeicacademy .gl-card { margin-top: 12px; }
+.ta-format p { margin: 4px 0; line-height: 1.7; }
+.ta-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.ta-list li { display: grid; gap: 3px; padding-bottom: 10px; border-bottom: 1px solid var(--color-border); line-height: 1.65; }
+.ta-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.ta-list em { color: var(--color-text-muted); font-size: 0.9rem; }
+.ta-steps { margin: 0; padding-left: 1.3em; display: grid; gap: 6px; line-height: 1.65; }
+.ta-time { display: flex; gap: 6px; align-items: flex-start; margin: 10px 0 0; line-height: 1.6; }
+.ta-time .icon { flex: none; margin-top: 4px; }
+.ta-phrases { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+@media (min-width: 720px) { .ta-phrases { grid-template-columns: 1fr 1fr; } }
+.ta-phrases li { display: grid; gap: 1px; line-height: 1.5; }
+.ta-phrases span { color: var(--color-text-muted); font-size: 0.88rem; }
+.ta-q { border: 0; margin: 0 0 12px; padding: 0; }
+.ta-q legend { font-weight: 800; line-height: 1.6; margin-bottom: 6px; }
+.ta-opt { display: flex; gap: 10px; align-items: center; min-height: 44px; padding: 6px 12px; margin: 4px 0; border-radius: 12px;
+  border: 1px solid var(--color-border); background: var(--color-surface); cursor: pointer; line-height: 1.5; }
+.ta-opt input { width: 20px; height: 20px; flex: none; }
+.ta-opt.is-right { border-color: #2f7d4a; background: rgba(79, 157, 105, 0.12); }
+.ta-opt.is-wrong { border-color: #c0392b; background: rgba(224, 85, 42, 0.12); }
+.ta-why { margin: 4px 0 0; display: flex; gap: 6px; align-items: flex-start; line-height: 1.6; font-size: 0.9rem; }
+.ta-why:empty { display: none; }
+.ta-why .icon { flex: none; margin-top: 3px; }
+.ta-result { font-weight: 800; margin: 8px 0 0; }
+.ta-result:empty { display: none; }
+.ta-next { margin: 16px 0; flex-wrap: wrap; }
+.ta-next .btn { min-height: 44px; }

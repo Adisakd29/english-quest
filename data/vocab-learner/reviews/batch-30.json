@@ -1,0 +1,156 @@
+{
+  "batch": "30",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0609",
+      "severity": "minor",
+      "problem": "Collocations 'with regard to' (= about) and 'best regards' (email closing) are different senses, not 'respect'",
+      "fix": {
+        "collocations": [
+          "have a high regard for",
+          "hold someone in high regard"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0648",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'remote areas', 'poor areas', 'country areas' also fit",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0662",
+      "severity": "minor",
+      "problem": "Collocations 'be seated' / 'please be seated' are the other sense (sit down) that the item itself moved to the note",
+      "fix": {
+        "collocations": [
+          "seats 500 people",
+          "can seat up to",
+          "seat a large audience"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0665",
+      "severity": "minor",
+      "problem": "exampleTH moves 'ปลอดภัย' onto the password and drops 'keep ... secure' for the account, so the headword is not translated",
+      "fix": {
+        "exampleTH": "ใช้รหัสผ่านที่คาดเดายากเพื่อให้บัญชีธนาคารออนไลน์ของคุณปลอดภัย"
+      }
+    },
+    {
+      "id": "B2-S0678",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'in the shadow of a big mango tree' is also correct English (and the classic shade/shadow confusion)",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0680",
+      "severity": "minor",
+      "problem": "Gap not unique: 'The water is calm/clean here, so it's safe...' also fits; add a depth detail",
+      "fix": {
+        "example": "The water is shallow here, only up to your knees, so it's safe for small children.",
+        "form": "shallow",
+        "exampleTH": "น้ำตรงนี้ตื้น สูงแค่หัวเข่า จึงปลอดภัยสำหรับเด็กเล็ก"
+      }
+    },
+    {
+      "id": "B2-S0690",
+      "severity": "minor",
+      "problem": "Sense: the main B2 meaning of noun 'shooting' (and currentThai) is the gun sense; the filming sense is secondary. A neutral sport context teaches the main sense safely for teens",
+      "fix": {
+        "meaningEN": "the sport or activity of firing guns at targets",
+        "thai": "การยิงปืน (กีฬา), การยิง",
+        "shortTH": "การยิงปืน",
+        "thaiChangeReason": "ใช้ความหมายหลักคือการยิงปืน ในบริบทกีฬาซึ่งเหมาะกับผู้เรียนวัยรุ่น",
+        "example": "At the Asian Games, my favourite event to watch is shooting because the athletes stay so calm.",
+        "form": "shooting",
+        "exampleTH": "ในเอเชียนเกมส์ กีฬาที่ฉันชอบดูที่สุดคือยิงปืน เพราะนักกีฬานิ่งและใจเย็นมาก",
+        "collocations": [
+          "a shooting competition",
+          "a shooting range",
+          "an Olympic shooting event"
+        ],
+        "gapOk": false,
+        "noteTH": "ในข่าว a shooting = เหตุยิงกัน · อีกความหมาย: การถ่ายทำภาพยนตร์ (film shooting)"
+      }
+    },
+    {
+      "id": "B2-S0696",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Please accept our deepest apologies' fits equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0699",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My presentation has fifteen pages' also fits",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0705",
+      "severity": "minor",
+      "problem": "exampleTH 'ค่อนข้างเล็กกว่า' is unnatural Thai for 'somewhat smaller than'",
+      "fix": {
+        "exampleTH": "ห้องพักของโรงแรมเล็กกว่าที่เห็นในรูปอยู่บ้าง"
+      }
+    },
+    {
+      "id": "B2-S0709",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'three new kinds/types of frog' fit equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0711",
+      "severity": "minor",
+      "problem": "exampleTH renders spiritual as 'ทางจิตใจ', inconsistent with thai 'ทางจิตวิญญาณ' and weaker in meaning",
+      "fix": {
+        "exampleTH": "สำหรับผู้มาเยือนหลายคน การได้อยู่ที่วัดอันเงียบสงบในยามเช้าเป็นประสบการณ์ทางจิตวิญญาณที่ลึกซึ้ง"
+      }
+    },
+    {
+      "id": "B2-S0712",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Let's share/divide the bill' fits equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0722",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'check the progress/details of your order' also fit",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0725",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The path up to the temple is very long, with over 300 stairs' fits equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0726",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Someone stood on my foot' is equally common",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

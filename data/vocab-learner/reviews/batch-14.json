@@ -1,0 +1,18 @@
+{
+  "batch": "14",
+  "reviewed": 125,
+  "issues": [
+    {"id": "A2-S0622", "severity": "major", "problem": "meaningEN is wrong: 'from one side to the other side of something' defines 'across', not 'past' (going by something and on beyond it), which is what the example shows.", "fix": {"meaningEN": "moving near someone or something and then going on beyond it"}},
+    {"id": "A2-S0597", "severity": "minor", "problem": "meaningEN 'a person with an important job' is misleading: an ordinary police officer does not have a senior job.", "fix": {"meaningEN": "a person who works for the police, the army or the government"}},
+    {"id": "A2-S0555", "severity": "minor", "problem": "'the middle child of three sisters' is awkward. It reads as if three sisters are the parents.", "fix": {"example": "Fon is the middle child; she has an older and a younger sister.", "form": "middle", "exampleTH": "ฝนเป็นลูกคนกลาง เธอมีพี่สาวหนึ่งคนและน้องสาวหนึ่งคน"}},
+    {"id": "A2-S0553", "severity": "minor", "problem": "gapOk too optimistic: 'payment option' fits as well as 'payment method'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0566", "severity": "minor", "problem": "gapOk too optimistic: 'mainly' or 'all' fit 'are ___ from Bangkok'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0581", "severity": "minor", "problem": "gapOk too optimistic: 'scared', 'worried' or 'excited' fit 'felt ___ before her speech'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0602", "severity": "minor", "problem": "gapOk too optimistic: 'just a normal day' fits equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0616", "severity": "minor", "problem": "gapOk too optimistic: 'The old ___ has beautiful gardens' also takes temple, house or park.", "fix": {"example": "The king's old palace has beautiful gardens that visitors can walk through.", "form": "palace", "exampleTH": "พระราชวังเก่าของพระมหากษัตริย์มีสวนสวยๆ ที่นักท่องเที่ยวเดินชมได้"}},
+    {"id": "A2-S0625", "severity": "minor", "problem": "gapOk too optimistic: 'salary' or 'money' fit 'The ___ at this café is low'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0652", "severity": "minor", "problem": "gapOk too optimistic: 'good', 'nice' or 'kind' fit 'It's ___ to say thank you'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0660", "severity": "minor", "problem": "gapOk too optimistic: 'pictures' or 'photos' fit 'covered with ___ of my favourite band'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0662", "severity": "minor", "problem": "gapOk too optimistic: 'shows' or 'says' fit 'The weather app ___ heavy rain'.", "fix": {"gapOk": false}}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "batch": "42",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0565",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ is illegal in Thailand, except for the national lottery...' fits 'Betting' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0597",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'We were ___ up the mountain' also fits partway, already, high, far.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0604",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'the old ___ is too slow to run it' fits computer, laptop, machine equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

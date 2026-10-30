@@ -1,0 +1,224 @@
+/* =====================================================================
+   EnglishQuest World — Multiplayer 3D Lobby
+   ฉาก 3D เต็มพื้นที่ (เว้นเมนูล่าง/ซ้ายเดิม) · UI บางที่สุด ไม่บังโลก · ปุ่มแตะ ≥ 44px · Safe Area ของ iPhone
+   ===================================================================== */
+.wd-entry { display: flex; align-items: center; gap: 14px; width: 100%; margin: 0 0 var(--space-4, 16px); padding: 14px 16px;
+  border: 0; border-radius: var(--radius-lg, 18px); cursor: pointer; text-align: left; font: inherit; color: #fff;
+  background: linear-gradient(120deg, #3d68c4 0%, #6f5bd6 55%, #41c7b9 130%); box-shadow: 0 8px 24px rgba(61, 104, 196, 0.25); min-height: 92px; }
+.wd-entry:focus-visible { outline: 3px solid #ffd84d; outline-offset: 2px; }
+.wd-entry-art { flex: 0 0 64px; height: 64px; border-radius: 16px; background: rgba(255, 255, 255, 0.16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cellipse cx='32' cy='50' rx='26' ry='8' fill='%238fd16a'/%3E%3Crect x='20' y='22' width='24' height='18' rx='3' fill='%23fff3dc'/%3E%3Cpath d='M16 24 32 12 48 24z' fill='%234f7fe0'/%3E%3Crect x='29' y='30' width='6' height='10' rx='1' fill='%23c98d5b'/%3E%3Ccircle cx='12' cy='42' r='6' fill='%236cc35a'/%3E%3Ccircle cx='53' cy='41' r='6' fill='%23ffb3cf'/%3E%3C/svg%3E") center/52px no-repeat; }
+.wd-entry-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.wd-entry-kicker { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.02em; opacity: 0.9; }
+.wd-entry-title { font-size: 1.15rem; font-weight: 800; }
+.wd-entry-sub { font-size: 0.85rem; opacity: 0.92; line-height: 1.35; }
+.wd-entry-go { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, 0.2); }
+
+/* ---------- พื้นที่ฉาก ---------- */
+#screen-world.wd-screen { position: fixed; top: 0; left: 0; right: 0; bottom: var(--wd-nav-h, 0px); z-index: 58; padding: 0 !important; height: auto !important; min-height: 0 !important; max-height: none !important; margin: 0 !important;
+  background: #bfe3ff; overflow: hidden; }
+@media (min-width: 1024px) { #screen-world.wd-screen { left: var(--wd-side-w, 0px); bottom: 0; } }
+.wd-root { position: absolute; inset: 0; }
+.wd-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; outline: none; cursor: grab; }
+.wd-canvas.is-drag { cursor: grabbing; }
+.wd-overlay { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.wd-overlay > * { pointer-events: auto; }
+.wd-labels { position: absolute; inset: 0; pointer-events: none; }
+.wd-name { position: absolute; left: 0; top: 0; transform: translate(-50%, -100%); white-space: nowrap; pointer-events: none;
+  font: 700 12px/1.2 var(--font-body, system-ui); color: #fff; padding: 2px 8px; border-radius: 999px; background: rgba(27, 31, 58, 0.62);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); will-change: transform; }
+.wd-name.is-friend { background: rgba(32, 140, 92, 0.85); }
+.wd-name.is-me { background: rgba(61, 104, 196, 0.85); }
+.wd-name .wd-afk { margin-left: 4px; opacity: 0.8; font-weight: 600; }
+.wd-name svg { width: 11px; height: 11px; vertical-align: -1px; margin-right: 3px; }
+.wd-bubble { position: absolute; left: 0; top: 0; transform: translate(-50%, -100%); max-width: 200px; pointer-events: none;
+  font: 600 13px/1.3 var(--font-body, system-ui); color: #1f2340; background: #fff; padding: 6px 10px; border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(31, 35, 64, 0.2); white-space: normal; text-align: center; will-change: transform; }
+.wd-bubble::after { content: ''; position: absolute; left: 50%; bottom: -6px; margin-left: -6px; border: 6px solid transparent; border-bottom: 0; border-top-color: #fff; }
+.wd-bubble small { display: block; color: #5b6390; font-weight: 600; font-size: 11px; }
+.wd-zone-label { position: absolute; left: 0; top: 0; transform: translate(-50%, -100%); pointer-events: none; white-space: nowrap;
+  font: 800 13px/1.2 var(--font-display, system-ui); color: #fff; padding: 4px 10px; border-radius: 10px; background: var(--zc, #3d68c4);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18); opacity: 0.94; }
+
+/* ---------- แถบบน ---------- */
+.wd-top { position: absolute; left: 0; right: 0; top: 0; display: flex; align-items: flex-start; gap: 8px;
+  padding: calc(8px + env(safe-area-inset-top, 0px)) calc(8px + env(safe-area-inset-right, 0px)) 0 calc(8px + env(safe-area-inset-left, 0px)); pointer-events: none; }
+.wd-top > * { pointer-events: auto; }
+.wd-room { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 4px 12px 4px 8px; border: 0; border-radius: 14px; cursor: pointer;
+  background: rgba(255, 255, 255, 0.9); color: #1f2340; font: 700 14px/1.2 var(--font-body, system-ui); box-shadow: 0 2px 10px rgba(31, 35, 64, 0.15); max-width: 46vw; }
+.wd-room b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wd-room .wd-count { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; color: #3d68c4; white-space: nowrap; }
+.wd-room .wd-dot { width: 8px; height: 8px; border-radius: 50%; background: #2fbf71; box-shadow: 0 0 0 3px rgba(47, 191, 113, 0.25); }
+.wd-room .wd-friends-on { color: #208c5c; }
+.wd-actions { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.wd-btn { position: relative; min-width: 44px; min-height: 44px; border: 0; border-radius: 14px; cursor: pointer; display: inline-flex; align-items: center;
+  justify-content: center; gap: 6px; padding: 0 10px; background: rgba(255, 255, 255, 0.9); color: #1f2340; font: 700 13px/1 var(--font-body, system-ui);
+  box-shadow: 0 2px 10px rgba(31, 35, 64, 0.15); }
+.wd-btn:focus-visible, .wd-room:focus-visible, .wd-chip:focus-visible, .wd-joy:focus-visible { outline: 3px solid #ffd84d; outline-offset: 2px; }
+.wd-btn .icon { width: 20px; height: 20px; }
+.wd-btn.is-on { background: #3d68c4; color: #fff; }
+.wd-btn.wd-exit { background: #ff6b5e; color: #fff; }
+.wd-btn .wd-badge { position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px; padding: 0 4px; border-radius: 9px; background: #2fbf71;
+  color: #fff; font-size: 11px; display: grid; place-items: center; }
+.wd-btn-label { display: none; }
+@media (min-width: 900px) { .wd-btn-label { display: inline; } }
+
+/* ---------- แชท (ซ้ายบน · ไม่ทับจอยสติ๊ก) ---------- */
+.wd-chatlog { position: absolute; left: calc(8px + env(safe-area-inset-left, 0px)); top: calc(60px + env(safe-area-inset-top, 0px));
+  width: min(320px, 62vw); max-height: 30vh; display: flex; flex-direction: column; gap: 4px; overflow: hidden; pointer-events: none; }
+.wd-msg { pointer-events: auto; align-self: flex-start; max-width: 100%; font: 600 13px/1.35 var(--font-body, system-ui); color: #fff; background: rgba(27, 31, 58, 0.58);
+  padding: 5px 10px; border-radius: 12px; border: 0; text-align: left; cursor: pointer; animation: wd-in 0.2s ease; transition: opacity 0.6s ease; }
+.wd-msg b { color: #ffd84d; margin-right: 4px; }
+.wd-msg.is-room b::before { content: 'ห้อง · '; color: #9fd0ff; font-weight: 700; }
+.wd-msg.is-sys { background: rgba(61, 104, 196, 0.75); }
+.wd-msg .wd-th { display: block; font-size: 12px; color: #cfe5ff; font-weight: 600; }
+.wd-msg.is-old { opacity: 0.35; }
+@keyframes wd-in { from { transform: translateY(6px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* ---------- แผนที่ย่อ ---------- */
+.wd-minimap { position: absolute; right: calc(8px + env(safe-area-inset-right, 0px)); top: calc(60px + env(safe-area-inset-top, 0px));
+  width: 132px; height: 132px; border-radius: 18px; overflow: hidden; background: rgba(255, 255, 255, 0.86); box-shadow: 0 2px 12px rgba(31, 35, 64, 0.2); cursor: pointer; border: 0; padding: 0; }
+.wd-minimap canvas { width: 100%; height: 100%; display: block; }
+.wd-minimap.is-big { width: min(86vw, 420px); height: min(86vw, 420px); top: 50%; right: 50%; transform: translate(50%, -50%); z-index: 5; }
+.wd-minimap.hidden { display: none; }
+
+/* ---------- ควบคุม (ล่าง) ---------- */
+.wd-joy { position: absolute; left: calc(14px + env(safe-area-inset-left, 0px)); bottom: calc(14px + var(--wd-safe-b, 0px)); width: 128px; height: 128px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.28); border: 2px solid rgba(255, 255, 255, 0.7); touch-action: none; display: none; }
+.wd-joy-knob { position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%; background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 3px 10px rgba(31, 35, 64, 0.25); transition: transform 0.08s ease; pointer-events: none; }
+.wd-joy.is-run .wd-joy-knob { background: #ffd84d; }
+.wd-touch .wd-joy { display: block; }
+.wd-act { position: absolute; right: calc(14px + env(safe-area-inset-right, 0px)); bottom: calc(14px + var(--wd-safe-b, 0px)); display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.wd-interact { min-width: 64px; min-height: 64px; border-radius: 22px; border: 0; cursor: pointer; padding: 0 16px; background: #3d68c4; color: #fff;
+  font: 800 15px/1.1 var(--font-body, system-ui); box-shadow: 0 6px 18px rgba(61, 104, 196, 0.4); display: inline-flex; align-items: center; gap: 8px; }
+.wd-interact[hidden] { display: none; }
+.wd-interact kbd { font: 800 11px/1 var(--font-body, system-ui); padding: 3px 6px; border-radius: 6px; background: rgba(255, 255, 255, 0.25); }
+.wd-touch .wd-interact kbd { display: none; }
+.wd-emotes { display: flex; gap: 6px; }
+.wd-emotes .wd-btn { width: 48px; height: 48px; padding: 0; border-radius: 50%; }
+.wd-hint { position: absolute; left: 50%; bottom: calc(14px + var(--wd-safe-b, 0px)); transform: translateX(-50%); font: 600 12px/1.4 var(--font-body, system-ui);
+  color: #1f2340; background: rgba(255, 255, 255, 0.82); padding: 6px 12px; border-radius: 10px; pointer-events: none; text-align: center; max-width: 50vw; }
+.wd-touch .wd-hint { display: none; }
+
+/* ---------- ชีต (เมนู/แชท/ตั้งค่า) ---------- */
+.wd-sheet { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: min(520px, 100%); max-height: min(78%, 640px); overflow: auto; z-index: 10;
+  background: var(--color-surface, #fff); color: var(--color-text, #1f2340); border-radius: 22px 22px 0 0; box-shadow: 0 -10px 30px rgba(31, 35, 64, 0.25);
+  padding: 14px 16px calc(16px + var(--wd-safe-b, 0px)); animation: wd-up 0.18s ease; }
+@media (min-width: 900px) { .wd-sheet { left: auto; right: 16px; bottom: 16px; transform: none; border-radius: 22px; max-height: calc(100% - 100px); } }
+@keyframes wd-up { from { transform: translate(-50%, 20px); opacity: 0; } to { transform: translate(-50%, 0); opacity: 1; } }
+@media (min-width: 900px) { @keyframes wd-up { from { transform: translateY(20px); opacity: 0; } to { transform: none; opacity: 1; } } }
+.wd-sheet h2 { font-size: 1.1rem; margin: 0; }
+.wd-sheet-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.wd-sheet-head .wd-close { margin-left: auto; }
+.wd-sheet p { margin: 6px 0; color: var(--color-text-muted, #5b6390); font-size: 0.9rem; }
+.wd-close { width: 44px; height: 44px; border: 0; border-radius: 12px; background: var(--color-surface-2, #f1f3fb); color: inherit; cursor: pointer; display: grid; place-items: center; }
+.wd-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.wd-act-btn { min-height: 48px; border-radius: 14px; border: 1px solid var(--color-border, #e3e6f3); background: var(--color-surface, #fff); color: inherit;
+  font: 700 14px/1.2 var(--font-body, system-ui); cursor: pointer; display: flex; align-items: center; gap: 8px; padding: 8px 12px; text-align: left; }
+.wd-act-btn .icon { width: 20px; height: 20px; flex: 0 0 auto; color: var(--color-primary, #3d68c4); }
+.wd-act-btn.is-danger { color: #c4473a; } .wd-act-btn.is-danger .icon { color: #c4473a; }
+.wd-act-btn.is-primary { background: var(--color-primary, #3d68c4); color: #fff; border-color: transparent; } .wd-act-btn.is-primary .icon { color: #fff; }
+.wd-act-btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+.wd-act-btn small { display: block; font-weight: 600; font-size: 12px; color: var(--color-text-muted, #5b6390); }
+.wd-tabs { display: flex; gap: 6px; margin: 4px 0 10px; }
+.wd-tab { flex: 1; min-height: 44px; border-radius: 12px; border: 1px solid var(--color-border, #e3e6f3); background: none; color: inherit; font: 700 14px var(--font-body, system-ui); cursor: pointer; }
+.wd-tab[aria-selected="true"] { background: var(--color-primary, #3d68c4); color: #fff; border-color: transparent; }
+.wd-phrases { display: flex; flex-direction: column; gap: 6px; }
+.wd-chip { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 48px; padding: 6px 12px; border-radius: 14px; cursor: pointer;
+  border: 1px solid var(--color-border, #e3e6f3); background: var(--color-surface, #fff); color: inherit; font: 700 14px/1.25 var(--font-body, system-ui); text-align: left; }
+.wd-chip small { color: var(--color-text-muted, #5b6390); font-weight: 600; font-size: 12px; text-align: right; }
+.wd-chip:active { transform: scale(0.98); }
+.wd-cat { font: 800 12px var(--font-body, system-ui); color: var(--color-text-muted, #5b6390); margin: 8px 0 2px; text-transform: uppercase; letter-spacing: 0.04em; }
+.wd-text-row { display: flex; gap: 8px; margin-top: 10px; }
+.wd-text-row input { flex: 1; min-height: 46px; border-radius: 12px; border: 1px solid var(--color-border, #e3e6f3); padding: 0 12px; font: 600 15px var(--font-body, system-ui); background: var(--color-surface, #fff); color: inherit; }
+.wd-note { font-size: 0.85rem; color: var(--color-text-muted, #5b6390); background: var(--color-surface-2, #f1f3fb); border-radius: 12px; padding: 8px 12px; margin-top: 10px; }
+.wd-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-border, #e3e6f3); }
+.wd-row:last-child { border-bottom: 0; }
+.wd-row label, .wd-row .wd-row-text { flex: 1; font-weight: 700; font-size: 0.95rem; }
+.wd-row small { display: block; color: var(--color-text-muted, #5b6390); font-weight: 600; font-size: 12px; }
+.wd-row select { min-height: 44px; border-radius: 10px; border: 1px solid var(--color-border, #e3e6f3); padding: 0 8px; font: 600 14px var(--font-body, system-ui); background: var(--color-surface, #fff); color: inherit; max-width: 52%; }
+.wd-switch { width: 52px; height: 32px; border-radius: 16px; border: 0; background: #c9cee3; position: relative; cursor: pointer; flex: 0 0 auto; }
+.wd-switch::after { content: ''; position: absolute; top: 4px; left: 4px; width: 24px; height: 24px; border-radius: 50%; background: #fff; transition: transform 0.15s ease; }
+.wd-switch[aria-checked="true"] { background: #2fbf71; } .wd-switch[aria-checked="true"]::after { transform: translateX(20px); }
+.wd-prof { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
+.wd-prof-pic { width: 56px; height: 56px; border-radius: 16px; overflow: hidden; background: var(--color-surface-2, #f1f3fb); flex: 0 0 auto; }
+.wd-prof-pic img, .wd-prof-pic svg { width: 100%; height: 100%; object-fit: cover; }
+.wd-tag { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: #e7f7ef; color: #208c5c; }
+.wd-tag.is-muted { background: #fff1e3; color: #b25b00; }
+.wd-list { display: flex; flex-direction: column; gap: 8px; }
+.wd-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 14px; border: 1px solid var(--color-border, #e3e6f3); }
+.wd-item .wd-item-main { flex: 1; min-width: 0; }
+.wd-item b { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wd-item small { color: var(--color-text-muted, #5b6390); }
+.wd-item .wd-act-btn { min-height: 44px; }
+.wd-costumes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.wd-costume { border: 2px solid var(--color-border, #e3e6f3); border-radius: 14px; padding: 6px; background: var(--color-surface, #fff); cursor: pointer; text-align: center; font: 700 12px/1.2 var(--font-body, system-ui); color: inherit; min-height: 44px; }
+.wd-costume img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; }
+.wd-costume.is-on { border-color: #ff8a1f; background: #fff4e8; }
+.wd-costume.is-locked { opacity: 0.6; }
+
+/* ---------- สถานะ (โหลด / เชื่อมต่อใหม่ / ไม่รองรับ 3D) ---------- */
+.wd-status { position: absolute; inset: 0; display: grid; place-items: center; background: linear-gradient(180deg, #bfe3ff, #e9f6ff); z-index: 20; padding: 24px; text-align: center; }
+.wd-status.is-veil { background: rgba(191, 227, 255, 0.55); backdrop-filter: blur(2px); }
+.wd-status-box { max-width: 420px; background: rgba(255, 255, 255, 0.95); border-radius: 22px; padding: 22px; box-shadow: 0 10px 30px rgba(31, 35, 64, 0.18); color: #1f2340; }
+.wd-status-box h2 { margin: 6px 0 8px; font-size: 1.2rem; }
+.wd-status-box p { margin: 0 0 12px; color: #5b6390; }
+.wd-status-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.wd-spin { width: 40px; height: 40px; border-radius: 50%; border: 4px solid #d6e6ff; border-top-color: #3d68c4; animation: wd-spin 0.8s linear infinite; margin: 0 auto; }
+@keyframes wd-spin { to { transform: rotate(360deg); } }
+.wd-progress { height: 8px; border-radius: 4px; background: #e3ecff; overflow: hidden; margin-top: 12px; }
+.wd-progress > span { display: block; height: 100%; width: 0; background: #3d68c4; transition: width 0.2s ease; }
+.wd-toast { position: absolute; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translateX(-50%); z-index: 15; background: rgba(27, 31, 58, 0.9);
+  color: #fff; font: 700 14px/1.35 var(--font-body, system-ui); padding: 10px 16px; border-radius: 14px; max-width: min(90%, 420px); text-align: center; animation: wd-in 0.2s ease; }
+.wd-invite { position: absolute; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translateX(-50%); z-index: 16; width: min(92%, 380px);
+  background: #fff; color: #1f2340; border-radius: 18px; padding: 14px; box-shadow: 0 10px 30px rgba(31, 35, 64, 0.3); }
+.wd-invite .wd-status-actions { justify-content: flex-end; margin-top: 10px; }
+.wd-invite-bar { height: 4px; border-radius: 2px; background: #3d68c4; margin-top: 10px; transform-origin: left; }
+@media (prefers-reduced-motion: reduce) { .wd-msg, .wd-sheet, .wd-toast { animation: none; } .wd-spin { animation-duration: 2s; } }
+@media (max-width: 380px) { .wd-room { max-width: 40vw; padding-right: 8px; } .wd-minimap { width: 104px; height: 104px; } .wd-joy { width: 116px; height: 116px; } }
+.wd-btn .wd-badge[hidden] { display: none; }
+
+/* จอแคบ: ชื่อห้อง/จำนวนคนซ้อนสองบรรทัด · ปุ่มเรียงแถวเดียว (ไม่ดันปุ่มออกไปแถวสอง) */
+.wd-room-text { display: flex; align-items: center; gap: 8px; min-width: 0; }
+@media (max-width: 520px) {
+  .wd-top { gap: 6px; }
+  .wd-actions { gap: 4px; flex-wrap: nowrap; }
+  .wd-room { max-width: 34vw; padding: 2px 8px; border-radius: 12px; }
+  .wd-room-text { flex-direction: column; align-items: flex-start; gap: 0; }
+  .wd-room b { font-size: 12px; max-width: 100%; }
+  .wd-room .wd-count { font-size: 12px; }
+  .wd-btn { min-width: 44px; padding: 0 8px; border-radius: 12px; }
+}
+@media (max-width: 380px) {
+  .wd-room b { display: none; }
+  .wd-room { padding: 2px 6px; }
+}
+
+/* ---------- ฟองแชท: 2 บรรทัด · ข้อความยาวตัดด้วย … ---------- */
+.wd-bubble { max-width: 210px; }
+.wd-bubble-text { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.wd-msg { overflow-wrap: anywhere; }
+.wd-msg.is-mine b { color: #9ff0c2; }
+
+/* ---------- ช่องพิมพ์แชท (Free Text + Quick Chat) ---------- */
+.wd-compose { position: absolute; z-index: 6; left: calc(8px + env(safe-area-inset-left, 0px)); right: calc(8px + env(safe-area-inset-right, 0px));
+  bottom: calc(10px + max(var(--wd-kb, 0px), var(--wd-safe-b, 0px))); max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 6px;
+  padding: 8px; border-radius: 16px; background: rgba(22, 26, 52, 0.86); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28); backdrop-filter: blur(6px); }
+.wd-compose[hidden] { display: none; }
+.wd-cmp-phr { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+.wd-cmp-phr::-webkit-scrollbar { display: none; }
+.wd-chip.is-sm { flex: 0 0 auto; min-height: 44px; padding: 4px 12px; font-size: 13px; white-space: nowrap; }
+.wd-chip.is-more { gap: 4px; }
+.wd-cmp-row { display: flex; align-items: center; gap: 6px; }
+.wd-cmp-row input { flex: 1; min-width: 0; min-height: 44px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.25); padding: 0 12px;
+  font: 600 16px var(--font-body, system-ui); background: #fff; color: #1f2340; }
+.wd-cmp-row input:focus-visible { outline: 3px solid #ffd84d; outline-offset: 1px; }
+.wd-cmp-mode { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; min-width: 44px; padding: 0 10px; border-radius: 12px; border: 0; cursor: pointer;
+  background: rgba(255, 255, 255, 0.14); color: #fff; font: 700 13px var(--font-body, system-ui); white-space: nowrap; }
+.wd-cmp-x { min-width: 44px; min-height: 44px; border-radius: 12px; border: 0; background: transparent; color: #fff; cursor: pointer; display: inline-grid; place-items: center; }
+.wd-cmp-send { min-width: 44px; min-height: 44px; }
+.wd-cmp-note { flex: 1; color: #dfe5ff; font: 600 13px/1.35 var(--font-body, system-ui); }
+.wd-cmp-mode:focus-visible, .wd-cmp-x:focus-visible { outline: 3px solid #ffd84d; outline-offset: 1px; }
+/* ระหว่างพิมพ์: ซ่อนจอยสติ๊ก/ปุ่มท่าทาง (ไม่บังกัน · ไม่เผลอเดิน) · กล่องข้อความย้ายขึ้นไม่ทับช่องพิมพ์ */
+.is-composing .wd-joy, .is-composing .wd-act, .is-composing .wd-hint { display: none !important; }
+@media (max-width: 600px) { .is-composing .wd-minimap { display: none; } }

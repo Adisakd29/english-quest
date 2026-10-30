@@ -1,0 +1,272 @@
+{
+  "batch": "23",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0751",
+      "severity": "major",
+      "problem": "Sense mismatch: meaningEN/thai describe spirit as mind/feelings (not body), but example 'fighting spirit' shows the courage/determination sense",
+      "fix": {
+        "example": "Her body was tired after the long race, but her spirit was still strong.",
+        "form": "spirit",
+        "exampleTH": "หลังวิ่งระยะไกล ร่างกายของเธอเหนื่อยล้า แต่จิตใจยังเข้มแข็งอยู่",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0683",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'chance (increases the chance of)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0688",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'nice/special' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0690",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'bad/narrow' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0701",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'science/simple' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0712",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'box (a box of six glasses)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0724",
+      "severity": "minor",
+      "problem": "Collocation 'shoot a goal' is not idiomatic (score a goal / shoot at goal)",
+      "fix": {
+        "collocations": [
+          "shoot an arrow",
+          "shoot at a target",
+          "shoot an arrow at"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0726",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'eyesight' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0731",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'differences' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0732",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'alike' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0742",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'apps/programs' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0743",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'ground' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0744",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'hard' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0746",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'divided/separated/put' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0748",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'especially' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0750",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'hot' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0752",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'speaking (a speaking part, the usual exam term)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0758",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'quality (of a very high quality)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0759",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'small/single' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0762",
+      "severity": "minor",
+      "problem": "gapOk too optimistic ('One study shows...' fits equally); sentence also presents an invented figure as fact",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0764",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'put' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0769",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'muscle' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0771",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'really' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0775",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'finally' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0776",
+      "severity": "minor",
+      "problem": "'ran inside the nearest shop' is unnatural (ran into); also gap fits big/heavy/bad storm",
+      "fix": {
+        "example": "There was a sudden storm, so we ran into the nearest shop.",
+        "form": "sudden",
+        "exampleTH": "จู่ ๆ ก็เกิดพายุขึ้นมา เราจึงวิ่งเข้าไปในร้านที่ใกล้ที่สุด",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0781",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'report/note' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0783",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'sells/sends' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0790",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'signs' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0791",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'head' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0793",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'young/good' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0799",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'start/begin' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0803",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'topic/name' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

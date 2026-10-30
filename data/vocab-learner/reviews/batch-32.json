@@ -1,0 +1,96 @@
+{
+  "batch": "32",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0856",
+      "severity": "minor",
+      "problem": "shortTH 'ข้าง ๆ, ร่วมกับ' contains 'ร่วมกับ', which is not in thai; thai should include the 'together with' meaning used in the example",
+      "fix": {
+        "thai": "ข้าง ๆ, ร่วมกับ, ควบคู่กับ",
+        "shortTH": "ข้าง ๆ, ร่วมกับ",
+        "thaiChangeReason": "เพิ่มคำว่า ร่วมกับ ให้ตรงกับ shortTH และตัวอย่าง work alongside"
+      }
+    },
+    {
+      "id": "B2-S0866",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The airline sent us an ___ for the long delay' also fits 'explanation'",
+      "fix": {
+        "example": "After the long delay, the airline sent us a letter of apology and a free meal voucher.",
+        "form": "apology",
+        "exampleTH": "หลังจากเที่ยวบินล่าช้านาน สายการบินส่งจดหมายขอโทษพร้อมคูปองอาหารฟรีมาให้เรา",
+        "gapOk": true
+      }
+    },
+    {
+      "id": "B2-S0871",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'put away 2,000 baht every month' is equally correct",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0875",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'make judgements about people' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0905",
+      "severity": "minor",
+      "problem": "meaningEN uses the family form 'bombs' and reveals the word; gapOk too optimistic ('the destruction of the city' fits equally). Example itself is neutral and historical (OK for teens)",
+      "fix": {
+        "meaningEN": "an attack in which explosive weapons are dropped from planes or set off in a place",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0921",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'say with confidence' fits equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0922",
+      "severity": "minor",
+      "problem": "thai 'ใบรับรอง' alone is narrow; for a course certificate Thai uses 'ใบประกาศนียบัตร' (exampleTH already says 'ใบประกาศ')",
+      "fix": {
+        "thai": "ใบรับรอง, ใบประกาศนียบัตร",
+        "shortTH": "ใบรับรอง",
+        "thaiChangeReason": "เพิ่มคำว่า ใบประกาศนียบัตร ซึ่งใช้กับใบที่ได้รับเมื่อจบหลักสูตร"
+      }
+    },
+    {
+      "id": "B2-S0929",
+      "severity": "minor",
+      "problem": "shortTH 'ส่งเสียงเชียร์' is not in thai; the example (crowd cheering a singer) is about excitement, not only 'ให้กำลังใจ'",
+      "fix": {
+        "thai": "ส่งเสียงเชียร์, โห่ร้องให้กำลังใจ",
+        "shortTH": "ส่งเสียงเชียร์",
+        "thaiChangeReason": "เพิ่มคำว่า ส่งเสียงเชียร์ ซึ่งเป็นคำที่ใช้จริงและตรงกับ shortTH"
+      }
+    },
+    {
+      "id": "B2-S0941",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'What a surprise! My new boss went to the same school as me.' is equally correct",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0952",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Water is a simple ___' also fits 'substance', 'liquid' or 'molecule'",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

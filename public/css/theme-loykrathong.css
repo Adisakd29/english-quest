@@ -1,0 +1,154 @@
+/* =====================================================================
+   ธีม "ลอยกระทง 2569" — รางวัลเควสต์ "ฟังเรื่องลอยกระทง" (เทศกาลลอยกระทง 18–25 พ.ย. 2569 · v1.10.0)
+   บรรยากาศคืนเพ็ญเดือนสิบสอง: ฟ้าคราม จันทร์เต็มดวง แสงเทียนสีทอง สายน้ำและระลอกคลื่นที่ขอบล่าง
+   - ฐานธีมมืด (data-theme="dark") + ชั้นธีม data-skin="loykrathong" — ทุกหน้ารองรับครบ
+   - ตัวอักษรทุกคู่สี ≥ 4.5:1 (ข้อความหลัก ~15:1 · สีหลักทอง ~11:1 บนการ์ด) · ตกแต่งเท่านั้น ไม่มีผลต่อการเล่น
+   - ฉากหลังเป็นภาพนิ่ง (CSS ล้วน ไม่มีสคริปต์เอฟเฟกต์ ไม่กินแบต) · ลดการเคลื่อนไหว = ไม่มีแอนิเมชัน
+   ===================================================================== */
+:root[data-theme="dark"][data-skin="loykrathong"] {
+  --color-bg: #080E2E; --color-surface: #111A45; --color-surface-2: #172154; --color-border: #2C3A80;
+  --color-text: #F3F1FF;          /* ~15:1 บนการ์ด */
+  --color-text-muted: #C2C8EC;    /* ~9:1 */
+  --color-primary: #FFD27A;       /* ทองแสงเทียน ~11:1 บนการ์ด */
+  --color-primary-dark: #FFE4A8; --color-primary-soft: #2B2A3E;
+  --color-secondary: #9FB4FF;     /* แสงจันทร์บนผิวน้ำ */
+  --color-accent: #FFB86B; --color-accent-bright: #FFA64D;
+  --color-success: #8FE0B0; --color-success-soft: #133A33;
+  --color-warning: #FFD27A; --color-warning-soft: #3A3014;
+  --color-danger: #FFA3B5; --color-danger-soft: #45182C;
+  --shadow-sm: 0 1px 2px rgba(2, 4, 16, 0.55), 0 0 0 1px rgba(255, 210, 122, 0.04);
+  --shadow-md: 0 8px 22px rgba(2, 4, 16, 0.6), 0 0 18px rgba(255, 210, 122, 0.08);
+  --focus-ring: 0 0 0 3px #080E2E, 0 0 0 6px #FFD27A;
+  --white: #F6F4FF; --parchment-dim: #CDD2F0;
+  --brand: #4F63D9; --brand-dark: #FFE4A8; --brand-accent: #FFD27A;
+  --il-paper: #172154; --il-paper-d: #111A45; --il-line: #36468C; --il-bg: #141D4C;
+  --il-lilac: #4F5FB8; --il-lilac-d: #8E9CF0; --il-indigo: #5F72E6; --il-indigo-d: #4458C8;
+  --il-coral: #FFA3B5; --il-coral-d: #E07088; --il-amber: #FFD27A;
+  --lk-card: linear-gradient(162deg, #162052 0%, #121A47 55%, #0E1540 100%);
+  /* กระทงเล็กมุมขวาบนของการ์ด */
+  --lk-kt: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 40'%3E%3Cellipse cx='28' cy='33' rx='22' ry='3' fill='%23FFD27A' opacity='.18'/%3E%3Cpath d='M10 28 Q28 37 46 28 L42 33 Q28 39 14 33Z' fill='%232F7D46'/%3E%3Cg fill='%2358B86B'%3E%3Cpath d='M16 29 Q13 22 17 17 Q20 23 18 29Z'/%3E%3Cpath d='M23 30 Q21 22 25 16 Q28 23 25 30Z'/%3E%3Cpath d='M31 30 Q29 22 33 16 Q36 23 33 30Z'/%3E%3Cpath d='M38 29 Q36 22 40 17 Q43 23 40 29Z'/%3E%3C/g%3E%3Ccircle cx='28' cy='22' r='4' fill='%23FFB020'/%3E%3Crect x='27' y='9' width='2' height='10' rx='.6' fill='%23FFF4D6'/%3E%3Cpath d='M28 3 Q31 7 28 9 Q25 7 28 3Z' fill='%23FFD27A'/%3E%3C/svg%3E");
+  /* ระลอกน้ำจาง ๆ มุมซ้ายล่าง */
+  --lk-ripple: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 40'%3E%3Cg fill='none' stroke='rgba(159,180,255,.18)' stroke-width='1'%3E%3Cellipse cx='0' cy='40' rx='40' ry='8'/%3E%3Cellipse cx='0' cy='40' rx='62' ry='13' stroke-dasharray='3 5'/%3E%3C/g%3E%3C/svg%3E");
+  color-scheme: dark;
+}
+
+/* ---------- ฉากหลัง: จันทร์เต็มดวง + ดาว + สายน้ำขอบล่าง (ภาพนิ่ง) ---------- */
+:root[data-skin="loykrathong"] body {
+  background-color: #080E2E;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cg fill='%23F6F4FF'%3E%3Ccircle cx='20' cy='30' r='.9' opacity='.6'/%3E%3Ccircle cx='110' cy='60' r='.7' opacity='.45'/%3E%3Ccircle cx='190' cy='22' r='1.1' opacity='.6'/%3E%3Ccircle cx='250' cy='90' r='.7' opacity='.45'/%3E%3Ccircle cx='60' cy='150' r='.8' opacity='.4'/%3E%3Ccircle cx='160' cy='130' r='.6' opacity='.45'/%3E%3Ccircle cx='230' cy='200' r='1' opacity='.5'/%3E%3Ccircle cx='40' cy='240' r='.7' opacity='.4'/%3E%3C/g%3E%3Cg fill='%23FFE4A8'%3E%3Ccircle cx='130' cy='250' r='.8' opacity='.45'/%3E%3Ccircle cx='270' cy='160' r='.7' opacity='.4'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(circle at 88% 9%, #FFF6DA 0, #FFE4A0 2.6vmin, rgba(255, 228, 160, 0.28) 3vmin, rgba(255, 228, 160, 0) 14vmin),
+    radial-gradient(60% 30% at 50% 100%, rgba(79, 99, 217, 0.28), transparent 70%),
+    linear-gradient(180deg, #0A1238 0%, #0D1745 55%, #080E2E 100%);
+  background-size: 280px 280px, 100% 100%, 100% 100%, 100% 100%;
+  background-attachment: fixed;
+}
+/* สายน้ำ + กระทงเล็กที่ขอบล่างจอ (ใต้เนื้อหา ไม่รับการแตะ) */
+:root[data-skin="loykrathong"] body::before {
+  content: ''; position: fixed; left: 0; right: 0; bottom: 0; height: 90px; z-index: -1; pointer-events: none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 90' preserveAspectRatio='none'%3E%3Cpath d='M0 30 Q50 20 100 30 T200 30 T300 30 T400 30 V90 H0Z' fill='%230B1440'/%3E%3Cg fill='none' stroke='%239FB4FF' stroke-opacity='.25'%3E%3Cpath d='M20 52 Q60 46 100 52'/%3E%3Cpath d='M180 64 Q230 58 280 64'/%3E%3Cpath d='M300 46 Q340 40 380 46'/%3E%3C/g%3E%3C/svg%3E") bottom / 100% 90px no-repeat;
+  opacity: 0.85;
+}
+@media (max-width: 1023px) { :root[data-skin="loykrathong"] body::before { bottom: calc(64px + env(safe-area-inset-bottom, 0px)); height: 60px; } }
+
+/* ---------- แถบบน / เมนู ---------- */
+:root[data-skin="loykrathong"] #hud {
+  background: linear-gradient(180deg, rgba(17, 26, 69, 0.97), rgba(11, 18, 56, 0.95));
+  border-bottom: 1px solid rgba(255, 210, 122, 0.24); box-shadow: 0 6px 18px rgba(2, 4, 16, 0.5);
+}
+:root[data-skin="loykrathong"] .hud-exp-bar-bg { background: rgba(255, 255, 255, 0.1); }
+:root[data-skin="loykrathong"] .hud-icon-btn { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 210, 122, 0.26); color: #F3F1FF; }
+:root[data-skin="loykrathong"] .hud-icon-btn:hover { background: rgba(255, 210, 122, 0.12); }
+:root[data-skin="loykrathong"] #bottom-nav {
+  background: linear-gradient(180deg, rgba(17, 26, 69, 0.98), rgba(9, 14, 46, 0.98));
+  border-top: 1px solid rgba(255, 210, 122, 0.24); box-shadow: 0 -6px 18px rgba(2, 4, 16, 0.55);
+}
+:root[data-skin="loykrathong"] .nav-item { color: #C2C8EC; }
+:root[data-skin="loykrathong"] .nav-item.active, :root[data-skin="loykrathong"] .nav-item[aria-current="page"] { color: #FFE4A8; }
+:root[data-skin="loykrathong"] .nav-item.active .nav-icon, :root[data-skin="loykrathong"] .nav-item[aria-current="page"] .nav-icon {
+  background: radial-gradient(circle at 35% 30%, #FFF4D6, #FFD27A 55%, #E09A2E); color: #1A1204; box-shadow: 0 0 14px rgba(255, 210, 122, 0.55);
+}
+@media (min-width: 1024px) {
+  :root[data-skin="loykrathong"] #bottom-nav { background: linear-gradient(180deg, #121B48 0%, #0D1540 60%, #090F33 100%);
+    border-top: 0; border-right: 1px solid rgba(255, 210, 122, 0.2); box-shadow: 6px 0 22px rgba(2, 4, 16, 0.5); }
+  :root[data-skin="loykrathong"] .nav-item:hover { background: rgba(255, 210, 122, 0.08); color: #FFF4D6; }
+  :root[data-skin="loykrathong"] .nav-item.active { background: linear-gradient(90deg, rgba(255, 210, 122, 0.18), rgba(255, 210, 122, 0.03)); color: #FFE4A8; box-shadow: inset 3px 0 0 #FFD27A; }
+  :root[data-skin="loykrathong"] .nav-item.active .nav-icon { box-shadow: none; }
+}
+
+/* ---------- ปุ่ม: แสงเทียน ---------- */
+:root[data-skin="loykrathong"] .btn-primary {
+  background: linear-gradient(180deg, #FFE4A8 0%, #FFD27A 45%, #F2B44E 100%); color: #1A1204; border-color: transparent;
+  box-shadow: 0 3px 0 #B9781E, 0 0 0 1px rgba(255, 255, 255, 0.35) inset, 0 6px 18px rgba(255, 190, 90, 0.3);
+}
+:root[data-skin="loykrathong"] .btn-primary:hover { background: linear-gradient(180deg, #FFEDC2, #FFDA8E 45%, #F6BE5E); }
+:root[data-skin="loykrathong"] .btn-primary:active { transform: translateY(2px); box-shadow: 0 1px 0 #B9781E, 0 4px 12px rgba(255, 190, 90, 0.25); }
+:root[data-skin="loykrathong"] .btn-secondary, :root[data-skin="loykrathong"] .mini-btn {
+  background: linear-gradient(180deg, rgba(95, 114, 230, 0.2), rgba(95, 114, 230, 0.08)); color: #F3F1FF; border-color: #3A4A98;
+}
+:root[data-skin="loykrathong"] .btn-secondary:hover, :root[data-skin="loykrathong"] .mini-btn:hover { border-color: #FFD27A; box-shadow: 0 0 12px rgba(255, 210, 122, 0.2); }
+:root[data-skin="loykrathong"] .mini-btn.accept { background: linear-gradient(180deg, #FFE4A8, #F2B44E); color: #1A1204; border-color: transparent; }
+:root[data-skin="loykrathong"] .link-btn { color: #FFE4A8; }
+:root[data-skin="loykrathong"] .vd-seg { background: rgba(255, 255, 255, 0.05); border-color: #2C3A80; }
+:root[data-skin="loykrathong"] .vd-seg-btn.active { background: linear-gradient(180deg, #FFE4A8, #F2B44E); color: #1A1204; }
+:root[data-skin="loykrathong"] .dash-continue { background: linear-gradient(135deg, #1E2C7A 0%, #34479E 55%, #1F6A7E 100%);
+  box-shadow: 0 10px 28px rgba(79, 99, 217, 0.35), 0 0 0 1px rgba(255, 210, 122, 0.24) inset; }
+:root[data-skin="loykrathong"] .home-cta { color: #1A1204; background: #FFD27A; }
+
+/* ---------- การ์ด: ฟ้าครามยามค่ำ + กระทงเล็กที่มุม ---------- */
+:root[data-skin="loykrathong"] :is(.home-card, .mode-card, .path-unit, .gp-ch, .rk-play-card, .rk-hero, .rk-map-card, .rk-boss-card, .rk-season,
+  .rk-goal, .rk-mode, .vb-card, .friend-card, .pl-card, .profile-head, .chat-panel, .rk-team, .rk-vs-card, .rk-intro-card, .audio-card, .support-card,
+  .gl-card, .c2-card, .c2-stat, .c2-mode, .c2-unit) {
+  background: var(--lk-kt) top 6px right 8px / 52px no-repeat, var(--lk-ripple) bottom left / 90px no-repeat, var(--lk-card);
+  border: 1px solid #2C3A80;
+  box-shadow: 0 8px 22px rgba(2, 4, 16, 0.45), inset 0 1px 0 rgba(255, 228, 168, 0.06);
+}
+:root[data-skin="loykrathong"] .play-card { background: var(--lk-kt) top 6px right 8px / 52px no-repeat, var(--lk-card); border: 1px solid #2C3A80; }
+:root[data-skin="loykrathong"] .play-card:hover, :root[data-skin="loykrathong"] .home-link:hover, :root[data-skin="loykrathong"] .mode-card:hover {
+  border-color: #FFD27A; box-shadow: 0 0 0 1px rgba(255, 210, 122, 0.35), 0 10px 26px rgba(79, 99, 217, 0.22); }
+:root[data-skin="loykrathong"] .home-link { background: #121B48; border-color: #2C3A80; }
+:root[data-skin="loykrathong"] .home-card-title .icon, :root[data-skin="loykrathong"] .page-title .icon { color: #FFD27A; }
+:root[data-skin="loykrathong"] .page-title, :root[data-skin="loykrathong"] .home-title { color: #F6F4FF; text-shadow: 0 2px 16px rgba(255, 210, 122, 0.22); }
+:root[data-skin="loykrathong"] .path-unit.completed, :root[data-skin="loykrathong"] .gp-ch.passed { border-color: rgba(143, 224, 176, 0.5); }
+:root[data-skin="loykrathong"] .path-boss.available { background: linear-gradient(135deg, #1A2466, #3A2C5E); border-color: #FFD27A; }
+:root[data-skin="loykrathong"] .mascot-tip { background: #121B48; border: 1px solid #2C3A80; }
+:root[data-skin="loykrathong"] .verify-banner { background: #3A3014; border-color: #8A7230; }
+:root[data-skin="loykrathong"] .quiz-choice, :root[data-skin="loykrathong"] .gl-choice { background: #111A45; border-color: #2C3A80; }
+:root[data-skin="loykrathong"] .quiz-choice:hover, :root[data-skin="loykrathong"] .gl-choice:hover { border-color: #FFD27A; }
+
+/* ---------- แถบความคืบหน้า: แสงเทียนสะท้อนน้ำ ---------- */
+:root[data-skin="loykrathong"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+  .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span) {
+  background: linear-gradient(90deg, #5F72E6 0%, #9FB4FF 50%, #FFD27A 100%); box-shadow: 0 0 10px rgba(255, 210, 122, 0.4);
+}
+:root[data-skin="loykrathong"] :is(.home-progress, .path-unit-bar, .pl-progress, .dash-level-bar, .dash-mastery-bar, .rk-progress, .rk-rc-bar) { background: rgba(255, 255, 255, 0.08); }
+
+/* ---------- หน้าต่าง / ป๊อปอัป ---------- */
+:root[data-skin="loykrathong"] .modal-card {
+  background: var(--lk-kt) top 10px right 12px / 64px no-repeat, var(--lk-ripple) bottom left / 110px no-repeat, linear-gradient(170deg, #17215A, #0E1540 60%);
+  border: 1px solid #36468C; box-shadow: 0 0 0 1px rgba(255, 210, 122, 0.14), 0 18px 48px rgba(2, 4, 16, 0.65);
+}
+:root[data-skin="loykrathong"] .ui-overlay { background: rgba(3, 6, 20, 0.74); }
+:root[data-skin="loykrathong"] .ui-overlay .sheet-close { background: #172154; border-color: #36468C; color: #F3F1FF; }
+:root[data-skin="loykrathong"] .toast { background: #FFF6E2; color: #1A1204; border-left: 4px solid #F2B44E; }
+:root[data-skin="loykrathong"] .sys-bar { background: #FFF6E2; color: #1A1204; }
+:root[data-skin="loykrathong"] .sys-bar .mini-btn { background: #F2B44E; color: #1A1204; border-color: transparent; }
+:root[data-skin="loykrathong"] .sys-bar .mini-btn.ghost { background: transparent; color: #1A1204; border-color: rgba(26, 18, 4, 0.35); }
+
+/* ---------- โปรไฟล์ / อันดับ ---------- */
+:root[data-skin="loykrathong"] .profile-avatar-lg { box-shadow: 0 0 0 3px #FFD27A, 0 0 0 7px rgba(159, 180, 255, 0.3), 0 0 26px rgba(255, 210, 122, 0.4); }
+:root[data-skin="loykrathong"] .theme-prem.on { border-color: #FFD27A; box-shadow: 0 0 14px rgba(255, 210, 122, 0.3); }
+:root[data-skin="loykrathong"] :is(.leaderboard-row, .rk-lb-row) { background: #111A45; border: 1px solid #26337A; }
+:root[data-skin="loykrathong"] :is(.leaderboard-row, .rk-lb-row):nth-child(-n+3) { background: linear-gradient(90deg, #2A2A55, #111A45); border-color: rgba(255, 210, 122, 0.4); }
+
+/* ---------- ตัวอย่างสีในคลังธีม ---------- */
+.theme-prem-swatch.skin-loykrathong {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Ccircle cx='31' cy='12' r='7' fill='%23FFE4A0'/%3E%3Crect y='28' width='44' height='16' fill='%230B1440'/%3E%3Cpath d='M10 32 Q18 36 26 32 L24 35 Q18 38 12 35Z' fill='%232F7D46'/%3E%3Cpath d='M13 32 Q12 28 14 26 Q16 29 15 32Z M18 33 Q17 28 19 25 Q21 29 19 33Z M23 32 Q22 28 24 26 Q26 29 24 32Z' fill='%2358B86B'/%3E%3Cpath d='M18.5 18 Q20 21 18.5 23 Q17 21 18.5 18Z' fill='%23FFD27A'/%3E%3C/svg%3E") center / cover no-repeat,
+    linear-gradient(170deg, #1C2A6E, #080E2E);
+  border: 1px solid #36468C;
+}
+
+/* กระทงมุมการ์ดไม่ทับหัวข้อยาว (จอเล็ก) */
+:root[data-skin="loykrathong"] :is(.home-card, .mode-card, .path-unit, .gp-ch, .rk-play-card, .rk-hero, .rk-map-card, .rk-boss-card, .rk-season,
+  .rk-goal, .rk-mode, .vb-card, .friend-card, .pl-card, .chat-panel, .audio-card, .support-card, .gl-card, .c2-card, .c2-mode, .c2-unit) > :is(h2, h3, .home-card-title) { padding-right: 46px; }

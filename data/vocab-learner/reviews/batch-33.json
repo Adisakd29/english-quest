@@ -1,0 +1,26 @@
+{
+  "batch": "33",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S1069",
+      "severity": "minor",
+      "problem": "exampleTH renders 'work ethic' as 'จรรยาบรรณในการทำงาน' (professional code of conduct), but the sentence is about hard work and dedication",
+      "fix": {
+        "exampleTH": "ผู้จัดการของเราขยันและทุ่มเทให้กับงานมาก เธอมาถึงเป็นคนแรกและกลับเป็นคนสุดท้ายเสมอ"
+      }
+    },
+    {
+      "id": "B2-S1068",
+      "severity": "minor",
+      "problem": "Collocations 'is essentially' and 'essentially a' are fragments, not reusable combinations",
+      "fix": {
+        "collocations": [
+          "essentially the same",
+          "essentially correct",
+          "essentially true"
+        ]
+      }
+    }
+  ]
+}

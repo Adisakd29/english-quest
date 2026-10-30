@@ -1,0 +1,207 @@
+{
+  "id": "a1-comparatives-basic",
+  "summaryTh": "เปรียบเทียบสองสิ่งด้วยคำคุณศัพท์สั้น + -er than และ better / worse",
+  "concept": {
+    "what": "Comparative (ขั้นกว่า) ใช้เปรียบเทียบของสองสิ่งหรือคนสองคน คำคุณศัพท์สั้น ๆ ให้เติม -er แล้วตามด้วย than เช่น An elephant is bigger than a dog. (ช้างตัวใหญ่กว่าหมา)",
+    "when": [
+      "เปรียบเทียบสองอย่าง: A is + adjective-er + than + B (Today is hotter than yesterday.)",
+      "คำคุณศัพท์พยางค์เดียวหรือลงท้ายด้วย -y: tall → taller, big → bigger, happy → happier",
+      "คำพิเศษที่ต้องจำ: good → better, bad → worse"
+    ],
+    "why": "ภาษาไทยแค่เติมคำว่า \"กว่า\" หลังคำคุณศัพท์ คนไทยจึงมักพูด more big หรือ big than แต่ภาษาอังกฤษคำสั้นต้องเปลี่ยนรูปเป็น -er และต้องมี than (กว่า) ด้วย — ส่วนคำยาว ๆ อย่าง beautiful จะใช้ more (เรียนต่อในระดับ A2)"
+  },
+  "structure": {
+    "formula": "A + be + adjective-er + than + B",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "A + is/are + adj-er + than + B", "example": "My brother [[is taller than]] my dad." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "A + isn't/aren't + adj-er + than + B", "example": "This bag [[isn't cheaper than]] that one." },
+      { "label": "คำถาม (Question)", "formula": "Is/Are + A + adj-er + than + B?", "example": "[[Is]] Chiang Mai [[colder than]] Bangkok?" },
+      { "label": "คำถามเลือก Which", "formula": "Which is + adj-er, A or B?", "example": "Which is [[faster]], the bus or the train?" },
+      { "label": "คำพิเศษ good / bad", "formula": "good → better · bad → worse", "example": "Your English is [[better than]] mine." }
+    ],
+    "notes": [
+      "คำทั่วไปเติม -er: tall → taller, cheap → cheaper, old → older",
+      "ลงท้ายด้วย e เติมแค่ -r: nice → nicer, large → larger",
+      "สระเสียงสั้นตัวเดียว + พยัญชนะตัวเดียว เพิ่มพยัญชนะ: big → bigger, hot → hotter, thin → thinner",
+      "พยัญชนะ + y เปลี่ยน y เป็น i: happy → happier, easy → easier, busy → busier",
+      "ใช้ -er หรือ more อย่างใดอย่างหนึ่ง ห้ามใช้คู่กัน (more bigger ผิด) — more ใช้กับคำยาว เช่น more beautiful (ระดับ A2)",
+      "หลัง than ใช้ me / him / her ได้ในภาษาพูด (taller than me) หรือ I am / he is (taller than I am)"
+    ]
+  },
+  "examples": [
+    { "en": "An elephant is [[bigger than]] a dog.", "th": "ช้างตัวใหญ่กว่าหมา" },
+    { "en": "My brother is [[taller than]] my dad.", "th": "พี่ชายของฉันสูงกว่าพ่อ" },
+    { "en": "Today is [[hotter than]] yesterday.", "th": "วันนี้ร้อนกว่าเมื่อวาน" },
+    { "en": "This phone is [[cheaper than]] that one.", "th": "โทรศัพท์เครื่องนี้ถูกกว่าเครื่องนั้น" },
+    { "en": "Cats are [[quieter than]] dogs.", "th": "แมวเงียบกว่าหมา" },
+    { "en": "I'm [[happier]] at my new school.", "th": "ฉันมีความสุขขึ้นที่โรงเรียนใหม่ (เทียบกับที่เดิม)" },
+    { "en": "Your English is [[better than]] mine.", "th": "ภาษาอังกฤษของคุณดีกว่าของฉัน" },
+    { "en": "This film is [[worse than]] the first one.", "th": "หนังเรื่องนี้แย่กว่าภาคแรก" },
+    { "en": "[[Is]] Chiang Mai [[colder than]] Bangkok? — Yes, it is.", "th": "เชียงใหม่หนาวกว่ากรุงเทพฯ ไหม — ใช่" }
+  ],
+  "mistakes": [
+    { "wrong": "She is more tall than me.", "right": "She is taller than me.", "whyTh": "คำสั้นอย่าง tall เติม -er ไม่ใช้ more — more ใช้กับคำยาว เช่น more beautiful" },
+    { "wrong": "This bag is cheaper that one.", "right": "This bag is cheaper than that one.", "whyTh": "ต้องมี than (กว่า) ก่อนสิ่งที่นำมาเทียบ" },
+    { "wrong": "My score is more better than yours.", "right": "My score is better than yours.", "whyTh": "better เป็นขั้นกว่าของ good อยู่แล้ว ใส่ more ซ้ำไม่ได้" },
+    { "wrong": "He is biger than his brother.", "right": "He is bigger than his brother.", "whyTh": "big มีสระเสียงสั้น + พยัญชนะตัวเดียว ต้องเพิ่ม g อีกตัว → bigger" },
+    { "wrong": "I am happyer today.", "right": "I am happier today.", "whyTh": "happy ลงท้ายด้วยพยัญชนะ + y เปลี่ยน y เป็น i แล้วเติม -er → happier" },
+    { "wrong": "My house is big than your house.", "right": "My house is bigger than your house.", "whyTh": "than ใช้กับขั้นกว่าเสมอ ต้องเปลี่ยน big เป็น bigger — ภาษาไทยไม่เปลี่ยนรูปคำ จึงลืมบ่อย" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Buying a phone",
+      "lines": [
+        { "speaker": "Min", "text": "Which phone is [[better]], the black one or the white one?" },
+        { "speaker": "Seller", "text": "The black one is [[newer]] and [[faster]]. But the white one is [[cheaper]]." },
+        { "speaker": "Min", "text": "Is the black one [[bigger than]] the white one?" },
+        { "speaker": "Seller", "text": "Yes, a little. And its camera is [[better than]] the white one's." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Our new house",
+      "lines": [
+        { "text": "Hi Grandma! Our new house is great. It is [[bigger than]] our old house, and my bedroom is [[brighter]]. It is [[quieter]] too, because it is far from the main road. But the bus stop isn't near, so my trip to school is [[longer]] now. Love, Fern" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Comparative", "th": "ขั้นกว่า — ใช้เทียบสองสิ่ง" },
+    { "en": "Adjective", "th": "คำคุณศัพท์ บอกลักษณะ เช่น big, tall, happy" },
+    { "en": "than", "th": "กว่า — วางหน้าสิ่งที่นำมาเทียบ" },
+    { "en": "Irregular comparative", "th": "ขั้นกว่าแบบพิเศษ ต้องจำ: good → better, bad → worse" }
+  ],
+  "practice": [
+    {
+      "id": "a1-comparatives-basic-01", "type": "mc", "difficulty": 1,
+      "question": "A car is ___ than a bicycle.",
+      "choices": ["faster", "more fast", "fast", "fastest"], "answer": 0,
+      "whyNot": { "1": "fast เป็นคำสั้น เติม -er ไม่ใช้ more", "2": "มี than ต้องใช้ขั้นกว่า ไม่ใช่รูปปกติ", "3": "fastest เป็นขั้นสูงสุด ใช้กับ than ไม่ได้" },
+      "explainTh": "เทียบสองสิ่งด้วย than → คำสั้นเติม -er → faster than",
+      "structure": "A + is + adj-er + than + B", "example": "A car is faster than a bicycle."
+    },
+    {
+      "id": "a1-comparatives-basic-02", "type": "mc", "difficulty": 1,
+      "question": "Your score is 9 and my score is 7. Your score is ___ than mine.",
+      "choices": ["better", "gooder", "more good", "best"], "answer": 0,
+      "whyNot": { "1": "good เป็นคำพิเศษ ไม่เติม -er", "2": "ขั้นกว่าของ good คือ better ไม่ใช้ more good", "3": "best เป็นขั้นสูงสุด ใช้กับ than ไม่ได้" },
+      "explainTh": "good → better (คำพิเศษ ต้องจำ) · 9 ดีกว่า 7 → better than"
+    },
+    {
+      "id": "a1-comparatives-basic-03", "type": "fill", "difficulty": 1,
+      "question": "My bag is ___ (heavy) than your bag.",
+      "accepted": ["heavier"],
+      "explainTh": "heavy ลงท้ายด้วยพยัญชนะ + y → เปลี่ยน y เป็น i แล้วเติม -er → heavier"
+    },
+    {
+      "id": "a1-comparatives-basic-04", "type": "fill", "difficulty": 2,
+      "question": "In Bangkok, April is ___ (hot) than December.",
+      "accepted": ["hotter"],
+      "explainTh": "hot มีสระเสียงสั้น + พยัญชนะตัวเดียว ต้องเพิ่ม t → hotter"
+    },
+    {
+      "id": "a1-comparatives-basic-05", "type": "fill", "difficulty": 2,
+      "question": "This T-shirt is ___ (cheap) than that one.",
+      "accepted": ["cheaper"],
+      "explainTh": "คำสั้นทั่วไปเติม -er → cheaper than"
+    },
+    {
+      "id": "a1-comparatives-basic-06", "type": "fill", "difficulty": 3,
+      "question": "The weather today is ___ (bad) than yesterday. It's raining a lot.",
+      "accepted": ["worse"],
+      "explainTh": "bad เป็นคำพิเศษ ขั้นกว่าคือ worse (ไม่ใช่ badder หรือ more bad)"
+    },
+    {
+      "id": "a1-comparatives-basic-07", "type": "error", "difficulty": 1,
+      "sentence": "My sister is more tall than me.",
+      "errorPart": "more tall",
+      "accepted": ["My sister is taller than me.", "My sister is taller than I am."],
+      "explainTh": "tall เป็นคำสั้น ใช้ -er ไม่ใช้ more → taller than"
+    },
+    {
+      "id": "a1-comparatives-basic-08", "type": "error", "difficulty": 2,
+      "sentence": "Bangkok is busier then Hua Hin.",
+      "errorPart": "then",
+      "accepted": ["Bangkok is busier than Hua Hin."],
+      "explainTh": "\"กว่า\" สะกดว่า than (then แปลว่า แล้วก็ / ตอนนั้น)"
+    },
+    {
+      "id": "a1-comparatives-basic-09", "type": "error", "difficulty": 3,
+      "sentence": "Your English is more better than mine.",
+      "errorPart": "more better",
+      "accepted": ["Your English is better than mine."],
+      "explainTh": "better เป็นขั้นกว่าของ good อยู่แล้ว ไม่ต้องมี more"
+    },
+    {
+      "id": "a1-comparatives-basic-10", "type": "order", "difficulty": 1,
+      "tokens": ["is", "a", "than", "mouse", "an", "elephant", "smaller"],
+      "accepted": ["A mouse is smaller than an elephant.", "Is a mouse smaller than an elephant?"],
+      "explainTh": "A + is + adj-er + than + B → A mouse is smaller than an elephant."
+    },
+    {
+      "id": "a1-comparatives-basic-11", "type": "order", "difficulty": 2,
+      "tokens": ["my", "is", "taller", "brother", "than", "father", "my"],
+      "accepted": ["My brother is taller than my father.", "My father is taller than my brother.", "Is my brother taller than my father?", "Is my father taller than my brother?"],
+      "explainTh": "A + is + taller + than + B — ใครสูงกว่าก็ได้ แต่ต้องเรียง is + adj-er + than ให้ถูก"
+    },
+    {
+      "id": "a1-comparatives-basic-12", "type": "transform", "difficulty": 2,
+      "source": "My room is small. Your room is big.",
+      "instruction": "รวมเป็นประโยคเดียว ใช้ smaller than",
+      "accepted": ["My room is smaller than your room.", "My room is smaller than yours."],
+      "explainTh": "A + is + smaller + than + B → My room is smaller than your room (yours)."
+    },
+    {
+      "id": "a1-comparatives-basic-13", "type": "transform", "difficulty": 3,
+      "source": "Tom is 150 cm tall. Ben is 160 cm tall.",
+      "instruction": "เขียนประโยคเดียวเปรียบเทียบ ใช้คำว่า tall และขึ้นต้นด้วย Ben",
+      "accepted": ["Ben is taller than Tom.", "Ben is taller than Tom is."],
+      "explainTh": "Ben สูงกว่า → Ben is taller than Tom. (tall + -er)"
+    },
+    {
+      "id": "a1-comparatives-basic-14", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำคุณศัพท์กับขั้นกว่า",
+      "pairs": [["big", "bigger"], ["happy", "happier"], ["nice", "nicer"], ["good", "better"], ["bad", "worse"], ["old", "older"]],
+      "explainTh": "big → bigger (เพิ่ม g) · happy → happier (y → i) · nice → nicer (เติม r) · good → better · bad → worse · old → older"
+    },
+    {
+      "id": "a1-comparatives-basic-15", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["Ice cream is coldest than tea.", "Ice cream is colder than tea.", "Ice cream is more cold than tea.", "Ice cream is colder as tea."], "answer": 1,
+      "whyNot": { "0": "coldest เป็นขั้นสูงสุด ใช้กับ than ไม่ได้", "2": "cold เป็นคำสั้น เติม -er ไม่ใช้ more", "3": "ขั้นกว่าใช้คู่กับ than ไม่ใช่ as" },
+      "explainTh": "คำสั้น + -er + than → colder than"
+    },
+    {
+      "id": "a1-comparatives-basic-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Which is ___, the bus or the train?" },
+        { "speaker": "B", "text": "The train. It only takes one hour." }
+      ] },
+      "choices": ["faster", "fastest", "more fast", "fast"], "answer": 0,
+      "whyNot": { "1": "เทียบแค่สองอย่าง (รถบัสกับรถไฟ) ใช้ขั้นกว่า ไม่ใช่ขั้นสูงสุด", "2": "fast เป็นคำสั้น เติม -er ไม่ใช้ more", "3": "Which is fast? ไม่ได้เปรียบเทียบ — ต้องใช้ขั้นกว่าเมื่อเลือกระหว่างสองอย่าง" },
+      "explainTh": "Which is + adj-er, A or B? → เลือกระหว่างสองอย่างใช้ขั้นกว่า faster"
+    },
+    {
+      "id": "a1-comparatives-basic-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Our new house", "lines": [
+        { "text": "Hi Grandma! Our new house is great. It is bigger than our old house, and my bedroom is brighter. It is quieter too, because it is far from the main road. But the bus stop isn't near, so my trip to school is longer now. Love, Fern" }
+      ] },
+      "question": "Which sentence about the new house is TRUE?",
+      "choices": ["It is quieter than the old house.", "It is smaller than the old house.", "It is nearer to the main road.", "Fern's trip to school is shorter."], "answer": 0,
+      "whyNot": { "1": "ข้อความบอกว่า It is bigger than our old house. — ใหญ่กว่า ไม่ใช่เล็กกว่า", "2": "ข้อความบอกว่า far from the main road — ไกลถนนใหญ่", "3": "ข้อความบอกว่า my trip to school is longer now. — ไกลขึ้น ไม่ใช่สั้นลง" },
+      "explainTh": "It is quieter too … — quiet + -er = quieter (เงียบกว่าบ้านเก่า)"
+    },
+    {
+      "id": "a1-comparatives-basic-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเปรียบเทียบคน สัตว์ หรือสิ่งของสองอย่าง ใช้ -er than หรือ better / worse than (Write 3 comparative sentences.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(?!(?:rather|other)\\b)[a-z]+er\\s+than\\b|\\b(better|worse)\\s+than\\b", "flags": "i", "msgTh": "ใช้ขั้นกว่า + than อย่างน้อย 1 ครั้ง เช่น taller than, better than" }
+      ],
+      "forbid": [
+        { "re": "\\bmore\\s+(big|small|tall|short|old|young|fast|slow|hot|cold|cheap|good|bad|happy|easy|nice|long|new)\\b", "flags": "i", "msgTh": "คำสั้นใช้ -er ไม่ใช้ more (เช่น bigger ไม่ใช่ more big)" }
+      ],
+      "sample": "My brother is taller than me. My cat is smaller than my dog. Mango juice is better than orange juice.",
+      "explainTh": "คำสั้นเติม -er (taller, smaller) · good → better, bad → worse · และต้องมี than ก่อนสิ่งที่นำมาเทียบ"
+    }
+  ]
+}

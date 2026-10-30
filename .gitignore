@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+npm-debug.log*
+
+# เอกสาร Oxford เป็นลิขสิทธิ์ของ OUP — ไม่ commit
+*.pdf
+
+# แคชเสียงระหว่าง build TOEIC Part 2 (สร้างใหม่ได้ · ไฟล์ใหญ่)
+data/toeic/part2/clip-cache/
+data/toeic/part34-clip-cache/
+data/graded/clip-cache/

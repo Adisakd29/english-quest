@@ -1,0 +1,80 @@
+{
+  "batch": "35",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S1216",
+      "severity": "minor",
+      "problem": "'pain in the joints of your knees' is unnatural; English says 'knee joints'",
+      "fix": {
+        "example": "Running on hard roads every day can cause pain in your knee and ankle joints.",
+        "form": "joints",
+        "exampleTH": "การวิ่งบนถนนแข็ง ๆ ทุกวันอาจทำให้ปวดข้อเข่าและข้อเท้าได้"
+      }
+    },
+    {
+      "id": "B2-S1227",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'life' fits equally ('during her life')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1235",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'name' fits equally ('printed its name on every cup')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1240",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'costumes' fits equally ('spent an hour putting on costumes')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1274",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'barefoot' fits equally ('ran around the house barefoot and laughing')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1288",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'care home' / 'retirement home' fit the same gap",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1320",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'summer jobs', 'weekend jobs', 'evening jobs' fit equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1321",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'full-time', 'weekends', 'evenings' also fit 'works ___ at a bookshop'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1324",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'takes a lot of time / energy' fits equally",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

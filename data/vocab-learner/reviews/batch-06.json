@@ -1,0 +1,66 @@
+{
+  "batch": "06",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0640",
+      "severity": "major",
+      "problem": "Ungrammatical for a model sentence: present perfect 'I have been ... once' combined with finished time 'last year'.",
+      "fix": { "example": "We eat at a restaurant once a week, on Fridays.", "form": "once", "exampleTH": "เราไปกินข้าวที่ร้านอาหารสัปดาห์ละครั้ง คือทุกวันศุกร์", "gapOk": true }
+    },
+    {
+      "id": "A1-S0662",
+      "severity": "minor",
+      "problem": "thai 'คนอื่น, อันอื่น' fits 'others/another', not 'the other (of two)' shown in the example; it also does not match shortTH.",
+      "fix": { "thai": "อีกคนหนึ่ง, อีกอันหนึ่ง, ที่เหลือ", "shortTH": "อีกคน, อีกอัน", "thaiChangeReason": "the other หมายถึงอีกคนหรืออีกอันที่เหลือ ส่วน คนอื่น อันอื่น ตรงกับ others หรือ another มากกว่า" }
+    },
+    {
+      "id": "A1-S0682",
+      "severity": "minor",
+      "problem": "thai includes 'คู่ครอง' (life partner), a different sense from 'a person you do an activity with'.",
+      "fix": { "thai": "คู่, คู่หู", "shortTH": "คู่หู", "thaiChangeReason": "คู่ครองเป็นอีกความหมายหนึ่ง (แฟนหรือคู่ชีวิต) ความหมายนี้คือคนที่ทำกิจกรรมหรือทำงานด้วยกัน" }
+    },
+    {
+      "id": "A1-S0669",
+      "severity": "minor",
+      "problem": "'not one she shares' is awkward, unnatural English.",
+      "fix": { "example": "Ploy doesn't want to share. She wants her own room.", "form": "own", "exampleTH": "พลอยไม่อยากใช้ห้องร่วมกับใคร เธออยากมีห้องเป็นของตัวเอง", "gapOk": true }
+    },
+    {
+      "id": "A1-S0657",
+      "severity": "minor",
+      "problem": "'squeezed' is above A1; gapOk too optimistic ('lemons/limes' fit equally).",
+      "fix": { "example": "Mum made fresh juice from three oranges.", "form": "oranges", "exampleTH": "แม่คั้นน้ำผลไม้สดจากส้มสามลูก", "gapOk": false }
+    },
+    {
+      "id": "A1-S0635",
+      "severity": "minor",
+      "problem": "'but not very special' is unnatural; natives say 'nothing special'.",
+      "fix": { "example": "The food was OK, but nothing special.", "form": "OK", "exampleTH": "อาหารก็พอใช้ได้ แต่ไม่ได้พิเศษอะไร", "gapOk": false }
+    },
+    {
+      "id": "A1-S0728",
+      "severity": "minor",
+      "problem": "Awkward word order 'This sandwich in London costs five pounds'.",
+      "fix": { "example": "This sandwich costs five pounds in London.", "form": "pounds", "exampleTH": "แซนด์วิชชิ้นนี้ราคาห้าปอนด์ที่ลอนดอน", "gapOk": true }
+    },
+    {
+      "id": "A1-S0690",
+      "severity": "minor",
+      "problem": "meaningEN 'a tool ... that you can rub out' wrongly says the pencil itself is rubbed out (and 'rub out' is above level).",
+      "fix": { "meaningEN": "a thin wooden thing for writing that makes grey marks" }
+    },
+    {
+      "id": "A1-S0652",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Hot and cold have ___ meanings' — 'different' fits equally well.",
+      "fix": { "gapOk": false }
+    },
+    {
+      "id": "A1-S0693",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'got a ___ score' — good/high/low all fit.",
+      "fix": { "gapOk": false }
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "topic": "clients",
+  "items": [
+    {
+      "id": "W-CLI-01",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "How was your weekend",
+      "th": "วันหยุดสุดสัปดาห์เป็นยังไงบ้าง",
+      "noteTH": "ใช้ชวนคุยเล่น (small talk) กับเพื่อนร่วมงานในเช้าวันจันทร์ เป็นกันเองและเป็นมิตร",
+      "example": "Hi Dan, how was your weekend?",
+      "exampleTH": "หวัดดีแดน วันหยุดสุดสัปดาห์เป็นยังไงบ้าง",
+      "situation": {
+        "promptTH": "เช้าวันจันทร์ เพื่อนร่วมงานเพิ่งมาถึงออฟฟิศ คุณอยากทักทายชวนคุยเล่นอย่างเป็นกันเอง คุณจะพูดว่าอะไร",
+        "options": [
+          "Why are you late again this Monday?",
+          "Morning! How was your weekend?",
+          "How much do you earn on weekends?",
+          "Did you finish the report I asked for on Friday?"
+        ],
+        "answer": 1,
+        "whyTH": "\"How was your weekend?\" เป็น small talk ที่เป็นมิตร · การถามว่าทำไมมาสายฟังดูต่อว่า · การถามรายได้เป็นเรื่องส่วนตัวเกินไป · การทวงรายงานเป็นเรื่องงาน ไม่ใช่การชวนคุย"
+      },
+      "cloze": {
+        "sentence": "Hi Dan, how ___ your weekend?",
+        "options": [
+          "were",
+          "did",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "whyTH": "your weekend เป็นเอกพจน์และผ่านไปแล้ว จึงใช้ was · were ใช้กับพหูพจน์ · did และ had ไม่ใช้ในโครงสร้าง how ... your weekend"
+      }
+    },
+    {
+      "id": "W-CLI-02",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "It's nice to finally meet you in person",
+      "th": "ยินดีที่ได้พบตัวจริงเสียที",
+      "noteTH": "ใช้เมื่อได้พบลูกค้าหรือเพื่อนร่วมงานตัวจริงครั้งแรก หลังจากเคยคุยกันทางอีเมลหรือออนไลน์มาก่อน",
+      "example": "It's nice to finally meet you in person after all those emails.",
+      "exampleTH": "ยินดีที่ได้พบตัวจริงเสียที หลังจากที่เราส่งอีเมลคุยกันมาตั้งเยอะ",
+      "situation": {
+        "promptTH": "คุณติดต่อลูกค้ารายหนึ่งทางอีเมลมาหลายเดือน วันนี้เพิ่งได้พบกันตัวจริงเป็นครั้งแรก คุณจะทักว่าอะไร",
+        "options": [
+          "Nice to see you again, as always.",
+          "Who are you, and why are you here?",
+          "Finally! You took a long time to come.",
+          "It's nice to finally meet you in person."
+        ],
+        "answer": 3,
+        "whyTH": "\"finally meet you in person\" ตรงกับการพบตัวจริงครั้งแรก · \"see you again\" ใช้กับคนที่เคยเจอแล้ว · การถามว่าเป็นใครมาทำไมเสียมารยาท · การบ่นว่ามาช้าฟังดูต่อว่า"
+      },
+      "cloze": {
+        "sentence": "It's nice to finally meet you in ___ after all those emails.",
+        "options": [
+          "person",
+          "people",
+          "body",
+          "face"
+        ],
+        "answer": 0,
+        "whyTH": "in person = ตัวจริง/ต่อหน้า เป็นสำนวนตายตัว · in people, in body และ in face ไม่มีใช้ในความหมายนี้"
+      }
+    },
+    {
+      "id": "W-CLI-03",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Is there anything I can help you with",
+      "th": "มีอะไรให้ช่วยไหม",
+      "noteTH": "ใช้เสนอความช่วยเหลือแก่ลูกค้าหรือเพื่อนร่วมงานอย่างสุภาพ เปิดให้อีกฝ่ายบอกสิ่งที่ต้องการ",
+      "example": "Is there anything I can help you with before the meeting?",
+      "exampleTH": "ก่อนประชุมมีอะไรให้ช่วยไหม",
+      "situation": {
+        "promptTH": "เพื่อนร่วมงานคนใหม่ดูสับสนขณะเตรียมห้องประชุม คุณอยากเสนอความช่วยเหลือ คุณจะพูดว่าอะไร",
+        "options": [
+          "Is there anything I can help you with?",
+          "You look lost. That's not my job, though.",
+          "Can you help me with my work instead?",
+          "Is there anything you can't do by yourself?"
+        ],
+        "answer": 0,
+        "whyTH": "\"Is there anything I can help you with?\" เสนอความช่วยเหลืออย่างสุภาพ · การบอกว่าไม่ใช่งานของเราเป็นการปฏิเสธ · การขอให้เขาช่วยเรากลับกันกับสถานการณ์ · \"anything you can't do by yourself\" ฟังดูประชดและดูถูก"
+      },
+      "cloze": {
+        "sentence": "Is there anything I can help you ___ before the meeting?",
+        "options": [
+          "for",
+          "to",
+          "with",
+          "at"
+        ],
+        "answer": 2,
+        "whyTH": "help someone with something = ช่วยใครทำอะไร · for, to และ at ไม่ใช้ปิดท้ายโครงสร้าง help you ... ในความหมายนี้"
+      }
+    },
+    {
+      "id": "W-CLI-04",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Let me know if you need a hand",
+      "th": "ถ้าต้องการให้ช่วยก็บอกได้นะ",
+      "noteTH": "ใช้เสนอความช่วยเหลือแบบเป็นกันเองกับเพื่อนร่วมงาน need a hand = ต้องการคนช่วย",
+      "example": "I'm free this afternoon, so let me know if you need a hand.",
+      "exampleTH": "บ่ายนี้ฉันว่าง ถ้าต้องการให้ช่วยก็บอกได้นะ",
+      "situation": {
+        "promptTH": "เพื่อนในทีมมีงานล้นมือ คุณอยากบอกแบบเป็นกันเองว่าพร้อมช่วยถ้าเขาต้องการ คุณจะพูดว่าอะไร",
+        "options": [
+          "Good luck. I'm glad I'm not you.",
+          "Let me know when you've finished so I can check it.",
+          "I'm free later, so let me know if you need a hand.",
+          "You should ask someone else for help."
+        ],
+        "answer": 2,
+        "whyTH": "\"let me know if you need a hand\" เสนอช่วยอย่างเป็นกันเอง · \"I'm glad I'm not you\" ฟังดูไม่ใส่ใจ · การขอให้บอกเมื่อเสร็จเพื่อตรวจงานไม่ใช่การเสนอช่วย · การให้ไปขอคนอื่นเป็นการปฏิเสธ"
+      },
+      "cloze": {
+        "sentence": "I'm free this afternoon, so let me know if you need a ___.",
+        "options": [
+          "arm",
+          "finger",
+          "foot",
+          "hand"
+        ],
+        "answer": 3,
+        "whyTH": "need a hand = ต้องการความช่วยเหลือ เป็นสำนวนตายตัว · arm, finger และ foot ไม่ใช้ในสำนวนนี้"
+      }
+    },
+    {
+      "id": "W-CLI-05",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I'm sorry to hear that",
+      "th": "เสียใจที่ได้ทราบเช่นนั้น",
+      "noteTH": "ใช้แสดงความเห็นใจเมื่อลูกค้าหรือเพื่อนร่วมงานเล่าปัญหา ควรพูดก่อนเริ่มแก้ปัญหา",
+      "example": "I'm sorry to hear that your order arrived damaged.",
+      "exampleTH": "เสียใจที่ได้ทราบว่าสินค้าที่คุณสั่งเสียหายตอนมาถึง",
+      "situation": {
+        "promptTH": "ลูกค้าโทรมาแจ้งว่าสินค้าที่ได้รับแตกเสียหาย คุณอยากตอบด้วยความเห็นใจก่อนสอบถามรายละเอียด คุณจะพูดว่าอะไร",
+        "options": [
+          "That's impossible. Our products never break.",
+          "I'm glad to hear that. Could you tell me more?",
+          "I'm sorry to hear that. Could you tell me what happened?",
+          "That's not my department. Please call back later."
+        ],
+        "answer": 2,
+        "whyTH": "\"I'm sorry to hear that\" แสดงความเห็นใจแล้วถามรายละเอียด · การบอกว่าเป็นไปไม่ได้คือการปฏิเสธปัญหาของลูกค้า · \"I'm glad to hear that\" แปลว่าดีใจ ผิดความหมาย · การปัดว่าไม่ใช่แผนกของเราไม่ช่วยลูกค้า"
+      },
+      "cloze": {
+        "sentence": "I'm sorry to ___ that your order arrived damaged.",
+        "options": [
+          "listen",
+          "hear",
+          "sound",
+          "ask"
+        ],
+        "answer": 1,
+        "whyTH": "sorry to hear that = เสียใจที่ได้ทราบ · listen ต้องใช้ listen to · sound = ฟังดูเหมือน · ask = ถาม ไม่เข้ากับความหมาย"
+      }
+    },
+    {
+      "id": "W-CLI-06",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I completely understand your frustration",
+      "th": "ผม/ดิฉันเข้าใจความไม่พอใจของคุณเป็นอย่างดี",
+      "noteTH": "ใช้รับมือลูกค้าที่ไม่พอใจ แสดงว่าเข้าใจความรู้สึกก่อนเสนอทางแก้ ช่วยลดความตึงเครียด",
+      "example": "I completely understand your frustration, and I'll make sure this is fixed today.",
+      "exampleTH": "ผม/ดิฉันเข้าใจความไม่พอใจของคุณเป็นอย่างดี และจะดูแลให้เรื่องนี้ได้รับการแก้ไขภายในวันนี้",
+      "situation": {
+        "promptTH": "ลูกค้าโกรธเพราะสินค้าส่งช้าเป็นครั้งที่สาม คุณอยากแสดงว่าเข้าใจความรู้สึกของเขาก่อนจะแก้ปัญหา คุณจะพูดว่าอะไร",
+        "options": [
+          "I completely understand your frustration, and I'll look into this right away.",
+          "Please calm down. You're overreacting.",
+          "I understand, but it's not a big deal.",
+          "Delays happen. There's nothing we can do."
+        ],
+        "answer": 0,
+        "whyTH": "\"I completely understand your frustration\" แสดงความเข้าใจและรับว่าจะแก้ไข · การบอกให้ใจเย็นและว่าเขาเกินเหตุทำให้โกรธมากขึ้น · \"not a big deal\" ลดความสำคัญของปัญหา · การบอกว่าทำอะไรไม่ได้เป็นการปัดความรับผิดชอบ"
+      },
+      "cloze": {
+        "sentence": "I completely understand your ___, and I'll make sure this is fixed today.",
+        "options": [
+          "frustrated",
+          "frustrate",
+          "frustrating",
+          "frustration"
+        ],
+        "answer": 3,
+        "whyTH": "หลัง your ต้องเป็นคำนาม จึงใช้ frustration (ความไม่พอใจ) · frustrated และ frustrating เป็นคำคุณศัพท์ · frustrate เป็นคำกริยา"
+      }
+    },
+    {
+      "id": "W-CLI-07",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "Please accept our sincere apologies",
+      "th": "โปรดรับคำขอโทษอย่างจริงใจจากเรา",
+      "noteTH": "ใช้ขอโทษลูกค้าอย่างเป็นทางการ มักใช้ในอีเมลหรือจดหมายในนามบริษัท ตามด้วย for + สิ่งที่ผิดพลาด",
+      "example": "Please accept our sincere apologies for the delay in your delivery.",
+      "exampleTH": "โปรดรับคำขอโทษอย่างจริงใจจากเราสำหรับความล่าช้าในการจัดส่งสินค้าของคุณ",
+      "situation": {
+        "promptTH": "บริษัทของคุณออกใบแจ้งหนี้ผิดให้ลูกค้าคนสำคัญ คุณต้องเขียนอีเมลขอโทษอย่างเป็นทางการ คุณจะเขียนว่าอะไร",
+        "options": [
+          "Sorry about the bill thing, lol.",
+          "We apologize, but the error was your fault.",
+          "Please accept our sincere congratulations on the billing error.",
+          "Please accept our sincere apologies for the billing error."
+        ],
+        "answer": 3,
+        "whyTH": "\"Please accept our sincere apologies\" เป็นการขอโทษที่เป็นทางการ · \"lol\" ไม่เป็นทางการเกินไปสำหรับลูกค้า · การโทษลูกค้าไม่ใช่การขอโทษ · \"congratulations\" แปลว่าแสดงความยินดี ผิดความหมาย"
+      },
+      "cloze": {
+        "sentence": "Please ___ our sincere apologies for the delay in your delivery.",
+        "options": [
+          "accept",
+          "except",
+          "expect",
+          "access"
+        ],
+        "answer": 0,
+        "whyTH": "accept = ยอมรับ · except = ยกเว้น · expect = คาดหวัง · access = เข้าถึง ทั้งสามคำสะกดคล้ายแต่ความหมายผิด"
+      }
+    },
+    {
+      "id": "W-CLI-08",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "It won't happen again",
+      "th": "จะไม่เกิดขึ้นอีก",
+      "noteTH": "ใช้ต่อท้ายคำขอโทษเพื่อรับปากว่าจะไม่ทำผิดซ้ำ แสดงความรับผิดชอบ",
+      "example": "I've fixed the problem, and I promise it won't happen again.",
+      "exampleTH": "ผม/ดิฉันแก้ปัญหาแล้ว และสัญญาว่าจะไม่เกิดขึ้นอีก",
+      "situation": {
+        "promptTH": "คุณส่งงานให้เพื่อนร่วมงานไม่ทันกำหนด คุณอยากขอโทษและรับปากว่าจะไม่เกิดขึ้นอีก คุณจะพูดว่าอะไร",
+        "options": [
+          "I missed the deadline, but it happens all the time.",
+          "I'm really sorry I missed the deadline. It won't happen again.",
+          "Sorry, but it will probably happen again.",
+          "It wasn't my fault, so don't blame me."
+        ],
+        "answer": 1,
+        "whyTH": "ขอโทษแล้วตามด้วย \"It won't happen again\" แสดงความรับผิดชอบ · \"it happens all the time\" ทำให้เรื่องดูไม่สำคัญ · \"it will probably happen again\" ตรงข้ามกับการรับปาก · การบอกว่าไม่ใช่ความผิดของเราไม่ใช่การขอโทษ"
+      },
+      "cloze": {
+        "sentence": "I've fixed the problem, and I promise it won't happen ___.",
+        "options": [
+          "ago",
+          "again",
+          "before",
+          "already"
+        ],
+        "answer": 1,
+        "whyTH": "happen again = เกิดขึ้นอีก · ago ใช้กับช่วงเวลาในอดีต (two days ago) · before = ก่อนหน้านี้ ใช้กับอดีต · already = แล้ว ไม่ใช้กับประโยคปฏิเสธอนาคตแบบนี้"
+      }
+    },
+    {
+      "id": "W-CLI-09",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I really appreciate your help",
+      "th": "ขอบคุณมากจริง ๆ ที่ช่วย",
+      "noteTH": "ใช้ขอบคุณเพื่อนร่วมงานหรือลูกค้าอย่างจริงใจ appreciate = ซาบซึ้ง/เห็นคุณค่า หนักแน่นกว่า thanks",
+      "example": "I really appreciate your help with the report yesterday.",
+      "exampleTH": "ขอบคุณมากจริง ๆ ที่ช่วยทำรายงานเมื่อวานนี้",
+      "situation": {
+        "promptTH": "เพื่อนร่วมงานอยู่ดึกเพื่อช่วยคุณทำรายงานให้เสร็จ วันรุ่งขึ้นคุณอยากขอบคุณเขาอย่างจริงใจ คุณจะพูดว่าอะไร",
+        "options": [
+          "I really appreciate your help with the report.",
+          "You should have helped me earlier.",
+          "Thanks, but next time please do it better.",
+          "Thanks, but I could have done it alone."
+        ],
+        "answer": 0,
+        "whyTH": "\"I really appreciate your help\" ขอบคุณอย่างจริงใจ · การบอกว่าน่าจะช่วยเร็วกว่านี้ฟังดูต่อว่า · การบอกให้ทำให้ดีกว่านี้เป็นการติ · การบอกว่าทำเองได้ทำให้ความช่วยเหลือดูไม่มีค่า"
+      },
+      "cloze": {
+        "sentence": "I really ___ your help with the report yesterday.",
+        "options": [
+          "appreciate",
+          "apologize",
+          "approve",
+          "agree"
+        ],
+        "answer": 0,
+        "whyTH": "appreciate your help = ซาบซึ้งในความช่วยเหลือ · apologize = ขอโทษ · approve = อนุมัติ · agree = เห็นด้วย ไม่ใช่การขอบคุณ"
+      }
+    },
+    {
+      "id": "W-CLI-10",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "Thank you for your patience",
+      "th": "ขอบคุณที่รอคอยด้วยความอดทน",
+      "noteTH": "ใช้ขอบคุณลูกค้าที่ต้องรอหรือเจอความล่าช้า สุภาพกว่าการขอโทษอย่างเดียว",
+      "example": "Thank you for your patience while we look into this issue.",
+      "exampleTH": "ขอบคุณที่รอคอยด้วยความอดทนระหว่างที่เราตรวจสอบปัญหานี้",
+      "situation": {
+        "promptTH": "ลูกค้ารอเงินคืนมาหลายวัน วันนี้คุณมีข่าวดีว่าคืนเงินเรียบร้อยแล้ว คุณจะเริ่มอีเมลว่าอะไร",
+        "options": [
+          "Thanks for waiting forever, I guess.",
+          "Sorry, we completely forgot about your refund.",
+          "Thank you for your patience. Your refund has now been processed.",
+          "Why do you keep asking about your refund?"
+        ],
+        "answer": 2,
+        "whyTH": "\"Thank you for your patience\" ขอบคุณที่รอแล้วแจ้งข่าวดี · \"waiting forever, I guess\" ฟังดูประชด · การบอกว่าลืมทำให้บริษัทดูไม่น่าเชื่อถือ · การถามว่าทำไมถามบ่อยเป็นการต่อว่าลูกค้า"
+      },
+      "cloze": {
+        "sentence": "Thank you for your ___ while we look into this issue.",
+        "options": [
+          "patients",
+          "patient",
+          "patience",
+          "passion"
+        ],
+        "answer": 2,
+        "whyTH": "patience = ความอดทน · patients = คนไข้ (พหูพจน์) · patient เป็นคำคุณศัพท์หรือแปลว่าคนไข้ · passion = ความหลงใหล"
+      }
+    },
+    {
+      "id": "W-CLI-11",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Would Thursday afternoon work for you",
+      "th": "บ่ายวันพฤหัสบดีสะดวกไหม",
+      "noteTH": "ใช้เสนอเวลานัดหมายอย่างสุภาพ work for you = สะดวกสำหรับคุณ เปลี่ยนวันเวลาได้ตามต้องการ",
+      "example": "Would Thursday afternoon work for you, or is Friday better?",
+      "exampleTH": "บ่ายวันพฤหัสบดีสะดวกไหม หรือวันศุกร์จะดีกว่า",
+      "situation": {
+        "promptTH": "คุณอยากนัดประชุมกับลูกค้าและต้องการเสนอเวลาอย่างสุภาพ คุณจะพูดว่าอะไร",
+        "options": [
+          "Would Thursday afternoon work for you?",
+          "Come to my office on Thursday afternoon.",
+          "Thursday afternoon is bad for me, so we can't meet.",
+          "I'm busy all week, so let's not meet."
+        ],
+        "answer": 0,
+        "whyTH": "\"Would Thursday afternoon work for you?\" เสนอเวลาและถามความสะดวกอย่างสุภาพ · \"Come to my office\" เป็นการสั่ง · การบอกว่าวันพฤหัสไม่ได้แล้วจบเลยไม่ได้นัดหมาย · การบอกว่ายุ่งทั้งสัปดาห์เป็นการปฏิเสธ"
+      },
+      "cloze": {
+        "sentence": "Would Thursday afternoon work ___ you, or is Friday better?",
+        "options": [
+          "to",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": 3,
+        "whyTH": "work for someone = สะดวกสำหรับใคร · to, at และ on ไม่ใช้กับ work ในความหมายนี้"
+      }
+    },
+    {
+      "id": "W-CLI-12",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'm afraid I need to reschedule",
+      "th": "ต้องขออภัย ผม/ดิฉันจำเป็นต้องเลื่อนนัด",
+      "noteTH": "I'm afraid ใช้นำหน้าข่าวที่ไม่ค่อยดีเพื่อให้ฟังนุ่มนวล ไม่ได้แปลว่ากลัว ควรเสนอเวลาใหม่ต่อท้ายด้วย",
+      "example": "I'm afraid I need to reschedule our meeting on Monday.",
+      "exampleTH": "ต้องขออภัย ผม/ดิฉันจำเป็นต้องเลื่อนการประชุมของเราในวันจันทร์",
+      "situation": {
+        "promptTH": "มีงานด่วนเข้ามา คุณต้องเลื่อนนัดประชุมกับลูกค้าในวันพรุ่งนี้ คุณจะแจ้งอย่างสุภาพว่าอะไร",
+        "options": [
+          "I'm not coming tomorrow. Bye.",
+          "I'm afraid I need to reschedule our meeting tomorrow. Would Wednesday work instead?",
+          "I'm afraid I need to cancel all our future meetings.",
+          "Tomorrow's meeting is still on. See you then."
+        ],
+        "answer": 1,
+        "whyTH": "\"I'm afraid I need to reschedule\" แจ้งเลื่อนอย่างนุ่มนวลและเสนอวันใหม่ · \"I'm not coming tomorrow. Bye.\" ห้วนและไม่สุภาพ · การยกเลิกทุกนัดในอนาคตไม่ใช่การเลื่อน · การยืนยันว่ายังประชุมตามเดิมขัดกับสถานการณ์"
+      },
+      "cloze": {
+        "sentence": "I'm ___ I need to reschedule our meeting on Monday.",
+        "options": [
+          "scared",
+          "afraid",
+          "frightened",
+          "terrified"
+        ],
+        "answer": 1,
+        "whyTH": "I'm afraid ... เป็นสำนวนสุภาพใช้แจ้งข่าวไม่ดี · scared, frightened และ terrified หมายถึงกลัวจริง ๆ ไม่ใช้เป็นสำนวนสุภาพแบบนี้"
+      }
+    }
+  ]
+}

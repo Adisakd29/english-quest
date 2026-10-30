@@ -1,0 +1,95 @@
+{
+  "batch": "09",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S1068",
+      "severity": "major",
+      "problem": "'On Monday, many Thai people wear yellow' refers to royal/political colour symbolism (yellow shirts) - politically sensitive in Thailand, violates the no-politics rule, and is also no longer generally true.",
+      "fix": {
+        "example": "Yellow is the colour of ripe mangoes and bananas.",
+        "form": "Yellow",
+        "exampleTH": "สีเหลืองคือสีของมะม่วงสุกและกล้วย",
+        "gapOk": true
+      }
+    },
+    {
+      "id": "A1-S1010",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Wear a ___ jacket' also accepts thick/heavy/big.",
+      "fix": {
+        "example": "It's cold tonight, so wear something warm.",
+        "form": "warm",
+        "exampleTH": "คืนนี้อากาศหนาว ใส่เสื้อผ้าอุ่นๆ นะ"
+      }
+    },
+    {
+      "id": "A1-S1024",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'greeted' fits the gap equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S1047",
+      "severity": "minor",
+      "problem": "exampleTH 'ไทยชนะได้เหรียญทอง' is unnatural Thai (ชนะได้ + object).",
+      "fix": {
+        "exampleTH": "ทีมไทยคว้าเหรียญทองกีฬาแบดมินตัน"
+      }
+    },
+    {
+      "id": "A1-S1058",
+      "severity": "minor",
+      "problem": "meaningEN says 'often using their hands' but the example is about office workers; definition and example pull in different directions.",
+      "fix": {
+        "meaningEN": "a person who does a job, in a factory or an office"
+      }
+    },
+    {
+      "id": "A2-S0016",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a job in ___' accepts banking, marketing, tourism, etc.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0024",
+      "severity": "minor",
+      "problem": "Thai 'ทั้งตัว' only fits some contexts and shortTH 'โดยสิ้นเชิง' is too formal for 'all wet'; ไปหมด/หมดเลย is the natural equivalent.",
+      "fix": {
+        "thai": "ไปหมด, หมดเลย, โดยสิ้นเชิง",
+        "shortTH": "ไปหมด, หมดเลย",
+        "thaiChangeReason": "ทั้งตัว ใช้ได้เฉพาะบางประโยค ส่วน ไปหมด/หมดเลย ตรงกับ all wet และใช้ในภาษาพูดจริง"
+      }
+    },
+    {
+      "id": "A2-S0028",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My parents don't ___ me to stay out late' accepts 'want' equally well.",
+      "fix": {
+        "example": "Phones are not allowed in the exam room.",
+        "form": "allowed",
+        "exampleTH": "ห้ามนำโทรศัพท์เข้าห้องสอบ"
+      }
+    },
+    {
+      "id": "A2-S0030",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Grandma is ___ at home' also accepts sick/lonely.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0038",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'drink a large ___ of water' also accepts 'glass/bottle'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

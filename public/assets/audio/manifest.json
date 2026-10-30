@@ -1,0 +1,284 @@
+{
+ "version": 1,
+ "note": "ทุกเพลง/เสียงเป็นงานต้นฉบับที่สังเคราะห์สดในเบราว์เซอร์ ไม่มีไฟล์เสียงของผู้อื่น · เพลงที่จ้างทำ/ซื้อ License ภายหลัง: ใส่ path ใน file (เช่น /assets/audio/lobby.ogg) พร้อม source / license / author / license_url ที่ตรวจแล้ว",
+ "tracks": [
+  {
+   "id": "app_home",
+   "track_name": "Morning Notebook (App Theme)",
+   "category": "app",
+   "tier": null,
+   "mood": "Warm · Relaxed · Friendly — หน้าหลัก เมนู ผลลัพธ์",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "app_study",
+   "track_name": "Quiet Study (App Study Theme)",
+   "category": "app",
+   "tier": null,
+   "mood": "Calm · Focus — ระหว่างทำแบบฝึกและบทเรียน (ไม่มีกลอง)",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "halloween_night",
+   "track_name": "Pumpkin Lantern Parade (Halloween Theme)",
+   "category": "app",
+   "tier": null,
+   "mood": "Spooky-cute · Playful · D minor — หน้ากิจกรรม Halloween และทั่วแอปเมื่อใช้ธีม Halloween",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "halloween_study",
+   "track_name": "Moonlit Study (Halloween Study Theme)",
+   "category": "app",
+   "tier": null,
+   "mood": "Calm · Mysterious — ระหว่างทำแบบฝึกในธีม Halloween (ไม่มีจังหวะ)",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "lobby",
+   "track_name": "Trailhead (Ranked Lobby)",
+   "category": "lobby",
+   "tier": null,
+   "mood": "Adventure · Calm · Anticipation",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "matchmaking",
+   "track_name": "Scouting Party (Matchmaking)",
+   "category": "matchmaking",
+   "tier": null,
+   "mood": "Searching · Building anticipation",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "battle_beginner",
+   "track_name": "First Flight (Beginner Ranked Theme)",
+   "category": "battle",
+   "tier": "beginner",
+   "mood": "Trail Finch – River Otter",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "battle_competitive",
+   "track_name": "Moonlit Focus (Competitive Ranked Theme)",
+   "category": "battle",
+   "tier": "competitive",
+   "mood": "Crest Lynx – Moon Wolf",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "battle_elite",
+   "track_name": "Storm Line (Elite Ranked Theme)",
+   "category": "battle",
+   "tier": "elite",
+   "mood": "Shadow Panther – Crown Eagle",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "promotion_trial",
+   "track_name": "Guardian's Gate (Promotion Trial)",
+   "category": "promotion_trial",
+   "tier": null,
+   "mood": "Epic · Challenge",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "apex",
+   "track_name": "Aurora Crown (Apex Theme)",
+   "category": "apex",
+   "tier": "apex",
+   "mood": "Aurora Lion / Apex Challenge",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  }
+ ],
+ "layers": [
+  {
+   "id": "critical_layer",
+   "track_name": "Tension Layer (Critical HP)",
+   "category": "critical",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  }
+ ],
+ "cues": [
+  {
+   "id": "victory",
+   "track_name": "Victory Cue",
+   "category": "cue",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "defeat",
+   "track_name": "Defeat Cue",
+   "category": "cue",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "draw",
+   "track_name": "Draw Cue",
+   "category": "cue",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  }
+ ],
+ "sfx": [
+  {
+   "id": "click",
+   "track_name": "Click",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "match_found",
+   "track_name": "Match Found",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "countdown",
+   "track_name": "Countdown",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "correct",
+   "track_name": "Correct",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "incorrect",
+   "track_name": "Incorrect",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "damage",
+   "track_name": "Damage",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "critical",
+   "track_name": "Critical",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "rank_progress",
+   "track_name": "Rank Progress",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "promotion",
+   "track_name": "Promotion",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  },
+  {
+   "id": "badge_unlock",
+   "track_name": "Badge Unlock",
+   "category": "sfx",
+   "source": "Original — procedurally synthesized in public/js/audio.js (Web Audio API)",
+   "license": "Proprietary — original work for EnglishQuest (no third-party samples or melodies)",
+   "author": "EnglishQuest",
+   "license_url": "/assets/audio/LICENSES.md",
+   "file": null
+  }
+ ]
+}

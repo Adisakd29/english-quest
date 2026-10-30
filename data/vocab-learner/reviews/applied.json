@@ -1,0 +1,2717 @@
+{
+ "A1-S0011": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'actor' also fits ('She is the best actor in this film'), and item A1-S0010 itself teaches that actor is used for women too."
+ },
+ "A1-S0030": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic for a function word: 'I had rice ___ eggs' also accepts 'with' (and 'or')."
+ },
+ "A1-S0032": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "Collocation 'pet animal' is not a common combination."
+ },
+ "A1-S0036": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Please ___ all the questions on the test' also fits read/do/finish."
+ },
+ "A1-S0047": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "shortTH 'แถว ๆ นี้' means 'around here', not 'around' alone; too narrow as an answer choice."
+ },
+ "A1-S0050": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "'an interesting article about sleep online' is ambiguous (reads like 'sleep online'); better word order."
+ },
+ "A1-S0051": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The ___ painted a picture of the river' fits boy/girl/teacher/student equally."
+ },
+ "A1-S0058": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "meaningEN ('to or in another place, not here') does not match the example, which shows distance ('five minutes away'); Thai ห่างออกไป matches the example."
+ },
+ "A1-S0063": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Don't forget your school ___!' fits book/uniform/shoes equally."
+ },
+ "A1-S0080": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "meaningEN 'to start doing something' does not fit the intransitive example 'The class begins at nine'."
+ },
+ "A1-S0083": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Don't leave me ___!' — 'alone' fits equally well and is very common."
+ },
+ "A1-S0091": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'An elephant is much ___ than a horse' also fits heavier/stronger."
+ },
+ "A1-S0093": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can we have the ___, please?' — 'menu' fits equally well in a restaurant."
+ },
+ "A1-S0100": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The sky is very ___ today' also fits clear/grey/dark."
+ },
+ "A1-S0123": {
+  "batch": "batch-01.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My grandfather ___ this wooden house in 1970' — 'bought' fits equally well."
+ },
+ "A1-S0130": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I ___ a new phone with my birthday money' — 'got' fits equally well."
+ },
+ "A1-S0131": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "thai adds 'ข้าง ๆ' (beside), a different sense from meaningEN/example (how you travel / who made something); flagNote asked to resolve to this sense."
+ },
+ "A1-S0145": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Rabbits love to eat ___' also fits grass/vegetables."
+ },
+ "A1-S0148": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My dad still plays old ___ in his car' — 'songs' fits equally well."
+ },
+ "A1-S0155": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The teacher drew a ___ of our test scores' — 'graph' fits equally well."
+ },
+ "A1-S0159": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'We had fried ___ and rice' also fits fish/pork/egg."
+ },
+ "A1-S0160": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'This film is not for young ___' — 'kids' fits equally well."
+ },
+ "A1-S0162": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'You can ___ any colour you like' also fits pick/have/use."
+ },
+ "A1-S0166": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Please keep the ___ clean and tidy' fits room/kitchen/house equally."
+ },
+ "A1-S0167": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "'Wash your hands so they are clean before you eat.' is clumsy and unnatural."
+ },
+ "A1-S0173": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Mai joined the school football ___' — 'team' fits equally well."
+ },
+ "A1-S0174": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "Repeats the pattern of A1-S0105 ('Put on your boots; it's raining outside.'), and 'Put on your ___' also fits jacket/boots/hat, so gapOk is too optimistic."
+ },
+ "A1-S0177": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I have a ___, so I can't go to school' also fits fever/cough/headache."
+ },
+ "A1-S0184": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The puzzle is ___' — 'finished' fits equally well."
+ },
+ "A1-S0186": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I do my homework on the ___' also fits laptop/phone."
+ },
+ "A1-S0189": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My grandpa ___ green curry every Sunday' also fits makes/eats."
+ },
+ "A1-S0190": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My mom's Thai ___ is the best!' — 'food' fits equally well."
+ },
+ "A1-S0193": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The teacher ___ my spelling with a red pen' — 'checked' fits equally well."
+ },
+ "A1-S0194": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The ___ of the trip is 3,000 baht' — 'price' fits equally well."
+ },
+ "A1-S0197": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Which ___ would you most like to visit?' also fits city/place."
+ },
+ "A1-S0198": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Nok is taking a cooking ___' — 'class' fits equally well."
+ },
+ "A1-S0200": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "Collocation 'brown cow' is not a real common combination."
+ },
+ "A1-S0202": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The students ___ a video about their town' — 'made' fits equally well."
+ },
+ "A1-S0203": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'learn about Thai ___' also fits food/history."
+ },
+ "A1-S0205": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The shop was full of ___ on Saturday' — 'people' fits equally well."
+ },
+ "A1-S0208": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Ploy taught us a new ___ for the school show' — 'song' fits equally well."
+ },
+ "A1-S0209": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Everyone ___ at my cousin's wedding party' also fits sang/ate."
+ },
+ "A1-S0210": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The ___ on stage wore red and gold' also fits singers/actors."
+ },
+ "A1-S0211": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Thai ___ is slow and beautiful' — 'music' fits equally well."
+ },
+ "A1-S0217": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ Nok, thank you for your kind letter' — 'Hi' fits equally well."
+ },
+ "A1-S0219": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'We ___ to eat at home because it was raining' also fits wanted/chose/planned."
+ },
+ "A1-S0220": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'This mango sticky rice is ___!' also fits good/sweet/yummy."
+ },
+ "A1-S0221": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can you ___ the man you saw?' — 'draw' (or 'find') also fits."
+ },
+ "A1-S0223": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "'การออกแบบ' is the act of designing; in the example ('the design of your bag') the meaning is the look/pattern (แบบ), as exampleTH itself shows."
+ },
+ "A1-S0224": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My brother ___ websites for small shops' also fits makes/builds."
+ },
+ "A1-S0225": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Put your books on your ___' — 'table' fits equally well."
+ },
+ "A1-S0226": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Please send me the ___ of the party' also fits photos/address."
+ },
+ "A1-S0227": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "meaningEN says 'written in a book or film' (films are not written texts); and 'Read the ___ with your partner' also fits story/text/conversation, so gapOk is too optimistic."
+ },
+ "A1-S0230": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'A healthy ___ has lots of fruit and vegetables' — 'meal' fits equally well."
+ },
+ "A1-S0236": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Let's ___ our class trip plans after lunch' also fits make/check/share."
+ },
+ "A1-S0238": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I always ___ my homework before dinner' — 'finish' fits equally well."
+ },
+ "A1-S0246": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'please come ___' also fits down/here/quickly."
+ },
+ "A1-S0247": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My little sister ___ a cat on the wall' — 'painted' fits equally well."
+ },
+ "A1-S0248": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Nok wore a long blue ___ to the party' — 'skirt' fits equally well."
+ },
+ "A1-S0249": {
+  "batch": "batch-02.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Hurry up and get ___.' — 'ready' fits equally well (and is more common)."
+ },
+ "A1-S0251": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "exampleTH is redundant/contradictory: 'วันละสองแก้วทุกเช้า' mixes 'per day' and 'every morning'."
+ },
+ "A1-S0256": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "Awkward word order: 'Each student has a computer in this room' (place phrase should follow 'student')."
+ },
+ "A1-S0260": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'She has an ___ class at seven' also fits English/art/online."
+ },
+ "A1-S0266": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can we ___ something now?' also fits have/get/buy."
+ },
+ "A1-S0299": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can I have ___ cheese on my pizza?' fits 'more' equally well."
+ },
+ "A1-S0301": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I wash my ___ with cold water' also fits hands/hair."
+ },
+ "A1-S0307": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Tom Yum is a ___ Thai soup' also fits popular/delicious/spicy."
+ },
+ "A1-S0332": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I had a cold, but I'm ___ now' fits 'better'/'OK' equally."
+ },
+ "A1-S0333": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Have you ___ your homework yet?' fits 'done' equally."
+ },
+ "A1-S0347": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My left ___ hurts after the long walk' also fits leg/knee."
+ },
+ "A1-S0364": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "meaningEN 'grows on trees' is inaccurate (watermelon, pineapple, strawberries do not)."
+ },
+ "A1-S0367": {
+  "batch": "batch-03.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My uncle tells ___ stories' also fits scary/long/interesting; rewrite so laughing makes it clear."
+ },
+ "A1-S0429": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I usually get ___ at six o'clock' — learners will answer 'up' (get up), a different, very common verb."
+ },
+ "A1-S0439": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "Collocations 'however much', 'however hard you try' show a different sense (no matter how), not the linking-adverb sense taught; gap also fits 'But'."
+ },
+ "A1-S0499": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "thai 'บทเรียน' means lesson content/unit, but meaningEN and example are about a class period ('piano lesson starts at four'); exampleTH itself uses 'คาบเรียน'."
+ },
+ "A1-S0425": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "Ambiguous/awkward: 'told us about Sukhothai long ago' reads as if the telling happened long ago."
+ },
+ "A1-S0446": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "Unnatural: one speaker suggests an idea and then praises it; 'nice idea' less natural than 'good idea'."
+ },
+ "A1-S0438": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ do you get to school every day?' also fits When/Why."
+ },
+ "A1-S0445": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Let's buy coconut ___' fits 'juice' equally (coconut juice is very common in Thailand)."
+ },
+ "A1-S0412": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can you ___ the birds outside?' fits 'see' equally."
+ },
+ "A1-S0387": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The sky is ___, so it might rain' fits 'cloudy'/'dark' equally."
+ },
+ "A1-S0449": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Sleep is ___ for students before exams' fits 'good' equally."
+ },
+ "A1-S0498": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Somchai hurt his ___ and can't walk well' also fits foot/knee."
+ },
+ "A1-S0470": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "Collocation 'good job' is a different sense (praise: 'well done'), not paid work."
+ },
+ "A1-S0484": {
+  "batch": "batch-04.json",
+  "severity": "minor",
+  "problem": "Collocation 'farm land' is normally written 'farmland'; replace with clearer common combinations."
+ },
+ "A1-S0505": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "meaningEN describes light as brightness, but 'turn on the light' uses light as the lamp itself (countable); definition and example show different sub-senses."
+ },
+ "A1-S0514": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "'very little hands' is awkward and clashes with the determiner use 'very little' (= almost none), which is the next item; confusing for learners."
+ },
+ "A1-S0539": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "Item is the adjective (state: having a husband/wife) but the example 'got married' shows the event of marrying."
+ },
+ "A1-S0512": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "Thai 'ทำรายการ' usually means to make a transaction (e.g. at an ATM); as shortTH it is misleading for the verb 'list'."
+ },
+ "A1-S0536": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Let's check the ___ on your phone' fits messages, weather, time, etc."
+ },
+ "A1-S0555": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'went to bed after ___' fits ten, eleven, dinner, etc."
+ },
+ "A1-S0570": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'This dress is ___ expensive than that one' — 'less' fits equally well."
+ },
+ "A1-S0501": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Grandma wrote me a long ___ from Japan' — 'email' fits equally well."
+ },
+ "A1-S0575": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "Present perfect with 'for twenty years' is above A1 level."
+ },
+ "A1-S0523": {
+  "batch": "batch-05.json",
+  "severity": "minor",
+  "problem": "noteTH says you must always use 'a lot', but 'lots' is also common; note is inaccurate."
+ },
+ "A1-S0640": {
+  "batch": "batch-06.json",
+  "severity": "major",
+  "problem": "Ungrammatical for a model sentence: present perfect 'I have been ... once' combined with finished time 'last year'."
+ },
+ "A1-S0662": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "thai 'คนอื่น, อันอื่น' fits 'others/another', not 'the other (of two)' shown in the example; it also does not match shortTH."
+ },
+ "A1-S0682": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "thai includes 'คู่ครอง' (life partner), a different sense from 'a person you do an activity with'."
+ },
+ "A1-S0669": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "'not one she shares' is awkward, unnatural English."
+ },
+ "A1-S0657": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "'squeezed' is above A1; gapOk too optimistic ('lemons/limes' fit equally)."
+ },
+ "A1-S0635": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "'but not very special' is unnatural; natives say 'nothing special'."
+ },
+ "A1-S0728": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "Awkward word order 'This sandwich in London costs five pounds'."
+ },
+ "A1-S0690": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "meaningEN 'a tool ... that you can rub out' wrongly says the pencil itself is rubbed out (and 'rub out' is above level)."
+ },
+ "A1-S0652": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Hot and cold have ___ meanings' — 'different' fits equally well."
+ },
+ "A1-S0693": {
+  "batch": "batch-06.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'got a ___ score' — good/high/low all fit."
+ },
+ "A1-S0810": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "Thai 'หล่อน' is old-fashioned and can sound rude or looking down on someone; 'เขา' is the common modern choice for she alongside 'เธอ'."
+ },
+ "A1-S0855": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "'แกงจืด' is one specific Thai clear soup, not a general translation of soup; it even clashes with the example (tom yum is not แกงจืด)."
+ },
+ "A1-S0781": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "Example 'My morning routine is shower, breakfast, then the bus.' is an unnatural list of bare nouns after 'is'."
+ },
+ "A1-S0779": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "meaningEN 'a hard way for cars...' is ambiguous; learners may read 'hard way' as 'difficult way'."
+ },
+ "A1-S0756": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "meaningEN limits a reader to someone who reads 'for fun', which is too narrow (the example is about reading speed, not enjoyment)."
+ },
+ "A1-S0841": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "Collocation 'so that' expresses purpose, not result, so it belongs to a different use than this sense."
+ },
+ "A1-S0833": {
+  "batch": "batch-07.json",
+  "severity": "minor",
+  "problem": "exampleTH translates 'blue' as 'สีกรมท่า' (navy); not a faithful translation of the English example."
+ },
+ "A1-S0983": {
+  "batch": "batch-08.json",
+  "severity": "minor",
+  "problem": "'The boy jumped into the pool and went under.' can be read as the boy sinking/drowning; a clearer, safer context is better for the adverb sense."
+ },
+ "A1-S0905": {
+  "batch": "batch-08.json",
+  "severity": "minor",
+  "problem": "'telephone the hotel to check the room' is vague/unnatural (you check a booking, not the room by phone)."
+ },
+ "A1-S1068": {
+  "batch": "batch-09.json",
+  "severity": "major",
+  "problem": "'On Monday, many Thai people wear yellow' refers to royal/political colour symbolism (yellow shirts) - politically sensitive in Thailand, violates the no-politics rule, and is also no longer generally true."
+ },
+ "A1-S1010": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Wear a ___ jacket' also accepts thick/heavy/big."
+ },
+ "A1-S1024": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'greeted' fits the gap equally well."
+ },
+ "A1-S1047": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "exampleTH 'ไทยชนะได้เหรียญทอง' is unnatural Thai (ชนะได้ + object)."
+ },
+ "A1-S1058": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "meaningEN says 'often using their hands' but the example is about office workers; definition and example pull in different directions."
+ },
+ "A2-S0016": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a job in ___' accepts banking, marketing, tourism, etc."
+ },
+ "A2-S0024": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "Thai 'ทั้งตัว' only fits some contexts and shortTH 'โดยสิ้นเชิง' is too formal for 'all wet'; ไปหมด/หมดเลย is the natural equivalent."
+ },
+ "A2-S0028": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My parents don't ___ me to stay out late' accepts 'want' equally well."
+ },
+ "A2-S0030": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Grandma is ___ at home' also accepts sick/lonely."
+ },
+ "A2-S0038": {
+  "batch": "batch-09.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'drink a large ___ of water' also accepts 'glass/bottle'."
+ },
+ "A2-S0058": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "'Somchai is tall, but his sister is just as tall' uses an illogical contrast ('but'); noteTH also glosses as...as with เท่ากับ, contradicting the item's own Thai reasoning (เท่า)."
+ },
+ "A2-S0069": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "Thai 'น่าดึงดูด' alone sounds stiff for 'nice to look at' (the exampleTH itself uses สวย/น่ามอง)."
+ },
+ "A2-S0078": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "meaningEN uses 'rear', which is above A2 level."
+ },
+ "A2-S0096": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "With only two options (maths or art) standard English is 'better', so the example models a questionable use; 'most' also fits the gap."
+ },
+ "A2-S0106": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Leave the last page ___' also accepts 'empty'."
+ },
+ "A2-S0111": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ the eggs for ten minutes' also accepts 'Cook'."
+ },
+ "A2-S0149": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a great ___ to practise your English' also accepts 'way'."
+ },
+ "A2-S0155": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The ___ at this hotel makes amazing green curry' also accepts 'cook'."
+ },
+ "A2-S0159": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "Thai 'โบสถ์' alone is ambiguous (also the ordination hall in a Buddhist temple); the meaning is a Christian church."
+ },
+ "A2-S0168": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Our school is ___ to the train station' accepts 'next' equally well."
+ },
+ "A2-S0174": {
+  "batch": "batch-10.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Type the secret ___' also accepts 'password/number'."
+ },
+ "A2-S0178": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'movie'/'film' fits 'Let's watch a ___ tonight' equally well."
+ },
+ "A2-S0195": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'lasted' fits 'The rain ___ all night' equally well."
+ },
+ "A2-S0219": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "meaningEN covers two senses (a bicycle / a ride) but thai and example only show the ride sense."
+ },
+ "A2-S0222": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "'there is a danger of strong waves' is unnatural; 'risk' also fits the gap."
+ },
+ "A2-S0234": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "exampleTH 'แผนกขายของโรงแรม' reads as 'department that sells goods'; ambiguous."
+ },
+ "A2-S0240": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'improve' fits 'helps children ___ their language skills' equally well."
+ },
+ "A2-S0244": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'new', 'small', 'good' all fit 'bought a ___ camera'."
+ },
+ "A2-S0245": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'cheap', 'early', 'night' all fit 'Is there a ___ flight'; add contrast with a stop."
+ },
+ "A2-S0246": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "'which direction is the train station?' is awkward, and 'way' fits the gap equally."
+ },
+ "A2-S0248": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'argue' fits 'often ___ about which film to watch' equally well."
+ },
+ "A2-S0251": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'found' fits 'We ___ a small waterfall' equally well."
+ },
+ "A2-S0262": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'get' fits 'You can ___ the app for free' equally well."
+ },
+ "A2-S0266": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'picture' fits 'made a ___ of our cat' equally well."
+ },
+ "A2-S0268": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "'last night' at the end attaches ambiguously (teeth fell out last night); put it first."
+ },
+ "A2-S0269": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "thai/shortTH 'การขับรถไปเที่ยว' (driving for fun/holiday) is too narrow; the example is just a car journey."
+ },
+ "A2-S0275": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'makes' fits 'Nok ___ extra money' equally well."
+ },
+ "A2-S0288": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'worker' fits 'gave every ___ a bonus' equally well."
+ },
+ "A2-S0289": {
+  "batch": "batch-11.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'boss' fits 'My ___ lets me work from home' equally well."
+ },
+ "A2-S0302": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'daily' fits 'part of ___ life' equally well."
+ },
+ "A2-S0305": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "thai 'แน่นอน' is the usual gloss for definitely/certainly (S0231 shortTH is 'แน่นอน'), so as an answer choice it is ambiguous; use 'แน่ชัด'."
+ },
+ "A2-S0307": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'good', 'great', 'high' all fit 'got an ___ score'."
+ },
+ "A2-S0326": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "'farmed rice' and collocation 'farm rice' are unnatural (we grow rice, farm the land)."
+ },
+ "A2-S0341": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'match'/'game' fit 'play Japan in the ___ on Sunday' equally well."
+ },
+ "A2-S0354": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "'Waiter, there's a fly in my soup!' is a famous stock joke (not original), and 'บริกรครับ' is unnatural Thai."
+ },
+ "A2-S0358": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "collocation 'the centre of focus' is not a common combination."
+ },
+ "A2-S0393": {
+  "batch": "batch-12.json",
+  "severity": "minor",
+  "problem": "meaningEN 'a weapon that shoots bullets' does not match the example (water guns)."
+ },
+ "A2-S0426": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'wasn't badly ___' also fits 'injured' equally well."
+ },
+ "A2-S0436": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'rose', 'grew' or 'went up' fit 'The number of visitors ___ from 200 to 500' equally well."
+ },
+ "A2-S0443": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'casual clothes' fits the gap as well as 'informal clothes'."
+ },
+ "A2-S0447": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'let's go ___' also takes 'in' or 'home'."
+ },
+ "A2-S0462": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "'items on sale' is ambiguous (UK: available to buy; US: discounted); the exampleTH reads it as 'discounted', which hides the meaning of 'item'."
+ },
+ "A2-S0469": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'reporter' fits equally well."
+ },
+ "A2-S0474": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'the ___ lived in a huge castle' also takes queen, prince or princess."
+ },
+ "A2-S0484": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'computer', 'tablet' or 'phone' also fit 'bring my ___ to the café to work'."
+ },
+ "A2-S0486": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Nok was the ___ to leave the office' also takes 'first'."
+ },
+ "A2-S0488": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "shortTH 'ที่ช้ากว่า' can be read as 'slower', so it is unclear as an answer choice. 'ทีหลัง' is clearer."
+ },
+ "A2-S0492": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'tired' fits 'I feel ___ and stay in bed' equally well."
+ },
+ "A2-S0494": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'member', 'president' or 'head' fit 'Nok is the ___ of our science club'."
+ },
+ "A2-S0508": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'too heavy for me to ___' also takes 'carry'."
+ },
+ "A2-S0510": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "Collocation 'well lit room' belongs to a different sense (give light to), not 'make something start burning'."
+ },
+ "A2-S0526": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'jumped over the ___ wall' also takes 'high' or 'small'."
+ },
+ "A2-S0527": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The plane flew very ___ over the beach' also takes 'high'."
+ },
+ "A2-S0531": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'sent' fits 'I ___ the birthday card to my aunt' equally well."
+ },
+ "A2-S0538": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'checked' or 'corrected' fit 'Our teacher ___ our tests'."
+ },
+ "A2-S0547": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "The example uses the fixed compound 'social media', which does not show the meaningEN (TV, radio, newspapers) and makes the gap trivial."
+ },
+ "A2-S0548": {
+  "batch": "batch-13.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'regular ___ checks' also takes 'health'."
+ },
+ "A2-S0622": {
+  "batch": "batch-14.json",
+  "severity": "major",
+  "problem": "meaningEN is wrong: 'from one side to the other side of something' defines 'across', not 'past' (going by something and on beyond it), which is what the example shows."
+ },
+ "A2-S0597": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "meaningEN 'a person with an important job' is misleading: an ordinary police officer does not have a senior job."
+ },
+ "A2-S0555": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "'the middle child of three sisters' is awkward. It reads as if three sisters are the parents."
+ },
+ "A2-S0553": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'payment option' fits as well as 'payment method'."
+ },
+ "A2-S0566": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'mainly' or 'all' fit 'are ___ from Bangkok'."
+ },
+ "A2-S0581": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'scared', 'worried' or 'excited' fit 'felt ___ before her speech'."
+ },
+ "A2-S0602": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'just a normal day' fits equally well."
+ },
+ "A2-S0616": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The old ___ has beautiful gardens' also takes temple, house or park."
+ },
+ "A2-S0625": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'salary' or 'money' fit 'The ___ at this café is low'."
+ },
+ "A2-S0652": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'good', 'nice' or 'kind' fit 'It's ___ to say thank you'."
+ },
+ "A2-S0660": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'pictures' or 'photos' fit 'covered with ___ of my favourite band'."
+ },
+ "A2-S0662": {
+  "batch": "batch-14.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'shows' or 'says' fit 'The weather app ___ heavy rain'."
+ },
+ "A2-S0740": {
+  "batch": "batch-15.json",
+  "severity": "major",
+  "problem": "noteTH says the past forms are 'rang and rung'; rung is the past participle, not the past simple, so learners may write 'I rung you'."
+ },
+ "A2-S0709": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Can you suggest a good place to eat near here?' is equally correct and very common."
+ },
+ "A2-S0714": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'cut' or 'lowered' fit the gap equally well ('cut the price by half')."
+ },
+ "A2-S0775": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: after 'First,' the answer 'Second,' is equally correct (also 'Also')."
+ },
+ "A2-S0755": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Unfortunately,' fits the gap equally well."
+ },
+ "A2-S0705": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'lately' fits 'Have you seen any good films ___?' equally well."
+ },
+ "A2-S0726": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'A newspaper journalist wrote a story...' is equally correct."
+ },
+ "A2-S0760": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "exampleTH 'ตอนลดราคาครึ่งราคา' is redundant/awkward Thai."
+ },
+ "A2-S0699": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "Collocation 'rather than' belongs to a different sense (instead of), not 'quite'."
+ },
+ "A2-S0742": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "Collocation 'hard as rock' is not idiomatic (it is 'as hard as a rock' / 'rock-hard')."
+ },
+ "A2-S0750": {
+  "batch": "batch-15.json",
+  "severity": "minor",
+  "problem": "noteTH is ambiguous: reads as if only trash/garbage are uncountable; rubbish is uncountable too."
+ },
+ "A2-S0909": {
+  "batch": "batch-16.json",
+  "severity": "major",
+  "problem": "exampleTH translates 'eat outside' (outdoors) as 'ไปกินข้าวข้างนอก' (= eat out at a restaurant), teaching a wrong meaning."
+ },
+ "A2-S0847": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "Example is unnatural and just restates the definition ('All four sides of the photo are equal, so it is square')."
+ },
+ "A2-S0856": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Someone took my bike from outside the library' is equally correct."
+ },
+ "A2-S0836": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'help me do this maths problem' is equally common."
+ },
+ "A2-S0910": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Pass the ball to me' fits equally well."
+ },
+ "A2-S0819": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'speak clearly' fits the context equally well."
+ },
+ "A2-S0833": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'comfortable' fits 'This pillow is so ___ that I fell asleep quickly' equally well."
+ },
+ "A2-S0816": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'so your face does not burn' is equally correct."
+ },
+ "A2-S0824": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'voice', 'face' or 'personality' also fit 'Nok has a lovely ___'."
+ },
+ "A2-S0887": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'ripe' or 'fresh' fit 'very ___ and juicy' equally well."
+ },
+ "A2-S0880": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "'her lights are on' is unnatural for a house; say which light."
+ },
+ "A2-S0904": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "meaningEN 'wide from one side to the other' confuses thick with wide."
+ },
+ "A2-S0908": {
+  "batch": "batch-16.json",
+  "severity": "minor",
+  "problem": "exampleTH word order is awkward ('นักเรียนในห้องของฉันหนึ่งในสามเดินมา...')."
+ },
+ "A2-S0926": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a ___ plane, not a real one' also accepts 'model' or 'paper'."
+ },
+ "A2-S0935": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'had ___ finding the hotel' also accepts 'problems' or 'difficulty'."
+ },
+ "A2-S0937": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Nok and her ___ look so alike' is equally answered by 'sister'."
+ },
+ "A2-S0952": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "meaningEN 'has and operates an app' is unnatural wording."
+ },
+ "A2-S0966": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "Example shows physical weakness after illness (ET uses อ่อนแรง), but thai gives only อ่อนแอ, which leans towards weak health/character."
+ },
+ "A2-S0991": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Has the pizza arrived ___?' also accepts 'already'."
+ },
+ "B1-S0001": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "Example uses the 'completely/extremely' sense (absolutely beautiful = สวยสุด ๆ), but shortTH อย่างแน่นอน is the 'certainly/yes' sense, so the answer choice does not match the example."
+ },
+ "B1-S0002": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: \"Ploy's ___ results\" also accepts 'exam', 'school' or 'test'."
+ },
+ "B1-S0005": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ near the beach is expensive' accepts many nouns (food, parking, land)."
+ },
+ "B1-S0008": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'was a kind ___' is equally answered by 'thing'."
+ },
+ "B1-S0010": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "Collocations 'in addition' / 'in addition to' mean 'also/as well as', a different sense from the item (a new thing added to a group)."
+ },
+ "B1-S0014": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The doctor ___ me to drink more water' also accepts 'told' or 'asked'."
+ },
+ "B1-S0028": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'We were ___ by how fast...' is equally answered by 'surprised'."
+ },
+ "B1-S0031": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The scientists ___ the water' also accepts 'tested', 'checked' or 'studied'."
+ },
+ "B1-S0033": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "'classes would close' is unnatural; schools close and classes are cancelled."
+ },
+ "B1-S0050": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ your photo to the email' is equally answered by 'add'."
+ },
+ "B1-S0056": {
+  "batch": "batch-17.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Ploy was ___ a prize' is equally answered by 'given'."
+ },
+ "B1-S0064": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'on the ___ of the Ping River' also accepts 'side'."
+ },
+ "B1-S0073": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "Example shows 'belief in herself' (= self-confidence, ET ความเชื่อมั่น), not the defined sense 'a feeling that something is true'."
+ },
+ "B1-S0078": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "Collocation 'get the better of' is a different meaning (to defeat/control someone), not 'a change for the better'."
+ },
+ "B1-S0109": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Put these words into three ___' is equally answered by 'groups'."
+ },
+ "B1-S0119": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'two more ___ to read before the end of the book' also accepts 'pages'."
+ },
+ "B1-S0120": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "Illogical: if entry is already free for everyone, 'no charge for children' adds nothing; the contrast is lost."
+ },
+ "B1-S0140": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'please give me a ___' is equally answered by 'hint'."
+ },
+ "B1-S0141": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My uncle ___ a junior football team' also accepts 'trains' or 'manages'."
+ },
+ "B1-S0142": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'power stations still burn ___' also accepts 'oil' or 'gas'."
+ },
+ "B1-S0149": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a long ___ stops the movie' is equally answered by 'ad'."
+ },
+ "B1-S0167": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Old fridges ___ much more electricity' is equally answered by 'use'."
+ },
+ "B1-S0174": {
+  "batch": "batch-18.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'There is a big ___ between...' is equally answered by 'difference'."
+ },
+ "B1-S0189": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'It is ___ to keep a big dog in a tiny cage' also fits wrong/bad/unkind/sad."
+ },
+ "B1-S0190": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'an important ___ event' also fits big/national/traditional."
+ },
+ "B1-S0197": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The museum is open ___ from nine...' fits 'today' equally well."
+ },
+ "B1-S0200": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'We made a ___:' fits 'plan' equally well."
+ },
+ "B1-S0215": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a ring with a small ___ that shines' fits stone/ruby/pearl."
+ },
+ "B1-S0219": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'buy tickets ___ from the theatre' does not force 'directly' (only/cheaply also fit)."
+ },
+ "B1-S0221": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'One ___ of living far from school' fits 'problem' equally well."
+ },
+ "B1-S0232": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'I ___ the bus will come on time' fits hope/think/don't think."
+ },
+ "B1-S0233": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "meaningEN says 'bed clothes', which in English means sheets/blankets, not pyjamas."
+ },
+ "B1-S0238": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "'attic' is above B1 and uncommon in Thai homes; simpler setting is better."
+ },
+ "B1-S0256": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'In an ___, call 1669 for an ambulance' fits 'accident' equally well."
+ },
+ "B1-S0264": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The clown ___ the children with funny tricks' fits surprised/amused."
+ },
+ "B1-S0272": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'shared the sweets ___ between the three of us' fits 'fairly' equally well."
+ },
+ "B1-S0274": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'everyone made a safe ___ through the back door' fits 'exit' equally well."
+ },
+ "B1-S0278": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "Thai 'ยกเว้นว่า' as a conjunction reads as 'unless'; this sense means 'only/but the thing is' (as exampleTH itself shows)."
+ },
+ "B1-S0279": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "'In exchange for helping me..., I taught Nok' is awkward (unclear who helped), and the gap also fits 'return' (in return for), so gapOk=true is wrong."
+ },
+ "B1-S0288": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The chef likes to ___ with Thai and Italian flavours together' fits cook/play."
+ },
+ "B1-S0289": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The balloon ___ with a loud bang' fits burst/popped equally well."
+ },
+ "B1-S0299": {
+  "batch": "batch-19.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Do you ___ going for a coffee after class?' is also grammatical with 'like'."
+ },
+ "B1-S0312": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "Sense switched from the curated sense 'shoot' (currentThai ยิง (ปืน); flagNote only noted the other meaning) to 'dismiss', which is a different (B2) sense. Other flagged items kept their sense. Editor should confirm; a teen-safe fix for the original sense is given."
+ },
+ "B1-S0308": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "exampleTH uses ชาวนา (rice farmer) for a farmer keeping cows; เกษตรกร is more accurate."
+ },
+ "B1-S0321": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'She ___ the letter carefully and put it into the envelope' fits wrote/read/checked."
+ },
+ "B1-S0337": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Mum ___ two eggs in hot oil' fits 'cooked' equally well."
+ },
+ "B1-S0350": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "'giant panda' is a fixed species name, so it does not show the adjective meaning 'extremely large'; Thai panda reference also dated."
+ },
+ "B1-S0377": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The ___ of our trip was watching the sunrise' fits start/end."
+ },
+ "B1-S0383": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "Thai lists น่ากลัว first, but this sense (very bad/unpleasant, e.g. medicine tasted horrible) is not 'scary'."
+ },
+ "B1-S0390": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "Example uses the compound 'identity card' (Thai บัตรประจำตัว), which does not show the noun sense 'who a person is'."
+ },
+ "B1-S0393": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Ploy had an ___ friend called Bobo' fits old/English."
+ },
+ "B1-S0419": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My parents ___ their savings in a small coffee shop' fits put/spent."
+ },
+ "B1-S0422": {
+  "batch": "batch-20.json",
+  "severity": "minor",
+  "problem": "'the iron is still hot after I used it' is unnatural tense/linking."
+ },
+ "B1-S0433": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'shot (a strong shot)' fits the gap equally well for a learner."
+ },
+ "B1-S0434": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'hunting' fits the gap equally well for a learner."
+ },
+ "B1-S0435": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'nice / good' fits the gap equally well for a learner."
+ },
+ "B1-S0437": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'hug (a gentle hug)' fits the gap equally well for a learner."
+ },
+ "B1-S0440": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'mark' fits the gap equally well for a learner."
+ },
+ "B1-S0446": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "Example contains 'layers' as well as 'layer', so the gap-fill gives the answer away; sentence is also repetitive."
+ },
+ "B1-S0451": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'safe / allowed' fits the gap equally well for a learner."
+ },
+ "B1-S0455": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'talked / spoke' fits the gap equally well for a learner."
+ },
+ "B1-S0460": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'fingers / hands' fits the gap equally well for a learner."
+ },
+ "B1-S0461": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'drink (types of drink)' fits the gap equally well for a learner."
+ },
+ "B1-S0464": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'good / loud (many adjectives fit before 'music')' fits the gap equally well for a learner."
+ },
+ "B1-S0468": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'many nouns (a man, a driver, a friend)' fits the gap equally well for a learner."
+ },
+ "B1-S0472": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'sad' fits the gap equally well for a learner."
+ },
+ "B1-S0473": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "'The loss of his phone meant he lost...' repeats the family form 'lost', which is clumsy and gives the answer away."
+ },
+ "B1-S0485": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'checked' fits the gap equally well for a learner."
+ },
+ "B1-S0486": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'steps (took new steps)' fits the gap equally well for a learner."
+ },
+ "B1-S0493": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Put' fits the gap equally well for a learner."
+ },
+ "B1-S0497": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "Collocation 'make a move' belongs to a different sense (start to leave / take action), not moving home."
+ },
+ "B1-S0504": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "'use a nail clipper' is unnatural; the tool is normally 'nail clippers'."
+ },
+ "B1-S0515": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'nor (and nor can my little sister)' fits the gap equally well for a learner."
+ },
+ "B1-S0522": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "Thai includes จดบันทึก and collocation 'note down', which belong to the 'write down' sense, not 'notice / pay attention'."
+ },
+ "B1-S0525": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'clear' fits the gap equally well for a learner."
+ },
+ "B1-S0530": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'main' fits the gap equally well for a learner."
+ },
+ "B1-S0531": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'old (an old phone)' fits the gap equally well for a learner."
+ },
+ "B1-S0533": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "'crutches' is above B1, and 'injury' fits the gap equally well."
+ },
+ "B1-S0537": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "exampleTH 'ลีเป็นคนเกาหลีแต่เดิม' is awkward Thai word order."
+ },
+ "B1-S0542": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'box' fits the gap equally well for a learner."
+ },
+ "B1-S0543": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'box / parcel' fits the gap equally well for a learner."
+ },
+ "B1-S0545": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'tired' fits the gap equally well for a learner."
+ },
+ "B1-S0553": {
+  "batch": "batch-21.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'quiet' fits the gap equally well for a learner."
+ },
+ "B1-S0637": {
+  "batch": "batch-22.json",
+  "severity": "major",
+  "problem": "shortTH 'ช่วง, ขอบเขต' (and collocations 'price range', 'age range') belong to the 'limits/span' sense; this item is 'a group of different things of the same kind' (a wide range of phones) = variety, so the answer choice is misleading."
+ },
+ "B1-S0559": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'many person nouns (the man, the teacher)' fits the gap equally well for a learner."
+ },
+ "B1-S0560": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'camera (a camera club)' fits the gap equally well for a learner."
+ },
+ "B1-S0574": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'looked (looked at the elephant)' fits the gap equally well for a learner."
+ },
+ "B1-S0577": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "Comma splice; also 'dangerous' fits the gap equally well."
+ },
+ "B1-S0584": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "'will possibly open' is unnatural English (natives say 'will probably' or 'might')."
+ },
+ "B1-S0586": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'put' fits the gap equally well for a learner."
+ },
+ "B1-S0605": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'party (a pink party dress)' fits the gap equally well for a learner."
+ },
+ "B1-S0607": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'patient' fits the gap equally well for a learner."
+ },
+ "B1-S0620": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'happy' fits the gap equally well for a learner."
+ },
+ "B1-S0621": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'shows' fits the gap equally well for a learner."
+ },
+ "B1-S0626": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'degree / licence' fits the gap equally well for a learner."
+ },
+ "B1-S0627": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'trained / good' fits the gap equally well for a learner."
+ },
+ "B1-S0629": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'line' fits the gap equally well for a learner."
+ },
+ "B1-S0631": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'stopped' fits the gap equally well for a learner."
+ },
+ "B1-S0633": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'read / sang / used' fits the gap equally well for a learner."
+ },
+ "B1-S0635": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'age / culture / nationality' fits the gap equally well for a learner."
+ },
+ "B1-S0639": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "Comma splice ('rarely uses his phone, he prefers...')."
+ },
+ "B1-S0649": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'linked / connected / due' fits the gap equally well for a learner."
+ },
+ "B1-S0652": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'friends / grandparents' fits the gap equally well for a learner."
+ },
+ "B1-S0654": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'nice / good' fits the gap equally well for a learner."
+ },
+ "B1-S0657": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "Comma splice ('very reliable, she always...')."
+ },
+ "B1-S0664": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'rode' fits the gap equally well for a learner."
+ },
+ "B1-S0666": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "Thai 'การทำซ้ำ' is a different sense (doing again); this item is a TV/radio show shown again."
+ },
+ "B1-S0680": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "'study' / 'read' fit the gap equally; noteTH is a run-on with no separation between the two points."
+ },
+ "B1-S0681": {
+  "batch": "batch-22.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'knock' fits the gap equally well for a learner."
+ },
+ "B1-S0751": {
+  "batch": "batch-23.json",
+  "severity": "major",
+  "problem": "Sense mismatch: meaningEN/thai describe spirit as mind/feelings (not body), but example 'fighting spirit' shows the courage/determination sense"
+ },
+ "B1-S0683": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'chance (increases the chance of)' fits the gap equally well"
+ },
+ "B1-S0688": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'nice/special' fits the gap equally well"
+ },
+ "B1-S0690": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'bad/narrow' fits the gap equally well"
+ },
+ "B1-S0701": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'science/simple' fits the gap equally well"
+ },
+ "B1-S0712": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'box (a box of six glasses)' fits the gap equally well"
+ },
+ "B1-S0724": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "Collocation 'shoot a goal' is not idiomatic (score a goal / shoot at goal)"
+ },
+ "B1-S0726": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'eyesight' fits the gap equally well"
+ },
+ "B1-S0731": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'differences' fits the gap equally well"
+ },
+ "B1-S0732": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'alike' fits the gap equally well"
+ },
+ "B1-S0742": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'apps/programs' fits the gap equally well"
+ },
+ "B1-S0743": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'ground' fits the gap equally well"
+ },
+ "B1-S0744": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'hard' fits the gap equally well"
+ },
+ "B1-S0746": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'divided/separated/put' fits the gap equally well"
+ },
+ "B1-S0748": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'especially' fits the gap equally well"
+ },
+ "B1-S0750": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'hot' fits the gap equally well"
+ },
+ "B1-S0752": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'speaking (a speaking part, the usual exam term)' fits the gap equally well"
+ },
+ "B1-S0758": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'quality (of a very high quality)' fits the gap equally well"
+ },
+ "B1-S0759": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'small/single' fits the gap equally well"
+ },
+ "B1-S0762": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic ('One study shows...' fits equally); sentence also presents an invented figure as fact"
+ },
+ "B1-S0764": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'put' fits the gap equally well"
+ },
+ "B1-S0769": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'muscle' fits the gap equally well"
+ },
+ "B1-S0771": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'really' fits the gap equally well"
+ },
+ "B1-S0775": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'finally' fits the gap equally well"
+ },
+ "B1-S0776": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "'ran inside the nearest shop' is unnatural (ran into); also gap fits big/heavy/bad storm"
+ },
+ "B1-S0781": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'report/note' fits the gap equally well"
+ },
+ "B1-S0783": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'sells/sends' fits the gap equally well"
+ },
+ "B1-S0790": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'signs' fits the gap equally well"
+ },
+ "B1-S0791": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'head' fits the gap equally well"
+ },
+ "B1-S0793": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'young/good' fits the gap equally well"
+ },
+ "B1-S0799": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'start/begin' fits the gap equally well"
+ },
+ "B1-S0803": {
+  "batch": "batch-23.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'topic/name' fits the gap equally well"
+ },
+ "B1-S0812": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "'too tight, not loose like my old ones' wrongly implies the old shoes were too loose; collocation 'a tight lid' is a different sense"
+ },
+ "B1-S0813": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "Thai: for a future event 'จนกว่า' is the natural rendering (exampleTH already uses it); 'จนกระทั่ง' alone is stiff"
+ },
+ "B1-S0815": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "Example mixes 'can opener' with 'tin'; 'can' fits the gap equally, so gapOk=true is wrong"
+ },
+ "B1-S0826": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "'Thai farmers trade rice with many countries' is unrealistic/unnatural (farmers do not trade with countries); also 'sell' fits the gap"
+ },
+ "B1-S0828": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'word (an English word)' fits the gap equally well"
+ },
+ "B1-S0831": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'care/medicine' fits the gap equally well"
+ },
+ "B1-S0833": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'game (a card game)' fits the gap equally well"
+ },
+ "B1-S0849": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Like her brother, ...' is also grammatical (opposite meaning)"
+ },
+ "B1-S0851": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'extra' fits the gap equally well"
+ },
+ "B1-S0858": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'cheap/old/second-hand' fits the gap equally well"
+ },
+ "B1-S0860": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'expensive' fits the gap equally well"
+ },
+ "B1-S0866": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'views/fans' fits the gap equally well"
+ },
+ "B1-S0867": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "Collocation 'violent films' belongs to a different sense (involving violence) from the storm sense taught"
+ },
+ "B1-S0868": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'nurse/helper' fits the gap equally well"
+ },
+ "B1-S0869": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'offered/decided' fits the gap equally well"
+ },
+ "B1-S0870": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'meeting' fits the gap equally well"
+ },
+ "B1-S0871": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "meaningEN 'often by raising hands' is misleading; voting is usually done on paper/ballot"
+ },
+ "B1-S0877": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'old/used' fits the gap equally well"
+ },
+ "B1-S0888": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "'The game was fun as a whole' is unnatural word order; 'as a whole' normally follows the noun (the game as a whole)"
+ },
+ "B1-S0889": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'mind/heart' fits the gap equally well"
+ },
+ "B1-S0896": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'big/huge' fits the gap equally well"
+ },
+ "B1-S0900": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "'played the worst of all' is awkward for the adverb; 'played worst' is more natural; collocation 'worst hit' is not a learner pattern"
+ },
+ "B1-S0904": {
+  "batch": "batch-24.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'garden' fits the gap equally well"
+ },
+ "B2-S0046": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "Example only uses the fixed compound 'armed forces' (= the military), so it does not prove the sense 'carrying a weapon'; gapOk true relies on a set phrase."
+ },
+ "B2-S0010": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "'acquire excellent English' is an unnatural collocation, and the Thai 'ได้ภาษาอังกฤษที่ดีเยี่ยม' is awkward."
+ },
+ "B2-S0103": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "For a football goalkeeper the natural word is 'save', not 'catch'; the context invites the wrong answer and is unidiomatic."
+ },
+ "B2-S0008": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My brother ___ me of eating his cake' also fits 'suspected' equally well."
+ },
+ "B2-S0023": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The first item on the ___ is the budget' also fits the common word 'list'."
+ },
+ "B2-S0089": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a ___ of flowers' also fits 'bouquet', a near-synonym known at B2."
+ },
+ "B2-S0117": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'a ___ servant who works for the Ministry' also fits 'public'."
+ },
+ "B2-S0039": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "Collocation 'appeal for help' belongs to the other sense (request), not 'be attractive to'."
+ },
+ "B2-S0071": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "Thai 'เขาพลาดรถเมล์ประจำ' reads as 'he missed his regular bus', not 'he always misses the bus'; also 'พลาดรถเมล์' is less natural than 'ตกรถเมล์'."
+ },
+ "B2-S0118": {
+  "batch": "batch-25.json",
+  "severity": "minor",
+  "problem": "Thai 'ที่นักท่องเที่ยวต้องอยากลอง' is awkward ('must want to try')."
+ },
+ "B2-S0161": {
+  "batch": "batch-26.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Metal expands when it gets hot and ___ when it cools down' fits 'shrinks' equally well."
+ },
+ "B2-S0143": {
+  "batch": "batch-26.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'code of ___' also fits 'ethics' or 'practice'; the fixed phrase also does little to show the 'behaviour' sense."
+ },
+ "B2-S0232": {
+  "batch": "batch-26.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The children ___ a big hole in the sand' also fits the common verb 'made'."
+ },
+ "B2-S0129": {
+  "batch": "batch-26.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'earn a ___ of two percent on every car' also fits 'bonus'."
+ },
+ "B2-S0233": {
+  "batch": "batch-26.json",
+  "severity": "minor",
+  "problem": "Collocation 'hard disc' contradicts the noteTH (computers use 'disk'; 'hard disk' is standard); exampleTH adds 'old film' (หนังเก่า), which is not in the English."
+ },
+ "B2-S0262": {
+  "batch": "batch-27.json",
+  "severity": "minor",
+  "problem": "Example repeats the same situation as B2-S0204 'deeply' (teacher's final speech before retiring), breaking the rule against repeated example patterns."
+ },
+ "B2-S0306": {
+  "batch": "batch-27.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The parrot's bright green ___ make it easy to spot' also fits 'wings'."
+ },
+ "B2-S0369": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "Collocations 'get hold of' and 'on hold' are different senses (contact/obtain; paused), not 'grip in the hand'"
+ },
+ "B2-S0434": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "Collocation 'level off' is a different, intransitive sense (stop rising/falling); 'level the playing field' is figurative"
+ },
+ "B2-S0449": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Smoking damages your health and makes it harder to breathe' fits equally well"
+ },
+ "B2-S0455": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "exampleTH 'การท่องเที่ยวแบบคนจำนวนมาก' is unnatural; the established Thai term is 'การท่องเที่ยวแบบมวลชน'"
+ },
+ "B2-S0478": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "Collocation 'model yourself on' is a different sense (copy someone's behaviour), not 'create a computer version of a system'"
+ },
+ "B2-S0483": {
+  "batch": "batch-28.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The lesson/message/point of the story is...' all fit equally well"
+ },
+ "B2-S0495": {
+  "batch": "batch-29.json",
+  "severity": "minor",
+  "problem": "Collocation 'nevertheless, it is true that' is invented, not a real high-frequency pattern"
+ },
+ "B2-S0507": {
+  "batch": "batch-29.json",
+  "severity": "minor",
+  "problem": "noteTH 'สะกดด้วย cc ตัวเดียว s' is garbled Thai and confusing as a spelling tip"
+ },
+ "B2-S0548": {
+  "batch": "batch-29.json",
+  "severity": "minor",
+  "problem": "Collocations 'pile into a car' (crowd into) and 'pile things on' are different/unclear senses, not 'put things on top of each other'"
+ },
+ "B2-S0552": {
+  "batch": "batch-29.json",
+  "severity": "minor",
+  "problem": "'suitable for children aged ten plus and adults' is unnatural and ambiguous (plus could be read as 'and')"
+ },
+ "B2-S0603": {
+  "batch": "batch-29.json",
+  "severity": "minor",
+  "problem": "Weight-loss goal example is a poor choice for teenage users (body-image); a study goal shows the sense equally well"
+ },
+ "B2-S0609": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "Collocations 'with regard to' (= about) and 'best regards' (email closing) are different senses, not 'respect'"
+ },
+ "B2-S0648": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'remote areas', 'poor areas', 'country areas' also fit"
+ },
+ "B2-S0662": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "Collocations 'be seated' / 'please be seated' are the other sense (sit down) that the item itself moved to the note"
+ },
+ "B2-S0665": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "exampleTH moves 'ปลอดภัย' onto the password and drops 'keep ... secure' for the account, so the headword is not translated"
+ },
+ "B2-S0678": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'in the shadow of a big mango tree' is also correct English (and the classic shade/shadow confusion)"
+ },
+ "B2-S0680": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "Gap not unique: 'The water is calm/clean here, so it's safe...' also fits; add a depth detail"
+ },
+ "B2-S0690": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "Sense: the main B2 meaning of noun 'shooting' (and currentThai) is the gun sense; the filming sense is secondary. A neutral sport context teaches the main sense safely for teens"
+ },
+ "B2-S0696": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Please accept our deepest apologies' fits equally well"
+ },
+ "B2-S0699": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My presentation has fifteen pages' also fits"
+ },
+ "B2-S0705": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "exampleTH 'ค่อนข้างเล็กกว่า' is unnatural Thai for 'somewhat smaller than'"
+ },
+ "B2-S0709": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'three new kinds/types of frog' fit equally well"
+ },
+ "B2-S0711": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "exampleTH renders spiritual as 'ทางจิตใจ', inconsistent with thai 'ทางจิตวิญญาณ' and weaker in meaning"
+ },
+ "B2-S0712": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Let's share/divide the bill' fits equally well"
+ },
+ "B2-S0722": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'check the progress/details of your order' also fit"
+ },
+ "B2-S0725": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The path up to the temple is very long, with over 300 stairs' fits equally well"
+ },
+ "B2-S0726": {
+  "batch": "batch-30.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Someone stood on my foot' is equally common"
+ },
+ "B2-S0753": {
+  "batch": "batch-31.json",
+  "severity": "minor",
+  "problem": "exampleTH: for a death, Thai expresses condolence as 'แสดงความเสียใจ', not 'แสดงความเห็นใจ' (sounds like pity)"
+ },
+ "B2-S0757": {
+  "batch": "batch-31.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'rip' (and 'damage') fit 'Be careful not to ___ the page' equally well"
+ },
+ "B2-S0826": {
+  "batch": "batch-31.json",
+  "severity": "minor",
+  "problem": "'witnessed the beautiful lantern festival' is unnatural; witness is used for accidents, crimes or historic events, and the sentence does not prove the sense better than 'saw'"
+ },
+ "B2-S0840": {
+  "batch": "batch-31.json",
+  "severity": "minor",
+  "problem": "Collocations 'accommodate guests' (give lodging) and 'accommodate needs' (meet needs) belong to other senses, not 'have space for'"
+ },
+ "B2-S0842": {
+  "batch": "batch-31.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Our ___ helps us fill in our tax forms' fits mum/dad/son/neighbour; context does not force 'accountant'"
+ },
+ "B2-S0856": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "shortTH 'ข้าง ๆ, ร่วมกับ' contains 'ร่วมกับ', which is not in thai; thai should include the 'together with' meaning used in the example"
+ },
+ "B2-S0866": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The airline sent us an ___ for the long delay' also fits 'explanation'"
+ },
+ "B2-S0871": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'put away 2,000 baht every month' is equally correct"
+ },
+ "B2-S0875": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'make judgements about people' fits the gap equally well"
+ },
+ "B2-S0905": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "meaningEN uses the family form 'bombs' and reveals the word; gapOk too optimistic ('the destruction of the city' fits equally). Example itself is neutral and historical (OK for teens)"
+ },
+ "B2-S0921": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'say with confidence' fits equally well"
+ },
+ "B2-S0922": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "thai 'ใบรับรอง' alone is narrow; for a course certificate Thai uses 'ใบประกาศนียบัตร' (exampleTH already says 'ใบประกาศ')"
+ },
+ "B2-S0929": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "shortTH 'ส่งเสียงเชียร์' is not in thai; the example (crowd cheering a singer) is about excitement, not only 'ให้กำลังใจ'"
+ },
+ "B2-S0941": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'What a surprise! My new boss went to the same school as me.' is equally correct"
+ },
+ "B2-S0952": {
+  "batch": "batch-32.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Water is a simple ___' also fits 'substance', 'liquid' or 'molecule'"
+ },
+ "B2-S1069": {
+  "batch": "batch-33.json",
+  "severity": "minor",
+  "problem": "exampleTH renders 'work ethic' as 'จรรยาบรรณในการทำงาน' (professional code of conduct), but the sentence is about hard work and dedication"
+ },
+ "B2-S1068": {
+  "batch": "batch-33.json",
+  "severity": "minor",
+  "problem": "Collocations 'is essentially' and 'essentially a' are fragments, not reusable combinations"
+ },
+ "B2-S1097": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'ticket' fits equally ('The bus ticket from the airport ... is only 50 baht')"
+ },
+ "B2-S1098": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'national' fits equally ('but national laws apply everywhere')"
+ },
+ "B2-S1099": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'temperature' fits equally ('had a high temperature last night')"
+ },
+ "B2-S1135": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "Collocations 'a genuine mistake' and 'genuine interest' belong to the 'sincere/honest' sense, not the 'real, not fake' sense taught here"
+ },
+ "B2-S1145": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'web design', 'logo design', 'fashion design' etc. also fit 'Ploy studied ___ design'"
+ },
+ "B2-S1166": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "Collocations 'hook up' (also teen-inappropriate slang meaning) and 'be hooked on' are different senses from 'hang/attach with a hook'; note also teaches the other sense"
+ },
+ "B2-S1167": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Maybe' / 'Perhaps' fit the sentence-initial gap equally"
+ },
+ "B2-S1182": {
+  "batch": "batch-34.json",
+  "severity": "minor",
+  "problem": "Collocations 'a price index' and 'an index finger' are different senses from 'list at the back of a book'"
+ },
+ "B2-S1216": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "'pain in the joints of your knees' is unnatural; English says 'knee joints'"
+ },
+ "B2-S1227": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'life' fits equally ('during her life')"
+ },
+ "B2-S1235": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'name' fits equally ('printed its name on every cup')"
+ },
+ "B2-S1240": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'costumes' fits equally ('spent an hour putting on costumes')"
+ },
+ "B2-S1274": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'barefoot' fits equally ('ran around the house barefoot and laughing')"
+ },
+ "B2-S1288": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'care home' / 'retirement home' fit the same gap"
+ },
+ "B2-S1320": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'summer jobs', 'weekend jobs', 'evening jobs' fit equally"
+ },
+ "B2-S1321": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'full-time', 'weekends', 'evenings' also fit 'works ___ at a bookshop'"
+ },
+ "B2-S1324": {
+  "batch": "batch-35.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'takes a lot of time / energy' fits equally"
+ },
+ "B2-S1432": {
+  "batch": "batch-36.json",
+  "severity": "major",
+  "problem": "form 'star-shaped' is not the headword 'shaped'; the gap removes 'star-' too, leaving 'Mum made ___ cookies' where many words fit (chocolate, small), yet gapOk is true. Validator cannot match 'shaped' inside a hyphenated word, so the example needs rewriting"
+ },
+ "B2-S1356": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "exampleTH 'นักเรียนในห้องนี้สัดส่วนสูงมาจากนอกกรุงเทพฯ' is unnatural Thai"
+ },
+ "B2-S1364": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'in search of a career' fits equally"
+ },
+ "B2-S1402": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'After his operation/illness, my grandfather started growing vegetables' fits"
+ },
+ "B2-S1412": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Their holiday friendship began...' fits equally"
+ },
+ "B2-S1416": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'the ancient temples of Ayutthaya' fits equally"
+ },
+ "B2-S1417": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Customer orders/numbers went up after free delivery' fits equally"
+ },
+ "B2-S1427": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Job hunters' is a common equivalent that fits"
+ },
+ "B2-S1446": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'early next week' / 'later next week' fit equally"
+ },
+ "B2-S1448": {
+  "batch": "batch-36.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'extra' / 'second' key fit equally"
+ },
+ "B2-S1569": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "Thai 'หนอน' alone does not match the sense (worm living in soil = earthworm); exampleTH already uses ไส้เดือน and noteTH wrongly implies worm ≠ ไส้เดือน"
+ },
+ "B2-S1467": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'smoke' (common learner confusion) or 'water' fits 'Hot ___ came out of the pot'"
+ },
+ "B2-S1492": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Turn off the water while you brush your teeth' is equally common"
+ },
+ "B2-S1496": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'currently' / 'now' fit 'The shop is ___ closed'"
+ },
+ "B2-S1511": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'dissertation' fits 'her master's ___' equally"
+ },
+ "B2-S1566": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'workers' / 'staff' fit 'half of the ___ in this industry'"
+ },
+ "B2-S1564": {
+  "batch": "batch-37.json",
+  "severity": "minor",
+  "problem": "'ภูมิปัญญา' mostly means collective/traditional knowledge (ภูมิปัญญาชาวบ้าน); a person's wisdom from experience is better 'ปัญญา, ความรอบรู้' (exampleTH already uses ความรอบรู้)"
+ },
+ "C1-S0035": {
+  "batch": "batch-38.json",
+  "severity": "minor",
+  "problem": "exampleTH translates 'Admission' as 'การสอบเข้า' (entrance exam), which is not the meaning taught (being accepted/admitted)"
+ },
+ "C1-S0074": {
+  "batch": "batch-38.json",
+  "severity": "minor",
+  "problem": "gapOk true is too optimistic: 'confidential' (and 'private') fit 'The survey is ___, so please answer honestly' almost equally well"
+ },
+ "C1-S0124": {
+  "batch": "batch-38.json",
+  "severity": "minor",
+  "problem": "Collocation 'not bat an eyelid' belongs to a different sense (blink/show no reaction), not hitting a ball"
+ },
+ "C1-S0042": {
+  "batch": "batch-38.json",
+  "severity": "minor",
+  "problem": "shortTH 'ความรักใคร่เอ็นดู' keeps the stiff 'รักใคร่' that thaiChangeReason says was removed, and does not match the thai field"
+ },
+ "C1-S0166": {
+  "batch": "batch-39.json",
+  "severity": "minor",
+  "problem": "'ตัวกันกระแทก' (shock absorber) is an unnatural, literal Thai for a financial buffer; Thai readers would say 'กันชน' or 'สิ่งที่ช่วยรองรับ'"
+ },
+ "C1-S0231": {
+  "batch": "batch-39.json",
+  "severity": "minor",
+  "problem": "Negative frame 'not comparable to' is ambiguous (can mean 'cannot be compared') and does not clearly prove the sense 'similar in quality/amount'"
+ },
+ "C1-S0185": {
+  "batch": "batch-39.json",
+  "severity": "minor",
+  "problem": "exampleTH uses 'ชาวนา' (rice farmer) for a cattle farmer; 'เกษตรกร' is the natural neutral word"
+ },
+ "C1-S0384": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "Example is the idiom 'Speak of the devil!', where 'devil' refers to the person just mentioned; it does not show the taught sense (evil spirit in religions/stories)"
+ },
+ "C1-S0302": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "gapOk true is too optimistic: 'metal' (and 'aluminium') fit 'wires ... are made of ___ because it carries electricity well'"
+ },
+ "C1-S0334": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "gapOk true is too optimistic: 'modern classic' fits 'became a ___ classic among students' as well as 'cult classic'"
+ },
+ "C1-S0365": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "gapOk true is too optimistic: 'population growth' fits 'a much higher population ___ than other cities' as well as 'density'"
+ },
+ "C1-S0257": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "exampleTH 'เครื่องพิมพ์ทำการตั้งค่าเครือข่ายหายไป' is ungrammatical/unnatural Thai (the printer 'did the settings disappear')"
+ },
+ "C1-S0376": {
+  "batch": "batch-40.json",
+  "severity": "minor",
+  "problem": "exampleTH 'เป็นสิ่งที่อยากได้' is a literal gloss; Thai job ads express 'desirable' as an advantage"
+ },
+ "C1-S0432": {
+  "batch": "batch-41.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'the ___ force behind' also takes common near-synonyms (main, major, key, real)."
+ },
+ "C1-S0457": {
+  "batch": "batch-41.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'apply for a visa at the Japanese ___' fits 'consulate' equally well."
+ },
+ "C1-S0401": {
+  "batch": "batch-41.json",
+  "severity": "minor",
+  "problem": "Collocation 'discharge waste' belongs to the other sense (releasing liquid/gas), not 'allow a patient to leave hospital'."
+ },
+ "C1-S0433": {
+  "batch": "batch-41.json",
+  "severity": "minor",
+  "problem": "Collocation 'drown out' is a different phrasal verb (cover a sound), not the sense 'die under water'."
+ },
+ "C1-S0467": {
+  "batch": "batch-41.json",
+  "severity": "minor",
+  "problem": "exampleTH 'เป็นความพยายามที่เสี่ยง' is an unnatural literal rendering of 'a risky endeavour' (= undertaking)."
+ },
+ "C1-S0565": {
+  "batch": "batch-42.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: '___ is illegal in Thailand, except for the national lottery...' fits 'Betting' equally well."
+ },
+ "C1-S0597": {
+  "batch": "batch-42.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'We were ___ up the mountain' also fits partway, already, high, far."
+ },
+ "C1-S0604": {
+  "batch": "batch-42.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'the old ___ is too slow to run it' fits computer, laptop, machine equally well."
+ },
+ "C1-S0654": {
+  "batch": "batch-43.json",
+  "severity": "minor",
+  "problem": "shortTH 'ฉาวโฉ่' is not among the given Thai and is stronger (scandalous) than the sense shown (a road infamous for traffic jams); shortTH should match thai."
+ },
+ "C1-S0663": {
+  "batch": "batch-43.json",
+  "severity": "minor",
+  "problem": "exampleTH 'ให้สติกเกอร์ฟ้า' is ambiguous: ฟ้า reads as 'blue' (a blue sticker) rather than the name Fah."
+ },
+ "C1-S0696": {
+  "batch": "batch-43.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'moved from the beginner class to the ___ class' fits 'advanced' equally well."
+ },
+ "C1-S0699": {
+  "batch": "batch-43.json",
+  "severity": "minor",
+  "problem": "Collocation 'an intimate friend' is dated and often implies a sexual relationship; risky for teen learners."
+ },
+ "C1-S0735": {
+  "batch": "batch-43.json",
+  "severity": "minor",
+  "problem": "Example repeats the situation of C1-S0463 enact (law banning single-use plastic bags in supermarkets); vary situations."
+ },
+ "C1-S0773": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'takes about ninety minutes to reach the ___' also fits coast/shore/port"
+ },
+ "C1-S0778": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "Thai 'ที่บังคับ' is awkward as a stand-alone answer option; 'เป็นข้อบังคับ' is what a Thai teacher would write"
+ },
+ "C1-S0822": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "Logic weakens the meaning: if the bus was empty, it is not a miracle that nobody was hurt"
+ },
+ "C1-S0826": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "exampleTH word order is unnatural ('...มารุมรอดูวงเคป็อปเดินทางมาถึงอยู่หน้าสนามบิน')"
+ },
+ "C1-S0841": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "Thai 'ทางทะเล' means maritime/marine, not navy; naval = of the navy"
+ },
+ "C1-S0879": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'must attend ___ week' also fits welcome/induction/freshers' week"
+ },
+ "C1-S0880": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "Grammar: an origin in the past needs the perfect infinitive ('is thought to have originated'), not 'is thought to originate'"
+ },
+ "C1-S0896": {
+  "batch": "batch-44.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'need ___ permission' also fits written/special permission"
+ },
+ "C1-S0986": {
+  "batch": "batch-45.json",
+  "severity": "major",
+  "problem": "Example shows a different sense ('a risky proposition' = a risky undertaking/idea), not 'an offer or suggestion'; exampleTH 'ข้อเสนอที่เสี่ยง' is therefore misleading"
+ },
+ "C1-S0907": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "meaningEN and example describe a group (police patrol), but thai 'การลาดตระเวน' is the activity; exampleTH already uses หน่วยลาดตระเวน"
+ },
+ "C1-S0905": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'applied for a ___ for her new pump' also fits grant/loan"
+ },
+ "C1-S0930": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'My laptop ___ doesn't fit the sockets' also fits charger"
+ },
+ "C1-S0901": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "Collocation 'in passing' belongs to a different sense (mentioning something briefly), not time going by"
+ },
+ "C1-S0902": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "Collocation 'passive smoking' is a different sense (breathing others' smoke), not passive behaviour"
+ },
+ "C1-S0993": {
+  "batch": "batch-45.json",
+  "severity": "minor",
+  "problem": "exampleTH is repetitive and stiff ('ปฏิบัติตามระเบียบปฏิบัติ')"
+ },
+ "C1-S1097": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "meaningEN/example are the 'taking turns in a fixed order' sense, but thai 'การหมุน' and collocation 'the rotation of the Earth' belong to the spinning sense"
+ },
+ "C1-S1095": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'his fishing ___' also fits pole (fishing pole is common, esp. US)"
+ },
+ "C1-S1105": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'for the ___ of the children' also fits safety"
+ },
+ "C1-S1107": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'should have a ___ in how the school spends' also fits voice"
+ },
+ "C1-S1136": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'The photo ___ on the beach' also fits session"
+ },
+ "C1-S1139": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk too optimistic: 'Mali ___ with relief' also fits smiled/cried/laughed"
+ },
+ "C1-S1137": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "gapOk slightly optimistic: 'My T-shirt ___ when I washed it in hot water' also fits faded"
+ },
+ "C1-S1127": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "Collocation 'serial number' is a different sense (items in a series), not 'doing the same thing many times'"
+ },
+ "C1-S1048": {
+  "batch": "batch-46.json",
+  "severity": "minor",
+  "problem": "exampleTH 'เลือกรถคันนี้เพราะความไว้ใจได้' is unnatural for a car; also 'this car' as a product is รุ่นนี้"
+ },
+ "C1-S1190": {
+  "batch": "batch-47.json",
+  "severity": "major",
+  "problem": "Thai 'หุ้นส่วน' (shortTH) normally means a business partner/partnership, not the share of ownership; as an answer choice it gives the wrong meaning. exampleTH correctly uses 'หุ้น'."
+ },
+ "C1-S1161": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "shortTH 'ความเป็นน้ำหนึ่งใจเดียว' is a truncated, incomplete phrase; the full phrase (26 chars) fits the 30-char limit."
+ },
+ "C1-S1157": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "'with one ruling party' adds political commentary about a real country; BRIEF asks for non-political, neutral context. A neutral factual sentence shows the sense better."
+ },
+ "C1-S1198": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "'need plenty of stimulus' uses stimulus as an uncountable mass noun; natural English is 'stimulation' here, so the example models an unnatural pattern."
+ },
+ "C1-S1255": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "'office syndrome' is a Thai/Asian marketing term rarely used by native speakers; teaching it as a key collocation will mislead exam writers."
+ },
+ "C1-S1187": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "Collocations 'a stab of pain' and 'have a stab at' are noun uses, not the verb sense taught here."
+ },
+ "C1-S1276": {
+  "batch": "batch-47.json",
+  "severity": "minor",
+  "problem": "gapOk true is too optimistic: 'The course is mostly ___' also fits 'academic' naturally."
+ },
+ "C1-S1352": {
+  "batch": "batch-48.json",
+  "severity": "minor",
+  "problem": "gapOk true but 'oral' (and 'spoken') fit 'only a ___ agreement' equally well."
+ },
+ "C1-S1330": {
+  "batch": "batch-48.json",
+  "severity": "minor",
+  "problem": "For confidence/trust (the main use and the example), the everyday Thai is 'บั่นทอน' (exampleTH already uses it); 'บ่อนทำลาย' alone sounds like sabotage."
+ },
+ "C1-S1355": {
+  "batch": "batch-48.json",
+  "severity": "minor",
+  "problem": "shortTH 'บทกลอน' means a whole poem, not one section; the example is about a song verse (ท่อน)."
+ },
+ "C1-S1393": {
+  "batch": "batch-48.json",
+  "severity": "minor",
+  "problem": "meaningEN/example are only the money sense, but thai also lists 'การถอนตัว' (a different sense), so the Thai mixes two meanings."
+ }
+}

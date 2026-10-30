@@ -1,0 +1,67 @@
+{
+  "batch": "37",
+  "reviewed": 118,
+  "issues": [
+    {
+      "id": "B2-S1569",
+      "severity": "minor",
+      "problem": "Thai 'หนอน' alone does not match the sense (worm living in soil = earthworm); exampleTH already uses ไส้เดือน and noteTH wrongly implies worm ≠ ไส้เดือน",
+      "fix": {
+        "thai": "หนอน, ไส้เดือน",
+        "shortTH": "หนอน, ไส้เดือน",
+        "thaiChangeReason": "worm ที่อยู่ในดินคือไส้เดือน คำว่าหนอนอย่างเดียวแคบและไม่ตรงกับตัวอย่าง",
+        "noteTH": "worm ในดินคือไส้เดือน (earthworm); หนอนผีเสื้อใช้ caterpillar"
+      }
+    },
+    {
+      "id": "B2-S1467",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'smoke' (common learner confusion) or 'water' fits 'Hot ___ came out of the pot'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1492",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Turn off the water while you brush your teeth' is equally common",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1496",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'currently' / 'now' fit 'The shop is ___ closed'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1511",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'dissertation' fits 'her master's ___' equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1566",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'workers' / 'staff' fit 'half of the ___ in this industry'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1564",
+      "severity": "minor",
+      "problem": "'ภูมิปัญญา' mostly means collective/traditional knowledge (ภูมิปัญญาชาวบ้าน); a person's wisdom from experience is better 'ปัญญา, ความรอบรู้' (exampleTH already uses ความรอบรู้)",
+      "fix": {
+        "thai": "ปัญญา, ความรอบรู้, ภูมิปัญญา",
+        "shortTH": "ความรอบรู้",
+        "thaiChangeReason": "ภูมิปัญญามักใช้กับความรู้ของชุมชน ส่วนความรอบรู้ของบุคคลใช้ปัญญา/ความรอบรู้"
+      }
+    }
+  ]
+}

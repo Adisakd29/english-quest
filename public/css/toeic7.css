@@ -1,0 +1,36 @@
+/* TOEIC Reading Part 7 (public/js/toeic7.js) — ต่อยอดจาก toeic.css + toeic5.css + toeic6.css */
+.t7-docs { display: grid; gap: 10px; min-width: 0; }
+.t7-docs:focus, .t7-screen .t7-docs:focus-visible { outline: none; box-shadow: none; }
+@media (min-width: 980px) {
+  .t7-docs { position: sticky; top: 76px; max-height: calc(100vh - 96px); overflow: auto; padding-right: 4px; }
+  .t7-docs .t6-doc { position: static; max-height: none; overflow: visible; }
+}
+.t7-lead { margin: 0; font-size: 0.85rem; font-weight: 700; color: var(--color-text-muted); font-style: italic; }
+.t7-doc { margin: 0; }
+.t7-text { font-size: 0.98rem; }
+.t7-ev { background: rgba(255, 214, 10, 0.45); color: inherit; border-radius: 3px; padding: 0 1px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .t7-ev { background: rgba(255, 214, 10, 0.3); } }
+:root[data-theme="dark"] .t7-ev { background: rgba(255, 214, 10, 0.3); }
+.t7-ins { display: inline-block; padding: 0 5px; margin: 0 2px; border-radius: 6px; background: var(--tq-soft); color: var(--tq-accent); font-weight: 800; font-size: 0.85em; }
+.t7-ins.is-dim { opacity: 0.45; }
+.t7-ins.is-ok { display: inline; background: var(--color-success-soft); color: var(--color-success); font-weight: 600; font-size: 1em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.t7-tablewrap { overflow-x: auto; margin: 0 0 10px; -webkit-overflow-scrolling: touch; }
+.t7-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.t7-table th, .t7-table td { padding: 6px 8px; border: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+.t7-table th { background: var(--gl-card-2, rgba(0, 0, 0, 0.04)); font-weight: 800; }
+.t7-chat { display: grid; gap: 6px; margin: 0 0 10px; }
+.t7-msg { display: grid; gap: 2px; margin: 0 !important; padding: 8px 10px; border-radius: 12px 12px 12px 4px; background: var(--gl-card-2, rgba(0, 0, 0, 0.04)); max-width: 92%; }
+.t7-who { font-size: 0.8rem; font-weight: 800; color: var(--color-primary); }
+.t7-who small { font-weight: 600; color: var(--color-text-muted); }
+.t7-stem { font-weight: 700; line-height: 1.5; flex: 1 1 0; min-width: 0; }
+.t7-qcard .t6-qh { align-items: flex-start; flex-wrap: nowrap; }
+.t7-sentence { margin: 0 0 10px; padding: 8px 12px; border-left: 4px solid var(--color-primary); background: var(--tq-soft); border-radius: 0 10px 10px 0; font-style: italic; }
+.t7-evq { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin: 0 0 6px; font-size: 0.86rem; }
+.t7-evq q { font-style: italic; }
+.t7-toev { margin-left: 0; }
+@media (min-width: 980px) { .t7-toev { display: inline-flex; } }
+.t7-tr summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; }
+.t7-tabs { grid-template-columns: repeat(auto-fit, minmax(84px, 1fr)); }
+.t7-ev-row td { background: rgba(255, 214, 10, 0.4); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .t7-ev-row td { background: rgba(255, 214, 10, 0.25); } }
+:root[data-theme="dark"] .t7-ev-row td { background: rgba(255, 214, 10, 0.25); }

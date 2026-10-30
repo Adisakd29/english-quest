@@ -1,0 +1,392 @@
+[
+  {
+    "id": "R8-01",
+    "format": "single",
+    "topic": "health",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "notice",
+        "title": "Notice",
+        "text": "NOTICE\nFree Flu Vaccinations for Thornbury Engineering Staff\n\nNurses from Pinecrest Health Partners will be on site to offer free flu vaccinations to all Thornbury Engineering employees. The clinic will run on Tuesday, October 14, and Wednesday, October 15, from 9:00 A.M. to 3:00 P.M. in Training Room 2 on the ground floor.\n\nEach appointment takes about ten minutes. To reserve a time, sign up on the staff portal by Friday, October 10. Employees who do not sign up in advance may still visit the clinic, but priority will be given to those with appointments.\n\nPlease bring your employee ID card and wear a shirt with short or loose sleeves. If you have a fever on the day of your appointment, please stay home and contact the Human Resources office to arrange a later visit to Pinecrest's clinic on Duval Street.\n\nQuestions may be directed to Marisol Quint at extension 214."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the purpose of the notice?",
+        "options": ["To announce a vaccination event for employees", "To introduce a new company nurse", "To explain changes to a health insurance plan", "To ask employees to take sick leave"],
+        "answer": 0,
+        "evidence": ["will be on site to offer free flu vaccinations to all Thornbury Engineering employees"],
+        "explanationTH": "ประโยคแรกของประกาศระบุว่าพยาบาลจาก Pinecrest Health Partners จะมาให้บริการฉีดวัคซีนไข้หวัดใหญ่ฟรีแก่พนักงานทุกคน ส่วนที่เหลือเป็นรายละเอียดของกิจกรรมนี้ จุดประสงค์จึงเป็นการประกาศกิจกรรมฉีดวัคซีนให้พนักงาน",
+        "optionNotesTH": ["ถูก: ประกาศเรื่องการฉีดวัคซีนไข้หวัดใหญ่ฟรีให้พนักงาน", "ผิด: พยาบาลมาจากหน่วยงานภายนอกเพียงชั่วคราว ไม่ใช่พยาบาลประจำบริษัทคนใหม่", "ผิด: ไม่มีการพูดถึงประกันสุขภาพเลย", "ผิด: การให้อยู่บ้านพูดถึงเฉพาะคนที่มีไข้ ไม่ใช่จุดประสงค์หลัก"]
+      },
+      {
+        "type": "detail",
+        "stem": "What are employees asked to bring to the clinic?",
+        "options": ["A doctor's note", "A completed sign-up sheet", "Their employee identification", "A record of past vaccinations"],
+        "answer": 2,
+        "evidence": ["Please bring your employee ID card"],
+        "explanationTH": "ย่อหน้าที่สามเขียนว่า Please bring your employee ID card คือให้นำบัตรประจำตัวพนักงานมาด้วย ซึ่งตรงกับ employee identification",
+        "optionNotesTH": ["ผิด: ไม่ได้ขอใบรับรองแพทย์", "ผิด: การลงชื่อทำผ่าน staff portal ไม่ต้องนำเอกสารมา", "ถูก: employee ID card = บัตรประจำตัวพนักงาน", "ผิด: ไม่ได้พูดถึงประวัติการฉีดวัคซีน"]
+      },
+      {
+        "type": "detail",
+        "stem": "According to the notice, what should employees who have a fever do?",
+        "options": ["Visit the clinic on the second day", "Sign up again on the staff portal", "Go directly to the clinic on Duval Street", "Arrange a later visit through Human Resources"],
+        "answer": 3,
+        "evidence": ["please stay home and contact the Human Resources office to arrange a later visit"],
+        "explanationTH": "ประกาศบอกว่าถ้ามีไข้ในวันนัด ให้อยู่บ้านและติดต่อฝ่ายบุคคลเพื่อนัดไปฉีดภายหลัง คำตอบจึงเป็นการนัดใหม่ผ่านฝ่ายบุคคล",
+        "optionNotesTH": ["ผิด: ไม่ได้บอกให้มาวันที่สองแทน แต่ให้อยู่บ้าน", "ผิด: ไม่ได้ให้ลงชื่อใหม่ในระบบ แต่ให้ติดต่อฝ่ายบุคคล", "ผิด (กับดัก): Duval Street ปรากฏในข้อความ แต่ต้องติดต่อฝ่ายบุคคลเพื่อนัดก่อน ไม่ใช่ไปเองทันที", "ถูก: ติดต่อ Human Resources เพื่อนัดวันใหม่"]
+      }
+    ],
+    "translationTH": [
+      "ประกาศ\nบริการฉีดวัคซีนไข้หวัดใหญ่ฟรีสำหรับพนักงาน Thornbury Engineering\n\nพยาบาลจาก Pinecrest Health Partners จะมาให้บริการฉีดวัคซีนไข้หวัดใหญ่ฟรีแก่พนักงาน Thornbury Engineering ทุกคน ณ สำนักงาน โดยจะเปิดให้บริการในวันอังคารที่ 14 ตุลาคม และวันพุธที่ 15 ตุลาคม เวลา 9:00–15:00 น. ที่ห้องฝึกอบรม 2 ชั้นล่าง\n\nการฉีดแต่ละครั้งใช้เวลาประมาณสิบนาที หากต้องการจองเวลา กรุณาลงชื่อในระบบ staff portal ภายในวันศุกร์ที่ 10 ตุลาคม พนักงานที่ไม่ได้ลงชื่อล่วงหน้ายังสามารถมาที่จุดบริการได้ แต่ผู้ที่มีนัดหมายจะได้รับสิทธิ์ก่อน\n\nกรุณานำบัตรประจำตัวพนักงานมาด้วย และสวมเสื้อแขนสั้นหรือแขนหลวม หากท่านมีไข้ในวันนัด กรุณาอยู่บ้านและติดต่อฝ่ายบุคคลเพื่อนัดไปฉีดภายหลังที่คลินิกของ Pinecrest บนถนน Duval\n\nสอบถามเพิ่มเติมได้ที่คุณ Marisol Quint หมายเลขภายใน 214"
+    ],
+    "tipTH": "ประกาศแบบนี้มักถามจุดประสงค์ สิ่งที่ต้องเตรียม และสิ่งที่ต้องทำในกรณีพิเศษ ให้มองหาคำสั่งอย่าง Please bring / If you ... please ... ซึ่งมักเป็นที่มาของคำตอบ",
+    "vocabulary": [
+      { "word": "on site", "pos": "phrase", "th": "ณ สถานที่ (ที่ทำงาน)" },
+      { "word": "vaccination", "pos": "noun", "th": "การฉีดวัคซีน" },
+      { "word": "priority", "pos": "noun", "th": "สิทธิ์ก่อน, ลำดับความสำคัญ" },
+      { "word": "in advance", "pos": "phrase", "th": "ล่วงหน้า" },
+      { "word": "direct", "pos": "verb", "th": "ส่ง (คำถาม) ไปยัง" }
+    ]
+  },
+  {
+    "id": "R8-02",
+    "format": "single",
+    "topic": "travel",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "webpage",
+        "title": "Web Page",
+        "text": "www.brindleferries.com/group-bookings\n\nHome | Timetables | Fares | Group Bookings | Contact\n\nGroup Bookings\n\nTraveling with colleagues to a conference or company retreat on Kessa Island? Brindle Ferries offers reduced fares for groups of 12 or more passengers traveling together on the same sailing. Group fares are 15 percent lower than standard adult fares, and one passenger in every group of 20 travels free.\n\nTo make a group booking, complete the request form on this page at least 14 days before your departure date. A member of our reservations team will reply within two business days to confirm availability. A deposit of 25 percent is due when the booking is confirmed, and the remaining balance must be paid seven days before travel.\n\nChanges to the number of passengers can be made free of charge up to 48 hours before departure. Please note that group fares do not cover vehicles; cars and vans must be booked separately at the standard rate.\n\nGroups that require meeting space on board may reserve our Upper Deck Lounge, which seats up to 30 people, for an additional fee."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What is required to receive a group fare?",
+        "options": ["Booking at least 48 hours in advance", "Traveling with at least 11 other people on the same sailing", "Reserving the Upper Deck Lounge", "Paying the full amount at the time of booking"],
+        "answer": 1,
+        "evidence": ["groups of 12 or more passengers traveling together on the same sailing"],
+        "explanationTH": "ย่อหน้าแรกระบุว่าค่าโดยสารแบบกลุ่มใช้กับกลุ่มตั้งแต่ 12 คนขึ้นไปที่เดินทางเที่ยวเดียวกัน ซึ่งเท่ากับผู้โดยสารหนึ่งคนกับคนอื่นอีกอย่างน้อย 11 คน",
+        "optionNotesTH": ["ผิด (กับดัก): 48 ชั่วโมงคือกำหนดเปลี่ยนจำนวนผู้โดยสาร ส่วนการจองต้องล่วงหน้า 14 วัน", "ถูก: ตัวเองบวกอีก 11 คน = 12 คน บนเที่ยวเรือเดียวกัน", "ผิด: ห้อง Upper Deck Lounge เป็นบริการเสริม ไม่ใช่เงื่อนไข", "ผิด: จ่ายมัดจำ 25% ก่อน ไม่ใช่จ่ายเต็มตอนจอง"]
+      },
+      {
+        "type": "vocabulary",
+        "stem": "On the web page, the word \"cover\" in paragraph 3 is closest in meaning to",
+        "options": ["protect", "report on", "include", "hide"],
+        "answer": 2,
+        "evidence": ["group fares do not cover vehicles; cars and vans must be booked separately"],
+        "explanationTH": "ประโยค group fares do not cover vehicles ตามด้วยข้อความว่ารถยนต์ต้องจองแยกในราคาปกติ แสดงว่า cover ในที่นี้หมายถึง ครอบคลุม/รวมถึง จึงตรงกับ include",
+        "optionNotesTH": ["ผิด: protect (ปกป้อง) เป็นความหมายหนึ่งของ cover แต่ไม่เข้ากับบริบทค่าโดยสาร", "ผิด: report on (รายงานข่าว) ใช้กับสื่อ ไม่เข้ากับบริบท", "ถูก: ค่าโดยสารกลุ่มไม่ได้รวมรถยนต์", "ผิด: hide (ปิดบัง) ไม่เกี่ยวกับบริบท"]
+      },
+      {
+        "type": "notTrue",
+        "stem": "What is NOT indicated about group bookings?",
+        "options": ["A partial payment is required in advance.", "Requests should be made two weeks before travel.", "Passenger numbers can be changed without charge.", "Vehicles are carried at the group rate."],
+        "answer": 3,
+        "evidence": ["group fares do not cover vehicles; cars and vans must be booked separately at the standard rate"],
+        "explanationTH": "ข้อความระบุชัดว่าค่าโดยสารกลุ่มไม่รวมรถยนต์ ต้องจองแยกในอัตราปกติ ส่วนอีกสามตัวเลือกมีกล่าวไว้ (มัดจำ 25%, ล่วงหน้า 14 วัน, เปลี่ยนจำนวนคนได้ฟรี) จึงตอบ D",
+        "optionNotesTH": ["มีกล่าวถึง: A deposit of 25 percent is due คือจ่ายบางส่วนล่วงหน้า", "มีกล่าวถึง: at least 14 days before = สองสัปดาห์", "มีกล่าวถึง: Changes to the number of passengers can be made free of charge", "ถูก (ไม่จริง): รถยนต์ต้องจองแยกในราคาปกติ ไม่ได้ราคากลุ่ม"]
+      }
+    ],
+    "translationTH": [
+      "www.brindleferries.com/group-bookings\n\nหน้าแรก | ตารางเวลา | ค่าโดยสาร | การจองแบบกลุ่ม | ติดต่อเรา\n\nการจองแบบกลุ่ม\n\nกำลังจะเดินทางไปประชุมหรือไปสัมมนานอกสถานที่ของบริษัทที่เกาะ Kessa กับเพื่อนร่วมงานใช่ไหม Brindle Ferries มีค่าโดยสารลดราคาสำหรับกลุ่มตั้งแต่ 12 คนขึ้นไปที่เดินทางด้วยกันในเที่ยวเรือเดียวกัน ค่าโดยสารกลุ่มถูกกว่าค่าโดยสารผู้ใหญ่ปกติ 15 เปอร์เซ็นต์ และทุกกลุ่ม 20 คนจะมีผู้โดยสารหนึ่งคนเดินทางฟรี\n\nหากต้องการจองแบบกลุ่ม กรุณากรอกแบบฟอร์มคำขอในหน้านี้อย่างน้อย 14 วันก่อนวันเดินทาง เจ้าหน้าที่ฝ่ายสำรองที่นั่งจะตอบกลับภายในสองวันทำการเพื่อยืนยันว่ามีที่ว่าง ต้องชำระเงินมัดจำ 25 เปอร์เซ็นต์เมื่อการจองได้รับการยืนยัน และชำระส่วนที่เหลือเจ็ดวันก่อนเดินทาง\n\nสามารถเปลี่ยนจำนวนผู้โดยสารได้โดยไม่เสียค่าใช้จ่ายจนถึง 48 ชั่วโมงก่อนออกเดินทาง โปรดทราบว่าค่าโดยสารกลุ่มไม่รวมยานพาหนะ รถยนต์และรถตู้ต้องจองแยกในอัตราปกติ\n\nกลุ่มที่ต้องการพื้นที่ประชุมบนเรือสามารถจองห้อง Upper Deck Lounge ซึ่งจุได้ถึง 30 คน โดยมีค่าบริการเพิ่มเติม"
+    ],
+    "tipTH": "ข้อ NOT ให้ตัดตัวเลือกที่หาเจอในเนื้อเรื่องทีละข้อ ส่วนข้อคำศัพท์ให้ลองแทนตัวเลือกลงในประโยคเดิมแล้วดูว่าความหมายเข้ากับประโยคถัดไปหรือไม่",
+    "vocabulary": [
+      { "word": "retreat", "pos": "noun", "th": "การสัมมนา/พักผ่อนนอกสถานที่ของบริษัท" },
+      { "word": "sailing", "pos": "noun", "th": "เที่ยวเรือ" },
+      { "word": "deposit", "pos": "noun", "th": "เงินมัดจำ" },
+      { "word": "remaining balance", "pos": "phrase", "th": "ยอดเงินคงเหลือที่ต้องชำระ" },
+      { "word": "free of charge", "pos": "phrase", "th": "ไม่เสียค่าใช้จ่าย" }
+    ]
+  },
+  {
+    "id": "R8-03",
+    "format": "single",
+    "topic": "sales",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "memo",
+        "title": "Memo",
+        "text": "MEMO\nTo: Regional Sales Representatives\nFrom: Corinne Abadi, Director of Sales\nDate: February 3\nSubject: Product samples for client visits\n\nOver the past year, our team has given out more than 4,000 product samples during client visits. [1] While samples help us win new accounts, many have gone to customers who were unlikely to place an order, and our sample budget was exceeded by nearly 30 percent.\n\nStarting March 1, representatives will need to request samples through the new form in the SalesTrack system at least five business days before a client visit. [2] Each request must include the client's name, the products to be shown, and an estimate of the client's expected order size. Requests for more than ten items will need approval from your regional manager.\n\nSamples will be shipped directly to your home office from our warehouse in Fairbrook. [3] Please keep the packaging, as any unopened items that are not given to clients must be returned at the end of each quarter.\n\nI realize these changes add a step to your preparation. [4] However, we expect them to reduce waste and allow us to provide better-quality samples to the clients who matter most. Further details will be shared at the regional meeting on February 20."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the purpose of the memo?",
+        "options": ["To explain a new process for obtaining product samples", "To announce the opening of a new warehouse", "To ask representatives to visit more clients", "To report record sales figures for the year"],
+        "answer": 0,
+        "evidence": ["representatives will need to request samples through the new form in the SalesTrack system"],
+        "explanationTH": "หัวเรื่องคือ Product samples for client visits และเนื้อหาหลักอธิบายว่าตั้งแต่ 1 มีนาคม พนักงานขายต้องขอสินค้าตัวอย่างผ่านแบบฟอร์มใหม่ในระบบ SalesTrack พร้อมรายละเอียดการจัดส่งและส่งคืน จุดประสงค์จึงเป็นการอธิบายขั้นตอนใหม่",
+        "optionNotesTH": ["ถูก: อธิบายขั้นตอนใหม่ในการขอสินค้าตัวอย่าง", "ผิด: คลังสินค้าที่ Fairbrook มีอยู่แล้ว ไม่ได้เปิดใหม่", "ผิด: ไม่ได้ขอให้เยี่ยมลูกค้าเพิ่ม", "ผิด: พูดถึงงบตัวอย่างที่เกิน ไม่ใช่ยอดขายสูงสุด"]
+      },
+      {
+        "type": "detail",
+        "stem": "What information must be included in a sample request?",
+        "options": ["The date of the client's last order", "The address of the client's business", "The name of the regional manager", "An estimate of how much the client may buy"],
+        "answer": 3,
+        "evidence": ["an estimate of the client's expected order size"],
+        "explanationTH": "ย่อหน้าที่สองระบุว่าคำขอต้องมีชื่อลูกค้า สินค้าที่จะนำเสนอ และประมาณการขนาดคำสั่งซื้อที่คาดว่าลูกค้าจะสั่ง ซึ่งตรงกับตัวเลือก D",
+        "optionNotesTH": ["ผิด: ไม่ได้ขอวันที่สั่งซื้อครั้งล่าสุด", "ผิด: ขอชื่อลูกค้า ไม่ใช่ที่อยู่", "ผิด (กับดัก): regional manager ต้องอนุมัติคำขอเกินสิบชิ้น ไม่ได้ต้องใส่ชื่อในคำขอ", "ถูก: expected order size = ปริมาณที่ลูกค้าน่าจะซื้อ"]
+      },
+      {
+        "type": "inference",
+        "stem": "What is suggested about the sample program last year?",
+        "options": ["It was used only by new representatives.", "It cost more than the company had planned.", "It led to fewer new accounts.", "It was managed by staff at the Fairbrook warehouse."],
+        "answer": 1,
+        "evidence": ["our sample budget was exceeded by nearly 30 percent"],
+        "explanationTH": "ย่อหน้าแรกบอกว่างบประมาณสำหรับสินค้าตัวอย่างถูกใช้เกินไปเกือบ 30 เปอร์เซ็นต์ แปลว่าค่าใช้จ่ายสูงกว่าที่บริษัทวางแผนไว้",
+        "optionNotesTH": ["ผิด: ไม่ได้บอกว่ามีแต่พนักงานใหม่ที่ใช้", "ถูก: budget was exceeded = ใช้เงินเกินแผน", "ผิด: เนื้อเรื่องบอกว่าตัวอย่างช่วยให้ได้ลูกค้าใหม่ (help us win new accounts)", "ผิด: ไม่ได้กล่าวว่าใครเป็นผู้ดูแลโครงการในปีที่ผ่านมา"]
+      },
+      {
+        "type": "insertion",
+        "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?",
+        "sentence": "As a result, representatives will no longer be able to pick up samples at the warehouse in person.",
+        "options": ["[1]", "[2]", "[3]", "[4]"],
+        "answer": 2,
+        "explanationTH": "ประโยคที่ให้มาขึ้นต้นด้วย As a result และพูดถึงการไม่ต้องไปรับตัวอย่างที่คลังสินค้าเอง จึงต้องตามหลังประโยคที่บอกว่าสินค้าตัวอย่างจะถูกส่งตรงจากคลังที่ Fairbrook ไปยังสำนักงานที่บ้าน ซึ่งคือตำแหน่ง [3]",
+        "optionNotesTH": ["ผิด: ตำแหน่ง [1] ยังพูดถึงจำนวนตัวอย่างในปีที่แล้ว ยังไม่มีเรื่องการจัดส่ง", "ผิด: ตำแหน่ง [2] พูดถึงการกรอกแบบฟอร์ม ไม่มีเหตุให้ใช้ As a result เรื่องคลังสินค้า", "ถูก: ต่อจากเรื่องส่งตัวอย่างตรงจากคลัง จึงไม่ต้องไปรับเองอีก", "ผิด: ตำแหน่ง [4] เป็นการสรุปเหตุผลของการเปลี่ยนแปลง ไม่เชื่อมกับเรื่องคลังสินค้า"]
+      }
+    ],
+    "translationTH": [
+      "บันทึกภายใน\nถึง: พนักงานขายประจำภูมิภาค\nจาก: Corinne Abadi ผู้อำนวยการฝ่ายขาย\nวันที่: 3 กุมภาพันธ์\nเรื่อง: สินค้าตัวอย่างสำหรับการเยี่ยมลูกค้า\n\nในปีที่ผ่านมา ทีมของเราแจกสินค้าตัวอย่างไปมากกว่า 4,000 ชิ้นระหว่างการเยี่ยมลูกค้า แม้ว่าสินค้าตัวอย่างจะช่วยให้เราได้ลูกค้าใหม่ แต่จำนวนมากตกไปอยู่กับลูกค้าที่ไม่น่าจะสั่งซื้อ และงบประมาณสินค้าตัวอย่างของเราถูกใช้เกินไปเกือบ 30 เปอร์เซ็นต์\n\nตั้งแต่วันที่ 1 มีนาคม พนักงานขายต้องขอสินค้าตัวอย่างผ่านแบบฟอร์มใหม่ในระบบ SalesTrack อย่างน้อยห้าวันทำการก่อนการเยี่ยมลูกค้า คำขอแต่ละรายการต้องระบุชื่อลูกค้า สินค้าที่จะนำเสนอ และประมาณการขนาดคำสั่งซื้อที่คาดว่าลูกค้าจะสั่ง คำขอที่เกินสิบชิ้นต้องได้รับอนุมัติจากผู้จัดการภูมิภาคของท่าน\n\nสินค้าตัวอย่างจะถูกส่งตรงจากคลังสินค้าของเราที่ Fairbrook ไปยังสำนักงานที่บ้านของท่าน กรุณาเก็บบรรจุภัณฑ์ไว้ เนื่องจากสินค้าที่ยังไม่เปิดและไม่ได้มอบให้ลูกค้าจะต้องส่งคืนทุกสิ้นไตรมาส\n\nดิฉันเข้าใจว่าการเปลี่ยนแปลงนี้เพิ่มขั้นตอนในการเตรียมตัวของท่าน อย่างไรก็ตาม เราคาดว่าจะช่วยลดของเสียและทำให้เราสามารถมอบสินค้าตัวอย่างที่มีคุณภาพดีขึ้นให้แก่ลูกค้าที่สำคัญที่สุด รายละเอียดเพิ่มเติมจะแจ้งในการประชุมภูมิภาควันที่ 20 กุมภาพันธ์"
+    ],
+    "tipTH": "ข้อแทรกประโยคให้ดูคำเชื่อมในประโยคที่ให้มา เช่น As a result ซึ่งต้องตามหลังสาเหตุที่เกี่ยวข้องโดยตรง แล้วหาคำสำคัญที่ซ้ำกัน (warehouse) ในประโยคก่อนหน้าตำแหน่งนั้น",
+    "vocabulary": [
+      { "word": "account", "pos": "noun", "th": "ลูกค้า (บัญชีลูกค้า)" },
+      { "word": "exceed", "pos": "verb", "th": "เกิน" },
+      { "word": "estimate", "pos": "noun", "th": "การประมาณการ" },
+      { "word": "approval", "pos": "noun", "th": "การอนุมัติ" },
+      { "word": "unopened", "pos": "adjective", "th": "ยังไม่ได้เปิด" }
+    ]
+  },
+  {
+    "id": "R8-04",
+    "format": "single",
+    "topic": "technology",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "chat",
+        "title": "Online Chat Discussion",
+        "text": "Gemma Holt [8:42 A.M.]: Morning, both. Several people in Accounting say they can't open the shared drive since last night's update.\nTariq Benali [8:44 A.M.]: I saw that too. The update reset the access permissions for some folders. I can restore them, but it will take about an hour.\nGemma Holt [8:45 A.M.]: Accounting has to submit the quarterly figures to Nordvik Bank by noon. Can they be first?\nTariq Benali [8:46 A.M.]: Sure. I'll start with their folders right now.\nLeon Achterberg [8:48 A.M.]: In the meantime, they could work from the backup copies. Those were saved at 6:00 P.M. yesterday, before the update.\nGemma Holt [8:49 A.M.]: Would any of their work be missing?\nLeon Achterberg [8:50 A.M.]: Only anything they saved after 6:00. Most of them leave at 5:30.\nGemma Holt [8:51 A.M.]: Good point. I'll send them the link to the backups.\nTariq Benali [8:53 A.M.]: Also, we should pause the update on the other floors until I find out what caused the problem.\nLeon Achterberg [8:54 A.M.]: Agreed. I'll cancel tonight's installation for the third and fourth floors and let the managers know.\nGemma Holt [8:55 A.M.]: Thanks. Let's meet at 1:00 to review what happened."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What problem are the writers discussing?",
+        "options": ["A bank has rejected some financial figures.", "An update was installed on the wrong floor.", "Some employees are unable to open shared files.", "Backup copies of some files were deleted."],
+        "answer": 2,
+        "evidence": ["Several people in Accounting say they can't open the shared drive since last night's update."],
+        "explanationTH": "ข้อความแรกของคุณ Holt บอกว่าพนักงานฝ่ายบัญชีหลายคนเปิดไดรฟ์ที่ใช้ร่วมกันไม่ได้หลังการอัปเดตเมื่อคืน คุณ Benali ยืนยันว่าสิทธิ์การเข้าถึงโฟลเดอร์ถูกรีเซ็ต จึงตอบ C",
+        "optionNotesTH": ["ผิด: ธนาคาร Nordvik ยังไม่ได้รับตัวเลขเลย ไม่ได้ปฏิเสธ", "ผิด: ไม่ได้บอกว่าติดตั้งผิดชั้น แต่จะหยุดติดตั้งชั้นอื่นไว้ก่อน", "ถูก: can't open the shared drive = เปิดไฟล์ที่ใช้ร่วมกันไม่ได้", "ผิด: ไฟล์สำรองยังอยู่และจะส่งลิงก์ให้ใช้"]
+      },
+      {
+        "type": "intent",
+        "stem": "At 8:50 A.M., what does Mr. Achterberg most likely mean when he writes, \"Most of them leave at 5:30\"?",
+        "options": ["Little recent work is likely to be missing from the backups.", "The Accounting staff should stay late tonight.", "The backups were made too early to be useful.", "The review meeting should end before 5:30."],
+        "answer": 0,
+        "evidence": ["Only anything they saved after 6:00. Most of them leave at 5:30."],
+        "explanationTH": "คุณ Holt ถามว่างานจะหายไหม คุณ Achterberg ตอบว่าหายเฉพาะงานที่บันทึกหลัง 18:00 น. และพนักงานส่วนใหญ่กลับบ้านตอน 17:30 น. หมายความว่าไฟล์สำรองน่าจะมีงานเกือบครบ แทบไม่มีอะไรหาย",
+        "optionNotesTH": ["ถูก: คนส่วนใหญ่กลับก่อนเวลาสำรองไฟล์ งานที่หายจึงมีน้อยมาก", "ผิด: ไม่ได้พูดถึงการอยู่ทำงานดึก", "ผิด: ความหมายตรงข้าม ไฟล์สำรองยังใช้ได้ดี", "ผิด: การประชุมนัดตอน 13:00 น. ไม่เกี่ยวกับ 5:30"]
+      },
+      {
+        "type": "detail",
+        "stem": "Why does Ms. Holt ask for the Accounting staff to be helped first?",
+        "options": ["They have the largest number of folders.", "They have already finished their quarterly figures.", "They work on the third floor.", "They must send information to a bank by midday."],
+        "answer": 3,
+        "evidence": ["Accounting has to submit the quarterly figures to Nordvik Bank by noon."],
+        "explanationTH": "เวลา 8:45 น. คุณ Holt บอกว่าฝ่ายบัญชีต้องส่งตัวเลขรายไตรมาสให้ธนาคาร Nordvik ภายในเที่ยงวัน จึงขอให้แก้ปัญหาให้ฝ่ายนี้ก่อน",
+        "optionNotesTH": ["ผิด: ไม่มีการพูดถึงจำนวนโฟลเดอร์", "ผิด: พวกเขายังต้องส่งตัวเลขภายในเที่ยง ไม่ได้บอกว่าทำเสร็จแล้ว", "ผิด (กับดัก): ชั้น 3 และ 4 คือชั้นที่จะยกเลิกการติดตั้ง ไม่เกี่ยวกับฝ่ายบัญชี", "ถูก: by noon = ภายในเที่ยงวัน (midday)"]
+      },
+      {
+        "type": "inference",
+        "stem": "What will Mr. Achterberg most likely do next?",
+        "options": ["Restore some folder permissions", "Postpone a scheduled software installation", "Send a link to the Accounting team", "Contact a representative at Nordvik Bank"],
+        "answer": 1,
+        "evidence": ["I'll cancel tonight's installation for the third and fourth floors and let the managers know."],
+        "explanationTH": "คุณ Benali เสนอให้หยุดการอัปเดตชั้นอื่นไว้จนกว่าจะหาสาเหตุเจอ และคุณ Achterberg ตอบว่าจะยกเลิกการติดตั้งคืนนี้ของชั้น 3 และ 4 จึงเท่ากับการเลื่อนการติดตั้งที่วางแผนไว้ออกไป",
+        "optionNotesTH": ["ผิด: คุณ Benali เป็นผู้กู้คืนสิทธิ์โฟลเดอร์", "ถูก: ยกเลิกการติดตั้งคืนนี้จนกว่าจะหาสาเหตุได้ = เลื่อนออกไป", "ผิด: คุณ Holt เป็นผู้ส่งลิงก์ไฟล์สำรอง", "ผิด: ไม่มีใครบอกว่าจะติดต่อธนาคาร"]
+      }
+    ],
+    "translationTH": [
+      "Gemma Holt [8:42 น.]: อรุณสวัสดิ์ทั้งสองคน หลายคนในฝ่ายบัญชีบอกว่าเปิดไดรฟ์ที่ใช้ร่วมกันไม่ได้ตั้งแต่การอัปเดตเมื่อคืน\nTariq Benali [8:44 น.]: ผมก็เห็นเหมือนกัน การอัปเดตรีเซ็ตสิทธิ์การเข้าถึงของบางโฟลเดอร์ ผมกู้คืนได้ แต่จะใช้เวลาประมาณหนึ่งชั่วโมง\nGemma Holt [8:45 น.]: ฝ่ายบัญชีต้องส่งตัวเลขรายไตรมาสให้ธนาคาร Nordvik ภายในเที่ยง ทำให้พวกเขาก่อนได้ไหม\nTariq Benali [8:46 น.]: ได้ครับ ผมจะเริ่มที่โฟลเดอร์ของพวกเขาเดี๋ยวนี้เลย\nLeon Achterberg [8:48 น.]: ระหว่างนี้ พวกเขาทำงานจากไฟล์สำรองไปก่อนได้ ไฟล์เหล่านั้นบันทึกไว้ตอน 18:00 น. เมื่อวาน ก่อนการอัปเดต\nGemma Holt [8:49 น.]: งานของพวกเขาจะหายไปบ้างไหม\nLeon Achterberg [8:50 น.]: หายเฉพาะที่บันทึกหลัง 18:00 น. คนส่วนใหญ่กลับบ้านตอน 17:30 น.\nGemma Holt [8:51 น.]: จริงด้วย เดี๋ยวฉันส่งลิงก์ไฟล์สำรองให้พวกเขา\nTariq Benali [8:53 น.]: อีกอย่าง เราควรหยุดการอัปเดตชั้นอื่นไว้ก่อนจนกว่าผมจะรู้ว่าอะไรเป็นสาเหตุ\nLeon Achterberg [8:54 น.]: เห็นด้วย ผมจะยกเลิกการติดตั้งคืนนี้ของชั้นสามและชั้นสี่ แล้วแจ้งผู้จัดการให้ทราบ\nGemma Holt [8:55 น.]: ขอบคุณ เรามาประชุมกันตอน 13:00 น. เพื่อทบทวนว่าเกิดอะไรขึ้น"
+    ],
+    "tipTH": "ข้อถามเจตนา (intent) ให้อ่านข้อความก่อนหน้าประโยคที่ถาม เพราะประโยคนั้นมักเป็นคำตอบของคำถามก่อนหน้า ส่วนข้อ What will ... do next ให้ดูว่าใครพูดว่า I'll ... ในช่วงท้าย",
+    "vocabulary": [
+      { "word": "shared drive", "pos": "noun", "th": "ไดรฟ์ที่ใช้ร่วมกัน" },
+      { "word": "access permission", "pos": "noun", "th": "สิทธิ์การเข้าถึง" },
+      { "word": "restore", "pos": "verb", "th": "กู้คืน" },
+      { "word": "in the meantime", "pos": "phrase", "th": "ในระหว่างนี้" },
+      { "word": "backup copy", "pos": "noun", "th": "ไฟล์สำรอง" }
+    ]
+  },
+  {
+    "id": "R8-05",
+    "format": "double",
+    "topic": "marketing",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "advertisement",
+        "title": "Advertisement",
+        "text": "Tallgrass Digital Studio\nSocial Media Packages for Small Businesses\n\nLet our team handle your online presence while you focus on running your business. All packages include a monthly performance report and a dedicated account manager.\n\n| Package | Posts per month | Platforms | Monthly fee |\n| Essentials | 12 | 2 | $450 |\n| Growth | 20 | 3 | $780 |\n| Premier | 30 | 4 | $1,150 |\n\nGrowth and Premier clients also receive one professional photo shoot every three months. Premier clients may additionally request short promotional videos at a reduced rate.\n\nNew clients who sign a six-month agreement before July 31 will receive their first month at half price. To arrange a free consultation, call 555-0187 or write to hello@tallgrassdigital.com."
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: hello@tallgrassdigital.com\nFrom: Noriko Esposito <nesposito@fennelrye.com>\nDate: July 22\nSubject: Package inquiry\n\nHello,\n\nI own Fennel & Rye Bakery, which has two locations in Carrow Heights. We currently post on our social media accounts only when someone on our staff has time, which is not often. A friend who runs a flower shop recommended your studio, saying her sales rose noticeably after you started managing her accounts.\n\nWe would like about 20 posts a month spread across three platforms. Because our products change with the seasons, regular professional photos are important to us, so a package that includes them seems ideal. Videos are not something we need at this point.\n\nI am ready to commit for six months, and I would like to start in early August. Could someone contact me this week to set up a consultation? I am usually at our Delancey Road shop in the mornings, and the best number to reach me is 555-0163.\n\nRegards,\nNoriko Esposito"
+      }
+    ],
+    "questions": [
+      {
+        "type": "notTrue",
+        "stem": "What is NOT mentioned as something Tallgrass Digital Studio offers?",
+        "options": ["Monthly reports on results", "A single contact person for each client", "A free first meeting", "Management of paid online advertisements"],
+        "answer": 3,
+        "evidence": ["All packages include a monthly performance report and a dedicated account manager.", "To arrange a free consultation, call 555-0187"],
+        "explanationTH": "โฆษณาระบุว่าทุกแพ็กเกจมีรายงานผลประจำเดือนและผู้ดูแลบัญชีเฉพาะ และมีการปรึกษาฟรี แต่ไม่มีการพูดถึงการบริหารโฆษณาออนไลน์แบบเสียเงินเลย จึงตอบ D",
+        "optionNotesTH": ["มีกล่าวถึง: monthly performance report", "มีกล่าวถึง: dedicated account manager = ผู้ดูแลเฉพาะของลูกค้าแต่ละราย", "มีกล่าวถึง: free consultation = การพบปรึกษาครั้งแรกฟรี", "ถูก (ไม่ได้กล่าวถึง): ไม่มีบริการจัดการโฆษณาแบบเสียเงินในโฆษณานี้"]
+      },
+      {
+        "type": "inference",
+        "stem": "What is indicated about Ms. Esposito's friend?",
+        "options": ["Her business improved after using the studio's services.", "She works at Fennel & Rye Bakery.", "She owns a bakery in Carrow Heights.", "She used to work for Tallgrass Digital Studio."],
+        "answer": 0,
+        "evidence": ["saying her sales rose noticeably after you started managing her accounts"],
+        "explanationTH": "ในอีเมลย่อหน้าแรก คุณ Esposito เล่าว่าเพื่อนที่เปิดร้านดอกไม้แนะนำสตูดิโอนี้ เพราะยอดขายเพิ่มขึ้นอย่างเห็นได้ชัดหลังจากสตูดิโอเข้ามาดูแลบัญชีโซเชียลมีเดีย แสดงว่าธุรกิจของเพื่อนดีขึ้น",
+        "optionNotesTH": ["ถูก: sales rose noticeably = ธุรกิจดีขึ้นหลังใช้บริการ", "ผิด: เพื่อนเปิดร้านดอกไม้ ไม่ได้ทำงานที่ร้านเบเกอรี่", "ผิด (กับดัก): Carrow Heights คือที่ตั้งร้านเบเกอรี่ของคุณ Esposito เอง", "ผิด: ไม่มีข้อมูลว่าเพื่อนเคยทำงานกับสตูดิโอ"]
+      },
+      {
+        "type": "crossReference",
+        "stem": "Which package will Ms. Esposito most likely choose?",
+        "options": ["Essentials", "Growth", "Premier", "A custom package"],
+        "answer": 1,
+        "evidence": ["We would like about 20 posts a month spread across three platforms.", "Growth and Premier clients also receive one professional photo shoot every three months."],
+        "explanationTH": "อีเมลบอกว่าต้องการราว 20 โพสต์ต่อเดือนบน 3 แพลตฟอร์ม และต้องการภาพถ่ายมืออาชีพแต่ไม่ต้องการวิดีโอ เมื่อดูตารางในโฆษณา แพ็กเกจ Growth มี 20 โพสต์ 3 แพลตฟอร์ม และได้ถ่ายภาพมืออาชีพ จึงตรงที่สุด",
+        "optionNotesTH": ["ผิด: Essentials มีแค่ 12 โพสต์ 2 แพลตฟอร์ม และไม่มีการถ่ายภาพ", "ถูก: 20 โพสต์ 3 แพลตฟอร์ม และมีถ่ายภาพมืออาชีพ", "ผิด: Premier มีมากกว่าที่ต้องการ และจุดเด่นเรื่องวิดีโอก็ไม่จำเป็นสำหรับเธอ", "ผิด: ไม่มีการพูดถึงแพ็กเกจพิเศษ และ Growth ตรงความต้องการอยู่แล้ว"]
+      },
+      {
+        "type": "crossReference",
+        "stem": "How much will Ms. Esposito most likely pay for her first month of service?",
+        "options": ["$225", "$390", "$575", "$780"],
+        "answer": 1,
+        "evidence": ["I am ready to commit for six months", "New clients who sign a six-month agreement before July 31 will receive their first month at half price."],
+        "explanationTH": "คุณ Esposito น่าจะเลือก Growth ($780) เธอพร้อมทำสัญญาหกเดือน และส่งอีเมลวันที่ 22 กรกฎาคม ก่อนวันที่ 31 กรกฎาคม จึงได้ส่วนลดเดือนแรกครึ่งราคา คือ $780 ÷ 2 = $390",
+        "optionNotesTH": ["ผิด: $225 คือครึ่งราคาของแพ็กเกจ Essentials", "ถูก: ครึ่งราคาของ Growth $780 = $390", "ผิด: $575 คือครึ่งราคาของแพ็กเกจ Premier", "ผิด: $780 คือราคาเต็ม ไม่ได้คิดส่วนลดเดือนแรก"]
+      },
+      {
+        "type": "detail",
+        "stem": "What does Ms. Esposito request in her e-mail?",
+        "options": ["Examples of the studio's previous work", "A discount on video production", "To be contacted about arranging a consultation", "A visit to her shop on Delancey Road"],
+        "answer": 2,
+        "evidence": ["Could someone contact me this week to set up a consultation?"],
+        "explanationTH": "ย่อหน้าสุดท้ายของอีเมล คุณ Esposito ขอให้มีคนติดต่อกลับภายในสัปดาห์นี้เพื่อนัดการปรึกษา และให้เบอร์โทรศัพท์ไว้ จึงตอบ C",
+        "optionNotesTH": ["ผิด: ไม่ได้ขอดูผลงานเก่า", "ผิด: เธอบอกว่ายังไม่ต้องการวิดีโอ", "ถูก: ขอให้ติดต่อกลับเพื่อนัดปรึกษา", "ผิด (กับดัก): เธอบอกแค่ว่าปกติอยู่ที่ร้าน Delancey Road ช่วงเช้า ไม่ได้ขอให้มาที่ร้าน"]
+      }
+    ],
+    "translationTH": [
+      "Tallgrass Digital Studio\nแพ็กเกจโซเชียลมีเดียสำหรับธุรกิจขนาดเล็ก\n\nให้ทีมของเราดูแลตัวตนออนไลน์ของคุณ ขณะที่คุณมุ่งเน้นการบริหารธุรกิจ ทุกแพ็กเกจมีรายงานผลการดำเนินงานประจำเดือนและผู้ดูแลบัญชีเฉพาะของคุณ\n\n| แพ็กเกจ | จำนวนโพสต์ต่อเดือน | แพลตฟอร์ม | ค่าบริการรายเดือน |\n| Essentials | 12 | 2 | $450 |\n| Growth | 20 | 3 | $780 |\n| Premier | 30 | 4 | $1,150 |\n\nลูกค้าแพ็กเกจ Growth และ Premier จะได้รับการถ่ายภาพโดยช่างภาพมืออาชีพหนึ่งครั้งทุกสามเดือน ลูกค้า Premier ยังสามารถขอวิดีโอโปรโมตสั้น ๆ ในราคาพิเศษได้อีกด้วย\n\nลูกค้าใหม่ที่ทำสัญญาหกเดือนก่อนวันที่ 31 กรกฎาคม จะได้รับเดือนแรกในราคาครึ่งหนึ่ง หากต้องการนัดปรึกษาฟรี โทร 555-0187 หรือเขียนถึง hello@tallgrassdigital.com",
+      "ถึง: hello@tallgrassdigital.com\nจาก: Noriko Esposito <nesposito@fennelrye.com>\nวันที่: 22 กรกฎาคม\nเรื่อง: สอบถามเรื่องแพ็กเกจ\n\nสวัสดีค่ะ\n\nดิฉันเป็นเจ้าของร้าน Fennel & Rye Bakery ซึ่งมีสองสาขาใน Carrow Heights ปัจจุบันเราโพสต์ในบัญชีโซเชียลมีเดียเฉพาะตอนที่พนักงานมีเวลา ซึ่งไม่ค่อยบ่อยนัก เพื่อนของดิฉันที่เปิดร้านดอกไม้แนะนำสตูดิโอของคุณ โดยบอกว่ายอดขายของเธอเพิ่มขึ้นอย่างเห็นได้ชัดหลังจากคุณเริ่มดูแลบัญชีของเธอ\n\nเราต้องการประมาณ 20 โพสต์ต่อเดือนกระจายบนสามแพลตฟอร์ม เนื่องจากสินค้าของเราเปลี่ยนไปตามฤดูกาล ภาพถ่ายมืออาชีพอย่างสม่ำเสมอจึงสำคัญสำหรับเรา แพ็กเกจที่มีบริการนี้จึงดูเหมาะที่สุด ส่วนวิดีโอยังไม่จำเป็นสำหรับเราในตอนนี้\n\nดิฉันพร้อมทำสัญญาหกเดือน และอยากเริ่มต้นเดือนสิงหาคม ช่วยให้มีคนติดต่อกลับในสัปดาห์นี้เพื่อนัดปรึกษาได้ไหมคะ ปกติดิฉันจะอยู่ที่ร้านสาขาถนน Delancey ในช่วงเช้า และเบอร์ที่ติดต่อได้สะดวกที่สุดคือ 555-0163\n\nด้วยความนับถือ\nNoriko Esposito"
+    ],
+    "tipTH": "ชุดเอกสารคู่ที่มีตารางราคา มักมีข้อให้จับคู่ความต้องการในอีเมลกับแถวในตาราง แล้วคำนวณส่วนลดต่อ อย่าลืมตรวจเงื่อนไขส่วนลด (วันที่ส่งอีเมลและระยะสัญญา) ก่อนเลือกตัวเลข",
+    "vocabulary": [
+      { "word": "online presence", "pos": "noun", "th": "การมีตัวตนบนโลกออนไลน์" },
+      { "word": "dedicated", "pos": "adjective", "th": "เฉพาะ, ที่ดูแลโดยเฉพาะ" },
+      { "word": "consultation", "pos": "noun", "th": "การปรึกษา" },
+      { "word": "noticeably", "pos": "adverb", "th": "อย่างเห็นได้ชัด" },
+      { "word": "commit", "pos": "verb", "th": "ตกลงผูกมัด (ทำสัญญา)" }
+    ]
+  },
+  {
+    "id": "R8-06",
+    "format": "triple",
+    "topic": "hr",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "webpage",
+        "title": "Web Page",
+        "text": "Corrandale Pharmaceuticals Employee Portal > Policies > Flexible Work\n\nFlexible Work Arrangements\n\nCorrandale offers two flexible work options to eligible employees.\n\nCompressed schedule: Employees work their regular 40 hours over four days instead of five. This option is available to employees who have completed six months of service.\n\nHybrid schedule: Employees work from home up to two days per week. This option is available to employees who have completed one year of service. Laboratory staff are not eligible, as their duties require them to be on site.\n\nTo apply, submit a Flexible Work Request Form to your direct manager. Managers will respond within ten business days. Approved arrangements begin on the first Monday of the following month and are reviewed after three months."
+      },
+      {
+        "docType": "form",
+        "title": "Form",
+        "text": "Corrandale Pharmaceuticals\nFlexible Work Request Form\n\nEmployee name: Yasmin Delacroix\nDepartment: Regulatory Affairs\nPosition: Documentation Specialist\nLength of service: 8 months\nDirect manager: Desmond Kirwan\nOption requested: Hybrid schedule\nPreferred days to work from home: Tuesdays and Thursdays\nReason for request: I live 70 kilometers from the office, and my commute takes nearly two hours each way. Working from home on some days would give me more time to focus on preparing submission documents.\nDate submitted: April 6"
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Yasmin Delacroix\nFrom: Desmond Kirwan\nDate: April 14\nSubject: Your flexible work request\n\nDear Yasmin,\n\nThank you for submitting your request. Unfortunately, I am unable to approve the option you selected, as you do not yet meet the service requirement for it. However, you are eligible for the other arrangement, and given your long commute, I think it could still help you. If you would like to apply for it instead, please send me a revised form by Friday, and I will approve it so that it can begin on May 4.\n\nPlease note that our team meeting takes place every Monday morning, so whichever schedule you choose, Monday should be one of your office days.\n\nBest regards,\nDesmond Kirwan\nManager, Regulatory Affairs"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "According to the web page, what happens three months after an arrangement begins?",
+        "options": ["The arrangement is reviewed.", "The arrangement is renewed automatically.", "The employee receives a pay increase.", "The employee must submit a new form."],
+        "answer": 0,
+        "evidence": ["Approved arrangements begin on the first Monday of the following month and are reviewed after three months."],
+        "explanationTH": "ประโยคสุดท้ายของหน้าเว็บระบุว่ารูปแบบการทำงานที่อนุมัติแล้วจะถูกทบทวนหลังจากสามเดือน จึงตอบ A",
+        "optionNotesTH": ["ถูก: are reviewed after three months", "ผิด: ไม่ได้บอกว่าต่ออายุอัตโนมัติ", "ผิด: ไม่มีการพูดถึงการขึ้นเงินเดือน", "ผิด: การยื่นแบบฟอร์มใช้ตอนสมัคร ไม่ได้บอกว่าต้องยื่นใหม่หลังสามเดือน"]
+      },
+      {
+        "type": "crossReference",
+        "stem": "Why was Ms. Delacroix's request not approved?",
+        "options": ["She works in a laboratory.", "Her chosen days conflict with a team meeting.", "She has been employed for less than a year.", "She sent the form to the wrong person."],
+        "answer": 2,
+        "evidence": ["This option is available to employees who have completed one year of service.", "Length of service: 8 months"],
+        "explanationTH": "อีเมลบอกว่าเธอยังไม่ผ่านเงื่อนไขอายุงานของตัวเลือกที่ขอ แบบฟอร์มแสดงว่าเธอขอแบบ Hybrid และทำงานมา 8 เดือน ขณะที่หน้าเว็บกำหนดว่า Hybrid ต้องทำงานครบหนึ่งปี จึงตอบ C",
+        "optionNotesTH": ["ผิด: เธอเป็น Documentation Specialist ฝ่าย Regulatory Affairs ไม่ใช่พนักงานห้องแล็บ", "ผิด (กับดัก): ประชุมทีมคือวันจันทร์ แต่วันที่เธอเลือกคือวันอังคารและพฤหัสบดี", "ถูก: 8 เดือน ยังไม่ครบหนึ่งปีตามเงื่อนไข Hybrid", "ผิด: เธอส่งให้ Desmond Kirwan ซึ่งเป็นผู้จัดการโดยตรงตามระเบียบ"]
+      },
+      {
+        "type": "crossReference",
+        "stem": "What does Mr. Kirwan suggest that Ms. Delacroix do?",
+        "options": ["Work her full weekly hours in four days", "Work from home on Mondays", "Transfer to an office closer to her home", "Reduce the number of hours she works each week"],
+        "answer": 0,
+        "evidence": ["you are eligible for the other arrangement", "Employees work their regular 40 hours over four days instead of five."],
+        "explanationTH": "คุณ Kirwan บอกว่าเธอมีสิทธิ์ในอีกทางเลือกหนึ่ง ซึ่งตามหน้าเว็บคือ Compressed schedule (ทำงานครบ 40 ชั่วโมงในสี่วัน) ที่ต้องการอายุงานเพียงหกเดือน และเธอทำงานมาแล้ว 8 เดือน",
+        "optionNotesTH": ["ถูก: Compressed schedule = ทำครบชั่วโมงใน 4 วัน", "ผิด: เขาบอกว่าวันจันทร์ต้องมาที่ออฟฟิศ", "ผิด: ไม่มีการพูดถึงการย้ายสำนักงาน", "ผิด (กับดัก): Compressed schedule ยังทำงาน 40 ชั่วโมงเท่าเดิม ไม่ได้ลดชั่วโมง"]
+      },
+      {
+        "type": "inference",
+        "stem": "What is suggested about May 4?",
+        "options": ["It is the deadline for a revised form.", "It is when Ms. Delacroix's arrangement will be reviewed.", "It is the date Ms. Delacroix joined the company.", "It is the first Monday of a month."],
+        "answer": 3,
+        "evidence": ["begin on the first Monday of the following month", "so that it can begin on May 4"],
+        "explanationTH": "หน้าเว็บกำหนดว่ารูปแบบการทำงานที่อนุมัติจะเริ่มในวันจันทร์แรกของเดือนถัดไป และอีเมลบอกว่าจะเริ่มได้วันที่ 4 พฤษภาคม จึงอนุมานได้ว่า 4 พฤษภาคมเป็นวันจันทร์แรกของเดือน",
+        "optionNotesTH": ["ผิด: กำหนดส่งแบบฟอร์มฉบับแก้ไขคือวันศุกร์นี้", "ผิด: การทบทวนเกิดขึ้นหลังเริ่มไปแล้วสามเดือน", "ผิด: เธอทำงานมา 8 เดือนแล้ว 4 พฤษภาคมจึงไม่ใช่วันเริ่มงาน", "ถูก: เป็นวันเริ่มรูปแบบงานใหม่ ซึ่งตามนโยบายคือวันจันทร์แรกของเดือน"]
+      },
+      {
+        "type": "detail",
+        "stem": "What does Mr. Kirwan ask Ms. Delacroix to do?",
+        "options": ["Attend a meeting with him on Friday", "Send him an updated form by the end of the week", "Explain her reasons for the request in more detail", "Contact the human resources department"],
+        "answer": 1,
+        "evidence": ["please send me a revised form by Friday"],
+        "explanationTH": "ในอีเมล คุณ Kirwan ขอให้เธอส่งแบบฟอร์มฉบับแก้ไขภายในวันศุกร์ หากต้องการสมัครทางเลือกอื่น จึงตอบ B",
+        "optionNotesTH": ["ผิด (กับดัก): วันศุกร์คือกำหนดส่งแบบฟอร์ม ไม่ใช่วันประชุม", "ถูก: revised form by Friday = แบบฟอร์มฉบับแก้ไขภายในสิ้นสัปดาห์", "ผิด: เขาเข้าใจเหตุผลเรื่องการเดินทางไกลอยู่แล้ว", "ผิด: ไม่ได้ให้ติดต่อฝ่ายบุคคล"]
+      }
+    ],
+    "translationTH": [
+      "พอร์ทัลพนักงาน Corrandale Pharmaceuticals > นโยบาย > การทำงานแบบยืดหยุ่น\n\nรูปแบบการทำงานแบบยืดหยุ่น\n\nCorrandale มีทางเลือกการทำงานแบบยืดหยุ่นสองแบบสำหรับพนักงานที่มีคุณสมบัติ\n\nตารางงานแบบบีบอัด: พนักงานทำงานครบ 40 ชั่วโมงตามปกติภายในสี่วันแทนห้าวัน ทางเลือกนี้สำหรับพนักงานที่ทำงานครบหกเดือนแล้ว\n\nตารางงานแบบผสม (ไฮบริด): พนักงานทำงานจากบ้านได้สูงสุดสองวันต่อสัปดาห์ ทางเลือกนี้สำหรับพนักงานที่ทำงานครบหนึ่งปีแล้ว พนักงานห้องปฏิบัติการไม่มีสิทธิ์ เนื่องจากหน้าที่ของพวกเขาต้องปฏิบัติงานในสถานที่\n\nหากต้องการสมัคร ให้ยื่นแบบฟอร์มคำขอทำงานแบบยืดหยุ่นต่อผู้จัดการโดยตรงของท่าน ผู้จัดการจะตอบกลับภายในสิบวันทำการ รูปแบบที่ได้รับอนุมัติจะเริ่มในวันจันทร์แรกของเดือนถัดไป และจะได้รับการทบทวนหลังจากสามเดือน",
+      "Corrandale Pharmaceuticals\nแบบฟอร์มคำขอทำงานแบบยืดหยุ่น\n\nชื่อพนักงาน: Yasmin Delacroix\nแผนก: กิจการด้านทะเบียนและกฎระเบียบ (Regulatory Affairs)\nตำแหน่ง: เจ้าหน้าที่จัดทำเอกสาร\nอายุงาน: 8 เดือน\nผู้จัดการโดยตรง: Desmond Kirwan\nทางเลือกที่ขอ: ตารางงานแบบไฮบริด\nวันที่ต้องการทำงานจากบ้าน: วันอังคารและวันพฤหัสบดี\nเหตุผลในการขอ: ดิฉันอาศัยอยู่ห่างจากสำนักงาน 70 กิโลเมตร และใช้เวลาเดินทางเกือบสองชั่วโมงต่อเที่ยว การทำงานจากบ้านในบางวันจะทำให้ดิฉันมีเวลามากขึ้นในการจดจ่อกับการเตรียมเอกสารยื่นขออนุญาต\nวันที่ยื่น: 6 เมษายน",
+      "ถึง: Yasmin Delacroix\nจาก: Desmond Kirwan\nวันที่: 14 เมษายน\nเรื่อง: คำขอทำงานแบบยืดหยุ่นของคุณ\n\nเรียน คุณ Yasmin\n\nขอบคุณที่ยื่นคำขอ น่าเสียดายที่ผมไม่สามารถอนุมัติทางเลือกที่คุณเลือกได้ เนื่องจากคุณยังไม่ผ่านเงื่อนไขอายุงานสำหรับทางเลือกนั้น อย่างไรก็ตาม คุณมีสิทธิ์ในอีกรูปแบบหนึ่ง และเมื่อพิจารณาว่าคุณเดินทางไกล ผมคิดว่ามันยังช่วยคุณได้ หากคุณต้องการสมัครรูปแบบนั้นแทน กรุณาส่งแบบฟอร์มฉบับแก้ไขให้ผมภายในวันศุกร์ แล้วผมจะอนุมัติเพื่อให้เริ่มได้ในวันที่ 4 พฤษภาคม\n\nโปรดทราบว่าทีมของเราประชุมทุกเช้าวันจันทร์ ดังนั้นไม่ว่าคุณจะเลือกตารางงานแบบใด วันจันทร์ควรเป็นหนึ่งในวันที่คุณเข้าออฟฟิศ\n\nด้วยความนับถือ\nDesmond Kirwan\nผู้จัดการฝ่าย Regulatory Affairs"
+    ],
+    "tipTH": "ชุดสามเอกสารมักซ่อนเงื่อนไขไว้ในเอกสารแรก ข้อมูลส่วนตัวไว้ในแบบฟอร์ม และผลลัพธ์ไว้ในอีเมล เมื่ออีเมลพูดอ้อม ๆ เช่น the other arrangement ให้ย้อนไปจับคู่กับเงื่อนไขในหน้าเว็บทันที",
+    "vocabulary": [
+      { "word": "eligible", "pos": "adjective", "th": "มีสิทธิ์, มีคุณสมบัติ" },
+      { "word": "compressed", "pos": "adjective", "th": "ถูกบีบอัด, รวบให้สั้นลง" },
+      { "word": "length of service", "pos": "noun", "th": "อายุงาน" },
+      { "word": "commute", "pos": "noun", "th": "การเดินทางไปกลับที่ทำงาน" },
+      { "word": "revised", "pos": "adjective", "th": "ที่แก้ไขแล้ว" }
+    ]
+  }
+]

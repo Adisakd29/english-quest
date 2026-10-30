@@ -1,0 +1,36 @@
+/* TOEIC — แผนฝึกรายวัน (public/js/toeicdaily.js) */
+.tqd-slot:empty { display: none; }
+.tqd { margin: 0 0 16px; display: grid; gap: 12px; border: 1.5px solid var(--tq-accent); }
+.tqd.is-complete { border-color: var(--color-success); }
+.tqd-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.tqd-head .tq-h2 { margin: 0; }
+.tqd-sub { margin: 4px 0 0; color: var(--color-text-muted); font-size: 0.86rem; }
+.tqd-streak { flex: none; display: grid; justify-items: center; min-width: 64px; padding: 6px 10px; border-radius: 14px; background: var(--tq-soft); color: var(--tq-accent); line-height: 1.1; }
+.tqd-streak .icon { width: 22px; height: 22px; }
+.tqd-streak b { font-size: 1.4rem; font-weight: 900; }
+.tqd-streak small { font-size: 0.72rem; font-weight: 700; }
+.tqd-progress { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; }
+.tqd-progress .gl-bar { grid-area: auto; width: 100%; height: 10px; }
+.tqd-complete { margin: 0; display: flex; gap: 6px; align-items: center; padding: 8px 12px; border-radius: 12px; background: var(--color-success-soft); color: var(--color-success); font-weight: 700; }
+.tqd-tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.tqd-task { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--color-border); background: var(--color-surface); }
+.tqd-task.is-next { border-color: var(--tq-accent); background: var(--tq-soft); }
+.tqd-task.is-done { opacity: 0.85; }
+.tqd-task.is-done .tqd-text b { text-decoration: line-through; text-decoration-thickness: 1.5px; }
+.tqd-ic { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: var(--gl-card-2, rgba(0, 0, 0, 0.05)); color: var(--tq-accent); }
+.tqd-task.is-done .tqd-ic { background: var(--color-success-soft); color: var(--color-success); }
+.tqd-text { display: grid; gap: 2px; min-width: 0; }
+.tqd-text small { color: var(--color-text-muted); font-size: 0.8rem; }
+.tqd-why { font-style: italic; }
+.tqd-go { min-height: 44px; white-space: nowrap; }
+.tqd-done { display: inline-flex; align-items: center; gap: 4px; font-size: 0.82rem; font-weight: 800; color: var(--color-success); white-space: nowrap; }
+@media (max-width: 520px) { .tqd-task { grid-template-columns: auto 1fr; } .tqd-go { grid-column: 1 / -1; width: 100%; } .tqd-done { grid-column: 2; } }
+.tqd-week { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.tqd-day { display: grid; justify-items: center; gap: 2px; font-size: 0.72rem; color: var(--color-text-muted); }
+.tqd-dot { width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; border: 2px dashed var(--color-border); }
+.tqd-day.is-done .tqd-dot { border: 0; background: var(--tq-accent); color: #fff; }
+.tqd-day.is-today small { font-weight: 900; color: var(--tq-accent); }
+.tqd-day.is-today .tqd-dot { border-color: var(--tq-accent); }
+.tqd-best { margin: -4px 0 0; text-align: center; font-size: 0.78rem; color: var(--color-text-muted); }
+.tqd-day.is-frozen .tqd-dot { border: 2px solid var(--pm-gold, #b7790a); color: var(--pm-gold, #b7790a); }
+.tqd-best .icon { vertical-align: -2px; color: var(--pm-gold, #b7790a); }

@@ -1,0 +1,7604 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-31T05:12:32.055Z",
+ "compression": "EXT_meshopt_compression + KHR_mesh_quantization",
+ "units": "meters",
+ "up": "+Y (glTF)",
+ "forward": "+Z (glTF)",
+ "bones": [
+  "Root",
+  "Hips",
+  "Spine",
+  "Chest",
+  "Neck",
+  "Head",
+  "Eye.L",
+  "Eye.R",
+  "UpperArm.L",
+  "LowerArm.L",
+  "Hand.L",
+  "UpperArm.R",
+  "LowerArm.R",
+  "Hand.R",
+  "UpperLeg.L",
+  "LowerLeg.L",
+  "Foot.L",
+  "UpperLeg.R",
+  "LowerLeg.R",
+  "Foot.R"
+ ],
+ "sockets": {
+  "SOCK_Head": "Head",
+  "SOCK_Back": "Chest",
+  "SOCK_Spine": "Spine",
+  "SOCK_Hand_L": "Hand.L",
+  "SOCK_Hand_R": "Hand.R"
+ },
+ "base": {
+  "asset": "CHR_Base_01",
+  "version": 1,
+  "glbUrl": "/assets/avatar3d/glb/CHR_Base_01.7ba8b636be.glb",
+  "fileSize": 334548,
+  "rawSize": 821528,
+  "triangles": 14648,
+  "animations": [
+   "ANIM_Blink",
+   "ANIM_BothArmsUp",
+   "ANIM_Celebrate",
+   "ANIM_Defeat",
+   "ANIM_Idle",
+   "ANIM_RaiseArmL",
+   "ANIM_RaiseArmR",
+   "ANIM_Run",
+   "ANIM_Sit",
+   "ANIM_Turn",
+   "ANIM_Victory",
+   "ANIM_Walk",
+   "ANIM_Wave"
+  ],
+  "thumbnailUrl": "/assets/avatar3d/thumbs/CHR_Base_01.webp?v=b08d90ca",
+  "skinTones": {
+   "body_light": "#f6d3b3",
+   "body_warm": "#e8b48c",
+   "body_tan": "#c98e62",
+   "body_deep": "#8d5a3b"
+  }
+ },
+ "models": [
+  {
+   "itemId": "face_smile",
+   "asset": "FACE_Smile_01",
+   "name": "Smile",
+   "category": "face",
+   "slot": "face",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/FACE_Smile_01.28c79de994.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FACE_Smile_01.webp?v=a663f583",
+   "fileSize": 54656,
+   "rawSize": 149908,
+   "version": "28c79de994",
+   "compatibleBaseVersion": 1,
+   "triangles": 2552,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Eye.L",
+    "Eye.R",
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Blush",
+     "default": "#eb9f9b",
+     "fabric": null,
+     "share": 0.184
+    },
+    "secondary": {
+     "material": "MAT_Mouth",
+     "default": "#853939",
+     "fabric": null,
+     "share": 0.087
+    },
+    "accent": {
+     "material": "MAT_Brow",
+     "default": "#473126",
+     "fabric": null,
+     "share": 0.086
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_lk26_jasmine",
+   "asset": "ACC_LK26Jasmine_01",
+   "name": "Jasmine Wrist Garland",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_LK26Jasmine_01.16197b8508.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_LK26Jasmine_01.webp?v=dbae480d",
+   "fileSize": 86756,
+   "rawSize": 233844,
+   "version": "16197b8508",
+   "compatibleBaseVersion": 1,
+   "triangles": 2726,
+   "attach": "skinned",
+   "bones": [
+    "Hand.L",
+    "LowerArm.L"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Jasmine",
+     "default": "#f7f5ec",
+     "fabric": null,
+     "share": 0.575
+    },
+    "secondary": {
+     "material": "MAT_LK26_Jasmine_String",
+     "default": "#eadec1",
+     "fabric": null,
+     "share": 0.195
+    },
+    "accent": {
+     "material": "MAT_LK26_Jasmine_Rose",
+     "default": "#ca1f3d",
+     "fabric": null,
+     "share": 0.137
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hat_lk26_frangipani",
+   "asset": "HAT_LK26Frangipani_01",
+   "name": "Frangipani Hair Flower",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAT_LK26Frangipani_01.42dc936d17.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_LK26Frangipani_01.webp?v=b3335cd3",
+   "fileSize": 87856,
+   "rawSize": 292684,
+   "version": "42dc936d17",
+   "compatibleBaseVersion": 1,
+   "triangles": 4600,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Frangipani",
+     "default": "#f7f2e8",
+     "fabric": null,
+     "share": 0.705
+    },
+    "secondary": {
+     "material": "MAT_LK26_Frangipani_Leaf",
+     "default": "#3b7634",
+     "fabric": "leather",
+     "share": 0.295
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_lk26_sandals",
+   "asset": "SHOE_LK26Sandals_01",
+   "name": "Woven Sandals",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "uncommon",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_LK26Sandals_01.f1b03f1510.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_LK26Sandals_01.webp?v=754059a5",
+   "fileSize": 171880,
+   "rawSize": 675024,
+   "version": "f1b03f1510",
+   "compatibleBaseVersion": 1,
+   "triangles": 8756,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Sandal_Bed",
+     "default": "#dbbf87",
+     "fabric": "straw",
+     "share": 0.24
+    },
+    "secondary": {
+     "material": "MAT_LK26_Sandal_Straw",
+     "default": "#d1aa66",
+     "fabric": "straw",
+     "share": 0.159
+    },
+    "accent": {
+     "material": "MAT_LK26_Sandal_Binding",
+     "default": "#573217",
+     "fabric": "leather",
+     "share": 0.081
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_lk26_indigo",
+   "asset": "TOP_LK26Indigo_01",
+   "name": "Indigo Cotton Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_LK26Indigo_01.fcd0f5defc.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_LK26Indigo_01.webp?v=3ead7fe7",
+   "fileSize": 171852,
+   "rawSize": 583652,
+   "version": "fcd0f5defc",
+   "compatibleBaseVersion": 1,
+   "triangles": 10039,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Indigo",
+     "default": "#2c4c81",
+     "fabric": "weave",
+     "share": 0.98
+    },
+    "secondary": {
+     "material": "MAT_LK26_Indigo_Cord",
+     "default": "#1c335c",
+     "fabric": "weave",
+     "share": 0.016
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0088,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0015,
+    "pokeAt": "ANIM_Blink@4:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_lk26_umbrella",
+   "asset": "BACK_LK26Umbrella_01",
+   "name": "Bo Sang Paper Umbrella",
+   "category": "back",
+   "slot": "back",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BACK_LK26Umbrella_01.9d916e85e6.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_LK26Umbrella_01.webp?v=e530dddf",
+   "fileSize": 121928,
+   "rawSize": 384260,
+   "version": "9d916e85e6",
+   "compatibleBaseVersion": 1,
+   "triangles": 4912,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Umbrella_Paper",
+     "default": "#d2412c",
+     "fabric": "canvas",
+     "share": 0.571
+    },
+    "secondary": {
+     "material": "MAT_LK26_Umbrella_Bamboo",
+     "default": "#c29b60",
+     "fabric": "weave",
+     "share": 0.256
+    },
+    "accent": {
+     "material": "MAT_LK26_Umbrella_Cord",
+     "default": "#855729",
+     "fabric": "canvas",
+     "share": 0.048
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0024,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_lk26_pakama",
+   "asset": "OUT_LK26Pakama_01",
+   "name": "Pakama Shoulder Cloth",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/OUT_LK26Pakama_01.4354e8b4dd.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_LK26Pakama_01.webp?v=086f64c6",
+   "fileSize": 207560,
+   "rawSize": 663404,
+   "version": "4354e8b4dd",
+   "compatibleBaseVersion": 1,
+   "triangles": 9128,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Pakama_Mix",
+     "default": "#6a2838",
+     "fabric": "weave",
+     "share": 0.354
+    },
+    "secondary": {
+     "material": "MAT_LK26_Pakama",
+     "default": "#c2323a",
+     "fabric": "weave",
+     "share": 0.298
+    },
+    "accent": {
+     "material": "MAT_LK26_Pakama_Line",
+     "default": "#e9e2cf",
+     "fabric": "weave",
+     "share": 0.241
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_lk26_silk",
+   "asset": "TOP_LK26Silk_01",
+   "name": "Full-Moon Silk Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_LK26Silk_01.817d7f27a0.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_LK26Silk_01.webp?v=00902d61",
+   "fileSize": 215584,
+   "rawSize": 792796,
+   "version": "817d7f27a0",
+   "compatibleBaseVersion": 1,
+   "triangles": 11196,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Silk",
+     "default": "#dbb974",
+     "fabric": "poly",
+     "share": 0.889
+    },
+    "secondary": {
+     "material": "MAT_LK26_Silk_Trim",
+     "default": "#a27421",
+     "fabric": "weave",
+     "share": 0.082
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0105,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0022,
+    "pokeAt": "ANIM_RaiseArmL@10:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_lk26_chongkraben",
+   "asset": "BOT_LK26ChongKraben_01",
+   "name": "Chong Kraben",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BOT_LK26ChongKraben_01.a3b0e2c89d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_LK26ChongKraben_01.webp?v=314d7c11",
+   "fileSize": 108840,
+   "rawSize": 330868,
+   "version": "a3b0e2c89d",
+   "compatibleBaseVersion": 1,
+   "triangles": 6172,
+   "attach": "skinned",
+   "bones": [
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "hips",
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Kraben",
+     "default": "#472a78",
+     "fabric": "poly",
+     "share": 0.889
+    },
+    "secondary": {
+     "material": "MAT_LK26_Kraben_Border",
+     "default": "#cba043",
+     "fabric": "weave",
+     "share": 0.099
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0183,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_lk26_krathong",
+   "asset": "FX_LK26Krathong_01",
+   "name": "Floating Krathong",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/FX_LK26Krathong_01.beaa7f2d29.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_LK26Krathong_01.webp?v=93229e86",
+   "fileSize": 105240,
+   "rawSize": 333548,
+   "version": "beaa7f2d29",
+   "compatibleBaseVersion": 1,
+   "triangles": 4421,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Krathong_Leaf",
+     "default": "#3d8a38",
+     "fabric": "corduroy",
+     "share": 0.436
+    },
+    "secondary": {
+     "material": "MAT_LK26_Krathong_Trunk",
+     "default": "#dde0b7",
+     "fabric": "corduroy",
+     "share": 0.36
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_lk26_lotus",
+   "asset": "ACC_LK26Lotus_01",
+   "name": "Lotus Brooch",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_LK26Lotus_01.b6a86eeb59.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_LK26Lotus_01.webp?v=5e321837",
+   "fileSize": 51956,
+   "rawSize": 147272,
+   "version": "b6a86eeb59",
+   "compatibleBaseVersion": 1,
+   "triangles": 2163,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LK26_Lotus",
+     "default": "#f7bccd",
+     "fabric": null,
+     "share": 0.595
+    },
+    "secondary": {
+     "material": "MAT_LK26_Lotus_Pod",
+     "default": "#e0be38",
+     "fabric": null,
+     "share": 0.057
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_polo_green",
+   "asset": "TOP_Polo_01",
+   "name": "Green Polo",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Polo_01.cc0b566f06.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Polo_01.webp?v=6e7baf97",
+   "fileSize": 111024,
+   "rawSize": 353904,
+   "version": "cc0b566f06",
+   "compatibleBaseVersion": 1,
+   "triangles": 6792,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Polo",
+     "default": "#3d9e67",
+     "fabric": "mesh",
+     "share": 0.909
+    },
+    "secondary": {
+     "material": "MAT_Polo_Rib",
+     "default": "#2b764d",
+     "fabric": "rib",
+     "share": 0.089
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0487,
+    "pokeAt": "ANIM_Victory@30:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_school_shirt",
+   "asset": "TOP_SchoolShirt_01",
+   "name": "School Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/TOP_SchoolShirt_01.640bf84401.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_SchoolShirt_01.webp?v=cb37e811",
+   "fileSize": 135036,
+   "rawSize": 437108,
+   "version": "640bf84401",
+   "compatibleBaseVersion": 1,
+   "triangles": 7702,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_School_Shirt",
+     "default": "#f0f2f4",
+     "fabric": "weave",
+     "share": 0.983
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0479,
+    "pokeAt": "ANIM_Victory@30:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_oxford_shirt",
+   "asset": "TOP_Oxford_01",
+   "name": "Oxford Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Oxford_01.bc8f78de13.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Oxford_01.webp?v=88c44070",
+   "fileSize": 159292,
+   "rawSize": 538004,
+   "version": "bc8f78de13",
+   "compatibleBaseVersion": 1,
+   "triangles": 10082,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Oxford",
+     "default": "#c8d9ed",
+     "fabric": "weave",
+     "share": 0.993
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.007,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Blink@4:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_hawaiian_shirt",
+   "asset": "TOP_Hawaiian_01",
+   "name": "Tropical Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 220,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Hawaiian_01.f59f491419.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Hawaiian_01.webp?v=a9126e21",
+   "fileSize": 127600,
+   "rawSize": 421264,
+   "version": "f59f491419",
+   "compatibleBaseVersion": 1,
+   "triangles": 7472,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hawaii",
+     "default": "#199f95",
+     "fabric": "weave",
+     "share": 0.977
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0087,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0457,
+    "pokeAt": "ANIM_Celebrate@12:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_songkran_shirt",
+   "asset": "TOP_Songkran_01",
+   "name": "Songkran Shirt",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 230,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Songkran_01.6c15a97a38.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Songkran_01.webp?v=4f062865",
+   "fileSize": 133444,
+   "rawSize": 437500,
+   "version": "6c15a97a38",
+   "compatibleBaseVersion": 1,
+   "triangles": 7640,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Songkran",
+     "default": "#4cadee",
+     "fabric": "weave",
+     "share": 0.984
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0087,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0449,
+    "pokeAt": "ANIM_Run@7:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_denim_jacket",
+   "asset": "OUT_Denim_01",
+   "name": "Denim Jacket",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 420,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Denim_01.38be84899c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Denim_01.webp?v=1c048b3b",
+   "fileSize": 176460,
+   "rawSize": 598808,
+   "version": "38be84899c",
+   "compatibleBaseVersion": 1,
+   "triangles": 10402,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Denim",
+     "default": "#5c81be",
+     "fabric": "twill",
+     "share": 0.92
+    },
+    "secondary": {
+     "material": "MAT_Denim_Trim",
+     "default": "#4266a0",
+     "fabric": "twill",
+     "share": 0.077
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0172,
+    "pokeAt": "ANIM_Turn@46:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_lab_coat",
+   "asset": "OUT_LabCoat_01",
+   "name": "Lab Coat",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "uncommon",
+   "price": 280,
+   "glbUrl": "/assets/avatar3d/glb/OUT_LabCoat_01.ea1ec26786.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_LabCoat_01.webp?v=14c56e70",
+   "fileSize": 176332,
+   "rawSize": 613140,
+   "version": "ea1ec26786",
+   "compatibleBaseVersion": 1,
+   "triangles": 10388,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_LabCoat",
+     "default": "#f3f3f5",
+     "fabric": "weave",
+     "share": 0.924
+    },
+    "secondary": {
+     "material": "MAT_LabCoat_Trim",
+     "default": "#d8dce4",
+     "fabric": "weave",
+     "share": 0.075
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0112,
+    "pokeAt": "ANIM_Blink@4:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_rank_jacket",
+   "asset": "OUT_RankJacket_01",
+   "name": "Rank Jacket",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/OUT_RankJacket_01.4f41e1fda7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_RankJacket_01.webp?v=96998e3d",
+   "fileSize": 164552,
+   "rawSize": 533584,
+   "version": "4f41e1fda7",
+   "compatibleBaseVersion": 1,
+   "triangles": 9732,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_RankJacket",
+     "default": "#5731a0",
+     "fabric": "weave",
+     "share": 0.868
+    },
+    "secondary": {
+     "material": "MAT_RankJacket_Trim",
+     "default": "#f7c83d",
+     "fabric": "weave",
+     "share": 0.104
+    },
+    "accent": {
+     "material": "MAT_RankJacket_Stripe",
+     "default": "#f7c83d",
+     "fabric": null,
+     "share": 0.028
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0172,
+    "pokeAt": "ANIM_Turn@31:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_blazer",
+   "asset": "OUT_Blazer_01",
+   "name": "Navy Blazer",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 520,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Blazer_01.e4f9e68e03.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Blazer_01.webp?v=45db0eb6",
+   "fileSize": 157480,
+   "rawSize": 551576,
+   "version": "e4f9e68e03",
+   "compatibleBaseVersion": 1,
+   "triangles": 9404,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Blazer",
+     "default": "#2d3853",
+     "fabric": "twill",
+     "share": 0.999
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0165,
+    "pokeAt": "ANIM_Blink@4:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_hw26_midnight",
+   "asset": "OUT_HW26Midnight_01",
+   "name": "Midnight Cloak Coat",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/OUT_HW26Midnight_01.dddcdb6cd7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_HW26Midnight_01.webp?v=02b251ac",
+   "fileSize": 189836,
+   "rawSize": 692568,
+   "version": "dddcdb6cd7",
+   "compatibleBaseVersion": 1,
+   "triangles": 11536,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Midnight",
+     "default": "#1b214d",
+     "fabric": "weave",
+     "share": 0.911
+    },
+    "secondary": {
+     "material": "MAT_HW_Midnight_Lining",
+     "default": "#673db2",
+     "fabric": "weave",
+     "share": 0.086
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0127,
+    "pokeAt": "ANIM_Blink@4:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_chunky_street",
+   "asset": "SHOE_Chunky_01",
+   "name": "Chunky Sneakers",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 440,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Chunky_01.bfafdb9366.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Chunky_01.webp?v=c7a1dba2",
+   "fileSize": 151204,
+   "rawSize": 528300,
+   "version": "bfafdb9366",
+   "compatibleBaseVersion": 1,
+   "triangles": 8560,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Chunky",
+     "default": "#e4e7ec",
+     "fabric": "leather",
+     "share": 0.514
+    },
+    "secondary": {
+     "material": "MAT_Chunky_P1",
+     "default": "#95a0b9",
+     "fabric": "mesh",
+     "share": 0.187
+    },
+    "accent": {
+     "material": "MAT_Chunky_Lace",
+     "default": "#f7f7f7",
+     "fabric": null,
+     "share": 0.02
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0134,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "face_happy",
+   "asset": "FACE_Happy_01",
+   "name": "Happy",
+   "category": "face",
+   "slot": "face",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/FACE_Happy_01.f2df9687e9.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FACE_Happy_01.webp?v=a87b8c51",
+   "fileSize": 39340,
+   "rawSize": 103424,
+   "version": "f2df9687e9",
+   "compatibleBaseVersion": 1,
+   "triangles": 1280,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Eye.L",
+    "Eye.R",
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Blush",
+     "default": "#eb9f9b",
+     "fabric": null,
+     "share": 0.394
+    },
+    "secondary": {
+     "material": "MAT_Mouth",
+     "default": "#853939",
+     "fabric": null,
+     "share": 0.192
+    },
+    "accent": {
+     "material": "MAT_Brow",
+     "default": "#473126",
+     "fabric": null,
+     "share": 0.132
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "face_cool",
+   "asset": "FACE_Cool_01",
+   "name": "Cool",
+   "category": "face",
+   "slot": "face",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/FACE_Cool_01.1fca2e136f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FACE_Cool_01.webp?v=489fc390",
+   "fileSize": 59752,
+   "rawSize": 167500,
+   "version": "1fca2e136f",
+   "compatibleBaseVersion": 1,
+   "triangles": 2864,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Eye.L",
+    "Eye.R",
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Brow",
+     "default": "#473126",
+     "fabric": null,
+     "share": 0.074
+    },
+    "secondary": {
+     "material": "MAT_Mouth",
+     "default": "#853939",
+     "fabric": null,
+     "share": 0.052
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "face_focused",
+   "asset": "FACE_Focused_01",
+   "name": "Focused",
+   "category": "face",
+   "slot": "face",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/FACE_Focused_01.2c77851154.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FACE_Focused_01.webp?v=5ae97241",
+   "fileSize": 52228,
+   "rawSize": 140156,
+   "version": "2c77851154",
+   "compatibleBaseVersion": 1,
+   "triangles": 2408,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Eye.L",
+    "Eye.R",
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Brow",
+     "default": "#473126",
+     "fabric": null,
+     "share": 0.234
+    },
+    "secondary": {
+     "material": "MAT_Blush",
+     "default": "#eb9f9b",
+     "fabric": null,
+     "share": 0.13
+    },
+    "accent": {
+     "material": "MAT_Mouth",
+     "default": "#853939",
+     "fabric": null,
+     "share": 0.054
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_crop",
+   "asset": "HAIR_Short_01",
+   "name": "Short Crop",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Short_01.11d8409ef2.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Short_01.webp?v=bfb5eed8",
+   "fileSize": 55724,
+   "rawSize": 191572,
+   "version": "11d8409ef2",
+   "compatibleBaseVersion": 1,
+   "triangles": 5000,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Crop",
+     "default": "#392822",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_sidepart",
+   "asset": "HAIR_SidePart_01",
+   "name": "Side Swept",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_SidePart_01.26e907bca4.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_SidePart_01.webp?v=a21e3ea1",
+   "fileSize": 61012,
+   "rawSize": 212880,
+   "version": "26e907bca4",
+   "compatibleBaseVersion": 1,
+   "triangles": 5600,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_SidePart",
+     "default": "#1e1a22",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_bob",
+   "asset": "HAIR_Bob_01",
+   "name": "Bob Cut",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Bob_01.449bf4138c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Bob_01.webp?v=c8c18acb",
+   "fileSize": 73736,
+   "rawSize": 265244,
+   "version": "449bf4138c",
+   "compatibleBaseVersion": 1,
+   "triangles": 7000,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Bob",
+     "default": "#854828",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_ponytail",
+   "asset": "HAIR_Ponytail_01",
+   "name": "Ponytail",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "common",
+   "price": 110,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Ponytail_01.34b40a556d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Ponytail_01.webp?v=3b9c629c",
+   "fileSize": 78416,
+   "rawSize": 270096,
+   "version": "34b40a556d",
+   "compatibleBaseVersion": 1,
+   "triangles": 6832,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Ponytail",
+     "default": "#d29f3f",
+     "fabric": "hair",
+     "share": 0.981
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_long",
+   "asset": "HAIR_Long_01",
+   "name": "Long Hair",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "uncommon",
+   "price": 220,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Long_01.78fa893f8e.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Long_01.webp?v=7f1de3b9",
+   "fileSize": 82776,
+   "rawSize": 302316,
+   "version": "78fa893f8e",
+   "compatibleBaseVersion": 1,
+   "triangles": 8000,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Long",
+     "default": "#281b2c",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0.0003,
+    "limbAt": "ANIM_Victory@14"
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_curly",
+   "asset": "HAIR_Curly_01",
+   "name": "Curly Crop",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "common",
+   "price": 120,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Curly_01.19e25b7663.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Curly_01.webp?v=a1c3d182",
+   "fileSize": 83840,
+   "rawSize": 301368,
+   "version": "19e25b7663",
+   "compatibleBaseVersion": 1,
+   "triangles": 8000,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Curly",
+     "default": "#382217",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_wavy_long",
+   "asset": "HAIR_Wavy_01",
+   "name": "Long Waves",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "uncommon",
+   "price": 240,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Wavy_01.bed328b790.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Wavy_01.webp?v=e1d5ef10",
+   "fileSize": 84356,
+   "rawSize": 302928,
+   "version": "bed328b790",
+   "compatibleBaseVersion": 1,
+   "triangles": 8000,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Wavy",
+     "default": "#673c24",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_twin_buns",
+   "asset": "HAIR_Buns_01",
+   "name": "Twin Buns",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Buns_01.52d59febf0.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Buns_01.webp?v=b9dead24",
+   "fileSize": 84316,
+   "rawSize": 289756,
+   "version": "52d59febf0",
+   "compatibleBaseVersion": 1,
+   "triangles": 7048,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Buns",
+     "default": "#1e1a22",
+     "fabric": "hair",
+     "share": 0.933
+    },
+    "secondary": {
+     "material": "MAT_Hair_BunTie",
+     "default": "#f7c83d",
+     "fabric": null,
+     "share": 0.067
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_side_braid",
+   "asset": "HAIR_Braid_01",
+   "name": "Side Braid",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "rare",
+   "price": 360,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Braid_01.78980bc4ff.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Braid_01.webp?v=db4dc910",
+   "fileSize": 107244,
+   "rawSize": 389320,
+   "version": "78980bc4ff",
+   "compatibleBaseVersion": 1,
+   "triangles": 9826,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Braid",
+     "default": "#ad672a",
+     "fabric": "hair",
+     "share": 0.818
+    },
+    "secondary": {
+     "material": "MAT_Hair_Braid_Plait",
+     "default": "#ad672a",
+     "fabric": "hair",
+     "share": 0.179
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0.0191,
+    "limbAt": "ANIM_Run@1"
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hair_spiky",
+   "asset": "HAIR_Spiky_01",
+   "name": "Spiky Blue",
+   "category": "hair",
+   "slot": "hair",
+   "rarity": "rare",
+   "price": 420,
+   "glbUrl": "/assets/avatar3d/glb/HAIR_Spiky_01.de9b9a4c49.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAIR_Spiky_01.webp?v=9a19ae41",
+   "fileSize": 71752,
+   "rawSize": 247396,
+   "version": "de9b9a4c49",
+   "compatibleBaseVersion": 1,
+   "triangles": 6500,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hair_Spiky",
+     "default": "#3d86f7",
+     "fabric": "hair",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_tee_blue",
+   "asset": "TOP_Tee_01",
+   "name": "Blue Tee",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Tee_01.ab21df9d2a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Tee_01.webp?v=ff8655b3",
+   "fileSize": 103408,
+   "rawSize": 321428,
+   "version": "ab21df9d2a",
+   "compatibleBaseVersion": 1,
+   "triangles": 6050,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Tee",
+     "default": "#4c7bd9",
+     "fabric": "weave",
+     "share": 0.919
+    },
+    "secondary": {
+     "material": "MAT_Tee_Rib",
+     "default": "#2d59b2",
+     "fabric": "rib",
+     "share": 0.078
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0457,
+    "pokeAt": "ANIM_Celebrate@12:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_hoodie_gray",
+   "asset": "TOP_Hoodie_01",
+   "name": "Gray Hoodie",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Hoodie_01.e2cb5119d8.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Hoodie_01.webp?v=5de6a026",
+   "fileSize": 183744,
+   "rawSize": 593908,
+   "version": "e2cb5119d8",
+   "compatibleBaseVersion": 1,
+   "triangles": 11084,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Hoodie",
+     "default": "#8891a2",
+     "fabric": "fleece",
+     "share": 0.883
+    },
+    "secondary": {
+     "material": "MAT_Hoodie_Rib",
+     "default": "#737c95",
+     "fabric": "rib",
+     "share": 0.112
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0046,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_tee_stripe",
+   "asset": "TOP_TeeStripe_01",
+   "name": "Striped Tee",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 90,
+   "glbUrl": "/assets/avatar3d/glb/TOP_TeeStripe_01.d42bc25599.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_TeeStripe_01.webp?v=4c70a5be",
+   "fileSize": 130480,
+   "rawSize": 427092,
+   "version": "d42bc25599",
+   "compatibleBaseVersion": 1,
+   "triangles": 8470,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Stripe_White",
+     "default": "#efede8",
+     "fabric": "weave",
+     "share": 0.756
+    },
+    "secondary": {
+     "material": "MAT_Stripe_Navy",
+     "default": "#2b3862",
+     "fabric": "weave",
+     "share": 0.244
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0449,
+    "pokeAt": "ANIM_BothArmsUp@10:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_sweater_knit",
+   "asset": "TOP_SweaterKnit_01",
+   "name": "Knit Sweater",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 180,
+   "glbUrl": "/assets/avatar3d/glb/TOP_SweaterKnit_01.87ea5a7ad3.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_SweaterKnit_01.webp?v=b1991924",
+   "fileSize": 140132,
+   "rawSize": 458176,
+   "version": "87ea5a7ad3",
+   "compatibleBaseVersion": 1,
+   "triangles": 8832,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sweater",
+     "default": "#d99e38",
+     "fabric": "knit",
+     "share": 0.877
+    },
+    "secondary": {
+     "material": "MAT_Sweater_Rib",
+     "default": "#c28522",
+     "fabric": "rib",
+     "share": 0.123
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0046,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_tee_star",
+   "asset": "TOP_StarTee_01",
+   "name": "Star Tee",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 380,
+   "glbUrl": "/assets/avatar3d/glb/TOP_StarTee_01.179280a4b7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_StarTee_01.webp?v=b02595f7",
+   "fileSize": 108804,
+   "rawSize": 335856,
+   "version": "179280a4b7",
+   "compatibleBaseVersion": 1,
+   "triangles": 6170,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0457,
+    "pokeAt": "ANIM_Celebrate@12:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_hoodie_galaxy",
+   "asset": "TOP_GalaxyHoodie_01",
+   "name": "Galaxy Hoodie",
+   "category": "top",
+   "slot": "top",
+   "rarity": "epic",
+   "price": 850,
+   "glbUrl": "/assets/avatar3d/glb/TOP_GalaxyHoodie_01.28340a391d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_GalaxyHoodie_01.webp?v=dc2c799e",
+   "fileSize": 195528,
+   "rawSize": 650160,
+   "version": "28340a391d",
+   "compatibleBaseVersion": 1,
+   "triangles": 11588,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Galaxy",
+     "default": "#f7f7f7",
+     "fabric": "fleece",
+     "share": 0.881
+    },
+    "secondary": {
+     "material": "MAT_Galaxy_Rib",
+     "default": "#c95296",
+     "fabric": "rib",
+     "share": 0.112
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0046,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_oversize_graphic",
+   "asset": "TOP_Oversize_01",
+   "name": "Oversized Graphic Tee",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 220,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Oversize_01.89fb3a7160.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Oversize_01.webp?v=20864167",
+   "fileSize": 114980,
+   "rawSize": 351352,
+   "version": "89fb3a7160",
+   "compatibleBaseVersion": 1,
+   "triangles": 6686,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Oversize",
+     "default": "#e9e4db",
+     "fabric": "canvas",
+     "share": 0.916
+    },
+    "secondary": {
+     "material": "MAT_Oversize_Rib",
+     "default": "#d2cbbe",
+     "fabric": "rib",
+     "share": 0.064
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0038,
+    "worstAt": "ANIM_Run@1",
+    "sink": 0,
+    "poke": 0.006,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_sport_jersey",
+   "asset": "TOP_Jersey_01",
+   "name": "Team Jersey",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 110,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Jersey_01.28e8968bab.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Jersey_01.webp?v=c757f7aa",
+   "fileSize": 100444,
+   "rawSize": 305524,
+   "version": "28e8968bab",
+   "compatibleBaseVersion": 1,
+   "triangles": 5508,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Jersey",
+     "default": "#1e6be3",
+     "fabric": "mesh",
+     "share": 0.606
+    },
+    "secondary": {
+     "material": "MAT_Jersey_Raglan",
+     "default": "#f7f7f7",
+     "fabric": "mesh",
+     "share": 0.389
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0086,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0464,
+    "pokeAt": "ANIM_Celebrate@12:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_turtleneck",
+   "asset": "TOP_Turtleneck_01",
+   "name": "Turtleneck",
+   "category": "top",
+   "slot": "top",
+   "rarity": "uncommon",
+   "price": 190,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Turtleneck_01.782039425f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Turtleneck_01.webp?v=ae534f47",
+   "fileSize": 124772,
+   "rawSize": 419628,
+   "version": "782039425f",
+   "compatibleBaseVersion": 1,
+   "triangles": 8320,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Turtle",
+     "default": "#292931",
+     "fabric": "rib",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0049,
+    "worstAt": "ANIM_Celebrate@12",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Blink@4:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_ringer_tee",
+   "asset": "TOP_Ringer_01",
+   "name": "Ringer Tee",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 100,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Ringer_01.0cc2707d9a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Ringer_01.webp?v=7a45b119",
+   "fileSize": 115296,
+   "rawSize": 363532,
+   "version": "0cc2707d9a",
+   "compatibleBaseVersion": 1,
+   "triangles": 6654,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Ringer",
+     "default": "#ebdec1",
+     "fabric": "weave",
+     "share": 0.876
+    },
+    "secondary": {
+     "material": "MAT_Ringer_Trim",
+     "default": "#af422d",
+     "fabric": "rib",
+     "share": 0.113
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0069,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.0472,
+    "pokeAt": "ANIM_Defeat@40:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_adventurer_tunic",
+   "asset": "TOP_Tunic_01",
+   "name": "Adventurer Tunic",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 420,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Tunic_01.eb4ae0c0d4.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Tunic_01.webp?v=a330de92",
+   "fileSize": 144316,
+   "rawSize": 471092,
+   "version": "eb4ae0c0d4",
+   "compatibleBaseVersion": 1,
+   "triangles": 8476,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Tunic",
+     "default": "#4c7638",
+     "fabric": "weave",
+     "share": 0.866
+    },
+    "secondary": {
+     "material": "MAT_Tunic_Trim",
+     "default": "#c0954f",
+     "fabric": "weave",
+     "share": 0.089
+    },
+    "accent": {
+     "material": "MAT_Tunic_Belt",
+     "default": "#674022",
+     "fabric": "leather",
+     "share": 0.044
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0077,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Blink@4:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_tech_zip",
+   "asset": "TOP_TechZip_01",
+   "name": "Tech Zip Top",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 380,
+   "glbUrl": "/assets/avatar3d/glb/TOP_TechZip_01.9c7d39417b.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_TechZip_01.webp?v=0078c91c",
+   "fileSize": 141724,
+   "rawSize": 466616,
+   "version": "9c7d39417b",
+   "compatibleBaseVersion": 1,
+   "triangles": 8588,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_TechTop",
+     "default": "#1f212c",
+     "fabric": "mesh",
+     "share": 0.891
+    },
+    "secondary": {
+     "material": "MAT_TechTop_Panel",
+     "default": "#333847",
+     "fabric": "weave",
+     "share": 0.097
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.007,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Blink@4:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_tank_summer",
+   "asset": "TOP_Tank_01",
+   "name": "Sunny Tank",
+   "category": "top",
+   "slot": "top",
+   "rarity": "common",
+   "price": 80,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Tank_01.8ffea966be.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Tank_01.webp?v=ffd4af7d",
+   "fileSize": 77696,
+   "rawSize": 221596,
+   "version": "8ffea966be",
+   "compatibleBaseVersion": 1,
+   "triangles": 3948,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Hips",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Tank",
+     "default": "#f7ad44",
+     "fabric": "rib",
+     "share": 0.659
+    },
+    "secondary": {
+     "material": "MAT_Tank_Trim",
+     "default": "#e8e8e2",
+     "fabric": "rib",
+     "share": 0.121
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_holiday_sweater",
+   "asset": "TOP_Holiday_01",
+   "name": "Holiday Sweater",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 400,
+   "glbUrl": "/assets/avatar3d/glb/TOP_Holiday_01.4e0dea874d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_Holiday_01.webp?v=2121d52c",
+   "fileSize": 157624,
+   "rawSize": 513888,
+   "version": "4e0dea874d",
+   "compatibleBaseVersion": 1,
+   "triangles": 9574,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Holiday",
+     "default": "#c1303d",
+     "fabric": "knit",
+     "share": 0.822
+    },
+    "secondary": {
+     "material": "MAT_Holiday_Rib",
+     "default": "#8a1e28",
+     "fabric": "rib",
+     "share": 0.104
+    },
+    "accent": {
+     "material": "MAT_Holiday_Band",
+     "default": "#1e7647",
+     "fabric": "knit",
+     "share": 0.071
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0046,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_bomber",
+   "asset": "OUT_Bomber_01",
+   "name": "Bomber Jacket",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 480,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Bomber_01.f15acb2a32.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Bomber_01.webp?v=59ff661b",
+   "fileSize": 153620,
+   "rawSize": 521364,
+   "version": "f15acb2a32",
+   "compatibleBaseVersion": 1,
+   "triangles": 9106,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Bomber",
+     "default": "#475738",
+     "fabric": "nylon",
+     "share": 0.893
+    },
+    "secondary": {
+     "material": "MAT_Bomber_Rib",
+     "default": "#d27329",
+     "fabric": "rib",
+     "share": 0.103
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0254,
+    "pokeAt": "ANIM_Turn@31:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_varsity",
+   "asset": "OUT_Varsity_01",
+   "name": "Varsity Jacket",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 500,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Varsity_01.cd5aecc9a9.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Varsity_01.webp?v=e5ba2792",
+   "fileSize": 167760,
+   "rawSize": 532004,
+   "version": "cd5aecc9a9",
+   "compatibleBaseVersion": 1,
+   "triangles": 10122,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Varsity_Sleeve",
+     "default": "#eae2d1",
+     "fabric": "leather",
+     "share": 0.465
+    },
+    "secondary": {
+     "material": "MAT_Varsity",
+     "default": "#761e29",
+     "fabric": "fleece",
+     "share": 0.412
+    },
+    "accent": {
+     "material": "MAT_Varsity_Rib",
+     "default": "#761e29",
+     "fabric": "rib",
+     "share": 0.107
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0217,
+    "pokeAt": "ANIM_Blink@4:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_cardigan",
+   "asset": "OUT_Cardigan_01",
+   "name": "Knit Cardigan",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Cardigan_01.349e730020.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Cardigan_01.webp?v=6652e484",
+   "fileSize": 142856,
+   "rawSize": 479180,
+   "version": "349e730020",
+   "compatibleBaseVersion": 1,
+   "triangles": 8508,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Cardigan",
+     "default": "#c29f66",
+     "fabric": "knit",
+     "share": 0.909
+    },
+    "secondary": {
+     "material": "MAT_Cardigan_Rib",
+     "default": "#a2814a",
+     "fabric": "rib",
+     "share": 0.091
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0105,
+    "pokeAt": "ANIM_Blink@4:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_tech_shell",
+   "asset": "OUT_TechShell_01",
+   "name": "Tech Shell",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "epic",
+   "price": 860,
+   "glbUrl": "/assets/avatar3d/glb/OUT_TechShell_01.cf5aba8447.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_TechShell_01.webp?v=f198e3b8",
+   "fileSize": 182580,
+   "rawSize": 595164,
+   "version": "cf5aba8447",
+   "compatibleBaseVersion": 1,
+   "triangles": 10718,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_TechShell",
+     "default": "#282d3b",
+     "fabric": "nylon",
+     "share": 0.904
+    },
+    "secondary": {
+     "material": "MAT_TechShell_Strap",
+     "default": "#10131b",
+     "fabric": "mesh",
+     "share": 0.084
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0299,
+    "pokeAt": "ANIM_Turn@31:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "outer_puffer",
+   "asset": "OUT_Puffer_01",
+   "name": "Puffer Jacket",
+   "category": "outerwear",
+   "slot": "outerwear",
+   "rarity": "rare",
+   "price": 540,
+   "glbUrl": "/assets/avatar3d/glb/OUT_Puffer_01.cee32a39a1.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/OUT_Puffer_01.webp?v=624216ea",
+   "fileSize": 162960,
+   "rawSize": 531060,
+   "version": "cee32a39a1",
+   "compatibleBaseVersion": 1,
+   "triangles": 9642,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Puffer",
+     "default": "#396bed",
+     "fabric": "quilt",
+     "share": 0.899
+    },
+    "secondary": {
+     "material": "MAT_Puffer_Trim",
+     "default": "#213167",
+     "fabric": "weave",
+     "share": 0.096
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0397,
+    "pokeAt": "ANIM_Turn@31:larm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_jeans",
+   "asset": "BOT_Jeans_01",
+   "name": "Blue Jeans",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Jeans_01.d85841a244.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Jeans_01.webp?v=5268e580",
+   "fileSize": 102524,
+   "rawSize": 338244,
+   "version": "d85841a244",
+   "compatibleBaseVersion": 1,
+   "triangles": 5964,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Jeans",
+     "default": "#39588a",
+     "fabric": "twill",
+     "share": 0.948
+    },
+    "secondary": {
+     "material": "MAT_Jeans_Waist",
+     "default": "#28416c",
+     "fabric": "twill",
+     "share": 0.045
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0063,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0098,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_skirt_pleated",
+   "asset": "BOT_SkirtPleated_01",
+   "name": "Pleated Skirt",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BOT_SkirtPleated_01.b8c61b4f4f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_SkirtPleated_01.webp?v=32e23e88",
+   "fileSize": 40464,
+   "rawSize": 96012,
+   "version": "b8c61b4f4f",
+   "compatibleBaseVersion": 1,
+   "triangles": 1968,
+   "attach": "skinned",
+   "bones": [
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Skirt",
+     "default": "#2d3c62",
+     "fabric": "twill",
+     "share": 0.881
+    },
+    "secondary": {
+     "material": "MAT_Skirt_Band",
+     "default": "#222e4c",
+     "fabric": "twill",
+     "share": 0.118
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_shorts_khaki",
+   "asset": "BOT_ShortsKhaki_01",
+   "name": "Khaki Shorts",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "common",
+   "price": 80,
+   "glbUrl": "/assets/avatar3d/glb/BOT_ShortsKhaki_01.949503b608.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_ShortsKhaki_01.webp?v=17d55e0d",
+   "fileSize": 75748,
+   "rawSize": 227420,
+   "version": "949503b608",
+   "compatibleBaseVersion": 1,
+   "triangles": 3892,
+   "attach": "skinned",
+   "bones": [
+    "Hips",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "hips"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Shorts",
+     "default": "#c29f66",
+     "fabric": "twill",
+     "share": 0.933
+    },
+    "secondary": {
+     "material": "MAT_Shorts_Waist",
+     "default": "#a2814a",
+     "fabric": "twill",
+     "share": 0.058
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_cargo",
+   "asset": "BOT_Cargo_01",
+   "name": "Cargo Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 170,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Cargo_01.793bd2a2fe.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Cargo_01.webp?v=8c139324",
+   "fileSize": 123328,
+   "rawSize": 420020,
+   "version": "793bd2a2fe",
+   "compatibleBaseVersion": 1,
+   "triangles": 6708,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Cargo",
+     "default": "#677046",
+     "fabric": "weave",
+     "share": 0.876
+    },
+    "secondary": {
+     "material": "MAT_Cargo_Waist",
+     "default": "#4b522e",
+     "fabric": "weave",
+     "share": 0.102
+    },
+    "accent": {
+     "material": "MAT_Cargo_Pocket",
+     "default": "#575f37",
+     "fabric": "weave",
+     "share": 0.016
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0048,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0052,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_skirt_plaid",
+   "asset": "BOT_SkirtPlaid_01",
+   "name": "Plaid Skirt",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "rare",
+   "price": 340,
+   "glbUrl": "/assets/avatar3d/glb/BOT_SkirtPlaid_01.e0068d63e7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_SkirtPlaid_01.webp?v=12ad0b9c",
+   "fileSize": 45648,
+   "rawSize": 104804,
+   "version": "e0068d63e7",
+   "compatibleBaseVersion": 1,
+   "triangles": 1804,
+   "attach": "skinned",
+   "bones": [
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Plaid_Line",
+     "default": "#761e25",
+     "fabric": null,
+     "share": 0.196
+    },
+    "secondary": {
+     "material": "MAT_Plaid",
+     "default": "#b23039",
+     "fabric": "weave",
+     "share": 0.196
+    },
+    "accent": {
+     "material": "MAT_Plaid_Band",
+     "default": "#761e25",
+     "fabric": "weave",
+     "share": 0.118
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_chinos",
+   "asset": "BOT_Chinos_01",
+   "name": "Chinos",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 180,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Chinos_01.3ea01be079.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Chinos_01.webp?v=a67a928a",
+   "fileSize": 94716,
+   "rawSize": 299724,
+   "version": "3ea01be079",
+   "compatibleBaseVersion": 1,
+   "triangles": 5528,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Chinos",
+     "default": "#c0ac85",
+     "fabric": "twill",
+     "share": 0.943
+    },
+    "secondary": {
+     "material": "MAT_Chinos_Waist",
+     "default": "#a28e66",
+     "fabric": "twill",
+     "share": 0.047
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0062,
+    "worstAt": "ANIM_Run@19",
+    "sink": 0,
+    "poke": 0.0144,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_track_pants",
+   "asset": "BOT_Track_01",
+   "name": "Track Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "common",
+   "price": 100,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Track_01.4b1f481273.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Track_01.webp?v=7b7b3a84",
+   "fileSize": 96016,
+   "rawSize": 292496,
+   "version": "4b1f481273",
+   "compatibleBaseVersion": 1,
+   "triangles": 5712,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Track",
+     "default": "#1c294c",
+     "fabric": "poly",
+     "share": 0.878
+    },
+    "secondary": {
+     "material": "MAT_Track_Cuff",
+     "default": "#131d36",
+     "fabric": "rib",
+     "share": 0.056
+    },
+    "accent": {
+     "material": "MAT_Track_Waist",
+     "default": "#131d36",
+     "fabric": "rib",
+     "share": 0.04
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0048,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0052,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_wide_trousers",
+   "asset": "BOT_Wide_01",
+   "name": "Wide Trousers",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 210,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Wide_01.d130640138.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Wide_01.webp?v=7bcd6f51",
+   "fileSize": 77464,
+   "rawSize": 241956,
+   "version": "d130640138",
+   "compatibleBaseVersion": 1,
+   "triangles": 4840,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Wide",
+     "default": "#e0dbcf",
+     "fabric": "weave",
+     "share": 0.999
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0111,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0241,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_corduroy",
+   "asset": "BOT_Corduroy_01",
+   "name": "Corduroy Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Corduroy_01.74ad798a22.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Corduroy_01.webp?v=67705f48",
+   "fileSize": 102516,
+   "rawSize": 338260,
+   "version": "74ad798a22",
+   "compatibleBaseVersion": 1,
+   "triangles": 5964,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Cord",
+     "default": "#854828",
+     "fabric": "corduroy",
+     "share": 0.951
+    },
+    "secondary": {
+     "material": "MAT_Cord_Waist",
+     "default": "#6a381e",
+     "fabric": "corduroy",
+     "share": 0.043
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0047,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0075,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_ranger_pants",
+   "asset": "BOT_Ranger_01",
+   "name": "Ranger Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Ranger_01.8592d5aac6.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Ranger_01.webp?v=d9ff3f04",
+   "fileSize": 133408,
+   "rawSize": 428376,
+   "version": "8592d5aac6",
+   "compatibleBaseVersion": 1,
+   "triangles": 7896,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Ranger",
+     "default": "#5a4838",
+     "fabric": "weave",
+     "share": 0.82
+    },
+    "secondary": {
+     "material": "MAT_Ranger_Wrap",
+     "default": "#c2ad85",
+     "fabric": "weave",
+     "share": 0.118
+    },
+    "accent": {
+     "material": "MAT_Ranger_Belt",
+     "default": "#382414",
+     "fabric": "leather",
+     "share": 0.061
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0048,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0052,
+    "pokeAt": "ANIM_Idle@1:hips",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_tech_joggers",
+   "asset": "BOT_TechJogger_01",
+   "name": "Tech Joggers",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "rare",
+   "price": 360,
+   "glbUrl": "/assets/avatar3d/glb/BOT_TechJogger_01.be57675080.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_TechJogger_01.webp?v=5ba427c7",
+   "fileSize": 103096,
+   "rawSize": 337352,
+   "version": "be57675080",
+   "compatibleBaseVersion": 1,
+   "triangles": 5960,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_TechJog",
+     "default": "#1a1d25",
+     "fabric": "weave",
+     "share": 0.849
+    },
+    "secondary": {
+     "material": "MAT_TechJog_Strap",
+     "default": "#383f4f",
+     "fabric": "mesh",
+     "share": 0.149
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0098,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0.0107,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_board_shorts",
+   "asset": "BOT_Board_01",
+   "name": "Board Shorts",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "common",
+   "price": 100,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Board_01.f26b52ef3a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Board_01.webp?v=d5db385c",
+   "fileSize": 90020,
+   "rawSize": 293432,
+   "version": "f26b52ef3a",
+   "compatibleBaseVersion": 1,
+   "triangles": 4480,
+   "attach": "skinned",
+   "bones": [
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "hips"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Board",
+     "default": "#f77656",
+     "fabric": "weave",
+     "share": 0.93
+    },
+    "secondary": {
+     "material": "MAT_Board_Waist",
+     "default": "#d2583d",
+     "fabric": "weave",
+     "share": 0.052
+    },
+    "accent": {
+     "material": "MAT_Board_Leaf",
+     "default": "#f7cf9f",
+     "fabric": null,
+     "share": 0.016
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0.0158,
+    "pokeAt": "ANIM_Sit@1:uleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_snow_pants",
+   "asset": "BOT_SnowPants_01",
+   "name": "Snow Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 240,
+   "glbUrl": "/assets/avatar3d/glb/BOT_SnowPants_01.21a9d481c1.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_SnowPants_01.webp?v=a4148c0f",
+   "fileSize": 94500,
+   "rawSize": 309000,
+   "version": "21a9d481c1",
+   "compatibleBaseVersion": 1,
+   "triangles": 5640,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_SnowPants",
+     "default": "#2d3c62",
+     "fabric": "quilt",
+     "share": 0.892
+    },
+    "secondary": {
+     "material": "MAT_SnowPants_Pad",
+     "default": "#212e57",
+     "fabric": "leather",
+     "share": 0.108
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0062,
+    "worstAt": "ANIM_Run@7",
+    "sink": 0,
+    "poke": 0.0143,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_thai_fisherman",
+   "asset": "BOT_Fisherman_01",
+   "name": "Thai Fisherman Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "uncommon",
+   "price": 180,
+   "glbUrl": "/assets/avatar3d/glb/BOT_Fisherman_01.ce1fb5de39.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_Fisherman_01.webp?v=a2feded4",
+   "fileSize": 80228,
+   "rawSize": 251156,
+   "version": "ce1fb5de39",
+   "compatibleBaseVersion": 1,
+   "triangles": 5040,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Fisherman",
+     "default": "#3857b2",
+     "fabric": "weave",
+     "share": 0.951
+    },
+    "secondary": {
+     "material": "MAT_Fisherman_Tie",
+     "default": "#28408b",
+     "fabric": "weave",
+     "share": 0.049
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0175,
+    "worstAt": "ANIM_Run@4",
+    "sink": 0,
+    "poke": 0.0446,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_sneaker_white",
+   "asset": "SHOE_Sneaker_01",
+   "name": "White Sneakers",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Sneaker_01.c517d0d625.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Sneaker_01.webp?v=c5b6c57b",
+   "fileSize": 131688,
+   "rawSize": 462064,
+   "version": "c517d0d625",
+   "compatibleBaseVersion": 1,
+   "triangles": 7328,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sneaker",
+     "default": "#f3f3f5",
+     "fabric": "canvas",
+     "share": 0.573
+    },
+    "secondary": {
+     "material": "MAT_Sneaker_Accent",
+     "default": "#76a1f7",
+     "fabric": null,
+     "share": 0.077
+    },
+    "accent": {
+     "material": "MAT_Sneaker_Lace",
+     "default": "#ececee",
+     "fabric": null,
+     "share": 0.031
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_canvas_black",
+   "asset": "SHOE_Canvas_01",
+   "name": "Black Canvas",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Canvas_01.5901512fb7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Canvas_01.webp?v=1d7430ee",
+   "fileSize": 137020,
+   "rawSize": 481664,
+   "version": "5901512fb7",
+   "compatibleBaseVersion": 1,
+   "triangles": 8332,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Canvas",
+     "default": "#2a2a38",
+     "fabric": "canvas",
+     "share": 0.496
+    },
+    "secondary": {
+     "material": "MAT_Canvas_Stripe",
+     "default": "#c1303d",
+     "fabric": null,
+     "share": 0.045
+    },
+    "accent": {
+     "material": "MAT_Canvas_Lace",
+     "default": "#ece9e2",
+     "fabric": null,
+     "share": 0.03
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_boots_brown",
+   "asset": "SHOE_Boots_01",
+   "name": "Brown Boots",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "uncommon",
+   "price": 160,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Boots_01.e5fd02ce82.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Boots_01.webp?v=a1ab51de",
+   "fileSize": 151464,
+   "rawSize": 532532,
+   "version": "e5fd02ce82",
+   "compatibleBaseVersion": 1,
+   "triangles": 8436,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Boot",
+     "default": "#855731",
+     "fabric": "leather",
+     "share": 0.555
+    },
+    "secondary": {
+     "material": "MAT_Boot_Trim",
+     "default": "#674022",
+     "fabric": "leather",
+     "share": 0.198
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0166,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_hightop_red",
+   "asset": "SHOE_HighTop_01",
+   "name": "Red High-tops",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 360,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_HighTop_01.7a6b862236.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_HighTop_01.webp?v=7f42e5f8",
+   "fileSize": 153480,
+   "rawSize": 530344,
+   "version": "7a6b862236",
+   "compatibleBaseVersion": 1,
+   "triangles": 9176,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_HighTop",
+     "default": "#d23845",
+     "fabric": "canvas",
+     "share": 0.593
+    },
+    "secondary": {
+     "material": "MAT_HighTop_Patch",
+     "default": "#f7f7f7",
+     "fabric": null,
+     "share": 0.072
+    },
+    "accent": {
+     "material": "MAT_HighTop_Line",
+     "default": "#1c223e",
+     "fabric": null,
+     "share": 0.03
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.009,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_glow_sneaker",
+   "asset": "SHOE_Glow_01",
+   "name": "Glow Sneakers",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "epic",
+   "price": 760,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Glow_01.cbd3829385.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Glow_01.webp?v=f7e54a19",
+   "fileSize": 143552,
+   "rawSize": 517852,
+   "version": "cbd3829385",
+   "compatibleBaseVersion": 1,
+   "triangles": 7768,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_loafers",
+   "asset": "SHOE_Loafer_01",
+   "name": "Leather Loafers",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 380,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Loafer_01.732492cf3f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Loafer_01.webp?v=b4673b3b",
+   "fileSize": 86632,
+   "rawSize": 288524,
+   "version": "732492cf3f",
+   "compatibleBaseVersion": 1,
+   "triangles": 4324,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Loafer",
+     "default": "#57301f",
+     "fabric": "leather",
+     "share": 0.615
+    },
+    "secondary": {
+     "material": "MAT_Loafer_Welt",
+     "default": "#3c2215",
+     "fabric": null,
+     "share": 0.057
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_runners",
+   "asset": "SHOE_Runner_01",
+   "name": "Running Shoes",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "uncommon",
+   "price": 230,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Runner_01.ccc8015796.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Runner_01.webp?v=ef72e98e",
+   "fileSize": 132284,
+   "rawSize": 461884,
+   "version": "ccc8015796",
+   "compatibleBaseVersion": 1,
+   "triangles": 7328,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Runner",
+     "default": "#f74c5b",
+     "fabric": "mesh",
+     "share": 0.551
+    },
+    "secondary": {
+     "material": "MAT_Runner_Accent",
+     "default": "#1c223e",
+     "fabric": null,
+     "share": 0.074
+    },
+    "accent": {
+     "material": "MAT_Runner_Lace",
+     "default": "#f7f7f7",
+     "fabric": null,
+     "share": 0.03
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_slipon_white",
+   "asset": "SHOE_SlipOn_01",
+   "name": "White Slip-ons",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "common",
+   "price": 120,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_SlipOn_01.3bc696bacd.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_SlipOn_01.webp?v=b4581c34",
+   "fileSize": 80024,
+   "rawSize": 259136,
+   "version": "3bc696bacd",
+   "compatibleBaseVersion": 1,
+   "triangles": 4000,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_SlipOn",
+     "default": "#ecece8",
+     "fabric": "canvas",
+     "share": 0.598
+    },
+    "secondary": {
+     "material": "MAT_SlipOn_Line",
+     "default": "#c8c1b2",
+     "fabric": null,
+     "share": 0.057
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_retro_court",
+   "asset": "SHOE_Court_01",
+   "name": "Retro Court Shoes",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "uncommon",
+   "price": 240,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Court_01.cd749b1f50.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Court_01.webp?v=697760c3",
+   "fileSize": 162840,
+   "rawSize": 608908,
+   "version": "cd749b1f50",
+   "compatibleBaseVersion": 1,
+   "triangles": 9408,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Court",
+     "default": "#f7f2e8",
+     "fabric": "leather",
+     "share": 0.564
+    },
+    "secondary": {
+     "material": "MAT_Court_Stripe",
+     "default": "#2c794c",
+     "fabric": null,
+     "share": 0.083
+    },
+    "accent": {
+     "material": "MAT_Court_Lace",
+     "default": "#f7f2e8",
+     "fabric": null,
+     "share": 0.03
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_tech_boots",
+   "asset": "SHOE_TechBoot_01",
+   "name": "Tech Boots",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "epic",
+   "price": 740,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_TechBoot_01.b9d13a2069.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_TechBoot_01.webp?v=efac142c",
+   "fileSize": 136480,
+   "rawSize": 452620,
+   "version": "b9d13a2069",
+   "compatibleBaseVersion": 1,
+   "triangles": 6928,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_TechBoot",
+     "default": "#1b1e27",
+     "fabric": "leather",
+     "share": 0.552
+    },
+    "secondary": {
+     "material": "MAT_TechBoot_Strap",
+     "default": "#383f4f",
+     "fabric": "mesh",
+     "share": 0.172
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0169,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_snow_boots",
+   "asset": "SHOE_Snow_01",
+   "name": "Snow Boots",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Snow_01.d40b6c0de3.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Snow_01.webp?v=9b14f889",
+   "fileSize": 146188,
+   "rawSize": 512624,
+   "version": "d40b6c0de3",
+   "compatibleBaseVersion": 1,
+   "triangles": 8348,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Snow",
+     "default": "#764728",
+     "fabric": "leather",
+     "share": 0.549
+    },
+    "secondary": {
+     "material": "MAT_Snow_Fur",
+     "default": "#ebe4d8",
+     "fabric": "fleece",
+     "share": 0.168
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0172,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_adventure_boots",
+   "asset": "SHOE_Adventure_01",
+   "name": "Adventure Boots",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 400,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Adventure_01.714cddae75.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Adventure_01.webp?v=df4f8c8d",
+   "fileSize": 130956,
+   "rawSize": 437196,
+   "version": "714cddae75",
+   "compatibleBaseVersion": 1,
+   "triangles": 6840,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_AdvBoot",
+     "default": "#674022",
+     "fabric": "leather",
+     "share": 0.527
+    },
+    "secondary": {
+     "material": "MAT_AdvBoot_Cuff",
+     "default": "#855731",
+     "fabric": "leather",
+     "share": 0.239
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0175,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_sandals",
+   "asset": "SHOE_Sandal_01",
+   "name": "Strap Sandals",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "common",
+   "price": 90,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Sandal_01.b7340c42ac.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Sandal_01.webp?v=baefee6f",
+   "fileSize": 81888,
+   "rawSize": 263660,
+   "version": "b7340c42ac",
+   "compatibleBaseVersion": 1,
+   "triangles": 4672,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R"
+   ],
+   "masks": [
+    "foot"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sandal_Strap",
+     "default": "#674022",
+     "fabric": "leather",
+     "share": 0.276
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "shoes_holiday_booties",
+   "asset": "SHOE_Holiday_01",
+   "name": "Holiday Booties",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 380,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_Holiday_01.dc898ed789.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_Holiday_01.webp?v=72754c8d",
+   "fileSize": 99668,
+   "rawSize": 318048,
+   "version": "dc898ed789",
+   "compatibleBaseVersion": 1,
+   "triangles": 5632,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_HolidayBoot",
+     "default": "#c1303d",
+     "fabric": "fleece",
+     "share": 0.581
+    },
+    "secondary": {
+     "material": "MAT_HolidayBoot_Fur",
+     "default": "#f3efe6",
+     "fabric": "fleece",
+     "share": 0.212
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0169,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hat_cap_red",
+   "asset": "HAT_Cap_01",
+   "name": "Red Cap",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "common",
+   "price": 90,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Cap_01.602230c16e.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Cap_01.webp?v=3a2cce5c",
+   "fileSize": 47204,
+   "rawSize": 137056,
+   "version": "602230c16e",
+   "compatibleBaseVersion": 1,
+   "triangles": 2704,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Cap",
+     "default": "#d23845",
+     "fabric": "canvas",
+     "share": 0.963
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8305,
+    -0.0005,
+    0.0088
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_beanie_teal",
+   "asset": "HAT_Beanie_01",
+   "name": "Teal Beanie",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "common",
+   "price": 110,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Beanie_01.777b3fa2c7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Beanie_01.webp?v=34e65d50",
+   "fileSize": 53976,
+   "rawSize": 160680,
+   "version": "777b3fa2c7",
+   "compatibleBaseVersion": 1,
+   "triangles": 2776,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Beanie",
+     "default": "#29aaa0",
+     "fabric": "knit",
+     "share": 0.686
+    },
+    "secondary": {
+     "material": "MAT_Beanie_Rib",
+     "default": "#1e8a81",
+     "fabric": "rib",
+     "share": 0.285
+    },
+    "accent": {
+     "material": "MAT_Beanie_Pom",
+     "default": "#e0eeec",
+     "fabric": "fleece",
+     "share": 0.028
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8169,
+    0,
+    0
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_bucket_tan",
+   "asset": "HAT_Bucket_01",
+   "name": "Bucket Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Bucket_01.0cce98d31a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Bucket_01.webp?v=1919cef4",
+   "fileSize": 64128,
+   "rawSize": 197392,
+   "version": "0cce98d31a",
+   "compatibleBaseVersion": 1,
+   "triangles": 4276,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Bucket",
+     "default": "#d1b385",
+     "fabric": "canvas",
+     "share": 0.542
+    },
+    "secondary": {
+     "material": "MAT_Bucket_Brim",
+     "default": "#be9c6c",
+     "fabric": "canvas",
+     "share": 0.328
+    },
+    "accent": {
+     "material": "MAT_Bucket_Band",
+     "default": "#8a6b41",
+     "fabric": null,
+     "share": 0.089
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8242,
+    0,
+    0.0195
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_grad_cap",
+   "asset": "HAT_GradCap_01",
+   "name": "Graduation Cap",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "rare",
+   "price": 480,
+   "glbUrl": "/assets/avatar3d/glb/HAT_GradCap_01.6a4d1d13dc.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_GradCap_01.webp?v=9b7c2738",
+   "fileSize": 38524,
+   "rawSize": 107192,
+   "version": "6a4d1d13dc",
+   "compatibleBaseVersion": 1,
+   "triangles": 1688,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_GradCap",
+     "default": "#212138",
+     "fabric": "canvas",
+     "share": 0.578
+    },
+    "secondary": {
+     "material": "MAT_GradCap_Board",
+     "default": "#2d2d47",
+     "fabric": "canvas",
+     "share": 0.399
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8806,
+    -0.0019,
+    0.0007
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_wizard",
+   "asset": "HAT_Wizard_01",
+   "name": "Wizard Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "epic",
+   "price": 920,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Wizard_01.1227a08c2a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Wizard_01.webp?v=382b3a32",
+   "fileSize": 66712,
+   "rawSize": 225588,
+   "version": "1227a08c2a",
+   "compatibleBaseVersion": 1,
+   "triangles": 3764,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Wizard",
+     "default": "#573db2",
+     "fabric": "fleece",
+     "share": 0.89
+    },
+    "secondary": {
+     "material": "MAT_Wizard_Band",
+     "default": "#f7ce47",
+     "fabric": null,
+     "share": 0.103
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8582,
+    -0.0001,
+    0.0003
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_pumpkin",
+   "asset": "HAT_Pumpkin_01",
+   "name": "Pumpkin Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Pumpkin_01.dccbc19919.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Pumpkin_01.webp?v=3ed39ff4",
+   "fileSize": 42848,
+   "rawSize": 131844,
+   "version": "dccbc19919",
+   "compatibleBaseVersion": 1,
+   "triangles": 2652,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Pumpkin",
+     "default": "#e88522",
+     "fabric": null,
+     "share": 0.976
+    },
+    "secondary": {
+     "material": "MAT_Pumpkin_Stem",
+     "default": "#4c762c",
+     "fabric": null,
+     "share": 0.024
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8269,
+    -0.0006,
+    0.0042
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_crown_vocab",
+   "asset": "HAT_CrownVocab_01",
+   "name": "Vocabulary Crown",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAT_CrownVocab_01.8fd10502f8.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_CrownVocab_01.webp?v=cfed17d6",
+   "fileSize": 44588,
+   "rawSize": 128920,
+   "version": "8fd10502f8",
+   "compatibleBaseVersion": 1,
+   "triangles": 1836,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hat_snapback",
+   "asset": "HAT_Snapback_01",
+   "name": "Snapback",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "uncommon",
+   "price": 180,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Snapback_01.8b3b31da70.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Snapback_01.webp?v=479759b8",
+   "fileSize": 55552,
+   "rawSize": 169924,
+   "version": "8b3b31da70",
+   "compatibleBaseVersion": 1,
+   "triangles": 2892,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Snapback",
+     "default": "#1e2841",
+     "fabric": "canvas",
+     "share": 0.854
+    },
+    "secondary": {
+     "material": "MAT_Snapback_Trim",
+     "default": "#f75734",
+     "fabric": null,
+     "share": 0.122
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8306,
+    0.0002,
+    -0.0053
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_sun_hat",
+   "asset": "HAT_SunHat_01",
+   "name": "Straw Sun Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "uncommon",
+   "price": 210,
+   "glbUrl": "/assets/avatar3d/glb/HAT_SunHat_01.f984dab9de.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_SunHat_01.webp?v=9d4db664",
+   "fileSize": 55988,
+   "rawSize": 186996,
+   "version": "f984dab9de",
+   "compatibleBaseVersion": 1,
+   "triangles": 3800,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_SunHat",
+     "default": "#e0cb95",
+     "fabric": "straw",
+     "share": 0.888
+    },
+    "secondary": {
+     "material": "MAT_SunHat_Ribbon",
+     "default": "#f77656",
+     "fabric": null,
+     "share": 0.112
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8369,
+    -0.0105,
+    -0.0012
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_beret",
+   "asset": "HAT_Beret_01",
+   "name": "Beret",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "uncommon",
+   "price": 170,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Beret_01.730bc33b56.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Beret_01.webp?v=67e8c84a",
+   "fileSize": 47876,
+   "rawSize": 149928,
+   "version": "730bc33b56",
+   "compatibleBaseVersion": 1,
+   "triangles": 3032,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Beret",
+     "default": "#8a1e28",
+     "fabric": "fleece",
+     "share": 0.898
+    },
+    "secondary": {
+     "material": "MAT_Beret_Band",
+     "default": "#6a151f",
+     "fabric": "rib",
+     "share": 0.102
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8455,
+    0,
+    0
+   ],
+   "active": true
+  },
+  {
+   "itemId": "hat_sport_headband",
+   "asset": "HAT_Headband_01",
+   "name": "Sport Headband",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "common",
+   "price": 70,
+   "glbUrl": "/assets/avatar3d/glb/HAT_Headband_01.34e4d361f0.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_Headband_01.webp?v=3df09fa9",
+   "fileSize": 28288,
+   "rawSize": 81384,
+   "version": "34e4d361f0",
+   "compatibleBaseVersion": 1,
+   "triangles": 992,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Headband",
+     "default": "#1e6be3",
+     "fabric": "rib",
+     "share": 0.997
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_round",
+   "asset": "ACC_Glasses_01",
+   "name": "Round Glasses",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "common",
+   "price": 80,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_01.32d4a49924.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_01.webp?v=8cbc441a",
+   "fileSize": 31744,
+   "rawSize": 93540,
+   "version": "32d4a49924",
+   "compatibleBaseVersion": 1,
+   "triangles": 1472,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Glasses_Frame",
+     "default": "#29223e",
+     "fabric": null,
+     "share": 0.667
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_sunglasses",
+   "asset": "ACC_Glasses_02",
+   "name": "Sunglasses",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "uncommon",
+   "price": 220,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_02.4e85d54ee3.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_02.webp?v=03074a0b",
+   "fileSize": 34748,
+   "rawSize": 104148,
+   "version": "4e85d54ee3",
+   "compatibleBaseVersion": 1,
+   "triangles": 1632,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sunglasses_Frame",
+     "default": "#1c1c29",
+     "fabric": null,
+     "share": 0.671
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_heart_shades",
+   "asset": "ACC_Glasses_03",
+   "name": "Heart Shades",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "rare",
+   "price": 400,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_03.6e99fa39c2.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_03.webp?v=f69b2132",
+   "fileSize": 45688,
+   "rawSize": 164980,
+   "version": "6e99fa39c2",
+   "compatibleBaseVersion": 1,
+   "triangles": 1544,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Heart_Frame",
+     "default": "#bc1758",
+     "fabric": null,
+     "share": 0.585
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_visor",
+   "asset": "ACC_Glasses_04",
+   "name": "Future Visor",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "epic",
+   "price": 880,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_04.7758cfdec1.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_04.webp?v=3bc5e793",
+   "fileSize": 25276,
+   "rawSize": 63092,
+   "version": "7758cfdec1",
+   "compatibleBaseVersion": 1,
+   "triangles": 1024,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Visor_Frame",
+     "default": "#29223e",
+     "fabric": null,
+     "share": 0.042
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_grammar",
+   "asset": "ACC_Glasses_05",
+   "name": "Grammar Glasses",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_05.98020aa99c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_05.webp?v=f213ad89",
+   "fileSize": 38156,
+   "rawSize": 118172,
+   "version": "98020aa99c",
+   "compatibleBaseVersion": 1,
+   "triangles": 1364,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_aviator",
+   "asset": "ACC_Glasses_06",
+   "name": "Aviators",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "rare",
+   "price": 360,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Glasses_06.9820f241b6.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Glasses_06.webp?v=6d3ee466",
+   "fileSize": 28560,
+   "rawSize": 81244,
+   "version": "9820f241b6",
+   "compatibleBaseVersion": 1,
+   "triangles": 968,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "phones_basic",
+   "asset": "ACC_Headphone_01",
+   "name": "Basic Headphones",
+   "category": "headphones",
+   "slot": "headphones",
+   "rarity": "common",
+   "price": 120,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Headphone_01.92ad6959c3.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Headphone_01.webp?v=be7812e3",
+   "fileSize": 45504,
+   "rawSize": 128424,
+   "version": "92ad6959c3",
+   "compatibleBaseVersion": 1,
+   "triangles": 2124,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Phones_Pad_3a3f52",
+     "default": "#282b36",
+     "fabric": "leather",
+     "share": 0.326
+    },
+    "secondary": {
+     "material": "MAT_Phones_Band_3a3f52",
+     "default": "#383d4f",
+     "fabric": null,
+     "share": 0.323
+    },
+    "accent": {
+     "material": "MAT_Phones_Cup_4d546b",
+     "default": "#4a5167",
+     "fabric": null,
+     "share": 0.314
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "phones_neon",
+   "asset": "ACC_Headphone_02",
+   "name": "Neon Headphones",
+   "category": "headphones",
+   "slot": "headphones",
+   "rarity": "rare",
+   "price": 420,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Headphone_02.32a2fa82f0.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Headphone_02.webp?v=45f68b83",
+   "fileSize": 45484,
+   "rawSize": 128464,
+   "version": "32a2fa82f0",
+   "compatibleBaseVersion": 1,
+   "triangles": 2124,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Phones_Pad_ff5ccf",
+     "default": "#282b36",
+     "fabric": "leather",
+     "share": 0.326
+    },
+    "secondary": {
+     "material": "MAT_Phones_Band_ff5ccf",
+     "default": "#f759c8",
+     "fabric": null,
+     "share": 0.323
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "phones_cat",
+   "asset": "ACC_Headphone_03",
+   "name": "Cat-ear Headphones",
+   "category": "headphones",
+   "slot": "headphones",
+   "rarity": "epic",
+   "price": 780,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Headphone_03.f484ef9809.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Headphone_03.webp?v=a7ddf71b",
+   "fileSize": 56544,
+   "rawSize": 170572,
+   "version": "f484ef9809",
+   "compatibleBaseVersion": 1,
+   "triangles": 2444,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Phones_Band_Cat",
+     "default": "#f7adc8",
+     "fabric": null,
+     "share": 0.367
+    },
+    "secondary": {
+     "material": "MAT_Phones_Pad_Cat",
+     "default": "#282b36",
+     "fabric": "leather",
+     "share": 0.289
+    },
+    "accent": {
+     "material": "MAT_Phones_Cup_Cat",
+     "default": "#f78ab2",
+     "fabric": null,
+     "share": 0.278
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "phones_toeic",
+   "asset": "ACC_Headphone_04",
+   "name": "TOEIC Headphones",
+   "category": "headphones",
+   "slot": "headphones",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Headphone_04.cae8f2816c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Headphone_04.webp?v=4aac9b65",
+   "fileSize": 50952,
+   "rawSize": 141876,
+   "version": "cae8f2816c",
+   "compatibleBaseVersion": 1,
+   "triangles": 2212,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Phones_Pad_Toeic",
+     "default": "#282b36",
+     "fabric": "leather",
+     "share": 0.306
+    },
+    "secondary": {
+     "material": "MAT_Phones_Band_Toeic",
+     "default": "#222e5b",
+     "fabric": null,
+     "share": 0.303
+    },
+    "accent": {
+     "material": "MAT_Phones_Cup_Toeic",
+     "default": "#2d3d76",
+     "fabric": null,
+     "share": 0.295
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "phones_earmuffs",
+   "asset": "ACC_Earmuffs_01",
+   "name": "Fluffy Earmuffs",
+   "category": "headphones",
+   "slot": "headphones",
+   "rarity": "uncommon",
+   "price": 190,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Earmuffs_01.24b652753f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Earmuffs_01.webp?v=88e6a7b4",
+   "fileSize": 32840,
+   "rawSize": 97896,
+   "version": "24b652753f",
+   "compatibleBaseVersion": 1,
+   "triangles": 1616,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Earmuff_Fur",
+     "default": "#eebbc9",
+     "fabric": "fleece",
+     "share": 0.71
+    },
+    "secondary": {
+     "material": "MAT_Earmuff_Band",
+     "default": "#bc1758",
+     "fabric": null,
+     "share": 0.29
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_backpack_school",
+   "asset": "BACK_Backpack_01",
+   "name": "School Backpack",
+   "category": "back",
+   "slot": "back",
+   "rarity": "common",
+   "price": 100,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Backpack_01.fac8f9e8ef.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Backpack_01.webp?v=dbe0b007",
+   "fileSize": 45064,
+   "rawSize": 133788,
+   "version": "fac8f9e8ef",
+   "compatibleBaseVersion": 1,
+   "triangles": 2618,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Backpack_Trim",
+     "default": "#aa2835",
+     "fabric": "canvas",
+     "share": 0.518
+    },
+    "secondary": {
+     "material": "MAT_Backpack",
+     "default": "#d23845",
+     "fabric": "canvas",
+     "share": 0.463
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_backpack_explorer",
+   "asset": "BACK_Explorer_01",
+   "name": "Explorer Pack",
+   "category": "back",
+   "slot": "back",
+   "rarity": "uncommon",
+   "price": 240,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Explorer_01.5811509281.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Explorer_01.webp?v=70fe7562",
+   "fileSize": 54548,
+   "rawSize": 161048,
+   "version": "5811509281",
+   "compatibleBaseVersion": 1,
+   "triangles": 3138,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Explorer_Trim",
+     "default": "#3a6b36",
+     "fabric": "canvas",
+     "share": 0.425
+    },
+    "secondary": {
+     "material": "MAT_Explorer",
+     "default": "#4c8a47",
+     "fabric": "canvas",
+     "share": 0.344
+    },
+    "accent": {
+     "material": "MAT_Explorer_Roll",
+     "default": "#be9c6c",
+     "fabric": "fleece",
+     "share": 0.217
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_jetpack",
+   "asset": "BACK_Jetpack_01",
+   "name": "Jetpack",
+   "category": "back",
+   "slot": "back",
+   "rarity": "legendary",
+   "price": 1500,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Jetpack_01.a4aa304f44.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Jetpack_01.webp?v=fcb095a2",
+   "fileSize": 78508,
+   "rawSize": 243620,
+   "version": "a4aa304f44",
+   "compatibleBaseVersion": 1,
+   "triangles": 4288,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Jet_Body",
+     "default": "#d23845",
+     "fabric": null,
+     "share": 0.268
+    },
+    "secondary": {
+     "material": "MAT_Jet_Strap",
+     "default": "#5a627c",
+     "fabric": "mesh",
+     "share": 0.161
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_cape_c2",
+   "asset": "BACK_CapeC2_01",
+   "name": "C2 Cape",
+   "category": "back",
+   "slot": "back",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BACK_CapeC2_01.20281d2b14.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_CapeC2_01.webp?v=6a933e93",
+   "fileSize": 39112,
+   "rawSize": 115796,
+   "version": "20281d2b14",
+   "compatibleBaseVersion": 1,
+   "triangles": 2220,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest",
+    "Hips",
+    "Spine"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Cape",
+     "default": "#482895",
+     "fabric": "fleece",
+     "share": 0.993
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0366,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_skateboard",
+   "asset": "BACK_Skateboard_01",
+   "name": "Skateboard",
+   "category": "back",
+   "slot": "back",
+   "rarity": "epic",
+   "price": 760,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Skateboard_01.ef0e1d22de.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Skateboard_01.webp?v=6ff32355",
+   "fileSize": 51476,
+   "rawSize": 140056,
+   "version": "ef0e1d22de",
+   "compatibleBaseVersion": 1,
+   "triangles": 2520,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Skate_Deck",
+     "default": "#f75734",
+     "fabric": null,
+     "share": 0.414
+    },
+    "secondary": {
+     "material": "MAT_Skate_Grip",
+     "default": "#1c1c22",
+     "fabric": "canvas",
+     "share": 0.36
+    },
+    "accent": {
+     "material": "MAT_Skate_Strap",
+     "default": "#29223e",
+     "fabric": "mesh",
+     "share": 0.143
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0023,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_tote_canvas",
+   "asset": "BACK_Tote_01",
+   "name": "Canvas Tote",
+   "category": "back",
+   "slot": "back",
+   "rarity": "common",
+   "price": 110,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Tote_01.a912598a51.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Tote_01.webp?v=dba6a2e5",
+   "fileSize": 29608,
+   "rawSize": 81384,
+   "version": "a912598a51",
+   "compatibleBaseVersion": 1,
+   "triangles": 1090,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Tote",
+     "default": "#e7decb",
+     "fabric": "canvas",
+     "share": 0.697
+    },
+    "secondary": {
+     "material": "MAT_Tote_Handle",
+     "default": "#c2ad85",
+     "fabric": "canvas",
+     "share": 0.278
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_quiver",
+   "asset": "BACK_Quiver_01",
+   "name": "Arrow Quiver",
+   "category": "back",
+   "slot": "back",
+   "rarity": "rare",
+   "price": 460,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Quiver_01.540d8bfc32.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Quiver_01.webp?v=bd50acac",
+   "fileSize": 31312,
+   "rawSize": 67972,
+   "version": "540d8bfc32",
+   "compatibleBaseVersion": 1,
+   "triangles": 886,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Quiver",
+     "default": "#764728",
+     "fabric": "leather",
+     "share": 0.802
+    },
+    "secondary": {
+     "material": "MAT_Quiver_Wood",
+     "default": "#c0954f",
+     "fabric": null,
+     "share": 0.107
+    },
+    "accent": {
+     "material": "MAT_Quiver_Feather",
+     "default": "#e0425a",
+     "fabric": null,
+     "share": 0.023
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_sling_tech",
+   "asset": "BACK_Sling_01",
+   "name": "Tech Sling",
+   "category": "back",
+   "slot": "back",
+   "rarity": "uncommon",
+   "price": 240,
+   "glbUrl": "/assets/avatar3d/glb/BACK_Sling_01.a1d8238aeb.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_Sling_01.webp?v=0b037a00",
+   "fileSize": 27828,
+   "rawSize": 57604,
+   "version": "a1d8238aeb",
+   "compatibleBaseVersion": 1,
+   "triangles": 884,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sling_Strap",
+     "default": "#383f4f",
+     "fabric": "mesh",
+     "share": 0.482
+    },
+    "secondary": {
+     "material": "MAT_Sling",
+     "default": "#1a1d25",
+     "fabric": "mesh",
+     "share": 0.475
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0034,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_watch",
+   "asset": "ACC_Watch_01",
+   "name": "Wristwatch",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Watch_01.6aafcc35b9.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Watch_01.webp?v=63d76d9c",
+   "fileSize": 24412,
+   "rawSize": 48360,
+   "version": "6aafcc35b9",
+   "compatibleBaseVersion": 1,
+   "triangles": 660,
+   "attach": "skinned",
+   "bones": [
+    "Hand.L",
+    "LowerArm.L"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Watch_Band",
+     "default": "#383d4f",
+     "fabric": "leather",
+     "share": 0.763
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_scarf_red",
+   "asset": "ACC_Scarf_01",
+   "name": "Red Scarf",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 170,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Scarf_01.7be18f5b0b.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Scarf_01.webp?v=08b7a08c",
+   "fileSize": 45476,
+   "rawSize": 136896,
+   "version": "7be18f5b0b",
+   "compatibleBaseVersion": 1,
+   "triangles": 2440,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Neck",
+    "UpperArm.L",
+    "UpperArm.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Scarf",
+     "default": "#d23845",
+     "fabric": "knit",
+     "share": 0.984
+    },
+    "secondary": {
+     "material": "MAT_Scarf_Stripe",
+     "default": "#aa2835",
+     "fabric": "knit",
+     "share": 0.016
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0325,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_medal",
+   "asset": "ACC_Medal_01",
+   "name": "Gold Medal",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "rare",
+   "price": 360,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Medal_01.ea6bd2e3c4.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Medal_01.webp?v=8e2b0c4a",
+   "fileSize": 36468,
+   "rawSize": 104632,
+   "version": "ea6bd2e3c4",
+   "compatibleBaseVersion": 1,
+   "triangles": 1504,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Medal_Ribbon",
+     "default": "#3d7bd9",
+     "fabric": "weave",
+     "share": 0.624
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_chain_necklace",
+   "asset": "ACC_Chain_01",
+   "name": "Chain Necklace",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Chain_01.2146f0bb77.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Chain_01.webp?v=5edffd05",
+   "fileSize": 40092,
+   "rawSize": 126204,
+   "version": "2146f0bb77",
+   "compatibleBaseVersion": 1,
+   "triangles": 1774,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_bowtie",
+   "asset": "ACC_Bowtie_01",
+   "name": "Bow Tie",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 90,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Bowtie_01.ed84c5bf3b.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Bowtie_01.webp?v=26b73f91",
+   "fileSize": 15668,
+   "rawSize": 40156,
+   "version": "ed84c5bf3b",
+   "compatibleBaseVersion": 1,
+   "triangles": 260,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Bowtie",
+     "default": "#8a1e28",
+     "fabric": "weave",
+     "share": 1
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_sweatband",
+   "asset": "ACC_Sweatband_01",
+   "name": "Wristband",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 60,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Sweatband_01.4cc418d62c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Sweatband_01.webp?v=6ae3a4cc",
+   "fileSize": 23484,
+   "rawSize": 53236,
+   "version": "4cc418d62c",
+   "compatibleBaseVersion": 1,
+   "triangles": 864,
+   "attach": "skinned",
+   "bones": [
+    "Hand.L",
+    "LowerArm.L"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Sweatband",
+     "default": "#f7f7f7",
+     "fabric": "fleece",
+     "share": 0.832
+    },
+    "secondary": {
+     "material": "MAT_Sweatband_Stripe",
+     "default": "#1e6be3",
+     "fabric": null,
+     "share": 0.168
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_id_lanyard",
+   "asset": "ACC_Lanyard_01",
+   "name": "Student ID",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 60,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Lanyard_01.aeb4fe5195.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Lanyard_01.webp?v=22657b4f",
+   "fileSize": 45088,
+   "rawSize": 163256,
+   "version": "aeb4fe5195",
+   "compatibleBaseVersion": 1,
+   "triangles": 1344,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Lanyard",
+     "default": "#1e6be3",
+     "fabric": "weave",
+     "share": 0.671
+    },
+    "secondary": {
+     "material": "MAT_Lanyard_Card",
+     "default": "#f7f7f7",
+     "fabric": null,
+     "share": 0.28
+    },
+    "accent": {
+     "material": "MAT_Lanyard_Photo",
+     "default": "#9abff7",
+     "fabric": null,
+     "share": 0.032
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.0023,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_amulet",
+   "asset": "ACC_Amulet_01",
+   "name": "Glow Amulet",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "epic",
+   "price": 720,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Amulet_01.af6c4c71a6.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Amulet_01.webp?v=29b54484",
+   "fileSize": 44664,
+   "rawSize": 157896,
+   "version": "af6c4c71a6",
+   "compatibleBaseVersion": 1,
+   "triangles": 1544,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Amulet_Cord",
+     "default": "#382414",
+     "fabric": "leather",
+     "share": 0.557
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_smartband",
+   "asset": "ACC_SmartBand_01",
+   "name": "Smart Band",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 210,
+   "glbUrl": "/assets/avatar3d/glb/ACC_SmartBand_01.4f58bcab75.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_SmartBand_01.webp?v=14b0dd88",
+   "fileSize": 16984,
+   "rawSize": 31080,
+   "version": "4f58bcab75",
+   "compatibleBaseVersion": 1,
+   "triangles": 308,
+   "attach": "skinned",
+   "bones": [
+    "Hand.L",
+    "LowerArm.L"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_SmartBand",
+     "default": "#1f212c",
+     "fabric": "rib",
+     "share": 0.888
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_mittens",
+   "asset": "ACC_Mittens_01",
+   "name": "Knit Mittens",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 110,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Mittens_01.8215c992e1.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Mittens_01.webp?v=991918ab",
+   "fileSize": 58360,
+   "rawSize": 204868,
+   "version": "8215c992e1",
+   "compatibleBaseVersion": 1,
+   "triangles": 2968,
+   "attach": "skinned",
+   "bones": [
+    "Hand.L",
+    "Hand.R",
+    "LowerArm.L",
+    "LowerArm.R"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Mitten",
+     "default": "#d23845",
+     "fabric": "knit",
+     "share": 0.633
+    },
+    "secondary": {
+     "material": "MAT_Mitten_Rib",
+     "default": "#ece9e2",
+     "fabric": "rib",
+     "share": 0.367
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_bead_bracelet",
+   "asset": "ACC_Beads_01",
+   "name": "Bead Bracelet",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 70,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Beads_01.72976fab17.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Beads_01.webp?v=c6216c58",
+   "fileSize": 35712,
+   "rawSize": 104532,
+   "version": "72976fab17",
+   "compatibleBaseVersion": 1,
+   "triangles": 1600,
+   "attach": "skinned",
+   "bones": [
+    "LowerArm.L"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_flower_garland",
+   "asset": "ACC_Garland_01",
+   "name": "Jasmine Garland",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 200,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Garland_01.f5800d1f3d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Garland_01.webp?v=602e1862",
+   "fileSize": 55216,
+   "rawSize": 170404,
+   "version": "f5800d1f3d",
+   "compatibleBaseVersion": 1,
+   "triangles": 2618,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Garland_Jasmine",
+     "default": "#f7f5ed",
+     "fabric": null,
+     "share": 0.659
+    },
+    "secondary": {
+     "material": "MAT_Garland_Ribbon",
+     "default": "#e0425a",
+     "fabric": null,
+     "share": 0.142
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0.001,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_minimal_pendant",
+   "asset": "ACC_Pendant_01",
+   "name": "Bar Pendant",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 160,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Pendant_01.504fa4ac9e.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Pendant_01.webp?v=586a5419",
+   "fileSize": 12492,
+   "rawSize": 24140,
+   "version": "504fa4ac9e",
+   "compatibleBaseVersion": 1,
+   "triangles": 196,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_neckerchief",
+   "asset": "ACC_Neckerchief_01",
+   "name": "Neckerchief",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "common",
+   "price": 90,
+   "glbUrl": "/assets/avatar3d/glb/ACC_Neckerchief_01.cdb786659c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_Neckerchief_01.webp?v=6a5bd661",
+   "fileSize": 31008,
+   "rawSize": 85404,
+   "version": "cdb786659c",
+   "compatibleBaseVersion": 1,
+   "triangles": 1296,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Head",
+    "Neck"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Neckerchief",
+     "default": "#af422d",
+     "fabric": "weave",
+     "share": 0.994
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_sparkles",
+   "asset": "FX_Sparkles_01",
+   "name": "Sparkles",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "uncommon",
+   "price": 260,
+   "glbUrl": "/assets/avatar3d/glb/FX_Sparkles_01.286c75fec7.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_Sparkles_01.webp?v=357fde08",
+   "fileSize": 37800,
+   "rawSize": 171336,
+   "version": "286c75fec7",
+   "compatibleBaseVersion": 1,
+   "triangles": 1320,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_books_float",
+   "asset": "FX_Books_01",
+   "name": "Floating Books",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "rare",
+   "price": 520,
+   "glbUrl": "/assets/avatar3d/glb/FX_Books_01.bf6c1292d3.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_Books_01.webp?v=9721c1e6",
+   "fileSize": 60144,
+   "rawSize": 212488,
+   "version": "bf6c1292d3",
+   "compatibleBaseVersion": 1,
+   "triangles": 4608,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Fx_Pages",
+     "default": "#f7f2e8",
+     "fabric": null,
+     "share": 0.446
+    },
+    "secondary": {
+     "material": "MAT_Fx_Book_0",
+     "default": "#4c7bd9",
+     "fabric": "leather",
+     "share": 0.211
+    },
+    "accent": {
+     "material": "MAT_Fx_Book_1",
+     "default": "#d23845",
+     "fabric": "leather",
+     "share": 0.211
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_aurora",
+   "asset": "FX_Aurora_01",
+   "name": "Aurora Glow",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "epic",
+   "price": 980,
+   "glbUrl": "/assets/avatar3d/glb/FX_Aurora_01.598a30d8eb.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_Aurora_01.webp?v=cf0bcc2f",
+   "fileSize": 13396,
+   "rawSize": 26592,
+   "version": "598a30d8eb",
+   "compatibleBaseVersion": 1,
+   "triangles": 468,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_star_orbit",
+   "asset": "FX_StarOrbit_01",
+   "name": "Star Orbit",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "legendary",
+   "price": 1600,
+   "glbUrl": "/assets/avatar3d/glb/FX_StarOrbit_01.2c0194ec91.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_StarOrbit_01.webp?v=5ec60bb6",
+   "fileSize": 41028,
+   "rawSize": 157316,
+   "version": "2c0194ec91",
+   "compatibleBaseVersion": 1,
+   "triangles": 1604,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_snowfall",
+   "asset": "FX_Snow_01",
+   "name": "Snowfall",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "rare",
+   "price": 520,
+   "glbUrl": "/assets/avatar3d/glb/FX_Snow_01.82fc74f398.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_Snow_01.webp?v=4cf269b6",
+   "fileSize": 20892,
+   "rawSize": 84996,
+   "version": "82fc74f398",
+   "compatibleBaseVersion": 1,
+   "triangles": 704,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {},
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "fx_lanterns",
+   "asset": "FX_Lanterns_01",
+   "name": "Floating Lanterns",
+   "category": "effect",
+   "slot": "effect",
+   "rarity": "epic",
+   "price": 900,
+   "glbUrl": "/assets/avatar3d/glb/FX_Lanterns_01.01b4e6affe.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/FX_Lanterns_01.webp?v=1aee1e06",
+   "fileSize": 38032,
+   "rawSize": 115476,
+   "version": "01b4e6affe",
+   "compatibleBaseVersion": 1,
+   "triangles": 1878,
+   "attach": "Root",
+   "bones": [
+    "Root"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_Fx_LanternTop",
+     "default": "#c1303d",
+     "fabric": null,
+     "share": 0.116
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": false
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hat_hw26_pumpkin",
+   "asset": "HAT_HW26Pumpkin_01",
+   "name": "Pumpkin Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAT_HW26Pumpkin_01.191d46350a.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_HW26Pumpkin_01.webp?v=31da4105",
+   "fileSize": 111516,
+   "rawSize": 386508,
+   "version": "191d46350a",
+   "compatibleBaseVersion": 1,
+   "triangles": 6516,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Pumpkin",
+     "default": "#ea8428",
+     "fabric": "knit",
+     "share": 0.717
+    },
+    "secondary": {
+     "material": "MAT_HW_Pumpkin_Rib",
+     "default": "#d26c1b",
+     "fabric": "rib",
+     "share": 0.252
+    },
+    "accent": {
+     "material": "MAT_HW_Pumpkin_Stem",
+     "default": "#5b792d",
+     "fabric": "leather",
+     "share": 0.017
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.7825,
+    0,
+    0
+   ],
+   "active": true
+  },
+  {
+   "itemId": "back_hw26_batwings",
+   "asset": "BACK_HW26BatWings_01",
+   "name": "Bat Wings",
+   "category": "back",
+   "slot": "back",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BACK_HW26BatWings_01.c6e4f97674.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_HW26BatWings_01.webp?v=3acf3b34",
+   "fileSize": 76072,
+   "rawSize": 266220,
+   "version": "c6e4f97674",
+   "compatibleBaseVersion": 1,
+   "triangles": 4132,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_BatWing",
+     "default": "#382053",
+     "fabric": "leather",
+     "share": 0.769
+    },
+    "secondary": {
+     "material": "MAT_HW_BatWing_Bone",
+     "default": "#1c0f2e",
+     "fabric": null,
+     "share": 0.227
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "top_hw26_ghost_hoodie",
+   "asset": "TOP_HW26Ghost_01",
+   "name": "Ghost Hoodie",
+   "category": "top",
+   "slot": "top",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/TOP_HW26Ghost_01.b8245ca83e.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/TOP_HW26Ghost_01.webp?v=04294f39",
+   "fileSize": 205396,
+   "rawSize": 670760,
+   "version": "b8245ca83e",
+   "compatibleBaseVersion": 1,
+   "triangles": 11972,
+   "attach": "skinned",
+   "bones": [
+    "Chest",
+    "Hand.L",
+    "Hand.R",
+    "Head",
+    "Hips",
+    "LowerArm.L",
+    "LowerArm.R",
+    "Neck",
+    "Spine",
+    "UpperArm.L",
+    "UpperArm.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "torso"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Ghost",
+     "default": "#eeebf7",
+     "fabric": "fleece",
+     "share": 0.913
+    },
+    "secondary": {
+     "material": "MAT_HW_Ghost_Rib",
+     "default": "#c2b2f7",
+     "fabric": "rib",
+     "share": 0.079
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0046,
+    "worstAt": "ANIM_BothArmsUp@10",
+    "sink": 0,
+    "poke": 0.003,
+    "pokeAt": "ANIM_Idle@1:uarm",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "hat_hw26_witch",
+   "asset": "HAT_HW26Witch_01",
+   "name": "Witch Hat",
+   "category": "hat",
+   "slot": "hat",
+   "rarity": "epic",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/HAT_HW26Witch_01.8a0d5ece0b.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/HAT_HW26Witch_01.webp?v=653f3f60",
+   "fileSize": 101684,
+   "rawSize": 352244,
+   "version": "8a0d5ece0b",
+   "compatibleBaseVersion": 1,
+   "triangles": 6338,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Witch",
+     "default": "#392262",
+     "fabric": "fleece",
+     "share": 0.899
+    },
+    "secondary": {
+     "material": "MAT_HW_Witch_Band",
+     "default": "#f7853b",
+     "fabric": "weave",
+     "share": 0.094
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "clip": [
+    0.8535,
+    -0.0014,
+    0.0125
+   ],
+   "active": true
+  },
+  {
+   "itemId": "shoes_hw26_boots",
+   "asset": "SHOE_HW26Boots_01",
+   "name": "Halloween Boots",
+   "category": "shoes",
+   "slot": "shoes",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/SHOE_HW26Boots_01.bd82c3998f.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/SHOE_HW26Boots_01.webp?v=a7481b25",
+   "fileSize": 185108,
+   "rawSize": 667688,
+   "version": "bd82c3998f",
+   "compatibleBaseVersion": 1,
+   "triangles": 9812,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "foot",
+    "lleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Boot",
+     "default": "#482976",
+     "fabric": "leather",
+     "share": 0.569
+    },
+    "secondary": {
+     "material": "MAT_HW_Boot_Cuff",
+     "default": "#ea8428",
+     "fabric": "knit",
+     "share": 0.143
+    },
+    "accent": {
+     "material": "MAT_HW_Boot_Bat",
+     "default": "#1c0f2e",
+     "fabric": null,
+     "share": 0.033
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0166,
+    "worstAt": "ANIM_Sit@1",
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "back_hw26_pumpkin_pack",
+   "asset": "BACK_HW26PumpkinPack_01",
+   "name": "Pumpkin Backpack",
+   "category": "back",
+   "slot": "back",
+   "rarity": "rare",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BACK_HW26PumpkinPack_01.f1b6efe9c8.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BACK_HW26PumpkinPack_01.webp?v=984c65dd",
+   "fileSize": 89208,
+   "rawSize": 308828,
+   "version": "f1b6efe9c8",
+   "compatibleBaseVersion": 1,
+   "triangles": 5310,
+   "attach": "SOCK_Back",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_PumpkinBag",
+     "default": "#e88522",
+     "fabric": "canvas",
+     "share": 0.615
+    },
+    "secondary": {
+     "material": "MAT_HW_PumpkinBag_Strap",
+     "default": "#482976",
+     "fabric": "mesh",
+     "share": 0.297
+    },
+    "accent": {
+     "material": "MAT_HW_PumpkinBag_Stem",
+     "default": "#5b792d",
+     "fabric": "leather",
+     "share": 0.04
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "bottom_hw26_midnight",
+   "asset": "BOT_HW26Midnight_01",
+   "name": "Midnight Star Pants",
+   "category": "bottom",
+   "slot": "bottom",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/BOT_HW26Midnight_01.1823cc0e0c.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/BOT_HW26Midnight_01.webp?v=063deeda",
+   "fileSize": 156496,
+   "rawSize": 615236,
+   "version": "1823cc0e0c",
+   "compatibleBaseVersion": 1,
+   "triangles": 8200,
+   "attach": "skinned",
+   "bones": [
+    "Foot.L",
+    "Foot.R",
+    "Hips",
+    "LowerLeg.L",
+    "LowerLeg.R",
+    "Spine",
+    "UpperLeg.L",
+    "UpperLeg.R"
+   ],
+   "masks": [
+    "uleg"
+   ],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_MidPants",
+     "default": "#1b214d",
+     "fabric": "twill",
+     "share": 0.883
+    },
+    "secondary": {
+     "material": "MAT_HW_MidPants_Waist",
+     "default": "#13193a",
+     "fabric": "twill",
+     "share": 0.105
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0.0049,
+    "worstAt": "ANIM_Run@4",
+    "sink": 0,
+    "poke": 0.0205,
+    "pokeAt": "ANIM_Sit@1:lleg",
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_hw26_moon",
+   "asset": "ACC_HW26Moon_01",
+   "name": "Crescent Moon Pendant",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "legendary",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_HW26Moon_01.18600b3058.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_HW26Moon_01.webp?v=1e46e7ed",
+   "fileSize": 35516,
+   "rawSize": 114404,
+   "version": "18600b3058",
+   "compatibleBaseVersion": 1,
+   "triangles": 1016,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Moon_Cord",
+     "default": "#291a4c",
+     "fabric": "leather",
+     "share": 0.685
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "acc_hw26_candy",
+   "asset": "ACC_HW26Candy_01",
+   "name": "Candy Corn Necklace",
+   "category": "accessory",
+   "slot": "accessory",
+   "rarity": "uncommon",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/ACC_HW26Candy_01.c9023f567d.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/ACC_HW26Candy_01.webp?v=9e956f63",
+   "fileSize": 44924,
+   "rawSize": 134616,
+   "version": "c9023f567d",
+   "compatibleBaseVersion": 1,
+   "triangles": 1896,
+   "attach": "skinned",
+   "bones": [
+    "Chest"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_Candy_Cord",
+     "default": "#673db2",
+     "fabric": null,
+     "share": 0.403
+    },
+    "secondary": {
+     "material": "MAT_HW_Candy_Yellow",
+     "default": "#f7ce47",
+     "fabric": null,
+     "share": 0.333
+    },
+    "accent": {
+     "material": "MAT_HW_Candy_Orange",
+     "default": "#f78528",
+     "fabric": null,
+     "share": 0.2
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "glasses_hw26_bat",
+   "asset": "GLS_HW26Bat_01",
+   "name": "Bat Glasses",
+   "category": "glasses",
+   "slot": "glasses",
+   "rarity": "uncommon",
+   "price": 0,
+   "glbUrl": "/assets/avatar3d/glb/GLS_HW26Bat_01.da9c8af4c9.glb",
+   "thumbnailUrl": "/assets/avatar3d/thumbs/GLS_HW26Bat_01.webp?v=2aef92e2",
+   "fileSize": 38928,
+   "rawSize": 129684,
+   "version": "da9c8af4c9",
+   "compatibleBaseVersion": 1,
+   "triangles": 1220,
+   "attach": "SOCK_Head",
+   "bones": [
+    "Head"
+   ],
+   "masks": [],
+   "regions": {
+    "primary": {
+     "material": "MAT_HW_BatGlasses",
+     "default": "#291a4c",
+     "fabric": null,
+     "share": 0.67
+    }
+   },
+   "validation": {
+    "pass": true,
+    "checked": true,
+    "worstExposure": 0,
+    "worstAt": null,
+    "sink": 0,
+    "poke": 0,
+    "pokeAt": null,
+    "limb": 0,
+    "limbAt": null
+   },
+   "compat": [],
+   "active": true
+  },
+  {
+   "itemId": "body_light",
+   "asset": null,
+   "name": "Skin Tone 1",
+   "category": "body",
+   "slot": "body",
+   "rarity": "common",
+   "price": 0,
+   "kind": "skin",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/body_light.svg?v=f5a4ddd1",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "body_warm",
+   "asset": null,
+   "name": "Skin Tone 2",
+   "category": "body",
+   "slot": "body",
+   "rarity": "common",
+   "price": 0,
+   "kind": "skin",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/body_warm.svg?v=5f2be160",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "body_tan",
+   "asset": null,
+   "name": "Skin Tone 3",
+   "category": "body",
+   "slot": "body",
+   "rarity": "common",
+   "price": 0,
+   "kind": "skin",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/body_tan.svg?v=b8864f59",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "body_deep",
+   "asset": null,
+   "name": "Skin Tone 4",
+   "category": "body",
+   "slot": "body",
+   "rarity": "common",
+   "price": 0,
+   "kind": "skin",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/body_deep.svg?v=33e423ae",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_sky",
+   "asset": null,
+   "name": "Blue Sky",
+   "category": "background",
+   "slot": "background",
+   "rarity": "common",
+   "price": 0,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_sky.svg?v=a3c9f2b5",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_library",
+   "asset": null,
+   "name": "Library",
+   "category": "background",
+   "slot": "background",
+   "rarity": "common",
+   "price": 120,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_library.svg?v=f9303fe8",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_sunset",
+   "asset": null,
+   "name": "Sunset",
+   "category": "background",
+   "slot": "background",
+   "rarity": "uncommon",
+   "price": 220,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_sunset.svg?v=d2bdd2ca",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_space",
+   "asset": null,
+   "name": "Outer Space",
+   "category": "background",
+   "slot": "background",
+   "rarity": "rare",
+   "price": 500,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_space.svg?v=d8e6b26a",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_hw26_moonlit",
+   "asset": null,
+   "name": "Moonlit Pumpkin Patch",
+   "category": "background",
+   "slot": "background",
+   "rarity": "rare",
+   "price": 0,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_hw26_moonlit.svg?v=0c1042b7",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  },
+  {
+   "itemId": "bg_lk26_river",
+   "asset": null,
+   "name": "Full-Moon River",
+   "category": "background",
+   "slot": "background",
+   "rarity": "rare",
+   "price": 0,
+   "kind": "backdrop",
+   "glbUrl": null,
+   "thumbnailUrl": "/assets/avatar/thumbs/bg_lk26_river.svg?v=19f73dab",
+   "fileSize": 0,
+   "version": "1",
+   "compatibleBaseVersion": 1,
+   "triangles": 0,
+   "attach": null,
+   "active": true
+  }
+ ]
+}

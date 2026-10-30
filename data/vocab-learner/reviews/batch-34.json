@@ -1,0 +1,83 @@
+{
+  "batch": "34",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S1097",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'ticket' fits equally ('The bus ticket from the airport ... is only 50 baht')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1098",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'national' fits equally ('but national laws apply everywhere')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1099",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'temperature' fits equally ('had a high temperature last night')",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1135",
+      "severity": "minor",
+      "problem": "Collocations 'a genuine mistake' and 'genuine interest' belong to the 'sincere/honest' sense, not the 'real, not fake' sense taught here",
+      "fix": {
+        "collocations": [
+          "genuine leather",
+          "genuine gold",
+          "the genuine article"
+        ]
+      }
+    },
+    {
+      "id": "B2-S1145",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'web design', 'logo design', 'fashion design' etc. also fit 'Ploy studied ___ design'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1166",
+      "severity": "minor",
+      "problem": "Collocations 'hook up' (also teen-inappropriate slang meaning) and 'be hooked on' are different senses from 'hang/attach with a hook'; note also teaches the other sense",
+      "fix": {
+        "collocations": [
+          "hook something onto",
+          "hook something over",
+          "hook a fish"
+        ],
+        "noteTH": "hook + สิ่งของ + onto/over + ที่เกี่ยว เช่น hook a bag onto a chair"
+      }
+    },
+    {
+      "id": "B2-S1167",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Maybe' / 'Perhaps' fit the sentence-initial gap equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1182",
+      "severity": "minor",
+      "problem": "Collocations 'a price index' and 'an index finger' are different senses from 'list at the back of a book'",
+      "fix": {
+        "collocations": [
+          "check the index",
+          "look in the index",
+          "the index of a book"
+        ]
+      }
+    }
+  ]
+}

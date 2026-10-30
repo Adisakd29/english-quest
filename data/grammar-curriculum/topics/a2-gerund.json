@@ -1,0 +1,223 @@
+{
+  "id": "a2-gerund",
+  "summaryTh": "กริยาเติม -ing ที่ใช้เหมือนคำนาม เช่น I enjoy cooking.",
+  "concept": {
+    "what": "Gerund คือกริยาเติม -ing ที่ทำหน้าที่เหมือนคำนาม หมายถึง \"การ …\" เช่น swimming = การว่ายน้ำ ใช้เป็นประธาน ใช้หลังกริยาบางตัว และใช้หลังคำบุพบท",
+    "when": [
+      "เป็นประธานของประโยค: Swimming is good for your health.",
+      "หลังกริยาบางตัว: enjoy, finish, mind, avoid, practise, keep, miss, suggest (I enjoy reading.)",
+      "หลังคำบุพบท (in, at, of, for, about, before, after, without): She's good at drawing. / Thanks for helping me.",
+      "go + -ing สำหรับกิจกรรม: go shopping, go swimming, go camping"
+    ],
+    "why": "ภาษาไทยใช้กริยาเป็นคำนามได้เลย (ว่ายน้ำดีต่อสุขภาพ) แต่ภาษาอังกฤษต้องเปลี่ยนเป็นรูป -ing ก่อน ผู้เรียนไทยจึงมักใช้ V1 เป็นประธาน (Swim is fun ✗) หรือใช้ to หลัง enjoy (enjoy to swim ✗)"
+  },
+  "structure": {
+    "formula": "verb / preposition + V-ing",
+    "rows": [
+      { "label": "เป็นประธาน", "formula": "V-ing + verb …", "example": "[[Cooking]] is my hobby." },
+      { "label": "หลังกริยา", "formula": "Subject + enjoy / finish / mind … + V-ing", "example": "I [[enjoy watching]] K-dramas." },
+      { "label": "หลังคำบุพบท", "formula": "… + preposition + V-ing", "example": "He's interested [[in learning]] Chinese." },
+      { "label": "ปฏิเสธ", "formula": "… + not + V-ing", "example": "Thank you [[for not smoking]]." },
+      { "label": "go + -ing", "formula": "go + V-ing (กิจกรรม)", "example": "Let's [[go shopping]] on Saturday." }
+    ],
+    "notes": [
+      "การเติม -ing: ลงท้าย e ให้ตัด e (make → making) · คำสั้นสระเดียว + พยัญชนะเดียว ซ้ำตัวท้าย (swim → swimming, run → running) · ie → ying (lie → lying)",
+      "gerund ที่เป็นประธานนับเป็นเอกพจน์: Reading books is fun. (ใช้ is ไม่ใช่ are)",
+      "หลัง How about / What about ใช้ -ing: How about going to the beach?",
+      "like, love, hate, start, begin ใช้ได้ทั้ง -ing และ to + V1 (I like swimming. = I like to swim.)"
+    ]
+  },
+  "examples": [
+    { "en": "[[Swimming]] is good exercise.", "th": "การว่ายน้ำเป็นการออกกำลังกายที่ดี" },
+    { "en": "My dad [[enjoys cooking]] Thai food.", "th": "พ่อชอบทำอาหารไทย" },
+    { "en": "Have you [[finished doing]] your homework?", "th": "ทำการบ้านเสร็จหรือยัง" },
+    { "en": "Would you [[mind closing]] the window?", "th": "ช่วยปิดหน้าต่างหน่อยได้ไหม" },
+    { "en": "She's very good [[at drawing]] cartoons.", "th": "เธอวาดการ์ตูนเก่งมาก" },
+    { "en": "Thank you [[for helping]] me.", "th": "ขอบคุณที่ช่วยฉันนะ" },
+    { "en": "[[How about watching]] a film tonight?", "th": "คืนนี้ดูหนังกันไหม" },
+    { "en": "Wash your hands [[before eating]].", "th": "ล้างมือก่อนกินข้าว" },
+    { "en": "We [[went camping]] in Khao Yai last month.", "th": "เดือนที่แล้วพวกเราไปตั้งแคมป์ที่เขาใหญ่" }
+  ],
+  "mistakes": [
+    { "wrong": "I enjoy to play badminton.", "right": "I enjoy playing badminton.", "whyTh": "enjoy ตามด้วย -ing เท่านั้น ไม่ใช้ to + V1" },
+    { "wrong": "Swim is my favourite sport.", "right": "Swimming is my favourite sport.", "whyTh": "กิจกรรมที่เป็นประธานต้องใช้รูป -ing (การว่ายน้ำ) ภาษาไทยไม่ต้องเปลี่ยนรูปคำ จึงลืมบ่อย" },
+    { "wrong": "She is good at speak English.", "right": "She is good at speaking English.", "whyTh": "หลังคำบุพบท (at) ต้องใช้กริยารูป -ing" },
+    { "wrong": "Thank you for help me.", "right": "Thank you for helping me.", "whyTh": "for เป็นคำบุพบท กริยาที่ตามมาต้องเติม -ing" },
+    { "wrong": "He finished to write the report.", "right": "He finished writing the report.", "whyTh": "finish ตามด้วย -ing (finish writing) ไม่ใช้ to + V1" },
+    { "wrong": "Reading books are fun.", "right": "Reading books is fun.", "whyTh": "ประธานคือ \"การอ่าน\" (Reading) ซึ่งเป็นเอกพจน์ จึงใช้ is แม้จะมี books อยู่ข้างหลัง" }
+  ],
+  "compare": {
+    "title": "Gerund (-ing) vs to-infinitive",
+    "with": ["a2-infinitive"],
+    "rows": [
+      { "label": "กริยาที่ตามด้วย", "a": "enjoy, finish, mind, avoid, practise, keep, miss", "b": "want, need, decide, hope, plan, promise, would like" },
+      { "label": "หลังคำบุพบท", "a": "ใช้ -ing เสมอ (good at singing)", "b": "ใช้ไม่ได้ (good at to sing ✗)" },
+      { "label": "เป็นประธาน", "a": "Swimming is fun. (ใช้ทั่วไป)", "b": "To swim is fun. (ทางการมาก ไม่ค่อยใช้)" },
+      { "label": "ใช้ได้ทั้งสองแบบ", "a": "I like cooking.", "b": "I like to cook. (like, love, hate, start, begin)" }
+    ],
+    "tipTh": "หลังคำบุพบท (in, at, for, about, before, after) ใช้ -ing ทุกครั้ง — ส่วนหลังกริยาต้องจำว่ากริยาตัวนั้นตามด้วยแบบไหน"
+  },
+  "contexts": [
+    {
+      "kind": "social", "title": "Language exchange profile",
+      "lines": [
+        { "text": "Hi! I'm Fah from Khon Kaen. I [[enjoy taking]] photos and [[going]] to cafés. I'm interested [[in learning]] Japanese because I love anime. [[Speaking]] is hard for me, so I want to [[practise talking]] with native speakers. I don't [[mind helping]] you with Thai!" }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "Weekend plans",
+      "lines": [
+        { "speaker": "Beam", "text": "[[How about going]] to the beach on Saturday?" },
+        { "speaker": "Gift", "text": "Hmm, I don't really enjoy [[sitting]] in the sun. I always get sunburnt." },
+        { "speaker": "Beam", "text": "OK. [[What about going]] bowling then?" },
+        { "speaker": "Gift", "text": "Great idea! I'm not very good [[at bowling]], but it's fun." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Gerund", "th": "กริยาเติม -ing ที่ใช้เหมือนคำนาม (= การ …)" },
+    { "en": "Preposition", "th": "คำบุพบท เช่น in, at, for, about — หลังคำเหล่านี้ใช้กริยารูป -ing" },
+    { "en": "Subject", "th": "ประธาน — gerund เป็นประธานได้ (Reading is fun.)" },
+    { "en": "Verb pattern", "th": "แบบแผนกริยา — กริยาตัวแรกเป็นตัวกำหนดว่ากริยาตัวที่สองต้องเป็นรูปไหน" }
+  ],
+  "practice": [
+    {
+      "id": "a2-gerund-01", "type": "mc", "difficulty": 1,
+      "question": "I enjoy ___ to music in the car.",
+      "choices": ["listen", "to listen", "listening", "listened"], "answer": 2,
+      "whyNot": { "0": "หลัง enjoy ใช้กริยารูป V1 ไม่ได้", "1": "enjoy ไม่ตามด้วย to + V1", "3": "listened เป็นรูปอดีต ใช้ต่อจาก enjoy ไม่ได้" },
+      "explainTh": "enjoy + V-ing → I enjoy listening to music.",
+      "structure": "enjoy + V-ing", "example": "I enjoy listening to music."
+    },
+    {
+      "id": "a2-gerund-02", "type": "mc", "difficulty": 1,
+      "question": "___ is my favourite sport.",
+      "choices": ["Swim", "Swimming", "To swimming", "Swims"], "answer": 1,
+      "whyNot": { "0": "Swim เป็นกริยา V1 ใช้เป็นประธานไม่ได้", "2": "หลัง to ใช้ V1 ไม่ใช่ -ing (และไม่ใช้ to นำประธานแบบนี้)", "3": "Swims เป็นกริยาที่เติม -s ใช้เป็นประธานไม่ได้" },
+      "explainTh": "กิจกรรมที่เป็นประธานใช้ gerund (V-ing) → Swimming is my favourite sport.",
+      "structure": "V-ing + is …", "example": "Swimming is my favourite sport."
+    },
+    {
+      "id": "a2-gerund-03", "type": "fill", "difficulty": 1,
+      "question": "Thank you for ___ (invite) me to your party.",
+      "accepted": ["inviting"],
+      "explainTh": "for เป็นคำบุพบท → ตามด้วย V-ing · invite ลงท้ายด้วย e ตัด e แล้วเติม -ing → inviting",
+      "structure": "preposition + V-ing", "example": "Thank you for inviting me."
+    },
+    {
+      "id": "a2-gerund-04", "type": "fill", "difficulty": 2,
+      "question": "Have you finished ___ (clean) your room?",
+      "accepted": ["cleaning"],
+      "explainTh": "finish + V-ing → finished cleaning",
+      "structure": "finish + V-ing", "example": "Have you finished cleaning your room?"
+    },
+    {
+      "id": "a2-gerund-05", "type": "fill", "difficulty": 2,
+      "question": "My brother is very good at ___ (fix) computers.",
+      "accepted": ["fixing"],
+      "explainTh": "good at (at เป็นคำบุพบท) + V-ing → good at fixing",
+      "structure": "good at + V-ing", "example": "My brother is good at fixing computers."
+    },
+    {
+      "id": "a2-gerund-06", "type": "fill", "difficulty": 3,
+      "question": "Please avoid ___ (use) your phone while you are driving.",
+      "accepted": ["using"],
+      "explainTh": "avoid + V-ing · use ลงท้ายด้วย e ตัด e แล้วเติม -ing → using",
+      "structure": "avoid + V-ing", "example": "Please avoid using your phone while you are driving."
+    },
+    {
+      "id": "a2-gerund-07", "type": "error", "difficulty": 1,
+      "sentence": "She enjoys to dance at parties.",
+      "errorPart": "to dance",
+      "accepted": ["She enjoys dancing at parties."],
+      "explainTh": "enjoy ตามด้วย -ing ไม่ใช้ to + V1 → enjoys dancing",
+      "structure": "enjoy + V-ing"
+    },
+    {
+      "id": "a2-gerund-08", "type": "error", "difficulty": 2,
+      "sentence": "Eat too much sugar is bad for your teeth.",
+      "errorPart": "Eat",
+      "accepted": ["Eating too much sugar is bad for your teeth."],
+      "explainTh": "ประธานคือ \"การกินน้ำตาลมากเกินไป\" ต้องใช้ gerund → Eating too much sugar is …",
+      "structure": "V-ing + is …"
+    },
+    {
+      "id": "a2-gerund-09", "type": "error", "difficulty": 3,
+      "sentence": "I'm interested in join the football club.",
+      "errorPart": "join",
+      "accepted": ["I'm interested in joining the football club."],
+      "explainTh": "in เป็นคำบุพบท กริยาที่ตามมาต้องเป็น -ing → interested in joining",
+      "structure": "preposition + V-ing"
+    },
+    {
+      "id": "a2-gerund-10", "type": "order", "difficulty": 1,
+      "tokens": ["about", "how", "to", "the", "going", "zoo"],
+      "accepted": ["How about going to the zoo?"],
+      "explainTh": "ชวนทำอะไร: How about + V-ing …? → How about going to the zoo?"
+    },
+    {
+      "id": "a2-gerund-11", "type": "order", "difficulty": 2,
+      "tokens": ["after", "teeth", "brush", "dinner", "my", "I", "eating"],
+      "accepted": ["I brush my teeth after eating dinner.", "After eating dinner I brush my teeth."],
+      "explainTh": "after เป็นคำบุพบท → after + V-ing → after eating dinner"
+    },
+    {
+      "id": "a2-gerund-12", "type": "transform", "difficulty": 2,
+      "source": "It is fun to play board games with friends.",
+      "instruction": "เขียนใหม่โดยให้ gerund เป็นประธาน ขึ้นต้นด้วย Playing …",
+      "accepted": ["Playing board games with friends is fun."],
+      "explainTh": "ย้ายกิจกรรมมาเป็นประธานด้วยรูป -ing: Playing board games with friends + is fun (gerund นับเป็นเอกพจน์ ใช้ is)"
+    },
+    {
+      "id": "a2-gerund-13", "type": "transform", "difficulty": 3,
+      "source": "Let's go to the night market.",
+      "instruction": "เขียนใหม่เป็นคำชวนด้วย How about …?",
+      "accepted": ["How about going to the night market?"],
+      "explainTh": "How about + V-ing …? ใช้ชวนหรือเสนอความคิด → How about going to the night market?"
+    },
+    {
+      "id": "a2-gerund-14", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยคให้ถูกต้อง (ดูคำบุพบท)",
+      "pairs": [["She's afraid", "of flying."], ["He's good", "at cooking."], ["I'm interested", "in learning Thai."], ["Thank you", "for coming."], ["Wash your hands", "before eating."]],
+      "explainTh": "afraid of · good at · interested in · thank you for · before — ทุกคำเป็นคำบุพบท จึงตามด้วยกริยารูป -ing"
+    },
+    {
+      "id": "a2-gerund-15", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["Reading comics are my hobby.", "Read comics is my hobby.", "Reading comics is my hobby.", "To reading comics is my hobby."], "answer": 2,
+      "whyNot": { "0": "ประธานคือ Reading (การอ่าน) เป็นเอกพจน์ ต้องใช้ is ไม่ใช่ are", "1": "Read เป็น V1 ใช้เป็นประธานไม่ได้ ต้องเป็น Reading", "3": "หลัง to ใช้ V1 และไม่ใช้ to นำ gerund" },
+      "explainTh": "gerund เป็นประธาน (Reading comics) นับเป็นเอกพจน์ → Reading comics is my hobby."
+    },
+    {
+      "id": "a2-gerund-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Your English is really good! How did you learn?" },
+        { "speaker": "B", "text": "Thanks! I practise ___ with my friends online every day." }
+      ] },
+      "choices": ["speaking", "to speak", "speak", "spoke"], "answer": 0,
+      "whyNot": { "1": "practise ตามด้วย -ing ไม่ใช้ to + V1", "2": "หลัง practise ใช้ V1 ไม่ได้", "3": "spoke เป็นรูปอดีต และ practise ต้องตามด้วย -ing" },
+      "explainTh": "practise + V-ing → I practise speaking with my friends."
+    },
+    {
+      "id": "a2-gerund-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "school", "title": "Library rules", "lines": [
+        { "text": "Eating and drinking are not allowed in the library." },
+        { "text": "Please avoid talking loudly." },
+        { "text": "You can borrow books after showing your student card." },
+        { "text": "Thank you for not using your phone." }
+      ] },
+      "question": "What do you have to do before you borrow a book?",
+      "choices": ["Show your student card.", "Stop talking.", "Turn off your phone.", "Eat outside."], "answer": 0,
+      "whyNot": { "1": "ป้ายขอให้ไม่พูดเสียงดัง (avoid talking loudly) แต่ไม่ได้บอกว่าต้องทำก่อนยืมหนังสือ", "2": "ป้ายขอบคุณที่ไม่ใช้โทรศัพท์ แต่ไม่ได้เกี่ยวกับการยืมหนังสือ", "3": "ป้ายบอกว่าห้ามกินในห้องสมุด ไม่ได้บอกว่าต้องไปกินข้างนอกก่อนยืม" },
+      "explainTh": "\"You can borrow books after showing your student card.\" — after + V-ing (showing) แปลว่าต้องแสดงบัตรนักเรียนก่อน จึงยืมหนังสือได้"
+    },
+    {
+      "id": "a2-gerund-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับงานอดิเรกของคุณ ใช้ gerund เช่น I enjoy …, I'm good at …, … is fun (Write 3 sentences about your hobbies. Use -ing forms.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b(enjoy|enjoys|love|loves|like|likes|hate|hates|mind|finish|practise|practice|keep|go|goes|went|at|in|of|for|about|before|after)\\s+(?!(some|any|no|every)thing\\b|morning\\b|evening\\b|spring\\b|building\\b|king\\b|ring\\b)[a-z]+ing\\b|(^|[.!?]\\s+)(?!(some|any|no|every)thing\\b|morning\\b|evening\\b|during\\b)[A-Za-z]+ing\\b", "flags": "i", "msgTh": "ใช้ gerund (-ing) อย่างน้อย 1 ครั้ง เช่น I enjoy playing …, Cooking is fun." } ],
+      "sample": "I enjoy playing the guitar in my free time. I'm also good at drawing animals. Cooking is fun too, but I don't like washing the dishes.",
+      "explainTh": "enjoy / finish / mind / practise + V-ing · หลังคำบุพบท (at, in, for …) ใช้ V-ing · gerund เป็นประธานได้และนับเป็นเอกพจน์"
+    }
+  ]
+}

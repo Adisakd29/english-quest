@@ -1,0 +1,117 @@
+{
+  "batch": "16",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0909",
+      "severity": "major",
+      "problem": "exampleTH translates 'eat outside' (outdoors) as 'ไปกินข้าวข้างนอก' (= eat out at a restaurant), teaching a wrong meaning.",
+      "fix": {
+        "example": "I just had a thought: we could eat in the garden tonight!",
+        "form": "thought",
+        "exampleTH": "ฉันเพิ่งนึกอะไรออก คืนนี้เราไปกินข้าวในสวนกันดีไหม!"
+      }
+    },
+    {
+      "id": "A2-S0847",
+      "severity": "minor",
+      "problem": "Example is unnatural and just restates the definition ('All four sides of the photo are equal, so it is square').",
+      "fix": {
+        "example": "We sat at a square table, with one person on each side.",
+        "form": "square",
+        "exampleTH": "เรานั่งที่โต๊ะสี่เหลี่ยมจัตุรัส ด้านละหนึ่งคน",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0856",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Someone took my bike from outside the library' is equally correct.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0836",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'help me do this maths problem' is equally common.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0910",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Pass the ball to me' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0819",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'speak clearly' fits the context equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0833",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'comfortable' fits 'This pillow is so ___ that I fell asleep quickly' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0816",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'so your face does not burn' is equally correct.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0824",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'voice', 'face' or 'personality' also fit 'Nok has a lovely ___'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0887",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'ripe' or 'fresh' fit 'very ___ and juicy' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0880",
+      "severity": "minor",
+      "problem": "'her lights are on' is unnatural for a house; say which light.",
+      "fix": {
+        "example": "I suppose Nok is at home, because her bedroom light is on.",
+        "form": "suppose",
+        "exampleTH": "ฉันคิดว่านกน่าจะอยู่บ้าน เพราะไฟห้องนอนของเธอเปิดอยู่"
+      }
+    },
+    {
+      "id": "A2-S0904",
+      "severity": "minor",
+      "problem": "meaningEN 'wide from one side to the other' confuses thick with wide.",
+      "fix": {
+        "meaningEN": "having a large distance between its two opposite sides; not thin"
+      }
+    },
+    {
+      "id": "A2-S0908",
+      "severity": "minor",
+      "problem": "exampleTH word order is awkward ('นักเรียนในห้องของฉันหนึ่งในสามเดินมา...').",
+      "fix": {
+        "exampleTH": "หนึ่งในสามของนักเรียนในห้องฉันเดินมาโรงเรียน"
+      }
+    }
+  ]
+}

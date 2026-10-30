@@ -1,0 +1,134 @@
+{
+  "batch": "04",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0429",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I usually get ___ at six o'clock' — learners will answer 'up' (get up), a different, very common verb.",
+      "fix": {
+        "example": "After school, I usually walk home with my friends.",
+        "form": "home",
+        "exampleTH": "หลังเลิกเรียน ฉันมักเดินกลับบ้านกับเพื่อน ๆ"
+      }
+    },
+    {
+      "id": "A1-S0439",
+      "severity": "minor",
+      "problem": "Collocations 'however much', 'however hard you try' show a different sense (no matter how), not the linking-adverb sense taught; gap also fits 'But'.",
+      "fix": {
+        "collocations": [
+          "However, ...",
+          "It was cheap. However, ..."
+        ],
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0499",
+      "severity": "minor",
+      "problem": "thai 'บทเรียน' means lesson content/unit, but meaningEN and example are about a class period ('piano lesson starts at four'); exampleTH itself uses 'คาบเรียน'.",
+      "fix": {
+        "thai": "คาบเรียน, บทเรียน",
+        "shortTH": "คาบเรียน",
+        "thaiChangeReason": "ความหมายนี้คือช่วงเวลาที่ครูสอน ภาษาไทยใช้ 'คาบเรียน' เช่น คาบเรียนเปียโน ส่วน 'บทเรียน' คือเนื้อหา"
+      }
+    },
+    {
+      "id": "A1-S0425",
+      "severity": "minor",
+      "problem": "Ambiguous/awkward: 'told us about Sukhothai long ago' reads as if the telling happened long ago.",
+      "fix": {
+        "example": "Our history teacher told us how people lived in Sukhothai.",
+        "form": "history",
+        "exampleTH": "ครูประวัติศาสตร์เล่าให้พวกเราฟังว่าคนสมัยสุโขทัยใช้ชีวิตอย่างไร"
+      }
+    },
+    {
+      "id": "A1-S0446",
+      "severity": "minor",
+      "problem": "Unnatural: one speaker suggests an idea and then praises it; 'nice idea' less natural than 'good idea'.",
+      "fix": {
+        "example": "I have an idea: let's go to the park!",
+        "form": "idea",
+        "exampleTH": "ฉันมีไอเดีย ไปสวนสาธารณะกันเถอะ!"
+      }
+    },
+    {
+      "id": "A1-S0438",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ do you get to school every day?' also fits When/Why.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0445",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Let's buy coconut ___' fits 'juice' equally (coconut juice is very common in Thailand).",
+      "fix": {
+        "example": "Let's eat coconut ice cream at the night market.",
+        "form": "ice cream",
+        "exampleTH": "ไปกินไอศกรีมกะทิที่ตลาดนัดกลางคืนกันเถอะ"
+      }
+    },
+    {
+      "id": "A1-S0412",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can you ___ the birds outside?' fits 'see' equally.",
+      "fix": {
+        "example": "Please speak louder; I can't hear you.",
+        "form": "hear",
+        "exampleTH": "ช่วยพูดดังขึ้นหน่อย ฉันไม่ได้ยินเลย"
+      }
+    },
+    {
+      "id": "A1-S0387",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The sky is ___, so it might rain' fits 'cloudy'/'dark' equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0449",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Sleep is ___ for students before exams' fits 'good' equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0498",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Somchai hurt his ___ and can't walk well' also fits foot/knee.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0470",
+      "severity": "minor",
+      "problem": "Collocation 'good job' is a different sense (praise: 'well done'), not paid work.",
+      "fix": {
+        "collocations": [
+          "get a job",
+          "a part-time job",
+          "lose your job"
+        ]
+      }
+    },
+    {
+      "id": "A1-S0484",
+      "severity": "minor",
+      "problem": "Collocation 'farm land' is normally written 'farmland'; replace with clearer common combinations.",
+      "fix": {
+        "collocations": [
+          "buy land",
+          "a piece of land",
+          "own land"
+        ]
+      }
+    }
+  ]
+}

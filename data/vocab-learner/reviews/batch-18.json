@@ -1,0 +1,111 @@
+{
+  "batch": "18",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0064",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'on the ___ of the Ping River' also accepts 'side'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0073",
+      "severity": "minor",
+      "problem": "Example shows 'belief in herself' (= self-confidence, ET ความเชื่อมั่น), not the defined sense 'a feeling that something is true'.",
+      "fix": {
+        "example": "There is an old belief in our village that the big tree brings good luck.",
+        "form": "belief",
+        "exampleTH": "ในหมู่บ้านของเรามีความเชื่อเก่าแก่ว่าต้นไม้ใหญ่นำโชคดีมาให้",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0078",
+      "severity": "minor",
+      "problem": "Collocation 'get the better of' is a different meaning (to defeat/control someone), not 'a change for the better'.",
+      "fix": {
+        "collocations": [
+          "change for the better",
+          "for the better",
+          "a change for the better"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0109",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Put these words into three ___' is equally answered by 'groups'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0119",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'two more ___ to read before the end of the book' also accepts 'pages'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0120",
+      "severity": "minor",
+      "problem": "Illogical: if entry is already free for everyone, 'no charge for children' adds nothing; the contrast is lost.",
+      "fix": {
+        "example": "Adults pay 100 baht to enter the museum, but there is no charge for children.",
+        "form": "charge",
+        "exampleTH": "ผู้ใหญ่ต้องจ่าย 100 บาทเพื่อเข้าชมพิพิธภัณฑ์ แต่เด็กไม่ต้องเสียค่าเข้าชม"
+      }
+    },
+    {
+      "id": "B1-S0140",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'please give me a ___' is equally answered by 'hint'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0141",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My uncle ___ a junior football team' also accepts 'trains' or 'manages'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0142",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'power stations still burn ___' also accepts 'oil' or 'gas'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0149",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a long ___ stops the movie' is equally answered by 'ad'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0167",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Old fridges ___ much more electricity' is equally answered by 'use'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0174",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'There is a big ___ between...' is equally answered by 'difference'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

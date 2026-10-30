@@ -1,0 +1,218 @@
+{
+  "batch": "24",
+  "reviewed": 100,
+  "issues": [
+    {
+      "id": "B1-S0812",
+      "severity": "minor",
+      "problem": "'too tight, not loose like my old ones' wrongly implies the old shoes were too loose; collocation 'a tight lid' is a different sense",
+      "fix": {
+        "example": "My feet hurt because my new shoes are too tight.",
+        "form": "tight",
+        "exampleTH": "เท้าฉันเจ็บเพราะรองเท้าคู่ใหม่คับเกินไป",
+        "gapOk": false,
+        "collocations": [
+          "too tight",
+          "tight jeans",
+          "tight shoes"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0813",
+      "severity": "minor",
+      "problem": "Thai: for a future event 'จนกว่า' is the natural rendering (exampleTH already uses it); 'จนกระทั่ง' alone is stiff",
+      "fix": {
+        "thai": "จนกว่า, จนกระทั่ง",
+        "shortTH": "จนกว่า",
+        "thaiChangeReason": "จนกว่า เป็นคำที่ใช้เป็นธรรมชาติกว่าเมื่อพูดถึงเหตุการณ์ในอนาคต"
+      }
+    },
+    {
+      "id": "B1-S0815",
+      "severity": "minor",
+      "problem": "Example mixes 'can opener' with 'tin'; 'can' fits the gap equally, so gapOk=true is wrong",
+      "fix": {
+        "example": "Mum opened a tin of tomatoes to make the soup.",
+        "form": "tin",
+        "exampleTH": "แม่เปิดมะเขือเทศกระป๋องมาทำซุป",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0826",
+      "severity": "minor",
+      "problem": "'Thai farmers trade rice with many countries' is unrealistic/unnatural (farmers do not trade with countries); also 'sell' fits the gap",
+      "fix": {
+        "example": "For hundreds of years, people in this town have traded silk with China.",
+        "form": "traded",
+        "exampleTH": "ผู้คนในเมืองนี้ค้าขายผ้าไหมกับจีนมาหลายร้อยปีแล้ว",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0828",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'word (an English word)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0831",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'care/medicine' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0833",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'game (a card game)' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0849",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Like her brother, ...' is also grammatical (opposite meaning)",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0851",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'extra' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0858",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'cheap/old/second-hand' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0860",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'expensive' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0866",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'views/fans' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0867",
+      "severity": "minor",
+      "problem": "Collocation 'violent films' belongs to a different sense (involving violence) from the storm sense taught",
+      "fix": {
+        "collocations": [
+          "violent storm",
+          "violent wind"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0868",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'nurse/helper' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0869",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'offered/decided' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0870",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'meeting' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0871",
+      "severity": "minor",
+      "problem": "meaningEN 'often by raising hands' is misleading; voting is usually done on paper/ballot",
+      "fix": {
+        "meaningEN": "to choose a person or thing by marking a paper or raising your hand",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0877",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'old/used' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0888",
+      "severity": "minor",
+      "problem": "'The game was fun as a whole' is unnatural word order; 'as a whole' normally follows the noun (the game as a whole)",
+      "fix": {
+        "example": "The ending was weak, but the game as a whole was fun.",
+        "form": "whole",
+        "exampleTH": "ตอนจบไม่ค่อยดี แต่โดยรวมแล้วเกมนี้สนุก"
+      }
+    },
+    {
+      "id": "B1-S0889",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'mind/heart' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0896",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'big/huge' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0900",
+      "severity": "minor",
+      "problem": "'played the worst of all' is awkward for the adverb; 'played worst' is more natural; collocation 'worst hit' is not a learner pattern",
+      "fix": {
+        "example": "Of all the teams, ours played worst, so we finished last.",
+        "form": "worst",
+        "exampleTH": "ในบรรดาทุกทีม ทีมเราเล่นแย่ที่สุด เลยได้ที่โหล่",
+        "collocations": [
+          "worst of all",
+          "played worst"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0904",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'garden' fits the gap equally well",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}
