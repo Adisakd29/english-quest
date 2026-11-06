@@ -1,0 +1,503 @@
+{
+  "id": "b2-mixed-conditionals",
+  "summaryTh": "ผสมเงื่อนไข: อดีตที่ไม่จริง → ผลตอนนี้ และ ความจริงตอนนี้ → ผลในอดีต",
+  "concept": {
+    "what": "Mixed conditionals คือการผสม Second และ Third conditional เมื่อ \"เวลา\" ของเงื่อนไขกับผลลัพธ์ไม่ตรงกัน มี 2 แบบหลัก: (1) อดีตที่ไม่จริง → ผลที่ยังเห็นตอนนี้ (2) สภาพตอนนี้ที่ไม่จริง → ผลในอดีต",
+    "when": [
+      "เรื่องในอดีตส่งผลถึงปัจจุบัน: If I had taken that job, I would live in Tokyo now. (ไม่ได้รับงาน → ตอนนี้ไม่ได้อยู่โตเกียว)",
+      "นิสัย/คุณสมบัติที่เป็นอยู่ตลอด ทำให้อดีตเป็นแบบนั้น: If I weren't so shy, I would have spoken to her. (ฉันขี้อายเสมอ → เมื่อวานจึงไม่ได้คุย)",
+      "มักมีคำบอกเวลาช่วยให้เห็นว่าแต่ละฝั่งเป็นเวลาไหน: now, today, still / yesterday, last year"
+    ],
+    "why": "ชีวิตจริงเหตุกับผลไม่ได้อยู่เวลาเดียวกันเสมอ ภาษาไทยใช้ \"ถ้า … ตอนนี้ก็คง …\" ได้เลย แต่ภาษาอังกฤษต้องเลือกรูปกริยาแยกให้ตรงเวลาของแต่ละฝั่ง ถ้าใช้ would have ทั้งที่ผลอยู่ \"ตอนนี้\" จะผิด"
+  },
+  "structure": {
+    "formula": "If + had + V3, would + V1 (now) · If + V2, would have + V3 (past)",
+    "rows": [
+      {
+        "label": "อดีต → ปัจจุบัน",
+        "formula": "If + had + V3, Subject + would + V1 (now)",
+        "example": "If I [[had saved]] more money, I [[would be]] on holiday now."
+      },
+      {
+        "label": "อดีต → ปัจจุบัน (ปฏิเสธ)",
+        "formula": "If + hadn't + V3, Subject + wouldn't + V1",
+        "example": "If she [[hadn't missed]] the flight, she [[wouldn't be]] stuck at the airport."
+      },
+      {
+        "label": "ปัจจุบัน → อดีต",
+        "formula": "If + V2 / were, Subject + would have + V3",
+        "example": "If he [[were]] more careful, he [[wouldn't have crashed]] the car."
+      },
+      {
+        "label": "ปัจจุบัน → อดีต (could/might)",
+        "formula": "If + V2, could/might have + V3",
+        "example": "If I [[spoke]] Korean, I [[could have understood]] the drama."
+      },
+      {
+        "label": "คำถาม",
+        "formula": "Would + Subject + V1 … if + had + V3?",
+        "example": "[[Would]] you [[be]] happier now if you [[had chosen]] medicine?"
+      }
+    ],
+    "notes": [
+      "แบบ ปัจจุบัน → อดีต ใช้กับสิ่งที่เป็นจริงอยู่ตลอด (นิสัย ความสามารถ อาชีพ) ไม่ใช่เหตุการณ์ครั้งเดียว",
+      "If I were … ใช้ได้กับทุกประธาน (If he were) ภาษาพูดใช้ was ก็ได้",
+      "ใช้ could / might แทน would ได้ทั้งสองแบบ",
+      "ถ้าทั้งเงื่อนไขและผลอยู่ในอดีตทั้งหมด ให้ใช้ Third conditional ไม่ใช่ mixed"
+    ]
+  },
+  "examples": [
+    {
+      "en": "If I [[had studied]] medicine, I [[would be]] a doctor now.",
+      "th": "ถ้าฉันเรียนแพทย์ ตอนนี้ฉันคงเป็นหมอแล้ว"
+    },
+    {
+      "en": "If we [[hadn't moved]] to Chiang Mai, I [[wouldn't know]] my best friend.",
+      "th": "ถ้าเราไม่ได้ย้ายไปเชียงใหม่ ฉันคงไม่รู้จักเพื่อนสนิทคนนี้"
+    },
+    {
+      "en": "She [[would be]] in the team now if she [[hadn't hurt]] her knee.",
+      "th": "ตอนนี้เธอคงอยู่ในทีมแล้ว ถ้าเธอไม่บาดเจ็บที่เข่า"
+    },
+    {
+      "en": "If I [[weren't]] so afraid of heights, I [[would have tried]] the zip line yesterday.",
+      "th": "ถ้าฉันไม่กลัวความสูงขนาดนี้ เมื่อวานฉันคงลองเล่นซิปไลน์ไปแล้ว"
+    },
+    {
+      "en": "If he [[spoke]] better English, he [[would have got]] the job in Singapore.",
+      "th": "ถ้าเขาพูดภาษาอังกฤษได้ดีกว่านี้ เขาคงได้งานที่สิงคโปร์ไปแล้ว"
+    },
+    {
+      "en": "If you [[had charged]] your phone, you [[could call]] a taxi now.",
+      "th": "ถ้าคุณชาร์จโทรศัพท์ไว้ ตอนนี้คุณก็เรียกแท็กซี่ได้"
+    },
+    {
+      "en": "If I [[were]] a more organised person, I [[wouldn't have forgotten]] her birthday.",
+      "th": "ถ้าฉันเป็นคนเป็นระเบียบกว่านี้ ฉันคงไม่ลืมวันเกิดเธอ"
+    },
+    {
+      "en": "I [[wouldn't feel]] so tired today if I [[had gone]] to bed earlier.",
+      "th": "วันนี้ฉันคงไม่เหนื่อยขนาดนี้ ถ้าเมื่อคืนเข้านอนเร็วกว่านี้"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I had eaten breakfast, I wouldn't have been hungry now.",
+      "right": "If I had eaten breakfast, I wouldn't be hungry now.",
+      "whyTh": "ผลอยู่ \"ตอนนี้\" (now) จึงใช้ would + V1 ไม่ใช่ would have + V3"
+    },
+    {
+      "wrong": "If I took that job last year, I would live in London now.",
+      "right": "If I had taken that job last year, I would live in London now.",
+      "whyTh": "เงื่อนไขอยู่ในอดีต (last year) ฝั่ง if จึงต้องเป็น had + V3"
+    },
+    {
+      "wrong": "If she wasn't so lazy, she would pass the exam last week.",
+      "right": "If she wasn't so lazy, she would have passed the exam last week.",
+      "whyTh": "ผลอยู่ในอดีต (last week) ต้องใช้ would have + V3"
+    },
+    {
+      "wrong": "If I would have listened to you, I wouldn't be in trouble now.",
+      "right": "If I had listened to you, I wouldn't be in trouble now.",
+      "whyTh": "ฝั่ง if ไม่ใช้ would ใช้ had + V3"
+    },
+    {
+      "wrong": "If he had more confidence, he would has asked her out.",
+      "right": "If he had more confidence, he would have asked her out.",
+      "whyTh": "หลัง would ใช้กริยารูปฐานเสมอ: would have ไม่ใช่ would has"
+    }
+  ],
+  "compare": {
+    "title": "Third Conditional vs Mixed Conditionals",
+    "with": [
+      "b2-third-conditional"
+    ],
+    "rows": [
+      {
+        "label": "เวลา",
+        "a": "เงื่อนไขอดีต → ผลอดีต",
+        "b": "อดีต → ปัจจุบัน หรือ ปัจจุบัน → อดีต"
+      },
+      {
+        "label": "โครงสร้าง",
+        "a": "If + had + V3, would have + V3",
+        "b": "If + had + V3, would + V1 · If + V2, would have + V3"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "If I had caught the train, I would have arrived on time.",
+        "b": "If I had caught the train, I would be at home now."
+      }
+    ],
+    "tipTh": "ดูทีละฝั่ง: ฝั่งไหนพูดถึงอดีตใช้รูปอดีต (had + V3 / would have + V3) ฝั่งไหนพูดถึงตอนนี้ใช้รูปปัจจุบัน (V2 / would + V1)"
+  },
+  "contexts": [
+    {
+      "kind": "message",
+      "title": "Stuck at home",
+      "lines": [
+        {
+          "text": "Hi Jane, I'm stuck at home with a broken leg. If I [[hadn't gone]] skiing last weekend, [[I'd be]] on the beach in Phuket with you right now! The problem is that I'm not a careful person — if I [[were]] more careful, I [[wouldn't have tried]] that difficult slope. Send me some photos! — Amy"
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Career choices",
+      "lines": [
+        {
+          "speaker": "Lek",
+          "text": "Do you ever wish you had become an engineer?"
+        },
+        {
+          "speaker": "Mark",
+          "text": "Sometimes. If I [[had chosen]] engineering, I [[would earn]] more money now."
+        },
+        {
+          "speaker": "Lek",
+          "text": "But you love teaching!"
+        },
+        {
+          "speaker": "Mark",
+          "text": "True. And if I [[didn't love]] kids so much, I [[would have quit]] years ago."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Mixed conditional",
+      "th": "ประโยคเงื่อนไขที่เวลาของสองฝั่งไม่ตรงกัน"
+    },
+    {
+      "en": "Past condition, present result",
+      "th": "สมมติอดีต → ผลที่เห็นตอนนี้"
+    },
+    {
+      "en": "Present condition, past result",
+      "th": "สมมติสภาพตอนนี้ (นิสัย/คุณสมบัติ) → ผลในอดีต"
+    },
+    {
+      "en": "Unreal",
+      "th": "ไม่จริง — ตรงข้ามกับความจริง"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-mixed-conditionals-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "If I had taken the job in Bangkok, I ___ in the city now.",
+      "choices": [
+        "would live",
+        "would have lived",
+        "will live",
+        "had lived"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "would have lived เป็นผลในอดีต แต่ประโยคมี now",
+        "2": "will live ใช้กับเงื่อนไขที่เป็นไปได้จริง ไม่ใช่สมมติ",
+        "3": "had lived เป็นรูปฝั่ง if ฝั่งผลต้องมี would"
+      },
+      "explainTh": "เงื่อนไขอดีต (had taken) → ผลตอนนี้ (now) → would + V1: would live",
+      "structure": "If + had + V3, would + V1",
+      "example": "If I had taken the job, I would live in Bangkok now."
+    },
+    {
+      "id": "b2-mixed-conditionals-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "If she ___ (not / miss) the flight this morning, she would be in Tokyo now.",
+      "accepted": [
+        "hadn't missed",
+        "had not missed"
+      ],
+      "explainTh": "การพลาดเครื่องเกิดในอดีต (this morning) → ฝั่ง if ใช้ hadn't + V3 · ผลตอนนี้ใช้ would be",
+      "structure": "If + hadn't + V3, would + V1"
+    },
+    {
+      "id": "b2-mixed-conditionals-03",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "If I were a more organised person, I ___ my passport at home yesterday.",
+      "choices": [
+        "wouldn't have left",
+        "wouldn't leave",
+        "didn't leave",
+        "hadn't left"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "wouldn't leave เป็นผลปัจจุบัน แต่การลืมเกิดเมื่อวาน (yesterday)",
+        "2": "ฝั่งผลของประโยคสมมติต้องมี would/could/might",
+        "3": "hadn't left เป็นรูปฝั่ง if ไม่ใช่ฝั่งผล"
+      },
+      "explainTh": "นิสัยตอนนี้ (were organised) → ผลในอดีต (yesterday) → wouldn't have + V3"
+    },
+    {
+      "id": "b2-mixed-conditionals-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "If he weren't so shy, he ___ (speak) to her at the party last night.",
+      "accepted": [
+        "would have spoken",
+        "might have spoken",
+        "could have spoken"
+      ],
+      "explainTh": "ขี้อายเป็นนิสัยตอนนี้ → ผลในอดีต (last night) → would have + V3 (speak – spoke – spoken)",
+      "structure": "If + V2/were, would have + V3"
+    },
+    {
+      "id": "b2-mixed-conditionals-05",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "If I had eaten breakfast, I wouldn't have been hungry now.",
+      "errorPart": "wouldn't have been",
+      "accepted": [
+        "If I had eaten breakfast, I wouldn't be hungry now.",
+        "If I'd eaten breakfast, I wouldn't be hungry now."
+      ],
+      "explainTh": "ผลอยู่ตอนนี้ (now) → would + V1: wouldn't be (ไม่ใช่ wouldn't have been)",
+      "structure": "If + had + V3, would + V1 (now)"
+    },
+    {
+      "id": "b2-mixed-conditionals-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I didn't learn to drive, so I can't drive you to the airport now.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย If I had … และใช้ could",
+      "accepted": [
+        "If I had learned to drive, I could drive you to the airport now.",
+        "If I had learned to drive I could drive you to the airport now.",
+        "If I had learnt to drive, I could drive you to the airport now.",
+        "If I had learnt to drive I could drive you to the airport now.",
+        "If I'd learned to drive, I could drive you to the airport now.",
+        "If I'd learned to drive I could drive you to the airport now.",
+        "If I'd learnt to drive, I could drive you to the airport now.",
+        "If I'd learnt to drive I could drive you to the airport now."
+      ],
+      "explainTh": "อดีต: ไม่ได้หัดขับ → สมมติ had learned · ผลตอนนี้: ขับไม่ได้ → could drive … now",
+      "structure": "If + had + V3, could + V1"
+    },
+    {
+      "id": "b2-mixed-conditionals-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "She is afraid of flying, so she didn't visit us in Australia last year.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย If she … และใช้ would",
+      "accepted": [
+        "If she weren't afraid of flying, she would have visited us in Australia last year.",
+        "If she weren't afraid of flying she would have visited us in Australia last year.",
+        "If she wasn't afraid of flying, she would have visited us in Australia last year.",
+        "If she wasn't afraid of flying she would have visited us in Australia last year."
+      ],
+      "explainTh": "ความกลัวเป็นสภาพตอนนี้ → If + weren't/wasn't · ผลในอดีต (last year) → would have + V3",
+      "structure": "If + V2/were, would have + V3"
+    },
+    {
+      "id": "b2-mixed-conditionals-08",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "if",
+        "I",
+        "had",
+        "saved",
+        "more",
+        "money",
+        "I",
+        "would",
+        "be",
+        "rich",
+        "now"
+      ],
+      "accepted": [
+        "If I had saved more money I would be rich now.",
+        "If I had saved more money I would now be rich.",
+        "I would be rich now if I had saved more money.",
+        "I would now be rich if I had saved more money.",
+        "Now I would be rich if I had saved more money."
+      ],
+      "explainTh": "อดีต (had saved) → ผลตอนนี้ (would be … now)"
+    },
+    {
+      "id": "b2-mixed-conditionals-09",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "she",
+        "would",
+        "have",
+        "got",
+        "the",
+        "job",
+        "if",
+        "she",
+        "spoke",
+        "English"
+      ],
+      "accepted": [
+        "She would have got the job if she spoke English.",
+        "If she spoke English she would have got the job."
+      ],
+      "explainTh": "พูดภาษาอังกฤษไม่ได้ (ความจริงตอนนี้) → If she spoke · ผลในอดีต (ไม่ได้งาน) → would have got"
+    },
+    {
+      "id": "b2-mixed-conditionals-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่เงื่อนไขกับผลลัพธ์ที่สมเหตุสมผล",
+      "pairs": [
+        [
+          "If I hadn't stayed up so late,",
+          "I wouldn't be so tired now."
+        ],
+        [
+          "If I spoke Japanese,",
+          "I would have understood the film last night."
+        ],
+        [
+          "If she had taken the medicine,",
+          "she would feel better today."
+        ],
+        [
+          "If he weren't so lazy,",
+          "he would have finished the project yesterday."
+        ]
+      ],
+      "explainTh": "had + V3 → would + V1 (ผลตอนนี้: now, today) · V2/were → would have + V3 (ผลในอดีต: last night, yesterday)"
+    },
+    {
+      "id": "b2-mixed-conditionals-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ตรงกับความหมาย: เมื่อคืนเขานอนไม่พอ ตอนนี้เขาเลยง่วงมาก",
+      "choices": [
+        "If he had slept well last night, he wouldn't be so sleepy now.",
+        "If he slept well last night, he wouldn't be so sleepy now.",
+        "If he had slept well last night, he wouldn't have been so sleepy now.",
+        "If he would have slept well last night, he wouldn't be so sleepy now."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "การนอนเกิดเมื่อคืน (อดีต) ฝั่ง if ต้องเป็น had + V3",
+        "2": "ผลอยู่ตอนนี้ (now) ต้องใช้ would + V1 ไม่ใช่ would have been",
+        "3": "ฝั่ง if ไม่ใช้ would"
+      },
+      "explainTh": "อดีต (last night) → had slept · ผลตอนนี้ (now) → wouldn't be"
+    },
+    {
+      "id": "b2-mixed-conditionals-12",
+      "type": "dialogue",
+      "difficulty": 1,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "You look stressed. What's wrong?"
+          },
+          {
+            "speaker": "B",
+            "text": "I lost my notes last week. If I ___ a copy, I wouldn't be so worried about tomorrow's exam."
+          }
+        ]
+      },
+      "choices": [
+        "had made",
+        "made",
+        "would have made",
+        "have made"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "made ใช้สมมติเรื่องปัจจุบัน แต่การถ่ายสำเนาต้องเกิดก่อนโน้ตหาย (อดีต)",
+        "2": "ฝั่ง if ไม่ใช้ would",
+        "3": "have made เป็น Present Perfect ใช้ในประโยคสมมติแบบนี้ไม่ได้"
+      },
+      "explainTh": "การถ่ายสำเนาเป็นเรื่องอดีตที่ไม่ได้ทำ → had made · ผลตอนนี้ (กังวล) → wouldn't be"
+    },
+    {
+      "id": "b2-mixed-conditionals-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Stuck at home",
+        "lines": [
+          {
+            "text": "Hi Jane, I'm stuck at home with a broken leg. If I hadn't gone skiing last weekend, I'd be on the beach in Phuket with you right now! The problem is that I'm not a careful person — if I were more careful, I wouldn't have tried that difficult slope. — Amy"
+          }
+        ]
+      },
+      "question": "Why isn't Amy in Phuket now?",
+      "choices": [
+        "She broke her leg skiing.",
+        "She doesn't like the beach.",
+        "Jane didn't invite her.",
+        "She is too careful to travel."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ข้อความไม่ได้บอกว่าเธอไม่ชอบทะเล กลับอยากไปด้วยซ้ำ",
+        "2": "Jane อยู่ที่ภูเก็ตและ Amy อยากไปอยู่ด้วย ไม่มีเรื่องไม่ได้ชวน",
+        "3": "if I were more careful แปลว่าความจริงเธอไม่ใช่คนระมัดระวัง"
+      },
+      "explainTh": "If I hadn't gone skiing …, I'd be in Phuket now = ความจริงเธอไปเล่นสกี (ขาหัก) ตอนนี้จึงไม่ได้อยู่ภูเก็ต"
+    },
+    {
+      "id": "b2-mixed-conditionals-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "If I ___ allergic to cats, I would have adopted that kitten last week.",
+      "choices": [
+        "weren't",
+        "am not",
+        "wouldn't be",
+        "haven't been"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "am not ใช้กับเงื่อนไขที่เป็นไปได้จริง แต่ประโยคนี้สมมติตรงข้ามความจริง",
+        "2": "ฝั่ง if ไม่ใช้ would",
+        "3": "haven't been เป็น Present Perfect ใช้เป็นเงื่อนไขสมมติไม่ได้"
+      },
+      "explainTh": "แพ้แมวเป็นสภาพที่เป็นอยู่ตอนนี้ → If I weren't (Second) · ผลในอดีต → would have adopted"
+    },
+    {
+      "id": "b2-mixed-conditionals-15",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I ___ (be) much fitter now if I hadn't stopped going to the gym.",
+      "accepted": [
+        "would be",
+        "might be",
+        "could be"
+      ],
+      "explainTh": "ผลตอนนี้ (now) จากการเลิกไปยิมในอดีต → would + V1: would be",
+      "structure": "would + V1 … if + had + V3"
+    },
+    {
+      "id": "b2-mixed-conditionals-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยค mixed conditional เกี่ยวกับชีวิตคุณ: อย่างน้อย 1 ประโยคแบบ อดีต → ตอนนี้ (มี now หรือ today) และ 1 ประโยคแบบ ตอนนี้ → อดีต (Write 3 mixed conditional sentences about your life.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bif\\b[^.!?]*(\\b(had|hadn't)\\b|\\w'd\\b)[^.!?]*\\b(now|today)\\b|\\b(now|today)\\b[^.!?]*\\bif\\b[^.!?]*(\\b(had|hadn't)\\b|\\w'd\\b)",
+          "flags": "i",
+          "msgTh": "เขียนแบบ อดีต → ตอนนี้ อย่างน้อย 1 ประโยค: If + had + V3, would + V1 … now/today"
+        },
+        {
+          "re": "\\b(would|could|might)(n't)?\\s+(not\\s+)?have\\s+\\w+|\\b(would|could|might)(n't)?'ve\\s+\\w+|\\w'd\\s+(not\\s+)?have\\s+\\w+",
+          "flags": "i",
+          "msgTh": "เขียนแบบ ตอนนี้ → อดีต อย่างน้อย 1 ประโยค: If + V2/were, would have + V3"
+        }
+      ],
+      "sample": "If I had studied medicine, I would be a doctor now. If I hadn't moved to Bangkok, I wouldn't know my best friend today. If I were braver, I would have sung at the school concert.",
+      "explainTh": "อดีต → ตอนนี้: had + V3 → would + V1 (would be, wouldn't know) · ตอนนี้ → อดีต: were → would have + V3 (would have sung)"
+    }
+  ]
+}

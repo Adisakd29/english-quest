@@ -1,0 +1,89 @@
+{
+  "batch": "36",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S1432",
+      "severity": "major",
+      "problem": "form 'star-shaped' is not the headword 'shaped'; the gap removes 'star-' too, leaving 'Mum made ___ cookies' where many words fit (chocolate, small), yet gapOk is true. Validator cannot match 'shaped' inside a hyphenated word, so the example needs rewriting",
+      "fix": {
+        "example": "The cookies Mum made for my brother's birthday were shaped like stars.",
+        "form": "shaped",
+        "exampleTH": "คุกกี้ที่แม่ทำให้ในงานวันเกิดน้องชายเป็นรูปดาว",
+        "gapOk": true
+      }
+    },
+    {
+      "id": "B2-S1356",
+      "severity": "minor",
+      "problem": "exampleTH 'นักเรียนในห้องนี้สัดส่วนสูงมาจากนอกกรุงเทพฯ' is unnatural Thai",
+      "fix": {
+        "exampleTH": "นักเรียนในห้องนี้จำนวนไม่น้อยมาจากนอกกรุงเทพฯ"
+      }
+    },
+    {
+      "id": "B2-S1364",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'in search of a career' fits equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1402",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'After his operation/illness, my grandfather started growing vegetables' fits",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1412",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Their holiday friendship began...' fits equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1416",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'the ancient temples of Ayutthaya' fits equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1417",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Customer orders/numbers went up after free delivery' fits equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1427",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Job hunters' is a common equivalent that fits",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1446",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'early next week' / 'later next week' fit equally",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S1448",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'extra' / 'second' key fit equally",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

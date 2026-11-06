@@ -1,0 +1,163 @@
+{
+  "batch": "11",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0178",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'movie'/'film' fits 'Let's watch a ___ tonight' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0195",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'lasted' fits 'The rain ___ all night' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0219",
+      "severity": "minor",
+      "problem": "meaningEN covers two senses (a bicycle / a ride) but thai and example only show the ride sense.",
+      "fix": {
+        "meaningEN": "a ride on a bike"
+      }
+    },
+    {
+      "id": "A2-S0222",
+      "severity": "minor",
+      "problem": "'there is a danger of strong waves' is unnatural; 'risk' also fits the gap.",
+      "fix": {
+        "example": "Strong waves are a danger to swimmers at this beach today.",
+        "form": "danger",
+        "exampleTH": "วันนี้คลื่นแรงเป็นอันตรายต่อคนที่ว่ายน้ำที่ชายหาดนี้",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0234",
+      "severity": "minor",
+      "problem": "exampleTH 'แผนกขายของโรงแรม' reads as 'department that sells goods'; ambiguous.",
+      "fix": {
+        "exampleTH": "ป้าของฉันทำงานแผนกขายที่โรงแรมใหญ่แห่งหนึ่ง"
+      }
+    },
+    {
+      "id": "A2-S0240",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'improve' fits 'helps children ___ their language skills' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0244",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'new', 'small', 'good' all fit 'bought a ___ camera'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0245",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'cheap', 'early', 'night' all fit 'Is there a ___ flight'; add contrast with a stop.",
+      "fix": {
+        "example": "Is there a direct flight to London, or do we stop in Dubai?",
+        "form": "direct",
+        "exampleTH": "มีเที่ยวบินตรงไปลอนดอนไหม หรือต้องแวะที่ดูไบ"
+      }
+    },
+    {
+      "id": "A2-S0246",
+      "severity": "minor",
+      "problem": "'which direction is the train station?' is awkward, and 'way' fits the gap equally.",
+      "fix": {
+        "example": "Excuse me, is the train station in this direction?",
+        "form": "direction",
+        "exampleTH": "ขอโทษค่ะ สถานีรถไฟไปทางนี้ใช่ไหมคะ"
+      }
+    },
+    {
+      "id": "A2-S0248",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'argue' fits 'often ___ about which film to watch' equally well.",
+      "fix": {
+        "example": "I think the film was great, but my brother disagrees.",
+        "form": "disagrees",
+        "exampleTH": "ฉันคิดว่าหนังเรื่องนี้ดีมาก แต่พี่ชายไม่เห็นด้วย"
+      }
+    },
+    {
+      "id": "A2-S0251",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'found' fits 'We ___ a small waterfall' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0262",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'get' fits 'You can ___ the app for free' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0266",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'picture' fits 'made a ___ of our cat' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0268",
+      "severity": "minor",
+      "problem": "'last night' at the end attaches ambiguously (teeth fell out last night); put it first.",
+      "fix": {
+        "example": "Last night I dreamed that my teeth fell out.",
+        "form": "dreamed",
+        "exampleTH": "เมื่อคืนฉันฝันว่าฟันหลุด"
+      }
+    },
+    {
+      "id": "A2-S0269",
+      "severity": "minor",
+      "problem": "thai/shortTH 'การขับรถไปเที่ยว' (driving for fun/holiday) is too narrow; the example is just a car journey.",
+      "fix": {
+        "thai": "การเดินทางด้วยรถ, การขับรถไป",
+        "shortTH": "การเดินทางด้วยรถ",
+        "thaiChangeReason": "ขับรถไปเที่ยว แคบเกินไป ความหมายนี้คือการเดินทางด้วยรถหนึ่งเที่ยว ไม่จำเป็นต้องไปเที่ยว"
+      }
+    },
+    {
+      "id": "A2-S0275",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'makes' fits 'Nok ___ extra money' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0288",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'worker' fits 'gave every ___ a bonus' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0289",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'boss' fits 'My ___ lets me work from home' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

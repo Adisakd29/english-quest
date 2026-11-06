@@ -1,0 +1,389 @@
+{
+  "topic": "meetings",
+  "items": [
+    {
+      "id": "W-MTG-01",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "let's get started",
+      "th": "เรามาเริ่มกันเลย",
+      "noteTH": "ใช้เปิดการประชุมเมื่อผู้เข้าร่วมพร้อมแล้ว เป็นกันเองแต่ยังสุภาพ มักขึ้นต้นด้วย Okay หรือ Alright",
+      "example": "Okay, everyone, let's get started since we only have thirty minutes.",
+      "exampleTH": "โอเค ทุกคน เรามาเริ่มกันเลย เพราะเรามีเวลาแค่สามสิบนาที",
+      "situation": {
+        "promptTH": "ถึงเวลาประชุมแล้วและทุกคนเข้าห้องครบ คุณเป็นคนดำเนินการประชุม คุณจะพูดเปิดว่าอะไร",
+        "options": [
+          "Okay, everyone, let's call it a day.",
+          "Why is everyone here?",
+          "Okay, everyone, let's get lost.",
+          "Okay, everyone, let's get started."
+        ],
+        "answer": 3,
+        "whyTH": "\"let's get started\" ใช้เปิดการประชุม · \"call it a day\" แปลว่าเลิกงานวันนี้ · ถามว่าทำไมทุกคนมาอยู่ที่นี่ฟังสับสนและไม่เป็นมิตร · \"get lost\" เป็นการไล่ ไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "Okay, everyone, let's get ___ since we only have thirty minutes.",
+        "options": [
+          "start",
+          "started",
+          "starting",
+          "begun"
+        ],
+        "answer": 1,
+        "whyTH": "สำนวนคือ get started = เริ่มต้น · get start และ get starting ผิดรูป · get begun ไม่ใช่สำนวนที่ใช้"
+      }
+    },
+    {
+      "id": "W-MTG-02",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "The purpose of today's meeting is to",
+      "th": "วัตถุประสงค์ของการประชุมวันนี้คือ",
+      "noteTH": "ใช้บอกเป้าหมายของการประชุมตั้งแต่ต้น ช่วยให้ทุกคนโฟกัส เหมาะกับการประชุมทางการหรือมีผู้บริหารเข้าร่วม",
+      "example": "The purpose of today's meeting is to agree on next year's marketing budget.",
+      "exampleTH": "วัตถุประสงค์ของการประชุมวันนี้คือการตกลงเรื่องงบการตลาดของปีหน้า",
+      "situation": {
+        "promptTH": "คุณเปิดการประชุมกับผู้บริหารและต้องการบอกให้ชัดว่าวันนี้จะประชุมเพื่อเลือกผู้ขายรายใหม่ คุณจะพูดว่าอะไร",
+        "options": [
+          "The purpose of today's meeting is to choose a new supplier.",
+          "I have no idea why we're meeting today.",
+          "The purpose of today's meeting is to eat lunch together.",
+          "We'll figure out the topic as we go, I guess."
+        ],
+        "answer": 0,
+        "whyTH": "\"The purpose of today's meeting is to...\" บอกเป้าหมายได้ชัดเจนและเป็นทางการ · บอกว่าไม่รู้ว่าประชุมทำไมดูไม่เป็นมืออาชีพ · กินข้าวด้วยกันไม่ใช่เป้าหมายที่ระบุไว้ · ข้อสุดท้ายไม่บอกเป้าหมายและฟังไม่ได้เตรียมตัว"
+      },
+      "cloze": {
+        "sentence": "The ___ of today's meeting is to agree on next year's marketing budget.",
+        "options": [
+          "cause",
+          "result",
+          "motive",
+          "purpose"
+        ],
+        "answer": 3,
+        "whyTH": "purpose of the meeting = วัตถุประสงค์ของการประชุม · cause = สาเหตุ · result = ผลลัพธ์ · motive = แรงจูงใจ (มักใช้กับการกระทำของคน) ไม่ใช้บอกเป้าหมายการประชุม"
+      }
+    },
+    {
+      "id": "W-MTG-03",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "What are your thoughts on",
+      "th": "คุณคิดอย่างไรเกี่ยวกับ",
+      "noteTH": "ใช้ขอความคิดเห็นจากผู้เข้าร่วมประชุมอย่างเปิดกว้าง ตามด้วยคำนามหรือหัวข้อที่ต้องการถาม",
+      "example": "What are your thoughts on moving the launch to April?",
+      "exampleTH": "คุณคิดอย่างไรเกี่ยวกับการเลื่อนการเปิดตัวไปเป็นเดือนเมษายน",
+      "situation": {
+        "promptTH": "คุณอยากรู้ว่าทีมคิดอย่างไรกับการเปลี่ยนมาใช้ซอฟต์แวร์ตัวใหม่ คุณจะถามในที่ประชุมว่าอะไร",
+        "options": [
+          "We're switching to the new software, and no one can complain.",
+          "What are your thoughts on my new haircut?",
+          "What are your thoughts on switching to the new software?",
+          "Do you know how to switch off the computer?"
+        ],
+        "answer": 2,
+        "whyTH": "\"What are your thoughts on...\" ขอความเห็นจากทีมอย่างเปิดกว้าง · ข้อที่ห้ามบ่นไม่ได้ถามความเห็นเลย · ถามเรื่องทรงผมไม่เกี่ยวกับงาน · ถามวิธีปิดคอมพิวเตอร์ผิดเรื่อง"
+      },
+      "cloze": {
+        "sentence": "What are your ___ on moving the launch to April?",
+        "options": [
+          "thoughts",
+          "thinks",
+          "minds",
+          "brains"
+        ],
+        "answer": 0,
+        "whyTH": "your thoughts on = ความคิดเห็นของคุณต่อ... · thinks เป็นกริยา ใช้เป็นคำนามไม่ได้ · minds และ brains หมายถึงจิตใจหรือสมอง ไม่ได้แปลว่าความเห็น"
+      }
+    },
+    {
+      "id": "W-MTG-04",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I'd like to hear from",
+      "th": "ฉันอยากฟังความเห็นจาก",
+      "noteTH": "ใช้เชิญคนที่ยังไม่ได้พูดให้แสดงความเห็น ช่วยให้ทุกคนมีส่วนร่วม โดยเฉพาะคนที่ไม่ค่อยกล้าพูด",
+      "example": "I'd like to hear from Nina, since she worked on the pilot project.",
+      "exampleTH": "ฉันอยากฟังความเห็นจากนีน่า เพราะเธอทำโครงการนำร่องมา",
+      "situation": {
+        "promptTH": "ในที่ประชุม ทอมยังไม่ได้พูดอะไรเลย แต่เขาเป็นคนที่รู้เรื่องลูกค้ารายนี้ดีที่สุด คุณจะเชิญให้เขาแสดงความเห็นว่าอะไร",
+        "options": [
+          "Tom, please stop talking so much.",
+          "I'd like to hear from Tom, since he knows this client best.",
+          "I'd like to hear from Tom later, after we've already decided.",
+          "Tom never has anything useful to say."
+        ],
+        "answer": 1,
+        "whyTH": "\"I'd like to hear from Tom...\" เชิญให้เขาแสดงความเห็นอย่างสุภาพ · ขอให้หยุดพูดผิดความจริงเพราะเขายังไม่ได้พูด · ฟังหลังตัดสินใจไปแล้วทำให้ความเห็นไม่มีประโยชน์ · ข้อสุดท้ายดูถูกเพื่อนร่วมงาน"
+      },
+      "cloze": {
+        "sentence": "I'd like to ___ from Nina, since she worked on the pilot project.",
+        "options": [
+          "listen",
+          "speak",
+          "hear",
+          "talk"
+        ],
+        "answer": 2,
+        "whyTH": "hear from someone = ได้ฟังความเห็นจากใคร · listen ต้องใช้ listen to · speak from และ talk from ไม่ใช่สำนวนที่ใช้ในความหมายนี้"
+      }
+    },
+    {
+      "id": "W-MTG-05",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I couldn't agree more",
+      "th": "เห็นด้วยอย่างยิ่ง",
+      "noteTH": "แปลตรงตัวว่า \"ไม่สามารถเห็นด้วยไปมากกว่านี้ได้แล้ว\" หมายถึงเห็นด้วยเต็มที่ ระวังอย่าเข้าใจผิดว่าไม่เห็นด้วย",
+      "example": "I couldn't agree more with Tom's suggestion about hiring an extra designer.",
+      "exampleTH": "ฉันเห็นด้วยอย่างยิ่งกับข้อเสนอของทอมเรื่องการจ้างนักออกแบบเพิ่ม",
+      "situation": {
+        "promptTH": "เพื่อนร่วมงานเสนอให้ประชุมสั้นลงเหลือ 30 นาที ซึ่งตรงกับที่คุณคิดไว้ทุกอย่าง คุณจะตอบว่าอะไร",
+        "options": [
+          "I couldn't disagree more. Thirty minutes is plenty.",
+          "I couldn't agree more. Thirty minutes is plenty.",
+          "That's the worst idea I've heard.",
+          "I don't care how long meetings are."
+        ],
+        "answer": 1,
+        "whyTH": "\"I couldn't agree more\" แสดงว่าเห็นด้วยเต็มที่ · \"couldn't disagree more\" แปลว่าไม่เห็นด้วยอย่างยิ่ง ขัดกับประโยคที่ตามมา · ข้อ \"worst idea\" ไม่เห็นด้วยแบบหยาบ · \"I don't care\" แสดงความไม่ใส่ใจ ไม่ใช่การเห็นด้วย"
+      },
+      "cloze": {
+        "sentence": "I couldn't ___ more with Tom's suggestion about hiring an extra designer.",
+        "options": [
+          "accept",
+          "approve",
+          "agree",
+          "allow"
+        ],
+        "answer": 2,
+        "whyTH": "I couldn't agree more = เห็นด้วยอย่างยิ่ง เป็นสำนวนตายตัว · accept, approve, allow ใช้ในสำนวน couldn't ___ more ไม่ได้ สำนวนนี้ใช้ได้กับ agree เท่านั้น"
+      }
+    },
+    {
+      "id": "W-MTG-06",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I see your point, but",
+      "th": "ฉันเข้าใจประเด็นของคุณ แต่",
+      "noteTH": "ใช้แสดงความไม่เห็นด้วยอย่างสุภาพ โดยยอมรับความเห็นของอีกฝ่ายก่อน แล้วค่อยเสนอมุมมองของตัวเอง",
+      "example": "I see your point, but I think the deadline is too tight.",
+      "exampleTH": "ฉันเข้าใจประเด็นของคุณ แต่ฉันคิดว่ากำหนดส่งกระชั้นเกินไป",
+      "situation": {
+        "promptTH": "เพื่อนร่วมงานเสนอให้ลดราคาสินค้าลง 30% แต่คุณคิดว่าจะทำให้กำไรลดลงมาก คุณจะแย้งอย่างสุภาพว่าอะไร",
+        "options": [
+          "That's a stupid idea.",
+          "I see your point, so let's give a 50% discount instead.",
+          "Whatever, do what you want.",
+          "I see your point, but a 30% discount would hurt our profits."
+        ],
+        "answer": 3,
+        "whyTH": "\"I see your point, but...\" ยอมรับความเห็นก่อนแล้วแย้งอย่างสุภาพ · \"stupid idea\" หยาบคาย · การเสนอลดราคามากขึ้นขัดกับความคิดของคุณเอง · \"Whatever\" แสดงความไม่ใส่ใจ ไม่ได้ให้เหตุผล"
+      },
+      "cloze": {
+        "sentence": "I see your ___, but I think the deadline is too tight.",
+        "options": [
+          "point",
+          "spot",
+          "tip",
+          "end"
+        ],
+        "answer": 0,
+        "whyTH": "see your point = เข้าใจประเด็นของคุณ · see your spot, see your tip, see your end ไม่มีความหมายนี้"
+      }
+    },
+    {
+      "id": "W-MTG-07",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "I'm afraid I have to disagree",
+      "th": "เกรงว่าฉันคงต้องขอแย้ง",
+      "noteTH": "ใช้แสดงความไม่เห็นด้วยอย่างสุภาพและเป็นทางการ I'm afraid ช่วยลดความแข็งกร้าว ควรตามด้วยเหตุผลเสมอ",
+      "example": "I'm afraid I have to disagree with the proposed budget cuts.",
+      "exampleTH": "เกรงว่าฉันคงต้องขอแย้งเรื่องการตัดงบประมาณที่เสนอมา",
+      "situation": {
+        "promptTH": "ในการประชุมกับผู้บริหาร มีการเสนอให้ยกเลิกการอบรมพนักงานทั้งหมด คุณคิดว่าเป็นความคิดที่ไม่ดีและต้องการแย้งอย่างเป็นทางการ คุณจะพูดว่าอะไร",
+        "options": [
+          "I'm afraid I have to disagree, as training improves staff retention.",
+          "I'm happy to agree, as training is a waste of time.",
+          "You obviously don't understand anything about training.",
+          "No way. Next topic."
+        ],
+        "answer": 0,
+        "whyTH": "\"I'm afraid I have to disagree, as...\" แย้งอย่างสุภาพเป็นทางการพร้อมเหตุผล · ข้อที่บอกว่ายินดีเห็นด้วยตรงข้ามกับความคิดของคุณ · บอกว่าอีกฝ่ายไม่เข้าใจอะไรเลยเป็นการดูถูก · \"No way. Next topic.\" ห้วนและไม่ให้เหตุผล"
+      },
+      "cloze": {
+        "sentence": "I'm afraid I have to ___ with the proposed budget cuts.",
+        "options": [
+          "dislike",
+          "disappoint",
+          "discount",
+          "disagree"
+        ],
+        "answer": 3,
+        "whyTH": "disagree with = ไม่เห็นด้วยกับ · dislike = ไม่ชอบ (ไม่ตามด้วย with) · disappoint = ทำให้ผิดหวัง · discount = ลดราคา ไม่ใช่การแสดงความเห็นต่าง"
+      }
+    },
+    {
+      "id": "W-MTG-08",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could you clarify what you mean by",
+      "th": "ช่วยอธิบายให้ชัดหน่อยได้ไหมว่า… หมายถึงอะไร",
+      "noteTH": "ใช้ขอให้อีกฝ่ายอธิบายคำหรือประเด็นที่ยังไม่ชัด เป็นวิธีถามที่สุภาพโดยไม่ทำให้ใครเสียหน้า",
+      "example": "Could you clarify what you mean by \"flexible hours\"?",
+      "exampleTH": "ช่วยอธิบายให้ชัดหน่อยได้ไหมว่า \"ชั่วโมงทำงานแบบยืดหยุ่น\" หมายถึงอะไร",
+      "situation": {
+        "promptTH": "หัวหน้าพูดในที่ประชุมว่าโครงการนี้ต้อง \"scale up\" แต่คุณไม่แน่ใจว่าหมายถึงอะไรแน่ คุณจะถามว่าอะไร",
+        "options": [
+          "That makes no sense at all.",
+          "Could you repeat that louder?",
+          "Could you clarify what you mean by \"scale up\"?",
+          "I know exactly what \"scale up\" means."
+        ],
+        "answer": 2,
+        "whyTH": "\"Could you clarify what you mean by...\" ขอให้อธิบายคำที่ไม่ชัดอย่างสุภาพ · \"makes no sense\" ฟังเหมือนตำหนิ · ขอให้พูดดังขึ้นไม่ช่วยเรื่องความหมาย · บอกว่ารู้ความหมายแล้วขัดกับสถานการณ์"
+      },
+      "cloze": {
+        "sentence": "Could you ___ what you mean by \"flexible hours\"?",
+        "options": [
+          "clear",
+          "clarify",
+          "classify",
+          "claim"
+        ],
+        "answer": 1,
+        "whyTH": "clarify = อธิบายให้ชัดเจน · clear = ทำให้โล่ง/เคลียร์ (ไม่ใช้กับ what you mean) · classify = จัดประเภท · claim = อ้าง"
+      }
+    },
+    {
+      "id": "W-MTG-09",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Just to make sure I understand",
+      "th": "ขอทวนเพื่อให้แน่ใจว่าเข้าใจถูก",
+      "noteTH": "ใช้ทวนสิ่งที่อีกฝ่ายพูดเพื่อเช็กความเข้าใจ มักตามด้วยสรุปสั้นๆ และลงท้ายด้วย right? หรือ is that correct?",
+      "example": "Just to make sure I understand, you need the draft by Monday, right?",
+      "exampleTH": "ขอทวนเพื่อให้แน่ใจว่าเข้าใจถูก คุณต้องการร่างภายในวันจันทร์ใช่ไหม",
+      "situation": {
+        "promptTH": "ลูกค้าอธิบายความต้องการหลายข้อในการประชุม และคุณต้องการทวนว่าเขาต้องการรายงานรายเดือน ไม่ใช่รายสัปดาห์ คุณจะพูดว่าอะไร",
+        "options": [
+          "You keep changing your mind about the reports.",
+          "Just to make sure I understand, can we end the meeting now?",
+          "Just to make sure I understand, you want monthly reports, not weekly ones?",
+          "Weekly or monthly, it doesn't matter to me."
+        ],
+        "answer": 2,
+        "whyTH": "\"Just to make sure I understand, ...\" ทวนความเข้าใจได้ตรงประเด็น · ข้อที่บอกว่าลูกค้าเปลี่ยนใจตลอดเป็นการตำหนิ · ขอจบการประชุมไม่ได้เช็กความเข้าใจ · บอกว่าไม่สำคัญแสดงความไม่ใส่ใจลูกค้า"
+      },
+      "cloze": {
+        "sentence": "Just to make ___ I understand, you need the draft by Monday, right?",
+        "options": [
+          "sure",
+          "safe",
+          "real",
+          "fine"
+        ],
+        "answer": 0,
+        "whyTH": "make sure = ทำให้แน่ใจ · make safe = ทำให้ปลอดภัย · make real และ make fine ไม่ใช้ในความหมายตรวจสอบความเข้าใจ"
+      }
+    },
+    {
+      "id": "W-MTG-10",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "To sum up",
+      "th": "สรุปก็คือ",
+      "noteTH": "ใช้สรุปประเด็นสำคัญหรือข้อตกลงก่อนจบการประชุม ช่วยให้ทุกคนเข้าใจตรงกัน",
+      "example": "To sum up, we've agreed to launch the campaign in March.",
+      "exampleTH": "สรุปก็คือ เราตกลงกันว่าจะเปิดตัวแคมเปญในเดือนมีนาคม",
+      "situation": {
+        "promptTH": "การประชุมใกล้จบแล้ว และคุณต้องการสรุปว่าทีมตกลงจะจ้างพนักงานใหม่สองคน คุณจะพูดว่าอะไร",
+        "options": [
+          "To sum up, we've agreed to hire two new staff members.",
+          "To begin with, let's discuss whether to hire anyone.",
+          "To sum up, we haven't discussed anything today.",
+          "Let's start a new topic about the office party."
+        ],
+        "answer": 0,
+        "whyTH": "\"To sum up, we've agreed...\" สรุปข้อตกลงได้ถูกต้อง · \"To begin with\" ใช้เริ่มหัวข้อ ไม่ใช่สรุป · บอกว่าไม่ได้คุยอะไรเลยผิดความจริง · การเริ่มหัวข้อใหม่ไม่ใช่การสรุป"
+      },
+      "cloze": {
+        "sentence": "To ___ up, we've agreed to launch the campaign in March.",
+        "options": [
+          "count",
+          "total",
+          "pick",
+          "sum"
+        ],
+        "answer": 3,
+        "whyTH": "sum up = สรุป · count up = นับรวม · total up = รวมยอดตัวเลข · pick up = หยิบขึ้นมา/ไปรับ ไม่มีคำไหนใช้สรุปประเด็นการประชุมได้"
+      }
+    },
+    {
+      "id": "W-MTG-11",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "can you take the lead on",
+      "th": "คุณช่วยรับผิดชอบเป็นหลักเรื่อง… ได้ไหม",
+      "noteTH": "ใช้มอบหมายให้ใครเป็นผู้นำหรือผู้รับผิดชอบหลักของงานชิ้นหนึ่ง เป็นคำขอที่สุภาพ ไม่ใช่คำสั่งห้วนๆ",
+      "example": "Mia, can you take the lead on the customer survey?",
+      "exampleTH": "มีอา คุณช่วยรับผิดชอบเป็นหลักเรื่องแบบสำรวจลูกค้าได้ไหม",
+      "situation": {
+        "promptTH": "คุณเป็นผู้จัดการและต้องการมอบหมายให้เบนเป็นคนรับผิดชอบหลักในการจัดงานสัมมนาครั้งหน้า คุณจะพูดในที่ประชุมว่าอะไร",
+        "options": [
+          "Ben, can you stay away from the next seminar?",
+          "Ben, can you take a break from the next seminar?",
+          "Someone should probably do the seminar, maybe.",
+          "Ben, can you take the lead on the next seminar?"
+        ],
+        "answer": 3,
+        "whyTH": "\"can you take the lead on...\" มอบหมายให้เป็นผู้รับผิดชอบหลักอย่างสุภาพ · \"stay away from\" แปลว่าอย่ายุ่งเกี่ยว · \"take a break from\" แปลว่าพักจากงานนั้น · ข้อสุดท้ายไม่ได้มอบหมายใครชัดเจน"
+      },
+      "cloze": {
+        "sentence": "Mia, can you take the ___ on the customer survey?",
+        "options": [
+          "head",
+          "lead",
+          "front",
+          "top"
+        ],
+        "answer": 1,
+        "whyTH": "take the lead on = เป็นผู้นำ/รับผิดชอบหลัก · take the head, take the front, take the top ไม่ใช่สำนวนมอบหมายงาน"
+      }
+    },
+    {
+      "id": "W-MTG-12",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "let's go over the action items",
+      "th": "มาทบทวนงานที่ต้องทำต่อกัน",
+      "noteTH": "action items คือรายการงานที่ต้องทำหลังประชุม พร้อมผู้รับผิดชอบและกำหนดส่ง ใช้ทบทวนก่อนจบการประชุมเพื่อให้ทุกคนรู้หน้าที่",
+      "example": "Before we finish, let's go over the action items.",
+      "exampleTH": "ก่อนจบ มาทบทวนงานที่ต้องทำต่อกันหน่อย",
+      "situation": {
+        "promptTH": "การประชุมใกล้จบ และคุณอยากให้แน่ใจว่าทุกคนรู้ว่าใครต้องทำอะไรและส่งเมื่อไร คุณจะพูดว่าอะไร",
+        "options": [
+          "Before we finish, let's go over the lunch menu.",
+          "Before we finish, let's go over the action items.",
+          "Let's just leave and figure it out later.",
+          "Before we start, let's introduce ourselves."
+        ],
+        "answer": 1,
+        "whyTH": "\"let's go over the action items\" ทบทวนว่าใครต้องทำอะไรต่อ · เมนูอาหารกลางวันไม่เกี่ยว · ออกไปก่อนแล้วค่อยคิดทำให้ไม่มีใครรู้หน้าที่ · การแนะนำตัวใช้ตอนเริ่มประชุม ไม่ใช่ตอนจบ"
+      },
+      "cloze": {
+        "sentence": "Before we finish, let's go over the ___ items.",
+        "options": [
+          "active",
+          "acting",
+          "action",
+          "actor"
+        ],
+        "answer": 2,
+        "whyTH": "action items = รายการงานที่ต้องทำต่อ เป็นคำเฉพาะในที่ทำงาน · active items = รายการที่ใช้งานอยู่ · acting items และ actor items ไม่มีความหมายนี้"
+      }
+    }
+  ]
+}

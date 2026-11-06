@@ -1,0 +1,221 @@
+{
+  "id": "c1-advanced-relatives",
+  "summaryTh": "อนุประโยคขยายคำนามแบบทางการ: to whom, most of which, whose, whereby, , which",
+  "concept": {
+    "what": "อนุประโยคขยายคำนามขั้นสูงเป็นรูปแบบที่ใช้มากในภาษาเขียนทางการ ได้แก่ บุพบท + which/whom (the person to whom I spoke), คำบอกจำนวน + of which/whom (most of whom), whose ที่ใช้กับสิ่งของได้ (a theory whose origins…), whereby (= ซึ่งโดยวิธีนั้น) และ which ที่ขยายทั้งประโยค (He resigned, which surprised everyone.)",
+    "when": [
+      "เขียนทางการ ยกบุพบทไปไว้หน้า which/whom: the committee to which the report was sent",
+      "บอกจำนวนส่วนหนึ่งของกลุ่ม: 50 students, most of whom were from Bangkok",
+      "บอกความเป็นเจ้าของ ทั้งคนและสิ่งของ: a company whose profits have doubled",
+      "อธิบายระบบหรือวิธีการ: a scheme whereby staff can work from home",
+      "ให้ความเห็นต่อทั้งเหตุการณ์ในประโยคก่อน: The train was late, which meant we missed the meeting."
+    ],
+    "why": "ช่วยรวมข้อมูลหลายประโยคให้เป็นประโยคเดียวที่กระชับและเป็นทางการ — คนไทยมักใช้ that หรือ who หลังบุพบท (in that ✗, to who ✗) ใช้ them ซ้ำหลังจำนวน (most of them ✗ ในประโยคเดียวกัน) และใช้ what แทน which เมื่อขยายทั้งประโยค เพราะภาษาไทยใช้คำว่า “ซึ่ง” คำเดียวกับทุกกรณี"
+  },
+  "structure": {
+    "formula": "Noun + preposition + which/whom · quantifier + of + which/whom · whose · whereby · , which",
+    "rows": [
+      { "label": "บุพบท + which/whom (ทางการ)", "formula": "noun + preposition + which (สิ่งของ) / whom (คน) + clause", "example": "The professor [[with whom]] I discussed my thesis was very helpful." },
+      { "label": "บุพบทไว้ท้าย (ไม่ทางการ)", "formula": "noun + (who/which/that) + clause + preposition", "example": "The professor [[I discussed my thesis with]] was very helpful." },
+      { "label": "คำบอกจำนวน + of which/whom", "formula": "…, some/most/all/none/both/two + of + which/whom + verb", "example": "The firm hired 20 graduates, [[most of whom]] studied engineering." },
+      { "label": "whose (คนและสิ่งของ)", "formula": "noun + whose + noun + verb", "example": "It is a theory [[whose]] origins are still unclear." },
+      { "label": "whereby", "formula": "a system/scheme/process + whereby + clause", "example": "They introduced a system [[whereby]] staff can work from home twice a week." },
+      { "label": "Sentential which", "formula": "Clause, + which + verb (ขยายทั้งประโยค)", "example": "The train was two hours late, [[which]] meant we missed the meeting." },
+      { "label": "in which case / by which time", "formula": "…, in which case / by which time / at which point + clause", "example": "The battery may run out, [[in which case]] the device will switch off." }
+    ],
+    "notes": [
+      "หลังบุพบทใช้ได้แค่ which (สิ่งของ) และ whom (คน) — ห้ามใช้ that หรือ who",
+      "quantifier + of which/whom ใช้ในอนุประโยคแบบมี comma และห้ามใส่ they/them/it ซ้ำในอนุประโยคนั้น",
+      "sentential which ต้องมี comma และใช้ which เท่านั้น (ไม่ใช่ that หรือ what)",
+      "whose ใช้กับสิ่งของได้: a city whose history … (ไม่ต้องเลี่ยงไปใช้ of which เสมอไป)",
+      "phrasal verb ไม่ควรยกบุพบทไปไว้หน้า: the issue which we looked into (ไม่ใช่ into which we looked)"
+    ]
+  },
+  "examples": [
+    { "en": "The conference, [[at which]] she presented her findings, was held in Singapore.", "th": "การประชุมที่เธอนำเสนอผลการวิจัยจัดขึ้นที่สิงคโปร์" },
+    { "en": "These are the colleagues [[on whom]] I rely most.", "th": "นี่คือเพื่อนร่วมงานที่ฉันพึ่งพามากที่สุด" },
+    { "en": "The survey had 500 respondents, [[two thirds of whom]] were under 30.", "th": "แบบสำรวจมีผู้ตอบ 500 คน ซึ่งสองในสามอายุต่ำกว่า 30 ปี" },
+    { "en": "We visited several temples, [[some of which]] date back to the 13th century.", "th": "เราไปเที่ยววัดหลายแห่ง บางแห่งมีอายุย้อนไปถึงศตวรรษที่ 13" },
+    { "en": "It was a decision [[whose]] consequences nobody had predicted.", "th": "เป็นการตัดสินใจที่ไม่มีใครคาดถึงผลที่ตามมา" },
+    { "en": "The university has introduced a scheme [[whereby]] students can borrow laptops for free.", "th": "มหาวิทยาลัยเริ่มโครงการที่ให้นักศึกษายืมแล็ปท็อปได้ฟรี" },
+    { "en": "She got full marks in the exam, [[which]] surprised everyone.", "th": "เธอได้คะแนนเต็มในการสอบ ซึ่งทำให้ทุกคนประหลาดใจ" },
+    { "en": "The flight may be cancelled, [[in which case]] we will travel by train.", "th": "เที่ยวบินอาจถูกยกเลิก ถ้าเป็นเช่นนั้นเราจะเดินทางด้วยรถไฟ" }
+  ],
+  "mistakes": [
+    { "wrong": "The man to who I spoke was very polite.", "right": "The man to whom I spoke was very polite.", "whyTh": "หลังบุพบท (to) ต้องใช้ whom สำหรับคน — who ใช้ไม่ได้ในตำแหน่งนี้" },
+    { "wrong": "The house in that I grew up has been sold.", "right": "The house in which I grew up has been sold.", "whyTh": "that ไม่ตามหลังบุพบท ใช้ in which หรือย้ายบุพบทไปท้าย: the house that I grew up in" },
+    { "wrong": "I have three brothers, all of them live abroad.", "right": "I have three brothers, all of whom live abroad.", "whyTh": "ถ้าใช้ them จะกลายเป็นสองประโยคที่เชื่อมด้วย comma เฉย ๆ (comma splice) ต้องใช้ all of whom หรือเพิ่ม and" },
+    { "wrong": "He didn't call me back, what was quite rude.", "right": "He didn't call me back, which was quite rude.", "whyTh": "ขยายทั้งประโยคก่อนหน้าใช้ , which — what แปลว่า “สิ่งที่” ใช้ในตำแหน่งนี้ไม่ได้" },
+    { "wrong": "It's a company which its products are sold worldwide.", "right": "It's a company whose products are sold worldwide.", "whyTh": "บอกความเป็นเจ้าของใช้ whose แทน which + its — whose ใช้กับสิ่งของได้" },
+    { "wrong": "She bought two laptops, both of which they are very light.", "right": "She bought two laptops, both of which are very light.", "whyTh": "which ทำหน้าที่ประธานแล้ว ห้ามใส่ they ซ้ำ" }
+  ],
+  "compare": {
+    "title": "Formal relative clauses vs Reduced relative clauses",
+    "with": ["b2-reduced-relatives"],
+    "rows": [
+      { "label": "รูปแบบ", "a": "the person to whom I wrote · 40 staff, most of whom …", "b": "the report published in 2020 · people living nearby" },
+      { "label": "ใช้เมื่อ", "a": "มีบุพบท คำบอกจำนวน หรือต้องการความแม่นยำแบบทางการ", "b": "ต้องการกระชับ ตัด who/which + be ออก" },
+      { "label": "ลดรูปได้ไหม", "a": "บุพบท + which/whom และ most of whom ลดรูปไม่ได้", "b": "ลดได้เมื่อ who/which เป็นประธานของอนุประโยค" },
+      { "label": "ตัวอย่าง", "a": "The lab in which the tests were done is closed.", "b": "The tests done in the lab were accurate." }
+    ],
+    "tipTh": "ถ้ามีบุพบทหรือคำบอกจำนวนอยู่หน้า which/whom ให้คงรูปเต็มไว้ — ลดรูปได้เฉพาะเมื่อ who/which เป็นประธาน"
+  },
+  "contexts": [
+    {
+      "kind": "school", "title": "Research report extract",
+      "lines": [
+        { "text": "A total of 120 teachers took part in the study, [[most of whom]] worked in rural schools. The questionnaire, [[to which]] 95 teachers responded, focused on workload. Several teachers described a system [[whereby]] they were required to submit weekly reports, [[which]] they found time-consuming. One school, [[whose]] head teacher had reduced paperwork, reported much higher job satisfaction." }
+      ]
+    },
+    {
+      "kind": "email", "title": "Email to new employees",
+      "lines": [
+        { "text": "Dear all, Welcome to the team. Your manager, [[to whom]] you should report any problems, will meet you on Monday. We have three meeting rooms, [[all of which]] can be booked online. We also offer a scheme [[whereby]] new staff are paired with a mentor. Training may run late on the first day, [[in which case]] dinner will be provided. Best regards, HR Department" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Relative clause", "th": "อนุประโยคขยายคำนาม (ส่วนที่ขึ้นต้นด้วย who / which / whose …)" },
+    { "en": "Non-defining relative clause", "th": "อนุประโยคที่ให้ข้อมูลเพิ่ม มี comma คั่น ตัดออกได้" },
+    { "en": "Sentential relative clause", "th": ", which ที่ขยายทั้งประโยคก่อนหน้า ไม่ใช่แค่คำนามคำเดียว" },
+    { "en": "Quantifier", "th": "คำบอกจำนวน เช่น some, most, all, none, both" },
+    { "en": "Pied-piping", "th": "การยกบุพบทไปไว้หน้า which/whom (in which, to whom) — แบบทางการ" }
+  ],
+  "practice": [
+    {
+      "id": "c1-advanced-relatives-01", "type": "mc", "difficulty": 1,
+      "question": "The colleague ___ I shared an office for five years has just retired.",
+      "choices": ["with whom", "with who", "whom", "with that"], "answer": 0,
+      "whyNot": { "1": "หลังบุพบท (with) ใช้ who ไม่ได้ ต้องเป็น whom", "2": "ไม่มี with ทำให้ประโยคขาดความหมาย “แชร์ห้องกับ” (share an office with someone)", "3": "that ไม่ตามหลังบุพบท" },
+      "explainTh": "share an office with someone → ยกบุพบทไปหน้า relative pronoun: with + whom (คน)",
+      "structure": "noun + preposition + whom", "example": "The colleague with whom I shared an office has retired."
+    },
+    {
+      "id": "c1-advanced-relatives-02", "type": "mc", "difficulty": 2,
+      "question": "The company employs 300 people, most of ___ work from home.",
+      "choices": ["whom", "them", "who", "which"], "answer": 0,
+      "whyNot": { "1": "them ทำให้เป็นสองประโยคที่ต่อกันด้วย comma เฉย ๆ (comma splice) ผิดไวยากรณ์", "2": "หลัง of ต้องเป็นรูปกรรม whom ไม่ใช่ who", "3": "which ใช้กับสิ่งของ แต่ people เป็นคน" },
+      "explainTh": "คำบอกจำนวน + of + whom (คน) → most of whom ใช้เชื่อมเป็นอนุประโยคเดียวกัน",
+      "structure": "…, most of + whom + verb", "example": "The company employs 300 people, most of whom work from home."
+    },
+    {
+      "id": "c1-advanced-relatives-03", "type": "mc", "difficulty": 2,
+      "question": "The meeting ran two hours late, ___ meant I missed my last train home.",
+      "choices": ["which", "that", "what", "it"], "answer": 0,
+      "whyNot": { "1": "that ใช้หลัง comma ไม่ได้ และใช้ขยายทั้งประโยคไม่ได้", "2": "what = “สิ่งที่” ไม่ใช้ขยายประโยคก่อนหน้า", "3": "it ทำให้เป็นสองประโยคเชื่อมด้วย comma (comma splice)" },
+      "explainTh": "ขยายทั้งเหตุการณ์ (ประชุมเลิกช้า) ใช้ , which → which meant … (sentential relative)"
+    },
+    {
+      "id": "c1-advanced-relatives-04", "type": "fill", "difficulty": 1,
+      "question": "The hotel ___ we stayed was very close to the beach. (บุพบท + relative pronoun 2 คำ)",
+      "accepted": ["at which", "in which"],
+      "explainTh": "stay at/in a hotel → ยกบุพบทไปหน้า which (สิ่งของ): at which / in which",
+      "structure": "noun + preposition + which", "example": "The hotel at which we stayed was close to the beach."
+    },
+    {
+      "id": "c1-advanced-relatives-05", "type": "fill", "difficulty": 2,
+      "question": "We interviewed ten candidates, none of ___ had the right experience.",
+      "accepted": ["whom"],
+      "explainTh": "candidates เป็นคน และอยู่หลัง of → none of whom (ห้ามใช้ them เพราะจะเป็น comma splice)"
+    },
+    {
+      "id": "c1-advanced-relatives-06", "type": "fill", "difficulty": 1,
+      "question": "Ayutthaya is a city ___ history goes back more than 600 years.",
+      "accepted": ["whose"],
+      "explainTh": "ประวัติศาสตร์ “ของ” เมือง → whose + noun ใช้กับสิ่งของได้ (ไม่ใช่ which its history)"
+    },
+    {
+      "id": "c1-advanced-relatives-07", "type": "fill", "difficulty": 3,
+      "question": "The two companies signed an agreement ___ they would share research costs. (1 คำ ทางการ = by which)",
+      "accepted": ["whereby"],
+      "explainTh": "whereby = by which / ซึ่งโดยข้อตกลงนั้น ใช้หลังคำนามอย่าง agreement, system, scheme, process"
+    },
+    {
+      "id": "c1-advanced-relatives-08", "type": "error", "difficulty": 1,
+      "sentence": "The person to who you should send the form is Ms Somsri.",
+      "errorPart": "to who",
+      "accepted": ["The person to whom you should send the form is Ms Somsri.", "The person who you should send the form to is Ms Somsri.", "The person whom you should send the form to is Ms Somsri.", "The person that you should send the form to is Ms Somsri.", "The person you should send the form to is Ms Somsri."],
+      "explainTh": "หลังบุพบทต้องใช้ whom (to whom) — หรือย้าย to ไปท้ายอนุประโยคแบบไม่ทางการ"
+    },
+    {
+      "id": "c1-advanced-relatives-09", "type": "error", "difficulty": 2,
+      "sentence": "She has written four novels, two of them have won major prizes.",
+      "errorPart": "them",
+      "accepted": ["She has written four novels, two of which have won major prizes.", "She has written four novels, and two of them have won major prizes.", "She has written four novels; two of them have won major prizes."],
+      "explainTh": "comma เชื่อมสองประโยคเต็มไม่ได้ ใช้ two of which (novels เป็นสิ่งของ) เพื่อให้เป็นอนุประโยคเดียวกัน"
+    },
+    {
+      "id": "c1-advanced-relatives-10", "type": "error", "difficulty": 3,
+      "sentence": "The project failed to meet its targets, that disappointed the investors.",
+      "errorPart": "that",
+      "accepted": ["The project failed to meet its targets, which disappointed the investors.", "The project failed to meet its targets, and that disappointed the investors."],
+      "explainTh": "ขยายทั้งเหตุการณ์ข้างหน้า ต้องใช้ , which — that ใช้หลัง comma ในอนุประโยคแบบนี้ไม่ได้"
+    },
+    {
+      "id": "c1-advanced-relatives-11", "type": "order", "difficulty": 2,
+      "tokens": ["the", "research", "on", "which", "this", "report", "is", "based", "was", "carried", "out", "in", "2023"],
+      "accepted": ["The research on which this report is based was carried out in 2023.", "The research which this report is based on was carried out in 2023."],
+      "explainTh": "be based on something → ทางการ: the research on which this report is based (ยกบุพบทไปหน้า which) แล้วตามด้วยกริยาหลัก was carried out"
+    },
+    {
+      "id": "c1-advanced-relatives-12", "type": "order", "difficulty": 1,
+      "tokens": ["he", "missed", "the", "deadline", "which", "caused", "problems", "for", "the", "whole", "team"],
+      "accepted": ["He missed the deadline, which caused problems for the whole team.", "He missed the deadline which caused problems for the whole team."],
+      "explainTh": "Clause + , which + verb → which หมายถึงเหตุการณ์ “การพลาดกำหนดส่ง” ทั้งหมด (ในการเขียนจริงต้องมี comma หน้า which)"
+    },
+    {
+      "id": "c1-advanced-relatives-13", "type": "transform", "difficulty": 2,
+      "source": "I sent emails to three professors. None of them replied.",
+      "instruction": "รวมเป็นประโยคเดียว โดยใช้ none of whom",
+      "accepted": ["I sent emails to three professors, none of whom replied.", "I sent three professors emails, none of whom replied."],
+      "explainTh": "none of them (ประโยคใหม่) → , none of whom (อนุประโยคขยาย professors) ใส่ comma หน้า none"
+    },
+    {
+      "id": "c1-advanced-relatives-14", "type": "transform", "difficulty": 3,
+      "source": "This is the article. I referred to it in my essay.",
+      "instruction": "รวมเป็นประโยคเดียวแบบทางการ โดยใช้ บุพบท + which",
+      "accepted": ["This is the article to which I referred in my essay."],
+      "explainTh": "refer to something → ยก to ไปไว้หน้า which: the article to which I referred … และตัด it ออก"
+    },
+    {
+      "id": "c1-advanced-relatives-15", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่ต้นประโยคกับส่วนท้ายที่ถูกต้อง",
+      "pairs": [
+        ["The flight might be delayed,", "in which case we'll miss our connection."],
+        ["We worked until 3 a.m.,", "by which time everyone was exhausted."],
+        ["She has three sisters,", "all of whom are doctors."],
+        ["He bought an old house,", "the roof of which needed repairing."],
+        ["The bank uses a method", "whereby errors are detected automatically."]
+      ],
+      "explainTh": "in which case = ถ้าเป็นเช่นนั้น · by which time = ถึงตอนนั้น · all of whom = คน · the roof of which = หลังคาของบ้าน · whereby = วิธีที่ …"
+    },
+    {
+      "id": "c1-advanced-relatives-16", "type": "choose", "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["The students, most of whom had never been abroad, were excited about the trip.", "The students, most of them had never been abroad, were excited about the trip.", "The students, most of who had never been abroad, were excited about the trip.", "The students, most of which had never been abroad, were excited about the trip."], "answer": 0,
+      "whyNot": { "1": "most of them ทำให้มีประโยคซ้อนโดยไม่มีคำเชื่อม ผิดโครงสร้าง", "2": "หลัง of ต้องเป็น whom ไม่ใช่ who", "3": "which ใช้กับสิ่งของ แต่ students เป็นคน" },
+      "explainTh": "quantifier + of + whom (คน) แทรกด้วย comma สองข้าง → most of whom had never been abroad"
+    },
+    {
+      "id": "c1-advanced-relatives-17", "type": "context", "difficulty": 1,
+      "context": { "kind": "email", "title": "Beach clean-up", "lines": [
+        { "text": "Dear volunteers, Thank you to the 40 people who joined Saturday's beach clean-up, many of whom came straight from night shifts. Together we collected 300 kg of rubbish, most of which was plastic. The council has offered a scheme whereby volunteers can park at the beach for free. Best wishes, Ann" }
+      ] },
+      "question": "In the email, what does 'most of which' refer to?",
+      "choices": ["the volunteers", "the rubbish", "the night shifts", "the parking spaces"], "answer": 1,
+      "whyNot": { "0": "volunteers เป็นคน จึงใช้ many of whom ไม่ใช่ which", "2": "night shifts อยู่ในอนุประโยคอื่น ไม่ใช่สิ่งที่ “เป็นพลาสติก”", "3": "ที่จอดรถพูดถึงในประโยคถัดไป ไม่เกี่ยวกับ most of which" },
+      "explainTh": "most of which ขยายคำนามสิ่งของที่อยู่ข้างหน้า → 300 kg of rubbish (ขยะส่วนใหญ่เป็นพลาสติก)"
+    },
+    {
+      "id": "c1-advanced-relatives-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับบริษัท มหาวิทยาลัย หรือโครงการที่คุณรู้จัก โดยใช้อย่างน้อย 2 แบบ: บุพบท + which/whom, most of whom/which, whose, whereby หรือ , which (Write 3 sentences about an organisation using advanced relative structures.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(of|in|at|on|to|with|for|from|by|under|through|about)\\s+(which|whom)\\b|\\bwhereby\\b|\\bwhose\\b", "flags": "i", "msgTh": "ใช้ บุพบท + which/whom, whose หรือ whereby อย่างน้อย 1 ครั้ง" },
+        { "re": ",\\s*(which|(some|most|all|many|none|both|few|several|each|one|two|three|half|neither)\\s+of\\s+(which|whom))\\b", "flags": "i", "msgTh": "ใช้ , which หรือ , most of whom / some of which (มี comma) อย่างน้อย 1 ครั้ง" }
+      ],
+      "sample": "Our university has 20,000 students, most of whom live on campus. It runs a scheme whereby first-year students are paired with a mentor. The library was renovated last year, which made it much more popular.",
+      "explainTh": "หลังบุพบทใช้ which/whom เท่านั้น · quantifier + of whom/which ห้ามใส่ them ซ้ำ · , which ขยายทั้งประโยคต้องมี comma"
+    }
+  ]
+}

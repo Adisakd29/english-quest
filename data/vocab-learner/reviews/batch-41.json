@@ -1,0 +1,54 @@
+{
+  "batch": "41",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0432",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'the ___ force behind' also takes common near-synonyms (main, major, key, real).",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0457",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'apply for a visa at the Japanese ___' fits 'consulate' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0401",
+      "severity": "minor",
+      "problem": "Collocation 'discharge waste' belongs to the other sense (releasing liquid/gas), not 'allow a patient to leave hospital'.",
+      "fix": {
+        "collocations": [
+          "discharged from hospital",
+          "discharge a patient",
+          "be discharged home"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0433",
+      "severity": "minor",
+      "problem": "Collocation 'drown out' is a different phrasal verb (cover a sound), not the sense 'die under water'.",
+      "fix": {
+        "collocations": [
+          "nearly drown",
+          "drown in a river",
+          "save someone from drowning"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0467",
+      "severity": "minor",
+      "problem": "exampleTH 'เป็นความพยายามที่เสี่ยง' is an unnatural literal rendering of 'a risky endeavour' (= undertaking).",
+      "fix": {
+        "exampleTH": "การเริ่มทำธุรกิจโดยไม่มีประสบการณ์เป็นงานที่เสี่ยง จึงควรวางแผนให้ดี"
+      }
+    }
+  ]
+}

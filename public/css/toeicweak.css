@@ -1,0 +1,63 @@
+/* TOEIC — วิเคราะห์จุดอ่อน (public/js/toeicweak.js) */
+.tqw-range { display: inline-flex; gap: 4px; padding: 4px; margin: 0 0 14px; border-radius: 99px; border: 1px solid var(--color-border); background: var(--color-surface); }
+.tqw-seg { min-height: 44px; padding: 0 16px; border: 0; border-radius: 99px; background: transparent; color: var(--color-text-muted); font: inherit; font-weight: 700; cursor: pointer; }
+.tqw-seg.is-on { background: var(--tq-accent); color: #fff; }
+.tqw-seg:focus-visible, .tqw-mini:focus-visible, .tqw-part summary:focus-visible { outline: 3px solid var(--tq-accent); outline-offset: 2px; }
+
+.tqw-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0 0 16px; }
+.tqw-stat { display: grid; gap: 2px; padding: 12px; border-radius: var(--gl-radius, 16px); border: 1px solid var(--color-border); background: var(--color-surface); min-width: 0; }
+.tqw-stat span { display: inline-flex; align-items: center; gap: 4px; font-size: 0.8rem; font-weight: 800; color: var(--color-text-muted); }
+.tqw-stat b { font-size: 1.6rem; font-weight: 900; color: var(--tq-accent); line-height: 1.15; }
+.tqw-stat small { color: var(--color-text-muted); font-size: 0.74rem; }
+@media (max-width: 520px) { .tqw-stats { grid-template-columns: 1fr 1fr; } .tqw-stats .tqw-stat:last-child { grid-column: 1 / -1; } }
+
+.tqw-plan { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.tqw-plan-item { display: grid; grid-template-columns: auto 1fr; gap: 12px; padding: 14px; border-radius: var(--gl-radius, 16px); border: 1.5px solid var(--color-border); background: var(--color-surface); }
+.tqw-plan-item.is-weak { border-color: var(--color-danger, #d64545); }
+.tqw-plan-item.is-fair { border-color: var(--color-warning, #d99a1e); }
+.tqw-rank { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--tq-soft); color: var(--tq-accent); font-weight: 900; }
+.tqw-plan-body { display: grid; gap: 6px; min-width: 0; }
+.tqw-plan-part { margin: 0; font-size: 0.8rem; font-weight: 700; color: var(--color-text-muted); }
+.tqw-plan-name { margin: 0; font-size: 1.1rem; }
+.tqw-plan-meta { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 0.86rem; color: var(--color-text-muted); }
+.tqw-tip { margin: 0; display: flex; gap: 6px; align-items: flex-start; font-size: 0.88rem; line-height: 1.55; padding: 8px 10px; border-radius: 12px; background: var(--gl-card-2, rgba(0, 0, 0, 0.04)); }
+.tqw-tip .icon { flex: none; margin-top: 3px; color: var(--tq-accent); }
+.tqw-go { min-height: 44px; justify-self: start; }
+@media (max-width: 520px) { .tqw-go { width: 100%; justify-self: stretch; } }
+
+.tqw-chip { display: inline-flex; align-items: center; padding: 1px 8px; border-radius: 99px; font-size: 0.74rem; font-weight: 800; background: var(--gl-card-2, rgba(0, 0, 0, 0.06)); color: var(--color-text-muted); white-space: nowrap; }
+.tqw-chip.is-weak { background: var(--color-danger-soft, rgba(214, 69, 69, 0.14)); color: var(--color-danger, #c03434); }
+.tqw-chip.is-fair { background: var(--color-warning-soft, rgba(217, 154, 30, 0.16)); color: var(--color-warning-text, #8a5a00); }
+.tqw-chip.is-strong { background: var(--color-success-soft); color: var(--color-success); }
+
+.tqw-empty, .tqw-ok { display: grid; justify-items: center; gap: 8px; text-align: center; margin: 0 0 16px; }
+.tqw-empty .icon-lg, .tqw-ok .icon-lg { color: var(--tq-accent); }
+.tqw-empty p, .tqw-ok p { margin: 0; line-height: 1.6; }
+
+.tqw-traps ul, .tqw-untried ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.tqw-traps li { display: flex; justify-content: space-between; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--color-border); font-size: 0.9rem; }
+.tqw-traps li:last-child { border-bottom: 0; }
+.tqw-untried li { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; padding: 6px 0; }
+.tqw-untried li span { display: grid; min-width: 0; }
+.tqw-untried li small { color: var(--color-text-muted); font-size: 0.76rem; }
+.tqw-traps, .tqw-untried { margin: 0 0 16px; }
+
+.tqw-part { margin: 0 0 10px; padding: 0; overflow: hidden; }
+.tqw-part summary { list-style: none; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; min-height: 56px; padding: 10px 14px; cursor: pointer; }
+.tqw-part summary::-webkit-details-marker { display: none; }
+.tqw-part-title { display: grid; gap: 2px; min-width: 0; }
+.tqw-part-title small { color: var(--color-text-muted); font-size: 0.8rem; }
+.tqw-caret { transition: transform 0.2s; }
+.tqw-part[open] .tqw-caret { transform: rotate(180deg); }
+.tqw-part > .tq-link { margin: 0 14px 12px; }
+.tqw-rows { list-style: none; margin: 0; padding: 0 14px 10px; display: grid; gap: 4px; }
+.tqw-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "name pct btn" "bar bar btn" "sub sub btn"; gap: 3px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--color-border); }
+.tqw-row-name { grid-area: name; font-weight: 700; font-size: 0.9rem; }
+.tqw-row-pct { grid-area: pct; font-variant-numeric: tabular-nums; font-weight: 800; }
+.tqw-bar { grid-area: bar; }
+.tqw-row.is-weak .tqw-bar > span { background: var(--color-danger, #d64545); }
+.tqw-row.is-fair .tqw-bar > span { background: var(--color-warning, #d99a1e); }
+.tqw-row-sub { grid-area: sub; display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 0.76rem; color: var(--color-text-muted); }
+.tqw-mini { grid-area: btn; min-height: 44px; min-width: 64px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 10px; border-radius: 12px; border: 1.5px solid var(--tq-accent); background: transparent; color: var(--tq-accent); font: inherit; font-weight: 800; cursor: pointer; }
+.tqw-mini:hover { background: var(--tq-soft); }
+@media (prefers-reduced-motion: reduce) { .tqw-caret { transition: none; } }

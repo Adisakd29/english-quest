@@ -1,0 +1,57 @@
+{
+  "batch": "40",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0384",
+      "severity": "minor",
+      "problem": "Example is the idiom 'Speak of the devil!', where 'devil' refers to the person just mentioned; it does not show the taught sense (evil spirit in religions/stories)",
+      "fix": {
+        "example": "In many old stories, the devil has horns, a long tail and a red face.",
+        "form": "devil",
+        "exampleTH": "ในนิทานเก่าหลายเรื่อง ซาตานมีเขา มีหางยาว และหน้าสีแดง",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0302",
+      "severity": "minor",
+      "problem": "gapOk true is too optimistic: 'metal' (and 'aluminium') fit 'wires ... are made of ___ because it carries electricity well'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0334",
+      "severity": "minor",
+      "problem": "gapOk true is too optimistic: 'modern classic' fits 'became a ___ classic among students' as well as 'cult classic'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0365",
+      "severity": "minor",
+      "problem": "gapOk true is too optimistic: 'population growth' fits 'a much higher population ___ than other cities' as well as 'density'",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0257",
+      "severity": "minor",
+      "problem": "exampleTH 'เครื่องพิมพ์ทำการตั้งค่าเครือข่ายหายไป' is ungrammatical/unnatural Thai (the printer 'did the settings disappear')",
+      "fix": {
+        "exampleTH": "หลังอัปเดต การตั้งค่าเครือข่ายของเครื่องพิมพ์หายไป เราจึงต้องตั้งค่าใหม่อีกครั้ง"
+      }
+    },
+    {
+      "id": "C1-S0376",
+      "severity": "minor",
+      "problem": "exampleTH 'เป็นสิ่งที่อยากได้' is a literal gloss; Thai job ads express 'desirable' as an advantage",
+      "fix": {
+        "exampleTH": "หากมีประสบการณ์ใช้สเปรดชีตจะพิจารณาเป็นพิเศษ แต่ไม่จำเป็นสำหรับตำแหน่งนี้"
+      }
+    }
+  ]
+}

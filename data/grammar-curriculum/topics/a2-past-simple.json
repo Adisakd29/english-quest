@@ -1,0 +1,191 @@
+{
+  "id": "a2-past-simple",
+  "summaryTh": "เล่าเรื่องที่เกิดขึ้นและจบไปแล้วในอดีต",
+  "concept": {
+    "what": "Past Simple คือรูปกริยาที่ใช้เล่าเหตุการณ์ที่เกิดขึ้นและจบลงแล้วในอดีต ผู้ฟังรู้ว่าเกิดเมื่อไร หรือบอกเวลาไว้ในประโยค",
+    "when": [
+      "เหตุการณ์จบแล้วในอดีต และมีเวลาบอกชัด เช่น yesterday, last week, two days ago, in 2020",
+      "เล่าเรื่องหลายเหตุการณ์ต่อกันตามลำดับ (I woke up, had breakfast and left.)",
+      "นิสัยหรือสภาพในอดีตที่ไม่เป็นแบบนั้นแล้ว (She lived in Chiang Mai for five years.)"
+    ],
+    "why": "ทำให้ผู้ฟังรู้ทันทีว่าเรื่องนั้นจบไปแล้ว ไม่เกี่ยวกับตอนนี้ — ภาษาไทยใช้คำว่า \"เมื่อวาน\" \"แล้ว\" แต่ภาษาอังกฤษเปลี่ยนรูปกริยาด้วย"
+  },
+  "structure": {
+    "formula": "Subject + V2",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "Subject + V2", "example": "She [[visited]] her grandmother last Sunday." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + did not (didn't) + V1", "example": "She [[didn't visit]] her grandmother last Sunday." },
+      { "label": "คำถาม (Question)", "formula": "Did + Subject + V1 …?", "example": "[[Did]] she [[visit]] her grandmother last Sunday?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + did. / No, Subject + didn't.", "example": "Yes, she [[did]]. / No, she [[didn't]]." }
+    ],
+    "notes": [
+      "กริยาปกติเติม -ed: walk → walked, study → studied, stop → stopped",
+      "กริยาอปกติต้องจำ: go → went, eat → ate, see → saw, buy → bought",
+      "ประธานทุกตัวใช้รูปเดียวกัน (I/he/they walked) ยกเว้น be: I/he/she/it was · you/we/they were",
+      "หลัง did / didn't ใช้กริยาช่องที่ 1 เสมอ"
+    ]
+  },
+  "examples": [
+    { "en": "I [[walked]] to school yesterday.", "th": "เมื่อวานฉันเดินไปโรงเรียน" },
+    { "en": "We [[went]] to Hua Hin last weekend.", "th": "สุดสัปดาห์ที่แล้วพวกเราไปหัวหิน" },
+    { "en": "He [[didn't eat]] breakfast this morning.", "th": "เช้านี้เขาไม่ได้กินอาหารเช้า" },
+    { "en": "[[Did]] you [[watch]] the match last night?", "th": "เมื่อคืนคุณดูการแข่งขันไหม" },
+    { "en": "The film [[was]] great, but the seats [[were]] uncomfortable.", "th": "หนังสนุกมาก แต่เก้าอี้นั่งไม่สบาย" },
+    { "en": "She [[studied]] English in Australia two years ago.", "th": "เธอเรียนภาษาอังกฤษที่ออสเตรเลียเมื่อสองปีก่อน" },
+    { "en": "I [[got]] up, [[had]] a shower and [[left]] the house.", "th": "ฉันตื่น อาบน้ำ แล้วออกจากบ้าน (เล่าเหตุการณ์ต่อกัน)" },
+    { "en": "When [[did]] they [[arrive]]? — They [[arrived]] at 9 p.m.", "th": "พวกเขามาถึงเมื่อไร — มาถึงตอนสามทุ่ม" }
+  ],
+  "mistakes": [
+    { "wrong": "I didn't went to the party.", "right": "I didn't go to the party.", "whyTh": "did บอกความเป็นอดีตแล้ว กริยาหลังจากนั้นจึงกลับเป็นช่องที่ 1 (go)" },
+    { "wrong": "Did she called you?", "right": "Did she call you?", "whyTh": "ประโยคคำถามที่ขึ้นต้นด้วย Did ใช้กริยาช่องที่ 1 (call)" },
+    { "wrong": "Yesterday I go to the market.", "right": "Yesterday I went to the market.", "whyTh": "มี yesterday แปลว่าเรื่องจบไปแล้ว ต้องใช้ V2 (went) ภาษาไทยไม่เปลี่ยนรูปกริยา จึงพลาดบ่อย" },
+    { "wrong": "They was very tired.", "right": "They were very tired.", "whyTh": "be ในอดีต: they / we / you ใช้ were · I / he / she / it ใช้ was" },
+    { "wrong": "He studyed hard.", "right": "He studied hard.", "whyTh": "กริยาที่ลงท้ายด้วยพยัญชนะ + y เปลี่ยน y เป็น i แล้วเติม -ed" }
+  ],
+  "compare": {
+    "title": "Past Simple vs Present Perfect",
+    "with": ["a2-present-perfect-intro"],
+    "rows": [
+      { "label": "ใช้เมื่อ", "a": "เรื่องจบแล้ว และสนใจว่าเกิด \"เมื่อไร\"", "b": "เรื่องที่เกิดแล้ว แต่สนใจผลถึงตอนนี้ ไม่บอกเวลา" },
+      { "label": "คำบอกเวลา", "a": "yesterday, last …, … ago, in 2020", "b": "ever, never, just, already, yet" },
+      { "label": "ตัวอย่าง", "a": "I lost my keys yesterday.", "b": "I have lost my keys. (ตอนนี้ยังหาไม่เจอ)" }
+    ],
+    "tipTh": "ถ้ามีเวลาในอดีตที่ชัดเจน (yesterday, ago, last …) ให้ใช้ Past Simple เสมอ"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Weekend chat",
+      "lines": [
+        { "speaker": "Mint", "text": "Hi Ben! What [[did]] you [[do]] at the weekend?" },
+        { "speaker": "Ben", "text": "I [[went]] to Chatuchak Market with my sister. We [[bought]] some old books." },
+        { "speaker": "Mint", "text": "Nice! [[Did]] you [[eat]] there?" },
+        { "speaker": "Ben", "text": "Yes, we [[did]]. The coconut ice cream [[was]] amazing." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Message to a teacher",
+      "lines": [
+        { "text": "Dear Ms Lee, I'm sorry I [[missed]] the class yesterday. I [[had]] a fever and [[stayed]] at home. Could you send me the homework? Thank you, Nok" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Past Simple", "th": "อดีตกาลธรรมดา — เหตุการณ์ที่จบแล้ว" },
+    { "en": "Regular verb", "th": "กริยาปกติ (เติม -ed)" },
+    { "en": "Irregular verb", "th": "กริยาอปกติ (เปลี่ยนรูปเฉพาะตัว ต้องจำ)" },
+    { "en": "Time marker", "th": "คำบอกเวลา เช่น yesterday, last week, ago" }
+  ],
+  "practice": [
+    {
+      "id": "a2-past-simple-01", "type": "mc", "difficulty": 1,
+      "question": "We ___ to the cinema last night.",
+      "choices": ["go", "went", "have gone", "going"], "answer": 1,
+      "whyNot": { "0": "go เป็นปัจจุบัน แต่ last night บอกว่าจบแล้วในอดีต", "2": "have gone ไม่ใช้กับเวลาที่ระบุชัด เช่น last night", "3": "going ต้องมี be นำหน้า และไม่ใช่รูปอดีต" },
+      "explainTh": "last night เป็นคำบอกเวลาในอดีตที่จบแล้ว จึงใช้ Past Simple: Subject + V2 → went",
+      "structure": "Subject + V2", "example": "We went to the cinema last night."
+    },
+    {
+      "id": "a2-past-simple-02", "type": "fill", "difficulty": 1,
+      "question": "She ___ (study) for the test yesterday.",
+      "accepted": ["studied"],
+      "explainTh": "yesterday → Past Simple · study ลงท้ายด้วยพยัญชนะ + y เปลี่ยน y เป็น i แล้วเติม -ed → studied",
+      "structure": "Subject + V2", "example": "She studied for the test yesterday."
+    },
+    {
+      "id": "a2-past-simple-03", "type": "fill", "difficulty": 2,
+      "question": "I ___ (not / see) Tom at the party on Saturday.",
+      "accepted": ["didn't see", "did not see"],
+      "explainTh": "ปฏิเสธในอดีต: did not (didn't) + V1 → didn't see (ไม่ใช่ didn't saw)",
+      "structure": "Subject + didn't + V1", "example": "I didn't see Tom at the party."
+    },
+    {
+      "id": "a2-past-simple-04", "type": "error", "difficulty": 1,
+      "sentence": "Did you went to school by bus?",
+      "errorPart": "went",
+      "accepted": ["Did you go to school by bus?"],
+      "explainTh": "คำถามที่ขึ้นต้นด้วย Did ใช้กริยาช่องที่ 1 → Did you go …? เพราะ Did บอกอดีตไปแล้ว",
+      "structure": "Did + Subject + V1?"
+    },
+    {
+      "id": "a2-past-simple-05", "type": "error", "difficulty": 2,
+      "sentence": "The children was very excited about the trip.",
+      "errorPart": "was",
+      "accepted": ["The children were very excited about the trip."],
+      "explainTh": "children เป็นพหูพจน์ be ในอดีตจึงเป็น were (was ใช้กับ I / he / she / it)"
+    },
+    {
+      "id": "a2-past-simple-06", "type": "order", "difficulty": 1,
+      "tokens": ["didn't", "my", "I", "homework", "finish", "yesterday"],
+      "accepted": ["I didn't finish my homework yesterday.", "Yesterday I didn't finish my homework."],
+      "explainTh": "ปฏิเสธ: Subject + didn't + V1 + กรรม + เวลา → I didn't finish my homework yesterday."
+    },
+    {
+      "id": "a2-past-simple-07", "type": "order", "difficulty": 2,
+      "tokens": ["did", "you", "where", "summer", "go", "last"],
+      "accepted": ["Where did you go last summer?"],
+      "explainTh": "คำถาม Wh-: Wh- + did + Subject + V1 …? → Where did you go last summer?"
+    },
+    {
+      "id": "a2-past-simple-08", "type": "transform", "difficulty": 2,
+      "source": "He plays football every Saturday.",
+      "instruction": "เขียนใหม่โดยเปลี่ยน every Saturday เป็น last Saturday",
+      "accepted": ["He played football last Saturday.", "Last Saturday he played football."],
+      "explainTh": "last Saturday = อดีตที่จบแล้ว → plays เปลี่ยนเป็น played (กริยาปกติเติม -ed)"
+    },
+    {
+      "id": "a2-past-simple-09", "type": "transform", "difficulty": 2,
+      "source": "They bought a new car.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": ["Did they buy a new car?"],
+      "explainTh": "คำถาม Past Simple: Did + Subject + V1 → bought กลับเป็น buy"
+    },
+    {
+      "id": "a2-past-simple-10", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูปอดีต (V2)",
+      "pairs": [["go", "went"], ["eat", "ate"], ["buy", "bought"], ["see", "saw"], ["take", "took"]],
+      "explainTh": "กริยาอปกติ (irregular verbs) เปลี่ยนรูปเฉพาะตัว ต้องจำ: go–went, eat–ate, buy–bought, see–saw, take–took"
+    },
+    {
+      "id": "a2-past-simple-11", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I didn't knew the answer.", "I didn't know the answer.", "I not knew the answer.", "I don't knew the answer."], "answer": 1,
+      "whyNot": { "0": "หลัง didn't ต้องใช้ V1 (know) ไม่ใช่ knew", "2": "ปฏิเสธต้องมี did: didn't + V1", "3": "don't เป็นปัจจุบัน และหลัง don't ก็ต้องใช้ V1" },
+      "explainTh": "ปฏิเสธใน Past Simple: didn't + V1 → I didn't know the answer."
+    },
+    {
+      "id": "a2-past-simple-12", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "You look tired. ___ well last night?" },
+        { "speaker": "B", "text": "No, I didn't. My neighbours had a party until 2 a.m." }
+      ] },
+      "choices": ["Do you sleep", "Did you sleep", "Did you slept", "Were you sleep"], "answer": 1,
+      "whyNot": { "0": "last night เป็นอดีต ใช้ Do ไม่ได้", "2": "หลัง Did ใช้ V1 (sleep)", "3": "Were ใช้กับคำคุณศัพท์/V-ing ไม่ใช่กริยาช่องที่ 1" },
+      "explainTh": "ถามเรื่องเมื่อคืน (อดีต) → Did + you + V1 → Did you sleep well last night? และคำตอบ No, I didn't. ก็ยืนยันว่าเป็น Past Simple"
+    },
+    {
+      "id": "a2-past-simple-13", "type": "context", "difficulty": 2,
+      "context": { "kind": "email", "title": "Holiday email", "lines": [
+        { "text": "Hi Ploy, We arrived in Krabi on Monday. On Tuesday we took a boat to Phi Phi Island and swam with lots of fish. The weather was perfect. Yesterday it rained, so we stayed in the hotel and played cards. See you soon! Mai" }
+      ] },
+      "question": "What did Mai do yesterday?",
+      "choices": ["She took a boat to Phi Phi.", "She swam with fish.", "She stayed in the hotel.", "She arrived in Krabi."], "answer": 2,
+      "whyNot": { "0": "นั่งเรือไป Phi Phi คือวันอังคาร", "1": "ว่ายน้ำกับปลาก็คือวันอังคาร", "3": "มาถึง Krabi คือวันจันทร์" },
+      "explainTh": "ประโยค \"Yesterday it rained, so we stayed in the hotel\" — stayed เป็น Past Simple ของ stay บอกว่าเมื่อวานอยู่ในโรงแรม"
+    },
+    {
+      "id": "a2-past-simple-14", "type": "mc", "difficulty": 3,
+      "question": "When I was a child, I ___ in a small village near the sea.",
+      "choices": ["live", "lived", "have lived", "was live"], "answer": 1,
+      "whyNot": { "0": "When I was a child บอกว่าเป็นอดีต จึงใช้ live ไม่ได้", "2": "have lived ใช้กับเรื่องที่ต่อเนื่องถึงปัจจุบัน แต่วัยเด็กจบไปแล้ว", "3": "was live ผิดโครงสร้าง (be + V1 ไม่มีในภาษาอังกฤษ)" },
+      "explainTh": "When I was a child = ช่วงเวลาในอดีตที่จบแล้ว → Past Simple: lived (สภาพในอดีตที่ไม่เป็นแบบนั้นแล้ว)"
+    },
+    {
+      "id": "a2-past-simple-15", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าว่าเมื่อวานคุณทำอะไรบ้าง และใส่คำบอกเวลาอย่างน้อย 1 คำ (Write 3 sentences about what you did yesterday. Use at least one time expression.)",
+      "minSentences": 3, "expectTense": "past",
+      "checks": [ { "re": "\\b(yesterday|last night|this morning|in the (morning|afternoon|evening)|at (night|noon|lunchtime|\\d{1,2}([:.]\\d\\d)?\\s*(a\\.?m\\.?|p\\.?m\\.?|o'clock)?)|after (school|class|lunch|dinner|breakfast|work)|before (school|class|lunch|dinner|breakfast|bed|work))\\b", "flags": "i", "msgTh": "ใส่คำบอกเวลาอย่างน้อย 1 ครั้ง เช่น yesterday, in the morning, at 7 o'clock, after school" } ],
+      "sample": "Yesterday I got up at seven. In the morning I went to school by bus. After dinner I watched a film with my brother.",
+      "explainTh": "ทุกประโยคต้องเป็นอดีต (V2 หรือ was/were) เช่น got, went, watched — และระวัง didn't + V1"
+    }
+  ]
+}

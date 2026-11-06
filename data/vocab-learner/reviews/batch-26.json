@@ -1,0 +1,51 @@
+{
+  "batch": "26",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0161",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Metal expands when it gets hot and ___ when it cools down' fits 'shrinks' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0143",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'code of ___' also fits 'ethics' or 'practice'; the fixed phrase also does little to show the 'behaviour' sense.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0232",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The children ___ a big hole in the sand' also fits the common verb 'made'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0129",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'earn a ___ of two percent on every car' also fits 'bonus'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0233",
+      "severity": "minor",
+      "problem": "Collocation 'hard disc' contradicts the noteTH (computers use 'disk'; 'hard disk' is standard); exampleTH adds 'old film' (หนังเก่า), which is not in the English.",
+      "fix": {
+        "collocations": [
+          "compact disc",
+          "a metal disc",
+          "a slipped disc"
+        ],
+        "exampleTH": "หนังเรื่องนี้เก็บอยู่ในแผ่นที่เล่นได้เฉพาะกับเครื่องเล่นดีวีดีรุ่นเก่า"
+      }
+    }
+  ]
+}

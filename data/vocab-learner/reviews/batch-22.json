@@ -1,0 +1,233 @@
+{
+  "batch": "22",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0637",
+      "severity": "major",
+      "problem": "shortTH 'ช่วง, ขอบเขต' (and collocations 'price range', 'age range') belong to the 'limits/span' sense; this item is 'a group of different things of the same kind' (a wide range of phones) = variety, so the answer choice is misleading.",
+      "fix": {
+        "thai": "ความหลากหลาย, หลายแบบ (a range of)",
+        "shortTH": "ความหลากหลาย",
+        "thaiChangeReason": "ช่วง/ขอบเขต เป็นอีกความหมายหนึ่ง (เช่น ช่วงราคา) ความหมายนี้คือของหลายแบบในประเภทเดียวกัน",
+        "collocations": [
+          "a wide range of",
+          "a range of products",
+          "a full range of"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0559",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'many person nouns (the man, the teacher)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0560",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'camera (a camera club)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0574",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'looked (looked at the elephant)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0577",
+      "severity": "minor",
+      "problem": "Comma splice; also 'dangerous' fits the gap equally well.",
+      "fix": {
+        "example": "Don't touch that snake because it might be poisonous!",
+        "form": "poisonous",
+        "exampleTH": "อย่าแตะงูตัวนั้นนะ เพราะมันอาจจะมีพิษ!",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0584",
+      "severity": "minor",
+      "problem": "'will possibly open' is unnatural English (natives say 'will probably' or 'might').",
+      "fix": {
+        "example": "The new shopping mall will open in December, or possibly earlier.",
+        "form": "possibly",
+        "exampleTH": "ห้างใหม่จะเปิดในเดือนธันวาคม หรืออาจจะเร็วกว่านั้น"
+      }
+    },
+    {
+      "id": "B1-S0586",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'put' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0605",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'party (a pink party dress)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0607",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'patient' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0620",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'happy' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0621",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'shows' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0626",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'degree / licence' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0627",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'trained / good' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0629",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'line' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0631",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'stopped' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0633",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'read / sang / used' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0635",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'age / culture / nationality' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0639",
+      "severity": "minor",
+      "problem": "Comma splice ('rarely uses his phone, he prefers...').",
+      "fix": {
+        "example": "My grandfather rarely uses his phone because he prefers to write letters.",
+        "form": "rarely",
+        "exampleTH": "คุณตาแทบจะไม่ใช้โทรศัพท์ เพราะท่านชอบเขียนจดหมายมากกว่า"
+      }
+    },
+    {
+      "id": "B1-S0649",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'linked / connected / due' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0652",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'friends / grandparents' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0654",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'nice / good' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0657",
+      "severity": "minor",
+      "problem": "Comma splice ('very reliable, she always...').",
+      "fix": {
+        "example": "Nok is very reliable. She always finishes her work on time.",
+        "form": "reliable",
+        "exampleTH": "นกเป็นคนไว้ใจได้มาก เธอทำงานเสร็จตรงเวลาเสมอ"
+      }
+    },
+    {
+      "id": "B1-S0664",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'rode' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0666",
+      "severity": "minor",
+      "problem": "Thai 'การทำซ้ำ' is a different sense (doing again); this item is a TV/radio show shown again.",
+      "fix": {
+        "thai": "รายการฉายซ้ำ, การฉายซ้ำ",
+        "shortTH": "รายการฉายซ้ำ",
+        "thaiChangeReason": "ตัด การทำซ้ำ ออก เพราะความหมายนี้คือรายการทีวีหรือวิทยุที่นำมาออกอากาศซ้ำ"
+      }
+    },
+    {
+      "id": "B1-S0680",
+      "severity": "minor",
+      "problem": "'study' / 'read' fit the gap equally; noteTH is a run-on with no separation between the two points.",
+      "fix": {
+        "gapOk": false,
+        "noteTH": "ความหมายนี้ใช้ในอังกฤษ (อเมริกันใช้ review) และ revise ยังแปลว่า แก้ไข ได้ด้วย"
+      }
+    },
+    {
+      "id": "B1-S0681",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'knock' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

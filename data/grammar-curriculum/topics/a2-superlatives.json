@@ -1,0 +1,211 @@
+{
+  "id": "a2-superlatives",
+  "summaryTh": "บอกว่าสิ่งใด \"ที่สุด\" ในกลุ่มตั้งแต่ 3 สิ่งขึ้นไป",
+  "concept": {
+    "what": "Superlative (ขั้นสูงสุด) คือรูปคำคุณศัพท์ที่ใช้บอกว่าคน สัตว์ หรือสิ่งของ \"ที่สุด\" ในกลุ่ม เช่น the tallest (สูงที่สุด), the most expensive (แพงที่สุด)",
+    "when": [
+      "เปรียบเทียบตั้งแต่ 3 สิ่งขึ้นไป แล้วบอกว่าสิ่งหนึ่งเด่นที่สุด (Bangkok is the biggest city in Thailand.)",
+      "มักบอกขอบเขตของกลุ่มด้วย in + สถานที่/กลุ่ม (in my class, in the world) หรือ of + จำนวน/ช่วงเวลา (of the three, of the year)",
+      "ใช้คู่กับ I've ever … เพื่อบอกประสบการณ์ (It's the best film I've ever seen.)"
+    ],
+    "why": "ภาษาไทยแค่เติมคำว่า \"ที่สุด\" ท้ายคำ แต่ภาษาอังกฤษต้องเปลี่ยนรูปคำ (-est หรือ most) และต้องมี the นำหน้า — ผู้เรียนไทยจึงมักลืม the หรือใช้ most กับ -est ซ้อนกัน"
+  },
+  "structure": {
+    "formula": "the + adjective-est / the most + adjective",
+    "rows": [
+      { "label": "คำสั้น 1 พยางค์", "formula": "the + adj-est", "example": "Somchai is [[the tallest]] boy in our class." },
+      { "label": "คำยาว 2 พยางค์ขึ้นไป", "formula": "the most + adj", "example": "This is [[the most expensive]] phone in the shop." },
+      { "label": "คำ 2 พยางค์ลงท้าย -y", "formula": "the + adj (y → i) + est", "example": "Friday is [[the busiest]] day of the week." },
+      { "label": "รูปอปกติ (Irregular)", "formula": "good → the best · bad → the worst · far → the farthest / the furthest", "example": "She is [[the best]] singer in the school." },
+      { "label": "น้อยที่สุด", "formula": "the least + adj", "example": "This is [[the least expensive]] hotel in town." }
+    ],
+    "notes": [
+      "คำ 1 พยางค์ที่ลงท้ายด้วยสระตัวเดียว + พยัญชนะตัวเดียว ให้ซ้ำตัวท้าย: big → biggest, hot → hottest, thin → thinnest",
+      "คำที่ลงท้ายด้วย e เติมแค่ -st: nice → nicest, large → largest",
+      "ใช้ the นำหน้าเสมอ (หรือคำแสดงความเป็นเจ้าของ เช่น my best friend)",
+      "ใช้ -est หรือ most อย่างใดอย่างหนึ่งเท่านั้น ห้ามใช้ทั้งสองพร้อมกัน (the most biggest ✗)"
+    ]
+  },
+  "examples": [
+    { "en": "Mount Everest is [[the highest]] mountain in the world.", "th": "เอเวอเรสต์เป็นภูเขาที่สูงที่สุดในโลก" },
+    { "en": "Ploy is [[the youngest]] person in my family.", "th": "พลอยเป็นคนที่อายุน้อยที่สุดในครอบครัวของฉัน" },
+    { "en": "This is [[the most popular]] video on her channel.", "th": "นี่คือวิดีโอที่ได้รับความนิยมมากที่สุดในช่องของเธอ" },
+    { "en": "Friday is [[the busiest]] day of the week at my office.", "th": "วันศุกร์เป็นวันที่ยุ่งที่สุดของสัปดาห์ที่ออฟฟิศฉัน" },
+    { "en": "That was [[the worst]] trip of my life!", "th": "นั่นเป็นทริปที่แย่ที่สุดในชีวิตฉันเลย" },
+    { "en": "What is [[the best]] way to get to the airport?", "th": "ไปสนามบินทางไหนดีที่สุด" },
+    { "en": "Of the three hotels, this one is [[the cheapest]].", "th": "ในบรรดาโรงแรมสามแห่ง แห่งนี้ถูกที่สุด" },
+    { "en": "It's [[the most delicious]] mango I've ever eaten.", "th": "เป็นมะม่วงที่อร่อยที่สุดเท่าที่ฉันเคยกินมา" }
+  ],
+  "mistakes": [
+    { "wrong": "He is tallest student in the class.", "right": "He is the tallest student in the class.", "whyTh": "ขั้นสูงสุดต้องมี the นำหน้า เพราะ \"ที่สุด\" มีได้แค่หนึ่งเดียว — ภาษาไทยไม่มีคำนำหน้านาม จึงลืมบ่อย" },
+    { "wrong": "This is the most cheapest bag.", "right": "This is the cheapest bag.", "whyTh": "ใช้ -est หรือ most อย่างใดอย่างหนึ่ง cheap เป็นคำสั้น ใช้ the cheapest ไม่ต้องมี most" },
+    { "wrong": "She is the goodest player in the team.", "right": "She is the best player in the team.", "whyTh": "good เป็นรูปอปกติ: good → better → the best (ไม่มีคำว่า goodest)" },
+    { "wrong": "Bangkok is the expensivest city in Thailand.", "right": "Bangkok is the most expensive city in Thailand.", "whyTh": "expensive เป็นคำยาว (3 พยางค์) ต้องใช้ the most + คำคุณศัพท์ ไม่เติม -est" },
+    { "wrong": "Today is the hotest day of the year.", "right": "Today is the hottest day of the year.", "whyTh": "hot ลงท้ายด้วยสระตัวเดียว + พยัญชนะตัวเดียว ต้องซ้ำ t ก่อนเติม -est → hottest" },
+    { "wrong": "It's the biggest city of Thailand.", "right": "It's the biggest city in Thailand.", "whyTh": "หลังขั้นสูงสุด ถ้าบอกสถานที่หรือกลุ่ม ใช้ in (in Thailand, in my class) ส่วน of ใช้กับจำนวนหรือช่วงเวลา (of the three, of the year)" }
+  ],
+  "compare": {
+    "title": "Comparative vs Superlative",
+    "with": ["a2-comparatives"],
+    "rows": [
+      { "label": "ใช้เมื่อ", "a": "เปรียบเทียบ 2 สิ่ง", "b": "เปรียบเทียบตั้งแต่ 3 สิ่งขึ้นไป แล้วเลือกสิ่งที่เด่นที่สุด" },
+      { "label": "คำสั้น", "a": "adj-er + than (taller than)", "b": "the + adj-est (the tallest)" },
+      { "label": "คำยาว", "a": "more + adj + than (more expensive than)", "b": "the most + adj (the most expensive)" },
+      { "label": "รูปอปกติ", "a": "better than / worse than", "b": "the best / the worst" },
+      { "label": "ตัวอย่าง", "a": "Nok is taller than Mai.", "b": "Nok is the tallest girl in the class." }
+    ],
+    "tipTh": "เห็น than → ใช้ขั้นกว่า · เห็นกลุ่มตั้งแต่ 3 สิ่ง หรือ in / of บอกขอบเขต (in the class, of the year) → ใช้ขั้นสูงสุด"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Buying a phone",
+      "lines": [
+        { "speaker": "Customer", "text": "Excuse me, which phone is [[the cheapest]]?" },
+        { "speaker": "Seller", "text": "This one. It's 3,990 baht. But this blue one has [[the best]] camera in the shop." },
+        { "speaker": "Customer", "text": "Is it also [[the most expensive]]?" },
+        { "speaker": "Seller", "text": "No, the gold one is. The blue one is in the middle." }
+      ]
+    },
+    {
+      "kind": "social", "title": "Travel post",
+      "lines": [
+        { "text": "Just back from Chiang Rai! The White Temple was [[the most beautiful]] place on our trip, and the night market had [[the cheapest]] food. The bus ride was [[the longest]] part — 12 hours! But it was [[the best]] holiday of the year." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Superlative", "th": "ขั้นสูงสุด — บอกว่า \"ที่สุด\" ในกลุ่ม" },
+    { "en": "Adjective", "th": "คำคุณศัพท์ — คำที่บอกลักษณะ เช่น big, beautiful" },
+    { "en": "Syllable", "th": "พยางค์ — ใช้ตัดสินว่าจะเติม -est หรือใช้ most" },
+    { "en": "Irregular form", "th": "รูปอปกติ — เปลี่ยนรูปเฉพาะตัว ต้องจำ เช่น good → the best" }
+  ],
+  "practice": [
+    {
+      "id": "a2-superlatives-01", "type": "mc", "difficulty": 1,
+      "question": "Mount Fuji is ___ mountain in Japan.",
+      "choices": ["the higher", "the highest", "higher", "highest"], "answer": 1,
+      "whyNot": { "0": "the higher เป็นขั้นกว่า ใช้เลือกระหว่าง 2 สิ่ง แต่ in Japan หมายถึงภูเขาทุกลูกในญี่ปุ่น", "2": "higher เป็นขั้นกว่า ต้องมี than ตามมา และไม่มี the", "3": "ขั้นสูงสุดที่อยู่หน้าคำนาม (mountain) ต้องมี the นำหน้า" },
+      "explainTh": "in Japan = เทียบกับภูเขาทุกลูกในญี่ปุ่น (มากกว่า 3) จึงใช้ขั้นสูงสุด: the + high + est → the highest",
+      "structure": "the + adj-est", "example": "Mount Fuji is the highest mountain in Japan."
+    },
+    {
+      "id": "a2-superlatives-02", "type": "fill", "difficulty": 1,
+      "question": "This is ___ (big) shopping mall in our city.",
+      "accepted": ["the biggest"],
+      "explainTh": "in our city = เทียบกับทุกห้างในเมือง → ขั้นสูงสุด · big ลงท้ายสระเดียว + พยัญชนะเดียว ซ้ำ g แล้วเติม -est และต้องมี the → the biggest",
+      "structure": "the + adj-est", "example": "This is the biggest shopping mall in our city."
+    },
+    {
+      "id": "a2-superlatives-03", "type": "fill", "difficulty": 2,
+      "question": "Yesterday was ___ (hot) day of the year.",
+      "accepted": ["the hottest"],
+      "explainTh": "of the year = เทียบกับทุกวันในปี → ขั้นสูงสุด · hot ต้องซ้ำ t → the hottest",
+      "structure": "the + adj-est", "example": "Yesterday was the hottest day of the year."
+    },
+    {
+      "id": "a2-superlatives-04", "type": "fill", "difficulty": 3,
+      "question": "For me, maths is ___ (difficult → ยากที่สุด) subject at school.",
+      "accepted": ["the most difficult"],
+      "explainTh": "difficult เป็นคำยาว (3 พยางค์) ไม่เติม -est แต่ใช้ the most + คำคุณศัพท์ → the most difficult",
+      "structure": "the most + adj", "example": "For me, maths is the most difficult subject at school."
+    },
+    {
+      "id": "a2-superlatives-05", "type": "mc", "difficulty": 2,
+      "question": "Jane is ___ student in our class. She always gets full marks.",
+      "choices": ["the best", "the better", "the goodest", "best"], "answer": 0,
+      "whyNot": { "1": "the better ใช้เลือกระหว่าง 2 คนเท่านั้น (the better of the two) แต่ in our class มีหลายคน", "2": "good เป็นรูปอปกติ ขั้นสูงสุดคือ best ไม่มีคำว่า goodest", "3": "ขั้นสูงสุดหน้าคำนาม student ต้องมี the" },
+      "explainTh": "เทียบกับทุกคนในห้อง → ขั้นสูงสุด · good เป็นรูปอปกติ: good → better → the best",
+      "structure": "the best", "example": "Jane is the best student in our class."
+    },
+    {
+      "id": "a2-superlatives-06", "type": "error", "difficulty": 1,
+      "sentence": "Ben is the most tallest boy in the team.",
+      "errorPart": "most tallest",
+      "accepted": ["Ben is the tallest boy in the team."],
+      "explainTh": "tall เป็นคำสั้น ใช้ -est อย่างเดียว ไม่ต้องมี most → the tallest (ห้ามใช้ most กับ -est ซ้อนกัน)",
+      "structure": "the + adj-est"
+    },
+    {
+      "id": "a2-superlatives-07", "type": "error", "difficulty": 2,
+      "sentence": "This is the more expensive hotel in Phuket.",
+      "errorPart": "more expensive",
+      "accepted": ["This is the most expensive hotel in Phuket."],
+      "explainTh": "in Phuket = เทียบกับโรงแรมทั้งหมดในภูเก็ต → ต้องใช้ขั้นสูงสุด the most expensive (more เป็นขั้นกว่า ใช้เทียบ 2 สิ่ง)",
+      "structure": "the most + adj"
+    },
+    {
+      "id": "a2-superlatives-08", "type": "order", "difficulty": 1,
+      "tokens": ["the", "is", "Lisa", "in", "family", "youngest", "her"],
+      "accepted": ["Lisa is the youngest in her family.", "Is Lisa the youngest in her family?", "In her family, Lisa is the youngest."],
+      "explainTh": "Subject + is + the + adj-est + in + กลุ่ม → Lisa is the youngest in her family. (young → the youngest)"
+    },
+    {
+      "id": "a2-superlatives-09", "type": "order", "difficulty": 3,
+      "tokens": ["the", "most", "is", "what", "interesting", "city", "in", "Thailand"],
+      "accepted": ["What is the most interesting city in Thailand?", "What city is the most interesting in Thailand?", "What city in Thailand is the most interesting?", "In Thailand, what is the most interesting city?"],
+      "explainTh": "คำถาม: What + is + the most + adj + คำนาม + in … ? — interesting เป็นคำยาว ใช้ the most interesting"
+    },
+    {
+      "id": "a2-superlatives-10", "type": "transform", "difficulty": 2,
+      "source": "No student in my class is taller than Tom.",
+      "instruction": "เขียนใหม่ด้วยขั้นสูงสุดของ tall ขึ้นต้นด้วย Tom is …",
+      "accepted": ["Tom is the tallest student in my class.", "Tom is the tallest in my class.", "Tom is the tallest person in my class.", "Tom is the tallest boy in my class."],
+      "explainTh": "\"ไม่มีใครสูงกว่า Tom\" = Tom สูงที่สุด → Tom is the tallest (student) in my class."
+    },
+    {
+      "id": "a2-superlatives-11", "type": "transform", "difficulty": 3,
+      "source": "All the other phones in the shop are cheaper than this phone.",
+      "instruction": "เขียนใหม่ด้วยขั้นสูงสุดของ expensive ขึ้นต้นด้วย This …",
+      "accepted": ["This phone is the most expensive in the shop.", "This phone is the most expensive one in the shop.", "This phone is the most expensive phone in the shop.", "This is the most expensive phone in the shop.", "This one is the most expensive in the shop.", "This one is the most expensive phone in the shop."],
+      "explainTh": "เครื่องอื่นถูกกว่าทั้งหมด = เครื่องนี้แพงที่สุด · expensive เป็นคำยาว → the most expensive"
+    },
+    {
+      "id": "a2-superlatives-12", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำคุณศัพท์กับรูปขั้นสูงสุด",
+      "pairs": [["good", "the best"], ["bad", "the worst"], ["big", "the biggest"], ["happy", "the happiest"], ["famous", "the most famous"]],
+      "explainTh": "good / bad เป็นรูปอปกติ (the best, the worst) · big ซ้ำ g · happy เปลี่ยน y เป็น i · famous เป็นคำ 2 พยางค์ที่ไม่ลงท้าย -y ใช้ the most"
+    },
+    {
+      "id": "a2-superlatives-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["It's the most cheap shirt in the shop.", "It's the cheapest shirt in the shop.", "It's cheapest shirt in the shop.", "It's the cheaper shirt in the shop."], "answer": 1,
+      "whyNot": { "0": "cheap เป็นคำสั้น ใช้ -est (the cheapest) ไม่ใช้ most", "2": "ขาด the หน้าขั้นสูงสุด", "3": "the cheaper ใช้เลือกระหว่าง 2 ตัว แต่ in the shop หมายถึงเสื้อทุกตัวในร้าน" },
+      "explainTh": "เทียบกับเสื้อทั้งหมดในร้าน → the + cheap + est → the cheapest"
+    },
+    {
+      "id": "a2-superlatives-14", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "This is ___ day of my life! I passed all my exams." },
+        { "speaker": "B", "text": "Wow, congratulations!" }
+      ] },
+      "choices": ["the happiest", "the happier", "happiest", "the happyest"], "answer": 0,
+      "whyNot": { "1": "the happier เป็นขั้นกว่า ใช้เทียบ 2 สิ่ง แต่ of my life คือทุกวันในชีวิต", "2": "ขั้นสูงสุดหน้าคำนาม day ต้องมี the", "3": "happy ลงท้ายพยัญชนะ + y ต้องเปลี่ยน y เป็น i → happiest" },
+      "explainTh": "of my life = เทียบกับทุกวันในชีวิต → ขั้นสูงสุด · happy → the happiest (y เปลี่ยนเป็น i แล้วเติม -est)"
+    },
+    {
+      "id": "a2-superlatives-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "school", "title": "Class survey", "lines": [
+        { "text": "Our class did a survey about how we get to school. Nid lives the farthest from school, so she gets up the earliest — at 5:30. Joe's trip is the most expensive because he takes a taxi. Fon lives the nearest; she walks to school in five minutes." }
+      ] },
+      "question": "Which sentence is true?",
+      "choices": ["Fon gets up the earliest.", "Joe pays the most money to get to school.", "Nid lives the nearest to school.", "Fon has the most expensive trip."], "answer": 1,
+      "whyNot": { "0": "คนที่ตื่นเช้าที่สุด (the earliest) คือ Nid ไม่ใช่ Fon", "2": "Nid อยู่ไกลที่สุด (the farthest) ส่วนคนที่อยู่ใกล้ที่สุดคือ Fon", "3": "Fon เดินไปโรงเรียน การเดินทางที่แพงที่สุดคือของ Joe" },
+      "explainTh": "\"Joe's trip is the most expensive\" = การเดินทางของ Joe แพงที่สุด จึงหมายความว่า Joe จ่ายเงินมากที่สุด (the most money)"
+    },
+    {
+      "id": "a2-superlatives-16", "type": "mc", "difficulty": 3,
+      "question": "It was ___ film I have ever seen. I fell asleep after ten minutes!",
+      "choices": ["the most boring", "the boringest", "the more boring", "the least boring"], "answer": 0,
+      "whyNot": { "1": "boring เป็นคำ 2 พยางค์ที่ไม่ลงท้าย -y ใช้ the most ไม่เติม -est", "2": "the more boring เป็นขั้นกว่า ใช้กับ 2 สิ่ง แต่ I have ever seen คือเทียบกับทุกเรื่องที่เคยดู", "3": "the least boring = น่าเบื่อน้อยที่สุด ขัดกับ I fell asleep (หลับไปเลย)" },
+      "explainTh": "the + ขั้นสูงสุด + I have ever seen = ที่สุดเท่าที่เคยดูมา · หลับไปเลยแปลว่าน่าเบื่อมาก → the most boring"
+    },
+    {
+      "id": "a2-superlatives-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับคนในครอบครัวหรือเพื่อน โดยใช้ขั้นสูงสุด (Write 3 sentences about your family or friends. Use superlatives.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\bthe\\s+(most|least)\\s+[a-z]+|\\bthe\\s+[a-z]+est\\b|\\bthe\\s+(best|worst)\\b", "flags": "i", "msgTh": "ใช้ขั้นสูงสุดอย่างน้อย 1 ครั้ง เช่น the tallest, the most beautiful, the best" } ],
+      "sample": "My brother Tom is the tallest person in my family. My mother is the best cook in our village. My little sister is the funniest, but she is also the noisiest!",
+      "explainTh": "ขั้นสูงสุดต้องมี the เสมอ · คำสั้นเติม -est (the tallest) · คำยาวใช้ the most (the most beautiful) · good → the best"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "a1-conjunctions",
+  "summaryTh": "เชื่อมคำและประโยคด้วย and, but, or, because, so",
+  "concept": {
+    "what": "Conjunctions (คำเชื่อม) ใช้ต่อคำหรือประโยคสั้น ๆ ให้เป็นประโยคเดียว: and (และ), but (แต่), or (หรือ), because (เพราะ), so (ดังนั้น / ก็เลย)",
+    "when": [
+      "and = เพิ่มข้อมูลที่ไปทางเดียวกัน (I like cats and dogs.)",
+      "but = ข้อมูลที่ขัดกัน ตรงข้ามกัน (He is small but strong.)",
+      "or = ให้เลือก หรือใช้ในประโยคปฏิเสธ (Tea or coffee? / I don't eat meat or fish.)",
+      "because = บอกเหตุผล ตอบคำถาม Why (I'm happy because it's Friday.)",
+      "so = บอกผลที่ตามมา (It's raining, so we are staying at home.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"เพราะ… ก็เลย…\" ได้ในประโยคเดียว แต่ภาษาอังกฤษใช้ because กับ so คู่กันไม่ได้ (Because it's hot, so … ผิด) ให้เลือกใช้แค่คำเดียว และในการเขียน because ต้องอยู่ในประโยคเดียวกับผลเสมอ"
+  },
+  "structure": {
+    "formula": "ประโยค 1 + and / but / or / because / so + ประโยค 2",
+    "rows": [
+      { "label": "and (และ)", "formula": "A and B", "example": "I like apples [[and]] bananas." },
+      { "label": "but (แต่)", "formula": "A, but B (ขัดกัน)", "example": "He can sing, [[but]] he can't dance." },
+      { "label": "or (หรือ)", "formula": "A or B? · don't … A or B", "example": "Do you want tea [[or]] coffee?" },
+      { "label": "because (เพราะ)", "formula": "ผล + because + เหตุ", "example": "I'm tired [[because]] I work a lot." },
+      { "label": "so (ดังนั้น)", "formula": "เหตุ, so + ผล", "example": "I'm hungry, [[so]] I'm making a sandwich." }
+    ],
+    "notes": [
+      "because ตามด้วย \"เหตุ\" · so ตามด้วย \"ผล\" — ใช้แค่คำเดียวในประโยคเดียว",
+      "Because … วางต้นประโยคได้ แต่ต้องมีผลในประโยคเดียวกัน: Because it's late, I'm going home.",
+      "ในประโยคปฏิเสธใช้ or: I don't like milk or juice.",
+      "มักใส่เครื่องหมายจุลภาค (,) หน้า so และหน้า but เมื่อเชื่อมสองประโยคยาว ๆ"
+    ]
+  },
+  "examples": [
+    { "en": "I like apples [[and]] bananas.", "th": "ฉันชอบแอปเปิลและกล้วย" },
+    { "en": "She is small [[but]] strong.", "th": "เธอตัวเล็กแต่แข็งแรง" },
+    { "en": "Do you want tea [[or]] coffee?", "th": "คุณอยากได้ชาหรือกาแฟ" },
+    { "en": "I'm hungry, [[so]] I'm making a sandwich.", "th": "ฉันหิว ก็เลยกำลังทำแซนด์วิช" },
+    { "en": "I'm happy [[because]] it's Friday.", "th": "ฉันมีความสุขเพราะวันนี้วันศุกร์" },
+    { "en": "He can sing, [[but]] he can't dance.", "th": "เขาร้องเพลงได้ แต่เต้นไม่เป็น" },
+    { "en": "We play games [[and]] watch films on Sundays.", "th": "วันอาทิตย์พวกเราเล่นเกมและดูหนัง" },
+    { "en": "I don't eat meat [[or]] fish.", "th": "ฉันไม่กินทั้งเนื้อสัตว์และปลา" },
+    { "en": "It's raining, [[so]] we are staying at home.", "th": "ฝนตก พวกเราก็เลยอยู่บ้าน" }
+  ],
+  "mistakes": [
+    { "wrong": "Because it is hot, so I open the window.", "right": "It is hot, so I open the window.", "whyTh": "ใช้ because กับ so คู่กันไม่ได้ เลือกคำเดียว: It is hot, so … หรือ I open the window because it is hot." },
+    { "wrong": "I'm sad. Because my dog is sick.", "right": "I'm sad because my dog is sick.", "whyTh": "ในการเขียน because … ต้องอยู่ในประโยคเดียวกับผล ไม่แยกเป็นประโยคโดด ๆ" },
+    { "wrong": "Do you want juice and water? (ให้เลือกหนึ่งอย่าง)", "right": "Do you want juice or water?", "whyTh": "ถามให้เลือกอย่างใดอย่างหนึ่งใช้ or — and แปลว่าเอาทั้งสองอย่าง" },
+    { "wrong": "It is cold, because I am wearing a coat.", "right": "It is cold, so I am wearing a coat.", "whyTh": "\"ใส่เสื้อโค้ต\" เป็นผลของ \"อากาศหนาว\" จึงใช้ so — because ต้องตามด้วยเหตุ" }
+  ],
+  "compare": {
+    "title": "because vs so",
+    "with": [],
+    "rows": [
+      { "label": "ตามด้วย", "a": "เหตุ (ทำไม)", "b": "ผล (เลยเกิดอะไร)" },
+      { "label": "ความหมาย", "a": "เพราะ", "b": "ดังนั้น / ก็เลย" },
+      { "label": "ตัวอย่าง", "a": "I'm staying home because it's raining.", "b": "It's raining, so I'm staying home." }
+    ],
+    "tipTh": "เหตุ + so + ผล · ผล + because + เหตุ — ประโยคเดียวใช้แค่คำเดียว ห้ามใช้ทั้ง because และ so"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Choosing lunch",
+      "lines": [
+        { "speaker": "Nam", "text": "Do you want fried rice [[or]] noodles?" },
+        { "speaker": "Jo", "text": "Noodles, please. I don't want rice [[because]] I always eat rice for breakfast." },
+        { "speaker": "Nam", "text": "OK. The noodle shop is busy, [[but]] it's fast." },
+        { "speaker": "Jo", "text": "Great! I'm very hungry, [[so]] let's go now." }
+      ]
+    },
+    {
+      "kind": "story", "title": "Ploy's coffee shop",
+      "lines": [
+        { "text": "Ploy has a little shop. She sells coffee [[and]] cake. The shop is small, [[but]] it is very popular. Ploy gets up at 5 a.m. [[because]] she bakes fresh cake every morning. She is often tired, [[so]] she drinks a lot of coffee!" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Conjunction", "th": "คำเชื่อม ใช้ต่อคำหรือประโยค" },
+    { "en": "Reason", "th": "เหตุผล — ตามหลัง because" },
+    { "en": "Result", "th": "ผลที่ตามมา — ตามหลัง so" },
+    { "en": "Contrast", "th": "การขัดกัน / ตรงข้ามกัน — ใช้ but" }
+  ],
+  "practice": [
+    {
+      "id": "a1-conjunctions-01", "type": "mc", "difficulty": 1,
+      "question": "I have a cat ___ a dog. I love them both.",
+      "choices": ["and", "but", "or", "so"], "answer": 0,
+      "whyNot": { "1": "but ใช้กับข้อมูลที่ขัดกัน แต่การมีแมวกับสุนัขไม่ได้ขัดกัน", "2": "I love them both บอกว่ามีทั้งสองตัว จึงใช้ or (อย่างใดอย่างหนึ่ง) ไม่ได้", "3": "so ใช้บอกผล ไม่ใช้เชื่อมคำนามสองคำ" },
+      "explainTh": "มีทั้งสองอย่าง เพิ่มข้อมูลไปทางเดียวกัน → and",
+      "structure": "A and B", "example": "I have a cat and a dog."
+    },
+    {
+      "id": "a1-conjunctions-02", "type": "mc", "difficulty": 1,
+      "question": "Do you want rice ___ noodles? You can choose one.",
+      "choices": ["or", "and", "but", "so"], "answer": 0,
+      "whyNot": { "1": "and = เอาทั้งสองอย่าง แต่ You can choose one บอกว่าให้เลือกอย่างเดียว", "2": "but ใช้กับข้อมูลที่ขัดกัน ไม่ใช้ในการถามให้เลือก", "3": "so ใช้บอกผล ไม่ใช้เชื่อมตัวเลือก" },
+      "explainTh": "ให้เลือกอย่างใดอย่างหนึ่ง → or"
+    },
+    {
+      "id": "a1-conjunctions-03", "type": "mc", "difficulty": 2,
+      "question": "I'm very tired, ___ I'm going to bed now.",
+      "choices": ["so", "because", "but", "or"], "answer": 0,
+      "whyNot": { "1": "because ต้องตามด้วยเหตุ แต่ \"ไปนอน\" เป็นผลของความเหนื่อย", "2": "but ใช้กับข้อมูลที่ขัดกัน แต่เหนื่อยแล้วไปนอนไม่ได้ขัดกัน", "3": "or ใช้ให้เลือก ไม่ใช่บอกผล" },
+      "explainTh": "เหนื่อย (เหตุ) → ไปนอน (ผล) จึงใช้ so: เหตุ, so + ผล"
+    },
+    {
+      "id": "a1-conjunctions-04", "type": "fill", "difficulty": 1,
+      "question": "My brother is tall ___ I am short. (แต่)",
+      "accepted": ["but"],
+      "explainTh": "สูง กับ เตี้ย ตรงข้ามกัน → but (แต่)"
+    },
+    {
+      "id": "a1-conjunctions-05", "type": "fill", "difficulty": 2,
+      "question": "I can't go out ___ I have a lot of homework. (เพราะ)",
+      "accepted": ["because"],
+      "explainTh": "การบ้านเยอะ เป็นเหตุผลที่ออกไปไม่ได้ → ผล + because + เหตุ"
+    },
+    {
+      "id": "a1-conjunctions-06", "type": "fill", "difficulty": 2,
+      "question": "It's very hot today, ___ let's go swimming! (ดังนั้น / ก็เลย)",
+      "accepted": ["so"],
+      "explainTh": "อากาศร้อน (เหตุ) → ไปว่ายน้ำ (ผล) → เหตุ, so + ผล"
+    },
+    {
+      "id": "a1-conjunctions-07", "type": "error", "difficulty": 2,
+      "sentence": "Because it is raining, so we can't play outside.",
+      "errorPart": "so",
+      "accepted": ["Because it is raining, we can't play outside.", "Because it is raining we can't play outside.", "It is raining, so we can't play outside.", "It is raining so we can't play outside.", "We can't play outside because it is raining."],
+      "explainTh": "ใช้ because กับ so ในประโยคเดียวกันไม่ได้ — ตัด so ออก (Because it is raining, we …) หรือใช้แค่ so (It is raining, so we …)"
+    },
+    {
+      "id": "a1-conjunctions-08", "type": "error", "difficulty": 3,
+      "sentence": "It is cold, because I am wearing a coat.",
+      "errorPart": "because",
+      "accepted": ["It is cold, so I am wearing a coat.", "It is cold so I am wearing a coat.", "I am wearing a coat because it is cold."],
+      "explainTh": "\"ใส่เสื้อโค้ต\" เป็นผลของ \"อากาศหนาว\" ไม่ใช่เหตุ → ใช้ so (เหตุ, so + ผล)"
+    },
+    {
+      "id": "a1-conjunctions-09", "type": "error", "difficulty": 2,
+      "sentence": "She is sad. Because her cat is sick.",
+      "errorPart": ". Because",
+      "accepted": ["She is sad because her cat is sick.", "Because her cat is sick, she is sad.", "Her cat is sick, so she is sad."],
+      "explainTh": "ในการเขียน because + เหตุ ต้องอยู่ในประโยคเดียวกับผล ไม่แยกเป็นประโยคโดด ๆ → She is sad because her cat is sick."
+    },
+    {
+      "id": "a1-conjunctions-10", "type": "order", "difficulty": 1,
+      "tokens": ["tea", "or", "you", "do", "want", "coffee"],
+      "accepted": ["Do you want tea or coffee?", "Do you want coffee or tea?"],
+      "explainTh": "ถามให้เลือก: Do you want A or B? → Do you want tea or coffee?"
+    },
+    {
+      "id": "a1-conjunctions-11", "type": "order", "difficulty": 2,
+      "tokens": ["I", "happy", "am", "because", "it", "Friday", "is"],
+      "accepted": ["I am happy because it is Friday.", "Because it is Friday I am happy."],
+      "explainTh": "ผล + because + เหตุ → I am happy because it is Friday."
+    },
+    {
+      "id": "a1-conjunctions-12", "type": "transform", "difficulty": 2,
+      "source": "I like English. I don't like maths.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย but",
+      "accepted": ["I like English, but I don't like maths.", "I like English but I don't like maths.", "I like English, but not maths.", "I like English but not maths."],
+      "explainTh": "ชอบ กับ ไม่ชอบ ขัดกัน → เชื่อมด้วย but: I like English, but I don't like maths."
+    },
+    {
+      "id": "a1-conjunctions-13", "type": "transform", "difficulty": 3,
+      "source": "Tom is sick. He is at home today.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย so",
+      "accepted": ["Tom is sick, so he is at home today.", "Tom is sick so he is at home today."],
+      "explainTh": "ป่วย (เหตุ) → อยู่บ้าน (ผล) → เหตุ, so + ผล"
+    },
+    {
+      "id": "a1-conjunctions-14", "type": "transform", "difficulty": 3,
+      "source": "The shop is closed. It is a holiday.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย because",
+      "accepted": ["The shop is closed because it is a holiday.", "Because it is a holiday, the shop is closed.", "Because it is a holiday the shop is closed."],
+      "explainTh": "วันหยุดเป็นเหตุผลที่ร้านปิด → ผล + because + เหตุ: The shop is closed because it is a holiday."
+    },
+    {
+      "id": "a1-conjunctions-15", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ประโยคให้สมบูรณ์",
+      "pairs": [["I'm cold,", "so I'm wearing a jacket."], ["I can swim,", "but I can't dive."], ["Is it a boy", "or a girl?"], ["She is smiling", "because she is happy."], ["I have a pen", "and a notebook."]],
+      "explainTh": "so = ผล · but = ขัดกัน · or = ให้เลือก · because = เหตุผล · and = เพิ่มข้อมูล"
+    },
+    {
+      "id": "a1-conjunctions-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Why are you smiling?" },
+        { "speaker": "B", "text": "___ I have a new puppy!" }
+      ] },
+      "choices": ["Because", "So", "But", "And"], "answer": 0,
+      "whyNot": { "1": "So บอกผล แต่คำถาม Why ต้องตอบด้วยเหตุผล", "2": "But ใช้กับข้อมูลที่ขัดกัน ไม่ใช่ตอบคำถาม Why", "3": "And เพิ่มข้อมูล ไม่ได้บอกเหตุผล" },
+      "explainTh": "ตอบคำถาม Why ด้วย Because + เหตุผล (ในบทสนทนาตอบสั้น ๆ ด้วย Because … ได้)"
+    },
+    {
+      "id": "a1-conjunctions-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "story", "title": "Ploy's coffee shop", "lines": [
+        { "text": "Ploy has a little shop. She sells coffee and cake. The shop is small, but it is very popular. Ploy gets up at 5 a.m. because she bakes fresh cake every morning. She is often tired, so she drinks a lot of coffee!" }
+      ] },
+      "question": "Why does Ploy get up at 5 a.m.?",
+      "choices": ["Because she bakes fresh cake every morning.", "Because she is often tired.", "Because her shop is small.", "Because she drinks a lot of coffee."], "answer": 0,
+      "whyNot": { "1": "ความเหนื่อยเป็นเหตุให้เธอดื่มกาแฟเยอะ (… tired, so she drinks …) ไม่ใช่เหตุที่ตื่นเช้า", "2": "ร้านเล็กเชื่อมกับ but it is very popular ไม่เกี่ยวกับการตื่นเช้า", "3": "ดื่มกาแฟเยอะเป็นผล (หลัง so) ไม่ใช่เหตุที่ตื่นเช้า" },
+      "explainTh": "Ploy gets up at 5 a.m. because she bakes fresh cake … — เหตุผลอยู่หลัง because"
+    },
+    {
+      "id": "a1-conjunctions-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับตัวคุณ ใช้ and, but, or, because หรือ so (Write 3 sentences about yourself with and, but, or, because or so.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(because|so)\\b", "flags": "i", "msgTh": "ใช้ because หรือ so อย่างน้อย 1 ครั้ง เพื่อบอกเหตุหรือผล" },
+        { "re": "\\b(and|but|or)\\b", "flags": "i", "msgTh": "ใช้ and, but หรือ or อย่างน้อย 1 ครั้ง" }
+      ],
+      "forbid": [
+        { "re": "\\bbecause\\b[^.!?]*\\bso\\b", "flags": "i", "msgTh": "อย่าใช้ because กับ so ในประโยคเดียวกัน" }
+      ],
+      "sample": "I live in Bangkok with my parents and my sister. I like my school, but I don't like the long bus ride. I am learning English because I want to travel.",
+      "explainTh": "and = เพิ่มข้อมูล · but = ขัดกัน · because = เหตุผล · so = ผล — และห้ามใช้ because กับ so ในประโยคเดียวกัน"
+    }
+  ]
+}

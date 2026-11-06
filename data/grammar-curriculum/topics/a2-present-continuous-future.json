@@ -1,0 +1,497 @@
+{
+  "id": "a2-present-continuous-future",
+  "summaryTh": "ใช้ am/is/are + V-ing บอกนัดหมายในอนาคตที่ตกลงไว้แล้ว",
+  "concept": {
+    "what": "Present Continuous (am/is/are + V-ing) ไม่ได้ใช้แค่บอกว่า \"กำลังทำอยู่ตอนนี้\" แต่ยังใช้บอกนัดหมายหรือแผนในอนาคตที่ \"ตกลงไว้แล้ว\" เช่น จองตั๋วแล้ว นัดคนอื่นแล้ว มีวัน เวลา สถานที่ชัดเจน",
+    "when": [
+      "นัดหมายกับคนอื่นที่ตกลงกันแล้ว (I'm meeting Joe at the café at six.)",
+      "แผนที่จองหรือเตรียมไว้แล้ว เช่น ซื้อตั๋วแล้ว จองโต๊ะแล้ว (We're flying to Phuket on Saturday.)",
+      "มักมีคำบอกเวลาในอนาคตด้วย เช่น tonight, tomorrow, on Friday, next week — เพื่อไม่ให้สับสนกับ \"กำลังทำตอนนี้\""
+    ],
+    "why": "คนไทยมักใช้ will กับทุกเรื่องในอนาคต แต่เวลาเจ้าของภาษาเล่าตารางนัดของตัวเอง เขาใช้ Present Continuous เป็นหลัก ฟังเป็นธรรมชาติกว่า และบอกผู้ฟังว่าเรื่องนี้ \"ตกลงไว้แล้ว เปลี่ยนยาก\" — ถ้าพูดว่า I will meet … ผู้ฟังอาจคิดว่าเพิ่งตัดสินใจตอนนี้"
+  },
+  "structure": {
+    "formula": "Subject + am / is / are + V-ing + (เวลาในอนาคต)",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + am/is/are + V-ing + เวลาในอนาคต",
+        "example": "I [['m meeting]] my friends at the mall tonight."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + am not / isn't / aren't + V-ing",
+        "example": "We [[aren't going]] to school on Monday — it's a holiday."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "Am/Is/Are + Subject + V-ing …?",
+        "example": "[[Are]] you [[coming]] to my party on Saturday?"
+      },
+      {
+        "label": "คำถาม Wh-",
+        "formula": "Wh- + am/is/are + Subject + V-ing …?",
+        "example": "What [[are]] you [[doing]] this weekend?"
+      }
+    ],
+    "notes": [
+      "ใส่เวลาในอนาคต (tomorrow, on Friday, next week) เพื่อให้รู้ว่าพูดถึงอนาคต ไม่ใช่ตอนนี้",
+      "ใช้กับนัดหมายของคน ไม่ใช้กับการคาดเดาธรรมชาติ (ไม่พูดว่า It's raining tomorrow. ให้ใช้ It's going to rain / It will rain)",
+      "นัดหมายที่ตกลงแล้วจะใช้ be going to ก็ได้ ความหมายใกล้เคียงกัน แต่ Present Continuous เป็นธรรมชาติที่สุด",
+      "ตารางเวลาของรถไฟ เครื่องบิน หนัง เรียน ใช้ Present Simple (The film starts at 8.)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I [['m seeing]] the dentist at 3 p.m. tomorrow.",
+      "th": "พรุ่งนี้บ่ายสามฉันมีนัดหมอฟัน"
+    },
+    {
+      "en": "We [['re having]] a party on Saturday. Can you come?",
+      "th": "วันเสาร์เราจะจัดปาร์ตี้ มาได้ไหม"
+    },
+    {
+      "en": "My parents [[are flying]] to Japan next Monday. They've got their tickets.",
+      "th": "วันจันทร์หน้าพ่อแม่จะบินไปญี่ปุ่น ได้ตั๋วแล้ว"
+    },
+    {
+      "en": "Sorry, I can't. I [['m working]] late tonight.",
+      "th": "ขอโทษนะ ไม่ได้ คืนนี้ฉันต้องทำงานดึก"
+    },
+    {
+      "en": "What [[are]] you [[doing]] this weekend?",
+      "th": "สุดสัปดาห์นี้เธอมีแผนทำอะไร"
+    },
+    {
+      "en": "[[Is]] Ken [[playing]] in the football match on Friday?",
+      "th": "วันศุกร์เคนจะลงเล่นฟุตบอลนัดนั้นไหม"
+    },
+    {
+      "en": "I [['m not going]] to the concert. I couldn't get a ticket.",
+      "th": "ฉันจะไม่ไปคอนเสิร์ตแล้ว ซื้อตั๋วไม่ได้"
+    },
+    {
+      "en": "Our class [[is visiting]] the science museum next Thursday.",
+      "th": "พฤหัสหน้าห้องเราจะไปทัศนศึกษาพิพิธภัณฑ์วิทยาศาสตร์"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I will see the dentist at 3 p.m. tomorrow. I made the appointment last week.",
+      "right": "I'm seeing the dentist at 3 p.m. tomorrow. I made the appointment last week.",
+      "whyTh": "นัดหมายที่จองไว้แล้ว เจ้าของภาษานิยมใช้ Present Continuous มากกว่า will (will ฟังเหมือนเพิ่งตัดสินใจตอนพูด)"
+    },
+    {
+      "wrong": "I meeting Tom at the cinema tonight.",
+      "right": "I'm meeting Tom at the cinema tonight.",
+      "whyTh": "ต้องมี am / is / are หน้า V-ing เสมอ ภาษาไทยไม่มีคำแบบนี้จึงลืมบ่อย"
+    },
+    {
+      "wrong": "We are leave for Phuket tomorrow morning.",
+      "right": "We are leaving for Phuket tomorrow morning.",
+      "whyTh": "หลัง am / is / are ต้องใช้กริยาเติม -ing"
+    },
+    {
+      "wrong": "It's raining tomorrow, so the picnic is cancelled.",
+      "right": "It's going to rain tomorrow, so the picnic is cancelled.",
+      "whyTh": "Present Continuous สำหรับอนาคตใช้กับนัดหมายของคน ไม่ใช้คาดเดาสภาพอากาศ"
+    },
+    {
+      "wrong": "Are you come to my party on Friday?",
+      "right": "Are you coming to my party on Friday?",
+      "whyTh": "คำถาม Present Continuous: Are + Subject + V-ing ไม่ใช่ V1"
+    }
+  ],
+  "compare": {
+    "title": "Present Continuous (นัดหมาย) vs will vs be going to",
+    "with": [
+      "a2-future-will",
+      "a2-going-to"
+    ],
+    "rows": [
+      {
+        "label": "ใช้เมื่อ",
+        "a": "Present Continuous: นัดหมาย/แผนที่ตกลงกับคนอื่นแล้ว มีวัน เวลา สถานที่",
+        "b": "be going to: ความตั้งใจที่คิดไว้แล้ว (อาจยังไม่ได้จองหรือนัดใคร) · will: ตัดสินใจตอนพูด"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "I'm playing badminton with Joe at 5 tomorrow. (นัดกันแล้ว)",
+        "b": "I'm going to play more badminton this year. (ตั้งใจ) · OK, I'll play with you. (เพิ่งตัดสินใจ)"
+      },
+      {
+        "label": "การคาดเดา",
+        "a": "ไม่ใช้ (ไม่พูด It's raining tomorrow.)",
+        "b": "be going to: มีหลักฐาน · will: ความคิดเห็น"
+      },
+      {
+        "label": "นัดหมายที่จองแล้ว",
+        "a": "ธรรมชาติที่สุด (We're meeting at 6.)",
+        "b": "be going to ใช้ได้ (We're going to meet at 6.) · will ไม่นิยมใช้"
+      }
+    ],
+    "tipTh": "ถ้าจดลงปฏิทินได้ (มีวัน เวลา สถานที่ นัดกับใครแล้ว) ใช้ Present Continuous — ถ้าเป็นแค่ความตั้งใจใช้ be going to — ถ้าเพิ่งคิดตอนพูดใช้ will"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "Making plans",
+      "lines": [
+        {
+          "speaker": "Beam",
+          "text": "Do you want to see a film on Saturday?"
+        },
+        {
+          "speaker": "Kate",
+          "text": "Sorry, I can't. I [['m visiting]] my grandmother in Ayutthaya. We [['re taking]] the early train."
+        },
+        {
+          "speaker": "Beam",
+          "text": "What about Sunday? What [[are]] you [[doing]] then?"
+        },
+        {
+          "speaker": "Kate",
+          "text": "Nothing! Sunday's fine. I'll check the film times tonight."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Next week's schedule",
+      "lines": [
+        {
+          "text": "Hi team, here is next week's plan. On Monday we [['re meeting]] the new clients at 10 a.m. On Wednesday, Somchai [[is giving]] a presentation to the managers. We [[aren't working]] on Friday because it's a public holiday. Thanks, Dao"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Present Continuous for future",
+      "th": "am/is/are + V-ing ที่ใช้บอกนัดหมายในอนาคต"
+    },
+    {
+      "en": "Arrangement",
+      "th": "นัดหมาย/แผนที่ตกลงกับคนอื่นหรือจองไว้แล้ว"
+    },
+    {
+      "en": "Future time expression",
+      "th": "คำบอกเวลาในอนาคต เช่น tonight, tomorrow, next week"
+    },
+    {
+      "en": "Timetable (Present Simple)",
+      "th": "ตารางเวลาที่กำหนดไว้ เช่น รถไฟออก หนังเริ่ม — ใช้ Present Simple"
+    }
+  ],
+  "practice": [
+    {
+      "id": "a2-present-continuous-future-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I ___ the dentist at 3 p.m. tomorrow. I made the appointment last week.",
+      "choices": [
+        "am seeing",
+        "will seeing",
+        "saw",
+        "am see"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง will ใช้ V1 (will see) ไม่ใช่ V-ing — และนัดหมายที่จองแล้วไม่นิยมใช้ will",
+        "2": "saw เป็นอดีต แต่นัดคือพรุ่งนี้",
+        "3": "หลัง am ต้องใช้ V-ing (seeing)"
+      },
+      "explainTh": "นัดหมอที่จองไว้แล้ว มีเวลาชัด (3 p.m. tomorrow) → Present Continuous: I am seeing the dentist …",
+      "structure": "Subject + am + V-ing + เวลาในอนาคต",
+      "example": "I'm seeing the dentist at 3 p.m. tomorrow."
+    },
+    {
+      "id": "a2-present-continuous-future-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "We ___ (have — ใช้ Present Continuous) a party on Saturday. We've already sent the invitations.",
+      "accepted": [
+        "are having",
+        "'re having"
+      ],
+      "explainTh": "ส่งการ์ดเชิญแล้ว = นัดหมายที่ตกลงแล้ว → Present Continuous: are having (ในชีวิตจริง are going to have ก็ใช้ได้ แต่ Present Continuous เป็นธรรมชาติที่สุดสำหรับนัดหมาย)",
+      "structure": "Subject + are + V-ing",
+      "example": "We're having a party on Saturday."
+    },
+    {
+      "id": "a2-present-continuous-future-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "My parents ___ (fly — ใช้ Present Continuous) to Japan next Monday. They booked the tickets yesterday.",
+      "accepted": [
+        "are flying",
+        "'re flying"
+      ],
+      "explainTh": "จองตั๋วแล้ว + next Monday = นัดหมายในอนาคต → are + V-ing → are flying",
+      "structure": "Subject + are + V-ing",
+      "example": "My parents are flying to Japan next Monday."
+    },
+    {
+      "id": "a2-present-continuous-future-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I ___ (not / work — ใช้ Present Continuous) this Saturday. My boss gave me the day off.",
+      "accepted": [
+        "am not working",
+        "'m not working"
+      ],
+      "explainTh": "แผนที่ตกลงกับเจ้านายแล้ว (ปฏิเสธ) → am not + V-ing → I'm not working this Saturday.",
+      "structure": "Subject + am not + V-ing",
+      "example": "I'm not working this Saturday."
+    },
+    {
+      "id": "a2-present-continuous-future-05",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "is",
+        "she",
+        "getting",
+        "married",
+        "in",
+        "June"
+      ],
+      "accepted": [
+        "She is getting married in June.",
+        "In June she is getting married.",
+        "In June, she is getting married.",
+        "Is she getting married in June?"
+      ],
+      "explainTh": "Subject + is + V-ing + เวลาในอนาคต → She is getting married in June. (งานแต่งเป็นนัดหมายที่กำหนดไว้แล้ว)"
+    },
+    {
+      "id": "a2-present-continuous-future-06",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "are",
+        "what",
+        "doing",
+        "you",
+        "this",
+        "weekend"
+      ],
+      "accepted": [
+        "What are you doing this weekend?"
+      ],
+      "explainTh": "ถามนัดหมาย/แผน: What + are + you + doing + เวลาในอนาคต? → What are you doing this weekend?"
+    },
+    {
+      "id": "a2-present-continuous-future-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I meeting Tom at the cinema at seven tonight.",
+      "errorPart": "I meeting",
+      "accepted": [
+        "I am meeting Tom at the cinema at seven tonight.",
+        "I am going to meet Tom at the cinema at seven tonight."
+      ],
+      "explainTh": "ขาด am — Present Continuous ต้องมี am / is / are + V-ing → I am (I'm) meeting Tom …",
+      "structure": "I + am + V-ing"
+    },
+    {
+      "id": "a2-present-continuous-future-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "We are leave for Phuket tomorrow morning.",
+      "errorPart": "leave",
+      "accepted": [
+        "We are leaving for Phuket tomorrow morning.",
+        "We are going to leave for Phuket tomorrow morning."
+      ],
+      "explainTh": "หลัง are ต้องใช้ V-ing → are leaving (หรือ are going to leave)",
+      "structure": "Subject + are + V-ing"
+    },
+    {
+      "id": "a2-present-continuous-future-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Are you come to my birthday party on Friday?",
+      "errorPart": "come",
+      "accepted": [
+        "Are you coming to my birthday party on Friday?",
+        "Are you going to come to my birthday party on Friday?"
+      ],
+      "explainTh": "คำถาม Present Continuous: Are + Subject + V-ing …? → Are you coming …? (Are you come ผิดเพราะหลัง are ใช้ V1 ไม่ได้)",
+      "structure": "Are + Subject + V-ing …?"
+    },
+    {
+      "id": "a2-present-continuous-future-10",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I'm going to meet my teacher at 10 a.m. tomorrow.",
+      "instruction": "เขียนใหม่ด้วย Present Continuous (นัดหมายที่ตกลงกันแล้ว)",
+      "accepted": [
+        "I'm meeting my teacher at 10 a.m. tomorrow.",
+        "I am meeting my teacher at 10 a.m. tomorrow.",
+        "I am meeting my teacher at 10 am tomorrow.",
+        "I am meeting my teacher at 10am tomorrow.",
+        "I am meeting my teacher at 10 a.m tomorrow.",
+        "I am meeting my teacher tomorrow at 10 a.m.",
+        "I am meeting my teacher tomorrow at 10 am.",
+        "Tomorrow I am meeting my teacher at 10 a.m.",
+        "Tomorrow I am meeting my teacher at 10 am."
+      ],
+      "explainTh": "เปลี่ยน am going to meet → am meeting (am + V-ing) ความหมายคือนัดหมายที่ตกลงไว้แล้ว"
+    },
+    {
+      "id": "a2-present-continuous-future-11",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "Ken is playing football after school today.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": [
+        "Is Ken playing football after school today?"
+      ],
+      "explainTh": "คำถาม: ย้าย is ไปไว้หน้าประธาน → Is Ken playing football after school today?"
+    },
+    {
+      "id": "a2-present-continuous-future-12",
+      "type": "match",
+      "difficulty": 3,
+      "prompt": "จับคู่ประโยคกับเหตุผลที่ใช้รูปนั้น",
+      "pairs": [
+        [
+          "I'm meeting Anna at six. We booked a table.",
+          "นัดหมายที่ตกลงแล้ว (Present Continuous)"
+        ],
+        [
+          "You look thirsty. I'll get you some water.",
+          "ตัดสินใจตอนพูด (will)"
+        ],
+        [
+          "Look at those clouds! It's going to rain.",
+          "คาดเดาจากหลักฐานที่เห็น (be going to)"
+        ],
+        [
+          "I think robots will teach in schools one day.",
+          "คาดเดาจากความคิดเห็น (will)"
+        ],
+        [
+          "The film starts at 8 p.m.",
+          "ตารางเวลา (Present Simple)"
+        ]
+      ],
+      "explainTh": "นัดหมายที่จองแล้ว → Present Continuous · เพิ่งตัดสินใจ → will · เห็นหลักฐาน → be going to · ความคิดเห็น (I think) → will · ตารางเวลา → Present Simple"
+    },
+    {
+      "id": "a2-present-continuous-future-13",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Are you free on Saturday evening?"
+          },
+          {
+            "speaker": "B",
+            "text": "Sorry, I'm not. I ___ dinner with my grandparents. We booked a table at a restaurant."
+          }
+        ]
+      },
+      "choices": [
+        "am having",
+        "will have",
+        "am have",
+        "had"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "will ใช้กับการตัดสินใจตอนพูด แต่ B จองโต๊ะไว้แล้ว เป็นนัดหมายที่ตกลงกันก่อน",
+        "2": "หลัง am ต้องใช้ V-ing (having)",
+        "3": "had เป็นอดีต แต่นัดคือเย็นวันเสาร์ที่จะถึง"
+      },
+      "explainTh": "จองโต๊ะแล้ว = นัดหมายที่ตกลงไว้ → Present Continuous: I'm having dinner with my grandparents."
+    },
+    {
+      "id": "a2-present-continuous-future-14",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "A busy week",
+        "lines": [
+          {
+            "text": "Hi Anna, next week is very busy! On Monday I'm starting my new part-time job at the bookshop. On Wednesday evening I'm having dinner with my cousins — we've booked a table at a Thai restaurant. On Saturday morning I'm flying to Phuket with my family. Love, Bee"
+          }
+        ]
+      },
+      "question": "What is Bee doing on Wednesday evening?",
+      "choices": [
+        "Starting a new job.",
+        "Having dinner with her cousins.",
+        "Flying to Phuket.",
+        "Booking a table."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "เริ่มงานใหม่คือวันจันทร์ (On Monday I'm starting …)",
+        "2": "บินไปภูเก็ตคือเช้าวันเสาร์",
+        "3": "Bee จองโต๊ะไปแล้ว (we've booked) ไม่ใช่สิ่งที่จะทำวันพุธ"
+      },
+      "explainTh": "\"On Wednesday evening I'm having dinner with my cousins\" — Present Continuous บอกนัดหมายในวันพุธตอนเย็น"
+    },
+    {
+      "id": "a2-present-continuous-future-15",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "Your friend asks: \"Can you play badminton on Friday afternoon?\" You booked a doctor's appointment for that time last week. Choose the best answer.",
+      "choices": [
+        "Sorry, I'm seeing the doctor on Friday afternoon.",
+        "Sorry, I'll see the doctor on Friday afternoon.",
+        "Sorry, I saw the doctor on Friday afternoon.",
+        "Sorry, I seeing the doctor on Friday afternoon."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I'll see ฟังเหมือนเพิ่งตัดสินใจตอนพูด แต่จริง ๆ จองนัดไว้ตั้งแต่สัปดาห์ที่แล้ว",
+        "2": "saw เป็นอดีต แต่นัดหมอคือวันศุกร์ที่จะถึง",
+        "3": "ขาด am — ต้องเป็น I'm seeing"
+      },
+      "explainTh": "นัดหมอที่จองไว้แล้ว → Present Continuous: I'm seeing the doctor on Friday afternoon."
+    },
+    {
+      "id": "a2-present-continuous-future-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Sorry, I can't come at six. I ___ my aunt at the airport — her flight lands at half past five.",
+      "choices": [
+        "am meeting",
+        "will meet",
+        "meet",
+        "met"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "will meet ฟังเหมือนเพิ่งตัดสินใจตอนพูด แต่การไปรับป้าเป็นนัดที่ตกลงไว้ก่อนแล้ว จึงเป็นเหตุผลที่มาไม่ได้",
+        "2": "meet (ปัจจุบันธรรมดา) ใช้กับนิสัยหรือตารางเวลา ไม่ใช่นัดหมายส่วนตัว",
+        "3": "met เป็นอดีต แต่การไปรับยังไม่เกิด"
+      },
+      "explainTh": "ปฏิเสธคำชวนเพราะมีนัดที่ตกลงไว้แล้ว (ไปรับป้าที่สนามบิน) → Present Continuous: I'm meeting my aunt at the airport."
+    },
+    {
+      "id": "a2-present-continuous-future-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกนัดหมายของคุณในสัปดาห์หน้า ใช้ Present Continuous (Write 3 sentences about your arrangements for next week.)",
+      "minSentences": 3,
+      "expectTense": "future",
+      "checks": [
+        {
+          "re": "\\b(am|is|are|'m|'s|'re)\\s+(not\\s+)?\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "ใช้ am / is / are + V-ing อย่างน้อย 1 ครั้ง เช่น I'm meeting my friends on Friday."
+        }
+      ],
+      "sample": "On Monday I am meeting my English teacher after school. On Wednesday evening my family is having dinner at my aunt's house. On Saturday we are flying to Phuket.",
+      "explainTh": "นัดหมายที่ตกลงแล้วใช้ am / is / are + V-ing และใส่วันหรือเวลาในอนาคตให้ชัดเจน"
+    }
+  ]
+}

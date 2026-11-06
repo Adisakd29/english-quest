@@ -1,0 +1,380 @@
+{
+  "batch": "02",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0130",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I ___ a new phone with my birthday money' — 'got' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0131",
+      "severity": "minor",
+      "problem": "thai adds 'ข้าง ๆ' (beside), a different sense from meaningEN/example (how you travel / who made something); flagNote asked to resolve to this sense.",
+      "fix": {
+        "thai": "โดย (บอกวิธีเดินทางหรือผู้ทำ)",
+        "shortTH": "โดย",
+        "thaiChangeReason": "ตัด 'ข้าง ๆ' ออก เพราะเป็นอีกความหมายหนึ่ง ไม่ตรงกับคำนิยามและประโยคตัวอย่าง"
+      }
+    },
+    {
+      "id": "A1-S0145",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Rabbits love to eat ___' also fits grass/vegetables.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0148",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My dad still plays old ___ in his car' — 'songs' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0155",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The teacher drew a ___ of our test scores' — 'graph' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0159",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'We had fried ___ and rice' also fits fish/pork/egg.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0160",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'This film is not for young ___' — 'kids' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0162",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'You can ___ any colour you like' also fits pick/have/use.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0166",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Please keep the ___ clean and tidy' fits room/kitchen/house equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0167",
+      "severity": "minor",
+      "problem": "'Wash your hands so they are clean before you eat.' is clumsy and unnatural.",
+      "fix": {
+        "example": "Your hands must be clean before you eat.",
+        "form": "clean",
+        "exampleTH": "มือต้องสะอาดก่อนกินข้าว"
+      }
+    },
+    {
+      "id": "A1-S0173",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Mai joined the school football ___' — 'team' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0174",
+      "severity": "minor",
+      "problem": "Repeats the pattern of A1-S0105 ('Put on your boots; it's raining outside.'), and 'Put on your ___' also fits jacket/boots/hat, so gapOk is too optimistic.",
+      "fix": {
+        "example": "Wear a warm coat; it's very cold outside.",
+        "form": "coat",
+        "exampleTH": "ใส่เสื้อโค้ตอุ่น ๆ นะ ข้างนอกหนาวมาก",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0177",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I have a ___, so I can't go to school' also fits fever/cough/headache.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0184",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The puzzle is ___' — 'finished' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0186",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I do my homework on the ___' also fits laptop/phone.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0189",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My grandpa ___ green curry every Sunday' also fits makes/eats.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0190",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My mom's Thai ___ is the best!' — 'food' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0193",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The teacher ___ my spelling with a red pen' — 'checked' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0194",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The ___ of the trip is 3,000 baht' — 'price' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0197",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Which ___ would you most like to visit?' also fits city/place.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0198",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Nok is taking a cooking ___' — 'class' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0200",
+      "severity": "minor",
+      "problem": "Collocation 'brown cow' is not a real common combination.",
+      "fix": {
+        "collocations": [
+          "milk a cow",
+          "cow's milk",
+          "dairy cow"
+        ]
+      }
+    },
+    {
+      "id": "A1-S0202",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The students ___ a video about their town' — 'made' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0203",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'learn about Thai ___' also fits food/history.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0205",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The shop was full of ___ on Saturday' — 'people' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0208",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Ploy taught us a new ___ for the school show' — 'song' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0209",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Everyone ___ at my cousin's wedding party' also fits sang/ate.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0210",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The ___ on stage wore red and gold' also fits singers/actors.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0211",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Thai ___ is slow and beautiful' — 'music' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0217",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ Nok, thank you for your kind letter' — 'Hi' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0219",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'We ___ to eat at home because it was raining' also fits wanted/chose/planned.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0220",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'This mango sticky rice is ___!' also fits good/sweet/yummy.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0221",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can you ___ the man you saw?' — 'draw' (or 'find') also fits.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0223",
+      "severity": "minor",
+      "problem": "'การออกแบบ' is the act of designing; in the example ('the design of your bag') the meaning is the look/pattern (แบบ), as exampleTH itself shows.",
+      "fix": {
+        "thai": "การออกแบบ, แบบ, ดีไซน์",
+        "shortTH": "การออกแบบ, แบบ",
+        "thaiChangeReason": "ประโยคตัวอย่างหมายถึงหน้าตาหรือแบบของสิ่งของ จึงเพิ่มคำว่า แบบ และ ดีไซน์"
+      }
+    },
+    {
+      "id": "A1-S0224",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My brother ___ websites for small shops' also fits makes/builds.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0225",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Put your books on your ___' — 'table' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0226",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Please send me the ___ of the party' also fits photos/address.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0227",
+      "severity": "minor",
+      "problem": "meaningEN says 'written in a book or film' (films are not written texts); and 'Read the ___ with your partner' also fits story/text/conversation, so gapOk is too optimistic.",
+      "fix": {
+        "meaningEN": "the words people say to each other in a story or film",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0230",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'A healthy ___ has lots of fruit and vegetables' — 'meal' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0236",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Let's ___ our class trip plans after lunch' also fits make/check/share.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0238",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I always ___ my homework before dinner' — 'finish' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0246",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'please come ___' also fits down/here/quickly.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0247",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My little sister ___ a cat on the wall' — 'painted' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0248",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Nok wore a long blue ___ to the party' — 'skirt' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0249",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Hurry up and get ___.' — 'ready' fits equally well (and is more common).",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

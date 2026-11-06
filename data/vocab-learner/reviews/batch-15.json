@@ -1,0 +1,102 @@
+{
+  "batch": "15",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0740",
+      "severity": "major",
+      "problem": "noteTH says the past forms are 'rang and rung'; rung is the past participle, not the past simple, so learners may write 'I rung you'.",
+      "fix": {
+        "noteTH": "ใช้มากในอังกฤษ ส่วน call ใช้ได้ทั่วไป กริยาผิดปกติ: ring – rang – rung"
+      }
+    },
+    {
+      "id": "A2-S0709",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can you suggest a good place to eat near here?' is equally correct and very common.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0714",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'cut' or 'lowered' fit the gap equally well ('cut the price by half').",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0775",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: after 'First,' the answer 'Second,' is equally correct (also 'Also').",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0755",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Unfortunately,' fits the gap equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0705",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'lately' fits 'Have you seen any good films ___?' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0726",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'A newspaper journalist wrote a story...' is equally correct.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0760",
+      "severity": "minor",
+      "problem": "exampleTH 'ตอนลดราคาครึ่งราคา' is redundant/awkward Thai.",
+      "fix": {
+        "exampleTH": "ฉันซื้อกางเกงยีนส์ตัวนี้ตอนร้านจัดลดราคา ได้มาในราคาครึ่งเดียว"
+      }
+    },
+    {
+      "id": "A2-S0699",
+      "severity": "minor",
+      "problem": "Collocation 'rather than' belongs to a different sense (instead of), not 'quite'.",
+      "fix": {
+        "collocations": [
+          "rather cold",
+          "rather good",
+          "rather expensive"
+        ]
+      }
+    },
+    {
+      "id": "A2-S0742",
+      "severity": "minor",
+      "problem": "Collocation 'hard as rock' is not idiomatic (it is 'as hard as a rock' / 'rock-hard').",
+      "fix": {
+        "collocations": [
+          "a big rock",
+          "sit on a rock",
+          "rock climbing"
+        ]
+      }
+    },
+    {
+      "id": "A2-S0750",
+      "severity": "minor",
+      "problem": "noteTH is ambiguous: reads as if only trash/garbage are uncountable; rubbish is uncountable too.",
+      "fix": {
+        "noteTH": "เป็นคำนามนับไม่ได้ ใช้ในอังกฤษ ส่วนอเมริกันใช้ trash หรือ garbage"
+      }
+    }
+  ]
+}

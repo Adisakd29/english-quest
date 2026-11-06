@@ -1,0 +1,24 @@
+{
+  "batch": "27",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0262",
+      "severity": "minor",
+      "problem": "Example repeats the same situation as B2-S0204 'deeply' (teacher's final speech before retiring), breaking the rule against repeated example patterns.",
+      "fix": {
+        "example": "Nok got emotional at her graduation and cried when she hugged her parents.",
+        "form": "emotional",
+        "exampleTH": "นกน้ำตาซึมในวันรับปริญญา และร้องไห้ตอนกอดพ่อแม่"
+      }
+    },
+    {
+      "id": "B2-S0306",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The parrot's bright green ___ make it easy to spot' also fits 'wings'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

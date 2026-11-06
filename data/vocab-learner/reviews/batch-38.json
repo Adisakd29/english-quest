@@ -1,0 +1,42 @@
+{
+  "batch": "38",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0035",
+      "severity": "minor",
+      "problem": "exampleTH translates 'Admission' as 'การสอบเข้า' (entrance exam), which is not the meaning taught (being accepted/admitted)",
+      "fix": {
+        "exampleTH": "การได้รับเข้าเรียนคณะแพทยศาสตร์มีการแข่งขันสูงมาก แต่ละปีมีผู้สมัครหลายพันคน"
+      }
+    },
+    {
+      "id": "C1-S0074",
+      "severity": "minor",
+      "problem": "gapOk true is too optimistic: 'confidential' (and 'private') fit 'The survey is ___, so please answer honestly' almost equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0124",
+      "severity": "minor",
+      "problem": "Collocation 'not bat an eyelid' belongs to a different sense (blink/show no reaction), not hitting a ball",
+      "fix": {
+        "collocations": [
+          "bat first",
+          "go in to bat",
+          "bat second"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0042",
+      "severity": "minor",
+      "problem": "shortTH 'ความรักใคร่เอ็นดู' keeps the stiff 'รักใคร่' that thaiChangeReason says was removed, and does not match the thai field",
+      "fix": {
+        "shortTH": "ความรัก, ความเอ็นดู"
+      }
+    }
+  ]
+}

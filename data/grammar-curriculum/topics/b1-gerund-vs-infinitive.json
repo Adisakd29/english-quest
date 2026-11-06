@@ -1,0 +1,546 @@
+{
+  "id": "b1-gerund-vs-infinitive",
+  "summaryTh": "กริยาที่ตามด้วย -ing หรือ to + V1 แล้วความหมายเปลี่ยน: remember, forget, stop, try, regret",
+  "concept": {
+    "what": "กริยาบางตัวตามด้วยได้ทั้ง V-ing (gerund) และ to + V1 (infinitive) แต่ความหมายเปลี่ยนไปเลย เช่น remember doing = จำได้ว่าเคยทำ แต่ remember to do = จำได้ว่าต้องทำ (แล้วก็ทำ)",
+    "when": [
+      "remember / forget + V-ing = จำได้ / ลืมเรื่องที่ \"ทำไปแล้ว\" (ความทรงจำ) · remember / forget + to V1 = จำ / ลืม \"สิ่งที่ต้องทำ\"",
+      "stop + V-ing = เลิกทำ / หยุดทำสิ่งนั้น · stop + to V1 = หยุดสิ่งที่ทำอยู่ \"เพื่อไป\" ทำอีกอย่าง",
+      "try + V-ing = ลองทำดูว่าได้ผลไหม (ลองวิธี) · try + to V1 = พยายามทำสิ่งที่ยาก",
+      "regret + V-ing = เสียใจที่ทำไปแล้ว · regret + to V1 (tell / inform / say) = เสียใจที่ต้องแจ้งข่าวร้าย (ภาษาทางการ)",
+      "like / love / hate / prefer / start / begin / continue ตามด้วยได้ทั้งสองแบบ ความหมายแทบไม่เปลี่ยน (I love swimming. = I love to swim.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ลืมปิดไฟ\" กับ \"ลืมว่าปิดไฟไปแล้ว\" ด้วยคำต่างกัน แต่ภาษาอังกฤษใช้กริยาเดียวกันแล้วเปลี่ยนแค่ -ing / to ถ้าเลือกผิด ความหมายจะกลายเป็นอีกเรื่อง เช่น I stopped to smoke (หยุดเพื่อสูบบุหรี่) ไม่ใช่ I stopped smoking (เลิกบุหรี่)"
+  },
+  "structure": {
+    "formula": "Verb + V-ing (เรื่องที่ทำแล้ว / ทำอยู่) · Verb + to + V1 (เรื่องที่ต้องทำ / จุดประสงค์)",
+    "rows": [
+      {
+        "label": "remember + V-ing",
+        "formula": "remember + V-ing (จำได้ว่าเคยทำ)",
+        "example": "I [[remember meeting]] her at a wedding."
+      },
+      {
+        "label": "remember + to V1",
+        "formula": "remember + to + V1 (จำได้ว่าต้องทำ)",
+        "example": "[[Remember to lock]] the door when you leave."
+      },
+      {
+        "label": "stop + V-ing / to V1",
+        "formula": "stop + V-ing (เลิก) · stop + to V1 (หยุดเพื่อ)",
+        "example": "He [[stopped smoking]] last year. · We [[stopped to buy]] some water."
+      },
+      {
+        "label": "try + V-ing / to V1",
+        "formula": "try + V-ing (ลองวิธี) · try + to V1 (พยายาม)",
+        "example": "[[Try restarting]] your phone. · I [[tried to stay]] awake, but I fell asleep."
+      },
+      {
+        "label": "regret + V-ing / to V1",
+        "formula": "regret + V-ing (เสียใจที่ทำไปแล้ว) · regret + to tell/inform (เสียใจที่ต้องแจ้ง)",
+        "example": "I [[regret saying]] that. · We [[regret to inform]] you that the flight is cancelled."
+      }
+    ],
+    "notes": [
+      "หลักช่วยจำ: -ing มักมอง \"ย้อนไปข้างหลัง\" (เรื่องที่เกิดแล้ว) ส่วน to + V1 มอง \"ไปข้างหน้า\" (เรื่องที่ยังต้องทำ / จุดประสงค์)",
+      "forget + V-ing มักใช้ในรูป I'll never forget + V-ing (ไม่มีวันลืมเรื่องที่เคยเกิด)",
+      "ปฏิเสธ: วาง not ไว้หน้า V-ing หรือหน้า to → I regret not studying. / Try not to be late.",
+      "like / love / hate / start / begin / continue ใช้ได้ทั้ง -ing และ to + V1 โดยความหมายแทบไม่ต่างกัน"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Did you [[remember to feed]] the cat this morning?",
+      "th": "เช้านี้เธอจำได้ไหมว่าต้องให้อาหารแมว (แล้วให้หรือยัง)"
+    },
+    {
+      "en": "I [[remember feeding]] the cat, but I don't remember closing the window.",
+      "th": "ฉันจำได้ว่าให้อาหารแมวแล้ว แต่จำไม่ได้ว่าปิดหน้าต่างหรือยัง"
+    },
+    {
+      "en": "Oh no! I [[forgot to bring]] my passport!",
+      "th": "ตายแล้ว! ฉันลืมเอาพาสปอร์ตมา"
+    },
+    {
+      "en": "I'll never [[forget seeing]] snow for the first time in Japan.",
+      "th": "ฉันจะไม่มีวันลืมตอนที่ได้เห็นหิมะครั้งแรกที่ญี่ปุ่น"
+    },
+    {
+      "en": "My dad [[stopped drinking]] coffee because he couldn't sleep.",
+      "th": "พ่อเลิกดื่มกาแฟเพราะนอนไม่หลับ"
+    },
+    {
+      "en": "On the way to Khao Yai, we [[stopped to take]] photos of the mountains.",
+      "th": "ระหว่างทางไปเขาใหญ่ พวกเราจอดรถเพื่อถ่ายรูปภูเขา"
+    },
+    {
+      "en": "If you can't sleep, [[try drinking]] warm milk before bed.",
+      "th": "ถ้านอนไม่หลับ ลองดื่มนมอุ่น ๆ ก่อนนอนดูสิ"
+    },
+    {
+      "en": "I [[regret not saving]] more money when I was younger.",
+      "th": "ฉันเสียใจที่สมัยยังหนุ่มสาวไม่ได้เก็บเงินไว้ให้มากกว่านี้"
+    },
+    {
+      "en": "She [[loves dancing]] and she also [[loves to sing]].",
+      "th": "เธอชอบเต้นและชอบร้องเพลงด้วย (love ใช้ได้ทั้งสองแบบ)"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Please remember locking the door when you leave.",
+      "right": "Please remember to lock the door when you leave.",
+      "whyTh": "เป็นสิ่งที่ \"ต้องทำ\" ในอนาคต จึงใช้ remember + to V1 — remember locking แปลว่าจำได้ว่าล็อกไปแล้ว"
+    },
+    {
+      "wrong": "My grandfather stopped to smoke ten years ago. Now he's very healthy.",
+      "right": "My grandfather stopped smoking ten years ago. Now he's very healthy.",
+      "whyTh": "เลิกบุหรี่ = stop + V-ing · stopped to smoke แปลว่า \"หยุด (ทำอย่างอื่น) เพื่อสูบบุหรี่\" ความหมายตรงข้ามเลย"
+    },
+    {
+      "wrong": "I'll never forget to visit Paris with my family last year.",
+      "right": "I'll never forget visiting Paris with my family last year.",
+      "whyTh": "เป็นความทรงจำในอดีต (last year) → forget + V-ing · forget to visit = ลืมไปเที่ยว"
+    },
+    {
+      "wrong": "I regret to tell her my secret. Now everyone knows.",
+      "right": "I regret telling her my secret. Now everyone knows.",
+      "whyTh": "เสียใจกับสิ่งที่ทำไปแล้ว → regret + V-ing · regret to tell ใช้ตอนแจ้งข่าวร้ายแบบทางการ (We regret to tell you …)"
+    },
+    {
+      "wrong": "I tried hard opening the heavy door, but I couldn't.",
+      "right": "I tried hard to open the heavy door, but I couldn't.",
+      "whyTh": "พยายามทำสิ่งที่ยาก (tried hard) → try + to V1 · try + V-ing ใช้เมื่อ \"ลองวิธี\" ดูว่าได้ผลไหม"
+    }
+  ],
+  "compare": {
+    "title": "Verb + V-ing vs Verb + to V1 (ความหมายเปลี่ยน)",
+    "with": [
+      "a2-gerund",
+      "a2-infinitive"
+    ],
+    "rows": [
+      {
+        "label": "remember",
+        "a": "remember doing = จำได้ว่าเคยทำแล้ว",
+        "b": "remember to do = จำได้ว่าต้องทำ"
+      },
+      {
+        "label": "forget",
+        "a": "(never) forget doing = (ไม่) ลืมเรื่องที่เคยทำ",
+        "b": "forget to do = ลืมทำ"
+      },
+      {
+        "label": "stop",
+        "a": "stop doing = เลิก / หยุดทำสิ่งนั้น",
+        "b": "stop to do = หยุดเพื่อไปทำอีกอย่าง"
+      },
+      {
+        "label": "try",
+        "a": "try doing = ลองทำดู (ทดลองวิธี)",
+        "b": "try to do = พยายามทำ (ยาก)"
+      },
+      {
+        "label": "regret",
+        "a": "regret doing = เสียใจที่ทำไปแล้ว",
+        "b": "regret to tell/inform = เสียใจที่ต้องแจ้ง"
+      },
+      {
+        "label": "like / love / start",
+        "a": "I like swimming.",
+        "b": "I like to swim. (ความหมายแทบเหมือนกัน)"
+      }
+    ],
+    "tipTh": "-ing มองย้อนไปเรื่องที่เกิดแล้ว · to + V1 มองไปข้างหน้า (สิ่งที่ต้องทำ / จุดประสงค์) — ใช้หลักนี้กับ remember, forget, stop ได้เกือบทุกครั้ง"
+  },
+  "contexts": [
+    {
+      "kind": "announcement",
+      "title": "Train station announcement",
+      "lines": [
+        {
+          "text": "Good morning. We [[regret to inform]] passengers that the 10:15 train to Chiang Mai has been cancelled. Please [[remember to take]] all your belongings with you. If you need help, please [[try asking]] the staff at the information desk."
+        }
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "Leaving for the airport",
+      "lines": [
+        {
+          "speaker": "Mum",
+          "text": "Did you [[remember to pack]] your phone charger?"
+        },
+        {
+          "speaker": "Bank",
+          "text": "Yes, I [[remember putting]] it in my backpack last night."
+        },
+        {
+          "speaker": "Mum",
+          "text": "Good. Last time you [[forgot to bring]] it and we had to buy a new one."
+        },
+        {
+          "speaker": "Bank",
+          "text": "I know. Let's [[stop to get]] some coffee on the way, OK?"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Gerund (V-ing)",
+      "th": "กริยาเติม -ing ที่ทำหน้าที่คล้ายคำนาม เช่น swimming, reading"
+    },
+    {
+      "en": "To-infinitive",
+      "th": "to + กริยาช่องที่ 1 เช่น to go, to buy"
+    },
+    {
+      "en": "Verb pattern",
+      "th": "รูปแบบว่ากริยาตัวหนึ่งต้องตามด้วยอะไร (-ing หรือ to + V1)"
+    },
+    {
+      "en": "Purpose",
+      "th": "จุดประสงค์ — ทำเพื่ออะไร (stop to buy = หยุดเพื่อซื้อ)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-gerund-vs-infinitive-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Don't forget ___ the windows before you go out.",
+      "choices": [
+        "to close",
+        "closing",
+        "close",
+        "closed"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "forget + V-ing = ลืมเรื่องที่เคยทำไปแล้ว แต่ประโยคนี้พูดถึงสิ่งที่ต้องทำก่อนออกไป",
+        "2": "หลัง forget ต้องมี to หน้ากริยา หรือใช้ V-ing ไม่ใช้ V1 เปล่า ๆ",
+        "3": "closed เป็นช่องที่ 2/3 ใช้ตามหลัง forget ในความหมายนี้ไม่ได้"
+      },
+      "explainTh": "ปิดหน้าต่างเป็น \"สิ่งที่ต้องทำ\" (ยังไม่ได้ทำ) → forget + to V1 → Don't forget to close the windows.",
+      "structure": "forget + to + V1",
+      "example": "Don't forget to close the windows."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "My grandfather stopped ___ when he was sixty. Now he never smokes.",
+      "choices": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "for smoking"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "stop + to V1 = หยุดเพื่อไปสูบบุหรี่ ขัดกับ \"ตอนนี้ไม่สูบเลย\"",
+        "2": "หลัง stop ใช้ V1 เปล่า ๆ ไม่ได้",
+        "3": "stop for + V-ing ไม่ใช่โครงสร้างที่ถูก"
+      },
+      "explainTh": "Now he never smokes = เลิกแล้ว → stop + V-ing (เลิกทำสิ่งนั้น)",
+      "structure": "stop + V-ing",
+      "example": "He stopped smoking when he was sixty."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "Did you remember ___ (buy) milk on your way home? The fridge is empty.",
+      "accepted": [
+        "to buy"
+      ],
+      "explainTh": "ซื้อนมเป็นสิ่งที่ต้องทำ (และตู้เย็นยังว่าง) → remember + to V1 → to buy",
+      "structure": "remember + to + V1",
+      "example": "Did you remember to buy milk?"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I remember ___ (ride) a bike with my dad in the park when I was little.",
+      "accepted": [
+        "riding",
+        "having ridden"
+      ],
+      "explainTh": "เป็นความทรงจำตอนเด็ก (เรื่องที่เกิดไปแล้ว) → remember + V-ing → riding",
+      "structure": "remember + V-ing",
+      "example": "I remember riding a bike with my dad."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "We were driving to Khao Yai, so we stopped at a small restaurant ___ (have) lunch.",
+      "accepted": [
+        "to have"
+      ],
+      "explainTh": "จอดที่ร้าน \"เพื่อ\" กินข้าวกลางวัน (จุดประสงค์) → stop + to V1 → to have",
+      "structure": "stop + to + V1",
+      "example": "We stopped at a small restaurant to have lunch."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-06",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "I regret ___ (not / listen) to my teacher's advice. Now I have to take the exam again.",
+      "accepted": [
+        "not listening",
+        "not having listened"
+      ],
+      "explainTh": "เสียใจกับสิ่งที่ \"ไม่ได้ทำ\" ไปแล้ว → regret + not + V-ing → not listening (วาง not หน้า V-ing)",
+      "structure": "regret + not + V-ing",
+      "example": "I regret not listening to my teacher."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-07",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I love ___ (swim) in the sea when I'm on holiday.",
+      "accepted": [
+        "swimming",
+        "to swim"
+      ],
+      "explainTh": "love ตามด้วยได้ทั้ง V-ing และ to + V1 โดยความหมายแทบไม่ต่างกัน → swimming หรือ to swim ถูกทั้งคู่",
+      "structure": "love + V-ing / to + V1",
+      "example": "I love swimming. = I love to swim."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-08",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "My laptop won't start. — Have you tried ___ it off and on again?",
+      "choices": [
+        "turning",
+        "to turn",
+        "turn",
+        "turned"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "try + to V1 = พยายามทำสิ่งที่ยาก แต่การปิดเปิดเครื่องไม่ยาก ผู้พูดกำลังแนะนำให้ \"ลองวิธีนี้ดู\"",
+        "2": "หลัง try ใช้ V1 เปล่า ๆ ไม่ได้",
+        "3": "tried turned ผิดโครงสร้าง หลัง try ใช้ V-ing หรือ to + V1"
+      },
+      "explainTh": "แนะนำให้ลองวิธีแก้ปัญหาดูว่าได้ผลไหม → try + V-ing → Have you tried turning it off and on again?"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-09",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "I tried really hard ___ calm, but I was too angry.",
+      "choices": [
+        "to stay",
+        "staying",
+        "stay",
+        "stayed"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "try + V-ing = ลองวิธี แต่ประโยคนี้พูดถึงความพยายาม (really hard) ที่ไม่สำเร็จ",
+        "2": "หลัง try ต้องมี to หน้ากริยา หรือใช้ V-ing",
+        "3": "หลัง try ใช้ช่องที่ 2 ไม่ได้"
+      },
+      "explainTh": "tried really hard + but I was too angry = พยายามแต่ทำไม่ได้ → try + to V1 → to stay"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-10",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "I'll never forget to meet my favourite singer at the concert last year.",
+      "errorPart": "to meet",
+      "accepted": [
+        "I'll never forget meeting my favourite singer at the concert last year."
+      ],
+      "explainTh": "เป็นความทรงจำในอดีต (last year) → never forget + V-ing → meeting · forget to meet = ลืมไปพบ"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Please remember turning off the lights when you leave the room.",
+      "errorPart": "turning off",
+      "accepted": [
+        "Please remember to turn off the lights when you leave the room.",
+        "Please remember to turn the lights off when you leave the room."
+      ],
+      "explainTh": "เป็นสิ่งที่ต้องทำตอนออกจากห้อง (ยังไม่ได้ทำ) → remember + to V1 → to turn off"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I locked the door. I remember it clearly.",
+      "instruction": "รวมเป็นประโยคเดียว เริ่มด้วย I remember …",
+      "accepted": [
+        "I remember locking the door.",
+        "I clearly remember locking the door.",
+        "I remember locking the door clearly.",
+        "I remember having locked the door.",
+        "I remember clearly locking the door."
+      ],
+      "explainTh": "ล็อกประตูไปแล้ว (เรื่องที่เกิดแล้ว) → remember + V-ing → I remember locking the door."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-13",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "I",
+        "forgot",
+        "to",
+        "call",
+        "my",
+        "mum",
+        "yesterday"
+      ],
+      "accepted": [
+        "I forgot to call my mum yesterday.",
+        "Yesterday I forgot to call my mum."
+      ],
+      "explainTh": "ลืมทำสิ่งที่ต้องทำ → forget + to V1 → I forgot to call my mum yesterday."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-14",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่โครงสร้างกับความหมาย",
+      "pairs": [
+        [
+          "remember to do",
+          "จำได้ว่าต้องทำ (แล้วไปทำ)"
+        ],
+        [
+          "remember doing",
+          "จำได้ว่าเคยทำไปแล้ว"
+        ],
+        [
+          "stop to do",
+          "หยุดสิ่งที่ทำอยู่ เพื่อไปทำอีกอย่าง"
+        ],
+        [
+          "stop doing",
+          "เลิกทำ / หยุดทำสิ่งนั้น"
+        ],
+        [
+          "try doing",
+          "ลองทำดูว่าได้ผลไหม"
+        ],
+        [
+          "try to do",
+          "พยายามทำ (ซึ่งยาก)"
+        ]
+      ],
+      "explainTh": "-ing มองย้อนไปเรื่องที่ทำแล้ว / ลองวิธี · to + V1 มองไปข้างหน้า (สิ่งที่ต้องทำ จุดประสงค์ ความพยายาม)"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-15",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้องและสมเหตุสมผล",
+      "choices": [
+        "I regret to tell her my secret. Now everyone knows it.",
+        "I regret telling her my secret. Now everyone knows it.",
+        "I regret tell her my secret. Now everyone knows it.",
+        "I regret to telling her my secret. Now everyone knows it."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "regret to tell ใช้ตอนแจ้งข่าวร้ายแบบทางการ (We regret to tell you …) ไม่ใช่เสียใจกับสิ่งที่ทำไปแล้ว",
+        "2": "หลัง regret ใช้ V1 เปล่า ๆ ไม่ได้",
+        "3": "to telling ผิดโครงสร้าง ต้องเลือก V-ing หรือ to + V1 อย่างใดอย่างหนึ่ง"
+      },
+      "explainTh": "เล่าความลับไปแล้ว ตอนนี้ทุกคนรู้ = เสียใจกับสิ่งที่ทำไปแล้ว → regret + V-ing → regret telling"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-16",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Why are you so wet?"
+          },
+          {
+            "speaker": "B",
+            "text": "I forgot ___ an umbrella this morning, and it rained all afternoon."
+          }
+        ]
+      },
+      "choices": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "forget + V-ing = ลืมเรื่องที่เคยทำไปแล้ว แต่ B ไม่ได้เอาร่มไปเลย",
+        "2": "หลัง forget ใช้ V1 เปล่า ๆ ไม่ได้",
+        "3": "forgot took ผิดโครงสร้าง มีกริยาแท้สองตัวติดกัน"
+      },
+      "explainTh": "B ไม่ได้เอาร่มไป (ลืมทำสิ่งที่ควรทำ) → forget + to V1 → I forgot to take an umbrella."
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "announcement",
+        "title": "Train station announcement",
+        "lines": [
+          {
+            "text": "Good morning. We regret to inform passengers that the 10:15 train to Chiang Mai has been cancelled. Please remember to take all your belongings with you. If you need help, please try asking the staff at the information desk."
+          }
+        ]
+      },
+      "question": "What does \"We regret to inform passengers\" mean?",
+      "choices": [
+        "We are sorry that we have to give you this bad news.",
+        "We are sorry that we gave you wrong information before.",
+        "We remember telling you this news earlier.",
+        "We have stopped giving information to passengers."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ถ้าเสียใจกับสิ่งที่ทำไปแล้วจะใช้ regret + V-ing (regret giving …) แต่ประกาศใช้ regret to inform",
+        "2": "ประโยคไม่ได้ใช้ remember และไม่ได้พูดถึงการแจ้งก่อนหน้านี้",
+        "3": "ไม่มีคำว่า stop และประกาศกำลังให้ข้อมูลอยู่"
+      },
+      "explainTh": "regret + to inform / tell = เสียใจที่ต้องแจ้งข่าวร้าย (ภาษาทางการในประกาศ) → ขอโทษที่ต้องแจ้งว่ารถไฟถูกยกเลิก"
+    },
+    {
+      "id": "b1-gerund-vs-infinitive-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับตัวคุณ โดยใช้ remember + V-ing, forget + to V1 และ stop + V-ing หรือ stop + to V1 (Write 3 sentences about yourself using remember + -ing, forget to … and stop.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bremember(s|ed)?\\s+(not\\s+)?\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "ใช้ remember + V-ing อย่างน้อย 1 ครั้ง (เช่น I remember playing …)"
+        },
+        {
+          "re": "\\b(forget|forgets|forgot|forgotten)\\s+to\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ forget + to V1 อย่างน้อย 1 ครั้ง (เช่น I forgot to do …)"
+        },
+        {
+          "re": "\\bstop(s|ped|ping)?\\s+(to\\s+\\w+|\\w+ing\\b)",
+          "flags": "i",
+          "msgTh": "ใช้ stop + V-ing หรือ stop + to V1 อย่างน้อย 1 ครั้ง"
+        }
+      ],
+      "sample": "I remember playing in the rain with my cousins. Last week I forgot to do my English homework. My brother stopped drinking cola last year.",
+      "explainTh": "remember + V-ing = ความทรงจำ · forget + to V1 = ลืมทำ · stop + V-ing = เลิก / stop + to V1 = หยุดเพื่อไปทำ"
+    }
+  ]
+}

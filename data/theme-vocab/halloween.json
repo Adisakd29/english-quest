@@ -1,0 +1,350 @@
+{
+ "id": "halloween",
+ "version": 1,
+ "items": [
+  {
+   "id": "hw-01",
+   "word": "pumpkin",
+   "pos": "noun",
+   "th": "ฟักทอง",
+   "example": "We carve a big orange pumpkin every October.",
+   "exampleTH": "เราแกะสลักฟักทองสีส้มลูกใหญ่ทุกเดือนตุลาคม"
+  },
+  {
+   "id": "hw-02",
+   "word": "ghost",
+   "pos": "noun",
+   "th": "ผี",
+   "group": "character",
+   "example": "My little brother dressed as a friendly ghost.",
+   "exampleTH": "น้องชายของฉันแต่งตัวเป็นผีใจดี"
+  },
+  {
+   "id": "hw-03",
+   "word": "bat",
+   "pos": "noun",
+   "th": "ค้างคาว",
+   "group": "animal",
+   "example": "A bat flew out of the old barn at sunset.",
+   "exampleTH": "ค้างคาวตัวหนึ่งบินออกมาจากโรงนาเก่าตอนพระอาทิตย์ตก"
+  },
+  {
+   "id": "hw-04",
+   "word": "witch",
+   "pos": "noun",
+   "th": "แม่มด",
+   "group": "character",
+   "example": "The witch in the story has a tall black hat.",
+   "exampleTH": "แม่มดในนิทานสวมหมวกทรงสูงสีดำ"
+  },
+  {
+   "id": "hw-05",
+   "word": "wizard",
+   "pos": "noun",
+   "th": "พ่อมด",
+   "group": "character",
+   "example": "The wizard waved his hand, and the door opened.",
+   "exampleTH": "พ่อมดโบกมือ แล้วประตูก็เปิดออก"
+  },
+  {
+   "id": "hw-06",
+   "word": "costume",
+   "pos": "noun",
+   "th": "ชุดแต่งกาย, ชุดแฟนซี",
+   "group": "wear",
+   "example": "What costume are you wearing to the party?",
+   "exampleTH": "เธอจะใส่ชุดอะไรไปงานปาร์ตี้"
+  },
+  {
+   "id": "hw-07",
+   "word": "mask",
+   "pos": "noun",
+   "th": "หน้ากาก",
+   "group": "wear",
+   "example": "She wore a cat mask to the school event.",
+   "exampleTH": "เธอสวมหน้ากากแมวไปงานของโรงเรียน"
+  },
+  {
+   "id": "hw-08",
+   "word": "candy",
+   "pos": "noun",
+   "th": "ลูกอม, ขนมหวาน",
+   "group": "sweet",
+   "example": "The children shared their candy after the walk.",
+   "exampleTH": "เด็ก ๆ แบ่งลูกอมกันหลังเดินเสร็จ"
+  },
+  {
+   "id": "hw-09",
+   "word": "treat",
+   "pos": "noun",
+   "th": "ขนม, ของกินเล่น",
+   "group": "sweet",
+   "example": "Grandma gave each child a small treat.",
+   "exampleTH": "คุณยายให้ขนมชิ้นเล็ก ๆ แก่เด็กทุกคน"
+  },
+  {
+   "id": "hw-10",
+   "word": "trick",
+   "pos": "noun",
+   "th": "การแกล้ง, กลอุบาย",
+   "example": "He played a funny trick on his sister.",
+   "exampleTH": "เขาแกล้งน้องสาวแบบขำ ๆ"
+  },
+  {
+   "id": "hw-11",
+   "word": "trick-or-treat",
+   "pos": "phrase",
+   "th": "คำที่เด็กพูดเพื่อขอขนมในวันฮาโลวีน",
+   "example": "Children knock on doors and say, \"Trick-or-treat!\"",
+   "exampleTH": "เด็ก ๆ เคาะประตูแล้วพูดว่า \"ทริกออร์ทรีต!\" (ขอขนมหน่อย)"
+  },
+  {
+   "id": "hw-12",
+   "word": "jack-o'-lantern",
+   "pos": "noun",
+   "th": "โคมฟักทองแกะสลัก",
+   "group": "light",
+   "example": "We put a small light inside the jack-o'-lantern.",
+   "exampleTH": "เราใส่ไฟดวงเล็ก ๆ ไว้ในโคมฟักทองแกะสลัก"
+  },
+  {
+   "id": "hw-13",
+   "word": "lantern",
+   "pos": "noun",
+   "th": "ตะเกียง, โคมไฟ",
+   "group": "light",
+   "example": "Dad carried a lantern on the dark path.",
+   "exampleTH": "พ่อถือตะเกียงเดินบนทางที่มืด"
+  },
+  {
+   "id": "hw-14",
+   "word": "candle",
+   "pos": "noun",
+   "th": "เทียน",
+   "group": "light",
+   "example": "Please don't leave the candle near the curtains.",
+   "exampleTH": "อย่าวางเทียนไว้ใกล้ผ้าม่านนะ"
+  },
+  {
+   "id": "hw-15",
+   "word": "spider",
+   "pos": "noun",
+   "th": "แมงมุม",
+   "group": "animal",
+   "example": "A tiny spider is hiding in the corner.",
+   "exampleTH": "แมงมุมตัวเล็ก ๆ ซ่อนอยู่ที่มุมห้อง"
+  },
+  {
+   "id": "hw-16",
+   "word": "web",
+   "pos": "noun",
+   "th": "ใยแมงมุม",
+   "example": "There is a big web on the window.",
+   "exampleTH": "มีใยแมงมุมผืนใหญ่อยู่ที่หน้าต่าง"
+  },
+  {
+   "id": "hw-17",
+   "word": "owl",
+   "pos": "noun",
+   "th": "นกฮูก",
+   "group": "animal",
+   "example": "The owl hooted from the top of the tree.",
+   "exampleTH": "นกฮูกร้องอยู่บนยอดไม้"
+  },
+  {
+   "id": "hw-18",
+   "word": "black cat",
+   "pos": "noun",
+   "th": "แมวดำ",
+   "group": "animal",
+   "example": "A black cat sat on the wall and watched us.",
+   "exampleTH": "แมวดำนั่งอยู่บนกำแพงแล้วมองพวกเรา"
+  },
+  {
+   "id": "hw-19",
+   "word": "broom",
+   "pos": "noun",
+   "th": "ไม้กวาด",
+   "example": "In cartoons, the witch flies on a broom.",
+   "exampleTH": "ในการ์ตูน แม่มดขี่ไม้กวาดบิน"
+  },
+  {
+   "id": "hw-20",
+   "word": "cauldron",
+   "pos": "noun",
+   "th": "หม้อต้มใบใหญ่ (ของแม่มด)",
+   "example": "Green soup bubbled in the cauldron.",
+   "exampleTH": "ซุปสีเขียวเดือดปุด ๆ อยู่ในหม้อใบใหญ่"
+  },
+  {
+   "id": "hw-21",
+   "word": "potion",
+   "pos": "noun",
+   "th": "ยาวิเศษ",
+   "group": "magic",
+   "example": "In the game, a blue potion gives you more energy.",
+   "exampleTH": "ในเกม ยาวิเศษสีฟ้าช่วยเพิ่มพลังให้"
+  },
+  {
+   "id": "hw-22",
+   "word": "spell",
+   "pos": "noun",
+   "th": "คาถา",
+   "group": "magic",
+   "example": "The wizard cast a spell to make it rain.",
+   "exampleTH": "พ่อมดร่ายคาถาให้ฝนตก"
+  },
+  {
+   "id": "hw-23",
+   "word": "wand",
+   "pos": "noun",
+   "th": "ไม้กายสิทธิ์",
+   "example": "She waved her wand, and the lights came on.",
+   "exampleTH": "เธอโบกไม้กายสิทธิ์ แล้วไฟก็สว่างขึ้น"
+  },
+  {
+   "id": "hw-24",
+   "word": "magic",
+   "pos": "noun",
+   "th": "เวทมนตร์, มายากล",
+   "group": "magic",
+   "example": "The show was full of magic and music.",
+   "exampleTH": "การแสดงเต็มไปด้วยมายากลและดนตรี"
+  },
+  {
+   "id": "hw-25",
+   "word": "skeleton",
+   "pos": "noun",
+   "th": "โครงกระดูก",
+   "group": "character",
+   "example": "There is a plastic skeleton in the science room.",
+   "exampleTH": "มีโครงกระดูกพลาสติกอยู่ในห้องวิทยาศาสตร์"
+  },
+  {
+   "id": "hw-26",
+   "word": "mummy",
+   "pos": "noun",
+   "th": "มัมมี่ (ร่างที่พันด้วยผ้า)",
+   "group": "character",
+   "example": "His mummy costume was made of white cloth.",
+   "exampleTH": "ชุดมัมมี่ของเขาทำจากผ้าสีขาว"
+  },
+  {
+   "id": "hw-27",
+   "word": "monster",
+   "pos": "noun",
+   "th": "สัตว์ประหลาด",
+   "group": "character",
+   "example": "The monster in this book is actually very kind.",
+   "exampleTH": "สัตว์ประหลาดในหนังสือเล่มนี้จริง ๆ แล้วใจดีมาก"
+  },
+  {
+   "id": "hw-28",
+   "word": "haunted",
+   "pos": "adjective",
+   "th": "มีผีสิง",
+   "group": "spooky",
+   "example": "People say the old house is haunted.",
+   "exampleTH": "ผู้คนบอกว่าบ้านหลังเก่านั้นมีผีสิง"
+  },
+  {
+   "id": "hw-29",
+   "word": "scary",
+   "pos": "adjective",
+   "th": "น่ากลัว",
+   "group": "spooky",
+   "example": "That movie was too scary for me.",
+   "exampleTH": "หนังเรื่องนั้นน่ากลัวเกินไปสำหรับฉัน"
+  },
+  {
+   "id": "hw-30",
+   "word": "spooky",
+   "pos": "adjective",
+   "th": "น่าขนลุก",
+   "group": "spooky",
+   "example": "The hallway looks spooky at night.",
+   "exampleTH": "ทางเดินดูน่าขนลุกตอนกลางคืน"
+  },
+  {
+   "id": "hw-31",
+   "word": "dark",
+   "pos": "adjective",
+   "th": "มืด",
+   "group": "spooky",
+   "example": "It gets dark early in winter.",
+   "exampleTH": "ในฤดูหนาวฟ้ามืดเร็ว"
+  },
+  {
+   "id": "hw-32",
+   "word": "shadow",
+   "pos": "noun",
+   "th": "เงา",
+   "example": "I jumped when I saw my own shadow.",
+   "exampleTH": "ฉันสะดุ้งเมื่อเห็นเงาของตัวเอง"
+  },
+  {
+   "id": "hw-33",
+   "word": "fog",
+   "pos": "noun",
+   "th": "หมอก",
+   "example": "The fog was so thick that we drove slowly.",
+   "exampleTH": "หมอกหนามากจนเราต้องขับรถช้า ๆ"
+  },
+  {
+   "id": "hw-34",
+   "word": "midnight",
+   "pos": "noun",
+   "th": "เที่ยงคืน",
+   "example": "The clock struck midnight.",
+   "exampleTH": "นาฬิกาตีบอกเวลาเที่ยงคืน"
+  },
+  {
+   "id": "hw-35",
+   "word": "moon",
+   "pos": "noun",
+   "th": "ดวงจันทร์",
+   "example": "The moon looks orange tonight.",
+   "exampleTH": "คืนนี้ดวงจันทร์ดูเป็นสีส้ม"
+  },
+  {
+   "id": "hw-36",
+   "word": "scream",
+   "pos": "verb",
+   "th": "กรีดร้อง",
+   "example": "Don't scream. It's only a toy spider!",
+   "exampleTH": "อย่ากรี๊ดนะ แค่แมงมุมของเล่นเอง!"
+  },
+  {
+   "id": "hw-37",
+   "word": "dress up",
+   "pos": "verb",
+   "th": "แต่งตัว (แฟนซี)",
+   "example": "Let's dress up as superheroes this year.",
+   "exampleTH": "ปีนี้มาแต่งตัวเป็นซูเปอร์ฮีโร่กันเถอะ"
+  },
+  {
+   "id": "hw-38",
+   "word": "carve",
+   "pos": "verb",
+   "th": "แกะสลัก",
+   "example": "Ask an adult to help you carve the pumpkin.",
+   "exampleTH": "ให้ผู้ใหญ่ช่วยแกะสลักฟักทองนะ"
+  },
+  {
+   "id": "hw-39",
+   "word": "party",
+   "pos": "noun",
+   "th": "งานเลี้ยง, ปาร์ตี้",
+   "example": "Our class is having a costume party on Friday.",
+   "exampleTH": "ห้องเรามีปาร์ตี้แต่งชุดแฟนซีวันศุกร์"
+  },
+  {
+   "id": "hw-40",
+   "word": "castle",
+   "pos": "noun",
+   "th": "ปราสาท",
+   "example": "The castle on the hill has a tall tower.",
+   "exampleTH": "ปราสาทบนเนินเขามีหอคอยสูง"
+  }
+ ]
+}

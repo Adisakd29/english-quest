@@ -1,0 +1,765 @@
+[
+  {
+    "id": "B1-01",
+    "level": "B1",
+    "kind": "story",
+    "title": "Tor's Friday Soup",
+    "titleTh": "ก๋วยเตี๋ยววันศุกร์ของต้อ",
+    "topic": "food",
+    "paragraphs": [
+      "Every evening, Grandma Lek sells noodle soup at a small market in Bangkok. She has cooked the same soup for forty years, and people come from all over the city to eat it. Her grandson Tor, who is fifteen, usually helps her wash bowls after school, but he has never cooked the soup himself.",
+      "One Friday, Grandma woke up with a bad cold. \"I can't work today,\" she said, \"but if I close the stall, my regular customers will be disappointed.\" Tor took a deep breath. \"Then I'll cook,\" he said. Grandma looked worried, but she wrote the recipe on a piece of paper and gave it to him.",
+      "At the market, everything went wrong. The paper got wet, and Tor couldn't read the last line. He didn't know how much sugar to add, so he decided to use a little lime and some fresh basil from the next stall instead. His hands were shaking when he served the first bowl to Uncle Somchai, Grandma's oldest customer.",
+      "Uncle Somchai tasted the soup slowly. Then he smiled. \"This isn't your grandmother's soup,\" he said. \"It's different, but it's delicious. Can I have another bowl?\" By nine o'clock, every bowl had been sold.",
+      "When Tor got home, Grandma was waiting for him. He told her about the lime and the basil. She laughed and said, \"From next week, you can make your soup on Fridays, and I'll make mine on the other days.\""
+    ],
+    "translationTH": [
+      "ทุกเย็น คุณยายเล็กขายก๋วยเตี๋ยวน้ำที่ตลาดเล็ก ๆ แห่งหนึ่งในกรุงเทพฯ ยายทำก๋วยเตี๋ยวสูตรเดิมมาสี่สิบปีแล้ว และผู้คนมาจากทั่วเมืองเพื่อกินมัน ต้อหลานชายวัยสิบห้าปีมักช่วยยายล้างชามหลังเลิกเรียน แต่เขาไม่เคยทำก๋วยเตี๋ยวเองเลย",
+      "วันศุกร์หนึ่ง ยายตื่นขึ้นมาพร้อมกับเป็นหวัดหนัก \"วันนี้ยายทำงานไม่ไหว\" ยายพูด \"แต่ถ้าปิดร้าน ลูกค้าประจำของยายคงผิดหวัง\" ต้อหายใจเข้าลึก ๆ \"งั้นผมทำเองครับ\" เขาพูด ยายดูเป็นห่วง แต่ก็เขียนสูตรลงบนกระดาษแผ่นหนึ่งแล้วยื่นให้เขา",
+      "ที่ตลาด ทุกอย่างผิดพลาดไปหมด กระดาษเปียก และต้ออ่านบรรทัดสุดท้ายไม่ออก เขาไม่รู้ว่าต้องใส่น้ำตาลเท่าไร จึงตัดสินใจใส่มะนาวนิดหน่อยกับโหระพาสด ๆ จากร้านข้าง ๆ แทน มือของเขาสั่นตอนที่เสิร์ฟชามแรกให้ลุงสมชาย ลูกค้าที่เก่าแก่ที่สุดของยาย",
+      "ลุงสมชายชิมก๋วยเตี๋ยวช้า ๆ แล้วก็ยิ้ม \"นี่ไม่ใช่ก๋วยเตี๋ยวของยายเธอ\" ลุงพูด \"มันต่างออกไป แต่อร่อยมาก ขออีกชามได้ไหม\" พอถึงสามทุ่ม ก๋วยเตี๋ยวก็ขายหมดทุกชาม",
+      "เมื่อต้อกลับถึงบ้าน ยายนั่งรอเขาอยู่ เขาเล่าเรื่องมะนาวกับโหระพาให้ยายฟัง ยายหัวเราะแล้วพูดว่า \"ตั้งแต่สัปดาห์หน้า หลานทำก๋วยเตี๋ยวสูตรของหลานวันศุกร์ ส่วนยายจะทำสูตรของยายวันอื่น ๆ\""
+    ],
+    "glossary": [
+      {
+        "word": "stall",
+        "pos": "noun",
+        "th": "แผงขายของ ร้านเล็ก ๆ ในตลาด"
+      },
+      {
+        "word": "regular",
+        "pos": "adjective",
+        "th": "ประจำ ที่มาเป็นประจำ"
+      },
+      {
+        "word": "disappointed",
+        "pos": "adjective",
+        "th": "ผิดหวัง"
+      },
+      {
+        "word": "recipe",
+        "pos": "noun",
+        "th": "สูตรอาหาร"
+      },
+      {
+        "word": "shaking",
+        "pos": "verb",
+        "th": "สั่น"
+      },
+      {
+        "word": "serve",
+        "pos": "verb",
+        "th": "เสิร์ฟ ยกอาหารให้"
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "th": "อร่อยมาก"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What is the story mainly about?",
+        "options": [
+          "A grandmother teaches her customers a new recipe",
+          "A boy sells his grandmother's old noodle stall",
+          "A boy cooks at his grandmother's stall and does well",
+          "Uncle Somchai opens a soup stall at the market"
+        ],
+        "answer": 2,
+        "evidence": "By nine o'clock, every bowl had been sold.",
+        "explanationTH": "เรื่องเล่าว่าต้อทำก๋วยเตี๋ยวแทนยายและขายหมดทุกชาม แสดงว่าเขาทำได้ดี"
+      },
+      {
+        "type": "detail",
+        "stem": "Why couldn't Tor read the whole recipe?",
+        "options": [
+          "The paper got wet",
+          "Grandma's writing was too small",
+          "He left the paper at home",
+          "Uncle Somchai took the paper"
+        ],
+        "answer": 0,
+        "evidence": "The paper got wet, and Tor couldn't read the last line.",
+        "explanationTH": "ในย่อหน้าที่ 3 บอกว่ากระดาษเปียก ต้อจึงอ่านบรรทัดสุดท้ายไม่ออก"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"regular\" mean in paragraph 2?",
+        "options": [
+          "Customers who are new to the market",
+          "Customers who are angry",
+          "Customers who live far away",
+          "Customers who come often"
+        ],
+        "answer": 3,
+        "evidence": "if I close the stall, my regular customers will be disappointed",
+        "explanationTH": "regular customers คือลูกค้าประจำที่มาบ่อย ๆ ยายกลัวว่าพวกเขาจะผิดหวังถ้าปิดร้าน"
+      },
+      {
+        "type": "inference",
+        "stem": "How did Tor feel when he served the first bowl?",
+        "options": [
+          "Bored",
+          "Nervous",
+          "Angry",
+          "Sleepy"
+        ],
+        "answer": 1,
+        "evidence": "His hands were shaking when he served the first bowl",
+        "explanationTH": "มือที่สั่นเป็นสัญญาณว่าต้อรู้สึกประหม่าและกังวล"
+      },
+      {
+        "type": "sequence",
+        "stem": "What did Tor do before he served the first bowl?",
+        "options": [
+          "He told Grandma about the basil",
+          "He sold every bowl of soup",
+          "He added lime and basil instead of sugar",
+          "He tasted Uncle Somchai's soup"
+        ],
+        "answer": 2,
+        "evidence": "he decided to use a little lime and some fresh basil from the next stall instead",
+        "explanationTH": "ต้อใส่มะนาวและโหระพาแทนน้ำตาลก่อน แล้วจึงเสิร์ฟชามแรกให้ลุงสมชาย"
+      }
+    ],
+    "tipTH": "ตอนฟัง ให้สังเกตคำพูดในเครื่องหมายคำพูดของแต่ละคน เพราะช่วยบอกความรู้สึกและจุดเปลี่ยนของเรื่อง"
+  },
+  {
+    "id": "B1-02",
+    "level": "B1",
+    "kind": "story",
+    "title": "The Man with the Small Dog",
+    "titleTh": "ชายกับสุนัขตัวเล็ก",
+    "topic": "travel",
+    "paragraphs": [
+      "Mali was on a school trip in Tokyo with twenty classmates. On the third day, the group planned to visit a famous park in the morning. Before they left the hotel, their teacher, Ms Joy, said, \"If you get lost, stay where you are and wait for me.\"",
+      "The trains in Tokyo were very crowded, and when the doors opened at a busy station, Mali was pushed out by a group of office workers. Before she could get back in, the doors closed and the train left. Her classmates waved at her through the window. Mali reached for her phone, but the battery was dead.",
+      "At first she felt panic, but then she remembered the teacher's words. She stood still next to a big clock on the platform. After ten minutes, an old man with a small dog noticed her. Mali didn't speak Japanese, so she showed him the name of the park, which was written in her notebook. The man nodded, took out his own phone and called the number on the school trip card around her neck.",
+      "Twenty minutes later, Ms Joy ran down the stairs, out of breath. \"You did exactly the right thing,\" she said. Mali turned to thank the old man, but he had already gone. Only his dog's tiny footprints were left on the wet floor. Since that day, Mali has always charged her phone before she leaves home."
+    ],
+    "translationTH": [
+      "มะลิไปทัศนศึกษาที่โตเกียวกับเพื่อนร่วมชั้นยี่สิบคน ในวันที่สาม กลุ่มของเธอวางแผนจะไปเที่ยวสวนสาธารณะที่มีชื่อเสียงตอนเช้า ก่อนออกจากโรงแรม ครูจอยบอกทุกคนว่า \"ถ้าใครหลง ให้อยู่ตรงนั้นแล้วรอครู\"",
+      "รถไฟในโตเกียวแน่นมาก และเมื่อประตูเปิดที่สถานีที่พลุกพล่านแห่งหนึ่ง มะลิก็ถูกกลุ่มพนักงานออฟฟิศเบียดจนหลุดออกมา ก่อนที่เธอจะกลับขึ้นไปได้ ประตูก็ปิดและรถไฟก็ออกไป เพื่อน ๆ โบกมือให้เธอผ่านหน้าต่าง มะลิหยิบโทรศัพท์ แต่แบตเตอรี่หมด",
+      "ตอนแรกเธอตื่นตระหนก แต่แล้วก็นึกถึงคำพูดของครูได้ เธอยืนนิ่ง ๆ ข้างนาฬิกาใหญ่บนชานชาลา ผ่านไปสิบนาที ชายชราคนหนึ่งที่พาสุนัขตัวเล็กมาด้วยสังเกตเห็นเธอ มะลิพูดภาษาญี่ปุ่นไม่ได้ จึงให้เขาดูชื่อสวนที่เขียนไว้ในสมุด ชายคนนั้นพยักหน้า หยิบโทรศัพท์ของตัวเองออกมา แล้วโทรหาเบอร์ที่อยู่บนบัตรทัศนศึกษาซึ่งห้อยคอเธออยู่",
+      "ยี่สิบนาทีต่อมา ครูจอยวิ่งลงบันไดมาจนหอบ \"เธอทำถูกต้องที่สุดแล้ว\" ครูพูด มะลิหันไปจะขอบคุณชายชรา แต่เขาจากไปแล้ว เหลือเพียงรอยเท้าเล็ก ๆ ของสุนัขบนพื้นเปียก ตั้งแต่วันนั้น มะลิชาร์จโทรศัพท์ทุกครั้งก่อนออกจากบ้าน"
+    ],
+    "glossary": [
+      {
+        "word": "crowded",
+        "pos": "adjective",
+        "th": "แออัด คนแน่น"
+      },
+      {
+        "word": "platform",
+        "pos": "noun",
+        "th": "ชานชาลา"
+      },
+      {
+        "word": "panic",
+        "pos": "noun",
+        "th": "ความตื่นตระหนก"
+      },
+      {
+        "word": "noticed",
+        "pos": "verb",
+        "th": "สังเกตเห็น"
+      },
+      {
+        "word": "nodded",
+        "pos": "verb",
+        "th": "พยักหน้า"
+      },
+      {
+        "word": "out of breath",
+        "pos": "phrase",
+        "th": "หอบ หายใจไม่ทัน"
+      },
+      {
+        "word": "footprints",
+        "pos": "noun",
+        "th": "รอยเท้า"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What is the story mainly about?",
+        "options": [
+          "A teacher who loses her phone on a train",
+          "A girl who gets lost and is helped by a stranger",
+          "A class that visits a famous park in Tokyo",
+          "An old man who is looking for his dog"
+        ],
+        "answer": 1,
+        "evidence": "an old man with a small dog noticed her",
+        "explanationTH": "เรื่องเล่าว่ามะลิพลัดหลงจากกลุ่ม แล้วชายชราแปลกหน้ามาช่วยติดต่อครู"
+      },
+      {
+        "type": "detail",
+        "stem": "How did the old man contact Ms Joy?",
+        "options": [
+          "He walked Mali to the park",
+          "He asked the office workers for help",
+          "He used Mali's phone",
+          "He called the number on Mali's card"
+        ],
+        "answer": 3,
+        "evidence": "called the number on the school trip card around her neck",
+        "explanationTH": "ชายชราใช้โทรศัพท์ของตัวเองโทรหาเบอร์บนบัตรที่มะลิห้อยคอ"
+      },
+      {
+        "type": "inference",
+        "stem": "Why did Mali stand still next to the clock?",
+        "options": [
+          "She followed her teacher's advice",
+          "She wanted to know the time",
+          "She was waiting for her friends' train",
+          "The old man told her to wait"
+        ],
+        "answer": 0,
+        "evidence": "then she remembered the teacher's words. She stood still next to a big clock",
+        "explanationTH": "มะลินึกถึงคำครูที่ว่าถ้าหลงให้อยู่ที่เดิม เธอจึงยืนรออยู่ตรงนั้น"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"panic\" mean in paragraph 3?",
+        "options": [
+          "A happy feeling of surprise",
+          "A feeling of being very tired",
+          "A sudden strong feeling of fear",
+          "A feeling of being hungry"
+        ],
+        "answer": 2,
+        "evidence": "At first she felt panic, but then she remembered the teacher's words.",
+        "explanationTH": "panic คือความกลัวอย่างรุนแรงแบบฉับพลัน ซึ่งเข้ากับสถานการณ์ที่มะลิหลงทาง"
+      },
+      {
+        "type": "sequence",
+        "stem": "What did Mali do first after the train left?",
+        "options": [
+          "She showed the man her notebook",
+          "She tried to use her phone",
+          "She ran down the stairs",
+          "She thanked the old man"
+        ],
+        "answer": 1,
+        "evidence": "Mali reached for her phone, but the battery was dead.",
+        "explanationTH": "หลังรถไฟออก สิ่งแรกที่มะลิทำคือหยิบโทรศัพท์ แต่แบตเตอรี่หมด"
+      }
+    ],
+    "tipTH": "เรื่องนี้เล่าเหตุการณ์ตามลำดับเวลา ให้จับคำบอกเวลา เช่น At first, After ten minutes, Twenty minutes later"
+  },
+  {
+    "id": "B1-03",
+    "level": "B1",
+    "kind": "story",
+    "title": "Watch the Ball",
+    "titleTh": "มองแค่ลูกบอล",
+    "topic": "sport",
+    "paragraphs": [
+      "Fah has been in her school volleyball team in Khon Kaen for two years, but she has never played in a real match. She is tall and she can jump high, but she is very shy. During matches, she always sits on the bench, looks after the water bottles and cheers for her friends.",
+      "This year, the team reached the final of the provincial competition. In the second set, their best player, Nan, twisted her ankle and had to stop. Coach Wit looked at the bench. \"Fah, you're going in,\" he said. Fah's heart was beating so fast that she could hear it.",
+      "Her first serve went straight into the net. Some people in the crowd groaned. Then Nan, who was sitting with ice on her ankle, shouted, \"Forget it! Just watch the ball!\" Fah took a deep breath. She knew that if she worried about the crowd, she would make more mistakes, so she decided to look only at the ball.",
+      "Slowly, she started to play better. Near the end of the last set, the score was twenty-four to twenty-three. The ball came high over the net, and Fah jumped higher than she had ever jumped before. Her hand hit the ball hard, and it landed just inside the line. The team had won the trophy.",
+      "After the match, a reporter from a local newspaper asked Fah how she felt. She went red and pointed at Nan. \"Ask her,\" she said. \"She told me to watch the ball.\""
+    ],
+    "translationTH": [
+      "ฟ้าอยู่ในทีมวอลเลย์บอลของโรงเรียนที่ขอนแก่นมาสองปีแล้ว แต่ไม่เคยลงเล่นในการแข่งขันจริงเลย เธอตัวสูงและกระโดดได้สูง แต่ขี้อายมาก ระหว่างการแข่งขัน เธอมักนั่งอยู่ที่ม้านั่งสำรอง ดูแลขวดน้ำ และเชียร์เพื่อน ๆ",
+      "ปีนี้ ทีมเข้ารอบชิงชนะเลิศของการแข่งขันระดับจังหวัด ในเซตที่สอง น่าน ผู้เล่นที่เก่งที่สุดของทีม ข้อเท้าพลิกและต้องหยุดเล่น โค้ชวิทย์มองไปที่ม้านั่งสำรอง \"ฟ้า ลงไปเล่น\" เขาพูด หัวใจของฟ้าเต้นเร็วจนเธอได้ยินเสียงมัน",
+      "ลูกเสิร์ฟแรกของเธอพุ่งติดตาข่ายไปเลย คนดูบางคนส่งเสียงครางผิดหวัง แล้วน่านซึ่งนั่งเอาน้ำแข็งประคบข้อเท้าอยู่ก็ตะโกนว่า \"ลืมมันไป มองลูกบอลอย่างเดียว\" ฟ้าหายใจเข้าลึก ๆ เธอรู้ว่าถ้ามัวกังวลเรื่องคนดู เธอจะพลาดมากขึ้น เธอจึงตัดสินใจมองแค่ลูกบอล",
+      "เธอค่อย ๆ เล่นได้ดีขึ้น ช่วงท้ายของเซตสุดท้าย คะแนนเป็นยี่สิบสี่ต่อยี่สิบสาม ลูกบอลลอยสูงข้ามตาข่ายมา และฟ้ากระโดดสูงกว่าที่เคยกระโดดมาทั้งหมด มือของเธอตบลูกอย่างแรง และลูกตกลงในเส้นพอดี ทีมได้ถ้วยรางวัลแล้ว",
+      "หลังการแข่งขัน นักข่าวจากหนังสือพิมพ์ท้องถิ่นถามฟ้าว่ารู้สึกอย่างไร เธอหน้าแดงแล้วชี้ไปที่น่าน \"ถามเธอสิคะ\" ฟ้าพูด \"เธอเป็นคนบอกให้หนูมองลูกบอล\""
+    ],
+    "glossary": [
+      {
+        "word": "shy",
+        "pos": "adjective",
+        "th": "ขี้อาย"
+      },
+      {
+        "word": "bench",
+        "pos": "noun",
+        "th": "ม้านั่ง ที่นั่งของผู้เล่นสำรอง"
+      },
+      {
+        "word": "provincial",
+        "pos": "adjective",
+        "th": "ระดับจังหวัด"
+      },
+      {
+        "word": "twisted",
+        "pos": "verb",
+        "th": "บิด พลิก"
+      },
+      {
+        "word": "groaned",
+        "pos": "verb",
+        "th": "ส่งเสียงครางแสดงความผิดหวัง"
+      },
+      {
+        "word": "trophy",
+        "pos": "noun",
+        "th": "ถ้วยรางวัล"
+      },
+      {
+        "word": "reporter",
+        "pos": "noun",
+        "th": "นักข่าว"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What is the story mainly about?",
+        "options": [
+          "A coach who chooses a new team captain",
+          "A reporter who writes about volleyball",
+          "A player who hurts her ankle before a match",
+          "A shy player who helps her team win a final"
+        ],
+        "answer": 3,
+        "evidence": "The team had won the trophy.",
+        "explanationTH": "เรื่องเล่าว่าฟ้าที่ขี้อายได้ลงเล่นครั้งแรกในนัดชิงและช่วยให้ทีมชนะ"
+      },
+      {
+        "type": "detail",
+        "stem": "Why did Fah have to play in the final?",
+        "options": [
+          "Coach Wit was angry with Nan",
+          "The best player hurt her ankle",
+          "Fah asked the coach to let her play",
+          "The team needed a taller player"
+        ],
+        "answer": 1,
+        "evidence": "their best player, Nan, twisted her ankle and had to stop",
+        "explanationTH": "น่านข้อเท้าพลิกและเล่นต่อไม่ได้ ฟ้าจึงต้องลงไปแทน"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"groaned\" mean in paragraph 3?",
+        "options": [
+          "Made a low sound because they were disappointed",
+          "Clapped because they were happy",
+          "Laughed loudly at a funny joke",
+          "Sang a song for their team"
+        ],
+        "answer": 0,
+        "evidence": "Her first serve went straight into the net. Some people in the crowd groaned.",
+        "explanationTH": "คนดูส่งเสียงหลังจากลูกเสิร์ฟติดตาข่าย จึงเป็นเสียงแสดงความผิดหวัง"
+      },
+      {
+        "type": "inference",
+        "stem": "What does the ending show about Fah?",
+        "options": [
+          "She wants to become a reporter",
+          "She is angry with Nan",
+          "She thinks her friend deserves some thanks",
+          "She does not like the trophy"
+        ],
+        "answer": 2,
+        "evidence": "She went red and pointed at Nan.",
+        "explanationTH": "ฟ้าหน้าแดงและชี้ไปที่น่าน แสดงว่าเธอถ่อมตัวและอยากให้เครดิตเพื่อน"
+      },
+      {
+        "type": "sequence",
+        "stem": "What happened right after Fah's first serve went into the net?",
+        "options": [
+          "Fah jumped and won the last point",
+          "Coach Wit told Fah to go in",
+          "Nan twisted her ankle",
+          "Some people in the crowd made a sound"
+        ],
+        "answer": 3,
+        "evidence": "Her first serve went straight into the net. Some people in the crowd groaned.",
+        "explanationTH": "หลังลูกเสิร์ฟแรกติดตาข่าย คนดูบางคนก็ส่งเสียงครางทันที"
+      }
+    ],
+    "tipTH": "ตอนฟังเรื่องกีฬา ให้ตั้งใจฟังตัวเลขคะแนนและคำที่บอกความรู้สึกของตัวละคร เช่น shy และ went red"
+  },
+  {
+    "id": "B1-04",
+    "level": "B1",
+    "kind": "article",
+    "title": "The Forest That Protects the Coast",
+    "titleTh": "ป่าที่ปกป้องชายฝั่ง",
+    "topic": "nature",
+    "paragraphs": [
+      "Mangroves are trees that grow in salty water along the coast. Their roots stand above the mud like long legs, and at high tide the sea comes in and covers them. In southern Thailand, for example in Krabi and Trang, visitors can walk through mangrove forests on wooden paths and see crabs, fish and birds everywhere.",
+      "These forests are very useful. Their thick roots slow down big waves, so villages behind them are safer during storms. Young fish grow up among the roots before they swim out to sea, which means that local fishermen depend on mangroves too. The trees also take a lot of carbon from the air and keep it in the mud for hundreds of years.",
+      "However, many mangrove forests have been cut down in the last fifty years. The land was used for shrimp farms, hotels and roads. When the trees disappeared, the sea started to wash the beaches away, and there were fewer fish to catch.",
+      "Now many communities are bringing the forests back. Every year, students and volunteers plant thousands of young mangrove trees in the mud. It is dirty work, and not every tree survives, but the results can be seen after a few years. \"If you plant a mangrove today,\" says one fisherman in Trang, \"your grandchildren will still catch fish here.\""
+    ],
+    "translationTH": [
+      "ป่าชายเลนคือต้นไม้ที่เติบโตในน้ำเค็มตามชายฝั่ง รากของมันโผล่ขึ้นมาเหนือโคลนเหมือนขายาว ๆ และเมื่อน้ำขึ้น น้ำทะเลก็จะท่วมรากเหล่านั้น ทางภาคใต้ของไทย เช่น ที่กระบี่และตรัง นักท่องเที่ยวสามารถเดินชมป่าชายเลนบนสะพานไม้ และเห็นปู ปลา และนกได้ทุกที่",
+      "ป่าเหล่านี้มีประโยชน์มาก รากที่หนาแน่นช่วยชะลอคลื่นลูกใหญ่ หมู่บ้านที่อยู่ด้านหลังจึงปลอดภัยขึ้นในช่วงที่มีพายุ ลูกปลาเติบโตอยู่ท่ามกลางรากไม้ก่อนจะว่ายออกสู่ทะเล ซึ่งหมายความว่าชาวประมงในท้องถิ่นก็ต้องพึ่งพาป่าชายเลนด้วย ต้นไม้เหล่านี้ยังดูดซับคาร์บอนจากอากาศได้มาก และเก็บไว้ในโคลนได้นานหลายร้อยปี",
+      "อย่างไรก็ตาม ป่าชายเลนจำนวนมากถูกตัดทิ้งไปในช่วงห้าสิบปีที่ผ่านมา ที่ดินถูกนำไปใช้ทำฟาร์มกุ้ง โรงแรม และถนน เมื่อต้นไม้หายไป น้ำทะเลก็เริ่มกัดเซาะชายหาด และมีปลาให้จับน้อยลง",
+      "ตอนนี้หลายชุมชนกำลังฟื้นฟูป่าให้กลับคืนมา ทุกปี นักเรียนและอาสาสมัครปลูกต้นกล้าป่าชายเลนนับพันต้นลงในโคลน เป็นงานที่เลอะเทอะ และไม่ใช่ทุกต้นจะรอด แต่ผลลัพธ์ก็เห็นได้หลังจากผ่านไปไม่กี่ปี \"ถ้าคุณปลูกป่าชายเลนวันนี้\" ชาวประมงคนหนึ่งในตรังบอก \"หลาน ๆ ของคุณก็จะยังจับปลาที่นี่ได้\""
+    ],
+    "glossary": [
+      {
+        "word": "mangroves",
+        "pos": "noun",
+        "th": "ป่าชายเลน ต้นไม้ที่ขึ้นในน้ำเค็มริมทะเล"
+      },
+      {
+        "word": "roots",
+        "pos": "noun",
+        "th": "ราก"
+      },
+      {
+        "word": "tide",
+        "pos": "noun",
+        "th": "น้ำขึ้นน้ำลง"
+      },
+      {
+        "word": "coast",
+        "pos": "noun",
+        "th": "ชายฝั่ง"
+      },
+      {
+        "word": "depend on",
+        "pos": "phrase",
+        "th": "พึ่งพา ต้องอาศัย"
+      },
+      {
+        "word": "carbon",
+        "pos": "noun",
+        "th": "คาร์บอน"
+      },
+      {
+        "word": "volunteers",
+        "pos": "noun",
+        "th": "อาสาสมัคร"
+      },
+      {
+        "word": "survives",
+        "pos": "verb",
+        "th": "รอดชีวิต อยู่รอด"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What is the article mainly about?",
+        "options": [
+          "Why mangroves are useful and how people are saving them",
+          "How to build a shrimp farm near the sea",
+          "Why fishermen in Trang have stopped fishing",
+          "How visitors can walk safely on wooden paths"
+        ],
+        "answer": 0,
+        "evidence": "Now many communities are bringing the forests back.",
+        "explanationTH": "บทความอธิบายว่าป่าชายเลนมีประโยชน์อย่างไร ถูกทำลายอย่างไร และตอนนี้ชุมชนกำลังช่วยกันฟื้นฟูป่า"
+      },
+      {
+        "type": "detail",
+        "stem": "How do mangroves make villages safer?",
+        "options": [
+          "They give villagers more fish to eat",
+          "They keep carbon in the mud",
+          "Their roots slow down big waves",
+          "They stop people from building hotels"
+        ],
+        "answer": 2,
+        "evidence": "Their thick roots slow down big waves, so villages behind them are safer during storms.",
+        "explanationTH": "ย่อหน้าที่ 2 บอกว่ารากที่หนาช่วยชะลอคลื่นลูกใหญ่ หมู่บ้านจึงปลอดภัยขึ้นตอนมีพายุ"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"survives\" mean in paragraph 4?",
+        "options": [
+          "grows too fast",
+          "stays alive",
+          "is planted again",
+          "is cut down"
+        ],
+        "answer": 1,
+        "evidence": "It is dirty work, and not every tree survives",
+        "explanationTH": "survives แปลว่ารอดหรือมีชีวิตอยู่ต่อ ประโยคบอกว่าต้นกล้าที่ปลูกไม่ได้รอดทุกต้น"
+      },
+      {
+        "type": "inference",
+        "stem": "What does the fisherman in Trang mean?",
+        "options": [
+          "Mangroves grow very slowly",
+          "Fishing will be easier next year",
+          "Only old people should plant trees",
+          "Planting mangroves helps people in the future"
+        ],
+        "answer": 3,
+        "evidence": "your grandchildren will still catch fish here",
+        "explanationTH": "ชาวประมงบอกว่าถ้าปลูกวันนี้ หลาน ๆ จะยังจับปลาได้ แสดงว่าการปลูกป่าชายเลนเป็นประโยชน์กับคนรุ่นต่อไป"
+      },
+      {
+        "type": "detail",
+        "stem": "What was the land used for after the trees were cut down?",
+        "options": [
+          "Shrimp farms, hotels and roads",
+          "Wooden paths for tourists",
+          "New schools for students",
+          "Farms for rice and fruit"
+        ],
+        "answer": 0,
+        "evidence": "The land was used for shrimp farms, hotels and roads.",
+        "explanationTH": "ย่อหน้าที่ 3 บอกว่าที่ดินถูกนำไปทำฟาร์มกุ้ง โรงแรม และถนน"
+      }
+    ],
+    "tipTH": "บทความนี้เรียงจากลักษณะของป่าชายเลน ประโยชน์ ปัญหา ไปสู่ทางแก้ ให้ฟังคำเชื่อม เช่น However และ Now เพื่อรู้ว่าเนื้อหากำลังเปลี่ยนไปส่วนไหน"
+  },
+  {
+    "id": "B1-05",
+    "level": "B1",
+    "kind": "blog",
+    "title": "Seven Days Without My Phone",
+    "titleTh": "เจ็ดวันที่ไม่มีโทรศัพท์",
+    "topic": "technology",
+    "paragraphs": [
+      "Hi everyone, it's Beam again. Last month, my mum read an article about teenagers and screen time, and she offered me a deal. If I lived without my phone for one week, she would take me to the big science museum in Bangkok. I said yes immediately. How difficult could it be?",
+      "The first two days were terrible. I kept reaching into my pocket, and I felt like I was missing everything. My friends were chatting in our group, and I had no idea what they were talking about. I even checked the time on the kitchen clock about fifty times a day.",
+      "By day four, something strange had happened. I had finished a whole novel, which I haven't done since primary school. I helped my dad fix his old bicycle, and my grandma taught me how to make green curry. I also slept much better, because I wasn't watching videos in bed until midnight.",
+      "Of course, there were problems too. I couldn't find my way to a friend's new house without a map, and I arrived forty minutes late. My friend still hasn't stopped laughing about it.",
+      "So, have I given up my phone forever? No way. But I have changed some habits. Now my phone stays in the kitchen at night, and I read before I sleep. And yes, the museum was amazing. Have you ever tried a week without your phone? Tell me in the comments."
+    ],
+    "translationTH": [
+      "สวัสดีทุกคน บีมเองนะ เดือนที่แล้วแม่อ่านบทความเกี่ยวกับวัยรุ่นกับเวลาหน้าจอ แล้วก็มายื่นข้อตกลงกับเรา ถ้าเราอยู่โดยไม่มีโทรศัพท์ได้หนึ่งสัปดาห์ แม่จะพาไปพิพิธภัณฑ์วิทยาศาสตร์ใหญ่ที่กรุงเทพฯ เราตอบตกลงทันที มันจะยากสักแค่ไหนกันเชียว",
+      "สองวันแรกแย่มาก เราเอามือล้วงกระเป๋าอยู่เรื่อย ๆ และรู้สึกเหมือนพลาดทุกอย่างไป เพื่อน ๆ คุยกันในกลุ่ม และเราไม่รู้เลยว่าพวกเขาคุยเรื่องอะไรกัน เรายังดูเวลาจากนาฬิกาในครัววันละประมาณห้าสิบครั้งด้วย",
+      "พอถึงวันที่สี่ มีเรื่องแปลก ๆ เกิดขึ้น เราอ่านนิยายจบทั้งเล่ม ซึ่งไม่เคยทำเลยตั้งแต่ประถม เราช่วยพ่อซ่อมจักรยานคันเก่า และยายก็สอนเราทำแกงเขียวหวาน เรายังนอนหลับดีขึ้นมากด้วย เพราะไม่ได้นอนดูคลิปบนเตียงจนเที่ยงคืน",
+      "แน่นอนว่ามันก็มีปัญหาด้วย เราหาทางไปบ้านใหม่ของเพื่อนไม่เจอเพราะไม่มีแผนที่ และไปถึงช้าไปสี่สิบนาที เพื่อนยังหัวเราะเรื่องนี้ไม่หยุดจนถึงตอนนี้",
+      "แล้วเราเลิกใช้โทรศัพท์ไปตลอดเลยไหม ไม่มีทาง แต่เราเปลี่ยนนิสัยบางอย่าง ตอนนี้โทรศัพท์ของเรานอนอยู่ในครัวตอนกลางคืน และเราอ่านหนังสือก่อนนอน อ้อ พิพิธภัณฑ์สนุกมากจริง ๆ นะ ใครเคยลองอยู่โดยไม่มีโทรศัพท์หนึ่งสัปดาห์บ้าง มาเล่าให้ฟังในคอมเมนต์หน่อย"
+    ],
+    "glossary": [
+      {
+        "word": "deal",
+        "pos": "noun",
+        "th": "ข้อตกลง"
+      },
+      {
+        "word": "immediately",
+        "pos": "adverb",
+        "th": "ทันที"
+      },
+      {
+        "word": "terrible",
+        "pos": "adjective",
+        "th": "แย่มาก"
+      },
+      {
+        "word": "novel",
+        "pos": "noun",
+        "th": "นวนิยาย"
+      },
+      {
+        "word": "given up",
+        "pos": "phrase",
+        "th": "เลิก ยอมแพ้"
+      },
+      {
+        "word": "habits",
+        "pos": "noun",
+        "th": "นิสัย สิ่งที่ทำเป็นประจำ"
+      },
+      {
+        "word": "comments",
+        "pos": "noun",
+        "th": "ความคิดเห็น คอมเมนต์"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What is the blog post mainly about?",
+        "options": [
+          "A trip to a science museum in Bangkok",
+          "What Beam learned from a week without a phone",
+          "Why Beam's mum reads articles about teenagers",
+          "How to fix an old bicycle at home"
+        ],
+        "answer": 1,
+        "evidence": "But I have changed some habits.",
+        "explanationTH": "บล็อกเล่าประสบการณ์หนึ่งสัปดาห์ที่ไม่มีโทรศัพท์และสิ่งที่บีมได้เรียนรู้"
+      },
+      {
+        "type": "detail",
+        "stem": "What was Beam's reward for the week?",
+        "options": [
+          "A new phone",
+          "A green curry dinner",
+          "A new novel",
+          "A trip to a science museum"
+        ],
+        "answer": 3,
+        "evidence": "she would take me to the big science museum in Bangkok",
+        "explanationTH": "แม่สัญญาว่าจะพาไปพิพิธภัณฑ์วิทยาศาสตร์ถ้าบีมอยู่โดยไม่มีโทรศัพท์ได้"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"habits\" mean in paragraph 5?",
+        "options": [
+          "Comments that people write online",
+          "Rooms in a house",
+          "Things you do regularly",
+          "Problems with a phone"
+        ],
+        "answer": 2,
+        "evidence": "But I have changed some habits. Now my phone stays in the kitchen at night",
+        "explanationTH": "habits คือสิ่งที่ทำเป็นประจำ เช่น การวางโทรศัพท์ไว้ในครัวตอนกลางคืน"
+      },
+      {
+        "type": "inference",
+        "stem": "How did Beam feel during the first two days?",
+        "options": [
+          "Left out and uncomfortable",
+          "Relaxed and happy",
+          "Proud and excited",
+          "Tired from reading"
+        ],
+        "answer": 0,
+        "evidence": "I felt like I was missing everything",
+        "explanationTH": "บีมรู้สึกเหมือนพลาดทุกอย่างและไม่รู้ว่าเพื่อนคุยอะไร แสดงว่ารู้สึกถูกทิ้งและไม่สบายใจ"
+      },
+      {
+        "type": "detail",
+        "stem": "What problem did Beam have without a phone?",
+        "options": [
+          "Beam could not sleep at night",
+          "Beam forgot the museum's name",
+          "Beam arrived late at a friend's house",
+          "Beam lost the kitchen clock"
+        ],
+        "answer": 2,
+        "evidence": "I couldn't find my way to a friend's new house without a map, and I arrived forty minutes late",
+        "explanationTH": "ย่อหน้าที่ 4 บอกว่าบีมหาบ้านเพื่อนไม่เจอและไปถึงช้าสี่สิบนาที"
+      }
+    ],
+    "tipTH": "บล็อกมักใช้ภาษาพูดและคำถามชวนคุย ให้สังเกตคำบอกช่วงเวลา เช่น The first two days และ By day four เพื่อติดตามการเปลี่ยนแปลง"
+  },
+  {
+    "id": "B1-06",
+    "level": "B1",
+    "kind": "dialogue",
+    "title": "A Plan for Grandpa",
+    "titleTh": "แผนสำหรับคุณตา",
+    "topic": "family",
+    "paragraphs": [
+      "Pim: Ton, Grandpa's seventieth birthday is next Saturday, and we still haven't planned anything. Ton: I know. I've been thinking about it all week. What if we have a big surprise party at his house in Chiang Mai?",
+      "Pim: A surprise party? Grandpa hates surprises. Remember when Dad bought him a new television without asking? He was annoyed for days. Ton: That's true. But this is different. Everyone loves a party with their family.",
+      "Pim: Maybe. But if we invite thirty people to his house, he'll only worry about the mess. What does Grandpa really love? Ton: His garden, old Thai songs, and Grandma's mango sticky rice. Oh, and he's always wanted to learn how to make a video call, so he can talk to Uncle Chai in Australia.",
+      "Pim: That's it! Instead of a big party, let's have a small lunch in his garden. Grandma can make the mango sticky rice, and we can play his favourite songs. Ton: And after lunch, we can set up a video call with Uncle Chai. Grandpa hasn't seen him for five years.",
+      "Pim: Perfect. But we shouldn't tell Grandpa about the call. Ton: So it is a surprise after all! Pim: Only a small one. Even Grandpa can't hate that."
+    ],
+    "translationTH": [
+      "พิม: ต้น วันเกิดเจ็ดสิบปีของคุณตาคือวันเสาร์หน้าแล้ว แต่เรายังไม่ได้วางแผนอะไรเลย ต้น: รู้แล้ว ฉันคิดเรื่องนี้มาทั้งสัปดาห์ ถ้าเราจัดปาร์ตี้เซอร์ไพรส์ใหญ่ ๆ ที่บ้านคุณตาที่เชียงใหม่ล่ะ",
+      "พิม: ปาร์ตี้เซอร์ไพรส์เหรอ คุณตาเกลียดเรื่องเซอร์ไพรส์นะ จำได้ไหมตอนที่พ่อซื้อทีวีเครื่องใหม่ให้โดยไม่ถามก่อน คุณตาหงุดหงิดไปหลายวันเลย ต้น: จริงด้วย แต่ครั้งนี้ไม่เหมือนกัน ใคร ๆ ก็ชอบงานเลี้ยงกับครอบครัวทั้งนั้น",
+      "พิม: ก็อาจจะนะ แต่ถ้าเราชวนคนสามสิบคนไปบ้าน คุณตาคงได้แต่กังวลเรื่องบ้านรก แล้วคุณตาชอบอะไรจริง ๆ ล่ะ ต้น: สวนของท่าน เพลงไทยเก่า ๆ แล้วก็ข้าวเหนียวมะม่วงของคุณยาย อ้อ แล้วท่านก็อยากเรียนวิธีวิดีโอคอลมาตลอด จะได้คุยกับน้าชัยที่ออสเตรเลีย",
+      "พิม: นั่นแหละ แทนที่จะจัดงานใหญ่ เรามากินข้าวกลางวันเล็ก ๆ ในสวนของคุณตากันเถอะ คุณยายทำข้าวเหนียวมะม่วงได้ แล้วเราก็เปิดเพลงโปรดของท่าน ต้น: แล้วหลังกินข้าว เราก็ต่อวิดีโอคอลกับน้าชัย คุณตาไม่ได้เจอน้ามาห้าปีแล้ว",
+      "พิม: เยี่ยมเลย แต่เราไม่ควรบอกคุณตาเรื่องวิดีโอคอลนะ ต้น: สรุปก็เป็นเซอร์ไพรส์อยู่ดีนี่นา พิม: แค่เซอร์ไพรส์เล็ก ๆ เท่านั้น ขนาดคุณตายังเกลียดไม่ลงหรอก"
+    ],
+    "glossary": [
+      {
+        "word": "surprise",
+        "pos": "noun",
+        "th": "เรื่องที่ทำให้ประหลาดใจ"
+      },
+      {
+        "word": "annoyed",
+        "pos": "adjective",
+        "th": "หงุดหงิด รำคาญ"
+      },
+      {
+        "word": "invite",
+        "pos": "verb",
+        "th": "เชิญ"
+      },
+      {
+        "word": "mess",
+        "pos": "noun",
+        "th": "ความสกปรกรกรุงรัง"
+      },
+      {
+        "word": "video call",
+        "pos": "phrase",
+        "th": "การโทรแบบเห็นหน้า วิดีโอคอล"
+      },
+      {
+        "word": "instead of",
+        "pos": "phrase",
+        "th": "แทนที่จะ"
+      },
+      {
+        "word": "set up",
+        "pos": "phrase",
+        "th": "จัดเตรียม ติดตั้ง"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "stem": "What are Pim and Ton doing in this conversation?",
+        "options": [
+          "Choosing a new television for Grandpa",
+          "Learning how to make a video call",
+          "Cooking mango sticky rice with Grandma",
+          "Planning a birthday celebration for Grandpa"
+        ],
+        "answer": 3,
+        "evidence": "Grandpa's seventieth birthday is next Saturday, and we still haven't planned anything",
+        "explanationTH": "ทั้งสองคนคุยกันเพื่อวางแผนฉลองวันเกิดเจ็ดสิบปีของคุณตา"
+      },
+      {
+        "type": "detail",
+        "stem": "Why doesn't Pim like Ton's first idea?",
+        "options": [
+          "Grandpa does not like surprises",
+          "Grandpa's house is too far away",
+          "Thirty people cannot come on Saturday",
+          "Dad wants to buy a television"
+        ],
+        "answer": 0,
+        "evidence": "A surprise party? Grandpa hates surprises.",
+        "explanationTH": "พิมบอกว่าคุณตาเกลียดเรื่องเซอร์ไพรส์ จึงไม่ชอบไอเดียปาร์ตี้เซอร์ไพรส์"
+      },
+      {
+        "type": "inference",
+        "stem": "What does Pim mean when she says \"Even Grandpa can't hate that\"?",
+        "options": [
+          "Grandpa will be angry about the call",
+          "A small, happy surprise will please Grandpa",
+          "Grandpa wants a bigger party",
+          "Grandpa has already heard about the plan"
+        ],
+        "answer": 1,
+        "evidence": "Only a small one. Even Grandpa can't hate that.",
+        "explanationTH": "พิมเชื่อว่าเซอร์ไพรส์เล็ก ๆ อย่างการได้คุยกับน้าชัยจะทำให้คุณตามีความสุข"
+      },
+      {
+        "type": "detail",
+        "stem": "Where does Uncle Chai live?",
+        "options": [
+          "In Chiang Mai",
+          "Next to Grandpa's garden",
+          "In Australia",
+          "In Grandma's house"
+        ],
+        "answer": 2,
+        "evidence": "so he can talk to Uncle Chai in Australia",
+        "explanationTH": "ต้นบอกว่าคุณตาอยากคุยวิดีโอคอลกับน้าชัยที่ออสเตรเลีย"
+      },
+      {
+        "type": "vocab",
+        "stem": "What does the word \"annoyed\" mean in paragraph 2?",
+        "options": [
+          "A little angry",
+          "Very hungry",
+          "Very surprised and happy",
+          "Quite tired"
+        ],
+        "answer": 0,
+        "evidence": "He was annoyed for days.",
+        "explanationTH": "annoyed แปลว่าหงุดหงิดหรือโกรธเล็กน้อย เพราะคุณตาไม่ชอบที่พ่อซื้อทีวีโดยไม่ถาม"
+      }
+    ],
+    "tipTH": "ในบทสนทนา ให้ฟังว่าใครเสนอความคิดอะไร และอีกคนเห็นด้วยหรือคัดค้าน เพราะแผนสุดท้ายเกิดจากการรวมความคิดของทั้งสองคน"
+  }
+]

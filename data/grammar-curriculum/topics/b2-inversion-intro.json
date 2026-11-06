@@ -1,0 +1,504 @@
+{
+  "id": "b2-inversion-intro",
+  "summaryTh": "ขึ้นต้นด้วย Never / Rarely / Not only … แล้วสลับกริยาช่วยมาไว้หน้าประธาน เพื่อเน้นความหมาย",
+  "concept": {
+    "what": "Inversion คือการสลับตำแหน่งให้กริยาช่วย (have, do/does/did, be, can …) มาอยู่หน้าประธานเหมือนประโยคคำถาม แต่ไม่ใช่คำถาม — เกิดเมื่อขึ้นต้นประโยคด้วยคำที่มีความหมายปฏิเสธหรือจำกัด เช่น Never, Rarely, Seldom, Not only, Hardly, No sooner, Little",
+    "when": [
+      "ต้องการเน้นความรู้สึกหรือความพิเศษ: Never have I seen such a beautiful sunset.",
+      "บอกความถี่น้อยแบบเน้น: Rarely does he complain.",
+      "บอกสองเรื่องพร้อมกันแบบเน้น: Not only did she pass, but she also got the top score.",
+      "บอกว่าเหตุการณ์หนึ่งเกิดทันทีหลังอีกเหตุการณ์: Hardly had we sat down when … / No sooner had we sat down than …",
+      "ใช้ในงานเขียน สุนทรพจน์ การเล่าเรื่องแบบมีอารมณ์ — ภาษาพูดทั่วไปมักใช้ลำดับปกติ (I have never seen …)"
+    ],
+    "why": "ภาษาไทยไม่มีการสลับประธานกับกริยาช่วยเพื่อเน้น ผู้เรียนไทยจึงมักขึ้นต้นด้วย Never แต่เรียงคำปกติ (Never I have seen …) หรือลืมใส่ do/does/did ในประโยค Present/Past Simple (Rarely he goes …) — จำง่าย ๆ ว่าหลังคำเหล่านี้ให้เรียงเหมือนประโยคคำถาม"
+  },
+  "structure": {
+    "formula": "Negative adverb + Auxiliary + Subject + Verb …",
+    "rows": [
+      {
+        "label": "Never / Rarely / Seldom",
+        "formula": "Never / Rarely / Seldom + aux + S + V",
+        "example": "[[Never have I seen]] such a big crowd."
+      },
+      {
+        "label": "Present/Past Simple (ไม่มีกริยาช่วย)",
+        "formula": "Adverb + do / does / did + S + V1",
+        "example": "[[Rarely does]] my father [[take]] a day off."
+      },
+      {
+        "label": "Not only … but (also)",
+        "formula": "Not only + aux + S + V …, but S + also + V …",
+        "example": "[[Not only did]] she [[win]] the race, but she also broke the record."
+      },
+      {
+        "label": "Hardly / Scarcely … when",
+        "formula": "Hardly + had + S + V3 … when + Past Simple",
+        "example": "[[Hardly had]] we [[sat]] down when the lights went out."
+      },
+      {
+        "label": "No sooner … than",
+        "formula": "No sooner + had + S + V3 … than + Past Simple",
+        "example": "[[No sooner had]] I [[left]] the house than it started to rain."
+      },
+      {
+        "label": "Little",
+        "formula": "Little + did + S + know / realise …",
+        "example": "[[Little did]] he [[know]] about the surprise party."
+      }
+    ],
+    "notes": [
+      "สลับเฉพาะเมื่อคำเหล่านี้อยู่ต้นประโยค — ถ้าอยู่กลางประโยคใช้ลำดับปกติ: I have never seen …",
+      "ถ้าไม่มีกริยาช่วย ให้เติม do / does / did แล้วกริยาหลักกลับเป็น V1: Rarely does he go (ไม่ใช่ goes)",
+      "No sooner คู่กับ than · Hardly / Scarcely คู่กับ when (บางครั้งใช้ before) — อย่าสลับคู่",
+      "be สลับได้เลย: Never was I so happy. / Not only is he clever, but he is also kind."
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[Never have I seen]] such a beautiful beach.",
+      "th": "ฉันไม่เคยเห็นชายหาดที่สวยขนาดนี้มาก่อนเลย"
+    },
+    {
+      "en": "[[Rarely does]] my father [[take]] a day off.",
+      "th": "พ่อของฉันแทบไม่เคยลางานเลย"
+    },
+    {
+      "en": "[[Not only did]] she [[pass]] the exam, but she also got the highest score.",
+      "th": "เธอไม่เพียงสอบผ่าน แต่ยังได้คะแนนสูงสุดอีกด้วย"
+    },
+    {
+      "en": "[[Hardly had]] we [[sat]] down when the lights went out.",
+      "th": "พวกเราเพิ่งจะนั่งลงไฟก็ดับทันที"
+    },
+    {
+      "en": "[[No sooner had]] I [[left]] the house than it started to rain.",
+      "th": "ฉันเพิ่งออกจากบ้านปุ๊บ ฝนก็ตกปั๊บ"
+    },
+    {
+      "en": "[[Seldom do]] we [[get]] such good weather in April.",
+      "th": "พวกเราแทบไม่ค่อยได้เจออากาศดีแบบนี้ในเดือนเมษายน"
+    },
+    {
+      "en": "[[Little did]] he [[know]] that his friends were planning a surprise party.",
+      "th": "เขาไม่รู้เลยสักนิดว่าเพื่อน ๆ กำลังวางแผนจัดปาร์ตี้เซอร์ไพรส์"
+    },
+    {
+      "en": "[[Not only is]] the hotel cheap, but it is also very close to the station.",
+      "th": "โรงแรมนี้ไม่เพียงราคาถูก แต่ยังอยู่ใกล้สถานีมากด้วย"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Never I have seen such a big crowd.",
+      "right": "Never have I seen such a big crowd.",
+      "whyTh": "ขึ้นต้นด้วย Never ต้องสลับกริยาช่วย have มาไว้หน้าประธาน I (เรียงเหมือนคำถาม)"
+    },
+    {
+      "wrong": "Rarely he goes out at night.",
+      "right": "Rarely does he go out at night.",
+      "whyTh": "Present Simple ไม่มีกริยาช่วย จึงต้องเติม does แล้วกริยาหลักกลับเป็น V1 (go)"
+    },
+    {
+      "wrong": "Not only she sings, but she also dances.",
+      "right": "Not only does she sing, but she also dances.",
+      "whyTh": "Not only ต้นประโยคต้องสลับเป็น does she sing — ส่วนหลัง but เรียงปกติ"
+    },
+    {
+      "wrong": "No sooner had we arrived when it began to rain.",
+      "right": "No sooner had we arrived than it began to rain.",
+      "whyTh": "No sooner คู่กับ than เสมอ (Hardly จึงคู่กับ when)"
+    },
+    {
+      "wrong": "Hardly we had started when the teacher stopped us.",
+      "right": "Hardly had we started when the teacher stopped us.",
+      "whyTh": "Hardly ต้นประโยคต้องสลับเป็น had we started"
+    }
+  ],
+  "compare": {
+    "title": "ลำดับปกติ vs Inversion",
+    "with": [],
+    "rows": [
+      {
+        "label": "Never",
+        "a": "I have never seen such a mess.",
+        "b": "Never have I seen such a mess."
+      },
+      {
+        "label": "Rarely",
+        "a": "He rarely complains.",
+        "b": "Rarely does he complain."
+      },
+      {
+        "label": "Not only",
+        "a": "She not only sings but also dances.",
+        "b": "Not only does she sing, but she also dances."
+      },
+      {
+        "label": "ทันทีหลังจาก",
+        "a": "As soon as I got home, the phone rang.",
+        "b": "No sooner had I got home than the phone rang."
+      },
+      {
+        "label": "น้ำเสียง",
+        "a": "ปกติ ใช้ในการพูดทั่วไป",
+        "b": "เน้น มีอารมณ์ เป็นทางการ ใช้ในงานเขียน"
+      }
+    ],
+    "tipTh": "Inversion ไม่ได้เปลี่ยนความหมาย แค่เพิ่มการเน้น — เมื่อคำปฏิเสธอยู่หน้าประโยค ให้เรียงต่อเหมือนประโยคคำถาม"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "A disastrous day out",
+      "lines": [
+        {
+          "text": "Last Saturday was a disaster. [[No sooner had]] we [[reached]] the beach [[than]] it started to pour. [[Not only did]] we [[get]] completely soaked, but we also lost the car keys in the sand. [[Little did]] we [[know]] that the worst was yet to come: the last bus had already left."
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "Restaurant review post",
+      "lines": [
+        {
+          "text": "[[Never have I eaten]] such amazing tom yum! [[Not only is]] the food delicious, but the staff are also super friendly. [[Rarely do]] I [[write]] reviews, but this place deserves five stars."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "After the job interview",
+      "lines": [
+        {
+          "speaker": "Ann",
+          "text": "How did the interview go?"
+        },
+        {
+          "speaker": "Pete",
+          "text": "Terrible. [[Hardly had]] I [[sat]] down [[when]] my phone started ringing!"
+        },
+        {
+          "speaker": "Ann",
+          "text": "Oh no! Didn't you switch it off?"
+        },
+        {
+          "speaker": "Pete",
+          "text": "I thought I had. [[Never have I felt]] so embarrassed."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Inversion",
+      "th": "การสลับให้กริยาช่วยมาอยู่หน้าประธาน เพื่อเน้น"
+    },
+    {
+      "en": "Auxiliary verb",
+      "th": "กริยาช่วย เช่น have, do, does, did, be, can, will"
+    },
+    {
+      "en": "Negative adverbial",
+      "th": "คำ/วลีที่มีความหมายปฏิเสธหรือจำกัด เช่น never, rarely, hardly, little"
+    },
+    {
+      "en": "Emphasis",
+      "th": "การเน้นให้ข้อความหนักแน่นหรือมีอารมณ์มากขึ้น"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-inversion-intro-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Never ___ such a delicious meal.",
+      "choices": [
+        "I have eaten",
+        "have I eaten",
+        "I ate",
+        "did I ate"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "ขึ้นต้นด้วย Never ต้องสลับกริยาช่วยไว้หน้าประธาน (have I)",
+        "2": "ไม่มีการสลับ และ Never ต้นประโยคต้องตามด้วยกริยาช่วย",
+        "3": "หลัง did ต้องใช้ V1 (did I eat) ไม่ใช่ ate"
+      },
+      "explainTh": "Never + aux + S + V3 → Never have I eaten … (= I have never eaten …)",
+      "structure": "Never + have + S + V3",
+      "example": "Never have I eaten such a delicious meal."
+    },
+    {
+      "id": "b2-inversion-intro-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Rarely ___ he arrive late for work.",
+      "choices": [
+        "does",
+        "do",
+        "is",
+        "has"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประธาน he ใช้ does ไม่ใช่ do",
+        "2": "is ต้องตามด้วย V-ing หรือคำคุณศัพท์ ไม่ใช่ arrive",
+        "3": "has ต้องตามด้วย V3 (arrived) ไม่ใช่ arrive"
+      },
+      "explainTh": "Present Simple ไม่มีกริยาช่วย → เติม does + he + V1: Rarely does he arrive …",
+      "structure": "Rarely + does + S + V1"
+    },
+    {
+      "id": "b2-inversion-intro-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "Not only ___ she speak English, but she also speaks Chinese. (do / does / did)",
+      "accepted": [
+        "does"
+      ],
+      "explainTh": "ประโยคหลังใช้ speaks (ปัจจุบัน) และประธานเป็น she → Not only does she speak …",
+      "structure": "Not only + does + S + V1, but …",
+      "example": "Not only does she speak English, but she also speaks Chinese."
+    },
+    {
+      "id": "b2-inversion-intro-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "No sooner had the film started ___ the power went off. (ใส่คำเดียว)",
+      "accepted": [
+        "than"
+      ],
+      "explainTh": "No sooner … than เป็นคู่ตายตัว (ส่วน Hardly … when) = พอ … ปุ๊บ ก็ … ปั๊บ",
+      "structure": "No sooner + had + S + V3 … than …"
+    },
+    {
+      "id": "b2-inversion-intro-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Never I have been so embarrassed in my life.",
+      "errorPart": "I have",
+      "accepted": [
+        "Never have I been so embarrassed in my life.",
+        "I have never been so embarrassed in my life."
+      ],
+      "explainTh": "ขึ้นต้นด้วย Never ต้องสลับเป็น have I (หรือย้าย never ไปไว้กลางประโยคแบบปกติ)"
+    },
+    {
+      "id": "b2-inversion-intro-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Rarely does she eats meat these days.",
+      "errorPart": "eats",
+      "accepted": [
+        "Rarely does she eat meat these days.",
+        "She rarely eats meat these days."
+      ],
+      "explainTh": "does บอกบุรุษที่ 3 ไปแล้ว กริยาหลักจึงกลับเป็น V1: does she eat"
+    },
+    {
+      "id": "b2-inversion-intro-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "seldom",
+        "do",
+        "we",
+        "get",
+        "such",
+        "good",
+        "weather",
+        "in",
+        "April"
+      ],
+      "accepted": [
+        "Seldom do we get such good weather in April.",
+        "In April seldom do we get such good weather."
+      ],
+      "explainTh": "Seldom + do + we + V1 … — เรียงเหมือนประโยคคำถามหลังคำว่า Seldom"
+    },
+    {
+      "id": "b2-inversion-intro-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I have never heard such a strange story.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Never",
+      "accepted": [
+        "Never have I heard such a strange story."
+      ],
+      "explainTh": "ย้าย Never ขึ้นต้น แล้วสลับ have กับ I: Never have I heard …"
+    },
+    {
+      "id": "b2-inversion-intro-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "As soon as I got home, my phone rang.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย No sooner",
+      "accepted": [
+        "No sooner had I got home than my phone rang.",
+        "No sooner had I gotten home than my phone rang.",
+        "No sooner did I get home than my phone rang."
+      ],
+      "explainTh": "No sooner + had + S + V3 … than + Past Simple → No sooner had I got home than my phone rang."
+    },
+    {
+      "id": "b2-inversion-intro-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยค",
+      "pairs": [
+        [
+          "No sooner had we sat down",
+          "than the music started."
+        ],
+        [
+          "Hardly had I closed my eyes",
+          "when the alarm went off."
+        ],
+        [
+          "Not only is he clever,",
+          "but he is also very kind."
+        ],
+        [
+          "Never have I",
+          "felt so nervous before an exam."
+        ],
+        [
+          "Little did she know",
+          "that we had planned a party for her."
+        ]
+      ],
+      "explainTh": "No sooner → than · Hardly → when · Not only … but also · Never have I + V3 · Little did she know + that-clause"
+    },
+    {
+      "id": "b2-inversion-intro-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "Hardly had I opened the door when the cat ran out.",
+        "Hardly I had opened the door when the cat ran out.",
+        "Hardly had I open the door when the cat ran out.",
+        "Hardly did I opened the door when the cat ran out."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Hardly ต้นประโยคต้องสลับเป็น had I",
+        "2": "หลัง had ต้องใช้ V3 (opened)",
+        "3": "หลัง did ต้องใช้ V1 และโครงสร้างนี้ปกติใช้ had + V3"
+      },
+      "explainTh": "Hardly + had + S + V3 … when + Past Simple = เพิ่งจะ … ก็ … ทันที"
+    },
+    {
+      "id": "b2-inversion-intro-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How was the concert last night?"
+          },
+          {
+            "speaker": "B",
+            "text": "Amazing! Never ___ such a talented singer."
+          }
+        ]
+      },
+      "choices": [
+        "have I heard",
+        "I have heard",
+        "I heard",
+        "heard I"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง Never ต้นประโยคต้องสลับเป็น have I",
+        "2": "ไม่มีกริยาช่วยและไม่ได้สลับ",
+        "3": "ภาษาอังกฤษสมัยใหม่ไม่สลับกริยาหลักกับประธานตรง ๆ ต้องใช้กริยาช่วย"
+      },
+      "explainTh": "Never + have + I + V3 → Never have I heard such a talented singer. (= ไม่เคยได้ยินมาก่อนในชีวิต)"
+    },
+    {
+      "id": "b2-inversion-intro-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "A disastrous day out",
+        "lines": [
+          {
+            "text": "Last Saturday was a disaster. No sooner had we reached the beach than it started to pour. Not only did we get completely soaked, but we also lost the car keys in the sand."
+          }
+        ]
+      },
+      "question": "When did it start to rain?",
+      "choices": [
+        "Immediately after they reached the beach.",
+        "A long time after they reached the beach.",
+        "Before they left home.",
+        "After they lost the car keys."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "No sooner … than แปลว่าทันที ไม่ใช่นานหลังจากนั้น",
+        "2": "ฝนตกหลังจากถึงชายหาด ไม่ใช่ก่อนออกจากบ้าน",
+        "3": "เรื่องกุญแจหายเล่าทีหลัง และ Not only … but also ไม่ได้บอกลำดับเวลา"
+      },
+      "explainTh": "No sooner had we reached the beach than it started to pour = พอถึงชายหาดปุ๊บ ฝนก็เทลงมาปั๊บ"
+    },
+    {
+      "id": "b2-inversion-intro-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Little ___ that the exam had been cancelled.",
+      "choices": [
+        "did we know",
+        "we knew",
+        "we did know",
+        "knew we"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Little ต้นประโยค (ความหมาย = แทบไม่รู้เลย) ต้องสลับเป็น did we know",
+        "2": "did ต้องอยู่หน้าประธาน ไม่ใช่หลัง",
+        "3": "ต้องใช้กริยาช่วย did มาสลับ ไม่สลับกริยาหลักตรง ๆ"
+      },
+      "explainTh": "Little + did + S + know … = ไม่รู้เลยสักนิดว่า … (ใช้ในการเล่าเรื่องแบบหักมุม)"
+    },
+    {
+      "id": "b2-inversion-intro-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Not only ___ his wallet, but he also missed his flight. (he / lose)",
+      "accepted": [
+        "did he lose"
+      ],
+      "explainTh": "อดีต (missed) + Not only ต้นประโยค → did + he + V1: Not only did he lose his wallet …",
+      "structure": "Not only + did + S + V1, but S + also + V2"
+    },
+    {
+      "id": "b2-inversion-intro-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าประสบการณ์ที่น่าจดจำ (ดีหรือแย่ก็ได้) ใช้ inversion อย่างน้อย 2 ประโยค เช่น Never have I …, Not only did …, No sooner had … than … (Write 3 sentences about a memorable experience using at least two inversion structures.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "(^|[.!?]\\s+)(never|rarely|seldom|hardly|scarcely|little|not only|no sooner|only then|only after|only when)\\s+(\\w+\\s+){0,4}?(have|has|had|do|does|did|is|are|was|were|can|could|will|would)\\s+(i|you|he|she|it|we|they|the|a|an|my|our|your|his|her|their|this|that|these|those|people|everyone|anyone|nobody)\\b[\\s\\S]*?(^|[.!?]\\s+)(never|rarely|seldom|hardly|scarcely|little|not only|no sooner|only then|only after|only when)\\s+(\\w+\\s+){0,4}?(have|has|had|do|does|did|is|are|was|were|can|could|will|would)\\s+(i|you|he|she|it|we|they|the|a|an|my|our|your|his|her|their|this|that|these|those|people|everyone|anyone|nobody)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ inversion อย่างน้อย 2 ประโยค: ขึ้นต้นด้วย Never / Not only / No sooner … แล้วสลับกริยาช่วยไว้หน้าประธาน เช่น Never have I …"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\bno sooner\\b[^.!?]*\\bwhen\\b",
+          "flags": "i",
+          "msgTh": "No sooner ต้องคู่กับ than ไม่ใช่ when"
+        }
+      ],
+      "sample": "Never have I seen such a beautiful sunrise. No sooner had we reached the top of the mountain than the sun came up. Not only did we take lots of photos, but we also had breakfast there.",
+      "explainTh": "หลังคำปฏิเสธต้นประโยคต้องเรียง aux + ประธาน + กริยา (have I seen, had we reached, did we take) และจับคู่ No sooner … than ให้ถูก"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "a1-present-continuous",
+  "summaryTh": "บอกว่ากำลังทำอะไรอยู่ตอนนี้ ด้วย am / is / are + V-ing",
+  "concept": {
+    "what": "Present Continuous คือรูปกริยาที่บอกว่า \"กำลังทำ\" อะไรอยู่ในตอนนี้ หรือช่วงนี้ โครงสร้างคือ am / is / are + กริยาเติม -ing เช่น I am eating. (ฉันกำลังกิน)",
+    "when": [
+      "สิ่งที่กำลังเกิดขึ้นตอนที่พูด มักมีคำว่า now, right now, at the moment (She is sleeping now.)",
+      "หลังคำเรียกให้ดูหรือฟัง เช่น Look! / Listen! (Look! It's raining.)",
+      "เรื่องชั่วคราวในช่วงนี้ เช่น today, this week (I'm staying with my aunt this week.)"
+    ],
+    "why": "ภาษาไทยแค่เติมคำว่า \"กำลัง\" แต่ภาษาอังกฤษต้องมีทั้ง be (am / is / are) และ -ing คนไทยจึงมักลืม be (I watching TV) — และต้องแยกให้ออกจาก Present Simple ซึ่งใช้กับสิ่งที่ทำ \"เป็นประจำ\""
+  },
+  "structure": {
+    "formula": "Subject + am / is / are + V-ing",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "Subject + am / is / are + V-ing", "example": "They [[are playing]] football." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + am not / isn't / aren't + V-ing", "example": "She [[isn't watching]] TV." },
+      { "label": "คำถาม (Question)", "formula": "Am / Is / Are + Subject + V-ing …?", "example": "[[Are]] you [[listening]] to me?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + am/is/are. / No, Subject + 'm not / isn't / aren't.", "example": "Yes, I [[am]]. · No, he [[isn't]]." },
+      { "label": "คำถาม Wh-", "formula": "Wh- + am / is / are + Subject + V-ing?", "example": "What [[are]] you [[doing]]?" }
+    ],
+    "notes": [
+      "I → am · he / she / it → is · you / we / they → are",
+      "ลงท้ายด้วย e ตัด e แล้วเติม -ing: make → making, write → writing",
+      "สระเสียงสั้นตัวเดียว + พยัญชนะตัวเดียว ให้เพิ่มพยัญชนะตัวท้าย: run → running, swim → swimming, sit → sitting",
+      "กริยาบอกความรู้สึกหรือความคิด เช่น like, love, want, know, need ปกติไม่ใช้รูป -ing (I want … ไม่ใช่ I am wanting …)",
+      "ย่อได้: I'm, he's, she's, they're, isn't, aren't"
+    ]
+  },
+  "examples": [
+    { "en": "I [[am doing]] my homework now.", "th": "ตอนนี้ฉันกำลังทำการบ้าน" },
+    { "en": "Look! The baby [[is sleeping]].", "th": "ดูสิ เด็กทารกกำลังหลับ" },
+    { "en": "They [[are playing]] football in the park.", "th": "พวกเขากำลังเล่นฟุตบอลในสวนสาธารณะ" },
+    { "en": "She [[isn't watching]] TV. She [[is reading]] a book.", "th": "เธอไม่ได้ดูทีวี เธอกำลังอ่านหนังสือ" },
+    { "en": "[[Are]] you [[listening]] to me? — Yes, I [[am]].", "th": "คุณฟังฉันอยู่หรือเปล่า — ฟังอยู่" },
+    { "en": "What [[are]] you [[eating]]? — Mango sticky rice!", "th": "กำลังกินอะไรอยู่ — ข้าวเหนียวมะม่วง" },
+    { "en": "It [[is raining]] at the moment.", "th": "ตอนนี้ฝนกำลังตก" },
+    { "en": "Shh! Dad [[is talking]] on the phone.", "th": "จุ๊ ๆ พ่อกำลังคุยโทรศัพท์" }
+  ],
+  "mistakes": [
+    { "wrong": "I watching TV now.", "right": "I am watching TV now.", "whyTh": "ต้องมี be (am / is / are) หน้า V-ing เสมอ — ภาษาไทยใช้แค่ \"กำลัง\" จึงลืม am บ่อย" },
+    { "wrong": "She is cook dinner.", "right": "She is cooking dinner.", "whyTh": "หลัง is ต้องเป็น V-ing (cooking) ไม่ใช่กริยาช่องที่ 1" },
+    { "wrong": "He is swiming.", "right": "He is swimming.", "whyTh": "swim มีสระเสียงสั้นตัวเดียว + พยัญชนะตัวเดียว ต้องเพิ่ม m อีกตัว → swimming" },
+    { "wrong": "I am liking this song.", "right": "I like this song.", "whyTh": "like เป็นกริยาบอกความรู้สึก ปกติไม่ใช้รูป -ing ใช้ Present Simple แทน" },
+    { "wrong": "Are you know him?", "right": "Do you know him?", "whyTh": "know ไม่ใช้รูป -ing จึงถามด้วย Do แบบ Present Simple" },
+    { "wrong": "I am going to school by bus every day.", "right": "I go to school by bus every day.", "whyTh": "every day = กิจวัตร ใช้ Present Simple ไม่ใช่ Present Continuous" }
+  ],
+  "compare": {
+    "title": "Present Continuous vs Present Simple",
+    "with": ["a1-present-simple"],
+    "rows": [
+      { "label": "ใช้เมื่อ", "a": "กำลังทำอยู่ตอนนี้ / ช่วงนี้ชั่วคราว", "b": "ทำเป็นประจำ นิสัย ความจริง" },
+      { "label": "คำบอกเวลา", "a": "now, right now, at the moment, today, Look!, Listen!", "b": "every day, usually, often, on Mondays" },
+      { "label": "โครงสร้าง", "a": "am / is / are + V-ing", "b": "V1 / V1-s · don't / doesn't + V1" },
+      { "label": "กริยา like, want, know", "a": "ปกติไม่ใช้รูปนี้", "b": "ใช้รูปนี้ (I like / I know)" },
+      { "label": "ตัวอย่าง", "a": "She is cooking now.", "b": "She cooks every evening." }
+    ],
+    "tipTh": "ถามตัวเองว่า \"กำลังเกิดตอนนี้\" หรือ \"เกิดเป็นประจำ\" — ตอนนี้ใช้ am/is/are + V-ing · เป็นประจำใช้ V1/V1-s"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "On the phone",
+      "lines": [
+        { "speaker": "Mum", "text": "Hi, Pim. What [[are]] you [[doing]]?" },
+        { "speaker": "Pim", "text": "I[['m studying]] in the library. Ben [[is helping]] me with maths." },
+        { "speaker": "Mum", "text": "[[Is]] it [[raining]] there?" },
+        { "speaker": "Pim", "text": "No, it [[isn't]]. The sun [[is shining]]!" }
+      ]
+    },
+    {
+      "kind": "social", "title": "Holiday post",
+      "lines": [
+        { "text": "Hello from Phuket! My brother [[is swimming]] in the sea and Mum [[is reading]] under a tree. I[['m not swimming]] — I[['m eating]] mango sticky rice! We come here every December, and I love it." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Present Continuous", "th": "ปัจจุบันกาลกำลังกระทำ — กำลังทำอยู่ตอนนี้" },
+    { "en": "-ing form", "th": "กริยาเติม -ing เช่น playing, eating" },
+    { "en": "Stative verb", "th": "กริยาบอกความรู้สึก/ความคิด เช่น like, want, know — ปกติไม่ใช้ -ing" },
+    { "en": "Temporary", "th": "ชั่วคราว เกิดแค่ช่วงนี้ ไม่ใช่ประจำ" }
+  ],
+  "practice": [
+    {
+      "id": "a1-present-continuous-01", "type": "mc", "difficulty": 1,
+      "question": "Look! The children ___ in the garden.",
+      "choices": ["play", "plays", "are playing", "is playing"], "answer": 2,
+      "whyNot": { "0": "Look! บอกว่ากำลังเกิดตอนนี้ ใช้รูป V1 ธรรมดาไม่ได้", "1": "plays ใช้กับประธานเอกพจน์และเป็นกิจวัตร แต่ children เป็นพหูพจน์และกำลังเล่นอยู่ตอนนี้", "3": "children เป็นพหูพจน์ ต้องใช้ are ไม่ใช่ is" },
+      "explainTh": "Look! = กำลังเกิดตอนนี้ → Present Continuous · children (พหูพจน์) ใช้ are → are playing",
+      "structure": "Subject + are + V-ing", "example": "Look! The children are playing in the garden."
+    },
+    {
+      "id": "a1-present-continuous-02", "type": "fill", "difficulty": 1,
+      "question": "I ___ (read) a book at the moment.",
+      "accepted": ["am reading"],
+      "explainTh": "at the moment = ตอนนี้ → Present Continuous · ประธาน I ใช้ am → am reading",
+      "structure": "I + am + V-ing", "example": "I am reading a book at the moment."
+    },
+    {
+      "id": "a1-present-continuous-03", "type": "fill", "difficulty": 2,
+      "question": "She ___ (not / sleep) now. She is watching TV.",
+      "accepted": ["isn't sleeping", "is not sleeping"],
+      "explainTh": "now = ตอนนี้ · ปฏิเสธ: is not (isn't) + V-ing → isn't sleeping",
+      "structure": "Subject + isn't + V-ing", "example": "She isn't sleeping now."
+    },
+    {
+      "id": "a1-present-continuous-04", "type": "fill", "difficulty": 2,
+      "question": "Listen! Someone ___ (sing) in the next room.",
+      "accepted": ["is singing"],
+      "explainTh": "Listen! = กำลังเกิดตอนนี้ · someone เป็นเอกพจน์ ใช้ is → is singing",
+      "structure": "Subject + is + V-ing"
+    },
+    {
+      "id": "a1-present-continuous-05", "type": "fill", "difficulty": 3,
+      "question": "We ___ (swim) in the sea right now.",
+      "accepted": ["are swimming"],
+      "explainTh": "right now → Present Continuous · we ใช้ are · swim มีสระเสียงสั้น + พยัญชนะตัวเดียว ต้องเพิ่ม m → swimming",
+      "structure": "Subject + are + V-ing"
+    },
+    {
+      "id": "a1-present-continuous-06", "type": "error", "difficulty": 1,
+      "sentence": "He playing a game on his phone now.",
+      "errorPart": "He playing",
+      "accepted": ["He is playing a game on his phone now."],
+      "explainTh": "Present Continuous ต้องมี be หน้า V-ing เสมอ · ประธาน he ใช้ is → He is playing",
+      "structure": "Subject + is + V-ing"
+    },
+    {
+      "id": "a1-present-continuous-07", "type": "error", "difficulty": 3,
+      "sentence": "I am wanting a glass of water.",
+      "errorPart": "am wanting",
+      "accepted": ["I want a glass of water."],
+      "explainTh": "want เป็นกริยาบอกความต้องการ (stative verb) ปกติไม่ใช้รูป -ing แม้จะเป็นตอนนี้ → I want …"
+    },
+    {
+      "id": "a1-present-continuous-08", "type": "error", "difficulty": 2,
+      "sentence": "They are siting on the floor.",
+      "errorPart": "siting",
+      "accepted": ["They are sitting on the floor."],
+      "explainTh": "sit มีสระเสียงสั้นตัวเดียว + พยัญชนะตัวเดียว ต้องเพิ่ม t อีกตัว → sitting"
+    },
+    {
+      "id": "a1-present-continuous-09", "type": "order", "difficulty": 1,
+      "tokens": ["is", "she", "dinner", "cooking"],
+      "accepted": ["She is cooking dinner.", "Is she cooking dinner?"],
+      "explainTh": "บอกเล่า: Subject + is + V-ing + กรรม → She is cooking dinner. (ถ้าย้าย is ไปหน้าจะเป็นคำถาม Is she cooking dinner?)"
+    },
+    {
+      "id": "a1-present-continuous-10", "type": "order", "difficulty": 2,
+      "tokens": ["you", "what", "doing", "are"],
+      "accepted": ["What are you doing?"],
+      "explainTh": "คำถาม Wh-: Wh- + are + Subject + V-ing? → What are you doing?"
+    },
+    {
+      "id": "a1-present-continuous-11", "type": "transform", "difficulty": 2,
+      "source": "I watch TV every evening.",
+      "instruction": "เขียนใหม่โดยเปลี่ยน every evening เป็น now",
+      "accepted": ["I am watching TV now.", "Now I am watching TV.", "I am watching TV right now."],
+      "explainTh": "every evening (กิจวัตร) → now (ตอนนี้) จึงเปลี่ยนจาก Present Simple เป็น Present Continuous: am + watching"
+    },
+    {
+      "id": "a1-present-continuous-12", "type": "transform", "difficulty": 3,
+      "source": "They are eating lunch.",
+      "instruction": "เปลี่ยนเป็นประโยคคำถาม (Yes/No question)",
+      "accepted": ["Are they eating lunch?"],
+      "explainTh": "คำถาม Present Continuous: ย้าย are ไปไว้หน้าประธาน → Are they eating lunch?"
+    },
+    {
+      "id": "a1-present-continuous-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูป -ing ที่สะกดถูก",
+      "pairs": [["run", "running"], ["make", "making"], ["play", "playing"], ["sit", "sitting"], ["write", "writing"]],
+      "explainTh": "e ท้ายคำ ตัด e (making, writing) · สระสั้น + พยัญชนะตัวเดียว เพิ่มพยัญชนะ (running, sitting) · นอกนั้นเติม -ing ได้เลย (playing)"
+    },
+    {
+      "id": "a1-present-continuous-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I am knowing the answer.", "I know the answer.", "I knowing the answer.", "I am know the answer."], "answer": 1,
+      "whyNot": { "0": "know เป็นกริยาบอกความรู้ (stative verb) ปกติไม่ใช้รูป -ing", "2": "ไม่มี be และ know ก็ไม่ใช้รูป -ing", "3": "am ตามด้วยกริยาช่องที่ 1 ไม่ได้" },
+      "explainTh": "know, like, want, need เป็นกริยาบอกสภาพ ใช้ Present Simple แม้พูดถึงตอนนี้ → I know the answer."
+    },
+    {
+      "id": "a1-present-continuous-15", "type": "mc", "difficulty": 3,
+      "question": "My dad usually ___ to work, but today he ___ the bus.",
+      "choices": ["walks / is taking", "is walking / takes", "walks / takes", "is walking / is taking"], "answer": 0,
+      "whyNot": { "1": "usually = กิจวัตร ต้องใช้ walks ส่วน today = วันนี้ไม่เหมือนปกติ ต้องใช้ is taking", "2": "takes บอกว่าเป็นประจำ แต่ but today บอกว่าวันนี้ต่างจากปกติ (ชั่วคราว) ควรใช้ is taking", "3": "usually บอกกิจวัตร จึงใช้ is walking ไม่ได้" },
+      "explainTh": "ส่วนแรกมี usually = กิจวัตร → Present Simple (walks) · ส่วนหลัง but today = เฉพาะวันนี้ ชั่วคราว → Present Continuous (is taking)",
+      "structure": "usually + V1-s · today + is + V-ing", "example": "My dad usually walks to work, but today he is taking the bus."
+    },
+    {
+      "id": "a1-present-continuous-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Hi! Can you talk now?" },
+        { "speaker": "B", "text": "Sorry, not now. I ___ dinner with my family." }
+      ] },
+      "choices": ["have", "am having", "having", "am have"], "answer": 1,
+      "whyNot": { "0": "I have dinner … บอกกิจวัตร แต่ B กำลังกินอยู่ตอนที่คุยกัน", "2": "ขาด am หน้า V-ing", "3": "am ตามด้วยกริยาช่องที่ 1 ไม่ได้ ต้องเป็น V-ing" },
+      "explainTh": "Can you talk now? / Sorry, not now. บอกว่ากำลังทำอยู่ตอนนี้ → am having (have ที่แปลว่า \"กิน\" ใช้รูป -ing ได้)"
+    },
+    {
+      "id": "a1-present-continuous-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "social", "title": "Holiday post", "lines": [
+        { "text": "Hello from Phuket! It's sunny today. My brother is swimming in the sea and Mum is reading under a tree. Dad isn't swimming — he's taking photos. I'm eating mango sticky rice! We come here every December." }
+      ] },
+      "question": "What is Dad doing?",
+      "choices": ["He is taking photos.", "He is swimming in the sea.", "He is reading under a tree.", "He is eating mango sticky rice."], "answer": 0,
+      "whyNot": { "1": "คนที่ว่ายน้ำคือ brother และโพสต์บอกว่า Dad isn't swimming", "2": "คนที่อ่านหนังสือใต้ต้นไม้คือ Mum", "3": "คนที่กินข้าวเหนียวมะม่วงคือผู้เขียน (I'm eating)" },
+      "explainTh": "ประโยค Dad isn't swimming — he's taking photos. ใช้ Present Continuous บอกว่าพ่อกำลังถ่ายรูปอยู่ตอนนี้"
+    },
+    {
+      "id": "a1-present-continuous-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกว่าคนรอบตัวคุณกำลังทำอะไรอยู่ตอนนี้ (Write 3 sentences: what are people around you doing now?)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(am|is|are|'m|'s|'re)\\s+(not\\s+)?[a-z]+ing\\b", "flags": "i", "msgTh": "ใช้ am / is / are + V-ing อย่างน้อย 1 ครั้ง เช่น My mum is cooking." }
+      ],
+      "sample": "My mum is cooking in the kitchen. My brother is playing a game on his phone. I am writing this message in my room.",
+      "explainTh": "เรื่องที่กำลังเกิดตอนนี้ใช้ am / is / are + V-ing (is cooking, is playing, am writing) — อย่าลืม be"
+    }
+  ]
+}

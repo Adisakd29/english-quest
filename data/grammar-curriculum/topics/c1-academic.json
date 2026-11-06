@@ -1,0 +1,243 @@
+{
+  "id": "c1-academic",
+  "summaryTh": "เขียนแบบวิชาการ: impersonal it, passive เพื่อความเป็นกลาง, nominal style และภาษาทางการ",
+  "concept": {
+    "what": "โครงสร้างภาษาเขียนทางการ/วิชาการ คือชุดเครื่องมือที่ทำให้งานเขียนฟังเป็นกลางและหนักแน่น ได้แก่ impersonal it (It is evident that …, It has been argued that …), passive เมื่อผู้กระทำไม่สำคัญ (The data were collected …), nominal style คือใช้คำนามแทนกริยา (the analysis of …, an increase in …) และเลือกคำทางการแทนภาษาพูด (do not แทน don't, obtain แทน get, many แทน a lot of)",
+    "when": [
+      "รายงาน บทความวิจัย เรียงความ IELTS/C1 และอีเมลทางการ",
+      "เสนอความเห็นแบบไม่ใช้ I think: It could be argued that … / It is clear that …",
+      "อธิบายวิธีวิจัยโดยเน้นสิ่งที่ทำ ไม่ใช่คนทำ: Participants were interviewed individually.",
+      "รวมหลายความคิดให้กระชับด้วยนามวลี: The rapid growth of online shopping has …"
+    ],
+    "why": "ผู้อ่านเชิงวิชาการคาดหวังน้ำเสียงที่เป็นกลางและแม่นยำ — คนไทยมักเขียนเหมือนพูด เช่น I think, You can see that, a lot of, So, … ขึ้นต้นประโยค หรือแปลจากไทยตรงตัวจนได้ It is necessary for that … และใช้กริยาแท้ในตำแหน่งที่ต้องเป็นคำนาม (Due to the population grew ✗)"
+  },
+  "structure": {
+    "formula": "It + is + adjective + that/to … · Passive (be + V3) · Noun phrase (the + noun + of/in …)",
+    "rows": [
+      { "label": "Impersonal it + adj + that", "formula": "It is + evident/clear/likely/important + that + clause", "example": "[[It is evident that]] further research is needed." },
+      { "label": "Impersonal it + adj + to", "formula": "It is + essential/necessary/difficult + (for sb) + to + V1", "example": "[[It is essential to]] consider the long-term costs." },
+      { "label": "It + passive reporting verb", "formula": "It has been argued / suggested / shown + that + clause", "example": "[[It has been argued that]] social media harms concentration." },
+      { "label": "Passive เพื่อความเป็นกลาง", "formula": "Subject + be + V3 (ไม่บอกผู้กระทำ)", "example": "The participants [[were interviewed]] individually." },
+      { "label": "Nominal style", "formula": "the + noun + of … · a/an + noun + in …", "example": "[[The introduction of]] the new policy led to [[a sharp rise in]] applications." },
+      { "label": "คำทางการ ไม่ย่อ", "formula": "do not · cannot · a large number of · obtain · increase", "example": "The results [[do not]] support this hypothesis." }
+    ],
+    "notes": [
+      "ไม่ใช้คำย่อในงานวิชาการ: don't → do not, it's → it is, can't → cannot",
+      "เลี่ยงภาษาพูด: a lot of → many / a large number of · get → obtain/receive · big → significant/substantial · look into → investigate",
+      "หลีกเลี่ยงการขึ้นต้นประโยคด้วย And / But / So ใช้ Moreover / However / Therefore แทน",
+      "It is necessary/important + that + clause หรือ + for sb + to V — ห้ามใช้ for that",
+      "หลัง because of / due to / despite ต้องเป็นคำนามหรือนามวลี ไม่ใช่ประโยค"
+    ]
+  },
+  "examples": [
+    { "en": "[[It is widely accepted that]] regular exercise improves mental health.", "th": "เป็นที่ยอมรับกันอย่างกว้างขวางว่าการออกกำลังกายสม่ำเสมอช่วยให้สุขภาพจิตดีขึ้น" },
+    { "en": "[[It is important to note that]] the sample size was small.", "th": "ควรตั้งข้อสังเกตว่ากลุ่มตัวอย่างมีขนาดเล็ก" },
+    { "en": "The questionnaires [[were distributed]] to 300 undergraduate students.", "th": "แบบสอบถามถูกแจกให้นักศึกษาปริญญาตรี 300 คน" },
+    { "en": "[[The rapid growth of]] online shopping has transformed the retail sector.", "th": "การเติบโตอย่างรวดเร็วของการซื้อของออนไลน์ได้เปลี่ยนแปลงธุรกิจค้าปลีก" },
+    { "en": "[[There has been a significant increase in]] the number of elderly residents.", "th": "จำนวนผู้อยู่อาศัยสูงวัยเพิ่มขึ้นอย่างมีนัยสำคัญ" },
+    { "en": "The findings [[do not]] support the original hypothesis.", "th": "ผลการวิจัยไม่สนับสนุนสมมติฐานเดิม" },
+    { "en": "[[It could be argued that]] the policy benefits only urban areas.", "th": "อาจกล่าวได้ว่านโยบายนี้เป็นประโยชน์เฉพาะพื้นที่เมือง" },
+    { "en": "[[A comparison of]] the two groups [[revealed]] notable differences.", "th": "การเปรียบเทียบสองกลุ่มพบความแตกต่างที่น่าสังเกต" }
+  ],
+  "mistakes": [
+    { "wrong": "It is necessary for that students attend all classes.", "right": "It is necessary for students to attend all classes.", "whyTh": "ใช้ It is necessary + for + คน + to V หรือ It is necessary that + ประโยค — for that เป็นการแปลจาก “จำเป็นสำหรับที่…” ตรงตัว" },
+    { "wrong": "In this essay, I'm gonna talk about pollution.", "right": "This essay will examine the causes of pollution.", "whyTh": "gonna และคำย่อเป็นภาษาพูด งานวิชาการใช้ประธานเป็นตัวงาน (This essay) และกริยาทางการ (examine, discuss)" },
+    { "wrong": "A lot of people think that the economy got worse.", "right": "Many people believe that the economy has deteriorated.", "whyTh": "a lot of / think / got worse เป็นภาษาพูด เปลี่ยนเป็น many / believe / has deteriorated" },
+    { "wrong": "Due to the population grew rapidly, housing became scarce.", "right": "Due to the rapid growth of the population, housing became scarce.", "whyTh": "due to ต้องตามด้วยคำนาม/นามวลี ไม่ใช่ประโยค — ใช้ nominal style: the rapid growth of …" },
+    { "wrong": "So, we can see that the policy was successful.", "right": "Therefore, it is evident that the policy was successful.", "whyTh": "So และ we can see เป็นภาษาพูด ใช้ Therefore + impersonal it แทน" }
+  ],
+  "compare": {
+    "title": "Verbal style vs Nominal style",
+    "with": ["c1-nominalisation"],
+    "rows": [
+      { "label": "เน้น", "a": "การกระทำ / ใครทำ", "b": "แนวคิด / ผลลัพธ์" },
+      { "label": "ตัวอย่าง", "a": "Prices increased rapidly, so people bought less.", "b": "The rapid increase in prices led to a fall in consumption." },
+      { "label": "ใช้ที่ไหน", "a": "ภาษาพูด อีเมลทั่วไป เล่าเรื่อง", "b": "รายงาน บทความวิชาการ สรุปผลวิจัย" }
+    ],
+    "tipTh": "nominal style ทำให้ประโยคหนาแน่นและเป็นทางการ แต่ใช้มากเกินไปจะอ่านยาก — จับคู่นามวลีกับกริยาที่ชัด เช่น led to, resulted in, revealed"
+  },
+  "contexts": [
+    {
+      "kind": "school", "title": "Research report: Methods and findings",
+      "lines": [
+        { "text": "A total of 250 secondary students [[were surveyed]] about their reading habits. [[It was found that]] [[the use of]] digital devices for reading had risen considerably since 2019. [[It is important to note that]] the sample [[was limited to]] urban schools. [[An analysis of]] the responses [[revealed]] a clear preference for short texts. These findings [[do not]], however, indicate a decline in overall reading time." }
+      ]
+    },
+    {
+      "kind": "email", "title": "Formal request",
+      "lines": [
+        { "text": "Dear Dr Narin, I am writing to request an extension to the deadline for my dissertation. [[Owing to]] [[a delay in]] [[the approval of]] my questionnaire, data collection [[could not]] begin until March. [[It is anticipated that]] the final draft [[will be submitted]] by 30 June. I would be grateful if you could consider this request. Yours sincerely, Kanya Srisuk" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Impersonal it", "th": "It ที่ไม่ได้หมายถึงสิ่งใด ใช้นำเสนอความเห็นแบบเป็นกลาง" },
+    { "en": "Nominalisation", "th": "การเปลี่ยนกริยา/คุณศัพท์เป็นคำนาม เช่น analyse → analysis" },
+    { "en": "Register", "th": "ระดับภาษา (ทางการ / ไม่ทางการ) ที่เหมาะกับสถานการณ์" },
+    { "en": "Objectivity", "th": "ความเป็นกลาง ไม่ใส่ความรู้สึกส่วนตัว" },
+    { "en": "Agent", "th": "ผู้กระทำ — ใน passive มักละไว้ถ้าไม่สำคัญ" }
+  ],
+  "practice": [
+    {
+      "id": "c1-academic-01", "type": "mc", "difficulty": 1,
+      "question": "___ that the survey only included university students.",
+      "choices": ["It should be noted", "It should note", "We should be noted", "It is should noted"], "answer": 0,
+      "whyNot": { "1": "It ไม่สามารถ “สังเกต” เองได้ ต้องเป็น passive: should be noted", "2": "We should be noted = พวกเราถูกสังเกต ความหมายผิด", "3": "is กับ should ใช้ซ้อนกันไม่ได้" },
+      "explainTh": "Impersonal it + modal passive: It should be noted that … = ควรตั้งข้อสังเกตว่า …",
+      "structure": "It + should be + V3 + that …", "example": "It should be noted that the sample was small."
+    },
+    {
+      "id": "c1-academic-02", "type": "mc", "difficulty": 2,
+      "question": "The study found ___ in the number of students using AI tools.",
+      "choices": ["a significant increase", "a significantly increase", "significant increasing", "a big increasing"], "answer": 0,
+      "whyNot": { "1": "หน้าคำนามต้องใช้คุณศัพท์ (significant) ไม่ใช่กริยาวิเศษณ์ (significantly)", "2": "found ต้องตามด้วยนามวลี a/an + noun — increasing ใช้ในตำแหน่งนี้ไม่ได้", "3": "big เป็นภาษาพูด และ increasing ไม่ใช่คำนามที่ใช้กับ in the number of" },
+      "explainTh": "nominal style: a + adjective + noun + in … → a significant increase in the number of …"
+    },
+    {
+      "id": "c1-academic-03", "type": "mc", "difficulty": 2,
+      "question": "___ to consider the environmental impact of the project.",
+      "choices": ["It is essential", "It is essential that", "There is essential", "It essential"], "answer": 0,
+      "whyNot": { "1": "that ต้องตามด้วยประโยคที่มีประธาน (that we consider …) ไม่ใช่ to + V", "2": "There is ต้องตามด้วยคำนาม ไม่ใช่คุณศัพท์ essential", "3": "ขาดกริยา is" },
+      "explainTh": "It is + adjective + to + V1 → It is essential to consider … (impersonal it)"
+    },
+    {
+      "id": "c1-academic-04", "type": "fill", "difficulty": 1,
+      "question": "The government has announced ___ (reduce) in fuel tax. (a/an + คำนาม)",
+      "accepted": ["a reduction"],
+      "explainTh": "nominal style: reduce (กริยา) → a reduction (คำนาม) + in + สิ่งที่ลดลง"
+    },
+    {
+      "id": "c1-academic-05", "type": "fill", "difficulty": 2,
+      "question": "It ___ (argue) that online learning reduces student motivation. (passive, present perfect)",
+      "accepted": ["has been argued"],
+      "explainTh": "It + has been + V3 + that … = มีผู้แย้งว่า … (ไม่ต้องระบุว่าใครพูด เป็นกลางกว่า Some people say)"
+    },
+    {
+      "id": "c1-academic-06", "type": "fill", "difficulty": 3,
+      "question": "___ of the data revealed three main patterns. (คำนามจาก analyse ขึ้นต้นด้วย An)",
+      "accepted": ["An analysis"],
+      "explainTh": "analyse (กริยา) → analysis (คำนาม) · An analysis of the data revealed … เป็น nominal style ที่ไม่ต้องบอกว่าใครวิเคราะห์"
+    },
+    {
+      "id": "c1-academic-07", "type": "error", "difficulty": 1,
+      "sentence": "The study involved a lot of participants from rural areas.",
+      "errorPart": "a lot of",
+      "accepted": ["The study involved many participants from rural areas.", "The study involved a large number of participants from rural areas.", "The study involved numerous participants from rural areas.", "The study involved a considerable number of participants from rural areas.", "The study involved a substantial number of participants from rural areas.", "The study involved a significant number of participants from rural areas.", "The study involved a great many participants from rural areas."],
+      "explainTh": "a lot of เป็นภาษาพูด งานวิชาการใช้ many / a large number of / numerous แทน"
+    },
+    {
+      "id": "c1-academic-08", "type": "error", "difficulty": 2,
+      "sentence": "It is necessary for that all staff complete the safety training.",
+      "errorPart": "for that",
+      "accepted": ["It is necessary that all staff complete the safety training.", "It is necessary that all staff should complete the safety training.", "It is necessary for all staff to complete the safety training."],
+      "explainTh": "It is necessary + that + ประโยค หรือ + for + คน + to V — ห้ามใช้ for that ติดกัน"
+    },
+    {
+      "id": "c1-academic-09", "type": "error", "difficulty": 3,
+      "sentence": "Due to the population grew rapidly, housing became scarce.",
+      "errorPart": "the population grew rapidly",
+      "accepted": ["Due to the rapid growth of the population, housing became scarce.", "Due to the rapid growth in the population, housing became scarce.", "Due to rapid population growth, housing became scarce.", "Due to the rapid population growth, housing became scarce.", "Due to the fact that the population grew rapidly, housing became scarce."],
+      "explainTh": "due to เป็นบุพบท ต้องตามด้วยคำนาม → nominal style: the rapid growth of the population (grew → growth, rapidly → rapid)"
+    },
+    {
+      "id": "c1-academic-10", "type": "order", "difficulty": 1,
+      "tokens": ["it", "is", "widely", "accepted", "that", "sleep", "affects", "memory"],
+      "accepted": ["It is widely accepted that sleep affects memory."],
+      "explainTh": "It + is + adverb + V3 + that + clause → impersonal it แบบวิชาการ (เป็นที่ยอมรับกันกว้างขวางว่า …)"
+    },
+    {
+      "id": "c1-academic-11", "type": "order", "difficulty": 2,
+      "tokens": ["the", "samples", "were", "analysed", "in", "a", "university", "laboratory"],
+      "accepted": ["The samples were analysed in a university laboratory.", "In a university laboratory the samples were analysed."],
+      "explainTh": "passive (were + V3) เน้นสิ่งที่ทำกับตัวอย่าง ไม่ต้องบอกว่าใครวิเคราะห์"
+    },
+    {
+      "id": "c1-academic-12", "type": "transform", "difficulty": 2,
+      "source": "We asked 200 students to complete the questionnaire.",
+      "instruction": "เขียนใหม่เป็น passive โดยไม่บอกผู้กระทำ ขึ้นต้นด้วย Two hundred students …",
+      "accepted": ["Two hundred students were asked to complete the questionnaire."],
+      "explainTh": "ask sb to do → sb + were asked to do · ตัด we ออกเพราะผู้อ่านสนใจวิธีวิจัย ไม่ใช่ผู้วิจัย (ในงานเขียนทางการนิยมสะกดตัวเลขที่ขึ้นต้นประโยค)"
+    },
+    {
+      "id": "c1-academic-13", "type": "transform", "difficulty": 3,
+      "source": "Prices rose sharply, so consumers spent less.",
+      "instruction": "เขียนใหม่แบบ nominal style ขึ้นต้นด้วย The sharp rise in prices …",
+      "accepted": [
+        "The sharp rise in prices led to a fall in consumer spending.",
+        "The sharp rise in prices led to a decrease in consumer spending.",
+        "The sharp rise in prices led to a reduction in consumer spending.",
+        "The sharp rise in prices led to a drop in consumer spending.",
+        "The sharp rise in prices led to a decline in consumer spending.",
+        "The sharp rise in prices led to lower consumer spending.",
+        "The sharp rise in prices resulted in a fall in consumer spending.",
+        "The sharp rise in prices resulted in a decrease in consumer spending.",
+        "The sharp rise in prices resulted in a reduction in consumer spending.",
+        "The sharp rise in prices resulted in a drop in consumer spending.",
+        "The sharp rise in prices resulted in a decline in consumer spending.",
+        "The sharp rise in prices resulted in lower consumer spending.",
+        "The sharp rise in prices caused a fall in consumer spending.",
+        "The sharp rise in prices caused a decrease in consumer spending.",
+        "The sharp rise in prices caused a reduction in consumer spending.",
+        "The sharp rise in prices caused a drop in consumer spending.",
+        "The sharp rise in prices caused a decline in consumer spending.",
+        "The sharp rise in prices led to consumers spending less.",
+        "The sharp rise in prices resulted in consumers spending less.",
+        "The sharp rise in prices caused consumers to spend less.",
+        "The sharp rise in prices meant that consumers spent less.",
+        "The sharp rise in prices meant consumers spent less."
+      ],
+      "explainTh": "Prices rose sharply (ประโยค) → The sharp rise in prices (นามวลี) แล้วเชื่อมเหตุ-ผลด้วยกริยา led to / resulted in / caused + a fall in consumer spending"
+    },
+    {
+      "id": "c1-academic-14", "type": "transform", "difficulty": 1,
+      "source": "I think the results are not reliable.",
+      "instruction": "เขียนใหม่ให้เป็นกลางแบบวิชาการ ขึ้นต้นด้วย It could be argued that …",
+      "accepted": ["It could be argued that the results are not reliable.", "It could be argued that the results are unreliable."],
+      "explainTh": "I think (ความเห็นส่วนตัว) → It could be argued that … (impersonal it + passive) ฟังเป็นกลางและระมัดระวังกว่า"
+    },
+    {
+      "id": "c1-academic-15", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำภาษาพูดกับคำทางการที่ความหมายเท่ากัน",
+      "pairs": [
+        ["a lot of", "a considerable amount of"],
+        ["get", "obtain"],
+        ["look into", "investigate"],
+        ["go up", "increase"],
+        ["find out", "discover"],
+        ["think about", "consider"]
+      ],
+      "explainTh": "งานวิชาการเลือกกริยาคำเดียวที่ทางการ (investigate, increase) แทน phrasal verb และคำพูดทั่วไป"
+    },
+    {
+      "id": "c1-academic-16", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่เหมาะกับรายงานวิชาการที่สุด",
+      "choices": ["It is evident that the new policy has reduced unemployment.", "It's obvious the new policy has cut down unemployment a lot.", "You can see that the new policy has reduced unemployment.", "So, the new policy has really reduced unemployment."], "answer": 0,
+      "whyNot": { "1": "มีคำย่อ (It's) phrasal verb (cut down) และ a lot ซึ่งเป็นภาษาพูด", "2": "You can see เป็นการพูดกับผู้อ่านโดยตรง ไม่เป็นกลาง", "3": "So ขึ้นต้นประโยคและ really เป็นภาษาพูด" },
+      "explainTh": "It is evident that … = impersonal it + คำทางการ ไม่มีคำย่อ ไม่พูดกับผู้อ่านโดยตรง"
+    },
+    {
+      "id": "c1-academic-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "school", "title": "Report extract", "lines": [
+        { "text": "The introduction of higher tuition fees led to a sharp fall in applications from low-income students. It is clear that more financial support is needed. Students were surveyed in six universities, and most do not believe the current loan system is fair." }
+      ] },
+      "question": "Which phrase from the text is an example of nominal style (ใช้คำนามแทนกริยา)?",
+      "choices": ["the introduction of higher tuition fees", "students were surveyed", "it is clear that", "do not believe"], "answer": 0,
+      "whyNot": { "1": "students were surveyed เป็น passive ไม่ใช่ nominal style", "2": "it is clear that เป็น impersonal it", "3": "do not believe เป็นกริยารูปเต็ม (ไม่ย่อ) ไม่ใช่นามวลี" },
+      "explainTh": "the introduction of … เปลี่ยนกริยา introduce เป็นคำนาม introduction — ลักษณะเด่นของ nominal style"
+    },
+    {
+      "id": "c1-academic-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคแบบรายงานวิชาการ สรุปผลการสำรวจ (สมมุติ) เช่น นิสัยการอ่านของนักเรียน โดยใช้ impersonal it และ passive อย่างน้อยอย่างละ 1 ครั้ง และห้ามใช้คำย่อ (Write a 3-sentence academic summary of a survey.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bit\\s+(is|was|has been|could be|can be|may be|might be|should be|must be)\\s+([a-z]+\\s+)?(evident|clear|likely|apparent|important|essential|necessary|notable|worth|argued|suggested|noted|found|believed|accepted|known|shown|observed|reported|anticipated|expected)\\b", "flags": "i", "msgTh": "ใช้ impersonal it อย่างน้อย 1 ครั้ง เช่น It is evident that … / It should be noted that …" },
+        { "re": "\\b(is|are|was|were|been)\\s+([a-z]+ly\\s+)?[a-z]+(ed|en)\\b", "flags": "i", "msgTh": "ใช้ passive (be + V3) อย่างน้อย 1 ครั้ง เช่น were surveyed, was collected" }
+      ],
+      "forbid": [
+        { "re": "\\b[a-z]+n't\\b|\\b(I'm|it's|they're|we're|that's|there's|you're|I've|we've|they've)\\b", "flags": "i", "msgTh": "ภาษาวิชาการไม่ใช้คำย่อ — เขียนรูปเต็ม เช่น do not, it is" }
+      ],
+      "sample": "A total of 150 students were surveyed about their reading habits. It is evident that most participants read more on screens than on paper. However, it should be noted that the sample was limited to one university.",
+      "explainTh": "ใช้ It is … that … แทน I think · ใช้ passive เมื่อผู้กระทำไม่สำคัญ · เขียนรูปเต็มทุกคำ และเลือกคำทางการ"
+    }
+  ]
+}

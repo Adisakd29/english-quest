@@ -1,0 +1,209 @@
+{
+  "id": "a1-question-words",
+  "summaryTh": "ถามข้อมูลด้วย what, where, when, who, why, how และ how old / how many / how much",
+  "concept": {
+    "what": "Question words (คำถาม Wh-) คือคำที่ใช้ขึ้นต้นคำถามเพื่อขอข้อมูล ไม่ใช่แค่ตอบ Yes / No เช่น Where do you live? (คุณอยู่ที่ไหน) — In Chiang Mai.",
+    "when": [
+      "what = อะไร · where = ที่ไหน · when = เมื่อไร · who = ใคร · why = ทำไม · how = อย่างไร",
+      "วลีคำถาม: what time (กี่โมง), how old (อายุเท่าไร), how many (กี่ + นามนับได้), how much (เท่าไร / ราคา + นามนับไม่ได้), which (อันไหน)",
+      "ใช้ถามเพื่อทำความรู้จัก ถามทาง ถามราคา ถามเวลา"
+    ],
+    "why": "ภาษาไทยวางคำถามไว้ท้ายประโยค (คุณอยู่ที่ไหน) แต่ภาษาอังกฤษวางคำถามไว้ \"ต้นประโยค\" แล้วตามด้วย be หรือ do / does — คนไทยจึงมักลืม do / does (Where you live?)"
+  },
+  "structure": {
+    "formula": "Wh- + be + Subject …? · Wh- + do/does + Subject + V1 …?",
+    "rows": [
+      { "label": "Wh- + be", "formula": "Wh- + am / is / are + Subject?", "example": "[[Where is]] the bathroom?" },
+      { "label": "Wh- + do / does", "formula": "Wh- + do / does + Subject + V1?", "example": "[[What does]] your dad [[do]]?" },
+      { "label": "Wh- + can", "formula": "Wh- + can + Subject + V1?", "example": "[[What can]] you [[cook]]?" },
+      { "label": "Wh- + am/is/are + V-ing", "formula": "Wh- + be + Subject + V-ing?", "example": "[[Where are]] you [[going]]?" },
+      { "label": "How + adjective / many / much", "formula": "How old / How many + noun / How much …?", "example": "[[How many]] pens do you have? · [[How much]] is this bag?" }
+    ],
+    "notes": [
+      "ลำดับคำ: คำถาม + กริยาช่วย (be / do / does / can) + ประธาน + กริยาหลัก",
+      "หลัง does ใช้กริยาช่องที่ 1: Where does she live? (ไม่ใช่ lives)",
+      "how many + นามนับได้พหูพจน์ (how many books) · how much + นามนับไม่ได้ (how much water) และใช้ถามราคา (How much is it?)",
+      "ถามอายุใช้ How old …? ไม่ใช่ What old …?",
+      "ถาม Why …? มักตอบด้วย Because …"
+    ]
+  },
+  "examples": [
+    { "en": "[[What]] is your name? — My name is Fon.", "th": "คุณชื่ออะไร — ฉันชื่อฝน" },
+    { "en": "[[Where]] do you live? — In Khon Kaen.", "th": "คุณอยู่ที่ไหน — ที่ขอนแก่น" },
+    { "en": "[[When]] is your birthday? — It's in March.", "th": "วันเกิดของคุณเมื่อไร — เดือนมีนาคม" },
+    { "en": "[[Who]] is your English teacher?", "th": "ครูภาษาอังกฤษของคุณคือใคร" },
+    { "en": "[[Why]] are you sad? — Because my cat is sick.", "th": "ทำไมคุณเศร้า — เพราะแมวของฉันป่วย" },
+    { "en": "[[How]] do you go to school? — By bus.", "th": "คุณไปโรงเรียนอย่างไร — นั่งรถเมล์" },
+    { "en": "[[How old]] is your brother? — He's twelve.", "th": "น้องชายของคุณอายุเท่าไร — สิบสองขวบ" },
+    { "en": "[[How many]] brothers and sisters do you have?", "th": "คุณมีพี่น้องกี่คน" },
+    { "en": "[[What time]] does the film start?", "th": "หนังเริ่มกี่โมง" }
+  ],
+  "mistakes": [
+    { "wrong": "Where you live?", "right": "Where do you live?", "whyTh": "คำถามที่มีกริยาทั่วไป (live) ต้องมี do / does หลังคำถาม" },
+    { "wrong": "What she likes?", "right": "What does she like?", "whyTh": "ต้องมี does หลังคำถาม และกริยาหลังจากนั้นกลับเป็นช่องที่ 1" },
+    { "wrong": "Where does he lives?", "right": "Where does he live?", "whyTh": "does มี -s แล้ว กริยาหลักจึงไม่เติม -s" },
+    { "wrong": "How many money do you have?", "right": "How much money do you have?", "whyTh": "money เป็นคำนามนับไม่ได้ ใช้ how much" },
+    { "wrong": "What old are you?", "right": "How old are you?", "whyTh": "ถามอายุใช้ How old (แปลตรงจาก \"อายุเท่าไร\" ไม่ได้)" },
+    { "wrong": "Who is your name?", "right": "What is your name?", "whyTh": "ชื่อเป็นข้อมูล (สิ่ง) จึงถามด้วย What — who ใช้ถามว่าคนนั้นเป็นใคร" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Meeting a new student",
+      "lines": [
+        { "speaker": "Ploy", "text": "Hi! [[What]]'s your name?" },
+        { "speaker": "Sam", "text": "I'm Sam. I'm from Australia." },
+        { "speaker": "Ploy", "text": "Cool! [[Where]] do you live now? And [[how old]] are you?" },
+        { "speaker": "Sam", "text": "I live near the river, and I'm thirteen. [[Who]] is our teacher today?" },
+        { "speaker": "Ploy", "text": "Ms Kanya. [[Why]] do you ask?" },
+        { "speaker": "Sam", "text": "Because I don't know her yet!" }
+      ]
+    },
+    {
+      "kind": "travel", "title": "At the train station",
+      "lines": [
+        { "speaker": "Tourist", "text": "Excuse me. [[What time]] does the train to Ayutthaya leave?" },
+        { "speaker": "Staff", "text": "At 10:15." },
+        { "speaker": "Tourist", "text": "[[How much]] is a ticket? And [[which]] platform is it?" },
+        { "speaker": "Staff", "text": "It's 20 baht, and it leaves from platform 3." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Question word (Wh- word)", "th": "คำถาม เช่น what, where, who ใช้ขอข้อมูล" },
+    { "en": "Yes/No question", "th": "คำถามที่ตอบ Yes หรือ No ได้" },
+    { "en": "Auxiliary verb", "th": "กริยาช่วย (be, do, does, can) ที่วางหลังคำถาม" },
+    { "en": "Countable / Uncountable", "th": "นับได้ (how many) / นับไม่ได้ (how much)" }
+  ],
+  "practice": [
+    {
+      "id": "a1-question-words-01", "type": "mc", "difficulty": 1,
+      "question": "A: ___ is your name? B: My name is Fon.",
+      "choices": ["What", "Who", "Where", "How"], "answer": 0,
+      "whyNot": { "1": "Who ใช้ถามว่าคนนั้นเป็นใคร ไม่ใช้ถามชื่อ (Who is your name? ผิด)", "2": "Where ถามสถานที่ แต่คำตอบเป็นชื่อ", "3": "How ถามวิธีการหรือสภาพ (How are you?) ไม่ใช่ชื่อ" },
+      "explainTh": "ถามชื่อใช้ What → What is your name?",
+      "structure": "Wh- + be + Subject?", "example": "What is your name?"
+    },
+    {
+      "id": "a1-question-words-02", "type": "mc", "difficulty": 1,
+      "question": "A: ___ do you live? B: In Khon Kaen.",
+      "choices": ["Where", "When", "What", "Who"], "answer": 0,
+      "whyNot": { "1": "When ถามเวลา แต่คำตอบเป็นสถานที่", "2": "What do you live? ไม่มีความหมาย — คำตอบเป็นสถานที่", "3": "Who ถามคน แต่คำตอบเป็นสถานที่" },
+      "explainTh": "คำตอบเป็นสถานที่ (In Khon Kaen) → ถามด้วย Where"
+    },
+    {
+      "id": "a1-question-words-03", "type": "mc", "difficulty": 2,
+      "question": "A: ___ is your birthday? B: It's on 12 August.",
+      "choices": ["When", "Where", "Who", "How"], "answer": 0,
+      "whyNot": { "1": "Where ถามสถานที่ แต่คำตอบเป็นวันที่", "2": "Who ถามคน", "3": "How ถามวิธีการหรือสภาพ ไม่ใช่วันที่" },
+      "explainTh": "คำตอบเป็นวันที่ (on 12 August) → ถามด้วย When"
+    },
+    {
+      "id": "a1-question-words-04", "type": "fill", "difficulty": 1,
+      "question": "A: ___ old are you? B: I'm ten.",
+      "accepted": ["How"],
+      "explainTh": "ถามอายุใช้ How old … ? (ไม่ใช่ What old)"
+    },
+    {
+      "id": "a1-question-words-05", "type": "fill", "difficulty": 2,
+      "question": "A: ___ is that man? B: He's my uncle.",
+      "accepted": ["Who"],
+      "explainTh": "คำตอบบอกว่าเป็นใคร (my uncle) → ถามด้วย Who"
+    },
+    {
+      "id": "a1-question-words-06", "type": "fill", "difficulty": 2,
+      "question": "A: ___ are you late? B: Because my bike is broken.",
+      "accepted": ["Why"],
+      "explainTh": "คำตอบขึ้นต้นด้วย Because (เพราะ) → ถามเหตุผลด้วย Why"
+    },
+    {
+      "id": "a1-question-words-07", "type": "fill", "difficulty": 3,
+      "question": "A: How ___ students are there in your class? B: Thirty-two.",
+      "accepted": ["many"],
+      "explainTh": "students เป็นคำนามนับได้พหูพจน์ → How many (how much ใช้กับนามนับไม่ได้)"
+    },
+    {
+      "id": "a1-question-words-08", "type": "error", "difficulty": 1,
+      "sentence": "Where you live?",
+      "errorPart": "Where you",
+      "accepted": ["Where do you live?"],
+      "explainTh": "คำถามที่มีกริยาทั่วไป (live) ต้องมี do หลังคำถาม → Where do you live?",
+      "structure": "Wh- + do + Subject + V1?"
+    },
+    {
+      "id": "a1-question-words-09", "type": "error", "difficulty": 2,
+      "sentence": "What does she wants for dinner?",
+      "errorPart": "wants",
+      "accepted": ["What does she want for dinner?"],
+      "explainTh": "หลัง does ใช้กริยาช่องที่ 1 → want (ไม่ใช่ wants)"
+    },
+    {
+      "id": "a1-question-words-10", "type": "error", "difficulty": 2,
+      "sentence": "How much brothers do you have?",
+      "errorPart": "How much",
+      "accepted": ["How many brothers do you have?"],
+      "explainTh": "brothers นับได้ → How many (How much ใช้กับนามนับไม่ได้ หรือถามราคา)"
+    },
+    {
+      "id": "a1-question-words-11", "type": "order", "difficulty": 1,
+      "tokens": ["is", "where", "bathroom", "the"],
+      "accepted": ["Where is the bathroom?"],
+      "explainTh": "Wh- + be + Subject → Where is the bathroom?"
+    },
+    {
+      "id": "a1-question-words-12", "type": "order", "difficulty": 2,
+      "tokens": ["does", "what", "start", "time", "school"],
+      "accepted": ["What time does school start?"],
+      "explainTh": "What time + does + Subject + V1? → What time does school start?"
+    },
+    {
+      "id": "a1-question-words-13", "type": "order", "difficulty": 3,
+      "tokens": ["you", "how", "go", "do", "to", "school"],
+      "accepted": ["How do you go to school?"],
+      "explainTh": "How + do + Subject + V1 …? → How do you go to school? (ถามวิธีการเดินทาง)"
+    },
+    {
+      "id": "a1-question-words-14", "type": "transform", "difficulty": 3,
+      "source": "She lives in Phuket.",
+      "instruction": "ตั้งคำถามด้วย Where เพื่อถามส่วน in Phuket",
+      "accepted": ["Where does she live?"],
+      "explainTh": "ถามสถานที่: Where + does + she + V1 → lives กลับเป็น live เพราะ -s ย้ายไปอยู่ที่ does"
+    },
+    {
+      "id": "a1-question-words-15", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำถามกับคำตอบ",
+      "pairs": [["Where is Tom?", "In the garden."], ["When is the party?", "On Saturday."], ["Who is that girl?", "My cousin."], ["Why are you tired?", "Because I work a lot."], ["How do you go to work?", "By train."], ["What do you want?", "A cup of tea."]],
+      "explainTh": "Where → สถานที่ · When → เวลา/วัน · Who → คน · Why → เหตุผล (Because …) · How → วิธีการ · What → สิ่งของ"
+    },
+    {
+      "id": "a1-question-words-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Excuse me. ___ is this bag?" },
+        { "speaker": "B", "text": "It's 300 baht." }
+      ] },
+      "choices": ["How much", "How many", "What", "Which"], "answer": 0,
+      "whyNot": { "1": "How many ใช้ถามจำนวนของที่นับได้ เช่น How many bags? ไม่ใช่ถามราคา", "2": "What is this bag? ถามว่าเป็นอะไร คำตอบจะเป็น It's a school bag. ไม่ใช่ราคา", "3": "Which is this bag? ไม่มีความหมาย — which ใช้เลือกจากหลายอัน" },
+      "explainTh": "คำตอบเป็นราคา (300 baht) → ถามราคาด้วย How much is …?"
+    },
+    {
+      "id": "a1-question-words-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Party invitation", "lines": [
+        { "text": "Hi Jay! My birthday party is at my house on Saturday at 6 p.m. My house is next to the park. Please bring some music! — Mew" }
+      ] },
+      "question": "What time is the party?",
+      "choices": ["At 6 p.m.", "On Saturday.", "At Mew's house.", "Next to the park."], "answer": 0,
+      "whyNot": { "1": "On Saturday ตอบคำถาม When / What day ไม่ใช่ What time", "2": "At Mew's house ตอบคำถาม Where", "3": "Next to the park ตอบคำถาม Where" },
+      "explainTh": "What time ถามเวลาบนนาฬิกา → At 6 p.m."
+    },
+    {
+      "id": "a1-question-words-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 คำถามเพื่อทำความรู้จักเพื่อนใหม่ ใช้คำถาม Wh- ไม่ซ้ำกัน (Write 3 questions for a new friend. Use different question words.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(what|where|when|who|why|how|which)\\b[^?]*\\?", "flags": "i", "msgTh": "ขึ้นต้นด้วยคำถาม Wh- และจบด้วยเครื่องหมาย ?" },
+        { "re": "\\?[^?]*\\?[^?]*\\?", "flags": "", "msgTh": "เขียนให้ครบ 3 คำถาม (มีเครื่องหมาย ? 3 ครั้ง)" }
+      ],
+      "sample": "What is your name? Where do you live? How old are you?",
+      "explainTh": "คำถาม Wh- วางคำถามไว้ต้นประโยค ตามด้วย be หรือ do / does แล้วจึงเป็นประธาน (Where do you live?)"
+    }
+  ]
+}

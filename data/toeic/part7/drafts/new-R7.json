@@ -1,0 +1,784 @@
+[
+  {
+    "id": "R7-01",
+    "format": "single",
+    "topic": "travel",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Ingrid Solberg <isolberg@marrowfieldgroup.com>\nFrom: Tobias Grant <tgrant@compasslinetravel.com>\nDate: July 21\nSubject: Change to your flight to Singapore\n\nDear Ms. Solberg,\n\nI am writing to let you know that Aerovista Airlines has changed the schedule for your flight to Singapore on August 4. Flight AV 218 will now depart at 2:40 P.M. instead of 11:15 A.M. As a result, you will arrive in Singapore at 9:55 P.M. local time, about three and a half hours later than planned.\n\nBecause of the later arrival, I have contacted the Orchid Bay Hotel and asked them to hold your room for a late check-in. They have confirmed that your reservation is secure. However, the hotel's airport shuttle stops running at 9:00 P.M., so you will need to take a taxi from the airport. Please keep your receipt, as your company's travel policy allows you to claim this cost.\n\nIf the new departure time does not suit you, the airline is offering one free change to another flight within three days of the original date. Simply reply to this e-mail by July 25, and I will make the arrangements for you.\n\nKind regards,\nTobias Grant\nCompassline Travel"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the purpose of the e-mail?",
+        "options": [
+          "To recommend a hotel near the airport",
+          "To inform a traveler of a revised flight time",
+          "To confirm payment for a business trip",
+          "To explain a new company travel policy"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Aerovista Airlines has changed the schedule for your flight to Singapore on August 4"
+        ],
+        "explanationTH": "ประโยคแรกของอีเมลบอกจุดประสงค์ชัดเจนว่า สายการบินเปลี่ยนตารางเที่ยวบินของคุณ Solberg จาก 11:15 น. เป็น 14:40 น. ดังนั้นอีเมลนี้เขียนมาเพื่อแจ้งเวลาเที่ยวบินใหม่",
+        "optionNotesTH": [
+          "ผิด: อีเมลพูดถึงโรงแรม Orchid Bay แต่ไม่ได้แนะนำโรงแรมใกล้สนามบิน และโรงแรมจองไว้แล้ว",
+          "ถูก: แจ้งว่าเที่ยวบินเปลี่ยนเวลาออกเดินทาง (revised flight time)",
+          "ผิด: ไม่มีการพูดถึงการยืนยันการชำระเงิน",
+          "ผิด: นโยบายการเดินทางของบริษัทถูกกล่าวถึงเพียงเรื่องเบิกค่าแท็กซี่ ไม่ได้อธิบายนโยบายใหม่"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What has Mr. Grant already done?",
+        "options": [
+          "Booked a taxi for Ms. Solberg",
+          "Canceled Ms. Solberg's original flight",
+          "Arranged a late check-in at a hotel",
+          "Requested a refund from the airline"
+        ],
+        "answer": 2,
+        "evidence": [
+          "asked them to hold your room for a late check-in"
+        ],
+        "explanationTH": "ย่อหน้าที่ 2 คุณ Grant เขียนว่า \"I have contacted the Orchid Bay Hotel and asked them to hold your room for a late check-in\" และโรงแรมยืนยันแล้ว จึงตอบว่าเขาจัดการเรื่องเช็กอินช้าที่โรงแรมไปแล้ว",
+        "optionNotesTH": [
+          "ผิด: เขาบอกว่าคุณ Solberg ต้องนั่งแท็กซี่เอง ไม่ได้จองแท็กซี่ให้",
+          "ผิด: เที่ยวบินไม่ได้ถูกยกเลิก แค่เปลี่ยนเวลา",
+          "ถูก: ติดต่อโรงแรมให้กันห้องไว้สำหรับเช็กอินดึก",
+          "ผิด: ไม่มีการขอเงินคืนจากสายการบิน"
+        ]
+      },
+      {
+        "type": "inference",
+        "stem": "What is suggested about the cost of Ms. Solberg's taxi?",
+        "options": [
+          "It can be reimbursed by her employer.",
+          "It will be paid by the hotel.",
+          "It is included in the price of her ticket.",
+          "It must be paid before she departs."
+        ],
+        "answer": 0,
+        "evidence": [
+          "your company's travel policy allows you to claim this cost"
+        ],
+        "explanationTH": "อีเมลบอกให้เก็บใบเสร็จค่าแท็กซี่ไว้ เพราะนโยบายการเดินทางของบริษัทอนุญาตให้เบิกค่าใช้จ่ายนี้ได้ (claim this cost) จึงอนุมานได้ว่านายจ้างจะคืนเงินค่าแท็กซี่ให้",
+        "optionNotesTH": [
+          "ถูก: claim this cost ตามนโยบายบริษัท = บริษัทคืนเงินให้ (reimburse)",
+          "ผิด: โรงแรมแค่มีรถรับส่งที่หยุดวิ่ง 21:00 ไม่ได้บอกว่าจะจ่ายค่าแท็กซี่",
+          "ผิด: ไม่มีข้อมูลว่าค่าแท็กซี่รวมอยู่ในค่าตั๋ว",
+          "ผิด: ไม่มีการกล่าวถึงการจ่ายล่วงหน้า"
+        ]
+      }
+    ],
+    "translationTH": [
+      "ถึง: Ingrid Solberg\nจาก: Tobias Grant\nวันที่: 21 กรกฎาคม\nเรื่อง: การเปลี่ยนแปลงเที่ยวบินไปสิงคโปร์ของคุณ\n\nเรียน คุณ Solberg\n\nผมเขียนมาเพื่อแจ้งให้ทราบว่าสายการบิน Aerovista ได้เปลี่ยนตารางเที่ยวบินไปสิงคโปร์ของคุณในวันที่ 4 สิงหาคม เที่ยวบิน AV 218 จะออกเดินทางเวลา 14:40 น. แทน 11:15 น. ด้วยเหตุนี้ คุณจะถึงสิงคโปร์เวลา 21:55 น. ตามเวลาท้องถิ่น ช้ากว่าที่วางแผนไว้ประมาณสามชั่วโมงครึ่ง\n\nเนื่องจากคุณจะถึงช้าลง ผมจึงติดต่อโรงแรม Orchid Bay และขอให้กันห้องของคุณไว้สำหรับการเช็กอินดึก ทางโรงแรมยืนยันแล้วว่าการจองของคุณยังคงอยู่ อย่างไรก็ตาม รถรับส่งสนามบินของโรงแรมหยุดให้บริการเวลา 21:00 น. คุณจึงต้องนั่งแท็กซี่จากสนามบิน กรุณาเก็บใบเสร็จไว้ เพราะนโยบายการเดินทางของบริษัทคุณอนุญาตให้เบิกค่าใช้จ่ายนี้ได้\n\nหากเวลาออกเดินทางใหม่ไม่สะดวกสำหรับคุณ สายการบินเสนอให้เปลี่ยนไปเที่ยวบินอื่นได้ฟรีหนึ่งครั้ง ภายในสามวันจากวันเดิม เพียงตอบกลับอีเมลนี้ภายในวันที่ 25 กรกฎาคม แล้วผมจะจัดการให้\n\nด้วยความนับถือ\nTobias Grant\nCompassline Travel"
+    ],
+    "tipTH": "คำถามจุดประสงค์ของอีเมลมักตอบได้จากประโยคแรกหรือหัวเรื่อง (Subject) ส่วนคำถาม inference ให้มองหาคำที่สื่อความหมายเดียวกับตัวเลือก เช่น claim this cost = reimbursed",
+    "vocabulary": [
+      {
+        "word": "depart",
+        "pos": "verb",
+        "th": "ออกเดินทาง"
+      },
+      {
+        "word": "check-in",
+        "pos": "noun",
+        "th": "การเช็กอิน, การลงทะเบียนเข้าพัก"
+      },
+      {
+        "word": "secure",
+        "pos": "adjective",
+        "th": "มั่นคง, แน่นอน (ไม่ถูกยกเลิก)"
+      },
+      {
+        "word": "claim",
+        "pos": "verb",
+        "th": "เบิก, ขอรับ (เงินคืน)"
+      },
+      {
+        "word": "suit",
+        "pos": "verb",
+        "th": "เหมาะกับ, สะดวกสำหรับ"
+      }
+    ]
+  },
+  {
+    "id": "R7-02",
+    "format": "single",
+    "topic": "sales",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "article",
+        "title": "Article",
+        "text": "BRAMWELL (October 14) — Larkspur Outfitters, a regional seller of camping and hiking equipment, reported on Monday that its third-quarter sales rose 18 percent compared with the same period last year. The company credits much of the growth to its equipment rental service, which it introduced in March at five of its eleven stores.\n\nUnder the program, customers can rent tents, sleeping bags, and cooking stoves for a weekend before deciding whether to buy them. \"Many shoppers were hesitant to spend several hundred dollars on a tent they had never slept in,\" said sales director Odette Fairbanks. \"Renting lets them try the product first. About a third of renters end up purchasing the same item, and the rental fee is deducted from the price.\"\n\nThe service has also attracted a new type of customer. According to Ms. Fairbanks, nearly 40 percent of renters had never shopped at Larkspur before. Many of them return later to buy smaller items such as headlamps and water bottles.\n\nEncouraged by these results, Larkspur plans to offer rentals at all of its stores by next spring. The company will also begin accepting online rental reservations in January, so that customers can confirm that the equipment they want is available before visiting a store."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the article mainly about?",
+        "options": [
+          "The opening of several new stores",
+          "A drop in the price of camping equipment",
+          "A change in a company's leadership",
+          "A retailer's successful new service"
+        ],
+        "answer": 3,
+        "evidence": [
+          "The company credits much of the growth to its equipment rental service"
+        ],
+        "explanationTH": "ย่อหน้าแรกบอกว่ายอดขายของ Larkspur เพิ่มขึ้น 18% และบริษัทยกความสำเร็จให้กับบริการเช่าอุปกรณ์ที่เพิ่งเริ่ม ส่วนที่เหลือของบทความก็อธิบายบริการนี้ บทความจึงพูดถึงบริการใหม่ที่ประสบความสำเร็จของร้านค้าปลีก",
+        "optionNotesTH": [
+          "ผิด: บทความบอกว่าจะขยายบริการเช่าไปทุกสาขาที่มีอยู่ ไม่ได้พูดถึงการเปิดร้านใหม่",
+          "ผิด: ไม่มีการพูดถึงราคาอุปกรณ์ที่ลดลง",
+          "ผิด: ไม่มีการเปลี่ยนผู้บริหาร คุณ Fairbanks เป็นเพียงผู้ให้สัมภาษณ์",
+          "ถูก: บริการเช่าอุปกรณ์ที่ทำให้ยอดขายเพิ่มคือแก่นของบทความ"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "According to Ms. Fairbanks, what happens when a renter decides to buy an item?",
+        "options": [
+          "The amount paid for the rental is subtracted from the cost.",
+          "A free headlamp is included with the purchase.",
+          "The customer receives a discount on future rentals.",
+          "The item is delivered to the customer's home."
+        ],
+        "answer": 0,
+        "evidence": [
+          "the rental fee is deducted from the price"
+        ],
+        "explanationTH": "คุณ Fairbanks กล่าวว่า \"the rental fee is deducted from the price\" หมายความว่าค่าเช่าที่จ่ายไปจะถูกหักออกจากราคาสินค้าเมื่อลูกค้าตัดสินใจซื้อ",
+        "optionNotesTH": [
+          "ถูก: deducted from the price = subtracted from the cost",
+          "ผิด: headlamps ถูกกล่าวถึงในฐานะสินค้าชิ้นเล็กที่ลูกค้ากลับมาซื้อ ไม่ได้แจกฟรี",
+          "ผิด: ไม่มีการพูดถึงส่วนลดการเช่าครั้งต่อไป",
+          "ผิด: ไม่มีการพูดถึงบริการจัดส่งถึงบ้าน"
+        ]
+      },
+      {
+        "type": "vocabulary",
+        "stem": "In the article, the word \"credits\" in paragraph 1 is closest in meaning to",
+        "options": [
+          "pays",
+          "attributes",
+          "lends",
+          "records"
+        ],
+        "answer": 1,
+        "evidence": [
+          "The company credits much of the growth to its equipment rental service"
+        ],
+        "explanationTH": "ในประโยค \"The company credits much of the growth to its equipment rental service\" คำว่า credit X to Y หมายถึง ยกให้ว่า X เกิดจาก Y ซึ่งตรงกับ attributes (ให้เหตุผลว่ามาจาก)",
+        "optionNotesTH": [
+          "ผิด: pays (จ่ายเงิน) ไม่เข้ากับบริบท แม้ credit จะเกี่ยวกับเงินได้ในบางบริบท",
+          "ถูก: attributes the growth to = ยกให้การเติบโตเกิดจาก",
+          "ผิด: lends (ให้ยืม) เป็นความหมายเรื่องสินเชื่อ ไม่ตรงบริบท",
+          "ผิด: records (บันทึก) ไม่ได้สื่อถึงการบอกสาเหตุ"
+        ]
+      },
+      {
+        "type": "notTrue",
+        "stem": "What is NOT mentioned as an item that customers can rent?",
+        "options": [
+          "Tents",
+          "Sleeping bags",
+          "Headlamps",
+          "Cooking stoves"
+        ],
+        "answer": 2,
+        "evidence": [
+          "customers can rent tents, sleeping bags, and cooking stoves"
+        ],
+        "explanationTH": "ย่อหน้าที่ 2 ระบุของที่เช่าได้ 3 อย่างคือ tents, sleeping bags และ cooking stoves ส่วน headlamps อยู่ในย่อหน้าที่ 3 ในฐานะสินค้าชิ้นเล็กที่ลูกค้ากลับมาซื้อ ไม่ใช่ของที่เช่าได้",
+        "optionNotesTH": [
+          "ผิด: เต็นท์ถูกระบุว่าเช่าได้",
+          "ผิด: ถุงนอนถูกระบุว่าเช่าได้",
+          "ถูก: ไฟฉายคาดศีรษะเป็นของที่ลูกค้าซื้อ ไม่ได้ระบุว่าเช่าได้",
+          "ผิด: เตาทำอาหารถูกระบุว่าเช่าได้"
+        ]
+      }
+    ],
+    "translationTH": [
+      "BRAMWELL (14 ตุลาคม) — Larkspur Outfitters ผู้จำหน่ายอุปกรณ์ตั้งแคมป์และเดินป่าในภูมิภาค รายงานเมื่อวันจันทร์ว่ายอดขายไตรมาสที่สามเพิ่มขึ้นร้อยละ 18 เมื่อเทียบกับช่วงเดียวกันของปีที่แล้ว บริษัทยกความสำเร็จส่วนใหญ่ให้กับบริการให้เช่าอุปกรณ์ ซึ่งเริ่มใช้เมื่อเดือนมีนาคมที่ร้าน 5 แห่งจากทั้งหมด 11 แห่ง\n\nภายใต้โครงการนี้ ลูกค้าสามารถเช่าเต็นท์ ถุงนอน และเตาทำอาหารได้หนึ่งสุดสัปดาห์ก่อนตัดสินใจว่าจะซื้อหรือไม่ \"ลูกค้าหลายคนลังเลที่จะจ่ายเงินหลายร้อยดอลลาร์ซื้อเต็นท์ที่ไม่เคยนอนมาก่อน\" Odette Fairbanks ผู้อำนวยการฝ่ายขายกล่าว \"การเช่าทำให้พวกเขาได้ลองสินค้าก่อน ผู้เช่าประมาณหนึ่งในสามซื้อสินค้าชิ้นเดียวกันในที่สุด และค่าเช่าจะถูกหักออกจากราคา\"\n\nบริการนี้ยังดึงดูดลูกค้ากลุ่มใหม่ด้วย คุณ Fairbanks กล่าวว่าเกือบร้อยละ 40 ของผู้เช่าไม่เคยซื้อของที่ Larkspur มาก่อน หลายคนกลับมาซื้อสินค้าชิ้นเล็กอย่างไฟฉายคาดศีรษะและขวดน้ำในภายหลัง\n\nด้วยผลลัพธ์ที่น่าพอใจนี้ Larkspur วางแผนจะให้บริการเช่าที่ร้านทุกสาขาภายในฤดูใบไม้ผลิหน้า บริษัทจะเริ่มรับจองการเช่าทางออนไลน์ในเดือนมกราคมด้วย เพื่อให้ลูกค้าตรวจสอบได้ว่าอุปกรณ์ที่ต้องการว่างอยู่ก่อนไปที่ร้าน"
+    ],
+    "tipTH": "ข้อ NOT ให้หาคำในตัวเลือกทีละคำในบทความ ระวังคำที่ปรากฏในบทความแต่ในบริบทอื่น (เช่น headlamps เป็นของที่ซื้อ ไม่ใช่ของที่เช่า)",
+    "vocabulary": [
+      {
+        "word": "credit (A to B)",
+        "pos": "verb",
+        "th": "ยกให้ว่า A เป็นผลมาจาก B"
+      },
+      {
+        "word": "hesitant",
+        "pos": "adjective",
+        "th": "ลังเล"
+      },
+      {
+        "word": "deduct",
+        "pos": "verb",
+        "th": "หักออก"
+      },
+      {
+        "word": "attract",
+        "pos": "verb",
+        "th": "ดึงดูด"
+      },
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "th": "การจอง"
+      }
+    ]
+  },
+  {
+    "id": "R7-03",
+    "format": "single",
+    "topic": "health",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "chat",
+        "title": "Text-Message Chain",
+        "text": "Corinne Abbott [8:42 A.M.]: Good morning, Dr. Sultani. Your 9:00 patient, Mr. Pham, just called. His bus is stuck in traffic, and he thinks he'll be about 25 minutes late.\nHamid Sultani [8:44 A.M.]: That's a problem. I have another patient at 9:30, and Mr. Pham's appointment is a full hour.\nCorinne Abbott [8:45 A.M.]: I know. Dr. Ingram has an opening at 9:00 tomorrow morning. Should I offer him that instead?\nHamid Sultani [8:46 A.M.]: He's been seeing me for his back for six weeks. I'd rather keep him. What about my afternoon?\nCorinne Abbott [8:47 A.M.]: You're booked until 3:00, but there's a cancellation at 3:30.\nHamid Sultani [8:48 A.M.]: Perfect. Please move him there and let him know he doesn't need to rush.\nCorinne Abbott [8:49 A.M.]: Will do. I'll also send him a text reminder at 2:30.\nHamid Sultani [8:50 A.M.]: Thanks. And could you call my 9:30 patient to see if she can come in early? I'd hate to waste the free time."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "Why will Mr. Pham be late?",
+        "options": [
+          "He forgot the time of his appointment.",
+          "He has to see another doctor first.",
+          "His back pain has become worse.",
+          "His bus has been delayed by traffic."
+        ],
+        "answer": 3,
+        "evidence": [
+          "His bus is stuck in traffic"
+        ],
+        "explanationTH": "เวลา 8:42 น. คุณ Abbott แจ้งว่า \"His bus is stuck in traffic\" รถบัสของคุณ Pham ติดอยู่ในการจราจร จึงจะมาสายประมาณ 25 นาที",
+        "optionNotesTH": [
+          "ผิด: ไม่มีข้อมูลว่าเขาลืมเวลานัด",
+          "ผิด: Dr. Ingram ถูกเสนอเป็นทางเลือกในวันพรุ่งนี้ ไม่ใช่สาเหตุที่มาสาย",
+          "ผิด: อาการปวดหลังเป็นเหตุผลที่มารักษา ไม่ใช่เหตุผลที่มาสาย",
+          "ถูก: stuck in traffic = delayed by traffic"
+        ]
+      },
+      {
+        "type": "intent",
+        "stem": "At 8:46 A.M., what does Dr. Sultani most likely mean when he writes, \"He's been seeing me for his back for six weeks\"?",
+        "options": [
+          "He wants to continue treating Mr. Pham himself.",
+          "He thinks Mr. Pham's treatment is almost finished.",
+          "He believes Mr. Pham should see a specialist.",
+          "He needs to review Mr. Pham's records."
+        ],
+        "answer": 0,
+        "evidence": [
+          "I'd rather keep him"
+        ],
+        "explanationTH": "คุณ Abbott เสนอให้ย้ายคุณ Pham ไปพบ Dr. Ingram แต่ Dr. Sultani ตอบว่ารักษาเขามา 6 สัปดาห์แล้ว ตามด้วย \"I'd rather keep him\" และถามหาเวลาว่างช่วงบ่ายของตัวเอง แสดงว่าเขาต้องการรักษาคนไข้รายนี้ต่อเอง",
+        "optionNotesTH": [
+          "ถูก: ปฏิเสธการส่งต่อให้แพทย์อื่น และอยากดูแลเองต่อ",
+          "ผิด: ไม่มีข้อมูลว่าการรักษาใกล้จบ",
+          "ผิด: เขาไม่ได้แนะนำให้ไปพบผู้เชี่ยวชาญ ตรงกันข้าม เขาไม่อยากส่งต่อ",
+          "ผิด: ไม่มีการพูดถึงการตรวจประวัติคนไข้"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "At what time will Mr. Pham's new appointment begin?",
+        "options": [
+          "At 9:00 A.M.",
+          "At 9:30 A.M.",
+          "At 3:30 P.M.",
+          "At 2:30 P.M."
+        ],
+        "answer": 2,
+        "evidence": [
+          "there's a cancellation at 3:30",
+          "Please move him there"
+        ],
+        "explanationTH": "คุณ Abbott แจ้งว่ามีคนยกเลิกนัดตอน 3:30 และ Dr. Sultani ตอบว่า \"Please move him there\" นัดใหม่จึงเป็นเวลา 15:30 น. ส่วน 2:30 คือเวลาที่จะส่งข้อความเตือน",
+        "optionNotesTH": [
+          "ผิด: 9:00 เป็นเวลานัดเดิม (และเวลาว่างของ Dr. Ingram พรุ่งนี้)",
+          "ผิด: 9:30 เป็นเวลาของคนไข้อีกคน",
+          "ถูก: ย้ายไปช่วงที่มีคนยกเลิกตอน 3:30",
+          "ผิด: 2:30 คือเวลาส่ง text reminder ไม่ใช่เวลานัด"
+        ]
+      }
+    ],
+    "translationTH": [
+      "Corinne Abbott [8:42 น.]: สวัสดีค่ะ คุณหมอ Sultani คนไข้ 9 โมงของคุณหมอ คุณ Pham เพิ่งโทรมา รถบัสของเขาติดอยู่ในการจราจร และเขาคิดว่าจะมาสายประมาณ 25 นาทีค่ะ\nHamid Sultani [8:44 น.]: มีปัญหาแล้ว ผมมีคนไข้อีกคนตอน 9:30 และนัดของคุณ Pham ใช้เวลาเต็มชั่วโมง\nCorinne Abbott [8:45 น.]: ทราบค่ะ คุณหมอ Ingram มีช่องว่างตอน 9 โมงเช้าพรุ่งนี้ ควรเสนอเวลานั้นให้เขาแทนไหมคะ\nHamid Sultani [8:46 น.]: เขามารักษาอาการหลังกับผมมาหกสัปดาห์แล้ว ผมอยากดูแลเขาต่อเอง ช่วงบ่ายของผมเป็นยังไงบ้าง\nCorinne Abbott [8:47 น.]: คุณหมอมีนัดเต็มถึงบ่าย 3 แต่มีคนยกเลิกตอนบ่าย 3 โมงครึ่งค่ะ\nHamid Sultani [8:48 น.]: เยี่ยมเลย ช่วยย้ายเขาไปเวลานั้น และบอกเขาด้วยว่าไม่ต้องรีบ\nCorinne Abbott [8:49 น.]: ได้ค่ะ ดิฉันจะส่งข้อความเตือนเขาตอนบ่ายสองโมงครึ่งด้วย\nHamid Sultani [8:50 น.]: ขอบคุณครับ แล้วช่วยโทรหาคนไข้ 9:30 ของผมด้วยว่าเธอมาก่อนเวลาได้ไหม ผมไม่อยากเสียเวลาว่างไปเปล่าๆ"
+    ],
+    "tipTH": "ข้อ intent ให้อ่านข้อความก่อนหน้าและถัดไปของประโยคที่ถูกยกมา เพื่อดูว่าผู้เขียนกำลังตอบสนองต่อข้อเสนออะไร ส่วนข้อเวลาให้ระวังตัวเลขหลายตัวในแชตที่เป็นตัวลวง",
+    "vocabulary": [
+      {
+        "word": "stuck",
+        "pos": "adjective",
+        "th": "ติดอยู่, ไปต่อไม่ได้"
+      },
+      {
+        "word": "opening",
+        "pos": "noun",
+        "th": "ช่องว่าง (ในตารางนัด)"
+      },
+      {
+        "word": "would rather",
+        "pos": "phrase",
+        "th": "อยากจะ...มากกว่า"
+      },
+      {
+        "word": "cancellation",
+        "pos": "noun",
+        "th": "การยกเลิก"
+      },
+      {
+        "word": "reminder",
+        "pos": "noun",
+        "th": "สิ่งเตือนความจำ"
+      }
+    ]
+  },
+  {
+    "id": "R7-04",
+    "format": "single",
+    "topic": "marketing",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "advertisement",
+        "title": "Advertisement",
+        "text": "Tidewater Creative: Short Videos That Get Your Business Noticed\n\nCustomers today spend more time watching than reading. [1] Tidewater Creative helps small and medium-sized businesses tell their stories through short promotional videos made for social media.\n\nOur Starter Package ($850) includes one 30-second video, filmed on location at your business in a single half-day session. [2] Our Growth Package ($2,200) includes four videos, filmed over two sessions, plus a monthly report showing how many people viewed and shared each one.\n\nEvery package comes with professional editing, background music, and captions, so your videos can be enjoyed even with the sound off. [3] Clients also keep full ownership of all finished videos and may use them on their Web sites, in presentations, or at trade shows.\n\nNew clients who book before November 30 will receive a free consultation with one of our marketing strategists, who will help plan the message of your videos. [4] To see examples of our work or to schedule a consultation, visit www.tidewatercreative.com/samples."
+      }
+    ],
+    "questions": [
+      {
+        "type": "insertion",
+        "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?",
+        "options": [
+          "[1]",
+          "[2]",
+          "[3]",
+          "[4]"
+        ],
+        "answer": 2,
+        "sentence": "This is especially important because most social media users scroll through videos without turning on the audio.",
+        "explanationTH": "ประโยคที่ให้มาพูดถึงผู้ใช้โซเชียลมีเดียที่เลื่อนดูวิดีโอโดยไม่เปิดเสียง คำว่า \"This is especially important\" ต้องอ้างถึงสิ่งที่อยู่ก่อนหน้า ซึ่งก็คือประโยคเรื่อง captions ที่ทำให้ดูวิดีโอได้แม้ปิดเสียง (even with the sound off) จึงต้องวางที่ตำแหน่ง [3]",
+        "optionNotesTH": [
+          "ผิด: ประโยคก่อน [1] พูดถึงการดูมากกว่าอ่าน ไม่ได้พูดถึงเสียงหรือคำบรรยาย",
+          "ผิด: ประโยคก่อน [2] พูดถึงการถ่ายทำครึ่งวัน ไม่เกี่ยวกับการปิดเสียง",
+          "ถูก: This อ้างถึงการมี captions ให้ดูได้แม้ปิดเสียง เข้ากับเรื่องผู้ใช้ที่ไม่เปิดเสียง",
+          "ผิด: ประโยคก่อน [4] พูดถึงการปรึกษาฟรี ไม่เกี่ยวกับเสียง"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What is included only in the Growth Package?",
+        "options": [
+          "Background music",
+          "A monthly report on viewer activity",
+          "Captions for each video",
+          "A free consultation with a strategist"
+        ],
+        "answer": 1,
+        "evidence": [
+          "plus a monthly report showing how many people viewed and shared each one"
+        ],
+        "explanationTH": "ย่อหน้าที่ 2 บอกว่า Growth Package มี 4 วิดีโอ \"plus a monthly report showing how many people viewed and shared each one\" ส่วน editing, music และ captions มีในทุกแพ็กเกจ (Every package)",
+        "optionNotesTH": [
+          "ผิด: ดนตรีประกอบมีในทุกแพ็กเกจ",
+          "ถูก: รายงานรายเดือนว่ามีคนดูและแชร์กี่คนมีเฉพาะ Growth Package",
+          "ผิด: คำบรรยายมีในทุกแพ็กเกจ",
+          "ผิด: การปรึกษาฟรีมอบให้ลูกค้าใหม่ที่จองก่อน 30 พ.ย. ไม่ได้ผูกกับ Growth Package"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "How can a business receive a free consultation?",
+        "options": [
+          "By purchasing the Growth Package",
+          "By sharing a video on social media",
+          "By attending a trade show",
+          "By booking before a certain date"
+        ],
+        "answer": 3,
+        "evidence": [
+          "New clients who book before November 30 will receive a free consultation"
+        ],
+        "explanationTH": "ย่อหน้าสุดท้ายระบุว่าลูกค้าใหม่ที่จองก่อนวันที่ 30 พฤศจิกายนจะได้รับการปรึกษาฟรีกับนักวางกลยุทธ์การตลาด เงื่อนไขจึงคือจองก่อนวันที่กำหนด",
+        "optionNotesTH": [
+          "ผิด: ไม่ได้ระบุว่าต้องซื้อ Growth Package",
+          "ผิด: ไม่มีเงื่อนไขเรื่องการแชร์วิดีโอ",
+          "ผิด: trade shows เป็นที่ที่ลูกค้านำวิดีโอไปใช้ได้ ไม่ใช่เงื่อนไขรับการปรึกษา",
+          "ถูก: before November 30 = before a certain date"
+        ]
+      }
+    ],
+    "translationTH": [
+      "Tidewater Creative: วิดีโอสั้นที่ทำให้ธุรกิจของคุณเป็นที่รู้จัก\n\nทุกวันนี้ลูกค้าใช้เวลาดูมากกว่าอ่าน Tidewater Creative ช่วยธุรกิจขนาดเล็กและขนาดกลางเล่าเรื่องราวของตนผ่านวิดีโอโปรโมตสั้นๆ ที่ทำมาเพื่อโซเชียลมีเดีย\n\nแพ็กเกจ Starter (850 ดอลลาร์) ประกอบด้วยวิดีโอความยาว 30 วินาทีหนึ่งชิ้น ถ่ายทำที่สถานที่ธุรกิจของคุณในการถ่ายทำครึ่งวันหนึ่งครั้ง แพ็กเกจ Growth (2,200 ดอลลาร์) ประกอบด้วยวิดีโอสี่ชิ้น ถ่ายทำสองครั้ง พร้อมรายงานรายเดือนที่แสดงว่ามีคนดูและแชร์แต่ละวิดีโอกี่คน\n\nทุกแพ็กเกจมาพร้อมการตัดต่อแบบมืออาชีพ ดนตรีประกอบ และคำบรรยาย เพื่อให้รับชมวิดีโอได้แม้ปิดเสียง ลูกค้ายังเป็นเจ้าของวิดีโอที่เสร็จแล้วทั้งหมดอย่างเต็มที่ และสามารถนำไปใช้บนเว็บไซต์ ในการนำเสนอ หรือในงานแสดงสินค้าได้\n\nลูกค้าใหม่ที่จองก่อนวันที่ 30 พฤศจิกายนจะได้รับการปรึกษาฟรีกับนักวางกลยุทธ์การตลาดของเรา ซึ่งจะช่วยวางแผนสารที่จะสื่อในวิดีโอของคุณ หากต้องการดูตัวอย่างผลงานหรือนัดหมายการปรึกษา เยี่ยมชม www.tidewatercreative.com/samples"
+    ],
+    "tipTH": "ข้อ insertion ให้ดูคำเชื่อมหรือคำอ้างอิงในประโยคที่ให้มา (เช่น This) แล้วหาประโยคข้างหน้าที่คำนั้นอ้างถึงได้อย่างเป็นธรรมชาติ ส่วนคำว่า only ในคำถามหมายความว่าต้องตัดสิ่งที่มีในทุกแพ็กเกจออก",
+    "vocabulary": [
+      {
+        "word": "promotional",
+        "pos": "adjective",
+        "th": "เพื่อการส่งเสริมการขาย"
+      },
+      {
+        "word": "on location",
+        "pos": "phrase",
+        "th": "ณ สถานที่จริง (ไม่ใช่ในสตูดิโอ)"
+      },
+      {
+        "word": "caption",
+        "pos": "noun",
+        "th": "คำบรรยายใต้ภาพ"
+      },
+      {
+        "word": "ownership",
+        "pos": "noun",
+        "th": "ความเป็นเจ้าของ"
+      },
+      {
+        "word": "consultation",
+        "pos": "noun",
+        "th": "การปรึกษา"
+      }
+    ]
+  },
+  {
+    "id": "R7-05",
+    "format": "double",
+    "topic": "customerService",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "webpage",
+        "title": "Web Page",
+        "text": "www.orrinkitchen.com/support/warranty\n\nOrrin Kitchen Electrics: Warranty and Repair Service\n\nAll Orrin appliances come with a two-year limited warranty from the date of purchase. Blenders and food processors sold under our Pro Series line are covered for five years.\n\nDuring the warranty period, we will repair or replace any product that stops working because of a defect in materials or workmanship. The warranty does not cover damage caused by dropping the product, using it with incorrect voltage, or repairs made by anyone other than an authorized Orrin service center.\n\nTo request service, complete the online claim form and upload a photo of your receipt. Once your claim is approved, we will e-mail you a prepaid shipping label. Repairs are usually completed within ten business days of our receiving the product. If a product cannot be repaired, we will send you a replacement of the same model or, if that model is no longer available, a model of equal or greater value.\n\nCustomers whose warranty has expired may still use our repair service for a flat fee of $45 plus the cost of parts."
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Service Team <service@orrinkitchen.com>\nFrom: Beatrix Lindahl <blindahl@fernpost.net>\nDate: February 9\nSubject: Claim #OK-44718\n\nHello,\n\nI submitted a claim last week for my Orrin Pro Series blender, which I bought in March three years ago. The motor suddenly stopped working while I was making a smoothie. I have always used it according to the instructions and have never had it repaired.\n\nThis morning I received a message saying that my claim had been approved, but it did not include the shipping label I was told to expect. Could you please send it as soon as possible? I use the blender every day and would like to have it back quickly.\n\nAlso, I noticed on your Web site that the PB-500, which is the model I own, is no longer listed in your catalog. If it turns out that my blender cannot be fixed, I would appreciate it if you could replace it with the PB-700, since it is the closest to my current model.\n\nThank you,\nBeatrix Lindahl"
+      }
+    ],
+    "questions": [
+      {
+        "type": "notTrue",
+        "stem": "What is NOT mentioned on the Web page as a cause of damage that the warranty does not cover?",
+        "options": [
+          "Leaving the product in direct sunlight",
+          "Dropping the product",
+          "Using the wrong voltage",
+          "Having the product repaired by an unauthorized shop"
+        ],
+        "answer": 0,
+        "evidence": [
+          "The warranty does not cover damage caused by dropping the product, using it with incorrect voltage"
+        ],
+        "explanationTH": "หน้าเว็บระบุว่าการรับประกันไม่ครอบคลุมความเสียหายจาก 3 สาเหตุ คือ ทำตก ใช้แรงดันไฟผิด และให้ผู้ที่ไม่ใช่ศูนย์บริการที่ได้รับอนุญาตซ่อม ไม่มีการพูดถึงการวางไว้กลางแดด",
+        "optionNotesTH": [
+          "ถูก: ไม่มีการกล่าวถึงแสงแดดเลย",
+          "ผิด: dropping the product ถูกระบุไว้",
+          "ผิด: incorrect voltage ถูกระบุไว้",
+          "ผิด: repairs made by anyone other than an authorized Orrin service center ถูกระบุไว้"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "What is suggested about Ms. Lindahl's blender?",
+        "options": [
+          "It will be repaired for a flat fee of $45.",
+          "It is still covered by the warranty.",
+          "It was damaged when it was dropped.",
+          "It was previously repaired at a local shop."
+        ],
+        "answer": 1,
+        "evidence": [
+          "Pro Series line are covered for five years",
+          "my Orrin Pro Series blender, which I bought in March three years ago"
+        ],
+        "explanationTH": "หน้าเว็บบอกว่าเครื่องปั่นรุ่น Pro Series รับประกัน 5 ปี ส่วนอีเมลบอกว่าคุณ Lindahl ซื้อเครื่องปั่น Pro Series มาเมื่อเดือนมีนาคมเมื่อสามปีก่อน เมื่อรวมสองข้อมูลจึงอนุมานได้ว่ายังอยู่ในระยะประกัน (อีกทั้งคำขอเคลมก็ได้รับอนุมัติแล้ว)",
+        "optionNotesTH": [
+          "ผิด: ค่าบริการ 45 ดอลลาร์ใช้กับสินค้าที่หมดประกันแล้ว ซึ่งไม่ใช่กรณีนี้",
+          "ถูก: Pro Series ประกัน 5 ปี แต่ซื้อมาเพียงประมาณ 3 ปี",
+          "ผิด: เธอบอกว่ามอเตอร์หยุดทำงานขณะปั่นสมูทตี้ ไม่ได้ทำตก",
+          "ผิด: เธอบอกว่าไม่เคยนำไปซ่อมมาก่อน (never had it repaired)"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does Ms. Lindahl ask the service team to send her?",
+        "options": [
+          "A full refund",
+          "A copy of her receipt",
+          "An update on the repair schedule",
+          "A prepaid shipping label"
+        ],
+        "answer": 3,
+        "evidence": [
+          "it did not include the shipping label I was told to expect"
+        ],
+        "explanationTH": "ในย่อหน้าที่ 2 ของอีเมล คุณ Lindahl บอกว่าข้อความอนุมัติไม่มีป้ายส่งสินค้าแนบมา และขอให้ส่งให้โดยเร็ว หน้าเว็บก็ระบุว่าป้ายนี้เป็นแบบ prepaid",
+        "optionNotesTH": [
+          "ผิด: เธอไม่ได้ขอเงินคืน",
+          "ผิด: ใบเสร็จเป็นสิ่งที่ลูกค้าต้องอัปโหลดเอง ไม่ใช่สิ่งที่เธอขอ",
+          "ผิด: เธอต้องการได้เครื่องคืนเร็ว แต่ไม่ได้ขอตารางการซ่อม",
+          "ถูก: ขอป้ายส่งสินค้า (prepaid shipping label) ที่ยังไม่ได้รับ"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "If Ms. Lindahl's blender cannot be repaired, what will she most likely receive according to Orrin's policy?",
+        "options": [
+          "A new PB-500 blender",
+          "A refund of the original purchase price",
+          "A model of equal or greater value",
+          "A discount on any Pro Series product"
+        ],
+        "answer": 2,
+        "evidence": [
+          "if that model is no longer available, a model of equal or greater value",
+          "is no longer listed in your catalog"
+        ],
+        "explanationTH": "หน้าเว็บบอกว่าถ้าซ่อมไม่ได้จะส่งรุ่นเดิมให้ แต่ถ้ารุ่นนั้นไม่มีแล้วจะส่งรุ่นที่มีมูลค่าเท่ากันหรือมากกว่า อีเมลบอกว่ารุ่น PB-500 ไม่อยู่ในแคตตาล็อกแล้ว จึงน่าจะได้รับรุ่นที่มีมูลค่าเท่ากันหรือสูงกว่า",
+        "optionNotesTH": [
+          "ผิด: PB-500 ไม่มีในแคตตาล็อกแล้ว จึงไม่น่าจะได้รุ่นเดิม",
+          "ผิด: นโยบายไม่ได้พูดถึงการคืนเงิน",
+          "ถูก: รุ่นเดิมไม่มีแล้ว นโยบายให้รุ่นที่มีมูลค่าเท่ากันหรือมากกว่า",
+          "ผิด: ไม่มีการพูดถึงส่วนลด"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "According to the Web page, how long do repairs usually take after Orrin receives a product?",
+        "options": [
+          "Up to three business days",
+          "Up to ten business days",
+          "Up to one month",
+          "Up to two years"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Repairs are usually completed within ten business days of our receiving the product"
+        ],
+        "explanationTH": "หน้าเว็บระบุว่า \"Repairs are usually completed within ten business days of our receiving the product\" คือปกติซ่อมเสร็จภายใน 10 วันทำการหลังได้รับสินค้า",
+        "optionNotesTH": [
+          "ผิด: ตัวเลข 3 วันไม่ปรากฏในเอกสาร",
+          "ถูก: within ten business days",
+          "ผิด: ไม่มีการกล่าวถึงหนึ่งเดือน",
+          "ผิด: two-year เป็นระยะเวลารับประกัน ไม่ใช่เวลาซ่อม"
+        ]
+      }
+    ],
+    "translationTH": [
+      "www.orrinkitchen.com/support/warranty\n\nOrrin Kitchen Electrics: การรับประกันและบริการซ่อม\n\nเครื่องใช้ไฟฟ้า Orrin ทุกชิ้นมาพร้อมการรับประกันแบบจำกัด 2 ปีนับจากวันที่ซื้อ เครื่องปั่นและเครื่องเตรียมอาหารในกลุ่มผลิตภัณฑ์ Pro Series รับประกัน 5 ปี\n\nในช่วงระยะเวลารับประกัน เราจะซ่อมหรือเปลี่ยนสินค้าที่หยุดทำงานเนื่องจากความบกพร่องของวัสดุหรือฝีมือการผลิต การรับประกันไม่ครอบคลุมความเสียหายที่เกิดจากการทำสินค้าตก การใช้แรงดันไฟฟ้าไม่ถูกต้อง หรือการซ่อมโดยผู้อื่นที่ไม่ใช่ศูนย์บริการที่ได้รับอนุญาตจาก Orrin\n\nหากต้องการขอรับบริการ กรุณากรอกแบบฟอร์มเคลมออนไลน์และอัปโหลดรูปใบเสร็จ เมื่อคำขอได้รับอนุมัติ เราจะส่งป้ายส่งสินค้าแบบชำระค่าส่งล่วงหน้าให้ทางอีเมล การซ่อมมักเสร็จภายใน 10 วันทำการนับจากที่เราได้รับสินค้า หากซ่อมไม่ได้ เราจะส่งสินค้ารุ่นเดียวกันมาแทน หรือหากรุ่นนั้นไม่มีจำหน่ายแล้ว จะส่งรุ่นที่มีมูลค่าเท่ากันหรือสูงกว่า\n\nลูกค้าที่หมดระยะประกันแล้วยังใช้บริการซ่อมของเราได้ในราคาเหมาจ่าย 45 ดอลลาร์บวกค่าอะไหล่",
+      "ถึง: ทีมบริการ\nจาก: Beatrix Lindahl\nวันที่: 9 กุมภาพันธ์\nเรื่อง: คำขอเคลมหมายเลข OK-44718\n\nสวัสดีค่ะ\n\nเมื่อสัปดาห์ที่แล้วดิฉันส่งคำขอเคลมเครื่องปั่น Orrin รุ่น Pro Series ซึ่งซื้อมาเมื่อเดือนมีนาคมเมื่อสามปีก่อน มอเตอร์หยุดทำงานกะทันหันขณะดิฉันกำลังทำสมูทตี้ ดิฉันใช้งานตามคำแนะนำมาตลอด และไม่เคยนำไปซ่อมเลย\n\nเช้านี้ดิฉันได้รับข้อความว่าคำขอเคลมได้รับอนุมัติแล้ว แต่ไม่มีป้ายส่งสินค้าที่ได้รับแจ้งว่าจะได้รับ กรุณาส่งมาให้โดยเร็วที่สุดได้ไหมคะ ดิฉันใช้เครื่องปั่นทุกวันและอยากได้คืนเร็วๆ\n\nนอกจากนี้ ดิฉันสังเกตเห็นในเว็บไซต์ว่ารุ่น PB-500 ซึ่งเป็นรุ่นที่ดิฉันมีอยู่ ไม่อยู่ในแคตตาล็อกแล้ว หากปรากฏว่าซ่อมเครื่องปั่นของดิฉันไม่ได้ ดิฉันจะขอบคุณมากถ้าเปลี่ยนให้เป็นรุ่น PB-700 เพราะเป็นรุ่นที่ใกล้เคียงกับรุ่นปัจจุบันของดิฉันที่สุด\n\nขอบคุณค่ะ\nBeatrix Lindahl"
+    ],
+    "tipTH": "ชุดเอกสารคู่ให้จับคู่ข้อมูลตัวเลขข้ามเอกสาร เช่น ระยะประกันในหน้าเว็บกับวันที่ซื้อในอีเมล และเงื่อนไข \"ถ้า...\" ในนโยบายกับสถานการณ์จริงของลูกค้า",
+    "vocabulary": [
+      {
+        "word": "warranty",
+        "pos": "noun",
+        "th": "การรับประกันสินค้า"
+      },
+      {
+        "word": "workmanship",
+        "pos": "noun",
+        "th": "ฝีมือการผลิต"
+      },
+      {
+        "word": "authorized",
+        "pos": "adjective",
+        "th": "ได้รับอนุญาต"
+      },
+      {
+        "word": "prepaid",
+        "pos": "adjective",
+        "th": "ชำระเงินล่วงหน้าแล้ว"
+      },
+      {
+        "word": "flat fee",
+        "pos": "phrase",
+        "th": "ค่าบริการอัตราเดียว (เหมาจ่าย)"
+      }
+    ]
+  },
+  {
+    "id": "R7-06",
+    "format": "triple",
+    "topic": "events",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "webpage",
+        "title": "Web Page",
+        "text": "www.harborfoodexpo.org/exhibitors\n\nHarbor Region Food and Beverage Expo: Exhibitor Information\nSeptember 18–20 · Ellsworth Exhibition Hall\n\n| Booth type | Size | Price | Included |\n| Standard | 3 m x 3 m | $1,200 | One table, two chairs |\n| Corner | 3 m x 3 m | $1,450 | One table, two chairs, open on two sides |\n| Premium | 6 m x 3 m | $2,600 | Two tables, four chairs, refrigerated display case |\n\nExhibitors who register by July 15 receive a 10 percent discount on the booth price. Electrical outlets are available at all booths for an additional $90. Exhibitors who plan to offer food samples must hold a food-handling permit and submit a copy with their registration. Each booth includes two exhibitor badges; additional badges cost $40 each."
+      },
+      {
+        "docType": "form",
+        "title": "Form",
+        "text": "Harbor Region Food and Beverage Expo: Exhibitor Registration Form\n\nCompany: Saltmarsh Creamery\nContact: Rohan Desai\nE-mail: rdesai@saltmarshcreamery.com\nDate submitted: July 22\n\n| Item | Quantity | Cost |\n| Corner booth | 1 | $1,450 |\n| Electrical outlet | 1 | $90 |\n| Additional badge | 2 | $80 |\n| Total | | $1,620 |\n\nWill you offer food samples? Yes\nFood-handling permit attached? No (to follow)\nSpecial requests: We would like to be near the main entrance if possible."
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Rohan Desai <rdesai@saltmarshcreamery.com>\nFrom: Greta Vossberg <gvossberg@harborfoodexpo.org>\nDate: July 24\nSubject: Your registration\n\nDear Mr. Desai,\n\nThank you for registering Saltmarsh Creamery for this year's Expo. Before we can confirm your booth, we will need a copy of your food-handling permit, as you indicated that you will be offering samples. Please send it to me by August 5.\n\nUnfortunately, all corner booths near the main entrance have already been reserved. However, a premium booth is available just inside the entrance, next to the coffee-tasting area, which is always one of the busiest spots at the Expo. Since your products need to be kept cold, its display case may also be useful to you. If you would like to switch, the difference in price will be added to your invoice. Otherwise, I can place you in a corner booth in the east section of the hall.\n\nPlease let me know your decision when you send the permit.\n\nBest regards,\nGreta Vossberg\nExhibitor Services"
+      }
+    ],
+    "questions": [
+      {
+        "type": "crossReference",
+        "stem": "Why most likely did Saltmarsh Creamery not receive a discount on its booth?",
+        "options": [
+          "It submitted its form after the deadline.",
+          "It chose a corner booth.",
+          "It ordered additional badges.",
+          "It did not attach its permit."
+        ],
+        "answer": 0,
+        "evidence": [
+          "Exhibitors who register by July 15 receive a 10 percent discount",
+          "Date submitted: July 22"
+        ],
+        "explanationTH": "หน้าเว็บบอกว่าผู้ที่ลงทะเบียนภายใน 15 กรกฎาคมจะได้ส่วนลด 10% แต่แบบฟอร์มระบุว่าส่งวันที่ 22 กรกฎาคม และราคาบูธในแบบฟอร์มยังเป็นราคาเต็ม 1,450 ดอลลาร์ จึงไม่ได้ส่วนลดเพราะลงทะเบียนเลยกำหนด",
+        "optionNotesTH": [
+          "ถูก: ส่งแบบฟอร์ม 22 ก.ค. หลังกำหนด 15 ก.ค.",
+          "ผิด: ส่วนลดใช้กับบูธทุกประเภท ไม่ได้ยกเว้นบูธมุม",
+          "ผิด: การซื้อบัตรเพิ่มไม่มีผลต่อส่วนลด",
+          "ผิด: ใบอนุญาตจำเป็นต่อการยืนยันบูธ แต่ไม่ได้เกี่ยวกับส่วนลด"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "How many exhibitor badges will Saltmarsh Creamery most likely receive?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "answer": 2,
+        "evidence": [
+          "Each booth includes two exhibitor badges",
+          "Additional badge | 2 | $80"
+        ],
+        "explanationTH": "หน้าเว็บบอกว่าแต่ละบูธได้บัตรผู้ออกงาน 2 ใบ และแบบฟอร์มระบุว่าสั่งบัตรเพิ่มอีก 2 ใบ (80 ดอลลาร์) รวมจึงเป็น 4 ใบ",
+        "optionNotesTH": [
+          "ผิด: 2 ใบคือจำนวนที่รวมมากับบูธเท่านั้น ยังไม่รวมที่สั่งเพิ่ม",
+          "ผิด: ไม่มีข้อมูลที่ทำให้ได้ 3 ใบ",
+          "ถูก: 2 ใบที่รวมมา + 2 ใบที่สั่งเพิ่ม = 4 ใบ",
+          "ผิด: อาจสับสนกับเก้าอี้ 4 ตัวของบูธ Premium บวก 2 แต่ไม่ถูกต้อง"
+        ]
+      },
+      {
+        "type": "mainIdea",
+        "stem": "Why did Ms. Vossberg write to Mr. Desai?",
+        "options": [
+          "To request payment for an electrical outlet",
+          "To confirm a booth near the main entrance",
+          "To announce a change in the dates of the Expo",
+          "To ask for a document and offer a different booth"
+        ],
+        "answer": 3,
+        "evidence": [
+          "we will need a copy of your food-handling permit",
+          "a premium booth is available just inside the entrance"
+        ],
+        "explanationTH": "อีเมลมีสองเรื่องหลัก คือ ขอสำเนาใบอนุญาตจัดการอาหารก่อนยืนยันบูธ และแจ้งว่าบูธมุมใกล้ทางเข้าเต็มแล้ว จึงเสนอบูธ Premium ใกล้ทางเข้าแทน",
+        "optionNotesTH": [
+          "ผิด: ไม่มีการพูดถึงการเรียกเก็บค่าปลั๊กไฟ",
+          "ผิด: บูธมุมใกล้ทางเข้าถูกจองหมดแล้ว และยังยืนยันบูธไม่ได้จนกว่าจะได้ใบอนุญาต",
+          "ผิด: ไม่มีการเปลี่ยนวันจัดงาน",
+          "ถูก: ขอเอกสาร (permit) และเสนอบูธอื่น (premium booth)"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "If Mr. Desai accepts Ms. Vossberg's offer, how much more will Saltmarsh Creamery pay for its booth?",
+        "options": [
+          "$90",
+          "$1,150",
+          "$1,400",
+          "$2,600"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Premium | 6 m x 3 m | $2,600",
+          "Corner booth | 1 | $1,450"
+        ],
+        "explanationTH": "ข้อเสนอของคุณ Vossberg คือเปลี่ยนเป็นบูธ Premium ราคา 2,600 ดอลลาร์ (จากหน้าเว็บ) ส่วนบูธที่จองไว้คือบูธมุม 1,450 ดอลลาร์ (จากแบบฟอร์ม) ส่วนต่างที่จะถูกเพิ่มในใบแจ้งหนี้จึงเท่ากับ 2,600 − 1,450 = 1,150 ดอลลาร์",
+        "optionNotesTH": [
+          "ผิด: 90 ดอลลาร์คือค่าปลั๊กไฟ ไม่ใช่ส่วนต่างราคาบูธ",
+          "ถูก: 2,600 − 1,450 = 1,150",
+          "ผิด: 1,400 คือส่วนต่างระหว่าง Premium กับ Standard (2,600 − 1,200)",
+          "ผิด: 2,600 คือราคาเต็มของบูธ Premium ไม่ใช่ส่วนที่ต้องจ่ายเพิ่ม"
+        ]
+      },
+      {
+        "type": "notTrue",
+        "stem": "What is NOT indicated about the premium booth that Ms. Vossberg offers?",
+        "options": [
+          "It comes with a free electrical outlet.",
+          "It is located next to the coffee-tasting area.",
+          "It has a refrigerated display case.",
+          "It is just inside the entrance."
+        ],
+        "answer": 0,
+        "evidence": [
+          "Electrical outlets are available at all booths for an additional $90"
+        ],
+        "explanationTH": "อีเมลระบุว่าบูธ Premium อยู่ด้านในทางเข้า ติดกับพื้นที่ชิมกาแฟ และหน้าเว็บบอกว่ามีตู้แช่เย็นแสดงสินค้า แต่ปลั๊กไฟต้องจ่ายเพิ่ม 90 ดอลลาร์สำหรับทุกบูธ จึงไม่ฟรี",
+        "optionNotesTH": [
+          "ถูก: หน้าเว็บบอกว่าปลั๊กไฟทุกบูธต้องจ่ายเพิ่ม 90 ดอลลาร์ ไม่ได้ฟรี",
+          "ผิด: อีเมลบอกว่า next to the coffee-tasting area",
+          "ผิด: หน้าเว็บระบุว่า Premium มี refrigerated display case",
+          "ผิด: อีเมลบอกว่า just inside the entrance"
+        ]
+      }
+    ],
+    "translationTH": [
+      "www.harborfoodexpo.org/exhibitors\n\nงานแสดงสินค้าอาหารและเครื่องดื่มภูมิภาค Harbor: ข้อมูลสำหรับผู้ออกบูธ\n18–20 กันยายน · Ellsworth Exhibition Hall\n\n| ประเภทบูธ | ขนาด | ราคา | สิ่งที่รวมอยู่ |\n| Standard | 3 x 3 ม. | 1,200 ดอลลาร์ | โต๊ะ 1 ตัว เก้าอี้ 2 ตัว |\n| Corner (มุม) | 3 x 3 ม. | 1,450 ดอลลาร์ | โต๊ะ 1 ตัว เก้าอี้ 2 ตัว เปิดโล่งสองด้าน |\n| Premium | 6 x 3 ม. | 2,600 ดอลลาร์ | โต๊ะ 2 ตัว เก้าอี้ 4 ตัว ตู้แช่เย็นแสดงสินค้า |\n\nผู้ออกบูธที่ลงทะเบียนภายในวันที่ 15 กรกฎาคมจะได้รับส่วนลดค่าบูธร้อยละ 10 ทุกบูธสามารถขอปลั๊กไฟได้โดยจ่ายเพิ่ม 90 ดอลลาร์ ผู้ออกบูธที่จะแจกอาหารให้ชิมต้องมีใบอนุญาตจัดการอาหารและส่งสำเนามาพร้อมการลงทะเบียน แต่ละบูธได้รับบัตรผู้ออกบูธ 2 ใบ บัตรเพิ่มเติมราคาใบละ 40 ดอลลาร์",
+      "งานแสดงสินค้าอาหารและเครื่องดื่มภูมิภาค Harbor: แบบฟอร์มลงทะเบียนผู้ออกบูธ\n\nบริษัท: Saltmarsh Creamery\nผู้ติดต่อ: Rohan Desai\nอีเมล: rdesai@saltmarshcreamery.com\nวันที่ส่ง: 22 กรกฎาคม\n\n| รายการ | จำนวน | ราคา |\n| บูธมุม | 1 | 1,450 ดอลลาร์ |\n| ปลั๊กไฟ | 1 | 90 ดอลลาร์ |\n| บัตรเพิ่มเติม | 2 | 80 ดอลลาร์ |\n| รวม | | 1,620 ดอลลาร์ |\n\nจะแจกอาหารให้ชิมหรือไม่: ใช่\nแนบใบอนุญาตจัดการอาหารหรือไม่: ไม่ (จะส่งตามมา)\nคำขอพิเศษ: หากเป็นไปได้ เราอยากได้บูธใกล้ทางเข้าหลัก",
+      "ถึง: Rohan Desai\nจาก: Greta Vossberg\nวันที่: 24 กรกฎาคม\nเรื่อง: การลงทะเบียนของคุณ\n\nเรียน คุณ Desai\n\nขอบคุณที่ลงทะเบียน Saltmarsh Creamery สำหรับงานปีนี้ ก่อนที่เราจะยืนยันบูธของคุณได้ เราต้องได้รับสำเนาใบอนุญาตจัดการอาหารของคุณ เนื่องจากคุณระบุว่าจะแจกอาหารให้ชิม กรุณาส่งมาให้ดิฉันภายในวันที่ 5 สิงหาคม\n\nน่าเสียดายที่บูธมุมทั้งหมดใกล้ทางเข้าหลักถูกจองไปแล้ว อย่างไรก็ตาม มีบูธ Premium ว่างอยู่ด้านในทางเข้า ติดกับพื้นที่ชิมกาแฟ ซึ่งเป็นจุดที่คนพลุกพล่านที่สุดจุดหนึ่งในงานเสมอ และเนื่องจากสินค้าของคุณต้องเก็บไว้ในที่เย็น ตู้แสดงสินค้าของบูธนี้อาจเป็นประโยชน์กับคุณด้วย หากคุณต้องการเปลี่ยน ส่วนต่างราคาจะถูกเพิ่มในใบแจ้งหนี้ของคุณ มิฉะนั้น ดิฉันสามารถจัดให้คุณอยู่ในบูธมุมในโซนตะวันออกของฮอลล์ได้\n\nกรุณาแจ้งการตัดสินใจของคุณเมื่อส่งใบอนุญาตมา\n\nด้วยความนับถือ\nGreta Vossberg\nฝ่ายบริการผู้ออกบูธ"
+    ],
+    "tipTH": "ชุดสามเอกสารที่มีตาราง ให้ใช้ตารางราคาในหน้าเว็บคู่กับตัวเลขในแบบฟอร์มเพื่อคำนวณ และตรวจวันที่ในแบบฟอร์มกับกำหนดเวลาในหน้าเว็บเสมอ",
+    "vocabulary": [
+      {
+        "word": "exhibitor",
+        "pos": "noun",
+        "th": "ผู้ออกบูธ, ผู้จัดแสดงสินค้า"
+      },
+      {
+        "word": "permit",
+        "pos": "noun",
+        "th": "ใบอนุญาต"
+      },
+      {
+        "word": "badge",
+        "pos": "noun",
+        "th": "บัตรติดตัว, ป้ายชื่อ"
+      },
+      {
+        "word": "outlet",
+        "pos": "noun",
+        "th": "ปลั๊กไฟ, เต้ารับ"
+      },
+      {
+        "word": "refrigerated",
+        "pos": "adjective",
+        "th": "แช่เย็น"
+      }
+    ]
+  }
+]
