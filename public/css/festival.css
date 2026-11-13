@@ -1,0 +1,154 @@
+/* =====================================================================
+   Halloween Costume Festival 2026 — public/js/festival.js
+   โทน: ม่วง (#6B3FB8) · ส้มฟักทอง (#FF8A3D) · น้ำเงินเที่ยงคืน (#1B1644) · ชมพูอ่อนเน้น (#FFB3C7)
+   ใช้ตัวแปรธีมของแอป (พื้น/ตัวอักษร) สำหรับการ์ดเนื้อหา → อ่านง่ายทั้งธีมสว่าง/มืด · ฉากหลักใช้โทนเที่ยงคืนเสมอ
+   ===================================================================== */
+.hf-screen { --hf-purple: #6b3fb8; --hf-orange: #ff8a3d; --hf-night: #1b1644; --hf-pink: #ffb3c7; --hf-gold: #ffd166; }
+.hf-banner { background: linear-gradient(120deg, #1b1644, #3b2466 60%, #6b3fb8); border-color: #6b3fb8; }
+.hf-banner:hover { border-color: #ff8a3d; }
+
+.hf-hero { position: relative; overflow: hidden; border-radius: 22px; min-height: 230px; margin: 4px 0 14px; color: #fff6e6;
+  background: #1b1644; isolation: isolate; box-shadow: 0 10px 30px rgba(27, 22, 68, .28); }
+.hf-hero-art { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+.hf-hero-text { position: relative; padding: 18px 18px 20px; max-width: 640px;
+  background: linear-gradient(90deg, rgba(27, 22, 68, .78), rgba(27, 22, 68, .35) 70%, transparent); min-height: 230px; display: flex; flex-direction: column; justify-content: center; gap: 6px; }
+.hf-hero h1 { margin: 0; font-size: clamp(1.45rem, 4.6vw, 2.2rem); line-height: 1.12; letter-spacing: .01em; color: #fff; text-shadow: 0 2px 0 #3b2466; }
+.hf-kicker { margin: 0; font-size: .8rem; font-weight: 700; color: var(--hf-gold, #ffd166); display: inline-flex; align-items: center; gap: 6px; }
+.hf-sub { margin: 0; color: #e8e0ff; font-size: .95rem; }
+.hf-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.hf-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 999px; font-size: .8rem; background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .22); color: #fff; }
+.hf-pill-strong { background: var(--hf-orange, #ff8a3d); border-color: transparent; color: #2b1608; font-weight: 700; }
+
+/* แอนิเมชัน (transform/opacity เท่านั้น · ปิดเมื่อ "ลดการเคลื่อนไหว") */
+.hf-bat .hw-wing { transform-box: fill-box; transform-origin: center; animation: hf-flap .5s ease-in-out infinite alternate; }
+.hf-bat2 .hw-wing { animation-duration: .42s; } .hf-bat3 .hw-wing { animation-duration: .58s; }
+@keyframes hf-flap { from { transform: scaleY(1); } to { transform: scaleY(.55); } }
+@media (prefers-reduced-motion: reduce) { .hf-bat .hw-wing, .hf-ray, .hf-claim::after { animation: none !important; } }
+
+/* รางวัลวันนี้ */
+.hf-today { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 14px; padding: 14px; margin-bottom: 18px;
+  border-radius: 18px; border: 2px solid var(--hf-orange, #ff8a3d); background: var(--color-surface); color: var(--color-text);
+  box-shadow: 0 6px 18px rgba(255, 138, 61, .18); }
+.hf-today-pics { display: flex; gap: 6px; }
+.hf-today-thumb { width: 96px; height: 96px; border-radius: 16px; background: linear-gradient(160deg, #3b2466, #1b1644); object-fit: contain; }
+.hf-today-text h2 { margin: 2px 0; font-size: 1.15rem; }
+.hf-today-text p { margin: 0 0 8px; color: var(--color-text-muted, #667085); }
+.hf-today-text .hf-kicker { color: #c2410c; }
+.hf-today-msg { grid-column: 1 / -1; margin: 0; display: flex; gap: 8px; align-items: center; font-weight: 600; }
+.hf-claim { position: relative; min-height: 48px; padding: 0 18px; font-size: 1rem; background: linear-gradient(120deg, #ff8a3d, #ff6b6b); border-color: transparent; color: #fff; }
+/* วงแสงกระเพื่อมรอบปุ่ม (ตัวปุ่มไม่ขยับ — กดง่าย) */
+.hf-claim::after { content: ''; position: absolute; inset: -4px; border-radius: inherit; border: 2px solid #ff8a3d; pointer-events: none; animation: hf-ring 1.8s ease-out infinite; }
+@keyframes hf-ring { 0% { opacity: .8; transform: scale(.97); } 100% { opacity: 0; transform: scale(1.12); } }
+@media (max-width: 460px) { .hf-today { grid-template-columns: 1fr; text-align: center; } .hf-today-pics { justify-content: center; } }
+
+/* ปฏิทิน */
+.hf-sec { margin: 0 0 22px; }
+.hf-h2 { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; font-size: 1.15rem; }
+.hf-note { margin: 0 0 10px; font-size: .85rem; color: var(--color-text-muted, #667085); }
+.hf-cal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.hf-day { position: relative; display: grid; gap: 4px; justify-items: center; text-align: center; padding: 12px 8px 10px; border-radius: 16px;
+  border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); min-width: 0; }
+.hf-day.is-set { grid-column: span 2; }
+@media (max-width: 360px) { .hf-day.is-set { grid-column: auto; } }
+.hf-day-no { margin: 0; font-size: .75rem; font-weight: 800; letter-spacing: .04em; color: var(--hf-purple, #6b3fb8); text-transform: uppercase; }
+.hf-day-pics { display: flex; gap: 4px; justify-content: center; }
+.hf-thumb { width: 72px; height: 72px; border-radius: 14px; background: linear-gradient(160deg, #efe8ff, #ffe7d6); object-fit: contain; display: grid; place-items: center; }
+.hf-day-name { margin: 0; font-size: .82rem; font-weight: 700; }
+.hf-day-th { margin: 0; font-size: .78rem; color: var(--color-text-muted, #667085); }
+.hf-chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 999px; font-size: .72rem; font-weight: 700;
+  background: #eee9fb; color: #4b2b7a; }
+.hf-day.st-claimed { border-color: #22a06b; background: color-mix(in srgb, #22a06b 7%, var(--color-surface)); }
+.hf-day.st-claimed .hf-chip { background: #22a06b; color: #fff; }
+.hf-day.st-available { border: 2px solid var(--hf-orange, #ff8a3d); box-shadow: 0 0 0 4px rgba(255, 138, 61, .15); }
+.hf-day.st-available .hf-chip { background: var(--hf-orange, #ff8a3d); color: #2b1608; }
+.hf-day.st-tomorrow .hf-chip { background: #ffe4ec; color: #9d174d; }
+.hf-day.st-upcoming .hf-day-pics, .hf-day.st-expired .hf-day-pics { opacity: .7; }
+.hf-day.st-expired .hf-chip { background: #e5e7eb; color: #4b5563; }
+.hf-prev { min-height: 44px; margin-top: 2px; }
+
+/* เควสต์ */
+.hf-quests { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.hf-quest { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; padding: 12px; border-radius: 16px; border: 1px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); }
+.hf-quest.is-done { border-color: var(--hf-orange, #ff8a3d); }
+.hf-quest.is-claimed { border-color: #22a06b; }
+.hf-q-icon { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; color: #fff; background: linear-gradient(140deg, #6b3fb8, #3b2466); }
+.hf-q-body h3 { margin: 0; font-size: 1rem; }
+.hf-q-th { margin: 0; font-size: .82rem; font-weight: 600; color: var(--hf-purple, #6b3fb8); }
+.hf-q-desc, .hf-q-rule { margin: 4px 0 0; font-size: .82rem; color: var(--color-text-muted, #667085); }
+.hf-q-rule { display: flex; gap: 4px; align-items: center; }
+.hf-prog { height: 8px; border-radius: 999px; background: #ece7fa; overflow: hidden; margin-top: 8px; }
+.hf-prog span { display: block; height: 100%; background: linear-gradient(90deg, #ff8a3d, #ffb3c7); transform-origin: left; }
+.hf-q-count { margin: 2px 0 0; font-size: .75rem; color: var(--color-text-muted, #667085); text-align: right; }
+.hf-rws { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.hf-rw { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px 3px 4px; border-radius: 999px; font-size: .75rem; background: #fff3e8; color: #9a3412; }
+.hf-rw-thumb { width: 26px; height: 26px; border-radius: 8px; background: #efe8ff; object-fit: contain; }
+.hf-q-act .btn { min-height: 44px; }
+.hf-done { display: inline-flex; gap: 6px; align-items: center; color: #15803d; font-weight: 700; }
+.hf-muted { color: var(--color-text-muted, #667085); font-size: .85rem; }
+.hf-foot { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .82rem; color: var(--color-text-muted, #667085); margin: 6px 0 24px; }
+.hf-loading, .hf-error { padding: 24px; text-align: center; }
+
+/* หน้าต่างรางวัล / ตัวอย่าง */
+.hf-dialog { position: relative; text-align: center; max-width: 520px; width: min(520px, calc(100vw - 32px)); overflow: hidden; }
+.hf-dialog.is-reward { background: radial-gradient(120% 70% at 50% 0%, #3b2466 0%, var(--color-surface) 58%); }
+.hf-dialog.is-reward .hf-kicker { color: #ffd166; }
+.hf-dialog-title { margin: 2px 0 8px; font-size: 1.25rem; }
+.hf-dialog.is-reward .hf-dialog-title { color: #fff6e6; }
+.hf-burst { position: absolute; left: 50%; top: 6px; width: 340px; height: 220px; transform: translateX(-50%); pointer-events: none; opacity: .9; }
+.hf-ray { stroke-dasharray: 90; stroke-dashoffset: 90; animation: hf-ray .9s ease-out forwards; animation-delay: calc(var(--i) * 40ms); }
+@keyframes hf-ray { to { stroke-dashoffset: 0; opacity: 0; } }
+.hf-stage { position: relative; width: 100%; aspect-ratio: 3 / 4; max-height: 52vh; margin: 0 auto 6px; border-radius: 16px; overflow: hidden;
+  background: linear-gradient(180deg, #2a1a4a, #6b3fb8); }
+.hf-stage .a3-host, .hf-stage > svg { width: 100%; height: 100%; }
+.hf-dialog-items { list-style: none; margin: 6px 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.hf-dialog-items li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 4px; border-radius: 999px; background: #f3eefe; color: #3b2466; font-size: .85rem; }
+.hf-dialog-act { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 8px; }
+.hf-dialog-act .btn { min-height: 44px; }
+#hf-title:focus { outline: none; }   /* โฟกัสหัวข้อหลังเปิดหน้า (ผู้ใช้โปรแกรมอ่านหน้าจอ) — ไม่ต้องมีกรอบ */
+.hf-q-act .btn { white-space: nowrap; }
+
+/* =====================================================================
+   เทศกาลลอยกระทง 2569 (.hf-skin-lk) — ฟ้าครามคืนเพ็ญ · ทองแสงเทียน · เขียวใบตอง
+   ใช้ร่วมกับโครง .hf-* ด้านบน (เปลี่ยนเฉพาะสี) · ข้อความบนพื้นมืด ≥ 4.5:1
+   ===================================================================== */
+.hf-skin-lk { --hf-purple: #34479E; --hf-orange: #F2B44E; --hf-night: #0B1238; --hf-pink: #9FB4FF; --hf-gold: #FFD27A; }
+.hf-banner.hf-skin-lk { background: linear-gradient(120deg, #0B1238, #1C2A6E 60%, #2F5E8F); border-color: #34479E; color: #F6F4FF; }
+.hf-banner.hf-skin-lk:hover { border-color: #FFD27A; }
+.hf-skin-lk .hf-hero { background: #0B1238; box-shadow: 0 10px 30px rgba(11, 18, 56, .3); }
+.hf-skin-lk .hf-hero-text { background: linear-gradient(90deg, rgba(11, 18, 56, .82), rgba(11, 18, 56, .38) 70%, transparent); }
+.hf-skin-lk .hf-hero h1 { text-shadow: 0 2px 0 #1C2A6E; }
+.hf-skin-lk .hf-sub { color: #E3E7FF; }
+.hf-skin-lk .hf-pill-strong { background: #FFD27A; color: #1A1204; }
+.hf-skin-lk .hf-today { border-color: #F2B44E; box-shadow: 0 6px 18px rgba(242, 180, 78, .2); }
+.hf-skin-lk .hf-today-thumb, .hf-skin-lk .hf-rw-thumb { background: linear-gradient(160deg, #1C2A6E, #0B1238); }
+.hf-skin-lk .hf-today-text .hf-kicker { color: #8A5A00; }
+:root[data-theme="dark"] .hf-skin-lk .hf-today-text .hf-kicker { color: #FFD27A; }
+.hf-skin-lk .hf-claim { background: linear-gradient(120deg, #F2B44E, #E08A2E); color: #1A1204; }
+.hf-skin-lk .hf-claim::after { border-color: #F2B44E; }
+.hf-skin-lk .hf-prog { background: #E3E7F7; }
+.hf-skin-lk .hf-prog span { background: linear-gradient(90deg, #5F72E6, #FFD27A); }
+.hf-skin-lk .hf-rw { background: #FFF4D6; color: #6B4600; }
+.hf-rw-theme { background: #E8ECFF; color: #24307A; }
+:root[data-theme="dark"] .hf-rw { background: rgba(255, 210, 122, .14); color: #FFE4A8; }
+:root[data-theme="dark"] .hf-rw-theme { background: rgba(159, 180, 255, .16); color: #DCE3FF; }
+:root[data-theme="dark"] .hf-skin-lk .hf-prog { background: rgba(255, 255, 255, .1); }
+.lk-kt .lk-flame { transform-box: fill-box; transform-origin: 50% 100%; }
+.lk-hero-art .lk-flame { transform-box: fill-box; transform-origin: 50% 100%; animation: lk-flicker 1.6s ease-in-out infinite; }
+.lk-hero-art .lk-bob { animation: lk-bob 4.8s ease-in-out infinite; }
+.lk-hero-art .lk-bob2 { animation-duration: 5.6s; animation-delay: -1.8s; }
+.lk-hero-art .lk-bob3 { animation-duration: 6.2s; animation-delay: -3s; }
+.lk-hero-art .lk-tw { animation: lk-tw 3.6s ease-in-out infinite; }
+.lk-hero-art .lk-tw2 { animation-duration: 5s; animation-delay: -2s; }
+@keyframes lk-flicker { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(0.82) translateX(0.4px); } }
+@keyframes lk-bob { 0%, 100% { translate: 0 0; } 50% { translate: 3px -2px; } }
+@keyframes lk-tw { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+.hf-eco { display: flex; gap: 8px; align-items: flex-start; margin: 0 0 var(--space-4); padding: 10px 14px; border-radius: 14px;
+  background: var(--color-success-soft, #E8F7EE); color: var(--color-text); border: 1px solid rgba(47, 125, 70, 0.35); font-size: var(--text-sm); }
+.hf-eco .icon { color: #2F7D46; flex: none; margin-top: 2px; }
+:root[data-theme="dark"] .hf-eco .icon { color: #8FE0B0; }
+@media (prefers-reduced-motion: reduce) {
+  .lk-hero-art .lk-flame, .lk-hero-art .lk-bob, .lk-hero-art .lk-tw { animation: none !important; }
+}
+.hf-dialog.hf-skin-lk.is-reward { background: radial-gradient(120% 70% at 50% 0%, #1C2A6E 0%, var(--color-surface) 58%); }
+.hf-dialog.hf-skin-lk.is-reward .hf-kicker { color: #FFD27A; }

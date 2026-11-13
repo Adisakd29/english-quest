@@ -1,0 +1,80 @@
+/* แดชบอร์ดการเรียน + ผู้ดูแลผู้ใช้ (public/js/dashboard.js) — v1.11.0: ตัดสไตล์หน้าสมัคร/จ่ายเงิน/สลิป/ป้าย Premium ออก (ยกเลิกสมาชิก) */
+:root { --pm-gold: #b7790a; --pm-gold-soft: #fff3cf; --pm-gold-text: #7a5000; }
+
+.pm-link .icon:first-child { color: var(--pm-gold); }
+
+#screen-dashboard .container { max-width: 760px; }
+.pm-hero { margin: 8px 0 16px; }
+/* ผู้ดูแล */
+.pma-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 10px; }
+.pma-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.pma-row { display: grid; gap: 8px; padding: 12px; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-surface); }
+.pma-main { display: grid; gap: 2px; }
+.pma-main small { color: var(--color-text-muted); }
+.pma-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.pma-actions .btn { min-height: 44px; }
+#screen-dashboard .gl-back { min-height: 44px; }
+.pm-go-work { margin-top: 8px; min-height: 44px; justify-self: start; }
+
+/* ---------- v1.10.0 Phase 1: Premium Dashboard · เปรียบเทียบ Free/Premium · ทดลองใช้ ---------- */
+.pmd-overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0 0 10px; }
+.pmd-tile { display: grid; gap: 2px; padding: 12px; border-radius: var(--gl-radius, 16px); border: 1px solid var(--color-border); background: var(--color-surface); min-width: 0; }
+.pmd-tile span { font-size: 0.8rem; font-weight: 800; color: var(--color-text-muted); }
+.pmd-tile b { font-size: 1.5rem; font-weight: 900; line-height: 1.15; }
+.pmd-tile small { color: var(--color-text-muted); font-size: 0.75rem; }
+@media (max-width: 520px) { .pmd-overview { grid-template-columns: 1fr 1fr; } .pmd-overview .pmd-tile:last-child { grid-column: 1 / -1; } }
+.pmd-note { margin: 6px 0 14px; display: flex; gap: 6px; align-items: flex-start; font-size: 0.82rem; color: var(--color-text-muted); line-height: 1.55; }
+.pmd-note .icon { flex: none; margin-top: 3px; }
+
+.pmd-skills { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+@media (min-width: 640px) { .pmd-skills { grid-template-columns: 1fr 1fr; } }
+.pmd-skill { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "ic name score" "bar bar bar" "meta meta meta" "go go go"; gap: 6px 10px; align-items: center;
+  padding: 12px 14px; border-radius: var(--gl-radius, 16px); border: 1px solid var(--color-border); background: var(--color-surface); }
+.pmd-skill-ic { grid-area: ic; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 12px; background: var(--color-primary-soft); color: var(--color-primary); }
+.pmd-skill-name { grid-area: name; display: grid; min-width: 0; }
+.pmd-skill-name small { color: var(--color-text-muted); font-size: 0.78rem; }
+.pmd-skill-score { grid-area: score; text-align: right; }
+.pmd-skill-score b { font-size: 1.5rem; font-weight: 900; }
+.pmd-skill-score small { color: var(--color-text-muted); font-size: 0.78rem; }
+.pmd-bar { grid-area: bar; width: 100%; height: 8px; }
+.pmd-skill.is-weak .pmd-bar > span { background: var(--color-danger, #d64545); }
+.pmd-skill.is-ok .pmd-bar > span { background: var(--color-warning, #d99a1e); }
+.pmd-skill.is-strong .pmd-bar > span { background: var(--color-success); }
+.pmd-skill-meta { grid-area: meta; display: flex; flex-wrap: wrap; gap: 4px; align-items: center; font-size: 0.8rem; color: var(--color-text-muted); }
+.pmd-go { grid-area: go; justify-self: start; }
+.pmd-chip { padding: 1px 8px; border-radius: 99px; font-size: 0.74rem; font-weight: 800; background: var(--color-surface-2, rgba(0,0,0,.06)); }
+.pmd-chip.is-weak { background: rgba(214, 69, 69, 0.14); color: var(--color-danger, #c03434); }
+.pmd-chip.is-ok { background: var(--color-warning-soft, rgba(217,154,30,.16)); color: var(--color-warning-text, #8a5a00); }
+.pmd-chip.is-strong { background: var(--color-success-soft); color: var(--color-success); }
+.pmd-recs, .pmd-cefr, .pmd-week, .pmd-queue { margin: 0 0 16px; }
+.pmd-recs ol, .pmd-queue ul, .pmd-cefr ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pmd-recs li, .pmd-queue li, .pmd-cefr li { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--color-border); }
+.pmd-recs li:last-child, .pmd-queue li:last-child, .pmd-cefr li:last-child { border-bottom: 0; }
+.pmd-recs li > span, .pmd-queue li > span, .pmd-cefr li > span:first-child { display: grid; gap: 2px; min-width: 0; }
+.pmd-recs small, .pmd-queue small, .pmd-cefr small { color: var(--color-text-muted); font-size: 0.8rem; }
+.pmd-act { flex: none; min-height: 44px; }
+@media (max-width: 520px) { .pmd-recs li, .pmd-queue li { flex-direction: column; align-items: stretch; } .pmd-act { width: 100%; } }
+.pmd-cefr-v { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; justify-content: flex-end; }
+.pmd-cefr-v b { font-size: 1.4rem; color: var(--color-primary); }
+.pmd-bars { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; align-items: end; }
+.pmd-bars li { display: grid; gap: 2px; justify-items: center; }
+.pmd-bar-col { width: 100%; height: 90px; display: flex; align-items: flex-end; border-radius: 6px; background: var(--color-surface-2, rgba(0,0,0,.05)); overflow: hidden; }
+.pmd-bar-col > span { width: 100%; background: var(--color-primary); border-radius: 6px 6px 0 0; min-height: 0; }
+.pmd-bars small { font-size: 0.72rem; color: var(--color-text-muted); }
+.pmd-links { display: grid; gap: 10px; }
+@media (min-width: 640px) { .pmd-links { grid-template-columns: 1fr 1fr; } }
+.pma-search { display: flex; gap: 8px; margin: 0 0 8px; }
+.pma-search input { flex: 1; min-height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; }
+.pma-search .btn { min-height: 44px; }
+/* v1.10.0 UX: ปุ่มบนแถบหัว (Coin · แชท · เสียง) แตะง่ายขึ้น ≥ 44px ตามเกณฑ์ (เดิม 36px) */
+#hud-chat.rk-icon-btn, .hud-audio.rk-icon-btn { width: 44px; height: 44px; min-width: 44px; }
+.hud-coins { min-height: 44px; }
+
+/* v1.10.0 Phase 1: แดชบอร์ดโหลดไม่สำเร็จ — ยังเห็นลิงก์เนื้อหาสมาชิก */
+.pmd-err { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; color: var(--text-muted, inherit); }
+.pmd-err .pmd-act { margin-left: auto; }
+.pma-test { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; font-size: 0.72rem; font-weight: 800; background: #fde68a; color: #7c4a03; }
+/* v1.18.4 ระงับบัญชี (ผู้ดูแล) */
+.pma-suspended { background: #fecaca; color: #7f1d1d; }
+.pma-actions .pma-dur, .pma-actions .pma-reason { min-height: 44px; border-radius: 10px; border: 1px solid var(--border, #d6d9e4); padding: 0 10px; background: var(--surface, #fff); color: inherit; font: inherit; }
+.pma-actions .pma-reason { flex: 1 1 160px; min-width: 0; }

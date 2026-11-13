@@ -1,0 +1,521 @@
+{
+  "id": "b1-relative-clauses",
+  "summaryTh": "ขยายคำนามด้วย who / which / that / where / whose — แบบจำเป็น และแบบให้ข้อมูลเพิ่ม",
+  "concept": {
+    "what": "Relative clause คืออนุประโยคที่ขยายคำนาม บอกว่า \"คนไหน สิ่งไหน\" หรือให้ข้อมูลเพิ่มเติม มีสองแบบ: Defining (จำเป็นต่อความหมาย ไม่มี comma) และ Non-defining (ข้อมูลเสริม มี comma คั่น)",
+    "when": [
+      "Defining: บอกว่าหมายถึงคนไหน/อันไหน ตัดทิ้งแล้วความหมายไม่ครบ: The woman who lives next door is a nurse.",
+      "Non-defining: เรารู้อยู่แล้วว่าหมายถึงใคร แค่เพิ่มข้อมูล ใส่ comma: My mother, who is 60, still works.",
+      "who = คน · which = สิ่งของ/สัตว์ · that = คนหรือสิ่งของ (เฉพาะแบบ Defining) · where = สถานที่ · whose = ของใคร · when = เวลา",
+      "Non-defining ห้ามใช้ that และห้ามละคำเชื่อม"
+    ],
+    "why": "ภาษาไทยใช้ \"ที่\" คำเดียวกับทุกอย่าง แต่ภาษาอังกฤษต้องเลือกคำตามคำนาม และ comma เปลี่ยนความหมายได้ เช่น My sister who lives in Phuket … (มีพี่สาวหลายคน) กับ My sister, who lives in Phuket, … (มีพี่สาวคนเดียว) ผู้เรียนไทยมักใช้ which กับคน หรือใส่สรรพนามซ้ำ (the book which I bought it)"
+  },
+  "structure": {
+    "formula": "Noun + who/which/that/where/whose + clause",
+    "rows": [
+      {
+        "label": "Defining (คน)",
+        "formula": "Noun + who/that + verb …",
+        "example": "The man [[who]] fixed my bike is very kind."
+      },
+      {
+        "label": "Defining (สิ่งของ)",
+        "formula": "Noun + which/that + clause",
+        "example": "This is the phone [[that]] I bought last week."
+      },
+      {
+        "label": "Non-defining",
+        "formula": "Noun, who/which + clause, …",
+        "example": "Chiang Mai[[, which]] is in the north[[,]] has many temples."
+      },
+      {
+        "label": "สถานที่ / ความเป็นเจ้าของ",
+        "formula": "Noun + where + clause · Noun + whose + noun …",
+        "example": "That's the café [[where]] we met. / I have a friend [[whose]] dad is a pilot."
+      },
+      {
+        "label": "ละคำเชื่อม (เมื่อเป็นกรรม)",
+        "formula": "Noun + (that/which/who) + Subject + verb",
+        "example": "The film [[we watched]] was boring."
+      }
+    ],
+    "notes": [
+      "ใน Defining ถ้า who/which/that เป็นกรรมของอนุประโยค ละได้ (the book (that) I read) แต่ถ้าเป็นประธาน ละไม่ได้ (the girl who sings)",
+      "ห้ามใส่สรรพนามซ้ำ: ✗ the book which I bought it → the book which I bought",
+      "where = in/at which: the hotel where we stayed = the hotel (that) we stayed at",
+      "Non-defining ใช้บ่อยกับชื่อเฉพาะและคนที่มีคนเดียว (my father, Bangkok) และพบมากในงานเขียน"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The teacher [[who]] taught us English has moved to Japan.",
+      "th": "ครูที่สอนภาษาอังกฤษพวกเราย้ายไปญี่ปุ่นแล้ว (บอกว่าครูคนไหน)"
+    },
+    {
+      "en": "My grandfather[[, who]] is 85[[,]] still rides his bike every day.",
+      "th": "คุณตา ซึ่งอายุ 85 แล้ว ยังปั่นจักรยานทุกวัน (ข้อมูลเพิ่ม)"
+    },
+    {
+      "en": "Is this the bus [[that]] goes to the airport?",
+      "th": "รถเมล์คันนี้ใช่คันที่ไปสนามบินไหม"
+    },
+    {
+      "en": "Phuket[[, which]] is Thailand's biggest island[[,]] is popular with tourists.",
+      "th": "ภูเก็ต ซึ่งเป็นเกาะที่ใหญ่ที่สุดของไทย เป็นที่นิยมของนักท่องเที่ยว"
+    },
+    {
+      "en": "That's the restaurant [[where]] we had our first date.",
+      "th": "นั่นคือร้านอาหารที่เราเดตกันครั้งแรก"
+    },
+    {
+      "en": "I have a friend [[whose]] mother is a famous chef.",
+      "th": "ฉันมีเพื่อนคนหนึ่งที่แม่เป็นเชฟชื่อดัง"
+    },
+    {
+      "en": "The video [[I posted]] yesterday got 2,000 likes.",
+      "th": "วิดีโอที่ฉันโพสต์เมื่อวานได้ไลก์สองพันครั้ง (ละ that/which)"
+    },
+    {
+      "en": "I'll never forget the day [[when]] I started university.",
+      "th": "ฉันจะไม่มีวันลืมวันที่ฉันเริ่มเรียนมหาวิทยาลัย"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The man which lives next door is a doctor.",
+      "right": "The man who lives next door is a doctor.",
+      "whyTh": "คนใช้ who (หรือ that) ไม่ใช้ which — ภาษาไทยใช้ \"ที่\" คำเดียว จึงสับสนบ่อย"
+    },
+    {
+      "wrong": "Bangkok, that is the capital of Thailand, is very hot.",
+      "right": "Bangkok, which is the capital of Thailand, is very hot.",
+      "whyTh": "Non-defining (มี comma) ห้ามใช้ that ต้องใช้ which (สิ่งของ/สถานที่) หรือ who (คน)"
+    },
+    {
+      "wrong": "This is the book which I bought it yesterday.",
+      "right": "This is the book which I bought yesterday.",
+      "whyTh": "which แทน the book อยู่แล้ว จึงห้ามใส่ it ซ้ำ"
+    },
+    {
+      "wrong": "I have a friend who his father is a pilot.",
+      "right": "I have a friend whose father is a pilot.",
+      "whyTh": "บอกความเป็นเจ้าของ (พ่อของเพื่อน) ใช้ whose + คำนาม แทน who his"
+    },
+    {
+      "wrong": "My mother who is a nurse works at night.",
+      "right": "My mother, who is a nurse, works at night.",
+      "whyTh": "แม่มีคนเดียว ข้อมูล who is a nurse เป็นข้อมูลเพิ่ม (Non-defining) จึงต้องมี comma คั่นทั้งสองด้าน"
+    }
+  ],
+  "compare": {
+    "title": "Defining vs Non-defining relative clauses",
+    "with": [
+      "a2-relative-pronouns"
+    ],
+    "rows": [
+      {
+        "label": "หน้าที่",
+        "a": "Defining: บอกว่าคนไหน/อันไหน (ข้อมูลจำเป็น)",
+        "b": "Non-defining: ให้ข้อมูลเพิ่ม (ตัดออกได้)"
+      },
+      {
+        "label": "comma",
+        "a": "ไม่มี comma",
+        "b": "มี comma คั่นหน้า-หลัง"
+      },
+      {
+        "label": "that / ละคำเชื่อม",
+        "a": "ใช้ that ได้ · ละได้ถ้าเป็นกรรม",
+        "b": "ห้ามใช้ that · ห้ามละ"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "The students who passed got a prize. (เฉพาะคนที่สอบผ่าน)",
+        "b": "The students, who passed, got a prize. (นักเรียนทุกคนสอบผ่าน)"
+      }
+    ],
+    "tipTh": "ลองตัดอนุประโยคทิ้ง ถ้ายังรู้ว่าหมายถึงใคร/อะไร (ชื่อเฉพาะ, แม่ของฉัน) = Non-defining ใส่ comma และใช้ who/which เท่านั้น"
+  },
+  "contexts": [
+    {
+      "kind": "social",
+      "title": "A post about a new friend",
+      "lines": [
+        {
+          "text": "Meet Kai[[, who]] joined our class last month! He's the boy [[who]] sits next to me in Maths. He comes from Hat Yai[[, which]] is in the south of Thailand. Yesterday we went to the night market [[where]] his cousin sells grilled squid. Kai is the only person I know [[whose]] favourite subject is Physics!"
+        }
+      ]
+    },
+    {
+      "kind": "travel",
+      "title": "A travel blog",
+      "lines": [
+        {
+          "text": "Last week I visited Ayutthaya[[, which]] was the capital of Siam for over 400 years. Our guide[[, who]] grew up there[[,]] showed us the temples [[that]] most tourists miss. We also ate at a small market [[where]] the boat noodles cost only 20 baht."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Relative clause",
+      "th": "อนุประโยคขยายคำนาม (ส่วนที่ขึ้นต้นด้วย who / which / that …)"
+    },
+    {
+      "en": "Relative pronoun",
+      "th": "คำเชื่อม who, which, that, whose (+ where, when)"
+    },
+    {
+      "en": "Defining relative clause",
+      "th": "อนุประโยคระบุ — บอกว่าคนไหน/อันไหน ไม่มี comma"
+    },
+    {
+      "en": "Non-defining relative clause",
+      "th": "อนุประโยคให้ข้อมูลเพิ่ม — มี comma ห้ามใช้ that"
+    },
+    {
+      "en": "Antecedent",
+      "th": "คำนามที่อนุประโยคขยาย (อยู่หน้า who/which)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-relative-clauses-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "My brother, ___ lives in Japan, is a chef.",
+      "choices": [
+        "who",
+        "which",
+        "that",
+        "whose"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "which ใช้กับสิ่งของ แต่ my brother เป็นคน",
+        "2": "มี comma = Non-defining ห้ามใช้ that",
+        "3": "whose ต้องตามด้วยคำนาม (whose house …) แต่ตรงนี้ตามด้วยกริยา lives"
+      },
+      "explainTh": "คน + Non-defining (มี comma) → who: My brother, who lives in Japan, is a chef.",
+      "structure": "Noun, who + verb …,",
+      "example": "My brother, who lives in Japan, is a chef."
+    },
+    {
+      "id": "b1-relative-clauses-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "This is the phone ___ I bought last week.",
+      "choices": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "who ใช้กับคน แต่ phone เป็นสิ่งของ",
+        "2": "where ใช้กับสถานที่ และตามด้วยประโยคที่ครบแล้ว แต่ bought ยังขาดกรรม",
+        "3": "whose ต้องตามด้วยคำนาม (whose + noun)"
+      },
+      "explainTh": "สิ่งของ + Defining → which (หรือ that หรือละได้ เพราะเป็นกรรมของ bought)",
+      "structure": "Noun + which/that + Subject + verb",
+      "example": "This is the phone which I bought last week."
+    },
+    {
+      "id": "b1-relative-clauses-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "Do you know the girl ___ is talking to Tom?",
+      "accepted": [
+        "who",
+        "that"
+      ],
+      "explainTh": "คน + Defining (บอกว่าผู้หญิงคนไหน) → who หรือ that · ละไม่ได้เพราะเป็นประธานของ is talking",
+      "structure": "Noun + who/that + verb",
+      "example": "Do you know the girl who is talking to Tom?"
+    },
+    {
+      "id": "b1-relative-clauses-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Chiang Mai, ___ is in the north of Thailand, is famous for its temples.",
+      "accepted": [
+        "which"
+      ],
+      "explainTh": "สถานที่ที่เป็นชื่อเฉพาะ + comma = Non-defining → which (ห้ามใช้ that) · ใช้ where ไม่ได้เพราะตามด้วยกริยา is (ไม่มีประธาน)",
+      "structure": "Noun, which + verb …,",
+      "example": "Chiang Mai, which is in the north of Thailand, is famous for its temples."
+    },
+    {
+      "id": "b1-relative-clauses-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "That's the restaurant ___ we had our first date.",
+      "accepted": [
+        "where",
+        "in which",
+        "at which"
+      ],
+      "explainTh": "สถานที่ + ประโยคที่ครบแล้ว (we had our first date) → where (= at/in which)",
+      "structure": "Place + where + Subject + verb",
+      "example": "That's the restaurant where we had our first date."
+    },
+    {
+      "id": "b1-relative-clauses-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I have a friend ___ father is a famous actor.",
+      "accepted": [
+        "whose"
+      ],
+      "explainTh": "บอกความเป็นเจ้าของ (พ่อของเพื่อน) → whose + คำนาม: whose father",
+      "structure": "Noun + whose + noun + verb",
+      "example": "I have a friend whose father is a famous actor."
+    },
+    {
+      "id": "b1-relative-clauses-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "My father is a doctor. He works at a hospital in Bangkok.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย who แบบ Non-defining (มี comma) ขึ้นต้นด้วย My father, …",
+      "accepted": [
+        "My father, who works at a hospital in Bangkok, is a doctor.",
+        "My father, who is a doctor, works at a hospital in Bangkok."
+      ],
+      "explainTh": "พ่อมีคนเดียว ข้อมูลที่เพิ่มเป็น Non-defining → ใส่ comma หน้า-หลัง และใช้ who (ห้ามใช้ that)",
+      "structure": "Noun, who + verb …, + main verb",
+      "example": "My father, who is a doctor, works at a hospital in Bangkok.",
+      "commaSensitive": true
+    },
+    {
+      "id": "b1-relative-clauses-08",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "I met a woman. She speaks five languages.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย relative clause แบบ Defining",
+      "accepted": [
+        "I met a woman who speaks five languages.",
+        "I met a woman that speaks five languages."
+      ],
+      "explainTh": "She แทน a woman → เปลี่ยนเป็น who/that ต่อท้ายคำนามทันที ไม่มี comma และห้ามใส่ she ซ้ำ",
+      "structure": "Noun + who/that + verb",
+      "example": "I met a woman who speaks five languages."
+    },
+    {
+      "id": "b1-relative-clauses-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "The hotel was very expensive. We stayed there.",
+      "instruction": "รวมเป็นประโยคเดียว ขึ้นต้นด้วย The hotel …",
+      "accepted": [
+        "The hotel where we stayed was very expensive.",
+        "The hotel that we stayed at was very expensive.",
+        "The hotel which we stayed at was very expensive.",
+        "The hotel we stayed at was very expensive.",
+        "The hotel in which we stayed was very expensive.",
+        "The hotel at which we stayed was very expensive."
+      ],
+      "explainTh": "there = ที่โรงแรมนั้น → where we stayed (หรือ that/which we stayed at) วางต่อท้าย The hotel แล้วตามด้วยกริยาหลัก was",
+      "structure": "Noun + where + Subject + verb + main verb",
+      "example": "The hotel where we stayed was very expensive."
+    },
+    {
+      "id": "b1-relative-clauses-10",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "The man which lives next door is a teacher.",
+      "errorPart": "which",
+      "accepted": [
+        "The man who lives next door is a teacher.",
+        "The man that lives next door is a teacher."
+      ],
+      "explainTh": "the man เป็นคน ใช้ who หรือ that ไม่ใช้ which",
+      "structure": "Person + who/that + verb"
+    },
+    {
+      "id": "b1-relative-clauses-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Bangkok, that is the capital of Thailand, is very hot in April.",
+      "errorPart": "that",
+      "accepted": [
+        "Bangkok, which is the capital of Thailand, is very hot in April."
+      ],
+      "explainTh": "มี comma = Non-defining ห้ามใช้ that ต้องใช้ which",
+      "structure": "Noun, which + verb …,",
+      "commaSensitive": true
+    },
+    {
+      "id": "b1-relative-clauses-12",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "This is the book which I bought it yesterday.",
+      "errorPart": "it",
+      "accepted": [
+        "This is the book which I bought yesterday.",
+        "This is the book that I bought yesterday.",
+        "This is the book I bought yesterday."
+      ],
+      "explainTh": "which แทน the book อยู่แล้ว จึงห้ามใส่ it ซ้ำ (ภาษาไทยพูด \"หนังสือที่ฉันซื้อมัน\" ไม่ได้เช่นกัน)",
+      "structure": "Noun + which + Subject + verb (ไม่มีกรรมซ้ำ)"
+    },
+    {
+      "id": "b1-relative-clauses-13",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "the",
+        "who",
+        "woman",
+        "is",
+        "helped",
+        "me",
+        "a",
+        "nurse"
+      ],
+      "accepted": [
+        "The woman who helped me is a nurse.",
+        "The woman who is a nurse helped me.",
+        "Is the woman who helped me a nurse?",
+        "The nurse who helped me is a woman."
+      ],
+      "explainTh": "relative clause วางต่อท้ายคำนามที่ขยายทันที: The woman + who helped me + is a nurse"
+    },
+    {
+      "id": "b1-relative-clauses-14",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่คำเชื่อมกับสิ่งที่ใช้ขยาย",
+      "pairs": [
+        [
+          "a person",
+          "who"
+        ],
+        [
+          "a thing or an animal",
+          "which"
+        ],
+        [
+          "a place",
+          "where"
+        ],
+        [
+          "possession (of someone)",
+          "whose"
+        ],
+        [
+          "a time",
+          "when"
+        ]
+      ],
+      "explainTh": "who = คน · which = สิ่งของ/สัตว์ · where = สถานที่ · whose = ความเป็นเจ้าของ · when = เวลา (that ใช้แทน who/which ได้เฉพาะแบบ Defining)"
+    },
+    {
+      "id": "b1-relative-clauses-15",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "ประโยคไหนบอกว่าผู้พูดมีพี่สาว \"คนเดียว\" และถูกไวยากรณ์?",
+      "choices": [
+        "My sister, who lives in Phuket, is a teacher.",
+        "My sister who lives in Phuket is a teacher.",
+        "My sister that lives in Phuket is a teacher.",
+        "My sister, which lives in Phuket, is a teacher."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ไม่มี comma = Defining บอกว่าพี่สาวคนไหน แปลว่ามีพี่สาวมากกว่าหนึ่งคน",
+        "2": "that ใช้ได้เฉพาะ Defining จึงแปลว่ามีพี่สาวหลายคนเช่นกัน",
+        "3": "which ใช้กับสิ่งของ ไม่ใช้กับคน"
+      },
+      "explainTh": "comma + who = Non-defining = ข้อมูลเพิ่ม เราไม่ต้องบอกว่าคนไหน เพราะมีพี่สาวคนเดียว"
+    },
+    {
+      "id": "b1-relative-clauses-16",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Who's that man over there?"
+          },
+          {
+            "speaker": "B",
+            "text": "He's the teacher ___ helped me with my English project."
+          }
+        ]
+      },
+      "choices": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "which ใช้กับสิ่งของ ไม่ใช้กับคน (the teacher)",
+        "2": "whose ต้องตามด้วยคำนาม แต่ตรงนี้ตามด้วยกริยา helped",
+        "3": "where ใช้กับสถานที่"
+      },
+      "explainTh": "คน (the teacher) + เป็นประธานของ helped → who (Defining บอกว่าครูคนไหน)"
+    },
+    {
+      "id": "b1-relative-clauses-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "First day at work",
+        "lines": [
+          {
+            "text": "Hi Jake, Your desk is next to Fon, who has worked here for ten years. The printer that we use is on the second floor. Our manager, whose office is next to the kitchen, will meet you at 10. The café where we usually have lunch is across the street. Ann"
+          }
+        ]
+      },
+      "question": "Where is the manager's office?",
+      "choices": [
+        "Next to the kitchen",
+        "On the second floor",
+        "Next to Fon's desk",
+        "Across the street"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "the second floor คือที่ตั้งของเครื่องพิมพ์ (The printer that we use)",
+        "2": "ข้าง Fon คือโต๊ะของ Jake",
+        "3": "across the street คือร้านกาแฟ (The café where we usually have lunch)"
+      },
+      "explainTh": "Our manager, whose office is next to the kitchen — whose office = ห้องทำงานของผู้จัดการ อยู่ข้างห้องครัว"
+    },
+    {
+      "id": "b1-relative-clauses-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคแนะนำคน สถานที่ หรือสิ่งของในชีวิตคุณ ใช้ who / which / that / where / whose และต้องมีแบบ Non-defining (มี comma) อย่างน้อย 1 ประโยค (Write 3 sentences about people, places or things in your life. Use relative clauses, including at least one non-defining clause with commas.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(who|which|that|where|whose)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ relative clause ด้วย who / which / that / where / whose"
+        },
+        {
+          "re": ",\\s*(who|which|whose|where|when)\\b",
+          "flags": "i",
+          "msgTh": "มีแบบ Non-defining อย่างน้อย 1 ประโยค: comma + who/which/whose/where/when (ห้ามใช้ that)"
+        }
+      ],
+      "forbid": [
+        {
+          "re": ",\\s*that\\b",
+          "flags": "i",
+          "msgTh": "หลัง comma ห้ามใช้ that ใน Non-defining ใช้ who หรือ which แทน"
+        }
+      ],
+      "sample": "My best friend is a girl who loves drawing. Khon Kaen, where I was born, is in the northeast of Thailand. I have a cat whose name is Mochi.",
+      "explainTh": "Defining ไม่มี comma (a girl who loves drawing) · Non-defining มี comma และใช้ who/which/where/whose เท่านั้น (Khon Kaen, where I was born, …)"
+    }
+  ]
+}

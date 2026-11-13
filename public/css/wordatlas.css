@@ -1,0 +1,200 @@
+/* Word Atlas — คลังคำศัพท์ A–Z (public/js/wordatlas.js · v1.14.0)
+   ใช้โครงหน้าเดียวกับอังกฤษเพื่อการทำงาน (wk-*) + Lesson Kit (lk-*) · token สีจาก Design System เดิม */
+#screen-atlas .container { max-width: 880px; }
+#screen-atlas .gl-back { min-height: 44px; }
+:root { --wa-acc: #2f6f8f; --wa-acc-soft: #e1eff6; --wa-ok: var(--color-success, #2e7d4f); --wa-warn: #b7790a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --wa-acc: #8cc6e3; --wa-acc-soft: rgba(140, 198, 227, 0.16); --wa-warn: #f0c75a; } }
+:root[data-theme="dark"] { --wa-acc: #8cc6e3; --wa-acc-soft: rgba(140, 198, 227, 0.16); --wa-warn: #f0c75a; }
+
+/* ทางเข้าในเส้นทางการเรียน */
+.wa-entry { width: 100%; min-height: 72px; margin: 12px 0 4px; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center;
+  padding: 12px 14px; border-radius: 16px; border: 1.5px solid var(--wa-acc); background: var(--wa-acc-soft); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-entry:hover { filter: brightness(1.03); }
+.wa-entry:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.wa-entry-ic { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 12px; background: var(--wa-acc); color: #fff; }
+:root[data-theme="dark"] .wa-entry-ic { color: #0e1a22; }
+.wa-entry-text { display: grid; gap: 2px; min-width: 0; }
+.wa-entry-text small { font-size: 0.8rem; color: var(--color-text-muted); }
+
+/* หัวหน้า */
+.wa-hero .gl-kicker, .wa-hero .gl-kicker .icon { color: var(--wa-acc); }
+.wa-hero .btn { margin-top: 10px; }
+.wa-note { margin: 4px 0 10px; font-size: 0.82rem; color: var(--color-text-muted); }
+.wa-h2 { margin: 0 0 6px; display: flex; align-items: center; gap: 6px; font-size: 1.02rem; font-weight: 800; }
+.wa-sec { margin: 22px 0; }
+
+/* ค้นหา */
+.wa-search { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin: 14px 0; }
+.wa-search input { min-height: 48px; min-width: 0; padding: 0 14px; border-radius: 14px; border: 2px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; font-size: 1rem; }
+.wa-search input:focus { outline: none; border-color: var(--wa-acc); }
+.wa-search .btn { min-width: 52px; min-height: 48px; }
+
+/* เรียนต่อ */
+.wa-continue { width: 100%; margin: 4px 0 14px; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 12px 14px;
+  border-radius: 16px; border: 1.5px solid var(--color-primary); background: var(--color-primary-soft); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-continue b { display: block; } .wa-continue small { color: var(--color-text-muted); }
+.wa-continue-ic { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; background: var(--color-primary); color: #fff; }
+.wa-resume { pointer-events: none; min-height: 40px; }
+
+/* เมนู 8 อย่าง */
+.wa-menu { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+@media (min-width: 760px) { .wa-menu { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.wa-menu-btn { width: 100%; height: 100%; min-height: 76px; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: center; padding: 12px;
+  border-radius: 14px; border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-menu-btn:hover:not(:disabled) { border-color: var(--wa-acc); }
+.wa-menu-btn:focus-visible, .wa-letter:focus-visible, .wa-row:focus-visible, .wa-unit:focus-visible, .wa-wchip:focus-visible, .wa-mbtn:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.wa-menu-btn:disabled { opacity: 0.55; cursor: default; }
+.wa-menu-btn > .icon { width: 26px; height: 26px; color: var(--wa-acc); }
+.wa-menu-btn b { display: block; line-height: 1.25; overflow-wrap: normal; word-break: normal; hyphens: none; }
+@media (max-width: 520px) { .wa-menu-btn { grid-template-columns: 1fr; align-content: start; gap: 6px; } }
+.wa-menu-btn small { display: block; font-size: 0.78rem; color: var(--color-text-muted); }
+.wa-topic-grid .wa-menu-btn { grid-template-columns: 1fr; }
+.wa-cefr-big { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 12px; background: var(--wa-acc-soft); color: var(--wa-acc); font-weight: 900; }
+
+/* A–Z grid (มือถือ 5–6 คอลัมน์ ปุ่ม ≥ 52px · จอใหญ่ 9–13 คอลัมน์) */
+.wa-az { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(56px, 1fr)); gap: 8px; }
+.wa-letter { width: 100%; min-height: 64px; display: grid; justify-items: center; align-content: center; gap: 2px; padding: 6px 4px;
+  border-radius: 12px; border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; cursor: pointer; }
+.wa-letter b { font-size: 1.25rem; line-height: 1; }
+.wa-letter small { font-size: 0.68rem; color: var(--color-text-muted); white-space: nowrap; }
+.wa-letter.is-empty { opacity: 0.6; }
+.wa-lbar, .wa-lbar > span { display: block; height: 4px; border-radius: 4px; }
+.wa-lbar { width: 80%; background: var(--color-surface-2, rgba(0,0,0,.08)); overflow: hidden; }
+.wa-lbar > span { background: var(--wa-acc); }
+
+/* แถบ A–Z แนวนอน (หน้าตัวอักษร) */
+.wa-azbar { margin: 10px -4px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+.wa-azbar ul { list-style: none; margin: 0; padding: 4px; display: flex; gap: 6px; width: max-content; }
+.wa-azbar a { min-width: 44px; min-height: 44px; display: grid; place-items: center; border-radius: 10px; border: 1.5px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font-weight: 800; text-decoration: none; }
+.wa-azbar a.is-on { background: var(--wa-acc); border-color: var(--wa-acc); color: #fff; }
+:root[data-theme="dark"] .wa-azbar a.is-on { color: #0e1a22; }
+@media (min-width: 900px) { .wa-azbar { overflow: visible; } .wa-azbar ul { flex-wrap: wrap; width: auto; } }
+.wa-tabs { display: flex; gap: 6px; margin: 6px 0 12px; }
+.wa-tabs a { flex: 1; min-height: 44px; display: flex; align-items: center; justify-content: center; gap: 6px; border-radius: 12px; border: 1.5px solid var(--color-border);
+  color: var(--color-text); text-decoration: none; font-weight: 700; background: var(--color-surface); }
+.wa-tabs a.is-on { border-color: var(--wa-acc); color: var(--wa-acc); background: var(--wa-acc-soft); }
+
+/* Learning Map */
+.wa-units { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.wa-unit { width: 100%; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 12px; border-radius: 14px;
+  border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-unit-n { min-width: 62px; padding: 8px 6px; border-radius: 10px; background: var(--wa-acc-soft); color: var(--wa-acc); font-weight: 900; text-align: center; font-size: 0.9rem; }
+.wa-unit-body { display: grid; gap: 3px; min-width: 0; }
+.wa-unit-body b { overflow-wrap: anywhere; }
+.wa-unit-body small { color: var(--color-text-muted); font-size: 0.78rem; }
+.wa-unit.is-done .wa-unit-n { background: var(--color-success-soft, #e3f4e8); color: var(--wa-ok); }
+.wa-unit.is-active { border-color: var(--color-primary); }
+
+/* ตัวกรอง + รายการคำ */
+.wa-filters { display: grid; gap: 8px; margin: 8px 0 10px; }
+.wa-fq-row { display: grid; grid-template-columns: 1fr auto; gap: 6px; }
+.wa-fq-row .btn { min-width: 48px; min-height: 44px; }
+.wa-fmore { border: 1.5px solid var(--color-border); border-radius: 12px; background: var(--color-surface); }
+.wa-fmore > summary { min-height: 44px; display: flex; align-items: center; gap: 6px; padding: 0 12px; cursor: pointer; font-weight: 700; list-style: none; }
+.wa-fmore > summary::-webkit-details-marker { display: none; }
+.wa-fmore > summary:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; border-radius: 12px; }
+.wa-fgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 0 12px 12px; align-items: end; }
+@media (min-width: 760px) { .wa-fgrid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.wa-f { display: grid; gap: 2px; font-size: 0.78rem; color: var(--color-text-muted); min-width: 0; }
+.wa-f select, .wa-f input[type="search"] { min-height: 44px; min-width: 0; width: 100%; padding: 0 10px; border-radius: 10px; border: 1.5px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font: inherit; font-size: 0.95rem; }
+.wa-fq { grid-column: 1 / -1; }
+.wa-fgrid .btn { grid-column: 1 / -1; }
+.wa-fchk { grid-auto-flow: column; justify-content: start; align-items: center; gap: 6px; min-height: 44px; font-size: 0.85rem; color: var(--color-text); }
+.wa-fchk input { width: 20px; height: 20px; }
+.wa-filters .btn { min-height: 44px; }
+.wa-count { margin: 4px 0 8px; font-size: 0.85rem; color: var(--color-text-muted); }
+.wa-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.wa-row { width: 100%; min-height: 60px; display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 12px;
+  border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-row:hover { border-color: var(--wa-acc); }
+.wa-row-main { display: grid; gap: 2px; min-width: 0; }
+.wa-row-main b { font-size: 1.02rem; overflow-wrap: anywhere; }
+.wa-row-main small { color: var(--color-text-muted); font-size: 0.82rem; overflow-wrap: anywhere; }
+.wa-row-meta { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; align-items: center; max-width: 46%; }
+.wa-row-meta small { font-size: 0.72rem; color: var(--color-text-muted); }
+@media (max-width: 420px) { .wa-row { grid-template-columns: 1fr; } .wa-row-meta { max-width: none; justify-content: flex-start; } }
+.wa-ipa { font-size: 0.82rem; color: var(--color-text-muted); font-weight: 400; }
+.wa-more { width: 100%; margin-top: 10px; min-height: 48px; }
+.wk-chip.wa-cefr { background: var(--wa-acc-soft); color: var(--wa-acc); font-weight: 800; }
+.wk-chip.wa-uncl { background: var(--color-surface-2, rgba(0,0,0,.06)); color: var(--color-text-muted); font-style: italic; }
+.wk-chip.wa-ox { background: var(--color-primary-soft); color: var(--color-primary); }
+.wk-chip.wa-lab { background: rgba(183, 121, 10, 0.12); color: var(--wa-warn); }
+.wk-chip.wa-band { background: var(--color-surface-2, rgba(0,0,0,.06)); color: var(--color-text-muted); }
+.wk-chip.wa-band.b1, .wk-chip.wa-band.b2 { color: var(--wa-ok); }
+.wa-st { font-size: 0.72rem; font-weight: 700; color: var(--color-text-muted); }
+.wa-st.st-learned, .wa-st.st-known, .wa-st.st-mastered { color: var(--wa-ok); }
+.wa-st.st-needReview { color: var(--color-danger, #c0392b); }
+.wa-st.st-partial, .wa-st.st-learning, .wa-st.st-familiar { color: var(--wa-acc); }
+
+/* ชิปคำ (ประจำวัน / แนะนำ) */
+.wa-wchips { list-style: none; margin: 6px 0 10px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+.wa-wchip { width: 100%; min-height: 56px; display: grid; gap: 2px; padding: 8px 10px; border-radius: 12px; border: 1.5px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.wa-wchip small { color: var(--color-text-muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* รายละเอียดคำ */
+.wa-word { font-size: clamp(1.8rem, 6vw, 2.6rem); overflow-wrap: anywhere; }
+.wa-pron { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 4px 0; color: var(--color-text-muted); }
+.wk-say.wa-say { display: inline-flex; align-items: center; gap: 4px; width: auto; min-width: 44px; height: auto; min-height: 44px; padding: 0 10px; justify-content: center; border-radius: 999px; }
+.wa-say span { font-size: 0.75rem; font-weight: 800; }
+.wa-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.wa-actions .btn { min-height: 44px; margin: 0; }
+.wa-sense { margin: 10px 0; padding: 14px; display: grid; gap: 8px; }
+.wa-sense.is-pending { border-style: dashed; }
+.wa-sense-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px; align-items: center; }
+.wa-sense-head h3 { margin: 0; font-size: 1rem; display: flex; align-items: center; gap: 6px; }
+.wa-sn { width: 26px; height: 26px; display: inline-grid; place-items: center; border-radius: 50%; background: var(--wa-acc-soft); color: var(--wa-acc); font-size: 0.85rem; }
+.wa-sense-chips { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.wa-thai { margin: 0; font-size: 1.15rem; font-weight: 700; }
+.wa-thai.is-missing { font-size: 0.88rem; font-weight: 400; color: var(--color-text-muted); display: flex; gap: 6px; align-items: center; }
+.wa-def { margin: 0; color: var(--color-text-muted); }
+.wa-exs { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.wa-exs small, .wa-ex small { display: block; color: var(--color-text-muted); }
+.wa-dl { margin: 0; display: grid; gap: 6px; }
+.wa-dl div { display: grid; grid-template-columns: 130px 1fr; gap: 8px; }
+@media (max-width: 480px) { .wa-dl div { grid-template-columns: 1fr; gap: 0; } }
+.wa-dl dt { font-weight: 700; font-size: 0.85rem; }
+.wa-dl dd { margin: 0; overflow-wrap: anywhere; }
+.wa-dl a { color: var(--wa-acc); }
+.wa-sense-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; color: var(--color-text-muted); }
+.wa-sense-foot .mini-btn { min-height: 40px; }
+
+/* บทเรียน */
+.wa-lesson-top { margin-bottom: 10px; }
+.wa-step-title small { display: block; font-size: 0.9rem; font-weight: 600; color: var(--color-text-muted); }
+.wa-cards { list-style: none; margin: 10px 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.wa-card { padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
+.wa-card p { margin: 0; }
+.wa-card-w { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 1.15rem; }
+.wa-mini { font-size: 0.85rem; color: var(--color-text-muted); }
+.wa-ex { overflow-wrap: anywhere; }
+.wa-reward { margin: 8px 0 0; font-weight: 700; color: var(--wa-ok); display: flex; justify-content: center; align-items: center; gap: 6px; }
+
+/* โจทย์ */
+.wa-qword { font-size: 1.7rem; }
+.wa-qdef { font-size: 1.05rem; line-height: 1.5; }
+.wa-hint { margin: 4px 0; color: var(--color-text-muted); font-size: 0.9rem; }
+.wa-listen { display: flex; justify-content: center; margin: 10px 0; }
+.wa-play { min-height: 56px; }
+.wa-spell { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin: 10px 0; }
+.wa-spell input { min-height: 52px; min-width: 0; padding: 0 14px; border-radius: 12px; border: 2px solid var(--color-border); background: var(--color-surface);
+  color: var(--color-text); font: inherit; font-size: 1.2rem; letter-spacing: 0.04em; }
+@media (max-width: 420px) { .wa-spell { grid-template-columns: 1fr; } }
+.wa-match { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0 12px; }
+.wa-match ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; align-content: start; }
+.wa-mbtn { width: 100%; min-height: 52px; padding: 8px 10px; border-radius: 12px; border: 1.5px solid var(--color-border); background: var(--color-surface);
+  color: var(--color-text); font: inherit; text-align: left; cursor: pointer; overflow-wrap: anywhere; }
+.wa-mbtn small { display: block; color: var(--color-text-muted); font-size: 0.75rem; }
+.wa-mbtn.is-sel { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.wa-mbtn.is-paired { border-style: dashed; border-color: var(--wa-acc); }
+.wa-mbtn.is-right { border-color: var(--wa-ok); background: var(--color-success-soft, #e3f4e8); }
+.wa-mbtn.is-wrong { border-color: var(--color-danger, #c0392b); }
+.wa-exp { margin: 6px 0 0; font-size: 0.85rem; display: flex; align-items: center; gap: 4px; }
+
+/* หน้าเลือกหมวด A–Z (Vocabulary Quiz) — ปุ่มใหญ่ขึ้น */
+.wa-az-big { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 10px; }
+.wa-az-big .wa-letter { min-height: 76px; }
+.wa-az-big .wa-letter b { font-size: 1.5rem; }
+.wa-letter:disabled { cursor: default; }

@@ -1,0 +1,49 @@
+/* TOEIC Reading Part 6 (public/js/toeic6.js) — ต่อยอดจาก toeic.css + toeic5.css */
+.t6-layout { display: grid; gap: 12px; align-items: start; }
+@media (min-width: 980px) {
+  .t6-screen .gl-root { max-width: 1180px; }
+  .t6-layout { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); }
+  .t6-doc { position: sticky; top: 76px; max-height: calc(100vh - 96px); overflow: auto; }
+}
+.t6-doc { padding: 16px 18px; }
+.t6-doctype { display: flex; align-items: center; gap: 6px; margin: 0 0 4px; font-size: 0.8rem; font-weight: 800; color: var(--color-primary); text-transform: none; }
+.t6-doc-title { margin: 0 0 10px; font-size: 1.08rem; font-weight: 800; }
+.t6-doc-title:focus { outline: none; }
+.t6-text { font-size: 1.02rem; line-height: 1.75; overflow-wrap: break-word; }
+.t6-text p { margin: 0 0 10px; }
+.t6-head { font-size: 0.9rem; color: var(--color-text-muted); border-bottom: 1px dashed var(--color-border); padding-bottom: 8px; }
+.t6-gap { display: inline-flex; align-items: baseline; gap: 4px; max-width: 100%; min-height: 32px; padding: 1px 8px 1px 4px; margin: 0 2px; vertical-align: baseline;
+  border: 0; border-bottom: 2.5px solid var(--color-primary); border-radius: 6px 6px 2px 2px; background: var(--tq-soft); color: inherit; font: inherit; cursor: pointer; text-align: left; white-space: normal; }
+.t6-gap-n { flex: 0 0 auto; display: inline-grid; place-items: center; min-width: 20px; height: 20px; border-radius: 50%; background: var(--color-primary); color: #fff; font-size: 0.72rem; font-weight: 800; transform: translateY(-1px); }
+.t6-gap-t { min-width: 3.5em; }
+.t6-gap.is-sent { display: flex; width: 100%; margin: 4px 0; padding: 6px 10px; border: 2px dashed var(--color-primary); border-radius: 10px; }
+.t6-gap.is-pick { font-weight: 700; color: var(--color-primary); }
+.t6-gap.is-ok { background: var(--color-success-soft); border-color: var(--color-success); font-weight: 700; }
+.t6-gap.is-ok .t6-gap-n { background: var(--color-success); }
+.t6-gap.is-fixed { background: var(--color-danger-soft, rgba(214, 69, 69, 0.1)); border-color: var(--color-danger); font-weight: 700; }
+.t6-gap.is-fixed .t6-gap-n { background: var(--color-danger); }
+.t6-gap.is-flash { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.t6-qs { display: grid; gap: 10px; }
+.t6-qcard { padding: 14px; margin: 0; scroll-margin-top: 80px; }
+.t6-qh { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 10px; font-size: 0.95rem; font-weight: 800; }
+.t6-qh small { flex: 1 1 100%; order: 3; font-weight: 600; color: var(--color-text-muted); font-size: 0.8rem; }
+.t6-num { display: inline-grid; place-items: center; min-width: 28px; height: 28px; border-radius: 8px; background: var(--color-primary); color: #fff; font-size: 0.85rem; }
+.t6-tolink { margin-left: auto; min-height: 44px; display: inline-flex; align-items: center; gap: 4px; padding: 0 8px; border: 0; background: none; color: var(--color-primary); font: inherit; font-size: 0.82rem; font-weight: 700; cursor: pointer; }
+@media (min-width: 980px) { .t6-tolink { display: none; } }
+.t5-opts.is-sent { grid-template-columns: 1fr; }
+.t5-opts.is-sent .t5-o { font-weight: 500; line-height: 1.5; }
+.t6-bfb { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: 0.92rem; }
+.t6-bfb.ok { background: var(--color-success-soft); }
+.t6-bfb.bad { background: var(--color-danger-soft, rgba(214, 69, 69, 0.08)); }
+.t6-bfb p { margin: 0 0 6px; }
+.t6-bfb-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.t6-bfb.ok .t6-bfb-head .icon { color: var(--color-success); }
+.t6-bfb.bad .t6-bfb-head .icon { color: var(--color-danger); }
+.t6-notes summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; color: var(--color-primary); }
+.t6-trans { white-space: normal; line-height: 1.7; }
+.t6-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 8px 0 10px; }
+.t6-tab { min-height: 48px; display: grid; justify-items: center; align-content: center; border-radius: 12px; border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; font-weight: 700; font-size: 0.85rem; cursor: pointer; }
+.t6-tab small { font-size: 0.72rem; color: var(--color-text-muted); }
+.t6-tab.is-on { border-color: var(--tq-accent); background: var(--tq-soft); color: var(--tq-accent); }
+.t6-rvq { margin: 10px 0; }
+.t6-rvq .t6-qh { margin-bottom: 4px; }

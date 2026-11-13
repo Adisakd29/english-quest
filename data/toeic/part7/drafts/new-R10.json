@@ -1,0 +1,811 @@
+[
+  {
+    "id": "R10-01",
+    "format": "single",
+    "topic": "technology",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: All Staff\nFrom: Felix Amundsen, IT Department\nDate: February 16\nSubject: Laptop replacement next week\n\nDear colleagues,\n\nAs announced last month, every employee at Ostrander Accounting Partners will receive a new laptop next week. The current machines are more than five years old, and many of them can no longer run the latest version of our tax software. [1]\n\nReplacements will take place in Meeting Room 4 from Monday, February 23, to Thursday, February 26. Each appointment lasts about 30 minutes. Please reserve a time slot through the IT help page by Friday, February 20. [2]\n\nBefore your appointment, save any personal files stored on your desktop to your folder on the shared drive. Files left on the old laptop cannot be recovered after it is returned. [3] You do not need to copy e-mails or calendar entries, as these will transfer automatically.\n\nPlease bring your old laptop, its charger, and your employee ID card to the appointment. [4] If you will be working from home on the day of your appointment, contact me so that we can arrange to have the new laptop delivered.\n\nThank you for your cooperation.\n\nFelix Amundsen\nIT Support Manager"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the purpose of the e-mail?",
+        "options": [
+          "To announce a new tax software program",
+          "To request feedback on office computers",
+          "To explain arrangements for replacing equipment",
+          "To introduce a new IT support manager"
+        ],
+        "answer": 2,
+        "evidence": [
+          "every employee at Ostrander Accounting Partners will receive a new laptop next week"
+        ],
+        "explanationTH": "ย่อหน้าแรกบอกว่า \"every employee at Ostrander Accounting Partners will receive a new laptop next week\" จากนั้นทั้งอีเมลอธิบายวัน สถานที่ การจองเวลา และสิ่งที่ต้องเตรียม จุดประสงค์จึงเป็นการชี้แจงขั้นตอนการเปลี่ยนเครื่องคอมพิวเตอร์",
+        "optionNotesTH": [
+          "ผิด อีเมลพูดถึงโปรแกรมภาษีแค่เป็นเหตุผลที่ต้องเปลี่ยนเครื่อง ไม่ได้ประกาศโปรแกรมใหม่",
+          "ผิด ไม่มีการขอความคิดเห็นเกี่ยวกับคอมพิวเตอร์",
+          "ถูก อีเมลอธิบายการจัดการเปลี่ยนแล็ปท็อป (equipment) ให้พนักงานทุกคน",
+          "ผิด Felix Amundsen ลงชื่อในฐานะผู้จัดการ IT แต่ไม่ได้แนะนำตัวเป็นผู้จัดการคนใหม่"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "Why are the laptops being replaced?",
+        "options": [
+          "Some programs no longer work on them.",
+          "Employees have complained about their size.",
+          "Their warranty has recently expired.",
+          "They cannot connect to the shared drive."
+        ],
+        "answer": 0,
+        "evidence": [
+          "many of them can no longer run the latest version of our tax software"
+        ],
+        "explanationTH": "ย่อหน้าแรกระบุว่าเครื่องเดิมเก่ากว่า 5 ปี และ \"many of them can no longer run the latest version of our tax software\" คือใช้โปรแกรมภาษีเวอร์ชันล่าสุดไม่ได้ ตรงกับตัวเลือกที่ว่าบางโปรแกรมใช้กับเครื่องไม่ได้แล้ว",
+        "optionNotesTH": [
+          "ถูก can no longer run the latest version of our tax software = บางโปรแกรมใช้งานบนเครื่องไม่ได้",
+          "ผิด ไม่มีการพูดถึงขนาดเครื่องหรือคำร้องเรียน",
+          "ผิด ไม่ได้กล่าวถึงการรับประกัน",
+          "ผิด shared drive ถูกพูดถึงเป็นที่เก็บไฟล์ ไม่ใช่ปัญหาการเชื่อมต่อ (กับดักคำซ้ำ)"
+        ]
+      },
+      {
+        "type": "notTrue",
+        "stem": "What is NOT mentioned as something employees should bring to their appointment?",
+        "options": [
+          "Their current laptop",
+          "A power charger",
+          "An identification card",
+          "A list of saved files"
+        ],
+        "answer": 3,
+        "evidence": [
+          "Please bring your old laptop, its charger, and your employee ID card to the appointment."
+        ],
+        "explanationTH": "ย่อหน้าที่สี่บอกว่า \"Please bring your old laptop, its charger, and your employee ID card to the appointment.\" มีแล็ปท็อปเครื่องเดิม ที่ชาร์จ และบัตรพนักงาน แต่ไม่มีรายการไฟล์ที่บันทึกไว้",
+        "optionNotesTH": [
+          "ผิด (มีระบุ) your old laptop = แล็ปท็อปเครื่องปัจจุบัน",
+          "ผิด (มีระบุ) its charger",
+          "ผิด (มีระบุ) your employee ID card = บัตรประจำตัว",
+          "ถูก ไม่ได้ให้นำรายการไฟล์มา อีเมลแค่ให้บันทึกไฟล์ไว้ใน shared drive ก่อน"
+        ]
+      },
+      {
+        "type": "insertion",
+        "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?",
+        "sentence": "Any slots that are still open after that date will be assigned by the IT team.",
+        "options": [
+          "[1]",
+          "[2]",
+          "[3]",
+          "[4]"
+        ],
+        "answer": 1,
+        "explanationTH": "ประโยคที่ต้องเติมพูดถึง \"slots\" และ \"that date\" จึงต้องอยู่หลังประโยค \"Please reserve a time slot through the IT help page by Friday, February 20.\" ซึ่งมีทั้งคำว่า time slot และวันที่กำหนด ตำแหน่ง [2] จึงเหมาะที่สุด",
+        "optionNotesTH": [
+          "ผิด ตำแหน่ง [1] พูดถึงเหตุผลที่เครื่องเก่า ยังไม่มีการพูดถึงการจองเวลาหรือวันที่",
+          "ถูก ต่อจากการให้จองช่วงเวลาภายในวันศุกร์ที่ 20 กุมภาพันธ์ \"that date\" จึงหมายถึงวันนั้น",
+          "ผิด ตำแหน่ง [3] เป็นเรื่องการบันทึกไฟล์ ไม่เกี่ยวกับช่วงเวลานัด",
+          "ผิด ตำแหน่ง [4] เป็นเรื่องของที่ต้องนำมา ไม่มีวันที่ให้อ้างถึง"
+        ]
+      }
+    ],
+    "translationTH": [
+      "ถึง: พนักงานทุกคน\nจาก: Felix Amundsen ฝ่ายไอที\nวันที่: 16 กุมภาพันธ์\nเรื่อง: การเปลี่ยนแล็ปท็อปสัปดาห์หน้า\n\nเรียนเพื่อนร่วมงานทุกท่าน\n\nตามที่ได้ประกาศไปเมื่อเดือนที่แล้ว พนักงานทุกคนของ Ostrander Accounting Partners จะได้รับแล็ปท็อปเครื่องใหม่ในสัปดาห์หน้า เครื่องที่ใช้อยู่ในปัจจุบันมีอายุมากกว่าห้าปี และหลายเครื่องไม่สามารถใช้งานโปรแกรมภาษีเวอร์ชันล่าสุดของเราได้แล้ว [1]\n\nการเปลี่ยนเครื่องจะทำที่ห้องประชุม 4 ตั้งแต่วันจันทร์ที่ 23 ถึงวันพฤหัสบดีที่ 26 กุมภาพันธ์ แต่ละนัดใช้เวลาประมาณ 30 นาที กรุณาจองช่วงเวลาผ่านหน้าเว็บช่วยเหลือของฝ่ายไอทีภายในวันศุกร์ที่ 20 กุมภาพันธ์ [2]\n\nก่อนถึงเวลานัด กรุณาบันทึกไฟล์ส่วนตัวที่อยู่บนเดสก์ท็อปไว้ในโฟลเดอร์ของคุณบนไดรฟ์ส่วนกลาง ไฟล์ที่ทิ้งไว้ในแล็ปท็อปเครื่องเก่าจะกู้คืนไม่ได้หลังจากส่งคืนเครื่องแล้ว [3] คุณไม่จำเป็นต้องคัดลอกอีเมลหรือรายการในปฏิทิน เพราะข้อมูลเหล่านี้จะถูกย้ายไปโดยอัตโนมัติ\n\nกรุณานำแล็ปท็อปเครื่องเก่า ที่ชาร์จ และบัตรพนักงานมาด้วยในวันนัด [4] หากคุณทำงานจากที่บ้านในวันนัดหมาย กรุณาติดต่อผม เพื่อเราจะได้จัดส่งแล็ปท็อปเครื่องใหม่ไปให้\n\nขอบคุณสำหรับความร่วมมือ\n\nFelix Amundsen\nผู้จัดการฝ่ายสนับสนุนไอที"
+    ],
+    "tipTH": "ข้อเติมประโยค ให้หาคำอ้างอิงในประโยคที่ให้มา เช่น \"that date\" หรือ \"slots\" แล้วมองหาตำแหน่งที่ประโยคก่อนหน้ามีวันที่หรือคำนั้นอยู่จริง",
+    "vocabulary": [
+      {
+        "word": "replacement",
+        "pos": "noun",
+        "th": "การเปลี่ยนแทน, ของที่นำมาแทน"
+      },
+      {
+        "word": "reserve",
+        "pos": "verb",
+        "th": "จอง"
+      },
+      {
+        "word": "recover",
+        "pos": "verb",
+        "th": "กู้คืน, นำกลับมา"
+      },
+      {
+        "word": "transfer",
+        "pos": "verb",
+        "th": "ย้าย, โอน"
+      },
+      {
+        "word": "cooperation",
+        "pos": "noun",
+        "th": "ความร่วมมือ"
+      }
+    ]
+  },
+  {
+    "id": "R10-02",
+    "format": "single",
+    "topic": "events",
+    "difficulty": "easy",
+    "docs": [
+      {
+        "docType": "schedule",
+        "title": "Schedule",
+        "text": "Pemberton Riverside Fun Run: Volunteer Schedule\nSunday, April 19 · Sponsored by Calyx Sporting Goods\n\nThank you for volunteering! Please check in at the volunteer tent near Pemberton Bridge 30 minutes before your shift begins. T-shirts and water bottles will be handed out there.\n\n| Shift | Time | Location | Team Leader |\n| Registration desk | 6:00 A.M. – 8:30 A.M. | Main entrance, Riverside Park | Noor Haddad |\n| Water station 1 | 7:30 A.M. – 10:30 A.M. | 3-kilometer mark | Stefan Lorne |\n| Water station 2 | 7:45 A.M. – 11:00 A.M. | 7-kilometer mark | Akosua Mensah |\n| Finish line | 8:00 A.M. – 12:00 P.M. | Riverside Park stage | Bianca Tellez |\n| Cleanup | 11:30 A.M. – 1:30 P.M. | Entire course | Noor Haddad |\n\nThe race begins at 8:00 A.M. In case of heavy rain, the event will be moved to Sunday, April 26, and volunteers will be notified by text message the evening before. Questions about your assignment should be directed to your team leader rather than to store staff."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What will volunteers receive at the volunteer tent?",
+        "options": [
+          "A parking permit",
+          "A printed course map",
+          "A lunch voucher",
+          "Clothing and a drink container"
+        ],
+        "answer": 3,
+        "evidence": [
+          "T-shirts and water bottles will be handed out there."
+        ],
+        "explanationTH": "ย่อหน้าแรกบอกให้ไปลงชื่อที่เต็นท์อาสาสมัคร และ \"T-shirts and water bottles will be handed out there.\" คือจะแจกเสื้อยืดและขวดน้ำ ซึ่งตรงกับเสื้อผ้าและภาชนะใส่เครื่องดื่ม",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงบัตรจอดรถ",
+          "ผิด ไม่ได้บอกว่าแจกแผนที่เส้นทาง",
+          "ผิด ไม่มีการพูดถึงคูปองอาหารกลางวัน",
+          "ถูก T-shirts = clothing และ water bottles = drink container"
+        ]
+      },
+      {
+        "type": "inference",
+        "stem": "What is suggested about Noor Haddad?",
+        "options": [
+          "She is an employee of Calyx Sporting Goods.",
+          "She will lead two different teams.",
+          "She will take part in the race.",
+          "She will send text messages to volunteers."
+        ],
+        "answer": 1,
+        "evidence": [
+          "Registration desk | 6:00 A.M. – 8:30 A.M. | Main entrance, Riverside Park | Noor Haddad",
+          "Cleanup | 11:30 A.M. – 1:30 P.M. | Entire course | Noor Haddad"
+        ],
+        "explanationTH": "ในตาราง ชื่อ Noor Haddad ปรากฏเป็นหัวหน้าทีมสองครั้ง คือกะโต๊ะลงทะเบียน (Registration desk) และกะเก็บกวาด (Cleanup) จึงสรุปได้ว่าเธอจะดูแลสองทีม",
+        "optionNotesTH": [
+          "ผิด ไม่ได้บอกว่าเธอเป็นพนักงานของผู้สนับสนุน",
+          "ถูก เป็นหัวหน้าทีมทั้งกะลงทะเบียนและกะเก็บกวาด",
+          "ผิด ไม่มีข้อมูลว่าเธอจะลงวิ่ง และช่วงเวลาที่เธอทำงานก็ไม่เอื้อ",
+          "ผิด ตารางบอกเพียงว่าอาสาสมัครจะได้รับข้อความ ไม่ได้บอกว่าใครเป็นคนส่ง"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "When should a volunteer assigned to water station 2 check in?",
+        "options": [
+          "At 7:15 A.M.",
+          "At 7:30 A.M.",
+          "At 7:45 A.M.",
+          "At 8:00 A.M."
+        ],
+        "answer": 0,
+        "evidence": [
+          "check in at the volunteer tent near Pemberton Bridge 30 minutes before your shift begins",
+          "Water station 2 | 7:45 A.M. – 11:00 A.M."
+        ],
+        "explanationTH": "ย่อหน้าแรกให้ลงชื่อ \"30 minutes before your shift begins\" และตารางระบุว่ากะ Water station 2 เริ่ม 7:45 A.M. ดังนั้นต้องมาลงชื่อเวลา 7:15 A.M.",
+        "optionNotesTH": [
+          "ถูก 7:45 ลบ 30 นาที = 7:15 A.M.",
+          "ผิด 7:30 เป็นเวลาเริ่มกะของ Water station 1",
+          "ผิด 7:45 เป็นเวลาเริ่มกะ ไม่ใช่เวลาลงชื่อ",
+          "ผิด 8:00 เป็นเวลาเริ่มการแข่งขัน"
+        ]
+      }
+    ],
+    "translationTH": [
+      "Pemberton Riverside Fun Run: ตารางงานอาสาสมัคร\nวันอาทิตย์ที่ 19 เมษายน · สนับสนุนโดย Calyx Sporting Goods\n\nขอบคุณที่มาเป็นอาสาสมัคร! กรุณาลงชื่อที่เต็นท์อาสาสมัครใกล้สะพาน Pemberton ก่อนเริ่มกะของคุณ 30 นาที จะมีการแจกเสื้อยืดและขวดน้ำที่นั่น\n\n| กะ | เวลา | สถานที่ | หัวหน้าทีม |\n| โต๊ะลงทะเบียน | 6:00–8:30 น. | ทางเข้าหลัก สวน Riverside | Noor Haddad |\n| จุดบริการน้ำ 1 | 7:30–10:30 น. | กิโลเมตรที่ 3 | Stefan Lorne |\n| จุดบริการน้ำ 2 | 7:45–11:00 น. | กิโลเมตรที่ 7 | Akosua Mensah |\n| เส้นชัย | 8:00–12:00 น. | เวทีสวน Riverside | Bianca Tellez |\n| เก็บกวาด | 11:30–13:30 น. | ตลอดเส้นทาง | Noor Haddad |\n\nการแข่งขันเริ่มเวลา 8:00 น. หากฝนตกหนัก งานจะเลื่อนไปเป็นวันอาทิตย์ที่ 26 เมษายน และอาสาสมัครจะได้รับแจ้งทางข้อความในเย็นวันก่อนหน้า หากมีคำถามเกี่ยวกับงานที่ได้รับมอบหมาย กรุณาสอบถามหัวหน้าทีมของคุณแทนพนักงานร้าน"
+    ],
+    "tipTH": "สำหรับตารางเวลา ให้อ่านเงื่อนไขในย่อหน้าก่อนและหลังตารางด้วย เพราะคำถามมักให้นำเงื่อนไขนั้น (เช่น มาก่อน 30 นาที) ไปคำนวณกับตัวเลขในตาราง",
+    "vocabulary": [
+      {
+        "word": "check in",
+        "pos": "phrase",
+        "th": "ลงชื่อแจ้งว่ามาถึง"
+      },
+      {
+        "word": "shift",
+        "pos": "noun",
+        "th": "กะการทำงาน"
+      },
+      {
+        "word": "hand out",
+        "pos": "phrase",
+        "th": "แจก"
+      },
+      {
+        "word": "notify",
+        "pos": "verb",
+        "th": "แจ้งให้ทราบ"
+      },
+      {
+        "word": "assignment",
+        "pos": "noun",
+        "th": "งานที่ได้รับมอบหมาย"
+      }
+    ]
+  },
+  {
+    "id": "R10-03",
+    "format": "single",
+    "topic": "office",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "instructions",
+        "title": "Instructions",
+        "text": "Using the Shared Workstations on the Fifth Floor\n\nSince the renovation of the fifth floor, Thornbury Media Group has replaced assigned desks with 40 shared workstations. Please follow these steps when using them.\n\n1. Reserve a workstation through the DeskFinder app up to seven days in advance and no later than 9:00 P.M. on the day before you plan to use it. Same-day reservations can be made only if a workstation is still available.\n2. When you arrive, scan the code on the workstation with your phone within 30 minutes of your reservation start time. Unconfirmed reservations are automatically canceled and the workstation is released to other users.\n3. Store personal items in the lockers next to the kitchen. Lockers may be used for one day at a time; anything left overnight will be removed by the facilities team.\n4. Before leaving, clear the desk and wipe it down with the cleaning cloths provided at each station.\n\nMonitors, keyboards, and docking stations are already set up at every workstation, so there is no need to bring your own. Employees who need special equipment, such as an adjustable chair, should contact Lionel Achterberg in Facilities at extension 512."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "According to the instructions, what happens if an employee does not scan the code in time?",
+        "options": [
+          "The employee is charged a fee.",
+          "A reminder is sent to the employee's phone.",
+          "The workstation becomes available to others.",
+          "The facilities team contacts the employee."
+        ],
+        "answer": 2,
+        "evidence": [
+          "Unconfirmed reservations are automatically canceled and the workstation is released to other users."
+        ],
+        "explanationTH": "ขั้นตอนที่ 2 บอกว่าต้องสแกนโค้ดภายใน 30 นาที และ \"Unconfirmed reservations are automatically canceled and the workstation is released to other users.\" คือการจองจะถูกยกเลิกและโต๊ะจะเปิดให้คนอื่นใช้",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงค่าปรับ",
+          "ผิด ใช้โทรศัพท์เพื่อสแกนโค้ด แต่ไม่ได้บอกว่ามีข้อความเตือน (กับดักคำว่า phone)",
+          "ถูก released to other users = มีให้คนอื่นใช้ได้",
+          "ผิด ฝ่าย facilities ถูกพูดถึงเรื่องของที่ทิ้งไว้ในล็อกเกอร์ ไม่ใช่เรื่องนี้"
+        ]
+      },
+      {
+        "type": "inference",
+        "stem": "What is suggested about the fifth floor?",
+        "options": [
+          "It has one locker for each employee.",
+          "It is still being renovated.",
+          "It is used only by the facilities team.",
+          "Its desks were previously assigned to individuals."
+        ],
+        "answer": 3,
+        "evidence": [
+          "Thornbury Media Group has replaced assigned desks with 40 shared workstations"
+        ],
+        "explanationTH": "ประโยคแรกบอกว่า \"Thornbury Media Group has replaced assigned desks with 40 shared workstations\" แปลว่าก่อนหน้านี้ชั้นห้ามีโต๊ะประจำตัวของแต่ละคน แล้วจึงเปลี่ยนเป็นโต๊ะใช้ร่วมกัน",
+        "optionNotesTH": [
+          "ผิด มีการพูดถึงล็อกเกอร์ แต่ไม่ได้บอกจำนวนหรือว่ามีคนละตู้ และใช้ได้ครั้งละวันเท่านั้น",
+          "ผิด Since the renovation แสดงว่าปรับปรุงเสร็จแล้ว",
+          "ผิด พนักงานทั่วไปเป็นผู้จองโต๊ะใช้งาน",
+          "ถูก replaced assigned desks แสดงว่าเดิมเป็นโต๊ะประจำตัว"
+        ]
+      },
+      {
+        "type": "vocabulary",
+        "stem": "In the instructions, the word \"clear\" in step 4, line 1, is closest in meaning to",
+        "options": [
+          "explain",
+          "empty",
+          "approve",
+          "brighten"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Before leaving, clear the desk and wipe it down with the cleaning cloths"
+        ],
+        "explanationTH": "ในขั้นตอนที่ 4 \"clear the desk\" ก่อนออกไปแล้วเช็ดโต๊ะ หมายถึงเก็บของออกจากโต๊ะให้โล่ง ความหมายจึงใกล้กับ empty (ทำให้ว่าง)",
+        "optionNotesTH": [
+          "ผิด explain (อธิบาย) มาจากความหมาย make clear ไม่เข้ากับบริบทโต๊ะ",
+          "ถูก clear the desk = ทำให้โต๊ะว่าง ไม่มีของวาง",
+          "ผิด approve (อนุมัติ) เป็นอีกความหมายหนึ่งของ clear แต่ไม่ใช่ในบริบทนี้",
+          "ผิด brighten (ทำให้สว่าง) ไม่เกี่ยวกับการเก็บโต๊ะ"
+        ]
+      }
+    ],
+    "translationTH": [
+      "การใช้โต๊ะทำงานร่วมกันที่ชั้นห้า\n\nหลังจากการปรับปรุงชั้นห้า Thornbury Media Group ได้เปลี่ยนโต๊ะทำงานประจำตัวเป็นโต๊ะทำงานใช้ร่วมกัน 40 ที่ กรุณาปฏิบัติตามขั้นตอนต่อไปนี้เมื่อใช้งาน\n\n1. จองโต๊ะทำงานผ่านแอป DeskFinder ได้ล่วงหน้าไม่เกินเจ็ดวัน และไม่ช้ากว่า 21:00 น. ของวันก่อนวันที่จะใช้ การจองในวันเดียวกันทำได้เฉพาะเมื่อยังมีโต๊ะว่างเท่านั้น\n2. เมื่อมาถึง ให้ใช้โทรศัพท์สแกนโค้ดที่โต๊ะภายใน 30 นาทีนับจากเวลาเริ่มการจอง การจองที่ไม่ได้ยืนยันจะถูกยกเลิกโดยอัตโนมัติและโต๊ะจะเปิดให้ผู้อื่นใช้\n3. เก็บของใช้ส่วนตัวไว้ในล็อกเกอร์ข้างห้องครัว ล็อกเกอร์ใช้ได้ครั้งละหนึ่งวัน สิ่งของที่ทิ้งไว้ข้ามคืนจะถูกฝ่ายอาคารสถานที่นำออกไป\n4. ก่อนออกไป ให้เก็บของบนโต๊ะให้เรียบร้อยและเช็ดโต๊ะด้วยผ้าทำความสะอาดที่จัดไว้ให้ที่แต่ละโต๊ะ\n\nจอภาพ แป้นพิมพ์ และแท่นเชื่อมต่อได้ติดตั้งไว้ที่ทุกโต๊ะแล้ว จึงไม่จำเป็นต้องนำมาเอง พนักงานที่ต้องการอุปกรณ์พิเศษ เช่น เก้าอี้ปรับระดับได้ ควรติดต่อ Lionel Achterberg ฝ่ายอาคารสถานที่ ที่หมายเลขภายใน 512"
+    ],
+    "tipTH": "ข้อคำศัพท์ อย่าเลือกความหมายที่คุ้นเคยที่สุดของคำนั้นทันที ให้แทนตัวเลือกลงในประโยคเดิมแล้วดูว่าเข้ากับบริบทหรือไม่",
+    "vocabulary": [
+      {
+        "word": "renovation",
+        "pos": "noun",
+        "th": "การปรับปรุงซ่อมแซม"
+      },
+      {
+        "word": "in advance",
+        "pos": "phrase",
+        "th": "ล่วงหน้า"
+      },
+      {
+        "word": "unconfirmed",
+        "pos": "adjective",
+        "th": "ที่ยังไม่ได้ยืนยัน"
+      },
+      {
+        "word": "release",
+        "pos": "verb",
+        "th": "ปล่อย, เปิดให้ใช้"
+      },
+      {
+        "word": "adjustable",
+        "pos": "adjective",
+        "th": "ปรับได้"
+      }
+    ]
+  },
+  {
+    "id": "R10-04",
+    "format": "single",
+    "topic": "travel",
+    "difficulty": "medium",
+    "docs": [
+      {
+        "docType": "chat",
+        "title": "Online Chat Discussion",
+        "text": "Malik Osei [4:12 P.M.]: Bad news. Our 6:40 flight to Danbury has been canceled because of the storm. The airline is offering seats on the first flight tomorrow morning, which lands at 9:50 A.M.\nIngrid Solberg [4:13 P.M.]: That's too late. Our presentation at Wexley Pharmaceuticals starts at 10:00, and their office is 40 minutes from the airport.\nMalik Osei [4:14 P.M.]: I know. I checked the other airlines, but every flight tonight is full.\nPaulo Carvalho [4:16 P.M.]: What about the train? There's an express that leaves Central Station at 7:15 tonight and gets into Danbury at 11:30.\nIngrid Solberg [4:17 P.M.]: That could work. Is our hotel near the station in Danbury?\nPaulo Carvalho [4:18 P.M.]: It's a ten-minute taxi ride. I'll let the front desk know we'll be arriving late. Someone still needs to buy the train tickets, though.\nMalik Osei [4:19 P.M.]: I'm on it.\nIngrid Solberg [4:21 P.M.]: Thanks. I'll e-mail Ms. Draper at Wexley to let her know about the change, even though we should still be there on time.\nMalik Osei [4:24 P.M.]: Done. I got three seats together in car 6, and I've asked the airline to refund our flight. Remember that we'll need printed tickets to board."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "Why did Mr. Osei start the online chat discussion?",
+        "options": [
+          "To share news about a canceled flight",
+          "To suggest traveling by train",
+          "To ask for help with a presentation",
+          "To recommend a hotel near a station"
+        ],
+        "answer": 0,
+        "evidence": [
+          "Our 6:40 flight to Danbury has been canceled because of the storm."
+        ],
+        "explanationTH": "ข้อความแรกเวลา 4:12 P.M. คุณ Osei เขียนว่า \"Our 6:40 flight to Danbury has been canceled because of the storm.\" เขาเริ่มบทสนทนาเพื่อแจ้งว่าเที่ยวบินถูกยกเลิก",
+        "optionNotesTH": [
+          "ถูก เขาเปิดบทสนทนาด้วยการแจ้งว่าเที่ยวบินถูกยกเลิกเพราะพายุ",
+          "ผิด คนที่เสนอให้ไปรถไฟคือ Paulo Carvalho เวลา 4:16 P.M.",
+          "ผิด มีการพูดถึงการนำเสนอ แต่ไม่มีใครขอความช่วยเหลือเรื่องนี้",
+          "ผิด โรงแรมจองไว้แล้ว ไม่มีใครแนะนำโรงแรม"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "When will the group most likely arrive in Danbury?",
+        "options": [
+          "Tomorrow at 9:50 A.M.",
+          "Tonight at 7:15",
+          "Tonight at 11:30",
+          "Tomorrow at 10:00 A.M."
+        ],
+        "answer": 2,
+        "evidence": [
+          "There's an express that leaves Central Station at 7:15 tonight and gets into Danbury at 11:30."
+        ],
+        "explanationTH": "คุณ Carvalho เสนอรถไฟด่วนที่ \"leaves Central Station at 7:15 tonight and gets into Danbury at 11:30\" และคุณ Osei จองตั๋วเรียบร้อยแล้ว (Done. I got three seats) ทั้งกลุ่มจึงจะถึงคืนนี้เวลา 11:30",
+        "optionNotesTH": [
+          "ผิด 9:50 A.M. เป็นเวลาถึงของเที่ยวบินที่สายการบินเสนอ ซึ่งพวกเขาไม่ได้เลือก",
+          "ผิด 7:15 เป็นเวลาที่รถไฟออก ไม่ใช่เวลาถึง",
+          "ถูก รถไฟถึง Danbury เวลา 11:30 คืนนี้",
+          "ผิด 10:00 เป็นเวลาเริ่มการนำเสนอ"
+        ]
+      },
+      {
+        "type": "intent",
+        "stem": "At 4:19 P.M., what does Mr. Osei most likely mean when he writes, \"I'm on it\"?",
+        "options": [
+          "He is already at the train station.",
+          "He will buy the train tickets.",
+          "He has contacted the hotel.",
+          "He is currently talking to the airline."
+        ],
+        "answer": 1,
+        "evidence": [
+          "Someone still needs to buy the train tickets, though."
+        ],
+        "explanationTH": "ก่อนหน้านั้นคุณ Carvalho เขียนว่า \"Someone still needs to buy the train tickets, though.\" คุณ Osei ตอบว่า \"I'm on it\" คือจะจัดการซื้อตั๋วเอง และต่อมาเวลา 4:24 P.M. เขาก็แจ้งว่าจองที่นั่งได้แล้ว",
+        "optionNotesTH": [
+          "ผิด กับดักคำว่า on (เหมือนอยู่บนรถไฟ/ที่สถานี) แต่ไม่มีข้อมูลว่าเขาอยู่ที่สถานี",
+          "ถูก เป็นการรับอาสาซื้อตั๋วรถไฟ",
+          "ผิด คนที่จะแจ้งโรงแรมคือคุณ Carvalho",
+          "ผิด เขาขอเงินคืนจากสายการบินภายหลัง แต่ I'm on it ตอบเรื่องการซื้อตั๋ว"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does Ms. Solberg say she will do?",
+        "options": [
+          "Request a refund from the airline",
+          "Print the train tickets",
+          "Call the hotel's front desk",
+          "Contact someone at Wexley Pharmaceuticals"
+        ],
+        "answer": 3,
+        "evidence": [
+          "I'll e-mail Ms. Draper at Wexley to let her know about the change"
+        ],
+        "explanationTH": "เวลา 4:21 P.M. คุณ Solberg เขียนว่า \"I'll e-mail Ms. Draper at Wexley to let her know about the change\" คือจะติดต่อคนที่บริษัท Wexley Pharmaceuticals",
+        "optionNotesTH": [
+          "ผิด คนที่ขอเงินคืนคือคุณ Osei",
+          "ผิด คุณ Osei เตือนว่าต้องใช้ตั๋วที่พิมพ์ แต่ไม่มีใครบอกว่าจะเป็นคนพิมพ์",
+          "ผิด คุณ Carvalho เป็นคนแจ้งแผนกต้อนรับของโรงแรม",
+          "ถูก เธอจะส่งอีเมลถึง Ms. Draper ที่ Wexley"
+        ]
+      }
+    ],
+    "translationTH": [
+      "Malik Osei [4:12 P.M.]: ข่าวร้าย เที่ยวบิน 6:40 ไป Danbury ของเราถูกยกเลิกเพราะพายุ สายการบินเสนอที่นั่งในเที่ยวบินแรกพรุ่งนี้เช้า ซึ่งถึงเวลา 9:50 น.\nIngrid Solberg [4:13 P.M.]: นั่นสายเกินไป การนำเสนอของเราที่ Wexley Pharmaceuticals เริ่ม 10:00 น. และออฟฟิศเขาอยู่ห่างจากสนามบิน 40 นาที\nMalik Osei [4:14 P.M.]: ผมรู้ ผมเช็กสายการบินอื่นแล้ว แต่ทุกเที่ยวคืนนี้เต็มหมด\nPaulo Carvalho [4:16 P.M.]: ไปรถไฟดีไหม มีรถด่วนออกจาก Central Station 19:15 คืนนี้ ถึง Danbury 23:30\nIngrid Solberg [4:17 P.M.]: น่าจะได้นะ โรงแรมของเราอยู่ใกล้สถานีใน Danbury ไหม\nPaulo Carvalho [4:18 P.M.]: นั่งแท็กซี่สิบนาที ผมจะแจ้งแผนกต้อนรับว่าเราจะเข้าพักดึก แต่ยังต้องมีคนซื้อตั๋วรถไฟนะ\nMalik Osei [4:19 P.M.]: ผมจัดการเอง\nIngrid Solberg [4:21 P.M.]: ขอบคุณ ฉันจะอีเมลไปบอกคุณ Draper ที่ Wexley เรื่องการเปลี่ยนแปลง ถึงแม้เราน่าจะยังไปทันเวลาก็ตาม\nMalik Osei [4:24 P.M.]: เรียบร้อย ได้ที่นั่งติดกันสามที่ในตู้ 6 และผมขอเงินคืนค่าเที่ยวบินจากสายการบินแล้ว อย่าลืมว่าเราต้องใช้ตั๋วที่พิมพ์ออกมาเพื่อขึ้นรถไฟ"
+    ],
+    "tipTH": "ข้อ intent ให้อ่านข้อความก่อนหน้าประโยคที่ถามทันที เพราะประโยคสั้น ๆ อย่าง \"I'm on it\" มักเป็นการตอบรับสิ่งที่อีกฝ่ายเพิ่งพูดถึง",
+    "vocabulary": [
+      {
+        "word": "cancel",
+        "pos": "verb",
+        "th": "ยกเลิก"
+      },
+      {
+        "word": "express",
+        "pos": "noun",
+        "th": "รถด่วน"
+      },
+      {
+        "word": "front desk",
+        "pos": "noun",
+        "th": "แผนกต้อนรับ (ของโรงแรม)"
+      },
+      {
+        "word": "refund",
+        "pos": "verb",
+        "th": "คืนเงิน"
+      },
+      {
+        "word": "board",
+        "pos": "verb",
+        "th": "ขึ้น (ยานพาหนะ)"
+      }
+    ]
+  },
+  {
+    "id": "R10-05",
+    "format": "double",
+    "topic": "health",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "announcement",
+        "title": "Announcement",
+        "text": "Health Screening Days at Halcrest Engineering\n\nHalcrest Engineering is once again partnering with Mendoza Mobile Health to offer free health screenings to all employees. Screenings will take place on Tuesday, May 12, and Wednesday, May 13, in the second-floor training room.\n\nEach appointment lasts 20 minutes and includes a blood pressure check, a cholesterol test, and a vision test. Employees who wish to have the cholesterol test must not eat or drink anything except water for eight hours beforehand; for this reason, appointments for this test are offered only between 7:30 and 10:00 A.M. Hearing tests are available on May 13 only.\n\nTo book an appointment, sign up on the HR portal by May 5. Employees who are unable to attend on either day may visit the Mendoza Mobile Health clinic at 88 Garrison Street at no cost until May 29, provided that they bring a voucher from Human Resources.\n\nAll results are confidential and will be sent directly to employees, not to the company."
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Yolanda Brisco, Human Resources\nFrom: Tobias Renner\nDate: May 4\nSubject: Health screening\n\nDear Ms. Brisco,\n\nI tried to sign up for a health screening on the HR portal this morning, but I will be at our site office in Calverton from May 11 to May 15 to supervise the bridge inspection there. I'm sorry I did not notice the dates earlier.\n\nI would particularly like to have my cholesterol checked, as my doctor recommended that I monitor it this year. Could you please send me whatever I need to go to the clinic instead? I am free on the morning of May 20.\n\nThank you,\nTobias Renner\nSite Engineer"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the purpose of the announcement?",
+        "options": [
+          "To promote a free health service for staff",
+          "To announce the opening of a new clinic",
+          "To remind employees to visit their own doctors",
+          "To explain changes to a health insurance plan"
+        ],
+        "answer": 0,
+        "evidence": [
+          "partnering with Mendoza Mobile Health to offer free health screenings to all employees"
+        ],
+        "explanationTH": "ย่อหน้าแรกของประกาศบอกว่าบริษัท \"partnering with Mendoza Mobile Health to offer free health screenings to all employees\" ส่วนที่เหลือเป็นรายละเอียดการตรวจและการจอง จุดประสงค์จึงเป็นการแจ้งบริการตรวจสุขภาพฟรีให้พนักงาน",
+        "optionNotesTH": [
+          "ถูก free health screenings to all employees = บริการสุขภาพฟรีสำหรับพนักงาน",
+          "ผิด คลินิกที่ Garrison Street มีอยู่แล้ว ไม่ได้เปิดใหม่",
+          "ผิด ไม่ได้ให้ไปหาแพทย์ประจำตัว แพทย์ถูกพูดถึงในอีเมลเท่านั้น",
+          "ผิด ไม่มีการพูดถึงประกันสุขภาพ"
+        ]
+      },
+      {
+        "type": "notTrue",
+        "stem": "What is NOT mentioned as being offered on Health Screening Days?",
+        "options": [
+          "A blood pressure check",
+          "A vision test",
+          "A weight measurement",
+          "A hearing test"
+        ],
+        "answer": 2,
+        "evidence": [
+          "includes a blood pressure check, a cholesterol test, and a vision test",
+          "Hearing tests are available on May 13 only."
+        ],
+        "explanationTH": "ย่อหน้าที่สองระบุว่าการตรวจ \"includes a blood pressure check, a cholesterol test, and a vision test\" และ \"Hearing tests are available on May 13 only.\" ไม่มีการพูดถึงการชั่งน้ำหนักเลย",
+        "optionNotesTH": [
+          "ผิด (มีระบุ) a blood pressure check",
+          "ผิด (มีระบุ) a vision test",
+          "ถูก ไม่มีการกล่าวถึงการวัดน้ำหนัก",
+          "ผิด (มีระบุ) ตรวจการได้ยินมีเฉพาะวันที่ 13 พฤษภาคม แต่ก็ถือว่ามีให้บริการ"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "According to the announcement, what is true about cholesterol tests on the screening days?",
+        "options": [
+          "They take longer than the other tests.",
+          "They must be booked by May 12.",
+          "They are offered on May 13 only.",
+          "They are scheduled only in the morning."
+        ],
+        "answer": 3,
+        "evidence": [
+          "appointments for this test are offered only between 7:30 and 10:00 A.M."
+        ],
+        "explanationTH": "ประกาศบอกว่าต้องงดอาหารแปดชั่วโมงก่อนตรวจคอเลสเตอรอล จึง \"appointments for this test are offered only between 7:30 and 10:00 A.M.\" คือมีให้เฉพาะช่วงเช้า",
+        "optionNotesTH": [
+          "ผิด ทุกนัดใช้เวลา 20 นาทีเท่ากัน ไม่ได้บอกว่าตรวจคอเลสเตอรอลนานกว่า",
+          "ผิด กำหนดจองคือภายในวันที่ 5 พฤษภาคม ไม่ใช่ 12",
+          "ผิด ที่มีเฉพาะวันที่ 13 คือการตรวจการได้ยิน (กับดัก)",
+          "ถูก นัดตรวจมีเฉพาะ 7:30–10:00 A.M. = ช่วงเช้าเท่านั้น"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "Why is Mr. Renner most likely unable to attend a screening at his company?",
+        "options": [
+          "He missed the deadline to register.",
+          "He will be working elsewhere on both screening days.",
+          "He has already been tested by his own doctor.",
+          "He is unable to come to the office in the morning."
+        ],
+        "answer": 1,
+        "evidence": [
+          "Screenings will take place on Tuesday, May 12, and Wednesday, May 13",
+          "I will be at our site office in Calverton from May 11 to May 15"
+        ],
+        "explanationTH": "ประกาศบอกว่าการตรวจจัดวันที่ 12 และ 13 พฤษภาคม ส่วนอีเมลของคุณ Renner บอกว่าเขาจะอยู่ที่สำนักงานไซต์งานใน Calverton ตั้งแต่ 11 ถึง 15 พฤษภาคม ซึ่งครอบคลุมทั้งสองวัน จึงมาตรวจที่บริษัทไม่ได้",
+        "optionNotesTH": [
+          "ผิด อีเมลส่งวันที่ 4 พฤษภาคม ยังไม่เลยกำหนดวันที่ 5 พฤษภาคม",
+          "ถูก เขาจะไปทำงานที่ Calverton ตรงกับวันตรวจทั้งสองวัน",
+          "ผิด แพทย์เพียงแนะนำให้ติดตามค่าคอเลสเตอรอล ไม่ได้บอกว่าตรวจแล้ว",
+          "ผิด ไม่มีข้อมูลว่าเขามาช่วงเช้าไม่ได้ ปัญหาคือเขาไม่อยู่เลยทั้งสองวัน"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "What will Mr. Renner most likely need to bring to the clinic on May 20?",
+        "options": [
+          "A note from his doctor",
+          "A record of his previous results",
+          "A document from Ms. Brisco's department",
+          "A payment for the cholesterol test"
+        ],
+        "answer": 2,
+        "evidence": [
+          "provided that they bring a voucher from Human Resources",
+          "Could you please send me whatever I need to go to the clinic instead?"
+        ],
+        "explanationTH": "ประกาศบอกว่าพนักงานที่มาไม่ได้สามารถไปคลินิกได้ฟรี \"provided that they bring a voucher from Human Resources\" และคุณ Renner ขอให้คุณ Brisco ซึ่งอยู่ฝ่าย Human Resources ส่งสิ่งที่จำเป็นให้ เขาจึงต้องนำบัตรกำนัล (voucher) จากฝ่ายบุคคลไป",
+        "optionNotesTH": [
+          "ผิด แพทย์ของเขาเพียงแนะนำให้ตรวจ ไม่มีการกำหนดให้นำใบรับรองแพทย์",
+          "ผิด ไม่มีการพูดถึงผลตรวจครั้งก่อน",
+          "ถูก voucher from Human Resources = เอกสารจากแผนกของคุณ Brisco",
+          "ผิด ไปตรวจที่คลินิกได้ at no cost จนถึง 29 พฤษภาคม และ 20 พฤษภาคมยังอยู่ในช่วงนั้น"
+        ]
+      }
+    ],
+    "translationTH": [
+      "วันตรวจสุขภาพที่ Halcrest Engineering\n\nHalcrest Engineering ร่วมมือกับ Mendoza Mobile Health อีกครั้งเพื่อให้บริการตรวจสุขภาพฟรีแก่พนักงานทุกคน การตรวจจะจัดขึ้นในวันอังคารที่ 12 และวันพุธที่ 13 พฤษภาคม ที่ห้องฝึกอบรมชั้นสอง\n\nแต่ละนัดใช้เวลา 20 นาที ประกอบด้วยการวัดความดันโลหิต การตรวจคอเลสเตอรอล และการตรวจสายตา พนักงานที่ต้องการตรวจคอเลสเตอรอลต้องงดอาหารและเครื่องดื่มทุกชนิดยกเว้นน้ำเปล่าเป็นเวลาแปดชั่วโมงก่อนตรวจ ด้วยเหตุนี้นัดตรวจคอเลสเตอรอลจึงมีให้เฉพาะช่วง 7:30 ถึง 10:00 น. เท่านั้น การตรวจการได้ยินมีเฉพาะวันที่ 13 พฤษภาคม\n\nหากต้องการนัดตรวจ กรุณาลงชื่อในพอร์ทัลฝ่ายบุคคลภายในวันที่ 5 พฤษภาคม พนักงานที่ไม่สามารถมาได้ทั้งสองวันสามารถไปที่คลินิก Mendoza Mobile Health เลขที่ 88 ถนน Garrison ได้โดยไม่มีค่าใช้จ่ายจนถึงวันที่ 29 พฤษภาคม โดยต้องนำบัตรกำนัลจากฝ่ายบุคคลไปด้วย\n\nผลตรวจทั้งหมดเป็นความลับ และจะส่งตรงถึงพนักงาน ไม่ใช่ส่งให้บริษัท",
+      "ถึง: Yolanda Brisco ฝ่ายบุคคล\nจาก: Tobias Renner\nวันที่: 4 พฤษภาคม\nเรื่อง: การตรวจสุขภาพ\n\nเรียนคุณ Brisco\n\nเช้านี้ผมพยายามลงชื่อตรวจสุขภาพในพอร์ทัลฝ่ายบุคคล แต่ผมจะอยู่ที่สำนักงานไซต์งานใน Calverton ตั้งแต่วันที่ 11 ถึง 15 พฤษภาคม เพื่อควบคุมการตรวจสอบสะพานที่นั่น ขออภัยที่ไม่ได้สังเกตวันที่ตั้งแต่แรก\n\nผมอยากตรวจคอเลสเตอรอลเป็นพิเศษ เพราะแพทย์แนะนำให้ผมติดตามค่านี้ในปีนี้ รบกวนช่วยส่งสิ่งที่ผมต้องใช้เพื่อไปตรวจที่คลินิกแทนได้ไหมครับ ผมว่างช่วงเช้าวันที่ 20 พฤษภาคม\n\nขอบคุณครับ\nTobias Renner\nวิศวกรประจำไซต์งาน"
+    ],
+    "tipTH": "ข้อ crossReference มักให้นำวันที่หรือเงื่อนไขในเอกสารแรกมาเทียบกับสถานการณ์ในเอกสารที่สอง ให้จดวันที่และเงื่อนไข (เช่น provided that ...) ไว้ระหว่างอ่าน",
+    "vocabulary": [
+      {
+        "word": "screening",
+        "pos": "noun",
+        "th": "การตรวจคัดกรอง"
+      },
+      {
+        "word": "beforehand",
+        "pos": "adverb",
+        "th": "ล่วงหน้า, ก่อนหน้านั้น"
+      },
+      {
+        "word": "provided that",
+        "pos": "conjunction",
+        "th": "โดยมีเงื่อนไขว่า"
+      },
+      {
+        "word": "voucher",
+        "pos": "noun",
+        "th": "บัตรกำนัล, ใบสิทธิ์"
+      },
+      {
+        "word": "confidential",
+        "pos": "adjective",
+        "th": "เป็นความลับ"
+      },
+      {
+        "word": "monitor",
+        "pos": "verb",
+        "th": "ติดตาม, เฝ้าดู"
+      }
+    ]
+  },
+  {
+    "id": "R10-06",
+    "format": "triple",
+    "topic": "sales",
+    "difficulty": "hard",
+    "docs": [
+      {
+        "docType": "webpage",
+        "title": "Web Page",
+        "text": "www.kinrossteatraders.com/wholesale\n\nWholesale Pricing for Cafés and Restaurants\n\nKinross Tea Traders supplies loose-leaf tea to more than 300 cafés across the region. All of our teas are sold in 1-kilogram bags.\n\n| Tea | Price per bag |\n| Highland Black | $34 |\n| Jasmine Green | $41 |\n| Mountain Oolong | $58 |\n| Ginger Lemon Herbal | $29 |\n\nDiscounts: Orders of 10 to 19 bags receive 5 percent off. Orders of 20 bags or more receive 10 percent off and free shipping. First-time customers also receive a free tasting kit with their first order.\n\nOrders received by 2:00 P.M. on weekdays are shipped the same day."
+      },
+      {
+        "docType": "form",
+        "title": "Order Form",
+        "text": "Kinross Tea Traders: Wholesale Order Form\n\nCustomer: Lantern Street Café\nContact: Hyejin Moon\nDate: October 14\nAccount status: New customer\n\n| Tea | Bags |\n| Highland Black | 6 |\n| Jasmine Green | 8 |\n| Mountain Oolong | 4 |\n| Ginger Lemon Herbal | 4 |\n\nTotal bags: 22\nDelivery address: 17 Lantern Street, Brayford\nComments: We are opening our second location on October 25, so the order must arrive no later than October 23."
+      },
+      {
+        "docType": "email",
+        "title": "E-mail",
+        "text": "To: Hyejin Moon\nFrom: Desmond Kirrane, Kinross Tea Traders\nDate: October 15\nSubject: Your order\n\nDear Ms. Moon,\n\nThank you for your order. Unfortunately, our Mountain Oolong is temporarily out of stock because of a delayed harvest, and we do not expect new supplies until early November.\n\nI can offer you two options. First, we can replace the oolong with the same number of bags of Jasmine Green at no extra charge and ship your complete order tomorrow. Second, we can remove the oolong from your order and ship the other teas tomorrow; you could then reorder the oolong in November.\n\nEither way, your order will reach Brayford within three business days, well before the date you requested. Please reply by noon tomorrow so that we can meet our shipping deadline.\n\nBest regards,\nDesmond Kirrane\nSales Representative"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What is indicated about Kinross Tea Traders?",
+        "options": [
+          "It sells its teas in several bag sizes.",
+          "It operates more than 300 cafés.",
+          "It offers discounts only to first-time customers.",
+          "It can ship some orders on the day they arrive."
+        ],
+        "answer": 3,
+        "evidence": [
+          "Orders received by 2:00 P.M. on weekdays are shipped the same day."
+        ],
+        "explanationTH": "บรรทัดสุดท้ายของหน้าเว็บบอกว่า \"Orders received by 2:00 P.M. on weekdays are shipped the same day.\" คือคำสั่งซื้อบางรายการ (ที่มาถึงก่อนบ่ายสองโมงในวันธรรมดา) ส่งได้ภายในวันเดียวกัน",
+        "optionNotesTH": [
+          "ผิด ชาทุกชนิดขายเป็นถุง 1 กิโลกรัมเท่านั้น",
+          "ผิด บริษัท supplies (จัดส่งชาให้) คาเฟ่กว่า 300 แห่ง ไม่ได้เป็นเจ้าของคาเฟ่ (กับดัก)",
+          "ผิด ส่วนลดตามจำนวนถุงใช้กับทุกลูกค้า ลูกค้าใหม่ได้แค่ชุดชิมเพิ่ม",
+          "ถูก ส่งภายในวันเดียวกันได้ถ้าสั่งก่อน 2:00 P.M. วันธรรมดา"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "What will Lantern Street Café most likely receive with its order?",
+        "options": [
+          "A free kit for sampling teas",
+          "A discount on its next order",
+          "A catalog of new products",
+          "A refund for the out-of-stock tea"
+        ],
+        "answer": 0,
+        "evidence": [
+          "First-time customers also receive a free tasting kit with their first order.",
+          "Account status: New customer"
+        ],
+        "explanationTH": "หน้าเว็บบอกว่า \"First-time customers also receive a free tasting kit with their first order.\" และแบบฟอร์มสั่งซื้อระบุ \"Account status: New customer\" ร้าน Lantern Street Café จึงน่าจะได้ชุดชิมชาฟรี",
+        "optionNotesTH": [
+          "ถูก ลูกค้าใหม่ได้ free tasting kit = ชุดสำหรับชิมชาฟรี",
+          "ผิด ไม่มีการพูดถึงส่วนลดสำหรับการสั่งครั้งถัดไป",
+          "ผิด ไม่มีการพูดถึงแคตตาล็อก",
+          "ผิด ยังไม่มีการชำระเงิน และชาที่หมดจะถูกเปลี่ยนหรือตัดออก ไม่ได้พูดถึงการคืนเงิน"
+        ]
+      },
+      {
+        "type": "mainIdea",
+        "stem": "Why did Mr. Kirrane write to Ms. Moon?",
+        "options": [
+          "To confirm that her order has been shipped",
+          "To request payment for an order",
+          "To report that a product is unavailable",
+          "To introduce a new type of tea"
+        ],
+        "answer": 2,
+        "evidence": [
+          "our Mountain Oolong is temporarily out of stock because of a delayed harvest"
+        ],
+        "explanationTH": "ย่อหน้าแรกของอีเมลบอกว่า \"our Mountain Oolong is temporarily out of stock because of a delayed harvest\" แล้วเสนอทางเลือกสองทาง จุดประสงค์จึงเป็นการแจ้งว่าสินค้าตัวหนึ่งไม่มีจำหน่ายชั่วคราว",
+        "optionNotesTH": [
+          "ผิด ยังไม่ได้ส่งของ จะส่งพรุ่งนี้หลังจากเธอตอบกลับ",
+          "ผิด ไม่มีการขอให้ชำระเงิน",
+          "ถูก out of stock = สินค้าไม่มีจำหน่าย",
+          "ผิด ชาที่พูดถึงเป็นชาที่มีอยู่แล้วในรายการ ไม่ใช่ชาใหม่"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "What would most likely happen if Ms. Moon chose the second option?",
+        "options": [
+          "She would have to pay for shipping.",
+          "She would not receive any discount.",
+          "Her order would arrive after October 23.",
+          "Her order would no longer include green tea."
+        ],
+        "answer": 0,
+        "evidence": [
+          "Orders of 20 bags or more receive 10 percent off and free shipping.",
+          "Mountain Oolong | 4 | | Ginger Lemon Herbal | 4 | Total bags: 22"
+        ],
+        "explanationTH": "แบบฟอร์มมีทั้งหมด 22 ถุง โดยเป็น Mountain Oolong 4 ถุง ถ้าเลือกทางที่สอง (ตัดอูหลงออก) จะเหลือ 18 ถุง หน้าเว็บบอกว่า \"Orders of 20 bags or more receive 10 percent off and free shipping.\" ดังนั้น 18 ถุงจะไม่ได้ส่งฟรีอีกต่อไป (ได้แค่ส่วนลด 5 เปอร์เซ็นต์)",
+        "optionNotesTH": [
+          "ถูก 22 − 4 = 18 ถุง น้อยกว่า 20 จึงไม่ได้ส่งฟรี",
+          "ผิด 18 ถุงยังอยู่ในช่วง 10–19 ถุง จึงได้ส่วนลด 5 เปอร์เซ็นต์",
+          "ผิด อีเมลบอกว่าไม่ว่าทางไหนก็ถึงก่อนวันที่ขอ (well before the date you requested)",
+          "ผิด ตัดเฉพาะอูหลงออก Jasmine Green 8 ถุงยังอยู่"
+        ]
+      },
+      {
+        "type": "crossReference",
+        "stem": "If Ms. Moon accepts the first option, how many bags of Jasmine Green will she receive?",
+        "options": [
+          "8 bags",
+          "12 bags",
+          "16 bags",
+          "22 bags"
+        ],
+        "answer": 1,
+        "evidence": [
+          "replace the oolong with the same number of bags of Jasmine Green",
+          "Jasmine Green | 8 | | Mountain Oolong | 4"
+        ],
+        "explanationTH": "แบบฟอร์มสั่ง Jasmine Green 8 ถุงและ Mountain Oolong 4 ถุง อีเมลเสนอทางแรกว่า \"replace the oolong with the same number of bags of Jasmine Green\" จึงได้ Jasmine Green เพิ่มอีก 4 ถุง รวมเป็น 12 ถุง",
+        "optionNotesTH": [
+          "ผิด 8 ถุงเป็นจำนวนที่สั่งไว้เดิม ยังไม่รวมถุงที่มาแทนอูหลง",
+          "ถูก 8 + 4 = 12 ถุง",
+          "ผิด 16 เป็นการคิดผิดว่าแทนด้วยจำนวนเท่ากับชาเขียวเดิม (8 + 8)",
+          "ผิด 22 เป็นจำนวนถุงทั้งหมดของคำสั่งซื้อ"
+        ]
+      }
+    ],
+    "translationTH": [
+      "www.kinrossteatraders.com/wholesale\n\nราคาขายส่งสำหรับคาเฟ่และร้านอาหาร\n\nKinross Tea Traders จัดส่งชาใบให้คาเฟ่มากกว่า 300 แห่งทั่วภูมิภาค ชาทุกชนิดของเราขายเป็นถุงขนาด 1 กิโลกรัม\n\n| ชา | ราคาต่อถุง |\n| Highland Black | $34 |\n| Jasmine Green | $41 |\n| Mountain Oolong | $58 |\n| Ginger Lemon Herbal | $29 |\n\nส่วนลด: สั่ง 10 ถึง 19 ถุง ลด 5 เปอร์เซ็นต์ สั่ง 20 ถุงขึ้นไป ลด 10 เปอร์เซ็นต์และส่งฟรี ลูกค้าใหม่จะได้รับชุดชิมชาฟรีพร้อมคำสั่งซื้อแรกด้วย\n\nคำสั่งซื้อที่ได้รับภายใน 14:00 น. ในวันธรรมดาจะจัดส่งภายในวันเดียวกัน",
+      "Kinross Tea Traders: แบบฟอร์มสั่งซื้อขายส่ง\n\nลูกค้า: Lantern Street Café\nผู้ติดต่อ: Hyejin Moon\nวันที่: 14 ตุลาคม\nสถานะบัญชี: ลูกค้าใหม่\n\n| ชา | จำนวนถุง |\n| Highland Black | 6 |\n| Jasmine Green | 8 |\n| Mountain Oolong | 4 |\n| Ginger Lemon Herbal | 4 |\n\nรวม: 22 ถุง\nที่อยู่จัดส่ง: 17 ถนน Lantern เมือง Brayford\nหมายเหตุ: เราจะเปิดสาขาที่สองในวันที่ 25 ตุลาคม จึงต้องได้รับสินค้าไม่ช้ากว่าวันที่ 23 ตุลาคม",
+      "ถึง: Hyejin Moon\nจาก: Desmond Kirrane, Kinross Tea Traders\nวันที่: 15 ตุลาคม\nเรื่อง: คำสั่งซื้อของคุณ\n\nเรียนคุณ Moon\n\nขอบคุณสำหรับคำสั่งซื้อ น่าเสียดายที่ชา Mountain Oolong ของเราหมดชั่วคราวเนื่องจากการเก็บเกี่ยวล่าช้า และคาดว่าจะได้สินค้าใหม่ช่วงต้นเดือนพฤศจิกายน\n\nผมมีทางเลือกเสนอสองทาง ทางแรก เราจะเปลี่ยนชาอูหลงเป็น Jasmine Green ในจำนวนถุงเท่ากันโดยไม่คิดเงินเพิ่ม และจัดส่งคำสั่งซื้อทั้งหมดพรุ่งนี้ ทางที่สอง เราจะตัดชาอูหลงออกจากคำสั่งซื้อและส่งชาที่เหลือพรุ่งนี้ จากนั้นคุณสามารถสั่งชาอูหลงใหม่ได้ในเดือนพฤศจิกายน\n\nไม่ว่าจะเลือกทางไหน สินค้าจะถึง Brayford ภายในสามวันทำการ ซึ่งก่อนวันที่คุณขอไว้นาน กรุณาตอบกลับภายในเที่ยงวันพรุ่งนี้ เพื่อให้เราจัดส่งได้ทันกำหนด\n\nด้วยความนับถือ\nDesmond Kirrane\nพนักงานฝ่ายขาย"
+    ],
+    "tipTH": "เมื่อเอกสารหนึ่งมีเงื่อนไขส่วนลดตามจำนวน และอีกเอกสารมีการเปลี่ยนจำนวนสินค้า ให้คำนวณจำนวนใหม่แล้วเทียบกับเกณฑ์ทุกครั้ง เพราะคำถาม crossReference มักซ่อนอยู่ตรงนี้",
+    "vocabulary": [
+      {
+        "word": "wholesale",
+        "pos": "adjective",
+        "th": "ขายส่ง"
+      },
+      {
+        "word": "supply",
+        "pos": "verb",
+        "th": "จัดหา, จัดส่งสินค้าให้"
+      },
+      {
+        "word": "out of stock",
+        "pos": "phrase",
+        "th": "สินค้าหมด"
+      },
+      {
+        "word": "harvest",
+        "pos": "noun",
+        "th": "การเก็บเกี่ยว"
+      },
+      {
+        "word": "at no extra charge",
+        "pos": "phrase",
+        "th": "โดยไม่คิดค่าใช้จ่ายเพิ่ม"
+      }
+    ]
+  }
+]

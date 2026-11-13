@@ -1,0 +1,218 @@
+{
+  "id": "a1-have-has",
+  "summaryTh": "ใช้ have / has บอกว่าใครมีอะไร (เป็นเจ้าของ ลักษณะ ครอบครัว)",
+  "concept": {
+    "what": "Have / has แปลว่า \"มี\" ในความหมายว่าเป็นเจ้าของหรือมีอยู่ในตัว: I have a bike. She has long hair. ประธาน he / she / it และคำนามเอกพจน์ใช้ has ส่วนประธานอื่นใช้ have",
+    "when": [
+      "บอกสิ่งที่เป็นเจ้าของ (I have a new phone.)",
+      "บอกคนในครอบครัวหรือเพื่อน (She has two brothers.)",
+      "บอกลักษณะของร่างกาย (He has brown eyes.)",
+      "บอกว่าสถานที่หรือสิ่งของมีอะไร (My school has a big library. The hotel has a pool.)"
+    ],
+    "why": "ภาษาไทยใช้ \"มี\" คำเดียวกับทุกประธาน แต่ภาษาอังกฤษต้องเปลี่ยนเป็น has เมื่อประธานเป็น he / she / it — และปฏิเสธ/คำถามต้องใช้ do / does ช่วย ถ้าใช้ผิด ผู้ฟังจะรู้ทันทีว่าไวยากรณ์ไม่ถูก"
+  },
+  "structure": {
+    "formula": "I / you / we / they + have · he / she / it + has",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "I / you / we / they have · he / she / it has", "example": "My sister [[has]] long hair." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "don't have / doesn't have", "example": "He [[doesn't have]] a car." },
+      { "label": "คำถาม (Question)", "formula": "Do / Does + Subject + have …?", "example": "[[Does]] your school [[have]] a pool?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + do/does. · No, Subject + don't/doesn't.", "example": "Yes, it [[does]]. / No, it [[doesn't]]." },
+      { "label": "have got (แบบบริติช)", "formula": "have got / has got (ความหมายเดียวกัน)", "example": "She [[has got]] two cats." }
+    ],
+    "notes": [
+      "หลัง doesn't / does ใช้ have เสมอ ไม่ใช้ has: She doesn't have … · Does he have …?",
+      "คำนามเอกพจน์เป็นประธาน (my mum, the dog, our school) ใช้ has",
+      "have got / has got ใช้ได้เหมือน have / has ในภาษาอังกฤษแบบบริติช",
+      "บอกว่ามีอะไรอยู่ที่ไหน (ไม่มีเจ้าของ) ใช้ There is / There are แทน"
+    ]
+  },
+  "examples": [
+    { "en": "I [[have]] a little brother.", "th": "ฉันมีน้องชายหนึ่งคน" },
+    { "en": "My sister [[has]] long hair.", "th": "พี่สาวของฉันผมยาว" },
+    { "en": "We [[have]] English on Monday.", "th": "พวกเรามีเรียนภาษาอังกฤษวันจันทร์" },
+    { "en": "He [[doesn't have]] a car.", "th": "เขาไม่มีรถ" },
+    { "en": "[[Do]] you [[have]] a pen?", "th": "คุณมีปากกาไหม" },
+    { "en": "[[Does]] your school [[have]] a swimming pool?", "th": "โรงเรียนของคุณมีสระว่ายน้ำไหม" },
+    { "en": "They [[have]] a big garden.", "th": "พวกเขามีสวนใหญ่" },
+    { "en": "The hotel [[has]] free Wi-Fi.", "th": "โรงแรมมี Wi-Fi ฟรี" }
+  ],
+  "mistakes": [
+    { "wrong": "She have a cat.", "right": "She has a cat.", "whyTh": "she / he / it ใช้ has — ภาษาไทยใช้ \"มี\" คำเดียว จึงลืมเปลี่ยนบ่อย" },
+    { "wrong": "He doesn't has a phone.", "right": "He doesn't have a phone.", "whyTh": "does / doesn't แสดงบุรุษที่ 3 ไปแล้ว กริยาหลังจากนั้นกลับเป็น have" },
+    { "wrong": "Does she has a bike?", "right": "Does she have a bike?", "whyTh": "คำถามที่ขึ้นต้นด้วย Does ใช้ have เสมอ" },
+    { "wrong": "I has a question.", "right": "I have a question.", "whyTh": "I ใช้ have เสมอ (has ใช้กับ he / she / it เท่านั้น)" },
+    { "wrong": "In my house has three bedrooms.", "right": "My house has three bedrooms.", "whyTh": "แปลตรงจาก \"ในบ้านมี…\" ประโยคจึงไม่มีประธาน — ให้บ้านเป็นประธาน (My house has …) หรือใช้ There are three bedrooms in my house." }
+  ],
+  "compare": {
+    "title": "have / has vs there is / there are",
+    "with": ["a1-there-is-are"],
+    "rows": [
+      { "label": "ความหมาย", "a": "ประธานเป็นเจ้าของ หรือมีสิ่งนั้นอยู่ในตัว", "b": "บอกว่ามีอะไรอยู่ที่ไหน (ไม่พูดถึงเจ้าของ)" },
+      { "label": "ประธาน", "a": "คน/สิ่งที่เป็นเจ้าของ: I, she, my house", "b": "There + is / are" },
+      { "label": "ตัวอย่าง", "a": "My house has a big garden.", "b": "There is a big garden behind my house." },
+      { "label": "ห้ามทำ", "a": "In my house have … (ไม่มีประธาน)", "b": "There has … (There ไม่ใช้กับ has)" }
+    ],
+    "tipTh": "ถามตัวเองว่า \"ใครเป็นเจ้าของ?\" — ถ้ามีเจ้าของเป็นประธาน ใช้ have/has · ถ้าแค่บอกว่ามีอะไรอยู่ตรงไหน ใช้ There is/are"
+  },
+  "contexts": [
+    {
+      "kind": "message", "title": "Party invitation",
+      "lines": [
+        { "text": "Hi Jen! Can you come to my house on Saturday? My dad [[has]] a new barbecue, and my mum [[has]] a big cake for my birthday. We [[don't have]] any chairs in the garden, so please bring one! Thanks, Tom" }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "New friends",
+      "lines": [
+        { "speaker": "Lin", "text": "[[Do]] you [[have]] any brothers or sisters?" },
+        { "speaker": "Pete", "text": "Yes, I [[have]] one sister. She [[has]] a cute dog. And you?" },
+        { "speaker": "Lin", "text": "I [[don't have]] any brothers or sisters, but I [[have]] two cats." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "have / has", "th": "มี (เป็นเจ้าของ) — has ใช้กับ he / she / it" },
+    { "en": "Third person singular", "th": "บุรุษที่ 3 เอกพจน์ — he, she, it หรือคำนาม 1 สิ่ง" },
+    { "en": "Auxiliary (do / does)", "th": "กริยาช่วย ใช้ทำประโยคปฏิเสธและคำถาม" },
+    { "en": "have got", "th": "มี (แบบบริติช) ความหมายเหมือน have" }
+  ],
+  "practice": [
+    {
+      "id": "a1-have-has-01", "type": "mc", "difficulty": 1,
+      "question": "My brother ___ a new bike.",
+      "choices": ["have", "has", "is", "haves"], "answer": 1,
+      "whyNot": { "0": "my brother = he ต้องใช้ has", "2": "is แปลว่า \"เป็น/อยู่\" ไม่ได้แปลว่า \"มี\"", "3": "has เป็นรูปพิเศษของ have ไม่มีคำว่า haves" },
+      "explainTh": "ประธานเอกพจน์ (my brother = he) → has",
+      "structure": "he / she / it + has", "example": "My brother has a new bike."
+    },
+    {
+      "id": "a1-have-has-02", "type": "mc", "difficulty": 1,
+      "question": "We ___ a cat and a dog.",
+      "choices": ["have", "has", "are", "is have"], "answer": 0,
+      "whyNot": { "1": "has ใช้กับ he / she / it ไม่ใช้กับ we", "2": "are แปลว่า \"เป็น/อยู่\" ไม่ได้แปลว่า \"มี\"", "3": "ไม่ใช้ is กับ have ร่วมกัน และ we ต้องใช้ are ไม่ใช่ is" },
+      "explainTh": "we ใช้ have",
+      "structure": "I / you / we / they + have", "example": "We have a cat and a dog."
+    },
+    {
+      "id": "a1-have-has-03", "type": "fill", "difficulty": 1,
+      "question": "She ___ blue eyes. (have)",
+      "accepted": ["has", "has got"],
+      "explainTh": "she ใช้ has (หรือ has got แบบบริติช)",
+      "structure": "she + has", "example": "She has blue eyes."
+    },
+    {
+      "id": "a1-have-has-04", "type": "fill", "difficulty": 2,
+      "question": "My parents ___ a car. They go everywhere by bus. (not / have)",
+      "accepted": ["don't have", "do not have", "haven't got", "have not got"],
+      "explainTh": "my parents = they ปฏิเสธใช้ don't have (หรือ haven't got แบบบริติช)",
+      "structure": "they + don't have", "example": "My parents don't have a car."
+    },
+    {
+      "id": "a1-have-has-05", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่คำถามกับคำตอบสั้นที่ถูกต้อง",
+      "pairs": [["Do you have a pen?", "Yes, I do."], ["Does she have a car?", "No, she doesn't."], ["Do they have a dog?", "Yes, they do."], ["Does the hotel have Wi-Fi?", "No, it doesn't."]],
+      "explainTh": "ตอบสั้นใช้ do / does ตามคำถาม: Do you …? → I do · Does she …? → she doesn't · Do they …? → they do · Does the hotel …? → it doesn't"
+    },
+    {
+      "id": "a1-have-has-06", "type": "error", "difficulty": 1,
+      "sentence": "He have two sisters.",
+      "errorPart": "have",
+      "accepted": ["He has two sisters.", "He has got two sisters."],
+      "explainTh": "he ใช้ has ไม่ใช่ have",
+      "structure": "he + has"
+    },
+    {
+      "id": "a1-have-has-07", "type": "error", "difficulty": 2,
+      "sentence": "Does Mai has a dog?",
+      "errorPart": "has",
+      "accepted": ["Does Mai have a dog?", "Has Mai got a dog?"],
+      "explainTh": "คำถามที่ขึ้นต้นด้วย Does ใช้ have เสมอ (does แสดงบุรุษที่ 3 ไปแล้ว)",
+      "structure": "Does + Subject + have …?"
+    },
+    {
+      "id": "a1-have-has-08", "type": "error", "difficulty": 2,
+      "sentence": "I doesn't have time today.",
+      "errorPart": "doesn't",
+      "accepted": ["I don't have time today.", "I haven't got time today."],
+      "explainTh": "I ใช้ don't (do not) — doesn't ใช้กับ he / she / it เท่านั้น",
+      "structure": "I + don't have"
+    },
+    {
+      "id": "a1-have-has-09", "type": "order", "difficulty": 1,
+      "tokens": ["has", "a", "Ben", "big", "dog"],
+      "accepted": ["Ben has a big dog."],
+      "explainTh": "Ben (เอกพจน์) + has + a big dog"
+    },
+    {
+      "id": "a1-have-has-10", "type": "order", "difficulty": 2,
+      "tokens": ["you", "do", "brothers", "any", "have"],
+      "accepted": ["Do you have any brothers?"],
+      "explainTh": "คำถาม: Do + you + have + any + คำนามพหูพจน์?"
+    },
+    {
+      "id": "a1-have-has-11", "type": "transform", "difficulty": 2,
+      "source": "I have a red bag.",
+      "instruction": "เขียนใหม่โดยเปลี่ยนประธานเป็น She",
+      "accepted": ["She has a red bag.", "She has got a red bag."],
+      "explainTh": "ประธาน she → have เปลี่ยนเป็น has",
+      "structure": "she + has", "example": "She has a red bag."
+    },
+    {
+      "id": "a1-have-has-12", "type": "transform", "difficulty": 3,
+      "source": "Lisa has a laptop.",
+      "instruction": "เปลี่ยนเป็นคำถาม Yes/No โดยขึ้นต้นด้วย Does",
+      "accepted": ["Does Lisa have a laptop?"],
+      "explainTh": "คำถาม: Does + Subject + have …? — has กลับเป็น have เพราะ does แสดงบุรุษที่ 3 แล้ว",
+      "structure": "Does + Subject + have …?", "example": "Does Lisa have a laptop?"
+    },
+    {
+      "id": "a1-have-has-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["My cat has green eyes.", "My cat have green eyes.", "My cat haves green eyes.", "My cat is have green eyes."], "answer": 0,
+      "whyNot": { "1": "my cat = it ต้องใช้ has", "2": "ไม่มีคำว่า haves — รูปของ he / she / it คือ has", "3": "ไม่ใช้ is กับ have ร่วมกัน" },
+      "explainTh": "my cat = it → has",
+      "structure": "it + has", "example": "My cat has green eyes."
+    },
+    {
+      "id": "a1-have-has-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "___ you have a sister?" },
+        { "speaker": "B", "text": "No, I don't. But I have two brothers." }
+      ] },
+      "choices": ["Are", "Do", "Does", "Have"], "answer": 1,
+      "whyNot": { "0": "Are ใช้กับ be ไม่ใช้ถามด้วยกริยา have", "2": "Does ใช้กับ he / she / it แต่ประธานคือ you", "3": "ประโยคมี have อยู่แล้ว ขึ้นต้นด้วย Have ซ้ำไม่ได้ และคำตอบ No, I don't. บอกว่าคำถามใช้ Do" },
+      "explainTh": "คำถาม have กับ you → Do you have …? และคำตอบ No, I don't. ยืนยันว่าใช้ Do",
+      "structure": "Do + you + have …?", "example": "Do you have a sister?"
+    },
+    {
+      "id": "a1-have-has-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Party invitation", "lines": [
+        { "text": "Hi Jen! Can you come to my house on Saturday? My dad has a new barbecue, and my mum has a big cake for my birthday. We don't have any chairs in the garden, so please bring one! Thanks, Tom" }
+      ] },
+      "question": "What does Tom's family NOT have?",
+      "choices": ["a barbecue", "a cake", "chairs in the garden", "a house"], "answer": 2,
+      "whyNot": { "0": "My dad has a new barbecue — มีเตาบาร์บีคิว", "1": "my mum has a big cake — มีเค้ก", "3": "Tom ชวนมาที่ my house — มีบ้าน" },
+      "explainTh": "\"We don't have any chairs in the garden\" — don't have = ไม่มี"
+    },
+    {
+      "id": "a1-have-has-16", "type": "mc", "difficulty": 3,
+      "question": "The new hotel ___ a pool, but it has a gym.",
+      "choices": ["doesn't have", "don't have", "doesn't has", "isn't have"], "answer": 0,
+      "whyNot": { "1": "the hotel = it ต้องใช้ doesn't ไม่ใช่ don't", "2": "หลัง doesn't ใช้ have ไม่ใช่ has", "3": "ปฏิเสธ have ใช้ doesn't ไม่ใช้ isn't" },
+      "explainTh": "the hotel = it → ปฏิเสธใช้ doesn't + have",
+      "structure": "it + doesn't have", "example": "The new hotel doesn't have a pool."
+    },
+    {
+      "id": "a1-have-has-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับสิ่งที่คุณและคนในครอบครัวมี ใช้ทั้ง have และ has (Write 3 sentences about what you and your family have. Use have and has.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bhave\\b", "flags": "i", "msgTh": "ใช้ have อย่างน้อย 1 ครั้ง (กับ I / you / we / they)" },
+        { "re": "\\bhas\\b", "flags": "i", "msgTh": "ใช้ has อย่างน้อย 1 ครั้ง (กับ he / she / it หรือคำนามเอกพจน์)" }
+      ],
+      "sample": "I have a small black cat. My brother has a new bike. We have a big garden behind our house.",
+      "explainTh": "I / we / they + have · he / she / it / คำนามเอกพจน์ + has · ปฏิเสธใช้ don't / doesn't + have"
+    }
+  ]
+}

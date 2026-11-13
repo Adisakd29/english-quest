@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF0A6"/><stop offset=".42" stop-color="#F7C443"/><stop offset="1" stop-color="#C47F0C"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B8710A"/><stop offset="1" stop-color="#7A4304"/></linearGradient>
+<radialGradient id="face" cx=".4" cy=".32" r=".78"><stop offset="0" stop-color="#FFE57A"/><stop offset=".55" stop-color="#F8C437"/><stop offset="1" stop-color="#E39B14"/></radialGradient>
+<linearGradient id="em" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD24D"/><stop offset="1" stop-color="#D88B0B"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="top"><rect x="0" y="0" width="64" height="30"/></clipPath>
+<clipPath id="faceclip"><circle cx="32" cy="31" r="22.6"/></clipPath>
+</defs>
+<ellipse cx="32" cy="34.2" rx="29.6" ry="29.4" fill="url(#edge)"/>
+<circle cx="32" cy="31" r="29.6" fill="url(#rim)"/>
+<circle cx="32" cy="31" r="24.4" fill="#B9760B"/>
+<circle cx="32" cy="31.9" r="23.3" fill="#FFF0B0" opacity=".9"/>
+<circle cx="32" cy="31" r="22.6" fill="url(#face)"/>
+<g fill="#9A5B05" opacity=".5" transform="translate(0 1.4)"><path d="M32.00,15.50L35.95,27.05L47.50,31.00L35.95,34.95L32.00,46.50L28.05,34.95L16.50,31.00L28.05,27.05Z"/></g>
+<path d="M32.00,15.50L35.95,27.05L47.50,31.00L35.95,34.95L32.00,46.50L28.05,34.95L16.50,31.00L28.05,27.05Z" fill="url(#em)"/>
+<path d="M32.00,15.50L35.95,27.05L47.50,31.00L35.95,34.95L32.00,46.50L28.05,34.95L16.50,31.00L28.05,27.05Z" fill="none" stroke="#FFF6CF" stroke-width="1.1" stroke-linejoin="round" clip-path="url(#top)"/>
+<g clip-path="url(#faceclip)"><path d="M6 22 L30 2 L40 6 L12 34Z" fill="url(#shine)" opacity=".5"/></g>
+<path d="M10.5 22.5a23 23 0 0 1 17-17.6" fill="none" stroke="#FFFBE6" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+</svg>

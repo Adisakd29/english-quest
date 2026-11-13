@@ -1,0 +1,1547 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S4",
+  "title": "A-Level ภาษาอังกฤษ ชุดฝึกที่ 4 (เข้มข้น)",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S4-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A decision in the conservation studio",
+          "dialogue": [
+            {
+              "speaker": "Pakorn",
+              "text": "I've finished the condition report on the lacquered cabinet. The later repair on the left door is flaking badly, so I assumed we'd strip it back to the original surface."
+            },
+            {
+              "speaker": "Ms Halvorsen",
+              "text": "___1___ Before we do anything irreversible, though, I'd want to know who made that repair and when."
+            },
+            {
+              "speaker": "Pakorn",
+              "text": "According to the donor's file, her grandfather patched it in the 1930s, after the cabinet was damaged during a house move."
+            },
+            {
+              "speaker": "Ms Halvorsen",
+              "text": "Then the repair is part of the object's history in its own right. ___2___"
+            },
+            {
+              "speaker": "Pakorn",
+              "text": "I see your point, but if the flaking continues, we'll lose the repair anyway, and some of the original lacquer underneath along with it."
+            },
+            {
+              "speaker": "Ms Halvorsen",
+              "text": "Fair enough; I was perhaps being too purist. ___3___"
+            },
+            {
+              "speaker": "Pakorn",
+              "text": "That would buy us time. Should I record it in the report as a final decision?"
+            },
+            {
+              "speaker": "Ms Halvorsen",
+              "text": "___4___ Once the donor's family has seen the photographs, they may have views of their own, and I'd rather not present them with a fait accompli."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S4-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Agreed — I'll book the solvent room for Monday.",
+                "That would certainly be the tidier solution.",
+                "Sadly, the original surface vanished long ago.",
+                "No, the flaking is too minor to worry about."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ms Halvorsen ยอมรับแบบผิวเผินว่า \"tidier\" (เรียบร้อยกว่า) แล้วตามด้วย \"Before we do anything irreversible, though, I'd want to know...\" ซึ่งเป็นการไม่เห็นด้วยอย่างสุภาพ (hedging) กับดักคือการตกลงจองห้องทันที ซึ่งขัดกับการขอข้อมูลก่อน ส่วน \"original surface vanished\" ขัดกับบรรทัดที่ 5 ที่ว่ายังมี \"original lacquer underneath\" และ \"too minor\" ขัดกับบรรทัดที่ 6 ที่เธอยอมรับปัญหาการหลุดลอก"
+            },
+            {
+              "id": "AL-S4-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "So it should come off before it does any more damage.",
+                "Take it off, and we destroy evidence nobody can recover.",
+                "That's why the family insisted that we remove it.",
+                "Its age makes it far less significant than the cabinet."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "หลัง \"part of the object's history in its own right\" ต้องเป็นเหตุผลให้เก็บรอยซ่อมไว้ Pakorn จึงแย้งว่า \"I see your point, but ... we'll lose the repair anyway\" กับดักคือ \"it should come off\" ซึ่งกลับจุดยืนของเธอ และ \"the family insisted\" ขัดกับบรรทัดที่ 8 ที่ครอบครัวยังไม่ได้เห็นภาพถ่ายและ \"may have views of their own\""
+            },
+            {
+              "id": "AL-S4-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Then perhaps we should strip the whole surface to bare wood.",
+                "In that case, let's leave everything exactly as it is.",
+                "Shall we ask the donor's family to collect the cabinet instead?",
+                "Could we consolidate the flakes and leave the repair for now?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "\"Fair enough; I was perhaps being too purist\" คือการปรับจุดยืน: ยอมรับว่าต้องจัดการการหลุดลอก แต่ยังไม่ลอกรอยซ่อมออก และ Pakorn ตอบ \"That would buy us time\" ซึ่งเข้ากับมาตรการชั่วคราว \"for now\" กับดักคือ \"leave everything exactly as it is\" ซึ่งไม่แก้ปัญหาที่เธอเพิ่งยอมรับ และการลอกถึงเนื้อไม้ทำลายทั้งรอยซ่อมและผิวเดิม"
+            },
+            {
+              "id": "AL-S4-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Yes, the matter is settled as far as we're concerned.",
+                "I'd call it provisional, if I were you.",
+                "No — say the repair has been removed.",
+                "Yes, and copy it to the family once the work is done."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เหตุผลที่ตามมาคือครอบครัว \"may have views of their own\" และเธอไม่อยากยื่น \"fait accompli\" (เรื่องที่ตัดสินเสร็จแล้ว) จึงต้องบันทึกว่าเป็นการตัดสินใจชั่วคราว (provisional) กับดักคือ \"copy it to the family once the work is done\" ซึ่งฟังสุภาพ แต่คือการแจ้งหลังทำเสร็จ ซึ่งก็คือ fait accompli ที่เธอไม่ต้องการ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A science podcast on plant signals",
+          "dialogue": [
+            {
+              "speaker": "Rin",
+              "text": "Welcome back to Field Notes. My guest today studies how plants respond to insect attack. Dr Penhaligon, headlines keep telling us that trees 'talk' to one another. ___1___"
+            },
+            {
+              "speaker": "Dr Penhaligon",
+              "text": "Well, I'd put it rather more cautiously. Damaged leaves do release airborne chemicals, and nearby plants sometimes strengthen their own defences in response."
+            },
+            {
+              "speaker": "Rin",
+              "text": "So it's less a conversation than a kind of eavesdropping?"
+            },
+            {
+              "speaker": "Dr Penhaligon",
+              "text": "___2___ The damaged plant isn't obviously sending anything; it may simply be leaking, and its neighbours happen to benefit from noticing."
+            },
+            {
+              "speaker": "Rin",
+              "text": "Then why has the 'talking' image proved so popular?"
+            },
+            {
+              "speaker": "Dr Penhaligon",
+              "text": "Partly because it's a lovely story. And, to be fair, ___3___ In a few species the signal seems tuned to reach relatives more than strangers, which would be hard to explain as mere leakage."
+            },
+            {
+              "speaker": "Rin",
+              "text": "So where does that leave listeners who've read that a forest is one big, friendly network?"
+            },
+            {
+              "speaker": "Dr Penhaligon",
+              "text": "___4___ Plants also compete fiercely for light and water, and any account that leaves that out is telling only half the story."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S4-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "How did your interest in plants first begin?",
+                "Why did you decide to study insects instead?",
+                "Is that how you'd describe it?",
+                "Has your own work ever appeared in them?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"I'd put it rather more cautiously\" คือการบอกว่าจะอธิบายต่างจากพาดหัวข่าว จึงต้องเป็นคำถามว่าเขาเห็นด้วยกับคำบรรยายนั้นหรือไม่ กับดักคือคำถามเรื่องประวัติหรือผลงานที่เคยลงข่าว ซึ่งคำตอบไม่ได้ตอบ และเขาศึกษาพืช ไม่ใช่แมลง"
+            },
+            {
+              "id": "AL-S4-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "No, that would be going much too far.",
+                "Not at all; the plant is clearly sending a warning.",
+                "I'd rather not comment on that, I'm afraid.",
+                "That's closer to the mark, yes."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคที่ตามมาสนับสนุนคำว่า eavesdropping (แอบฟัง): ต้นที่ถูกกัด \"isn't obviously sending anything\" แต่ต้นข้าง ๆ ได้ประโยชน์จากการรับรู้ จึงตอบรับว่า \"closer to the mark\" กับดักคือ \"going much too far\" ซึ่งขัดกับคำอธิบายที่ตามมาเอง และ \"clearly sending a warning\" ขัดกับ \"isn't obviously sending\""
+            },
+            {
+              "id": "AL-S4-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "the evidence for leakage is now overwhelming.",
+                "nobody has ever tested the idea properly.",
+                "I may have been slightly too dismissive just now.",
+                "journalists rarely bother to read the research."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "\"to be fair\" ใช้เมื่อยอมรับข้อดีของอีกฝ่าย และหลักฐานที่ตามมา (\"hard to explain as mere leakage\") ทำให้เขาถอยจากคำอธิบายเรื่อง \"leaking\" ที่พูดไว้ในบรรทัดที่ 4 จึงเป็นการแก้ท่าทีของตัวเอง กับดักคือ \"evidence for leakage is overwhelming\" ซึ่งขัดกับประโยคถัดไปโดยตรง และ \"nobody has ever tested\" ขัดกับผลที่พบใน \"a few species\""
+            },
+            {
+              "id": "AL-S4-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "With something true, but heavily edited.",
+                "Quite rightly convinced, I'd say.",
+                "Completely misled, since plants never interact.",
+                "Better informed than most researchers, frankly."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมาบอกว่าภาพเครือข่ายที่เป็นมิตร \"telling only half the story\" คือมีส่วนจริงแต่ถูกตัดทอน จึงตรงกับ \"something true, but heavily edited\" กับดักคือ \"plants never interact\" ซึ่งขัดกับที่เขายอมรับว่าพืชตอบสนองต่อสัญญาณกัน และ \"rightly convinced\" ขัดกับ \"half the story\""
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Renegotiating a group presentation",
+          "dialogue": [
+            {
+              "speaker": "Thitima",
+              "text": "Korn, about the presentation: I know we agreed I'd do the slides and you'd do the data, but the data section has turned out to be twice the size we expected."
+            },
+            {
+              "speaker": "Korn",
+              "text": "___1___ I was going to suggest we split it, actually."
+            },
+            {
+              "speaker": "Thitima",
+              "text": "Splitting it would help, but then the slides would fall behind. What if Wiriya took over the slides?"
+            },
+            {
+              "speaker": "Korn",
+              "text": "___2___ She's already told us she can only help with the rehearsal on Friday, and nothing before that."
+            },
+            {
+              "speaker": "Thitima",
+              "text": "Fair point. Then how about this: I keep the slides, you take the first half of the data, and I'll do the second half over the weekend."
+            },
+            {
+              "speaker": "Korn",
+              "text": "That's generous, but you'd be doing far more than your share. ___3___"
+            },
+            {
+              "speaker": "Thitima",
+              "text": "Honestly, that would be a relief. I'm far happier behind a laptop than in front of an audience. ___4___"
+            },
+            {
+              "speaker": "Korn",
+              "text": "Deal. I'll message Wiriya tonight so she knows what's changed."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S4-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I hadn't noticed it had grown at all.",
+                "I'd rather keep all of it myself, though.",
+                "Then let's cut it down to a single chart.",
+                "Tell me about it."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "\"Tell me about it.\" เป็นสำนวนแปลว่า \"ใช่เลย รู้ดีอยู่แล้ว\" ใช้แสดงว่าเห็นด้วยอย่างยิ่ง จึงเข้ากับ \"I was going to suggest we split it, actually\" กับดักคือการเข้าใจตามตัวอักษรว่าขอให้เล่า ส่วน \"hadn't noticed it had grown\" ขัดกับเหตุผลที่เขาเสนอให้แบ่งงาน และ \"keep all of it\" หรือ \"cut it down\" ขัดกับการเสนอให้แบ่ง"
+            },
+            {
+              "id": "AL-S4-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "That's the obvious solution, then.",
+                "Great — she'd be glad of the extra work.",
+                "I'm not sure that's realistic.",
+                "She's been asking for more to do all week."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เหตุผลที่ตามมาคือ Wiriya \"can only help with the rehearsal on Friday, and nothing before that\" จึงเป็นการปฏิเสธอย่างนุ่มนวลว่าข้อเสนอเป็นไปได้ยาก และ Thitima ตอบ \"Fair point\" แสดงว่าเพิ่งถูกแย้ง กับดักคือตัวเลือกที่ตอบรับหรือบอกว่า Wiriya อยากได้งานเพิ่ม ซึ่งขัดกับข้อจำกัดที่ตามมาทันที"
+            },
+            {
+              "id": "AL-S4-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "So I'll leave the entire data section to you after all, then.",
+                "Could Wiriya take on the second half of the data instead?",
+                "Then I'll take on the slides too, shall I?",
+                "Why don't I do all of the presenting on the day?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Korn เห็นว่า Thitima รับงานเกินส่วน จึงต้องเสนอสิ่งชดเชย และ Thitima ตอบว่า \"that would be a relief. I'm far happier behind a laptop than in front of an audience\" จึงต้องเป็นข้อเสนอให้ Korn นำเสนอหน้าห้องแทน กับดักคือ \"take on the slides\" ซึ่งไม่เกี่ยวกับ \"in front of an audience\" และ Wiriya ช่วยได้เฉพาะวันศุกร์ (บรรทัดที่ 4)"
+            },
+            {
+              "id": "AL-S4-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "As long as Wiriya's happy with it, I'm in.",
+                "But I'd still rather do the talking myself.",
+                "Let's not mention any of this to Wiriya.",
+                "Then you can take the slides back as well."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Korn ตอบ \"Deal. I'll message Wiriya tonight so she knows what's changed\" แสดงว่าข้อตกลงมีเงื่อนไขที่เกี่ยวกับ Wiriya กับดักคือ \"rather do the talking myself\" ซึ่งขัดกับ \"that would be a relief\" และ \"not mention any of this to Wiriya\" ขัดกับการส่งข้อความหา Wiriya ส่วนการยกสไลด์คืนให้ Korn ขัดกับที่ Thitima ชอบทำงานหลังจอ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A public consultation on Pho Thong Lane",
+          "dialogue": [
+            {
+              "speaker": "Ms Varga",
+              "text": "Thank you all for coming. As you'll have seen, the proposal is to close Pho Thong Lane to cars from 10 a.m. to 8 p.m. and widen the pavements. ___1___ Nothing has been decided, and we will be revising the plan in the light of tonight's comments."
+            },
+            {
+              "speaker": "Mrs Lamai",
+              "text": "I run the stationery shop halfway down. I'm not against the idea in principle, but my deliveries come at around eleven. ___2___"
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "That's a concern we've heard from several traders. One option would be a loading window before ten, so that vans could still get in."
+            },
+            {
+              "speaker": "Mrs Lamai",
+              "text": "Before ten might suit some suppliers, but mine drive in from out of town and rarely arrive before half past ten."
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "___3___ We could look at a second window in the mid-afternoon, when footfall tends to be lowest."
+            },
+            {
+              "speaker": "Tor",
+              "text": "Can I come in here? I cycle to school along the lane. Closing it to cars sounds great, but the plan says cyclists will have to dismount during the closed hours. ___4___"
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "I take your point. The concern was mainly about speed on market days, but a shared space with a low speed limit is something we could consider."
+            },
+            {
+              "speaker": "Mr Haverford",
+              "text": "If I may, I'd be cautious about shared space. I use a walking frame, and I find it hard to tell where bicycles are coming from when there's no kerb."
+            },
+            {
+              "speaker": "Tor",
+              "text": "___5___ I hadn't thought about it from that angle. Maybe a marked cycle strip down the middle would work, as long as it's clearly separated?"
+            },
+            {
+              "speaker": "Mr Haverford",
+              "text": "A marked strip would help, provided it differs from the pavement in texture as well as colour. ___6___"
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "That's a helpful suggestion. May I check that I've understood the main points so far?"
+            },
+            {
+              "speaker": "Mrs Lamai",
+              "text": "Please do."
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "___7___"
+            },
+            {
+              "speaker": "Mr Haverford",
+              "text": "That's broadly it, although I'd stress that the strip needs a change of surface, not just a different colour."
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "Noted. ___8___"
+            },
+            {
+              "speaker": "Tor",
+              "text": "Will people be able to comment online as well, for those who can't come in the evening?"
+            },
+            {
+              "speaker": "Ms Varga",
+              "text": "Yes. The revised drawings will be online for four weeks, with a comment form."
+            },
+            {
+              "speaker": "Mrs Lamai",
+              "text": "Then I'll make sure my suppliers see them too."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S4-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Work will begin as soon as tonight's meeting ends.",
+                "I should stress that this is only a draft.",
+                "I'm afraid we can only accept written questions.",
+                "The final design was signed off last week."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไป \"Nothing has been decided, and we will be revising the plan in the light of tonight's comments\" ยืนยันว่าข้อเสนอเป็นเพียงร่าง กับดักคือ \"Work will begin...\" และ \"signed off last week\" ซึ่งขัดกับ \"Nothing has been decided\" ส่วน \"only written questions\" ขัดกับการรับฟัง \"tonight's comments\" และการพูดแสดงความเห็นที่ตามมาทั้งหมด"
+            },
+            {
+              "id": "AL-S4-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "I'd therefore like the lane closed all day.",
+                "That's why I back the plan without reservation.",
+                "Could my shop be moved to another street?",
+                "Is there any provision for that in the plan?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Mrs Lamai ไม่ค้าน \"in principle\" แต่ของมาส่งราวสิบเอ็ดโมงซึ่งอยู่ในช่วงปิดถนน จึงถามว่าแผนมีข้อยกเว้นรองรับหรือไม่ เจ้าหน้าที่จึงตอบเรื่อง \"loading window\" กับดักคือ \"closed all day\" ซึ่งทำให้ปัญหาการส่งของแย่ลง และ \"without reservation\" ขัดกับ \"but\" ที่เธอเพิ่งพูด"
+            },
+            {
+              "id": "AL-S4-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Then they'll just have to set off earlier.",
+                "Then I'm afraid deliveries will have to stop altogether.",
+                "So perhaps the lane should stay open to cars after all.",
+                "Then one early slot clearly won't suit everyone."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้ส่งของของ Mrs Lamai \"rarely arrive before half past ten\" และเจ้าหน้าที่เสนอ \"a second window in the mid-afternoon\" จึงต้องเป็นการยอมรับว่าช่วงเช้าช่วงเดียวไม่พอ กับดักคือ \"they'll just have to set off earlier\" ซึ่งขัดกับการเสนอช่วงเวลาที่สองในประโยคเดียวกัน ส่วนการห้ามส่งของหรือเปิดถนนให้รถ ขัดกับการปรับแผนที่ตามมา"
+            },
+            {
+              "id": "AL-S4-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "That's the part of the plan I like best, actually.",
+                "Doesn't that rather defeat the object for people like me?",
+                "Will the closure apply at weekends and on public holidays too?",
+                "So I'll be able to ride much faster than before."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Tor พูดว่า \"sounds great, but...\" แล้วชี้ว่าต้องลงจูงจักรยาน ซึ่งทำให้การปิดถนนไม่เป็นประโยชน์กับคนปั่นจักรยาน (\"defeat the object\" = ทำให้เสียจุดประสงค์) เจ้าหน้าที่จึงตอบ \"I take your point\" กับดักคือคำถามเรื่องวันหยุด ซึ่ง \"I take your point\" ไม่ใช่คำตอบของคำถาม และ \"like best\" ขัดกับ \"but\""
+            },
+            {
+              "id": "AL-S4-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "That's a fair concern.",
+                "That's hardly a cycling issue, though.",
+                "So we agree that bikes should be banned.",
+                "Surely the kerb makes no real difference."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Tor ยอมรับมุมมองของ Mr Haverford (\"I hadn't thought about it from that angle\") แล้วปรับข้อเสนอเป็นช่องจักรยานแยก จึงเป็นการยอมรับว่าเป็นข้อกังวลที่มีเหตุผล กับดักคือ \"hardly a cycling issue\" และ \"the kerb makes no real difference\" ซึ่งปัดข้อกังวลทิ้ง ขัดกับประโยคที่ตามมา ส่วน \"bikes should be banned\" ขัดกับที่เขาเสนอช่องจักรยานเอง"
+            },
+            {
+              "id": "AL-S4-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "Colour on its own is easy to miss when you're watching your feet.",
+                "Frankly, the colour matters far more to me than the texture.",
+                "In fact, a strip wouldn't make any difference to me at all.",
+                "Cyclists could then use the pavement on either side as well."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Mr Haverford ต้องการให้ช่องต่างกันทั้ง \"texture as well as colour\" และบรรทัดที่ 14 ย้ำว่า \"not just a different colour\" จึงต้องเป็นเหตุผลว่าสีอย่างเดียวสังเกตยากเมื่อต้องมองพื้น (เขาใช้ walking frame) กับดักคือ \"the colour matters far more than the texture\" ซึ่งขัดกับบรรทัดที่ 14 และ \"wouldn't make any difference\" ขัดกับ \"would help\""
+            },
+            {
+              "id": "AL-S4-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Deliveries should all arrive before ten, and cyclists should dismount during the closed hours, as originally planned.",
+                "Deliveries need a later window, and cyclists should share the whole pavement freely with people on foot.",
+                "Deliveries need a second, later window, and cyclists should have a separate strip rather than having to dismount.",
+                "The lane should stay open to cars after all, and the proposed cycle strip should be dropped from the plan."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "การสรุปต้องรวมข้อเสนอจากหลายบรรทัด: ช่วงส่งของช่วงที่สองที่ช้ากว่า (บรรทัดที่ 5) และช่องจักรยานแยกแทนการบังคับลงจูง (บรรทัดที่ 9–10) และ Mr Haverford ตอบว่า \"That's broadly it\" กับดักคือ \"before ten ... as originally planned\" ซึ่งเป็นแผนเดิมที่ถูกทักท้วง และ \"share the whole pavement freely\" ขัดกับข้อกังวลเรื่องความปลอดภัยของ Mr Haverford"
+            },
+            {
+              "id": "AL-S4-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "We'll publish revised drawings and invite comments before anything is finalised.",
+                "The plan will therefore go ahead exactly as it was first drafted.",
+                "Tonight is the last opportunity to comment on it, I'm afraid.",
+                "I'll pass all of your concerns to the contractors in the morning."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "บรรทัดที่ 17 ใช้ \"The revised drawings\" (มี the) แสดงว่าเพิ่งพูดถึงไป และ Tor ถามว่าแสดงความเห็นออนไลน์ได้ \"as well\" หรือไม่ จึงต้องมีการเปิดรับความเห็นก่อนสรุป กับดักคือ \"Tonight is the last opportunity\" ซึ่งขัดกับการเปิดรับความเห็นออนไลน์สี่สัปดาห์ ส่วน \"exactly as first drafted\" และการส่งให้ผู้รับเหมา ขัดกับ \"Nothing has been decided\" ในบรรทัดแรก"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S4-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Halden Reach Rowing Club",
+          "text": "HALDEN REACH ROWING CLUB\nAutumn Taster Programme: six Saturday mornings on the river\n\nWho can take part\nAnyone aged 14 or over. Participants under 18 must bring a consent form signed by a parent or guardian to the first session. Everyone must pass a 50-metre swim test, wearing clothes, before going on the water. If you have passed the same test at another club within the last 12 months, you may show your certificate instead of retaking it.\n\nFees for all six sessions\n• Adults: 2,400 baht\n• Students aged 14–22 with a valid student card: 1,600 baht\nBook together with a friend and you each pay 200 baht less. This discount applies to both fees and is given only once per person, however many friends you book with.\n\nBad weather\nIf high water closes the river, the session moves to our indoor rowing machines. Sessions are refunded only if the club cancels them completely.\n\nJoining the club\nTaster participants who become members by 30 November pay no joining fee (normally 1,000 baht).",
+          "items": [
+            {
+              "id": "AL-S4-021",
+              "stem": "Fon is 17 and has a valid student card. She passed the swim test at another club 18 months ago, and she books together with two friends. Which of the following is correct for her?",
+              "options": [
+                "She needs a consent form, must retake the swim test, and pays 1,400 baht.",
+                "She needs a consent form, may show her certificate, and pays 1,400 baht.",
+                "She needs a consent form, must retake the swim test, and pays 1,200 baht.",
+                "She needs no consent form, must retake the swim test, and pays 1,400 baht."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ต้องใช้เงื่อนไขสามชั้นพร้อมกัน: อายุต่ำกว่า 18 ต้องมีใบยินยอม ใบผ่านการทดสอบว่ายน้ำใช้แทนได้เฉพาะ \"within the last 12 months\" (18 เดือนจึงใช้ไม่ได้) และค่าเรียนนักเรียน 1,600 ลด 200 ได้ \"only once per person, however many friends\" = 1,400 บาท กับดักคือ 1,200 บาท (ลดสองครั้งเพราะมาสองคน) และการใช้ใบรับรองที่หมดอายุแล้ว"
+            },
+            {
+              "id": "AL-S4-022",
+              "stem": "In which situation would a participant receive a refund for a session?",
+              "options": [
+                "High water moves the session onto the indoor machines.",
+                "The participant misses the session because of a school trip.",
+                "A participant fails the first swim test.",
+                "The club calls the session off entirely."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"Sessions are refunded only if the club cancels them completely\" คือคืนเงินเฉพาะเมื่อชมรมยกเลิกทั้งครั้ง กับดักคือกรณีน้ำขึ้นสูง ซึ่งไม่ใช่การยกเลิก แต่ \"moves to our indoor rowing machines\" ส่วนการขาดเรียนหรือสอบว่ายน้ำไม่ผ่านไม่ใช่การยกเลิกโดยชมรม จึงไม่ได้เงินคืน"
+            },
+            {
+              "id": "AL-S4-023",
+              "stem": "Which statement is NOT supported by the notice?",
+              "options": [
+                "A 23-year-old student pays the adult fee, even with a valid student card.",
+                "Booking with three friends saves a participant 600 baht.",
+                "A participant who becomes a member on 20 November pays no joining fee.",
+                "A 15-year-old needs a signed consent form."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ส่วนลด 200 บาท \"is given only once per person, however many friends you book with\" การจองกับเพื่อนสามคนจึงยังลดแค่ 200 บาท ไม่ใช่ 600 บาท ข้ออื่นได้รับการสนับสนุน: ค่าเรียนนักเรียนจำกัดอายุ 14–22 ปี ผู้มีอายุ 23 ปีจึงจ่ายราคาผู้ใหญ่แม้มีบัตรนักเรียน วันที่ 20 พฤศจิกายนอยู่ก่อน \"by 30 November\" และผู้มีอายุต่ำกว่า 18 ต้องมีใบยินยอม"
+            },
+            {
+              "id": "AL-S4-024",
+              "stem": "A 30-year-old who is not a student booked the programme on her own and became a club member on 5 December. What can be concluded about what she paid in total?",
+              "options": [
+                "She paid 2,200 baht for the programme and nothing to join.",
+                "She paid 2,400 baht for the programme and nothing to join.",
+                "She paid 2,400 baht for the programme and 1,000 baht to join.",
+                "She paid 1,600 baht for the programme and 1,000 baht to join."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "เธอเป็นผู้ใหญ่ที่จองคนเดียว จึงจ่ายราคาเต็ม 2,400 บาท (ไม่มีส่วนลดเพื่อน) และสมัครสมาชิกวันที่ 5 ธันวาคม ซึ่งเลย \"by 30 November\" จึงต้องจ่ายค่าแรกเข้าปกติ 1,000 บาท กับดักคือการคิดว่าผู้เข้าร่วมโครงการได้ยกเว้นค่าแรกเข้าเสมอ ทั้งที่มีกำหนดวันที่เป็นเงื่อนไข และ 2,200 บาทใช้ส่วนลดเพื่อนที่เธอไม่มีสิทธิ์"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Kelapa Islands Ferries",
+          "text": "KELAPA ISLANDS FERRIES — ISLAND HOPPER PASS\nUnlimited travel on every route between Port Anchan and the four Kelapa islands\n\nStandard prices\n• 3-day pass: 900 baht\n• 7-day pass: 1,800 baht\nChildren aged 4–11 pay half the standard price. Children under 4 travel free and do not need a pass.\n\nEarly-booking offer\nAdults who buy a 7-day pass online at least 14 days before their first day of travel pay 1,500 baht instead of 1,800 baht. The offer does not apply to 3-day passes or to children's passes.\n\nHow the pass works\nYour pass starts on the first day you travel and runs for 3 or 7 consecutive days, whether or not you travel on each of them. It covers foot passengers only. Bicycles can be taken on any ferry for 50 baht per journey, except the fast catamaran to Ko Lanyang, which carries no bicycles. Passes are not valid from 12 to 14 April; single tickets must be bought on those dates.\n\nLost passes can be replaced once, for 100 baht, if you show your booking reference.",
+          "items": [
+            {
+              "id": "AL-S4-025",
+              "stem": "Two adults and their children, aged 9 and 3, buy 7-day passes online 20 days before they travel. What is the total cost?",
+              "options": [
+                "3,750 baht",
+                "4,500 baht",
+                "3,900 baht",
+                "4,800 baht"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้ใหญ่ซื้อออนไลน์ล่วงหน้าเกิน 14 วัน ได้ราคา 1,500 × 2 = 3,000 บาท เด็ก 9 ขวบจ่ายครึ่งหนึ่งของ \"standard price\" = 900 บาท (โปรจองล่วงหน้า \"does not apply to children's passes\") และเด็ก 3 ขวบไม่ต้องใช้บัตร รวม 3,900 บาท กับดักคือ 3,750 บาท (คิดครึ่งราคาจากราคาโปร 1,500) และ 4,800 บาท (คิดค่าบัตรเด็ก 3 ขวบด้วย)"
+            },
+            {
+              "id": "AL-S4-026",
+              "stem": "A passenger's 7-day pass starts on a Wednesday. She stays in Port Anchan without travelling on Thursday and Friday. What is the last day on which her pass is valid?",
+              "options": [
+                "The following Wednesday",
+                "The following Thursday",
+                "The following Friday",
+                "The following Tuesday"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "บัตร \"runs for 3 or 7 consecutive days, whether or not you travel on each of them\" นับวันพุธเป็นวันที่ 1 ถึงวันอังคารถัดไปเป็นวันที่ 7 วันที่ไม่ได้เดินทางก็นับด้วย กับดักคือ \"Friday\" (คิดว่าสองวันที่ไม่ได้เดินทางถูกเลื่อนออกไป) และ \"Wednesday\" (นับเกินหนึ่งวัน)"
+            },
+            {
+              "id": "AL-S4-027",
+              "stem": "Which statement is NOT supported by the advertisement?",
+              "options": [
+                "A family travelling on 13 April needs single tickets.",
+                "A 10-year-old's 7-day pass always costs 900 baht.",
+                "Pass holders pay extra for each bicycle journey.",
+                "Adults can get the early-booking price by buying at the port."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ราคาโปรต้องซื้อ \"online at least 14 days before\" การซื้อที่ท่าเรือจึงไม่ได้ราคาโปร ข้ออื่นได้รับการสนับสนุน: วันที่ 12–14 เมษายนบัตรใช้ไม่ได้ เด็กจ่ายครึ่งราคามาตรฐาน (900 บาท) เสมอ และจักรยานเสีย \"50 baht per journey\" เพราะบัตร \"covers foot passengers only\""
+            },
+            {
+              "id": "AL-S4-028",
+              "stem": "A traveller has already had her lost pass replaced once. If she loses it again, what does the notice suggest?",
+              "options": [
+                "She will pay 200 baht for a second replacement.",
+                "She cannot expect another replacement.",
+                "She can travel on her booking reference alone.",
+                "She will receive a replacement free of charge."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"Lost passes can be replaced once\" แปลว่าออกบัตรแทนได้เพียงครั้งเดียว หากหายอีกจึงไม่มีสิทธิ์ขอบัตรแทนอีก กับดักคือ 200 บาท ซึ่งเดาว่าค่าธรรมเนียมเพิ่มขึ้นทั้งที่ประกาศไม่ได้กล่าวไว้ และ booking reference ใช้เพื่อขอบัตรแทน ไม่ใช่ใช้เดินทางแทนบัตร"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: The Salt Orchard, newly translated",
+          "text": "The Salt Orchard, newly translated — ★★★★☆\n\nReaders who first met Ilse Varnholm's The Salt Orchard in the 1970s English translation will remember a stiff, faintly antique book, its fishermen speaking in a 'thee' and 'thou' that their author never gave them. Rosa Leander's new version sweeps all of that away. Her prose is supple and quick, and for the first time in English the novel's dry humour actually lands; I laughed aloud at the harbour-master's lecture on the evils of punctuality.\n\nWhat Leander gains in fluency, however, she sometimes loses in texture. The original moves between the standard language and a thick island dialect, and that contrast carries much of the novel's tension between the village and the mainland. Leander renders both in the same neat, contemporary English, and the result, while undeniably readable, is flatter than it should be. In her afterword she defends the choice, arguing that any invented English dialect would sound like a parody. It is a reasonable argument, and I am not sure I could propose a better solution; I merely note that something has been lost.\n\nThe edition itself is handsome, with a useful map of the island, though the decision to place the notes at the back of the book rather than on the page means a good deal of flipping for anyone who wants them.\n\nNewcomers should start here without hesitation. Readers attached to the older translation may find this one a revelation in some chapters and a disappointment in others, which is perhaps the most honest thing one can say about any translation.",
+          "items": [
+            {
+              "id": "AL-S4-029",
+              "stem": "Which best sums up the reviewer's overall verdict?",
+              "options": [
+                "A preference for the 1970s version, despite the new one's readability",
+                "Unreserved praise, bar a complaint about the notes",
+                "A firm recommendation, despite a loss the reviewer thinks hard to avoid",
+                "Admiration for its accuracy, but doubts about whether it is readable"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนแนะนำให้ผู้อ่านใหม่ \"start here without hesitation\" แต่ยอมรับว่า \"something has been lost\" และ \"I am not sure I could propose a better solution\" (การสูญเสียที่อาจเลี่ยงไม่ได้) กับดักคือ \"Unreserved praise\" ซึ่งมองข้ามปัญหาเรื่องภาษาถิ่นที่เป็นประเด็นหลักของย่อหน้าที่ 2 และ \"prefers the 1970s version\" ขัดกับคำวิจารณ์ฉบับเก่าว่า \"stiff\""
+            },
+            {
+              "id": "AL-S4-030",
+              "stem": "Which of the following claims is attributed to the translator rather than the reviewer?",
+              "options": [
+                "The novel's humour finally succeeds in English for the first time.",
+                "The older version gave the island's fishermen an archaic way of speaking.",
+                "An invented English dialect would come across as a parody.",
+                "Something of value has been lost in the new version."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"In her afterword she defends the choice, arguing that any invented English dialect would sound like a parody\" คำว่า she/her afterword คือผู้แปล (Leander) ข้ออื่นเป็นความเห็นของผู้วิจารณ์เอง เช่น \"the novel's dry humour actually lands\" และ \"I merely note that something has been lost\" กับดักคือการไม่แยกเสียงของผู้แปลกับผู้วิจารณ์ในย่อหน้าเดียวกัน"
+            },
+            {
+              "id": "AL-S4-031",
+              "stem": "What does the reviewer imply about Leander's handling of the dialect?",
+              "options": [
+                "It was deliberate, and its cost is real but hard to remedy.",
+                "It was an oversight that a more careful editor would have corrected.",
+                "It matters little, as the dialect plays no real role.",
+                "It would have been better handled by inventing an English dialect."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้แปล \"defends the choice\" จึงเป็นการตัดสินใจโดยเจตนา และผู้วิจารณ์ยอมรับว่า \"a reasonable argument ... not sure I could propose a better solution\" แต่ยังเห็นว่ามีสิ่งที่หายไป กับดักคือ \"inventing an English dialect\" ซึ่งเป็นทางที่ผู้แปลปฏิเสธและผู้วิจารณ์ไม่ได้เสนอ และ \"plays no real role\" ขัดกับ \"carries much of the novel's tension\""
+            },
+            {
+              "id": "AL-S4-032",
+              "stem": "Which statement is NOT supported by the review?",
+              "options": [
+                "The 1970s translation gave characters speech their author did not write.",
+                "The new translation makes the novel's comedy more effective.",
+                "The notes are printed at the foot of the relevant pages.",
+                "The contrast between dialect and standard language matters to the novel."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผู้วิจารณ์บ่นว่าเชิงอรรถอยู่ \"at the back of the book rather than on the page\" จึงไม่ได้อยู่ท้ายหน้า ข้ออื่นได้รับการสนับสนุน: ฉบับเก่าใช้ \"thee and thou\" ที่ผู้ประพันธ์ \"never gave them\" อารมณ์ขัน \"actually lands\" และความต่างของภาษาถิ่นกับภาษามาตรฐาน \"carries much of the novel's tension\""
+            },
+            {
+              "id": "AL-S4-033",
+              "stem": "The word \"lands\" in paragraph 1 is closest in meaning to",
+              "options": [
+                "has the intended effect",
+                "arrives later than expected",
+                "is quietly removed",
+                "is repeated too often"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"the novel's dry humour actually lands; I laughed aloud\" คือมุกได้ผลตามที่ตั้งใจ ผู้วิจารณ์จึงหัวเราะออกมา กับดักคือความหมายตามตัวอักษรของ land (มาถึง/ลงจอด) ซึ่งกลายเป็น \"arrives later than expected\" ไม่เข้ากับบริบทการชมงานแปล"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Seagrass zone for Khlong Phet Bay",
+          "text": "KHLONG PHET BAY — A 40-hectare stretch of shallow water off the bay's northern shore will be closed to net fishing and boat anchoring for three years from January, as part of a project to restore seagrass meadows that have shrunk by more than half over the past fifteen years, the provincial fisheries office announced on Monday.\n\nThe office says the meadows act as nurseries for young fish and crabs, and that a recovered meadow should eventually increase catches in the surrounding waters. Fishers who normally work inside the zone will receive monthly compensation payments.\n\nThe local small-scale fishers' group said it supported the restoration \"as a matter of principle\" but questioned the timing of the payments, which will begin only in April. \"January to March is when we would normally catch the most,\" said the group's chair, Wanchai Sukprasert. \"Asking families to wait three months is asking them to bear the cost of a project that will benefit everyone.\"\n\nDr Mali Thepwong, a marine ecologist who has surveyed the bay for a decade, welcomed the closure but described the 40 hectares as \"a starting point rather than a solution\". Seedlings in a protected patch can recover, she explained, but meadows also depend on clear water, and runoff from shrimp ponds upstream will continue to cloud the bay unless it is tackled separately.\n\nDive-tour operators, who will still be allowed to enter the zone, are broadly in favour. However, Kittipong Rakdee, who runs three boats from the northern pier, said the anchoring ban would only work if permanent mooring buoys were installed before the closure began. \"Otherwise operators will drop anchor just outside the line, which is exactly where the healthiest seagrass is,\" he said.\n\nThe fisheries office said the buoys would be installed \"during the first year\" and that the payment schedule was under review.",
+          "items": [
+            {
+              "id": "AL-S4-034",
+              "stem": "Which statement best describes the positions of the three groups quoted in the report?",
+              "options": [
+                "Each supports it in some form, with a different reservation.",
+                "The fishers reject the closure, whereas the other two groups support it.",
+                "All three groups want the protected zone to be made considerably larger.",
+                "Only the dive operators raise any objection to the way it will work."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ชาวประมงสนับสนุน \"as a matter of principle\" แต่ติเรื่องเวลาจ่ายเงิน นักนิเวศวิทยา \"welcomed the closure\" แต่ชี้ว่าต้องแก้น้ำเสียต้นน้ำ และผู้ประกอบการดำน้ำ \"broadly in favour\" แต่ต้องการทุ่นจอดเรือ ทุกฝ่ายจึงรับหลักการแต่มีข้อสงวนต่างกัน กับดักคือ \"The fishers reject the closure\" ซึ่งสับสนการติเรื่องเวลากับการคัดค้าน"
+            },
+            {
+              "id": "AL-S4-035",
+              "stem": "Who suggests that the meadows inside the zone might fail to recover even if the closure is fully respected?",
+              "options": [
+                "Wanchai Sukprasert",
+                "Kittipong Rakdee",
+                "Dr Mali Thepwong",
+                "The provincial fisheries office"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Dr Mali ชี้ว่าทุ่งหญ้าทะเลต้องการ \"clear water\" และน้ำทิ้งจากบ่อกุ้งต้นน้ำ \"will continue to cloud the bay\" แม้จะปิดพื้นที่ก็ตาม กับดักคือ Kittipong ซึ่งห่วงความเสียหาย \"just outside the line\" (นอกเขต) ไม่ใช่การฟื้นตัวภายในเขต และ Wanchai ห่วงเรื่องการจ่ายเงิน"
+            },
+            {
+              "id": "AL-S4-036",
+              "stem": "Which statement is NOT supported by the report?",
+              "options": [
+                "The office expects benefits beyond the zone.",
+                "Buoys may not be ready when the closure begins.",
+                "Dive boats will no longer be permitted to enter the zone.",
+                "The fishers dispute when, not whether, they are paid."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข่าวระบุว่าผู้ประกอบการดำน้ำ \"will still be allowed to enter the zone\" ข้ออื่นได้รับการสนับสนุน: สำนักงานคาดว่าจะเพิ่มผลจับ \"in the surrounding waters\" ทุ่นจะติดตั้ง \"during the first year\" (อาจไม่ทันวันเริ่มปิด) และชาวประมงติเรื่อง \"the timing of the payments\" ไม่ใช่การไม่ได้รับเงิน"
+            },
+            {
+              "id": "AL-S4-037",
+              "stem": "What is the main point of Kittipong Rakdee's warning?",
+              "options": [
+                "Dive operators should receive compensation, just as the fishers will.",
+                "The zone ought to be closed to every kind of boat, dive boats included.",
+                "Anchoring causes no harm provided that it takes place inside the zone.",
+                "Without buoys, the closure could cause damage just beyond its boundary."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เขาเตือนว่าถ้าไม่มีทุ่นก่อน ผู้ประกอบการจะ \"drop anchor just outside the line, which is exactly where the healthiest seagrass is\" คือการห้ามทอดสมอจะย้ายความเสียหายไปยังหญ้าทะเลที่สมบูรณ์ที่สุดนอกเขต กับดักคือ \"closed to every kind of boat\" ซึ่งเขาไม่ได้เรียกร้อง และ \"Anchoring causes no harm\" ขัดกับเหตุผลของการห้ามทอดสมอ"
+            },
+            {
+              "id": "AL-S4-038",
+              "stem": "What does the fisheries office's final response suggest?",
+              "options": [
+                "It has rejected the fishers' complaint outright.",
+                "It may yet change when the payments begin.",
+                "It installed the buoys before the plan was announced.",
+                "It intends to enlarge the zone during the first year."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"the payment schedule was under review\" แปลว่ากำลังทบทวนกำหนดการจ่ายเงิน จึงยังเปิดโอกาสให้เปลี่ยนเวลาเริ่มจ่าย กับดักคือ \"rejected outright\" ซึ่งตรงข้ามกับ \"under review\" และ \"installed the buoys\" ขัดกับ \"will be installed during the first year\""
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Cycling to work and school",
+          "text": "A regional transport office compared the cycling share in four towns in 2022 and 2026. The \"cycling share\" is the percentage of all commuters in a town who cycle to work or school. A regional fund will award a grant to every town in which BOTH the number of cycling commuters rose by at least 50% AND the cycling share rose by at least 2 percentage points.",
+          "table": {
+            "caption": "Commuters and cycling share in four towns, 2022 and 2026",
+            "columns": [
+              "Town",
+              "Commuters 2022",
+              "Cycling share 2022",
+              "Commuters 2026",
+              "Cycling share 2026"
+            ],
+            "rows": [
+              [
+                "Arunvale",
+                "20,000",
+                "4%",
+                "25,000",
+                "8%"
+              ],
+              [
+                "Bel Thorn",
+                "40,000",
+                "10%",
+                "40,000",
+                "12.5%"
+              ],
+              [
+                "Coralford",
+                "10,000",
+                "2%",
+                "12,000",
+                "5%"
+              ],
+              [
+                "Dunmere",
+                "30,000",
+                "15%",
+                "32,000",
+                "15%"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S4-039",
+              "stem": "Which town's cycling share rose by the most percentage points between 2022 and 2026?",
+              "options": [
+                "Bel Thorn",
+                "Coralford",
+                "Dunmere",
+                "Arunvale"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ผลต่างเป็นจุดร้อยละ (percentage points): Arunvale 4% → 8% = +4, Bel Thorn +2.5, Coralford 2% → 5% = +3, Dunmere 0 จึงเป็น Arunvale กับดักคือ Coralford ซึ่งเพิ่มขึ้นมากที่สุดเมื่อคิดเป็นร้อยละของค่าเดิม (+150%) แต่โจทย์ถามจุดร้อยละ"
+            },
+            {
+              "id": "AL-S4-040",
+              "stem": "Measured as a percentage of its 2022 value, which town's cycling share increased the most?",
+              "options": [
+                "Coralford",
+                "Arunvale",
+                "Bel Thorn",
+                "Dunmere"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "เปลี่ยนแปลงเทียบค่าเดิม: Coralford (5 − 2) ÷ 2 = 150%, Arunvale (8 − 4) ÷ 4 = 100%, Bel Thorn 2.5 ÷ 10 = 25%, Dunmere 0% จึงเป็น Coralford กับดักคือ Arunvale ซึ่งเพิ่มมากที่สุดเป็นจุดร้อยละ (+4) ข้อนี้ทดสอบความต่างระหว่าง percent change กับ percentage-point change"
+            },
+            {
+              "id": "AL-S4-041",
+              "stem": "Which town(s) will receive a grant from the regional fund?",
+              "options": [
+                "Coralford only",
+                "Arunvale only",
+                "Arunvale and Coralford",
+                "Arunvale, Bel Thorn and Coralford"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "จำนวนผู้ปั่น = ผู้เดินทาง × สัดส่วน: Arunvale 800 → 2,000 (+150%, +4 จุด) ผ่าน; Bel Thorn 4,000 → 5,000 (+25%) ไม่ผ่าน แม้สัดส่วนเพิ่ม 2.5 จุด; Coralford 200 → 600 (+200%, +3 จุด) ผ่าน; Dunmere 4,500 → 4,800 (+6.7%, 0 จุด) ไม่ผ่าน กับดักคือการนับ Bel Thorn เพราะดูแค่เงื่อนไขจุดร้อยละ"
+            },
+            {
+              "id": "AL-S4-042",
+              "stem": "Which conclusion is supported by the table?",
+              "options": [
+                "Bel Thorn's share rose by 25 percentage points.",
+                "Dunmere gained cyclists although its share stayed the same.",
+                "Coralford had more cycling commuters in 2026 than Arunvale had in 2022.",
+                "The total number of commuters fell in at least one of the four towns."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Dunmere สัดส่วน 15% เท่าเดิม แต่ผู้เดินทางเพิ่มจาก 30,000 เป็น 32,000 ผู้ปั่นจึงเพิ่มจาก 4,500 เป็น 4,800 คน กับดัก: Bel Thorn เพิ่ม 25% ของค่าเดิม แต่เพียง 2.5 จุดร้อยละ, Coralford ปี 2026 มี 600 คน น้อยกว่า Arunvale ปี 2022 (800 คน) และไม่มีเมืองใดที่ผู้เดินทางลดลง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "District library use",
+          "text": "A city reviewed its five district libraries. Under a new policy, opening hours will be extended at any library where visits per resident are below 2.0 OR loans per visit are below 0.5. However, libraries that are already open for 60 hours or more a week are exempt from the policy.",
+          "table": {
+            "caption": "District libraries: annual use and weekly opening hours",
+            "columns": [
+              "Library",
+              "Residents",
+              "Visits per year",
+              "Loans per year",
+              "Hours open per week"
+            ],
+            "rows": [
+              [
+                "North",
+                "50,000",
+                "120,000",
+                "72,000",
+                "48"
+              ],
+              [
+                "East",
+                "80,000",
+                "140,000",
+                "84,000",
+                "54"
+              ],
+              [
+                "South",
+                "40,000",
+                "100,000",
+                "40,000",
+                "62"
+              ],
+              [
+                "West",
+                "60,000",
+                "150,000",
+                "60,000",
+                "45"
+              ],
+              [
+                "Park",
+                "30,000",
+                "90,000",
+                "63,000",
+                "66"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S4-043",
+              "stem": "Which library had the most visits per resident?",
+              "options": [
+                "West",
+                "South",
+                "Park",
+                "North"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "ครั้งต่อผู้อยู่อาศัย: North 2.4, East 1.75, South 2.5, West 2.5, Park 90,000 ÷ 30,000 = 3.0 จึงเป็น Park กับดักคือ West ซึ่งมีจำนวนผู้มาใช้รวมมากที่สุด (150,000) แต่มีผู้อยู่อาศัยมากกว่าด้วย"
+            },
+            {
+              "id": "AL-S4-044",
+              "stem": "Under the new policy, at which libraries will opening hours be extended?",
+              "options": [
+                "East, South and West",
+                "East and West",
+                "East only",
+                "South and West"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "East: 1.75 ครั้งต่อคน (< 2.0) เปิด 54 ชม. จึงขยาย; West: ยืม 60,000 ÷ 150,000 = 0.4 ต่อครั้ง (< 0.5) เปิด 45 ชม. จึงขยาย; South ก็ได้ 0.4 แต่เปิด 62 ชม. จึง \"exempt\"; North (2.4, 0.6) และ Park (3.0, 0.7) ไม่เข้าเงื่อนไข กับดักคือการลืมข้อยกเว้น 60 ชั่วโมงแล้วนับ South ด้วย"
+            },
+            {
+              "id": "AL-S4-045",
+              "stem": "If the number of residents stays the same, how many more visits a year would East need in order to reach 2.0 visits per resident?",
+              "options": [
+                "20,000",
+                "10,000",
+                "40,000",
+                "60,000"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "East มีผู้อยู่อาศัย 80,000 คน ต้องการ 2.0 × 80,000 = 160,000 ครั้ง ปัจจุบัน 140,000 ครั้ง จึงขาดอีก 20,000 ครั้ง กับดักคือ 60,000 (ใช้อัตรา 2.5 ของ South/West เป็นเป้าหมาย) และ 10,000 (คิดครึ่งหนึ่งของผลต่าง)"
+            },
+            {
+              "id": "AL-S4-046",
+              "stem": "Which conclusion is best supported by the table?",
+              "options": [
+                "The two libraries with the lowest loans per visit are open for equal hours.",
+                "East lends more books per resident than North does over a year.",
+                "Every library open 60 hours or more had fewer than 2.5 visits per resident.",
+                "The library serving the fewest residents had the highest loans per visit."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "Park มีผู้อยู่อาศัยน้อยที่สุด (30,000) และยืมต่อครั้งสูงสุด 63,000 ÷ 90,000 = 0.7 (อื่น ๆ 0.6, 0.6, 0.4, 0.4) กับดัก: South และ West (0.4 ทั้งคู่) เปิด 62 กับ 45 ชม. ไม่เท่ากัน, East ยืม 84,000 ÷ 80,000 = 1.05 เล่มต่อคน น้อยกว่า North 72,000 ÷ 50,000 = 1.44 และ South (2.5) กับ Park (3.0) ไม่ได้ต่ำกว่า 2.5"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Planet That Was Never There",
+          "text": "In the 1840s, astronomers faced an awkward fact. The orbit of the outermost known planet refused to behave as the accepted theory of gravitation predicted, drifting year after year from its calculated path. Two responses were available: to conclude that the theory itself was flawed, or to suppose that it was sound but that something unaccounted for, an unseen body perhaps, was tugging the planet off course. Astronomers chose the second option, calculated where such a body would have to be, and pointed their telescopes accordingly. Within a single night of searching, a new planet was found almost exactly where the arithmetic had placed it.\n\nThe episode is usually told as a triumph, and rightly so. Yet it also illustrates a problem that philosophers of science have never entirely resolved. When an observation contradicts a theory, logic alone does not tell us what has gone wrong. A prediction is never derived from a theory in isolation; it rests on a web of supporting assumptions about instruments, measurements and the contents of the universe. Any one of these, rather than the theory, may be at fault. Faced with an anomaly, a scientist can therefore always protect a cherished theory by revising one of these auxiliary assumptions instead.\n\nThe difficulty is that this strategy is sometimes brilliant and sometimes merely stubborn, and the two can look identical at the moment of choice. Some years after the first success, a similar anomaly appeared in the orbit of the innermost planet. Encouraged by precedent, astronomers again proposed an unseen body, even naming it. Repeated searches turned up nothing. The anomaly was finally explained more than half a century later, not by a hidden planet but by an entirely new account of gravity. The same move that had once produced a discovery had, the second time, delayed one.\n\nHow, then, are scientists to tell a productive rescue from a desperate one? One influential answer holds that an auxiliary assumption earns its place only if it generates new, independently testable predictions. Proposing an unseen planet was legitimate in both cases precisely because it told observers where to look; what discredited it the second time was not the proposal itself but the repeated failure of the search. By contrast, an assumption invented solely to explain away one awkward result, predicting nothing further, does no scientific work.\n\nThis criterion is helpful, but it is less decisive than it first appears. It tells us when a rescue has begun to fail, yet it offers no precise rule for how many failed searches should be tolerated before a theory is surrendered. Here judgement, experience and even temperament enter. Some researchers abandon a theory at the first sign of trouble; others defend it long after their colleagues have moved on. Historians have noted, somewhat uncomfortably, that both dispositions have on occasion been vindicated.\n\nThis might seem to leave science on shaky ground. A more generous reading is that it reveals how reliable knowledge is actually produced. No single scientist need possess perfect judgement, provided the community contains enough variety of temperament for every promising avenue, cautious or radical, to be pursued by someone. The tenacious defender and the impatient revolutionary are not so much rivals as partners in a division of labour.\n\nWhat the two planets teach, then, is not that anomalies should always be explained away, nor that they should always be taken at face value. It is that the decision cannot be reduced to a formula, and that this is less a flaw in scientific method than one of its quiet strengths.",
+          "items": [
+            {
+              "id": "AL-S4-047",
+              "stem": "What is the main function of paragraph 1?",
+              "options": [
+                "To prove that the theory of gravitation was wrong",
+                "To criticise astronomers for abandoning an established theory too quickly",
+                "To offer a case that the writer uses to raise a wider problem",
+                "To explain how improvements in telescopes made new discoveries possible"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าที่ 1 เล่าเหตุการณ์ค้นพบดาวเคราะห์ จากนั้นย่อหน้าที่ 2 บอกว่า \"it also illustrates a problem that philosophers of science have never entirely resolved\" ย่อหน้าแรกจึงเป็นกรณีศึกษาที่นำไปสู่ประเด็นทั่วไป กับดักคือ \"prove that the theory of gravitation was wrong\" ซึ่งตรงข้าม เพราะในกรณีแรกนักดาราศาสตร์รักษาทฤษฎีไว้และได้ผล และ \"abandoning too quickly\" ก็ตรงข้ามกับสิ่งที่พวกเขาทำ"
+            },
+            {
+              "id": "AL-S4-048",
+              "stem": "In paragraph 2, \"Any one of these\" refers to",
+              "options": [
+                "the observations that contradict a theory",
+                "the theories that scientists value most",
+                "the problems philosophers have not resolved",
+                "the assumptions behind a prediction"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "\"Any one of these, rather than the theory, may be at fault\" อ้างถึง \"a web of supporting assumptions about instruments, measurements and the contents of the universe\" ในประโยคก่อนหน้า ซึ่งย่อหน้านี้เรียกต่อมาว่า \"auxiliary assumptions\" กับดักคือ \"observations that contradict a theory\" ซึ่งเป็นตัวกระตุ้นปัญหา ไม่ใช่สิ่งที่อาจผิดแทนทฤษฎี"
+            },
+            {
+              "id": "AL-S4-049",
+              "stem": "What does the writer mean by saying that the same move \"had, the second time, delayed one\"?",
+              "options": [
+                "The second planet was found, but far too late.",
+                "Searching for a hidden planet held up a better explanation.",
+                "The searchers themselves proposed the new theory.",
+                "The first discovery later proved to be a mistake."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"one\" ในที่นี้หมายถึง \"a discovery\" ครั้งที่สองการเสนอดาวเคราะห์ที่มองไม่เห็นทำให้การค้นพบที่แท้จริง (ทฤษฎีแรงโน้มถ่วงใหม่) ล่าช้าออกไป กับดักคือ \"The second planet was found, but far too late\" ซึ่งขัดกับ \"Repeated searches turned up nothing\" และ \"not by a hidden planet\""
+            },
+            {
+              "id": "AL-S4-050",
+              "stem": "Which best describes the writer's view of the criterion discussed in paragraphs 4 and 5?",
+              "options": [
+                "It is decisive enough to settle every dispute about an anomaly.",
+                "It is misguided, since theories should never be rescued at all.",
+                "It fits the first case but not the second.",
+                "It shows when a rescue is failing, not when to give up."
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่า \"This criterion is helpful, but it is less decisive than it first appears ... offers no precise rule for how many failed searches should be tolerated\" กับดักคือ \"decisive enough to settle every dispute\" ซึ่งขัดกับ \"less decisive\" และ \"fits the first case but not the second\" ขัดกับ \"legitimate in both cases\""
+            },
+            {
+              "id": "AL-S4-051",
+              "stem": "Which finding, if true, would most WEAKEN the argument in paragraph 6?",
+              "options": [
+                "Research communities usually make their members think alike about anomalies.",
+                "Some individual scientists have made poor judgements about particular anomalies.",
+                "Both cautious and radical researchers have occasionally been proved right.",
+                "Anomalies in planetary orbits are far rarer today than in the nineteenth century."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ข้อโต้แย้งในย่อหน้าที่ 6 ตั้งอยู่บนสมมติฐานว่าชุมชนนักวิทยาศาสตร์มี \"enough variety of temperament\" ถ้าชุมชนบีบให้ทุกคนมีท่าทีเดียวกัน ความหลากหลายนั้นจะหายไป ข้อโต้แย้งจึงอ่อนลง กับดักคือ \"individual scientists have made poor judgements\" ซึ่งสอดคล้องกับ \"No single scientist need possess perfect judgement\" จึงไม่ทำให้อ่อนลง และ \"both have been proved right\" สนับสนุนข้อโต้แย้ง"
+            },
+            {
+              "id": "AL-S4-052",
+              "stem": "The word \"vindicated\" in paragraph 5 is closest in meaning to",
+              "options": [
+                "publicly criticised",
+                "quickly forgotten",
+                "generously rewarded",
+                "shown to be right"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"both dispositions have on occasion been vindicated\" คือทั้งคนที่ทิ้งทฤษฎีเร็วและคนที่ยึดทฤษฎีนานต่างเคยถูกพิสูจน์ว่าถูก ซึ่งสอดคล้องกับย่อหน้าที่ 6 ที่มองทั้งสองแบบเป็น \"partners\" กับดักคือ \"publicly criticised\" ซึ่งเข้าใจผิดจากคำว่า \"uncomfortably\""
+            },
+            {
+              "id": "AL-S4-053",
+              "stem": "Which best describes the tone of the final paragraph?",
+              "options": [
+                "Quietly positive about something often seen as a weakness",
+                "Regretful that science has failed to find a reliable formula",
+                "Dismissive of philosophers who study scientific method",
+                "Amused by the mistakes made by nineteenth-century astronomers"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนสรุปว่าการตัดสินใจที่ใช้สูตรไม่ได้นั้น \"less a flaw in scientific method than one of its quiet strengths\" คือมองสิ่งที่ดูเหมือนจุดอ่อนในแง่บวกอย่างเรียบ ๆ กับดักคือ \"Regretful that science has failed to find a formula\" ซึ่งอ่านแค่ครึ่งแรกของประโยค (\"cannot be reduced to a formula\") โดยไม่ดูน้ำเสียงของส่วนท้าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "When Planting Trees Is the Wrong Answer",
+          "text": "Few environmental policies enjoy such universal goodwill as planting trees. Trees absorb carbon dioxide, shelter wildlife and cool the ground beneath them, and a newly planted hillside offers the kind of visible, photographable progress that more abstract measures rarely provide. It is perhaps unsurprising, then, that ambitious planting targets have become a fixture of environmental plans around the world. Yet a growing number of ecologists have begun to voice an unwelcome caution: in the wrong place, a tree can do more harm than good.\n\nThe concern centres on ecosystems that were never forests to begin with. Natural grasslands and open savannas are often classified on maps as \"degraded\" land, apparently because they lack trees, and so become prime candidates for planting. In reality, many of them are ancient, stable and extraordinarily rich in species, maintained over thousands of years by grazing animals and periodic fire. Covering such land with fast-growing trees does not restore it; it replaces one ecosystem with another, frequently a poorer one. Grassland plants and insects that depend on open sunlight disappear beneath the new canopy, and the birds that feed on them soon follow.\n\nEven the carbon arithmetic is less straightforward than it seems. Much of a grassland's carbon is stored not in visible vegetation but underground, in deep roots and soil, where it is relatively safe from fire. Trees store most of their carbon above ground, in trunks and branches that can burn. In regions prone to wildfire, a plantation may therefore represent a less secure store than the grassland it displaced. There is also the matter of colour. Dark forest canopies absorb more sunlight than pale grasses or, at high latitudes, snow-covered ground, and in some settings this warming effect can cancel out a substantial share of the cooling gained from the carbon the trees absorb.\n\nWater presents a further trade-off. Trees draw far more water from the soil than grasses do, and in dry regions large plantations have been linked to falling stream flows downstream. For farming communities that depend on those streams, the benefits of a carbon project measured on another continent may feel abstract compared with a well that runs dry in March.\n\nNone of this amounts to an argument against trees. Where forests have genuinely been cleared, replanting with a mix of native species can bring back much of what was lost, and the evidence for its benefits is strong. The point is rather that \"how many trees?\" is the wrong question to ask first. The more useful questions are where, which species, and in place of what. A target expressed as a number of seedlings rewards speed and quantity, and it is precisely these pressures that tend to favour single-species plantations on cheap, open land.\n\nSome researchers have proposed that planting schemes be judged by the ecosystem they have produced after twenty years rather than by the number of saplings put in the ground in the first. Such a standard would be harder to measure and far less photogenic. It would also, its advocates admit, slow the pace of planting considerably. They argue that this is a price worth paying, since a slower programme that survives is better than a rapid one that fails or does damage.\n\nThe appeal of tree planting lies in its simplicity. The lesson emerging from the grasslands is that ecological repair is rarely simple, and that the most visible kind of progress is not always the most real.",
+          "items": [
+            {
+              "id": "AL-S4-054",
+              "stem": "Which statement best expresses the writer's main argument?",
+              "options": [
+                "Tree planting should be abandoned in favour of protecting natural grasslands.",
+                "Tree planting is valuable only where it suits the land.",
+                "Grasslands always store more carbon than forests.",
+                "Planting targets should be raised so that restoration happens more quickly."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนเตือนว่า \"in the wrong place, a tree can do more harm than good\" แต่ย่อหน้าที่ 5 ยืนยันว่า \"None of this amounts to an argument against trees\" และคำถามสำคัญคือ \"where, which species, and in place of what\" กับดักคือ \"should be abandoned\" ซึ่งขัดกับย่อหน้าที่ 5 โดยตรง และ \"always store more carbon\" สรุปเกินจาก \"in regions prone to wildfire\" และ \"in some settings\""
+            },
+            {
+              "id": "AL-S4-055",
+              "stem": "Why does the writer put the word \"degraded\" in quotation marks in paragraph 2?",
+              "options": [
+                "To signal that the label misrepresents many grasslands",
+                "To quote a scientific definition that the writer accepts",
+                "To stress how badly grasslands have been damaged",
+                "To show that grasslands were recently forests"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าทุ่งหญ้าถูกจัดเป็น \"degraded\" \"apparently because they lack trees\" แล้วแย้งว่า \"In reality, many of them are ancient, stable and extraordinarily rich in species\" เครื่องหมายคำพูดจึงแสดงว่าผู้เขียนไม่เห็นด้วยกับป้ายนั้น กับดักคือ \"a definition that the writer accepts\" และ \"how badly damaged\" ซึ่งตรงข้ามกับ \"In reality...\""
+            },
+            {
+              "id": "AL-S4-056",
+              "stem": "What is the main function of paragraph 3?",
+              "options": [
+                "To argue that trees absorb no carbon dioxide from the air at all",
+                "To show that its climate benefit may be overstated",
+                "To describe the methods used to prevent fires in plantations",
+                "To explain why snow cover has declined"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าที่ 3 เริ่มด้วย \"Even the carbon arithmetic is less straightforward than it seems\" แล้วให้เหตุผลสองข้อ (คาร์บอนเหนือดินเสี่ยงไฟไหม้ และเรือนยอดสีเข้มดูดความร้อน) ว่าประโยชน์ด้านภูมิอากาศอาจน้อยกว่าที่คิด \"in some settings\" กับดักคือ \"trees absorb no carbon at all\" ซึ่งขัดกับ \"the carbon the trees absorb\" ในย่อหน้าเดียวกัน"
+            },
+            {
+              "id": "AL-S4-057",
+              "stem": "According to paragraph 3, why may a plantation be a less secure carbon store than grassland in fire-prone regions?",
+              "options": [
+                "Its trees absorb less carbon than grasses.",
+                "Its dark canopy warms and dries the soil.",
+                "Its roots dry the soil out more quickly.",
+                "Its carbon sits above ground, where fire can reach it."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ทุ่งหญ้าเก็บคาร์บอน \"underground, in deep roots and soil, where it is relatively safe from fire\" ส่วนต้นไม้เก็บ \"above ground, in trunks and branches that can burn\" กับดักคือเรื่องเรือนยอดสีเข้ม ซึ่งเป็นอีกประเด็นหนึ่ง (การดูดแสงอาทิตย์) ไม่ใช่เหตุผลเรื่องความปลอดภัยจากไฟ และการที่ต้นไม้ดูดน้ำมากเป็นประเด็นเรื่องน้ำในย่อหน้าที่ 4 ไม่เกี่ยวกับไฟ"
+            },
+            {
+              "id": "AL-S4-058",
+              "stem": "The writer's criticism of targets expressed as numbers of seedlings assumes that",
+              "options": [
+                "native species always grow more slowly than other species",
+                "open land is generally more expensive than cleared forest",
+                "planters respond to how success is measured",
+                "grasslands can never be restored once trees are planted"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าเป้าหมายเป็นจำนวนต้นกล้า \"rewards speed and quantity\" และแรงกดดันนั้น \"tend to favour single-species plantations on cheap, open land\" ซึ่งต้องสมมติว่าผู้ปลูกปรับพฤติกรรมตามตัวชี้วัด กับดักคือ \"open land is more expensive\" ซึ่งขัดกับ \"cheap, open land\" และ \"native species always grow more slowly\" เป็นข้อเหมารวมที่บทความไม่ได้ใช้"
+            },
+            {
+              "id": "AL-S4-059",
+              "stem": "In paragraph 6, \"this is a price worth paying\" refers to",
+              "options": [
+                "the expense of buying native seedlings",
+                "a considerably slower pace of planting",
+                "the loss of grassland insects and birds",
+                "the failure of rapid planting programmes"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"this\" อ้างถึงสิ่งที่เพิ่งกล่าว \"slow the pace of planting considerably\" และเหตุผลที่ตามมา \"since a slower programme that survives is better\" ยืนยัน กับดักคือ \"the failure of rapid planting programmes\" ซึ่งเป็นสิ่งที่ผู้สนับสนุนต้องการหลีกเลี่ยง ไม่ใช่ราคาที่ยอมจ่าย"
+            },
+            {
+              "id": "AL-S4-060",
+              "stem": "Which best describes the writer's attitude towards the twenty-year standard?",
+              "options": [
+                "Sympathetic, though aware of its drawbacks",
+                "Hostile, as it would slow planting",
+                "Wholly uncritical of it",
+                "Neutral, as it changes little"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนระบุข้อเสีย (\"harder to measure and far less photogenic\", \"slow the pace\") แต่ย่อหน้าสุดท้าย \"the most visible kind of progress is not always the most real\" สอดคล้องกับแนวคิดนี้ จึงเห็นใจแต่ยอมรับข้อจำกัด กับดักคือ \"Wholly uncritical\" ซึ่งมองข้ามข้อเสียที่ระบุไว้ และ \"Hostile\" ขัดกับบทสรุป ส่วน \"changes little\" ขัดกับที่มาตรฐานนี้เปลี่ยนวิธีวัดผลโดยสิ้นเชิง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S4-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Concrete that mends itself",
+          "text": "Concrete is the most widely used building material on the planet, yet for all its strength it has one persistent weakness: it cracks. Tiny fissures allow water and salts to seep inside, where they corrode the steel reinforcement on which the whole structure depends. ___1___ such cracks are spotted early, repairing them is costly, and many are never spotted at all.\n\nA promising solution draws on biology. Engineers have begun mixing dormant bacteria into fresh concrete, together with a nutrient on which the microbes can feed. The bacteria can survive for decades in this inactive state. Not until water seeps into a crack ___2___ to life, consuming the nutrient and producing limestone that gradually seals the gap.\n\nThe approach is not without its limitations. It works on hairline cracks but not on wide ones, ___3___ the bacteria cannot produce limestone quickly enough to bridge a large opening. Moreover, the additives make the material considerably more expensive, a cost that owners may ___4___ through lower maintenance bills over a building's lifetime. ___5___ these hurdles be overcome, the concrete of the future may quite literally mend itself.",
+          "items": [
+            {
+              "id": "AL-S4-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Only if",
+                "Even when",
+                "As long as",
+                "Now that"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ความหมายคือ \"แม้จะพบรอยร้าวเร็ว การซ่อมก็ยังแพง\" จึงใช้ \"Even when\" กับดักคือ \"Only if\" ซึ่งเมื่อขึ้นต้นประโยคต้องกลับประธานกับกริยาช่วยในประโยคหลัก (Only if ..., is repairing ...) และความหมายก็ไม่เข้า ส่วน \"As long as\" (ตราบใดที่) และ \"Now that\" (ในเมื่อตอนนี้) ทำให้การพบเร็วกลายเป็นเหตุของค่าซ่อมแพง"
+            },
+            {
+              "id": "AL-S4-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "the bacteria come",
+                "come the bacteria",
+                "the bacteria do come",
+                "do the bacteria come"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ประโยคขึ้นต้นด้วย \"Not until + clause\" ต้องกลับลำดับประธานกับกริยาช่วยในประโยคหลัก (inversion) จึงเป็น \"do the bacteria come to life\" กับดักคือ \"the bacteria do come\" ซึ่งมี do แต่ไม่กลับลำดับ และ \"come the bacteria\" ซึ่งกลับกริยาแท้ ใช้ไม่ได้ในโครงสร้างนี้"
+            },
+            {
+              "id": "AL-S4-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "in that",
+                "so that",
+                "lest",
+                "provided that"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ส่วนหลังอธิบายเหตุผลว่าทำไมใช้กับรอยร้าวกว้างไม่ได้ จึงใช้ \"in that\" (ในแง่ที่ว่า/เพราะว่า) กับดักคือ \"so that\" ซึ่งบอกจุดประสงค์ ทำให้ดูเหมือนตั้งใจให้แบคทีเรียผลิตไม่ทัน \"lest\" (เพื่อไม่ให้) และ \"provided that\" (โดยมีเงื่อนไขว่า) ไม่ใช่ความสัมพันธ์เชิงเหตุผล"
+            },
+            {
+              "id": "AL-S4-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "repay",
+                "recoup",
+                "retrieve",
+                "redeem"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"recoup a cost\" เป็นคำปรากฏร่วม (collocation) แปลว่าได้เงินที่ลงทุนไปคืนมา ในที่นี้ผ่านค่าซ่อมบำรุงที่ลดลง กับดักคือ \"repay\" ซึ่งแปลว่าชำระหนี้คืนให้ผู้อื่น ความหมายกลับทิศ ส่วน \"retrieve\" ใช้กับการเอาสิ่งของคืน และ \"redeem\" ใช้กับการแลกคูปองหรือไถ่ถอน"
+            },
+            {
+              "id": "AL-S4-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Should",
+                "Were",
+                "Had",
+                "Unless"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "\"Should + ประธาน + V1\" เป็นประโยคเงื่อนไขแบบกลับประธาน (= If these hurdles are overcome) ตามด้วยกริยา be รูปฐาน กับดักคือ \"Were\" ซึ่งต้องตามด้วย \"to be overcome\" หรือ \"overcome\" แบบไม่มี be และ \"Had\" ต้องตามด้วย \"been overcome\" ส่วน \"Unless\" ไม่กลับประธานและทำให้ความหมายตรงข้าม"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Learning to read in silence",
+          "text": "Today we take it for granted that reading is a private, silent activity, and most of us assume that it always has been. For much of history, however, readers did not merely glance at a text; they performed it aloud, and anyone who listened expected them ___1___. Manuscripts were often copied without spaces between words, a convention that made sounding them out ___2___ a necessity than a choice.\n\nIt was not until scribes began separating words systematically ___3___ silent reading started to spread beyond a small circle of scholars. Once words stood apart on the page, the eye could take them in at a glance, ___4___ freeing the reader from the need to voice every syllable.\n\nThe consequences extended well beyond speed. Reading silently allowed people to linger over a difficult passage, to reread it and to disagree with it without anyone else knowing. Some historians go so far as to argue that it fostered new habits of independent thought, ___5___ claims as sweeping as these are notoriously difficult to prove.",
+          "items": [
+            {
+              "id": "AL-S4-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "so",
+                "it",
+                "to",
+                "to do"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "เป็นการละคำ (ellipsis) หลัง to: \"expected them to [perform it aloud]\" ซึ่งใช้ \"to\" ลอย ๆ ได้ในภาษาอังกฤษ กับดักคือ \"to do\" ซึ่งต้องมีกรรมหรือ so ตาม (to do so) และ \"expected them so\" หรือ \"expected them it\" ผิดโครงสร้างของ expect"
+            },
+            {
+              "id": "AL-S4-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "much of",
+                "more of",
+                "more than",
+                "as much"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"more of a + noun + than\" (เป็น...มากกว่า) จึงเป็น \"more of a necessity than a choice\" กับดักคือ \"more than a necessity than\" ซึ่งมี than ซ้ำ \"as much a necessity than\" ซึ่งต้องใช้คู่กับ as ไม่ใช่ than และ \"much of a necessity than\" ไม่มีคำเปรียบเทียบ"
+            },
+            {
+              "id": "AL-S4-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "when",
+                "then",
+                "that",
+                "so"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "cleft sentence \"It was not until + X + that + Y\" (กว่าจะ...ก็ต่อเมื่อ) ต้องใช้ \"that\" กับดักคือ \"when\" ซึ่งฟังเป็นธรรมชาติในภาษาพูดแต่ผิดโครงสร้าง It was ... that และ \"then\" เป็น adverb ไม่ใช่คำเชื่อมประโยค"
+            },
+            {
+              "id": "AL-S4-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "thereby",
+                "whereby",
+                "thereof",
+                "whereas"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "\"thereby + V-ing\" แปลว่า \"ด้วยเหตุนั้นจึง...\" บอกผลที่ตามมาจากการที่ตาอ่านคำได้ทันที กับดักคือ \"whereby\" (ซึ่งโดยวิธีนั้น) ต้องตามด้วยประโยคเต็ม ไม่ใช่ V-ing \"thereof\" (ของสิ่งนั้น) วางหลังคำนาม และ \"whereas\" แสดงความขัดแย้ง"
+            },
+            {
+              "id": "AL-S4-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "notwithstanding",
+                "despite",
+                "insofar as",
+                "although"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ต้องการคำเชื่อมแสดงการยอมรับแย้งที่ตามด้วยประโยค (claims ... are difficult to prove) จึงใช้ \"although\" กับดักคือ \"notwithstanding\" และ \"despite\" ซึ่งเป็นบุพบทที่ต้องตามด้วยคำนาม ไม่ใช่ประโยค และ \"insofar as\" (เท่าที่/ในขอบเขตที่) ไม่ได้แสดงความขัดแย้ง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Why ice is slippery",
+          "text": "Most of us learn as children that ice is slippery, and few of us ever ask why. The explanation long given in textbooks was pressure: the weight of a skater, concentrated on a narrow blade, was said to melt the ice beneath it and create a thin film of water. Attractive as this account is, it does not ___1___ close scrutiny. The pressure exerted by a skater is far too small to melt ice at the temperatures at which skating usually takes place.\n\nA second explanation attributes the effect to friction. ___2___ a skate slides, it generates heat, which melts a microscopically thin layer of ice. Friction undoubtedly plays a part; ___3___, it cannot be the whole story, since a person standing perfectly still generates no friction at all and yet can slip just as easily.\n\nCurrent research points instead to the surface itself. The molecules at the very top of a block of ice are less tightly bound than those beneath, ___4___ they behave less like a solid than a liquid, even well below freezing point. Were this surface layer ___5___, ice would be far less treacherous underfoot, albeit far less fun on skates.",
+          "items": [
+            {
+              "id": "AL-S4-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "put up with",
+                "stand up to",
+                "keep up with",
+                "come up against"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"stand up to scrutiny\" เป็นคำปรากฏร่วม แปลว่าทนต่อการตรวจสอบอย่างละเอียดได้ ซึ่งเข้ากับประโยคถัดไปที่ชี้ว่าแรงกดน้อยเกินไป กับดักคือ \"put up with\" (ทนกับสิ่งที่ไม่ชอบ) ซึ่งใช้กับคน ไม่ใช่ทฤษฎี \"keep up with\" (ตามให้ทัน) ผิดความหมาย และ \"come up against\" แปลว่า \"เผชิญกับ (อุปสรรค)\" ซึ่งทำให้ความหมายผิด"
+            },
+            {
+              "id": "AL-S4-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Unless",
+                "Lest",
+                "As",
+                "Whereas"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "\"As a skate slides, it generates heat\" ใช้ As แปลว่า \"ขณะที่\" บอกเหตุการณ์ที่เกิดพร้อมกัน กับดักคือ \"Unless\" (เว้นแต่) ซึ่งทำให้ความหมายกลับว่าความร้อนเกิดเมื่อไม่ไถล \"Lest\" (เพื่อไม่ให้) และ \"Whereas\" (ในขณะที่...ตรงกันข้าม) ซึ่งแสดงความแตกต่าง ไม่ใช่เวลา"
+            },
+            {
+              "id": "AL-S4-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "that said",
+                "that is",
+                "by the same token",
+                "for instance"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ประโยคแรกยอมรับว่าแรงเสียดทาน \"plays a part\" แล้วประโยคหลังแย้งว่า \"cannot be the whole story\" จึงใช้ \"that said\" (ถึงอย่างนั้น) กับดักคือ \"by the same token\" (ด้วยเหตุผลเดียวกัน) ซึ่งใช้เพิ่มเหตุผลในทิศเดียวกัน และ \"that is\" ใช้ขยายความซ้ำ ไม่ใช่แย้ง"
+            },
+            {
+              "id": "AL-S4-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "in case",
+                "for fear that",
+                "to the extent that",
+                "as if"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "\"to the extent that\" (จนถึงขั้นที่) แสดงระดับของผล คือโมเลกุลยึดกันหลวมจนมีพฤติกรรมคล้ายของเหลว กับดักคือ \"as if\" ซึ่งแปลว่า \"ราวกับว่า\" ทำให้ดูเหมือนไม่ได้เกิดจริง ขัดกับข้อค้นพบ ส่วน \"in case\" และ \"for fear that\" แสดงการป้องกัน ไม่ใช่ผลลัพธ์"
+            },
+            {
+              "id": "AL-S4-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "vanished",
+                "to vanish",
+                "vanish",
+                "having vanished"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Were + ประธาน + to + V1\" เป็นเงื่อนไขสมมุติแบบกลับประธาน (= If this surface layer were to vanish) จึงใช้ \"to vanish\" กับดักคือ \"vanished\" เพราะ vanish เป็นอกรรมกริยา ใช้รูป were vanished ไม่ได้ ส่วน \"vanish\" ขาด to และ \"having vanished\" ไม่ใช่รูปที่ตามหลัง Were ในประโยคเงื่อนไข"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Dating the past with carbon",
+          "text": "A. Such an estimate, though, is only as reliable as the assumption that the proportion in the atmosphere has always been constant.\nB. By measuring how much of it remains, scientists can therefore estimate how long ago death occurred.\nC. All living things take in carbon from their surroundings, including a small proportion of a radioactive form known as carbon-14.\nD. It has not, and so raw results must be corrected against records drawn from tree rings and cave deposits.\nE. Once an organism dies, however, this intake stops, and the carbon-14 already in its tissues begins to decay at a steady rate.",
+          "items": [
+            {
+              "id": "AL-S4-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – B – E – A – D",
+                "C – E – A – B – D",
+                "C – E – B – D – A",
+                "C – E – B – A – D"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "C แนะนำ carbon-14 → E \"this intake stops\" อ้างถึงการรับคาร์บอนใน C และ \"however\" ตัดกับขณะมีชีวิต → B \"how much of it remains\" (it = carbon-14 ที่สลายตัว) และ \"therefore\" ต้องมาหลังการสลายตัวในอัตราคงที่ → A \"Such an estimate\" อ้างถึงการประมาณใน B → D \"It has not\" ตอบสมมติฐาน \"has always been constant\" ใน A กับดักคือ C–B–E ซึ่ง \"therefore\" ไม่มีเหตุ และ B–D–A ซึ่ง \"It has not\" ไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How borrowed words change",
+          "text": "A. Thai, for instance, permits only a handful of consonants at the end of a syllable, so a final \"l\" in an English word often surfaces as an \"n\".\nB. When a language borrows a word, it seldom borrows the original pronunciation along with it.\nC. Not every speaker accepts these adjustments, however; those fluent in English may deliberately keep a pronunciation closer to the source.\nD. Rather, the newcomer is reshaped to fit the sound system of the language that has adopted it.\nE. In doing so, they can signal something beyond meaning, since the choice between the two forms is often heard as a marker of education.",
+          "items": [
+            {
+              "id": "AL-S4-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – D – C – E",
+                "B – D – C – A – E",
+                "B – D – A – E – C",
+                "B – D – A – C – E"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "B ข้อความทั่วไป (ปฏิเสธ: seldom) → D \"Rather\" ต้องตามประโยคปฏิเสธ และ \"the newcomer\" = คำยืม → A \"for instance\" ตัวอย่างของการปรับเสียงใน D → C \"these adjustments\" อ้างถึงการปรับเสียงใน D–A → E \"In doing so, they\" = ผู้พูดใน C ที่เลือกออกเสียงแบบเดิม และ \"the two forms\" = รูปที่ปรับแล้วกับรูปต้นฉบับ กับดักคือ B–A–D ซึ่ง \"Rather\" ไม่ได้ตามประโยคปฏิเสธ และ A–E ซึ่ง \"they\" ไปอ้างถึงพยัญชนะ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "The pull of the first number",
+          "text": "A. Whichever figure is mentioned first, even an arbitrary one, tends to pull the final price towards it.\nB. Anyone who has bargained at a market stall knows that the opening offer matters.\nC. What is less obvious is how far that pull extends.\nD. Such findings suggest that the familiar advice to let the other side name a price first may sometimes be exactly wrong.\nE. In experiments, buyers who had merely been shown a high number before an auction placed noticeably higher bids, even though they knew the number was irrelevant.",
+          "items": [
+            {
+              "id": "AL-S4-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – C – E – D",
+                "B – C – A – E – D",
+                "B – A – E – C – D",
+                "A – B – C – E – D"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "B ประสบการณ์ทั่วไป (given) → A อธิบายว่าทำไมข้อเสนอแรกสำคัญ และแนะนำคำว่า \"pull\" (new) → C \"that pull\" อ้างถึง A และตั้งคำถามว่าไปไกลแค่ไหน → E การทดลองที่ตอบคำถามนั้น → D \"Such findings\" อ้างถึงผลการทดลองใน E กับดักคือ B–C–A ซึ่ง \"that pull\" ยังไม่ถูกกล่าวถึง และ E–C–D ซึ่ง \"Such findings\" ใน D อยู่หลัง C ที่ไม่มีผลการทดลองใด"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Does old glass flow?",
+          "text": "A. Calculations, however, suggest that at room temperature such flow would take far longer than the age of the universe to become visible.\nB. Visitors to very old buildings are sometimes told that window glass is really a liquid, flowing too slowly for the eye to notice.\nC. As proof, they are shown centuries-old panes that are noticeably thicker at the bottom than at the top.\nD. Given such irregular sheets, glaziers seem simply to have preferred setting the heavier edge at the bottom, where it made the pane more stable.\nE. The unevenness, then, must have been there from the start, a product of early methods that could not make perfectly flat sheets.",
+          "items": [
+            {
+              "id": "AL-S4-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – C – E – D",
+                "B – C – E – A – D",
+                "B – C – A – E – D",
+                "B – C – A – D – E"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B ความเชื่อ → C \"As proof, they\" (they = visitors) หลักฐานที่ยกมา → A \"however ... such flow\" หักล้างความเชื่อ → E \"then\" สรุปจาก A ว่าความหนาไม่เท่ากันมีมาแต่แรก → D \"Given such irregular sheets\" อ้างถึง \"could not make perfectly flat sheets\" ใน E กับดักคือ B–A–C ซึ่งยกหลักฐานสนับสนุนหลังถูกหักล้างแล้ว และ A–D–E ซึ่ง \"such irregular sheets\" ยังไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S4-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Why sunsets turn red",
+          "text": "A. At midday, when that distance is short, blue light is still scattered in every direction, so the whole sky looks blue.\nB. Sunlight contains every colour, but the molecules in the air scatter the shorter, bluer wavelengths far more strongly than the longer, redder ones.\nC. At sunset, by contrast, the light reaches us at a low angle and must pass through many times as much atmosphere.\nD. By the time it arrives, most of the blue has been scattered away in other directions, leaving the reds and oranges of the evening sky.\nE. Which of the two we notice depends largely on how much air the light must cross before it reaches our eyes.",
+          "items": [
+            {
+              "id": "AL-S4-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – E – C – D",
+                "B – E – A – C – D",
+                "B – E – C – A – D",
+                "B – E – A – D – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "B หลักการกระเจิงแสง → E \"Which of the two\" (สีน้ำเงินกับสีแดงใน B) และแนะนำ \"how much air\" → A \"that distance\" อ้างถึงระยะทางใน E (กลางวัน) → C \"by contrast\" ตัดกับกลางวัน → D \"By the time it arrives\" ผลของการเดินทางไกลใน C กับดักคือ B–A–E ซึ่ง \"that distance\" ไม่มีสิ่งที่อ้างถึง และ A–D ซึ่งบอกว่าสีน้ำเงินถูกกระเจิงหมดตอนกลางวัน ขัดกับ \"enough blue light survives\""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI)",
+    "date": "2026-11-10",
+    "agree": 80,
+    "total": 80,
+    "rounds": "v1.19.2: ผู้ตรวจอิสระทำแบบไม่เห็นเฉลย ตรง 80/80 มั่นใจทุกข้อ · ตรวจเลขทุกข้อด้วยมือ · แก้ถ้อยคำ 2 จุด (ฟิสิกส์ท้องฟ้าสีฟ้า · \"she\" ในข้อ 029) · ประเมินว่ายากกว่าชุดท้าทายและใกล้ C1 · ข้อสังเกต: หัวข้อวิทยาศาสตร์/นิเวศค่อนข้างมาก"
+  }
+}

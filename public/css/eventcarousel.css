@@ -1,0 +1,178 @@
+/* =====================================================================
+   Event Carousel — v1.17.0 (public/js/eventcarousel.js)
+   มือถือ/แท็บเล็ต: ภาพ 16:9 ด้านบน (ไม่ครอป) + ข้อความด้านล่าง · จอกว้าง ≥ 1100px: ข้อความซ้าย | ภาพขวา (ตัวละคร/รางวัล)
+   ทุกสไลด์สูงเท่ากัน (flex stretch) → ไม่มี layout shift ตอนเลื่อน · ปุ่มทุกตัว ≥ 44px
+   ===================================================================== */
+.evc { position: relative; min-width: 0; }
+.evc-skel { aspect-ratio: 16 / 13; border-radius: 20px; }
+@media (min-width: 1100px) { .evc-skel { aspect-ratio: auto; height: 330px; } }
+
+.evc-viewport { position: relative; overflow: hidden; border-radius: 20px; container-type: inline-size; touch-action: pan-y; box-shadow: 0 10px 28px rgba(15, 23, 51, .22); background: #12162b; }
+.evc-track { display: flex; align-items: stretch; transition: transform .55s cubic-bezier(.22, .7, .2, 1); will-change: transform; }
+.evc-slide { flex: 0 0 100%; min-width: 0; display: flex; flex-direction: column; background: var(--evc-tone, #1c2033); color: #fff; position: relative; }
+.evc-media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: linear-gradient(135deg, var(--evc-tone, #1c2033), #000); }
+.evc-media img { width: 100%; height: 100%; display: block; object-fit: cover; user-select: none; -webkit-user-drag: none; }
+.evc-noimg .evc-media img { display: none; }
+.evc-noimg .evc-media::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 70% at 65% 55%, rgba(255,255,255,.18), transparent 70%); }
+.evc-media::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 26%; background: linear-gradient(transparent, var(--evc-tone, #1c2033)); pointer-events: none; }
+.evc-body { flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 6px 16px 16px; position: relative; z-index: 1; min-width: 0; }
+
+.evc-meta { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .74rem; font-weight: 800; }
+.evc-type { padding: 3px 9px; border-radius: 99px; background: rgba(255,255,255,.16); letter-spacing: .01em; }
+.evc-status { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 99px; background: rgba(255,255,255,.12); }
+.evc-status .evc-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.evc-status.is-ongoing { background: #ffcf4a; color: #3a2400; }
+.evc-status.is-upcoming { background: #bfdbfe; color: #10295e; }
+.evc-status.is-completed { background: #bbf7d0; color: #064e2b; }
+.evc-status.is-expired { background: #e5e7eb; color: #374151; }
+.evc-en { font-weight: 600; opacity: .8; }
+.evc-feat { display: inline-flex; align-items: center; gap: 3px; padding: 3px 9px; border-radius: 99px; background: linear-gradient(90deg, #f59e0b, #ef4444); }
+.evc-title { color: #fff; margin: 2px 0 0; font-size: 1.22rem; line-height: 1.3; font-weight: 900; text-wrap: balance; }
+.evc-title-en { margin: -4px 0 0; font-size: .72rem; letter-spacing: .06em; opacity: .78; text-transform: uppercase; }
+.evc-desc { margin: 0; font-size: .86rem; line-height: 1.55; color: rgba(255,255,255,.9); }
+.evc-dates { margin: 0; display: flex; align-items: center; gap: 6px; font-size: .78rem; color: rgba(255,255,255,.86); }
+.evc-dates .icon { flex: 0 0 auto; }
+.evc-rewards { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.evc-rw { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 4px 10px 4px 6px; border-radius: 12px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.18); font-size: .78rem; max-width: 100%; }
+.evc-rw > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
+.evc-rw b { font-weight: 900; }
+.evc-rw img { width: 28px; height: 28px; border-radius: 8px; background: rgba(255,255,255,.85); object-fit: contain; }
+.evc-rw .icon { width: 18px; height: 18px; }
+.evc-coin { width: 22px; height: 22px; }
+.evc-rw-coin { padding-left: 8px; }
+.evc-r-epic { border-color: rgba(192, 132, 252, .8); }
+.evc-r-legendary { border-color: rgba(251, 191, 36, .9); box-shadow: 0 0 0 1px rgba(251, 191, 36, .35) inset; }
+.evc-rw-more { padding-left: 10px; }
+.evc-note { margin: 0; font-size: .74rem; color: rgba(255,255,255,.78); }
+.evc-prog { display: grid; gap: 4px; }
+.evc-prog-bar { height: 6px; border-radius: 99px; background: rgba(255,255,255,.18); overflow: hidden; }
+.evc-prog-bar > span { display: block; height: 100%; background: linear-gradient(90deg, #ffcf4a, #ffe9a3); border-radius: inherit; }
+.evc-prog small { font-size: .74rem; color: rgba(255,255,255,.86); }
+.evc-actions { margin-top: auto; padding-top: 4px; display: flex; flex-wrap: wrap; gap: 8px; }
+.evc-cta {
+  min-height: 46px; padding: 0 20px; border: 0; border-radius: 99px; cursor: pointer; font: inherit; font-weight: 900; font-size: .95rem;
+  display: inline-flex; align-items: center; gap: 6px; background: linear-gradient(180deg, #ffe08f, #ffbf3c); color: #3a2400; box-shadow: 0 4px 0 #c98a0b, 0 8px 18px rgba(0,0,0,.28);
+}
+.evc-cta:active { transform: translateY(2px); box-shadow: 0 2px 0 #c98a0b; }
+.evc-cta.is-claim { background: linear-gradient(180deg, #86efac, #22c55e); color: #052e16; box-shadow: 0 4px 0 #15803d, 0 8px 18px rgba(0,0,0,.28); }
+.evc-cta:disabled { opacity: .6; cursor: progress; }
+.evc-more { min-height: 46px; padding: 0 14px; border-radius: 99px; cursor: pointer; font: inherit; font-weight: 700; font-size: .86rem; display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,.1); color: #fff; border: 1px solid rgba(255,255,255,.35); }
+.evc-cta:focus-visible, .evc-more:focus-visible, .evc-nav:focus-visible, .evc-pdot:focus-visible { outline: 3px solid #fff; outline-offset: 2px; box-shadow: 0 0 0 6px rgba(37, 99, 235, .55); }
+
+/* ปุ่มก่อนหน้า/ถัดไป — มือถือวางกลางภาพ (28% ของความกว้าง = กึ่งกลางภาพ 16:9) */
+.evc-nav { position: absolute; top: 28cqw; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,.45); cursor: pointer; z-index: 3;
+  display: grid; place-items: center; background: rgba(10, 14, 36, .55); color: #fff; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.evc-nav:hover { background: rgba(10, 14, 36, .75); }
+.evc-prev { left: 8px; } .evc-next { right: 8px; }
+
+.evc-ctrl { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 8px; }
+.evc-dots { display: flex; flex-wrap: wrap; gap: 0; }
+.evc-pdot { width: 44px; height: 44px; border: 0; padding: 0; background: transparent; cursor: pointer; display: grid; place-items: center; }
+.evc-pdot span { display: block; width: 18px; height: 6px; border-radius: 99px; background: var(--color-border); position: relative; overflow: hidden; transition: width .25s ease, background .25s ease; }
+.evc-pdot[aria-current="true"] span { width: 28px; background: var(--color-primary-soft); }
+.evc-pdot[aria-current="true"] span::after { content: ""; position: absolute; inset: 0; background: var(--color-primary); transform-origin: left; transform: scaleX(1); }
+.evc.is-running .evc-pdot[aria-current="true"] span::after { animation: evc-fill 6s linear forwards; }
+@keyframes evc-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.evc-empty { display: flex; align-items: center; gap: 14px; padding: 18px; border-radius: 20px; border: 1px dashed var(--color-border); background: var(--color-surface); color: var(--color-text); }
+.evc-empty > .icon { width: 40px; height: 40px; color: var(--color-primary); flex: 0 0 auto; }
+.evc-empty b { font-size: .95rem; }
+.evc-empty p { margin: 2px 0 0; font-size: .84rem; color: var(--color-text-muted); }
+
+@media (prefers-reduced-motion: reduce) { .evc-track { transition: none; } .evc-pdot span { transition: none; } }
+
+/* ---------- แท็บเล็ต: ภาพเล็กลงเล็กน้อย จัดข้อความสองคอลัมน์ไม่ได้ → ยังเป็นแนวตั้ง แต่ตัวใหญ่ขึ้น ---------- */
+@media (min-width: 700px) and (max-width: 1099px) {
+  .evc-slide { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); }
+  .evc-media { order: 2; aspect-ratio: auto; min-height: 100%; }
+  .evc-media::after { left: -1px; right: auto; top: 0; bottom: 0; width: 30%; height: auto; background: linear-gradient(90deg, var(--evc-tone, #1c2033), transparent); }
+  .evc-media img { position: absolute; inset: 0; }
+  .evc-body { order: 1; padding: 18px 8px 18px 20px; }
+}
+/* ---------- จอกว้าง: ข้อความซ้าย | ภาพขวา ---------- */
+@media (min-width: 1100px) {
+  .evc-slide { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); min-height: 340px; }
+  /* ภาพเต็มความสูงสไลด์ (ตัวละครอยู่กลางภาพ → ครอปแค่ขอบซ้าย/ขวา) */
+  .evc-media { order: 2; aspect-ratio: auto; margin-left: -90px; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 120px); mask-image: linear-gradient(90deg, transparent 0, #000 120px); }
+  .evc-media img { position: absolute; inset: 0; object-position: 58% 50%; }
+  .evc-title { -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .evc-desc { -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .evc-media::after { display: none; }
+  .evc-body { order: 1; padding: 26px 10px 24px 30px; gap: 9px; }
+  .evc-title { font-size: 1.6rem; }
+  .evc-desc { font-size: .92rem; max-width: 46ch; }
+
+}
+/* แท็บเล็ต/จอกว้าง: ปุ่มเลื่อนคู่กันมุมล่างขวาของภาพ (ไม่ทับข้อความ) */
+@media (min-width: 700px) {
+  .evc-nav { top: auto; bottom: 14px; transform: none; }
+  .evc-prev { left: auto; right: 66px; } .evc-next { right: 14px; }
+}
+/* มือถือ: ของรางวัลแสดงเป็นรูป (ชื่ออยู่ในข้อความสำหรับโปรแกรมอ่านหน้าจอ + ในหน้ารายละเอียด) */
+@media (max-width: 480px) {
+  .evc-rw-item { padding: 4px; }
+  .evc-rw-item > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+/* ---------- จอแคบมาก (320px) ---------- */
+@media (max-width: 360px) {
+  .evc-body { padding: 4px 12px 14px; }
+  .evc-title { font-size: 1.08rem; }
+  .evc-rw > span { max-width: 110px; }
+  .evc-cta { padding: 0 16px; }
+}
+
+/* ---------- หน้ารายละเอียด ---------- */
+.evc-dialog { max-width: 560px; background: var(--evc-tone, #1c2033); color: #fff; padding: 0 0 18px; overflow: auto; }
+.evc-dialog > *:not(.evc-d-media):not(.sheet-close) { margin-left: 20px; margin-right: 20px; }
+.evc-d-media { aspect-ratio: 16 / 9; overflow: hidden; }
+.evc-d-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.evc-dialog .evc-meta { margin-top: 12px; }
+.evc-d-title { margin: 8px 0 0; font-size: 1.35rem; font-weight: 900; }
+.evc-d-desc { margin: 8px 0; font-size: .92rem; line-height: 1.6; color: rgba(255,255,255,.92); }
+.evc-d-dl { display: grid; gap: 6px; margin: 10px 0; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.08); font-size: .84rem; }
+.evc-d-dl div { display: flex; gap: 10px; }
+.evc-d-dl dt { min-width: 64px; color: rgba(255,255,255,.72); }
+.evc-d-dl dd { margin: 0; }
+.evc-d-h { margin: 12px 0 6px; font-size: .95rem; }
+.evc-d-act { margin-top: 14px; display: flex; gap: 8px; justify-content: flex-end; }
+.evc-dialog .sheet-close { color: #fff; }
+
+/* ---------- ผู้ดูแล ---------- */
+.evc-admin-list { display: grid; gap: 8px; margin-top: 10px; }
+.evc-admin-row { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 8px; border: 1px solid var(--color-border); border-radius: 12px; background: var(--color-surface); }
+.evc-admin-row.is-hidden { opacity: .6; }
+.evc-admin-row img { width: 96px; height: 54px; object-fit: cover; border-radius: 8px; }
+.evc-admin-form { max-width: 640px; display: grid; gap: 10px; }
+.evc-admin-form label { display: grid; gap: 4px; font-size: .84rem; font-weight: 600; }
+.evc-admin-form input, .evc-admin-form select, .evc-admin-form textarea { font: inherit; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-bg); color: var(--color-text); min-height: 40px; }
+.evc-admin-form fieldset { border: 1px solid var(--color-border); border-radius: 12px; padding: 10px; display: grid; gap: 8px; }
+.evc-admin-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; }
+.evc-chk { display: flex !important; align-items: center; gap: 8px; }
+.evc-chk input { min-height: 0; }
+
+/* ---------- v1.18.0 มือถือ (< 700px): แบนเนอร์กะทัดรัดขึ้น — ภาพ 2:1 (ครอปขอบบน/ล่างเล็กน้อย ตัวละครยังเห็นเต็มตัว)
+   ข้อความเล็กลง · คำอธิบายไม่เกิน 2 บรรทัด (อ่านเต็มได้ในหน้ารายละเอียด) · ปุ่มยังสูง ≥ 44px ---------- */
+@media (max-width: 699px) {
+  .evc-skel { aspect-ratio: 16 / 11; }
+  .evc-media { aspect-ratio: 2 / 1; }
+  .evc-media img { object-position: 50% 70%; }
+  .evc-media::after { height: 22%; }
+  .evc-nav { top: 25cqw; }
+  .evc-body { gap: 5px; padding: 2px 14px 12px; }
+  .evc-meta { font-size: .7rem; gap: 5px; }
+  .evc-type, .evc-status, .evc-feat { padding: 2px 8px; }
+  .evc-title { font-size: 1.06rem; line-height: 1.28; margin-top: 0; }
+  .evc-title-en { display: none; }
+  .evc-desc { font-size: .8rem; line-height: 1.45; -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .evc-dates { font-size: .72rem; }
+  .evc-rewards { gap: 5px; margin-top: 0; }
+  .evc-rw { min-height: 30px; padding: 2px 8px 2px 4px; font-size: .74rem; border-radius: 10px; }
+  .evc-rw img { width: 24px; height: 24px; border-radius: 7px; }
+  .evc-coin { width: 18px; height: 18px; }
+  .evc-prog small { font-size: .7rem; }
+  .evc-actions { padding-top: 2px; gap: 6px; }
+  .evc-cta { min-height: 44px; font-size: .88rem; padding: 0 16px; }
+  .evc-more { min-height: 44px; font-size: .8rem; padding: 0 12px; }
+  .evc-ctrl { margin-top: 4px; }
+}

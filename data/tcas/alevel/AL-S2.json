@@ -1,0 +1,1566 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S2",
+  "title": "A-Level ภาษาอังกฤษ ชุดฝึกที่ 2",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S2-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Joining the reading club",
+          "dialogue": [
+            {
+              "speaker": "Mook",
+              "text": "Hey Daniel, are you still looking for people to help with the weekend reading club at the community centre?"
+            },
+            {
+              "speaker": "Daniel",
+              "text": "Yes, we're still two tutors short. ___1___"
+            },
+            {
+              "speaker": "Mook",
+              "text": "I might be. What exactly would I have to do?"
+            },
+            {
+              "speaker": "Daniel",
+              "text": "Mostly read with kids aged eight to ten and help them with new words. ___2___"
+            },
+            {
+              "speaker": "Mook",
+              "text": "That sounds manageable. But I have extra maths classes every other Saturday."
+            },
+            {
+              "speaker": "Daniel",
+              "text": "___3___ Quite a few volunteers only come twice a month."
+            },
+            {
+              "speaker": "Mook",
+              "text": "Great. Then count me in. Is there any training before we start?"
+            },
+            {
+              "speaker": "Daniel",
+              "text": "There's a short session next Friday after school. ___4___"
+            },
+            {
+              "speaker": "Mook",
+              "text": "Sure, I'll be there."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S2-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Why, do you know anyone who might help?",
+                "Are you already one of our tutors?",
+                "Have you ever taught young children?",
+                "Why, are you interested in joining?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Mook ตอบว่า \"I might be.\" แล้วถามว่าต้องทำอะไรบ้าง แสดงว่า Daniel ถามว่าเธอสนใจไหม (Are you interested…? → I might be.) ถ้าถามว่ารู้จักใครที่ช่วยได้ หรือเคยสอนเด็กไหม จะตอบว่า \"I might be.\" ไม่ได้ และถ้าเป็นติวเตอร์อยู่แล้วเธอก็ไม่ต้องถามว่าต้องทำอะไร"
+            },
+            {
+              "id": "AL-S2-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "It's about two hours every Saturday morning.",
+                "It pays quite well for a weekend job.",
+                "You'll need a teaching degree before you start.",
+                "It's mainly on weekday afternoons."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Mook ตอบว่างานพอทำได้ \"but I have extra maths classes every other Saturday\" จึงต้องเป็นข้อมูลเรื่องเวลาวันเสาร์ ส่วนงานวันธรรมดาไม่ชนกับเรียนวันเสาร์ งานอาสาไม่มีค่าจ้าง และการต้องมีปริญญาก็ไม่ \"manageable\""
+            },
+            {
+              "id": "AL-S2-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "In that case, I'm afraid you can't join.",
+                "That's not a problem at all.",
+                "You'd need to move them to Sundays, then.",
+                "Every Saturday is compulsory, though."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "ประโยคต่อมาบอกว่าอาสาสมัครหลายคนมาแค่เดือนละสองครั้ง แสดงว่าการติดเรียนบางเสาร์ไม่เป็นปัญหา ส่วนการบอกว่าเข้าร่วมไม่ได้ ต้องย้ายวันเรียนพิเศษ หรือต้องมาทุกเสาร์ ขัดกับข้อมูลนี้"
+            },
+            {
+              "id": "AL-S2-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Would you rather skip the training?",
+                "Did you go to last month's session?",
+                "Could you make it at four o'clock?",
+                "Who will be running the session?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Mook ตอบว่า \"Sure, I'll be there.\" ซึ่งเป็นการตอบรับคำถามว่าจะมาตามเวลาที่นัดได้ไหม การถามว่าอยากข้ามการอบรม เคยไปครั้งก่อนไหม หรือใครเป็นผู้จัด ตอบด้วยประโยคนี้ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Booking a study room",
+          "dialogue": [
+            {
+              "speaker": "Krit",
+              "text": "Hi, I'd like to book a study room for tomorrow afternoon. ___1___"
+            },
+            {
+              "speaker": "Librarian",
+              "text": "Let me check. The small rooms, which seat four, are free from one to three, but the large rooms are fully booked."
+            },
+            {
+              "speaker": "Krit",
+              "text": "There'll be five of us, actually. ___2___"
+            },
+            {
+              "speaker": "Librarian",
+              "text": "I'm afraid not. Safety rules allow a maximum of four people in each small room."
+            },
+            {
+              "speaker": "Krit",
+              "text": "I see. ___3___"
+            },
+            {
+              "speaker": "Librarian",
+              "text": "A large room is free on Thursday from ten until noon, if that helps."
+            },
+            {
+              "speaker": "Krit",
+              "text": "Thursday morning works for us. We'll take it."
+            },
+            {
+              "speaker": "Librarian",
+              "text": "Fine. ___4___"
+            },
+            {
+              "speaker": "Krit",
+              "text": "Here it is. It's 6402871."
+            },
+            {
+              "speaker": "Librarian",
+              "text": "Thanks. Remember that if you're more than fifteen minutes late, the booking will be cancelled."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S2-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Do I need to show my student card?",
+                "Do you have a room for a study group?",
+                "Is there a quiet room for just two of us?",
+                "Are any large rooms free in the morning?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "บรรณารักษ์ตอบเรื่องห้องว่างช่วงบ่ายตามขนาดห้อง จึงต้องเป็นคำถามว่ามีห้องสำหรับกลุ่มติวไหม ส่วนการขอห้องสำหรับสองคนขัดกับที่ Krit บอกต่อว่า \"There'll be five of us\" การถามหาห้องช่วงเช้าขัดกับที่ขอจองช่วงบ่าย และเรื่องบัตรนักศึกษาไม่ใช่สิ่งที่บรรณารักษ์ตอบ"
+            },
+            {
+              "id": "AL-S2-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Could we keep it for an extra hour?",
+                "Does the small room have a whiteboard?",
+                "Is it cheaper for a larger group?",
+                "Could we squeeze one more person in?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "บรรณารักษ์ปฏิเสธเพราะกฎอนุญาตให้ห้องเล็กมีได้แค่สี่คน แสดงว่า Krit ขอให้คนที่ห้าเข้าไปด้วย ตัวเลือกอื่นไม่เกี่ยวกับจำนวนคน"
+            },
+            {
+              "id": "AL-S2-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Is a larger room free on another day?",
+                "So nobody is allowed in the large rooms?",
+                "Then we'll just take the small one.",
+                "Who decided on that rule?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "บรรณารักษ์ตอบว่าห้องใหญ่ว่างวันพฤหัสบดี แสดงว่า Krit ถามหาห้องใหญ่ในวันอื่น ส่วน \"take the small one\" ขัดกับที่กลุ่มมีห้าคน"
+            },
+            {
+              "id": "AL-S2-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Could you spell your surname for me?",
+                "Shall I put you on the waiting list?",
+                "Could I have your student number?",
+                "How many hours will you need the room?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Krit ตอบด้วยตัวเลข \"6402871\" จึงเป็นการขอเลขประจำตัวนักศึกษา ส่วนจำนวนชั่วโมงทราบแล้ว (10 โมงถึงเที่ยง) และการสะกดนามสกุลหรือรายชื่อสำรองไม่ตอบเป็นตัวเลข"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "A problem in the dorm laundry room",
+          "dialogue": [
+            {
+              "speaker": "Pim",
+              "text": "Have you been down to the laundry room today? Both washing machines are out of order."
+            },
+            {
+              "speaker": "Toey",
+              "text": "Both of them? ___1___ They were only fixed last month."
+            },
+            {
+              "speaker": "Pim",
+              "text": "I think someone overloaded them with heavy blankets."
+            },
+            {
+              "speaker": "Toey",
+              "text": "___2___ Should we put up a sign about not overloading them?"
+            },
+            {
+              "speaker": "Pim",
+              "text": "Good idea. But the dorm office says the repair person can't come until Thursday."
+            },
+            {
+              "speaker": "Toey",
+              "text": "___3___ The laundry shop across the road is open until ten."
+            },
+            {
+              "speaker": "Pim",
+              "text": "True. I'll take my school uniforms there tonight."
+            },
+            {
+              "speaker": "Toey",
+              "text": "Good. ___4___"
+            },
+            {
+              "speaker": "Pim",
+              "text": "OK, I'll post a message in the dorm group chat right now."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S2-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I'm not surprised. They're ancient.",
+                "I know. I've just used one of them.",
+                "Seriously? That's so frustrating.",
+                "Good. I'd rather wash things by hand."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Toey พูดต่อว่า \"They were only fixed last month.\" ซึ่งแสดงความแปลกใจและหงุดหงิด จึงต้องเป็น \"Seriously? That's so frustrating.\" ส่วน \"I'm not surprised\" ขัดกับความแปลกใจนี้ การบอกว่าเพิ่งใช้เครื่องขัดกับที่เครื่องเสียทั้งสองเครื่อง และการดีใจที่จะได้ซักมือไม่เข้ากับการบ่นที่ตามมา"
+            },
+            {
+              "id": "AL-S2-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "But they were empty when I checked.",
+                "That sounds quite likely, actually.",
+                "I doubt it. They're built for that.",
+                "Then it must be a power problem."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Toey เสนอต่อทันทีให้ติดป้ายห้ามใส่ผ้ามากเกินไป แสดงว่าเขาเห็นด้วยกับสาเหตุที่ Pim บอก จึงตอบว่า \"That sounds quite likely\" ส่วนการแย้งว่าเครื่องว่างอยู่ ไม่เชื่อว่าเป็นสาเหตุ หรือคิดว่าเป็นปัญหาไฟฟ้า จะไม่นำไปสู่การติดป้ายเรื่องใส่ผ้ามากเกินไป"
+            },
+            {
+              "id": "AL-S2-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "That's not the end of the world.",
+                "Then we'll just have to wait till then.",
+                "So nobody can do any washing this week.",
+                "In that case, I'll have to go home to wash."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Toey เสนอทางออกต่อทันทีว่าร้านซักผ้าฝั่งตรงข้ามเปิดถึงสี่ทุ่ม แสดงว่าการรอช่างถึงวันพฤหัสไม่ใช่ปัญหาใหญ่ \"That's not the end of the world.\" ส่วนการต้องรอ ซักไม่ได้ทั้งสัปดาห์ หรือต้องกลับไปซักที่บ้าน ขัดกับทางออกที่เสนอ"
+            },
+            {
+              "id": "AL-S2-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Could you take a few of my school shirts, too?",
+                "Let's keep this to ourselves for now.",
+                "Let's warn everyone else on our floor, too.",
+                "Shall we ask the office for a refund?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Pim ตอบว่าจะโพสต์ข้อความในกลุ่มแชตของหอทันที แสดงว่า Toey เสนอให้แจ้งเพื่อนคนอื่น ส่วน \"keep this to ourselves\" ขัดกับการโพสต์บอกทุกคน และการฝากเสื้อหรือขอเงินคืนไม่ได้รับคำตอบเป็นการโพสต์ในกลุ่มแชต"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนาการสัมภาษณ์งาน แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "An internship interview at a radio station",
+          "dialogue": [
+            {
+              "speaker": "Ms Rivera",
+              "text": "Hello, you must be Phum. Sorry, our morning meeting ran over. ___1___"
+            },
+            {
+              "speaker": "Phum",
+              "text": "Only a few minutes, and I enjoyed listening to the live show in reception."
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "That's good to hear. So, why would you like to spend your summer at River City Radio?"
+            },
+            {
+              "speaker": "Phum",
+              "text": "I'm planning to study communication arts, and I'd like to understand ___2___"
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "Fair enough. Have you done any broadcasting before?"
+            },
+            {
+              "speaker": "Phum",
+              "text": "A little. I present the morning announcements at school every Monday. ___3___"
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "So you're used to speaking to a large audience. ___4___"
+            },
+            {
+              "speaker": "Phum",
+              "text": "I try to stay calm. Once, the microphone stopped working, so I simply spoke louder until a teacher fixed the cable."
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "Good thinking. ___5___ Most of our interns spend their days editing audio and checking facts for the news team."
+            },
+            {
+              "speaker": "Phum",
+              "text": "That suits me. ___6___"
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "Excellent. We've had problems with careless mistakes in the past. The internship lasts six weeks from the 9th of June. How does that sound?"
+            },
+            {
+              "speaker": "Phum",
+              "text": "___7___ Would it be possible to start a week later?"
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "I think we can manage that, as long as you stay a week longer at the end."
+            },
+            {
+              "speaker": "Phum",
+              "text": "That would be perfect. Could I ask one more thing? ___8___"
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "Yes. If you're shortlisted, we'll ask you to record a two-minute news bulletin, so it's worth practising reading aloud."
+            },
+            {
+              "speaker": "Phum",
+              "text": "Then I'll start practising tonight. Thank you very much."
+            },
+            {
+              "speaker": "Ms Rivera",
+              "text": "Thank you, Phum. It was nice to meet you."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S2-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Have you been to a radio station before?",
+                "Did you manage to find a parking space?",
+                "Would you like to come back another day?",
+                "I hope you haven't been waiting too long."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Ms Rivera ขอโทษที่ประชุมเลยเวลา และ Phum ตอบว่า \"Only a few minutes\" พร้อมบอกว่าได้ฟังรายการสดที่แผนกต้อนรับ จึงเป็นคำถามว่ารอนานไหม ตัวเลือกอื่นตอบด้วย \"Only a few minutes\" ไม่ได้"
+            },
+            {
+              "id": "AL-S2-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "how a live programme is actually put together.",
+                "how is a live programme actually put together.",
+                "how a live programme actually puts together.",
+                "how a live programme is actually putting together."
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "หลัง \"understand\" ต้องใช้คำถามแฝงที่เรียงแบบประโยคบอกเล่า และรายการ \"ถูก\" จัดทำขึ้น จึงต้องเป็น passive \"how a live programme is actually put together\" ส่วน \"how is a live programme...\" เรียงแบบคำถามตรง และอีกสองตัวเลือกใช้รูปกริยาผิด"
+            },
+            {
+              "id": "AL-S2-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "But I usually ask a friend to read them for me.",
+                "About fifteen hundred students listen in the hall.",
+                "Few people listen, though, because it's so early.",
+                "I've only done it once, when our usual presenter was ill."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ms Rivera สรุปว่า \"So you're used to speaking to a large audience.\" แสดงว่า Phum เพิ่งบอกว่ามีผู้ฟังจำนวนมาก การให้เพื่อนอ่านแทน มีคนฟังน้อย หรือเคยทำแค่ครั้งเดียว (ขัดกับ \"every Monday\") ไม่นำไปสู่ข้อสรุปนี้"
+            },
+            {
+              "id": "AL-S2-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Do you prefer reading the news or playing music?",
+                "Why did you decide to stop presenting?",
+                "What do you do if something goes wrong?",
+                "How many hours a week do you practise?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Phum ตอบว่า \"I try to stay calm\" แล้วเล่าเหตุการณ์ที่ไมโครโฟนเสีย จึงเป็นคำถามว่าทำอย่างไรเมื่อเกิดปัญหา ส่วน Phum ยังจัดรายการอยู่ทุกวันจันทร์ จึงไม่ได้ \"stop presenting\""
+            },
+            {
+              "id": "AL-S2-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "You'll be presenting your own show from the very first week.",
+                "You'll mainly be answering calls from our listeners.",
+                "To be honest, most of the work happens behind the scenes.",
+                "So you won't need much computer experience here."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมาบอกว่าเด็กฝึกงานส่วนใหญ่ตัดต่อเสียงและตรวจข้อเท็จจริง ซึ่งเป็นงานเบื้องหลัง จึงต้องเป็น \"most of the work happens behind the scenes\" การจัดรายการเอง การรับสายผู้ฟัง หรือไม่ต้องใช้คอมพิวเตอร์ขัดกับลักษณะงานนี้"
+            },
+            {
+              "id": "AL-S2-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "Although I'd rather avoid editing if I can.",
+                "Could someone else check the facts for me?",
+                "I'm not very patient with detailed work, though.",
+                "I'm quite careful about checking details."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Phum บอกว่า \"That suits me.\" และ Ms Rivera ตอบว่า \"Excellent\" เพราะเคยมีปัญหาความผิดพลาดจากความสะเพร่า จึงต้องเป็นการบอกว่าตนละเอียดรอบคอบ ตัวเลือกอื่นขัดกับการยอมรับงาน"
+            },
+            {
+              "id": "AL-S2-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Mostly fine, but I have school until the 13th.",
+                "Perfect. I can start on any day you like.",
+                "I'm afraid I can only work at weekends.",
+                "Actually, I'd prefer to start a week earlier."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Phum ถามต่อว่า \"Would it be possible to start a week later?\" จึงต้องมีเหตุผลที่เริ่มวันที่ 9 ไม่ได้ คือยังมีเรียนถึงวันที่ 13 ส่วนการบอกว่าเริ่มวันไหนก็ได้หรืออยากเริ่มเร็วขึ้นขัดกับคำขอ และถ้าทำได้แค่เสาร์อาทิตย์ การเลื่อนหนึ่งสัปดาห์ก็ไม่ช่วย"
+            },
+            {
+              "id": "AL-S2-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Is there anything I should prepare for the next stage?",
+                "Do interns get to choose the music for the shows?",
+                "Will I be paid for the six weeks of the internship?",
+                "How many people applied for this internship?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ms Rivera ตอบว่าถ้าผ่านเข้ารอบจะให้อัดข่าวสองนาที \"so it's worth practising reading aloud\" ซึ่งเป็นคำแนะนำว่าควรเตรียมอะไรสำหรับขั้นต่อไป ตัวเลือกอื่นไม่ได้ถามเรื่องการเตรียมตัว"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S2-G05",
+          "type": "ad",
+          "instructionTh": "อ่านประกาศโฆษณาต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Photography workshop",
+          "text": "LIGHT & SHADOW: A Weekend Photography Workshop\nFernhill Arts Centre, Chiang Mai\n\nTired of photos that look nothing like what you actually saw? Join award-winning photographer Dara Venn for two days of hands-on learning designed for beginners and improvers aged 15 and above.\n\nDay 1 (Saturday): Understanding light — composition, exposure and why the \"golden hour\" matters, followed by an afternoon photo walk through the old city.\nDay 2 (Sunday): Editing without overdoing it — we use free software only, so there are no expensive subscriptions to buy.\n\nBring any camera you own; a smartphone is perfectly acceptable. Laptops are provided on Day 2.\n\nDates: 14–15 March, 9:00–16:00\nFee: 1,800 baht (lunch included). Students with a valid ID pay 1,400 baht.\n\nPlaces are limited to 12 participants so that everyone receives individual feedback. Register by 7 March at fernhillarts.example. Anyone who registers by 28 February will also receive a free printed copy of their best photo from the weekend.",
+          "items": [
+            {
+              "id": "AL-S2-021",
+              "stem": "Who is the workshop mainly intended for?",
+              "options": [
+                "Children under 15 who are learning to use a camera",
+                "Designers who want to create their own editing software",
+                "People who want to develop their basic photography skills",
+                "Professional photographers who hope to win awards"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "โฆษณาระบุว่า \"designed for beginners and improvers aged 15 and above\" คือผู้เริ่มต้นและผู้ที่ต้องการพัฒนาฝีมือ ไม่ใช่มืออาชีพหรือเด็กอายุต่ำกว่า 15 ปี"
+            },
+            {
+              "id": "AL-S2-022",
+              "stem": "What does the advertisement say about equipment?",
+              "options": [
+                "Participants need to bring a laptop on both days.",
+                "Participants must pay for editing software.",
+                "Participants should bring a professional camera.",
+                "A phone camera is good enough to take part."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "โฆษณาบอกว่า \"Bring any camera you own; a smartphone is perfectly acceptable.\" ส่วนซอฟต์แวร์ใช้ของฟรี และศูนย์มีแล็ปท็อปให้ในวันที่สอง จึงไม่ต้องใช้กล้องมืออาชีพหรือนำแล็ปท็อปมาเอง"
+            },
+            {
+              "id": "AL-S2-023",
+              "stem": "A student with a valid ID who registers on 3 March will",
+              "options": [
+                "pay 1,400 baht and receive a free print.",
+                "be unable to join because registration has closed.",
+                "pay 1,400 baht but not receive a free print.",
+                "pay 1,800 baht and receive a free print."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "นักเรียนที่มีบัตรจ่าย 1,400 บาท และสมัครได้ถึง 7 มีนาคม แต่รูปพิมพ์ฟรีให้เฉพาะผู้สมัครภายใน 28 กุมภาพันธ์ การสมัคร 3 มีนาคมจึงไม่ได้รูปฟรี"
+            },
+            {
+              "id": "AL-S2-024",
+              "stem": "The word \"overdoing\" in \"Editing without overdoing it\" is closest in meaning to",
+              "options": [
+                "leaving out",
+                "doing again",
+                "finishing too quickly",
+                "doing too much of"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"overdo\" หมายถึงทำมากเกินไป ในบริบทนี้คือแต่งภาพโดยไม่แต่งจนเกินพอดี ไม่ได้แปลว่าทำซ้ำ (redo) หรือตัดทิ้ง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G06",
+          "type": "ad",
+          "instructionTh": "อ่านประกาศโฆษณาต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Repair shop",
+          "text": "SECOND LIFE ELECTRONICS — Repair, Refurbish, Reuse\n\nBefore you throw away that cracked phone or silent speaker, bring it to us. Since 2019, our team of six technicians has given more than 15,000 devices a second life.\n\nWhat we do\n• Screen and battery replacement for phones and tablets (most jobs finished within two hours)\n• Laptop repairs, including keyboards, cooling fans and charging ports\n• Refurbished devices for sale, each checked on 30 points and sold with a six-month warranty\n\nHow it works\n1. Bring your device in for a free check.\n2. We give you a fixed price before any work begins — no hidden costs.\n3. If we can't fix it, you pay nothing.\n\nTrade-in offer: Hand in any old device, working or not, and get 10% off a refurbished one. Devices that cannot be repaired are passed on to a certified recycling partner.\n\nOpen Tuesday–Sunday, 10:00–19:00 | 88/4 Wiang Road, Ban Khlong Sai",
+          "items": [
+            {
+              "id": "AL-S2-025",
+              "stem": "What is the main purpose of this advertisement?",
+              "options": [
+                "To explain how customers can repair their own phones at home",
+                "To recruit experienced technicians for its growing repair team",
+                "To warn customers about the risks of recycling old devices unsafely",
+                "To encourage people to repair devices rather than discard them"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ประโยคเปิด \"Before you throw away ... bring it to us\" และสโลแกน \"Repair, Refurbish, Reuse\" แสดงว่าต้องการชักชวนให้ซ่อมหรือใช้ซ้ำแทนการทิ้ง โฆษณาไม่ได้รับสมัครช่างหรือสอนซ่อมเอง"
+            },
+            {
+              "id": "AL-S2-026",
+              "stem": "According to the advertisement, which statement is TRUE?",
+              "options": [
+                "Customers are told the price before work starts.",
+                "Laptop repairs are usually finished within two hours.",
+                "Refurbished devices come with a one-year warranty.",
+                "Customers must pay a small fee for the first check."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ขั้นตอนที่ 2 บอกว่า \"We give you a fixed price before any work begins\" ส่วนงานเสร็จในสองชั่วโมงหมายถึงงานโทรศัพท์และแท็บเล็ต ไม่ใช่แล็ปท็อป ประกันคือหกเดือน และการตรวจครั้งแรกฟรี"
+            },
+            {
+              "id": "AL-S2-027",
+              "stem": "What happens if the technicians are unable to fix a customer's device?",
+              "options": [
+                "The customer still pays the fixed price.",
+                "The customer is not charged anything.",
+                "The customer receives a refurbished device for free.",
+                "The device is kept by the shop for spare parts."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ข้อ 3 ระบุว่า \"If we can't fix it, you pay nothing.\" ลูกค้าจึงไม่ต้องจ่ายเงิน"
+            },
+            {
+              "id": "AL-S2-028",
+              "stem": "A customer trades in a phone that cannot be repaired. What will most likely happen?",
+              "options": [
+                "She will receive cash for the value of the old phone.",
+                "She will be told that only working devices are accepted.",
+                "She will have the phone repaired free of charge.",
+                "She will get a discount on a refurbished device."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ข้อเสนอแลกเครื่องรับ \"any old device, working or not\" และให้ส่วนลด 10% สำหรับเครื่อง refurbished จึงได้ส่วนลดแม้เครื่องเก่าจะซ่อมไม่ได้ ร้านไม่ได้จ่ายเป็นเงินสด และเครื่องที่ซ่อมไม่ได้ก็ซ่อมฟรีไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G07",
+          "type": "review",
+          "instructionTh": "อ่านบทวิจารณ์ต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Ledgestone Climbing Hall: beginners' course",
+          "text": "Ledgestone Climbing Hall, Beginners' Course — 4 out of 5 stars\nReviewed by Tonkla, Grade 11\n\nI had never climbed anything taller than a school fence, so I signed up for Ledgestone's four-week beginners' course feeling rather nervous. After eight sessions, I can honestly say it was one of the best decisions I made this year.\n\nThe instructors are the course's greatest strength. Before anyone touched a wall, we spent the whole first session learning to tie knots and check each other's equipment, and the instructors then checked every knot again themselves. They were patient with slow learners like me and never made anyone feel embarrassed for coming down early.\n\nThe hall itself is bright and well organised. The easier walls are kept apart from the advanced area, so beginners are not distracted by experienced climbers. Shoes and harnesses are included in the course fee, which means you do not have to buy expensive gear before you know whether you even like the sport.\n\nThe course costs 2,400 baht. After that, a single visit costs 200 baht, or you can buy a ten-visit card for 1,600 baht.\n\nMy one real complaint is the changing area. There are only two showers for the whole hall, and on weekday evenings the queue is long enough to put you off coming back.\n\nOverall, if you have ever been curious about climbing, this course is a safe and friendly place to start. Just try to book a weekend morning slot.",
+          "items": [
+            {
+              "id": "AL-S2-029",
+              "stem": "What is the reviewer's overall opinion of the beginners' course?",
+              "options": [
+                "It suits experienced climbers better than beginners.",
+                "It is a great place to start despite one drawback.",
+                "It is too expensive for most students to continue.",
+                "It is enjoyable but does not take safety seriously."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ผู้รีวิวให้ 4 ดาว ชมผู้สอนและสถานที่ และสรุปว่า \"a safe and friendly place to start\" โดยติเรื่องห้องอาบน้ำเพียงเรื่องเดียว ส่วนเรื่องความปลอดภัย ผู้รีวิวกลับชมว่าผู้สอนตรวจเงื่อนทุกเส้น และไม่ได้บอกว่าราคาแพงเกินไป"
+            },
+            {
+              "id": "AL-S2-030",
+              "stem": "According to the review, why is it helpful that shoes and harnesses are included?",
+              "options": [
+                "The hall does not allow climbers to bring their own gear.",
+                "Rented equipment is more comfortable than new gear.",
+                "Experienced climbers can then borrow beginners' gear.",
+                "Newcomers can try the sport before buying costly gear."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ผู้รีวิวเขียนว่า \"you do not have to buy expensive gear before you know whether you even like the sport\" คือได้ลองก่อนโดยไม่ต้องซื้ออุปกรณ์ราคาแพง ส่วนตัวเลือกอื่นไม่มีกล่าวไว้ในรีวิว"
+            },
+            {
+              "id": "AL-S2-031",
+              "stem": "Based on the review, which climber would save money by buying a ten-visit card instead of paying for single visits?",
+              "options": [
+                "One who plans to climb 6 times",
+                "One who plans to climb 8 times",
+                "One who plans to climb 9 times",
+                "One who plans to climb 5 times"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "บัตรสิบครั้งราคา 1,600 บาท ส่วนจ่ายรายครั้ง ครั้งละ 200 บาท ถ้ามา 9 ครั้งจะจ่าย 1,800 บาท บัตรจึงถูกกว่า ส่วนมา 8 ครั้งจ่าย 1,600 บาทเท่ากัน จึงไม่ได้ประหยัด และ 5–6 ครั้งจ่ายรายครั้งถูกกว่า"
+            },
+            {
+              "id": "AL-S2-032",
+              "stem": "The phrase \"put you off\" in paragraph 5 is closest in meaning to",
+              "options": [
+                "make you late for",
+                "remind you about",
+                "stop you from leaving",
+                "discourage you from"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"put someone off doing something\" ในที่นี้หมายถึงทำให้ไม่อยากทำสิ่งนั้น คือคิวอาบน้ำที่ยาวทำให้ไม่อยากกลับมาอีก จึงใกล้เคียงกับ \"discourage you from\""
+            },
+            {
+              "id": "AL-S2-033",
+              "stem": "Why does the reviewer end with \"Just try to book a weekend morning slot\"?",
+              "options": [
+                "To point out that the course runs only at weekends",
+                "To give practical advice linked to the main complaint",
+                "To suggest that the weekday instructors are less patient",
+                "To warn that weekend sessions cost more money"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ข้อตำหนิหลักคือคิวอาบน้ำยาวในเย็นวันธรรมดา ประโยคสุดท้ายจึงเป็นคำแนะนำเชิงปฏิบัติให้เลือกช่วงที่คนน้อยกว่า ซึ่งเชื่อมกับข้อตำหนินั้น รีวิวไม่ได้กล่าวว่าคอร์สมีแค่วันหยุดหรือราคาต่างกัน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G08",
+          "type": "news",
+          "instructionTh": "อ่านข่าว (สมมติ) ต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Pottery find at Ban Na Kham school",
+          "text": "Pottery Find Puts School Sports Field on Hold\n\nBAN NA KHAM, 14 August — Work on a new sports field at Ban Na Kham Secondary School has been put on hold after a digger uncovered pieces of ancient pottery last Tuesday.\n\nThe fragments, found about a metre below the surface, include parts of at least three large storage jars decorated with a simple rope pattern. Archaeologists from Khao Sung University, who visited the site on Thursday, believe the jars may be around 2,000 years old, although laboratory tests will be needed to confirm this.\n\n\"Pieces like these suggest that people were living, or at least storing food, on this spot long before the village existed,\" said Dr Anong Pakdee, who is leading the team. \"The next few weeks should tell us whether this was a single household or a larger settlement.\"\n\nThe university team will carry out a careful excavation during the school's October break, when no classes are held. Students in Grades 10 to 12 have been invited to join as volunteers, working in small groups under the supervision of trained staff.\n\nThe delay means that the football field, which was due to open in November, is now expected to be completed in February at the earliest. Some parents have expressed disappointment, since the school's teams currently have to train at a public park three kilometres away.\n\nHead teacher Surasak Inthawong, however, sees an opportunity. \"Our students can now study history in the place where it happened,\" he said. \"That is worth waiting a few extra months for.\" He added that, if the site proves important, the school hopes to display some of the finds in its library.",
+          "items": [
+            {
+              "id": "AL-S2-034",
+              "stem": "What is the news report mainly about?",
+              "options": [
+                "A discovery that has delayed work on a school sports field",
+                "A school's plan to open a history museum in its library",
+                "Parents' complaints about where school teams must train",
+                "A university course that teaches students to dig for pottery"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่างานสร้างสนามกีฬา \"has been put on hold after a digger uncovered pieces of ancient pottery\" เนื้อหาที่เหลือเล่ารายละเอียดและผลของการค้นพบนี้ ส่วนการจัดแสดงในห้องสมุดและความผิดหวังของผู้ปกครองเป็นเพียงรายละเอียดย่อย"
+            },
+            {
+              "id": "AL-S2-035",
+              "stem": "Why will the excavation take place in October?",
+              "options": [
+                "No classes are held at the school then.",
+                "The laboratory tests will be finished by then.",
+                "The archaeologists are busy until the end of September.",
+                "The weather is usually drier at that time of year."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข่าวระบุว่าจะขุดค้น \"during the school's October break, when no classes are held\" คือช่วงปิดภาคเรียน ไม่ได้กล่าวถึงผลแล็บ ตารางงานของนักโบราณคดี หรือสภาพอากาศ"
+            },
+            {
+              "id": "AL-S2-036",
+              "stem": "Compared with the original plan, how long will the opening of the football field be delayed?",
+              "options": [
+                "About one month",
+                "At least three months",
+                "About six months",
+                "No more than two months"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "เดิมสนามจะเปิดเดือนพฤศจิกายน แต่ตอนนี้คาดว่าจะเสร็จ \"in February at the earliest\" พฤศจิกายนถึงกุมภาพันธ์คือสามเดือน และ \"at the earliest\" แปลว่าอาจนานกว่านั้น จึงเป็นอย่างน้อยสามเดือน ไม่ใช่ไม่เกินสองเดือน"
+            },
+            {
+              "id": "AL-S2-037",
+              "stem": "In paragraph 2, the word \"this\" in \"to confirm this\" refers to",
+              "options": [
+                "the rope pattern on the jars",
+                "the estimated age of the jars",
+                "the depth at which the jars were found",
+                "the number of jars in the field"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคบอกว่านักโบราณคดี \"believe the jars may be around 2,000 years old\" แต่ต้องตรวจในห้องแล็บเพื่อยืนยัน สิ่งที่ต้องยืนยันจึงเป็นอายุโดยประมาณของไห"
+            },
+            {
+              "id": "AL-S2-038",
+              "stem": "What can be inferred about the head teacher's view of the delay?",
+              "options": [
+                "He thinks the benefits for students outweigh the wait.",
+                "He shares the parents' disappointment about the field.",
+                "He wants the excavation finished before October.",
+                "He plans to move the new field to the public park."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ครูใหญ่ \"sees an opportunity\" และกล่าวว่า \"That is worth waiting a few extra months for.\" แสดงว่าเห็นว่าประโยชน์ต่อนักเรียนคุ้มกับการรอ ส่วนความผิดหวังเป็นของผู้ปกครอง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วตอบคำถาม",
+          "title": "Household electricity use",
+          "text": "The Somboon family recorded how much electricity their main appliances used in three different months of the year. Electricity costs the family about 4.5 baht per kilowatt-hour (kWh).",
+          "table": {
+            "caption": "Monthly electricity use by appliance, Somboon household (kWh)",
+            "columns": [
+              "Appliance",
+              "January",
+              "April",
+              "July"
+            ],
+            "rows": [
+              [
+                "Air conditioner",
+                "120",
+                "310",
+                "240"
+              ],
+              [
+                "Refrigerator",
+                "45",
+                "52",
+                "50"
+              ],
+              [
+                "Water heater",
+                "60",
+                "18",
+                "22"
+              ],
+              [
+                "Television",
+                "28",
+                "30",
+                "34"
+              ],
+              [
+                "Washing machine",
+                "15",
+                "15",
+                "20"
+              ],
+              [
+                "Lighting",
+                "24",
+                "24",
+                "26"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S2-039",
+              "stem": "Between January and April, which appliance's electricity use changed in the opposite direction to that of the air conditioner?",
+              "options": [
+                "The washing machine",
+                "The water heater",
+                "The television",
+                "The refrigerator"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "เครื่องปรับอากาศเพิ่มจาก 120 เป็น 310 kWh แต่เครื่องทำน้ำอุ่นลดจาก 60 เป็น 18 kWh ตู้เย็นและทีวีเพิ่มขึ้น ส่วนเครื่องซักผ้าคงที่ 15"
+            },
+            {
+              "id": "AL-S2-040",
+              "stem": "In April, how much more electricity did the air conditioner use than all the other appliances combined?",
+              "options": [
+                "190 kWh",
+                "171 kWh",
+                "258 kWh",
+                "139 kWh"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "เครื่องอื่นในเดือนเมษายนรวม 52+18+30+15+24 = 139 kWh เครื่องปรับอากาศใช้ 310 kWh จึงมากกว่า 310−139 = 171 kWh"
+            },
+            {
+              "id": "AL-S2-041",
+              "stem": "About how much did it cost to run the air conditioner in July?",
+              "options": [
+                "540 baht",
+                "1,764 baht",
+                "1,395 baht",
+                "1,080 baht"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "เดือนกรกฎาคมเครื่องปรับอากาศใช้ 240 kWh × 4.5 บาท = 1,080 บาท (1,395 บาทคือค่าของเดือนเมษายน)"
+            },
+            {
+              "id": "AL-S2-042",
+              "stem": "Which statement is supported by the table?",
+              "options": [
+                "Lighting used more electricity than the television in every month.",
+                "The refrigerator used between 45 and 52 kWh in each month.",
+                "The household used the most electricity in July.",
+                "The water heater used more electricity in July than in January."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ตู้เย็นใช้ 45, 52 และ 50 kWh จึงอยู่ระหว่าง 45 ถึง 52 kWh ทุกเดือน ส่วนยอดรวมสูงสุดคือเมษายน (449) ไม่ใช่กรกฎาคม (392) ไฟส่องสว่างใช้น้อยกว่าทีวีทุกเดือน และเครื่องทำน้ำอุ่นเดือนกรกฎาคม (22) น้อยกว่ามกราคม (60)"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วตอบคำถาม",
+          "title": "Public transport ridership",
+          "text": "The Riverton City Transport Authority publishes the average number of passengers per day on its three main services. In April, schools and universities closed for the Songkran holiday, and many residents travelled out of the city.",
+          "table": {
+            "caption": "Average daily passengers (thousands), January–June",
+            "columns": [
+              "Month",
+              "Metro",
+              "City buses",
+              "Airport Rail Link"
+            ],
+            "rows": [
+              [
+                "January",
+                "82.0",
+                "64.0",
+                "15.2"
+              ],
+              [
+                "February",
+                "85.5",
+                "61.5",
+                "14.8"
+              ],
+              [
+                "March",
+                "88.0",
+                "58.0",
+                "16.9"
+              ],
+              [
+                "April",
+                "71.5",
+                "47.0",
+                "21.4"
+              ],
+              [
+                "May",
+                "90.0",
+                "55.0",
+                "15.6"
+              ],
+              [
+                "June",
+                "93.5",
+                "52.0",
+                "14.1"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S2-043",
+              "stem": "Which best describes the trend in city bus ridership from January to June?",
+              "options": [
+                "It rose steadily throughout the six months.",
+                "It reached its highest point in April and then fell.",
+                "It stayed at roughly the same level every month.",
+                "It generally declined, with a brief recovery in May."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "รถเมล์ลดจาก 64.0 → 61.5 → 58.0 → 47.0 แล้วขึ้นเป็น 55.0 ในเดือนพฤษภาคม ก่อนลดเหลือ 52.0 จึงมีแนวโน้มลดลงโดยฟื้นตัวช่วงสั้น ๆ ในพฤษภาคม"
+            },
+            {
+              "id": "AL-S2-044",
+              "stem": "In which month did the Airport Rail Link carry the most passengers, and what most likely explains this?",
+              "options": [
+                "April, because many people travelled during the holiday",
+                "May, because residents returned to the city after the holiday",
+                "March, because schools and universities were still open",
+                "January, because more tourists visited the city"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "Airport Rail Link สูงสุดในเดือนเมษายน (21.4 พันคน) ซึ่งข้อความบอกว่าเป็นช่วงวันหยุดสงกรานต์ที่ผู้คนเดินทางออกนอกเมือง"
+            },
+            {
+              "id": "AL-S2-045",
+              "stem": "How many more passengers per day did the Metro carry in June than in January?",
+              "options": [
+                "9,500",
+                "29,500",
+                "41,500",
+                "11,500"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "รถไฟฟ้าเดือนมิถุนายน 93.5 พัน ลบมกราคม 82.0 พัน = 11.5 พัน หรือ 11,500 คนต่อวัน"
+            },
+            {
+              "id": "AL-S2-046",
+              "stem": "According to the table, which of the following statements is accurate?",
+              "options": [
+                "Total ridership on the three services was highest in April.",
+                "In every month, the Metro carried more passengers than the other two services combined.",
+                "City buses carried more passengers than the Metro in January.",
+                "The Airport Rail Link carried fewer than 15,000 passengers per day in every month."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ทุกเดือนรถไฟฟ้ามากกว่าผลรวมอีกสองบริการ เช่น เมษายน 71.5 > 47.0+21.4 = 68.4 ส่วน Airport Rail Link เดือนมกราคมมี 15.2 พันซึ่งเกิน 15,000 และยอดรวมเดือนเมษายนต่ำที่สุด"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G11",
+          "type": "article",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Why We Put Things Off",
+          "text": "Why We Put Things Off\n\nAlmost everyone has experienced it. An important assignment is due in three days, yet you find yourself reorganising your bookshelf, watching cooking videos or suddenly deciding that your desk drawer urgently needs cleaning. Procrastination, the voluntary delay of a task despite knowing that the delay will probably make things worse, is often treated as a sign of laziness. Many psychologists, however, now argue that this view misses the point. Procrastination, they say, is less a problem of managing time than a problem of managing emotions.\n\nAccording to this emotional view, people delay tasks not because they are unwilling to work but because the task itself triggers unpleasant feelings. An essay might bring on anxiety about being judged; a complicated application form might cause confusion or simple boredom. Avoiding the task offers immediate relief from these feelings. The trouble is that the relief is temporary. The deadline does not move, and the negative feelings usually return, stronger than before and often joined by guilt.\n\nResearchers have described this pattern as a conflict between the \"present self\" and the \"future self\". Some studies suggest that when people think about themselves in the future, their brains respond in a way that looks surprisingly similar to when they think about strangers. In other words, we tend to treat the person who will face tomorrow's deadline as someone else, someone who will somehow have more energy, more time and more motivation than we do now. Handing the job over to that person feels perfectly reasonable in the moment.\n\nPerfectionism can make matters worse. Students who set extremely high standards for themselves are, perhaps surprisingly, often among the most serious procrastinators. If a piece of work must be flawless, starting it becomes threatening, because every early draft is a reminder of how far it falls short. Delaying the task protects the perfectionist from that discomfort. It also provides a convenient excuse if the final result is poor: \"I only had one night to do it.\"\n\nIf procrastination is mainly emotional, then simply buying a planner or downloading a productivity app is unlikely to solve it. Instead, psychologists recommend strategies that make starting less painful. One is to reduce the first step to something so small that it seems almost ridiculous, such as \"open the document and type the title\". Once people begin, they often find the task less unpleasant than they had imagined, and continuing becomes easier. Another strategy is to remove temptations in advance, for instance by leaving a phone in another room, so that avoiding work requires more effort than doing it.\n\nPerhaps the most unexpected recommendation is self-forgiveness. Researchers have reported, for example, that students who forgave themselves for putting off revision before one exam tended to procrastinate less before the next. Being harsh on oneself, it seems, simply adds another bad feeling that people then try to escape.\n\nNone of this means that deadlines and schedules are useless. But understanding procrastination as a problem of mood rather than a flaw in character changes the question we ask. Instead of \"Why am I so lazy?\", a more useful question may be \"What feeling am I trying to avoid right now?\"",
+          "items": [
+            {
+              "id": "AL-S2-047",
+              "stem": "Which of the following best states the main idea of the passage?",
+              "options": [
+                "Procrastination is mostly a way of escaping unpleasant feelings rather than a sign of laziness.",
+                "Procrastination is harmless because most tasks are completed in the end.",
+                "Procrastination is mainly caused by poor planning and can be solved with the right apps.",
+                "Procrastination is a problem that mainly affects students who are perfectionists."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกสรุปว่า \"less a problem of managing time than a problem of managing emotions\" และย่อหน้าอื่นขยายความแนวคิดนี้ ข้อเรื่องแอปขัดกับย่อหน้าที่ 5 และผู้ที่ต้องการความสมบูรณ์แบบเป็นเพียงตัวอย่างหนึ่งในย่อหน้าที่ 4"
+            },
+            {
+              "id": "AL-S2-048",
+              "stem": "According to the passage, what usually happens after the relief of avoiding a task?",
+              "options": [
+                "The bad feelings come back, often stronger than before.",
+                "The person forgets about the task until it is too late.",
+                "The person finds that the deadline has been extended.",
+                "The task becomes easier because the person has rested."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่า \"the negative feelings usually return, stronger than before and often joined by guilt\""
+            },
+            {
+              "id": "AL-S2-049",
+              "stem": "What does paragraph 3 suggest about why people delay tasks?",
+              "options": [
+                "They believe that strangers will finish the work for them.",
+                "They think the task will disappear if they wait long enough.",
+                "They are unable to remember deadlines that are far away.",
+                "They assume they will feel more able to do it later."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 3 อธิบายว่าเรามองตัวเองในอนาคตเหมือนคนอื่นที่ \"will somehow have more energy, more time and more motivation\" จึงผลักงานไปให้ตัวเองในอนาคต ส่วน \"strangers\" เป็นเพียงการเปรียบเทียบ ไม่ได้หมายถึงคนอื่นจริง ๆ"
+            },
+            {
+              "id": "AL-S2-050",
+              "stem": "The word \"flawless\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "perfect",
+                "finished",
+                "original",
+                "lengthy"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"flawless\" แปลว่าไม่มีข้อบกพร่องเลย สอดคล้องกับบริบทเรื่องผู้ที่ตั้งมาตรฐานสูงมาก (perfectionism) จึงใกล้เคียงกับ \"perfect\""
+            },
+            {
+              "id": "AL-S2-051",
+              "stem": "In paragraph 4, \"that discomfort\" refers to the unpleasant feeling of",
+              "options": [
+                "being criticised by teachers for a poor result",
+                "competing with other students who set high standards",
+                "noticing the gap between a draft and perfection",
+                "having only one night to complete a task"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "\"that discomfort\" อ้างถึงประโยคก่อนหน้า ที่ว่าร่างแรกทุกฉบับเตือนให้เห็น \"how far it falls short\" คือห่างจากความสมบูรณ์แบบเพียงใด"
+            },
+            {
+              "id": "AL-S2-052",
+              "stem": "Which advice would the author most likely give to a student who cannot start an essay?",
+              "options": [
+                "Criticise yourself strongly so that you feel more pressure.",
+                "Buy a detailed planner and schedule every hour of the week.",
+                "Start by doing nothing more than typing the title.",
+                "Wait until you feel fully motivated before you begin."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 5 แนะนำให้ลดขั้นแรกให้เล็กมาก เช่น \"open the document and type the title\" ส่วนการซื้อแพลนเนอร์ถูกบอกว่า \"unlikely to solve it\" และการตำหนิตัวเองขัดกับย่อหน้าที่ 6"
+            },
+            {
+              "id": "AL-S2-053",
+              "stem": "Why does the author mention the research on students who forgave themselves?",
+              "options": [
+                "To prove that exams are the main cause of procrastination",
+                "To support the advice about forgiving oneself",
+                "To show that students delay revision more than other tasks",
+                "To argue that students need more time to revise"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "งานวิจัยถูกยกมาต่อจากประโยค \"the most unexpected recommendation is self-forgiveness\" เพื่อเป็นหลักฐานสนับสนุนคำแนะนำนี้ว่านักศึกษาที่ให้อภัยตัวเองผัดวันประกันพรุ่งน้อยลง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G12",
+          "type": "article",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Bridges That Bend Without Breaking",
+          "text": "Bridges That Bend Without Breaking\n\nA large bridge looks like the very picture of stability: tons of steel and concrete stretching calmly across a river or valley. Yet every bridge is constantly moving. Traffic makes it vibrate, changes in temperature cause it to expand and shrink, and wind and earthquakes push it with forces that can be far greater than the weight of the vehicles on top. Modern bridge design is therefore not about making structures completely rigid, but about controlling how they move.\n\nWind is a particular challenge for long, light bridges such as suspension bridges. When wind flows past a bridge deck, it can create swirling patterns of air on alternate sides of the structure. If these swirls push the deck at a rhythm that matches the rate at which the bridge naturally vibrates, known as its natural frequency, the movements can grow larger with each cycle, much as a child on a swing goes higher with well-timed pushes. This effect, called resonance, can turn a steady breeze into a serious threat.\n\nTo prevent this, engineers test scale models in wind tunnels long before construction begins. A model of the deck, often only a few metres long, is exposed to winds of different speeds and directions while sensors record how it responds. The results frequently lead to changes in the shape of the deck. Many modern decks have a streamlined cross-section, similar to an aircraft wing, which allows air to flow smoothly past instead of breaking into swirls. Others include open grates or small fins that disrupt the regular pattern of air before it can build up.\n\nEarthquakes present a different problem. Instead of acting mainly on the deck, they shake the ground beneath the bridge, sending sudden forces up through its foundations and towers. A structure that is too stiff may crack, because it cannot absorb this energy. One common solution is to place special bearings between the deck and its supports. These bearings, typically made of alternating layers of rubber and steel, allow the ground to move sideways beneath the bridge while the deck itself moves much less. In effect, the bridge is partly separated from the shaking earth.\n\nEngineers also add devices called dampers, which work in a similar way to the shock absorbers in a car. Dampers convert the energy of movement into heat, reducing the size of vibrations whether they are caused by wind, earthquakes or even large crowds of pedestrians. Some very long bridges contain enormous tuned mass dampers: heavy blocks mounted on springs that are designed to swing against the bridge's own motion and so cancel part of it.\n\nNone of these features can make a bridge completely safe from every possible event, and all of them add to construction costs. However, inspections carried out after major earthquakes have repeatedly shown that bridges fitted with bearings and dampers suffer far less damage than older bridges without them. For this reason, many countries now require such protection for new bridges in high-risk areas and are gradually upgrading older ones.\n\nSo the next time you cross a long bridge and feel a slight movement beneath your feet, there is no need to panic. That movement is not a sign of weakness. More often, it is evidence that the bridge is doing exactly what its designers intended: bending a little so that it does not break.",
+          "items": [
+            {
+              "id": "AL-S2-054",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How bridges are designed to control movement caused by wind and earthquakes",
+                "Why many old bridges must be replaced with new ones",
+                "Why suspension bridges are more dangerous than other types of bridges",
+                "How engineers make bridges safer by making them heavier and stiffer"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่าการออกแบบสะพานสมัยใหม่ \"is ... about controlling how they move\" แล้วย่อหน้าต่อ ๆ ไปอธิบายวิธีรับมือลมและแผ่นดินไหว ส่วนการทำให้สะพานแข็งทื่อขัดกับย่อหน้าที่ 4 ที่บอกว่าโครงสร้างที่แข็งเกินไปอาจแตกร้าว"
+            },
+            {
+              "id": "AL-S2-055",
+              "stem": "According to paragraph 2, resonance happens when",
+              "options": [
+                "the deck is hit by a wind that is stronger than usual",
+                "wind swirls push the deck in time with its natural vibration",
+                "changes in temperature make the deck expand and shrink",
+                "heavy traffic makes the deck vibrate more than normal"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 อธิบายว่าเมื่อกระแสอากาศหมุนวน \"push the deck at a rhythm that matches ... its natural frequency\" การสั่นจะใหญ่ขึ้นเรื่อย ๆ เรียกว่า resonance สิ่งสำคัญคือจังหวะ ไม่ใช่ความแรงของลม เพราะแม้ \"a steady breeze\" ก็ทำให้เกิดได้"
+            },
+            {
+              "id": "AL-S2-056",
+              "stem": "The word \"disrupt\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "measure",
+                "speed up",
+                "break up",
+                "repeat"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ครีบเล็ก ๆ ทำหน้าที่ \"disrupt the regular pattern of air before it can build up\" คือทำลายรูปแบบที่สม่ำเสมอของอากาศ จึงหมายถึง \"break up\""
+            },
+            {
+              "id": "AL-S2-057",
+              "stem": "What is the main function of the bearings described in paragraph 4?",
+              "options": [
+                "To turn the energy of passing traffic into heat",
+                "To make the bridge stiffer so that it cannot bend",
+                "To reduce how much the deck moves when the ground shakes",
+                "To change the shape of the deck so that wind flows smoothly"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ตลับรองรับ \"allow the ground to move sideways beneath the bridge while the deck itself moves much less\" จึงลดการเคลื่อนของพื้นสะพานเมื่อพื้นดินสั่น ส่วนการเปลี่ยนพลังงานเป็นความร้อนคือหน้าที่ของ damper"
+            },
+            {
+              "id": "AL-S2-058",
+              "stem": "In paragraph 5, the word \"it\" in \"cancel part of it\" refers to",
+              "options": [
+                "the crowd of pedestrians",
+                "the bridge's motion",
+                "the spring",
+                "the heavy block"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ก้อนมวลถูกออกแบบให้แกว่ง \"against the bridge's own motion and so cancel part of it\" สิ่งที่ถูกหักล้างคือการเคลื่อนที่ของสะพาน"
+            },
+            {
+              "id": "AL-S2-059",
+              "stem": "What can be inferred from paragraph 6?",
+              "options": [
+                "Adding bearings and dampers lowers the cost of building a bridge.",
+                "Unprotected older bridges face greater risk in earthquakes.",
+                "Most older bridges in high-risk areas have now been upgraded.",
+                "Inspections show that dampers work better than bearings."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 6 ระบุว่าสะพานที่มีอุปกรณ์เหล่านี้ \"suffer far less damage than older bridges without them\" จึงอนุมานได้ว่าสะพานเก่าที่ไม่มีอุปกรณ์เสี่ยงกว่า ส่วนอุปกรณ์ \"add to construction costs\" การปรับปรุงสะพานเก่ายังทำ \"gradually\" และไม่ได้เปรียบเทียบ damper กับ bearing"
+            },
+            {
+              "id": "AL-S2-060",
+              "stem": "What is the purpose of the final paragraph?",
+              "options": [
+                "To warn readers to avoid long bridges during strong winds",
+                "To criticise engineers for designing bridges that move",
+                "To reassure readers that a little movement is normal",
+                "To introduce a new technology for preventing bridge movement"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"there is no need to panic\" และการเคลื่อนเล็กน้อยคือสิ่งที่ผู้ออกแบบตั้งใจ จึงมีจุดประสงค์เพื่อสร้างความมั่นใจให้ผู้อ่าน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S2-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Gardening under the sea",
+          "text": "Coral reefs cover only a tiny fraction of the ocean floor, ___1___ they provide food and shelter for a remarkable share of all marine life. Over recent decades, however, rising sea temperatures have caused widespread bleaching, a process in which corals expel the tiny algae that give them both their colour and much of their food. If the water stays too warm for too long, the bleached corals ___2___.\n\nTo help damaged reefs recover, scientists and volunteers have developed a technique known as coral gardening. Small fragments of healthy coral are attached to underwater frames, ___3___ they are protected from strong currents and hungry fish. After several months, the fragments have grown large enough to be transplanted onto the reef. Some projects have replanted thousands of fragments, and in good conditions many of them survive.\n\nRestoration alone, ___4___, cannot save the world's reefs. Experts warn that unless ocean warming is slowed, newly planted corals will face the same stress as the ones they replaced. For this reason, most projects now combine replanting with efforts to reduce local pollution and overfishing, both of which make corals less ___5___ to heat.",
+          "items": [
+            {
+              "id": "AL-S2-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "yet",
+                "because",
+                "unless",
+                "so"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "สองประโยคย่อยขัดแย้งกัน (พื้นที่น้อยมาก แต่รองรับสิ่งมีชีวิตจำนวนมาก) จึงใช้ \"yet\" ซึ่งแสดงความขัดแย้ง"
+            },
+            {
+              "id": "AL-S2-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "would have died",
+                "eventually died",
+                "may eventually die",
+                "may eventually dying"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประโยคเงื่อนไขแบบที่ 1 (If + present simple) ส่วนผลใช้ modal + V1 คือ \"may eventually die\" ส่วน \"would have died\" เป็นเงื่อนไขแบบที่ 3 ซึ่งไม่เข้ากับ \"stays\""
+            },
+            {
+              "id": "AL-S2-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "where",
+                "whose",
+                "which",
+                "what"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ relative adverb \"where\" แทนสถานที่ (frames) เพราะประโยคตามหลัง \"they are protected ...\" สมบูรณ์แล้ว ไม่ขาดประธานหรือกรรม จึงใช้ \"which\" ไม่ได้"
+            },
+            {
+              "id": "AL-S2-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "however",
+                "for example",
+                "in addition",
+                "therefore"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ย่อหน้าก่อนพูดถึงความสำเร็จของการฟื้นฟู แต่ประโยคนี้บอกว่าการฟื้นฟูอย่างเดียวช่วยไม่ได้ จึงต้องใช้ \"however\" แสดงความขัดแย้ง"
+            },
+            {
+              "id": "AL-S2-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "exposed",
+                "sensitive",
+                "vulnerable",
+                "resistant"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "มลพิษและการทำประมงเกินขนาดทำให้ปะการังอ่อนแอลง คือ \"less resistant to heat\" (ทนความร้อนได้น้อยลง) ส่วน vulnerable/sensitive ให้ความหมายตรงข้าม และ exposed ไม่เกี่ยวกับมลพิษ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Board games make a comeback",
+          "text": "Ten years ago, many people predicted that board games would soon disappear, replaced by video games and phone apps. Instead, the opposite ___1___. Board-game cafés have opened in cities from Bangkok to Berlin, and sales of new games have risen steadily for more than a decade.\n\nPart of the appeal is social. Players sit around the same table, talk face to face and laugh at each other's mistakes, ___2___ many online games are played alone in separate rooms. For teenagers who spend much of the day looking at screens, this can feel refreshingly different.\n\nModern board games have also changed. Older family games often depended largely on luck, ___3___ today's most popular titles reward planning, cooperation and careful decision-making. In some games, players do not compete at all; instead, they work together to ___4___ a shared challenge, such as stopping a flood or rebuilding a city.\n\nTeachers have noticed these benefits too. Some schools now run board-game clubs where students practise negotiation and problem-solving. One teacher in Khon Kaen said that shy students who rarely speak in class often become confident leaders once a game ___5___.",
+          "items": [
+            {
+              "id": "AL-S2-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "has been happened",
+                "had happened",
+                "has happened",
+                "will happen"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "เหตุการณ์เริ่มตั้งแต่สิบปีก่อนและยังส่งผลถึงปัจจุบัน (\"have risen steadily for more than a decade\") จึงใช้ present perfect \"has happened\" ส่วน happen เป็นกริยาที่ไม่มีกรรม จึงใช้รูป passive \"has been happened\" ไม่ได้"
+            },
+            {
+              "id": "AL-S2-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "so that",
+                "because",
+                "unless",
+                "whereas"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ประโยคเปรียบเทียบความต่างระหว่างการนั่งเล่นด้วยกันกับเกมออนไลน์ที่เล่นคนเดียว จึงใช้ \"whereas\" ซึ่งแสดงความแตกต่าง ส่วนคำอื่นแสดงเหตุผล จุดประสงค์ หรือเงื่อนไข"
+            },
+            {
+              "id": "AL-S2-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "as long as",
+                "so",
+                "since",
+                "while"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "เกมรุ่นเก่าพึ่งดวง ขณะที่เกมยุคใหม่เน้นการวางแผน เป็นการเปรียบเทียบสองสิ่งที่ต่างกัน จึงใช้ \"while\" (ในขณะที่) ส่วน so และ since แสดงผลและเหตุ ซึ่งไม่สมเหตุสมผล"
+            },
+            {
+              "id": "AL-S2-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "avoid",
+                "overcome",
+                "discover",
+                "accept"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "ผู้เล่นร่วมมือกันเพื่อ \"เอาชนะ\" ความท้าทาย เช่น หยุดน้ำท่วมหรือสร้างเมืองขึ้นใหม่ จึงใช้ overcome ส่วน avoid, discover และ accept ไม่เข้ากับการร่วมมือกันแก้ปัญหา"
+            },
+            {
+              "id": "AL-S2-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "will begin",
+                "begins",
+                "beginning",
+                "is begun"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลัง \"once\" ที่บอกเวลาในประโยคที่กล่าวถึงความจริงทั่วไป ใช้ present simple \"begins\" ไม่ใช้ will และ begin ในที่นี้ไม่มีกรรม จึงใช้ passive \"is begun\" ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Birds in a noisy city",
+          "text": "Anyone who lives in a busy city may have noticed that the birds there seem to sing ___1___ than birds in the countryside. This is not just imagination. Researchers in several countries have reported that many urban birds have changed their songs in order to be heard above the noise of traffic, building work and air conditioners.\n\nThe most common change is in pitch. Traffic noise is mostly low, so birds that sing at a higher pitch are less likely to have their songs ___2___ out. Some species also sing at different times of day. In some cities, robins have been heard singing at night, ___3___ the streets are quieter and their songs travel further.\n\nThese changes come at a cost, however. Singing louder and higher uses more energy, leaving less time and strength for finding food. In very noisy areas, young birds may also struggle to ___4___ the songs of their own species, because they hear them less clearly while they are learning.\n\nScientists hope that city planners will take these findings into account. Quieter road surfaces, more trees and fewer night-time building works could all help birds ___5___ their natural songs.",
+          "items": [
+            {
+              "id": "AL-S2-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "louder",
+                "the loudest",
+                "as loud",
+                "most loudly"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "มีคำว่า \"than\" ตามหลัง จึงต้องใช้ขั้นกว่า \"louder\" ส่วน the loudest และ most loudly เป็นขั้นสูงสุด และ as loud ต้องคู่กับ as ไม่ใช่ than"
+            },
+            {
+              "id": "AL-S2-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "drowned",
+                "drowning",
+                "to drown",
+                "drown"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง have + กรรม + V3 ใช้เมื่อกรรมถูกกระทำ เสียงร้องของนก \"ถูกกลบ\" โดยเสียงรถ จึงใช้ \"have their songs drowned out\""
+            },
+            {
+              "id": "AL-S2-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "although",
+                "unless",
+                "when",
+                "so that"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "นกร้องตอนกลางคืน ซึ่งเป็นช่วงเวลาที่ถนนเงียบกว่า จึงใช้ \"when\" บอกเวลา ส่วน although แสดงความขัดแย้ง และ so that แปลว่านกร้องเพื่อให้ถนนเงียบ ซึ่งไม่สมเหตุสมผล"
+            },
+            {
+              "id": "AL-S2-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "forget",
+                "ignore",
+                "replace",
+                "copy"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "ลูกนกเรียนเพลงโดยฟังแล้วเลียนแบบ เมื่อได้ยินไม่ชัดจึง \"เลียนแบบ\" เพลงของนกชนิดเดียวกันได้ยาก จึงใช้ copy ส่วน forget และ ignore ไม่เข้ากับคำว่า struggle และเหตุผลว่าได้ยินไม่ชัด"
+            },
+            {
+              "id": "AL-S2-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "lose",
+                "change",
+                "keep",
+                "lower"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ถนนที่เงียบขึ้นและต้นไม้ที่มากขึ้นช่วยให้นกไม่ต้องปรับเสียง จึง \"รักษา\" เพลงตามธรรมชาติไว้ได้ (keep) ส่วน lose และ change ขัดกับเจตนาของการลดเสียงรบกวน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เลือกลำดับของประโยคที่ทำให้ได้ย่อหน้าที่ต่อเนื่องและสมเหตุสมผลที่สุด",
+          "title": "Writing down a family recipe",
+          "text": "A. She soon discovered, however, that her grandmother never measured anything.\nB. Last summer, Nok decided to learn how to make her grandmother's famous green curry.\nC. So Nok watched closely and noted every handful and pinch as a rough measurement.\nD. The recipe card she made from those notes is now used by the whole family.",
+          "items": [
+            {
+              "id": "AL-S2-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – C – A – D",
+                "A – B – C – D",
+                "B – A – C – D",
+                "B – A – D – C"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B แนะนำ Nok และความตั้งใจ A (\"however\") ปัญหาว่ายายไม่เคยตวงอะไรเลย C (\"So\") วิธีแก้ที่เป็นผลจากปัญหา และ D (\"those notes\") อ้างถึงสิ่งที่จดไว้ใน C"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เลือกลำดับของประโยคที่ทำให้ได้ย่อหน้าที่ต่อเนื่องและสมเหตุสมผลที่สุด",
+          "title": "How a cactus survives",
+          "text": "A. Its thick, fleshy stem, for example, can swell like a sponge after a rare rainstorm.\nB. Few plants could survive months without rain, yet the cactus thrives in some of the driest places on Earth.\nC. In addition, its leaves have become sharp spines, which lose far less water than flat leaves would.\nD. The secret lies in a body that is built to store water and to waste as little as possible.\nE. Together, these features allow a cactus to stay green long after the plants around it have dried out.",
+          "items": [
+            {
+              "id": "AL-S2-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – D – C – E",
+                "B – D – A – C – E",
+                "D – B – A – C – E",
+                "B – D – C – A – E"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "B ตั้งข้อสงสัยว่ากระบองเพชรรอดในที่แห้งแล้งได้อย่างไร D (\"The secret\") ให้คำตอบ A (\"for example\") ตัวอย่างแรกเรื่องลำต้นเก็บน้ำ C (\"In addition\") ตัวอย่างที่สองเรื่องใบที่กลายเป็นหนาม และ E (\"these features\") สรุป"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เลือกลำดับของประโยคที่ทำให้ได้ย่อหน้าที่ต่อเนื่องและสมเหตุสมผลที่สุด",
+          "title": "Why every child should learn to swim",
+          "text": "A. Some people argue that, whatever its benefits, swimming lessons are too expensive for schools without a pool.\nB. Every child should learn to swim before leaving primary school.\nC. However, schools can share a public pool or run short courses in the holidays, so cost need not stand in the way.\nD. The most obvious reason is safety, since many Thai children live and play near rivers, canals or the sea.\nE. Swimming is also one of the few sports that people of almost any age or fitness level can enjoy for life.",
+          "items": [
+            {
+              "id": "AL-S2-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – E – D – A – C",
+                "D – B – E – A – C",
+                "B – A – C – D – E",
+                "B – D – E – A – C"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "B เป็นข้อเสนอหลัก D (\"The most obvious reason\") ให้เหตุผลข้อแรก E (\"also\") เหตุผลข้อที่สอง A (\"whatever its benefits\") ยกข้อโต้แย้งหลังจากกล่าวถึงประโยชน์แล้ว และ C (\"However\") ตอบข้อโต้แย้งเรื่องค่าใช้จ่าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เลือกลำดับของประโยคที่ทำให้ได้ย่อหน้าที่ต่อเนื่องและสมเหตุสมผลที่สุด",
+          "title": "Choosing the right pet",
+          "text": "A. Owners with busy schedules, by contrast, may be happier with a cat or a few fish.\nB. People who have plenty of free time and enjoy being outdoors are often well suited to dogs.\nC. Before choosing a pet, it is worth thinking honestly about the way you live.\nD. Such owners can give a dog the daily walks and company that it needs.",
+          "items": [
+            {
+              "id": "AL-S2-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – C – D – A",
+                "C – A – B – D",
+                "C – D – B – A",
+                "C – B – D – A"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "C เป็นประโยคใจความหลัก B พูดถึงคนที่มีเวลาว่างมากซึ่งเหมาะกับสุนัข D (\"Such owners\") อ้างถึงกลุ่มใน B และ A (\"by contrast\") พูดถึงคนที่ยุ่ง ซึ่งต้องตามหลังกลุ่มแรก"
+            }
+          ]
+        },
+        {
+          "id": "AL-S2-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เลือกลำดับของประโยคที่ทำให้ได้ย่อหน้าที่ต่อเนื่องและสมเหตุสมผลที่สุด",
+          "title": "Films under the stars",
+          "text": "A. When it closed in 2022, families had to travel to the provincial capital to see a film.\nB. For years, the small town of Ban Khao Lek had just one cinema.\nC. Since then, hundreds of residents have gathered there on the first Saturday of every month.\nD. In 2024, a group of students solved this problem by holding free outdoor screenings on their school field.",
+          "items": [
+            {
+              "id": "AL-S2-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – D – A – C",
+                "A – B – D – C",
+                "B – A – D – C",
+                "B – A – C – D"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B แนะนำโรงภาพยนตร์แห่งเดียว A ใช้ \"it\" อ้างถึงโรงภาพยนตร์และบอกปัญหาเมื่อปิดตัว D ใช้ \"this problem\" อ้างถึง A และ C ใช้ \"Since then... there\" อ้างถึงปี 2024 และสนามโรงเรียนใน D"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI) — ยังไม่ได้ตรวจโดยครู",
+    "date": "2026-11-10",
+    "agree": 80,
+    "total": 80,
+    "rounds": "รอบ 1 ตรงเฉลย 80/80 · แก้หัวข้อซ้ำในชุด/ความยาวตัวเลือก/แหล่งอ้างอิงสมมุติ · รอบ 2 (ทั้งชุด) ตรง 80/80 · v1.19.1: แก้ตัวลวง + เขียนใหม่ G03/G07/G18 — ตรวจแบบไม่เห็นเฉลย 5 กลุ่ม ตรง 18/18"
+  }
+}

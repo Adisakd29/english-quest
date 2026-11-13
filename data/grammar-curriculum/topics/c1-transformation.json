@@ -1,0 +1,506 @@
+{
+  "id": "c1-transformation",
+  "summaryTh": "เขียนประโยคใหม่ให้ความหมายเท่าเดิมด้วย key word แบบข้อสอบ Cambridge C1 Part 4",
+  "concept": {
+    "what": "Sentence transformation คือการเขียนประโยคใหม่ให้ความหมายเหมือนเดิมทุกอย่าง โดยต้องใช้คำที่กำหนด (key word) โดยไม่เปลี่ยนรูปคำนั้น — เหมือนข้อสอบ Cambridge C1 Advanced Part 4 ซึ่งทดสอบทั้งไวยากรณ์ (passive, inversion, conditionals, wish, reporting verbs) และสำนวน/บุพบท (no point in, accuse of, call off)",
+    "when": [
+      "ทำข้อสอบ C1 Advanced / B2 First / IELTS ส่วน rewrite",
+      "เขียนงานให้หลากหลาย ไม่ใช้โครงสร้างเดิมซ้ำ ๆ",
+      "paraphrase ในงานวิชาการเพื่อไม่ลอกประโยคต้นฉบับ"
+    ],
+    "why": "ข้อนี้วัดว่าเข้าใจความหมายจริงหรือแค่แปลคำต่อคำ — คนไทยมักเปลี่ยนความหมายโดยไม่รู้ตัว (เปลี่ยน tense ลืมปฏิเสธ สลับผู้กระทำ) เปลี่ยนรูป key word (said → say) หรือลืมบุพบทที่มากับสำนวน (accuse sb of, no point in)"
+  },
+  "structure": {
+    "formula": "ประโยคต้นฉบับ + KEY WORD (ห้ามเปลี่ยนรูป) → ประโยคใหม่ความหมายเท่าเดิม (ในข้อสอบจริงเติม 3–6 คำ)",
+    "rows": [
+      {
+        "label": "Passive / complex passive",
+        "formula": "People say (that) … → Subject + is said + to V / to have V3",
+        "example": "People say he is rich. (SAID) → He [[is said to be]] rich."
+      },
+      {
+        "label": "Inversion",
+        "formula": "Never / Rarely / Only when … + auxiliary + subject",
+        "example": "I had never seen such chaos. (NEVER) → [[Never had I seen]] such chaos."
+      },
+      {
+        "label": "Conditionals",
+        "formula": "เหตุ-ผลในอดีต → If + had + V3, … would have + V3",
+        "example": "We lost because we didn't train. (HAD) → [[If we had trained]], we would have won."
+      },
+      {
+        "label": "Reporting verbs",
+        "formula": "accuse sb of V-ing · apologise for V-ing · offer to V",
+        "example": "'You lied!' she told him. (ACCUSED) → She [[accused him of lying]]."
+      },
+      {
+        "label": "Wish / regret",
+        "formula": "เสียดายอดีต → wish + had + V3",
+        "example": "I'm sorry I didn't call. (WISH) → I [[wish I had called]]."
+      },
+      {
+        "label": "Fixed phrases",
+        "formula": "There is no point in + V-ing · call off · regardless of …",
+        "example": "It's useless to complain. (POINT) → There [[is no point in complaining]]."
+      },
+      {
+        "label": "Modal perfect",
+        "formula": "It's possible that + past → might have + V3",
+        "example": "Perhaps she missed the bus. (MIGHT) → She [[might have missed]] the bus."
+      }
+    ],
+    "notes": [
+      "ห้ามเปลี่ยนรูป key word: said ต้องเป็น said (ไม่ใช่ say / saying)",
+      "ความหมายต้องเท่าเดิม: tense ปฏิเสธ จำนวน และใครทำอะไรให้ใคร",
+      "ในข้อสอบจริงช่องว่างใช้ 3–6 คำ (รวม key word) และคำย่อนับเป็น 2 คำ (don't = do not)",
+      "ข้อสอบมักให้คะแนน 2 จุด: โครงสร้างไวยากรณ์ 1 จุด + คำศัพท์/บุพบท 1 จุด — ตรวจทั้งสองจุดเสมอ"
+    ]
+  },
+  "examples": [
+    {
+      "en": "People believe the temple is 800 years old. → The temple [[is believed to be]] 800 years old.",
+      "th": "เชื่อกันว่าวัดนี้มีอายุ 800 ปี"
+    },
+    {
+      "en": "I have never seen such a beautiful sunset. → [[Never have I seen]] such a beautiful sunset.",
+      "th": "ฉันไม่เคยเห็นพระอาทิตย์ตกที่สวยขนาดนี้มาก่อน"
+    },
+    {
+      "en": "We missed the flight because we left late. → [[If we hadn't left]] late, we wouldn't have missed the flight.",
+      "th": "ถ้าเราไม่ออกช้า เราคงไม่ตกเครื่อง"
+    },
+    {
+      "en": "“I'll help you with the project,” he said. → He [[offered to help]] me with the project.",
+      "th": "เขาเสนอตัวช่วยฉันทำโปรเจกต์"
+    },
+    {
+      "en": "It's not worth arguing with him. → There's [[no point in arguing]] with him.",
+      "th": "เถียงกับเขาไปก็ไม่มีประโยชน์"
+    },
+    {
+      "en": "I regret not studying harder. → I [[wish I had studied]] harder.",
+      "th": "ฉันเสียดายที่ไม่ได้ตั้งใจเรียนให้มากกว่านี้"
+    },
+    {
+      "en": "She didn't apologise at any point. → [[At no point did she apologise]].",
+      "th": "เธอไม่ได้ขอโทษเลยสักครั้ง"
+    },
+    {
+      "en": "They postponed the meeting until Friday. → The meeting [[was put off]] until Friday.",
+      "th": "การประชุมถูกเลื่อนไปเป็นวันศุกร์"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "(SAID) He is said being rich.",
+      "right": "He is said to be rich.",
+      "whyTh": "be said ตามด้วย to-infinitive ไม่ใช่ -ing"
+    },
+    {
+      "wrong": "(WISH) I wish I didn't leave so early yesterday.",
+      "right": "I wish I hadn't left so early yesterday.",
+      "whyTh": "เสียดายเรื่องในอดีต ใช้ wish + past perfect (had + V3) — past simple ใช้กับเรื่องปัจจุบัน"
+    },
+    {
+      "wrong": "(ACCUSED) She accused him to break the window.",
+      "right": "She accused him of breaking the window.",
+      "whyTh": "accuse + คน + of + V-ing — บุพบท of เป็นหนึ่งในจุดที่ได้คะแนน"
+    },
+    {
+      "wrong": "(NEVER) Never I have seen such chaos.",
+      "right": "Never have I seen such chaos.",
+      "whyTh": "ขึ้นต้นด้วย Never ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion)"
+    },
+    {
+      "wrong": "(POINT) There is no point to complain.",
+      "right": "There is no point in complaining.",
+      "whyTh": "สำนวนคือ no point in + V-ing (หรือ no point + V-ing) ไม่ใช่ to + V"
+    },
+    {
+      "wrong": "(DESPITE) Despite it rained, we went out.",
+      "right": "Despite the rain, we went out.",
+      "whyTh": "despite ตามด้วยคำนาม/V-ing ไม่ใช่ประโยค — หรือใช้ despite the fact that it rained"
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "school",
+      "title": "Exam tips from a teacher",
+      "lines": [
+        {
+          "speaker": "Teacher",
+          "text": "Look at this one: 'People think the bridge was built by the French.' Key word: THOUGHT."
+        },
+        {
+          "speaker": "Beam",
+          "text": "So … the bridge [[is thought to have been built]] by the French?"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Perfect. You kept the past meaning with [[to have been]]. What about 'It's useless to wait' with POINT?"
+        },
+        {
+          "speaker": "Beam",
+          "text": "There's [[no point in waiting]]."
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Great. Always check two things: the grammar and the little words, like [[in]] or [[of]]."
+        }
+      ]
+    },
+    {
+      "kind": "message",
+      "title": "Study group chat",
+      "lines": [
+        {
+          "speaker": "Fah",
+          "text": "Help! 'I didn't bring an umbrella, so I got wet.' Key word: HAD."
+        },
+        {
+          "speaker": "Ton",
+          "text": "[[If I had brought]] an umbrella, I [[wouldn't have got]] wet."
+        },
+        {
+          "speaker": "Fah",
+          "text": "Thanks! And 'It's a pity I didn't go' with WISH?"
+        },
+        {
+          "speaker": "Ton",
+          "text": "I [[wish I had gone]]. Past regret = had + V3."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Key word transformation",
+      "th": "การเขียนประโยคใหม่โดยต้องใช้คำที่กำหนด"
+    },
+    {
+      "en": "Paraphrase",
+      "th": "การถอดความด้วยคำ/โครงสร้างใหม่ ความหมายเดิม"
+    },
+    {
+      "en": "Inversion",
+      "th": "การสลับกริยาช่วยไปไว้หน้าประธาน (Never have I …)"
+    },
+    {
+      "en": "Reporting verb",
+      "th": "กริยาเล่าคำพูด เช่น accuse, apologise, offer, deny"
+    },
+    {
+      "en": "Fixed phrase",
+      "th": "สำนวนตายตัวที่ต้องจำบุพบทด้วย เช่น no point in"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-transformation-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "“I'm sorry I was late,” said Ploy. → Ploy ___ late. (APOLOGISED)",
+      "choices": [
+        "apologised for being",
+        "apologised to be",
+        "said sorry being",
+        "apologised that being"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "apologise ไม่ตามด้วย to-infinitive — ต้องเป็น apologise for + V-ing",
+        "2": "ไม่ได้ใช้ key word APOLOGISED และ said sorry being ผิดโครงสร้าง",
+        "3": "that ต้องตามด้วยประโยคเต็ม ไม่ใช่ being"
+      },
+      "explainTh": "apologise + for + V-ing → Ploy apologised for being late.",
+      "structure": "apologise for + V-ing",
+      "example": "Ploy apologised for being late."
+    },
+    {
+      "id": "c1-transformation-02",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "It's possible that Somchai forgot about the meeting. → Somchai ___ about the meeting. (MIGHT)",
+      "choices": [
+        "might have forgotten",
+        "might forget",
+        "might have forgot",
+        "might be forgotten"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "might forget เป็นอนาคต/ปัจจุบัน แต่ต้นฉบับพูดถึงอดีต (forgot)",
+        "2": "รูป V3 ของ forget คือ forgotten",
+        "3": "might be forgotten เป็น passive = สมชายอาจถูกลืม ความหมายเปลี่ยน"
+      },
+      "explainTh": "คาดเดาเรื่องในอดีต: might + have + V3 → might have forgotten"
+    },
+    {
+      "id": "c1-transformation-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "People say that the island is very beautiful. → The island ___ very beautiful. (SAID)",
+      "accepted": [
+        "is said to be"
+      ],
+      "explainTh": "People say that … → Subject + is said + to + V1 (เวลาเดียวกัน)"
+    },
+    {
+      "id": "c1-transformation-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "It isn't worth complaining to the manager. → There ___ to the manager. (POINT)",
+      "accepted": [
+        "is no point in complaining",
+        "is no point complaining",
+        "isn't any point in complaining",
+        "isn't any point complaining"
+      ],
+      "explainTh": "It isn't worth + V-ing = There is no point (in) + V-ing — จุดที่ได้คะแนน: no point + in + V-ing"
+    },
+    {
+      "id": "c1-transformation-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I regret not taking the job offer. → I ___ the job offer. (WISH)",
+      "accepted": [
+        "wish I had taken",
+        "wish that I had taken",
+        "wish I'd taken",
+        "wish I had accepted",
+        "wish that I had accepted",
+        "wish I'd accepted"
+      ],
+      "explainTh": "เสียดายเรื่องในอดีต → wish + had + V3 (not taking = ไม่ได้รับ → wish I had taken)"
+    },
+    {
+      "id": "c1-transformation-06",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "We only realised how serious the problem was when the report came out. → Only when the report came out ___ how serious the problem was. (DID)",
+      "accepted": [
+        "did we realise",
+        "did we realize"
+      ],
+      "explainTh": "Only when … ขึ้นต้นประโยค → สลับกริยาช่วยในประโยคหลัก: did + we + V1 (realise)"
+    },
+    {
+      "id": "c1-transformation-07",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "They cancelled the concert because of the storm. → The concert ___ because of the storm. (CALLED)",
+      "accepted": [
+        "was called off"
+      ],
+      "explainTh": "cancel = call off · ต้นฉบับเป็นอดีต active → passive: was + called off"
+    },
+    {
+      "id": "c1-transformation-08",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "If you don't book in advance, you won't get a seat.",
+      "instruction": "เขียนใหม่โดยใช้คำว่า UNLESS (ห้ามเปลี่ยนรูป)",
+      "accepted": [
+        "Unless you book in advance, you won't get a seat.",
+        "Unless you book in advance you won't get a seat.",
+        "You won't get a seat unless you book in advance."
+      ],
+      "explainTh": "unless = if … not → ตัด don't ออก: Unless you book … (ถ้าใส่ don't ซ้ำจะกลายเป็นปฏิเสธซ้อน)"
+    },
+    {
+      "id": "c1-transformation-09",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "“You broke my phone!” Nina said to her brother.",
+      "instruction": "เขียนใหม่โดยใช้คำว่า ACCUSED",
+      "accepted": [
+        "Nina accused her brother of breaking her phone.",
+        "Nina accused her brother of having broken her phone."
+      ],
+      "explainTh": "accuse + คน + of + V-ing · my phone ในคำพูดตรง → her phone ในการเล่า"
+    },
+    {
+      "id": "c1-transformation-10",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "I had never been so embarrassed before.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย NEVER (inversion)",
+      "accepted": [
+        "Never had I been so embarrassed before.",
+        "Never before had I been so embarrassed.",
+        "Never had I been so embarrassed."
+      ],
+      "explainTh": "Never ขึ้นต้นประโยค → สลับกริยาช่วย had มาไว้หน้า I: Never had I been …"
+    },
+    {
+      "id": "c1-transformation-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "We didn't go out because it was raining heavily.",
+      "instruction": "เขียนใหม่โดยใช้คำว่า HAD (ประโยคเงื่อนไขแบบที่ 3)",
+      "accepted": [
+        "If it hadn't been raining heavily, we would have gone out.",
+        "If it hadn't been raining heavily we would have gone out.",
+        "We would have gone out if it hadn't been raining heavily.",
+        "Had it not been raining heavily, we would have gone out.",
+        "If it hadn't rained heavily, we would have gone out.",
+        "We would have gone out if it hadn't rained heavily.",
+        "Had it not rained heavily, we would have gone out.",
+        "If it hadn't been raining so heavily, we would have gone out.",
+        "We would have gone out if it hadn't been raining so heavily.",
+        "Had it not been raining so heavily, we would have gone out.",
+        "We would have gone out had it not been raining heavily.",
+        "We would have gone out had it not rained heavily."
+      ],
+      "explainTh": "เหตุ-ผลที่เกิดจริงในอดีต → สมมุติตรงข้าม: If + had (not) + V3, would have + V3 — ไม่ได้ออกไป → would have gone out · ฝนตก → hadn't been raining"
+    },
+    {
+      "id": "c1-transformation-12",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Although the hotel was expensive, we enjoyed our stay.",
+      "instruction": "เขียนใหม่โดยใช้คำว่า DESPITE",
+      "accepted": [
+        "Despite the hotel being expensive, we enjoyed our stay.",
+        "Despite the fact that the hotel was expensive, we enjoyed our stay.",
+        "Despite the high cost of the hotel, we enjoyed our stay.",
+        "Despite the high price of the hotel, we enjoyed our stay.",
+        "Despite the hotel's high price, we enjoyed our stay.",
+        "Despite the expense of the hotel, we enjoyed our stay.",
+        "We enjoyed our stay despite the hotel being expensive.",
+        "We enjoyed our stay despite the fact that the hotel was expensive.",
+        "We enjoyed our stay despite the high cost of the hotel.",
+        "We enjoyed our stay despite the high price of the hotel.",
+        "Despite the hotel's high cost, we enjoyed our stay.",
+        "We enjoyed our stay despite the hotel's high price."
+      ],
+      "explainTh": "despite + คำนาม / V-ing / the fact that + ประโยค — ห้ามตามด้วยประโยคตรง ๆ (despite the hotel was ✗)"
+    },
+    {
+      "id": "c1-transformation-13",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "There's no point to argue about it now.",
+      "errorPart": "to argue",
+      "accepted": [
+        "There's no point in arguing about it now.",
+        "There's no point arguing about it now."
+      ],
+      "explainTh": "สำนวน no point + (in) + V-ing ไม่ใช่ to + V1"
+    },
+    {
+      "id": "c1-transformation-14",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "She accused me to lie about the money.",
+      "errorPart": "to lie",
+      "accepted": [
+        "She accused me of lying about the money.",
+        "She accused me of having lied about the money."
+      ],
+      "explainTh": "accuse + คน + of + V-ing → accused me of lying"
+    },
+    {
+      "id": "c1-transformation-15",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "ประโยคเดิม: “It's a pity I didn't see the film.” — เลือกประโยคที่ความหมายเท่ากันและใช้ WISH ถูกต้อง",
+      "choices": [
+        "I wish I saw the film.",
+        "I wish I had seen the film.",
+        "I wish I would see the film.",
+        "I wish I have seen the film."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "wish + past simple ใช้กับเรื่องปัจจุบัน แต่ didn't see เป็นอดีต",
+        "2": "wish + would ใช้บ่นอยากให้คนอื่นเปลี่ยนพฤติกรรม ไม่ใช่เสียดายอดีต",
+        "3": "หลัง wish ไม่ใช้ present perfect"
+      },
+      "explainTh": "เสียดายสิ่งที่ไม่ได้ทำในอดีต → wish + had + V3 → I wish I had seen the film."
+    },
+    {
+      "id": "c1-transformation-16",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ key word กับโครงสร้างที่มักใช้ด้วย",
+      "pairs": [
+        [
+          "POINT",
+          "There is no point in + V-ing"
+        ],
+        [
+          "ACCUSED",
+          "accuse sb of + V-ing"
+        ],
+        [
+          "SAID",
+          "be said to + V1 / to have + V3"
+        ],
+        [
+          "WISH",
+          "wish + had + V3 (เสียดายเรื่องในอดีต)"
+        ],
+        [
+          "UNLESS",
+          "unless + present simple (= if … not)"
+        ]
+      ],
+      "explainTh": "จำ key word พร้อมโครงสร้างและบุพบทที่มาด้วย เพราะข้อสอบให้คะแนนทั้งสองส่วน"
+    },
+    {
+      "id": "c1-transformation-17",
+      "type": "context",
+      "difficulty": 2,
+      "context": {
+        "kind": "school",
+        "title": "Teacher's feedback",
+        "lines": [
+          {
+            "text": "Original sentence: People think the factory closed in 1998. Key word: THOUGHT. Student's answer: The factory is thought to be closed in 1998."
+          }
+        ]
+      },
+      "question": "What is wrong with the student's answer?",
+      "choices": [
+        "It should be 'to have closed' because the closing happened in the past.",
+        "THOUGHT should be changed to THINK.",
+        "It should begin with 'It is thought to'.",
+        "Nothing — the answer is correct."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ห้ามเปลี่ยนรูป key word — ต้องใช้ THOUGHT ตามที่กำหนด",
+        "2": "It is thought ต้องตามด้วย that + ประโยค ไม่ใช่ to",
+        "3": "to be closed ไม่ตรงกับเหตุการณ์ปิดตัวในปี 1998 (อดีต)"
+      },
+      "explainTh": "โรงงานปิดในอดีต (1998) ก่อนเวลาที่ “คิด” (ปัจจุบัน) → is thought + to have + V3 → The factory is thought to have closed in 1998."
+    },
+    {
+      "id": "c1-transformation-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียนประโยคใหม่ 3 ประโยคให้ความหมายเท่าเดิม โดยใช้ key word: (1) People believe the company lost money during the crisis. → BELIEVED (ขึ้นต้นด้วย The company) (2) It's useless to wait. → POINT (3) I didn't study, so I failed. → HAD (Rewrite the 3 sentences using the key words.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(is|was)\\s+believed\\s+to\\s+have\\s+lost\\b",
+          "flags": "i",
+          "msgTh": "ประโยคที่ 1: The company is believed to have lost … (เรื่องในอดีต → to have + V3)"
+        },
+        {
+          "re": "\\bno\\s+point\\s+(in\\s+)?waiting\\b",
+          "flags": "i",
+          "msgTh": "ประโยคที่ 2: There is no point (in) waiting."
+        },
+        {
+          "re": "\\bif\\s+i\\s+had\\s+studied\\b|\\bhad\\s+i\\s+studied\\b|\\bif\\s+i'd\\s+studied\\b",
+          "flags": "i",
+          "msgTh": "ประโยคที่ 3: If I had studied, I would not have failed. (ประโยคเงื่อนไขแบบที่ 3)"
+        }
+      ],
+      "sample": "The company is believed to have lost money during the crisis. There is no point in waiting. If I had studied, I would not have failed.",
+      "explainTh": "ตรวจ 2 จุดทุกข้อ: โครงสร้าง (to have + V3 / no point in + V-ing / If + had + V3) และความหมาย (tense กับการปฏิเสธต้องเท่าเดิม)"
+    }
+  ]
+}

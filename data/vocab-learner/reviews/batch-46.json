@@ -1,0 +1,88 @@
+{
+  "batch": "46",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S1097",
+      "severity": "minor",
+      "problem": "meaningEN/example are the 'taking turns in a fixed order' sense, but thai 'การหมุน' and collocation 'the rotation of the Earth' belong to the spinning sense",
+      "fix": {
+        "thai": "การหมุนเวียน, การสับเปลี่ยน",
+        "shortTH": "การหมุนเวียน",
+        "thaiChangeReason": "ความหมายนี้คือการสลับเปลี่ยนตามลำดับ ไม่ใช่การหมุนรอบแกน",
+        "collocations": [
+          "crop rotation",
+          "in rotation",
+          "job rotation"
+        ]
+      }
+    },
+    {
+      "id": "C1-S1095",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'his fishing ___' also fits pole (fishing pole is common, esp. US)",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1105",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'for the ___ of the children' also fits safety",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1107",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'should have a ___ in how the school spends' also fits voice",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1136",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The photo ___ on the beach' also fits session",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1139",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Mali ___ with relief' also fits smiled/cried/laughed",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1137",
+      "severity": "minor",
+      "problem": "gapOk slightly optimistic: 'My T-shirt ___ when I washed it in hot water' also fits faded",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1127",
+      "severity": "minor",
+      "problem": "Collocation 'serial number' is a different sense (items in a series), not 'doing the same thing many times'",
+      "fix": {
+        "collocations": [
+          "serial entrepreneur",
+          "a serial offender"
+        ]
+      }
+    },
+    {
+      "id": "C1-S1048",
+      "severity": "minor",
+      "problem": "exampleTH 'เลือกรถคันนี้เพราะความไว้ใจได้' is unnatural for a car; also 'this car' as a product is รุ่นนี้",
+      "fix": {
+        "exampleTH": "ลูกค้าเลือกรถรุ่นนี้เพราะความทนทานและเชื่อถือได้ ไม่ใช่เพราะความเร็ว"
+      }
+    }
+  ]
+}

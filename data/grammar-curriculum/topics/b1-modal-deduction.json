@@ -1,0 +1,544 @@
+{
+  "id": "b1-modal-deduction",
+  "summaryTh": "คาดเดาเรื่องตอนนี้จากหลักฐาน: แน่ใจว่าใช่ (must) อาจจะ (might/may/could) แน่ใจว่าไม่ใช่ (can't)",
+  "concept": {
+    "what": "Modals of deduction คือการใช้ must / might / may / could / can't เพื่อบอกว่าเรา \"คิดว่า\" เรื่องหนึ่งจริงแค่ไหน โดยดูจากหลักฐานที่เห็นหรือรู้ตอนนี้ ไม่ใช่การบอกข้อเท็จจริงตรง ๆ",
+    "when": [
+      "แน่ใจเกือบ 100% ว่าใช่ → must (He's yawning. He must be tired.)",
+      "ไม่แน่ใจ อาจจะใช่ → might / may / could (She might be at the library.)",
+      "แน่ใจเกือบ 100% ว่าไม่ใช่ → can't (That can't be Tom. He's in Japan.)",
+      "อาจจะไม่ใช่ → might not / may not (He might not know the answer.)",
+      "คาดเดาสิ่งที่กำลังเกิดตอนนี้ → modal + be + V-ing (She must be sleeping.)"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"คงจะ\" \"น่าจะ\" \"อาจจะ\" \"ไม่น่าจะ / เป็นไปไม่ได้\" ภาษาอังกฤษใช้กริยาช่วยแทน จุดที่คนไทยพลาดบ่อยคือคิดว่าตรงข้ามของ must คือ mustn't — แต่เวลา \"คาดเดา\" ตรงข้ามของ must คือ can't ส่วน mustn't แปลว่า \"ห้าม\""
+  },
+  "structure": {
+    "formula": "Subject + must / might / may / could / can't + V1",
+    "rows": [
+      {
+        "label": "แน่ใจว่าใช่ (must)",
+        "formula": "Subject + must + V1",
+        "example": "The lights are on. They [[must be]] at home."
+      },
+      {
+        "label": "อาจจะใช่ (might / may / could)",
+        "formula": "Subject + might / may / could + V1",
+        "example": "I'm not sure. She [[might be]] in the canteen."
+      },
+      {
+        "label": "แน่ใจว่าไม่ใช่ (can't)",
+        "formula": "Subject + can't + V1",
+        "example": "He [[can't be]] hungry. He's just had a big lunch."
+      },
+      {
+        "label": "อาจจะไม่ใช่ (might not / may not)",
+        "formula": "Subject + might not / may not + V1",
+        "example": "Ask Ben. He [[may not know]] the way, though."
+      },
+      {
+        "label": "กำลังทำอยู่ตอนนี้ (continuous)",
+        "formula": "Subject + modal + be + V-ing",
+        "example": "She isn't answering. She [[must be driving]]."
+      }
+    ],
+    "notes": [
+      "หลัง must / might / may / could / can't ใช้กริยาช่องที่ 1 ทันที ไม่มี to และไม่เติม -s (She must be, ไม่ใช่ She must to be / She musts be)",
+      "might, may, could (บอกเล่า) มีความหมายใกล้กันมาก = อาจจะ",
+      "ตรงข้ามของ must (คาดเดา) คือ can't ไม่ใช่ mustn't — mustn't = ห้ามทำ",
+      "might not / may not = อาจจะไม่ (ยังไม่แน่ใจ) ต่างจาก can't = แน่ใจว่าไม่ใช่",
+      "maybe (คำเดียว) = บางที ใช้ต้นประโยค (Maybe she's ill.) ไม่ใช่กริยาช่วย — อย่าเขียน She maybe ill.",
+      "คาดเดาเรื่องในอดีตใช้ must have / might have / can't have + V3 (เรียนในระดับ B2)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "You've been travelling all day. You [[must be]] exhausted.",
+      "th": "เธอเดินทางมาทั้งวัน คงเหนื่อยมากแน่ ๆ"
+    },
+    {
+      "en": "Somebody's at the door. It [[might be]] the delivery man.",
+      "th": "มีคนมาที่ประตู อาจจะเป็นคนส่งของก็ได้"
+    },
+    {
+      "en": "That [[can't be]] Mr Somchai. He's on holiday in Japan.",
+      "th": "นั่นไม่ใช่คุณสมชายแน่ ๆ เขาไปเที่ยวญี่ปุ่นอยู่"
+    },
+    {
+      "en": "Take an umbrella. It [[could rain]] later.",
+      "th": "เอาร่มไปด้วย เดี๋ยวฝนอาจจะตก"
+    },
+    {
+      "en": "She [[may not know]] about the meeting. Send her a message.",
+      "th": "เธออาจจะไม่รู้เรื่องประชุม ส่งข้อความบอกเธอหน่อย"
+    },
+    {
+      "en": "This bag is so heavy. There [[must be]] books in it.",
+      "th": "กระเป๋าหนักมาก ข้างในต้องมีหนังสือแน่ ๆ"
+    },
+    {
+      "en": "He isn't replying to my messages. He [[might be sleeping]].",
+      "th": "เขาไม่ตอบข้อความเลย อาจจะกำลังหลับอยู่"
+    },
+    {
+      "en": "That post has 2 million likes! It [[must be]] really funny.",
+      "th": "โพสต์นั้นมีคนกดไลก์สองล้านคน! คงตลกมากแน่ ๆ"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He mustn't be at home. His car isn't there.",
+      "right": "He can't be at home. His car isn't there.",
+      "whyTh": "เวลาคาดเดาว่า \"ไม่ใช่แน่ ๆ\" ใช้ can't — mustn't แปลว่า \"ห้าม\" (You mustn't smoke here.) จึงใช้คาดเดาไม่ได้"
+    },
+    {
+      "wrong": "She must to be very rich.",
+      "right": "She must be very rich.",
+      "whyTh": "หลังกริยาช่วย must / might / can't ใช้กริยาช่องที่ 1 ทันที ไม่มี to"
+    },
+    {
+      "wrong": "They maybe at the cinema.",
+      "right": "They may be at the cinema.",
+      "whyTh": "maybe (คำเดียว) เป็นคำวิเศษณ์ = บางที ไม่ใช่กริยา ประโยคจึงไม่มีกริยา ต้องเขียน may be (สองคำ) หรือ Maybe they are at the cinema."
+    },
+    {
+      "wrong": "He might is busy now.",
+      "right": "He might be busy now.",
+      "whyTh": "หลัง might ต้องใช้ be (รูปฐาน) ไม่ใช่ is / am / are"
+    },
+    {
+      "wrong": "I'm sure it's Ann's pen. It might be hers.",
+      "right": "I'm sure it's Ann's pen. It must be hers.",
+      "whyTh": "ถ้าแน่ใจ (I'm sure) ใช้ must — might แปลว่าแค่ \"อาจจะ\" ซึ่งไม่ตรงกับความมั่นใจของผู้พูด"
+    }
+  ],
+  "compare": {
+    "title": "must (คาดเดา) vs must (หน้าที่)",
+    "with": [
+      "a2-modals"
+    ],
+    "rows": [
+      {
+        "label": "ความหมาย",
+        "a": "คาดเดา: คงจะ / ต้อง…แน่ ๆ",
+        "b": "หน้าที่ / กฎ: ต้องทำ"
+      },
+      {
+        "label": "ปฏิเสธ",
+        "a": "can't (ไม่ใช่แน่ ๆ)",
+        "b": "mustn't (ห้ามทำ)"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "He's shivering. He must be cold.",
+        "b": "You must wear a seatbelt."
+      },
+      {
+        "label": "ตัวอย่างปฏิเสธ",
+        "a": "She can't be cold. It's 35°C.",
+        "b": "You mustn't use your phone in the exam."
+      }
+    ],
+    "tipTh": "ถามตัวเองว่า \"กำลังเดาจากหลักฐาน\" หรือ \"กำลังบอกกฎ\" — ถ้าเดา ตรงข้ามของ must คือ can't เสมอ"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "Whose phone is it?",
+      "lines": [
+        {
+          "speaker": "Fon",
+          "text": "Someone left a phone on the table. Whose is it?"
+        },
+        {
+          "speaker": "Max",
+          "text": "It's got a football sticker on it. It [[must be]] Tony's — he loves football."
+        },
+        {
+          "speaker": "Fon",
+          "text": "It [[can't be]] Tony's. He's got a new phone, and it's white. This one is black."
+        },
+        {
+          "speaker": "Max",
+          "text": "Then it [[might be]] Lek's. Or it [[could be]] the teacher's. Let's take it to the office."
+        }
+      ]
+    },
+    {
+      "kind": "message",
+      "title": "Missing parcel",
+      "lines": [
+        {
+          "text": "Hi Tom, the parcel isn't on the doorstep, but the app says 'delivered', so it [[must be]] somewhere nearby. It [[might be]] with Mrs Chan next door — she often takes our parcels. It [[can't be]] at the post office, because they only keep parcels when nobody is home, and Grandma was home all day. Kate"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Deduction",
+      "th": "การคาดเดา / สรุปจากหลักฐานที่มี"
+    },
+    {
+      "en": "Modal verb",
+      "th": "กริยาช่วย เช่น must, might, can't (ตามด้วยกริยาช่องที่ 1)"
+    },
+    {
+      "en": "Certainty",
+      "th": "ความมั่นใจ — แน่ใจว่าใช่หรือไม่ใช่"
+    },
+    {
+      "en": "Possibility",
+      "th": "ความเป็นไปได้ — อาจจะใช่ อาจจะไม่ใช่"
+    },
+    {
+      "en": "Evidence",
+      "th": "หลักฐาน / สิ่งที่เห็นที่ทำให้เราเดาได้"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-modal-deduction-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Ann has worked for twelve hours today without a break. She ___ be very tired.",
+      "choices": [
+        "must",
+        "can't",
+        "mustn't",
+        "can"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "can't = แน่ใจว่าไม่ใช่ แต่ทำงาน 12 ชั่วโมงเป็นหลักฐานว่าเหนื่อยแน่ ๆ",
+        "2": "mustn't = ห้าม ไม่ใช่การคาดเดา",
+        "3": "can ใช้บอกความสามารถหรือความเป็นไปได้ทั่วไป ไม่ใช้คาดเดาเรื่องของคนคนหนึ่งตอนนี้"
+      },
+      "explainTh": "หลักฐานชัดเจน (ทำงาน 12 ชั่วโมง) ผู้พูดแน่ใจเกือบ 100% → must + V1 → She must be very tired.",
+      "structure": "Subject + must + V1",
+      "example": "She must be very tired."
+    },
+    {
+      "id": "b1-modal-deduction-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "That ___ be Mark at the door. He's on holiday in Japan this week.",
+      "choices": [
+        "must",
+        "can't",
+        "might",
+        "mustn't"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "must = แน่ใจว่าใช่ แต่ Mark อยู่ญี่ปุ่น จึงเป็นไปไม่ได้",
+        "2": "might = อาจจะใช่ แต่เรารู้ว่าเขาอยู่ญี่ปุ่น จึงไม่ใช่แค่ \"ไม่แน่ใจ\"",
+        "3": "mustn't = ห้าม ใช้คาดเดาไม่ได้ (ตรงข้ามของ must ตอนคาดเดาคือ can't)"
+      },
+      "explainTh": "Mark อยู่ญี่ปุ่น จึงแน่ใจว่าคนที่ประตูไม่ใช่เขา → can't + be",
+      "structure": "Subject + can't + V1",
+      "example": "That can't be Mark."
+    },
+    {
+      "id": "b1-modal-deduction-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I don't know where Lek is. She ___ be in the library. (ไม่แน่ใจ = อาจจะ)",
+      "accepted": [
+        "might",
+        "may",
+        "could"
+      ],
+      "explainTh": "ผู้พูดไม่แน่ใจ (I don't know) → ใช้ might / may / could ซึ่งแปลว่า \"อาจจะ\" ได้ทั้งสามคำ",
+      "structure": "Subject + might / may / could + V1",
+      "example": "She might be in the library."
+    },
+    {
+      "id": "b1-modal-deduction-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "You ___ be hungry already! You've just eaten a huge lunch. (แน่ใจว่าไม่จริง)",
+      "accepted": [
+        "can't",
+        "cannot",
+        "couldn't"
+      ],
+      "explainTh": "เพิ่งกินข้าวมื้อใหญ่ไป ผู้พูดแน่ใจว่าไม่หิว → can't be (couldn't be ก็ใช้ได้) ห้ามใช้ mustn't",
+      "structure": "Subject + can't + V1",
+      "example": "You can't be hungry already!"
+    },
+    {
+      "id": "b1-modal-deduction-05",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Jane isn't answering her phone. She ___ (might / drive) right now.",
+      "accepted": [
+        "might be driving"
+      ],
+      "explainTh": "คาดเดาสิ่งที่ \"กำลังทำอยู่ตอนนี้\" (right now) → modal + be + V-ing → might be driving",
+      "structure": "Subject + might + be + V-ing",
+      "example": "She might be driving right now."
+    },
+    {
+      "id": "b1-modal-deduction-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "He mustn't be at work — his car is outside his house.",
+      "errorPart": "mustn't",
+      "accepted": [
+        "He can't be at work — his car is outside his house.",
+        "He couldn't be at work — his car is outside his house.",
+        "He can't be at work. His car is outside his house.",
+        "He can't be at work, his car is outside his house."
+      ],
+      "explainTh": "รถยังจอดอยู่ที่บ้าน ผู้พูดแน่ใจว่าเขาไม่ได้อยู่ที่ทำงาน → can't be — mustn't แปลว่า \"ห้าม\" ใช้คาดเดาไม่ได้",
+      "structure": "Subject + can't + V1"
+    },
+    {
+      "id": "b1-modal-deduction-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "She has three houses and two cars. She must to be very rich.",
+      "errorPart": "must to be",
+      "accepted": [
+        "She has three houses and two cars. She must be very rich."
+      ],
+      "explainTh": "หลัง must ใช้กริยาช่องที่ 1 ทันที ไม่มี to → must be",
+      "structure": "Subject + must + V1"
+    },
+    {
+      "id": "b1-modal-deduction-08",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "You",
+        "must",
+        "be",
+        "tired",
+        "after",
+        "your",
+        "long",
+        "flight"
+      ],
+      "accepted": [
+        "You must be tired after your long flight.",
+        "After your long flight you must be tired.",
+        "After your long flight, you must be tired."
+      ],
+      "explainTh": "Subject + must + be + คำคุณศัพท์ → You must be tired (เดาจากหลักฐาน: เพิ่งบินมานาน)"
+    },
+    {
+      "id": "b1-modal-deduction-09",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "the",
+        "keys",
+        "might",
+        "be",
+        "in",
+        "the",
+        "car"
+      ],
+      "accepted": [
+        "The keys might be in the car."
+      ],
+      "explainTh": "Subject (The keys) + might + be + สถานที่ → The keys might be in the car. (อาจจะอยู่ในรถ)"
+    },
+    {
+      "id": "b1-modal-deduction-10",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I'm sure this is Kate's bag.",
+      "instruction": "เขียนใหม่โดยใช้ must (ไม่ต้องมี I'm sure)",
+      "accepted": [
+        "This must be Kate's bag.",
+        "This bag must be Kate's.",
+        "It must be Kate's bag.",
+        "That must be Kate's bag."
+      ],
+      "explainTh": "I'm sure (แน่ใจว่าใช่) = must → This must be Kate's bag."
+    },
+    {
+      "id": "b1-modal-deduction-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "I'm sure he isn't telling the truth.",
+      "instruction": "เขียนใหม่โดยใช้ can't (ไม่ต้องมี I'm sure) และคงความหมายว่า \"กำลัง\" ไว้",
+      "accepted": [
+        "He can't be telling the truth.",
+        "He couldn't be telling the truth."
+      ],
+      "explainTh": "แน่ใจว่าไม่ใช่ = can't · เรื่องที่กำลังเกิด (isn't telling) → can't + be + V-ing → He can't be telling the truth."
+    },
+    {
+      "id": "b1-modal-deduction-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Perhaps they are in the garden.",
+      "instruction": "เขียนใหม่โดยใช้ might (ไม่ต้องมี Perhaps)",
+      "accepted": [
+        "They might be in the garden."
+      ],
+      "explainTh": "Perhaps = อาจจะ → might + be (are เปลี่ยนเป็น be เพราะหลังกริยาช่วยใช้รูปฐาน)"
+    },
+    {
+      "id": "b1-modal-deduction-13",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่คำกับความหมาย",
+      "pairs": [
+        [
+          "must be",
+          "ฉันแน่ใจว่าใช่"
+        ],
+        [
+          "might be",
+          "อาจจะใช่ (ไม่แน่ใจ)"
+        ],
+        [
+          "can't be",
+          "ฉันแน่ใจว่าไม่ใช่"
+        ],
+        [
+          "might not be",
+          "อาจจะไม่ใช่"
+        ],
+        [
+          "mustn't",
+          "ห้าม (ไม่ใช่การคาดเดา)"
+        ]
+      ],
+      "explainTh": "must = แน่ใจว่าใช่ · might = อาจจะ · can't = แน่ใจว่าไม่ใช่ · might not = อาจจะไม่ · mustn't = ห้าม (ใช้กับกฎ ไม่ใช้คาดเดา)"
+    },
+    {
+      "id": "b1-modal-deduction-14",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "They might are on the bus.",
+        "They might be on the bus.",
+        "They might to be on the bus.",
+        "They maybe on the bus."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "หลัง might ใช้ be (รูปฐาน) ไม่ใช่ are",
+        "2": "หลัง might ไม่มี to",
+        "3": "maybe เป็นคำวิเศษณ์ ไม่ใช่กริยา ประโยคจึงไม่มีกริยา (ต้องเป็น may be หรือ Maybe they are …)"
+      },
+      "explainTh": "might + V1 (be) → They might be on the bus."
+    },
+    {
+      "id": "b1-modal-deduction-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Whose phone is this? It's got a pink cover with cats on it."
+          },
+          {
+            "speaker": "B",
+            "text": "It ___ be Somchai's. He hates pink, and he's allergic to cats!"
+          }
+        ]
+      },
+      "choices": [
+        "must",
+        "can't",
+        "mustn't",
+        "might"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "must = แน่ใจว่าใช่ แต่ B ให้เหตุผลว่าไม่ใช่ของ Somchai",
+        "2": "mustn't = ห้าม ใช้คาดเดาไม่ได้",
+        "3": "might = อาจจะใช่ แต่ B มีเหตุผลชัดว่าไม่ใช่ (เกลียดสีชมพู แพ้แมว)"
+      },
+      "explainTh": "B ยกหลักฐานว่า Somchai เกลียดสีชมพูและแพ้แมว จึงแน่ใจว่าไม่ใช่ของเขา → can't be"
+    },
+    {
+      "id": "b1-modal-deduction-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "Don't worry, the shop ___ be closed yet. It's open until 10 p.m., and it's only 7 p.m. now.",
+      "choices": [
+        "mustn't",
+        "can't",
+        "doesn't have to",
+        "must"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "mustn't = ห้าม ไม่ใช่การคาดเดา (คนไทยมักคิดว่าเป็นตรงข้ามของ must)",
+        "2": "doesn't have to = ไม่จำเป็นต้อง (เรื่องหน้าที่) ไม่ใช่การคาดเดา",
+        "3": "must be closed = แน่ใจว่าปิด ซึ่งขัดกับข้อมูลว่าร้านเปิดถึงสี่ทุ่ม"
+      },
+      "explainTh": "ร้านเปิดถึงสี่ทุ่ม ตอนนี้แค่หนึ่งทุ่ม ผู้พูดแน่ใจว่ายังไม่ปิด → can't be closed"
+    },
+    {
+      "id": "b1-modal-deduction-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Missing parcel",
+        "lines": [
+          {
+            "text": "Hi Tom, the parcel isn't on the doorstep, but the app says 'delivered', so it must be somewhere nearby. It might be with Mrs Chan next door — she often takes our parcels. It can't be at the post office, because they only keep parcels when nobody is home, and Grandma was home all day. Kate"
+          }
+        ]
+      },
+      "question": "What does Kate think about the post office?",
+      "choices": [
+        "She is sure the parcel is there.",
+        "She thinks the parcel is possibly there.",
+        "She is sure the parcel is not there.",
+        "She thinks the post office is closed."
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "ถ้าแน่ใจว่าอยู่ที่นั่นต้องใช้ must แต่ Kate ใช้ can't",
+        "1": "\"อาจจะอยู่\" คือ might ซึ่ง Kate ใช้กับบ้าน Mrs Chan ไม่ใช่ไปรษณีย์",
+        "3": "ข้อความไม่ได้พูดถึงเวลาเปิดปิดของไปรษณีย์"
+      },
+      "explainTh": "\"It can't be at the post office\" — can't = แน่ใจว่าไม่ใช่ เพราะยายอยู่บ้านทั้งวัน พัสดุจึงไม่ถูกส่งกลับไปไปรษณีย์"
+    },
+    {
+      "id": "b1-modal-deduction-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เพื่อนของคุณไม่มาโรงเรียนวันนี้ เขียน 3 ประโยคคาดเดาว่าเกิดอะไรขึ้น โดยใช้ must, might (หรือ may / could) และ can't (Your friend isn't at school today. Write 3 sentences guessing why. Use must, might and can't.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bmust\\s+(?!to\\b)\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ must + กริยาช่องที่ 1 อย่างน้อย 1 ครั้ง (เช่น must be)"
+        },
+        {
+          "re": "\\b(might|may|could)\\s+(not\\s+)?(?!to\\b)\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ might / may / could + กริยาช่องที่ 1 อย่างน้อย 1 ครั้ง (เช่น might be)"
+        },
+        {
+          "re": "\\b(can[’']t|cannot|can not|couldn[’']t)\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ can't + กริยาช่องที่ 1 อย่างน้อย 1 ครั้ง (เช่น can't be)"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\bmustn[’']t\\s+be\\b",
+          "flags": "i",
+          "msgTh": "ถ้าคาดเดาว่า \"ไม่ใช่แน่ ๆ\" ใช้ can't be ไม่ใช่ mustn't be"
+        }
+      ],
+      "sample": "Nok isn't at school today. She might be ill. She can't be on holiday because the term started last week. Her mother must know where she is.",
+      "explainTh": "must = แน่ใจว่าใช่ · might / may / could = อาจจะ · can't = แน่ใจว่าไม่ใช่ — ทั้งหมดตามด้วยกริยาช่องที่ 1 (be, know, have …)"
+    }
+  ]
+}

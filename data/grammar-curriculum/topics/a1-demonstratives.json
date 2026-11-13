@@ -1,0 +1,207 @@
+{
+  "id": "a1-demonstratives",
+  "summaryTh": "ใช้ this / that / these / those ชี้สิ่งที่อยู่ใกล้หรือไกล หนึ่งสิ่งหรือหลายสิ่ง",
+  "concept": {
+    "what": "This, that, these, those เป็นคำชี้เฉพาะ บอกว่าเราหมายถึงสิ่งไหน: this / these = ใกล้ตัว (นี้) · that / those = ไกลตัว (นั้น, โน้น) และต้องเลือกตามจำนวนด้วย",
+    "when": [
+      "this = ใกล้ 1 สิ่ง (This is my phone.) · these = ใกล้หลายสิ่ง (These are my shoes.)",
+      "that = ไกล 1 สิ่ง (That house is old.) · those = ไกลหลายสิ่ง (Those birds are big.)",
+      "วางหน้าคำนาม (this book) หรือใช้แทนคำนามเลยก็ได้ (This is my book.)",
+      "แนะนำคน: This is my friend, Ben."
+    ],
+    "why": "ภาษาไทยใช้ \"นี้ / นั้น\" เหมือนกันไม่ว่าจะมีกี่ชิ้น แต่ภาษาอังกฤษต้องเลือกทั้งระยะ (ใกล้/ไกล) และจำนวน (เอกพจน์/พหูพจน์) ให้ตรงกับคำนาม"
+  },
+  "structure": {
+    "formula": "this / that + singular noun · these / those + plural noun",
+    "rows": [
+      { "label": "ใกล้ · เอกพจน์", "formula": "this + noun + is", "example": "[[This]] bag is heavy." },
+      { "label": "ใกล้ · พหูพจน์", "formula": "these + nouns + are", "example": "[[These]] cookies are delicious." },
+      { "label": "ไกล · เอกพจน์", "formula": "that + noun + is", "example": "[[That]] car over there is fast." },
+      { "label": "ไกล · พหูพจน์", "formula": "those + nouns + are", "example": "[[Those]] people are my neighbours." },
+      { "label": "คำถาม (Question)", "formula": "What is this/that? · What are these/those?", "example": "What are [[those]]? — They're birds." }
+    ],
+    "notes": [
+      "this / that ใช้กับ is · these / those ใช้กับ are",
+      "คำว่า here (ที่นี่) มักไปกับ this / these · over there (ตรงโน้น) มักไปกับ that / those",
+      "ตอบคำถามด้วย it / they: What's this? — It's a pen. · What are these? — They're pens.",
+      "รูปย่อ: that's = that is (ไม่มีรูปย่อของ this is)"
+    ]
+  },
+  "examples": [
+    { "en": "[[This]] is my new phone.", "th": "นี่คือโทรศัพท์ใหม่ของฉัน" },
+    { "en": "[[That]] house over there is very old.", "th": "บ้านหลังโน้นเก่ามาก" },
+    { "en": "[[These]] shoes are too small for me.", "th": "รองเท้าคู่นี้เล็กเกินไปสำหรับฉัน" },
+    { "en": "Look at [[those]] birds in the sky!", "th": "ดูนกพวกนั้นบนฟ้าสิ" },
+    { "en": "Is [[this]] your pen?", "th": "นี่ปากกาของคุณใช่ไหม" },
+    { "en": "What is [[that]]? — It's a temple.", "th": "นั่นคืออะไร — มันคือวัด" },
+    { "en": "Mum, [[this]] is my friend, Kate.", "th": "แม่ นี่เพื่อนหนู ชื่อเคท" },
+    { "en": "Who are [[those]] people?", "th": "คนพวกนั้นเป็นใคร" }
+  ],
+  "mistakes": [
+    { "wrong": "This shoes are new.", "right": "These shoes are new.", "whyTh": "shoes เป็นพหูพจน์ ต้องใช้ these — ภาษาไทยใช้ \"นี้\" เหมือนกันหมด แต่ภาษาอังกฤษเปลี่ยนตามจำนวน" },
+    { "wrong": "These is my book.", "right": "This is my book.", "whyTh": "book มีเล่มเดียว ใช้ this และ is" },
+    { "wrong": "Those car is fast.", "right": "That car is fast.", "whyTh": "car เป็นเอกพจน์ ใช้ that ไม่ใช่ those" },
+    { "wrong": "This is my friends.", "right": "These are my friends.", "whyTh": "friends หลายคน ต้องใช้ these และ are ให้ตรงกัน" },
+    { "wrong": "Look at that birds over there.", "right": "Look at those birds over there.", "whyTh": "birds เป็นพหูพจน์และอยู่ไกล (over there) จึงใช้ those" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "At the market",
+      "lines": [
+        { "speaker": "Seller", "text": "Hello! [[These]] mangoes are very sweet." },
+        { "speaker": "Ann", "text": "How much is [[this]] one?" },
+        { "speaker": "Seller", "text": "Twenty baht." },
+        { "speaker": "Ann", "text": "OK. And what are [[those]] green fruits over there?" },
+        { "speaker": "Seller", "text": "[[Those]] are guavas." }
+      ]
+    },
+    {
+      "kind": "social", "title": "Beach photo",
+      "lines": [
+        { "text": "[[This]] is me at the beach! [[Those]] people behind me are my cousins. [[That]] small boat is my uncle's. And [[these]] shells in my hand are for my little sister." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Demonstrative", "th": "คำชี้เฉพาะ — this, that, these, those" },
+    { "en": "Near / Far", "th": "ใกล้ตัวผู้พูด / ไกลจากผู้พูด" },
+    { "en": "Singular / Plural", "th": "เอกพจน์ (1 สิ่ง) / พหูพจน์ (หลายสิ่ง)" }
+  ],
+  "practice": [
+    {
+      "id": "a1-demonstratives-01", "type": "mc", "difficulty": 1,
+      "question": "(I'm holding a bag.) \"Look! ___ is my new bag.\"",
+      "choices": ["This", "These", "Those", "Them"], "answer": 0,
+      "whyNot": { "1": "These ใช้กับหลายสิ่ง แต่ bag มีใบเดียว", "2": "Those ใช้กับหลายสิ่งที่อยู่ไกล", "3": "Them เป็นสรรพนามกรรม ใช้เป็นประธานไม่ได้" },
+      "explainTh": "กระเป๋าอยู่ในมือ (ใกล้) และมี 1 ใบ → This",
+      "structure": "This + is (ใกล้ · 1 สิ่ง)", "example": "This is my new bag."
+    },
+    {
+      "id": "a1-demonstratives-02", "type": "mc", "difficulty": 1,
+      "question": "___ birds over there are very big.",
+      "choices": ["This", "That", "These", "Those"], "answer": 3,
+      "whyNot": { "0": "This ใช้กับสิ่งเดียวที่อยู่ใกล้ แต่ birds หลายตัวและอยู่ไกล", "1": "That ใช้กับเอกพจน์ แต่ birds เป็นพหูพจน์", "2": "These ใช้กับสิ่งที่อยู่ใกล้ แต่มี over there บอกว่าไกล" },
+      "explainTh": "birds = หลายตัว · over there = ไกล → Those",
+      "structure": "Those + plural noun + are", "example": "Those birds over there are very big."
+    },
+    {
+      "id": "a1-demonstratives-03", "type": "fill", "difficulty": 1,
+      "question": "___ apples here are sweet. (this / these)",
+      "accepted": ["These"],
+      "explainTh": "apples เป็นพหูพจน์ และอยู่ใกล้ (here) → These",
+      "structure": "These + plural noun", "example": "These apples here are sweet."
+    },
+    {
+      "id": "a1-demonstratives-04", "type": "fill", "difficulty": 2,
+      "question": "Can you see ___ man over there? (this / that)",
+      "accepted": ["that"],
+      "explainTh": "man มีคนเดียว และอยู่ไกล (over there) → that",
+      "structure": "that + singular noun", "example": "Can you see that man over there?"
+    },
+    {
+      "id": "a1-demonstratives-05", "type": "fill", "difficulty": 2,
+      "question": "(Mum is holding some socks.) Mum: \"Are ___ your socks?\" (these / those)",
+      "accepted": ["these"],
+      "explainTh": "ถุงเท้าอยู่ในมือแม่ (ใกล้ผู้พูด) และเป็นพหูพจน์ → these",
+      "structure": "Are + these + plural noun?", "example": "Are these your socks?"
+    },
+    {
+      "id": "a1-demonstratives-06", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำชี้เฉพาะกับความหมาย",
+      "pairs": [["this", "ใกล้ · 1 สิ่ง"], ["that", "ไกล · 1 สิ่ง"], ["these", "ใกล้ · หลายสิ่ง"], ["those", "ไกล · หลายสิ่ง"]],
+      "explainTh": "this / these = ใกล้ · that / those = ไกล · this / that = 1 สิ่ง · these / those = หลายสิ่ง"
+    },
+    {
+      "id": "a1-demonstratives-07", "type": "error", "difficulty": 1,
+      "sentence": "This cookies are delicious.",
+      "errorPart": "This",
+      "accepted": ["These cookies are delicious.", "Those cookies are delicious."],
+      "explainTh": "cookies เป็นพหูพจน์ ใช้ This ไม่ได้ ต้องเป็น These (ใกล้) หรือ Those (ไกล)",
+      "structure": "These / Those + plural noun"
+    },
+    {
+      "id": "a1-demonstratives-08", "type": "error", "difficulty": 2,
+      "sentence": "That houses over there are big.",
+      "errorPart": "That",
+      "accepted": ["Those houses over there are big.", "That house over there is big."],
+      "explainTh": "houses เป็นพหูพจน์ และอยู่ไกล (over there) → Those",
+      "structure": "Those + plural noun"
+    },
+    {
+      "id": "a1-demonstratives-09", "type": "order", "difficulty": 1,
+      "tokens": ["those", "like", "I", "shoes"],
+      "accepted": ["I like those shoes."],
+      "explainTh": "those วางหน้าคำนามพหูพจน์ shoes → I like those shoes."
+    },
+    {
+      "id": "a1-demonstratives-10", "type": "order", "difficulty": 2,
+      "tokens": ["are", "who", "people", "those"],
+      "accepted": ["Who are those people?"],
+      "explainTh": "คำถาม: Who + are + those people? — those + people (พหูพจน์) ใช้กับ are"
+    },
+    {
+      "id": "a1-demonstratives-11", "type": "transform", "difficulty": 2,
+      "source": "This is my pencil.",
+      "instruction": "เปลี่ยนเป็นพหูพจน์ (pencils)",
+      "accepted": ["These are my pencils."],
+      "explainTh": "This → These · is → are · pencil → pencils (เปลี่ยนให้เป็นพหูพจน์ทั้งประโยค)",
+      "structure": "These + are + plural noun", "example": "These are my pencils."
+    },
+    {
+      "id": "a1-demonstratives-12", "type": "transform", "difficulty": 3,
+      "source": "That child is my cousin.",
+      "instruction": "เปลี่ยนทั้งประโยคเป็นพหูพจน์ (children)",
+      "accepted": ["Those children are my cousins."],
+      "explainTh": "That → Those · child → children · is → are · cousin → cousins",
+      "structure": "Those + plural noun + are", "example": "Those children are my cousins."
+    },
+    {
+      "id": "a1-demonstratives-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["That cars are fast.", "Those car is fast.", "Those cars are fast.", "This cars are fast."], "answer": 2,
+      "whyNot": { "0": "That ใช้กับเอกพจน์ แต่ cars เป็นพหูพจน์", "1": "Those ใช้กับพหูพจน์ แต่ car เป็นเอกพจน์", "3": "This ใช้กับเอกพจน์ แต่ cars เป็นพหูพจน์" },
+      "explainTh": "Those + คำนามพหูพจน์ (cars) + are ต้องตรงกันทั้งหมด",
+      "structure": "Those + plural noun + are", "example": "Those cars are fast."
+    },
+    {
+      "id": "a1-demonstratives-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "Seller", "text": "Do you like these T-shirts here?" },
+        { "speaker": "Customer", "text": "Not really. Can I see ___ jackets over there, on the wall?" }
+      ] },
+      "choices": ["this", "that", "these", "those"], "answer": 3,
+      "whyNot": { "0": "this ใช้กับสิ่งเดียวที่อยู่ใกล้", "1": "that ใช้กับเอกพจน์ แต่ jackets เป็นพหูพจน์", "2": "these ใช้กับสิ่งที่อยู่ใกล้ แต่เสื้อแจ็กเก็ตอยู่ over there บนผนัง" },
+      "explainTh": "jackets = หลายตัว · over there, on the wall = ไกล → those",
+      "structure": "those + plural noun (ไกล)", "example": "Can I see those jackets over there?"
+    },
+    {
+      "id": "a1-demonstratives-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "social", "title": "Beach photo", "lines": [
+        { "text": "This is me at the beach! Those people behind me are my cousins. That small boat is my uncle's." }
+      ] },
+      "question": "Why does the writer say \"Those people\"?",
+      "choices": ["They are near, and there is one person.", "They are far (behind), and there are many people.", "They are near, and there are many people.", "They are far, and there is one person."], "answer": 1,
+      "whyNot": { "0": "people เป็นพหูพจน์ และ those ใช้กับสิ่งที่อยู่ไกล", "2": "ถ้าใกล้และหลายคนจะใช้ these", "3": "ถ้าไกลและมีคนเดียวจะใช้ that person" },
+      "explainTh": "those = ไกล + หลายสิ่ง — คนอยู่ข้างหลัง (behind me) ห่างจากผู้ถ่าย และ people เป็นพหูพจน์"
+    },
+    {
+      "id": "a1-demonstratives-16", "type": "mc", "difficulty": 3,
+      "question": "___ are my keys in my hand, and ___ is my car over there.",
+      "choices": ["This / that", "These / that", "These / those", "This / those"], "answer": 1,
+      "whyNot": { "0": "keys เป็นพหูพจน์ ใช้ This ไม่ได้", "2": "car มีคันเดียว ใช้ those ไม่ได้", "3": "keys ต้องใช้ These และ car ต้องใช้ that — สลับกันอยู่" },
+      "explainTh": "keys (หลายดอก · ในมือ = ใกล้) → These · car (1 คัน · over there = ไกล) → that",
+      "structure": "These + are · that + is", "example": "These are my keys, and that is my car."
+    },
+    {
+      "id": "a1-demonstratives-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับสิ่งของรอบตัวคุณ ใช้ this / these กับของใกล้ตัว และ that / those กับของไกลตัว (Write 3 sentences about things around you. Use this or these, and that or those.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(this|these)\\b", "flags": "i", "msgTh": "ใช้ this หรือ these กับสิ่งที่อยู่ใกล้อย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(that|those)\\b", "flags": "i", "msgTh": "ใช้ that หรือ those กับสิ่งที่อยู่ไกลอย่างน้อย 1 ครั้ง" }
+      ],
+      "sample": "This is my new phone. These books on my desk are for school. That tree outside my window is very tall.",
+      "explainTh": "ใกล้ 1 สิ่ง this · ใกล้หลายสิ่ง these · ไกล 1 สิ่ง that · ไกลหลายสิ่ง those — และใช้ is / are ให้ตรงจำนวน"
+    }
+  ]
+}

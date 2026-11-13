@@ -1,0 +1,221 @@
+{
+  "id": "a2-first-conditional",
+  "summaryTh": "พูดถึงสิ่งที่อาจเกิดขึ้นจริงในอนาคต และผลที่จะตามมา (ถ้า … ก็จะ …)",
+  "concept": {
+    "what": "First Conditional คือประโยคเงื่อนไขที่พูดถึงสถานการณ์ที่ \"เป็นไปได้จริง\" ในอนาคต และผลที่จะเกิดขึ้นถ้าเงื่อนไขนั้นเกิด เช่น If it rains, we will stay at home.",
+    "when": [
+      "เงื่อนไขที่มีโอกาสเกิดจริง: If I have time, I'll call you.",
+      "เตือน: If you touch that, you'll burn your hand.",
+      "สัญญาหรือเสนอ: If you help me, I'll buy you lunch.",
+      "วางแผนตามสถานการณ์: If the weather is nice, we'll go to the beach."
+    ],
+    "why": "ภาษาไทยพูดว่า \"ถ้าพรุ่งนี้ฝนตก\" โดยไม่เปลี่ยนกริยา แต่ภาษาอังกฤษแม้จะพูดถึงอนาคต ส่วนที่มี if ต้องใช้ Present Simple (If it rains ไม่ใช่ If it will rain) — นี่คือจุดที่ผู้เรียนไทยผิดบ่อยที่สุด"
+  },
+  "structure": {
+    "formula": "If + Present Simple, will + V1",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "If + Subject + V1 / V-s, Subject + will + V1", "example": "If you [[study]] hard, you [[will pass]] the test." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "If + Subject + don't / doesn't + V1, Subject + won't + V1", "example": "If she [[doesn't hurry]], she [[won't catch]] the train." },
+      { "label": "สลับตำแหน่ง", "formula": "Subject + will + V1 + if + Present Simple (ไม่ต้องมีจุลภาค)", "example": "I [[will lend]] you my notes [[if]] you [[need]] them." },
+      { "label": "คำถาม (Question)", "formula": "What will + Subject + V1 + if …?", "example": "What [[will]] you [[do]] if it [[rains]]?" },
+      { "label": "ส่วนผลแบบอื่น", "formula": "If …, can / might / should + V1 · If …, ประโยคคำสั่ง", "example": "If you [[see]] Tom, [[tell]] him to call me." }
+    ],
+    "notes": [
+      "ส่วนที่มี if ใช้ Present Simple เสมอ แม้หมายถึงอนาคต (ห้ามใช้ will หลัง if)",
+      "ถ้าขึ้นต้นประโยคด้วย If ให้ใส่จุลภาค (,) คั่นกลาง · ถ้า if อยู่กลางประโยคไม่ต้องใส่",
+      "will ย่อเป็น 'll · will not ย่อเป็น won't",
+      "if กับ when: if = อาจเกิดหรือไม่เกิดก็ได้ · when = แน่ใจว่าจะเกิด (When I get home, I'll call you.)"
+    ]
+  },
+  "examples": [
+    { "en": "If it [[rains]] this afternoon, we [[will cancel]] the match.", "th": "ถ้าบ่ายนี้ฝนตก เราจะยกเลิกการแข่งขัน" },
+    { "en": "If you [[eat]] too much, you [[will feel]] sick.", "th": "ถ้ากินมากเกินไป จะรู้สึกไม่สบาย" },
+    { "en": "I [[will call]] you if I [[have]] any news.", "th": "ถ้ามีข่าวอะไร ฉันจะโทรหานะ" },
+    { "en": "If she [[doesn't study]], she [[won't pass]] the exam.", "th": "ถ้าเธอไม่อ่านหนังสือ เธอจะสอบไม่ผ่าน" },
+    { "en": "What [[will]] you [[do]] if you [[miss]] the last bus?", "th": "ถ้าพลาดรถเมล์เที่ยวสุดท้าย คุณจะทำอย่างไร" },
+    { "en": "If you [[need]] help, [[ask]] the staff at the front desk.", "th": "ถ้าต้องการความช่วยเหลือ ถามพนักงานที่เคาน์เตอร์ด้านหน้าได้เลย" },
+    { "en": "If we [[leave]] now, we [[can catch]] the 8 o'clock train.", "th": "ถ้าเราออกตอนนี้ เราจะทันรถไฟแปดโมง" },
+    { "en": "If you [[share]] this post, you [[might win]] a free ticket.", "th": "ถ้าคุณแชร์โพสต์นี้ คุณอาจได้ตั๋วฟรี" }
+  ],
+  "mistakes": [
+    { "wrong": "If it will rain, I will stay at home.", "right": "If it rains, I will stay at home.", "whyTh": "ส่วนที่มี if ใช้ Present Simple แม้จะพูดถึงอนาคต — ภาษาไทยไม่เปลี่ยนรูปกริยา จึงมักใส่ will ตามความหมาย \"จะ\"" },
+    { "wrong": "If he comes, I tell him.", "right": "If he comes, I will tell him.", "whyTh": "ส่วนผลลัพธ์ที่จะเกิดในอนาคตต้องมี will + V1" },
+    { "wrong": "If she don't come, we will start without her.", "right": "If she doesn't come, we will start without her.", "whyTh": "ประธาน she ใช้ doesn't ในส่วน if (Present Simple)" },
+    { "wrong": "I will go to the party if I will finish my work.", "right": "I will go to the party if I finish my work.", "whyTh": "แม้ if จะอยู่กลางประโยค ส่วนที่มี if ก็ยังใช้ Present Simple" },
+    { "wrong": "If you leave the ice cream in the sun, it will melts.", "right": "If you leave the ice cream in the sun, it will melt.", "whyTh": "หลัง will ใช้กริยาช่องที่ 1 ไม่เติม -s" }
+  ],
+  "compare": {
+    "title": "if vs when",
+    "with": [],
+    "rows": [
+      { "label": "ความหมาย", "a": "อาจเกิดหรือไม่เกิดก็ได้", "b": "แน่ใจว่าจะเกิด แค่ยังไม่ถึงเวลา" },
+      { "label": "ตัวอย่าง", "a": "If I see Tom, I'll tell him. (ไม่แน่ว่าจะเจอ)", "b": "When I see Tom, I'll tell him. (เจอแน่ ๆ เช่น เจอกันทุกวัน)" },
+      { "label": "รูปกริยา", "a": "If + Present Simple, will + V1", "b": "When + Present Simple, will + V1 (เหมือนกัน)" }
+    ],
+    "tipTh": "ทั้ง if และ when ที่พูดถึงอนาคต ใช้ Present Simple ในส่วนเงื่อนไข — ห้ามใช้ will หลังทั้งสองคำ"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Planning a trip",
+      "lines": [
+        { "speaker": "Nam", "text": "Are we still going to Koh Samet on Saturday?" },
+        { "speaker": "Fai", "text": "Yes, but [[if]] it [[rains]], we [[will go]] next week instead." },
+        { "speaker": "Nam", "text": "OK. [[If]] we [[take]] the early bus, we [[will have]] more time on the beach." },
+        { "speaker": "Fai", "text": "Good idea. [[If]] you [[book]] the bus tickets, I [[will pay]] for the hotel." }
+      ]
+    },
+    {
+      "kind": "announcement", "title": "Gym summer offer",
+      "lines": [
+        { "text": "Summer offer! [[If]] you [[join]] before 30 June, you [[will get]] one month free. [[If]] you [[bring]] a friend, you [[will both get]] a free T-shirt. Places are limited, so [[if]] you [[wait]] too long, you [[might miss]] it!" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Conditional", "th": "ประโยคเงื่อนไข (ถ้า … ก็จะ …)" },
+    { "en": "If-clause", "th": "ส่วนเงื่อนไข (ส่วนที่มี if) — ใช้ Present Simple" },
+    { "en": "Main clause", "th": "ส่วนผลลัพธ์ — ใช้ will / won't + V1" },
+    { "en": "Real possibility", "th": "สิ่งที่มีโอกาสเกิดขึ้นได้จริง" }
+  ],
+  "practice": [
+    {
+      "id": "a2-first-conditional-01", "type": "mc", "difficulty": 1,
+      "question": "If it ___ tomorrow, we will go to the beach.",
+      "choices": ["is sunny", "will be sunny", "was sunny", "be sunny"], "answer": 0,
+      "whyNot": { "1": "ส่วนที่มี if ห้ามใช้ will แม้จะพูดถึงอนาคต (tomorrow)", "2": "was เป็นอดีต ไม่ตรงกับ tomorrow และส่วนหลังที่ใช้ will", "3": "ประธาน it ต้องใช้ is ไม่ใช่ be" },
+      "explainTh": "First Conditional: If + Present Simple, will + V1 → If it is sunny tomorrow, we will go …",
+      "structure": "If + Present Simple, will + V1", "example": "If it is sunny tomorrow, we will go to the beach."
+    },
+    {
+      "id": "a2-first-conditional-02", "type": "mc", "difficulty": 1,
+      "question": "If you study hard this week, you ___ the exam on Friday.",
+      "choices": ["pass", "will pass", "passed", "would pass"], "answer": 1,
+      "whyNot": { "0": "ผลที่จะเกิดในอนาคต (on Friday) ต้องมี will", "2": "passed เป็นอดีต แต่การสอบยังไม่เกิด", "3": "would pass ใช้กับเงื่อนไขสมมุติที่ไม่น่าเกิด (If you studied …) ไม่เข้ากับ If you study" },
+      "explainTh": "If + Present Simple (study), will + V1 (will pass)",
+      "structure": "If + Present Simple, will + V1", "example": "If you study hard, you will pass the exam."
+    },
+    {
+      "id": "a2-first-conditional-03", "type": "fill", "difficulty": 1,
+      "question": "If you ___ (be) late again, the teacher will be angry.",
+      "accepted": ["are"],
+      "explainTh": "ส่วนที่มี if ใช้ Present Simple · ประธาน you + be → are",
+      "structure": "If + Present Simple, will + V1", "example": "If you are late again, the teacher will be angry."
+    },
+    {
+      "id": "a2-first-conditional-04", "type": "fill", "difficulty": 2,
+      "question": "If we don't leave now, we ___ (will / miss) the train.",
+      "accepted": ["will miss", "'ll miss"],
+      "explainTh": "ส่วนผลลัพธ์ใช้ will + V1 → will miss (หรือ 'll miss)",
+      "structure": "If + Present Simple, will + V1", "example": "If we don't leave now, we will miss the train."
+    },
+    {
+      "id": "a2-first-conditional-05", "type": "fill", "difficulty": 2,
+      "question": "If Tom ___ (not / call) me tonight, I will call him.",
+      "accepted": ["doesn't call", "does not call"],
+      "explainTh": "ส่วน if ใช้ Present Simple ปฏิเสธ · ประธาน Tom (he) → doesn't + V1 → doesn't call",
+      "structure": "If + Subject + doesn't + V1, will + V1", "example": "If Tom doesn't call me tonight, I will call him."
+    },
+    {
+      "id": "a2-first-conditional-06", "type": "fill", "difficulty": 3,
+      "question": "I ___ (will / not / go) to the party tomorrow if Ben is there.",
+      "accepted": ["won't go", "will not go"],
+      "explainTh": "ส่วนผลลัพธ์ปฏิเสธ: will not (won't) + V1 → won't go · ส่วน if ยังใช้ Present Simple (is)",
+      "structure": "Subject + won't + V1 + if + Present Simple", "example": "I won't go to the party if Ben is there."
+    },
+    {
+      "id": "a2-first-conditional-07", "type": "error", "difficulty": 1,
+      "sentence": "If it will rain, we will stay inside.",
+      "errorPart": "will rain",
+      "accepted": ["If it rains, we will stay inside.", "If it rains we will stay inside."],
+      "explainTh": "ส่วนที่มี if ห้ามใช้ will → If it rains (Present Simple, it + rain + s)",
+      "structure": "If + Present Simple"
+    },
+    {
+      "id": "a2-first-conditional-08", "type": "error", "difficulty": 2,
+      "sentence": "If you press this button, the machine start.",
+      "errorPart": "start",
+      "accepted": ["If you press this button, the machine will start.", "If you press this button the machine will start.", "If you press this button, the machine starts.", "If you press this button the machine starts."],
+      "explainTh": "the machine เป็นเอกพจน์ ใช้ start เฉย ๆ ไม่ได้ → will start (ผลที่จะเกิด) หรือ starts (เป็นความจริงทุกครั้งที่กด) ก็ได้",
+      "structure": "If + Present Simple, will + V1"
+    },
+    {
+      "id": "a2-first-conditional-09", "type": "error", "difficulty": 3,
+      "sentence": "We will go to the zoo if the weather will be nice.",
+      "errorPart": "will be",
+      "accepted": ["We will go to the zoo if the weather is nice.", "We will go to the zoo if the weather's nice."],
+      "explainTh": "แม้ if จะอยู่กลางประโยค ส่วนที่มี if ก็ใช้ Present Simple → if the weather is nice",
+      "structure": "will + V1 + if + Present Simple"
+    },
+    {
+      "id": "a2-first-conditional-10", "type": "order", "difficulty": 1,
+      "tokens": ["if", "it", "we", "rains", "will", "stay", "home", "at"],
+      "accepted": ["We will stay at home if it rains.", "If it rains we will stay at home.", "Will we stay at home if it rains?", "If it rains will we stay at home?"],
+      "explainTh": "will + V1 + if + Present Simple → We will stay at home if it rains. (หรือขึ้นต้นด้วย If it rains, …)"
+    },
+    {
+      "id": "a2-first-conditional-11", "type": "order", "difficulty": 2,
+      "tokens": ["will", "what", "do", "you", "if", "fail", "you", "the", "test"],
+      "accepted": ["What will you do if you fail the test?", "If you fail the test what will you do?"],
+      "explainTh": "คำถาม: What + will + Subject + V1 + if + Present Simple? → What will you do if you fail the test?"
+    },
+    {
+      "id": "a2-first-conditional-12", "type": "transform", "difficulty": 3,
+      "source": "Maybe you won't take an umbrella. Then you will get wet.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย If ขึ้นต้นด้วย If you …",
+      "accepted": ["If you don't take an umbrella, you will get wet.", "If you don't take an umbrella you will get wet."],
+      "explainTh": "ส่วน if ใช้ Present Simple ปฏิเสธ (don't take) แม้ประโยคเดิมใช้ won't · ส่วนผลใช้ will + V1"
+    },
+    {
+      "id": "a2-first-conditional-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ส่วนเงื่อนไขกับผลลัพธ์ที่เหมาะสม",
+      "pairs": [["If you miss the bus,", "you'll be late for school."], ["If you're hungry,", "I'll make you a sandwich."], ["If it rains tomorrow,", "we'll take umbrellas."], ["If you send me the photos,", "I'll post them online."], ["If you don't water the plants,", "they'll die."]],
+      "explainTh": "ทุกข้อ: If + Present Simple, will ('ll) + V1 — ส่วน if ไม่ใช้ will แต่ส่วนผลใช้ will"
+    },
+    {
+      "id": "a2-first-conditional-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["If she will come, I will be happy.", "If she comes, I will be happy.", "If she comes, I would be happy.", "If she come, I will be happy."], "answer": 1,
+      "whyNot": { "0": "ส่วนที่มี if ห้ามใช้ will", "2": "would ใช้กับเงื่อนไขสมมุติ (If she came …) ไม่เข้ากับ If she comes", "3": "ประธาน she ใน Present Simple ต้องเติม -s → comes" },
+      "explainTh": "If + Present Simple (she comes), will + V1 (I will be happy)"
+    },
+    {
+      "id": "a2-first-conditional-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "I'm worried about my job interview tomorrow." },
+        { "speaker": "B", "text": "Don't worry. If you ___ well, they will like you." }
+      ] },
+      "choices": ["prepare", "will prepare", "prepared", "preparing"], "answer": 0,
+      "whyNot": { "1": "ส่วนที่มี if ห้ามใช้ will", "2": "prepared เป็นอดีต แต่การสัมภาษณ์ยังไม่เกิด", "3": "หลังประธาน you ต้องมีกริยาแท้ ใช้ -ing เฉย ๆ ไม่ได้" },
+      "explainTh": "If + Present Simple (you prepare), will + V1 (they will like you)"
+    },
+    {
+      "id": "a2-first-conditional-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "Library notice", "lines": [
+        { "text": "If you return a book late, you will pay 5 baht a day. If you lose a book, you will have to buy a new one. If you need help, please ask the librarian." }
+      ] },
+      "question": "Ann returns her book three days late. What will happen?",
+      "choices": ["She will pay 15 baht.", "She will pay 5 baht.", "She will have to buy a new book.", "She will have to ask the librarian."], "answer": 0,
+      "whyNot": { "1": "5 บาทคือค่าปรับต่อวัน แต่ Ann คืนช้า 3 วัน", "2": "ต้องซื้อเล่มใหม่ก็ต่อเมื่อทำหนังสือหาย แต่ Ann แค่คืนช้า", "3": "การถามบรรณารักษ์เป็นคำแนะนำเมื่อต้องการความช่วยเหลือ ไม่ใช่ผลของการคืนช้า" },
+      "explainTh": "\"If you return a book late, you will pay 5 baht a day.\" → ช้า 3 วัน × 5 บาท = 15 บาท"
+    },
+    {
+      "id": "a2-first-conditional-17", "type": "mc", "difficulty": 2,
+      "question": "Don't worry. I ___ you if I hear any news.",
+      "choices": ["will tell", "tell", "told", "am telling"], "answer": 0,
+      "whyNot": { "1": "ผลที่จะทำในอนาคตต้องมี will", "2": "told เป็นอดีต แต่ยังไม่ได้ยินข่าว", "3": "am telling = กำลังบอกอยู่ตอนนี้ ไม่เข้ากับเงื่อนไข if I hear" },
+      "explainTh": "will + V1 + if + Present Simple → I will tell you if I hear any news. (สัญญาว่าจะบอก)"
+    },
+    {
+      "id": "a2-first-conditional-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเงื่อนไขแบบที่ 1 เกี่ยวกับสุดสัปดาห์นี้ (ถ้า … จะ …) (Write 3 first conditional sentences about this weekend.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bif\\b", "flags": "i", "msgTh": "ใช้ if อย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(will|won't)\\s+[a-z]+|'ll\\s+[a-z]+", "flags": "i", "msgTh": "ส่วนผลลัพธ์ใช้ will / won't + V1 อย่างน้อย 1 ครั้ง" }
+      ],
+      "forbid": [ { "re": "\\bif\\s+(i|you|he|she|it|we|they)\\s+(will|'ll)\\b", "flags": "i", "msgTh": "หลัง if ใช้ Present Simple ไม่ใช้ will (If it rains ไม่ใช่ If it will rain)" } ],
+      "sample": "If it is sunny on Saturday, I will go to the beach with my friends. If it rains, I will stay at home and watch films. My mum will be happy if I clean my room.",
+      "explainTh": "If + Present Simple, will + V1 — ส่วนที่มี if ไม่ใช้ will ส่วนผลลัพธ์ใช้ will / won't + V1"
+    }
+  ]
+}

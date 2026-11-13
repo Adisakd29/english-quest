@@ -1,0 +1,202 @@
+/* v1.20.0 วาดทายศัพท์ (Draw & Guess) */
+.dg-hero { margin: 4px 0 14px; }
+.dg-hero .gl-sub { max-width: 60ch; }
+.dg-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 16px; padding: 14px; margin-bottom: 14px; min-width: 0; }
+.dg-card h2 { font-size: 1.02rem; margin: 0 0 10px; display: flex; gap: 8px; align-items: center; }
+.dg-muted { color: var(--color-text-muted); font-size: 0.85rem; margin: 6px 0 0; }
+.dg-form { display: grid; gap: 12px; }
+.dg-field { display: grid; gap: 6px; font-size: 0.9rem; border: 0; padding: 0; margin: 0; min-width: 0; }
+.dg-field legend { font-size: 0.9rem; margin-bottom: 6px; }
+.dg-field select, .dg-field textarea, .dg-join input { min-height: 44px; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; width: 100%; box-sizing: border-box; }
+.dg-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.dg-seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.dg-chip { position: relative; }
+.dg-chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.dg-chip span { display: inline-flex; align-items: center; min-height: 40px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--color-border); font-size: 0.88rem; }
+.dg-chip input:checked + span { background: var(--color-primary); border-color: var(--color-primary); color: #fff; font-weight: 700; }
+.dg-chip input:focus-visible + span { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.dg-big { min-height: 48px; width: 100%; }
+.dg-join { display: flex; gap: 8px; }
+.dg-join input { text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700; flex: 1 1 auto; min-width: 0; }
+.dg-join .btn { flex: 0 0 auto; min-height: 44px; }
+.dg-rules ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 0.9rem; }
+.dg-current { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 12px 14px; margin-bottom: 14px; border-radius: 14px; background: var(--color-primary-soft); }
+.dg-current span { display: inline-flex; gap: 6px; align-items: center; }
+
+/* แถบบนของห้อง */
+.dg-top { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 0 0 10px; }
+.dg-exit { margin: 0; }
+.dg-code { display: inline-flex; gap: 4px; align-items: center; font-size: 0.95rem; }
+.dg-code b { letter-spacing: 0.1em; }
+.dg-meta { margin-left: auto; color: var(--color-text-muted); font-size: 0.85rem; }
+.dg-iconbtn { border: 0; background: transparent; color: var(--color-primary); width: 36px; height: 36px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; flex: 0 0 auto; }
+.dg-iconbtn:hover { background: var(--color-primary-soft); }
+
+/* ผู้เล่น */
+.dg-players { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 6px; }
+@media (max-width: 400px) { .dg-players { grid-template-columns: 1fr 1fr; } .dg-pbtn { padding: 6px; gap: 6px; } .dg-av { width: 26px; height: 26px; } }
+.dg-player.is-off { opacity: 0.5; }
+.dg-pbtn { width: 100%; display: flex; gap: 8px; align-items: center; padding: 6px 8px; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); cursor: pointer; text-align: left; min-height: 44px; position: relative; }
+.dg-player.is-me .dg-pbtn { border-color: var(--color-primary); }
+.dg-player.is-guessed .dg-pbtn { background: rgba(34, 197, 94, 0.12); }
+.dg-player.is-drawing .dg-pbtn { background: var(--color-primary-soft); }
+.dg-av { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; }
+.dg-av svg, .dg-av img { width: 100%; height: 100%; }
+.dg-av-letter { display: inline-flex; align-items: center; justify-content: center; background: var(--color-primary); color: #fff; font-weight: 700; font-size: 0.85rem; }
+.dg-pname { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.88rem; }
+.dg-pname small { color: var(--color-text-muted); }
+.dg-host { color: #d97706; }
+.dg-pscore { font-weight: 700; font-size: 0.85rem; font-variant-numeric: tabular-nums; white-space: nowrap; flex: 0 0 auto; }
+.dg-pbadge { display: inline-flex; width: 20px; height: 20px; border-radius: 50%; align-items: center; justify-content: center; color: #fff; flex: 0 0 auto; }
+.dg-pbadge.is-ok { background: var(--color-success, #15803d); }
+.dg-pbadge.is-draw { background: var(--color-primary); }
+
+/* ห้องรอ */
+.dg-lobby { display: grid; gap: 0; }
+.dg-invite { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.dg-invite .btn { min-height: 44px; }
+.dg-friends { margin-top: 10px; }
+.dg-friends ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.dg-friends li { display: flex; gap: 8px; align-items: center; }
+.dg-friends li b { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.dg-wait { display: flex; gap: 6px; align-items: center; color: var(--color-text-muted); }
+
+/* เกม */
+.dg-game { display: grid; gap: 12px; }
+.dg-stage { min-width: 0; }
+.dg-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; min-height: 48px; position: sticky; top: var(--eq-hud-h, 0px); z-index: 5; background: var(--color-bg, var(--bg, #f5f6fb)); padding: 4px 0; }
+.dg-timer { flex: 0 0 auto; width: 46px; height: 46px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.05rem; background: var(--color-primary-soft); color: var(--color-primary); font-variant-numeric: tabular-nums; }
+.dg-timer.is-low { background: rgba(239, 68, 68, 0.15); color: var(--color-danger, #b91c1c); }
+.dg-word { flex: 1 1 auto; min-width: 0; margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.dg-word.is-wait { color: var(--color-text-muted); font-size: 0.92rem; }
+.dg-word small { color: var(--color-text-muted); font-size: 0.78rem; }
+.dg-letters { display: inline-flex; gap: 4px; flex-wrap: wrap; justify-content: center; font-weight: 800; font-size: 1.15rem; }
+.dg-letters span { display: inline-flex; justify-content: center; min-width: 0.9em; border-bottom: 3px solid var(--color-text); line-height: 1.2; }
+.dg-phase { flex: 0 0 auto; font-size: 0.8rem; color: var(--color-text-muted); max-width: 30%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dg-board-wrap { position: relative; border-radius: 14px; overflow: hidden; border: 2px solid var(--color-border); background: #fff; }
+.dg-board { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; background: #fff; touch-action: none; }
+.dg-board.is-active { cursor: crosshair; }
+.dg-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 16px; text-align: center; background: rgba(255, 255, 255, 0.94); color: #111827; overflow: auto; }
+.dg-overlay.is-soft { background: rgba(255, 255, 255, 0.7); }
+.dg-overlay h2 { margin: 0; font-size: 1.1rem; }
+.dg-overlay .dg-muted { color: #4b5563; }
+.dg-choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; width: min(520px, 100%); }
+.dg-choice { min-height: 64px; padding: 10px; border-radius: 14px; border: 2px solid #4f46e5; background: #eef2ff; color: #1e1b4b; display: grid; gap: 2px; cursor: pointer; font: inherit; }
+.dg-choice b { font-size: 1.1rem; }
+.dg-choice small { color: #4338ca; }
+.dg-choice:hover, .dg-choice:focus-visible { background: #4f46e5; color: #fff; }
+.dg-choice:hover small, .dg-choice:focus-visible small { color: #e0e7ff; }
+.dg-reveal-w { font-size: clamp(1.6rem, 6vw, 2.4rem); display: inline-flex; gap: 6px; align-items: center; }
+.dg-reveal-w .dg-iconbtn { color: #4f46e5; }
+.dg-reveal-th { margin: 0; font-size: 1.1rem; font-weight: 700; }
+.dg-reveal-th small { color: #6b7280; font-weight: 400; }
+.dg-reveal-ex { margin: 4px 0 0; font-style: italic; max-width: 46ch; }
+.dg-reveal-exth { margin: 0; font-size: 0.88rem; color: #4b5563; max-width: 46ch; }
+
+/* เครื่องมือวาด */
+.dg-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+.dg-colors, .dg-sizes { display: flex; flex-wrap: wrap; gap: 6px; }
+.dg-color { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--color-surface); box-shadow: 0 0 0 1px var(--color-border); background: var(--dg-c); cursor: pointer; padding: 0; }
+.dg-color.is-on { box-shadow: 0 0 0 3px var(--color-primary); }
+.dg-size { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.dg-size span { width: var(--dg-s); height: var(--dg-s); border-radius: 50%; background: var(--color-text); }
+.dg-size.is-on { border-color: var(--color-primary); box-shadow: 0 0 0 2px var(--color-primary); }
+.dg-tool { min-height: 38px; padding: 4px 10px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); display: inline-flex; gap: 4px; align-items: center; cursor: pointer; font: inherit; font-size: 0.85rem; }
+.dg-tool.is-on { border-color: var(--color-primary); background: var(--color-primary-soft); }
+
+/* แชท/คำทาย */
+.dg-side { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dg-side .dg-chat { order: -1; }            /* มือถือ: ช่องทายอยู่ใต้กระดานทันที */
+#screen-draw .container { max-width: 1180px; }
+.dg-chat { display: flex; flex-direction: column; border: 1px solid var(--color-border); border-radius: 14px; background: var(--color-surface); min-width: 0; overflow: hidden; }
+.dg-log { list-style: none; margin: 0; padding: 8px 10px; height: 180px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px; font-size: 0.88rem; overscroll-behavior: contain; }
+.dg-line { overflow-wrap: anywhere; }
+.dg-line.is-sys { color: var(--color-text-muted); font-size: 0.82rem; }
+.dg-line.is-ok { color: var(--color-success, #15803d); font-weight: 700; display: flex; gap: 4px; align-items: center; }
+.dg-line.is-close { color: #b45309; display: flex; gap: 4px; align-items: center; }
+.dg-line.is-gch { color: var(--color-success, #15803d); }
+.dg-guess { display: flex; gap: 6px; padding: 8px; border-top: 1px solid var(--color-border); }
+.dg-guess input { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; font-size: 16px; }
+.dg-guess .btn { min-height: 44px; min-width: 44px; padding: 0 12px; }
+.dg-lobby .dg-chat { margin-bottom: 14px; }
+
+/* ผลลัพธ์ */
+.dg-rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.dg-rank-row { display: flex; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 12px; border: 1px solid var(--color-border); }
+.dg-rank-row b { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.dg-rank-row.is-me { border-color: var(--color-primary); }
+.dg-rank-row.is-p1 { background: rgba(234, 179, 8, 0.14); }
+.dg-place { width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; background: var(--color-primary-soft); color: var(--color-primary); flex: 0 0 auto; }
+.dg-exp { display: flex; gap: 6px; align-items: center; margin: 10px 0 0; font-weight: 700; }
+.dg-words { list-style: none; margin: 0 0 10px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 4px 12px; }
+.dg-words li { display: flex; gap: 4px; align-items: center; min-width: 0; overflow-wrap: anywhere; }
+.dg-words small { color: var(--color-text-muted); }
+.dg-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.dg-actions .btn { min-height: 46px; }
+
+/* เมนูผู้เล่น (รายงาน/เตะ) */
+.dg-sheet { position: fixed; inset: 0; z-index: 1200; background: rgba(15, 23, 42, 0.5); display: flex; align-items: flex-end; justify-content: center; }
+.dg-sheet-box { background: var(--color-surface); color: var(--color-text); width: min(480px, 100%); border-radius: 18px 18px 0 0; padding: 16px; max-height: 85vh; overflow: auto; box-sizing: border-box; }
+.dg-sheet-box h2 { display: flex; gap: 8px; align-items: center; margin: 0 0 10px; font-size: 1.05rem; }
+.dg-sheet-box fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; }
+.dg-radio { display: flex; gap: 8px; align-items: center; min-height: 40px; }
+.dg-radio input { width: 20px; height: 20px; accent-color: var(--color-primary); }
+.dg-sheet-act { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.dg-sheet-act .btn { min-height: 44px; }
+.dg-danger { color: var(--color-danger, #b91c1c); }
+@media (min-width: 640px) { .dg-sheet { align-items: center; } .dg-sheet-box { border-radius: 18px; } }
+
+/* การ์ดคำเชิญในแชทโลก */
+.dg-invcard { display: flex; gap: 10px; align-items: center; margin-top: 6px; padding: 8px 10px; border-radius: 12px; border: 1px solid var(--color-primary); background: var(--color-primary-soft); max-width: 100%; box-sizing: border-box; }
+.dg-invcard.is-closed { border-color: var(--color-border); background: transparent; opacity: 0.75; }
+.dg-invcard-ic { width: 32px; height: 32px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; background: var(--color-primary); color: #fff; flex: 0 0 auto; }
+.dg-invcard-t { display: grid; gap: 1px; flex: 1 1 auto; min-width: 0; }
+.dg-invcard-t small { color: var(--color-text-muted); font-size: 0.78rem; overflow-wrap: anywhere; }
+.dg-invcard-b { min-height: 40px; flex: 0 0 auto; padding: 0 12px; }
+.play-new-tag { display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 999px; background: var(--color-danger, #ef4444); color: #fff; vertical-align: middle; font-weight: 700; }
+.toast .toast-action { margin-left: 8px; border: 0; border-radius: 8px; padding: 4px 10px; background: rgba(255, 255, 255, 0.92); color: #1e1b4b; font: inherit; font-weight: 700; cursor: pointer; min-height: 32px; }
+
+@media (min-width: 1024px) {
+  .dg-game { grid-template-columns: minmax(0, 1fr) 320px; align-items: start; }
+  .dg-side { position: sticky; top: calc(var(--eq-hud-h, 0px) + 12px); }
+  .dg-side .dg-chat { order: 0; }
+  .dg-players { grid-template-columns: 1fr; }
+  .dg-log { height: 300px; }
+  .dg-lobby { grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+  .dg-lobby .dg-chat { grid-column: 1 / -1; }
+}
+@media (max-width: 400px) {
+  .dg-row2 { grid-template-columns: 1fr; }
+  .dg-color { width: 30px; height: 30px; }
+}
+
+/* v1.21.0 รายการห้องที่เปิดอยู่ + ตัวเลือกห้องสาธารณะ */
+.dg-rooms-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.dg-rooms-head h2 { margin: 0; }
+.dg-rooms-head .dg-iconbtn { min-width: 44px; min-height: 44px; }
+.dg-rooms { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+@media (min-width: 1100px) { .dg-rooms { grid-template-columns: 1fr 1fr; } }
+.dg-room { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--color-border); background: var(--color-bg, var(--color-surface)); min-width: 0; }
+.dg-room.is-mine { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.dg-room-av { width: 44px; height: 44px; }
+.dg-room-main { min-width: 0; display: grid; gap: 3px; }
+.dg-room-main p { margin: 0; }
+.dg-room-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dg-room-title small { color: var(--color-text-muted); font-weight: 600; }
+.dg-room-meta { display: flex; flex-wrap: wrap; gap: 4px 8px; font-size: 0.8rem; color: var(--color-text-muted); }
+.dg-room-lv { color: var(--color-text); font-weight: 700; }
+.dg-room-st.is-waiting { color: var(--color-success, #15803D); font-weight: 700; }
+.dg-room-count { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; }
+.dg-room-dots { display: inline-flex; gap: 3px; }
+.dg-room-dots i { width: 8px; height: 8px; border-radius: 50%; background: color-mix(in srgb, var(--color-border) 85%, transparent); }
+.dg-room-dots i.on { background: var(--color-primary); }
+.dg-room-join { min-height: 44px; min-width: 92px; }
+@media (max-width: 420px) {
+  .dg-room { grid-template-columns: auto minmax(0, 1fr); }
+  .dg-room-join { grid-column: 1 / -1; width: 100%; }
+}
+.dg-empty-rooms { margin: 0; display: flex; gap: 8px; align-items: center; color: var(--color-text-muted); font-size: 0.9rem; }
+.dg-check { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--color-border); cursor: pointer; }
+.dg-check input { width: 22px; height: 22px; margin: 1px 0 0; flex: 0 0 auto; accent-color: var(--color-primary); }
+.dg-check span { display: grid; gap: 2px; font-size: 0.9rem; }
+.dg-check small { color: var(--color-text-muted); font-size: 0.8rem; }

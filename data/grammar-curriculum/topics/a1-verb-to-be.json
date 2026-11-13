@@ -1,0 +1,208 @@
+{
+  "id": "a1-verb-to-be",
+  "summaryTh": "ใช้ am / is / are บอกว่าใครเป็นอะไร อยู่ที่ไหน หรือเป็นอย่างไร",
+  "concept": {
+    "what": "Verb to be ในปัจจุบันมี 3 รูป คือ am, is, are ใช้เชื่อมประธานกับคำที่บอกว่าเป็นใคร เป็นอะไร รู้สึกอย่างไร หรืออยู่ที่ไหน",
+    "when": [
+      "บอกชื่อ อาชีพ สัญชาติ อายุ (I am Nok. She is a doctor. I am 12.)",
+      "บอกลักษณะหรือความรู้สึก ตามด้วยคำคุณศัพท์ (We are hungry. The room is clean.)",
+      "บอกตำแหน่งที่อยู่ (The books are on the desk. Dad is at work.)"
+    ],
+    "why": "ภาษาไทยพูด \"ฉันหิว\" \"บ้านใหญ่\" โดยไม่มีคำกริยา แต่ภาษาอังกฤษทุกประโยคต้องมีกริยา ถ้าไม่มีกริยาอื่นต้องใส่ am / is / are เสมอ (I am hungry.)"
+  },
+  "structure": {
+    "formula": "Subject + am / is / are + noun / adjective / place",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "I am · he / she / it is · you / we / they are", "example": "She [[is]] a doctor." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + am not / is not (isn't) / are not (aren't)", "example": "They [[aren't]] at home." },
+      { "label": "คำถาม (Question)", "formula": "Am / Is / Are + Subject …?", "example": "[[Is]] he your brother?" },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + am/is/are. / No, Subject + 'm not / isn't / aren't.", "example": "Yes, he [[is]]. / No, he [[isn't]]." },
+      { "label": "คำถาม Wh-", "formula": "Wh- + am / is / are + Subject?", "example": "Where [[are]] you from?" }
+    ],
+    "notes": [
+      "รูปย่อ: I'm, you're, he's, she's, it's, we're, they're",
+      "ปฏิเสธของ I ใช้ I'm not (ไม่มี I amn't)",
+      "ประธานพหูพจน์ (my friends, the books, Tom and I) ใช้ are",
+      "หลัง am / is / are ไม่ใช้กริยาช่องที่ 1 ตรง ๆ: He works. (ไม่ใช่ He is work.)"
+    ]
+  },
+  "examples": [
+    { "en": "I [[am]] twelve years old.", "th": "ฉันอายุสิบสองปี" },
+    { "en": "My father [[is]] a police officer.", "th": "พ่อของฉันเป็นตำรวจ" },
+    { "en": "We [[are]] hungry.", "th": "พวกเราหิว (ต้องมี are)" },
+    { "en": "The books [[are]] on the desk.", "th": "หนังสืออยู่บนโต๊ะ" },
+    { "en": "She [[isn't]] at school today.", "th": "วันนี้เธอไม่ได้อยู่ที่โรงเรียน" },
+    { "en": "[[Are]] you from Thailand? — Yes, I [[am]].", "th": "คุณมาจากประเทศไทยใช่ไหม — ใช่ค่ะ" },
+    { "en": "It [[is]] sunny in Phuket today.", "th": "วันนี้ที่ภูเก็ตแดดออก" },
+    { "en": "Where [[are]] my glasses?", "th": "แว่นตาของฉันอยู่ที่ไหน" }
+  ],
+  "mistakes": [
+    { "wrong": "I hungry.", "right": "I am hungry.", "whyTh": "ภาษาไทยพูด \"ฉันหิว\" ไม่มีกริยา แต่ภาษาอังกฤษต้องมี am เชื่อมประธานกับคำคุณศัพท์" },
+    { "wrong": "She are my friend.", "right": "She is my friend.", "whyTh": "she / he / it ใช้ is เท่านั้น" },
+    { "wrong": "My friends is kind.", "right": "My friends are kind.", "whyTh": "my friends เป็นพหูพจน์ (หลายคน) ใช้ are" },
+    { "wrong": "Is she is a teacher?", "right": "Is she a teacher?", "whyTh": "คำถามย้าย is มาไว้หน้าประธานแล้ว ไม่ต้องมี is ซ้ำข้างหลัง" },
+    { "wrong": "He is work in a bank.", "right": "He works in a bank.", "whyTh": "ประโยคมีกริยาแท้ (work) แล้ว ไม่ต้องใส่ is — is ใช้กับคำนาม คำคุณศัพท์ หรือสถานที่" },
+    { "wrong": "I amn't tired.", "right": "I'm not tired.", "whyTh": "ภาษาอังกฤษไม่มีรูปย่อ amn't ใช้ I'm not หรือ I am not" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "First day at school",
+      "lines": [
+        { "speaker": "Ann", "text": "Hi! I[['m]] Ann. [[Are]] you new here?" },
+        { "speaker": "Joe", "text": "Yes, I [[am]]. I[['m]] Joe. I[['m]] from Canada." },
+        { "speaker": "Ann", "text": "Welcome! This [[is]] our classroom. The teacher [[is]] very nice." },
+        { "speaker": "Joe", "text": "Great! Where [[are]] the toilets?" },
+        { "speaker": "Ann", "text": "They[['re]] next to the library." }
+      ]
+    },
+    {
+      "kind": "social", "title": "My profile",
+      "lines": [
+        { "text": "Hi, I[['m]] Arm. I[['m]] 15 and I[['m]] from Khon Kaen. My mum [[is]] a nurse and my dad [[is]] a farmer. My two brothers [[are]] students in Bangkok. We [[aren't]] rich, but we [[are]] very happy." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Verb to be", "th": "กริยา be — am / is / are แปลว่า เป็น อยู่ คือ" },
+    { "en": "Adjective", "th": "คำคุณศัพท์ — คำบอกลักษณะ เช่น happy, big, hot" },
+    { "en": "Short answer", "th": "คำตอบสั้น เช่น Yes, I am. / No, it isn't." },
+    { "en": "Contraction", "th": "รูปย่อ เช่น I'm, she's, they're" }
+  ],
+  "practice": [
+    {
+      "id": "a1-verb-to-be-01", "type": "mc", "difficulty": 1,
+      "question": "I ___ a student.",
+      "choices": ["am", "is", "are", "be"], "answer": 0,
+      "whyNot": { "1": "is ใช้กับ he / she / it", "2": "are ใช้กับ you / we / they", "3": "be เป็นรูปฐาน ไม่ใช้ตามหลังประธานในประโยคปัจจุบัน" },
+      "explainTh": "ประธาน I ใช้คู่กับ am เสมอ → I am",
+      "structure": "I + am", "example": "I am a student."
+    },
+    {
+      "id": "a1-verb-to-be-02", "type": "mc", "difficulty": 1,
+      "question": "My sister and I ___ in the kitchen.",
+      "choices": ["am", "is", "are", "be"], "answer": 2,
+      "whyNot": { "0": "am ใช้กับ I คนเดียว แต่ประธานคือ my sister and I (2 คน)", "1": "is ใช้กับประธานเอกพจน์ แต่ที่นี่มี 2 คน", "3": "be เป็นรูปฐาน ไม่ใช้ตามหลังประธาน" },
+      "explainTh": "My sister and I = 2 คน (เท่ากับ we) จึงใช้ are",
+      "structure": "Plural subject + are", "example": "My sister and I are in the kitchen."
+    },
+    {
+      "id": "a1-verb-to-be-03", "type": "fill", "difficulty": 1,
+      "question": "The weather ___ very hot today. (be – ปัจจุบัน)",
+      "accepted": ["is"],
+      "explainTh": "the weather เป็นเอกพจน์ (เหมือน it) ใช้ is",
+      "structure": "It / singular noun + is", "example": "The weather is very hot today."
+    },
+    {
+      "id": "a1-verb-to-be-04", "type": "fill", "difficulty": 2,
+      "question": "They ___ at home now. They are at the park. (be + not)",
+      "accepted": ["aren't", "are not"],
+      "explainTh": "ปฏิเสธของ they ใช้ are not (aren't) — ประโยคถัดไปบอกว่าอยู่ที่สวน จึงไม่ได้อยู่บ้าน",
+      "structure": "They + aren't", "example": "They aren't at home now."
+    },
+    {
+      "id": "a1-verb-to-be-05", "type": "fill", "difficulty": 1,
+      "question": "___ your brother a doctor? — Yes, he is.",
+      "accepted": ["Is"],
+      "explainTh": "คำถามของ be ย้าย is ไปหน้าประธาน — your brother = he จึงใช้ Is (คำตอบ Yes, he is. ยืนยัน)",
+      "structure": "Is + he/she/it …?", "example": "Is your brother a doctor?"
+    },
+    {
+      "id": "a1-verb-to-be-06", "type": "match", "difficulty": 2,
+      "prompt": "จับคู่คำถามกับคำตอบสั้นที่ถูกต้อง",
+      "pairs": [["Are you tired?", "Yes, I am."], ["Is he your brother?", "Yes, he is."], ["Are they at home?", "No, they aren't."], ["Is it your bag?", "No, it isn't."], ["Is Mai a teacher?", "No, she isn't."]],
+      "explainTh": "คำตอบสั้นใช้ประธานและ be ให้ตรงกับคำถาม: Are you …? → I am · Is he …? → he is · Are they …? → they aren't · Is Mai …? → she isn't"
+    },
+    {
+      "id": "a1-verb-to-be-07", "type": "error", "difficulty": 1,
+      "sentence": "My cat are very fat.",
+      "errorPart": "are",
+      "accepted": ["My cat is very fat.", "My cats are very fat."],
+      "explainTh": "my cat มีตัวเดียว (เอกพจน์ เหมือน it) ต้องใช้ is",
+      "structure": "Singular noun + is"
+    },
+    {
+      "id": "a1-verb-to-be-08", "type": "error", "difficulty": 2,
+      "sentence": "Tom and Ben is in my class.",
+      "errorPart": "is",
+      "accepted": ["Tom and Ben are in my class."],
+      "explainTh": "Tom and Ben = 2 คน (เท่ากับ they) ใช้ are",
+      "structure": "Plural subject + are"
+    },
+    {
+      "id": "a1-verb-to-be-09", "type": "order", "difficulty": 1,
+      "tokens": ["are", "where", "you", "from"],
+      "accepted": ["Where are you from?"],
+      "explainTh": "คำถาม Wh-: Where + are + you + from? (from อยู่ท้ายคำถาม)"
+    },
+    {
+      "id": "a1-verb-to-be-10", "type": "order", "difficulty": 2,
+      "tokens": ["aren't", "the", "on", "keys", "table", "the"],
+      "accepted": ["The keys aren't on the table.", "Aren't the keys on the table?"],
+      "explainTh": "ปฏิเสธ: Subject (The keys) + aren't + สถานที่ (on the table)"
+    },
+    {
+      "id": "a1-verb-to-be-11", "type": "transform", "difficulty": 2,
+      "source": "She is a nurse.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ (Negative)",
+      "accepted": ["She is not a nurse.", "She isn't a nurse."],
+      "explainTh": "ปฏิเสธของ be เติม not หลัง is → is not / isn't",
+      "structure": "Subject + is not", "example": "She isn't a nurse."
+    },
+    {
+      "id": "a1-verb-to-be-12", "type": "transform", "difficulty": 3,
+      "source": "You are ready for the test.",
+      "instruction": "เปลี่ยนเป็นคำถาม Yes/No question",
+      "accepted": ["Are you ready for the test?"],
+      "explainTh": "คำถามของ be ย้าย are มาไว้หน้าประธาน → Are you …? ไม่ต้องใช้ Do",
+      "structure": "Are + you …?", "example": "Are you ready for the test?"
+    },
+    {
+      "id": "a1-verb-to-be-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I is from Thailand.", "I am from Thailand.", "I are from Thailand.", "I from Thailand."], "answer": 1,
+      "whyNot": { "0": "is ใช้กับ he / she / it ไม่ใช้กับ I", "2": "are ใช้กับ you / we / they ไม่ใช้กับ I", "3": "ขาดกริยา — ภาษาอังกฤษต้องมี am ระหว่าง I กับ from Thailand" },
+      "explainTh": "I ใช้คู่กับ am เสมอ และต้องมีกริยาในประโยค → I am from Thailand.",
+      "structure": "I + am", "example": "I am from Thailand."
+    },
+    {
+      "id": "a1-verb-to-be-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Hi! ___ you new here?" },
+        { "speaker": "B", "text": "Yes, I am. My name is Nina." }
+      ] },
+      "choices": ["Is", "Are", "Am", "Do"], "answer": 1,
+      "whyNot": { "0": "Is ใช้กับ he / she / it ไม่ใช้กับ you", "2": "Am ใช้กับ I เท่านั้น", "3": "new เป็นคำคุณศัพท์ ไม่ใช่กริยา จึงถามด้วย Do ไม่ได้ (และคำตอบคือ Yes, I am.)" },
+      "explainTh": "you ใช้คู่กับ are — คำถามของ be: Are you …? และคำตอบ Yes, I am. ก็ยืนยันว่าเป็น be",
+      "structure": "Are + you + adjective?", "example": "Are you new here?"
+    },
+    {
+      "id": "a1-verb-to-be-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "social", "title": "Arm's profile", "lines": [
+        { "text": "Hi, I'm Arm. I'm 15 and I'm from Khon Kaen. My mum is a nurse and my dad is a farmer. My two brothers are students in Bangkok. We aren't rich, but we are very happy." }
+      ] },
+      "question": "Which sentence is true?",
+      "choices": ["Arm's dad is a nurse.", "Arm's brothers are students.", "Arm is 13.", "Arm's family is rich."], "answer": 1,
+      "whyNot": { "0": "ข้อความบอกว่า mum is a nurse ส่วน dad is a farmer", "2": "ข้อความบอกว่า I'm 15", "3": "ข้อความบอกว่า We aren't rich" },
+      "explainTh": "\"My two brothers are students\" — brothers เป็นพหูพจน์จึงใช้ are"
+    },
+    {
+      "id": "a1-verb-to-be-16", "type": "mc", "difficulty": 3,
+      "question": "Where ___ my phone and my keys?",
+      "choices": ["is", "are", "am", "be"], "answer": 1,
+      "whyNot": { "0": "ประธานคือ my phone and my keys (หลายสิ่ง) ใช้ is ไม่ได้", "2": "am ใช้กับ I เท่านั้น", "3": "be เป็นรูปฐาน ไม่ใช้ในคำถามปัจจุบันแบบนี้" },
+      "explainTh": "ประธานจริงอยู่หลังกริยา: my phone and my keys = หลายสิ่ง → are",
+      "structure": "Where + are + plural subject?", "example": "Where are my phone and my keys?"
+    },
+    {
+      "id": "a1-verb-to-be-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคแนะนำตัวเอง: ชื่อ อายุ และมาจากที่ไหน (Write 3 sentences about yourself: your name, your age and where you are from.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bI\\s+am\\b|\\bI'm\\b", "flags": "i", "msgTh": "ใช้ I am หรือ I'm อย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(am|is|are|'m|'s|'re)\\b", "flags": "i", "msgTh": "ใช้ am / is / are ในประโยค" }
+      ],
+      "sample": "My name is Ploy. I am thirteen years old. I am from Chiang Mai.",
+      "explainTh": "แนะนำตัวด้วย be: My name is … · I am … years old. · I am from …"
+    }
+  ]
+}

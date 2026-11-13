@@ -1,0 +1,202 @@
+{
+  "id": "a1-imperatives",
+  "summaryTh": "สั่ง ขอร้อง เตือน และชวน ด้วยกริยาช่องที่ 1 / Don't / Let's",
+  "concept": {
+    "what": "Imperative คือประโยคคำสั่งหรือคำขอร้อง ขึ้นต้นด้วยกริยาช่องที่ 1 ได้เลยโดยไม่ต้องมีประธาน เช่น Sit down. (นั่งลง) ถ้าห้ามใช้ Don't + V1 และถ้าชวนทำด้วยกันใช้ Let's + V1",
+    "when": [
+      "สั่งหรือบอกให้ทำ (Open your books.)",
+      "ขอร้องอย่างสุภาพด้วย please (Please sit down. / Sit down, please.)",
+      "ห้ามหรือเตือน (Don't run! / Be careful!)",
+      "บอกทาง ให้คำแนะนำ วิธีทำ (Turn left at the bank. / Add some salt.)",
+      "ชวนทำด้วยกัน (Let's go to the beach!)"
+    ],
+    "why": "ประโยคคำสั่งไม่มีประธาน you เพราะผู้ฟังรู้อยู่แล้วว่าพูดกับใคร คนไทยมักแปลตรงจากคำว่า \"อย่า\" เป็น Not … หรือใส่ to / -ing หลัง Don't และ Let's ซึ่งผิด — หลังคำเหล่านี้ใช้กริยาช่องที่ 1 เสมอ"
+  },
+  "structure": {
+    "formula": "V1 + … · Don't + V1 + … · Let's + V1 + …",
+    "rows": [
+      { "label": "คำสั่ง / ขอร้อง", "formula": "V1 + …", "example": "[[Close]] the door." },
+      { "label": "สุภาพขึ้นด้วย please", "formula": "Please + V1 … / V1 …, please.", "example": "[[Please sit]] down. · [[Sit]] down, please." },
+      { "label": "ห้าม (Negative)", "formula": "Don't (Do not) + V1", "example": "[[Don't touch]] the oven." },
+      { "label": "กับคำคุณศัพท์", "formula": "Be / Don't be + adjective", "example": "[[Be]] quiet! · [[Don't be]] late." },
+      { "label": "ชวน (Suggestion)", "formula": "Let's + V1 · Let's not + V1", "example": "[[Let's eat]] out tonight." }
+    ],
+    "notes": [
+      "ไม่มีประธาน: Open the window. (ไม่ใช่ You open the window. ในการสั่งทั่วไป)",
+      "ห้ามใช้ Don't + V1 ไม่ใช่ Not + V1 หรือ No + V1",
+      "หลัง Don't และ Let's ใช้ V1 ไม่มี to และไม่เติม -ing (Let's go ไม่ใช่ Let's to go / Let's going)",
+      "คำคุณศัพท์ (quiet, late, careful) ต้องมี be นำหน้า: Be careful! / Don't be noisy!",
+      "please วางต้นประโยค หรือท้ายประโยคหลังเครื่องหมายจุลภาคก็ได้"
+    ]
+  },
+  "examples": [
+    { "en": "[[Open]] your books, please.", "th": "เปิดหนังสือค่ะ / ครับ" },
+    { "en": "[[Please sit]] down.", "th": "เชิญนั่งค่ะ" },
+    { "en": "[[Don't run]] in the classroom.", "th": "อย่าวิ่งในห้องเรียน" },
+    { "en": "[[Turn]] left at the bank.", "th": "เลี้ยวซ้ายที่ธนาคาร" },
+    { "en": "[[Let's go]] to the beach!", "th": "ไปทะเลกันเถอะ" },
+    { "en": "[[Be]] careful! The floor is wet.", "th": "ระวังนะ พื้นเปียก" },
+    { "en": "[[Don't be]] late tomorrow.", "th": "พรุ่งนี้อย่ามาสายนะ" },
+    { "en": "[[Never share]] your password.", "th": "อย่าบอกรหัสผ่านให้ใครเด็ดขาด" },
+    { "en": "[[Take]] this medicine three times a day.", "th": "กินยานี้วันละสามครั้ง" }
+  ],
+  "mistakes": [
+    { "wrong": "Don't to touch the dog.", "right": "Don't touch the dog.", "whyTh": "หลัง Don't ใช้กริยาช่องที่ 1 ทันที ไม่มี to" },
+    { "wrong": "Not run in the hall.", "right": "Don't run in the hall.", "whyTh": "คำว่า \"อย่า\" ใช้ Don't ไม่ใช่ Not — แปลตรงจากภาษาไทยไม่ได้" },
+    { "wrong": "Let's going home.", "right": "Let's go home.", "whyTh": "หลัง Let's ใช้ V1 ไม่ใช่ V-ing" },
+    { "wrong": "Don't noisy!", "right": "Don't be noisy!", "whyTh": "noisy เป็นคำคุณศัพท์ ต้องมี be: Don't be + adjective" },
+    { "wrong": "Please you sit down.", "right": "Please sit down.", "whyTh": "ประโยคคำสั่งไม่ต้องมีประธาน you" },
+    { "wrong": "Be not late!", "right": "Don't be late!", "whyTh": "ปฏิเสธในประโยคคำสั่งใช้ Don't นำหน้าเสมอ แม้แต่กับ be" }
+  ],
+  "contexts": [
+    {
+      "kind": "school", "title": "In the classroom",
+      "lines": [
+        { "speaker": "Teacher", "text": "Good morning, class. [[Sit]] down, please, and [[open]] your books." },
+        { "speaker": "Teacher", "text": "[[Don't talk]] now. [[Listen]] to the audio and [[write]] the answers." },
+        { "speaker": "Student", "text": "Can I go to the toilet, please?" },
+        { "speaker": "Teacher", "text": "Yes, but [[be]] quick! And [[don't forget]] your homework on Friday." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Message from Mum",
+      "lines": [
+        { "text": "Hi Tong, I'm at work until nine tonight. [[Feed]] the cat at six, [[do]] your homework and [[don't play]] games all evening! There is rice in the fridge — [[heat]] it in the microwave. [[Let's have]] breakfast together tomorrow. Love, Mum" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Imperative", "th": "ประโยคคำสั่ง / ขอร้อง ขึ้นต้นด้วยกริยา" },
+    { "en": "Negative imperative", "th": "ประโยคห้าม ใช้ Don't + V1" },
+    { "en": "Suggestion (Let's)", "th": "การชวนทำด้วยกัน" },
+    { "en": "Polite request", "th": "การขอร้องอย่างสุภาพ (เติม please)" }
+  ],
+  "practice": [
+    {
+      "id": "a1-imperatives-01", "type": "mc", "difficulty": 1,
+      "question": "___ your hands before lunch.",
+      "choices": ["Wash", "Washes", "Washing", "To wash"], "answer": 0,
+      "whyNot": { "1": "ประโยคคำสั่งไม่มีประธาน จึงไม่เติม -s", "2": "ประโยคคำสั่งขึ้นต้นด้วย V1 ไม่ใช่ V-ing", "3": "ประโยคคำสั่งไม่ขึ้นต้นด้วย to" },
+      "explainTh": "ประโยคคำสั่งขึ้นต้นด้วยกริยาช่องที่ 1 → Wash your hands before lunch.",
+      "structure": "V1 + …", "example": "Wash your hands before lunch."
+    },
+    {
+      "id": "a1-imperatives-02", "type": "mc", "difficulty": 1,
+      "question": "The floor is wet. ___ run!",
+      "choices": ["Don't", "Not", "No", "Doesn't"], "answer": 0,
+      "whyNot": { "1": "Not run แปลตรงจาก \"อย่าวิ่ง\" แต่ภาษาอังกฤษต้องใช้ Don't", "2": "No ตามด้วยกริยาช่องที่ 1 ไม่ได้ (ป้ายจะใช้ No running ซึ่งเป็นอีกรูปหนึ่ง)", "3": "doesn't ใช้กับประธาน he / she / it ในประโยคบอกเล่า ไม่ใช่ประโยคคำสั่ง" },
+      "explainTh": "ห้ามทำ: Don't + V1 → Don't run!"
+    },
+    {
+      "id": "a1-imperatives-03", "type": "fill", "difficulty": 1,
+      "question": "___ touch the oven. It's very hot. (อย่า)",
+      "accepted": ["Don't", "Do not", "Never"],
+      "explainTh": "\"อย่า\" ในประโยคคำสั่งใช้ Don't (Do not) + V1 → Don't touch the oven."
+    },
+    {
+      "id": "a1-imperatives-04", "type": "fill", "difficulty": 2,
+      "question": "It's a nice day. ___ go to the park together! (ชวน …กันเถอะ)",
+      "accepted": ["Let's", "Let us"],
+      "explainTh": "ชวนทำด้วยกัน: Let's + V1 → Let's go to the park together!",
+      "structure": "Let's + V1"
+    },
+    {
+      "id": "a1-imperatives-05", "type": "fill", "difficulty": 3,
+      "question": "Please ___ late for class tomorrow. (อย่ามาสาย)",
+      "accepted": ["don't be", "do not be"],
+      "explainTh": "late เป็นคำคุณศัพท์ จึงต้องมี be · ห้าม: Don't be + adjective → Please don't be late.",
+      "structure": "Don't be + adjective"
+    },
+    {
+      "id": "a1-imperatives-06", "type": "error", "difficulty": 1,
+      "sentence": "Don't to eat in the library.",
+      "errorPart": "Don't to eat",
+      "accepted": ["Don't eat in the library."],
+      "explainTh": "หลัง Don't ใช้กริยาช่องที่ 1 ทันที ไม่มี to → Don't eat …"
+    },
+    {
+      "id": "a1-imperatives-07", "type": "error", "difficulty": 2,
+      "sentence": "Not talk during the test.",
+      "errorPart": "Not talk",
+      "accepted": ["Don't talk during the test."],
+      "explainTh": "ประโยคห้ามใช้ Don't + V1 ไม่ใช่ Not + V1"
+    },
+    {
+      "id": "a1-imperatives-08", "type": "error", "difficulty": 2,
+      "sentence": "Let's going to the cinema tonight.",
+      "errorPart": "going",
+      "accepted": ["Let's go to the cinema tonight."],
+      "explainTh": "หลัง Let's ใช้กริยาช่องที่ 1 → Let's go (ไม่ใช่ going)"
+    },
+    {
+      "id": "a1-imperatives-09", "type": "order", "difficulty": 1,
+      "tokens": ["the", "close", "please", "door"],
+      "accepted": ["Please close the door.", "Close the door please."],
+      "explainTh": "Please + V1 + กรรม → Please close the door. (please วางท้ายประโยคก็ได้: Close the door, please.)"
+    },
+    {
+      "id": "a1-imperatives-10", "type": "order", "difficulty": 3,
+      "tokens": ["shoes", "your", "take", "off", "don't"],
+      "accepted": ["Don't take off your shoes.", "Don't take your shoes off."],
+      "explainTh": "ห้าม: Don't + V1 (take off) + กรรม → Don't take off your shoes. หรือ Don't take your shoes off."
+    },
+    {
+      "id": "a1-imperatives-11", "type": "transform", "difficulty": 2,
+      "source": "You can't use your phone in class.",
+      "instruction": "เปลี่ยนเป็นประโยคห้าม ขึ้นต้นด้วย Don't",
+      "accepted": ["Don't use your phone in class."],
+      "explainTh": "ประโยคห้ามไม่มีประธาน: Don't + V1 → Don't use your phone in class."
+    },
+    {
+      "id": "a1-imperatives-12", "type": "transform", "difficulty": 3,
+      "source": "Do you want to eat pizza with me tonight?",
+      "instruction": "เปลี่ยนเป็นประโยคชวนด้วย Let's",
+      "accepted": ["Let's eat pizza tonight.", "Let's eat pizza together tonight.", "Tonight let's eat pizza."],
+      "explainTh": "ชวนทำด้วยกัน: Let's + V1 → Let's eat pizza tonight. (Let's รวมผู้พูดอยู่แล้ว ไม่ต้องมี with me)"
+    },
+    {
+      "id": "a1-imperatives-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับความหมาย",
+      "pairs": [["Sit down.", "นั่งลง"], ["Don't sit down.", "อย่านั่ง"], ["Let's sit down.", "เรานั่งกันเถอะ"], ["Be quiet.", "เงียบหน่อย"]],
+      "explainTh": "V1 = สั่ง · Don't + V1 = ห้าม · Let's + V1 = ชวน · Be + adjective = สั่งให้เป็นแบบนั้น"
+    },
+    {
+      "id": "a1-imperatives-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["Don't be late for class!", "Don't late for class!", "Not be late for class!", "Be not late for class!"], "answer": 0,
+      "whyNot": { "1": "late เป็นคำคุณศัพท์ ต้องมี be: Don't be late", "2": "ห้ามใช้ Don't ไม่ใช่ Not", "3": "ประโยคคำสั่งปฏิเสธใช้ Don't นำหน้า ไม่ใช่ Be not" },
+      "explainTh": "ห้ามกับคำคุณศัพท์: Don't + be + adjective → Don't be late for class!"
+    },
+    {
+      "id": "a1-imperatives-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Excuse me. Where is the post office?" },
+        { "speaker": "B", "text": "___ right at the bank. It's next to the café." }
+      ] },
+      "choices": ["Turn", "Turning", "To turn", "Turns"], "answer": 0,
+      "whyNot": { "1": "บอกทางเป็นประโยคคำสั่ง ขึ้นต้นด้วย V1 ไม่ใช่ V-ing", "2": "ประโยคคำสั่งไม่ขึ้นต้นด้วย to", "3": "ไม่มีประธาน จึงไม่เติม -s" },
+      "explainTh": "บอกทางใช้ประโยคคำสั่ง: V1 + … → Turn right at the bank."
+    },
+    {
+      "id": "a1-imperatives-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "School trip", "lines": [
+        { "text": "School trip on Friday! Come to school at 7 a.m. Bring a hat and a bottle of water. Wear comfortable shoes. Don't bring your phone. Let's have a great day!" }
+      ] },
+      "question": "What can't students bring?",
+      "choices": ["A phone.", "A hat.", "A bottle of water.", "Comfortable shoes."], "answer": 0,
+      "whyNot": { "1": "ประกาศบอกให้นำหมวกมา (Bring a hat)", "2": "ประกาศบอกให้นำขวดน้ำมา (Bring … a bottle of water)", "3": "ประกาศบอกให้ใส่รองเท้าที่สบาย (Wear comfortable shoes)" },
+      "explainTh": "Don't bring your phone. = ประโยคห้าม (Don't + V1) จึงเป็นของที่ห้ามนำมา"
+    },
+    {
+      "id": "a1-imperatives-17", "type": "write", "difficulty": 3,
+      "task": "เขียนคำแนะนำ 3 ข้อสำหรับนักเรียนใหม่ อย่างน้อย 1 ข้อเป็นประโยคห้าม (Write 3 instructions for a new student. Use Don't at least once.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(don't|do not)\\s+[a-z]+", "flags": "i", "msgTh": "ใส่ประโยคห้ามอย่างน้อย 1 ข้อ: Don't + V1" },
+        { "re": "(^|[.!?]\\s+)(please\\s+)?(be|come|bring|listen|ask|do|wear|sit|read|take|go|make|help|try|use|say|put|write|keep|eat|drink|talk|clean|turn|open|close|remember|check|finish|follow|study|speak|join|arrive|wait|look|tell|give|start|stop|leave|walk|play|smile|have|get|wash|raise|switch|call|find|stay|share|respect|let's|always|never)\\b", "flags": "i", "msgTh": "ขึ้นต้นประโยคคำสั่งด้วยกริยาช่องที่ 1 เช่น Come …, Bring …, Listen …" }
+      ],
+      "sample": "Come to school before eight o'clock. Don't run in the hall. Ask the teacher when you need help.",
+      "explainTh": "ประโยคคำสั่งขึ้นต้นด้วย V1 (Come, Ask) และประโยคห้ามใช้ Don't + V1 (Don't run) ไม่ต้องมีประธาน"
+    }
+  ]
+}

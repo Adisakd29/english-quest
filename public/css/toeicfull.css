@@ -1,0 +1,28 @@
+/* TOEIC Full Mock Test (public/js/toeicfull.js) */
+.tqf-progress { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 4px 10px; margin: 0 0 14px; }
+.tqf-progress small { grid-column: 1 / -1; color: var(--color-text-muted); }
+.tqf-parts { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 8px; }
+.tqf-part { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 14px; border: 1.5px solid var(--color-border); background: var(--color-surface); }
+.tqf-part.is-next { border-color: var(--tq-accent); background: var(--tq-soft); }
+.tqf-part.is-done { opacity: 0.92; }
+.tqf-part-text { display: grid; gap: 2px; min-width: 0; }
+.tqf-part-text small { color: var(--color-text-muted); font-size: 0.8rem; }
+.tqf-chip { justify-self: start; display: inline-flex; align-items: center; gap: 4px; margin-top: 2px; padding: 1px 8px; border-radius: 99px; font-size: 0.76rem; font-weight: 700; background: var(--gl-card-2, rgba(0, 0, 0, 0.05)); color: var(--color-text-muted); }
+.tqf-chip.is-done { background: var(--color-success-soft); color: var(--color-success); }
+.tqf-chip.is-active { background: var(--tq-soft); color: var(--tq-accent); }
+.tqf-go { min-height: 44px; white-space: nowrap; }
+@media (max-width: 520px) { .tqf-part { grid-template-columns: auto 1fr; } .tqf-go { grid-column: 1 / -1; width: 100%; } }
+.tqf-note { margin: 8px 0 14px; }
+.tqf-hist ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.tqf-hrow { width: 100%; min-height: 48px; display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 10px; padding: 6px 10px; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; text-align: left; cursor: pointer; }
+.tqf-htotal { font-size: 1.15rem; color: var(--tq-accent); }
+.tqf-total b { font-size: 3rem; }
+.tqf-scores { display: grid; gap: 10px; margin: 0 0 14px; }
+@media (min-width: 640px) { .tqf-scores { grid-template-columns: 1fr 1fr; } }
+.tqf-score { display: grid; gap: 4px; padding: 14px 16px; border-radius: var(--gl-radius, 16px); border: 1px solid var(--color-border); background: var(--color-surface); }
+.tqf-score span { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; color: var(--color-text-muted); }
+.tqf-score b { font-size: 2.2rem; font-weight: 900; color: var(--tq-accent); line-height: 1.1; }
+.tqf-score small { color: var(--color-text-muted); }
+.tq-full-card { width: 100%; margin: 0 0 16px; }
+.tqf-progress { grid-template-columns: 1fr; }
+.tqf-progress .gl-bar { width: 100%; height: 10px; }

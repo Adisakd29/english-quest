@@ -1,0 +1,266 @@
+{
+  "batch": "21",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0433",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'shot (a strong shot)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0434",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'hunting' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0435",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'nice / good' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0437",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'hug (a gentle hug)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0440",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'mark' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0446",
+      "severity": "minor",
+      "problem": "Example contains 'layers' as well as 'layer', so the gap-fill gives the answer away; sentence is also repetitive.",
+      "fix": {
+        "example": "There was a thin layer of dust on the old piano.",
+        "form": "layer",
+        "exampleTH": "มีฝุ่นเกาะเป็นชั้นบาง ๆ อยู่บนเปียโนเก่า"
+      }
+    },
+    {
+      "id": "B1-S0451",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'safe / allowed' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0455",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'talked / spoke' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0460",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'fingers / hands' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0461",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'drink (types of drink)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0464",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'good / loud (many adjectives fit before 'music')' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0468",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'many nouns (a man, a driver, a friend)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0472",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'sad' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0473",
+      "severity": "minor",
+      "problem": "'The loss of his phone meant he lost...' repeats the family form 'lost', which is clumsy and gives the answer away.",
+      "fix": {
+        "example": "The loss of my wallet meant I had no money for the bus.",
+        "form": "loss",
+        "exampleTH": "การทำกระเป๋าสตางค์หายทำให้ฉันไม่มีเงินขึ้นรถเมล์"
+      }
+    },
+    {
+      "id": "B1-S0485",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'checked' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0486",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'steps (took new steps)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0493",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Put' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0497",
+      "severity": "minor",
+      "problem": "Collocation 'make a move' belongs to a different sense (start to leave / take action), not moving home.",
+      "fix": {
+        "collocations": [
+          "the move to",
+          "a big move",
+          "a move abroad"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0504",
+      "severity": "minor",
+      "problem": "'use a nail clipper' is unnatural; the tool is normally 'nail clippers'.",
+      "fix": {
+        "example": "Stop biting your nails and use nail clippers.",
+        "form": "nails",
+        "exampleTH": "เลิกกัดเล็บแล้วใช้กรรไกรตัดเล็บซะ"
+      }
+    },
+    {
+      "id": "B1-S0515",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'nor (and nor can my little sister)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0522",
+      "severity": "minor",
+      "problem": "Thai includes จดบันทึก and collocation 'note down', which belong to the 'write down' sense, not 'notice / pay attention'.",
+      "fix": {
+        "thai": "สังเกต, ใส่ใจ (please note = โปรดทราบ)",
+        "shortTH": "สังเกต",
+        "thaiChangeReason": "ตัด จดบันทึก ออก เพราะเป็นความหมายของ note down ไม่ใช่การสังเกต",
+        "collocations": [
+          "please note that",
+          "note the difference",
+          "note how"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0525",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'clear' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0530",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'main' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0531",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'old (an old phone)' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0533",
+      "severity": "minor",
+      "problem": "'crutches' is above B1, and 'injury' fits the gap equally well.",
+      "fix": {
+        "example": "After her knee operation, Nok could not walk for a month.",
+        "form": "operation",
+        "exampleTH": "หลังผ่าตัดเข่า นกเดินไม่ได้อยู่หนึ่งเดือน",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0537",
+      "severity": "minor",
+      "problem": "exampleTH 'ลีเป็นคนเกาหลีแต่เดิม' is awkward Thai word order.",
+      "fix": {
+        "exampleTH": "เดิมทีลีเป็นคนเกาหลี แต่เธอเติบโตในเมืองไทย"
+      }
+    },
+    {
+      "id": "B1-S0542",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'box' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0543",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'box / parcel' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0545",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'tired' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0553",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'quiet' fits the gap equally well for a learner.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

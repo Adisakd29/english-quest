@@ -1,0 +1,539 @@
+{
+  "id": "c1-complex-passive",
+  "summaryTh": "รายงานความเชื่อ ข่าว และสิ่งที่ถูกกระทำ แบบเป็นกลางและเป็นทางการ",
+  "concept": {
+    "what": "Complex passive คือ passive ที่ใช้รายงานสิ่งที่คนทั่วไปพูด เชื่อ หรือคาดการณ์ โดยไม่ต้องบอกว่าใครพูด เช่น It is believed that … / He is said to be … รวมถึง passive ในรูป -ing (being done) และ to-infinitive (to be done, to have been done) ด้วย",
+    "when": [
+      "รายงานข่าวหรือความเห็นทั่วไปที่ไม่ระบุแหล่ง: It is thought that … / The suspect is believed to be …",
+      "เหตุการณ์ที่เกิดก่อนเวลาที่ “เชื่อ/พูด” ใช้ to have + V3: The temple is thought to have been built in the 14th century.",
+      "หลังกริยาที่ตามด้วย -ing หรือ to-infinitive แต่ประธานเป็นผู้ถูกกระทำ: I hate being interrupted. / She expects to be promoted.",
+      "ถูกกระทำมาก่อนแล้วค่อยเกิดอีกเรื่อง: Having been told the news, she left immediately."
+    ],
+    "why": "ภาษาข่าวและภาษาวิชาการใช้โครงสร้างนี้มาก เพราะทำให้ข้อความเป็นกลาง ไม่ต้องฟันธงว่าใครพูด — คนไทยมักแปลตรงตัวจาก “เขาว่ากันว่า” เป็น They say … เสมอ หรือสับสนระหว่าง to be กับ to have been และลืมว่า “ถูก” ต้องแสดงด้วย being / to be + V3"
+  },
+  "structure": {
+    "formula": "It + is said/believed + that … | Subject + is said/believed + to V1 / to be V-ing / to have V3",
+    "rows": [
+      {
+        "label": "It + passive + that",
+        "formula": "It + is/was + said/believed/thought + that + clause",
+        "example": "[[It is believed that]] the painting is a fake."
+      },
+      {
+        "label": "เวลาเดียวกัน (Present)",
+        "formula": "Subject + is said + to + V1",
+        "example": "The painting [[is believed to be]] a fake."
+      },
+      {
+        "label": "กำลังเกิด (Continuous)",
+        "formula": "Subject + is said + to be + V-ing",
+        "example": "The minister [[is reported to be considering]] resigning."
+      },
+      {
+        "label": "เกิดก่อนหน้า (Perfect)",
+        "formula": "Subject + is said + to have + V3",
+        "example": "The fire [[is thought to have started]] in the kitchen."
+      },
+      {
+        "label": "There + passive",
+        "formula": "There + is/are + said/estimated + to be + noun",
+        "example": "[[There are estimated to be]] over 3,000 species in the park."
+      },
+      {
+        "label": "Passive gerund / infinitive",
+        "formula": "being + V3 · to be + V3 · to have been + V3",
+        "example": "Nobody likes [[being criticised]] in public."
+      },
+      {
+        "label": "Perfect participle passive",
+        "formula": "Having been + V3, Subject + V",
+        "example": "[[Having been warned]] about the traffic, we left early."
+      }
+    ],
+    "notes": [
+      "กริยาที่ใช้บ่อย: say, believe, think, know, report, expect, consider, estimate, allege, understand",
+      "ถ้าเหตุการณ์เกิด “ก่อน” เวลาที่พูด/เชื่อ ใช้ to have + V3 (ไม่ใช่ to be + V3 หรือ to + V2)",
+      "เวลาของ is/was ตามเวลาที่ “เชื่อ/พูด”: People thought … → He was thought to …",
+      "ห้ามผสมสองแบบ: He is said that … ✗ / It is said him to be … ✗",
+      "โครงสร้างเต็มคือ It is said that he is rich. ส่วนแบบย่อคือ He is said to be rich. — ความหมายเหมือนกัน"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[It is widely believed that]] the new policy will reduce traffic.",
+      "th": "เป็นที่เชื่อกันอย่างกว้างขวางว่านโยบายใหม่จะช่วยลดปัญหาการจราจร"
+    },
+    {
+      "en": "The company [[is said to be planning]] a merger with a Japanese firm.",
+      "th": "มีรายงานว่าบริษัทกำลังวางแผนควบรวมกับบริษัทญี่ปุ่น"
+    },
+    {
+      "en": "The temple [[is thought to have been built]] in the 14th century.",
+      "th": "เชื่อกันว่าวัดนี้สร้างขึ้นในศตวรรษที่ 14"
+    },
+    {
+      "en": "The suspect [[is believed to have left]] the country last week.",
+      "th": "เชื่อว่าผู้ต้องสงสัยออกนอกประเทศไปแล้วเมื่อสัปดาห์ที่แล้ว"
+    },
+    {
+      "en": "[[There are estimated to be]] over 3,000 plant species in the region.",
+      "th": "คาดว่ามีพืชมากกว่า 3,000 ชนิดในภูมิภาคนี้"
+    },
+    {
+      "en": "Most teenagers dislike [[being compared]] with their siblings.",
+      "th": "วัยรุ่นส่วนใหญ่ไม่ชอบถูกเปรียบเทียบกับพี่น้อง"
+    },
+    {
+      "en": "All applications need [[to be submitted]] by Friday.",
+      "th": "ใบสมัครทั้งหมดต้องส่งภายในวันศุกร์"
+    },
+    {
+      "en": "[[Having been rejected]] twice, she was reluctant to apply again.",
+      "th": "หลังจากถูกปฏิเสธมาสองครั้ง เธอก็ลังเลที่จะสมัครอีก"
+    },
+    {
+      "en": "The minister [[was reported to be considering]] resigning.",
+      "th": "มีรายงานว่ารัฐมนตรีกำลังพิจารณาลาออก"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He is said that he is very rich.",
+      "right": "He is said to be very rich.",
+      "whyTh": "ถ้าขึ้นต้นด้วยประธานจริง (He) ต้องตามด้วย to-infinitive — ถ้าจะใช้ that ต้องขึ้นต้นด้วย It: It is said that he is very rich."
+    },
+    {
+      "wrong": "The bridge is believed to be built in 1890.",
+      "right": "The bridge is believed to have been built in 1890.",
+      "whyTh": "สะพานสร้างในอดีต ก่อนเวลาที่ “เชื่อ” (ปัจจุบัน) จึงต้องใช้ to have + V3 และเป็น passive (ถูกสร้าง) → to have been built"
+    },
+    {
+      "wrong": "It is said the drug to be effective.",
+      "right": "The drug is said to be effective.",
+      "whyTh": "It is said ต้องตามด้วย that + ประโยค ส่วนรูป to be ต้องขึ้นต้นด้วยประธานจริง (The drug) — ห้ามผสมสองแบบ"
+    },
+    {
+      "wrong": "I don't like to treat like a child.",
+      "right": "I don't like being treated like a child.",
+      "whyTh": "ผู้พูด “ถูก” ปฏิบัติ จึงต้องเป็น passive: being + V3 (หรือ to be treated) ภาษาไทยมักละคำว่า “ถูก” ทำให้ลืมรูป passive"
+    },
+    {
+      "wrong": "Having told the news, she started crying.",
+      "right": "Having been told the news, she started crying.",
+      "whyTh": "เธอเป็นคน “ถูกบอก” ไม่ใช่คนบอก จึงต้องใช้ Having been + V3"
+    },
+    {
+      "wrong": "The singer is believed to having left the band.",
+      "right": "The singer is believed to have left the band.",
+      "whyTh": "หลัง to ต้องใช้กริยาช่องที่ 1 → to have + V3 ไม่ใช่ to having"
+    }
+  ],
+  "compare": {
+    "title": "It is said that … vs Subject + is said to …",
+    "with": [
+      "b2-advanced-passive"
+    ],
+    "rows": [
+      {
+        "label": "รูปแบบ",
+        "a": "It + is said/believed + that + ประโยค",
+        "b": "Subject + is said/believed + to + V1 / to have + V3"
+      },
+      {
+        "label": "ประธาน",
+        "a": "It (ไม่มีความหมาย เป็นประธานหลอก)",
+        "b": "ประธานจริงของเรื่อง (he, the bridge, the suspect)"
+      },
+      {
+        "label": "เหตุการณ์ในอดีต",
+        "a": "It is believed that he left in May.",
+        "b": "He is believed to have left in May."
+      },
+      {
+        "label": "กำลังเกิด",
+        "a": "It is said that they are negotiating.",
+        "b": "They are said to be negotiating."
+      }
+    ],
+    "tipTh": "B2 เรียน passive ทั่วไป (is built, has been done) ส่วน C1 เน้นการรายงานความเชื่อ — เช็กเวลาให้ดี: เกิดพร้อมกัน → to V1 · กำลังเกิด → to be V-ing · เกิดก่อน → to have V3"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "News report: Museum theft",
+      "lines": [
+        {
+          "text": "A valuable gold necklace has disappeared from the National Museum. The thieves [[are thought to have entered]] through a window on the roof. [[It is believed that]] they had help from someone inside the museum. The necklace [[is said to be worth]] more than 20 million baht. Two security guards [[are reported to be helping]] police with their enquiries."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Office conversation",
+      "lines": [
+        {
+          "speaker": "Nida",
+          "text": "Have you heard? The new director [[is expected to be announced]] tomorrow."
+        },
+        {
+          "speaker": "Krit",
+          "text": "Really? I heard the old one [[was asked to leave]]."
+        },
+        {
+          "speaker": "Nida",
+          "text": "Maybe. He [[is rumoured to have been offered]] a job in Singapore."
+        },
+        {
+          "speaker": "Krit",
+          "text": "Well, I hope the new one doesn't mind [[being questioned]] in meetings!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Complex passive",
+      "th": "passive แบบรายงานความเชื่อ/ข่าว เช่น is said to …"
+    },
+    {
+      "en": "Reporting verb",
+      "th": "กริยาที่ใช้รายงาน เช่น say, believe, report, estimate"
+    },
+    {
+      "en": "Perfect infinitive",
+      "th": "to have + V3 — บอกว่าเรื่องเกิดก่อนเวลาที่พูด"
+    },
+    {
+      "en": "Passive gerund",
+      "th": "being + V3 — รูป -ing ที่มีความหมาย “ถูก…”"
+    },
+    {
+      "en": "Impersonal it",
+      "th": "It ที่เป็นประธานหลอก ไม่ได้หมายถึงสิ่งใด เช่น It is said that …"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-complex-passive-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The old castle ___ to be haunted, but nobody has ever proved it.",
+      "choices": [
+        "is said",
+        "says",
+        "is saying",
+        "said"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "says = ปราสาท “พูด” เอง ซึ่งเป็นไปไม่ได้ ต้องใช้ passive (ถูกพูดถึง)",
+        "2": "is saying เป็น active แบบกำลังทำ — ปราสาทกำลังพูด ไม่สมเหตุสมผล",
+        "3": "said อย่างเดียวไม่มี be ทำให้ความหมายกลายเป็นปราสาทพูด (active อดีต) ไม่ใช่ passive"
+      },
+      "explainTh": "รายงานสิ่งที่คนพูดกัน: Subject + is said + to be … → The castle is said to be haunted.",
+      "structure": "Subject + is said + to + V1",
+      "example": "The castle is said to be haunted."
+    },
+    {
+      "id": "c1-complex-passive-02",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "The fire is thought ___ in the kitchen late last night.",
+      "choices": [
+        "to start",
+        "to have started",
+        "to be started",
+        "having started"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "to start ใช้กับเรื่องที่เกิดเวลาเดียวกับ is thought (ปัจจุบัน) แต่ไฟเริ่มเมื่อคืน (ก่อนเวลาที่คิด)",
+        "2": "to be started เป็นปัจจุบันและ passive — ไม่ตรงกับ last night",
+        "3": "หลัง is thought ต้องตามด้วย to-infinitive ไม่ใช่ -ing"
+      },
+      "explainTh": "เหตุการณ์ (ไฟเริ่ม) เกิดก่อนเวลาที่ “คิด” (ตอนนี้) จึงใช้ to have + V3 → is thought to have started",
+      "structure": "Subject + is thought + to have + V3",
+      "example": "The fire is thought to have started in the kitchen."
+    },
+    {
+      "id": "c1-complex-passive-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "The suspect is believed ___ (leave) the country two days ago.",
+      "accepted": [
+        "to have left"
+      ],
+      "explainTh": "two days ago = อดีต เกิดก่อนเวลาที่ “เชื่อ” (ปัจจุบัน) → to have + V3 → to have left",
+      "structure": "is believed + to have + V3",
+      "example": "The suspect is believed to have left the country."
+    },
+    {
+      "id": "c1-complex-passive-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I really hate ___ (interrupt) when I'm giving a presentation.",
+      "accepted": [
+        "being interrupted",
+        "to be interrupted"
+      ],
+      "explainTh": "ผู้พูด “ถูก” ขัดจังหวะ จึงใช้ passive gerund (being + V3) หรือ passive infinitive (to be + V3) — hate ตามได้ทั้งสองแบบ",
+      "structure": "hate + being + V3 / to be + V3",
+      "example": "I hate being interrupted."
+    },
+    {
+      "id": "c1-complex-passive-05",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "According to the news, the minister is reported ___ (consider) resigning at the moment.",
+      "accepted": [
+        "to be considering"
+      ],
+      "explainTh": "at the moment = กำลังเกิดอยู่ตอนนี้ จึงใช้ to be + V-ing → is reported to be considering",
+      "structure": "is reported + to be + V-ing",
+      "example": "The minister is reported to be considering resigning."
+    },
+    {
+      "id": "c1-complex-passive-06",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "The bridge is believed to be built in the 1890s.",
+      "errorPart": "to be built",
+      "accepted": [
+        "The bridge is believed to have been built in the 1890s.",
+        "It is believed that the bridge was built in the 1890s.",
+        "It is believed the bridge was built in the 1890s."
+      ],
+      "explainTh": "สะพานถูกสร้างในอดีต (1890s) ก่อนเวลาที่ “เชื่อ” จึงต้องเป็น perfect passive infinitive: to have been + V3",
+      "structure": "is believed + to have been + V3"
+    },
+    {
+      "id": "c1-complex-passive-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "He is said that he owns three hotels in Phuket.",
+      "errorPart": "is said that he owns",
+      "accepted": [
+        "He is said to own three hotels in Phuket.",
+        "It is said that he owns three hotels in Phuket.",
+        "It is said he owns three hotels in Phuket."
+      ],
+      "explainTh": "ขึ้นต้นด้วยประธานจริง (He) ต้องตามด้วย is said + to + V1 — ถ้าจะใช้ that ต้องขึ้นต้นด้วย It is said that …"
+    },
+    {
+      "id": "c1-complex-passive-08",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Having told about the delay, the passengers waited patiently.",
+      "errorPart": "Having told",
+      "accepted": [
+        "Having been told about the delay, the passengers waited patiently.",
+        "Told about the delay, the passengers waited patiently."
+      ],
+      "explainTh": "ผู้โดยสาร “ถูกบอก” เรื่องความล่าช้า จึงต้องใช้ passive: Having been + V3 (Having told = ผู้โดยสารเป็นคนบอกเอง)",
+      "structure": "Having been + V3, Subject + V"
+    },
+    {
+      "id": "c1-complex-passive-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "the",
+        "painting",
+        "is",
+        "thought",
+        "to",
+        "have",
+        "been",
+        "stolen",
+        "from",
+        "the",
+        "museum"
+      ],
+      "accepted": [
+        "The painting is thought to have been stolen from the museum."
+      ],
+      "explainTh": "Subject + is thought + to have been + V3 → ภาพวาดถูกขโมยไปแล้ว (อดีต + passive)"
+    },
+    {
+      "id": "c1-complex-passive-10",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "there",
+        "are",
+        "estimated",
+        "to",
+        "be",
+        "over",
+        "two",
+        "million",
+        "users"
+      ],
+      "accepted": [
+        "There are estimated to be over two million users."
+      ],
+      "explainTh": "There + are + estimated + to be + คำนาม = “คาดว่ามี …” — are ตามคำนามพหูพจน์ (users)"
+    },
+    {
+      "id": "c1-complex-passive-11",
+      "type": "transform",
+      "difficulty": 1,
+      "source": "People say that the restaurant serves the best noodles in town.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย The restaurant … (ใช้ is said)",
+      "accepted": [
+        "The restaurant is said to serve the best noodles in town."
+      ],
+      "explainTh": "เหตุการณ์ปัจจุบันเวลาเดียวกับที่พูด → is said + to + V1 (serves → to serve)"
+    },
+    {
+      "id": "c1-complex-passive-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "People believe that the ship sank near the island.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย The ship … (ใช้ is believed)",
+      "accepted": [
+        "The ship is believed to have sunk near the island."
+      ],
+      "explainTh": "เรือจมในอดีต (sank) ก่อนเวลาที่ “เชื่อ” (believe = ปัจจุบัน) → is believed + to have + V3 (sunk)"
+    },
+    {
+      "id": "c1-complex-passive-13",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "It is reported that two climbers went missing on the mountain.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Two climbers …",
+      "accepted": [
+        "Two climbers are reported to have gone missing on the mountain."
+      ],
+      "explainTh": "ประธานพหูพจน์ → are reported · หายตัวในอดีต (went) → to have + V3 (gone)"
+    },
+    {
+      "id": "c1-complex-passive-14",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่ประโยคกับความหมาย",
+      "pairs": [
+        [
+          "She is said to work very hard.",
+          "ว่ากันว่าเธอขยันทำงาน (เป็นปกติ)"
+        ],
+        [
+          "She is said to be working very hard.",
+          "ว่ากันว่าช่วงนี้เธอกำลังทำงานหนัก"
+        ],
+        [
+          "She is said to have worked very hard.",
+          "ว่ากันว่าเธอเคยทำงานหนักมาแล้ว"
+        ],
+        [
+          "She hates being told what to do.",
+          "เธอไม่ชอบถูกสั่งว่าต้องทำอะไร"
+        ],
+        [
+          "She expects to be promoted soon.",
+          "เธอคาดว่าจะได้เลื่อนตำแหน่งเร็ว ๆ นี้"
+        ]
+      ],
+      "explainTh": "to V1 = ปัจจุบัน/ปกติ · to be V-ing = กำลังเกิด · to have V3 = เกิดก่อน · being V3 / to be V3 = ถูกกระทำ"
+    },
+    {
+      "id": "c1-complex-passive-15",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "It is said the president to be in poor health.",
+        "The president is said to be in poor health.",
+        "The president is said that he is in poor health.",
+        "The president says to be in poor health."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "It is said ต้องตามด้วย that + ประโยค ห้ามตามด้วยคำนาม + to be",
+        "2": "ขึ้นต้นด้วยประธานจริงแล้วต้องตามด้วย to-infinitive ไม่ใช่ that",
+        "3": "says เป็น active = ประธานาธิบดีพูดเอง และ say + to be แบบนี้ผิดโครงสร้าง"
+      },
+      "explainTh": "Subject + is said + to be … = ว่ากันว่า … (หรือ It is said that the president is in poor health.)"
+    },
+    {
+      "id": "c1-complex-passive-16",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Have you heard about the old factory by the river?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yes. It ___ by a fire in the 1970s, but nobody knows for sure."
+          }
+        ]
+      },
+      "choices": [
+        "is believed to have been destroyed",
+        "is believed to be destroyed",
+        "believes to have been destroyed",
+        "is believed to have destroyed"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "to be destroyed เป็นเวลาปัจจุบัน แต่ไฟไหม้เกิดในทศวรรษ 1970 (อดีต)",
+        "2": "ไม่มี is → โรงงานเป็นผู้ “เชื่อ” เอง ซึ่งไม่สมเหตุสมผล",
+        "3": "to have destroyed เป็น active = โรงงานทำลายสิ่งอื่น แต่โรงงานคือผู้ถูกทำลาย"
+      },
+      "explainTh": "อดีต (1970s) + ถูกกระทำ (ถูกไฟทำลาย) → is believed + to have been + V3 · nobody knows for sure ยืนยันว่าเป็นเพียง “ความเชื่อ”"
+    },
+    {
+      "id": "c1-complex-passive-17",
+      "type": "context",
+      "difficulty": 1,
+      "context": {
+        "kind": "story",
+        "title": "Gallery theft",
+        "lines": [
+          {
+            "text": "Police are searching for a painting that went missing from the City Gallery on Sunday night. The thieves are thought to have entered through a roof window. They are believed to be hiding somewhere in the city. The painting is said to be worth over two million dollars."
+          }
+        ]
+      },
+      "question": "According to the report, what do police think the thieves are doing now?",
+      "choices": [
+        "Entering through a roof window",
+        "Hiding somewhere in the city",
+        "Selling the painting abroad",
+        "Working at the gallery"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "are thought to have entered = เข้ามาทางหน้าต่างไปแล้ว (อดีต) ไม่ใช่สิ่งที่ทำตอนนี้",
+        "2": "ข่าวไม่ได้พูดถึงการขายภาพไปต่างประเทศ",
+        "3": "ข่าวไม่ได้บอกว่าโจรทำงานที่หอศิลป์"
+      },
+      "explainTh": "are believed to be hiding = to be + V-ing บอกสิ่งที่เชื่อว่า “กำลังเกิด” ตอนนี้ ส่วน to have entered บอกเหตุการณ์ที่เกิดไปแล้ว"
+    },
+    {
+      "id": "c1-complex-passive-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียนรายงานข่าวสั้น ๆ 3 ประโยค (เรื่องจริงหรือสมมุติ) โดยใช้ complex passive อย่างน้อย 2 แบบ เช่น It is believed that … / … is said to have … (Write a 3-sentence news report using complex passive structures.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(is|are|was|were)\\s+(widely\\s+|generally\\s+|now\\s+)?(said|believed|thought|reported|known|expected|estimated|considered|alleged|understood|rumoured|rumored)\\s+(to|that)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ is/are + said/believed/thought … + to หรือ It is … that อย่างน้อย 1 ครั้ง"
+        },
+        {
+          "re": "\\bto\\s+have\\s+(been\\s+)?[a-z]+",
+          "flags": "i",
+          "msgTh": "ใช้ to have + V3 (หรือ to have been + V3) อย่างน้อย 1 ครั้ง สำหรับเหตุการณ์ที่เกิดไปแล้ว"
+        }
+      ],
+      "sample": "A rare white elephant is reported to have been seen near Kanchanaburi. It is believed that the animal escaped from a private farm. Local officials are said to be working with experts to find it.",
+      "explainTh": "ใช้ to V1 (เวลาเดียวกัน) · to be V-ing (กำลังเกิด) · to have (been) V3 (เกิดก่อน) ให้ตรงเวลา และอย่าผสม He is said that …"
+    }
+  ]
+}

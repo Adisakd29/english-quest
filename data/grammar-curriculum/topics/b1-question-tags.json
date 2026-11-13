@@ -1,0 +1,494 @@
+{
+  "id": "b1-question-tags",
+  "summaryTh": "คำถามสั้น ๆ ท้ายประโยค (…, isn't it? / …, do you?) ใช้ถามยืนยันแบบ \"ใช่ไหม\"",
+  "concept": {
+    "what": "Question tag คือคำถามสั้น ๆ ที่ต่อท้ายประโยค เพื่อขอให้ผู้ฟังยืนยัน หรือชวนคุยต่อ คล้าย \"…ใช่ไหม\" \"…ใช่เปล่า\" \"…นะ\" ในภาษาไทย เช่น You're Thai, aren't you?",
+    "when": [
+      "ขอให้ยืนยันสิ่งที่คิดว่าจริง (It's hot today, isn't it?)",
+      "ชวนคุย / แสดงความเป็นมิตร (Nice weather, isn't it? · You like music, don't you?)",
+      "ขอร้องหรือชวนแบบสุภาพ: Let's … , shall we? · Open the window, will you?",
+      "หลักง่าย ๆ: ประโยคบอกเล่า → tag ปฏิเสธ · ประโยคปฏิเสธ → tag บอกเล่า"
+    ],
+    "why": "ภาษาไทยใช้ \"ใช่ไหม\" เหมือนกันทุกประโยค คนไทยจึงมักพูด isn't it? กับทุกอย่าง (You're coming, isn't it? ×) แต่ภาษาอังกฤษต้องเลือกกริยาช่วยและสรรพนามให้ตรงกับประโยคหลัก ถ้าใช้ถูก จะฟังเป็นธรรมชาติและสุภาพมาก"
+  },
+  "structure": {
+    "formula": "ประโยคหลัก + , + กริยาช่วย (+ n't) + สรรพนาม + ?",
+    "rows": [
+      {
+        "label": "บอกเล่า → tag ปฏิเสธ",
+        "formula": "Positive, auxiliary + n't + pronoun?",
+        "example": "You're from Chiang Mai, [[aren't you]]?"
+      },
+      {
+        "label": "ปฏิเสธ → tag บอกเล่า",
+        "formula": "Negative, auxiliary + pronoun?",
+        "example": "She can't swim, [[can she]]?"
+      },
+      {
+        "label": "ไม่มีกริยาช่วย → do / does / did",
+        "formula": "Subject + V1 / V-s / V2, don't / doesn't / didn't + pronoun?",
+        "example": "Your brother works in Bangkok, [[doesn't he]]?"
+      },
+      {
+        "label": "I am → aren't I",
+        "formula": "I'm …, aren't I?",
+        "example": "I'm in the right room, [[aren't I]]?"
+      },
+      {
+        "label": "Let's → shall we",
+        "formula": "Let's + V1 …, shall we?",
+        "example": "Let's take a taxi, [[shall we]]?"
+      },
+      {
+        "label": "ประโยคคำสั่ง → will you / can you / could you",
+        "formula": "V1 …, will you? / can you? / could you?",
+        "example": "Close the door, [[will you]]?"
+      },
+      {
+        "label": "There is / are → there",
+        "formula": "There is …, isn't there?",
+        "example": "There's a bank near here, [[isn't there]]?"
+      }
+    ],
+    "notes": [
+      "ใช้กริยาช่วยตัวเดียวกับประโยคหลัก (is → isn't, can → can't, have → haven't, will → won't)",
+      "ใน tag ใช้สรรพนามเสมอ: Tom → he, my sister → she, this / that → it, these / those → they",
+      "คำที่มีความหมายปฏิเสธ (never, nobody, nothing, hardly) ทำให้ประโยคเป็นปฏิเสธ → tag บอกเล่า (He never calls, does he?)",
+      "nobody / everybody / somebody ใช้ they ใน tag (Nobody called, did they?) · nothing / everything ใช้ it",
+      "tag ปฏิเสธปกติใช้รูปย่อ (isn't it? / didn't they?) ถ้าไม่ย่อต้องวาง not หลังสรรพนาม (is it not? — ทางการมาก) ห้ามพูด is not it?",
+      "เสียงลงท้ายตก = แค่ขอให้ยืนยัน (แน่ใจอยู่แล้ว) · เสียงขึ้น = ถามจริง ๆ (ไม่แน่ใจ)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "It's really hot today, [[isn't it]]?",
+      "th": "วันนี้ร้อนมากเลยนะ"
+    },
+    {
+      "en": "You don't eat pork, [[do you]]?",
+      "th": "เธอไม่กินหมูใช่ไหม"
+    },
+    {
+      "en": "Your sister lives in London, [[doesn't she]]?",
+      "th": "พี่สาวเธออยู่ลอนดอนใช่ไหม"
+    },
+    {
+      "en": "They went to the concert last night, [[didn't they]]?",
+      "th": "เมื่อคืนพวกเขาไปคอนเสิร์ตใช่ไหม"
+    },
+    {
+      "en": "I'm a bit late, [[aren't I]]? Sorry!",
+      "th": "ฉันมาสายนิดหน่อยใช่ไหม ขอโทษนะ"
+    },
+    {
+      "en": "Let's order pizza, [[shall we]]?",
+      "th": "สั่งพิซซ่ากันดีไหม"
+    },
+    {
+      "en": "Pass me the salt, [[could you]]?",
+      "th": "ช่วยส่งเกลือให้หน่อยได้ไหม"
+    },
+    {
+      "en": "Nobody saw the email, [[did they]]?",
+      "th": "ไม่มีใครเห็นอีเมลเลยใช่ไหม"
+    },
+    {
+      "en": "You've posted the photos already, [[haven't you]]?",
+      "th": "เธอโพสต์รูปไปแล้วใช่ไหม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You're coming to the party, isn't it?",
+      "right": "You're coming to the party, aren't you?",
+      "whyTh": "ภาษาไทยใช้ \"ใช่ไหม\" กับทุกประโยค แต่ tag ต้องใช้กริยาช่วย (are) และสรรพนาม (you) ตัวเดียวกับประโยคหลัก"
+    },
+    {
+      "wrong": "She likes coffee, isn't she?",
+      "right": "She likes coffee, doesn't she?",
+      "whyTh": "ประโยคหลักไม่มีกริยาช่วย (likes = Present Simple) จึงใช้ do / does / did ใน tag → doesn't she"
+    },
+    {
+      "wrong": "I'm right, amn't I?",
+      "right": "I'm right, aren't I?",
+      "whyTh": "I am ใช้ tag พิเศษ aren't I (amn't ไม่มีในภาษาอังกฤษมาตรฐาน)"
+    },
+    {
+      "wrong": "Let's go to the beach, don't we?",
+      "right": "Let's go to the beach, shall we?",
+      "whyTh": "ประโยคชวนที่ขึ้นต้นด้วย Let's ใช้ tag shall we เสมอ"
+    },
+    {
+      "wrong": "He never calls you, doesn't he?",
+      "right": "He never calls you, does he?",
+      "whyTh": "never ทำให้ประโยคมีความหมายปฏิเสธแล้ว tag จึงต้องเป็นบอกเล่า (does he)"
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "conversation",
+      "title": "First day at a new job",
+      "lines": [
+        {
+          "speaker": "Jay",
+          "text": "Hi! You're the new designer, [[aren't you]]?"
+        },
+        {
+          "speaker": "Fah",
+          "text": "Yes, that's right. I started today. The meeting is at ten, [[isn't it]]?"
+        },
+        {
+          "speaker": "Jay",
+          "text": "Yes, in Room 3. You haven't met the boss yet, [[have you]]?"
+        },
+        {
+          "speaker": "Fah",
+          "text": "No, not yet. Let's go together, [[shall we]]?"
+        }
+      ]
+    },
+    {
+      "kind": "message",
+      "title": "Birthday dinner",
+      "lines": [
+        {
+          "text": "Hi Pim! You're coming to Joe's birthday dinner on Friday, [[aren't you]]? It starts at 7, [[doesn't it]]? Oh, and you haven't forgotten the present, [[have you]]? Let's meet at the station first, [[shall we]]? Ann"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Question tag",
+      "th": "คำถามท้ายประโยค แบบ \"…ใช่ไหม\""
+    },
+    {
+      "en": "Auxiliary verb",
+      "th": "กริยาช่วย เช่น be, do, have, can, will"
+    },
+    {
+      "en": "Positive / Negative",
+      "th": "บอกเล่า / ปฏิเสธ"
+    },
+    {
+      "en": "Intonation",
+      "th": "ระดับเสียงขึ้นลงตอนพูด (ขึ้น = ถามจริง · ลง = ขอยืนยัน)"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-question-tags-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "You're from Chiang Mai, ___?",
+      "choices": [
+        "aren't you",
+        "don't you",
+        "isn't it",
+        "are you"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประโยคหลักใช้ are (You're) ไม่ใช่ do",
+        "2": "ประธานคือ you ไม่ใช่ it และกริยาช่วยคือ are (แปลตรงจาก \"ใช่ไหม\")",
+        "3": "ประโยคหลักเป็นบอกเล่า tag ต้องเป็นปฏิเสธ"
+      },
+      "explainTh": "You're = You are (บอกเล่า) → tag ปฏิเสธด้วยกริยาช่วยเดิม: aren't you?",
+      "structure": "Positive, aren't + pronoun?",
+      "example": "You're from Chiang Mai, aren't you?"
+    },
+    {
+      "id": "b1-question-tags-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "She doesn't eat meat, ___?",
+      "choices": [
+        "does she",
+        "doesn't she",
+        "is she",
+        "did she"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประโยคหลักเป็นปฏิเสธแล้ว tag ต้องเป็นบอกเล่า",
+        "2": "กริยาช่วยในประโยคคือ does ไม่ใช่ is",
+        "3": "ประโยคเป็นปัจจุบัน (doesn't) ไม่ใช่อดีต"
+      },
+      "explainTh": "doesn't (ปฏิเสธ) → tag บอกเล่าด้วยกริยาช่วยเดิม: does she?",
+      "structure": "Negative, does + pronoun?",
+      "example": "She doesn't eat meat, does she?"
+    },
+    {
+      "id": "b1-question-tags-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "They went to the concert last night, ___?",
+      "accepted": [
+        "didn't they",
+        "did they not"
+      ],
+      "explainTh": "went = Past Simple ไม่มีกริยาช่วย → ใช้ did · ประโยคบอกเล่า → tag ปฏิเสธ: didn't they?",
+      "structure": "Positive (V2), didn't + pronoun?",
+      "example": "They went to the concert, didn't they?"
+    },
+    {
+      "id": "b1-question-tags-04",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "I'm in the right room for the English test, ___?",
+      "accepted": [
+        "aren't I",
+        "am I not"
+      ],
+      "explainTh": "I am (บอกเล่า) ใช้ tag พิเศษ aren't I (am I not ถูกแต่เป็นทางการมาก · amn't I ไม่มี)",
+      "structure": "I'm …, aren't I?",
+      "example": "I'm in the right room, aren't I?"
+    },
+    {
+      "id": "b1-question-tags-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Let's order som tam for lunch, ___?",
+      "accepted": [
+        "shall we"
+      ],
+      "explainTh": "ประโยคชวนที่ขึ้นต้นด้วย Let's ใช้ tag shall we เสมอ",
+      "structure": "Let's + V1 …, shall we?",
+      "example": "Let's order som tam, shall we?"
+    },
+    {
+      "id": "b1-question-tags-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Pass me the salt, ___?",
+      "accepted": [
+        "will you",
+        "would you",
+        "can you",
+        "could you",
+        "won't you"
+      ],
+      "explainTh": "ประโยคคำสั่ง / ขอร้อง ใช้ tag will you? (หรือ can you / could you / would you เพื่อให้สุภาพขึ้น)",
+      "structure": "Imperative, will / can / could you?",
+      "example": "Pass me the salt, could you?"
+    },
+    {
+      "id": "b1-question-tags-07",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Nobody called while I was out, ___?",
+      "accepted": [
+        "did they"
+      ],
+      "explainTh": "Nobody มีความหมายปฏิเสธ → tag บอกเล่า · nobody ใช้สรรพนาม they · called เป็นอดีต → did they?",
+      "structure": "Nobody + V2, did they?",
+      "example": "Nobody called, did they?"
+    },
+    {
+      "id": "b1-question-tags-08",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "Close the door, ___? It's cold in here.",
+      "choices": [
+        "will you",
+        "do you",
+        "don't you",
+        "shall we"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประโยคคำสั่งไม่ใช้ do ใน tag",
+        "2": "ประโยคคำสั่งไม่ใช้ don't you ใน tag",
+        "3": "shall we ใช้กับประโยคที่ขึ้นต้นด้วย Let's (ชวนทำด้วยกัน)"
+      },
+      "explainTh": "ประโยคคำสั่ง / ขอร้อง (Close …) ใช้ tag will you? เพื่อให้ฟังนุ่มนวลขึ้น"
+    },
+    {
+      "id": "b1-question-tags-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "He's never been to Japan, hasn't he?",
+      "errorPart": "hasn't he",
+      "accepted": [
+        "He's never been to Japan, has he?"
+      ],
+      "explainTh": "never ทำให้ประโยคเป็นปฏิเสธแล้ว → tag บอกเล่า · He's = He has (been) → has he?"
+    },
+    {
+      "id": "b1-question-tags-10",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Your sister lives in London, isn't she?",
+      "errorPart": "isn't she",
+      "accepted": [
+        "Your sister lives in London, doesn't she?"
+      ],
+      "explainTh": "lives เป็น Present Simple ไม่มีกริยาช่วย → ใช้ does ใน tag → doesn't she?"
+    },
+    {
+      "id": "b1-question-tags-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "There's a bank near here, isn't it?",
+      "errorPart": "isn't it",
+      "accepted": [
+        "There's a bank near here, isn't there?"
+      ],
+      "explainTh": "ประโยค There is … ใช้ there ใน tag (ไม่ใช่ it) → isn't there?"
+    },
+    {
+      "id": "b1-question-tags-12",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "I'm",
+        "a",
+        "little",
+        "late",
+        "again,",
+        "aren't",
+        "I"
+      ],
+      "accepted": [
+        "I'm a little late again, aren't I?"
+      ],
+      "explainTh": "I'm …, aren't I? — I am ใช้ tag พิเศษ aren't I"
+    },
+    {
+      "id": "b1-question-tags-13",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Your parents don't know about the party.",
+      "instruction": "เติม question tag ท้ายประโยค",
+      "accepted": [
+        "Your parents don't know about the party, do they?"
+      ],
+      "explainTh": "don't (ปฏิเสธ) → tag บอกเล่า: do · Your parents → they → do they?"
+    },
+    {
+      "id": "b1-question-tags-14",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "There weren't many people at the meeting.",
+      "instruction": "เติม question tag ท้ายประโยค",
+      "accepted": [
+        "There weren't many people at the meeting, were there?"
+      ],
+      "explainTh": "There weren't (ปฏิเสธ อดีต) → tag บอกเล่าด้วย were และ there → were there?"
+    },
+    {
+      "id": "b1-question-tags-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับ question tag",
+      "pairs": [
+        [
+          "You're tired,",
+          "aren't you?"
+        ],
+        [
+          "She can drive,",
+          "can't she?"
+        ],
+        [
+          "He didn't call,",
+          "did he?"
+        ],
+        [
+          "Let's start,",
+          "shall we?"
+        ],
+        [
+          "I'm right,",
+          "aren't I?"
+        ]
+      ],
+      "explainTh": "ใช้กริยาช่วยเดิมและสรรพนามเดิม บอกเล่า ↔ ปฏิเสธ · I'm → aren't I · Let's → shall we"
+    },
+    {
+      "id": "b1-question-tags-16",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "This is the bus to the airport, ___?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yes, it is. It leaves in five minutes."
+          }
+        ]
+      },
+      "choices": [
+        "isn't it",
+        "isn't this",
+        "doesn't it",
+        "is it"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ใน tag เปลี่ยน this / that เป็น it เสมอ",
+        "2": "ประโยคหลักใช้ is ไม่ใช่ does",
+        "3": "ประโยคหลักเป็นบอกเล่า tag ต้องเป็นปฏิเสธ"
+      },
+      "explainTh": "This is … (บอกเล่า) → tag ปฏิเสธ isn't + it (this เปลี่ยนเป็น it) และคำตอบ Yes, it is. ก็ใช้ it เช่นกัน"
+    },
+    {
+      "id": "b1-question-tags-17",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Birthday dinner",
+        "lines": [
+          {
+            "text": "Hi Pim! You're coming to Joe's birthday dinner on Friday, aren't you? It starts at 7, doesn't it? Oh, and you haven't forgotten the present, have you? Let's meet at the station first, shall we? Ann"
+          }
+        ]
+      },
+      "question": "Pim bought the present last week. How should she answer \"You haven't forgotten the present, have you?\"",
+      "choices": [
+        "No, I haven't.",
+        "Yes, I haven't.",
+        "No, I have.",
+        "Yes, I have forgotten."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Yes ต้องตามด้วยรูปบอกเล่า (Yes, I have.) จะใช้ Yes คู่กับ haven't ไม่ได้",
+        "2": "No ต้องตามด้วยรูปปฏิเสธ (No, I haven't.)",
+        "3": "Yes, I have forgotten. = ลืมแล้ว ซึ่งขัดกับที่ Pim ซื้อของขวัญแล้ว"
+      },
+      "explainTh": "Pim ไม่ได้ลืม → ตอบตามความจริงว่า \"ไม่ได้ลืม\" = No, I haven't (forgotten). ภาษาอังกฤษตอบตามความจริง ไม่ใช่ตอบตาม \"ใช่ / ไม่ใช่\" แบบภาษาไทย"
+    },
+    {
+      "id": "b1-question-tags-18",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคพร้อม question tag ที่คุณจะพูดกับเพื่อนใหม่ในห้อง: ประโยคบอกเล่า 1 ประโยค ประโยคปฏิเสธ 1 ประโยค และประโยคที่ขึ้นต้นด้วย Let's 1 ประโยค (Write 3 sentences with question tags for a new classmate: one positive, one negative, and one starting with Let's.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": ",\\s*(isn[’']t|aren[’']t|wasn[’']t|weren[’']t|don[’']t|doesn[’']t|didn[’']t|haven[’']t|hasn[’']t|can[’']t|couldn[’']t|won[’']t|wouldn[’']t|shouldn[’']t)\\s+(i|you|he|she|it|we|they|there)\\s*\\?",
+          "flags": "i",
+          "msgTh": "มีประโยคบอกเล่า + tag ปฏิเสธ อย่างน้อย 1 ประโยค (เช่น You're new here, aren't you?)"
+        },
+        {
+          "re": "(n[’']t|\\bnot|\\bnever|\\bnobody|\\bnothing)\\b[^?]*,\\s*(is|are|was|were|do|does|did|have|has|can|could|will|would|should)\\s+(i|you|he|she|it|we|they|there)\\s*\\?",
+          "flags": "i",
+          "msgTh": "มีประโยคปฏิเสธ + tag บอกเล่า อย่างน้อย 1 ประโยค (เช่น You don't live near here, do you?)"
+        },
+        {
+          "re": "\\blet[’']s\\b[^?]*,\\s*shall we\\s*\\?",
+          "flags": "i",
+          "msgTh": "มีประโยค Let's … , shall we? อย่างน้อย 1 ประโยค"
+        }
+      ],
+      "sample": "You're new here, aren't you? You don't live near the school, do you? Let's have lunch together, shall we?",
+      "explainTh": "บอกเล่า → tag ปฏิเสธ · ปฏิเสธ → tag บอกเล่า · Let's → shall we — ใช้กริยาช่วยและสรรพนามให้ตรงกับประโยคหลัก"
+    }
+  ]
+}

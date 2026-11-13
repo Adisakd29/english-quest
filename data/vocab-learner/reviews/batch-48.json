@@ -1,0 +1,44 @@
+{
+  "batch": "48",
+  "reviewed": 122,
+  "issues": [
+    {
+      "id": "C1-S1352",
+      "severity": "minor",
+      "problem": "gapOk true but 'oral' (and 'spoken') fit 'only a ___ agreement' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S1330",
+      "severity": "minor",
+      "problem": "For confidence/trust (the main use and the example), the everyday Thai is 'บั่นทอน' (exampleTH already uses it); 'บ่อนทำลาย' alone sounds like sabotage.",
+      "fix": {
+        "thai": "บั่นทอน, บ่อนทำลาย, ทำให้อ่อนแอลง",
+        "shortTH": "บั่นทอน",
+        "thaiChangeReason": "บั่นทอน ใช้กับความมั่นใจ/ความเชื่อใจได้เป็นธรรมชาติกว่า"
+      }
+    },
+    {
+      "id": "C1-S1355",
+      "severity": "minor",
+      "problem": "shortTH 'บทกลอน' means a whole poem, not one section; the example is about a song verse (ท่อน).",
+      "fix": {
+        "thai": "ท่อน (เพลง), บท (กลอน)",
+        "shortTH": "ท่อน (เพลง/กลอน)",
+        "thaiChangeReason": "verse คือท่อนหรือบทหนึ่งของเพลง/กลอน ไม่ใช่กลอนทั้งเรื่อง"
+      }
+    },
+    {
+      "id": "C1-S1393",
+      "severity": "minor",
+      "problem": "meaningEN/example are only the money sense, but thai also lists 'การถอนตัว' (a different sense), so the Thai mixes two meanings.",
+      "fix": {
+        "thai": "การถอนเงิน",
+        "shortTH": "การถอนเงิน",
+        "thaiChangeReason": "เลือกความหมายเดียวให้ตรงกับคำอธิบายและตัวอย่าง (ถอนเงิน)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "id": "c1-substitution",
+  "summaryTh": "ใช้คำแทนสั้น ๆ (so, not, one/ones, do so, that of) แทนการพูดซ้ำ",
+  "concept": {
+    "what": "Substitution คือการใช้คำสั้น ๆ แทนคำหรือข้อความที่พูดไปแล้ว: so / not แทนทั้งประโยค (I think so. / I hope not.), one / ones แทนคำนามนับได้ (a bigger one), do so แทนการกระทำ (… may leave early if they wish to do so) และ that of / those of แทนคำนามในการเปรียบเทียบแบบวิชาการ",
+    "when": [
+      "ตอบคำถาม Yes/No แบบนุ่มนวลหลัง think, hope, expect, suppose, believe, guess, be afraid: I'm afraid not.",
+      "ไม่อยากพูดคำนามนับได้ซ้ำ: These shoes are too small. Do you have bigger ones?",
+      "ภาษาทางการ แทนการกระทำที่พูดไปแล้ว: Applicants who wish to withdraw may do so before 30 June.",
+      "เปรียบเทียบในงานเขียนวิชาการ: The population of Tokyo is larger than that of Bangkok."
+    ],
+    "why": "ภาษาไทยตอบว่า \"คิดว่าใช่\" \"หวังว่าไม่\" ผู้เรียนไทยจึงพูด I think yes. / I hope no. ซึ่งผิด — ภาษาอังกฤษใช้ so / not แทน นอกจากนี้ภาษาไทยไม่มี one แทนคำนาม คนไทยจึงมักพูด a bigger ✗ หรือเปรียบเทียบสิ่งที่ไม่ตรงกัน (the climate of Thailand … than Japan ✗)"
+  },
+  "structure": {
+    "formula": "think / hope / be afraid + so / not  ·  adj + one(s)  ·  do so  ·  that / those of",
+    "rows": [
+      {
+        "label": "บอกเล่า (so)",
+        "formula": "S + think / hope / expect / suppose / believe / guess + so",
+        "example": "\"Is the library open today?\" \"I [[think so]].\""
+      },
+      {
+        "label": "ปฏิเสธ (not / don't … so)",
+        "formula": "S + hope / be afraid / guess + not · S + don't think / expect + so",
+        "example": "\"Will it rain?\" \"I [[hope not]].\" / \"I [[don't think so]].\""
+      },
+      {
+        "label": "one / ones",
+        "formula": "a / the + adj + one · adj + ones",
+        "example": "My laptop is too slow. I need a faster [[one]]."
+      },
+      {
+        "label": "do so (ทางการ)",
+        "formula": "… may / wish to / be asked to + do so",
+        "example": "Passengers may leave their seats once the captain tells them they can [[do so]]."
+      },
+      {
+        "label": "that of / those of (เปรียบเทียบ)",
+        "formula": "… than / to + that / those + of …",
+        "example": "Salaries in Bangkok are higher than [[those]] in the provinces."
+      },
+      {
+        "label": "the same",
+        "formula": "S + do / say / order + the same",
+        "example": "\"I'll have the green curry.\" \"I'll have [[the same]], please.\""
+      }
+    ],
+    "notes": [
+      "hope / be afraid / guess: ปฏิเสธด้วย not (I hope not, I'm afraid not) — ไม่พูด I don't hope so",
+      "think / expect / believe: ปฏิเสธนิยมใช้ I don't think so (I think not ใช้ได้ แต่เป็นทางการมาก)",
+      "I'm afraid so = ใช่ (น่าเสียดาย) · I'm afraid not = ไม่ (น่าเสียดาย)",
+      "one / ones ใช้กับคำนามนับได้เท่านั้น — คำนามนับไม่ได้ให้ละไปหรือพูดซ้ำ (I prefer white bread to brown.)",
+      "that of = คำนามเอกพจน์/นับไม่ได้ · those of = คำนามพหูพจน์"
+    ]
+  },
+  "examples": [
+    {
+      "en": "\"Will the results be published this week?\" \"I [[expect so]].\"",
+      "th": "\"ผลจะประกาศสัปดาห์นี้ไหม\" \"น่าจะประกาศนะ\""
+    },
+    {
+      "en": "\"Is there any coffee left?\" \"I'm [[afraid not]].\"",
+      "th": "\"กาแฟเหลือไหม\" \"เสียใจด้วย ไม่เหลือแล้ว\""
+    },
+    {
+      "en": "\"Is the flight going to be cancelled?\" \"I'm [[afraid so]].\"",
+      "th": "\"เที่ยวบินจะถูกยกเลิกไหม\" \"น่าเสียดาย คงถูกยกเลิกจริง ๆ\""
+    },
+    {
+      "en": "I don't like these sunglasses. Can I see the black [[ones]]?",
+      "th": "ฉันไม่ชอบแว่นกันแดดอันนี้ ขอดูอันสีดำได้ไหม"
+    },
+    {
+      "en": "Staff who wish to work from home may [[do so]] on Fridays.",
+      "th": "พนักงานที่ต้องการทำงานจากบ้านสามารถทำได้ในวันศุกร์"
+    },
+    {
+      "en": "The climate of northern Thailand is cooler than [[that of]] the south.",
+      "th": "อากาศของภาคเหนือเย็นกว่าอากาศของภาคใต้"
+    },
+    {
+      "en": "\"Do you think we'll finish on time?\" \"I [[don't think so]], unless we get more help.\"",
+      "th": "\"คิดว่าจะเสร็จทันไหม\" \"ไม่น่าทัน ถ้าไม่มีคนมาช่วยเพิ่ม\""
+    },
+    {
+      "en": "\"He's resigning.\" \"Who told you [[so]]?\"",
+      "th": "\"เขากำลังจะลาออก\" \"ใครบอกเธออย่างนั้น\""
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "\"Will it rain tomorrow?\" \"I hope no.\"",
+      "right": "\"Will it rain tomorrow?\" \"I hope not.\"",
+      "whyTh": "คำตอบปฏิเสธหลัง hope ใช้ not แทนประโยค (I hope it won't rain → I hope not)"
+    },
+    {
+      "wrong": "\"Is she coming?\" \"I think yes.\"",
+      "right": "\"Is she coming?\" \"I think so.\"",
+      "whyTh": "หลัง think ใช้ so แทนประโยค ไม่ใช้ yes — เป็นการแปลตรงจาก \"คิดว่าใช่\""
+    },
+    {
+      "wrong": "\"Will the meeting be long?\" \"I don't hope so.\"",
+      "right": "\"Will the meeting be long?\" \"I hope not.\"",
+      "whyTh": "hope ไม่ทำเป็นปฏิเสธข้างหน้า ให้ใช้ I hope not"
+    },
+    {
+      "wrong": "This laptop is too slow. I need a faster.",
+      "right": "This laptop is too slow. I need a faster one.",
+      "whyTh": "คุณศัพท์ต้องมีคำนามตามหลัง ถ้าไม่พูดคำนามซ้ำให้ใช้ one แทน"
+    },
+    {
+      "wrong": "The population of Tokyo is larger than Bangkok.",
+      "right": "The population of Tokyo is larger than that of Bangkok.",
+      "whyTh": "ต้องเปรียบเทียบสิ่งเดียวกัน (ประชากร กับ ประชากร) จึงใช้ that of แทน the population of"
+    },
+    {
+      "wrong": "I prefer white rice to brown one.",
+      "right": "I prefer white rice to brown.",
+      "whyTh": "rice นับไม่ได้ ใช้ one แทนไม่ได้ — ให้ละคำนามไปเลย (หรือพูด brown rice)"
+    }
+  ],
+  "compare": {
+    "title": "Substitution vs Ellipsis",
+    "with": [
+      "c1-ellipsis"
+    ],
+    "rows": [
+      {
+        "label": "วิธีการ",
+        "a": "ใช้คำแทน (so, not, one, do so, that of)",
+        "b": "ละคำที่ซ้ำ เหลือกริยาช่วยหรือ to"
+      },
+      {
+        "label": "ตอบคำถาม",
+        "a": "\"Is she coming?\" \"I think so.\"",
+        "b": "\"Is she coming?\" \"She might.\" / \"Yes, she is.\""
+      },
+      {
+        "label": "แทนคำนาม",
+        "a": "I need a bigger one.",
+        "b": "Some chose tea, and others coffee."
+      },
+      {
+        "label": "แทนการกระทำ",
+        "a": "You may leave early if you wish to do so.",
+        "b": "You may leave early if you want to."
+      }
+    ],
+    "tipTh": "หลัง think / hope / suppose / be afraid ใช้ so หรือ not · หลังกริยาช่วยหรือ to ให้ละไปเลย (ห้ามพูด I can do so ในบทสนทนาทั่วไป — ฟังแข็งเกินไป)"
+  },
+  "contexts": [
+    {
+      "kind": "conversation",
+      "title": "At a shoe shop",
+      "lines": [
+        {
+          "speaker": "Customer",
+          "text": "These trainers are a bit tight. Do you have any bigger [[ones]]?"
+        },
+        {
+          "speaker": "Assistant",
+          "text": "I [[think so]]. Let me check. … I'm [[afraid not]] in white, but we have some grey [[ones]] in size 43."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Will you get more white ones next week?"
+        },
+        {
+          "speaker": "Assistant",
+          "text": "I [[hope so]]. If you'd like us to call you, we can [[do that]]."
+        }
+      ]
+    },
+    {
+      "kind": "email",
+      "title": "Memo: new booking system",
+      "lines": [
+        {
+          "text": "Dear all, The new booking system is much faster than [[the one]] we used last year. Some of you have asked whether old bookings will be lost. We don't believe [[so]], but please export your data before 1 May. Those who have not [[done so]] by then should contact IT. Response times are now half [[those of]] the old system. Regards, IT Support"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Substitution",
+      "th": "การใช้คำแทนสิ่งที่พูดไปแล้ว เพื่อไม่ต้องพูดซ้ำ"
+    },
+    {
+      "en": "Clausal substitution (so / not)",
+      "th": "ใช้ so / not แทนทั้งประโยค เช่น I hope so."
+    },
+    {
+      "en": "Nominal substitution (one / ones)",
+      "th": "ใช้ one / ones แทนคำนามนับได้"
+    },
+    {
+      "en": "Verbal substitution (do so)",
+      "th": "ใช้ do so แทนการกระทำที่พูดไปแล้ว (ภาษาทางการ)"
+    },
+    {
+      "en": "Reference (that of / those of)",
+      "th": "คำที่ชี้กลับไปยังคำนามเดิมในการเปรียบเทียบ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-substitution-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "A: \"Is the library open on Sundays?\" B: \"I think ___, but check the website.\"",
+      "choices": [
+        "so",
+        "yes",
+        "it",
+        "that"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I think yes เป็นการแปลตรงจากภาษาไทย ภาษาอังกฤษใช้ so แทนประโยค",
+        "2": "it แทนคำนาม ไม่ได้แทนประโยค (the library is open on Sundays)",
+        "3": "I think that ต้องตามด้วยประโยค จบด้วย that เฉย ๆ ไม่ได้"
+      },
+      "explainTh": "think + so = คิดว่าใช่ (so แทน the library is open on Sundays)",
+      "structure": "S + think + so"
+    },
+    {
+      "id": "c1-substitution-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "A: \"Will the flight be delayed?\" B: \"I hope ___. I have a meeting at nine.\"",
+      "choices": [
+        "not",
+        "no",
+        "don't",
+        "not so"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "no ไม่ใช้แทนประโยคหลัง hope",
+        "2": "don't ต้องมีกริยาตาม และ hope ไม่ทำเป็นปฏิเสธแบบนี้",
+        "3": "not so ไม่ใช่รูปที่ใช้ตอบ (ใช้ I hope not)"
+      },
+      "explainTh": "hope + not = หวังว่าไม่ (not แทน the flight won't be delayed)",
+      "structure": "S + hope + not"
+    },
+    {
+      "id": "c1-substitution-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "These shoes are too small. Do you have any bigger ___? (คำแทนคำนาม)",
+      "accepted": [
+        "ones"
+      ],
+      "explainTh": "แทนคำนามพหูพจน์นับได้ (shoes) ด้วย ones → bigger ones"
+    },
+    {
+      "id": "c1-substitution-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "A: \"Is the shop still open?\" B: \"I'm afraid ___. It closed at six.\"",
+      "accepted": [
+        "not"
+      ],
+      "explainTh": "ตอบปฏิเสธอย่างสุภาพ (น่าเสียดาย) → I'm afraid not (= I'm afraid it isn't open)"
+    },
+    {
+      "id": "c1-substitution-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "The population of Tokyo is much larger than ___ of Bangkok.",
+      "accepted": [
+        "that"
+      ],
+      "explainTh": "that of แทน the population of (คำนามเอกพจน์) เพื่อเปรียบเทียบประชากรกับประชากร"
+    },
+    {
+      "id": "c1-substitution-06",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Applicants who wish to withdraw may do ___ at any time before 30 June. (do ___ = ทำเช่นนั้น แบบทางการ)",
+      "accepted": [
+        "so"
+      ],
+      "explainTh": "do so แทนการกระทำที่พูดไปแล้ว (withdraw) ใช้ในภาษาทางการ"
+    },
+    {
+      "id": "c1-substitution-07",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "\"Will we have to work late tonight?\" \"I don't hope so.\"",
+      "errorPart": "I don't hope so",
+      "accepted": [
+        "\"Will we have to work late tonight?\" \"I hope not.\""
+      ],
+      "explainTh": "hope ไม่ทำเป็นปฏิเสธข้างหน้า → ใช้ I hope not"
+    },
+    {
+      "id": "c1-substitution-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "I don't like the blue curtains. I prefer the green one.",
+      "errorPart": "one",
+      "accepted": [
+        "I don't like the blue curtains. I prefer the green ones."
+      ],
+      "explainTh": "curtains เป็นพหูพจน์ คำแทนต้องเป็น ones"
+    },
+    {
+      "id": "c1-substitution-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Salaries in the private sector are higher than the public sector.",
+      "errorPart": "than the public sector",
+      "accepted": [
+        "Salaries in the private sector are higher than those in the public sector.",
+        "Salaries in the private sector are higher than in the public sector.",
+        "Salaries in the private sector are higher than salaries in the public sector.",
+        "Salaries in the private sector are higher than those of the public sector."
+      ],
+      "explainTh": "ต้องเปรียบเทียบเงินเดือนกับเงินเดือน ไม่ใช่เงินเดือนกับภาคราชการ → than those in the public sector (those = salaries)"
+    },
+    {
+      "id": "c1-substitution-10",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "\"Has the meeting been cancelled?\" \"I believe the meeting has been cancelled.\"",
+      "instruction": "ย่อคำตอบโดยใช้ so แทนส่วนที่ซ้ำ",
+      "accepted": [
+        "\"Has the meeting been cancelled?\" \"I believe so.\"",
+        "I believe so."
+      ],
+      "explainTh": "so แทนทั้งประโยค the meeting has been cancelled → I believe so."
+    },
+    {
+      "id": "c1-substitution-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "The committee may decide to postpone the vote, and if the committee decides to postpone the vote, members will be informed.",
+      "instruction": "ใช้ it และ do so แทนส่วนที่ซ้ำ",
+      "accepted": [
+        "The committee may decide to postpone the vote, and if it does so, members will be informed.",
+        "The committee may decide to postpone the vote, and if it does so members will be informed.",
+        "The committee may decide to postpone the vote and, if it does so, members will be informed."
+      ],
+      "explainTh": "the committee → it · decides to postpone the vote → does so (do ผันตามประธานเอกพจน์ปัจจุบัน → does)"
+    },
+    {
+      "id": "c1-substitution-12",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "I",
+        "don't",
+        "think",
+        "so",
+        "but",
+        "I'll",
+        "check"
+      ],
+      "accepted": [
+        "I don't think so, but I'll check.",
+        "I don't think so but I'll check."
+      ],
+      "explainTh": "ปฏิเสธหลัง think ใช้ I don't think so แล้วต่อด้วย but I'll check"
+    },
+    {
+      "id": "c1-substitution-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกคำตอบที่ถูกต้องสำหรับคำถาม \"Is it going to rain later?\"",
+      "choices": [
+        "I don't think it.",
+        "I think not so.",
+        "I don't think so.",
+        "I'm not thinking so."
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "it ไม่ใช้แทนประโยคหลัง think ต้องใช้ so",
+        "1": "ไม่มีรูป think not so (ใช้ I think not หรือ I don't think so)",
+        "3": "think ที่แปลว่า \"มีความเห็น\" ไม่ใช้รูป -ing"
+      },
+      "explainTh": "ปฏิเสธหลัง think นิยมใช้ I don't think so (so แทน it is going to rain)"
+    },
+    {
+      "id": "c1-substitution-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Are you coming to Mai's leaving party?"
+          },
+          {
+            "speaker": "B",
+            "text": "___ — I have to work late that night."
+          }
+        ]
+      },
+      "choices": [
+        "I'm afraid not",
+        "I'm not afraid",
+        "I'm afraid so",
+        "I'm afraid no"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I'm not afraid แปลว่า \"ฉันไม่กลัว\" ไม่ได้ตอบคำถาม",
+        "2": "I'm afraid so = ใช่ (น่าเสียดาย) ขัดกับเหตุผลที่ต้องทำงานดึก",
+        "3": "ใช้ not แทนประโยคปฏิเสธ ไม่ใช่ no"
+      },
+      "explainTh": "B ไปไม่ได้เพราะต้องทำงาน → ตอบปฏิเสธอย่างสุภาพ I'm afraid not."
+    },
+    {
+      "id": "c1-substitution-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับความหมายของคำแทนในประโยคนั้น",
+      "pairs": [
+        [
+          "I lost my umbrella, so I bought a new one.",
+          "one = umbrella"
+        ],
+        [
+          "\"Is it true?\" \"I believe so.\"",
+          "so = that it is true"
+        ],
+        [
+          "This year's results are better than those of last year.",
+          "those = the results"
+        ],
+        [
+          "You may leave early if you wish to do so.",
+          "do so = leave early"
+        ]
+      ],
+      "explainTh": "one แทนคำนามนับได้ · so แทนทั้งประโยค · those (of) แทนคำนามพหูพจน์ · do so แทนการกระทำ"
+    },
+    {
+      "id": "c1-substitution-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "Memo from IT",
+        "lines": [
+          {
+            "text": "Dear all, The new booking system is faster than the one we used last year. Some of you asked whether old bookings will be lost. We don't believe so, but please export your data before 1 May. Those who have not done so by then should contact IT."
+          }
+        ]
+      },
+      "question": "In the memo, what does \"done so\" refer to?",
+      "choices": [
+        "exporting their data",
+        "losing their bookings",
+        "using the old system",
+        "contacting IT"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "การสูญเสียข้อมูลเป็นสิ่งที่ IT \"ไม่เชื่อว่าจะเกิด\" (We don't believe so) ไม่ใช่สิ่งที่ขอให้ทำ",
+        "2": "the one we used last year พูดถึงระบบเก่า แต่ done so ชี้กลับไปที่การกระทำล่าสุดที่ขอให้ทำ",
+        "3": "contact IT คือสิ่งที่ต้องทำเมื่อยังไม่ได้ export ข้อมูล จึงไม่ใช่สิ่งที่ done so หมายถึง"
+      },
+      "explainTh": "do so แทนการกระทำที่เพิ่งพูดถึง: please export your data … Those who have not done so (= not exported their data)"
+    },
+    {
+      "id": "c1-substitution-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เพื่อนร่วมงานถามว่า \"Can I print my slides on our floor?\" เขียนตอบ 3 ประโยค โดยใช้ so / not หลัง think / hope / be afraid อย่างน้อย 1 ครั้ง และใช้ one / ones หรือ do so อย่างน้อย 1 ครั้ง (Reply in 3 sentences using substitution.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(think|hope|suppose|expect|believe|guess|imagine|afraid)\\s+(so|not)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ so / not หลัง think / hope / be afraid … อย่างน้อย 1 ครั้ง (เช่น I'm afraid not.)"
+        },
+        {
+          "re": "\\b(one|ones|do so|does so|did so|doing so|done so|that of|those of)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ one / ones / do so / that of อย่างน้อย 1 ครั้ง"
+        }
+      ],
+      "sample": "I'm afraid not, because the printer on our floor is broken. The one on the third floor works, though. If you need to print the slides today, you can do so there.",
+      "explainTh": "ตรวจว่าไม่ใช้ I think yes / I hope no และใช้ one แทนคำนามนับได้เท่านั้น"
+    }
+  ]
+}

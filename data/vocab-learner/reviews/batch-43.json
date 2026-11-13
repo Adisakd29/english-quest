@@ -1,0 +1,52 @@
+{
+  "batch": "43",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0654",
+      "severity": "minor",
+      "problem": "shortTH 'ฉาวโฉ่' is not among the given Thai and is stronger (scandalous) than the sense shown (a road infamous for traffic jams); shortTH should match thai.",
+      "fix": {
+        "shortTH": "มีชื่อเสียงในทางไม่ดี"
+      }
+    },
+    {
+      "id": "C1-S0663",
+      "severity": "minor",
+      "problem": "exampleTH 'ให้สติกเกอร์ฟ้า' is ambiguous: ฟ้า reads as 'blue' (a blue sticker) rather than the name Fah.",
+      "fix": {
+        "exampleTH": "เด็กหลายคนกลัวการฉีดยา หลังฉีดเสร็จหมอจึงให้สติกเกอร์กับน้องฟ้า"
+      }
+    },
+    {
+      "id": "C1-S0696",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'moved from the beginner class to the ___ class' fits 'advanced' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0699",
+      "severity": "minor",
+      "problem": "Collocation 'an intimate friend' is dated and often implies a sexual relationship; risky for teen learners.",
+      "fix": {
+        "collocations": [
+          "an intimate atmosphere",
+          "an intimate setting",
+          "intimate knowledge"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0735",
+      "severity": "minor",
+      "problem": "Example repeats the situation of C1-S0463 enact (law banning single-use plastic bags in supermarkets); vary situations.",
+      "fix": {
+        "example": "New legislation requires every new building in the city to have ramps for wheelchair users.",
+        "form": "legislation",
+        "exampleTH": "กฎหมายใหม่กำหนดให้อาคารใหม่ทุกหลังในเมืองต้องมีทางลาดสำหรับผู้ใช้รถเข็น"
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "a2-modals",
+  "summaryTh": "บอกสิ่งที่ต้องทำ ห้ามทำ ไม่จำเป็นต้องทำ และสิ่งที่ควรทำ",
+  "concept": {
+    "what": "กลุ่มคำนี้ใช้บอกว่าอะไร \"ต้องทำ\" (must / have to), \"ห้ามทำ\" (mustn't), \"ไม่จำเป็นต้องทำ\" (don't have to) และ \"ควรทำ\" (should)",
+    "when": [
+      "must / have to = จำเป็นต้องทำ เช่น กฎ ระเบียบ หรือสิ่งที่สำคัญมาก (You must wear a helmet. / I have to work on Saturday.)",
+      "mustn't = ห้ามทำ เพราะผิดกฎหรืออันตราย (You mustn't smoke here.)",
+      "don't have to = ไม่จำเป็นต้องทำ จะทำหรือไม่ทำก็ได้ (You don't have to bring food. We have lots.)",
+      "should / shouldn't = ให้คำแนะนำ บอกความเห็นว่าอะไรดีหรือไม่ดี (You should see a doctor.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ไม่ต้อง\" ได้ทั้งความหมาย \"ห้าม\" และ \"ไม่จำเป็น\" แต่ภาษาอังกฤษแยกกันชัดเจน: mustn't = ห้าม · don't have to = ไม่จำเป็น ถ้าใช้สลับกันความหมายจะเปลี่ยนไปเลย"
+  },
+  "structure": {
+    "formula": "Subject + must / should + V1 · Subject + have to / has to + V1",
+    "rows": [
+      { "label": "ต้อง (must)", "formula": "Subject + must + V1", "example": "Students [[must wear]] a uniform." },
+      { "label": "ต้อง (have to)", "formula": "Subject + have to / has to + V1", "example": "She [[has to get]] up at 5 a.m. for work." },
+      { "label": "ห้าม (mustn't)", "formula": "Subject + must not (mustn't) + V1", "example": "You [[mustn't use]] your phone during the exam." },
+      { "label": "ไม่จำเป็น (don't have to)", "formula": "Subject + don't / doesn't have to + V1", "example": "We [[don't have to go]] to school on Saturday." },
+      { "label": "ควร / ไม่ควร (should)", "formula": "Subject + should / shouldn't + V1", "example": "You [[should drink]] more water." },
+      { "label": "คำถาม (Question)", "formula": "Do / Does + Subject + have to + V1? · Should + Subject + V1?", "example": "[[Do]] I [[have to pay]] now? / [[Should]] I [[call]] her?" }
+    ],
+    "notes": [
+      "หลัง must / should ใช้กริยาช่องที่ 1 ทันที ไม่มี to และไม่เติม -s (she must go ไม่ใช่ she must to go หรือ she must goes)",
+      "have to เปลี่ยนตามประธาน: he / she / it has to · อดีตใช้ had to (must ไม่มีรูปอดีต)",
+      "ปฏิเสธของ have to ใช้ don't / doesn't / didn't: He doesn't have to … (ไม่ใช่ He hasn't to …)",
+      "ประโยคบอกเล่า must กับ have to ใช้แทนกันได้เกือบทุกครั้ง แต่ปฏิเสธต่างกันมาก: mustn't = ห้าม · don't have to = ไม่จำเป็น"
+    ]
+  },
+  "examples": [
+    { "en": "You [[must wear]] a seatbelt in the car.", "th": "คุณต้องคาดเข็มขัดนิรภัยเวลาอยู่ในรถ" },
+    { "en": "I [[have to finish]] this report by Friday.", "th": "ฉันต้องทำรายงานนี้ให้เสร็จภายในวันศุกร์" },
+    { "en": "You [[mustn't swim]] here. It's dangerous.", "th": "ห้ามว่ายน้ำตรงนี้ อันตราย" },
+    { "en": "You [[don't have to wear]] a uniform on Fridays.", "th": "วันศุกร์ไม่ต้องใส่ชุดนักเรียนก็ได้" },
+    { "en": "You look tired. You [[should go]] to bed early.", "th": "คุณดูเหนื่อยนะ ควรเข้านอนเร็ว ๆ" },
+    { "en": "You [[shouldn't post]] your home address online.", "th": "ไม่ควรโพสต์ที่อยู่บ้านของตัวเองบนออนไลน์" },
+    { "en": "[[Does]] she [[have to work]] at the weekend?", "th": "เธอต้องทำงานวันเสาร์อาทิตย์ไหม" },
+    { "en": "Visitors [[must not take]] photos in the museum.", "th": "ผู้เข้าชมห้ามถ่ายรูปในพิพิธภัณฑ์" }
+  ],
+  "mistakes": [
+    { "wrong": "You must to show your ticket.", "right": "You must show your ticket.", "whyTh": "หลัง must ใช้กริยาช่องที่ 1 ทันที ไม่มี to (แต่ have to มี to เพราะเป็นส่วนหนึ่งของคำ)" },
+    { "wrong": "She have to take the bus.", "right": "She has to take the bus.", "whyTh": "have to เปลี่ยนตามประธาน: she / he / it ใช้ has to" },
+    { "wrong": "You mustn't come tomorrow. It's a holiday.", "right": "You don't have to come tomorrow. It's a holiday.", "whyTh": "วันหยุดหมายถึง \"ไม่ต้องมาก็ได้\" ไม่ใช่ \"ห้ามมา\" — mustn't = ห้าม ผู้เรียนไทยมักแปลจากคำว่า \"ไม่ต้อง\" จึงสับสน" },
+    { "wrong": "He doesn't must wear a tie.", "right": "He doesn't have to wear a tie.", "whyTh": "must ไม่ใช้กับ do / does · ถ้าจะบอกว่า \"ไม่จำเป็น\" ใช้ doesn't have to" },
+    { "wrong": "You should to eat more vegetables.", "right": "You should eat more vegetables.", "whyTh": "หลัง should ใช้กริยาช่องที่ 1 ทันที ไม่มี to" },
+    { "wrong": "Yesterday I must stay at home.", "right": "Yesterday I had to stay at home.", "whyTh": "must ไม่มีรูปอดีต เล่าเรื่องที่ต้องทำในอดีตใช้ had to" }
+  ],
+  "compare": {
+    "title": "mustn't vs don't have to",
+    "with": [],
+    "rows": [
+      { "label": "ความหมาย", "a": "ห้ามทำ (ทำแล้วผิดกฎหรืออันตราย)", "b": "ไม่จำเป็นต้องทำ (ทำหรือไม่ทำก็ได้)" },
+      { "label": "ภาษาไทย", "a": "ห้าม …", "b": "ไม่ต้อง … ก็ได้" },
+      { "label": "ตัวอย่าง", "a": "You mustn't park here. (ห้ามจอด)", "b": "You don't have to pay. It's free. (ไม่ต้องจ่าย ฟรี)" },
+      { "label": "ทดสอบง่าย ๆ", "a": "แปลว่า \"ห้าม\" ได้ → mustn't", "b": "เติม \"… ก็ได้\" ต่อท้ายได้ → don't have to" }
+    ],
+    "tipTh": "ถามตัวเองว่า \"ถ้าทำจะผิดไหม\" — ผิด → mustn't · ไม่ผิด แค่ไม่จำเป็น → don't have to"
+  },
+  "contexts": [
+    {
+      "kind": "announcement", "title": "Swimming pool rules",
+      "lines": [
+        { "text": "All swimmers [[must take]] a shower before they swim." },
+        { "text": "You [[mustn't run]] near the pool." },
+        { "text": "Children under 10 [[have to swim]] with an adult." },
+        { "text": "You [[don't have to bring]] a towel — we have towels at the front desk." },
+        { "text": "On hot days, you [[should drink]] water often." }
+      ]
+    },
+    {
+      "kind": "work", "title": "First day at work",
+      "lines": [
+        { "speaker": "Mai", "text": "[[Do]] I [[have to wear]] a suit every day?" },
+        { "speaker": "Manager", "text": "No, you [[don't have to]]. Smart clothes are fine. But you [[must wear]] your ID card at all times." },
+        { "speaker": "Mai", "text": "OK. Can I take photos in the office?" },
+        { "speaker": "Manager", "text": "Yes, but you [[mustn't share]] them online. And you [[should ask]] Ben if you need help — he's very kind." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Modal verb", "th": "กริยาช่วยที่เพิ่มความหมาย เช่น ต้อง ควร ห้าม — ตามด้วยกริยาช่องที่ 1 เสมอ" },
+    { "en": "Obligation", "th": "หน้าที่ สิ่งที่ต้องทำ (must / have to)" },
+    { "en": "Prohibition", "th": "ข้อห้าม (mustn't)" },
+    { "en": "No obligation", "th": "ไม่จำเป็นต้องทำ ทำหรือไม่ทำก็ได้ (don't have to)" },
+    { "en": "Advice", "th": "คำแนะนำ (should / shouldn't)" }
+  ],
+  "practice": [
+    {
+      "id": "a2-modals-01", "type": "mc", "difficulty": 1,
+      "question": "You ___ smoke in the hospital. It's against the rules.",
+      "choices": ["mustn't", "don't have to", "should", "must"], "answer": 0,
+      "whyNot": { "1": "don't have to = ไม่จำเป็นต้องสูบ (สูบก็ได้) แต่ against the rules แปลว่าผิดกฎ จึงต้องเป็น \"ห้าม\"", "2": "should = ควรสูบ ขัดกับ against the rules", "3": "must = ต้องสูบ ความหมายตรงข้ามกับกฎ" },
+      "explainTh": "against the rules = ผิดกฎ → ห้ามทำ ใช้ mustn't + V1",
+      "structure": "Subject + mustn't + V1", "example": "You mustn't smoke in the hospital."
+    },
+    {
+      "id": "a2-modals-02", "type": "mc", "difficulty": 1,
+      "question": "Tomorrow is Sunday, so I ___ get up early. I can sleep late.",
+      "choices": ["don't have to", "mustn't", "have to", "must"], "answer": 0,
+      "whyNot": { "1": "mustn't = ห้ามตื่นเช้า แต่ไม่มีกฎห้าม แค่ไม่จำเป็นต้องตื่น", "2": "have to = ต้องตื่นเช้า ขัดกับ I can sleep late", "3": "must = ต้องตื่นเช้า ขัดกับ I can sleep late" },
+      "explainTh": "วันอาทิตย์ไม่ต้องตื่นเช้าก็ได้ (จะตื่นก็ได้ ไม่ตื่นก็ได้) → don't have to + V1",
+      "structure": "Subject + don't have to + V1", "example": "I don't have to get up early on Sunday."
+    },
+    {
+      "id": "a2-modals-03", "type": "fill", "difficulty": 1,
+      "question": "You look ill. You ___ (ควร) see a doctor.",
+      "accepted": ["should", "ought to"],
+      "explainTh": "ให้คำแนะนำ (ควร) ใช้ should + V1 → You should see a doctor.",
+      "structure": "Subject + should + V1", "example": "You should see a doctor."
+    },
+    {
+      "id": "a2-modals-04", "type": "fill", "difficulty": 2,
+      "question": "My sister is a nurse. She ___ (have to) work at night sometimes.",
+      "accepted": ["has to"],
+      "explainTh": "ประธาน she (บุรุษที่ 3 เอกพจน์) → have to เปลี่ยนเป็น has to",
+      "structure": "he / she / it + has to + V1", "example": "She has to work at night sometimes."
+    },
+    {
+      "id": "a2-modals-05", "type": "fill", "difficulty": 3,
+      "question": "We ___ (ไม่จำเป็นต้อง) buy tickets. The concert is free.",
+      "accepted": ["don't have to", "don't need to", "needn't"],
+      "explainTh": "คอนเสิร์ตฟรี = ไม่จำเป็นต้องซื้อตั๋ว (ไม่ใช่ห้ามซื้อ) → don't have to + V1 (ห้ามใช้ mustn't เพราะแปลว่า \"ห้าม\")",
+      "structure": "Subject + don't have to + V1", "example": "We don't have to buy tickets."
+    },
+    {
+      "id": "a2-modals-06", "type": "fill", "difficulty": 3,
+      "question": "Last week I ___ (ต้อง) stay at home because I was ill.",
+      "accepted": ["had to"],
+      "explainTh": "Last week เป็นอดีต แต่ must ไม่มีรูปอดีต จึงใช้ had to + V1",
+      "structure": "Subject + had to + V1", "example": "Last week I had to stay at home."
+    },
+    {
+      "id": "a2-modals-07", "type": "error", "difficulty": 1,
+      "sentence": "She must to finish her homework tonight.",
+      "errorPart": "must to",
+      "accepted": ["She must finish her homework tonight.", "She has to finish her homework tonight."],
+      "explainTh": "หลัง must ใช้กริยาช่องที่ 1 ทันที ไม่มี to → She must finish … (หรือใช้ has to ก็ได้)",
+      "structure": "Subject + must + V1"
+    },
+    {
+      "id": "a2-modals-08", "type": "error", "difficulty": 2,
+      "sentence": "He don't have to wear a uniform at his new school.",
+      "errorPart": "don't",
+      "accepted": ["He doesn't have to wear a uniform at his new school."],
+      "explainTh": "ประธาน he ใช้ doesn't have to (ไม่ใช่ don't have to)",
+      "structure": "he / she / it + doesn't have to + V1"
+    },
+    {
+      "id": "a2-modals-09", "type": "order", "difficulty": 1,
+      "tokens": ["should", "you", "more", "water", "drink"],
+      "accepted": ["You should drink more water.", "Should you drink more water?"],
+      "explainTh": "คำแนะนำ: Subject + should + V1 + … → You should drink more water."
+    },
+    {
+      "id": "a2-modals-10", "type": "order", "difficulty": 2,
+      "tokens": ["doesn't", "he", "to", "have", "work", "on", "Sundays"],
+      "accepted": ["He doesn't have to work on Sundays.", "On Sundays he doesn't have to work.", "Doesn't he have to work on Sundays?"],
+      "explainTh": "ไม่จำเป็น: Subject + doesn't have to + V1 → He doesn't have to work on Sundays."
+    },
+    {
+      "id": "a2-modals-11", "type": "transform", "difficulty": 3,
+      "source": "It isn't necessary for you to bring a dictionary.",
+      "instruction": "เขียนใหม่ด้วย don't have to ขึ้นต้นด้วย You …",
+      "accepted": ["You don't have to bring a dictionary."],
+      "explainTh": "It isn't necessary = ไม่จำเป็น → You don't have to + V1"
+    },
+    {
+      "id": "a2-modals-12", "type": "transform", "difficulty": 2,
+      "source": "Don't touch the paintings.",
+      "instruction": "เขียนใหม่เป็นกฎห้ามด้วย mustn't ขึ้นต้นด้วย You …",
+      "accepted": ["You mustn't touch the paintings."],
+      "explainTh": "ประโยคคำสั่ง Don't … = ห้าม → You mustn't (must not) + V1"
+    },
+    {
+      "id": "a2-modals-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ประโยคกับความหมาย",
+      "pairs": [["You must bring a gift.", "ต้องนำของขวัญมา"], ["You mustn't bring a gift.", "ห้ามนำของขวัญมา"], ["You don't have to bring a gift.", "ไม่ต้องนำของขวัญมาก็ได้"], ["You should bring a gift.", "ควรนำของขวัญมา"], ["You shouldn't bring a gift.", "ไม่ควรนำของขวัญมา"]],
+      "explainTh": "must = ต้อง · mustn't = ห้าม · don't have to = ไม่จำเป็น (ทำหรือไม่ทำก็ได้) · should = ควร · shouldn't = ไม่ควร"
+    },
+    {
+      "id": "a2-modals-14", "type": "choose", "difficulty": 2,
+      "question": "ป้ายในห้องสมุดเขียนว่า \"ห้ามรับประทานอาหาร\" ประโยคใดถูกต้องและตรงความหมาย",
+      "choices": ["You don't have to eat in the library.", "You mustn't eat in the library.", "You shouldn't to eat in the library.", "You haven't to eat in the library."], "answer": 1,
+      "whyNot": { "0": "don't have to = ไม่จำเป็นต้องกิน (กินก็ได้) ไม่ใช่ข้อห้าม", "2": "หลัง shouldn't ไม่มี to", "3": "ปฏิเสธของ have to ใช้ don't have to ไม่ใช่ haven't to และความหมายก็ไม่ใช่ \"ห้าม\"" },
+      "explainTh": "ห้าม = mustn't + V1 → You mustn't eat in the library."
+    },
+    {
+      "id": "a2-modals-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Do I need to bring my own laptop to the class?" },
+        { "speaker": "B", "text": "No, you ___. We have computers in the room." }
+      ] },
+      "choices": ["don't have to", "mustn't", "shouldn't", "don't must"], "answer": 0,
+      "whyNot": { "1": "mustn't = ห้ามนำมา แต่ B บอกแค่ว่ามีคอมพิวเตอร์ให้แล้ว ไม่ได้ห้าม", "2": "shouldn't = ไม่ควร เป็นคำแนะนำ ไม่ตรงกับคำถามว่า \"จำเป็นไหม\"", "3": "must ไม่ใช้กับ don't — ต้องเป็น don't have to" },
+      "explainTh": "มีคอมพิวเตอร์ให้แล้ว = ไม่จำเป็นต้องนำมา → No, you don't have to."
+    },
+    {
+      "id": "a2-modals-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "school", "title": "School trip notice", "lines": [
+        { "text": "Dear parents, On Friday we are going to the science museum. Students must be at school by 7:30. They don't have to wear their uniform — sports clothes are fine. They mustn't bring more than 200 baht. They should bring a hat and a water bottle." }
+      ] },
+      "question": "Which sentence is true?",
+      "choices": ["Students must wear their uniform.", "Students can bring 500 baht.", "Students can wear sports clothes.", "Students mustn't bring a hat."], "answer": 2,
+      "whyNot": { "0": "ประกาศบอกว่า don't have to wear their uniform = ไม่จำเป็นต้องใส่ชุดนักเรียน", "1": "ประกาศบอกว่า mustn't bring more than 200 baht = ห้ามนำเงินเกิน 200 บาท", "3": "ประกาศบอกว่า should bring a hat = ควรนำหมวกมา ไม่ได้ห้าม" },
+      "explainTh": "\"They don't have to wear their uniform — sports clothes are fine.\" = ไม่ต้องใส่ชุดนักเรียนก็ได้ ใส่ชุดกีฬาได้"
+    },
+    {
+      "id": "a2-modals-17", "type": "mc", "difficulty": 3,
+      "question": "In Thailand, drivers ___ drive on the left. It's the law.",
+      "choices": ["have to", "don't have to", "can", "mustn't"], "answer": 0,
+      "whyNot": { "1": "don't have to = ไม่จำเป็น ขัดกับ It's the law (เป็นกฎหมาย)", "2": "can = ทำได้ (อนุญาต) ไม่ได้บอกว่าเป็นหน้าที่ที่ต้องทำตามกฎหมาย", "3": "mustn't = ห้ามขับชิดซ้าย ความหมายตรงข้ามกับกฎหมายไทย" },
+      "explainTh": "It's the law = เป็นกฎหมาย ทุกคนต้องทำ → have to (หรือ must) + V1"
+    },
+    {
+      "id": "a2-modals-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับกฎที่โรงเรียนหรือที่ทำงานของคุณ ใช้ must / have to, mustn't และ don't have to (Write 3 sentences about the rules at your school or workplace.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\bmust\\b(?!\\s+not)|\\b(has|had)\\s+to\\b|(?<!(n't|not)\\s)\\bhave\\s+to\\b", "flags": "i", "msgTh": "ใช้ must หรือ have to / has to (แบบบอกเล่า) บอกสิ่งที่ต้องทำอย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(mustn't|must not)\\b", "flags": "i", "msgTh": "ใช้ mustn't บอกข้อห้ามอย่างน้อย 1 ครั้ง" },
+        { "re": "\\b(don't|doesn't|do not|does not)\\s+have\\s+to\\b", "flags": "i", "msgTh": "ใช้ don't / doesn't have to บอกสิ่งที่ไม่จำเป็นต้องทำอย่างน้อย 1 ครั้ง" }
+      ],
+      "sample": "At my school, we have to wear a uniform. We mustn't use our phones in class. We don't have to go to school on Saturdays.",
+      "explainTh": "must / have to = ต้อง · mustn't = ห้าม · don't have to = ไม่จำเป็น — หลังทุกคำใช้กริยาช่องที่ 1 และหลัง must ไม่มี to"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+/* =====================================================================
+   ธีม "ดาราศาสตร์" — ของขวัญถาวรเมื่อไปถึงแรงค์สูงสุด ราชสีห์แสงเหนือ (v1.7.0)
+   บรรยากาศห้วงอวกาศ: ฟ้าลึก ดาวกระพริบ เนบิวลา ดาวเคราะห์มีวงแหวน กลุ่มดาว ดาวตก (public/js/astro-fx.js)
+   - ฐานความเข้ากันได้ของธีมมืด (data-theme="dark") + ชั้นธีม data-skin="astronomy" — ทุกหน้ารองรับครบ
+   - ตัวอักษรทุกคู่สี ≥ 4.5:1 · ขนาดตัวอักษรเท่าเดิม · ตกแต่งเท่านั้น ไม่มีผลต่อการเล่น
+   - ชั้นตกแต่งอยู่ใต้เนื้อหาและไม่รับการแตะ · ลดการเคลื่อนไหว/เครื่องสเปกต่ำ = ภาพนิ่ง
+   ===================================================================== */
+:root[data-theme="dark"][data-skin="astronomy"] {
+  --color-bg: #060A1C; --color-surface: #0F1533; --color-surface-2: #161E44; --color-border: #2B3670;
+  --color-text: #EEF2FF;          /* 15.6:1 บนการ์ด */
+  --color-text-muted: #B3BEE6;    /* 9.4:1 */
+  --color-primary: #8EC5FF;       /* ฟ้าแสงดาว 9.1:1 บนการ์ด */
+  --color-primary-dark: #B5D8FF; --color-primary-soft: #18264F;
+  --color-secondary: #C3A8FF;     /* ม่วงเนบิวลา */
+  --color-accent: #FFD27A; --color-accent-bright: #FFC14D;
+  --color-success: #79E2B8; --color-success-soft: #123A35;
+  --color-warning: #FFD27A; --color-warning-soft: #3A3014;
+  --color-danger: #FF9DB0; --color-danger-soft: #45182C;
+  --shadow-sm: 0 1px 2px rgba(1, 3, 12, 0.55), 0 0 0 1px rgba(142, 197, 255, 0.04);
+  --shadow-md: 0 8px 22px rgba(1, 3, 12, 0.6), 0 0 18px rgba(109, 74, 255, 0.12);
+  --focus-ring: 0 0 0 3px #060A1C, 0 0 0 6px #FFD27A;
+  --white: #F4F6FF; --parchment-dim: #CAD3F2;
+  --brand: #5B6CFF; --brand-dark: #B5D8FF; --brand-accent: #8EC5FF;
+  --il-paper: #161E44; --il-paper-d: #0F1533; --il-line: #36437E; --il-bg: #131A3C;
+  --il-lilac: #5A4FB8; --il-lilac-d: #8E80F0; --il-indigo: #6D6CFF; --il-indigo-d: #4A49D6;
+  --il-coral: #FF9DB0; --il-coral-d: #E06A86; --il-amber: #FFD27A;
+  --as-card: linear-gradient(162deg, #141C42 0%, #10173A 55%, #0D1331 100%);
+  /* ดาวเล็กบนการ์ด (มุมขวาบน) */
+  --as-stars: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 40'%3E%3Cg fill='%23E6ECFF'%3E%3Ccircle cx='8' cy='8' r='.9' opacity='.7'/%3E%3Ccircle cx='30' cy='4' r='.6' opacity='.5'/%3E%3Ccircle cx='52' cy='12' r='1.1' opacity='.8'/%3E%3Ccircle cx='44' cy='30' r='.6' opacity='.45'/%3E%3Ccircle cx='18' cy='26' r='.7' opacity='.5'/%3E%3C/g%3E%3Cpath d='M52 6 C52.5 9.5 53 10 56.5 10.5 C53 11 52.5 11.5 52 15 C51.5 11.5 51 11 47.5 10.5 C51 10 51.5 9.5 52 6Z' fill='%23FFD27A' opacity='.85'/%3E%3C/svg%3E");
+  /* เส้นวงโคจรจาง ๆ (มุมซ้ายบนของการ์ด) */
+  --as-orbit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 90'%3E%3Cg fill='none' stroke='rgba(181,216,255,.16)' stroke-width='1'%3E%3Ccircle cx='0' cy='0' r='40'/%3E%3Ccircle cx='0' cy='0' r='62' stroke-dasharray='2 5'/%3E%3C/g%3E%3Ccircle cx='28' cy='28.6' r='2.6' fill='%238EC5FF' opacity='.6'/%3E%3C/svg%3E");
+  color-scheme: dark;
+}
+
+/* ---------- ฉากหลังห้วงอวกาศ (ภาพนิ่ง ราคาถูก) ---------- */
+:root[data-skin="astronomy"] body {
+  background-color: #060A1C;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cg fill='%23F4F6FF'%3E%3Ccircle cx='14' cy='22' r='1' opacity='.75'/%3E%3Ccircle cx='96' cy='48' r='.7' opacity='.5'/%3E%3Ccircle cx='182' cy='16' r='1.2' opacity='.7'/%3E%3Ccircle cx='260' cy='70' r='.8' opacity='.55'/%3E%3Ccircle cx='60' cy='130' r='.9' opacity='.45'/%3E%3Ccircle cx='150' cy='112' r='.6' opacity='.5'/%3E%3Ccircle cx='238' cy='160' r='1.1' opacity='.6'/%3E%3Ccircle cx='30' cy='210' r='.7' opacity='.5'/%3E%3Ccircle cx='120' cy='236' r='1.2' opacity='.55'/%3E%3Ccircle cx='206' cy='262' r='.8' opacity='.45'/%3E%3Ccircle cx='280' cy='224' r='.6' opacity='.5'/%3E%3C/g%3E%3Cg fill='%23CFE2FF'%3E%3Ccircle cx='76' cy='84' r='.8' opacity='.6'/%3E%3Ccircle cx='212' cy='106' r='.7' opacity='.5'/%3E%3Ccircle cx='166' cy='190' r='.9' opacity='.55'/%3E%3C/g%3E%3Cg fill='%23FFE1A8'%3E%3Ccircle cx='250' cy='30' r='.9' opacity='.6'/%3E%3Ccircle cx='90' cy='280' r='.8' opacity='.5'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(55% 40% at 85% 8%, rgba(109, 74, 255, 0.26), transparent 70%),
+    radial-gradient(45% 35% at 8% 30%, rgba(46, 196, 182, 0.13), transparent 70%),
+    radial-gradient(60% 45% at 30% 100%, rgba(217, 70, 239, 0.12), transparent 70%),
+    linear-gradient(180deg, #070B22 0%, #0A0F2C 45%, #060A1C 100%);
+  background-size: 300px 300px, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  background-attachment: fixed;
+}
+
+/* ---------- ชั้นตกแต่ง (อยู่ใต้เนื้อหา ไม่รับการแตะ) ---------- */
+#as-fx { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; contain: strict; }
+#as-fx > * { position: absolute; display: block; }
+.asfx-stars { inset: 0; width: 100%; height: 100%; }
+.asfx-planet { right: -2vw; bottom: 6vh; width: clamp(150px, 19vw, 270px); height: auto; opacity: 0.95; }
+.asfx-moon { top: 72px; right: 4vw; width: clamp(46px, 5vw, 70px); height: auto; opacity: 0.9; }
+.asfx-const { top: 70px; width: clamp(140px, 16vw, 220px); height: auto; opacity: 0.75; left: 1vw; }
+.asfx-const2 { left: auto; right: 22vw; top: auto; bottom: 18vh; width: clamp(100px, 11vw, 150px); opacity: 0.5; }
+.asfx-comet { top: 12vh; left: 0; width: 160px; height: 2px; opacity: 0; transform: translate(-200px, 0) rotate(-18deg);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(181, 216, 255, 0.4) 60%, #FFFFFF 100%); border-radius: 2px;
+  filter: drop-shadow(0 0 4px rgba(181, 216, 255, 0.8)); }
+@media (min-width: 1024px) {
+  .asfx-const { left: calc(var(--sidebar-w, 240px) + 1vw); }
+}
+@media (max-width: 1023px) {
+  .asfx-planet { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+}
+/* จอเล็ก: เหลือเฉพาะชิ้นเล็กตามมุม ไม่บังเนื้อหา */
+@media (max-width: 719px) {
+  .asfx-const2 { display: none; }
+  .asfx-planet { width: 120px; right: -26px; opacity: 0.75; }
+  .asfx-moon { width: 40px; top: 64px; right: 10px; opacity: 0.8; }
+  .asfx-const { width: 110px; top: 60px; opacity: 0.55; }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .asfx-const, .asfx-const2 { display: none; }
+  .asfx-planet { width: 100px; }
+}
+
+/* แอนิเมชันชั้นตกแต่ง (transform/opacity เท่านั้น) */
+.asfx-stars .as-tw { animation: as-twinkle 3.6s ease-in-out infinite; }
+.asfx-stars .as-tw2 { animation-duration: 5.2s; animation-delay: -2s; }
+.asfx-stars .as-tw3 { animation-duration: 4.4s; animation-delay: -1s; }
+@keyframes as-twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+.asfx-planet { animation: as-drift 14s ease-in-out infinite; }
+@keyframes as-drift { 0%, 100% { transform: translate(0, 0) rotate(0deg); } 50% { transform: translate(-6px, -10px) rotate(-2deg); } }
+.asfx-planet .as-moonlet { transform-origin: 100px 100px; animation: as-orbit 18s linear infinite; }
+@keyframes as-orbit { to { transform: rotate(360deg); } }
+.asfx-const .as-star { animation: as-twinkle 4s ease-in-out infinite; }
+.asfx-const .as-star:nth-child(2n) { animation-delay: -1.5s; }
+.asfx-comet { animation: as-comet 11s ease-in 2s infinite; }
+@keyframes as-comet {
+  0% { opacity: 0; transform: translate(-200px, 0) rotate(-18deg); }
+  4% { opacity: 1; }
+  12% { opacity: 0; transform: translate(70vw, 22vh) rotate(-18deg); }
+  100% { opacity: 0; transform: translate(70vw, 22vh) rotate(-18deg); }
+}
+:root[data-fx="lite"] .asfx-comet { display: none; }
+:root[data-fx="lite"] #as-fx *, :root.as-paused #as-fx * { animation-play-state: paused !important; }
+
+/* ---------- แถบบน (HUD) ---------- */
+:root[data-skin="astronomy"] #hud {
+  background: linear-gradient(180deg, rgba(16, 22, 56, 0.97), rgba(10, 15, 42, 0.95));
+  border-bottom: 1px solid rgba(142, 197, 255, 0.28);
+  box-shadow: 0 1px 0 rgba(255, 210, 122, 0.1), 0 6px 18px rgba(1, 3, 12, 0.5);
+}
+:root[data-skin="astronomy"] .hud-exp-bar-bg { background: rgba(255, 255, 255, 0.1); }
+:root[data-skin="astronomy"] .hud-icon-btn { background: rgba(255, 255, 255, 0.05); border-color: rgba(142, 197, 255, 0.28); color: #DDE9FF; }
+:root[data-skin="astronomy"] .hud-icon-btn:hover { background: rgba(142, 197, 255, 0.14); }
+
+/* ---------- เมนูล่าง / แถบข้าง ---------- */
+:root[data-skin="astronomy"] #bottom-nav {
+  background: linear-gradient(180deg, rgba(16, 22, 56, 0.98), rgba(8, 12, 34, 0.98));
+  border-top: 1px solid rgba(142, 197, 255, 0.28);
+  box-shadow: 0 -6px 18px rgba(1, 3, 12, 0.55);
+}
+:root[data-skin="astronomy"] .nav-item { color: #B3BEE6; }
+:root[data-skin="astronomy"] .nav-item.active, :root[data-skin="astronomy"] .nav-item[aria-current="page"] { color: #B5D8FF; }
+:root[data-skin="astronomy"] .nav-item.active .nav-icon, :root[data-skin="astronomy"] .nav-item[aria-current="page"] .nav-icon {
+  background: radial-gradient(circle at 35% 30%, #D6E9FF, #8EC5FF 55%, #5B6CFF); color: #081032; box-shadow: 0 0 14px rgba(142, 197, 255, 0.6);
+}
+@media (min-width: 1024px) {
+  :root[data-skin="astronomy"] #bottom-nav {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cellipse cx='60' cy='64' rx='52' ry='13' fill='none' stroke='%23FFD27A' stroke-opacity='.55' stroke-width='3' transform='rotate(-14 60 64)'/%3E%3Ccircle cx='60' cy='60' r='30' fill='%235B6CFF'/%3E%3Cpath d='M34 52 Q60 44 86 54' stroke='%238EC5FF' stroke-width='5' fill='none' opacity='.7'/%3E%3Cpath d='M32 66 Q60 60 88 70' stroke='%23C3A8FF' stroke-width='4' fill='none' opacity='.6'/%3E%3Cpath d='M8 76 Q60 50 112 52' fill='none' stroke='%23FFD27A' stroke-width='3' stroke-linecap='round' transform='rotate(-14 60 64)'/%3E%3C/svg%3E") center bottom 22px / 70px no-repeat, var(--as-stars) top right 12px / 90px no-repeat,
+      linear-gradient(180deg, #10163A 0%, #0B1030 60%, #070B22 100%);
+    border-top: 0; border-right: 1px solid rgba(142, 197, 255, 0.24); box-shadow: 6px 0 22px rgba(1, 3, 12, 0.5);
+  }
+  :root[data-skin="astronomy"] .nav-item:hover { background: rgba(142, 197, 255, 0.1); color: #DDE9FF; }
+  :root[data-skin="astronomy"] .nav-item.active { background: linear-gradient(90deg, rgba(142, 197, 255, 0.2), rgba(142, 197, 255, 0.04)); color: #B5D8FF;
+    box-shadow: inset 3px 0 0 #8EC5FF; }
+  :root[data-skin="astronomy"] .nav-item.active .nav-icon { box-shadow: none; }
+}
+
+/* ---------- ปุ่ม: แสงดาว ---------- */
+:root[data-skin="astronomy"] .btn-primary {
+  background: linear-gradient(180deg, #B5D8FF 0%, #8EC5FF 45%, #6E9BFF 100%); color: #081032; border-color: transparent;
+  box-shadow: 0 3px 0 #3E4FC8, 0 0 0 1px rgba(255, 255, 255, 0.35) inset, 0 6px 18px rgba(110, 155, 255, 0.35);
+}
+:root[data-skin="astronomy"] .btn-primary:hover { background: linear-gradient(180deg, #CDE5FF, #A3D0FF 45%, #7FA8FF);
+  box-shadow: 0 3px 0 #3E4FC8, 0 0 0 1px rgba(255, 255, 255, 0.5) inset, 0 8px 26px rgba(142, 197, 255, 0.5); }
+:root[data-skin="astronomy"] .btn-primary:active { transform: translateY(2px); box-shadow: 0 1px 0 #3E4FC8, 0 4px 12px rgba(110, 155, 255, 0.3); }
+:root[data-skin="astronomy"] .btn-secondary, :root[data-skin="astronomy"] .mini-btn {
+  background: linear-gradient(180deg, rgba(109, 108, 255, 0.2), rgba(109, 108, 255, 0.08)); color: #EEF2FF; border-color: #3A4890;
+}
+:root[data-skin="astronomy"] .btn-secondary:hover, :root[data-skin="astronomy"] .mini-btn:hover { border-color: #8EC5FF; box-shadow: 0 0 12px rgba(142, 197, 255, 0.25); }
+:root[data-skin="astronomy"] .mini-btn.accept { background: linear-gradient(180deg, #B5D8FF, #6E9BFF); color: #081032; border-color: transparent; }
+:root[data-skin="astronomy"] .link-btn { color: #B5D8FF; }
+:root[data-skin="astronomy"] .vd-seg { background: rgba(255, 255, 255, 0.05); border-color: #2B3670; }
+:root[data-skin="astronomy"] .vd-seg-btn.active { background: linear-gradient(180deg, #B5D8FF, #6E9BFF); color: #081032; }
+:root[data-skin="astronomy"] .dash-continue { background: linear-gradient(135deg, #2B2F8F 0%, #5B3FB8 55%, #1E7E9E 100%);
+  box-shadow: 0 10px 28px rgba(91, 108, 255, 0.35), 0 0 0 1px rgba(255, 210, 122, 0.22) inset; }
+:root[data-skin="astronomy"] .home-cta { color: #2A1C04; background: #FFD27A; }
+
+/* ---------- การ์ด: ฟ้าลึก + ดาวและวงโคจรที่มุม ---------- */
+:root[data-skin="astronomy"] :is(.home-card, .mode-card, .path-unit, .gp-ch, .rk-play-card, .rk-hero, .rk-map-card, .rk-boss-card, .rk-season,
+  .rk-goal, .rk-mode, .vb-card, .friend-card, .pl-card, .profile-head, .chat-panel, .rk-team, .rk-vs-card, .rk-intro-card, .audio-card, .support-card,
+  .gl-card, .c2-card, .c2-stat, .c2-mode, .c2-unit) {
+  background: var(--as-stars) top 6px right 8px / 64px no-repeat, var(--as-orbit) top left / 70px no-repeat, var(--as-card);
+  border: 1px solid #2B3670;
+  box-shadow: 0 8px 22px rgba(1, 3, 12, 0.45), inset 0 1px 0 rgba(181, 216, 255, 0.07);
+}
+:root[data-skin="astronomy"] .play-card { background: var(--as-stars) top 6px right 8px / 64px no-repeat, var(--as-card); border: 1px solid #2B3670; }
+:root[data-skin="astronomy"] .play-card:hover, :root[data-skin="astronomy"] .home-link:hover, :root[data-skin="astronomy"] .mode-card:hover {
+  border-color: #8EC5FF; box-shadow: 0 0 0 1px rgba(142, 197, 255, 0.4), 0 10px 26px rgba(91, 108, 255, 0.22); }
+:root[data-skin="astronomy"] .home-link { background: #111839; border-color: #2B3670; }
+:root[data-skin="astronomy"] .home-card-title .icon, :root[data-skin="astronomy"] .page-title .icon { color: #FFD27A; }
+:root[data-skin="astronomy"] .page-title, :root[data-skin="astronomy"] .home-title { color: #F4F6FF; text-shadow: 0 2px 16px rgba(142, 197, 255, 0.3); }
+:root[data-skin="astronomy"] .path-unit.completed, :root[data-skin="astronomy"] .gp-ch.passed { border-color: rgba(121, 226, 184, 0.5); }
+:root[data-skin="astronomy"] .path-boss.available { background: linear-gradient(135deg, #1B1F5E, #3B1F6E); border-color: #FFD27A; }
+:root[data-skin="astronomy"] .mascot-tip { background: #111839; border: 1px solid #2B3670; }
+:root[data-skin="astronomy"] .verify-banner { background: #3A3014; border-color: #8A7230; }
+:root[data-skin="astronomy"] .quiz-choice, :root[data-skin="astronomy"] .gl-choice { background: #10173A; border-color: #2B3670; }
+:root[data-skin="astronomy"] .quiz-choice:hover, :root[data-skin="astronomy"] .gl-choice:hover { border-color: #8EC5FF; }
+
+/* ---------- แถบความคืบหน้า: หางดาวหาง ---------- */
+:root[data-skin="astronomy"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+  .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span, .lk-progress-bar > span) {
+  position: relative; overflow: hidden;
+  background: linear-gradient(90deg, #5B6CFF 0%, #8EC5FF 55%, #FFD27A 100%);
+  box-shadow: 0 0 10px rgba(142, 197, 255, 0.55);
+}
+:root[data-skin="astronomy"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+  .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span, .lk-progress-bar > span)::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, 0.6) 50%, transparent 80%);
+  transform: translateX(-100%); animation: as-shimmer 3.4s ease-in-out infinite;
+}
+@keyframes as-shimmer { 0%, 35% { transform: translateX(-100%); } 75%, 100% { transform: translateX(100%); } }
+:root[data-skin="astronomy"] :is(.home-progress, .path-unit-bar, .pl-progress, .dash-level-bar, .dash-mastery-bar, .rk-progress, .rk-rc-bar, .lk-progress-bar) {
+  background: rgba(255, 255, 255, 0.08); }
+
+/* ---------- หน้าต่าง / ป๊อปอัป ---------- */
+:root[data-skin="astronomy"] .modal-card {
+  background: var(--as-stars) top 10px right 12px / 80px no-repeat, var(--as-orbit) top left / 90px no-repeat, linear-gradient(170deg, #161E46, #0D1331 60%);
+  border: 1px solid #36437E; box-shadow: 0 0 0 1px rgba(142, 197, 255, 0.16), 0 18px 48px rgba(1, 3, 12, 0.65), 0 0 40px rgba(109, 74, 255, 0.22);
+}
+:root[data-skin="astronomy"] .ui-overlay { background: rgba(3, 5, 16, 0.74); }
+:root[data-skin="astronomy"] .ui-overlay .sheet-close { background: #161E44; border-color: #36437E; color: #EEF2FF; }
+:root[data-skin="astronomy"] .toast { background: #EAF2FF; color: #0A1032; border-left: 4px solid #6E9BFF; }
+:root[data-skin="astronomy"] .sys-bar { background: #EAF2FF; color: #0A1032; }
+:root[data-skin="astronomy"] .sys-bar .mini-btn { background: #6E9BFF; color: #081032; border-color: transparent; }
+:root[data-skin="astronomy"] .sys-bar .mini-btn.ghost { background: transparent; color: #0A1032; border-color: rgba(10, 16, 50, 0.35); }
+
+/* ---------- โปรไฟล์: อวตารมีวงโคจร ---------- */
+:root[data-skin="astronomy"] .profile-avatar-lg { box-shadow: 0 0 0 3px #8EC5FF, 0 0 0 7px rgba(255, 210, 122, 0.35), 0 0 26px rgba(142, 197, 255, 0.5); }
+:root[data-skin="astronomy"] .theme-prem.on { border-color: #8EC5FF; box-shadow: 0 0 14px rgba(142, 197, 255, 0.3); }
+
+/* ---------- อันดับ ---------- */
+:root[data-skin="astronomy"] :is(.leaderboard-row, .rk-lb-row) { background: #0F1533; border: 1px solid #26305F; }
+:root[data-skin="astronomy"] :is(.leaderboard-row, .rk-lb-row):nth-child(-n+3) { background: linear-gradient(90deg, #2A2450, #0F1533); border-color: rgba(255, 210, 122, 0.45); }
+:root[data-skin="astronomy"] :is(.leaderboard-row, .rk-lb-row, .lb-me, .leaderboard-me) { background-color: #10173A; }
+:root[data-skin="astronomy"] .leaderboard-row.is-me, :root[data-skin="astronomy"] .rk-lb-row.is-me { border-color: #FFD27A; }
+:root[data-skin="astronomy"] .lb-tab.active, :root[data-skin="astronomy"] .tab-btn.active { background: linear-gradient(180deg, #B5D8FF, #6E9BFF); color: #081032; }
+
+/* ---------- Ranked ---------- */
+:root[data-skin="astronomy"] .rk-cta { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset, 0 8px 24px rgba(110, 155, 255, 0.35); }
+:root[data-skin="astronomy"] .rk-radar-core { background: radial-gradient(circle at 35% 30%, #D6E9FF, #8EC5FF 55%, #5B6CFF); color: #081032; }
+:root[data-skin="astronomy"] .rk-radar > span { border-color: #8EC5FF; }
+:root[data-skin="astronomy"] .rk-result-head { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%23FFD27A'%3E%3Cpath d='M30 20 C31 26 32 27 38 28 C32 29 31 30 30 36 C29 30 28 29 22 28 C28 27 29 26 30 20z' opacity='.8'/%3E%3Cpath d='M170 70 C171 74 172 75 176 76 C172 77 171 78 170 82 C169 78 168 77 164 76 C168 75 169 74 170 70z' opacity='.6'/%3E%3C/g%3E%3Cg fill='%23F4F6FF'%3E%3Ccircle cx='90' cy='18' r='1.4'/%3E%3Ccircle cx='140' cy='30' r='1'/%3E%3Ccircle cx='60' cy='90' r='1.2'/%3E%3Ccircle cx='120' cy='100' r='1'/%3E%3C/g%3E%3C/svg%3E") center top / 100% auto no-repeat, radial-gradient(70% 80% at 50% 0%, rgba(109, 74, 255, 0.22), transparent 70%); }
+:root[data-skin="astronomy"] .rk-choice { background: #10173A; border-color: #2B3670; }
+:root[data-skin="astronomy"] .rk-choice:hover { border-color: #8EC5FF; }
+:root[data-skin="astronomy"] .rkm-viewport { box-shadow: inset 0 0 0 1px #2B3670, inset 0 0 70px rgba(10, 14, 50, 0.8); }
+:root[data-skin="astronomy"] .rkm-top, :root[data-skin="astronomy"] .rkm-tools { background: transparent; }
+:root[data-skin="astronomy"] .rkm-sheet, :root[data-skin="astronomy"] .rkm-panel { background: var(--as-stars) top 6px right 8px / 64px no-repeat, var(--as-card); border-color: #2B3670; }
+
+/* ---------- กำลังโหลด: ดาวเคราะห์มีวงแหวน ---------- */
+:root[data-skin="astronomy"] .skeleton { background: linear-gradient(90deg, #131A3C 25%, #1E2858 50%, #131A3C 75%); background-size: 200% 100%; }
+:root.as-booting[data-skin="astronomy"] body::after {
+  content: 'กำลังโหลด…'; position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; padding-top: 160px;
+  font: 700 1rem 'Noto Sans Thai', sans-serif; color: #DDE9FF;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cellipse cx='60' cy='64' rx='52' ry='13' fill='none' stroke='%23FFD27A' stroke-opacity='.45' stroke-width='3' transform='rotate(-14 60 64)'/%3E%3Ccircle cx='60' cy='60' r='30' fill='%235B6CFF'/%3E%3Cpath d='M34 52 Q60 44 86 54' stroke='%238EC5FF' stroke-width='5' fill='none' opacity='.7'/%3E%3Cpath d='M32 66 Q60 60 88 70' stroke='%23C3A8FF' stroke-width='4' fill='none' opacity='.6'/%3E%3Cpath d='M8 76 Q60 50 112 52' fill='none' stroke='%23FFD27A' stroke-width='3' stroke-linecap='round' transform='rotate(-14 60 64)'/%3E%3C/svg%3E") center calc(50% - 30px) / 110px no-repeat,
+    radial-gradient(60% 40% at 50% 45%, #1A1F5A, #060A1C 70%);
+  animation: as-boot 2.6s ease-in-out infinite; transition: opacity 0.4s ease;
+}
+:root.as-booting.as-boot-done[data-skin="astronomy"] body::after { opacity: 0; }
+@keyframes as-boot { 0%, 100% { background-position: center calc(50% - 30px), center; } 50% { background-position: center calc(50% - 42px), center; } }
+
+/* ---------- ประกายดาวเมื่อแตะปุ่ม ---------- */
+.asfx-burst { position: fixed; z-index: 9998; width: 0; height: 0; pointer-events: none; }
+.asfx-burst i { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px;
+  background: radial-gradient(circle, #FFFFFF 0 28%, #B5D8FF 30% 52%, rgba(142, 197, 255, 0) 60%); border-radius: 50%; animation: asfx-burst 0.6s ease-out forwards; }
+.asfx-burst i:nth-child(3n) { background: radial-gradient(circle, #FFFFFF 0 28%, #FFD27A 30% 52%, rgba(255, 210, 122, 0) 60%); }
+@keyframes asfx-burst { 0% { transform: translate(0, 0) scale(0.6); opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(1.1); opacity: 0; } }
+
+/* ---------- แอนิเมชันตอนเปิดธีม / ได้รับธีม ---------- */
+.asfx-intro { position: fixed; inset: 0; z-index: 9997; pointer-events: none; display: grid; place-items: center; overflow: hidden; }
+.asfx-ring { position: absolute; width: 120vmax; height: 120vmax; border-radius: 50%; opacity: 0; transform: scale(0.2);
+  background: radial-gradient(circle, rgba(142, 197, 255, 0) 30%, rgba(109, 74, 255, 0.5) 52%, rgba(6, 10, 28, 0) 70%); }
+.asfx-intro.go .asfx-ring { animation: asfx-ring 1.4s ease-out forwards; }
+@keyframes asfx-ring { 0% { opacity: 0.95; transform: scale(0.2); } 100% { opacity: 0; transform: scale(1.1); } }
+.asfx-ic { width: 170px; height: auto; opacity: 0; transform: scale(0.4) rotate(-20deg); }
+.asfx-intro.go .asfx-ic { animation: asfx-in 0.7s cubic-bezier(.3, 1.4, .5, 1) forwards, asfx-out 0.5s ease 1.5s forwards; }
+@keyframes asfx-in { to { opacity: 1; transform: none; } }
+@keyframes asfx-out { to { opacity: 0; transform: scale(1.15); } }
+.asfx-is { position: absolute; left: 50%; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; opacity: 0;
+  background: radial-gradient(circle, #FFFFFF 0 25%, #FFD27A 27% 50%, rgba(255, 210, 122, 0) 60%); border-radius: 50%; }
+.asfx-intro.go .asfx-is { animation: asfx-is 1.5s cubic-bezier(.3, .6, .4, 1) var(--d) forwards; }
+@keyframes asfx-is { 0% { opacity: 0; transform: translate(0, 0) scale(0.3); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(1.4); } }
+
+/* ---------- ตัวอย่างสีในคลังธีม ---------- */
+.theme-prem-swatch.skin-astronomy {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='7' cy='8' r='.8'/%3E%3Ccircle cx='36' cy='6' r='.6'/%3E%3Ccircle cx='38' cy='34' r='.7'/%3E%3Ccircle cx='9' cy='36' r='.6'/%3E%3C/g%3E%3Cpath d='M33 9 C33.3 11 33.6 11.3 35.6 11.6 C33.6 11.9 33.3 12.2 33 14.2 C32.7 12.2 32.4 11.9 30.4 11.6 C32.4 11.3 32.7 11 33 9Z' fill='%23FFD27A'/%3E%3Cg transform='rotate(-18 22 23)'%3E%3Cpath d='M5 23 A17 5 0 0 1 39 23' fill='none' stroke='%23FFD27A' stroke-opacity='.55' stroke-width='2'/%3E%3Ccircle cx='22' cy='23' r='10' fill='%236D6CFF'/%3E%3Cpath d='M13 20 Q22 17 31 20' stroke='%23C3A8FF' stroke-width='2' fill='none' opacity='.7'/%3E%3Cpath d='M5 23 A17 5 0 0 0 39 23' fill='none' stroke='%23FFE7B3' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E") center / cover no-repeat,
+    radial-gradient(70% 70% at 70% 20%, rgba(109, 74, 255, 0.45), transparent 70%), linear-gradient(160deg, #1A1F5A, #060A1C);
+  border: 1px solid #36437E;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #as-fx *, .asfx-burst, :root[data-skin="astronomy"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill,
+    .dash-mastery-fill, .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span, .lk-progress-bar > span)::after { animation: none !important; }
+  .asfx-comet, .asfx-burst { display: none; }
+  .asfx-intro .asfx-is, .asfx-intro .asfx-ring { display: none; }
+  .asfx-intro.go .asfx-ic { animation: asfx-in 0.2s ease forwards, asfx-out 0.3s ease 0.6s forwards; }
+  :root.as-booting[data-skin="astronomy"] body::after { animation: none; }
+}

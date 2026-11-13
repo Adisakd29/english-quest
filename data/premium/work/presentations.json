@@ -1,0 +1,389 @@
+{
+  "topic": "presentations",
+  "items": [
+    {
+      "id": "W-PRE-01",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "Thank you all for being here today",
+      "th": "ขอบคุณทุกท่านที่มาในวันนี้",
+      "noteTH": "ใช้กล่าวเปิดการนำเสนอเพื่อขอบคุณผู้ฟังที่สละเวลามา สุภาพและใช้ได้ทุกสถานการณ์",
+      "example": "Good morning, and thank you all for being here today.",
+      "exampleTH": "สวัสดีตอนเช้าครับ/ค่ะ และขอบคุณทุกท่านที่มาในวันนี้",
+      "situation": {
+        "promptTH": "คุณกำลังจะเริ่มนำเสนองานต่อหน้าเพื่อนร่วมงานทั้งแผนกในตอนเช้า คุณจะกล่าวเปิดว่าอะไร",
+        "options": [
+          "Okay, let's finish this quickly so we can all leave.",
+          "Good morning. Sorry, I'm not really prepared for today.",
+          "Good morning, and thank you all for being here today.",
+          "Thank you all for leaving early today."
+        ],
+        "answer": 2,
+        "whyTH": "\"thank you all for being here today\" เป็นการเปิดที่สุภาพและขอบคุณผู้ฟัง · \"finish this quickly so we can all leave\" ฟังดูไม่ใส่ใจ · การบอกว่าไม่ได้เตรียมตัวทำให้ดูไม่เป็นมืออาชีพ · \"for leaving early\" แปลว่าขอบคุณที่กลับก่อน ผิดความหมาย"
+      },
+      "cloze": {
+        "sentence": "Good morning, and thank you all ___ being here today.",
+        "options": [
+          "to",
+          "for",
+          "of",
+          "with"
+        ],
+        "answer": 1,
+        "whyTH": "thank you for + V-ing = ขอบคุณที่... · หลัง thank you ไม่ใช้ to, of หรือ with ตามด้วย V-ing"
+      }
+    },
+    {
+      "id": "W-PRE-02",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Today I'd like to talk about",
+      "th": "วันนี้ผม/ดิฉันอยากจะพูดถึงเรื่อง",
+      "noteTH": "ใช้บอกหัวข้อของการนำเสนอหลังกล่าวทักทาย เป็นวลีมาตรฐานที่สุภาพและเข้าใจง่าย",
+      "example": "Today I'd like to talk about our new customer feedback system.",
+      "exampleTH": "วันนี้ผม/ดิฉันอยากจะพูดถึงระบบรับความคิดเห็นจากลูกค้าแบบใหม่ของเรา",
+      "situation": {
+        "promptTH": "หลังจากทักทายผู้ฟังแล้ว คุณต้องการบอกว่าการนำเสนอวันนี้เกี่ยวกับแผนงานปีหน้า คุณจะพูดว่าอะไร",
+        "options": [
+          "Today I'd like to talk about our plans for next year.",
+          "Today I'd like to complain about our plans for next year.",
+          "Yesterday I talked about our plans for next year.",
+          "I don't want to talk about our plans for next year."
+        ],
+        "answer": 0,
+        "whyTH": "\"I'd like to talk about\" ใช้แนะนำหัวข้อได้ตรงที่สุด · \"complain about\" แปลว่าบ่น · \"Yesterday I talked about\" พูดถึงเมื่อวาน ไม่ใช่หัวข้อวันนี้ · \"I don't want to talk about\" เป็นการปฏิเสธ ขัดกับจุดประสงค์"
+      },
+      "cloze": {
+        "sentence": "Today I'd like to ___ about our new customer feedback system.",
+        "options": [
+          "tell",
+          "say",
+          "discuss",
+          "talk"
+        ],
+        "answer": 3,
+        "whyTH": "talk about = พูดถึง · tell ต้องมีกรรมเป็นคน (tell you about) · say ไม่ใช้กับ about ในรูปนี้ · discuss ไม่ต้องมี about (discuss something)"
+      }
+    },
+    {
+      "id": "W-PRE-03",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "I've divided my presentation into three parts",
+      "th": "ผม/ดิฉันแบ่งการนำเสนอออกเป็นสามส่วน",
+      "noteTH": "ใช้บอกโครงสร้างของการนำเสนอตอนต้น ช่วยให้ผู้ฟังรู้ว่าจะได้ฟังอะไรบ้างและตามได้ง่าย",
+      "example": "I've divided my presentation into three parts, starting with last year's results.",
+      "exampleTH": "ผม/ดิฉันแบ่งการนำเสนอออกเป็นสามส่วน โดยเริ่มจากผลงานของปีที่แล้ว",
+      "situation": {
+        "promptTH": "ช่วงต้นของการนำเสนอ คุณอยากบอกผู้ฟังว่าจะพูดเรื่องอะไรบ้างตามลำดับ คุณจะพูดว่าอะไร",
+        "options": [
+          "I've finished my presentation, so that's all.",
+          "My presentation is very long, so please be patient.",
+          "I don't know how many parts my presentation has.",
+          "I've divided my presentation into three parts: costs, timeline, and risks."
+        ],
+        "answer": 3,
+        "whyTH": "การบอกว่าแบ่งเป็นสามส่วนพร้อมชื่อแต่ละส่วนคือการบอกโครงสร้าง · \"I've finished\" ใช้ตอนจบ ไม่ใช่ตอนต้น · การบอกว่ายาวให้อดทนไม่ได้บอกโครงสร้าง · การบอกว่าไม่รู้ว่ามีกี่ส่วนทำให้ดูไม่ได้เตรียมตัว"
+      },
+      "cloze": {
+        "sentence": "I've divided my presentation ___ three parts, starting with last year's results.",
+        "options": [
+          "into",
+          "onto",
+          "by",
+          "at"
+        ],
+        "answer": 0,
+        "whyTH": "divide something into ... parts = แบ่งออกเป็น...ส่วน · onto, by และ at ใช้กับ divide ในความหมายนี้ไม่ได้"
+      }
+    },
+    {
+      "id": "W-PRE-04",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Please save your questions until the end",
+      "th": "กรุณาเก็บคำถามไว้ถามตอนท้าย",
+      "noteTH": "ใช้ขอให้ผู้ฟังรอถามคำถามหลังจบการนำเสนอ ควรบอกต่อว่าจะตอบให้ เพื่อให้ฟังสุภาพ",
+      "example": "Please save your questions until the end, and I'll be happy to answer them.",
+      "exampleTH": "กรุณาเก็บคำถามไว้ถามตอนท้าย แล้วผม/ดิฉันยินดีตอบทุกคำถามครับ/ค่ะ",
+      "situation": {
+        "promptTH": "เวลานำเสนอของคุณมีจำกัด คุณอยากให้ผู้ฟังถามคำถามหลังจากที่คุณพูดจบแล้ว คุณจะพูดอย่างสุภาพว่าอะไร",
+        "options": [
+          "Don't ask me anything while I'm talking.",
+          "Please save your questions until the end, and I'll answer them then.",
+          "Please ask as many questions as you like right now.",
+          "I won't be taking any questions today, sorry."
+        ],
+        "answer": 1,
+        "whyTH": "\"save your questions until the end\" ขอให้รอถามตอนท้ายอย่างสุภาพ · \"Don't ask me anything\" ห้วนและไม่สุภาพ · การเชิญให้ถามตอนนี้เลยขัดกับที่ต้องการ · การบอกว่าไม่รับคำถามเลยไม่ตรงกับที่ต้องการให้ถามตอนท้าย"
+      },
+      "cloze": {
+        "sentence": "Please save your questions ___ the end, and I'll be happy to answer them.",
+        "options": [
+          "since",
+          "by",
+          "until",
+          "during"
+        ],
+        "answer": 2,
+        "whyTH": "until the end = จนถึงตอนท้าย · since ใช้กับจุดเริ่มในอดีต · by the end = ภายในตอนท้าย ไม่เข้ากับ save · during the end ไม่ใช้ในภาษาอังกฤษ"
+      }
+    },
+    {
+      "id": "W-PRE-05",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "As you can see from this chart",
+      "th": "อย่างที่ท่านเห็นจากแผนภูมินี้",
+      "noteTH": "ใช้ชี้ให้ผู้ฟังดูข้อมูลในกราฟหรือแผนภูมิบนสไลด์ แล้วตามด้วยสิ่งที่ข้อมูลบอก",
+      "example": "As you can see from this chart, online orders doubled last year.",
+      "exampleTH": "อย่างที่ท่านเห็นจากแผนภูมินี้ ยอดสั่งซื้อออนไลน์เพิ่มขึ้นเป็นสองเท่าในปีที่แล้ว",
+      "situation": {
+        "promptTH": "คุณเปิดสไลด์ที่มีแผนภูมิแสดงว่าต้นทุนลดลง และอยากให้ผู้ฟังดูข้อมูลนี้ คุณจะพูดว่าอะไร",
+        "options": [
+          "Since you can't see this chart, I'll skip it.",
+          "This chart isn't important, so don't look at it.",
+          "I made this chart, but I don't really understand it.",
+          "As you can see from this chart, our costs have gone down."
+        ],
+        "answer": 3,
+        "whyTH": "\"As you can see from this chart\" ชี้ให้ผู้ฟังดูข้อมูลแล้วสรุปสิ่งที่เห็น · การข้ามแผนภูมิหรือบอกว่าไม่สำคัญขัดกับที่อยากให้ดู · การบอกว่าไม่เข้าใจแผนภูมิของตัวเองทำให้ดูไม่เป็นมืออาชีพ"
+      },
+      "cloze": {
+        "sentence": "As you can ___ from this chart, online orders doubled last year.",
+        "options": [
+          "look",
+          "watch",
+          "show",
+          "see"
+        ],
+        "answer": 3,
+        "whyTH": "as you can see = อย่างที่เห็น เป็นสำนวนตายตัว · look ต้องใช้ look at · watch ใช้กับสิ่งที่เคลื่อนไหว · show แปลว่าแสดงให้ดู ผู้ฟังไม่ได้เป็นคนแสดง"
+      }
+    },
+    {
+      "id": "W-PRE-06",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "There was a slight dip in",
+      "th": "มีการลดลงเล็กน้อยใน",
+      "noteTH": "ใช้อธิบายกราฟเมื่อตัวเลขลดลงเพียงเล็กน้อยชั่วคราว slight = เล็กน้อย dip = การลดลงช่วงสั้น ๆ",
+      "example": "There was a slight dip in sales in March, but they recovered quickly.",
+      "exampleTH": "ยอดขายลดลงเล็กน้อยในเดือนมีนาคม แต่ก็ฟื้นตัวกลับมาอย่างรวดเร็ว",
+      "situation": {
+        "promptTH": "กราฟแสดงว่ายอดขายเดือนเมษายนลดลงนิดหน่อย แล้วเดือนถัดไปก็กลับมาเท่าเดิม คุณจะอธิบายเดือนเมษายนอย่างถูกต้องว่าอะไร",
+        "options": [
+          "There was a slight dip in sales in April.",
+          "There was a huge jump in sales in April.",
+          "Sales stayed exactly the same in April.",
+          "Sales collapsed completely in April."
+        ],
+        "answer": 0,
+        "whyTH": "\"a slight dip\" = ลดลงเล็กน้อย ตรงกับกราฟ · \"a huge jump\" = เพิ่มขึ้นมาก ผิดทิศทาง · \"stayed exactly the same\" = ไม่เปลี่ยนแปลง ผิดเพราะกราฟลดลงเล็กน้อย · \"collapsed completely\" = ดิ่งลงอย่างหนัก เกินจริง"
+      },
+      "cloze": {
+        "sentence": "There was a slight ___ in sales in March, but they recovered quickly.",
+        "options": [
+          "dip",
+          "rise",
+          "jump",
+          "peak"
+        ],
+        "answer": 0,
+        "whyTH": "dip = การลดลงชั่วคราว เข้ากับ recovered (ฟื้นตัว) · rise, jump และ peak หมายถึงการเพิ่มขึ้นหรือจุดสูงสุด จึงไม่ต้องฟื้นตัว"
+      }
+    },
+    {
+      "id": "W-PRE-07",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Let's move on to",
+      "th": "เรามาต่อกันที่เรื่อง",
+      "noteTH": "ใช้เปลี่ยนจากหัวข้อหนึ่งไปอีกหัวข้อหนึ่งระหว่างนำเสนอหรือประชุม สั้นและเป็นธรรมชาติ",
+      "example": "Now let's move on to the budget for next year.",
+      "exampleTH": "ทีนี้เรามาต่อกันที่เรื่องงบประมาณของปีหน้า",
+      "situation": {
+        "promptTH": "คุณพูดเรื่องการตลาดจบแล้ว และหัวข้อถัดไปคือเรื่องการจัดกำลังคน คุณจะพูดว่าอะไร",
+        "options": [
+          "Let's go back to the beginning of marketing.",
+          "Let's stop here and go home.",
+          "Now let's move on to staffing.",
+          "Now let's move on to marketing."
+        ],
+        "answer": 2,
+        "whyTH": "\"let's move on to staffing\" เปลี่ยนไปหัวข้อถัดไปได้ถูกต้อง · การย้อนกลับไปเรื่องการตลาดไม่ใช่การไปต่อ · \"stop here and go home\" เป็นการเลิก · \"move on to marketing\" ผิดเพราะเรื่องการตลาดพูดจบไปแล้ว"
+      },
+      "cloze": {
+        "sentence": "Now let's move ___ to the budget for next year.",
+        "options": [
+          "off",
+          "on",
+          "out",
+          "up"
+        ],
+        "answer": 1,
+        "whyTH": "move on to = ไปต่อที่เรื่อง... · move off = เคลื่อนออกไป · move out = ย้ายออก · move up = เลื่อนขึ้น ไม่ได้หมายถึงเปลี่ยนหัวข้อ"
+      }
+    },
+    {
+      "id": "W-PRE-08",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "That brings me to my next point",
+      "th": "ซึ่งนำผม/ดิฉันมาสู่ประเด็นถัดไป",
+      "noteTH": "ใช้เชื่อมจากประเด็นที่เพิ่งพูดไปยังประเด็นถัดไปอย่างลื่นไหล ฟังเป็นมืออาชีพ",
+      "example": "That brings me to my next point, which is customer retention.",
+      "exampleTH": "ซึ่งนำผม/ดิฉันมาสู่ประเด็นถัดไป นั่นคือการรักษาฐานลูกค้า",
+      "situation": {
+        "promptTH": "คุณเพิ่งอธิบายเรื่องต้นทุนที่สูงขึ้น และอยากเชื่อมไปยังประเด็นถัดไปเรื่องการตั้งราคาอย่างลื่นไหล คุณจะพูดว่าอะไร",
+        "options": [
+          "That brings me to the end of my presentation.",
+          "That brings me to my next point: our pricing.",
+          "Sorry, I forgot what I was going to say next.",
+          "Let's go back to my first point again."
+        ],
+        "answer": 1,
+        "whyTH": "\"That brings me to my next point\" เชื่อมไปประเด็นถัดไปได้ตรงที่สุด · \"the end of my presentation\" ใช้ตอนจบ แต่ยังมีเรื่องราคา · การบอกว่าลืมทำให้ดูไม่เตรียมตัว · \"go back to my first point\" เป็นการย้อนกลับ ไม่ใช่ไปต่อ"
+      },
+      "cloze": {
+        "sentence": "That brings me to my next ___, which is customer retention.",
+        "options": [
+          "side",
+          "point",
+          "spot",
+          "dot"
+        ],
+        "answer": 1,
+        "whyTH": "point = ประเด็น · side = ด้าน/ข้าง · spot = จุด/ตำแหน่ง · dot = จุดเล็ก ๆ ทั้งสามคำไม่ได้หมายถึงประเด็นที่พูด"
+      }
+    },
+    {
+      "id": "W-PRE-09",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "Let me wrap up by",
+      "th": "ขอปิดท้ายด้วยการ",
+      "noteTH": "ใช้บอกผู้ฟังว่ากำลังจะจบการนำเสนอ แล้วตามด้วยกริยาเติม -ing เช่น สรุปประเด็นหลักหรือฝากข้อคิดสุดท้าย",
+      "example": "Let me wrap up by highlighting the three main points.",
+      "exampleTH": "ขอปิดท้ายด้วยการเน้นย้ำประเด็นหลักสามข้อ",
+      "situation": {
+        "promptTH": "ใกล้จบการนำเสนอแล้ว คุณอยากบอกผู้ฟังว่ากำลังจะปิดท้ายด้วยการทวนประเด็นหลัก คุณจะพูดว่าอะไร",
+        "options": [
+          "To begin with, let me introduce myself.",
+          "Let me wrap up by summarizing the key points.",
+          "In my opinion, this topic is quite boring.",
+          "For example, let me show you another twenty slides."
+        ],
+        "answer": 1,
+        "whyTH": "\"Let me wrap up by summarizing\" บอกว่ากำลังจะจบด้วยการสรุปประเด็น · \"To begin with\" ใช้ตอนเริ่ม · การบอกว่าหัวข้อน่าเบื่อไม่ใช่การปิดท้าย · \"For example\" ใช้ยกตัวอย่างและเพิ่มสไลด์อีกมาก ไม่ใช่การปิดท้าย"
+      },
+      "cloze": {
+        "sentence": "Let me ___ up by highlighting the three main points.",
+        "options": [
+          "warm",
+          "wrap",
+          "wipe",
+          "pack"
+        ],
+        "answer": 1,
+        "whyTH": "wrap up = ปิดท้าย/จบ · warm up = อบอุ่นร่างกาย/เกริ่นนำ · wipe up = เช็ดให้สะอาด · pack up = เก็บของ ไม่ได้แปลว่าปิดท้ายการนำเสนอ"
+      }
+    },
+    {
+      "id": "W-PRE-10",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "Thank you for your attention",
+      "th": "ขอบคุณที่ตั้งใจฟัง",
+      "noteTH": "ใช้กล่าวปิดท้ายการนำเสนอ มักตามด้วยการเชิญให้ถามคำถาม",
+      "example": "That's all from me today, so thank you for your attention.",
+      "exampleTH": "วันนี้ผม/ดิฉันขอจบเพียงเท่านี้ ขอบคุณทุกท่านที่ตั้งใจฟังครับ/ค่ะ",
+      "situation": {
+        "promptTH": "คุณนำเสนอถึงสไลด์สุดท้ายแล้ว และอยากปิดอย่างสุภาพพร้อมเปิดรับคำถาม คุณจะพูดว่าอะไร",
+        "options": [
+          "Thank you for your attention. Please don't ask me anything.",
+          "Sorry for wasting your time today.",
+          "Thank you for your attention. Let's start the presentation.",
+          "Thank you for your attention. I'm happy to take any questions now."
+        ],
+        "answer": 3,
+        "whyTH": "\"Thank you for your attention\" แล้วเชิญถามคำถามคือการปิดที่สุภาพ · การห้ามถามขัดกับการเปิดรับคำถาม · \"Sorry for wasting your time\" ลดคุณค่างานตัวเอง · \"Let's start the presentation\" ใช้ตอนเริ่ม ไม่ใช่ตอนจบ"
+      },
+      "cloze": {
+        "sentence": "That's all from me today, so thank you for your ___.",
+        "options": [
+          "attraction",
+          "intention",
+          "attention",
+          "attempt"
+        ],
+        "answer": 2,
+        "whyTH": "attention = ความสนใจ/การตั้งใจฟัง · attraction = แรงดึงดูด · intention = ความตั้งใจ (เจตนา) · attempt = ความพยายาม ไม่ใช้ในการขอบคุณผู้ฟัง"
+      }
+    },
+    {
+      "id": "W-PRE-11",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "That's a great question",
+      "th": "เป็นคำถามที่ดีมาก",
+      "noteTH": "ใช้ตอบรับคำถามจากผู้ฟังอย่างเป็นมิตรก่อนตอบ ช่วยให้มีเวลาคิดและทำให้ผู้ถามรู้สึกดี",
+      "example": "That's a great question, and I'm glad you asked it.",
+      "exampleTH": "เป็นคำถามที่ดีมาก และผม/ดิฉันดีใจที่คุณถาม",
+      "situation": {
+        "promptTH": "ผู้ฟังคนหนึ่งถามคำถามที่มีประโยชน์ คุณอยากตอบรับอย่างเป็นมิตรก่อนจะอธิบาย คุณจะพูดว่าอะไร",
+        "options": [
+          "That's a great question. Let me explain.",
+          "That's a silly question, but I'll answer it.",
+          "I already explained that. Weren't you listening?",
+          "That's not my problem."
+        ],
+        "answer": 0,
+        "whyTH": "\"That's a great question\" ตอบรับอย่างเป็นมิตร · \"silly question\" เป็นการดูถูกผู้ถาม · การถามว่าไม่ได้ฟังหรือเปล่าฟังดูต่อว่า · \"That's not my problem\" ห้วนและไม่รับผิดชอบ"
+      },
+      "cloze": {
+        "sentence": "That's a ___ question, and I'm glad you asked it.",
+        "options": [
+          "great",
+          "tall",
+          "loud",
+          "fast"
+        ],
+        "answer": 0,
+        "whyTH": "great question = คำถามที่ดีมาก · tall = สูง · loud = เสียงดัง · fast = เร็ว ไม่ใช้บรรยายคุณภาพของคำถาม"
+      }
+    },
+    {
+      "id": "W-PRE-12",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'll have to get back to you on that",
+      "th": "ขออนุญาตกลับไปหาข้อมูลแล้วจะแจ้งคุณอีกครั้ง",
+      "noteTH": "ใช้เมื่อถูกถามสิ่งที่ยังตอบไม่ได้ทันที เป็นการรับปากว่าจะหาคำตอบให้ภายหลังอย่างซื่อตรง",
+      "example": "I don't have those figures with me, so I'll have to get back to you on that.",
+      "exampleTH": "ตอนนี้ผม/ดิฉันไม่มีตัวเลขเหล่านั้นอยู่กับตัว ขออนุญาตกลับไปหาข้อมูลแล้วจะแจ้งอีกครั้ง",
+      "situation": {
+        "promptTH": "ผู้ฟังถามตัวเลขที่คุณจำไม่ได้แน่ชัด คุณอยากตอบอย่างซื่อตรงและรับปากว่าจะแจ้งให้ทราบภายหลัง คุณจะพูดว่าอะไร",
+        "options": [
+          "I'll just guess: it's about ten million.",
+          "That number isn't important, so let's skip it.",
+          "I'm not sure of the exact number, so I'll have to get back to you on that.",
+          "You should find that out yourself."
+        ],
+        "answer": 2,
+        "whyTH": "\"I'll have to get back to you on that\" ยอมรับว่ายังไม่รู้และรับปากจะแจ้งภายหลัง · การเดาตัวเลขอาจให้ข้อมูลผิด · การบอกว่าไม่สำคัญเป็นการเลี่ยงคำถาม · การให้ผู้ถามไปหาเองไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "I don't have those figures with me, so I'll have to get ___ to you on that.",
+        "options": [
+          "up",
+          "over",
+          "off",
+          "back"
+        ],
+        "answer": 3,
+        "whyTH": "get back to someone = ติดต่อกลับไปหา · get up = ลุกขึ้น · get over = หายจาก/ทำใจได้ · get off = ลงจากรถ ไม่ใช่ความหมายของการติดต่อกลับ"
+      }
+    }
+  ]
+}

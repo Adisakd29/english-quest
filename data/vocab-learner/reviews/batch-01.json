@@ -1,0 +1,132 @@
+{
+  "batch": "01",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0011",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'actor' also fits ('She is the best actor in this film'), and item A1-S0010 itself teaches that actor is used for women too.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0030",
+      "severity": "minor",
+      "problem": "gapOk too optimistic for a function word: 'I had rice ___ eggs' also accepts 'with' (and 'or').",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0032",
+      "severity": "minor",
+      "problem": "Collocation 'pet animal' is not a common combination.",
+      "fix": {
+        "collocations": [
+          "wild animals",
+          "farm animals",
+          "animal lover"
+        ]
+      }
+    },
+    {
+      "id": "A1-S0036",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Please ___ all the questions on the test' also fits read/do/finish.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0047",
+      "severity": "minor",
+      "problem": "shortTH 'แถว ๆ นี้' means 'around here', not 'around' alone; too narrow as an answer choice.",
+      "fix": {
+        "shortTH": "แถว ๆ, รอบ ๆ"
+      }
+    },
+    {
+      "id": "A1-S0050",
+      "severity": "minor",
+      "problem": "'an interesting article about sleep online' is ambiguous (reads like 'sleep online'); better word order.",
+      "fix": {
+        "example": "I read an interesting article online about sleep.",
+        "form": "article",
+        "exampleTH": "ฉันอ่านบทความออนไลน์ที่น่าสนใจเกี่ยวกับการนอน"
+      }
+    },
+    {
+      "id": "A1-S0051",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The ___ painted a picture of the river' fits boy/girl/teacher/student equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0058",
+      "severity": "minor",
+      "problem": "meaningEN ('to or in another place, not here') does not match the example, which shows distance ('five minutes away'); Thai ห่างออกไป matches the example.",
+      "fix": {
+        "meaningEN": "at a distance from a place, or to another place"
+      }
+    },
+    {
+      "id": "A1-S0063",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Don't forget your school ___!' fits book/uniform/shoes equally.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0080",
+      "severity": "minor",
+      "problem": "meaningEN 'to start doing something' does not fit the intransitive example 'The class begins at nine'.",
+      "fix": {
+        "meaningEN": "to start, or to start doing something"
+      }
+    },
+    {
+      "id": "A1-S0083",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Don't leave me ___!' — 'alone' fits equally well and is very common.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0091",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'An elephant is much ___ than a horse' also fits heavier/stronger.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0093",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Can we have the ___, please?' — 'menu' fits equally well in a restaurant.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0100",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The sky is very ___ today' also fits clear/grey/dark.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A1-S0123",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My grandfather ___ this wooden house in 1970' — 'bought' fits equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+/* =====================================================================
+   แท่นรางวัลกระดานอันดับ — v1.18.0 (public/js/podium.js)
+   2 | 1 | 3 · ตัวละครยืนบนแท่น · ทอง/เงิน/ทองแดง · ใช้ได้ทั้งโหมดสว่าง/มืด
+   ===================================================================== */
+.lbp { margin: 6px 0 18px; padding: 18px 10px 0; border-radius: 22px; overflow: hidden; position: relative;
+  background: radial-gradient(120% 80% at 50% 0%, rgba(255, 214, 102, .28), transparent 60%), linear-gradient(180deg, var(--color-primary-soft, #EEF0FF), var(--color-surface, #fff) 85%);
+  border: 1px solid var(--color-border); }
+:root[data-theme="dark"] .lbp { background: radial-gradient(120% 80% at 50% 0%, rgba(255, 214, 102, .16), transparent 60%), linear-gradient(180deg, #1F2552, var(--color-surface) 85%); }
+.lbp-li { list-style: none; }
+.lbp-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: end; gap: 8px; }
+.lbp-place { display: grid; justify-items: center; text-align: center; min-width: 0; position: relative; }
+.lbp-2 { order: 1; } .lbp-1 { order: 2; } .lbp-3 { order: 3; }
+.lbp-fig { position: relative; width: 100%; display: grid; place-items: end center; height: 132px; cursor: pointer; z-index: 1; margin-bottom: -10px; }
+.lbp-1 .lbp-fig { height: 162px; }
+.lbp-model { width: 140%; max-width: 190px; height: auto; display: block; filter: drop-shadow(0 6px 6px rgba(20, 24, 60, .25)); animation: lbp-in .5s ease both; }
+.lbp-1 .lbp-model { max-width: 230px; }
+.lbp-model-2d { width: 92%; max-width: 130px; }
+.lbp-1 .lbp-model-2d { max-width: 150px; }
+.lbp-model-2d svg { width: 100%; height: auto; display: block; }
+@keyframes lbp-in { from { opacity: 0; transform: translateY(8px) scale(.96); } }
+@media (prefers-reduced-motion: reduce) { .lbp-model { animation: none; } }
+.lbp-photo { margin-bottom: 18px; }
+.lbp-photo .avatar, .lbp-photo .avatar-img, .lbp-photo > * { width: 72px !important; height: 72px !important; border-radius: 50%; font-size: 2.2rem; box-shadow: 0 0 0 4px var(--color-surface), 0 6px 14px rgba(20, 24, 60, .18); }
+.lbp-1 .lbp-photo > * { width: 88px !important; height: 88px !important; }
+.lbp-fig.is-loading::after { content: ""; position: absolute; bottom: 10px; width: 44px; height: 8px; border-radius: 50%; background: rgba(20, 24, 60, .18); animation: lbp-pulse 1s ease-in-out infinite; }
+@keyframes lbp-pulse { 50% { transform: scaleX(1.4); opacity: .5; } }
+.lbp-fig.is-photo .lbp-photo { margin-bottom: 18px; }
+/* แท่น */
+.lbp-block { width: 100%; border-radius: 14px 14px 0 0; display: grid; place-items: start center; padding-top: 10px; position: relative;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .55), inset 0 -10px 18px rgba(0, 0, 0, .08); }
+.lbp-block::before { content: ""; position: absolute; left: 6%; right: 6%; top: -10px; height: 16px; border-radius: 50%; background: inherit; filter: brightness(1.08); }
+.lbp-1 .lbp-block { height: 104px; background: linear-gradient(180deg, #FFE27A, #F0B323 60%, #D99412); }
+.lbp-2 .lbp-block { height: 80px; background: linear-gradient(180deg, #F3F6FA, #C9D1DD 60%, #A6B1C1); }
+.lbp-3 .lbp-block { height: 62px; background: linear-gradient(180deg, #F6C9A0, #D98F55 60%, #B86E36); }
+.lbp-num { position: relative; font-weight: 900; font-size: 2rem; line-height: 1; color: rgba(255, 255, 255, .95); text-shadow: 0 2px 0 rgba(0, 0, 0, .18); }
+.lbp-1 .lbp-num { font-size: 2.5rem; }
+.lbp-2 .lbp-num { color: #fff; text-shadow: 0 2px 0 rgba(70, 85, 110, .35); }
+.lbp-info { display: grid; gap: 1px; justify-items: center; min-width: 0; max-width: 100%; padding: 14px 2px 8px; position: relative; z-index: 2; }
+.lbp-name { font-size: .88rem; font-weight: 800; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--color-text); }
+.lbp-name small { font-weight: 700; color: var(--color-text-muted); }
+.lbp-sub { font-size: .7rem; color: var(--color-text-muted); display: inline-flex; align-items: center; gap: 3px; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.lbp-sub .rk-badge-inline { width: 16px; height: 16px; }
+.lbp-score { font-size: .8rem; color: var(--color-text-muted); }
+.lbp-score b { font-size: .98rem; color: var(--color-text); font-variant-numeric: tabular-nums; }
+.lbp-1 .lbp-score b { color: #B97A06; }
+:root[data-theme="dark"] .lbp-1 .lbp-score b { color: #FFD45E; }
+.lbp-place.is-me .lbp-name { color: var(--color-primary); }
+.lbp-place.is-me .lbp-block { outline: 3px solid var(--color-primary); outline-offset: -3px; }
+/* ลำดับ: ข้อมูลอยู่บนแท่น */
+.lbp-place { grid-template-rows: auto auto auto; }
+.lbp-place > .lbp-info { order: 2; } .lbp-place > .lbp-block { order: 3; } .lbp-place > .lbp-fig { order: 1; }
+@media (max-width: 380px) {
+  .lbp { padding: 14px 6px 0; } .lbp-row { gap: 4px; }
+  .lbp-fig { height: 112px; } .lbp-1 .lbp-fig { height: 138px; }
+  .lbp-name { font-size: .8rem; }
+  .lbp-1 .lbp-block { height: 88px; } .lbp-2 .lbp-block { height: 68px; } .lbp-3 .lbp-block { height: 52px; }
+}
+@media (min-width: 700px) {
+  .lbp { padding: 24px 24px 0; } .lbp-row { gap: 16px; max-width: 620px; margin: 0 auto; }
+  .lbp-fig { height: 170px; } .lbp-1 .lbp-fig { height: 205px; }
+  .lbp-1 .lbp-block { height: 120px; } .lbp-2 .lbp-block { height: 92px; } .lbp-3 .lbp-block { height: 72px; }
+}
+
+/* v1.18.0 ปรับ: ตัวละครยืนบนแท่นจริง (เท้าแตะหน้าแท่น) · ชื่อ/คะแนนอยู่ใต้แท่น */
+.lbp { padding-bottom: 12px; }
+.lbp-place > .lbp-fig { order: 1; } .lbp-place > .lbp-block { order: 2; } .lbp-place > .lbp-info { order: 3; }
+.lbp-fig, .lbp-1 .lbp-fig { height: auto; min-height: 96px; margin-bottom: -14px; place-items: end center; overflow: visible; }
+.lbp-model { width: 128%; max-width: 200px; margin: 0 -14%; }
+.lbp-1 .lbp-model { width: 140%; max-width: 240px; margin: 0 -20%; }
+.lbp-fig.is-2d { margin-bottom: -6px; }
+.lbp-fig.is-photo, .lbp-fig.is-loading { margin-bottom: 0; }
+.lbp-block { border-radius: 14px 14px 6px 6px; box-shadow: inset 0 2px 0 rgba(255, 255, 255, .55), inset 0 -10px 18px rgba(0, 0, 0, .08), 0 8px 14px rgba(20, 24, 60, .12); }
+.lbp-1 .lbp-block { height: 84px; } .lbp-2 .lbp-block { height: 62px; } .lbp-3 .lbp-block { height: 48px; }
+.lbp-num { font-size: 1.6rem; } .lbp-1 .lbp-num { font-size: 2.1rem; }
+.lbp-3 .lbp-block { padding-top: 7px; }
+.lbp-info { padding: 8px 2px 0; }
+@media (max-width: 380px) { .lbp-1 .lbp-block { height: 72px; } .lbp-2 .lbp-block { height: 54px; } .lbp-3 .lbp-block { height: 42px; } }
+@media (min-width: 700px) {
+  .lbp-model { max-width: 230px; } .lbp-1 .lbp-model { max-width: 280px; }
+  .lbp-1 .lbp-block { height: 104px; } .lbp-2 .lbp-block { height: 78px; } .lbp-3 .lbp-block { height: 60px; }
+}
+
+/* ภาพ 3D ถูกตัดขอบว่างแล้ว (EQAvatar.fullBody) → กำหนดความสูงตรง ๆ · เท้า (เงาพื้น) แตะหน้าแท่น */
+.lbp-fig.is-3d { margin-bottom: -9px; min-height: 0; }
+.lbp-fig.is-3d .lbp-model { width: auto; max-width: 112%; margin: 0; height: 128px; object-fit: contain; }
+.lbp-1 .lbp-fig.is-3d .lbp-model { height: 154px; max-width: 120%; }
+@media (max-width: 380px) { .lbp-fig.is-3d .lbp-model { height: 108px; } .lbp-1 .lbp-fig.is-3d .lbp-model { height: 132px; } }
+@media (min-width: 700px) { .lbp-fig.is-3d .lbp-model { height: 168px; } .lbp-1 .lbp-fig.is-3d .lbp-model { height: 200px; } }
+.lbp-fig.is-2d .lbp-model-2d { width: auto; height: 132px; max-width: none; }
+.lbp-fig.is-2d .lbp-model-2d svg { height: 100%; width: auto; }
+.lbp-1 .lbp-fig.is-2d .lbp-model-2d { height: 158px; }

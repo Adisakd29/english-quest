@@ -1,0 +1,13 @@
+DROP INDEX IF EXISTS idx_glessons_recent;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS last_study_at;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS mastered_at;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS lesson_completed_at;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS lesson_runs;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS best_accuracy;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS lesson_accuracy;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS completed_steps;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS run_answers;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS run_steps;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS run_no;
+ALTER TABLE grammar_lessons DROP COLUMN IF EXISTS current_step;
+DROP TABLE IF EXISTS exp_awards;

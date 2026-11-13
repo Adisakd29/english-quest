@@ -1,0 +1,403 @@
+{
+ "id": "halloween-hard",
+ "version": 1,
+ "items": [
+  {
+   "id": "hx-01",
+   "word": "eerie",
+   "pos": "adjective",
+   "th": "น่าขนลุกอย่างประหลาด",
+   "group": "spooky",
+   "level": "B2",
+   "example": "The empty school felt eerie after sunset.",
+   "exampleTH": "โรงเรียนที่ว่างเปล่าให้ความรู้สึกน่าขนลุกหลังพระอาทิตย์ตก"
+  },
+  {
+   "id": "hx-02",
+   "word": "ominous",
+   "pos": "adjective",
+   "th": "เป็นลางร้าย",
+   "group": "spooky",
+   "level": "C1",
+   "example": "Dark clouds gave the sky an ominous look.",
+   "exampleTH": "เมฆดำทำให้ท้องฟ้าดูเป็นลางร้าย"
+  },
+  {
+   "id": "hx-03",
+   "word": "sinister",
+   "pos": "adjective",
+   "th": "ดูชั่วร้าย น่าหวาดหวั่น",
+   "group": "spooky",
+   "level": "B2",
+   "example": "The villain in the film had a sinister smile.",
+   "exampleTH": "ตัวร้ายในหนังมีรอยยิ้มที่ดูชั่วร้าย"
+  },
+  {
+   "id": "hx-04",
+   "word": "spine-chilling",
+   "pos": "adjective",
+   "th": "ชวนขนหัวลุก",
+   "group": "spooky",
+   "level": "C1",
+   "example": "Grandpa told us a spine-chilling story.",
+   "exampleTH": "คุณตาเล่าเรื่องที่ชวนขนหัวลุกให้พวกเราฟัง"
+  },
+  {
+   "id": "hx-05",
+   "word": "gloomy",
+   "pos": "adjective",
+   "th": "มืดครึ้ม หม่นหมอง",
+   "group": "spooky",
+   "level": "B2",
+   "example": "The castle hall was cold and gloomy.",
+   "exampleTH": "ห้องโถงของปราสาททั้งเย็นและมืดครึ้ม"
+  },
+  {
+   "id": "hx-06",
+   "word": "grotesque",
+   "pos": "adjective",
+   "th": "พิลึกพิลั่น น่าเกลียดชวนตกใจ",
+   "group": "spooky",
+   "level": "C1",
+   "example": "The mask had a grotesque, twisted face.",
+   "exampleTH": "หน้ากากนั้นมีใบหน้าบิดเบี้ยวพิลึกพิลั่น"
+  },
+  {
+   "id": "hx-07",
+   "word": "apparition",
+   "pos": "noun",
+   "th": "ภาพหลอน สิ่งที่ปรากฏเหมือนวิญญาณ",
+   "group": "ghost",
+   "level": "C1",
+   "example": "She thought the white curtain was an apparition.",
+   "exampleTH": "เธอนึกว่าผ้าม่านสีขาวเป็นภาพหลอน"
+  },
+  {
+   "id": "hx-08",
+   "word": "phantom",
+   "pos": "noun",
+   "th": "ภูตผี สิ่งลวงตา",
+   "group": "ghost",
+   "level": "C1",
+   "example": "The story is about a phantom that lives in an old theatre.",
+   "exampleTH": "เรื่องนี้เกี่ยวกับภูตผีที่อาศัยอยู่ในโรงละครเก่า"
+  },
+  {
+   "id": "hx-09",
+   "word": "supernatural",
+   "pos": "adjective",
+   "th": "เหนือธรรมชาติ",
+   "group": "ghost",
+   "level": "B2",
+   "example": "The book is full of supernatural creatures.",
+   "exampleTH": "หนังสือเล่มนี้เต็มไปด้วยสิ่งมีชีวิตเหนือธรรมชาติ"
+  },
+  {
+   "id": "hx-10",
+   "word": "superstition",
+   "pos": "noun",
+   "th": "ความเชื่อโชคลาง",
+   "group": "story",
+   "level": "B2",
+   "example": "Some people avoid black cats because of an old superstition.",
+   "exampleTH": "บางคนหลีกเลี่ยงแมวดำเพราะความเชื่อโชคลางแบบเก่า"
+  },
+  {
+   "id": "hx-11",
+   "word": "folklore",
+   "pos": "noun",
+   "th": "คติชนวิทยา นิทานและความเชื่อพื้นบ้าน",
+   "group": "story",
+   "level": "C1",
+   "example": "Many Halloween characters come from European folklore.",
+   "exampleTH": "ตัวละครฮาโลวีนหลายตัวมาจากนิทานและความเชื่อพื้นบ้านของยุโรป"
+  },
+  {
+   "id": "hx-12",
+   "word": "omen",
+   "pos": "noun",
+   "th": "ลางบอกเหตุ",
+   "group": "story",
+   "level": "C1",
+   "example": "In the story, a howling dog was a bad omen.",
+   "exampleTH": "ในนิทาน สุนัขหอนเป็นลางบอกเหตุร้าย"
+  },
+  {
+   "id": "hx-13",
+   "word": "legend",
+   "pos": "noun",
+   "th": "ตำนาน",
+   "group": "story",
+   "level": "B2",
+   "example": "Local legend says a giant lived in the forest.",
+   "exampleTH": "ตำนานท้องถิ่นเล่าว่าเคยมียักษ์อาศัยอยู่ในป่า"
+  },
+  {
+   "id": "hx-14",
+   "word": "incantation",
+   "pos": "noun",
+   "th": "บทร่ายมนตร์",
+   "group": "magic",
+   "level": "C1",
+   "example": "The witch whispered a strange incantation.",
+   "exampleTH": "แม่มดกระซิบบทร่ายมนตร์แปลก ๆ"
+  },
+  {
+   "id": "hx-15",
+   "word": "sorcery",
+   "pos": "noun",
+   "th": "ไสยเวท เวทมนตร์",
+   "group": "magic",
+   "level": "C1",
+   "example": "The wizard learned sorcery from ancient books.",
+   "exampleTH": "พ่อมดเรียนเวทมนตร์จากตำราโบราณ"
+  },
+  {
+   "id": "hx-16",
+   "word": "enchanted",
+   "pos": "adjective",
+   "th": "ต้องมนตร์",
+   "group": "magic",
+   "level": "B2",
+   "example": "They got lost in an enchanted forest.",
+   "exampleTH": "พวกเขาหลงทางในป่าต้องมนตร์"
+  },
+  {
+   "id": "hx-17",
+   "word": "conjure",
+   "pos": "verb",
+   "th": "เสกขึ้นมา",
+   "group": "magic",
+   "level": "C1",
+   "example": "The magician can conjure a rabbit out of a hat.",
+   "exampleTH": "นักมายากลเสกกระต่ายออกมาจากหมวกได้"
+  },
+  {
+   "id": "hx-18",
+   "word": "elixir",
+   "pos": "noun",
+   "th": "น้ำยาวิเศษ โอสถทิพย์",
+   "group": "magic",
+   "level": "C1",
+   "example": "The old book describes an elixir of youth.",
+   "exampleTH": "หนังสือเก่าเล่มนั้นบรรยายถึงน้ำยาวิเศษที่ทำให้หนุ่มสาว"
+  },
+  {
+   "id": "hx-19",
+   "word": "dread",
+   "pos": "noun",
+   "th": "ความหวาดหวั่น",
+   "group": "fear",
+   "level": "B2",
+   "example": "He walked into the dark basement with dread.",
+   "exampleTH": "เขาเดินเข้าไปในห้องใต้ดินมืด ๆ ด้วยความหวาดหวั่น"
+  },
+  {
+   "id": "hx-20",
+   "word": "petrified",
+   "pos": "adjective",
+   "th": "กลัวจนตัวแข็ง",
+   "group": "fear",
+   "level": "C1",
+   "example": "The little boy was petrified of the skeleton.",
+   "exampleTH": "เด็กชายตัวเล็กกลัวโครงกระดูกจนตัวแข็ง"
+  },
+  {
+   "id": "hx-21",
+   "word": "tremble",
+   "pos": "verb",
+   "th": "ตัวสั่น",
+   "group": "fear",
+   "level": "B2",
+   "example": "My hands tremble when I hear thunder.",
+   "exampleTH": "มือของฉันสั่นเมื่อได้ยินเสียงฟ้าร้อง"
+  },
+  {
+   "id": "hx-22",
+   "word": "startle",
+   "pos": "verb",
+   "th": "ทำให้สะดุ้ง",
+   "group": "fear",
+   "level": "B2",
+   "example": "Sorry, I didn't mean to startle you.",
+   "exampleTH": "ขอโทษนะ ฉันไม่ได้ตั้งใจทำให้เธอสะดุ้ง"
+  },
+  {
+   "id": "hx-23",
+   "word": "lurk",
+   "pos": "verb",
+   "th": "ซุ่มอยู่ แอบอยู่",
+   "group": "creep",
+   "level": "C1",
+   "example": "A cat likes to lurk under the table.",
+   "exampleTH": "แมวชอบแอบซุ่มอยู่ใต้โต๊ะ"
+  },
+  {
+   "id": "hx-24",
+   "word": "creak",
+   "pos": "verb",
+   "th": "(เสียง) ดังเอี๊ยด",
+   "group": "sound",
+   "level": "B2",
+   "example": "The old door began to creak slowly.",
+   "exampleTH": "ประตูเก่าเริ่มส่งเสียงดังเอี๊ยดช้า ๆ"
+  },
+  {
+   "id": "hx-25",
+   "word": "howl",
+   "pos": "verb",
+   "th": "หอน",
+   "group": "sound",
+   "level": "B2",
+   "example": "Wolves howl at night in the mountains.",
+   "exampleTH": "หมาป่าหอนตอนกลางคืนบนภูเขา"
+  },
+  {
+   "id": "hx-26",
+   "word": "cackle",
+   "pos": "verb",
+   "th": "หัวเราะเสียงแหลม (แบบแม่มด)",
+   "group": "sound",
+   "level": "C1",
+   "example": "The witch began to cackle loudly.",
+   "exampleTH": "แม่มดเริ่มหัวเราะเสียงแหลมดังลั่น"
+  },
+  {
+   "id": "hx-27",
+   "word": "flicker",
+   "pos": "verb",
+   "th": "(แสง) วูบวาบ ริบหรี่",
+   "group": "light",
+   "level": "B2",
+   "example": "The candles started to flicker in the wind.",
+   "exampleTH": "แสงเทียนเริ่มวูบวาบเพราะลม"
+  },
+  {
+   "id": "hx-28",
+   "word": "silhouette",
+   "pos": "noun",
+   "th": "เงาดำ โครงร่าง",
+   "group": "light",
+   "level": "C1",
+   "example": "We saw the silhouette of a bat against the moon.",
+   "exampleTH": "เราเห็นเงาดำของค้างคาวตัดกับดวงจันทร์"
+  },
+  {
+   "id": "hx-29",
+   "word": "nocturnal",
+   "pos": "adjective",
+   "th": "ออกหากินกลางคืน",
+   "group": "creep",
+   "level": "C1",
+   "example": "Owls are nocturnal birds.",
+   "exampleTH": "นกฮูกเป็นนกที่ออกหากินกลางคืน"
+  },
+  {
+   "id": "hx-30",
+   "word": "abandoned",
+   "pos": "adjective",
+   "th": "ถูกทิ้งร้าง",
+   "group": "place",
+   "level": "B2",
+   "example": "Nobody has lived in the abandoned house for years.",
+   "exampleTH": "ไม่มีใครอาศัยอยู่ในบ้านร้างหลังนั้นมาหลายปีแล้ว"
+  },
+  {
+   "id": "hx-31",
+   "word": "cobweb",
+   "pos": "noun",
+   "th": "หยากไย่",
+   "group": "place",
+   "level": "B2",
+   "example": "There was a cobweb in every corner of the attic.",
+   "exampleTH": "มีหยากไย่อยู่ทุกมุมของห้องใต้หลังคา"
+  },
+  {
+   "id": "hx-32",
+   "word": "enigmatic",
+   "pos": "adjective",
+   "th": "ลึกลับยากจะเข้าใจ",
+   "group": "ghost",
+   "level": "C1",
+   "example": "The stranger gave an enigmatic answer.",
+   "exampleTH": "คนแปลกหน้าให้คำตอบที่ลึกลับยากจะเข้าใจ"
+  },
+  {
+   "id": "hx-33",
+   "word": "disguise",
+   "pos": "noun",
+   "th": "การปลอมตัว",
+   "group": "dress",
+   "level": "B2",
+   "example": "Nobody recognized him in his clever disguise.",
+   "exampleTH": "ไม่มีใครจำเขาได้เพราะการปลอมตัวอันแนบเนียน"
+  },
+  {
+   "id": "hx-34",
+   "word": "masquerade",
+   "pos": "noun",
+   "th": "งานเลี้ยงสวมหน้ากาก",
+   "group": "dress",
+   "level": "C1",
+   "example": "We wore masks to the masquerade.",
+   "exampleTH": "พวกเราสวมหน้ากากไปงานเลี้ยงสวมหน้ากาก"
+  },
+  {
+   "id": "hx-35",
+   "word": "mischief",
+   "pos": "noun",
+   "th": "ความซุกซน การก่อกวน",
+   "group": "prank",
+   "level": "B2",
+   "example": "The twins are always getting into mischief.",
+   "exampleTH": "ฝาแฝดคู่นี้ซุกซนก่อเรื่องอยู่เสมอ"
+  },
+  {
+   "id": "hx-36",
+   "word": "prank",
+   "pos": "noun",
+   "th": "การแกล้งเล่นขำ ๆ",
+   "group": "prank",
+   "level": "B2",
+   "example": "Hiding his shoes was just a harmless prank.",
+   "exampleTH": "การซ่อนรองเท้าของเขาเป็นแค่การแกล้งเล่นขำ ๆ"
+  },
+  {
+   "id": "hx-37",
+   "word": "harvest",
+   "pos": "noun",
+   "th": "การเก็บเกี่ยว ฤดูเก็บเกี่ยว",
+   "level": "B2",
+   "example": "Halloween comes after the autumn harvest.",
+   "exampleTH": "ฮาโลวีนมาหลังฤดูเก็บเกี่ยวในฤดูใบไม้ร่วง"
+  },
+  {
+   "id": "hx-38",
+   "word": "spectral",
+   "pos": "adjective",
+   "th": "เหมือนภูตผี เลือนลาง",
+   "level": "C2",
+   "example": "A spectral light moved slowly across the field.",
+   "exampleTH": "แสงเลือนลางเหมือนภูตผีเคลื่อนช้า ๆ ผ่านทุ่งนา",
+   "group": "ghost"
+  },
+  {
+   "id": "hx-39",
+   "word": "haunt",
+   "pos": "verb",
+   "th": "(ผี) สิงสถิต วนเวียนหลอกหลอน",
+   "level": "B2",
+   "example": "People say a ghost likes to haunt the old lighthouse.",
+   "exampleTH": "ผู้คนเล่าว่ามีผีชอบมาสิงอยู่ในประภาคารเก่า"
+  },
+  {
+   "id": "hx-40",
+   "word": "illusion",
+   "pos": "noun",
+   "th": "ภาพลวงตา",
+   "level": "B2",
+   "example": "The floating head was only an optical illusion.",
+   "exampleTH": "หัวที่ลอยอยู่เป็นแค่ภาพลวงตาเท่านั้น"
+  }
+ ]
+}

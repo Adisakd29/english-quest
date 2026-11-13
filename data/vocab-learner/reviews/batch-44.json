@@ -1,0 +1,78 @@
+{
+  "batch": "44",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0773",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'takes about ninety minutes to reach the ___' also fits coast/shore/port",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0778",
+      "severity": "minor",
+      "problem": "Thai 'ที่บังคับ' is awkward as a stand-alone answer option; 'เป็นข้อบังคับ' is what a Thai teacher would write",
+      "fix": {
+        "thai": "บังคับ, เป็นข้อบังคับ, ภาคบังคับ",
+        "shortTH": "เป็นข้อบังคับ",
+        "thaiChangeReason": "ใช้คำคุณศัพท์ที่เป็นธรรมชาติ ตรงกับสิ่งที่กฎกำหนดให้ต้องทำ"
+      }
+    },
+    {
+      "id": "C1-S0822",
+      "severity": "minor",
+      "problem": "Logic weakens the meaning: if the bus was empty, it is not a miracle that nobody was hurt",
+      "fix": {
+        "example": "The old tree fell onto the full school bus, but by some miracle nobody was hurt.",
+        "form": "miracle",
+        "exampleTH": "ต้นไม้เก่าล้มทับรถโรงเรียนที่มีเด็กเต็มคัน แต่ราวกับปาฏิหาริย์ ไม่มีใครได้รับบาดเจ็บเลย"
+      }
+    },
+    {
+      "id": "C1-S0826",
+      "severity": "minor",
+      "problem": "exampleTH word order is unnatural ('...มารุมรอดูวงเคป็อปเดินทางมาถึงอยู่หน้าสนามบิน')",
+      "fix": {
+        "exampleTH": "แฟนเพลงจำนวนมากที่ตื่นเต้นมารุมรออยู่หน้าสนามบินเพื่อดูวงเคป็อปเดินทางมาถึง"
+      }
+    },
+    {
+      "id": "C1-S0841",
+      "severity": "minor",
+      "problem": "Thai 'ทางทะเล' means maritime/marine, not navy; naval = of the navy",
+      "fix": {
+        "thai": "ของกองทัพเรือ, ทางนาวี",
+        "shortTH": "ของกองทัพเรือ",
+        "thaiChangeReason": "ทางทะเลตรงกับ marine/maritime มากกว่า naval หมายถึงกองทัพเรือ"
+      }
+    },
+    {
+      "id": "C1-S0879",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'must attend ___ week' also fits welcome/induction/freshers' week",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0880",
+      "severity": "minor",
+      "problem": "Grammar: an origin in the past needs the perfect infinitive ('is thought to have originated'), not 'is thought to originate'",
+      "fix": {
+        "example": "Pad Thai is thought to have originated from Chinese noodle dishes brought to Thailand long ago.",
+        "form": "originated",
+        "exampleTH": "เชื่อกันว่าผัดไทยมีต้นกำเนิดมาจากอาหารเส้นของจีนที่เข้ามาในไทยเมื่อนานมาแล้ว"
+      }
+    },
+    {
+      "id": "C1-S0896",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'need ___ permission' also fits written/special permission",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}
