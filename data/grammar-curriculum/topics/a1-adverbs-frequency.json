@@ -1,0 +1,214 @@
+{
+  "id": "a1-adverbs-frequency",
+  "summaryTh": "บอกว่าทำบ่อยแค่ไหน ด้วย always, usually, often, sometimes, never",
+  "concept": {
+    "what": "Adverbs of frequency คือคำที่บอกว่าเราทำสิ่งหนึ่ง \"บ่อยแค่ไหน\" เช่น always (เสมอ), usually (โดยปกติ), often (บ่อย), sometimes (บางครั้ง), never (ไม่เคยเลย)",
+    "when": [
+      "เล่ากิจวัตรและนิสัย มักใช้คู่กับ Present Simple (I always get up at six.)",
+      "บอกว่าใครเป็นแบบไหนบ่อยแค่ไหน ใช้หลัง be (She is never late.)",
+      "ถามความถี่ด้วย How often …? (How often do you exercise?)"
+    ],
+    "why": "ภาษาไทยมักวางคำว่า \"เสมอ\" \"บ่อย ๆ\" ไว้ท้ายประโยค (ฉันไปโรงเรียนสายเสมอ) คนไทยจึงชอบพูดว่า I go to school late always แต่ภาษาอังกฤษวางคำเหล่านี้ไว้ \"หน้ากริยาหลัก\" หรือ \"หลัง be\""
+  },
+  "structure": {
+    "formula": "Subject + adverb + main verb · Subject + be + adverb",
+    "rows": [
+      { "label": "กับกริยาทั่วไป", "formula": "Subject + adverb + V1", "example": "I [[always]] walk to school." },
+      { "label": "กับ be (am / is / are)", "formula": "Subject + be + adverb", "example": "He [[is often]] hungry after class." },
+      { "label": "ปฏิเสธด้วย never", "formula": "Subject + never + V1", "example": "My dad [[never]] drinks coffee." },
+      { "label": "คำถาม How often", "formula": "How often + do/does + Subject + V1?", "example": "[[How often]] do you play games?" },
+      { "label": "คำถาม Yes/No", "formula": "Do/Does + Subject + adverb + V1?", "example": "Do you [[often]] cook at home?" },
+      { "label": "sometimes ต้นประโยค", "formula": "Sometimes + Subject + V1", "example": "[[Sometimes]] we eat out on Friday night." }
+    ],
+    "notes": [
+      "ความถี่จากมากไปน้อย: always (100%) → usually → often → sometimes → never (0%)",
+      "วางหน้ากริยาหลัก: She usually walks. · แต่วางหลัง be: She is usually happy.",
+      "never มีความหมายปฏิเสธอยู่แล้ว ห้ามใช้คู่กับ don't / doesn't (I never eat … ไม่ใช่ I don't never eat …)",
+      "adverb ไม่เปลี่ยนกฎ -s: She always goes … (กริยายังเติม -s เหมือนเดิม)",
+      "คำบอกความถี่แบบวลี เช่น every day, once a week, twice a month มักวางท้ายประโยค (I swim twice a week.)"
+    ]
+  },
+  "examples": [
+    { "en": "I [[always]] brush my teeth before bed.", "th": "ฉันแปรงฟันก่อนนอนเสมอ" },
+    { "en": "She [[usually]] walks to school.", "th": "ปกติเธอเดินไปโรงเรียน" },
+    { "en": "We [[often]] eat noodles for lunch.", "th": "พวกเรากินก๋วยเตี๋ยวเป็นอาหารกลางวันบ่อย ๆ" },
+    { "en": "He [[sometimes]] plays games online.", "th": "บางครั้งเขาเล่นเกมออนไลน์" },
+    { "en": "My dad [[never]] drinks coffee.", "th": "พ่อของฉันไม่ดื่มกาแฟเลย" },
+    { "en": "I'm [[always]] tired on Monday mornings.", "th": "ฉันเหนื่อยทุกเช้าวันจันทร์ (adverb อยู่หลัง be)" },
+    { "en": "[[How often]] do you go to the gym? — Twice a week.", "th": "คุณไปยิมบ่อยแค่ไหน — สัปดาห์ละสองครั้ง" },
+    { "en": "Do you [[often]] cook at home?", "th": "คุณทำอาหารที่บ้านบ่อยไหม" },
+    { "en": "[[Sometimes]] we watch a film on Friday night.", "th": "บางครั้งพวกเราดูหนังกันคืนวันศุกร์" }
+  ],
+  "mistakes": [
+    { "wrong": "I go always to school by bus.", "right": "I always go to school by bus.", "whyTh": "always ต้องอยู่หน้ากริยาหลัก (go) ไม่ใช่หลังกริยา" },
+    { "wrong": "She is late never.", "right": "She is never late.", "whyTh": "กับ be ให้วาง adverb หลัง be ทันที ไม่วางท้ายประโยคแบบภาษาไทย" },
+    { "wrong": "He always is happy.", "right": "He is always happy.", "whyTh": "be (am / is / are) มาก่อน adverb: is always" },
+    { "wrong": "I don't never eat fish.", "right": "I never eat fish.", "whyTh": "never แปลว่าไม่เลยอยู่แล้ว ใส่ don't ซ้ำจะกลายเป็นปฏิเสธซ้อน" },
+    { "wrong": "Always I get up early.", "right": "I always get up early.", "whyTh": "always ไม่วางต้นประโยคบอกเล่า (ยกเว้นประโยคคำสั่ง เช่น Always lock the door.) — มีแค่ sometimes ที่วางต้นประโยคได้ง่าย ๆ" },
+    { "wrong": "She usually go to bed at ten.", "right": "She usually goes to bed at ten.", "whyTh": "มี usually คั่นก็จริง แต่ประธาน she กริยายังต้องเติม -es" }
+  ],
+  "compare": {
+    "title": "Adverb คำเดียว vs วลีบอกความถี่",
+    "with": ["a1-present-simple"],
+    "rows": [
+      { "label": "ตัวอย่างคำ", "a": "always, usually, often, sometimes, never", "b": "every day, once a week, twice a month" },
+      { "label": "ตำแหน่ง", "a": "หน้ากริยาหลัก / หลัง be", "b": "ท้ายประโยค (หรือต้นประโยค)" },
+      { "label": "ตัวอย่างประโยค", "a": "I often swim.", "b": "I swim twice a week." }
+    ],
+    "tipTh": "คำเดียว (always, never …) อยู่ \"กลาง\" ประโยค ส่วนวลีหลายคำ (every day, once a week) อยู่ \"ท้าย\" ประโยค"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Healthy habits",
+      "lines": [
+        { "speaker": "Coach", "text": "[[How often]] do you exercise, Mai?" },
+        { "speaker": "Mai", "text": "I [[usually]] run in the park three times a week." },
+        { "speaker": "Coach", "text": "Great! Do you eat breakfast?" },
+        { "speaker": "Mai", "text": "I [[always]] eat breakfast, but I [[sometimes]] drink soda. And I'm [[often]] tired at night." }
+      ]
+    },
+    {
+      "kind": "social", "title": "About me",
+      "lines": [
+        { "text": "Hi, I'm Tan! I [[always]] listen to music on the bus. I [[never]] eat spicy food — sorry, Thailand! I'm [[usually]] happy on Fridays because we have art class." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Adverb of frequency", "th": "คำบอกความถี่ บอกว่าทำบ่อยแค่ไหน" },
+    { "en": "Main verb", "th": "กริยาหลัก ตัวที่บอกการกระทำ เช่น go, eat, play" },
+    { "en": "How often", "th": "บ่อยแค่ไหน — ใช้ถามความถี่" },
+    { "en": "Frequency expression", "th": "วลีบอกความถี่ เช่น every day, once a week" }
+  ],
+  "practice": [
+    {
+      "id": "a1-adverbs-frequency-01", "type": "mc", "difficulty": 1,
+      "question": "I eat breakfast every day — 100%. I ___ eat breakfast.",
+      "choices": ["always", "sometimes", "never", "often"], "answer": 0,
+      "whyNot": { "1": "sometimes = บางครั้ง (ประมาณ 50%) ไม่ใช่ทุกวัน", "2": "never = ไม่เคยเลย (0%) ตรงข้ามกับทุกวัน", "3": "often = บ่อย แต่ไม่ใช่ทุกครั้ง 100%" },
+      "explainTh": "ทุกวัน 100% = always · วางหน้ากริยาหลัก eat → I always eat breakfast.",
+      "structure": "Subject + always + V1", "example": "I always eat breakfast."
+    },
+    {
+      "id": "a1-adverbs-frequency-02", "type": "fill", "difficulty": 1,
+      "question": "I ___ drink coffee. I don't like it. (0% — ใช้คำบอกความถี่)",
+      "accepted": ["never"],
+      "explainTh": "0% และ I don't like it → never (ไม่เคยเลย) · never มีความหมายปฏิเสธในตัว จึงไม่ต้องมี don't",
+      "structure": "Subject + never + V1", "example": "I never drink coffee."
+    },
+    {
+      "id": "a1-adverbs-frequency-03", "type": "fill", "difficulty": 2,
+      "question": "My mum ___ drinks tea in the morning. She drinks it every day. (100%)",
+      "accepted": ["always"],
+      "explainTh": "every day = 100% → always วางหน้ากริยา drinks",
+      "structure": "Subject + always + V1-s"
+    },
+    {
+      "id": "a1-adverbs-frequency-04", "type": "order", "difficulty": 1,
+      "tokens": ["always", "I", "breakfast", "eat"],
+      "accepted": ["I always eat breakfast."],
+      "explainTh": "Subject + always + กริยาหลัก + กรรม → I always eat breakfast."
+    },
+    {
+      "id": "a1-adverbs-frequency-05", "type": "order", "difficulty": 2,
+      "tokens": ["is", "never", "she", "late"],
+      "accepted": ["She is never late.", "Is she never late?"],
+      "explainTh": "กับ be: Subject + be + adverb + คำคุณศัพท์ → She is never late."
+    },
+    {
+      "id": "a1-adverbs-frequency-06", "type": "order", "difficulty": 3,
+      "tokens": ["often", "do", "how", "you", "swim"],
+      "accepted": ["How often do you swim?"],
+      "explainTh": "ถามความถี่: How often + do + Subject + V1? → How often do you swim?"
+    },
+    {
+      "id": "a1-adverbs-frequency-07", "type": "error", "difficulty": 1,
+      "sentence": "He plays always football after school.",
+      "errorPart": "plays always",
+      "accepted": ["He always plays football after school.", "After school he always plays football."],
+      "explainTh": "always ต้องอยู่หน้ากริยาหลัก → always plays (ไม่ใช่ plays always)",
+      "structure": "Subject + always + V1-s"
+    },
+    {
+      "id": "a1-adverbs-frequency-08", "type": "error", "difficulty": 3,
+      "sentence": "I don't never watch TV in the morning.",
+      "errorPart": "don't never",
+      "accepted": ["I never watch TV in the morning.", "I don't ever watch TV in the morning.", "I don't watch TV in the morning."],
+      "explainTh": "never ปฏิเสธในตัวแล้ว ใช้คู่กับ don't ไม่ได้ → I never watch TV … (หรือ I don't ever watch …)"
+    },
+    {
+      "id": "a1-adverbs-frequency-09", "type": "error", "difficulty": 2,
+      "sentence": "My brother always is hungry.",
+      "errorPart": "always is",
+      "accepted": ["My brother is always hungry."],
+      "explainTh": "กับ be ให้วาง adverb หลัง be → is always hungry",
+      "structure": "Subject + be + adverb"
+    },
+    {
+      "id": "a1-adverbs-frequency-10", "type": "transform", "difficulty": 2,
+      "source": "I go to the park on Sundays.",
+      "instruction": "เติม usually ลงในตำแหน่งที่ถูกต้อง",
+      "accepted": ["I usually go to the park on Sundays.", "Usually I go to the park on Sundays.", "On Sundays I usually go to the park."],
+      "explainTh": "usually วางหน้ากริยาหลัก go → I usually go to the park on Sundays."
+    },
+    {
+      "id": "a1-adverbs-frequency-11", "type": "transform", "difficulty": 3,
+      "source": "Tom is happy.",
+      "instruction": "เติม always ลงในตำแหน่งที่ถูกต้อง",
+      "accepted": ["Tom is always happy."],
+      "explainTh": "ประโยคนี้มี be (is) เป็นกริยา จึงวาง always หลัง is → Tom is always happy."
+    },
+    {
+      "id": "a1-adverbs-frequency-12", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำบอกความถี่กับความหมาย",
+      "pairs": [["always", "ทุกครั้ง (100%)"], ["usually", "เกือบทุกครั้ง (ประมาณ 80–90%)"], ["often", "บ่อย (ประมาณ 70%)"], ["sometimes", "บางครั้ง (ประมาณ 50%)"], ["never", "ไม่เคยเลย (0%)"]],
+      "explainTh": "เรียงจากบ่อยที่สุดไปน้อยที่สุด: always → usually → often → sometimes → never"
+    },
+    {
+      "id": "a1-adverbs-frequency-13", "type": "mc", "difficulty": 2,
+      "question": "Sam ___ his homework after dinner. (80–90%)",
+      "choices": ["usually does", "does usually", "is usually", "usually do"], "answer": 0,
+      "whyNot": { "1": "usually ต้องอยู่หน้ากริยาหลัก does ไม่ใช่หลัง", "2": "is usually ต้องตามด้วยคำคุณศัพท์ เช่น is usually tired — ประโยคนี้ต้องมีกริยา do (ทำการบ้าน)", "3": "ประธาน Sam (= he) ต้องใช้ does ไม่ใช่ do" },
+      "explainTh": "80–90% = usually · วางหน้ากริยาหลัก และ Sam เป็นเอกพจน์ → usually does",
+      "structure": "Subject + usually + V1-s", "example": "Sam usually does his homework after dinner."
+    },
+    {
+      "id": "a1-adverbs-frequency-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["She never eats meat.", "She eats never meat.", "She doesn't never eat meat.", "She is never eat meat."], "answer": 0,
+      "whyNot": { "1": "never ต้องอยู่หน้ากริยาหลัก eats ไม่ใช่หลัง", "2": "never ใช้คู่กับ doesn't ไม่ได้ (ปฏิเสธซ้อน)", "3": "ไม่ใช้ is หน้ากริยาช่องที่ 1 — ประโยคนี้มีกริยาหลักคือ eat อยู่แล้ว" },
+      "explainTh": "Subject + never + V1-s → She never eats meat. (never ไม่เปลี่ยนกฎ -s ของกริยา)"
+    },
+    {
+      "id": "a1-adverbs-frequency-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Is Mali ever late for class?" },
+        { "speaker": "B", "text": "No, she ___ late. She always comes early." }
+      ] },
+      "choices": ["is never", "never is", "is always", "isn't never"], "answer": 0,
+      "whyNot": { "1": "กับ be ต้องวาง never หลัง is", "2": "is always late ขัดกับ She always comes early.", "3": "isn't กับ never ใช้คู่กันไม่ได้ (ปฏิเสธซ้อน)" },
+      "explainTh": "She always comes early. แปลว่าไม่สายเลย → never · กับ be วางหลัง is → she is never late."
+    },
+    {
+      "id": "a1-adverbs-frequency-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Message to a friend", "lines": [
+        { "text": "Hi Lisa! I'm at a new school now. I usually walk to school with my neighbour. We often stop at a small shop for juice. I'm sometimes late, but I'm never late on Mondays because we have a test! Love, Kim" }
+      ] },
+      "question": "How often is Kim late on Mondays?",
+      "choices": ["Never.", "Sometimes.", "Usually.", "Often."], "answer": 0,
+      "whyNot": { "1": "sometimes คือสายบางวันโดยทั่วไป แต่วันจันทร์ Kim บอกว่า never late", "2": "usually ในข้อความใช้กับการเดินไปโรงเรียน ไม่ใช่การมาสาย", "3": "often ในข้อความใช้กับการแวะซื้อน้ำผลไม้" },
+      "explainTh": "ประโยค I'm never late on Mondays — never อยู่หลัง be (I'm) แปลว่าไม่สายเลยในวันจันทร์"
+    },
+    {
+      "id": "a1-adverbs-frequency-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับกิจวัตรของคุณ ใช้ always, usually, often, sometimes หรือ never (Write 3 sentences about your routine using adverbs of frequency.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(always|usually|often|sometimes|never)\\b", "flags": "i", "msgTh": "ใช้คำบอกความถี่อย่างน้อย 1 คำ เช่น always, usually, sometimes, never" },
+        { "re": "\\b(I|you|he|she|we|they|it|(?:my|our|his|her|their|the)\\s+[a-z]+)\\s+(always|usually|often|sometimes|never)\\s+[a-z]+|\\b(am|is|are|'m|'s|'re)\\s+(always|usually|often|sometimes|never)\\b|(^|[.!?]\\s+)(sometimes|usually)\\s+[a-z]+", "flags": "i", "msgTh": "วางคำบอกความถี่หน้ากริยาหลัก (I always get up …) หรือหลัง be (I am never late)" }
+      ],
+      "sample": "I always get up at six. I usually walk to school with my friends. I am never late for class.",
+      "explainTh": "คำบอกความถี่อยู่หน้ากริยาหลัก (always get up, usually walk) และอยู่หลัง be (am never late)"
+    }
+  ]
+}

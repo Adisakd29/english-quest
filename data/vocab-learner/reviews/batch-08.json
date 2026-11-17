@@ -1,0 +1,26 @@
+{
+  "batch": "08",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0983",
+      "severity": "minor",
+      "problem": "'The boy jumped into the pool and went under.' can be read as the boy sinking/drowning; a clearer, safer context is better for the adverb sense.",
+      "fix": {
+        "example": "Ploy held her breath and went under for ten seconds.",
+        "form": "under",
+        "exampleTH": "พลอยกลั้นหายใจแล้วดำลงไปใต้น้ำสิบวินาที"
+      }
+    },
+    {
+      "id": "A1-S0905",
+      "severity": "minor",
+      "problem": "'telephone the hotel to check the room' is vague/unnatural (you check a booking, not the room by phone).",
+      "fix": {
+        "example": "Please telephone the hotel and ask about the room.",
+        "form": "telephone",
+        "exampleTH": "กรุณาโทรหาโรงแรมเพื่อสอบถามเรื่องห้องพัก"
+      }
+    }
+  ]
+}

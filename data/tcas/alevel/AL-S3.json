@@ -1,0 +1,1552 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S3",
+  "title": "A-Level ภาษาอังกฤษ ชุดฝึกที่ 3 (ท้าทาย)",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S3-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A meeting with an academic advisor",
+          "dialogue": [
+            {
+              "speaker": "Napat",
+              "text": "Thank you for seeing me at such short notice, Dr Lindqvist. ___1___"
+            },
+            {
+              "speaker": "Dr Lindqvist",
+              "text": "I see. Before you make any decision, may I ask what's prompted this? You were doing rather well in it at mid-term."
+            },
+            {
+              "speaker": "Napat",
+              "text": "The marks are fine; it's the workload. Between the statistics module and my tutoring job, I'm barely keeping my head above water."
+            },
+            {
+              "speaker": "Dr Lindqvist",
+              "text": "That's understandable. ___2___ Withdrawing after week eight leaves a 'W' on your transcript, and some scholarship panels do take note of that."
+            },
+            {
+              "speaker": "Napat",
+              "text": "Oh, I hadn't realised that. So what would you suggest?"
+            },
+            {
+              "speaker": "Dr Lindqvist",
+              "text": "___3___ You'd stay on the course, but the final project would be due at the end of next term rather than this one."
+            },
+            {
+              "speaker": "Napat",
+              "text": "That sounds far more manageable. Is it something I can arrange myself?"
+            },
+            {
+              "speaker": "Dr Lindqvist",
+              "text": "Not quite. ___4___ If you email me a short statement explaining your situation, I'll forward it with my recommendation."
+            },
+            {
+              "speaker": "Napat",
+              "text": "I'll send it this afternoon. Thank you, that's a weight off my mind."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S3-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I was hoping you might be able to raise my mid-term mark in Comparative Literature.",
+                "I've been wondering whether I ought to withdraw from Comparative Literature.",
+                "I wanted to thank you for suggesting the statistics module last term.",
+                "I'm looking for advice on finding a better-paid tutoring job."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "อาจารย์ตอบว่า \"Before you make any decision\" และบรรทัดที่ 4 พูดถึง \"Withdrawing\" จึงต้องเป็นการปรึกษาเรื่องถอนวิชา กับดักคือการขอขึ้นคะแนนกลางภาค ซึ่งขัดกับ \"The marks are fine\" และเรื่องงานสอนพิเศษหรือการขอบคุณไม่ใช่ \"decision\" ที่อาจารย์กล่าวถึง"
+            },
+            {
+              "id": "AL-S3-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "In that case, withdrawing is clearly your best option.",
+                "I would, however, think carefully about the timing.",
+                "Fortunately, a late withdrawal has no effect on your record.",
+                "Perhaps you should simply give up the tutoring job."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไปเตือนว่าการถอนหลังสัปดาห์ที่ 8 จะมี \"W\" ในใบแสดงผล จึงต้องเป็นการเตือนแบบอ้อม ๆ ให้คิดเรื่อง \"จังหวะเวลา\" ตัวลวงที่บอกว่าไม่มีผลต่อประวัติขัดกับเรื่อง \"W\" โดยตรง ส่วนการเชียร์ให้ถอนหรือแนะนำให้ลาออกจากงาน ทำให้คำถาม \"So what would you suggest?\" ของ Napat ไม่สมเหตุสมผล เพราะอาจารย์เพิ่งแนะนำไปแล้ว"
+            },
+            {
+              "id": "AL-S3-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "You could drop the statistics module instead.",
+                "You could ask to be excused from the final project.",
+                "You could apply for a deferral rather than a withdrawal.",
+                "You could retake the whole course next year."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ข้อมูลที่ตามมาคือ \"You'd stay on the course, but the final project would be due at the end of next term\" ตรงกับการขอเลื่อนกำหนด (deferral) กับดักคือ \"excused from the final project\" ซึ่งขัดกับที่โครงงานยังต้องส่ง ส่วนการเรียนใหม่ทั้งวิชาหรือถอนวิชาสถิติไม่เกี่ยวกับการเลื่อนส่งโครงงาน"
+            },
+            {
+              "id": "AL-S3-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "It has to go through the faculty committee.",
+                "You only need to mention it to your lecturer after class.",
+                "Unfortunately, deferrals are granted only for medical reasons.",
+                "The deadline for requests passed at the end of last week."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "\"Not quite\" ตอบคำถามว่าจัดการเองได้ไหม แปลว่าต้องผ่านผู้อื่น และอาจารย์จะ \"forward it with my recommendation\" จึงต้องส่งต่อให้คณะกรรมการคณะ กับดักคือการบอกอาจารย์ผู้สอนหลังเลิกเรียน ซึ่งเท่ากับจัดการเองได้ ส่วนการบอกว่าหมดเขตแล้วหรือให้เฉพาะเหตุผลทางการแพทย์ ขัดกับที่อาจารย์ยังช่วยดำเนินเรื่องต่อ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A scholarship interview",
+          "dialogue": [
+            {
+              "speaker": "Ms Adeyemi",
+              "text": "Your personal statement mentions a water-testing project in your village. ___1___"
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "Certainly. Three of us collected samples from the canal every fortnight and logged the results on a shared map, which the district office now consults."
+            },
+            {
+              "speaker": "Ms Adeyemi",
+              "text": "Impressive. ___2___"
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "To be honest, keeping the others motivated during the rainy season. Sampling in a downpour is nobody's idea of fun, so we rotated the duties and I took the worst shifts myself."
+            },
+            {
+              "speaker": "Ms Adeyemi",
+              "text": "I see. Now, this scholarship requires recipients to spend two summers working with one of our partner organisations. ___3___"
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "I'd be more than willing, although I should mention that I've promised to help at my family's bakery next July. Would it be possible to begin the placement the following summer?"
+            },
+            {
+              "speaker": "Ms Adeyemi",
+              "text": "___4___ I'll make a note of it, and the coordinator will be in touch if you're shortlisted."
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "Thank you. I really appreciate your flexibility."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S3-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "How much funding did the district office give you?",
+                "Could you describe what it actually involved?",
+                "Why did you eventually decide to stop the project?",
+                "Was it part of your school's science curriculum?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Kanokwan ตอบ \"Certainly\" แล้วเล่าว่าทำอะไรบ้าง (เก็บตัวอย่าง บันทึกผลลงแผนที่) จึงเป็นคำขอให้อธิบายรายละเอียดของโครงการ กับดักคือคำถามแบบ yes/no เรื่องหลักสูตร ซึ่ง \"Certainly\" ตอบได้ แต่เนื้อหาที่ตามมาไม่ได้ตอบเรื่องหลักสูตรเลย ส่วนเรื่องเงินทุนหรือเหตุผลที่เลิกทำ ไม่มีคำตอบในบทสนทนา และโครงการยังถูกใช้อยู่ (\"now consults\")"
+            },
+            {
+              "id": "AL-S3-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Which part of the project did you enjoy the most?",
+                "How did the district office first hear about your map?",
+                "What would you say was the hardest part of running it?",
+                "Why did you test the canal rather than local wells?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"To be honest, keeping the others motivated...\" และ \"nobody's idea of fun\" บอกถึงความยากลำบาก จึงต้องถามถึงส่วนที่ยากที่สุด กับดักคือ \"enjoy the most\" ซึ่งขัดกับน้ำเสียงของคำตอบ ส่วนอีกสองตัวเลือกถามเรื่องที่คำตอบไม่ได้กล่าวถึง"
+            },
+            {
+              "id": "AL-S3-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "How would you feel about that commitment?",
+                "Have you already chosen which organisation to join?",
+                "Did you know that the placements are entirely optional?",
+                "Which two summers have you worked in the past?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Kanokwan ตอบว่า \"I'd be more than willing\" ซึ่งเป็นการแสดงความเต็มใจต่อเงื่อนไขที่ต้องทำงานสองฤดูร้อน จึงต้องเป็นคำถามถึงความรู้สึกต่อข้อผูกมัดนั้น ตัวลวง \"entirely optional\" ขัดกับ \"requires\" ส่วนการถามว่าเลือกองค์กรแล้วหรือยัง หรือเคยทำงานฤดูร้อนไหน ตอบด้วย \"I'd be more than willing\" ไม่ได้"
+            },
+            {
+              "id": "AL-S3-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'm afraid the first placement really must take place next July, as planned.",
+                "That shouldn't be a problem, as long as both are done before you graduate.",
+                "In that case, we'll have to withdraw your application.",
+                "Placements normally last a whole year rather than a summer."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดมา \"I'll make a note of it\" และคำขอบคุณ \"I really appreciate your flexibility\" แสดงว่ากรรมการยอมให้เลื่อนได้แบบมีเงื่อนไข ตัวลวงที่ปฏิเสธ (ต้องเริ่มเดือนกรกฎาคม / ถอนใบสมัคร) ขัดกับคำขอบคุณเรื่องความยืดหยุ่น และ \"a whole year\" ขัดกับ \"two summers\" ที่กล่าวไว้ก่อนหน้า"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Booking time in the materials lab",
+          "dialogue": [
+            {
+              "speaker": "Thanwa",
+              "text": "Dr Ferreira, would it be possible to book the tensile tester for Saturday morning?"
+            },
+            {
+              "speaker": "Dr Ferreira",
+              "text": "___1___ The building is locked at weekends, and the machine can't be run without a supervisor in the room."
+            },
+            {
+              "speaker": "Thanwa",
+              "text": "That's a pity. My samples have to be tested within two days of coming out of the curing tank, and I'm taking them out on Thursday."
+            },
+            {
+              "speaker": "Dr Ferreira",
+              "text": "___2___ Friday afternoon would be well within your window."
+            },
+            {
+              "speaker": "Thanwa",
+              "text": "That would work, except that I have a lecture until three."
+            },
+            {
+              "speaker": "Dr Ferreira",
+              "text": "The machine is free from half past three until six. ___3___"
+            },
+            {
+              "speaker": "Thanwa",
+              "text": "Yes, please. And should I bring anything apart from the samples?"
+            },
+            {
+              "speaker": "Dr Ferreira",
+              "text": "___4___ Last month a student turned up without them, and I had to send him away."
+            },
+            {
+              "speaker": "Thanwa",
+              "text": "Understood. I'll make sure I have them with me."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S3-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Of course, the lab is usually quiet at weekends.",
+                "Yes, I'll leave the key with security for you.",
+                "I'm afraid that might be difficult.",
+                "Saturday is fine if you bring a classmate along."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เหตุผลที่ตามมา (ตึกปิดวันหยุด และต้องมีผู้ควบคุม) เป็นการปฏิเสธ จึงต้องเป็นการปฏิเสธแบบอ้อม \"that might be difficult\" กับดักคือตัวเลือกที่ขึ้นต้นด้วยการตอบรับ (\"Of course\" / \"Yes\" / \"Saturday is fine\") ซึ่งขัดกับเหตุผลที่ให้ทันทีหลังจากนั้น โดยเฉพาะการพาเพื่อนมา เพราะเพื่อนไม่ใช่ผู้ควบคุม"
+            },
+            {
+              "id": "AL-S3-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Why not leave them in the tank until Monday?",
+                "Couldn't you just take them out of the tank on Saturday instead?",
+                "'Within two days' needn't mean on the second day, though.",
+                "Have you thought about testing them on Wednesday?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Thanwa คิดว่าต้องทดสอบวันเสาร์ แต่ \"within two days\" หมายถึงภายในสองวัน ซึ่งวันศุกร์ก็อยู่ในช่วงนั้น (\"well within your window\") กับดักคือการเลื่อนวันนำออก (วันจันทร์/วันเสาร์) ซึ่งจะทำให้วันศุกร์ไม่อยู่ใน \"window\" อีกต่อไป ส่วนวันพุธเป็นวันก่อนนำตัวอย่างออกจากถัง จึงเป็นไปไม่ได้"
+            },
+            {
+              "id": "AL-S3-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Shall I put you down for four o'clock?",
+                "Shall I book it for you at two o'clock?",
+                "Would you prefer to come on Monday instead?",
+                "Unfortunately, it's fully booked on Friday."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เครื่องว่างตั้งแต่ 15.30–18.00 น. และ Thanwa เรียนถึงบ่ายสาม จึงจองเวลา 16.00 น. ได้ กับดักคือ \"two o'clock\" ที่ชนกับเวลาเรียนและเครื่องยังไม่ว่าง ส่วนวันจันทร์เลยกำหนดสองวันหลังวันพฤหัสบดี และ \"fully booked\" ขัดกับประโยคก่อนหน้าที่บอกว่าเครื่องว่าง"
+            },
+            {
+              "id": "AL-S3-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Nothing at all; the lab provides everything you'll need.",
+                "No need; just make sure you arrive on time.",
+                "A printed copy of this booking, if you like.",
+                "Just your safety goggles and your induction certificate."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมา \"turned up without them, and I had to send him away\" ต้องหมายถึงสิ่งที่จำเป็นและเป็นพหูพจน์ซึ่งไม่ใช่ตัวอย่าง คือแว่นนิรภัยและใบรับรองการอบรม กับดักคือ \"Nothing at all\" ที่ขัดกับการไล่นักศึกษากลับ ส่วน \"if you like\" แสดงว่าไม่บังคับ และ \"No need\" ทำให้ \"without them\" ไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Preparing for a youth science forum",
+          "dialogue": [
+            {
+              "speaker": "Siriporn",
+              "text": "Good afternoon. I'm calling about the poster session at the Regional Youth Science Forum. My abstract was accepted last week, but I have a question about the format."
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "Of course. ___1___"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "It's Siriporn Chaiyasit, and the project is on low-cost soil moisture sensors."
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "Ah yes, I have it in front of me. What would you like to know?"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "The acceptance email says posters must be A0 portrait. Ours is landscape, because the data runs along quite a long timeline. ___2___"
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "I'm afraid the display boards are fixed in portrait, so a landscape poster would hang over into the next team's space. ___3___"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "That makes sense. We'll rearrange it. There's one other thing: my teammate, Arthit, won't be able to attend on the Saturday."
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "___4___ At least one author has to stand by the poster during the judging hour, but it needn't be the whole team."
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "That's a relief. I'll be there myself all day, so we're covered."
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "Good. Have you also signed up for the three-minute 'lightning talks'?"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "Not yet. ___5___"
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "Not at all. They are optional, but the judges do tend to remember the projects they have heard about."
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "In that case, I'd quite like to give one. Is there still time to register?"
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "___6___ The list closes at midnight on Friday, and there are only a handful of slots left."
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "I'll do it tonight. One last question: may we bring a working sensor to demonstrate?"
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "You may, provided it doesn't need mains power. ___7___"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "It runs on two small batteries, so that should be fine."
+            },
+            {
+              "speaker": "Mr Castellano",
+              "text": "Then I can't see any difficulty. ___8___"
+            },
+            {
+              "speaker": "Siriporn",
+              "text": "Noted. Thank you, you've been extremely helpful."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S3-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Could you tell me which format you would prefer?",
+                "Could I take your name and the title of your project?",
+                "Have you received your acceptance email yet?",
+                "Would you like to withdraw your abstract?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Siriporn ตอบด้วยชื่อและหัวข้อโครงงาน และเจ้าหน้าที่ตอบต่อว่า \"I have it in front of me\" แสดงว่าค้นข้อมูลจากชื่อ กับดักคือคำถามเรื่องรูปแบบโปสเตอร์ ซึ่งเป็นเรื่องที่เธอจะถามภายหลัง ส่วนการถามถึงอีเมลตอบรับขัดกับที่เธอเพิ่งบอกว่าได้รับแล้ว"
+            },
+            {
+              "id": "AL-S3-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Could we print it on A1 instead to save money?",
+                "Do we need to post the poster to you in advance?",
+                "Would a table of the data be clearer for the judges?",
+                "Is that rule strict, or would landscape be acceptable?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"the display boards are fixed in portrait, so a landscape poster would hang over...\" ตอบตรงกับคำถามว่าใช้แนวนอนได้ไหม กับดักคือเรื่องขนาด A1 ซึ่งคำตอบเรื่องแนวตั้ง/แนวนอนไม่ได้ตอบ ส่วนการส่งโปสเตอร์ล่วงหน้าหรือการใช้ตารางไม่สัมพันธ์กับคำตอบ"
+            },
+            {
+              "id": "AL-S3-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "That's why most teams choose a landscape layout.",
+                "Landscape posters are therefore given a wider board.",
+                "The judges, however, tend to prefer landscape layouts.",
+                "You might split the timeline into two rows, for instance."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Siriporn ตอบว่า \"That makes sense. We'll rearrange it.\" จึงต้องเป็นคำแนะนำวิธีจัดโปสเตอร์ใหม่ให้เป็นแนวตั้ง กับดักทั้งสามตัวสนับสนุนแนวนอน ซึ่งขัดกับ \"fixed in portrait\" ทันที โดยเฉพาะ \"given a wider board\" ที่ขัดกับ \"fixed\""
+            },
+            {
+              "id": "AL-S3-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Then I'm afraid your poster can't be judged.",
+                "That's quite common, and it's no cause for concern.",
+                "In that case, he must send a recorded video instead.",
+                "Then you'll need to find a replacement author."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "ประโยคที่ตามมา \"it needn't be the whole team\" และ Siriporn ตอบว่า \"That's a relief\" แสดงว่าการที่ Arthit ไม่มาไม่ใช่ปัญหา กับดักคือการตั้งเงื่อนไขเพิ่ม (ส่งวิดีโอ/หาผู้เขียนแทน) หรือการบอกว่าตัดสินไม่ได้ ซึ่งขัดกับ \"needn't be the whole team\" และ \"relief\""
+            },
+            {
+              "id": "AL-S3-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Would it count against us if we didn't?",
+                "Is it too late to sign up for one now?",
+                "Are the judges usually present for them?",
+                "Could you remind me how long each one is?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "\"Not at all. They are optional\" ตอบว่าการไม่ลงทะเบียนไม่ทำให้เสียคะแนน กับดักคือ \"Is it too late...?\" ซึ่ง \"Not at all\" ดูเหมือนตอบได้ แต่ในบรรทัดที่ 13 Siriporn ถามอีกครั้งว่า \"Is there still time to register?\" จึงเป็นการถามซ้ำที่ไม่สมเหตุสมผล ส่วนเรื่องกรรมการ คำตอบ \"Not at all\" ขัดกับ \"the judges ... remember the projects they have heard about\""
+            },
+            {
+              "id": "AL-S3-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "Just about, yes.",
+                "No, the list closed yesterday.",
+                "Yes, there is no limit on numbers.",
+                "You would have to ask the judges."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ยังสมัครได้จนถึงเที่ยงคืนวันศุกร์แต่เหลือที่ไม่มาก (\"only a handful of slots left\") จึงตอบว่า \"Just about, yes.\" (ยังทันแบบเฉียดฉิว) กับดัก \"no limit on numbers\" ขัดกับ \"a handful of slots\" และ \"closed yesterday\" ขัดกับ \"closes at midnight on Friday\""
+            },
+            {
+              "id": "AL-S3-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "We'll provide an extension cable at each board.",
+                "Battery-powered devices aren't allowed, though.",
+                "There are no sockets near the poster boards.",
+                "Demonstrations are limited to the lightning talks."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เงื่อนไข \"provided it doesn't need mains power\" ต้องตามด้วยเหตุผลว่าไม่มีปลั๊กไฟ กับดักคือการมีสายพ่วงให้ ซึ่งทำให้เงื่อนไขไม่จำเป็น ส่วนการห้ามอุปกรณ์ใช้แบตเตอรี่ขัดกับ \"Then I can't see any difficulty\" หลัง Siriporn บอกว่าใช้ถ่าน และการจำกัดเฉพาะ lightning talk ขัดกับ \"You may\""
+            },
+            {
+              "id": "AL-S3-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Unfortunately, demonstrations aren't permitted this year.",
+                "You'll need to post it to us two weeks in advance.",
+                "Please leave it plugged in overnight to charge.",
+                "Just keep it within your own display area."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "หลัง \"I can't see any difficulty\" ควรเป็นข้อแนะนำเล็กน้อยที่ไม่ขัดกับการอนุญาต คือให้วางในพื้นที่ของตัวเอง (\"Noted\") กับดักคือการไม่อนุญาต ซึ่งขัดกับประโยคก่อนหน้า และ \"plugged in\" ขัดกับเงื่อนไขไม่ใช้ไฟบ้านและไม่มีปลั๊ก การส่งล่วงหน้าสองสัปดาห์ก็ไม่มีที่มาในบทสนทนา"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S3-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Lending Shelf",
+          "text": "THE LENDING SHELF — Corran Park Library\nWhy buy it when you can borrow it?\n\nOur Lending Shelf now holds more than 300 items, from sewing machines and telescopes to power drills and projectors, all free to borrow.\n\nWho can borrow\nLibrary members aged 18 and over may borrow any item. Members aged 15–17 may borrow only items with a green tag, and only once a parent or guardian has signed a consent form.\n\nLoan periods\n• Most items: 7 days, renewable once online unless another member has reserved the item\n• Red-tag items (power tools, projectors): 3 days, not renewable\n\nLate returns\n20 baht per day for most items; 50 baht per day for red-tag items. No fee is charged for days on which the library is closed, including public holidays.\n\nCollecting reservations\nItems reserved before noon can be collected from 3 p.m. the same day, except on Sundays, when the Lending Shelf desk is closed.\n\nDamaged something? Tell us before you bring it back, and we will waive the repair charge the first time it happens.",
+          "items": [
+            {
+              "id": "AL-S3-021",
+              "stem": "Nicha is 16, and her mother has signed the consent form. Which of these could she borrow?",
+              "options": [
+                "A projector marked with a red tag",
+                "Any item, now that the form is signed",
+                "Only items she reserved before noon",
+                "A telescope marked with a green tag"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "สมาชิกอายุ 15–17 ปียืมได้ \"only items with a green tag\" แม้ผู้ปกครองเซ็นแล้ว จึงยืมกล้องโทรทรรศน์ป้ายเขียวได้ กับดักคือ \"Any item, now that the form is signed\" ซึ่งอ่านเงื่อนไขไม่ครบ (การเซ็นเป็นเงื่อนไขเพิ่ม ไม่ได้ปลดล็อกทุกชิ้น) และโปรเจกเตอร์เป็นป้ายแดง"
+            },
+            {
+              "id": "AL-S3-022",
+              "stem": "A member returns a projector two days late. The library was closed on one of those days for a public holiday. How much is the late fee?",
+              "options": [
+                "50 baht",
+                "100 baht",
+                "20 baht",
+                "40 baht"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "โปรเจกเตอร์เป็นสินค้าป้ายแดง ค่าปรับวันละ 50 บาท แต่ \"No fee is charged for days on which the library is closed, including public holidays\" จึงคิดเพียง 1 วัน = 50 บาท กับดักคือ 100 บาท (ลืมยกเว้นวันหยุด) และ 20/40 บาท (ใช้อัตราของสินค้าทั่วไป)"
+            },
+            {
+              "id": "AL-S3-023",
+              "stem": "Which statement is NOT supported by the notice?",
+              "options": [
+                "Members under 15 cannot borrow from the Lending Shelf.",
+                "Red-tag items can be renewed once if nobody has reserved them.",
+                "An item reserved at 11 a.m. on a Sunday cannot be collected that day.",
+                "Reporting damage in advance may save a member some money."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่าสินค้าป้ายแดง \"not renewable\" กฎการต่ออายุหนึ่งครั้งใช้กับ \"Most items\" เท่านั้น จึงเป็นข้อที่ไม่ได้รับการสนับสนุน กับดักคือการนำกฎทั่วไปไปใช้กับข้อยกเว้น ส่วนข้ออื่นถูกต้อง: ผู้ยืมต้องอายุ 15 ปีขึ้นไป วันอาทิตย์เคาน์เตอร์ปิด และแจ้งความเสียหายก่อนจะได้รับการยกเว้นค่าซ่อมครั้งแรก"
+            },
+            {
+              "id": "AL-S3-024",
+              "stem": "The word \"waive\" in the last line is closest in meaning to",
+              "options": [
+                "add to your next loan",
+                "not require you to pay",
+                "send you a bill for",
+                "divide between members"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"waive the repair charge\" หมายถึงยกเว้นค่าซ่อม คือไม่เรียกเก็บ ซึ่งสอดคล้องกับข้อความที่เป็นการจูงใจให้แจ้งความเสียหายล่วงหน้า กับดักคือ \"send you a bill for\" ซึ่งมีความหมายตรงข้าม"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Tamarind Lane Weekend Market",
+          "text": "STALLHOLDERS WANTED — Tamarind Lane Weekend Market\nApplications now open for the January–March season (12 weeks)\n\nStall types and weekly fees\n• Standard stall (2 m × 2 m): 600 baht\n• Corner stall (2 m × 3 m): 900 baht\n• Electricity point: + 150 baht per week (corner stalls only)\n\nPay for the whole season in advance and get the last two weeks free. First-time stallholders may choose this offer or 10% off their first four weeks, but the two offers cannot be combined.\n\nMarket rules\n• Hot food may be sold only from corner stalls, each of which must have a fire extinguisher.\n• Everything on sale must be made or grown by the stallholder; resold goods are not permitted.\n• Stalls must be set up by 7:30 a.m. Late arrivals will keep their space only if it has not already been reallocated.\n\nTo apply, send photos of your products and a short description to the market office by 15 December. Applications from students of Tamarind Lane Vocational College will be considered first.",
+          "items": [
+            {
+              "id": "AL-S3-025",
+              "stem": "A first-time stallholder wants a standard stall for the full season and wants to pay as little as possible. How much will she pay?",
+              "options": [
+                "6,960 baht",
+                "5,400 baht",
+                "7,200 baht",
+                "6,000 baht"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ต้องเลือกโปรเดียว (ห้ามใช้ร่วมกัน): จ่ายล่วงหน้าทั้งฤดูกาลจ่าย 10 สัปดาห์ × 600 = 6,000 บาท ส่วนส่วนลดผู้ขายใหม่ได้ 4 × 540 + 8 × 600 = 6,960 บาท จึงเลือก 6,000 บาท กับดักคือ 5,400 บาท ซึ่งรวมสองโปรเข้าด้วยกันทั้งที่ \"cannot be combined\" และ 7,200 บาทคือราคาเต็ม"
+            },
+            {
+              "id": "AL-S3-026",
+              "stem": "Which applicant's plan would break the market rules?",
+              "options": [
+                "Reselling baskets bought from a village cooperative",
+                "Selling grilled corn at a corner stall with an extinguisher",
+                "Selling herbs she has grown herself at a standard stall",
+                "Renting a corner stall with an electricity point"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "กฎระบุว่า \"Everything on sale must be made or grown by the stallholder; resold goods are not permitted\" การนำตะกร้าที่ซื้อมาขายต่อจึงผิดกฎ ตัวเลือกอื่นทำตามเงื่อนไขทั้งหมด: อาหารร้อนขายที่ซุ้มมุมที่มีถังดับเพลิง ขายสมุนไพรที่ปลูกเอง และปลั๊กไฟมีให้เฉพาะซุ้มมุม"
+            },
+            {
+              "id": "AL-S3-027",
+              "stem": "What can be inferred about a stallholder who arrives at 8:00 a.m.?",
+              "options": [
+                "He will be charged an extra 150 baht for that week.",
+                "He will be moved automatically to a corner stall.",
+                "He will lose his stall for all the remaining weeks of the season.",
+                "He might find that his space has been given to someone else."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "กฎ \"Late arrivals will keep their space only if it has not already been reallocated\" แปลว่าผู้มาสายอาจเสียพื้นที่วันนั้นให้คนอื่น (\"might\") กับดักคือ \"lose his stall for the rest of the season\" ซึ่งขยายความเกินกว่าประกาศ และค่า 150 บาทเป็นค่าไฟ ไม่ใช่ค่าปรับ"
+            },
+            {
+              "id": "AL-S3-028",
+              "stem": "Which statement about applications is supported by the advertisement?",
+              "options": [
+                "Only vocational college students are allowed to apply.",
+                "Applications have to be delivered to the office in person.",
+                "Applicants must have run a market stall at least once before.",
+                "Some applicants will be considered before others."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"Applications from students of Tamarind Lane Vocational College will be considered first\" แปลว่ามีผู้สมัครบางกลุ่มได้รับการพิจารณาก่อน กับดักคือ \"Only vocational college students\" ซึ่งสรุปเกินจริง (over-generalise) เพราะประกาศให้ผู้ขายใหม่ได้ส่วนลด แสดงว่าบุคคลทั่วไปสมัครได้ และไม่มีการกำหนดให้ยื่นด้วยตนเอง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: the Folio Lumen 2 e-reader",
+          "text": "Folio Lumen 2: a lovely screen let down by its software — ★★★☆☆\n\nI have been reading on the original Folio Lumen for four years, so I approached its successor with a mixture of curiosity and dread; upgrades have a habit of fixing things that were never broken. In fairness, the hardware is a genuine step forward. The 7-inch screen is noticeably sharper, and the new warm-light setting makes late-night reading far gentler on the eyes than the harsh blue-white glow of its predecessor. At 175 grams, it is also light enough to hold in one hand on a crowded train, which is more than I can say for most of its rivals.\n\nThe software, however, is another story. The redesigned home screen now devotes half its space to \"recommended titles\" from the manufacturer's own store, and there is no way to hide them. Searching my library of 600 books takes several seconds, and twice in the first week the device froze and had to be restarted. None of these flaws is catastrophic, but together they chip away at the calm that a dedicated reading device is supposed to offer.\n\nBattery life is advertised as \"up to eight weeks\". With the warm light on most evenings, I managed a little under five, which is respectable if hardly spectacular.\n\nSo, should you buy one? If you are still using a much older model, or if you do most of your reading in bed, the screen alone may justify the 4,990-baht price. Owners of the first Lumen, on the other hand, would do well to wait and see whether a software update addresses my complaints.",
+          "items": [
+            {
+              "id": "AL-S3-029",
+              "stem": "Which best describes the reviewer's overall attitude towards the Folio Lumen 2?",
+              "options": [
+                "Disappointed that it is a step backwards in every respect",
+                "Enthusiastic enough to recommend it to every reader",
+                "Impressed by the hardware but frustrated by the software",
+                "Indifferent, since it barely differs from the original"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนชมฮาร์ดแวร์ (\"a genuine step forward\") แต่ติซอฟต์แวร์ (\"another story\") ซึ่งตรงกับหัวเรื่อง \"a lovely screen let down by its software\" กับดักคือ \"in every respect\" ที่ลบคำชมทิ้งทั้งหมด และ \"recommend it to every reader\" ขัดกับคำแนะนำให้เจ้าของรุ่นแรกรอไปก่อน"
+            },
+            {
+              "id": "AL-S3-030",
+              "stem": "Which of the following is NOT mentioned as a drawback of the device?",
+              "options": [
+                "Part of its home screen is used for advertising.",
+                "Finding a particular book can be slow.",
+                "It sometimes stops responding altogether.",
+                "Its screen is harder to read late at night."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนกล่าวว่าโหมดแสงอุ่นทำให้อ่านตอนดึก \"far gentler on the eyes\" จึงเป็นข้อดี ไม่ใช่ข้อเสีย ส่วนข้ออื่นเป็นข้อเสียที่กล่าวถึงจริง ได้แก่ \"recommended titles\" กินพื้นที่ครึ่งหน้าจอ การค้นหาใช้เวลาหลายวินาที และเครื่องค้าง (\"froze\") สองครั้ง"
+            },
+            {
+              "id": "AL-S3-031",
+              "stem": "What does the reviewer imply about the advertised battery life?",
+              "options": [
+                "Her result fell short of the claim but was still acceptable.",
+                "The manufacturer deliberately misled buyers with a false figure.",
+                "The warm-light setting made no difference to it.",
+                "She found it lasted even longer than eight weeks."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "เธอใช้ได้ \"a little under five\" สัปดาห์ จากที่โฆษณาไว้ \"up to eight weeks\" และบอกว่า \"respectable if hardly spectacular\" คือน้อยกว่าที่อ้างแต่ยังพอรับได้ กับดักคือ \"deliberately gave a false figure\" ซึ่งกล่าวหาเกินกว่าที่ผู้เขียนสื่อ (คำว่า \"up to\" แสดงว่าเป็นค่าสูงสุด) และเธอเปิดแสงอุ่นเกือบทุกคืน จึงไม่ได้สรุปว่าแสงไม่มีผล"
+            },
+            {
+              "id": "AL-S3-032",
+              "stem": "According to the reviewer, who would benefit most from buying the device now?",
+              "options": [
+                "Someone who reads in bed on a much older e-reader",
+                "Someone who already owns the first Folio Lumen",
+                "Someone who needs to search a large library quickly",
+                "Someone who wants a home screen free of store titles"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายแนะนำผู้ที่ใช้ \"a much older model\" หรือ \"do most of your reading in bed\" กับดักคือเจ้าของรุ่นแรก ซึ่งผู้เขียนแนะนำให้ \"wait\" ส่วนการค้นหาที่เร็วและหน้าจอที่ไม่มีสินค้าแนะนำคือจุดอ่อนของเครื่องนี้"
+            },
+            {
+              "id": "AL-S3-033",
+              "stem": "The phrase \"chip away at\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "suddenly destroy",
+                "carefully protect",
+                "loudly complain about",
+                "gradually reduce"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้เขียนบอกว่าข้อบกพร่องแต่ละข้อ \"None ... is catastrophic, but together they chip away at the calm\" คือค่อย ๆ บั่นทอนความสงบทีละน้อย กับดักคือ \"suddenly destroy\" ซึ่งขัดกับ \"not catastrophic\" ที่บอกว่าไม่ร้ายแรงในทันที"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Morrow Vale to dim its streetlights",
+          "text": "MORROW VALE — Streetlights across the town's residential districts will dim to 30 percent of their full brightness between midnight and 5 a.m. from next month, under a trial approved by the town council on Tuesday.\n\nThe new lamps contain motion sensors that return them to full brightness for two minutes whenever a pedestrian, cyclist or vehicle passes. The council estimates that the scheme will cut its street-lighting bill by around 40 percent, savings it says will be spent on repairing pavements. Main roads and the area around the bus station are excluded from the trial and will stay fully lit throughout the night.\n\nThe plan has been welcomed by the Morrow Vale Astronomy Circle, whose members have long complained that glare from the town hides all but the brightest stars. \"Within a year, children here could see the Milky Way from their own gardens,\" said the group's secretary, Hana Ostrowski. Some ecologists have also pointed to research suggesting that constant artificial light disrupts the feeding patterns of moths and other night-flying insects.\n\nNot all residents are persuaded. Several people who work night shifts at the town's food-processing plant told reporters they were uneasy about walking home along dimmer streets, and a petition calling for the trial to be scrapped has gathered more than 800 signatures. \"Two minutes of light is fine for the lamp you're standing under,\" said one signatory, \"but what about the dark stretch in front of you?\"\n\nCouncil engineer Tomas Reyes rejected the suggestion that the scheme was unsafe, pointing out that each sensor detects movement up to 25 metres away. He did, however, accept that a few quiet lanes might need additional lamps.\n\nThe trial will run for six months, after which the council will publish accident and safety reports before deciding whether to extend it.",
+          "items": [
+            {
+              "id": "AL-S3-034",
+              "stem": "Which headline best summarises the report?",
+              "options": [
+                "Morrow Vale abandons lighting plan after petition",
+                "Astronomers pay for new streetlights across the town",
+                "Council confirms every road will stay fully lit at night",
+                "Night-time dimming trial divides opinion in Morrow Vale"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวนำเสนอการทดลองหรี่ไฟพร้อมความเห็นทั้งฝ่ายสนับสนุน (ชมรมดาราศาสตร์ นักนิเวศวิทยา) และฝ่ายค้าน (คนทำงานกะดึก ผู้ลงชื่อคัดค้าน) จึงเป็น \"divides opinion\" กับดักคือ \"abandons ... after petition\" เพราะมีเพียงการยื่นคำร้อง แต่การทดลองยังเดินหน้าอยู่ และชมรมดาราศาสตร์แค่ \"welcomed\" ไม่ได้ออกเงิน"
+            },
+            {
+              "id": "AL-S3-035",
+              "stem": "According to the report, which of these places would be fully lit at 2 a.m. even when nobody is passing?",
+              "options": [
+                "A quiet lane in a residential district",
+                "A housing estate near the food-processing plant",
+                "The street in front of the bus station",
+                "The road outside the astronomy group's secretary's home"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข่าวระบุข้อยกเว้นว่า \"Main roads and the area around the bus station are excluded from the trial and will stay fully lit\" ส่วนพื้นที่ที่อยู่อาศัยจะสว่างเต็มที่เฉพาะเมื่อมีคนผ่าน กับดักคือการคิดว่าพื้นที่ใกล้โรงงานซึ่งมีคนทำงานกะดึกจะได้รับการยกเว้น ซึ่งข่าวไม่ได้กล่าวไว้"
+            },
+            {
+              "id": "AL-S3-036",
+              "stem": "What does the signatory's comment suggest about his concern?",
+              "options": [
+                "He thinks two minutes of full light is far longer than necessary.",
+                "He fears the lamps ahead of him will stay dim until he reaches them.",
+                "He believes the sensors cannot detect pedestrians at all.",
+                "He would prefer the lamps to be switched off completely."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"fine for the lamp you're standing under ... but what about the dark stretch in front of you?\" แปลว่าเขากังวลว่าเส้นทางข้างหน้าจะยังมืดอยู่ ซึ่งวิศวกรตอบโดยตรงว่าเซ็นเซอร์ตรวจจับได้ไกล 25 เมตร กับดักคือ \"cannot detect pedestrians at all\" ซึ่งเกินกว่าคำพูดของเขา เพราะเขายอมรับว่าไฟเหนือหัวสว่างขึ้น"
+            },
+            {
+              "id": "AL-S3-037",
+              "stem": "Which statement is NOT supported by the report?",
+              "options": [
+                "The council has already decided to make the scheme permanent.",
+                "The money saved on electricity is intended for another purpose.",
+                "The engineer admitted that the plan might need some adjustment.",
+                "Some of the people opposed to the plan work during the night."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข่าวบอกว่าการทดลองจะ \"run for six months\" แล้วจึงตัดสินใจ \"whether to extend it\" จึงยังไม่ได้ตัดสินใจให้เป็นการถาวร ข้ออื่นได้รับการสนับสนุน: เงินที่ประหยัดใช้ซ่อมทางเท้า วิศวกรยอมรับว่าอาจต้องเพิ่มโคมไฟ และผู้คัดค้านบางคนทำงานกะดึก"
+            },
+            {
+              "id": "AL-S3-038",
+              "stem": "Which best describes Tomas Reyes's response to the critics?",
+              "options": [
+                "He agreed that the trial ought to be cancelled.",
+                "He defended the scheme while conceding a minor point.",
+                "He dismissed their concerns without offering evidence.",
+                "He blamed residents for walking home so late."
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "เขา \"rejected the suggestion that the scheme was unsafe\" โดยให้เหตุผลเรื่องระยะ 25 เมตร แต่ \"did, however, accept that a few quiet lanes might need additional lamps\" คือปกป้องโครงการและยอมรับประเด็นเล็ก ๆ กับดักคือ \"without offering evidence\" ซึ่งผิด เพราะเขาให้ข้อมูลเรื่องเซ็นเซอร์ประกอบ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Irrigation methods compared",
+          "text": "An agricultural college in Lam Saeng Province compared four irrigation methods on identical 1-rai plots of chilli plants over two growing seasons. The table shows the water used and the harvest from each plot. The college will recommend a method to local farmers only if, in BOTH seasons, it produced at least 1.2 kg of chillies per cubic metre of water AND a harvest of at least 1,150 kg.",
+          "table": {
+            "caption": "Water use and chilli harvest per 1-rai plot, Lam Saeng Agricultural College",
+            "columns": [
+              "Method",
+              "Water 2025 (m³)",
+              "Harvest 2025 (kg)",
+              "Water 2026 (m³)",
+              "Harvest 2026 (kg)"
+            ],
+            "rows": [
+              [
+                "Flood irrigation",
+                "2,400",
+                "1,200",
+                "2,500",
+                "1,250"
+              ],
+              [
+                "Sprinkler",
+                "1,600",
+                "1,280",
+                "1,500",
+                "1,200"
+              ],
+              [
+                "Drip",
+                "1,000",
+                "1,200",
+                "900",
+                "1,350"
+              ],
+              [
+                "Drip with mulch",
+                "800",
+                "1,120",
+                "750",
+                "1,200"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S3-039",
+              "stem": "In 2026, which method produced the most chillies per cubic metre of water?",
+              "options": [
+                "Drip",
+                "Sprinkler",
+                "Drip with mulch",
+                "Flood irrigation"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "ปี 2026: น้ำท่วมแปลง 1,250 ÷ 2,500 = 0.5, สปริงเกลอร์ 1,200 ÷ 1,500 = 0.8, น้ำหยด 1,350 ÷ 900 = 1.5, น้ำหยดคลุมดิน 1,200 ÷ 750 = 1.6 กก./ลบ.ม. กับดักคือ \"Drip\" ซึ่งให้ผลผลิตรวมสูงสุด (1,350 กก.) แต่โจทย์ถามผลผลิตต่อปริมาณน้ำ"
+            },
+            {
+              "id": "AL-S3-040",
+              "stem": "By how much did the harvest from drip irrigation change between 2025 and 2026?",
+              "options": [
+                "It rose by 15%.",
+                "It rose by 11.1%.",
+                "It fell by 12.5%.",
+                "It rose by 12.5%."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ผลผลิตน้ำหยดเพิ่มจาก 1,200 เป็น 1,350 กก. เพิ่ม 150 กก. คิดเป็น 150 ÷ 1,200 = 12.5% กับดักคือ 11.1% ซึ่งคำนวณโดยใช้ 1,350 (ค่าปีหลัง) เป็นฐาน และ 15% ที่สับสนตัวเลข 150"
+            },
+            {
+              "id": "AL-S3-041",
+              "stem": "Which conclusion is supported by the table?",
+              "options": [
+                "In 2026, flood irrigation used more water than the other three methods combined.",
+                "Every method gave a larger harvest in 2026 than in 2025.",
+                "In both years, drip irrigation used half as much water as flood irrigation.",
+                "Only the sprinkler plot used less water and gave a smaller harvest in 2026."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "สปริงเกลอร์ใช้น้ำลดลง (1,600 → 1,500) และผลผลิตลดลง (1,280 → 1,200) ส่วนน้ำหยดทั้งสองแบบใช้น้ำน้อยลงแต่ผลผลิตเพิ่ม และน้ำท่วมแปลงใช้น้ำเพิ่ม กับดัก: ปี 2026 น้ำท่วมแปลงใช้ 2,500 แต่อีกสามวิธีรวมกัน 1,500 + 900 + 750 = 3,150 และน้ำหยดไม่ได้ใช้น้ำครึ่งหนึ่งพอดี (1,000 เทียบกับ 2,400)"
+            },
+            {
+              "id": "AL-S3-042",
+              "stem": "Based on the table and the college's criteria, which method(s) will be recommended?",
+              "options": [
+                "Drip with mulch only",
+                "Drip only",
+                "Both drip methods",
+                "Sprinkler and drip"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ต้องผ่านทั้งสองเงื่อนไขในทั้งสองปี: น้ำหยดได้ 1.2 และ 1.5 กก./ลบ.ม. ผลผลิต 1,200 และ 1,350 กก. จึงผ่าน ส่วนน้ำหยดคลุมดินมีประสิทธิภาพสูง (1.4, 1.6) แต่ปี 2025 ได้ผลผลิตเพียง 1,120 กก. ต่ำกว่า 1,150 จึงไม่ผ่าน และสปริงเกลอร์ได้แค่ 0.8 กก./ลบ.ม. กับดักคือการดูเฉพาะปี 2026 หรือดูเฉพาะเงื่อนไขเดียว"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Completion rates on an online learning platform",
+          "text": "Brightpath, an online learning platform, offers four short courses. Learners receive a certificate only if they complete every unit AND score at least 70% on the final quiz. The table shows figures for the first half of 2026. Brightpath has announced that any course in which fewer than 40% of enrolled learners completed every unit will be redesigned.",
+          "table": {
+            "caption": "Brightpath short courses, January–June 2026",
+            "columns": [
+              "Course",
+              "Length (weeks)",
+              "Enrolled",
+              "Completed every unit",
+              "Certificates awarded"
+            ],
+            "rows": [
+              [
+                "Data Basics",
+                "4",
+                "2,000",
+                "900",
+                "720"
+              ],
+              [
+                "Creative Writing",
+                "6",
+                "1,500",
+                "600",
+                "540"
+              ],
+              [
+                "Spreadsheet Skills",
+                "3",
+                "2,400",
+                "1,440",
+                "960"
+              ],
+              [
+                "Public Speaking",
+                "8",
+                "1,000",
+                "300",
+                "285"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S3-043",
+              "stem": "In which course did the highest percentage of learners who completed every unit go on to earn a certificate?",
+              "options": [
+                "Creative Writing",
+                "Public Speaking",
+                "Spreadsheet Skills",
+                "Data Basics"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "คิดจากผู้ที่เรียนครบทุกหน่วย: Data Basics 720/900 = 80%, Creative Writing 540/600 = 90%, Spreadsheet Skills 960/1,440 ≈ 67%, Public Speaking 285/300 = 95% กับดักคือ Spreadsheet Skills ซึ่งมีจำนวนใบประกาศมากที่สุดและอัตราเรียนจบสูงสุด แต่สัดส่วนผ่านแบบทดสอบต่ำที่สุด"
+            },
+            {
+              "id": "AL-S3-044",
+              "stem": "Which course(s) will Brightpath redesign?",
+              "options": [
+                "Creative Writing and Public Speaking",
+                "Data Basics, Creative Writing and Public Speaking",
+                "Public Speaking only",
+                "Spreadsheet Skills only"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "อัตราเรียนครบ: Data Basics 45%, Creative Writing 600/1,500 = 40%, Spreadsheet Skills 60%, Public Speaking 300/1,000 = 30% เงื่อนไขคือ \"fewer than 40%\" Creative Writing ได้ 40% พอดีจึงไม่เข้าเงื่อนไข เหลือเพียง Public Speaking กับดักคือการนับ 40% ว่า \"น้อยกว่า 40%\""
+            },
+            {
+              "id": "AL-S3-045",
+              "stem": "Which conclusion is best supported by the table?",
+              "options": [
+                "The most popular course had the highest quiz pass rate among completers.",
+                "More certificates were awarded in Creative Writing than in Data Basics.",
+                "The longer the course, the lower its completion rate.",
+                "More than half of all enrolled learners earned a certificate."
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "เรียงตามความยาว: 3 สัปดาห์ 60%, 4 สัปดาห์ 45%, 6 สัปดาห์ 40%, 8 สัปดาห์ 30% อัตราเรียนจบลดลงทุกขั้น จึงสนับสนุนข้อสรุปนี้ กับดัก: วิชาที่มีผู้สมัครมากที่สุด (Spreadsheet Skills) มีอัตราผ่านในหมู่ผู้เรียนจบต่ำสุด (≈67%) และใบประกาศรวม 2,505 ใบจากผู้สมัคร 6,900 คน คิดเป็นเพียงประมาณ 36%"
+            },
+            {
+              "id": "AL-S3-046",
+              "stem": "How many more Data Basics learners would have needed to earn a certificate for its certificate rate among enrolled learners to equal that of Spreadsheet Skills?",
+              "options": [
+                "240",
+                "180",
+                "40",
+                "80"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "Spreadsheet Skills: 960 ÷ 2,400 = 40% ของผู้สมัคร ถ้า Data Basics ได้ 40% ของ 2,000 = 800 ใบ ปัจจุบันได้ 720 จึงต้องเพิ่มอีก 80 ใบ กับดักคือ 240 (นำจำนวนใบประกาศมาลบกันตรง ๆ 960 − 720) และ 180 (900 − 720 คือผู้เรียนจบที่สอบไม่ผ่าน)"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "On the Tip of the Tongue",
+          "text": "Almost everyone knows the peculiar torment of reaching for a word that refuses to arrive. You can picture the object, recall that the word has three syllables and perhaps even that it begins with an \"s\", yet the word itself remains tantalisingly out of reach. Psychologists call this the tip-of-the-tongue state, and far from being a trivial annoyance, it has become one of the most revealing windows into how the mind stores and retrieves language.\n\nThe phenomenon is strikingly common. Diary studies suggest that most adults experience it roughly once a week, and that it becomes more frequent with age, particularly for proper names. Crucially, people caught in this state are rarely in a complete fog. When researchers read volunteers the definition of an uncommon word, such as \"a navigational instrument used to measure the angle of the sun\", those who report being on the brink of the answer can often guess its first letter or its number of syllables at levels well above chance. Their knowledge, in other words, is partial rather than absent.\n\nThis partial access has helped to settle a long-running debate. One influential account had held that retrieving a word is a single, all-or-nothing event: either the word is found or it is not. Tip-of-the-tongue states sit awkwardly with that view. They suggest instead that producing a word unfolds in at least two stages. First, the speaker selects an abstract representation of the word's meaning and grammatical role; only afterwards is its sound pattern assembled. A tip-of-the-tongue state, on this view, arises when the first stage succeeds but the second falters, leaving the speaker knowing exactly what they want to say yet unable to say it.\n\nWhy should the second stage break down? The most widely accepted explanation points to weak connections. Words that we use rarely, or have not used recently, have less well-established links between their meaning and their sound, so the signal may simply be too faint to activate the full form. This would explain why ageing, which is associated with slower transmission along some neural pathways, makes the experience more common, and why bilingual speakers, who divide their everyday use between two vocabularies, tend to report it slightly more often than monolinguals.\n\nA rival account emphasises interference rather than weakness. Anyone who has repeatedly arrived at the wrong word, producing \"barometer\" when hunting for \"sextant\", will recognise the sensation of an intruder blocking the way. Yet experiments in which such \"blockers\" are deliberately planted have produced surprisingly mixed results, and many researchers now regard interference as a consequence of the problem rather than its cause.\n\nPerhaps the most practical findings concern how these states end. Hearing a word that shares the target's first syllable can trigger sudden resolution, even when the listener is unaware of the connection. Straining harder, by contrast, can be counterproductive: some evidence suggests that repeatedly failing to retrieve a word makes the same lapse more likely the next time. The advice that emerges is modest but sensible. Rather than wrestling with a missing word, look it up, and then say it aloud once or twice to reinforce the link.\n\nSeen in this light, the tip-of-the-tongue state is less a failure of memory than a glimpse of its architecture: a momentary pause in which the normally seamless machinery of speech is laid bare.",
+          "items": [
+            {
+              "id": "AL-S3-047",
+              "stem": "What is the main function of paragraph 3?",
+              "options": [
+                "To describe the experiments used to measure how often the state occurs",
+                "To argue that word retrieval is a single, all-or-nothing process",
+                "To show how the phenomenon undermines an earlier model and supports another",
+                "To compare how bilingual and monolingual speakers retrieve words"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าที่ 3 กล่าวถึงทฤษฎีเดิม (\"all-or-nothing\") แล้วชี้ว่าภาวะนี้ \"sit awkwardly with that view\" และสนับสนุนแบบจำลองสองขั้นตอน กับดักคือ \"To argue that word retrieval is a single, all-or-nothing process\" ซึ่งเป็นการอ้างความเห็นผิดคน (misattribution) เพราะผู้เขียนเพียงยกทฤษฎีนี้ขึ้นมาเพื่อหักล้าง ส่วนเรื่องความถี่และผู้ใช้สองภาษาอยู่ในย่อหน้าที่ 2 และ 4"
+            },
+            {
+              "id": "AL-S3-048",
+              "stem": "It can be inferred from paragraph 2 that volunteers who correctly guess the first letter of the target word",
+              "options": [
+                "have already found the word but are reluctant to say it",
+                "are simply guessing and happen to be lucky",
+                "are more likely than others to be bilingual speakers",
+                "have retrieved part of its sound without the complete form"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้ทดลองเดาอักษรตัวแรกได้ \"well above chance\" และผู้เขียนสรุปว่า \"partial rather than absent\" แสดงว่ารู้ข้อมูลเสียงของคำบางส่วนแต่ยังไม่ครบ กับดักคือ \"simply guessing\" ซึ่งขัดกับ \"above chance\" และ \"already found the word\" ขัดกับนิยามของภาวะนี้"
+            },
+            {
+              "id": "AL-S3-049",
+              "stem": "The word \"falters\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "happens more than once",
+                "is completed too quickly",
+                "fails to work properly",
+                "is deliberately postponed"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"the first stage succeeds but the second falters\" ใช้คำว่า falters ในความหมายตรงข้ามกับ succeeds คือทำงานติดขัดหรือล้มเหลว ผลคือผู้พูด \"unable to say it\" กับดักคือ \"deliberately postponed\" ซึ่งให้ความหมายว่าตั้งใจ แต่ภาวะนี้เกิดขึ้นเองโดยไม่ได้ตั้งใจ"
+            },
+            {
+              "id": "AL-S3-050",
+              "stem": "According to the passage, why might bilingual speakers report the state slightly more often?",
+              "options": [
+                "They know fewer words in each language than monolinguals.",
+                "Their two languages constantly block each other's words.",
+                "Each vocabulary is used less often, so its links are weaker.",
+                "Their neural pathways slow down earlier in life than others'."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 อธิบายด้วยทฤษฎี \"weak connections\": ผู้ใช้สองภาษา \"divide their everyday use between two vocabularies\" แต่ละคำจึงถูกใช้น้อยลงและการเชื่อมโยงอ่อนลง กับดักคือ \"block each other's words\" ซึ่งเป็นทฤษฎีการรบกวน (interference) ในย่อหน้าที่ 5 ที่ผู้เขียนไม่ได้นำมาใช้อธิบายผู้ใช้สองภาษา และ \"know fewer words\" เป็นการสรุปเกินจริง"
+            },
+            {
+              "id": "AL-S3-051",
+              "stem": "What is the writer's view of the interference account?",
+              "options": [
+                "It describes a real sensation but probably not the underlying cause.",
+                "It has been completely disproved by experiments that planted blockers.",
+                "It is more convincing than the weak-connections account.",
+                "It is the only explanation supported by firm evidence."
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยอมรับว่าผู้คน \"recognise the sensation of an intruder\" แต่ผลการทดลอง \"surprisingly mixed\" และนักวิจัยมองว่าการรบกวนเป็น \"a consequence of the problem rather than its cause\" กับดักคือ \"completely disproved\" ซึ่งรุนแรงเกินคำว่า \"mixed results\" และทฤษฎีที่ได้รับการยอมรับมากที่สุดคือ weak connections"
+            },
+            {
+              "id": "AL-S3-052",
+              "stem": "In paragraph 3, \"that view\" refers to the idea that",
+              "options": [
+                "producing a word happens in at least two stages",
+                "the tip-of-the-tongue state is merely an annoyance",
+                "speakers usually know part of the missing word",
+                "a word is either retrieved completely or not at all"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "\"that view\" อ้างถึงประโยคก่อนหน้า \"retrieving a word is a single, all-or-nothing event: either the word is found or it is not\" กับดักคือ \"two stages\" ซึ่งเป็นแนวคิดใหม่ที่ถูกนำเสนอหลังจากนั้นเพื่อแทนที่ \"that view\""
+            },
+            {
+              "id": "AL-S3-053",
+              "stem": "Which advice would the writer most likely give to someone who cannot recall a word?",
+              "options": [
+                "Check the word, then repeat it aloud a couple of times.",
+                "Keep concentrating until the word eventually appears.",
+                "Think of a similar word on purpose to clear the way.",
+                "Avoid using the word in conversation for a while."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 6 แนะนำว่า \"look it up, and then say it aloud once or twice to reinforce the link\" กับดักคือ \"Keep concentrating\" ซึ่งผู้เขียนเตือนว่า \"Straining harder ... can be counterproductive\" ส่วนการคิดคำที่คล้ายกันโดยตั้งใจไม่ได้ช่วย เพราะตัวกระตุ้นที่ได้ผลคือการ \"ได้ยิน\" พยางค์แรกเดียวกัน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Why Wider Roads Rarely End Traffic Jams",
+          "text": "For much of the twentieth century, the remedy for a congested road seemed self-evident: build another lane. If too many cars were trying to squeeze through too little space, the logic ran, more space should restore the flow. Yet planners in city after city discovered an uncomfortable pattern. Within a few years of a road being widened, traffic was often as slow as it had been before, and occasionally slower. The phenomenon now has a name, induced demand, and it has quietly reshaped thinking about urban transport.\n\nThe underlying idea is borrowed from basic economics. When the cost of something falls, people tend to consume more of it. For drivers, the main cost of a journey is not fuel but time. A newly widened motorway that cuts a commute from forty minutes to twenty-five effectively lowers the \"price\" of driving. People who previously took the train, travelled at quieter hours or avoided the trip altogether begin to drive at peak times. Over a longer period, households and businesses relocate to take advantage of the faster route, generating journeys that did not exist before. Each of these choices is perfectly rational for the individual driver; taken together, they refill the road.\n\nNone of this means that every new road fills up completely. The strength of the effect depends on how much pent-up demand exists, and in a small town with few congested routes it may be modest. Studies of large metropolitan areas, however, have repeatedly found that vehicle traffic grows roughly in proportion to the extra road space provided. If that finding holds, adding ten percent more lanes to a crowded city buys, at best, a temporary reprieve.\n\nThe concept also works in reverse, a point that initially struck many engineers as counterintuitive. When a major road is closed or narrowed, whether for repairs or to make room for buses and cyclists, the predicted gridlock frequently fails to materialise. Some of the traffic simply evaporates: trips are combined, rescheduled or made by other means. This \"traffic evaporation\" is never total, and the disruption in the first weeks can be considerable, but it has emboldened several cities to reclaim road space for pedestrians.\n\nCritics caution against drawing sweeping conclusions. Roads, they point out, carry goods as well as commuters, and a delivery van cannot switch to a bicycle. Moreover, the fact that a widened road fills up does not mean that the widening was worthless; it may now carry thousands more people each day, even if each of them still moves slowly. From this perspective, congestion is less a symptom of failure than a sign that a road is being used to its full value.\n\nMost transport economists now accept elements of both positions. The more useful question, they argue, is not whether to build roads but how to manage the demand that any new capacity will inevitably attract. Charging drivers for using the busiest routes at the busiest times, investing in frequent public transport and permitting denser housing near stations, so that fewer daily errands require a car at all, are often proposed as complements to, rather than substitutes for, sensible road building.\n\nWhat induced demand teaches, above all, is humility. Cities are not plumbing systems in which a wider pipe guarantees a faster flow; they are populated by people who respond, often ingeniously, to every change in the options available to them.",
+          "items": [
+            {
+              "id": "AL-S3-054",
+              "stem": "Which statement best expresses the main idea of the passage?",
+              "options": [
+                "Cities should stop building new roads altogether and invest only in public transport instead.",
+                "Congestion is caused mainly by delivery vehicles rather than by commuters.",
+                "Extra road space tends to attract new traffic, so capacity alone rarely cures congestion.",
+                "Closing a major road always reduces the total amount of traffic in a city."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทอธิบายว่าการขยายถนนทำให้เกิดการเดินทางเพิ่ม (induced demand) จนการเพิ่มช่องทางอย่างเดียวแก้รถติดไม่ได้ กับดักคือ \"stop building roads\" ซึ่งผู้เขียนไม่ได้เสนอ เพราะย่อหน้าที่ 6 บอกว่ามาตรการอื่นเป็น \"complements to, rather than substitutes for, sensible road building\" และ \"always reduces\" ขัดกับ \"never total\""
+            },
+            {
+              "id": "AL-S3-055",
+              "stem": "Why does the writer put the word \"price\" in quotation marks in paragraph 2?",
+              "options": [
+                "To point out that fuel has become cheaper on widened motorways",
+                "To suggest that drivers ought to pay to use widened roads",
+                "To show that time saved works in the same way as a fall in cost",
+                "To explain why train tickets have recently risen in price"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าต้นทุนหลักของผู้ขับคือ \"not fuel but time\" เมื่อเวลาเดินทางลดลง \"ราคา\" ของการขับรถจึงลดลงในเชิงเปรียบเทียบ เครื่องหมายคำพูดจึงแสดงว่าไม่ใช่ราคาที่เป็นเงินจริง กับดักคือ \"drivers ought to pay\" ซึ่งนำแนวคิดการเก็บค่าใช้ถนนจากย่อหน้าที่ 6 มาใส่ผิดที่ และเรื่องน้ำมันขัดกับ \"not fuel\""
+            },
+            {
+              "id": "AL-S3-056",
+              "stem": "The word \"reprieve\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "a permanent solution",
+                "a short period of relief",
+                "an official warning",
+                "a financial reward"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"buys, at best, a temporary reprieve\" หมายถึงได้ช่วงเวลาบรรเทาปัญหาชั่วคราว เพราะสุดท้ายรถจะเพิ่มขึ้นตามพื้นที่ถนน กับดักคือ \"a permanent solution\" ซึ่งขัดกับคำว่า \"temporary\" และใจความของย่อหน้า"
+            },
+            {
+              "id": "AL-S3-057",
+              "stem": "What can be inferred about widening a road in a small town with few congested routes?",
+              "options": [
+                "The new traffic it attracts may be relatively limited.",
+                "Its traffic will grow faster than in a large city.",
+                "There will be no extra demand for it whatsoever.",
+                "The town should close it to cause traffic evaporation."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "\"in a small town with few congested routes it may be modest\" แปลว่าผลของ induced demand อาจไม่มาก กับดักคือ \"no extra demand whatsoever\" ซึ่งสรุปเกินจริงจากคำว่า \"modest\" (ยังมีอยู่แต่น้อย) และ \"faster than in a large city\" ตรงข้ามกับเนื้อหา"
+            },
+            {
+              "id": "AL-S3-058",
+              "stem": "According to paragraph 4, which of the following is true of \"traffic evaporation\"?",
+              "options": [
+                "It removes all of the displaced traffic within the first few weeks.",
+                "Some journeys disappear when road space is cut, though not all of them.",
+                "Engineers had predicted it long before any road was ever closed.",
+                "It occurs only when a road is closed temporarily for repairs."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "\"Some of the traffic simply evaporates\" และ \"is never total\" แปลว่ามีการเดินทางบางส่วนหายไปแต่ไม่ทั้งหมด กับดัก: \"within the first few weeks\" ขัดกับที่ช่วงแรก \"disruption ... can be considerable\" ส่วน \"Engineers had predicted it\" ขัดกับ \"struck many engineers as counterintuitive\" และการปิดถนนเกิดได้ทั้งเพื่อซ่อมและเพื่อให้รถเมล์/จักรยาน"
+            },
+            {
+              "id": "AL-S3-059",
+              "stem": "What is the main function of paragraph 5?",
+              "options": [
+                "To provide further evidence that widening roads fails",
+                "To summarise the solutions favoured by most economists",
+                "To describe how delivery firms adapted to road closures",
+                "To present objections that complicate the argument so far"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าที่ 5 เริ่มด้วย \"Critics caution against drawing sweeping conclusions\" และเสนอข้อโต้แย้ง (รถขนส่งสินค้า ถนนที่แน่นอาจยังขนคนได้มากขึ้น) จึงทำให้ข้อโต้แย้งก่อนหน้าซับซ้อนขึ้น กับดักคือ \"further evidence that widening roads fails\" ซึ่งตรงข้าม เพราะย่อหน้านี้ชี้ว่าการขยายถนน \"not ... worthless\" และแนวทางแก้ไขของนักเศรษฐศาสตร์อยู่ในย่อหน้าที่ 6"
+            },
+            {
+              "id": "AL-S3-060",
+              "stem": "The comparison with \"plumbing systems\" in the final paragraph is used to suggest that",
+              "options": [
+                "transport planners could learn a great deal from water engineers",
+                "a wider road, like a wider pipe, guarantees a faster flow",
+                "cities resist purely mechanical fixes because people adapt",
+                "water and road networks ought to be planned together"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าเมือง \"are not plumbing systems\" เพราะคนในเมือง \"respond ... to every change\" การแก้ปัญหาเชิงกลไกล้วน ๆ จึงไม่ได้ผล กับดักคือ \"a wider road, like a wider pipe, guarantees a faster flow\" ซึ่งเป็นความเชื่อที่ผู้เขียนปฏิเสธ (ใช้คำว่า \"not\") ส่วนอีกสองตัวเลือกตีความการเปรียบเทียบตามตัวอักษร"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S3-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Flattening the globe",
+          "text": "Every flat map of the world is, in a sense, a compromise. Because a sphere cannot be flattened without being stretched or torn, mapmakers must decide which properties to keep and which to sacrifice. Perhaps the best-known compromise is a projection devised in the sixteenth century for sailors. ___1___ preserve the angles between directions, it allowed a navigator to draw a straight line on the chart and follow a single compass bearing all the way to port.\n\nThe price of this convenience is a distortion of size. Regions far from the equator appear vastly larger than they really are: Greenland looks roughly as large as Africa, ___2___ Africa is in fact about fourteen times bigger. Only when such a map is placed beside a globe ___3___ the full scale of the exaggeration.\n\nSome educators argue that a lifetime of looking at these maps shapes how we picture the world, and they recommend that schools ___4___ equal-area projections alongside the traditional one. Others reply that no single map is \"correct\": a projection that shows areas faithfully must distort shapes instead. What matters, they suggest, is not ___5___ map students happen to use but whether they understand the choices behind it.",
+          "items": [
+            {
+              "id": "AL-S3-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Designed to",
+                "Designing to",
+                "Having designed to",
+                "It was designed to"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ประโยคมีประธานหลักคือ \"it allowed...\" ส่วนหน้าจึงต้องเป็น participle clause แบบ passive \"Designed to preserve\" (ถูกออกแบบมาเพื่อ) กับดักคือ \"It was designed to\" ซึ่งทำให้เกิดสองประโยคเชื่อมด้วยจุลภาคเฉย ๆ (comma splice) ส่วน \"Designing/Having designed\" เป็นรูป active ซึ่งผิดความหมาย เพราะแผนที่ไม่ได้เป็นผู้ออกแบบ"
+            },
+            {
+              "id": "AL-S3-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "despite",
+                "whereas",
+                "however",
+                "therefore"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ต้องการคำเชื่อมที่แสดงความแตกต่างและตามด้วยประโยค (Africa is...) จึงใช้ \"whereas\" กับดักคือ \"despite\" ซึ่งต้องตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค และ \"however\" เป็น adverb ที่ใช้เชื่อมประโยคหลังจุลภาคแบบนี้ไม่ได้ ส่วน \"therefore\" แสดงผลลัพธ์ ซึ่งไม่ตรงความหมาย"
+            },
+            {
+              "id": "AL-S3-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "does one appreciate",
+                "one appreciates",
+                "one does appreciate",
+                "appreciates one"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ประโยคขึ้นต้นด้วย \"Only when ...\" ต้องใช้การกลับประธานกับกริยาช่วย (inversion) คือ \"does one appreciate\" กับดักคือ \"one does appreciate\" ซึ่งมี do แต่ไม่กลับลำดับ และ \"appreciates one\" ซึ่งกลับลำดับกริยาแท้ ซึ่งใช้ไม่ได้ในภาษาอังกฤษปัจจุบัน"
+            },
+            {
+              "id": "AL-S3-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "introduced",
+                "to introduce",
+                "introduce",
+                "will introduce"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "หลัง \"recommend that + ประธาน\" ใช้ subjunctive คือ V1 ไม่ผันตามประธาน (\"that schools introduce\") กับดักคือ \"will introduce\" และ \"introduced\" ที่ผันตามกาล และ \"to introduce\" ที่ใช้หลัง that-clause ไม่ได้"
+            },
+            {
+              "id": "AL-S3-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "that",
+                "whichever",
+                "how",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"not ___ map ... but whether ...\" ต้องเป็นคำถามแบบแฝง (embedded question) ที่ขนานกับ \"whether\" จึงใช้ \"which map\" (แผนที่ใด) กับดักคือ \"whichever\" ซึ่งหมายถึง \"ไม่ว่าแผนที่ใด\" ทำให้ประโยคไม่มีความหมาย ส่วน \"that map\" ไม่ใช่คำถามแฝง และ \"how map\" ขาดคำนำหน้านาม"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Packaging grown from fungi",
+          "text": "For decades, fragile goods have been shipped in moulded polystyrene, a material that is light, cheap and almost indestructible, which is precisely the problem. ___1___ a single foam tray may survive for centuries in a landfill, manufacturers have begun to look for alternatives that protect goods just as well but disappear far sooner.\n\nOne of the more surprising candidates is grown rather than made. Mycelium, the network of thread-like roots produced by fungi, can be fed on agricultural waste such as rice husks or sawdust. Packed into a mould, it binds the loose material together over about a week, ___2___ a solid shape that is then heated to stop any further growth. The result is a lightweight block that cushions impacts ___3___ well as foam and can later be broken up and composted in a garden.\n\nNot every obstacle has been overcome. Production is slower than conventional moulding, and the blocks can absorb moisture if they are stored in humid warehouses. ___4___, costs have fallen as producers have scaled up, and some furniture and electronics makers now use mycelium for at least part of their packaging. Had the material been developed when plastics first spread around the world, there ___5___ far less foam in our landfills today.",
+          "items": [
+            {
+              "id": "AL-S3-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Given that",
+                "Even though",
+                "Unless",
+                "So that"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "การที่ถาดโฟมอยู่ได้หลายร้อยปีเป็น \"เหตุผล\" ที่ผู้ผลิตหาวัสดุทดแทน จึงใช้ \"Given that\" (เนื่องจาก) กับดักคือ \"Even though\" ซึ่งแสดงความขัดแย้ง ทำให้ความหมายกลับกัน ส่วน \"Unless\" (เว้นแต่) และ \"So that\" (เพื่อที่จะ) ไม่เข้ากับความสัมพันธ์เชิงเหตุผล"
+            },
+            {
+              "id": "AL-S3-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "formed",
+                "forming",
+                "to have formed",
+                "which forming"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ต้องการ participle clause ที่บอกผลของการกระทำในประโยคหลัก (เส้นใยยึดวัสดุแล้ว \"ก่อตัวเป็น\" รูปทรงแข็ง) จึงใช้ present participle \"forming\" กับดักคือ \"formed\" ซึ่งเป็นรูป passive ทั้งที่ mycelium เป็นผู้กระทำ และ \"which forming\" ผิดโครงสร้าง (ต้องเป็น which forms)"
+            },
+            {
+              "id": "AL-S3-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "as almost",
+                "almost as",
+                "nearly so",
+                "much more"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "การเปรียบเทียบขั้นเท่ากันใช้ \"as + adv + as\" และคำขยายต้องวางหน้า as ตัวแรก จึงเป็น \"almost as well as foam\" กับดักคือ \"as almost\" ซึ่งวางคำขยายผิดตำแหน่ง และ \"much more well\" ผิดเพราะขั้นกว่าของ well คือ better"
+            },
+            {
+              "id": "AL-S3-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "As a result",
+                "In other words",
+                "Even so",
+                "Likewise"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนกล่าวถึงอุปสรรค ประโยคหลังกล่าวถึงความก้าวหน้า (ต้นทุนลดลง มีผู้นำไปใช้) จึงต้องใช้คำเชื่อมแสดงความขัดแย้ง \"Even so\" (ถึงกระนั้น) กับดักคือ \"As a result\" ซึ่งทำให้ดูเหมือนอุปสรรคเป็นสาเหตุที่ต้นทุนลดลง"
+            },
+            {
+              "id": "AL-S3-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "would be",
+                "would have been",
+                "will be",
+                "had been"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "เป็น mixed conditional: เงื่อนไขในอดีต (Had the material been developed...) ส่งผลถึงปัจจุบัน (\"today\") จึงใช้ \"would be\" กับดักคือ \"would have been\" ซึ่งเป็นผลในอดีตของ third conditional และขัดกับคำว่า \"today\" ส่วน \"will be\" และ \"had been\" ไม่ใช่รูปผลของประโยคเงื่อนไขสมมุติ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Water from the fog",
+          "text": "In some of the driest coastal regions on Earth, rain may not fall for years at a time, yet the air is frequently thick with fog. It is this paradox ___1___ a simple technology known as fog harvesting attempts to exploit. Large vertical nets, usually made of fine plastic mesh, are stretched between poles on hillsides facing the sea. As the wind pushes fog through the mesh, tiny droplets collide with the fibres, merge and trickle down into gutters ___2___ to storage tanks below.\n\nThe quantities involved are modest. A well-placed net might collect several litres of water per square metre on a good day but ___3___ water at all on a poor one. Nevertheless, for remote villages without wells, even this can supply enough for drinking and for small vegetable gardens. ___4___ is the low cost of the equipment: the nets need no electricity and can be repaired by residents themselves.\n\nResearchers are now experimenting with mesh designs that capture droplets more efficiently. Were these new designs to prove durable in strong coastal winds, fog harvesting ___5___ a far more significant source of water than it is today.",
+          "items": [
+            {
+              "id": "AL-S3-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "what",
+                "where",
+                "whose",
+                "that"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง cleft sentence \"It is + ส่วนที่เน้น + that + ส่วนที่เหลือ\" ใช้ \"that\" (เน้น \"this paradox\" ที่เป็นกรรมของ exploit) กับดักคือ \"what\" ซึ่งใช้ใน pseudo-cleft (What ... is ...) ไม่ใช่หลัง \"It is this paradox\" และ \"where\" ใช้ไม่ได้เพราะ exploit ต้องการกรรม"
+            },
+            {
+              "id": "AL-S3-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "led",
+                "lead",
+                "leading",
+                "having led"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ต้องการ reduced relative clause ขยาย \"gutters\" ที่ \"นำไปสู่\" ถัง (gutters which lead → gutters leading) กับดักคือ \"led\" ซึ่งเป็น passive (ถูกนำ) ไม่ถูกความหมาย ส่วน \"lead\" เป็นกริยาแท้ที่ไม่มีคำเชื่อม และ \"having led\" แสดงการกระทำที่เสร็จก่อน ไม่ใช่ลักษณะถาวรของรางน้ำ"
+            },
+            {
+              "id": "AL-S3-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "hardly no",
+                "hardly any",
+                "a few",
+                "much"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"water\" เป็นนามนับไม่ได้ และ \"at all\" ต้องใช้กับความหมายปฏิเสธ จึงใช้ \"hardly any water at all\" กับดักคือ \"hardly no\" ซึ่งเป็นปฏิเสธซ้อน \"a few\" ใช้กับนามนับได้ และ \"much water at all\" ขาดความหมายเชิงปฏิเสธ"
+            },
+            {
+              "id": "AL-S3-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Equally importantly",
+                "As important as",
+                "Equally important",
+                "Important equally"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "เป็นการกลับประโยคโดยยกส่วนเติมเต็ม (adjective) ขึ้นหน้า: \"The low cost is equally important\" → \"Equally important is the low cost\" จึงต้องใช้คำคุณศัพท์ important กับดักคือ \"Equally importantly\" ซึ่งเป็น adverb ใช้ขึ้นต้นประโยคธรรมดาได้ แต่ทำหน้าที่ส่วนเติมเต็มหลัง is ไม่ได้ และ \"As important as\" ขาดสิ่งที่นำมาเปรียบเทียบ"
+            },
+            {
+              "id": "AL-S3-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "could become",
+                "can become",
+                "could have become",
+                "became"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "\"Were these new designs to prove...\" เป็นประโยคเงื่อนไขแบบที่ 2 ที่กลับประธาน (= If these designs were to prove) ผลจึงต้องเป็น \"could/would + V1\" กับดักคือ \"could have become\" ซึ่งเป็นผลของเงื่อนไขในอดีต และ \"can become\" ใช้กับเงื่อนไขที่เป็นจริง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How peer review works",
+          "text": "A. This whole process, from first reading to final decision, is known as peer review.\nB. Before a scientific study appears in a journal, it is usually sent to two or three experts in the same field.\nC. These reviewers read the paper closely, checking whether its methods are sound and its conclusions justified.\nD. It is not, however, a guarantee of truth, since reviewers rarely have access to the original data.\nE. Based on their comments, the editor then decides whether to accept the paper, reject it or ask for revisions.",
+          "items": [
+            {
+              "id": "AL-S3-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – C – E – A – D",
+                "B – C – A – E – D",
+                "B – A – C – E – D",
+                "C – B – E – A – D"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "B เปิดเรื่อง (ส่งบทความให้ผู้เชี่ยวชาญ) → C \"These reviewers\" → E \"their comments ... the editor then decides\" → A \"This whole process, from first reading to final decision\" ต้องมาหลังการตัดสินใจของบรรณาธิการ → D \"It is not, however...\" ข้อจำกัดของกระบวนการ กับดักคือวาง A หลัง C ซึ่ง \"final decision\" ยังไม่เกิด และ \"their comments\" ใน E จะห่างจาก reviewers"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Keeping a sourdough starter",
+          "text": "A. Over the following days, wild yeasts and bacteria from the flour and the air begin to multiply.\nB. A sourdough starter begins as nothing more than flour and water stirred together in a jar.\nC. Once it reliably doubles in size within a few hours of being fed, it is ready to be used in bread.\nD. The bacteria, meanwhile, produce acids that give the bread its characteristic sour tang.\nE. The yeasts release carbon dioxide, which is what makes the mixture bubble and rise.",
+          "items": [
+            {
+              "id": "AL-S3-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – D – E – C",
+                "B – A – E – D – C",
+                "B – E – A – D – C",
+                "A – B – E – D – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "B แนะนำส่วนผสมตั้งต้น → A \"Over the following days\" ยีสต์และแบคทีเรียเพิ่มจำนวน → E บทบาทของยีสต์ → D \"The bacteria, meanwhile\" ต้องตามหลังยีสต์ เพราะ meanwhile เทียบกับสิ่งที่เพิ่งกล่าว → C \"it\" (starter) พร้อมใช้งาน กับดักคือสลับ D กับ E ซึ่งทำให้ \"meanwhile\" ไม่มีสิ่งให้เทียบ และการขึ้นต้นด้วย A ทำให้ \"the following days\" ไม่มีจุดเริ่มต้น"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How noise-cancelling headphones work",
+          "text": "A. A microphone on the outside of each ear cup first picks up the incoming sound.\nB. Noise-cancelling headphones do not simply block sound; they fight it with more sound.\nC. When the two waves meet, they largely cancel each other out, leaving the listener in near silence.\nD. This approach works best, however, on steady, low-pitched noise such as the hum of an engine.\nE. A tiny processor then generates a wave that is the exact mirror image of the one detected.",
+          "items": [
+            {
+              "id": "AL-S3-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – E – A – C – D",
+                "B – A – E – C – D",
+                "B – A – C – E – D",
+                "B – A – E – D – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "B บอกหลักการ → A \"first\" ไมโครโฟนรับเสียง → E \"then ... the one detected\" ต้องมาหลังการตรวจจับ → C \"the two waves\" (คลื่นเสียงรบกวนกับคลื่นกลับด้าน) → D \"This approach ... however\" ข้อจำกัด กับดักคือวาง C ก่อน E ซึ่ง \"the two waves\" ยังมีไม่ครบ และวาง D ก่อน C ซึ่งพูดถึงข้อจำกัดก่อนอธิบายกลไกเสร็จ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Finding the way in the dark",
+          "text": "A. By measuring how long each echo takes to return, a bat can judge how far away an object is.\nB. Many bats hunt in complete darkness, yet they rarely collide with anything.\nC. Their secret is echolocation: they emit high-pitched calls and listen for the echoes that bounce back.\nD. The tiny difference in timing between its two ears also reveals the direction of the object.\nE. Some moths have evolved to exploit this, producing clicks of their own that confuse the bat.",
+          "items": [
+            {
+              "id": "AL-S3-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – C – A – D – E",
+                "B – C – D – A – E",
+                "C – B – A – D – E",
+                "B – A – C – D – E"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "B ตั้งข้อสงสัย (\"yet they rarely collide\") → C \"Their secret is echolocation\" ให้คำตอบ → A การวัดระยะทาง → D \"also reveals the direction\" คำว่า also แสดงว่าเป็นข้อมูลเพิ่มจาก A และ \"its two ears\" อ้างถึง \"a bat\" ใน A → E \"exploit this\" ผีเสื้อกลางคืนใช้ประโยชน์จากระบบนี้ กับดักคือวาง D ก่อน A ซึ่งทำให้ \"also\" และ \"its\" ไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S3-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Restoring a faded banner",
+          "text": "A. Rather than repainting the faded areas, the team chose to leave them exactly as they were.\nB. When a nineteenth-century silk banner arrived at the Thepsiri Textile Museum, its once-bright colours had almost vanished.\nC. Their reasoning was that any added colour would be a guess, and a guess could mislead future researchers.\nD. Instead, visitors can now scan a label to see a digital reconstruction of how the banner may once have looked.\nE. Conservators first stabilised the fragile fibres by stitching them onto a fine supporting net.",
+          "items": [
+            {
+              "id": "AL-S3-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – C – E – D",
+                "E – B – A – C – D",
+                "B – E – C – A – D",
+                "B – E – A – C – D"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "B แนะนำผืนธงที่สีซีด → E \"first\" ขั้นแรกคือเสริมความแข็งแรงของเส้นใย → A การตัดสินใจไม่ทาสีใหม่ → C \"Their reasoning\" อธิบายเหตุผลของการตัดสินใจใน A → D \"Instead\" ทางเลือกแทนการเติมสีจริง กับดักคือวาง C ก่อน A ซึ่งให้เหตุผลก่อนที่จะมีการตัดสินใจ และการขึ้นต้นด้วย E ทำให้ \"the fragile fibres\" ไม่รู้ว่าเป็นของอะไร"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI)",
+    "date": "2026-11-10",
+    "agree": 80,
+    "total": 80,
+    "rounds": "v1.19.2: ผู้ตรวจอิสระทำแบบไม่เห็นเฉลย ตรง 80/80 · 79 ข้อมั่นใจ · ข้อ 025 ถ้อยคำโฆษณาตีความได้ 2 แบบ → แก้ข้อความเป็น \"may choose this offer or 10% off … cannot be combined\" ให้เหลือคำตอบเดียว · ประเมินว่ายากกว่าชุดมาตรฐาน และยุติธรรม"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "batch": "13",
+  "reviewed": 125,
+  "issues": [
+    {"id": "A2-S0426", "severity": "minor", "problem": "gapOk too optimistic: 'wasn't badly ___' also fits 'injured' equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0436", "severity": "minor", "problem": "gapOk too optimistic: 'rose', 'grew' or 'went up' fit 'The number of visitors ___ from 200 to 500' equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0443", "severity": "minor", "problem": "gapOk too optimistic: 'casual clothes' fits the gap as well as 'informal clothes'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0447", "severity": "minor", "problem": "gapOk too optimistic: 'let's go ___' also takes 'in' or 'home'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0462", "severity": "minor", "problem": "'items on sale' is ambiguous (UK: available to buy; US: discounted); the exampleTH reads it as 'discounted', which hides the meaning of 'item'.", "fix": {"example": "This small shop sells more than a thousand different items.", "form": "items", "exampleTH": "ร้านเล็กๆ ร้านนี้ขายสินค้ามากกว่าหนึ่งพันรายการ"}},
+    {"id": "A2-S0469", "severity": "minor", "problem": "gapOk too optimistic: 'reporter' fits equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0474", "severity": "minor", "problem": "gapOk too optimistic: 'the ___ lived in a huge castle' also takes queen, prince or princess.", "fix": {"example": "The king and his queen lived in a huge castle.", "form": "king", "exampleTH": "พระราชากับพระราชินีอาศัยอยู่ในปราสาทหลังใหญ่"}},
+    {"id": "A2-S0484", "severity": "minor", "problem": "gapOk too optimistic: 'computer', 'tablet' or 'phone' also fit 'bring my ___ to the café to work'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0486", "severity": "minor", "problem": "gapOk too optimistic: 'Nok was the ___ to leave the office' also takes 'first'.", "fix": {"example": "Everyone else had gone home, so Nok was the last to leave.", "form": "last", "exampleTH": "คนอื่นกลับบ้านกันหมดแล้ว นกจึงเป็นคนสุดท้ายที่ออกไป"}},
+    {"id": "A2-S0488", "severity": "minor", "problem": "shortTH 'ที่ช้ากว่า' can be read as 'slower', so it is unclear as an answer choice. 'ทีหลัง' is clearer.", "fix": {"thai": "ทีหลัง, ภายหลัง", "shortTH": "ทีหลัง", "thaiChangeReason": "'ที่ช้ากว่า' อาจเข้าใจผิดว่าเร็วน้อยกว่า ใช้ 'ทีหลัง' ชัดเจนกว่า"}},
+    {"id": "A2-S0492", "severity": "minor", "problem": "gapOk too optimistic: 'tired' fits 'I feel ___ and stay in bed' equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0494", "severity": "minor", "problem": "gapOk too optimistic: 'member', 'president' or 'head' fit 'Nok is the ___ of our science club'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0508", "severity": "minor", "problem": "gapOk too optimistic: 'too heavy for me to ___' also takes 'carry'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0510", "severity": "minor", "problem": "Collocation 'well lit room' belongs to a different sense (give light to), not 'make something start burning'.", "fix": {"collocations": ["light a candle", "light a fire", "light a match"]}},
+    {"id": "A2-S0526", "severity": "minor", "problem": "gapOk too optimistic: 'jumped over the ___ wall' also takes 'high' or 'small'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0527", "severity": "minor", "problem": "gapOk too optimistic: 'The plane flew very ___ over the beach' also takes 'high'.", "fix": {"example": "The bird flew low, just above the water.", "form": "low", "exampleTH": "นกบินต่ำเฉียดผิวน้ำ"}},
+    {"id": "A2-S0531", "severity": "minor", "problem": "gapOk too optimistic: 'sent' fits 'I ___ the birthday card to my aunt' equally well.", "fix": {"gapOk": false}},
+    {"id": "A2-S0538", "severity": "minor", "problem": "gapOk too optimistic: 'checked' or 'corrected' fit 'Our teacher ___ our tests'.", "fix": {"gapOk": false}},
+    {"id": "A2-S0547", "severity": "minor", "problem": "The example uses the fixed compound 'social media', which does not show the meaningEN (TV, radio, newspapers) and makes the gap trivial.", "fix": {"example": "The flood was big news in the media, on TV and online.", "form": "media", "exampleTH": "น้ำท่วมครั้งนั้นเป็นข่าวใหญ่ในสื่อ ทั้งทางทีวีและออนไลน์", "gapOk": false}},
+    {"id": "A2-S0548", "severity": "minor", "problem": "gapOk too optimistic: 'regular ___ checks' also takes 'health'.", "fix": {"gapOk": false}}
+  ]
+}

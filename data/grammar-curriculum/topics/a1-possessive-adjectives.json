@@ -1,0 +1,214 @@
+{
+  "id": "a1-possessive-adjectives",
+  "summaryTh": "ใช้ my, your, his, her, its, our, their หน้าคำนาม เพื่อบอกว่าเป็นของใคร",
+  "concept": {
+    "what": "Possessive adjective คือคำบอกความเป็นเจ้าของที่วาง \"หน้า\" คำนามเสมอ ได้แก่ my (ของฉัน), your (ของคุณ), his (ของเขา-ชาย), her (ของเธอ), its (ของมัน), our (ของพวกเรา), their (ของพวกเขา)",
+    "when": [
+      "บอกว่าสิ่งของหรือคนเป็นของใคร/เกี่ยวข้องกับใคร (my bag, her mother, our school)",
+      "เลือกคำตามเจ้าของ ไม่ใช่ตามสิ่งของ: Ben loves his mother. (Ben เป็นผู้ชาย จึงใช้ his)",
+      "พูดถึงชื่อ อายุ ครอบครัว: My name is Ploy. Their house is big."
+    ],
+    "why": "ภาษาไทยวาง \"ของฉัน\" ไว้หลังคำนาม (กระเป๋าของฉัน) แต่ภาษาอังกฤษวางไว้หน้า (my bag) และภาษาไทยใช้ \"ของเขา\" ทั้งชายหญิง แต่ภาษาอังกฤษต้องแยก his / her"
+  },
+  "structure": {
+    "formula": "Possessive adjective + Noun",
+    "rows": [
+      { "label": "เอกพจน์ (Singular owners)", "formula": "my / your / his / her / its + noun", "example": "[[His]] sister is a singer." },
+      { "label": "พหูพจน์ (Plural owners)", "formula": "our / your / their + noun", "example": "[[Our]] teacher is very kind." },
+      { "label": "คำถาม (Question)", "formula": "What is + your / his / her + noun?", "example": "What is [[your]] phone number?" },
+      { "label": "ประธาน → คำแสดงเจ้าของ", "formula": "I → my · you → your · he → his · she → her · it → its · we → our · they → their", "example": "They love [[their]] dog." }
+    ],
+    "notes": [
+      "ต้องมีคำนามตามหลังเสมอ: This is my bag. (ไม่ใช่ This is my.)",
+      "his / her ดูที่เจ้าของ: Mai and her brother · Tom and his sister",
+      "its (ของมัน) ไม่มี ' — it's = it is",
+      "their (ของพวกเขา) ต่างจาก there (ที่นั่น) และ they're (= they are)",
+      "คำนามหลังคำเหล่านี้ไม่ต้องมี a / an / the: my car (ไม่ใช่ my the car)"
+    ]
+  },
+  "examples": [
+    { "en": "[[My]] name is Nok.", "th": "ฉันชื่อนก" },
+    { "en": "What is [[your]] phone number?", "th": "เบอร์โทรศัพท์ของคุณคืออะไร" },
+    { "en": "Tom lives with [[his]] grandparents.", "th": "ทอมอาศัยอยู่กับปู่ย่าของเขา" },
+    { "en": "[[Her]] brother lives in Japan.", "th": "พี่ชายของเธออาศัยอยู่ที่ญี่ปุ่น" },
+    { "en": "The dog is eating [[its]] food.", "th": "หมากำลังกินอาหารของมัน" },
+    { "en": "[[Our]] school is near the river.", "th": "โรงเรียนของพวกเราอยู่ใกล้แม่น้ำ" },
+    { "en": "The children are in [[their]] classroom.", "th": "เด็ก ๆ อยู่ในห้องเรียนของพวกเขา" },
+    { "en": "Is this [[your]] bag?", "th": "นี่กระเป๋าของคุณใช่ไหม" }
+  ],
+  "mistakes": [
+    { "wrong": "This is book my.", "right": "This is my book.", "whyTh": "ภาษาไทยพูด \"หนังสือของฉัน\" (คำนามมาก่อน) แต่ภาษาอังกฤษวาง my หน้าคำนาม" },
+    { "wrong": "My brother lives with her wife in Bangkok.", "right": "My brother lives with his wife in Bangkok.", "whyTh": "เลือก his / her ตามเจ้าของ ไม่ใช่ตามคำนามข้างหลัง — เจ้าของคือ brother (ผู้ชาย) จึงใช้ his แม้ wife จะเป็นผู้หญิง" },
+    { "wrong": "The cat is playing with it's ball.", "right": "The cat is playing with its ball.", "whyTh": "its (ของมัน) ไม่มีเครื่องหมาย ' — it's ย่อมาจาก it is" },
+    { "wrong": "They love they dog.", "right": "They love their dog.", "whyTh": "they เป็นประธาน ถ้าบอกว่า \"ของพวกเขา\" ต้องใช้ their" },
+    { "wrong": "Me name is Tom.", "right": "My name is Tom.", "whyTh": "me เป็นรูปกรรม คำแสดงเจ้าของ \"ของฉัน\" คือ my" },
+    { "wrong": "I like you shirt.", "right": "I like your shirt.", "whyTh": "you เป็นสรรพนาม แต่ \"ของคุณ\" ต้องใช้ your หน้าคำนาม" }
+  ],
+  "compare": {
+    "title": "Object pronouns vs Possessive adjectives",
+    "with": ["a1-object-pronouns"],
+    "rows": [
+      { "label": "หน้าที่", "a": "รับการกระทำ อยู่หลังกริยาหรือบุพบท", "b": "บอกว่าเป็นของใคร อยู่หน้าคำนามเสมอ" },
+      { "label": "รูปคำ", "a": "me, him, her, it, us, them", "b": "my, his, her, its, our, their" },
+      { "label": "ตัวอย่าง", "a": "I call him every day.", "b": "I call his mother every day." }
+    ],
+    "tipTh": "ถ้ามีคำนามตามหลัง (her bag) = possessive adjective · ถ้าไม่มีคำนามตาม (I see her.) = object pronoun — her ใช้ได้ทั้งสองแบบ"
+  },
+  "contexts": [
+    {
+      "kind": "email", "title": "My family photo",
+      "lines": [
+        { "text": "Hi Sam, This is a photo of [[my]] family. [[My]] dad is a chef and [[his]] restaurant is in Phuket. [[My]] mum is a nurse. [[Her]] hospital is very big. [[My]] brothers love football. [[Their]] team is the Blue Stars. [[Our]] dog, Mo, is in the photo too! What about [[your]] family? Bye, Fern" }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "Lost and found",
+      "lines": [
+        { "speaker": "Teacher", "text": "Whose jacket is this? Is it [[your]] jacket, Max?" },
+        { "speaker": "Max", "text": "No, [[my]] jacket is blue. I think it's Lily's. [[Her]] jacket is red." },
+        { "speaker": "Teacher", "text": "Thanks. And these shoes? They're the twins' shoes, I think. [[Their]] names are inside." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Possessive adjective", "th": "คำแสดงความเป็นเจ้าของที่วางหน้าคำนาม (my, your, his …)" },
+    { "en": "Owner", "th": "เจ้าของ — คนหรือสิ่งที่เป็นเจ้าของ" },
+    { "en": "Noun", "th": "คำนาม — ชื่อคน สัตว์ สิ่งของ สถานที่" }
+  ],
+  "practice": [
+    {
+      "id": "a1-possessive-adjectives-01", "type": "mc", "difficulty": 1,
+      "question": "Hello! ___ name is Ploy and I'm from Lampang.",
+      "choices": ["I", "Me", "My", "Mine"], "answer": 2,
+      "whyNot": { "0": "I เป็นประธาน ไม่ได้บอกความเป็นเจ้าของ", "1": "Me เป็นรูปกรรม ใช้บอกความเป็นเจ้าของไม่ได้", "3": "Mine ใช้ตามลำพังโดยไม่มีคำนามตาม แต่ที่นี่มี name ตามหลัง" },
+      "explainTh": "\"ชื่อของฉัน\" ใช้ my วางหน้าคำนาม → My name",
+      "structure": "my + noun", "example": "My name is Ploy."
+    },
+    {
+      "id": "a1-possessive-adjectives-02", "type": "mc", "difficulty": 1,
+      "question": "Tom is at the park with ___ dad. They are playing football.",
+      "choices": ["he", "his", "her", "him"], "answer": 1,
+      "whyNot": { "0": "he เป็นประธาน ใช้หน้าคำนามบอกเจ้าของไม่ได้", "2": "her ใช้เมื่อเจ้าของเป็นผู้หญิง แต่ Tom เป็นผู้ชาย", "3": "him เป็นรูปกรรม ใช้หน้าคำนามไม่ได้" },
+      "explainTh": "เจ้าของคือ Tom (ผู้ชาย) → his dad",
+      "structure": "his + noun", "example": "Tom is at the park with his dad."
+    },
+    {
+      "id": "a1-possessive-adjectives-03", "type": "fill", "difficulty": 1,
+      "question": "Mai has a new phone. ___ phone is pink. (ของ Mai)",
+      "accepted": ["Her"],
+      "explainTh": "เจ้าของคือ Mai (ผู้หญิง) → Her phone",
+      "structure": "her + noun", "example": "Her phone is pink."
+    },
+    {
+      "id": "a1-possessive-adjectives-04", "type": "fill", "difficulty": 2,
+      "question": "We love ___ new teacher. She is very funny. (ของพวกเรา)",
+      "accepted": ["our"],
+      "explainTh": "\"ของพวกเรา\" = our (มาจาก we)",
+      "structure": "our + noun", "example": "We love our new teacher."
+    },
+    {
+      "id": "a1-possessive-adjectives-05", "type": "fill", "difficulty": 2,
+      "question": "The bird is in ___ nest. (ของมัน)",
+      "accepted": ["its"],
+      "explainTh": "\"ของมัน\" = its (ไม่มี ') — it's แปลว่า it is",
+      "structure": "its + noun", "example": "The bird is in its nest."
+    },
+    {
+      "id": "a1-possessive-adjectives-06", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่สรรพนามประธานกับคำแสดงความเป็นเจ้าของ",
+      "pairs": [["I", "my"], ["he", "his"], ["she", "her"], ["we", "our"], ["they", "their"]],
+      "explainTh": "I → my · he → his · she → her · we → our · they → their (you → your, it → its)"
+    },
+    {
+      "id": "a1-possessive-adjectives-07", "type": "error", "difficulty": 1,
+      "sentence": "This is pen my.",
+      "errorPart": "pen my",
+      "accepted": ["This is my pen."],
+      "explainTh": "my ต้องวางหน้าคำนาม → my pen (ไม่ใช่เรียงแบบภาษาไทย \"ปากกาของฉัน\")",
+      "structure": "my + noun"
+    },
+    {
+      "id": "a1-possessive-adjectives-08", "type": "error", "difficulty": 2,
+      "sentence": "Jack and Jill are washing they car.",
+      "errorPart": "they",
+      "accepted": ["Jack and Jill are washing their car."],
+      "explainTh": "they เป็นประธาน ถ้าจะบอกว่า \"รถของพวกเขา\" ต้องใช้ their",
+      "structure": "their + noun"
+    },
+    {
+      "id": "a1-possessive-adjectives-09", "type": "error", "difficulty": 3,
+      "sentence": "The cat is eating it's dinner.",
+      "errorPart": "it's",
+      "accepted": ["The cat is eating its dinner."],
+      "explainTh": "\"อาหารของมัน\" ใช้ its (ไม่มี ') — it's = it is ซึ่งไม่เข้ากับประโยคนี้",
+      "structure": "its + noun"
+    },
+    {
+      "id": "a1-possessive-adjectives-10", "type": "order", "difficulty": 1,
+      "tokens": ["is", "name", "what", "your"],
+      "accepted": ["What is your name?"],
+      "explainTh": "คำถาม: What + is + your name? — your วางหน้า name"
+    },
+    {
+      "id": "a1-possessive-adjectives-11", "type": "order", "difficulty": 2,
+      "tokens": ["their", "in", "live", "Chiang Mai", "grandparents"],
+      "accepted": ["Their grandparents live in Chiang Mai."],
+      "explainTh": "their วางหน้าคำนาม grandparents → Their grandparents + live + in Chiang Mai"
+    },
+    {
+      "id": "a1-possessive-adjectives-12", "type": "transform", "difficulty": 2,
+      "source": "That is Somchai's car.",
+      "instruction": "เปลี่ยน Somchai's เป็นคำแสดงความเป็นเจ้าของ (possessive adjective)",
+      "accepted": ["That is his car."],
+      "explainTh": "Somchai เป็นผู้ชาย → Somchai's = his",
+      "structure": "his + noun", "example": "That is his car."
+    },
+    {
+      "id": "a1-possessive-adjectives-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["They are washing they car.", "They are washing their car.", "They are washing there car.", "They are washing them car."], "answer": 1,
+      "whyNot": { "0": "they เป็นประธาน ใช้หน้าคำนามบอกเจ้าของไม่ได้", "2": "there แปลว่า \"ที่นั่น\" ออกเสียงเหมือน their แต่ความหมายต่างกัน", "3": "them เป็นรูปกรรม ใช้หน้าคำนามไม่ได้" },
+      "explainTh": "\"รถของพวกเขา\" = their car",
+      "structure": "their + noun", "example": "They are washing their car."
+    },
+    {
+      "id": "a1-possessive-adjectives-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Is this Anna's jacket?" },
+        { "speaker": "B", "text": "No, it isn't. ___ jacket is red." }
+      ] },
+      "choices": ["She", "Her", "His", "Hers"], "answer": 1,
+      "whyNot": { "0": "She เป็นประธาน ใช้หน้าคำนามบอกเจ้าของไม่ได้", "2": "His ใช้เมื่อเจ้าของเป็นผู้ชาย แต่ Anna เป็นผู้หญิง", "3": "Hers ใช้ตามลำพัง ไม่มีคำนามตามหลัง แต่ที่นี่มี jacket ตาม" },
+      "explainTh": "เจ้าของคือ Anna (ผู้หญิง) และมีคำนาม jacket ตามหลัง → Her jacket",
+      "structure": "her + noun", "example": "Her jacket is red."
+    },
+    {
+      "id": "a1-possessive-adjectives-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "email", "title": "My family photo", "lines": [
+        { "text": "Hi Sam, This is a photo of my family. My dad is a chef and his restaurant is in Phuket. My mum is a nurse. Her hospital is very big. My brothers love football. Their team is the Blue Stars." }
+      ] },
+      "question": "Whose restaurant is in Phuket?",
+      "choices": ["The mum's", "The dad's", "The brothers'", "Sam's"], "answer": 1,
+      "whyNot": { "0": "ของแม่คือ Her hospital (โรงพยาบาล)", "2": "ของพี่ชาย/น้องชายคือ Their team (ทีมฟุตบอล)", "3": "Sam เป็นคนรับอีเมล ไม่ได้พูดถึงร้านของ Sam" },
+      "explainTh": "\"My dad is a chef and his restaurant is in Phuket\" — his หมายถึง dad (ผู้ชาย)"
+    },
+    {
+      "id": "a1-possessive-adjectives-16", "type": "mc", "difficulty": 3,
+      "question": "The students are in ___ classroom now.",
+      "choices": ["their", "they", "there", "them"], "answer": 0,
+      "whyNot": { "1": "they เป็นประธาน ใช้หน้าคำนามไม่ได้", "2": "there แปลว่า \"ที่นั่น\" ออกเสียงเหมือน their แต่ไม่ได้บอกเจ้าของ", "3": "them เป็นรูปกรรม ใช้หน้าคำนามไม่ได้" },
+      "explainTh": "เจ้าของคือ the students (หลายคน) → their classroom",
+      "structure": "their + noun", "example": "The students are in their classroom now."
+    },
+    {
+      "id": "a1-possessive-adjectives-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับคนในครอบครัว ใช้ my, his, her, our หรือ their (Write 3 sentences about your family. Use my, his, her, our or their.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(his|her|our|their)\\s+[a-z]+", "flags": "i", "msgTh": "ใช้ his, her, our หรือ their + คำนาม อย่างน้อย 1 ครั้ง" }
+      ],
+      "sample": "My father is a farmer. His name is Somsak. My sisters are students and their school is near our house.",
+      "explainTh": "วางคำแสดงความเป็นเจ้าของหน้าคำนาม และเลือกตามเจ้าของ: father → his · sisters → their · we → our"
+    }
+  ]
+}

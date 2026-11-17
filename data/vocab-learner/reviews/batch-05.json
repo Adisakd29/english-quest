@@ -1,0 +1,66 @@
+{
+  "batch": "05",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0505",
+      "severity": "minor",
+      "problem": "meaningEN describes light as brightness, but 'turn on the light' uses light as the lamp itself (countable); definition and example show different sub-senses.",
+      "fix": { "example": "There isn't enough light here to read.", "form": "light", "exampleTH": "ตรงนี้แสงไม่พอให้อ่านหนังสือ", "gapOk": true }
+    },
+    {
+      "id": "A1-S0514",
+      "severity": "minor",
+      "problem": "'very little hands' is awkward and clashes with the determiner use 'very little' (= almost none), which is the next item; confusing for learners.",
+      "fix": { "example": "My sister has a cute little dog.", "form": "little", "exampleTH": "พี่สาวของฉันมีหมาตัวเล็กน่ารัก", "gapOk": false }
+    },
+    {
+      "id": "A1-S0539",
+      "severity": "minor",
+      "problem": "Item is the adjective (state: having a husband/wife) but the example 'got married' shows the event of marrying.",
+      "fix": { "example": "My older sister is married and has two children.", "form": "married", "exampleTH": "พี่สาวของฉันแต่งงานแล้วและมีลูกสองคน", "gapOk": true }
+    },
+    {
+      "id": "A1-S0512",
+      "severity": "minor",
+      "problem": "Thai 'ทำรายการ' usually means to make a transaction (e.g. at an ATM); as shortTH it is misleading for the verb 'list'.",
+      "fix": { "thai": "เขียนเป็นรายการ, ระบุ, บอกเป็นข้อ ๆ", "shortTH": "เขียนเป็นรายการ", "thaiChangeReason": "คำว่า ทำรายการ มักหมายถึงการทำธุรกรรม เช่น ทำรายการที่ตู้ ATM จึงไม่ตรงความหมาย" }
+    },
+    {
+      "id": "A1-S0536",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Let's check the ___ on your phone' fits messages, weather, time, etc.",
+      "fix": { "example": "We're lost. Let's look at the map.", "form": "map", "exampleTH": "เราหลงทางแล้ว มาดูแผนที่กันเถอะ", "gapOk": true }
+    },
+    {
+      "id": "A1-S0555",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'went to bed after ___' fits ten, eleven, dinner, etc.",
+      "fix": { "gapOk": false }
+    },
+    {
+      "id": "A1-S0570",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'This dress is ___ expensive than that one' — 'less' fits equally well.",
+      "fix": { "gapOk": false }
+    },
+    {
+      "id": "A1-S0501",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Grandma wrote me a long ___ from Japan' — 'email' fits equally well.",
+      "fix": { "gapOk": false }
+    },
+    {
+      "id": "A1-S0575",
+      "severity": "minor",
+      "problem": "Present perfect with 'for twenty years' is above A1 level.",
+      "fix": { "example": "My mother and father work in the same office.", "form": "mother", "exampleTH": "พ่อกับแม่ของฉันทำงานที่สำนักงานเดียวกัน", "gapOk": true }
+    },
+    {
+      "id": "A1-S0523",
+      "severity": "minor",
+      "problem": "noteTH says you must always use 'a lot', but 'lots' is also common; note is inaccurate.",
+      "fix": { "noteTH": "ใช้ในรูป a lot หรือ lots ไม่ใช้ lot ตัวเดียว" }
+    }
+  ]
+}

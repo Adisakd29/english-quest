@@ -1,0 +1,127 @@
+/* =====================================================================
+   Lesson Kit — สไตล์ส่วนประกอบกลาง (ใช้ร่วม Vocabulary + Grammar)
+   LessonProgress · Collapsible · ExpReward · แบบฝึกชนิดใหม่ (ลากคำ / หาคำผิด / ถูก-ผิด / เลือกรูปแบบ)
+   ===================================================================== */
+
+/* ---------- LessonProgress: Step x / N + เปอร์เซ็นต์ ---------- */
+.lk-progress { margin: 4px 0 6px; }
+.lk-progress-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.6; }
+.lk-progress-top b { color: var(--color-text); font-size: 0.95rem; }
+.lk-progress-pct { font-weight: 800; color: var(--color-primary); font-variant-numeric: tabular-nums; }
+.lk-progress-bar { position: relative; height: 10px; border-radius: 99px; background: var(--color-surface-2); overflow: hidden; }
+.lk-progress-bar > span { position: absolute; inset: 0 auto 0 0; border-radius: inherit; background: linear-gradient(90deg, var(--color-primary), var(--color-secondary)); transition: width 0.45s ease; }
+.footprint.missed { background: var(--color-danger); }
+
+/* ---------- ExpReward: แถบ EXP บน HUD ขยับเบา ๆ ---------- */
+#hud-exp-wrap.exp-bump { animation: lk-bump 0.6s ease-out; }
+@keyframes lk-bump { 0% { transform: scale(1); } 35% { transform: scale(1.04); } 100% { transform: scale(1); } }
+.lk-fb-exp { margin-left: auto; padding: 1px 10px; border-radius: 99px; font-size: 0.8rem; font-weight: 800; background: var(--color-warning-soft); color: var(--color-warning); }
+
+/* ---------- Collapsible (ซ่อนหัวข้อ / แสดงหัวข้อ) ----------
+   ความสูงจริงของเนื้อหาด้วย grid-template-rows 0fr↔1fr (ไม่ใช้ max-height เดา) · ปิดแล้ว visibility:hidden + inert
+   = ไม่ถูกโฟกัส/ไม่ถูกอ่านโดย screen reader · เปลี่ยนแค่ความสูงของส่วนนี้ ไม่กระโดดทั้งหน้า */
+.lk-cx-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 6px 14px;
+  border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-primary);
+  font: inherit; font-weight: 800; font-size: 0.9rem; cursor: pointer; line-height: 1.5;
+}
+.lk-cx-btn small { font-weight: 600; color: var(--color-text-muted); }
+.lk-cx-btn:hover { border-color: currentColor; }
+.lk-cx-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.lk-cx-chev { transition: transform 0.25s ease; }
+.lk-cx-btn[aria-expanded="true"] .lk-cx-chev { transform: rotate(180deg); }
+.lk-cx { display: grid; grid-template-rows: 1fr; opacity: 1; visibility: visible;
+  transition: grid-template-rows 0.3s ease, opacity 0.22s ease, visibility 0s linear 0s; }
+.lk-cx[data-open="false"] { grid-template-rows: 0fr; opacity: 0; visibility: hidden;
+  transition: grid-template-rows 0.3s ease, opacity 0.2s ease, visibility 0s linear 0.3s; }
+.lk-cx-inner { min-height: 0; overflow: hidden; }
+@media (prefers-reduced-motion: reduce) { .lk-cx, .lk-cx[data-open="false"], .lk-cx-chev { transition: none; } }
+
+/* ---------- ลากคำลงช่องว่าง ---------- */
+.lk-drop {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 5.5em; min-height: 44px; margin: 2px 6px; padding: 2px 6px; vertical-align: middle;
+  border-radius: 12px; border: 2px dashed var(--color-primary); background: var(--color-primary-soft); transition: background 0.15s ease, border-color 0.15s ease;
+}
+.lk-drop.is-over { background: color-mix(in srgb, var(--color-primary) 22%, var(--color-surface)); border-style: solid; }
+.lk-drop.is-filled { border-style: solid; }
+.lk-drop .lk-chip { margin: 0; }
+.lk-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; min-height: 48px; }
+.lk-chip {
+  min-height: 44px; min-width: 44px; padding: 6px 16px; border-radius: 12px; border: 2px solid var(--color-border); background: var(--color-surface);
+  color: var(--color-text); font: inherit; font-weight: 700; cursor: grab; touch-action: none; user-select: none; box-shadow: 0 2px 0 var(--color-border);
+}
+.lk-chip.is-drag { cursor: grabbing; position: relative; z-index: 5; box-shadow: var(--shadow-md); transition: none; }
+.lk-chip:focus-visible, .lk-tok:focus-visible, .lk-tf-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.lk-chip.is-right { border-color: var(--color-success); background: var(--color-success-soft); }
+.lk-chip.is-wrong { border-color: var(--color-danger); background: var(--color-danger-soft); }
+.lk-fillin { background: var(--color-success-soft); color: var(--color-success); border-radius: 6px; padding: 0 6px; font-weight: 800; animation: lk-fill 0.45s ease-out; }
+@keyframes lk-fill { from { opacity: 0; transform: translate3d(0, -6px, 0) scale(0.9); } to { opacity: 1; transform: none; } }
+
+/* ---------- แตะคำที่ผิด ---------- */
+.lk-detect { display: flex; flex-wrap: wrap; gap: 6px; line-height: 1.6; }
+.lk-tok {
+  min-height: 44px; padding: 4px 10px; border-radius: 10px; border: 2px solid transparent; background: var(--color-surface-2);
+  color: var(--color-text); font: inherit; font-weight: 700; cursor: pointer;
+}
+.lk-tok[aria-pressed="true"] { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.lk-tok.is-right { border-color: var(--color-danger); background: var(--color-danger-soft); text-decoration: line-through; text-decoration-thickness: 2px; }
+.lk-tok.is-wrong { border-color: var(--color-warning); }
+
+/* ---------- ถูก / ผิด ---------- */
+.lk-tfs { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.lk-tf { padding: 12px; border-radius: 14px; border: 1px solid var(--color-border); background: var(--color-surface-2); }
+.lk-tf.is-ok { border-color: var(--color-success); }
+.lk-tf.is-bad { border-color: var(--color-danger); }
+.lk-tf-q { margin: 0 0 8px; font-size: 1.08rem; font-weight: 700; line-height: 1.6; }
+.lk-tf-btns { display: flex; gap: 8px; }
+.lk-tf-btn {
+  flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; border-radius: 12px;
+  border: 2px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; font-weight: 800; cursor: pointer;
+}
+.lk-tf-btn.is-picked { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.lk-tf-btn:disabled { cursor: default; }
+.lk-tf-reveal { margin-top: 10px; display: grid; gap: 4px; }
+.lk-tf-reveal p { margin: 0; }
+.lk-tf-verdict { font-weight: 800; }
+.lk-tf.is-ok .lk-tf-verdict { color: var(--color-success); }
+.lk-tf.is-bad .lk-tf-verdict { color: var(--color-danger); }
+
+/* ---------- เลือกรูปแบบ (Discovery) ---------- */
+.lk-ask { margin: 14px 0 8px; font-weight: 800; font-size: 1.02rem; }
+.lk-pattern code { font-family: var(--font-mono, ui-monospace, monospace); font-size: 0.92rem; overflow-wrap: anywhere; }
+.lk-reveal { margin-top: 12px; padding: 12px; border-radius: 14px; background: var(--color-primary-soft); animation: lk-fill 0.4s ease-out; }
+.lk-reveal-head { margin: 0 0 4px; font-weight: 800; color: var(--color-primary); }
+.lk-reveal .gl-formula { margin: 0; }
+@media (prefers-reduced-motion: reduce) { .lk-fillin, .lk-reveal, #hud-exp-wrap.exp-bump { animation: none; } .lk-progress-bar > span { transition: none; } }
+
+/* ---------- หน้า Home: เรียนต่อแกรมม่า + Learning Progress (แยกทักษะ · EXP รวม) ---------- */
+.dash-continue-gl {
+  display: flex; align-items: center; gap: 12px; width: 100%; margin-top: 10px; padding: 12px 14px; text-align: left; cursor: pointer;
+  border-radius: var(--radius-md); border: 2px solid color-mix(in srgb, var(--color-primary) 35%, var(--color-border));
+  background: var(--color-surface); color: var(--color-text); box-shadow: var(--shadow-sm); font: inherit;
+}
+.dash-continue-gl .dash-continue-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.dash-continue-gl .dash-continue-label { color: var(--color-primary); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+.dash-continue-gl .dash-continue-detail { color: var(--color-text); font-size: 1.05rem; margin: 0; line-height: 1.45; }
+.dash-continue-gl .home-progress { background: var(--color-surface-2); }
+.dash-continue-gl .home-progress > span { background: var(--color-primary); }
+.dash-continue-gl .home-progress-label { color: var(--color-text-muted); font-size: 0.82rem; }
+.home-cta-sec { flex-shrink: 0; align-self: center; min-height: 44px; padding: 0 14px; border-radius: 99px; background: var(--color-primary); color: #fff; font-weight: 800; }
+:root[data-theme="dark"] .home-cta-sec { color: #12141F; }
+.dash-continue-gl:focus-visible, .skill-row:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.skill-grid { display: grid; gap: 8px; }
+.skill-row {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name pct" "bar bar" "sub sub"; gap: 4px 10px;
+  width: 100%; padding: 10px 12px; min-height: 44px; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-surface-2);
+  color: var(--color-text); text-align: left; cursor: pointer; font: inherit; line-height: 1.5;
+}
+.skill-name { grid-area: name; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; }
+.skill-row .home-progress { grid-area: bar; }
+.skill-pct { grid-area: pct; font-size: 1.1rem; font-variant-numeric: tabular-nums; color: var(--color-primary); }
+.skill-sub { grid-area: sub; color: var(--color-text-muted); font-size: 0.8rem; }
+.skill-exp { display: flex; gap: 10px; margin-top: 10px; }
+.skill-exp > span { flex: 1; display: grid; padding: 8px 12px; border-radius: 12px; background: var(--color-warning-soft); line-height: 1.4; }
+.skill-exp small { font-size: 0.75rem; color: var(--color-text-muted); font-weight: 700; }
+.skill-exp b { font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.dash-continue-gl { position: relative; overflow: hidden; isolation: isolate; }
+.dash-continue-gl::before, .dash-continue-gl::after { display: none; }

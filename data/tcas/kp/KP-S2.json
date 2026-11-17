@@ -1,0 +1,506 @@
+{
+ "exam": "kp",
+ "setId": "KP-S2",
+ "title": "ก.พ. ภาค ก ภาษาอังกฤษ ชุดฝึกที่ 2",
+ "version": 1,
+ "original": true,
+ "level": 1,
+ "sections": [
+  {
+   "id": "conversation",
+   "groups": [
+    {
+     "id": "KP-S2-G01",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "At the land transport office",
+     "dialogue": [
+      {
+       "speaker": "Applicant",
+       "text": "I'd like to take the driving test today."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Applicant",
+       "text": "Oh no, I didn't know that. Can I book one now?"
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S2-001",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Sorry, you need to book an appointment in advance.",
+        "Great. You passed the test with a high score.",
+        "Sure. The car park is behind the building.",
+        "Of course. Driving is very easy."
+       ],
+       "answer": 0,
+       "skill": "functional_language",
+       "explanationTh": "ผู้สมัครตอบว่า \"ไม่รู้มาก่อน\" และขอ \"จอง\" ทันที แสดงว่าเจ้าหน้าที่บอกว่าต้องนัดหมายล่วงหน้า"
+      }
+     ]
+    },
+    {
+     "id": "KP-S2-G02",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Helping a colleague",
+     "dialogue": [
+      {
+       "speaker": "Narin",
+       "text": "Would you like me to help you carry those files?"
+      },
+      {
+       "speaker": "Dao",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Narin",
+       "text": "No problem. Where should I put them?"
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S2-002",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "No, they're not mine.",
+        "I'm afraid I've never seen them.",
+        "I'd rather not, thank you.",
+        "Yes, please. That's very kind of you."
+       ],
+       "answer": 3,
+       "skill": "social_response",
+       "explanationTh": "Narin ถามต่อว่าจะวางแฟ้มไว้ที่ไหน แสดงว่า Dao ตอบรับความช่วยเหลือ จึงใช้ \"Yes, please. That's very kind of you.\""
+      }
+     ]
+    },
+    {
+     "id": "KP-S2-G03",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "In a hospital waiting area",
+     "dialogue": [
+      {
+       "speaker": "Patient",
+       "text": "Excuse me, how long does it usually take to see a doctor here?"
+      },
+      {
+       "speaker": "Nurse",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Patient",
+       "text": "That long? I'd better call my office and tell them I'll be late."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S2-003",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "The doctor is very kind and patient.",
+        "In the mornings, it's usually about two hours.",
+        "It's on the third floor, next to the lift.",
+        "Only ten minutes. You're lucky."
+       ],
+       "answer": 1,
+       "skill": "functional_language",
+       "explanationTh": "ผู้ป่วยถาม \"how long\" (นานเท่าไร) และตอบกลับว่า \"That long?\" (นานขนาดนั้นเลย) จึงต้องเป็นเวลานาน คือประมาณสองชั่วโมง"
+      }
+     ]
+    },
+    {
+     "id": "KP-S2-G04",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A phone call",
+     "dialogue": [
+      {
+       "speaker": "Caller",
+       "text": "Good afternoon. Could I speak to Mr. Somchai, please?"
+      },
+      {
+       "speaker": "Secretary",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Caller",
+       "text": "Yes, please. Could you tell him that Nida from the Revenue Department called?"
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S2-004",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Speaking. How can I help you?",
+        "He's in a meeting. Would you like to leave a message?",
+        "Sorry, I don't speak Thai.",
+        "He was born in Chiang Mai."
+       ],
+       "answer": 1,
+       "skill": "functional_language",
+       "explanationTh": "ผู้โทรตอบ \"Yes, please\" แล้วฝากบอกว่าใครโทรมา แสดงว่าเลขานุการเสนอให้ฝากข้อความ เพราะคุณสมชายไม่ว่าง"
+      }
+     ]
+    },
+    {
+     "id": "KP-S2-G05",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Good news",
+     "dialogue": [
+      {
+       "speaker": "Mali",
+       "text": "Congratulations on passing the civil service exam!"
+      },
+      {
+       "speaker": "Tong",
+       "text": "___1___"
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S2-005",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Never mind. You can try again next year.",
+        "I'm sorry to hear that.",
+        "Thank you. I studied really hard for it.",
+        "Yes, please. I'd love to."
+       ],
+       "answer": 2,
+       "skill": "social_response",
+       "explanationTh": "เมื่อมีคนแสดงความยินดี (Congratulations) ควรตอบขอบคุณ ส่วน Never mind และ I'm sorry to hear that ใช้เมื่อได้ยินข่าวไม่ดี"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "groups": [
+    {
+     "id": "KP-S2-G06",
+     "type": "kp_structure",
+     "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+     "items": [
+      {
+       "id": "KP-S2-006",
+       "stem": "She ____ in this department for five years before she moved to the Ministry of Finance.",
+       "options": [
+        "had worked",
+        "has worked",
+        "works",
+        "is working"
+       ],
+       "answer": 0,
+       "skill": "grammar",
+       "explanationTh": "เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีต (ก่อนย้ายไปกระทรวงการคลัง) ใช้ Past Perfect \"had worked\""
+      },
+      {
+       "id": "KP-S2-007",
+       "stem": "The officer asked me where ____.",
+       "options": [
+        "did I live",
+        "do I live",
+        "I lived",
+        "lived I"
+       ],
+       "answer": 2,
+       "skill": "grammar",
+       "explanationTh": "คำถามทางอ้อม (reported question) ต้องเรียงแบบประโยคบอกเล่า ประธาน + กริยา และเลื่อน tense ตาม asked จึงเป็น \"where I lived\""
+      },
+      {
+       "id": "KP-S2-008",
+       "stem": "This application form is too difficult ____ without help.",
+       "options": [
+        "filling in",
+        "for filling",
+        "fill in",
+        "to fill in"
+       ],
+       "answer": 3,
+       "skill": "grammar",
+       "explanationTh": "โครงสร้าง too + adjective + to-infinitive แปลว่า \"...เกินกว่าจะ...\" จึงใช้ \"too difficult to fill in\""
+      },
+      {
+       "id": "KP-S2-009",
+       "stem": "Applicants ____ documents are incomplete will not be considered.",
+       "options": [
+        "whose",
+        "who",
+        "which",
+        "that"
+       ],
+       "answer": 0,
+       "skill": "grammar",
+       "explanationTh": "ช่องว่างแสดงความเป็นเจ้าของ (เอกสารของผู้สมัคร) จึงใช้ \"whose\" ตามด้วยคำนาม documents"
+      },
+      {
+       "id": "KP-S2-010",
+       "stem": "This year's training course is ____ than the one we attended last year.",
+       "options": [
+        "usefuller",
+        "most useful",
+        "more useful",
+        "more usefully"
+       ],
+       "answer": 2,
+       "skill": "grammar",
+       "explanationTh": "มี than แสดงการเปรียบเทียบขั้นกว่า คำคุณศัพท์หลายพยางค์ใช้ more + adjective คือ \"more useful\" ส่วน usefully เป็นคำกริยาวิเศษณ์"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocabulary",
+   "groups": [
+    {
+     "id": "KP-S2-G07",
+     "type": "kp_vocab",
+     "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+     "items": [
+      {
+       "id": "KP-S2-011",
+       "stem": "Residents must ____ any change of address to the district office within 15 days.",
+       "options": [
+        "repeat",
+        "report",
+        "remove",
+        "reply"
+       ],
+       "answer": 1,
+       "skill": "vocabulary",
+       "explanationTh": "report a change of address = แจ้งย้ายที่อยู่ ส่วน repeat = ทำซ้ำ, remove = เอาออก, reply = ตอบกลับ (ต้องใช้ reply to)"
+      },
+      {
+       "id": "KP-S2-012",
+       "stem": "The new policy will ____ effect on 1 October.",
+       "options": [
+        "make",
+        "do",
+        "give",
+        "take"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "สำนวน \"take effect\" แปลว่า มีผลบังคับใช้ เป็นคำที่ใช้คู่กันตายตัว (collocation)"
+      },
+      {
+       "id": "KP-S2-013",
+       "stem": "Only people over 60 are ____ for the monthly allowance.",
+       "options": [
+        "edible",
+        "visible",
+        "flexible",
+        "eligible"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "\"be eligible for\" = มีสิทธิ์ได้รับ เช่น เบี้ยยังชีพรายเดือน ส่วน edible = กินได้, visible = มองเห็นได้, flexible = ยืดหยุ่น"
+      },
+      {
+       "id": "KP-S2-014",
+       "stem": "The bridge was closed for repairs, so traffic was ____ to another road.",
+       "options": [
+        "diverted",
+        "deleted",
+        "divided",
+        "delivered"
+       ],
+       "answer": 0,
+       "skill": "vocabulary",
+       "explanationTh": "divert = เบี่ยงเส้นทาง สะพานปิดซ่อม รถจึงถูกเบี่ยงไปใช้ถนนอื่น ส่วน divided = ถูกแบ่ง, delivered = ถูกส่งของ"
+      },
+      {
+       "id": "KP-S2-015",
+       "stem": "Mr. Anan is very ____; he always arrives at work on time.",
+       "options": [
+        "generous",
+        "punctual",
+        "curious",
+        "nervous"
+       ],
+       "answer": 1,
+       "skill": "vocabulary",
+       "explanationTh": "punctual = ตรงต่อเวลา สอดคล้องกับ \"always arrives at work on time\" ส่วน generous = ใจกว้าง, curious = อยากรู้, nervous = ประหม่า"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "groups": [
+    {
+     "id": "KP-S2-G08",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Free health check-up",
+     "text": "FREE HEALTH CHECK-UP FOR CITIZENS AGED 35 AND OVER\nThe Health Promotion Centre of Muang Thong District will hold a free health check-up from 10 to 14 July at the community hall. The check-up includes blood pressure, blood sugar and cholesterol tests, as well as an eye examination.\nBecause some blood tests must be done on an empty stomach, participants should not eat or drink anything except water for at least eight hours before their appointment. For this reason, appointments are only available in the morning, between 7:00 and 11:00 a.m.\nEach person must bring their national ID card. People who regularly take medicine should also bring a list of their medicines so that doctors can give more accurate advice.\nSeats are limited to 200 people per day. To book an appointment, call the centre or register at the village health volunteer office. Results will be sent by post within two weeks, and anyone with abnormal results will be contacted by a nurse to arrange a follow-up visit.",
+     "items": [
+      {
+       "id": "KP-S2-016",
+       "stem": "Who can join this health check-up?",
+       "options": [
+        "Only village health volunteers",
+        "Children under the age of 14",
+        "Anyone who has taken medicine",
+        "People who are 35 years old or older"
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "หัวเรื่องประกาศระบุว่าเป็นการตรวจสุขภาพฟรีสำหรับประชาชนอายุ 35 ปีขึ้นไป (aged 35 and over)"
+      },
+      {
+       "id": "KP-S2-017",
+       "stem": "Why are appointments available only in the morning?",
+       "options": [
+        "The community hall is closed in the afternoon.",
+        "Doctors work at the hospital after lunch.",
+        "There are 200 seats every morning.",
+        "Some tests must be done before eating."
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 2 บอกว่าการตรวจเลือดบางรายการต้องงดอาหาร (empty stomach) \"For this reason\" จึงเปิดนัดเฉพาะช่วงเช้า"
+      },
+      {
+       "id": "KP-S2-018",
+       "stem": "What should people who regularly take medicine bring?",
+       "options": [
+        "Their medicines in a plastic bag",
+        "A list of the medicines they take",
+        "A letter from their own doctor",
+        "Their previous test results"
+       ],
+       "answer": 1,
+       "skill": "detail",
+       "explanationTh": "ประกาศระบุว่าผู้ที่ทานยาประจำควรนำ \"a list of their medicines\" (รายการยา) มาด้วย เพื่อให้แพทย์แนะนำได้แม่นยำขึ้น"
+      },
+      {
+       "id": "KP-S2-019",
+       "stem": "The word 'abnormal' in the last paragraph is closest in meaning to ____.",
+       "options": [
+        "excellent",
+        "delayed",
+        "unusual",
+        "missing"
+       ],
+       "answer": 2,
+       "skill": "vocab_in_context",
+       "explanationTh": "abnormal = ผิดปกติ ใกล้เคียงกับ unusual ผู้ที่ผลตรวจผิดปกติจะได้รับการติดต่อจากพยาบาลเพื่อนัดตรวจซ้ำ"
+      },
+      {
+       "id": "KP-S2-020",
+       "stem": "What can be inferred from the notice?",
+       "options": [
+        "Not everyone who wants a check-up may get a place.",
+        "Participants will get their results on the same day.",
+        "Participants must pay for the eye examination.",
+        "The check-up takes place every month."
+       ],
+       "answer": 0,
+       "skill": "inference",
+       "explanationTh": "ประกาศบอกว่ารับได้จำกัดวันละ 200 คน (Seats are limited) จึงอนุมานได้ว่าอาจมีบางคนจองไม่ทัน ส่วนผลตรวจส่งทางไปรษณีย์ภายในสองสัปดาห์"
+      }
+     ]
+    },
+    {
+     "id": "KP-S2-G09",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Interview invitation",
+     "text": "Subject: Interview for the position of Administrative Officer\nDear Ms. Pimchanok Saengdao,\nThank you for applying for the position of Administrative Officer at the Office of the Provincial Governor. We are pleased to inform you that you have passed the written examination and have been selected for an interview.\nYour interview will take place on Wednesday, 9 September, at 10:00 a.m. in Meeting Room 2 on the fourth floor of the Provincial Hall. The interview will last about 30 minutes. A panel of three officials will ask you about your work experience, your understanding of the role, and how you would handle common situations in the office.\nPlease arrive at least 20 minutes early and bring the original copies of your degree certificate and transcript, as well as your ID card. Candidates who fail to bring the original documents will not be able to take part in the interview.\nIf you are unable to attend on this date, please contact us by 2 September so that we can arrange another time. Late requests cannot be accepted.\nWe look forward to meeting you.\nYours sincerely,\nHuman Resources Section",
+     "items": [
+      {
+       "id": "KP-S2-021",
+       "stem": "What is the main purpose of this email?",
+       "options": [
+        "To tell an applicant she failed the exam",
+        "To ask an applicant to take a written test",
+        "To invite an applicant to an interview",
+        "To offer an applicant a permanent job"
+       ],
+       "answer": 2,
+       "skill": "main_idea",
+       "explanationTh": "อีเมลแจ้งว่าผู้สมัครผ่านข้อเขียนและ \"have been selected for an interview\" พร้อมบอกวัน เวลา สถานที่สัมภาษณ์"
+      },
+      {
+       "id": "KP-S2-022",
+       "stem": "What has Ms. Pimchanok already done?",
+       "options": [
+        "Met the panel of three officials",
+        "Started work as an Administrative Officer",
+        "Passed the written examination",
+        "Sent her original degree certificate"
+       ],
+       "answer": 2,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าแรกบอกว่า \"you have passed the written examination\" ส่วนการพบคณะกรรมการและการนำเอกสารตัวจริงเป็นสิ่งที่จะเกิดในวันสัมภาษณ์"
+      },
+      {
+       "id": "KP-S2-023",
+       "stem": "What will happen if she forgets her original documents?",
+       "options": [
+        "She will not be allowed to do the interview.",
+        "She can send them by post later.",
+        "She will have to wait 30 minutes.",
+        "She will be interviewed in another room."
+       ],
+       "answer": 0,
+       "skill": "detail",
+       "explanationTh": "อีเมลระบุว่า \"Candidates who fail to bring the original documents will not be able to take part in the interview\" คือไม่สามารถเข้าสัมภาษณ์ได้"
+      },
+      {
+       "id": "KP-S2-024",
+       "stem": "In the email, the word 'panel' is closest in meaning to ____.",
+       "options": [
+        "a flat piece of wood",
+        "a group of people who judge",
+        "a list of interview questions",
+        "a type of written examination"
+       ],
+       "answer": 1,
+       "skill": "vocab_in_context",
+       "explanationTh": "panel of three officials = คณะกรรมการสามคน หมายถึงกลุ่มบุคคลที่ทำหน้าที่ประเมิน ส่วน \"แผ่นไม้\" เป็นความหมายอื่นที่ไม่เข้ากับบริบท"
+      },
+      {
+       "id": "KP-S2-025",
+       "stem": "What should she do if she cannot come on 9 September?",
+       "options": [
+        "Contact the office no later than 2 September",
+        "Arrive 20 minutes early on another day",
+        "Ask another candidate to go instead",
+        "Send an email after the interview date"
+       ],
+       "answer": 0,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 4 ให้ติดต่อภายในวันที่ 2 กันยายนเพื่อนัดวันใหม่ และระบุว่าจะไม่รับคำขอที่ส่งช้า"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "review": {
+  "passed": true,
+  "method": "validator + independent blind-solve (AI) 2 รอบ — ยังไม่ได้ตรวจโดยครู",
+  "date": "2026-11-17",
+  "agree": 25,
+  "total": 25,
+  "rounds": "รอบ 1 ตรงเฉลย 25/25 (S4 ไม่มั่นใจ 2 ข้อเรื่องสำนวน — แก้ S4-003 บทสนทนา/S4-020 ตัวเลือก + ลดความยาวคำตอบที่เด่นเกิน S1-004/S4-021/S2-003) · รอบ 2 ผู้ตรวจคนใหม่ทั้งชุด ตรง 25/25 ไม่มีข้อไม่มั่นใจ · ปรับคำว่า paragraph ในโจทย์ S2-024/S4-018 ให้ชัดขึ้น (ไม่เปลี่ยนเฉลย)"
+ }
+}

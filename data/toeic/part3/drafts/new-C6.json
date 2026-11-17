@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "C6-01",
+    "part": 3,
+    "topic": "logistics",
+    "difficulty": "easy",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Hi, Oscar. Is the order for Pinecrest Outdoor Supply ready to go? The truck's coming at two o'clock."
+      },
+      {
+        "speaker": "M",
+        "text": "Almost. We packed all forty boxes of camping chairs this morning, but I just noticed the shipping labels have the wrong postal code on them."
+      },
+      {
+        "speaker": "W",
+        "text": "Oh, good catch. If those went out, the boxes would end up at their old store across town."
+      },
+      {
+        "speaker": "M",
+        "text": "Exactly. The customer must have updated their address last week, but our system didn't save it."
+      },
+      {
+        "speaker": "W",
+        "text": "I'll call Pinecrest to confirm the new address. Can you print fresh labels once I do?"
+      },
+      {
+        "speaker": "M",
+        "text": "Sure. The label printer's a bit slow, though, so I'll ask Felix to help me stick them on."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What problem does the man mention?",
+        "options": [
+          "Some labels show an incorrect address.",
+          "Some boxes were damaged.",
+          "A truck will arrive late.",
+          "A customer canceled an order."
+        ],
+        "answer": 0,
+        "evidence": [
+          "the shipping labels have the wrong postal code on them"
+        ],
+        "explanationTH": "ผู้ชายบอกว่าฉลากจัดส่งมีรหัสไปรษณีย์ผิด ซึ่งก็คือที่อยู่บนฉลากไม่ถูกต้อง",
+        "optionNotesTH": [
+          "ถูก wrong postal code = ที่อยู่ไม่ถูกต้อง",
+          "ผิด ไม่มีการพูดถึงกล่องเสียหาย แพ็กครบสี่สิบกล่องแล้ว",
+          "ผิด รถบรรทุกจะมาตอนบ่ายสองตามกำหนด ไม่ได้บอกว่ามาช้า",
+          "ผิด ลูกค้าแค่เปลี่ยนที่อยู่ ไม่ได้ยกเลิกคำสั่งซื้อ"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does the woman say she will do?",
+        "options": [
+          "Drive to a store across town",
+          "Update the computer system",
+          "Contact a customer",
+          "Pack some more boxes"
+        ],
+        "answer": 2,
+        "evidence": [
+          "I'll call Pinecrest to confirm the new address."
+        ],
+        "explanationTH": "ผู้หญิงบอกว่าจะโทรหา Pinecrest ซึ่งเป็นลูกค้าเพื่อยืนยันที่อยู่ใหม่ call = contact",
+        "optionNotesTH": [
+          "ผิด ร้านฝั่งโน้นของเมืองคือที่อยู่เก่าของลูกค้า ไม่มีใครจะขับไป",
+          "ผิด ผู้ชายพูดว่าระบบไม่ได้บันทึกที่อยู่ แต่ไม่มีใครบอกว่าจะแก้ระบบ",
+          "ถูก โทรหาลูกค้าเพื่อยืนยันที่อยู่",
+          "ผิด กล่องแพ็กครบแล้วตั้งแต่เช้า"
+        ]
+      },
+      {
+        "type": "reason",
+        "stem": "Why will the man ask a coworker for help?",
+        "options": [
+          "The truck is arriving early.",
+          "A machine works slowly.",
+          "There are more boxes than expected.",
+          "He has to attend a meeting."
+        ],
+        "answer": 1,
+        "evidence": [
+          "The label printer's a bit slow, though, so I'll ask Felix to help me stick them on."
+        ],
+        "explanationTH": "ผู้ชายบอกว่าเครื่องพิมพ์ฉลากค่อนข้างช้า จึงจะขอให้ Felix ช่วยติดฉลาก label printer = a machine",
+        "optionNotesTH": [
+          "ผิด รถบรรทุกมาบ่ายสองตามเดิม ไม่ได้มาก่อนเวลา",
+          "ถูก เครื่องพิมพ์ฉลากทำงานช้า",
+          "ผิด จำนวนกล่องคือสี่สิบกล่องตามที่แพ็กไว้ ไม่ได้มากเกินคาด",
+          "ผิด ไม่มีการพูดถึงการประชุม"
+        ]
+      }
+    ],
+    "translationTH": [
+      "สวัสดีค่ะ ออสการ์ ออร์เดอร์ของ Pinecrest Outdoor Supply พร้อมส่งหรือยังคะ รถบรรทุกจะมาตอนบ่ายสองโมง",
+      "เกือบแล้วครับ เมื่อเช้าเราแพ็กเก้าอี้แคมป์ปิ้งครบสี่สิบกล่องแล้ว แต่ผมเพิ่งสังเกตว่าฉลากจัดส่งมีรหัสไปรษณีย์ผิด",
+      "โอ้ ดีนะที่เห็น ถ้าส่งไปแบบนั้น กล่องจะไปลงที่ร้านเก่าของเขาที่อยู่อีกฝั่งของเมือง",
+      "ใช่ครับ ลูกค้าคงเปลี่ยนที่อยู่เมื่อสัปดาห์ที่แล้ว แต่ระบบของเราไม่ได้บันทึกไว้",
+      "เดี๋ยวฉันโทรหา Pinecrest เพื่อยืนยันที่อยู่ใหม่ พอฉันได้ที่อยู่แล้ว คุณช่วยพิมพ์ฉลากใหม่ได้ไหมคะ",
+      "ได้ครับ แต่เครื่องพิมพ์ฉลากค่อนข้างช้า ผมจะขอให้เฟลิกซ์มาช่วยติดฉลาก"
+    ],
+    "tipTH": "คำถามแบบ What problem มักมีคำตอบอยู่หลังคำว่า but ในช่วงต้นบทสนทนา ฟังให้ดีหลัง but แล้วหาตัวเลือกที่ถอดความ (paraphrase) ไว้",
+    "vocabulary": [
+      {
+        "word": "shipping label",
+        "pos": "noun",
+        "th": "ฉลากจัดส่งสินค้า"
+      },
+      {
+        "word": "postal code",
+        "pos": "noun",
+        "th": "รหัสไปรษณีย์"
+      },
+      {
+        "word": "good catch",
+        "pos": "phrase",
+        "th": "ดีที่สังเกตเห็น (ชมว่าจับข้อผิดพลาดได้)"
+      },
+      {
+        "word": "confirm",
+        "pos": "verb",
+        "th": "ยืนยัน"
+      }
+    ]
+  },
+  {
+    "id": "C6-02",
+    "part": 3,
+    "topic": "travel",
+    "difficulty": "medium",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Hi, Bruno. Have you booked our train tickets for the meeting with Halvorsen Foods on Thursday?"
+      },
+      {
+        "speaker": "M",
+        "text": "Not yet. I wanted to check with you first. The meeting starts at eleven, and their office is about a twenty-minute taxi ride from the station."
+      },
+      {
+        "speaker": "W",
+        "text": "Right. And remember, the finance department asked us to keep travel costs down this quarter."
+      },
+      {
+        "speaker": "M",
+        "text": "Then we should take the cheapest train that still gets us there on time. Should I reserve seats in the quiet car?"
+      },
+      {
+        "speaker": "W",
+        "text": "Yes, please. I'd like to look over the sales figures on the way, and it's hard to concentrate with people talking on their phones."
+      },
+      {
+        "speaker": "M",
+        "text": "Makes sense. I'll book the tickets this afternoon and send you the confirmation."
+      }
+    ],
+    "graphic": {
+      "title": "Express Trains to Brookfield",
+      "table": "| Departure | Arrival | Fare |\n| 7:05 A.M. | 9:20 A.M. | $36 |\n| 7:35 A.M. | 9:45 A.M. | $44 |\n| 8:10 A.M. | 10:15 A.M. | $51 |\n| 8:50 A.M. | 11:05 A.M. | $33 |"
+    },
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What are the speakers preparing for?",
+        "options": [
+          "A training session",
+          "A product launch",
+          "A financial audit",
+          "A client meeting"
+        ],
+        "answer": 3,
+        "evidence": [
+          "Have you booked our train tickets for the meeting with Halvorsen Foods on Thursday?"
+        ],
+        "explanationTH": "ผู้หญิงถามว่าจองตั๋วรถไฟสำหรับการประชุมกับ Halvorsen Foods แล้วหรือยัง แสดงว่าทั้งสองกำลังเตรียมเดินทางไปประชุมกับลูกค้า",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงการอบรม",
+          "ผิด ไม่มีการเปิดตัวสินค้า",
+          "ผิด ฝ่ายการเงินแค่ขอให้ประหยัดค่าเดินทาง ไม่ใช่การตรวจบัญชี",
+          "ถูก ประชุมกับบริษัท Halvorsen Foods"
+        ]
+      },
+      {
+        "type": "graphic",
+        "stem": "Look at the graphic. Which train will the speakers most likely take?",
+        "options": [
+          "The 7:05 A.M. train",
+          "The 7:35 A.M. train",
+          "The 8:10 A.M. train",
+          "The 8:50 A.M. train"
+        ],
+        "answer": 0,
+        "evidence": [
+          "we should take the cheapest train that still gets us there on time",
+          "7:05 A.M. | 9:20 A.M. | $36"
+        ],
+        "explanationTH": "ประชุมเริ่ม 11 โมงและต้องนั่งแท็กซี่อีกราว 20 นาที รถไฟ 8:50 ถึง 11:05 จึงไม่ทัน ในบรรดาขบวนที่ทัน ขบวน 7:05 ราคาถูกที่สุด ($36)",
+        "optionNotesTH": [
+          "ถูก ถูกที่สุดในบรรดาขบวนที่ไปทันประชุม",
+          "ผิด ทันเวลาแต่แพงกว่า ($44)",
+          "ผิด ทันเวลาแต่แพงที่สุด ($51)",
+          "ผิด ถูกที่สุดในตาราง ($33) แต่ถึง 11:05 ไม่ทันประชุม 11 โมง"
+        ]
+      },
+      {
+        "type": "reason",
+        "stem": "Why does the woman want to sit in the quiet car?",
+        "options": [
+          "To make some phone calls",
+          "To get some rest",
+          "To review some data",
+          "To save some money"
+        ],
+        "answer": 2,
+        "evidence": [
+          "I'd like to look over the sales figures on the way"
+        ],
+        "explanationTH": "ผู้หญิงอยากดูตัวเลขยอดขายระหว่างทาง และมีสมาธิยากเมื่อมีคนคุยโทรศัพท์ look over the sales figures = review some data",
+        "optionNotesTH": [
+          "ผิด เธอไม่ชอบเสียงคนคุยโทรศัพท์ ไม่ได้จะโทรเอง",
+          "ผิด ไม่ได้บอกว่าจะพักผ่อน",
+          "ถูก ดูตัวเลขยอดขาย",
+          "ผิด การประหยัดเงินเป็นเหตุผลในการเลือกขบวน ไม่ใช่เหตุผลเรื่องตู้เงียบ"
+        ]
+      }
+    ],
+    "translationTH": [
+      "สวัสดีค่ะ บรูโน คุณจองตั๋วรถไฟสำหรับประชุมกับ Halvorsen Foods วันพฤหัสแล้วหรือยังคะ",
+      "ยังครับ ผมอยากถามคุณก่อน ประชุมเริ่มสิบเอ็ดโมง และออฟฟิศเขาอยู่ห่างจากสถานีประมาณยี่สิบนาทีถ้านั่งแท็กซี่",
+      "ใช่ แล้วอย่าลืมนะ ฝ่ายการเงินขอให้เราลดค่าเดินทางในไตรมาสนี้",
+      "ถ้าอย่างนั้นเราควรขึ้นขบวนที่ถูกที่สุดที่ยังไปถึงทันเวลา ให้ผมจองที่นั่งในตู้เงียบไหมครับ",
+      "ค่ะ ช่วยด้วยนะ ฉันอยากดูตัวเลขยอดขายระหว่างทาง และถ้ามีคนคุยโทรศัพท์จะมีสมาธิยาก",
+      "เข้าใจครับ ผมจะจองตั๋วบ่ายนี้แล้วส่งใบยืนยันให้คุณ"
+    ],
+    "tipTH": "ข้อกราฟิกมักต้องใช้เงื่อนไขสองข้อร่วมกัน เช่น ทั้งเวลาและราคา ระวังตัวเลือกที่ตรงแค่เงื่อนไขเดียว (เช่น ถูกที่สุดแต่ไปไม่ทัน)",
+    "vocabulary": [
+      {
+        "word": "quiet car",
+        "pos": "noun",
+        "th": "ตู้โดยสารเงียบ (ห้ามคุยเสียงดัง)"
+      },
+      {
+        "word": "keep costs down",
+        "pos": "phrase",
+        "th": "ควบคุมค่าใช้จ่ายให้ต่ำ"
+      },
+      {
+        "word": "look over",
+        "pos": "phrase",
+        "th": "ตรวจดู ทบทวน"
+      },
+      {
+        "word": "confirmation",
+        "pos": "noun",
+        "th": "ใบยืนยัน การยืนยัน"
+      }
+    ]
+  },
+  {
+    "id": "C6-03",
+    "part": 3,
+    "topic": "office",
+    "difficulty": "easy",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Hi, Leon. I'm putting together this month's office supply order. Do you need anything for your team?"
+      },
+      {
+        "speaker": "M",
+        "text": "Actually, yes. A few people have complained that their desk chairs are uncomfortable. Could we get some new ones?"
+      },
+      {
+        "speaker": "W",
+        "text": "Hmm, chairs cost more than my monthly supply budget allows. You'd need approval from Ms. Okonkwo first."
+      },
+      {
+        "speaker": "M",
+        "text": "I see. Should I just send her an e-mail about it?"
+      },
+      {
+        "speaker": "W",
+        "text": "She prefers a written request form. I'll send you the link to it right now."
+      },
+      {
+        "speaker": "M",
+        "text": "Thanks. I'll fill it out this afternoon."
+      }
+    ],
+    "questions": [
+      {
+        "type": "speaker",
+        "stem": "What is the woman responsible for?",
+        "options": [
+          "Hiring new staff",
+          "Ordering office supplies",
+          "Repairing furniture",
+          "Planning a team event"
+        ],
+        "answer": 1,
+        "evidence": [
+          "I'm putting together this month's office supply order."
+        ],
+        "explanationTH": "ผู้หญิงบอกว่ากำลังรวบรวมรายการสั่งซื้ออุปกรณ์สำนักงานประจำเดือน จึงเป็นผู้รับผิดชอบการสั่งอุปกรณ์สำนักงาน",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงการจ้างพนักงาน",
+          "ถูก เธอรวบรวมคำสั่งซื้ออุปกรณ์สำนักงาน",
+          "ผิด พูดถึงเก้าอี้ แต่เป็นการขอซื้อใหม่ ไม่ใช่ซ่อม",
+          "ผิด คำว่า team มาจาก your team แต่ไม่มีการจัดงาน"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does the woman say about the chairs?",
+        "options": [
+          "They are out of stock.",
+          "They come in several colors.",
+          "They will arrive next week.",
+          "They are too expensive for her budget."
+        ],
+        "answer": 3,
+        "evidence": [
+          "chairs cost more than my monthly supply budget allows"
+        ],
+        "explanationTH": "ผู้หญิงบอกว่าเก้าอี้ราคาเกินงบอุปกรณ์รายเดือนของเธอ จึงต้องขออนุมัติก่อน",
+        "optionNotesTH": [
+          "ผิด ไม่ได้พูดว่าสินค้าหมด",
+          "ผิด ไม่มีการพูดถึงสี",
+          "ผิด ยังไม่ได้สั่งเลย จึงไม่มีกำหนดส่ง",
+          "ถูก ราคาเกินงบรายเดือน"
+        ]
+      },
+      {
+        "type": "nextAction",
+        "stem": "What will the woman send the man?",
+        "options": [
+          "A link to a form",
+          "A product catalog",
+          "A list of prices",
+          "A manager's e-mail address"
+        ],
+        "answer": 0,
+        "evidence": [
+          "She prefers a written request form. I'll send you the link to it right now."
+        ],
+        "explanationTH": "ผู้หญิงบอกว่าผู้อนุมัติชอบให้ใช้แบบฟอร์มคำขอ และเธอจะส่งลิงก์ของแบบฟอร์มให้ผู้ชายเดี๋ยวนี้",
+        "optionNotesTH": [
+          "ถูก ส่งลิงก์แบบฟอร์มคำขอ",
+          "ผิด ไม่มีการพูดถึงแคตตาล็อก",
+          "ผิด ไม่มีรายการราคา",
+          "ผิด ผู้ชายเสนอจะส่งอีเมล แต่ผู้หญิงบอกว่าให้ใช้แบบฟอร์มแทน"
+        ]
+      }
+    ],
+    "translationTH": [
+      "สวัสดีค่ะ ลีออน ฉันกำลังรวบรวมคำสั่งซื้ออุปกรณ์สำนักงานของเดือนนี้ ทีมคุณต้องการอะไรไหมคะ",
+      "จริง ๆ ก็มีครับ มีหลายคนบ่นว่าเก้าอี้ทำงานนั่งไม่สบาย เราขอเก้าอี้ใหม่ได้ไหมครับ",
+      "อืม เก้าอี้ราคาเกินงบอุปกรณ์รายเดือนของฉัน คุณต้องได้รับอนุมัติจากคุณโอคอนก์โวก่อน",
+      "เข้าใจแล้วครับ ผมส่งอีเมลหาเธอเลยดีไหม",
+      "เธอชอบให้กรอกแบบฟอร์มคำขอเป็นลายลักษณ์อักษรมากกว่า เดี๋ยวฉันส่งลิงก์ให้เลยนะ",
+      "ขอบคุณครับ ผมจะกรอกบ่ายนี้"
+    ],
+    "tipTH": "คำถาม Who/What is the woman responsible for มักตอบได้จากประโยคแรก ๆ ที่ผู้พูดบอกว่ากำลังทำอะไรอยู่ ฟังช่วงต้นให้ดี",
+    "vocabulary": [
+      {
+        "word": "office supply",
+        "pos": "noun",
+        "th": "อุปกรณ์สำนักงาน"
+      },
+      {
+        "word": "complain",
+        "pos": "verb",
+        "th": "บ่น ร้องเรียน"
+      },
+      {
+        "word": "approval",
+        "pos": "noun",
+        "th": "การอนุมัติ"
+      },
+      {
+        "word": "request form",
+        "pos": "noun",
+        "th": "แบบฟอร์มคำขอ"
+      }
+    ]
+  },
+  {
+    "id": "C6-04",
+    "part": 3,
+    "topic": "technology",
+    "difficulty": "medium",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Rohan, I got an e-mail saying everyone has to set up two-step verification by Friday. Is that really necessary?"
+      },
+      {
+        "speaker": "M",
+        "text": "It is. We had a few suspicious login attempts last month, so the security team wants an extra layer of protection."
+      },
+      {
+        "speaker": "W",
+        "text": "Makes sense. But I don't have a company phone. Do I have to use my personal one?"
+      },
+      {
+        "speaker": "M",
+        "text": "Not necessarily. We also have small security keys that plug into your laptop. I've got a box of them at my desk."
+      },
+      {
+        "speaker": "W",
+        "text": "Oh, that's better. I'd rather not install work apps on my own phone."
+      },
+      {
+        "speaker": "M",
+        "text": "Then stop by after lunch, and I'll show you how to register one. It only takes about five minutes."
+      }
+    ],
+    "questions": [
+      {
+        "type": "reason",
+        "stem": "According to the man, why is the new requirement being introduced?",
+        "options": [
+          "A software license has expired.",
+          "Employees forgot their passwords.",
+          "There were some unusual login attempts.",
+          "Some company phones were lost."
+        ],
+        "answer": 2,
+        "evidence": [
+          "We had a few suspicious login attempts last month"
+        ],
+        "explanationTH": "ผู้ชายอธิบายว่าเดือนที่แล้วมีการพยายามล็อกอินที่น่าสงสัย ทีมความปลอดภัยจึงต้องการการป้องกันเพิ่ม suspicious = unusual",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงใบอนุญาตซอฟต์แวร์",
+          "ผิด ไม่ได้บอกว่าพนักงานลืมรหัสผ่าน",
+          "ถูก suspicious login attempts",
+          "ผิด ผู้หญิงแค่บอกว่าเธอไม่มีโทรศัพท์บริษัท ไม่ได้บอกว่ามีโทรศัพท์หาย"
+        ]
+      },
+      {
+        "type": "intent",
+        "stem": "Why does the man say, \"I've got a box of them at my desk\"?",
+        "options": [
+          "To complain about a lack of space",
+          "To indicate that a device is easy to get",
+          "To ask for help moving some boxes",
+          "To explain why a delivery was delayed"
+        ],
+        "answer": 1,
+        "evidence": [
+          "We also have small security keys that plug into your laptop. I've got a box of them at my desk."
+        ],
+        "explanationTH": "ผู้ชายพูดประโยคนี้หลังแนะนำกุญแจความปลอดภัยแทนการใช้โทรศัพท์ส่วนตัว เพื่อบอกว่ามีอุปกรณ์นี้พร้อมให้ใช้และหาได้ง่าย",
+        "optionNotesTH": [
+          "ผิด ไม่ได้บ่นเรื่องพื้นที่โต๊ะ",
+          "ถูก บอกว่ามีกุญแจพร้อมให้ ได้ง่าย",
+          "ผิด ใช้คำว่า box หลอก ไม่มีการขอให้ช่วยยกกล่อง",
+          "ผิด ไม่มีการพูดถึงการส่งของล่าช้า"
+        ]
+      },
+      {
+        "type": "suggestion",
+        "stem": "What does the man ask the woman to do?",
+        "options": [
+          "Download a mobile app",
+          "Send him an e-mail",
+          "Restart her laptop",
+          "Come to see him later"
+        ],
+        "answer": 3,
+        "evidence": [
+          "Then stop by after lunch, and I'll show you how to register one."
+        ],
+        "explanationTH": "ผู้ชายบอกให้ผู้หญิงแวะมาหาหลังมื้อกลางวัน แล้วเขาจะสอนวิธีลงทะเบียนกุญแจ stop by after lunch = come to see him later",
+        "optionNotesTH": [
+          "ผิด ผู้หญิงบอกว่าไม่อยากติดตั้งแอปงานบนโทรศัพท์ตัวเอง",
+          "ผิด อีเมลเป็นสิ่งที่ผู้หญิงได้รับตอนต้น",
+          "ผิด พูดถึงแล็ปท็อปแต่ไม่ได้ให้รีสตาร์ต",
+          "ถูก แวะมาหาหลังมื้อกลางวัน"
+        ]
+      }
+    ],
+    "translationTH": [
+      "โรฮัน ฉันได้อีเมลบอกว่าทุกคนต้องตั้งค่าการยืนยันตัวตนสองขั้นตอนภายในวันศุกร์ จำเป็นจริง ๆ เหรอคะ",
+      "จำเป็นครับ เดือนที่แล้วมีการพยายามล็อกอินที่น่าสงสัยหลายครั้ง ทีมความปลอดภัยเลยอยากเพิ่มการป้องกันอีกชั้น",
+      "ก็สมเหตุสมผล แต่ฉันไม่มีโทรศัพท์ของบริษัท ต้องใช้โทรศัพท์ส่วนตัวหรือเปล่าคะ",
+      "ไม่จำเป็นครับ เรามีกุญแจความปลอดภัยขนาดเล็กที่เสียบกับแล็ปท็อปได้ด้วย ผมมีอยู่กล่องหนึ่งที่โต๊ะ",
+      "โอ้ แบบนั้นดีกว่า ฉันไม่อยากติดตั้งแอปงานบนโทรศัพท์ตัวเอง",
+      "งั้นแวะมาหลังมื้อกลางวันนะครับ ผมจะสอนวิธีลงทะเบียน ใช้เวลาแค่ประมาณห้านาที"
+    ],
+    "tipTH": "ข้อ intent ให้ดูว่าประโยคที่ยกมาพูดตอบสนองอะไร ในบทนี้พูดต่อจากการแนะนำกุญแจ จึงหมายถึงว่ามีของพร้อมให้ ไม่ใช่เรื่องกล่องจริง ๆ",
+    "vocabulary": [
+      {
+        "word": "two-step verification",
+        "pos": "noun",
+        "th": "การยืนยันตัวตนสองขั้นตอน"
+      },
+      {
+        "word": "suspicious",
+        "pos": "adjective",
+        "th": "น่าสงสัย"
+      },
+      {
+        "word": "layer of protection",
+        "pos": "phrase",
+        "th": "ชั้นของการป้องกัน"
+      },
+      {
+        "word": "stop by",
+        "pos": "phrase",
+        "th": "แวะมา"
+      },
+      {
+        "word": "register",
+        "pos": "verb",
+        "th": "ลงทะเบียน"
+      }
+    ]
+  },
+  {
+    "id": "C6-05",
+    "part": 3,
+    "topic": "events",
+    "difficulty": "easy",
+    "speakers": [
+      {
+        "id": "M",
+        "gender": "male"
+      },
+      {
+        "id": "W",
+        "gender": "female"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "M",
+        "text": "Hi, Hana. I'm organizing the lunch-and-learn sessions for next month. Would you be willing to lead one?"
+      },
+      {
+        "speaker": "W",
+        "text": "I'd be happy to. Which topics do you still need a speaker for?"
+      },
+      {
+        "speaker": "M",
+        "text": "Most of them are covered. The only one left is the session on the twentieth."
+      },
+      {
+        "speaker": "W",
+        "text": "Oh, that works. I used to be an accountant, so that topic's perfect for me."
+      },
+      {
+        "speaker": "M",
+        "text": "Great. We're ordering sandwiches from Corbett's Deli for everyone, so you don't need to bring lunch."
+      },
+      {
+        "speaker": "W",
+        "text": "Wonderful. Could you tell me how many people usually attend? I'd like to print enough handouts."
+      },
+      {
+        "speaker": "M",
+        "text": "About thirty. I'll send you the sign-up list on Monday."
+      }
+    ],
+    "graphic": {
+      "title": "Lunch-and-Learn Sessions",
+      "table": "| Date | Topic |\n| May 6 | Time Management |\n| May 13 | Public Speaking |\n| May 20 | Budget Basics |\n| May 27 | Team Leadership |"
+    },
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What is the man organizing?",
+        "options": [
+          "A series of learning sessions",
+          "A retirement party",
+          "An accounting conference",
+          "A cooking class"
+        ],
+        "answer": 0,
+        "evidence": [
+          "I'm organizing the lunch-and-learn sessions for next month."
+        ],
+        "explanationTH": "ผู้ชายบอกว่ากำลังจัดกิจกรรม lunch-and-learn ซึ่งเป็นการเรียนรู้ช่วงพักกลางวันหลายครั้งในเดือนหน้า",
+        "optionNotesTH": [
+          "ถูก lunch-and-learn sessions = ชุดการเรียนรู้",
+          "ผิด ไม่มีงานเลี้ยงเกษียณ",
+          "ผิด accountant เป็นอาชีพเดิมของผู้หญิง ไม่ใช่การประชุมนักบัญชี",
+          "ผิด มีแซนด์วิชแต่ไม่ใช่คลาสทำอาหาร"
+        ]
+      },
+      {
+        "type": "graphic",
+        "stem": "Look at the graphic. Which topic will the woman present?",
+        "options": [
+          "Time Management",
+          "Public Speaking",
+          "Team Leadership",
+          "Budget Basics"
+        ],
+        "answer": 3,
+        "evidence": [
+          "The only one left is the session on the twentieth.",
+          "May 20 | Budget Basics"
+        ],
+        "explanationTH": "ผู้ชายบอกว่าหัวข้อที่เหลือคือวันที่ยี่สิบ ในตารางวันที่ 20 พฤษภาคมคือ Budget Basics และผู้หญิงเคยเป็นนักบัญชีจึงเหมาะกับหัวข้อนี้",
+        "optionNotesTH": [
+          "ผิด เป็นหัวข้อวันที่ 6 ซึ่งมีผู้บรรยายแล้ว",
+          "ผิด เป็นหัวข้อวันที่ 13",
+          "ผิด เป็นหัวข้อวันที่ 27",
+          "ถูก ตรงกับวันที่ 20"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does the woman ask about?",
+        "options": [
+          "Food choices",
+          "Expected attendance",
+          "A room location",
+          "The length of a presentation"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Could you tell me how many people usually attend?"
+        ],
+        "explanationTH": "ผู้หญิงถามว่าปกติมีคนเข้าร่วมกี่คน เพื่อพิมพ์เอกสารให้พอ how many people attend = expected attendance",
+        "optionNotesTH": [
+          "ผิด ผู้ชายพูดเรื่องแซนด์วิชเอง ผู้หญิงไม่ได้ถาม",
+          "ถูก ถามจำนวนผู้เข้าร่วม",
+          "ผิด ไม่มีการถามเรื่องห้อง",
+          "ผิด ไม่มีการถามความยาวการบรรยาย"
+        ]
+      }
+    ],
+    "translationTH": [
+      "สวัสดีครับ ฮานะ ผมกำลังจัดกิจกรรม lunch-and-learn ของเดือนหน้า คุณยินดีจะเป็นผู้นำสักครั้งไหมครับ",
+      "ยินดีค่ะ ยังขาดผู้บรรยายในหัวข้อไหนบ้างคะ",
+      "ส่วนใหญ่มีคนรับไปแล้ว เหลือแค่ครั้งวันที่ยี่สิบครับ",
+      "โอ้ ได้เลยค่ะ ฉันเคยเป็นนักบัญชี หัวข้อนั้นเหมาะกับฉันมาก",
+      "เยี่ยมครับ เราจะสั่งแซนด์วิชจากร้าน Corbett's Deli ให้ทุกคน คุณไม่ต้องเตรียมอาหารกลางวันมา",
+      "ดีจัง ช่วยบอกได้ไหมคะว่าปกติมีคนเข้าร่วมกี่คน ฉันอยากพิมพ์เอกสารแจกให้พอ",
+      "ประมาณสามสิบคนครับ ผมจะส่งรายชื่อผู้ลงทะเบียนให้วันจันทร์"
+    ],
+    "tipTH": "ก่อนฟังข้อกราฟิก ให้ดูตารางก่อนว่ามีคอลัมน์อะไร แล้วฟังข้อมูลจากคอลัมน์ที่ไม่ได้อยู่ในตัวเลือก (ในที่นี้คือวันที่) เพื่อหาคำตอบ",
+    "vocabulary": [
+      {
+        "word": "lunch-and-learn",
+        "pos": "noun",
+        "th": "กิจกรรมเรียนรู้ช่วงพักกลางวัน"
+      },
+      {
+        "word": "covered",
+        "pos": "adjective",
+        "th": "มีคนรับผิดชอบแล้ว"
+      },
+      {
+        "word": "handout",
+        "pos": "noun",
+        "th": "เอกสารแจก"
+      },
+      {
+        "word": "sign-up list",
+        "pos": "noun",
+        "th": "รายชื่อผู้ลงทะเบียน"
+      }
+    ]
+  },
+  {
+    "id": "C6-06",
+    "part": 3,
+    "topic": "manufacturing",
+    "difficulty": "hard",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Victor, how did the drop tests go on the recycled cardboard packaging?"
+      },
+      {
+        "speaker": "M",
+        "text": "Not great. Two of the ten sample boxes split open, and one of our ceramic lamps cracked."
+      },
+      {
+        "speaker": "W",
+        "text": "Hmm. Our customers keep asking for greener packaging, though. Marketing's already planning to feature it in the spring catalog."
+      },
+      {
+        "speaker": "M",
+        "text": "I know. The supplier says a thicker version of the cardboard would solve the problem, but it costs eight percent more."
+      },
+      {
+        "speaker": "W",
+        "text": "Eight percent? That's still less than what we spend replacing broken lamps every year."
+      },
+      {
+        "speaker": "M",
+        "text": "True. Should I ask them to ship us some samples of the thicker version?"
+      },
+      {
+        "speaker": "W",
+        "text": "Yes, and let's run the tests again before we sign anything."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What problem does the man report?",
+        "options": [
+          "A supplier has gone out of business.",
+          "A shipment of lamps was delayed.",
+          "Some packaging failed a test.",
+          "Some lamps are the wrong color."
+        ],
+        "answer": 2,
+        "evidence": [
+          "Two of the ten sample boxes split open, and one of our ceramic lamps cracked."
+        ],
+        "explanationTH": "ผู้ชายรายงานว่าในการทดสอบตกกระแทก กล่องตัวอย่างสองในสิบกล่องแตก และโคมไฟร้าว แปลว่าบรรจุภัณฑ์ไม่ผ่านการทดสอบ",
+        "optionNotesTH": [
+          "ผิด ซัพพลายเออร์ยังเสนอกระดาษแบบหนากว่าอยู่ ไม่ได้เลิกกิจการ",
+          "ผิด ไม่มีการพูดถึงการส่งของล่าช้า",
+          "ถูก กล่องแตกในการทดสอบ",
+          "ผิด โคมไฟร้าว ไม่ได้ผิดสี"
+        ]
+      },
+      {
+        "type": "intent",
+        "stem": "What does the woman imply when she says, \"That's still less than what we spend replacing broken lamps every year\"?",
+        "options": [
+          "The higher price is worth paying.",
+          "The company should stop selling lamps.",
+          "The supplier has made a billing error.",
+          "Customers should pay for replacements."
+        ],
+        "answer": 0,
+        "evidence": [
+          "it costs eight percent more",
+          "That's still less than what we spend replacing broken lamps every year."
+        ],
+        "explanationTH": "ผู้หญิงเปรียบเทียบว่าราคาที่เพิ่มขึ้นแปดเปอร์เซ็นต์ยังน้อยกว่าค่าเปลี่ยนโคมไฟที่แตกในแต่ละปี จึงสื่อว่าคุ้มที่จะจ่ายเพิ่ม และผู้ชายก็ตอบว่า True",
+        "optionNotesTH": [
+          "ถูก ราคาที่สูงขึ้นคุ้มค่า",
+          "ผิด ใช้คำว่า lamps หลอก ไม่ได้เสนอให้เลิกขาย",
+          "ผิด ไม่มีการพูดถึงใบแจ้งหนี้ผิด",
+          "ผิด ไม่ได้พูดว่าให้ลูกค้าจ่ายค่าเปลี่ยน"
+        ]
+      },
+      {
+        "type": "nextAction",
+        "stem": "What will the man most likely do next?",
+        "options": [
+          "Update a product catalog",
+          "Sign a contract with a supplier",
+          "Repair some damaged lamps",
+          "Request some product samples"
+        ],
+        "answer": 3,
+        "evidence": [
+          "Should I ask them to ship us some samples of the thicker version?",
+          "Yes, and let's run the tests again before we sign anything."
+        ],
+        "explanationTH": "ผู้ชายถามว่าจะให้ขอตัวอย่างกระดาษแบบหนาไหม และผู้หญิงตอบว่าใช่ เขาจึงน่าจะติดต่อขอตัวอย่าง",
+        "optionNotesTH": [
+          "ผิด แคตตาล็อกเป็นงานของฝ่ายการตลาด",
+          "ผิด ผู้หญิงบอกให้ทดสอบก่อนเซ็นสัญญา",
+          "ผิด ไม่มีการพูดถึงการซ่อมโคมไฟ",
+          "ถูก ขอให้ซัพพลายเออร์ส่งตัวอย่างมา"
+        ]
+      }
+    ],
+    "translationTH": [
+      "วิกเตอร์ การทดสอบตกกระแทกของบรรจุภัณฑ์กระดาษลังรีไซเคิลเป็นอย่างไรบ้างคะ",
+      "ไม่ค่อยดีครับ กล่องตัวอย่างสองในสิบกล่องแตกออก และโคมไฟเซรามิกของเราร้าวหนึ่งชิ้น",
+      "อืม แต่ลูกค้าก็ถามหาบรรจุภัณฑ์ที่รักษ์โลกมากขึ้นอยู่เรื่อย ๆ ฝ่ายการตลาดก็วางแผนจะโปรโมตในแคตตาล็อกฤดูใบไม้ผลิแล้ว",
+      "ผมทราบครับ ซัพพลายเออร์บอกว่ากระดาษแบบหนากว่าจะแก้ปัญหาได้ แต่ราคาแพงขึ้นแปดเปอร์เซ็นต์",
+      "แปดเปอร์เซ็นต์เหรอ ยังน้อยกว่าเงินที่เราเสียไปกับการเปลี่ยนโคมไฟที่แตกในแต่ละปีอยู่ดี",
+      "จริงครับ ให้ผมขอให้เขาส่งตัวอย่างแบบหนามาให้เราไหมครับ",
+      "ค่ะ แล้วเราทดสอบอีกรอบก่อนจะเซ็นอะไรนะ"
+    ],
+    "tipTH": "ข้อ nextAction มักตอบได้จากช่วงท้าย เมื่อคนหนึ่งเสนอ (Should I...?) แล้วอีกคนตกลง (Yes) สิ่งที่เสนอนั้นคือสิ่งที่จะทำต่อไป",
+    "vocabulary": [
+      {
+        "word": "drop test",
+        "pos": "noun",
+        "th": "การทดสอบโดยปล่อยให้ตกกระแทก"
+      },
+      {
+        "word": "recycled",
+        "pos": "adjective",
+        "th": "ที่นำกลับมาใช้ใหม่"
+      },
+      {
+        "word": "split open",
+        "pos": "phrase",
+        "th": "แตกออก ฉีกออก"
+      },
+      {
+        "word": "feature",
+        "pos": "verb",
+        "th": "นำเสนอเด่น ๆ"
+      },
+      {
+        "word": "supplier",
+        "pos": "noun",
+        "th": "ผู้จัดหาสินค้า ซัพพลายเออร์"
+      }
+    ]
+  },
+  {
+    "id": "C6-07",
+    "part": 3,
+    "topic": "sales",
+    "difficulty": "medium",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      },
+      {
+        "id": "W2",
+        "gender": "female"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Gavin, Mei, thanks for meeting with me. Seabright Hotels wants to renew their contract for our bed linens, but they're asking for a bigger discount this year."
+      },
+      {
+        "speaker": "M",
+        "text": "How much bigger? Last year we gave them twelve percent."
+      },
+      {
+        "speaker": "W",
+        "text": "They want fifteen. Apparently, one of our competitors offered them that."
+      },
+      {
+        "speaker": "W2",
+        "text": "We could match it if they agree to a three-year contract instead of one. That way, we'd have guaranteed sales."
+      },
+      {
+        "speaker": "M",
+        "text": "I like that. And we could include free delivery to their new resort in Port Alder. That'd be a strong selling point."
+      },
+      {
+        "speaker": "W",
+        "text": "Good ideas, both of you. Mei, can you draft a proposal with those terms?"
+      },
+      {
+        "speaker": "W2",
+        "text": "Sure. I'll have it on your desk by tomorrow morning."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "stem": "What does Seabright Hotels want?",
+        "options": [
+          "A faster delivery schedule",
+          "A larger price reduction",
+          "Some additional product colors",
+          "A shorter contract"
+        ],
+        "answer": 1,
+        "evidence": [
+          "they're asking for a bigger discount this year"
+        ],
+        "explanationTH": "ผู้หญิงคนแรกบอกว่า Seabright Hotels ขอส่วนลดที่มากขึ้นในปีนี้ จากสิบสองเป็นสิบห้าเปอร์เซ็นต์ bigger discount = larger price reduction",
+        "optionNotesTH": [
+          "ผิด การส่งฟรีเป็นข้อเสนอของ Gavin ไม่ใช่สิ่งที่ลูกค้าขอ",
+          "ถูก ขอส่วนลดมากขึ้น",
+          "ผิด ไม่มีการพูดถึงสีสินค้า",
+          "ผิด Mei เสนอสัญญาที่ยาวขึ้น ไม่ใช่สั้นลง"
+        ]
+      },
+      {
+        "type": "suggestion",
+        "stem": "What does Mei suggest?",
+        "options": [
+          "Contacting a competitor",
+          "Raising prices on other products",
+          "Offering a longer agreement",
+          "Visiting a new resort"
+        ],
+        "answer": 2,
+        "evidence": [
+          "We could match it if they agree to a three-year contract instead of one."
+        ],
+        "explanationTH": "Mei เสนอว่าจะให้ส่วนลดเท่าคู่แข่งได้ถ้าลูกค้ายอมทำสัญญาสามปีแทนหนึ่งปี three-year contract = longer agreement",
+        "optionNotesTH": [
+          "ผิด คู่แข่งถูกพูดถึงแต่ไม่มีใครเสนอให้ติดต่อ",
+          "ผิด ไม่มีการเสนอขึ้นราคา",
+          "ถูก สัญญาสามปีแทนหนึ่งปี",
+          "ผิด รีสอร์ตใหม่ถูกพูดถึงในข้อเสนอเรื่องการส่งของของ Gavin ไม่มีใครจะไปเยี่ยม"
+        ]
+      },
+      {
+        "type": "nextAction",
+        "stem": "What will Mei do by tomorrow morning?",
+        "options": [
+          "Prepare a document",
+          "Deliver some linens",
+          "Call a hotel manager",
+          "Sign a contract"
+        ],
+        "answer": 0,
+        "evidence": [
+          "Mei, can you draft a proposal with those terms?",
+          "I'll have it on your desk by tomorrow morning."
+        ],
+        "explanationTH": "ผู้หญิงคนแรกขอให้ Mei ร่างข้อเสนอ และ Mei ตอบว่าจะเตรียมให้ภายในเช้าพรุ่งนี้ draft a proposal = prepare a document",
+        "optionNotesTH": [
+          "ถูก ร่างข้อเสนอ",
+          "ผิด การส่งผ้าปูเตียงเป็นสิ่งที่บริษัทจะทำให้ลูกค้า ไม่ใช่งานของ Mei พรุ่งนี้",
+          "ผิด ไม่มีการพูดถึงการโทรหาผู้จัดการโรงแรม",
+          "ผิด ยังเป็นแค่ร่างข้อเสนอ ยังไม่มีการเซ็นสัญญา"
+        ]
+      }
+    ],
+    "translationTH": [
+      "เกวิน เหม่ย ขอบคุณที่มาประชุมนะคะ Seabright Hotels อยากต่อสัญญาซื้อผ้าปูเตียงของเรา แต่ปีนี้เขาขอส่วนลดมากขึ้น",
+      "มากขึ้นแค่ไหนครับ ปีที่แล้วเราให้เขาสิบสองเปอร์เซ็นต์",
+      "เขาอยากได้สิบห้า ดูเหมือนคู่แข่งรายหนึ่งของเราเสนอให้เขาแบบนั้น",
+      "เราให้เท่าได้นะคะ ถ้าเขายอมทำสัญญาสามปีแทนหนึ่งปี แบบนั้นเราจะมียอดขายที่แน่นอน",
+      "ผมชอบไอเดียนี้ แล้วเราอาจรวมการจัดส่งฟรีไปที่รีสอร์ตใหม่ของเขาที่พอร์ตอัลเดอร์ด้วย น่าจะเป็นจุดขายที่ดี",
+      "ไอเดียดีทั้งคู่เลย เหม่ย ช่วยร่างข้อเสนอที่มีเงื่อนไขพวกนี้ได้ไหมคะ",
+      "ได้ค่ะ จะวางไว้บนโต๊ะคุณภายในเช้าพรุ่งนี้"
+    ],
+    "tipTH": "บทสนทนาสามคนมักมีการเรียกชื่อตอนต้น จำให้ได้ว่าเสียงไหนคือใคร เพราะคำถามอาจถามถึงผู้พูดด้วยชื่อ เช่น What does Mei suggest",
+    "vocabulary": [
+      {
+        "word": "renew",
+        "pos": "verb",
+        "th": "ต่ออายุ"
+      },
+      {
+        "word": "bed linen",
+        "pos": "noun",
+        "th": "ผ้าปูเตียงและปลอกหมอน"
+      },
+      {
+        "word": "match",
+        "pos": "verb",
+        "th": "ให้เท่ากับ (ราคาหรือข้อเสนอของคู่แข่ง)"
+      },
+      {
+        "word": "selling point",
+        "pos": "noun",
+        "th": "จุดขาย"
+      },
+      {
+        "word": "draft",
+        "pos": "verb",
+        "th": "ร่าง (เอกสาร)"
+      }
+    ]
+  },
+  {
+    "id": "C6-08",
+    "part": 3,
+    "topic": "hr",
+    "difficulty": "hard",
+    "speakers": [
+      {
+        "id": "W",
+        "gender": "female"
+      },
+      {
+        "id": "M",
+        "gender": "male"
+      },
+      {
+        "id": "M2",
+        "gender": "male"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "W",
+        "text": "Thanks for coming, Ivan and Dmitri. As you know, we're replacing the annual performance review with short check-ins every three months."
+      },
+      {
+        "speaker": "M",
+        "text": "I've read the proposal. My concern is time. I manage fourteen people, so that's a lot of extra meetings."
+      },
+      {
+        "speaker": "M2",
+        "text": "Each check-in should only take about twenty minutes, though. And the long annual paperwork goes away."
+      },
+      {
+        "speaker": "W",
+        "text": "Right. Most of the old form has been cut. Managers will just record three goals and a few brief comments."
+      },
+      {
+        "speaker": "M",
+        "text": "Well, that's a relief. The old form took me a whole weekend."
+      },
+      {
+        "speaker": "M2",
+        "text": "We're also testing the system in the design department first, starting in June, so we can fix any problems before the full rollout."
+      },
+      {
+        "speaker": "W",
+        "text": "Ivan, would your team be willing to join that pilot, too? Your feedback would be really useful."
+      },
+      {
+        "speaker": "M",
+        "text": "Sure, as long as my team leads can help with some of the meetings."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainIdea",
+        "stem": "What are the speakers mainly discussing?",
+        "options": [
+          "A new hiring process",
+          "A training workshop",
+          "A department merger",
+          "A change to employee evaluations"
+        ],
+        "answer": 3,
+        "evidence": [
+          "we're replacing the annual performance review with short check-ins every three months"
+        ],
+        "explanationTH": "ผู้หญิงเปิดประเด็นว่าบริษัทจะเปลี่ยนการประเมินผลงานประจำปีเป็นการพูดคุยสั้น ๆ ทุกสามเดือน ทั้งบทสนทนาจึงพูดถึงการเปลี่ยนวิธีประเมินพนักงาน",
+        "optionNotesTH": [
+          "ผิด ไม่มีการพูดถึงการรับสมัครงาน",
+          "ผิด ไม่มีเวิร์กช็อปฝึกอบรม",
+          "ผิด ฝ่ายออกแบบถูกพูดถึงในฐานะกลุ่มทดลอง ไม่ใช่การรวมแผนก",
+          "ถูก performance review = employee evaluation"
+        ]
+      },
+      {
+        "type": "intent",
+        "stem": "Why does Ivan say, \"The old form took me a whole weekend\"?",
+        "options": [
+          "To request some extra time off",
+          "To show he welcomes a simpler process",
+          "To complain about weekend meetings",
+          "To explain why he missed a deadline"
+        ],
+        "answer": 1,
+        "evidence": [
+          "Most of the old form has been cut.",
+          "Well, that's a relief. The old form took me a whole weekend."
+        ],
+        "explanationTH": "Ivan พูดประโยคนี้หลังได้ยินว่าแบบฟอร์มเก่าถูกตัดออกเกือบหมด และเขาพูดว่า that's a relief จึงแสดงว่าเขายินดีกับขั้นตอนที่ง่ายขึ้น",
+        "optionNotesTH": [
+          "ผิด ไม่ได้ขอวันหยุดเพิ่ม",
+          "ถูก โล่งใจที่ขั้นตอนง่ายขึ้น",
+          "ผิด ใช้คำว่า weekend หลอก ไม่มีการประชุมวันหยุด",
+          "ผิด ไม่ได้พูดถึงการส่งงานไม่ทันกำหนด"
+        ]
+      },
+      {
+        "type": "detail",
+        "stem": "What does the woman ask Ivan to do?",
+        "options": [
+          "Lead a training session",
+          "Hire additional team leads",
+          "Take part in a trial program",
+          "Transfer to the design department"
+        ],
+        "answer": 2,
+        "evidence": [
+          "Ivan, would your team be willing to join that pilot, too?"
+        ],
+        "explanationTH": "ผู้หญิงถามว่าทีมของ Ivan จะยินดีเข้าร่วมโครงการนำร่องด้วยไหม pilot = trial program",
+        "optionNotesTH": [
+          "ผิด ไม่มีการขอให้เป็นผู้นำการอบรม",
+          "ผิด Ivan พูดถึงหัวหน้าทีมที่มีอยู่แล้วให้ช่วย ไม่ได้ให้จ้างเพิ่ม",
+          "ถูก เข้าร่วมโครงการนำร่อง",
+          "ผิด ฝ่ายออกแบบเป็นที่ทดลองระบบ ไม่ได้ให้ย้ายไป"
+        ]
+      }
+    ],
+    "translationTH": [
+      "ขอบคุณที่มานะคะ อีวานกับดมิทรี อย่างที่ทราบ เราจะเปลี่ยนการประเมินผลงานประจำปีเป็นการพูดคุยติดตามงานสั้น ๆ ทุกสามเดือน",
+      "ผมอ่านข้อเสนอแล้ว ที่ผมกังวลคือเรื่องเวลา ผมดูแลสิบสี่คน แบบนั้นต้องประชุมเพิ่มเยอะมาก",
+      "แต่การพูดคุยแต่ละครั้งน่าจะใช้แค่ราวยี่สิบนาทีนะครับ และเอกสารประจำปียาว ๆ ก็ไม่ต้องทำแล้ว",
+      "ใช่ค่ะ แบบฟอร์มเก่าถูกตัดออกไปเกือบหมด ผู้จัดการแค่บันทึกเป้าหมายสามข้อกับความเห็นสั้น ๆ",
+      "โล่งใจไปที แบบฟอร์มเก่าใช้เวลาผมทั้งสุดสัปดาห์",
+      "เราจะทดลองระบบกับฝ่ายออกแบบก่อน เริ่มเดือนมิถุนายน เพื่อจะได้แก้ปัญหาก่อนใช้จริงทั้งบริษัท",
+      "อีวาน ทีมของคุณยินดีเข้าร่วมโครงการนำร่องด้วยไหมคะ ความเห็นของคุณจะมีประโยชน์มาก",
+      "ได้ครับ ขอแค่ให้หัวหน้าทีมของผมช่วยรับการประชุมบางส่วน"
+    ],
+    "tipTH": "ข้อ intent ให้ฟังประโยคก่อนหน้าและน้ำเสียงหรือคำแสดงความรู้สึก เช่น that's a relief ซึ่งบอกทัศนคติของผู้พูดได้ชัดกว่าความหมายตรงตัว",
+    "vocabulary": [
+      {
+        "word": "performance review",
+        "pos": "noun",
+        "th": "การประเมินผลการปฏิบัติงาน"
+      },
+      {
+        "word": "check-in",
+        "pos": "noun",
+        "th": "การพูดคุยติดตามความคืบหน้า"
+      },
+      {
+        "word": "relief",
+        "pos": "noun",
+        "th": "ความโล่งใจ"
+      },
+      {
+        "word": "rollout",
+        "pos": "noun",
+        "th": "การนำไปใช้จริงทั้งระบบ"
+      },
+      {
+        "word": "pilot",
+        "pos": "noun",
+        "th": "โครงการนำร่อง"
+      }
+    ]
+  }
+]

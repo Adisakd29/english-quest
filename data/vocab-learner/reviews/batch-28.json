@@ -1,0 +1,66 @@
+{
+  "batch": "28",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0369",
+      "severity": "minor",
+      "problem": "Collocations 'get hold of' and 'on hold' are different senses (contact/obtain; paused), not 'grip in the hand'",
+      "fix": {
+        "collocations": [
+          "a firm hold",
+          "keep hold of",
+          "lose your hold on"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0434",
+      "severity": "minor",
+      "problem": "Collocation 'level off' is a different, intransitive sense (stop rising/falling); 'level the playing field' is figurative",
+      "fix": {
+        "collocations": [
+          "level the ground",
+          "level the surface",
+          "level the site"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0449",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Smoking damages your health and makes it harder to breathe' fits equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0455",
+      "severity": "minor",
+      "problem": "exampleTH 'การท่องเที่ยวแบบคนจำนวนมาก' is unnatural; the established Thai term is 'การท่องเที่ยวแบบมวลชน'",
+      "fix": {
+        "exampleTH": "การท่องเที่ยวแบบมวลชนทำให้เกาะเงียบสงบหลายแห่งกลายเป็นที่พลุกพล่านและแออัด"
+      }
+    },
+    {
+      "id": "B2-S0478",
+      "severity": "minor",
+      "problem": "Collocation 'model yourself on' is a different sense (copy someone's behaviour), not 'create a computer version of a system'",
+      "fix": {
+        "collocations": [
+          "computer modelling",
+          "model the effects of",
+          "model climate change"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0483",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The lesson/message/point of the story is...' all fit equally well",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

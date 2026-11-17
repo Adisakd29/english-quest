@@ -1,0 +1,497 @@
+{
+  "id": "b2-linking",
+  "summaryTh": "เชื่อมความขัดแย้งและจุดประสงค์ให้ถูกโครงสร้าง: although / despite / whereas / however / so that / in order to",
+  "concept": {
+    "what": "คำเชื่อมขั้นสูงช่วยบอกความสัมพันธ์ระหว่างความคิด โดยแต่ละคำมีโครงสร้างของตัวเอง: although / even though + ประโยค · despite / in spite of + คำนาม หรือ V-ing · whereas เปรียบเทียบสองสิ่งที่ต่างกัน · however / nevertheless เชื่อมสองประโยคและต้องมีเครื่องหมายวรรคตอน · so that / in order to บอกจุดประสงค์",
+    "when": [
+      "ความขัดแย้ง + ประโยค: Although / Even though it was raining, we went out.",
+      "ความขัดแย้ง + คำนาม / V-ing: Despite / In spite of the rain (feeling tired), …",
+      "เปรียบเทียบความต่างของสองสิ่ง: I like tea, whereas my sister prefers coffee.",
+      "ขึ้นประโยคใหม่ที่ขัดแย้งกับประโยคก่อน: … . However, … / … ; nevertheless, …",
+      "บอกจุดประสงค์: so that + ประโยค (can / could / would) · in order to / so as to + V1"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ถึงแม้ว่า … แต่ …\" ใช้คู่กันได้ ผู้เรียนไทยจึงเขียน Although …, but … ซึ่งผิด และมักใช้ despite ตามด้วยประโยค (despite it was …) หรือใส่ of (despite of) — การเลือกคำเชื่อมให้ตรงโครงสร้างทำให้งานเขียนดูเป็นธรรมชาติและเป็นทางการ"
+  },
+  "structure": {
+    "formula": "Linker + clause / noun / V-ing (ตามชนิดของคำเชื่อม)",
+    "rows": [
+      {
+        "label": "Although / Even though",
+        "formula": "Although / Even though + S + V, S + V",
+        "example": "[[Although]] it was late, we kept working."
+      },
+      {
+        "label": "Despite / In spite of",
+        "formula": "Despite / In spite of + noun / V-ing / the fact that + S + V",
+        "example": "[[Despite]] the traffic, we arrived on time."
+      },
+      {
+        "label": "Whereas / While",
+        "formula": "S + V, whereas S + V",
+        "example": "My brother loves football, [[whereas]] I prefer basketball."
+      },
+      {
+        "label": "However / Nevertheless",
+        "formula": "S + V. However, S + V. / S + V; however, S + V.",
+        "example": "The hotel was expensive. [[However]], the service was excellent."
+      },
+      {
+        "label": "so that",
+        "formula": "S + V + so that + S + can / could / will / would + V1",
+        "example": "I saved money [[so that]] I could buy a laptop."
+      },
+      {
+        "label": "in order to / so as to",
+        "formula": "S + V + in order (not) to / so as (not) to + V1",
+        "example": "She got up early [[in order to]] catch the first train."
+      }
+    ],
+    "notes": [
+      "Although กับ but ไม่ใช้ในประโยคเดียวกัน — เลือกอย่างใดอย่างหนึ่ง",
+      "ไม่มี despite of — ใช้ despite หรือ in spite of",
+      "despite / in spite of ตามด้วยประโยคไม่ได้ ถ้าจะใช้ประโยคต้องเติม the fact that",
+      "however เป็น adverb ไม่ใช่ conjunction: ใช้หลังจุด (.) หรือ semicolon (;) แล้วตามด้วยจุลภาค",
+      "ปฏิเสธจุดประสงค์: in order not to / so as not to + V1 (ไม่ใช่ for not to)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[Although]] it was raining, we went to the market.",
+      "th": "ถึงแม้ฝนจะตก พวกเราก็ไปตลาด"
+    },
+    {
+      "en": "[[Despite]] the rain, we went to the market.",
+      "th": "แม้จะมีฝน พวกเราก็ไปตลาด"
+    },
+    {
+      "en": "[[In spite of]] feeling tired, she finished her homework.",
+      "th": "แม้จะรู้สึกเหนื่อย เธอก็ทำการบ้านเสร็จ"
+    },
+    {
+      "en": "[[Even though]] he earns a lot, he lives in a small flat.",
+      "th": "ถึงแม้เขาจะรายได้ดีมาก เขาก็อยู่ในห้องเล็ก ๆ"
+    },
+    {
+      "en": "My brother loves football, [[whereas]] I prefer basketball.",
+      "th": "พี่ชายชอบฟุตบอล ส่วนฉันชอบบาสเกตบอลมากกว่า"
+    },
+    {
+      "en": "The hotel was expensive. [[However]], the service was excellent.",
+      "th": "โรงแรมแพง อย่างไรก็ตาม บริการดีเยี่ยม"
+    },
+    {
+      "en": "I saved money every month [[so that]] I could buy a laptop.",
+      "th": "ฉันเก็บเงินทุกเดือนเพื่อจะได้ซื้อแล็ปท็อป"
+    },
+    {
+      "en": "She got up early [[in order to]] catch the first train.",
+      "th": "เธอตื่นเช้าเพื่อขึ้นรถไฟเที่ยวแรก"
+    },
+    {
+      "en": "The project was difficult; [[nevertheless]], the team finished on time.",
+      "th": "โปรเจกต์ยาก แต่ถึงอย่างนั้นทีมก็ทำเสร็จทันเวลา"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Although it was late, but we kept working.",
+      "right": "Although it was late, we kept working.",
+      "whyTh": "ภาษาไทยพูด \"ถึงแม้ … แต่ …\" ได้ แต่ภาษาอังกฤษใช้ although กับ but คู่กันไม่ได้ ต้องเลือกอย่างใดอย่างหนึ่ง"
+    },
+    {
+      "wrong": "Despite of the traffic, we arrived on time.",
+      "right": "Despite the traffic, we arrived on time.",
+      "whyTh": "ไม่มี despite of — ใช้ despite หรือ in spite of"
+    },
+    {
+      "wrong": "Despite it was raining, we played football.",
+      "right": "Although it was raining, we played football.",
+      "whyTh": "despite ตามด้วยคำนามหรือ V-ing เท่านั้น ถ้าตามด้วยประโยคต้องใช้ although (หรือ despite the fact that)"
+    },
+    {
+      "wrong": "I studied hard, however I failed the test.",
+      "right": "I studied hard. However, I failed the test.",
+      "whyTh": "however เชื่อมประโยคด้วยจุลภาคเฉย ๆ ไม่ได้ ต้องขึ้นประโยคใหม่ (หรือใช้ ;) แล้วตามด้วยจุลภาค"
+    },
+    {
+      "wrong": "She saves money for buy a house.",
+      "right": "She saves money to buy a house.",
+      "whyTh": "บอกจุดประสงค์ใช้ to / in order to + V1 — for ตามด้วยคำนาม ไม่ใช่กริยา (ภาษาไทยใช้ \"เพื่อ\" คำเดียว จึงสับสนบ่อย)"
+    }
+  ],
+  "compare": {
+    "title": "Although vs Despite",
+    "with": [],
+    "rows": [
+      {
+        "label": "ตามด้วย",
+        "a": "ประโยค (S + V)",
+        "b": "คำนาม / V-ing / the fact that + S + V"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "Although he was ill, he went to work.",
+        "b": "Despite his illness / being ill, he went to work."
+      },
+      {
+        "label": "คำที่ใช้แทนได้",
+        "a": "even though (เน้นกว่า), though",
+        "b": "in spite of"
+      },
+      {
+        "label": "ข้อห้าม",
+        "a": "ห้ามใช้คู่กับ but",
+        "b": "ห้ามใส่ of หลัง despite"
+      }
+    ],
+    "tipTh": "ดูคำที่ตามมา: ถ้ามีประธาน + กริยา ใช้ although · ถ้าเป็นคำนามหรือ V-ing ใช้ despite / in spite of"
+  },
+  "contexts": [
+    {
+      "kind": "email",
+      "title": "Quarterly update",
+      "lines": [
+        {
+          "text": "Dear team, [[Although]] sales fell in March, we still reached our target for the quarter, mainly thanks to the new website. [[However]], our costs rose by 10%. [[In order to]] reduce them, we will move to a smaller office next year. Online sales are growing quickly, [[whereas]] shop sales are slowly falling. Best wishes, Napat"
+        }
+      ]
+    },
+    {
+      "kind": "school",
+      "title": "Student essay: city life",
+      "lines": [
+        {
+          "text": "[[Despite]] the heavy traffic, many young people prefer to live in Bangkok. [[Even though]] rent is expensive, there are more job opportunities. Many workers take the Skytrain [[so that]] they can avoid traffic jams. Life in the countryside is quieter; [[nevertheless]], it can be difficult to find a good job there."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Linking word / Linker",
+      "th": "คำเชื่อมที่บอกความสัมพันธ์ระหว่างความคิด"
+    },
+    {
+      "en": "Contrast",
+      "th": "ความขัดแย้ง / ตรงข้าม (although, despite, however)"
+    },
+    {
+      "en": "Purpose",
+      "th": "จุดประสงค์ (so that, in order to, so as to)"
+    },
+    {
+      "en": "Conjunction",
+      "th": "คำสันธานที่เชื่อมสองประโยคเป็นประโยคเดียว เช่น although, whereas"
+    },
+    {
+      "en": "Sentence adverb",
+      "th": "คำที่ขึ้นต้นประโยคใหม่และต้องมีจุลภาคตาม เช่น However, Nevertheless"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-linking-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ it was very late, we kept working.",
+      "choices": [
+        "Although",
+        "Despite",
+        "In spite of",
+        "However"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "despite ตามด้วยคำนาม/V-ing ไม่ใช่ประโยค (it was …)",
+        "2": "in spite of ตามด้วยคำนาม/V-ing ไม่ใช่ประโยค",
+        "3": "however ไม่ได้เชื่อมสองประโยคในประโยคเดียว ต้องใช้หลังจุด"
+      },
+      "explainTh": "it was very late เป็นประโยค (S + V) → ใช้ although",
+      "structure": "Although + S + V, S + V",
+      "example": "Although it was very late, we kept working."
+    },
+    {
+      "id": "b2-linking-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ the heavy traffic, we arrived on time.",
+      "choices": [
+        "Despite",
+        "Although",
+        "Even though",
+        "Whereas"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "although ต้องตามด้วยประโยค แต่ the heavy traffic เป็นคำนาม",
+        "2": "even though ต้องตามด้วยประโยคเช่นกัน",
+        "3": "whereas ใช้เปรียบเทียบความต่างของสองสิ่ง และต้องตามด้วยประโยค"
+      },
+      "explainTh": "the heavy traffic เป็นคำนาม → ใช้ despite (หรือ in spite of)",
+      "structure": "Despite + noun, S + V"
+    },
+    {
+      "id": "b2-linking-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "She went to work ___ her bad cold. (despite / although)",
+      "accepted": [
+        "despite"
+      ],
+      "explainTh": "her bad cold เป็นคำนาม ไม่ใช่ประโยค (ไม่มีประธาน + กริยา) → despite · ถ้าจะใช้ although ต้องตามด้วยประโยค เช่น although she had a bad cold",
+      "structure": "despite + noun",
+      "example": "She went to work despite her bad cold."
+    },
+    {
+      "id": "b2-linking-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "I'm going to leave early ___ I can avoid the traffic. (2 คำ)",
+      "accepted": [
+        "so that"
+      ],
+      "explainTh": "ตามด้วยประโยคที่มี can → so that + S + can + V1 บอกจุดประสงค์",
+      "structure": "so that + S + can / could + V1"
+    },
+    {
+      "id": "b2-linking-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Despite of the bad weather, the match went ahead.",
+      "errorPart": "Despite of",
+      "accepted": [
+        "Despite the bad weather, the match went ahead.",
+        "In spite of the bad weather, the match went ahead."
+      ],
+      "explainTh": "ไม่มี despite of — ใช้ despite หรือ in spite of"
+    },
+    {
+      "id": "b2-linking-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Although she studied very hard, but she didn't pass the exam.",
+      "errorPart": "but",
+      "accepted": [
+        "Although she studied very hard, she didn't pass the exam.",
+        "She studied very hard, but she didn't pass the exam."
+      ],
+      "explainTh": "although กับ but ใช้คู่กันไม่ได้ ตัดคำใดคำหนึ่งออก"
+    },
+    {
+      "id": "b2-linking-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "he",
+        "took",
+        "a",
+        "taxi",
+        "in",
+        "order",
+        "to",
+        "save",
+        "time"
+      ],
+      "accepted": [
+        "He took a taxi in order to save time.",
+        "In order to save time, he took a taxi.",
+        "In order to save time he took a taxi."
+      ],
+      "explainTh": "in order to + V1 บอกจุดประสงค์ วางท้ายประโยค (หรือต้นประโยคตามด้วยจุลภาค)"
+    },
+    {
+      "id": "b2-linking-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Although it rained, the concert continued.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย Despite",
+      "accepted": [
+        "Despite the rain, the concert continued.",
+        "Despite the rain the concert continued.",
+        "Despite the fact that it rained, the concert continued.",
+        "Despite the fact that it rained the concert continued.",
+        "Despite it raining, the concert continued."
+      ],
+      "explainTh": "despite + คำนาม (the rain) หรือ despite the fact that + ประโยค"
+    },
+    {
+      "id": "b2-linking-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Mike is very outgoing. His brother is quite shy.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย whereas",
+      "accepted": [
+        "Mike is very outgoing, whereas his brother is quite shy.",
+        "Mike is very outgoing whereas his brother is quite shy.",
+        "Whereas Mike is very outgoing, his brother is quite shy.",
+        "Whereas Mike is very outgoing his brother is quite shy."
+      ],
+      "explainTh": "whereas เชื่อมสองประโยคที่เปรียบเทียบความต่าง มักมีจุลภาคหน้า whereas"
+    },
+    {
+      "id": "b2-linking-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยค",
+      "pairs": [
+        [
+          "Although the test was hard,",
+          "most students got good grades."
+        ],
+        [
+          "In spite of his injury,",
+          "he finished the marathon."
+        ],
+        [
+          "She wore a thick coat",
+          "so that she wouldn't get cold."
+        ],
+        [
+          "I love spicy food,",
+          "whereas my husband can't eat chilli."
+        ],
+        [
+          "The plan was risky.",
+          "However, the boss approved it."
+        ]
+      ],
+      "explainTh": "although + ประโยค · in spite of + คำนาม · so that + ประโยคจุดประสงค์ · whereas เปรียบเทียบความต่าง · However ขึ้นประโยคใหม่"
+    },
+    {
+      "id": "b2-linking-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ใช้ however และเครื่องหมายวรรคตอนถูกต้อง",
+      "choices": [
+        "The flat is small. However, it's very comfortable.",
+        "The flat is small, however it's very comfortable.",
+        "The flat is small. However it's, very comfortable.",
+        "The flat is small however, it's very comfortable."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "however เชื่อมสองประโยคด้วยจุลภาคไม่ได้ (comma splice) ต้องใช้จุดหรือ ; และมีจุลภาคหลัง however",
+        "2": "จุลภาคต้องอยู่หลัง However ทันที ไม่ใช่หลัง it's",
+        "3": "ขาดจุดหรือ ; ก่อน however"
+      },
+      "explainTh": "ประโยคแรก + จุด (.) + However + จุลภาค (,) + ประโยคที่สอง"
+    },
+    {
+      "id": "b2-linking-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Why are you whispering?"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm speaking quietly ___ wake the baby."
+          }
+        ]
+      },
+      "choices": [
+        "so as not to",
+        "so that not to",
+        "in order not",
+        "for not to"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "so that ต้องตามด้วยประโยค (so that I don't wake …) ไม่ใช่ not to",
+        "2": "ขาด to: ต้องเป็น in order not to",
+        "3": "ไม่มีโครงสร้าง for not to"
+      },
+      "explainTh": "จุดประสงค์เชิงปฏิเสธ → so as not to / in order not to + V1"
+    },
+    {
+      "id": "b2-linking-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "Quarterly update",
+        "lines": [
+          {
+            "text": "Dear team, Although sales fell in March, we still reached our target for the quarter, mainly thanks to the new website. However, our costs rose by 10%. In order to reduce them, we will move to a smaller office next year."
+          }
+        ]
+      },
+      "question": "According to the email, what happened in spite of the fall in sales?",
+      "choices": [
+        "The team still reached its target for the quarter.",
+        "Costs rose by 10%.",
+        "The company moved to a smaller office.",
+        "The new website was closed."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "costs rose ตามหลัง However ซึ่งขัดแย้งกับข่าวดีเรื่องเป้าหมาย ไม่ใช่สิ่งที่เกิดแม้ยอดขายตก",
+        "2": "การย้ายออฟฟิศเป็นแผนในอนาคตเพื่อลดค่าใช้จ่าย (In order to)",
+        "3": "อีเมลบอกว่าเว็บไซต์ใหม่ช่วยให้ถึงเป้า ไม่ได้ถูกปิด"
+      },
+      "explainTh": "Although sales fell …, we still reached our target = แม้ยอดขายตก (in spite of the fall in sales) ก็ยังถึงเป้า"
+    },
+    {
+      "id": "b2-linking-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "___ the fact that he had no experience, he got the job.",
+      "choices": [
+        "Despite",
+        "Although",
+        "Even though",
+        "However"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "although ตามด้วยประโยคโดยตรง ไม่ใช้กับ the fact that (Although he had no experience …)",
+        "2": "even though ก็ตามด้วยประโยคโดยตรงเช่นกัน",
+        "3": "however ไม่ได้ใช้นำหน้าคำนามเพื่อเชื่อมความขัดแย้ง"
+      },
+      "explainTh": "despite / in spite of + the fact that + ประโยค → Despite the fact that he had no experience, …"
+    },
+    {
+      "id": "b2-linking-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "___ he had lived in Chiang Mai for years, he still got lost in the old city. (2 คำ ความหมาย \"ถึงแม้ว่า\" แบบเน้น)",
+      "accepted": [
+        "Even though"
+      ],
+      "explainTh": "ตามด้วยประโยค (he had lived …) และต้องการ 2 คำแบบเน้น → Even though",
+      "structure": "Even though + S + V, S + V"
+    },
+    {
+      "id": "b2-linking-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับข้อดีและข้อเสียของการอยู่ในเมืองใหญ่ ใช้คำเชื่อมอย่างน้อย 2 แบบจาก although / even though / despite / in spite of / whereas / however / nevertheless / so that / in order to (Write 3 sentences about the pros and cons of living in a big city, using at least two different linkers.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(although|even though|despite|in spite of|whereas|however|nevertheless|so that|in order to|so as to)\\b[\\s\\S]*\\b(?!\\1\\b)(although|even though|despite|in spite of|whereas|however|nevertheless|so that|in order to|so as to)\\b",
+          "flags": "i",
+          "msgTh": "ใช้คำเชื่อมขั้นสูงอย่างน้อย 2 แบบที่ต่างกัน เช่น although + whereas หรือ despite + in order to"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\bdespite of\\b",
+          "flags": "i",
+          "msgTh": "ไม่มี despite of — ใช้ despite หรือ in spite of"
+        },
+        {
+          "re": "\\b(although|even though)\\b[^.!?]*,\\s*but\\b",
+          "flags": "i",
+          "msgTh": "although / even though ใช้คู่กับ but ไม่ได้"
+        }
+      ],
+      "sample": "Although life in Bangkok is exciting, it can be very stressful. Many people take the Skytrain to work in order to avoid traffic jams. Rent is very high in the city centre, whereas it is much cheaper in the suburbs.",
+      "explainTh": "although + ประโยค · in order to + V1 · whereas เปรียบเทียบสองอย่าง — และอย่าใช้ although คู่กับ but"
+    }
+  ]
+}

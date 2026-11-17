@@ -1,0 +1,510 @@
+{
+ "exam": "kp",
+ "setId": "KP-S4",
+ "title": "ก.พ. ภาค ก ภาษาอังกฤษ ชุดฝึกที่ 4",
+ "version": 1,
+ "original": true,
+ "level": 2,
+ "sections": [
+  {
+   "id": "conversation",
+   "groups": [
+    {
+     "id": "KP-S4-G01",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Asking about a vacancy",
+     "dialogue": [
+      {
+       "speaker": "Caller",
+       "text": "I'm calling about the advertisement for a translator. Is the position still open?"
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___ The deadline isn't until Friday."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S4-001",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Yes, we're still accepting applications.",
+        "I'm afraid it has already been filled.",
+        "No, we don't need translators any more.",
+        "Sorry, you have the wrong number."
+       ],
+       "answer": 0,
+       "skill": "functional_language",
+       "explanationTh": "เจ้าหน้าที่พูดต่อว่าปิดรับสมัครวันศุกร์ (deadline isn't until Friday) แสดงว่ายังเปิดรับสมัครอยู่"
+      }
+     ]
+    },
+    {
+     "id": "KP-S4-G02",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A computer problem",
+     "dialogue": [
+      {
+       "speaker": "Wichai",
+       "text": "The new system keeps crashing. I've lost my work twice this morning."
+      },
+      {
+       "speaker": "Pranee",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Wichai",
+       "text": "Good idea. I'll call them right away."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S4-002",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Have you tried turning off your phone?",
+        "It must be nice to have a new system.",
+        "You'd better work harder this afternoon.",
+        "Why don't you report it to the IT section?"
+       ],
+       "answer": 3,
+       "skill": "functional_language",
+       "explanationTh": "Wichai ตอบว่า \"Good idea. I'll call them\" คำว่า them ต้องหมายถึงหน่วยงาน จึงเป็นคำแนะนำให้แจ้งฝ่ายไอที \"Why don't you ...?\" ใช้เสนอแนะ"
+      }
+     ]
+    },
+    {
+     "id": "KP-S4-G03",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A rejected application",
+     "dialogue": [
+      {
+       "speaker": "Citizen",
+       "text": "Could you tell me why my application was rejected?"
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Citizen",
+       "text": "I see. So if I send a new certificate, can you review it again?"
+      },
+      {
+       "speaker": "Officer",
+       "text": "Yes, as long as it was issued within the last three months."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S4-003",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Your medical certificate was more than three months old.",
+        "Your application was accepted yesterday.",
+        "We don't accept applications from your district.",
+        "The office will be closed for renovation."
+       ],
+       "answer": 0,
+       "skill": "functional_language",
+       "explanationTh": "ผู้ยื่นคำขอถามต่อว่าถ้าส่งใบรับรองใหม่จะพิจารณาอีกได้ไหม และเจ้าหน้าที่ตอบว่าต้องออกภายใน 3 เดือน แสดงว่าเหตุผลคือใบรับรองแพทย์เก่าเกินกำหนด"
+      }
+     ]
+    },
+    {
+     "id": "KP-S4-G04",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Covering a shift",
+     "dialogue": [
+      {
+       "speaker": "Somsak",
+       "text": "Could you possibly cover my shift at the information desk on Saturday?"
+      },
+      {
+       "speaker": "Kanda",
+       "text": "___1___ I promised to take my mother to the hospital."
+      },
+      {
+       "speaker": "Somsak",
+       "text": "Never mind. I'll ask someone else."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S4-004",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Sure, I'd be happy to.",
+        "I wish I could, but I'm busy that day.",
+        "Of course. What time should I be there?",
+        "Certainly. I'm free all weekend."
+       ],
+       "answer": 1,
+       "skill": "social_response",
+       "explanationTh": "Kanda ให้เหตุผลว่าต้องพาแม่ไปโรงพยาบาล และ Somsak ตอบว่าจะไปขอคนอื่น แสดงว่า Kanda ปฏิเสธอย่างสุภาพ"
+      }
+     ]
+    },
+    {
+     "id": "KP-S4-G05",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "After a community meeting",
+     "dialogue": [
+      {
+       "speaker": "Director",
+       "text": "How did the meeting with the villagers go?"
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___ They agreed to the new water schedule after we explained it."
+      },
+      {
+       "speaker": "Director",
+       "text": "That's great news."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S4-005",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Not very well, I'm afraid.",
+        "It was cancelled at the last minute.",
+        "Better than I expected.",
+        "I haven't been there yet."
+       ],
+       "answer": 2,
+       "skill": "social_response",
+       "explanationTh": "ประโยคถัดไปบอกว่าชาวบ้านยอมรับตารางน้ำใหม่ และผู้อำนวยการตอบว่าเป็นข่าวดี จึงต้องเป็นคำตอบเชิงบวก \"Better than I expected.\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "groups": [
+    {
+     "id": "KP-S4-G06",
+     "type": "kp_structure",
+     "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+     "items": [
+      {
+       "id": "KP-S4-006",
+       "stem": "Rarely ____ such a large number of applicants for a single position.",
+       "options": [
+        "the office has received",
+        "has the office received",
+        "has received the office",
+        "the office received"
+       ],
+       "answer": 1,
+       "skill": "grammar",
+       "explanationTh": "ประโยคที่ขึ้นต้นด้วยคำปฏิเสธอย่าง Rarely ต้องสลับกริยาช่วยมาไว้หน้าประธาน (inversion) จึงเป็น \"has the office received\""
+      },
+      {
+       "id": "KP-S4-007",
+       "stem": "The new regulation, ____ in detail at yesterday's meeting, will apply to all provinces.",
+       "options": [
+        "discussing",
+        "was discussed",
+        "discussed",
+        "to discuss"
+       ],
+       "answer": 2,
+       "skill": "grammar",
+       "explanationTh": "เป็นการลดรูป relative clause แบบ passive (which was discussed → discussed) เพราะระเบียบถูกอภิปราย ส่วน \"was discussed\" จะทำให้มีกริยาแท้สองตัวโดยไม่มีคำเชื่อม"
+      },
+      {
+       "id": "KP-S4-008",
+       "stem": "It is essential that every officer ____ the training before handling public complaints.",
+       "options": [
+        "complete",
+        "completing",
+        "to complete",
+        "completed"
+       ],
+       "answer": 0,
+       "skill": "grammar",
+       "explanationTh": "หลัง It is essential that ... ใช้ subjunctive คือกริยาช่อง 1 ไม่เติม s จึงเป็น \"every officer complete\""
+      },
+      {
+       "id": "KP-S4-009",
+       "stem": "The budget was approved, ____ allowed the project to begin earlier than planned.",
+       "options": [
+        "which",
+        "that",
+        "what",
+        "it"
+       ],
+       "answer": 0,
+       "skill": "grammar",
+       "explanationTh": "ช่องว่างแทนทั้งประโยคก่อนหน้า (การที่งบประมาณได้รับอนุมัติ) หลังเครื่องหมายจุลภาค ต้องใช้ \"which\" ไม่ใช้ that และใช้ it ไม่ได้เพราะจะไม่มีคำเชื่อม"
+      },
+      {
+       "id": "KP-S4-010",
+       "stem": "She would rather her team ____ the report by email than print it.",
+       "options": [
+        "sending",
+        "to send",
+        "will send",
+        "sent"
+       ],
+       "answer": 3,
+       "skill": "grammar",
+       "explanationTh": "โครงสร้าง would rather + ประธานอีกคน + กริยาช่อง 2 ใช้แสดงความต้องการในปัจจุบัน/อนาคต จึงเป็น \"her team sent\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocabulary",
+   "groups": [
+    {
+     "id": "KP-S4-G07",
+     "type": "kp_vocab",
+     "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+     "items": [
+      {
+       "id": "KP-S4-011",
+       "stem": "The department plans to ____ more staff to deal with the growing number of applications.",
+       "options": [
+        "retire",
+        "resign",
+        "reduce",
+        "recruit"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "recruit = รับสมัคร/สรรหาบุคลากร สอดคล้องกับปริมาณคำขอที่เพิ่มขึ้น ส่วน retire = เกษียณ, resign = ลาออก, reduce = ลด"
+      },
+      {
+       "id": "KP-S4-012",
+       "stem": "Citizens who disagree with the decision may file an ____ within 30 days.",
+       "options": [
+        "appliance",
+        "approval",
+        "appeal",
+        "applause"
+       ],
+       "answer": 2,
+       "skill": "vocabulary",
+       "explanationTh": "file an appeal = ยื่นอุทธรณ์ ใช้เมื่อไม่เห็นด้วยกับคำวินิจฉัย ส่วน appliance = เครื่องใช้ไฟฟ้า, approval = การอนุมัติ, applause = การปรบมือ"
+      },
+      {
+       "id": "KP-S4-013",
+       "stem": "Please keep your receipt as ____ of payment.",
+       "options": [
+        "prove",
+        "proof",
+        "profit",
+        "promise"
+       ],
+       "answer": 1,
+       "skill": "vocabulary",
+       "explanationTh": "proof of payment = หลักฐานการชำระเงิน ต้องใช้คำนาม proof ส่วน prove เป็นคำกริยา"
+      },
+      {
+       "id": "KP-S4-014",
+       "stem": "'Auditors will scrutinise every expense.' The word 'scrutinise' is closest in meaning to ____.",
+       "options": [
+        "approve quickly",
+        "reduce slightly",
+        "record secretly",
+        "examine carefully"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "scrutinise = ตรวจสอบอย่างละเอียดถี่ถ้วน ผู้ตรวจสอบบัญชีจะตรวจทุกรายจ่ายอย่างละเอียด"
+      },
+      {
+       "id": "KP-S4-015",
+       "stem": "Due to a shortage of funds, construction of the new library has been put on ____.",
+       "options": [
+        "hold",
+        "hand",
+        "track",
+        "line"
+       ],
+       "answer": 0,
+       "skill": "vocabulary",
+       "explanationTh": "สำนวน \"put on hold\" = ระงับไว้ชั่วคราว สอดคล้องกับเหตุผลที่ขาดงบประมาณ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "groups": [
+    {
+     "id": "KP-S4-G08",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Khao Ngam launches complaint app",
+     "text": "KHAO NGAM PROVINCE LAUNCHES APP FOR PUBLIC COMPLAINTS\nResidents of Khao Ngam Province can now report problems such as broken streetlights, blocked drains and damaged roads through a new mobile application called 'Fix Khao Ngam'. Users simply take a photo of the problem, add a short description and send it. The app automatically records the location and forwards the report to the agency responsible.\nBefore the app was introduced, complaints had to be made by phone or letter, and residents often had no idea whether anyone had dealt with them. With the new system, each report receives a tracking number, and users are notified when work begins and when it is finished.\nIn its first three months, the app received more than 4,000 reports. Around 70 percent were resolved within two weeks, according to the provincial governor's office. The most common complaints concerned streetlights, followed by rubbish collection.\nNot all residents are satisfied, however. Some complained that reports about larger problems, such as flooding on the main road, were marked as 'received' but then remained unchanged for months. An official explained that such projects require a budget approved at the national level, which can take a long time. The province now plans to add a feature that shows the expected waiting time for each type of problem.",
+     "items": [
+      {
+       "id": "KP-S4-016",
+       "stem": "What is the news report mainly about?",
+       "options": [
+        "A plan to repair every streetlight in the province",
+        "An app for reporting local problems",
+        "A survey on rubbish collection services",
+        "A new national budget for flood prevention"
+       ],
+       "answer": 1,
+       "skill": "main_idea",
+       "explanationTh": "ข่าวทั้งเรื่องกล่าวถึงแอป \"Fix Khao Ngam\" ที่ให้ประชาชนแจ้งปัญหา วิธีใช้ ผลการใช้งาน และข้อร้องเรียน"
+      },
+      {
+       "id": "KP-S4-017",
+       "stem": "How was the old complaint system different from the new one?",
+       "options": [
+        "People rarely knew what happened to their complaints.",
+        "People had to send their photos by post.",
+        "Complaints were answered within two weeks.",
+        "Only the governor could receive complaints."
+       ],
+       "answer": 0,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 2 บอกว่าระบบเดิมแจ้งทางโทรศัพท์หรือจดหมาย และ \"residents often had no idea whether anyone had dealt with them\""
+      },
+      {
+       "id": "KP-S4-018",
+       "stem": "In the report, the word 'resolved' is closest in meaning to ____.",
+       "options": [
+        "received by telephone",
+        "reported a second time",
+        "dealt with successfully",
+        "decided by a vote"
+       ],
+       "answer": 2,
+       "skill": "vocab_in_context",
+       "explanationTh": "resolved = ได้รับการแก้ไขแล้ว ประมาณ 70% ของปัญหาถูกแก้ไขภายในสองสัปดาห์"
+      },
+      {
+       "id": "KP-S4-019",
+       "stem": "Why did some large problems remain unchanged for months?",
+       "options": [
+        "Residents did not send photos of them.",
+        "The app could not record their location.",
+        "Officials did not believe the reports.",
+        "They needed a budget approved nationally."
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "เจ้าหน้าที่อธิบายว่าโครงการใหญ่ \"require a budget approved at the national level, which can take a long time\""
+      },
+      {
+       "id": "KP-S4-020",
+       "stem": "What problem is the planned new feature most likely meant to solve?",
+       "options": [
+        "Too many reports about broken streetlights",
+        "The app failing to record locations",
+        "Agencies receiving reports late",
+        "Residents not knowing how long repairs will take"
+       ],
+       "answer": 3,
+       "skill": "inference",
+       "explanationTh": "ฟีเจอร์ใหม่จะแสดงเวลารอโดยประมาณของปัญหาแต่ละประเภท ซึ่งตอบข้อร้องเรียนในย่อหน้าก่อนหน้าที่ประชาชนไม่พอใจว่าเรื่องใหญ่ค้างนานโดยไม่มีความคืบหน้า"
+      }
+     ]
+    },
+    {
+     "id": "KP-S4-G09",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Conflicts of interest in public service",
+     "text": "A conflict of interest occurs when a public official's personal interests could influence, or appear to influence, the way they perform their official duties. For example, an officer who is responsible for choosing a company to repair a government building should not take part in the decision if the company belongs to a relative. Even if the officer acts fairly, the public may still doubt that the choice was made honestly.\nMany government agencies therefore require staff to declare any possible conflict of interest in writing. Once a conflict has been declared, the officer is usually removed from the decision, and another official takes over. Failing to declare a conflict can lead to disciplinary action, even when no money has been lost.\nGifts are another common concern. Small gifts given according to custom, such as fruit during a festival, are generally acceptable. However, gifts of high value, or gifts from people who are waiting for a decision from the officer, should be refused. The principle is simple: an official should never accept anything that might make it harder to act impartially.\nExperts point out that rules alone cannot prevent misconduct. A culture in which staff feel safe to ask questions and report concerns is equally important. Agencies that encourage open discussion tend to detect problems earlier, before they cause serious damage to public trust.",
+     "items": [
+      {
+       "id": "KP-S4-021",
+       "stem": "What is the main idea of the passage?",
+       "options": [
+        "Government buildings need to be repaired more often.",
+        "Officials should give gifts to show respect at festivals.",
+        "Most officials act dishonestly when choosing companies.",
+        "Officials must avoid situations that may affect their fairness."
+       ],
+       "answer": 3,
+       "skill": "main_idea",
+       "explanationTh": "บทความอธิบายผลประโยชน์ทับซ้อน การเปิดเผย การรับของขวัญ และวัฒนธรรมองค์กร ทั้งหมดมุ่งให้เจ้าหน้าที่หลีกเลี่ยงสิ่งที่กระทบความเป็นกลาง"
+      },
+      {
+       "id": "KP-S4-022",
+       "stem": "According to the passage, what usually happens after an officer declares a conflict of interest?",
+       "options": [
+        "The officer has to pay a fine.",
+        "The company is banned from future work.",
+        "Another official makes the decision instead.",
+        "The officer is promoted for being honest."
+       ],
+       "answer": 2,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 2 บอกว่าเมื่อเปิดเผยแล้ว \"the officer is usually removed from the decision, and another official takes over\""
+      },
+      {
+       "id": "KP-S4-023",
+       "stem": "Which gift would an official most likely be allowed to accept?",
+       "options": [
+        "An expensive watch from a company seeking a contract",
+        "A basket of fruit given during a festival",
+        "Cash from a citizen waiting for a permit",
+        "A free holiday from a construction company"
+       ],
+       "answer": 1,
+       "skill": "inference",
+       "explanationTh": "ย่อหน้าที่ 3 ระบุว่าของขวัญเล็กน้อยตามประเพณี เช่น ผลไม้ช่วงเทศกาล รับได้ ส่วนของมีค่าสูงหรือจากผู้รอการพิจารณาต้องปฏิเสธ"
+      },
+      {
+       "id": "KP-S4-024",
+       "stem": "The word 'they' in the last sentence refers to ____.",
+       "options": [
+        "agencies",
+        "problems",
+        "staff",
+        "experts"
+       ],
+       "answer": 1,
+       "skill": "reference",
+       "explanationTh": "ประโยคสุดท้ายกล่าวว่าหน่วยงานตรวจพบปัญหาได้เร็ว \"ก่อนที่ they จะสร้างความเสียหาย\" สิ่งที่สร้างความเสียหายต่อความเชื่อมั่นคือ problems"
+      },
+      {
+       "id": "KP-S4-025",
+       "stem": "What is the writer's view of rules on conflicts of interest?",
+       "options": [
+        "They are too strict and should be removed.",
+        "They completely prevent misconduct.",
+        "They are necessary but not enough alone.",
+        "They matter less than gifts do."
+       ],
+       "answer": 2,
+       "skill": "purpose_tone",
+       "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"rules alone cannot prevent misconduct\" และวัฒนธรรมองค์กรก็สำคัญเท่ากัน แสดงว่ากฎจำเป็นแต่ไม่พอเพียงลำพัง"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "review": {
+  "passed": true,
+  "method": "validator + independent blind-solve (AI) 2 รอบ — ยังไม่ได้ตรวจโดยครู",
+  "date": "2026-11-17",
+  "agree": 25,
+  "total": 25,
+  "rounds": "รอบ 1 ตรงเฉลย 25/25 (S4 ไม่มั่นใจ 2 ข้อเรื่องสำนวน — แก้ S4-003 บทสนทนา/S4-020 ตัวเลือก + ลดความยาวคำตอบที่เด่นเกิน S1-004/S4-021/S2-003) · รอบ 2 ผู้ตรวจคนใหม่ทั้งชุด ตรง 25/25 ไม่มีข้อไม่มั่นใจ · ปรับคำว่า paragraph ในโจทย์ S2-024/S4-018 ให้ชัดขึ้น (ไม่เปลี่ยนเฉลย)"
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "at": "2026-10-24T09:27:17.968Z",
+ "url": "http://localhost:3100",
+ "room": "campus-9",
+ "secondsPerRun": 30,
+ "note": "ผู้เล่นทดสอบ = WebSocket client จริงจากเครื่องเดียวกับเซิร์ฟเวอร์ (localhost) — ไม่รวมความหน่วงอินเทอร์เน็ตจริง",
+ "runs": [
+  {
+   "players": 10,
+   "seconds": 30,
+   "server": {
+    "tickMsAvg": 0.297,
+    "tickMsMax": 2.378,
+    "tickBudgetMs": 100,
+    "cpuPercent": 1.4,
+    "rssMB": 96.8,
+    "bytesOutPerSec": 34035,
+    "msgsOutPerSec": 117,
+    "movesInPerSec": 99,
+    "corrections": 90
+   },
+   "perClient": {
+    "kbPerSecDown": 3.32,
+    "msgsPerSec": 11.7,
+    "snapsPerSec": 9.9,
+    "kbPerSecUp": 0.73
+   },
+   "latencyMs": {
+    "moveToSeenP50": 27,
+    "moveToSeenP95": 100,
+    "rttP50": 1,
+    "rttP95": 1,
+    "samples": 25794
+   }
+  },
+  {
+   "players": 20,
+   "seconds": 30,
+   "server": {
+    "tickMsAvg": 0.433,
+    "tickMsMax": 2.786,
+    "tickBudgetMs": 100,
+    "cpuPercent": 1.9,
+    "rssMB": 97.5,
+    "bytesOutPerSec": 131569,
+    "msgsOutPerSec": 252,
+    "movesInPerSec": 199,
+    "corrections": 90
+   },
+   "perClient": {
+    "kbPerSecDown": 6.43,
+    "msgsPerSec": 12.6,
+    "snapsPerSec": 10,
+    "kbPerSecUp": 0.73
+   },
+   "latencyMs": {
+    "moveToSeenP50": 27,
+    "moveToSeenP95": 100,
+    "rttP50": 1,
+    "rttP95": 1,
+    "samples": 109706
+   }
+  },
+  {
+   "players": 25,
+   "seconds": 30,
+   "server": {
+    "tickMsAvg": 0.649,
+    "tickMsMax": 2.436,
+    "tickBudgetMs": 100,
+    "cpuPercent": 2.5,
+    "rssMB": 97.8,
+    "bytesOutPerSec": 206532,
+    "msgsOutPerSec": 321,
+    "movesInPerSec": 249,
+    "corrections": 24
+   },
+   "perClient": {
+    "kbPerSecDown": 8.07,
+    "msgsPerSec": 12.9,
+    "snapsPerSec": 9.9,
+    "kbPerSecUp": 0.73
+   },
+   "latencyMs": {
+    "moveToSeenP50": 75,
+    "moveToSeenP95": 83,
+    "rttP50": 0,
+    "rttP95": 1,
+    "samples": 178080
+   }
+  },
+  {
+   "players": 40,
+   "seconds": 30,
+   "server": {
+    "tickMsAvg": 0.992,
+    "tickMsMax": 3.138,
+    "tickBudgetMs": 100,
+    "cpuPercent": 3.3,
+    "rssMB": 99.8,
+    "bytesOutPerSec": 507025,
+    "msgsOutPerSec": 556,
+    "movesInPerSec": 398,
+    "corrections": 78
+   },
+   "perClient": {
+    "kbPerSecDown": 12.38,
+    "msgsPerSec": 13.9,
+    "snapsPerSec": 10,
+    "kbPerSecUp": 0.73
+   },
+   "latencyMs": {
+    "moveToSeenP50": 87,
+    "moveToSeenP95": 101,
+    "rttP50": 1,
+    "rttP95": 1,
+    "samples": 446433
+   }
+  }
+ ]
+}

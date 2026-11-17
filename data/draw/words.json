@@ -1,0 +1,3347 @@
+{
+  "version": 1,
+  "source": "data/oxford/senses.json",
+  "note": "Draw-and-guess (Pictionary) word list. Each entry references one sense in data/oxford/senses.json by senseId; word, level and pos are copied from that sense. Only concrete, drawable senses (A1-B2, needsReview false) are included; th and example match the drawn sense.",
+  "words": [
+    {
+      "senseId": "climb|verb|-",
+      "word": "climb",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ปีน",
+      "example": "The kids like to climb the big tree.",
+      "exampleTh": "เด็ก ๆ ชอบปีนต้นไม้ใหญ่"
+    },
+    {
+      "senseId": "cook|verb|-",
+      "word": "cook",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ทำอาหาร",
+      "example": "My dad likes to cook fried rice on Sundays.",
+      "exampleTh": "พ่อของฉันชอบทำข้าวผัดในวันอาทิตย์"
+    },
+    {
+      "senseId": "dance|verb|-",
+      "word": "dance",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เต้น",
+      "example": "We danced together at the school party.",
+      "exampleTh": "เราเต้นด้วยกันในงานเลี้ยงของโรงเรียน"
+    },
+    {
+      "senseId": "draw|verb|-",
+      "word": "draw",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "วาดรูป",
+      "example": "Can you draw a cat in one minute?",
+      "exampleTh": "คุณวาดรูปแมวให้เสร็จในหนึ่งนาทีได้ไหม"
+    },
+    {
+      "senseId": "drink|verb|-",
+      "word": "drink",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ดื่ม",
+      "example": "You should drink more water when it's hot.",
+      "exampleTh": "เธอควรดื่มน้ำให้มากขึ้นเวลาอากาศร้อน"
+    },
+    {
+      "senseId": "drive|verb|-",
+      "word": "drive",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ขับรถ",
+      "example": "My mum drives me to school in the morning.",
+      "exampleTh": "แม่ขับรถไปส่งฉันที่โรงเรียนตอนเช้า"
+    },
+    {
+      "senseId": "eat|verb|-",
+      "word": "eat",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กิน",
+      "example": "We usually eat dinner at seven o'clock.",
+      "exampleTh": "ปกติเรากินข้าวเย็นตอนหนึ่งทุ่ม"
+    },
+    {
+      "senseId": "fly|verb|-",
+      "word": "fly",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "บิน",
+      "example": "The birds fly south when winter comes.",
+      "exampleTh": "นกบินลงใต้เมื่อฤดูหนาวมาถึง"
+    },
+    {
+      "senseId": "laugh|verb|-",
+      "word": "laugh",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "หัวเราะ",
+      "example": "Everyone laughed at his funny joke.",
+      "exampleTh": "ทุกคนหัวเราะกับมุกตลกของเขา"
+    },
+    {
+      "senseId": "listen|verb|-",
+      "word": "listen",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ฟัง",
+      "example": "I listen to music on the way home.",
+      "exampleTh": "ฉันฟังเพลงระหว่างทางกลับบ้าน"
+    },
+    {
+      "senseId": "read|verb|-",
+      "word": "read",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "อ่าน",
+      "example": "She likes to read comics before bed.",
+      "exampleTh": "เธอชอบอ่านการ์ตูนก่อนนอน"
+    },
+    {
+      "senseId": "ride|verb|-",
+      "word": "ride",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ขี่",
+      "example": "My little brother is learning to ride a bike.",
+      "exampleTh": "น้องชายของฉันกำลังหัดขี่จักรยาน"
+    },
+    {
+      "senseId": "run|verb|-",
+      "word": "run",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "วิ่ง",
+      "example": "I run in the park every morning.",
+      "exampleTh": "ฉันวิ่งในสวนสาธารณะทุกเช้า"
+    },
+    {
+      "senseId": "sing|verb|-",
+      "word": "sing",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ร้องเพลง",
+      "example": "We sing a song for our teacher's birthday.",
+      "exampleTh": "เราร้องเพลงให้คุณครูในวันเกิดของท่าน"
+    },
+    {
+      "senseId": "sit|verb|-",
+      "word": "sit",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "นั่ง",
+      "example": "Please sit next to me on the bus.",
+      "exampleTh": "มานั่งข้างฉันบนรถบัสสิ"
+    },
+    {
+      "senseId": "sleep|verb|-",
+      "word": "sleep",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "นอนหลับ",
+      "example": "The baby sleeps for ten hours every night.",
+      "exampleTh": "เด็กทารกนอนหลับสิบชั่วโมงทุกคืน"
+    },
+    {
+      "senseId": "swim|verb|-",
+      "word": "swim",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ว่ายน้ำ",
+      "example": "We swim in the pool after school.",
+      "exampleTh": "เราว่ายน้ำในสระหลังเลิกเรียน"
+    },
+    {
+      "senseId": "walk|verb|-",
+      "word": "walk",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เดิน",
+      "example": "I walk my dog in the evening.",
+      "exampleTh": "ฉันพาสุนัขไปเดินเล่นตอนเย็น"
+    },
+    {
+      "senseId": "wash|verb|-",
+      "word": "wash",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ล้าง",
+      "example": "Please wash your hands before you eat.",
+      "exampleTh": "กรุณาล้างมือก่อนกินข้าว"
+    },
+    {
+      "senseId": "write|verb|-",
+      "word": "write",
+      "level": "A1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เขียน",
+      "example": "I write in my diary every night.",
+      "exampleTh": "ฉันเขียนไดอารีทุกคืน"
+    },
+    {
+      "senseId": "bird|noun|-",
+      "word": "bird",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "นก",
+      "example": "A small bird is singing in the tree.",
+      "exampleTh": "นกตัวเล็กกำลังร้องเพลงอยู่บนต้นไม้"
+    },
+    {
+      "senseId": "cat|noun|-",
+      "word": "cat",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "แมว",
+      "example": "My cat likes to sleep on the sofa.",
+      "exampleTh": "แมวของฉันชอบนอนบนโซฟา"
+    },
+    {
+      "senseId": "chicken|noun|-",
+      "word": "chicken",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ไก่",
+      "example": "The chicken is walking around the farm.",
+      "exampleTh": "ไก่กำลังเดินไปมาในฟาร์ม"
+    },
+    {
+      "senseId": "cow|noun|-",
+      "word": "cow",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "วัว",
+      "example": "The cow is eating grass in the field.",
+      "exampleTh": "วัวกำลังกินหญ้าอยู่ในทุ่ง"
+    },
+    {
+      "senseId": "dog|noun|-",
+      "word": "dog",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "สุนัข",
+      "example": "Our dog runs to the door every morning.",
+      "exampleTh": "สุนัขของเราวิ่งไปที่ประตูทุกเช้า"
+    },
+    {
+      "senseId": "elephant|noun|-",
+      "word": "elephant",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ช้าง",
+      "example": "The elephant is washing itself in the river.",
+      "exampleTh": "ช้างกำลังอาบน้ำอยู่ในแม่น้ำ"
+    },
+    {
+      "senseId": "fish|noun|-",
+      "word": "fish",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ปลา",
+      "example": "There is a red fish in the tank.",
+      "exampleTh": "มีปลาสีแดงอยู่ในตู้ปลา"
+    },
+    {
+      "senseId": "horse|noun|-",
+      "word": "horse",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ม้า",
+      "example": "She rides a white horse at the weekend.",
+      "exampleTh": "เธอขี่ม้าสีขาวในวันหยุดสุดสัปดาห์"
+    },
+    {
+      "senseId": "lion|noun|-",
+      "word": "lion",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "สิงโต",
+      "example": "The lion has a big golden mane.",
+      "exampleTh": "สิงโตมีแผงคอสีทองขนาดใหญ่"
+    },
+    {
+      "senseId": "mouse|noun|-",
+      "word": "mouse",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "หนู",
+      "example": "A little mouse is eating some cheese.",
+      "exampleTh": "หนูตัวเล็กกำลังกินชีส"
+    },
+    {
+      "senseId": "pig|noun|-",
+      "word": "pig",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "หมู",
+      "example": "The pink pig is playing in the mud.",
+      "exampleTh": "หมูสีชมพูกำลังเล่นโคลน"
+    },
+    {
+      "senseId": "sheep|noun|-",
+      "word": "sheep",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "แกะ",
+      "example": "There are many white sheep on the hill.",
+      "exampleTh": "มีแกะสีขาวหลายตัวอยู่บนเนินเขา"
+    },
+    {
+      "senseId": "snake|noun|-",
+      "word": "snake",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "งู",
+      "example": "A long green snake is sleeping on a rock.",
+      "exampleTh": "งูเขียวตัวยาวกำลังนอนอยู่บนก้อนหิน"
+    },
+    {
+      "senseId": "arm|noun|-",
+      "word": "arm",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "แขน",
+      "example": "She raised her arm to answer the question.",
+      "exampleTh": "เธอยกแขนขึ้นเพื่อตอบคำถาม"
+    },
+    {
+      "senseId": "ear|noun|-",
+      "word": "ear",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "หู",
+      "example": "He holds his phone to his ear.",
+      "exampleTh": "เขายกโทรศัพท์ขึ้นแนบหู"
+    },
+    {
+      "senseId": "eye|noun|-",
+      "word": "eye",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ตา",
+      "example": "She closed one eye to take the photo.",
+      "exampleTh": "เธอหลับตาข้างหนึ่งเพื่อถ่ายรูป"
+    },
+    {
+      "senseId": "face|noun|-",
+      "word": "face",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ใบหน้า",
+      "example": "He drew a happy face on the paper.",
+      "exampleTh": "เขาวาดรูปหน้ายิ้มบนกระดาษ"
+    },
+    {
+      "senseId": "foot|noun|-",
+      "word": "foot",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "เท้า",
+      "example": "I hurt my foot when I kicked the ball.",
+      "exampleTh": "ฉันเจ็บเท้าตอนเตะบอล"
+    },
+    {
+      "senseId": "hair|noun|-",
+      "word": "hair",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ผม",
+      "example": "My sister has long black hair.",
+      "exampleTh": "พี่สาวของฉันมีผมยาวสีดำ"
+    },
+    {
+      "senseId": "hand|noun|-",
+      "word": "hand",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "มือ",
+      "example": "Raise your hand if you know the answer.",
+      "exampleTh": "ยกมือขึ้นถ้าคุณรู้คำตอบ"
+    },
+    {
+      "senseId": "head|noun|-",
+      "word": "head",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ศีรษะ",
+      "example": "He wears a cap on his head.",
+      "exampleTh": "เขาสวมหมวกแก๊ปบนศีรษะ"
+    },
+    {
+      "senseId": "leg|noun|-",
+      "word": "leg",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ขา",
+      "example": "My left leg feels tired after running.",
+      "exampleTh": "ขาซ้ายของฉันรู้สึกเมื่อยหลังจากวิ่ง"
+    },
+    {
+      "senseId": "mouth|noun|-",
+      "word": "mouth",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ปาก",
+      "example": "Don't talk with food in your mouth.",
+      "exampleTh": "อย่าพูดขณะที่มีอาหารอยู่ในปาก"
+    },
+    {
+      "senseId": "nose|noun|-",
+      "word": "nose",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "จมูก",
+      "example": "The clown has a big red nose.",
+      "exampleTh": "ตัวตลกมีจมูกสีแดงอันใหญ่"
+    },
+    {
+      "senseId": "tooth|noun|-",
+      "word": "tooth",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ฟัน",
+      "example": "The little boy lost his first tooth today.",
+      "exampleTh": "วันนี้ฟันน้ำนมซี่แรกของเด็กชายตัวน้อยหลุด"
+    },
+    {
+      "senseId": "boot|noun|-",
+      "word": "boot",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "รองเท้าบูท",
+      "example": "There is a stone in my boot.",
+      "exampleTh": "มีก้อนหินอยู่ในรองเท้าบูทของฉัน"
+    },
+    {
+      "senseId": "coat|noun|-",
+      "word": "coat",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เสื้อโค้ท",
+      "example": "Wear a warm coat because it is cold outside.",
+      "exampleTh": "ใส่เสื้อโค้ทอุ่น ๆ นะ เพราะข้างนอกหนาว"
+    },
+    {
+      "senseId": "dress|noun|-",
+      "word": "dress",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "ชุดเดรส",
+      "example": "She wore a pink dress to the party.",
+      "exampleTh": "เธอใส่ชุดเดรสสีชมพูไปงานปาร์ตี้"
+    },
+    {
+      "senseId": "hat|noun|-",
+      "word": "hat",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "หมวก",
+      "example": "Grandpa always wears a hat in the sun.",
+      "exampleTh": "คุณปู่สวมหมวกทุกครั้งเวลาออกแดด"
+    },
+    {
+      "senseId": "jacket|noun|-",
+      "word": "jacket",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เสื้อแจ็กเก็ต",
+      "example": "He left his jacket on the bus.",
+      "exampleTh": "เขาลืมเสื้อแจ็กเก็ตไว้บนรถบัส"
+    },
+    {
+      "senseId": "jeans|noun|-",
+      "word": "jeans",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "กางเกงยีนส์",
+      "example": "I usually wear jeans at the weekend.",
+      "exampleTh": "ปกติฉันใส่กางเกงยีนส์ในวันหยุดสุดสัปดาห์"
+    },
+    {
+      "senseId": "shirt|noun|-",
+      "word": "shirt",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เสื้อเชิ้ต",
+      "example": "He wears a white shirt to school.",
+      "exampleTh": "เขาใส่เสื้อเชิ้ตสีขาวไปโรงเรียน"
+    },
+    {
+      "senseId": "shoe|noun|-",
+      "word": "shoe",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "รองเท้า",
+      "example": "I can't find my other shoe!",
+      "exampleTh": "ฉันหารองเท้าอีกข้างไม่เจอ"
+    },
+    {
+      "senseId": "skirt|noun|-",
+      "word": "skirt",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "กระโปรง",
+      "example": "The girls wear a blue skirt as part of their uniform.",
+      "exampleTh": "นักเรียนหญิงใส่กระโปรงสีน้ำเงินเป็นส่วนหนึ่งของชุดนักเรียน"
+    },
+    {
+      "senseId": "sweater|noun|-",
+      "word": "sweater",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เสื้อกันหนาว",
+      "example": "Grandma knitted a warm sweater for me.",
+      "exampleTh": "คุณยายถักเสื้อกันหนาวอุ่น ๆ ให้ฉัน"
+    },
+    {
+      "senseId": "trousers|noun|-",
+      "word": "trousers",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "กางเกงขายาว",
+      "example": "These trousers are too long for me.",
+      "exampleTh": "กางเกงขายาวตัวนี้ยาวเกินไปสำหรับฉัน"
+    },
+    {
+      "senseId": "apple|noun|-",
+      "word": "apple",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "แอปเปิล",
+      "example": "I eat an apple after lunch every day.",
+      "exampleTh": "ฉันกินแอปเปิลหลังอาหารกลางวันทุกวัน"
+    },
+    {
+      "senseId": "banana|noun|-",
+      "word": "banana",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "กล้วย",
+      "example": "She puts a banana in her school bag.",
+      "exampleTh": "เธอใส่กล้วยไว้ในกระเป๋านักเรียน"
+    },
+    {
+      "senseId": "bread|noun|-",
+      "word": "bread",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ขนมปัง",
+      "example": "We have bread and eggs for breakfast.",
+      "exampleTh": "เรากินขนมปังกับไข่เป็นอาหารเช้า"
+    },
+    {
+      "senseId": "cake|noun|-",
+      "word": "cake",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "เค้ก",
+      "example": "Mum made a chocolate cake for my birthday.",
+      "exampleTh": "แม่ทำเค้กช็อกโกแลตให้ในวันเกิดของฉัน"
+    },
+    {
+      "senseId": "carrot|noun|-",
+      "word": "carrot",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "แครอท",
+      "example": "The rabbit is eating a big orange carrot.",
+      "exampleTh": "กระต่ายกำลังกินแครอทหัวใหญ่สีส้ม"
+    },
+    {
+      "senseId": "cheese|noun|-",
+      "word": "cheese",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ชีส",
+      "example": "I like a lot of cheese on my pizza.",
+      "exampleTh": "ฉันชอบใส่ชีสเยอะ ๆ บนพิซซ่า"
+    },
+    {
+      "senseId": "chocolate|noun|-",
+      "word": "chocolate",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ช็อกโกแลต",
+      "example": "He shared a bar of chocolate with his sister.",
+      "exampleTh": "เขาแบ่งช็อกโกแลตหนึ่งแท่งให้น้องสาว"
+    },
+    {
+      "senseId": "egg|noun|-",
+      "word": "egg",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ไข่",
+      "example": "She cracks an egg into the hot pan.",
+      "exampleTh": "เธอตอกไข่ลงในกระทะร้อน ๆ"
+    },
+    {
+      "senseId": "juice|noun|-",
+      "word": "juice",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "น้ำผลไม้",
+      "example": "I drink a glass of orange juice every morning.",
+      "exampleTh": "ฉันดื่มน้ำส้มหนึ่งแก้วทุกเช้า"
+    },
+    {
+      "senseId": "milk|noun|-",
+      "word": "milk",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "นม",
+      "example": "The baby is drinking warm milk.",
+      "exampleTh": "เด็กทารกกำลังดื่มนมอุ่น ๆ"
+    },
+    {
+      "senseId": "orange|noun|-",
+      "word": "orange",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ส้ม",
+      "example": "She peeled an orange and shared it with me.",
+      "exampleTh": "เธอปอกส้มแล้วแบ่งให้ฉัน"
+    },
+    {
+      "senseId": "potato|noun|-",
+      "word": "potato",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "มันฝรั่ง",
+      "example": "Dad is cutting a potato for the soup.",
+      "exampleTh": "พ่อกำลังหั่นมันฝรั่งสำหรับทำซุป"
+    },
+    {
+      "senseId": "rice|noun|-",
+      "word": "rice",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ข้าว",
+      "example": "In Thailand, we eat rice with almost every meal.",
+      "exampleTh": "ในประเทศไทย เรากินข้าวแทบทุกมื้อ"
+    },
+    {
+      "senseId": "sandwich|noun|-",
+      "word": "sandwich",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "แซนด์วิช",
+      "example": "I made a ham sandwich for my lunch.",
+      "exampleTh": "ฉันทำแซนด์วิชแฮมไว้กินเป็นมื้อกลางวัน"
+    },
+    {
+      "senseId": "soup|noun|-",
+      "word": "soup",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "ซุป",
+      "example": "This hot soup is perfect on a rainy day.",
+      "exampleTh": "ซุปร้อน ๆ นี้เหมาะมากสำหรับวันที่ฝนตก"
+    },
+    {
+      "senseId": "tomato|noun|-",
+      "word": "tomato",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "food",
+      "th": "มะเขือเทศ",
+      "example": "She puts a red tomato in the salad.",
+      "exampleTh": "เธอใส่มะเขือเทศสีแดงลงในสลัด"
+    },
+    {
+      "senseId": "bed|noun|-",
+      "word": "bed",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "เตียง",
+      "example": "My bed is next to the window.",
+      "exampleTh": "เตียงของฉันอยู่ข้างหน้าต่าง"
+    },
+    {
+      "senseId": "chair|noun|-",
+      "word": "chair",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "เก้าอี้",
+      "example": "Please sit on this chair and wait.",
+      "exampleTh": "เชิญนั่งบนเก้าอี้ตัวนี้แล้วรอสักครู่"
+    },
+    {
+      "senseId": "desk|noun|-",
+      "word": "desk",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "โต๊ะเรียน",
+      "example": "I do my homework at my desk.",
+      "exampleTh": "ฉันทำการบ้านที่โต๊ะเรียนของฉัน"
+    },
+    {
+      "senseId": "door|noun|-",
+      "word": "door",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ประตู",
+      "example": "Please close the door when you leave.",
+      "exampleTh": "กรุณาปิดประตูเมื่อออกไป"
+    },
+    {
+      "senseId": "garden|noun|-",
+      "word": "garden",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "สวน",
+      "example": "My grandfather grows vegetables in his garden.",
+      "exampleTh": "คุณปู่ปลูกผักในสวนของท่าน"
+    },
+    {
+      "senseId": "house|noun|-",
+      "word": "house",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "บ้าน",
+      "example": "Their house has a red roof.",
+      "exampleTh": "บ้านของพวกเขามีหลังคาสีแดง"
+    },
+    {
+      "senseId": "kitchen|noun|-",
+      "word": "kitchen",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ห้องครัว",
+      "example": "Mum is cooking dinner in the kitchen.",
+      "exampleTh": "แม่กำลังทำอาหารเย็นอยู่ในห้องครัว"
+    },
+    {
+      "senseId": "shower|noun|-",
+      "word": "shower",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ฝักบัว",
+      "example": "The water in the shower is too cold.",
+      "exampleTh": "น้ำจากฝักบัวเย็นเกินไป"
+    },
+    {
+      "senseId": "table|noun|-",
+      "word": "table",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "โต๊ะ",
+      "example": "We put the food on the kitchen table.",
+      "exampleTh": "เราวางอาหารไว้บนโต๊ะในครัว"
+    },
+    {
+      "senseId": "window|noun|-",
+      "word": "window",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "หน้าต่าง",
+      "example": "Can you open the window, please? It's hot.",
+      "exampleTh": "ช่วยเปิดหน้าต่างหน่อยได้ไหม ร้อนจัง"
+    },
+    {
+      "senseId": "dancer|noun|-",
+      "word": "dancer",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักเต้น",
+      "example": "The dancer jumped high on the stage.",
+      "exampleTh": "นักเต้นกระโดดสูงบนเวที"
+    },
+    {
+      "senseId": "doctor|noun|-",
+      "word": "doctor",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "หมอ",
+      "example": "The doctor told me to rest for two days.",
+      "exampleTh": "คุณหมอบอกให้ฉันพักผ่อนสองวัน"
+    },
+    {
+      "senseId": "farmer|noun|-",
+      "word": "farmer",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "ชาวนา",
+      "example": "The farmer grows rice in the fields.",
+      "exampleTh": "ชาวนาปลูกข้าวในทุ่งนา"
+    },
+    {
+      "senseId": "nurse|noun|-",
+      "word": "nurse",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "พยาบาล",
+      "example": "The nurse gave the child some medicine.",
+      "exampleTh": "พยาบาลให้ยาแก่เด็กคนนั้น"
+    },
+    {
+      "senseId": "policeman|noun|-",
+      "word": "policeman",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "ตำรวจ",
+      "example": "A policeman is helping an old woman cross the road.",
+      "exampleTh": "ตำรวจคนหนึ่งกำลังช่วยคุณยายข้ามถนน"
+    },
+    {
+      "senseId": "singer|noun|-",
+      "word": "singer",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักร้อง",
+      "example": "The singer smiled and waved to the crowd.",
+      "exampleTh": "นักร้องยิ้มและโบกมือให้ผู้ชม"
+    },
+    {
+      "senseId": "teacher|noun|-",
+      "word": "teacher",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "ครู",
+      "example": "Our English teacher is very kind and funny.",
+      "exampleTh": "ครูสอนภาษาอังกฤษของเราใจดีและตลกมาก"
+    },
+    {
+      "senseId": "waiter|noun|-",
+      "word": "waiter",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "พนักงานเสิร์ฟ",
+      "example": "The waiter brought us two bowls of noodles.",
+      "exampleTh": "พนักงานเสิร์ฟนำก๋วยเตี๋ยวมาให้เราสองชาม"
+    },
+    {
+      "senseId": "fire|noun|-",
+      "word": "fire",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "กองไฟ",
+      "example": "We sat around the fire and sang songs.",
+      "exampleTh": "เรานั่งล้อมกองไฟและร้องเพลงกัน"
+    },
+    {
+      "senseId": "flower|noun|-",
+      "word": "flower",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดอกไม้",
+      "example": "She gave her mother a beautiful flower.",
+      "exampleTh": "เธอให้ดอกไม้สวย ๆ แก่แม่ของเธอ"
+    },
+    {
+      "senseId": "mountain|noun|-",
+      "word": "mountain",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ภูเขา",
+      "example": "We climbed the mountain and saw the sunrise.",
+      "exampleTh": "เราปีนภูเขาและได้ชมพระอาทิตย์ขึ้น"
+    },
+    {
+      "senseId": "rain|noun|-",
+      "word": "rain",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ฝน",
+      "example": "The rain is falling hard on the roof.",
+      "exampleTh": "ฝนกำลังตกหนักบนหลังคา"
+    },
+    {
+      "senseId": "river|noun|-",
+      "word": "river",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "แม่น้ำ",
+      "example": "The boat is moving slowly down the river.",
+      "exampleTh": "เรือกำลังแล่นช้า ๆ ไปตามแม่น้ำ"
+    },
+    {
+      "senseId": "sea|noun|-",
+      "word": "sea",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ทะเล",
+      "example": "We swam in the sea during our holiday.",
+      "exampleTh": "เราว่ายน้ำในทะเลช่วงวันหยุด"
+    },
+    {
+      "senseId": "snow|noun|-",
+      "word": "snow",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "หิมะ",
+      "example": "The children are playing in the white snow.",
+      "exampleTh": "เด็ก ๆ กำลังเล่นหิมะสีขาว"
+    },
+    {
+      "senseId": "star|noun|-",
+      "word": "star",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดาว",
+      "example": "I can see a bright star in the sky tonight.",
+      "exampleTh": "คืนนี้ฉันมองเห็นดาวดวงหนึ่งสว่างอยู่บนท้องฟ้า"
+    },
+    {
+      "senseId": "sun|noun|-",
+      "word": "sun",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดวงอาทิตย์",
+      "example": "The sun is very hot this afternoon.",
+      "exampleTh": "บ่ายนี้แดดร้อนมาก"
+    },
+    {
+      "senseId": "tree|noun|-",
+      "word": "tree",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ต้นไม้",
+      "example": "There is a big mango tree in our garden.",
+      "exampleTh": "มีต้นมะม่วงใหญ่อยู่ในสวนของเรา"
+    },
+    {
+      "senseId": "bag|noun|-",
+      "word": "bag",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กระเป๋า",
+      "example": "My bag is full of books today.",
+      "exampleTh": "วันนี้กระเป๋าของฉันเต็มไปด้วยหนังสือ"
+    },
+    {
+      "senseId": "ball|noun|-",
+      "word": "ball",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ลูกบอล",
+      "example": "The boys are kicking a ball in the park.",
+      "exampleTh": "เด็กผู้ชายกำลังเตะลูกบอลอยู่ในสวนสาธารณะ"
+    },
+    {
+      "senseId": "book|noun|-",
+      "word": "book",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "หนังสือ",
+      "example": "I am reading a funny book about a dragon.",
+      "exampleTh": "ฉันกำลังอ่านหนังสือตลกเกี่ยวกับมังกร"
+    },
+    {
+      "senseId": "box|noun|-",
+      "word": "box",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กล่อง",
+      "example": "There is a small cat inside the box.",
+      "exampleTh": "มีแมวตัวเล็กอยู่ในกล่อง"
+    },
+    {
+      "senseId": "camera|noun|-",
+      "word": "camera",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กล้องถ่ายรูป",
+      "example": "She takes her camera on every trip.",
+      "exampleTh": "เธอพกกล้องถ่ายรูปไปทุกทริป"
+    },
+    {
+      "senseId": "clock|noun|-",
+      "word": "clock",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "นาฬิกา",
+      "example": "The big clock on the wall is ten minutes fast.",
+      "exampleTh": "นาฬิกาเรือนใหญ่บนผนังเดินเร็วไปสิบนาที"
+    },
+    {
+      "senseId": "computer|noun|-",
+      "word": "computer",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "คอมพิวเตอร์",
+      "example": "My brother plays games on his computer.",
+      "exampleTh": "พี่ชายของฉันเล่นเกมบนคอมพิวเตอร์ของเขา"
+    },
+    {
+      "senseId": "cup|noun|-",
+      "word": "cup",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ถ้วย",
+      "example": "Grandma drinks tea from a blue cup.",
+      "exampleTh": "คุณยายดื่มชาจากถ้วยสีฟ้า"
+    },
+    {
+      "senseId": "glass|noun|-",
+      "word": "glass",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แก้วน้ำ",
+      "example": "Can I have a glass of cold water, please?",
+      "exampleTh": "ขอน้ำเย็นสักแก้วได้ไหม"
+    },
+    {
+      "senseId": "guitar|noun|-",
+      "word": "guitar",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กีตาร์",
+      "example": "He plays the guitar in the school band.",
+      "exampleTh": "เขาเล่นกีตาร์ในวงดนตรีของโรงเรียน"
+    },
+    {
+      "senseId": "key|noun|-",
+      "word": "key",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กุญแจ",
+      "example": "I can't find the key to my room.",
+      "exampleTh": "ฉันหากุญแจห้องของฉันไม่เจอ"
+    },
+    {
+      "senseId": "map|noun|-",
+      "word": "map",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แผนที่",
+      "example": "We used a map to find the museum.",
+      "exampleTh": "เราใช้แผนที่หาทางไปพิพิธภัณฑ์"
+    },
+    {
+      "senseId": "pen|noun|-",
+      "word": "pen",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ปากกา",
+      "example": "Can I borrow your pen for a minute?",
+      "exampleTh": "ขอยืมปากกาของคุณสักครู่ได้ไหม"
+    },
+    {
+      "senseId": "phone|noun|-",
+      "word": "phone",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "โทรศัพท์",
+      "example": "She is talking to her friend on the phone.",
+      "exampleTh": "เธอกำลังคุยโทรศัพท์กับเพื่อน"
+    },
+    {
+      "senseId": "piano|noun|-",
+      "word": "piano",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เปียโน",
+      "example": "My sister practises the piano every evening.",
+      "exampleTh": "น้องสาวของฉันซ้อมเปียโนทุกเย็น"
+    },
+    {
+      "senseId": "ticket|noun|-",
+      "word": "ticket",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ตั๋ว",
+      "example": "I bought a ticket for the train to Chiang Mai.",
+      "exampleTh": "ฉันซื้อตั๋วรถไฟไปเชียงใหม่"
+    },
+    {
+      "senseId": "umbrella|noun|-",
+      "word": "umbrella",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ร่ม",
+      "example": "Take an umbrella because it might rain.",
+      "exampleTh": "เอาร่มไปด้วยนะ เพราะฝนอาจจะตก"
+    },
+    {
+      "senseId": "watch|noun|-",
+      "word": "watch",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "นาฬิกาข้อมือ",
+      "example": "My grandfather gave me a watch for my birthday.",
+      "exampleTh": "คุณปู่ให้นาฬิกาข้อมือเป็นของขวัญวันเกิดฉัน"
+    },
+    {
+      "senseId": "airport|noun|-",
+      "word": "airport",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "สนามบิน",
+      "example": "We arrived at the airport two hours early.",
+      "exampleTh": "เราไปถึงสนามบินก่อนเวลาสองชั่วโมง"
+    },
+    {
+      "senseId": "beach|noun|-",
+      "word": "beach",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ชายหาด",
+      "example": "We built a sandcastle on the beach.",
+      "exampleTh": "เราก่อปราสาททรายบนชายหาด"
+    },
+    {
+      "senseId": "cinema|noun|-",
+      "word": "cinema",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "โรงหนัง",
+      "example": "Let's watch the new film at the cinema.",
+      "exampleTh": "ไปดูหนังเรื่องใหม่ที่โรงหนังกันเถอะ"
+    },
+    {
+      "senseId": "farm|noun|-",
+      "word": "farm",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ฟาร์ม",
+      "example": "My uncle keeps cows and chickens on his farm.",
+      "exampleTh": "ลุงของฉันเลี้ยงวัวและไก่ไว้ในฟาร์ม"
+    },
+    {
+      "senseId": "hospital|noun|-",
+      "word": "hospital",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "โรงพยาบาล",
+      "example": "The doctor works at a big hospital in Bangkok.",
+      "exampleTh": "คุณหมอทำงานที่โรงพยาบาลใหญ่แห่งหนึ่งในกรุงเทพฯ"
+    },
+    {
+      "senseId": "island|noun|-",
+      "word": "island",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "เกาะ",
+      "example": "We took a boat to a small island.",
+      "exampleTh": "เรานั่งเรือไปเกาะเล็ก ๆ แห่งหนึ่ง"
+    },
+    {
+      "senseId": "library|noun|-",
+      "word": "library",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ห้องสมุด",
+      "example": "I borrow two books from the library every week.",
+      "exampleTh": "ฉันยืมหนังสือจากห้องสมุดสัปดาห์ละสองเล่ม"
+    },
+    {
+      "senseId": "park|noun|-",
+      "word": "park",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "สวนสาธารณะ",
+      "example": "Let's ride our bikes in the park.",
+      "exampleTh": "ไปขี่จักรยานในสวนสาธารณะกันเถอะ"
+    },
+    {
+      "senseId": "restaurant|noun|-",
+      "word": "restaurant",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ร้านอาหาร",
+      "example": "This restaurant serves the best noodles in town.",
+      "exampleTh": "ร้านอาหารนี้มีก๋วยเตี๋ยวที่อร่อยที่สุดในเมือง"
+    },
+    {
+      "senseId": "school|noun|-",
+      "word": "school",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "โรงเรียน",
+      "example": "Our school starts at eight in the morning.",
+      "exampleTh": "โรงเรียนของเราเข้าเรียนตอนแปดโมงเช้า"
+    },
+    {
+      "senseId": "station|noun|-",
+      "word": "station",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "สถานีรถไฟ",
+      "example": "The train leaves the station at noon.",
+      "exampleTh": "รถไฟออกจากสถานีตอนเที่ยง"
+    },
+    {
+      "senseId": "supermarket|noun|-",
+      "word": "supermarket",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ซูเปอร์มาร์เก็ต",
+      "example": "We buy fruit and milk at the supermarket.",
+      "exampleTh": "เราซื้อผลไม้และนมที่ซูเปอร์มาร์เก็ต"
+    },
+    {
+      "senseId": "football|noun|-",
+      "word": "football",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "ฟุตบอล",
+      "example": "We play football after school on Fridays.",
+      "exampleTh": "เราเล่นฟุตบอลหลังเลิกเรียนทุกวันศุกร์"
+    },
+    {
+      "senseId": "tennis|noun|-",
+      "word": "tennis",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "เทนนิส",
+      "example": "She plays tennis with her dad on Sundays.",
+      "exampleTh": "เธอเล่นเทนนิสกับพ่อทุกวันอาทิตย์"
+    },
+    {
+      "senseId": "bicycle|noun|-",
+      "word": "bicycle",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "จักรยาน",
+      "example": "I ride my bicycle to school every day.",
+      "exampleTh": "ฉันขี่จักรยานไปโรงเรียนทุกวัน"
+    },
+    {
+      "senseId": "boat|noun|-",
+      "word": "boat",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "เรือ",
+      "example": "We crossed the lake in a small boat.",
+      "exampleTh": "เรานั่งเรือลำเล็กข้ามทะเลสาบ"
+    },
+    {
+      "senseId": "bus|noun|-",
+      "word": "bus",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถบัส",
+      "example": "The school bus comes at seven o'clock.",
+      "exampleTh": "รถโรงเรียนมาตอนเจ็ดโมง"
+    },
+    {
+      "senseId": "car|noun|-",
+      "word": "car",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถยนต์",
+      "example": "My dad washes his car every Sunday.",
+      "exampleTh": "พ่อของฉันล้างรถทุกวันอาทิตย์"
+    },
+    {
+      "senseId": "plane|noun|-",
+      "word": "plane",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "เครื่องบิน",
+      "example": "The plane flew high above the clouds.",
+      "exampleTh": "เครื่องบินบินสูงเหนือก้อนเมฆ"
+    },
+    {
+      "senseId": "taxi|noun|-",
+      "word": "taxi",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "แท็กซี่",
+      "example": "We took a taxi to the hotel.",
+      "exampleTh": "เรานั่งแท็กซี่ไปโรงแรม"
+    },
+    {
+      "senseId": "train|noun|-",
+      "word": "train",
+      "level": "A1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถไฟ",
+      "example": "The train to the city is very fast.",
+      "exampleTh": "รถไฟที่เข้าเมืองวิ่งเร็วมาก"
+    },
+    {
+      "senseId": "boil|verb|-",
+      "word": "boil",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ต้ม",
+      "example": "Boil the water before you make the tea.",
+      "exampleTh": "ต้มน้ำก่อนชงชา"
+    },
+    {
+      "senseId": "camping|noun|-",
+      "word": "camping",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "action",
+      "th": "ตั้งแคมป์",
+      "example": "We went camping by the lake last summer.",
+      "exampleTh": "ฤดูร้อนที่แล้วเราไปตั้งแคมป์ริมทะเลสาบ"
+    },
+    {
+      "senseId": "catch|verb|-",
+      "word": "catch",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "รับลูก",
+      "example": "Can you catch the ball with one hand?",
+      "exampleTh": "คุณรับลูกบอลด้วยมือเดียวได้ไหม"
+    },
+    {
+      "senseId": "cry|verb|-",
+      "word": "cry",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ร้องไห้",
+      "example": "The baby cries when she is hungry.",
+      "exampleTh": "เด็กทารกร้องไห้เวลาหิว"
+    },
+    {
+      "senseId": "feed|verb|-",
+      "word": "feed",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ให้อาหาร",
+      "example": "I feed my fish twice a day.",
+      "exampleTh": "ฉันให้อาหารปลาวันละสองครั้ง"
+    },
+    {
+      "senseId": "hide|verb|-",
+      "word": "hide",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ซ่อน",
+      "example": "The cat likes to hide under my bed.",
+      "exampleTh": "แมวชอบซ่อนตัวอยู่ใต้เตียงของฉัน"
+    },
+    {
+      "senseId": "jump|verb|-",
+      "word": "jump",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กระโดด",
+      "example": "The kids are jumping on the bed.",
+      "exampleTh": "เด็ก ๆ กำลังกระโดดบนเตียง"
+    },
+    {
+      "senseId": "knock|verb|-",
+      "word": "knock",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เคาะ",
+      "example": "Please knock on the door before you come in.",
+      "exampleTh": "กรุณาเคาะประตูก่อนเข้ามา"
+    },
+    {
+      "senseId": "pack|verb|-",
+      "word": "pack",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "จัดกระเป๋า",
+      "example": "I need to pack my bag for the school trip.",
+      "exampleTh": "ฉันต้องจัดกระเป๋าสำหรับทัศนศึกษาของโรงเรียน"
+    },
+    {
+      "senseId": "pull|verb|-",
+      "word": "pull",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ดึง",
+      "example": "Pull the rope as hard as you can!",
+      "exampleTh": "ดึงเชือกให้แรงที่สุดเท่าที่ทำได้"
+    },
+    {
+      "senseId": "push|verb|-",
+      "word": "push",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ผลัก",
+      "example": "Can you help me push the car?",
+      "exampleTh": "ช่วยฉันเข็นรถหน่อยได้ไหม"
+    },
+    {
+      "senseId": "sail|verb|-",
+      "word": "sail",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "แล่นเรือ",
+      "example": "We sailed around the island on a sunny day.",
+      "exampleTh": "เราแล่นเรือรอบเกาะในวันที่แดดดี"
+    },
+    {
+      "senseId": "shout|verb|-",
+      "word": "shout",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ตะโกน",
+      "example": "He shouted my name across the field.",
+      "exampleTh": "เขาตะโกนเรียกชื่อฉันจากอีกฝั่งของสนาม"
+    },
+    {
+      "senseId": "smell|verb|-",
+      "word": "smell",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ดมกลิ่น",
+      "example": "She smelled the flower in the garden.",
+      "exampleTh": "เธอดมกลิ่นดอกไม้ในสวน"
+    },
+    {
+      "senseId": "smile|verb|-",
+      "word": "smile",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ยิ้ม",
+      "example": "Smile for the camera, everyone!",
+      "exampleTh": "ทุกคนยิ้มให้กล้องหน่อย"
+    },
+    {
+      "senseId": "throw|verb|-",
+      "word": "throw",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "โยน",
+      "example": "Throw the ball to your dog in the park.",
+      "exampleTh": "โยนลูกบอลให้สุนัขของคุณในสวนสาธารณะสิ"
+    },
+    {
+      "senseId": "touch|verb|-",
+      "word": "touch",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "แตะ",
+      "example": "Please don't touch the paintings in the museum.",
+      "exampleTh": "กรุณาอย่าแตะภาพวาดในพิพิธภัณฑ์"
+    },
+    {
+      "senseId": "bear|noun|animal",
+      "word": "bear",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "หมี",
+      "example": "A big brown bear is catching fish in the river.",
+      "exampleTh": "หมีสีน้ำตาลตัวใหญ่กำลังจับปลาในแม่น้ำ"
+    },
+    {
+      "senseId": "frog|noun|-",
+      "word": "frog",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "กบ",
+      "example": "The green frog jumped into the pond.",
+      "exampleTh": "กบสีเขียวกระโดดลงไปในบ่อน้ำ"
+    },
+    {
+      "senseId": "insect|noun|-",
+      "word": "insect",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "แมลง",
+      "example": "A small insect landed on my book.",
+      "exampleTh": "แมลงตัวเล็ก ๆ เกาะลงบนหนังสือของฉัน"
+    },
+    {
+      "senseId": "monkey|noun|-",
+      "word": "monkey",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ลิง",
+      "example": "The monkey took a banana from my hand.",
+      "exampleTh": "ลิงแย่งกล้วยไปจากมือฉัน"
+    },
+    {
+      "senseId": "spider|noun|-",
+      "word": "spider",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "แมงมุม",
+      "example": "There is a big spider on the bathroom wall.",
+      "exampleTh": "มีแมงมุมตัวใหญ่อยู่บนผนังห้องน้ำ"
+    },
+    {
+      "senseId": "finger|noun|-",
+      "word": "finger",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "นิ้วมือ",
+      "example": "She pointed her finger at the map.",
+      "exampleTh": "เธอชี้นิ้วไปที่แผนที่"
+    },
+    {
+      "senseId": "knee|noun|-",
+      "word": "knee",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "เข่า",
+      "example": "I fell off my bike and hurt my knee.",
+      "exampleTh": "ฉันตกจักรยานและเข่าเจ็บ"
+    },
+    {
+      "senseId": "neck|noun|-",
+      "word": "neck",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "คอ",
+      "example": "The giraffe has a very long neck.",
+      "exampleTh": "ยีราฟมีคอที่ยาวมาก"
+    },
+    {
+      "senseId": "shoulder|noun|-",
+      "word": "shoulder",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ไหล่",
+      "example": "She carries her bag on one shoulder.",
+      "exampleTh": "เธอสะพายกระเป๋าไว้บนไหล่ข้างเดียว"
+    },
+    {
+      "senseId": "belt|noun|-",
+      "word": "belt",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เข็มขัด",
+      "example": "These trousers are too big, so I need a belt.",
+      "exampleTh": "กางเกงตัวนี้ใหญ่เกินไป ฉันเลยต้องใช้เข็มขัด"
+    },
+    {
+      "senseId": "pocket|noun|-",
+      "word": "pocket",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "กระเป๋าเสื้อ",
+      "example": "He keeps a pen in his shirt pocket.",
+      "exampleTh": "เขาเก็บปากกาไว้ในกระเป๋าเสื้อ"
+    },
+    {
+      "senseId": "sock|noun|-",
+      "word": "sock",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "ถุงเท้า",
+      "example": "I can only find one sock this morning.",
+      "exampleTh": "เช้านี้ฉันหาถุงเท้าเจอแค่ข้างเดียว"
+    },
+    {
+      "senseId": "tie|noun|-",
+      "word": "tie",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เนกไท",
+      "example": "My dad wears a blue tie to work.",
+      "exampleTh": "พ่อของฉันผูกเนกไทสีน้ำเงินไปทำงาน"
+    },
+    {
+      "senseId": "uniform|noun|-",
+      "word": "uniform",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "เครื่องแบบ",
+      "example": "All students must wear a uniform to school.",
+      "exampleTh": "นักเรียนทุกคนต้องสวมเครื่องแบบไปโรงเรียน"
+    },
+    {
+      "senseId": "bean|noun|-",
+      "word": "bean",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "food",
+      "th": "เมล็ดถั่ว",
+      "example": "He planted a bean in a small pot.",
+      "exampleTh": "เขาปลูกเมล็ดถั่วไว้ในกระถางใบเล็ก"
+    },
+    {
+      "senseId": "biscuit|noun|-",
+      "word": "biscuit",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "food",
+      "th": "บิสกิต",
+      "example": "I dipped a biscuit in my hot milk.",
+      "exampleTh": "ฉันจุ่มบิสกิตลงในนมร้อน"
+    },
+    {
+      "senseId": "jam|noun|-",
+      "word": "jam",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "food",
+      "th": "แยม",
+      "example": "I like strawberry jam on my toast.",
+      "exampleTh": "ฉันชอบทาแยมสตรอว์เบอร์รีบนขนมปังปิ้ง"
+    },
+    {
+      "senseId": "lemon|noun|-",
+      "word": "lemon",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "food",
+      "th": "เลมอน",
+      "example": "She squeezed a lemon into her tea.",
+      "exampleTh": "เธอบีบเลมอนใส่ชาของเธอ"
+    },
+    {
+      "senseId": "bin|noun|-",
+      "word": "bin",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ถังขยะ",
+      "example": "Please put your rubbish in the bin.",
+      "exampleTh": "กรุณาทิ้งขยะลงในถังขยะ"
+    },
+    {
+      "senseId": "bowl|noun|-",
+      "word": "bowl",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ชาม",
+      "example": "He ate a big bowl of noodles.",
+      "exampleTh": "เขากินก๋วยเตี๋ยวชามใหญ่"
+    },
+    {
+      "senseId": "carpet|noun|-",
+      "word": "carpet",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "พรม",
+      "example": "The cat is sleeping on the soft carpet.",
+      "exampleTh": "แมวกำลังนอนอยู่บนพรมนุ่ม ๆ"
+    },
+    {
+      "senseId": "cupboard|noun|-",
+      "word": "cupboard",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ตู้เก็บของ",
+      "example": "The cups are in the kitchen cupboard.",
+      "exampleTh": "ถ้วยอยู่ในตู้ในห้องครัว"
+    },
+    {
+      "senseId": "fork|noun|-",
+      "word": "fork",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ส้อม",
+      "example": "Thai people eat with a spoon and a fork.",
+      "exampleTh": "คนไทยกินข้าวด้วยช้อนและส้อม"
+    },
+    {
+      "senseId": "fridge|noun|-",
+      "word": "fridge",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ตู้เย็น",
+      "example": "There is some cold water in the fridge.",
+      "exampleTh": "มีน้ำเย็นอยู่ในตู้เย็น"
+    },
+    {
+      "senseId": "gate|noun|-",
+      "word": "gate",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ประตูรั้ว",
+      "example": "Please close the gate so the dog stays in.",
+      "exampleTh": "กรุณาปิดประตูรั้วเพื่อไม่ให้สุนัขออกไป"
+    },
+    {
+      "senseId": "knife|noun|-",
+      "word": "knife",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "มีดทำครัว",
+      "example": "Use a sharp knife to cut the onions.",
+      "exampleTh": "ใช้มีดคม ๆ หั่นหัวหอม"
+    },
+    {
+      "senseId": "lamp|noun|-",
+      "word": "lamp",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "โคมไฟ",
+      "example": "I turn on the lamp when I read at night.",
+      "exampleTh": "ฉันเปิดโคมไฟเวลาอ่านหนังสือตอนกลางคืน"
+    },
+    {
+      "senseId": "mirror|noun|-",
+      "word": "mirror",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "กระจกเงา",
+      "example": "She looked at herself in the mirror.",
+      "exampleTh": "เธอมองตัวเองในกระจก"
+    },
+    {
+      "senseId": "oven|noun|-",
+      "word": "oven",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "เตาอบ",
+      "example": "The cake is baking in the oven.",
+      "exampleTh": "เค้กกำลังอบอยู่ในเตาอบ"
+    },
+    {
+      "senseId": "plate|noun|-",
+      "word": "plate",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "จาน",
+      "example": "He put some rice on my plate.",
+      "exampleTh": "เขาตักข้าวใส่จานให้ฉัน"
+    },
+    {
+      "senseId": "roof|noun|-",
+      "word": "roof",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "หลังคา",
+      "example": "A cat is sitting on the roof.",
+      "exampleTh": "มีแมวนั่งอยู่บนหลังคา"
+    },
+    {
+      "senseId": "soap|noun|-",
+      "word": "soap",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "สบู่",
+      "example": "Wash your hands with soap and water.",
+      "exampleTh": "ล้างมือด้วยสบู่และน้ำ"
+    },
+    {
+      "senseId": "spoon|noun|-",
+      "word": "spoon",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ช้อน",
+      "example": "Can I have a spoon for my soup?",
+      "exampleTh": "ขอช้อนสำหรับกินซุปได้ไหม"
+    },
+    {
+      "senseId": "stair|noun|-",
+      "word": "stair",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ขั้นบันได",
+      "example": "He sat on the bottom stair and tied his shoes.",
+      "exampleTh": "เขานั่งบนบันไดขั้นล่างสุดแล้วผูกเชือกรองเท้า"
+    },
+    {
+      "senseId": "towel|noun|-",
+      "word": "towel",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ผ้าเช็ดตัว",
+      "example": "Don't forget your towel when you go swimming.",
+      "exampleTh": "อย่าลืมผ้าเช็ดตัวเวลาไปว่ายน้ำ"
+    },
+    {
+      "senseId": "athlete|noun|-",
+      "word": "athlete",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักกีฬา",
+      "example": "The athlete ran faster than everyone else.",
+      "exampleTh": "นักกีฬาคนนั้นวิ่งเร็วกว่าทุกคน"
+    },
+    {
+      "senseId": "chef|noun|-",
+      "word": "chef",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "เชฟ",
+      "example": "The chef is making pad thai in the kitchen.",
+      "exampleTh": "เชฟกำลังทำผัดไทยอยู่ในครัว"
+    },
+    {
+      "senseId": "dentist|noun|-",
+      "word": "dentist",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "หมอฟัน",
+      "example": "I visit the dentist twice a year.",
+      "exampleTh": "ฉันไปหาหมอฟันปีละสองครั้ง"
+    },
+    {
+      "senseId": "detective|noun|-",
+      "word": "detective",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักสืบ",
+      "example": "The detective looked at the footprint carefully.",
+      "exampleTh": "นักสืบตรวจดูรอยเท้าอย่างละเอียด"
+    },
+    {
+      "senseId": "musician|noun|-",
+      "word": "musician",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักดนตรี",
+      "example": "The musician played the violin in the street.",
+      "exampleTh": "นักดนตรีสีไวโอลินอยู่ริมถนน"
+    },
+    {
+      "senseId": "painter|noun|-",
+      "word": "painter",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "จิตรกร",
+      "example": "The painter is painting a picture of the sea.",
+      "exampleTh": "จิตรกรกำลังวาดภาพทะเล"
+    },
+    {
+      "senseId": "pilot|noun|-",
+      "word": "pilot",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักบิน",
+      "example": "The pilot said hello before the plane took off.",
+      "exampleTh": "นักบินกล่าวทักทายก่อนเครื่องบินจะขึ้น"
+    },
+    {
+      "senseId": "reporter|noun|-",
+      "word": "reporter",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักข่าว",
+      "example": "A reporter is asking the football player questions.",
+      "exampleTh": "นักข่าวกำลังสัมภาษณ์นักฟุตบอล"
+    },
+    {
+      "senseId": "cloud|noun|-",
+      "word": "cloud",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "เมฆ",
+      "example": "A dark cloud is covering the sun.",
+      "exampleTh": "เมฆดำกำลังบังดวงอาทิตย์"
+    },
+    {
+      "senseId": "desert|noun|-",
+      "word": "desert",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ทะเลทราย",
+      "example": "Camels can walk for days in the desert.",
+      "exampleTh": "อูฐเดินในทะเลทรายได้หลายวัน"
+    },
+    {
+      "senseId": "forest|noun|-",
+      "word": "forest",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ป่า",
+      "example": "Many animals live in the forest.",
+      "exampleTh": "สัตว์หลายชนิดอาศัยอยู่ในป่า"
+    },
+    {
+      "senseId": "grass|noun|-",
+      "word": "grass",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "หญ้า",
+      "example": "Please don't walk on the grass.",
+      "exampleTh": "กรุณาอย่าเดินบนหญ้า"
+    },
+    {
+      "senseId": "hill|noun|-",
+      "word": "hill",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "เนินเขา",
+      "example": "Our school is at the top of a hill.",
+      "exampleTh": "โรงเรียนของเราอยู่บนยอดเนินเขา"
+    },
+    {
+      "senseId": "lake|noun|-",
+      "word": "lake",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ทะเลสาบ",
+      "example": "We had a picnic next to the lake.",
+      "exampleTh": "เราไปปิกนิกกันที่ริมทะเลสาบ"
+    },
+    {
+      "senseId": "moon|noun|-",
+      "word": "moon",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดวงจันทร์",
+      "example": "The moon is big and round tonight.",
+      "exampleTh": "คืนนี้ดวงจันทร์กลมโต"
+    },
+    {
+      "senseId": "ocean|noun|-",
+      "word": "ocean",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "มหาสมุทร",
+      "example": "Whales live in the deep ocean.",
+      "exampleTh": "วาฬอาศัยอยู่ในมหาสมุทรลึก"
+    },
+    {
+      "senseId": "planet|noun|-",
+      "word": "planet",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดาวเคราะห์",
+      "example": "Saturn is the planet with beautiful rings.",
+      "exampleTh": "ดาวเสาร์เป็นดาวเคราะห์ที่มีวงแหวนสวยงาม"
+    },
+    {
+      "senseId": "rock|noun|stone",
+      "word": "rock",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ก้อนหิน",
+      "example": "He sat on a big rock by the sea.",
+      "exampleTh": "เขานั่งบนก้อนหินใหญ่ริมทะเล"
+    },
+    {
+      "senseId": "sky|noun|-",
+      "word": "sky",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ท้องฟ้า",
+      "example": "The sky is clear and blue today.",
+      "exampleTh": "วันนี้ท้องฟ้าแจ่มใสและเป็นสีฟ้า"
+    },
+    {
+      "senseId": "storm|noun|-",
+      "word": "storm",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "พายุ",
+      "example": "The storm knocked down many trees last night.",
+      "exampleTh": "พายุพัดต้นไม้ล้มหลายต้นเมื่อคืนนี้"
+    },
+    {
+      "senseId": "valley|noun|-",
+      "word": "valley",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "หุบเขา",
+      "example": "A small village sits in the green valley.",
+      "exampleTh": "มีหมู่บ้านเล็ก ๆ ตั้งอยู่ในหุบเขาเขียวขจี"
+    },
+    {
+      "senseId": "wave|noun|-",
+      "word": "wave",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "คลื่น",
+      "example": "A big wave crashed onto the beach.",
+      "exampleTh": "คลื่นลูกใหญ่ซัดเข้าหาชายหาด"
+    },
+    {
+      "senseId": "brush|noun|-",
+      "word": "brush",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แปรง",
+      "example": "Use a big brush to paint the wall.",
+      "exampleTh": "ใช้แปรงอันใหญ่ทาสีผนัง"
+    },
+    {
+      "senseId": "button|noun|-",
+      "word": "button",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กระดุม",
+      "example": "A button fell off my school shirt.",
+      "exampleTh": "กระดุมเสื้อนักเรียนของฉันหลุด"
+    },
+    {
+      "senseId": "gift|noun|-",
+      "word": "gift",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ของขวัญ",
+      "example": "I wrapped the gift in red paper.",
+      "exampleTh": "ฉันห่อของขวัญด้วยกระดาษสีแดง"
+    },
+    {
+      "senseId": "laptop|noun|-",
+      "word": "laptop",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "โน้ตบุ๊ก",
+      "example": "I do my homework on my laptop.",
+      "exampleTh": "ฉันทำการบ้านบนโน้ตบุ๊กของฉัน"
+    },
+    {
+      "senseId": "lock|noun|-",
+      "word": "lock",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แม่กุญแจ",
+      "example": "Put a lock on your bike at school.",
+      "exampleTh": "ใส่แม่กุญแจล็อกจักรยานไว้ด้วยตอนอยู่ที่โรงเรียน"
+    },
+    {
+      "senseId": "poster|noun|-",
+      "word": "poster",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "โปสเตอร์",
+      "example": "He has a poster of his favourite band on his wall.",
+      "exampleTh": "เขามีโปสเตอร์วงดนตรีที่ชอบติดอยู่บนผนัง"
+    },
+    {
+      "senseId": "printer|noun|-",
+      "word": "printer",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เครื่องพิมพ์",
+      "example": "The printer in the library is out of paper.",
+      "exampleTh": "เครื่องพิมพ์ในห้องสมุดกระดาษหมด"
+    },
+    {
+      "senseId": "ring#1|noun|-",
+      "word": "ring",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แหวน",
+      "example": "He bought a silver ring for his mother.",
+      "exampleTh": "เขาซื้อแหวนเงินให้แม่ของเขา"
+    },
+    {
+      "senseId": "smartphone|noun|-",
+      "word": "smartphone",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "สมาร์ตโฟน",
+      "example": "Almost every student in my class has a smartphone.",
+      "exampleTh": "นักเรียนเกือบทุกคนในห้องของฉันมีสมาร์ตโฟน"
+    },
+    {
+      "senseId": "stamp|noun|-",
+      "word": "stamp",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แสตมป์",
+      "example": "You need a stamp to send this letter.",
+      "exampleTh": "คุณต้องติดแสตมป์เพื่อส่งจดหมายฉบับนี้"
+    },
+    {
+      "senseId": "toy|noun|-",
+      "word": "toy",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ของเล่น",
+      "example": "My little cousin loves his new toy car.",
+      "exampleTh": "ลูกพี่ลูกน้องตัวน้อยของฉันชอบรถของเล่นคันใหม่มาก"
+    },
+    {
+      "senseId": "wheel|noun|-",
+      "word": "wheel",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ล้อ",
+      "example": "One wheel of my bike is broken.",
+      "exampleTh": "ล้อจักรยานของฉันเสียไปข้างหนึ่ง"
+    },
+    {
+      "senseId": "bridge|noun|-",
+      "word": "bridge",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "สะพาน",
+      "example": "We walked across the bridge over the river.",
+      "exampleTh": "เราเดินข้ามสะพานที่ทอดข้ามแม่น้ำ"
+    },
+    {
+      "senseId": "castle|noun|-",
+      "word": "castle",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ปราสาท",
+      "example": "The old castle stands on top of a hill.",
+      "exampleTh": "ปราสาทเก่าตั้งอยู่บนยอดเนินเขา"
+    },
+    {
+      "senseId": "factory|noun|-",
+      "word": "factory",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "โรงงาน",
+      "example": "My aunt works in a shoe factory.",
+      "exampleTh": "น้าของฉันทำงานในโรงงานผลิตรองเท้า"
+    },
+    {
+      "senseId": "stage|noun|-",
+      "word": "stage",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "เวที",
+      "example": "The band is playing on the stage tonight.",
+      "exampleTh": "คืนนี้วงดนตรีจะเล่นบนเวที"
+    },
+    {
+      "senseId": "tower|noun|-",
+      "word": "tower",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "หอคอย",
+      "example": "You can see the whole city from the tower.",
+      "exampleTh": "คุณมองเห็นทั้งเมืองได้จากบนหอคอย"
+    },
+    {
+      "senseId": "baseball|noun|-",
+      "word": "baseball",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "เบสบอล",
+      "example": "My cousin plays baseball in Japan.",
+      "exampleTh": "ลูกพี่ลูกน้องของฉันเล่นเบสบอลที่ญี่ปุ่น"
+    },
+    {
+      "senseId": "basketball|noun|-",
+      "word": "basketball",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "บาสเกตบอล",
+      "example": "We play basketball in the school gym.",
+      "exampleTh": "เราเล่นบาสเกตบอลในโรงยิมของโรงเรียน"
+    },
+    {
+      "senseId": "fishing|noun|-",
+      "word": "fishing",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "ตกปลา",
+      "example": "My dad and I go fishing at the lake.",
+      "exampleTh": "พ่อกับฉันไปตกปลาที่ทะเลสาบ"
+    },
+    {
+      "senseId": "golf|noun|-",
+      "word": "golf",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "กอล์ฟ",
+      "example": "My grandfather plays golf every Saturday.",
+      "exampleTh": "คุณปู่ตีกอล์ฟทุกวันเสาร์"
+    },
+    {
+      "senseId": "hockey|noun|-",
+      "word": "hockey",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "ฮอกกี้",
+      "example": "Ice hockey is a fast and exciting sport.",
+      "exampleTh": "ไอซ์ฮอกกี้เป็นกีฬาที่รวดเร็วและน่าตื่นเต้น"
+    },
+    {
+      "senseId": "ski|verb|-",
+      "word": "ski",
+      "level": "A2",
+      "pos": "verb",
+      "cat": "sport",
+      "th": "เล่นสกี",
+      "example": "I want to learn to ski in Japan.",
+      "exampleTh": "ฉันอยากไปหัดเล่นสกีที่ญี่ปุ่น"
+    },
+    {
+      "senseId": "motorcycle|noun|-",
+      "word": "motorcycle",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "มอเตอร์ไซค์",
+      "example": "Many people ride a motorcycle to work in Bangkok.",
+      "exampleTh": "คนจำนวนมากขี่มอเตอร์ไซค์ไปทำงานในกรุงเทพฯ"
+    },
+    {
+      "senseId": "ship|noun|-",
+      "word": "ship",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "เรือใหญ่",
+      "example": "The big ship carries cars across the sea.",
+      "exampleTh": "เรือลำใหญ่บรรทุกรถยนต์ข้ามทะเล"
+    },
+    {
+      "senseId": "truck|noun|-",
+      "word": "truck",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถบรรทุก",
+      "example": "A big truck is carrying sand to the building site.",
+      "exampleTh": "รถบรรทุกคันใหญ่กำลังขนทรายไปที่ไซต์ก่อสร้าง"
+    },
+    {
+      "senseId": "van|noun|-",
+      "word": "van",
+      "level": "A2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถตู้",
+      "example": "We went to the beach in a white van.",
+      "exampleTh": "เรานั่งรถตู้สีขาวไปทะเล"
+    },
+    {
+      "senseId": "bake|verb|-",
+      "word": "bake",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "อบขนม",
+      "example": "We bake cookies for our friends at the weekend.",
+      "exampleTh": "เราอบคุกกี้ให้เพื่อน ๆ ในวันหยุดสุดสัปดาห์"
+    },
+    {
+      "senseId": "bend|verb|-",
+      "word": "bend",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "งอตัว",
+      "example": "Bend your knees when you pick up the box.",
+      "exampleTh": "งอเข่าเวลายกกล่องขึ้น"
+    },
+    {
+      "senseId": "bite|verb|-",
+      "word": "bite",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กัด",
+      "example": "He bit into a crunchy green apple.",
+      "exampleTh": "เขากัดแอปเปิลเขียวกรอบ ๆ"
+    },
+    {
+      "senseId": "decorate|verb|-",
+      "word": "decorate",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ตกแต่ง",
+      "example": "We decorated the classroom for the party.",
+      "exampleTh": "เราตกแต่งห้องเรียนสำหรับงานเลี้ยง"
+    },
+    {
+      "senseId": "deliver|verb|-",
+      "word": "deliver",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ส่งของ",
+      "example": "The postman delivers letters every morning.",
+      "exampleTh": "บุรุษไปรษณีย์ส่งจดหมายทุกเช้า"
+    },
+    {
+      "senseId": "fold|verb|-",
+      "word": "fold",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "พับ",
+      "example": "Fold the paper in half to make a card.",
+      "exampleTh": "พับกระดาษครึ่งหนึ่งเพื่อทำการ์ด"
+    },
+    {
+      "senseId": "fry|verb|-",
+      "word": "fry",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ทอด",
+      "example": "Mum fries the eggs in a little oil.",
+      "exampleTh": "แม่ทอดไข่ด้วยน้ำมันนิดหน่อย"
+    },
+    {
+      "senseId": "hang|verb|-",
+      "word": "hang",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "แขวน",
+      "example": "Hang your coat on the hook by the door.",
+      "exampleTh": "แขวนเสื้อโค้ทไว้ที่ตะขอข้างประตู"
+    },
+    {
+      "senseId": "hurry|verb|-",
+      "word": "hurry",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "รีบ",
+      "example": "We have to hurry or we'll miss the bus.",
+      "exampleTh": "เราต้องรีบ ไม่อย่างนั้นจะตกรถบัส"
+    },
+    {
+      "senseId": "kick|verb|-",
+      "word": "kick",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เตะ",
+      "example": "He kicked the ball into the goal.",
+      "exampleTh": "เขาเตะลูกบอลเข้าประตู"
+    },
+    {
+      "senseId": "measure|verb|-",
+      "word": "measure",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "วัด",
+      "example": "Use a ruler to measure the line.",
+      "exampleTh": "ใช้ไม้บรรทัดวัดความยาวของเส้น"
+    },
+    {
+      "senseId": "mix|verb|-",
+      "word": "mix",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ผสม",
+      "example": "Mix the flour and the eggs in a bowl.",
+      "exampleTh": "ผสมแป้งกับไข่ในชาม"
+    },
+    {
+      "senseId": "pour|verb|-",
+      "word": "pour",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "เท",
+      "example": "Can you pour me a glass of water?",
+      "exampleTh": "ช่วยรินน้ำให้ฉันสักแก้วได้ไหม"
+    },
+    {
+      "senseId": "roll|verb|-",
+      "word": "roll",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กลิ้ง",
+      "example": "The ball rolled down the hill.",
+      "exampleTh": "ลูกบอลกลิ้งลงเนินเขา"
+    },
+    {
+      "senseId": "shine|verb|-",
+      "word": "shine",
+      "level": "B1",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ส่องแสง",
+      "example": "The sun is shining brightly this morning.",
+      "exampleTh": "เช้านี้แดดส่องสว่าง"
+    },
+    {
+      "senseId": "bee|noun|-",
+      "word": "bee",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ผึ้ง",
+      "example": "A bee is flying from flower to flower.",
+      "exampleTh": "ผึ้งกำลังบินจากดอกไม้ดอกหนึ่งไปอีกดอกหนึ่ง"
+    },
+    {
+      "senseId": "tail|noun|-",
+      "word": "tail",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "หาง",
+      "example": "My dog wags its tail when I come home.",
+      "exampleTh": "สุนัขของฉันกระดิกหางเวลาฉันกลับถึงบ้าน"
+    },
+    {
+      "senseId": "wing|noun|-",
+      "word": "wing",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ปีก",
+      "example": "The bird hurt its wing and couldn't fly.",
+      "exampleTh": "นกเจ็บปีกจนบินไม่ได้"
+    },
+    {
+      "senseId": "lip|noun|-",
+      "word": "lip",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ริมฝีปาก",
+      "example": "He bit his lip when he was nervous.",
+      "exampleTh": "เขากัดริมฝีปากตอนรู้สึกประหม่า"
+    },
+    {
+      "senseId": "toe|noun|-",
+      "word": "toe",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "นิ้วเท้า",
+      "example": "I hit my toe on the table leg.",
+      "exampleTh": "นิ้วเท้าของฉันชนขาโต๊ะ"
+    },
+    {
+      "senseId": "tongue|noun|-",
+      "word": "tongue",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ลิ้น",
+      "example": "The dog's tongue is long and pink.",
+      "exampleTh": "ลิ้นของสุนัขยาวและเป็นสีชมพู"
+    },
+    {
+      "senseId": "cap|noun|-",
+      "word": "cap",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "หมวกแก๊ป",
+      "example": "He always wears a red cap to football practice.",
+      "exampleTh": "เขาสวมหมวกแก๊ปสีแดงไปซ้อมฟุตบอลเสมอ"
+    },
+    {
+      "senseId": "costume|noun|-",
+      "word": "costume",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "ชุดแฟนซี",
+      "example": "She wore a cat costume to the party.",
+      "exampleTh": "เธอใส่ชุดแฟนซีรูปแมวไปงานปาร์ตี้"
+    },
+    {
+      "senseId": "glove|noun|-",
+      "word": "glove",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "ถุงมือ",
+      "example": "I lost one glove on the way to school.",
+      "exampleTh": "ฉันทำถุงมือหายไปข้างหนึ่งระหว่างทางไปโรงเรียน"
+    },
+    {
+      "senseId": "ceiling|noun|-",
+      "word": "ceiling",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "เพดาน",
+      "example": "There is a fan on the ceiling.",
+      "exampleTh": "มีพัดลมติดอยู่บนเพดาน"
+    },
+    {
+      "senseId": "curtain|noun|-",
+      "word": "curtain",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ผ้าม่าน",
+      "example": "Close the curtain, the sun is too bright.",
+      "exampleTh": "ปิดผ้าม่านหน่อย แดดจ้าเกินไป"
+    },
+    {
+      "senseId": "fence|noun|-",
+      "word": "fence",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "รั้ว",
+      "example": "The dog jumped over the fence.",
+      "exampleTh": "สุนัขกระโดดข้ามรั้ว"
+    },
+    {
+      "senseId": "garage|noun|-",
+      "word": "garage",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "โรงรถ",
+      "example": "Dad parks the car in the garage.",
+      "exampleTh": "พ่อจอดรถไว้ในโรงรถ"
+    },
+    {
+      "senseId": "pan|noun|-",
+      "word": "pan",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "กระทะ",
+      "example": "Heat some oil in the pan first.",
+      "exampleTh": "ตั้งกระทะใส่น้ำมันให้ร้อนก่อน"
+    },
+    {
+      "senseId": "pot|noun|-",
+      "word": "pot",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "หม้อ",
+      "example": "Mum is cooking curry in a big pot.",
+      "exampleTh": "แม่กำลังทำแกงในหม้อใบใหญ่"
+    },
+    {
+      "senseId": "shelf|noun|-",
+      "word": "shelf",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ชั้นวาง",
+      "example": "Put the books back on the shelf, please.",
+      "exampleTh": "ช่วยวางหนังสือกลับไว้บนชั้นด้วย"
+    },
+    {
+      "senseId": "captain|noun|-",
+      "word": "captain",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "กัปตันเรือ",
+      "example": "The captain stood at the front of the ship.",
+      "exampleTh": "กัปตันยืนอยู่ที่หัวเรือ"
+    },
+    {
+      "senseId": "photographer|noun|-",
+      "word": "photographer",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "ช่างภาพ",
+      "example": "The photographer took a picture of our class.",
+      "exampleTh": "ช่างภาพถ่ายรูปหมู่ของห้องเรา"
+    },
+    {
+      "senseId": "sailor|noun|-",
+      "word": "sailor",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "job",
+      "th": "กะลาสีเรือ",
+      "example": "The sailor tied the boat to the dock.",
+      "exampleTh": "กะลาสีผูกเรือไว้กับท่าเรือ"
+    },
+    {
+      "senseId": "flood|noun|-",
+      "word": "flood",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "น้ำท่วม",
+      "example": "The flood covered the streets with water.",
+      "exampleTh": "น้ำท่วมถนนไปหมด"
+    },
+    {
+      "senseId": "leaf|noun|-",
+      "word": "leaf",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ใบไม้",
+      "example": "A yellow leaf fell from the tree.",
+      "exampleTh": "ใบไม้สีเหลืองร่วงจากต้นไม้"
+    },
+    {
+      "senseId": "mud|noun|-",
+      "word": "mud",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "โคลน",
+      "example": "My shoes are covered in mud after the rain.",
+      "exampleTh": "รองเท้าของฉันเปื้อนโคลนเต็มไปหมดหลังฝนตก"
+    },
+    {
+      "senseId": "path|noun|-",
+      "word": "path",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ทางเดิน",
+      "example": "This path goes through the forest to the lake.",
+      "exampleTh": "ทางเดินนี้ผ่านป่าไปยังทะเลสาบ"
+    },
+    {
+      "senseId": "sand|noun|-",
+      "word": "sand",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ทราย",
+      "example": "The sand on this beach is white and soft.",
+      "exampleTh": "ทรายที่ชายหาดนี้ขาวและนุ่ม"
+    },
+    {
+      "senseId": "seed|noun|-",
+      "word": "seed",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "เมล็ดพืช",
+      "example": "Plant the seed and give it water every day.",
+      "exampleTh": "ปลูกเมล็ดแล้วรดน้ำทุกวัน"
+    },
+    {
+      "senseId": "shell|noun|-",
+      "word": "shell",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "เปลือกหอย",
+      "example": "I found a pretty shell on the beach.",
+      "exampleTh": "ฉันเจอเปลือกหอยสวย ๆ บนชายหาด"
+    },
+    {
+      "senseId": "stick|noun|piece_of_wood",
+      "word": "stick",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "กิ่งไม้",
+      "example": "The dog brought the stick back to me.",
+      "exampleTh": "สุนัขคาบกิ่งไม้กลับมาให้ฉัน"
+    },
+    {
+      "senseId": "battery|noun|-",
+      "word": "battery",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "แบตเตอรี่",
+      "example": "My phone battery is low, so I need to charge it.",
+      "exampleTh": "แบตเตอรี่โทรศัพท์ของฉันใกล้หมด เลยต้องชาร์จ"
+    },
+    {
+      "senseId": "bell|noun|-",
+      "word": "bell",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กระดิ่ง",
+      "example": "The school bell rings at four o'clock.",
+      "exampleTh": "กระดิ่งโรงเรียนดังตอนสี่โมงเย็น"
+    },
+    {
+      "senseId": "bubble|noun|-",
+      "word": "bubble",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ฟองสบู่",
+      "example": "The little girl blew a huge bubble.",
+      "exampleTh": "เด็กหญิงตัวน้อยเป่าฟองสบู่ลูกใหญ่มาก"
+    },
+    {
+      "senseId": "chain|noun|-",
+      "word": "chain",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "โซ่",
+      "example": "The chain on my bike came off.",
+      "exampleTh": "โซ่จักรยานของฉันหลุด"
+    },
+    {
+      "senseId": "coin|noun|-",
+      "word": "coin",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เหรียญ",
+      "example": "I found a coin under the sofa.",
+      "exampleTh": "ฉันเจอเหรียญอยู่ใต้โซฟา"
+    },
+    {
+      "senseId": "diamond|noun|-",
+      "word": "diamond",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เพชร",
+      "example": "The ring has a small diamond in the middle.",
+      "exampleTh": "แหวนวงนั้นมีเพชรเม็ดเล็กอยู่ตรงกลาง"
+    },
+    {
+      "senseId": "drum|noun|-",
+      "word": "drum",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "กลอง",
+      "example": "My brother plays the drum in a rock band.",
+      "exampleTh": "พี่ชายของฉันตีกลองในวงร็อก"
+    },
+    {
+      "senseId": "keyboard|noun|-",
+      "word": "keyboard",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "คีย์บอร์ด",
+      "example": "Some keys on my keyboard don't work.",
+      "exampleTh": "ปุ่มบางปุ่มบนคีย์บอร์ดของฉันใช้ไม่ได้"
+    },
+    {
+      "senseId": "needle|noun|-",
+      "word": "needle",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เข็มเย็บผ้า",
+      "example": "Grandma uses a needle and thread to fix my shirt.",
+      "exampleTh": "คุณยายใช้เข็มกับด้ายซ่อมเสื้อของฉัน"
+    },
+    {
+      "senseId": "robot|noun|-",
+      "word": "robot",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "หุ่นยนต์",
+      "example": "Our class built a small robot for the science fair.",
+      "exampleTh": "ห้องเราสร้างหุ่นยนต์ตัวเล็กสำหรับงานวิทยาศาสตร์"
+    },
+    {
+      "senseId": "rope|noun|-",
+      "word": "rope",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เชือก",
+      "example": "They used a rope to climb the wall.",
+      "exampleTh": "พวกเขาใช้เชือกปีนกำแพง"
+    },
+    {
+      "senseId": "tent|noun|-",
+      "word": "tent",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เต็นท์",
+      "example": "We put up our tent next to the river.",
+      "exampleTh": "เรากางเต็นท์ไว้ข้างแม่น้ำ"
+    },
+    {
+      "senseId": "tyre|noun|-",
+      "word": "tyre",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ยางรถ",
+      "example": "The car has a flat tyre.",
+      "exampleTh": "รถคันนั้นยางแบน"
+    },
+    {
+      "senseId": "cottage|noun|-",
+      "word": "cottage",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "กระท่อม",
+      "example": "They stayed in a small cottage near the sea.",
+      "exampleTh": "พวกเขาพักอยู่ในกระท่อมหลังเล็กใกล้ทะเล"
+    },
+    {
+      "senseId": "laboratory|noun|-",
+      "word": "laboratory",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ห้องทดลอง",
+      "example": "We do science experiments in the laboratory.",
+      "exampleTh": "เราทำการทดลองวิทยาศาสตร์ในห้องทดลอง"
+    },
+    {
+      "senseId": "mall|noun|-",
+      "word": "mall",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ห้าง",
+      "example": "We meet our friends at the mall on Saturday.",
+      "exampleTh": "เรานัดเจอเพื่อน ๆ ที่ห้างในวันเสาร์"
+    },
+    {
+      "senseId": "stadium|noun|-",
+      "word": "stadium",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "place",
+      "th": "สนามกีฬา",
+      "example": "Thousands of fans came to the stadium.",
+      "exampleTh": "แฟนบอลหลายพันคนมาที่สนามกีฬา"
+    },
+    {
+      "senseId": "rugby|noun|-",
+      "word": "rugby",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "รักบี้",
+      "example": "Rugby is a popular sport in New Zealand.",
+      "exampleTh": "รักบี้เป็นกีฬายอดนิยมในนิวซีแลนด์"
+    },
+    {
+      "senseId": "helicopter|noun|-",
+      "word": "helicopter",
+      "level": "B1",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "เฮลิคอปเตอร์",
+      "example": "A helicopter is flying over the city.",
+      "exampleTh": "เฮลิคอปเตอร์กำลังบินอยู่เหนือเมือง"
+    },
+    {
+      "senseId": "chase|verb|-",
+      "word": "chase",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ไล่ตาม",
+      "example": "The dog chased the cat around the garden.",
+      "exampleTh": "สุนัขไล่ตามแมวไปรอบสวน"
+    },
+    {
+      "senseId": "chop|verb|-",
+      "word": "chop",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "สับ",
+      "example": "Chop the onions into small pieces.",
+      "exampleTh": "สับหัวหอมเป็นชิ้นเล็ก ๆ"
+    },
+    {
+      "senseId": "dig|verb|-",
+      "word": "dig",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ขุด",
+      "example": "The children dug a big hole in the sand.",
+      "exampleTh": "เด็ก ๆ ขุดหลุมใหญ่บนพื้นทราย"
+    },
+    {
+      "senseId": "dive|verb|-",
+      "word": "dive",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กระโดดน้ำ",
+      "example": "She dived into the pool from the high board.",
+      "exampleTh": "เธอกระโดดน้ำลงสระจากแท่นสูง"
+    },
+    {
+      "senseId": "melt|verb|-",
+      "word": "melt",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ละลาย",
+      "example": "The ice cream melted quickly in the hot sun.",
+      "exampleTh": "ไอศกรีมละลายเร็วมากกลางแดดร้อน"
+    },
+    {
+      "senseId": "sweep|verb|-",
+      "word": "sweep",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "กวาด",
+      "example": "I sweep the floor after dinner every day.",
+      "exampleTh": "ฉันกวาดพื้นหลังอาหารเย็นทุกวัน"
+    },
+    {
+      "senseId": "wrap|verb|-",
+      "word": "wrap",
+      "level": "B2",
+      "pos": "verb",
+      "cat": "action",
+      "th": "ห่อ",
+      "example": "Let's wrap the present in colourful paper.",
+      "exampleTh": "มาห่อของขวัญด้วยกระดาษสีสันสดใสกันเถอะ"
+    },
+    {
+      "senseId": "feather|noun|-",
+      "word": "feather",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ขนนก",
+      "example": "A white feather floated down from the sky.",
+      "exampleTh": "ขนนกสีขาวลอยลงมาจากท้องฟ้า"
+    },
+    {
+      "senseId": "worm|noun|-",
+      "word": "worm",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "animal",
+      "th": "ไส้เดือน",
+      "example": "The bird pulled a worm out of the ground.",
+      "exampleTh": "นกดึงไส้เดือนออกมาจากดิน"
+    },
+    {
+      "senseId": "elbow|noun|-",
+      "word": "elbow",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "ข้อศอก",
+      "example": "Don't put your elbow on the dinner table.",
+      "exampleTh": "อย่าเอาข้อศอกวางบนโต๊ะอาหาร"
+    },
+    {
+      "senseId": "thumb|noun|-",
+      "word": "thumb",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "body",
+      "th": "นิ้วโป้ง",
+      "example": "He hurt his thumb playing volleyball.",
+      "exampleTh": "เขาเจ็บนิ้วโป้งตอนเล่นวอลเลย์บอล"
+    },
+    {
+      "senseId": "helmet|noun|-",
+      "word": "helmet",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "clothing",
+      "th": "หมวกกันน็อก",
+      "example": "Always wear a helmet when you ride a motorcycle.",
+      "exampleTh": "สวมหมวกกันน็อกทุกครั้งเมื่อขี่มอเตอร์ไซค์"
+    },
+    {
+      "senseId": "blanket|noun|-",
+      "word": "blanket",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "home",
+      "th": "ผ้าห่ม",
+      "example": "I need a thick blanket on cold nights.",
+      "exampleTh": "ฉันต้องใช้ผ้าห่มหนา ๆ ในคืนที่อากาศหนาว"
+    },
+    {
+      "senseId": "firefighter|noun|-",
+      "word": "firefighter",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "นักดับเพลิง",
+      "example": "The firefighter climbed up to save the cat.",
+      "exampleTh": "นักดับเพลิงปีนขึ้นไปช่วยแมว"
+    },
+    {
+      "senseId": "mechanic|noun|-",
+      "word": "mechanic",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "ช่างซ่อมรถ",
+      "example": "The mechanic fixed our car in one hour.",
+      "exampleTh": "ช่างซ่อมรถซ่อมรถของเราเสร็จในหนึ่งชั่วโมง"
+    },
+    {
+      "senseId": "referee|noun|-",
+      "word": "referee",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "job",
+      "th": "กรรมการ",
+      "example": "The referee blew his whistle to end the game.",
+      "exampleTh": "กรรมการเป่านกหวีดจบการแข่งขัน"
+    },
+    {
+      "senseId": "cave|noun|-",
+      "word": "cave",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ถ้ำ",
+      "example": "Bats live in this dark cave.",
+      "exampleTh": "ค้างคาวอาศัยอยู่ในถ้ำมืดแห่งนี้"
+    },
+    {
+      "senseId": "cliff|noun|-",
+      "word": "cliff",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "หน้าผา",
+      "example": "Don't stand too close to the edge of the cliff.",
+      "exampleTh": "อย่ายืนใกล้ขอบหน้าผาเกินไป"
+    },
+    {
+      "senseId": "rose|noun|-",
+      "word": "rose",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "nature",
+      "th": "ดอกกุหลาบ",
+      "example": "He gave his mum a red rose.",
+      "exampleTh": "เขาให้ดอกกุหลาบสีแดงแก่แม่"
+    },
+    {
+      "senseId": "balloon|noun|-",
+      "word": "balloon",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ลูกโป่ง",
+      "example": "The child let go of her red balloon.",
+      "exampleTh": "เด็กหญิงปล่อยลูกโป่งสีแดงหลุดมือ"
+    },
+    {
+      "senseId": "basket|noun|-",
+      "word": "basket",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ตะกร้า",
+      "example": "She carried a basket full of fruit.",
+      "exampleTh": "เธอถือตะกร้าที่เต็มไปด้วยผลไม้"
+    },
+    {
+      "senseId": "candle|noun|-",
+      "word": "candle",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เทียน",
+      "example": "He blew out the candle on his birthday cake.",
+      "exampleTh": "เขาเป่าเทียนบนเค้กวันเกิด"
+    },
+    {
+      "senseId": "envelope|noun|-",
+      "word": "envelope",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ซองจดหมาย",
+      "example": "Put the letter in the envelope and close it.",
+      "exampleTh": "ใส่จดหมายลงในซองแล้วปิดผนึก"
+    },
+    {
+      "senseId": "globe|noun|-",
+      "word": "globe",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "ลูกโลก",
+      "example": "The teacher pointed to Thailand on the globe.",
+      "exampleTh": "ครูชี้ประเทศไทยบนลูกโลก"
+    },
+    {
+      "senseId": "ladder|noun|-",
+      "word": "ladder",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "บันได",
+      "example": "He climbed the ladder to fix the roof.",
+      "exampleTh": "เขาปีนบันไดขึ้นไปซ่อมหลังคา"
+    },
+    {
+      "senseId": "medal|noun|-",
+      "word": "medal",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "เหรียญรางวัล",
+      "example": "She won a gold medal in swimming.",
+      "exampleTh": "เธอได้เหรียญทองจากการว่ายน้ำ"
+    },
+    {
+      "senseId": "puzzle|noun|-",
+      "word": "puzzle",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "object",
+      "th": "จิ๊กซอว์",
+      "example": "We finished a big puzzle together on Sunday.",
+      "exampleTh": "เราต่อจิ๊กซอว์ชุดใหญ่เสร็จด้วยกันเมื่อวันอาทิตย์"
+    },
+    {
+      "senseId": "harbour|noun|-",
+      "word": "harbour",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "ท่าเรือ",
+      "example": "Many fishing boats are in the harbour.",
+      "exampleTh": "มีเรือประมงหลายลำจอดอยู่ในท่าเรือ"
+    },
+    {
+      "senseId": "tunnel|noun|-",
+      "word": "tunnel",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "place",
+      "th": "อุโมงค์",
+      "example": "The train went through a long tunnel.",
+      "exampleTh": "รถไฟวิ่งผ่านอุโมงค์ยาว"
+    },
+    {
+      "senseId": "bat|noun|-",
+      "word": "bat",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "ไม้ตีเบสบอล",
+      "example": "He swings the bat and hits the ball.",
+      "exampleTh": "เขาเหวี่ยงไม้ตีแล้วตีโดนลูก"
+    },
+    {
+      "senseId": "marathon|noun|-",
+      "word": "marathon",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "sport",
+      "th": "มาราธอน",
+      "example": "My uncle ran a marathon in four hours.",
+      "exampleTh": "ลุงของฉันวิ่งมาราธอนจบในสี่ชั่วโมง"
+    },
+    {
+      "senseId": "ambulance|noun|-",
+      "word": "ambulance",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "รถพยาบาล",
+      "example": "The ambulance drove quickly to the hospital.",
+      "exampleTh": "รถพยาบาลแล่นไปโรงพยาบาลอย่างรวดเร็ว"
+    },
+    {
+      "senseId": "rocket|noun|-",
+      "word": "rocket",
+      "level": "B2",
+      "pos": "noun",
+      "cat": "transport",
+      "th": "จรวด",
+      "example": "The rocket flew up into space.",
+      "exampleTh": "จรวดพุ่งขึ้นสู่อวกาศ"
+    }
+  ]
+}

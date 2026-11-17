@@ -1,0 +1,389 @@
+{
+  "topic": "calls",
+  "items": [
+    {
+      "id": "W-CAL-01",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "How may I help you",
+      "th": "มีอะไรให้ช่วยไหมครับ/คะ",
+      "noteTH": "ใช้ตอนรับสายในที่ทำงาน โดยเฉพาะเมื่อรับสายจากลูกค้าหรือคนนอก สุภาพกว่า What do you want? มาก",
+      "example": "Good morning, how may I help you today?",
+      "exampleTH": "สวัสดีตอนเช้าครับ/ค่ะ วันนี้มีอะไรให้ช่วยไหมครับ/คะ",
+      "situation": {
+        "promptTH": "โทรศัพท์ของฝ่ายขายดังขึ้นและคุณเป็นคนรับสาย คุณควรพูดว่าอะไร",
+        "options": [
+          "Yeah? Who is this?",
+          "Hello, I'm really busy right now.",
+          "Good afternoon, Sales Department. How may I help you?",
+          "What do you want?"
+        ],
+        "answer": 2,
+        "whyTH": "\"Good afternoon, Sales Department. How may I help you?\" รับสายสุภาพและบอกชื่อฝ่าย · \"Yeah? Who is this?\" ห้วนเกินไป · \"I'm really busy\" ทำให้ผู้โทรรู้สึกไม่ได้รับการต้อนรับ · \"What do you want?\" หยาบคาย"
+      },
+      "cloze": {
+        "sentence": "Good morning, how may I ___ you today?",
+        "options": [
+          "help",
+          "ask",
+          "tell",
+          "give"
+        ],
+        "answer": 0,
+        "whyTH": "help you = ช่วยคุณ · ask you = ถามคุณ · tell you = บอกคุณ · give you = ให้คุณ ซึ่งไม่ใช่การเสนอความช่วยเหลือ"
+      }
+    },
+    {
+      "id": "W-CAL-02",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could I speak to",
+      "th": "ขอสายคุณ...หน่อยได้ไหม",
+      "noteTH": "ใช้ขอสายคนที่ต้องการคุยด้วย ตามด้วยชื่อคนหรือตำแหน่ง และเติม please ท้ายประโยคให้สุภาพ",
+      "example": "Hello, could I speak to someone in the accounting department, please?",
+      "exampleTH": "สวัสดีครับ/ค่ะ ขอสายเจ้าหน้าที่ฝ่ายบัญชีหน่อยได้ไหมครับ/คะ",
+      "situation": {
+        "promptTH": "คุณโทรไปที่บริษัทหนึ่งและต้องการคุยกับผู้จัดการฝ่ายบุคคล คุณควรพูดว่าอะไร",
+        "options": [
+          "Hi, could I speak to the HR manager, please?",
+          "Give me the HR manager now.",
+          "Are you the HR manager? No? Then bye.",
+          "Could I speak to anyone except the HR manager?"
+        ],
+        "answer": 0,
+        "whyTH": "\"Could I speak to..., please?\" ขอสายอย่างสุภาพ · \"Give me... now\" เป็นคำสั่งที่ห้วน · \"Then bye\" วางสายใส่โดยไม่ขอให้โอนสาย · \"anyone except\" ขอคุยกับคนอื่น ไม่ตรงกับที่ต้องการ"
+      },
+      "cloze": {
+        "sentence": "Hello, could I ___ to someone in the accounting department, please?",
+        "options": [
+          "say",
+          "tell",
+          "speak",
+          "call"
+        ],
+        "answer": 2,
+        "whyTH": "speak to = พูดคุยกับ · say to ต้องมีสิ่งที่พูด · tell ไม่ใช้กับ to แบบนี้ · call ไม่ใช้กับ to ในความหมายนี้"
+      }
+    },
+    {
+      "id": "W-CAL-03",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "May I ask who's calling",
+      "th": "ขอทราบว่าใครโทรมาครับ/คะ",
+      "noteTH": "ใช้ถามชื่อผู้โทรอย่างสุภาพก่อนโอนสายหรือรับข้อความ สุภาพกว่า Who are you? มาก",
+      "example": "May I ask who's calling, please?",
+      "exampleTH": "ขอทราบว่าใครโทรมาครับ/คะ",
+      "situation": {
+        "promptTH": "มีคนโทรมาขอสายหัวหน้าของคุณ แต่คุณต้องรู้ชื่อผู้โทรก่อนโอนสาย คุณควรพูดว่าอะไร",
+        "options": [
+          "Who are you, and what do you want?",
+          "My boss doesn't take calls from strangers.",
+          "Why are you calling my boss?",
+          "May I ask who's calling, please?"
+        ],
+        "answer": 3,
+        "whyTH": "\"May I ask who's calling?\" ถามชื่ออย่างสุภาพ · \"Who are you, and what do you want?\" ห้วนและไม่สุภาพ · \"doesn't take calls from strangers\" ปฏิเสธผู้โทรทันที · \"Why are you calling\" ฟังดูสงสัยและจับผิด"
+      },
+      "cloze": {
+        "sentence": "May I ask who's ___, please?",
+        "options": [
+          "coming",
+          "calling",
+          "going",
+          "saying"
+        ],
+        "answer": 1,
+        "whyTH": "who's calling = ใครโทรมา · who's coming = ใครจะมา · who's going = ใครจะไป · who's saying ต้องมีสิ่งที่พูด และไม่ใช่สำนวนถามชื่อผู้โทร"
+      }
+    },
+    {
+      "id": "W-CAL-04",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'll put you through",
+      "th": "เดี๋ยวโอนสายให้นะครับ/คะ",
+      "noteTH": "ใช้บอกผู้โทรว่ากำลังจะโอนสายไปยังคนที่เขาต้องการคุยด้วย put someone through = โอนสาย",
+      "example": "Please hold for a moment, and I'll put you through to the manager.",
+      "exampleTH": "กรุณารอสักครู่ เดี๋ยวโอนสายให้ผู้จัดการนะครับ/คะ",
+      "situation": {
+        "promptTH": "ผู้โทรขอคุยกับเพื่อนร่วมงานของคุณซึ่งนั่งอยู่ที่โต๊ะและพร้อมรับสาย คุณควรพูดว่าอะไร",
+        "options": [
+          "Call her mobile yourself. I'm not a receptionist.",
+          "Just a moment, please. I'll put you through to her now.",
+          "She's here, but I don't want to bother her.",
+          "I'll put you on hold until she goes home."
+        ],
+        "answer": 1,
+        "whyTH": "\"I'll put you through\" บอกว่ากำลังโอนสายให้อย่างสุภาพ · \"I'm not a receptionist\" ไม่สุภาพและไม่ช่วย · \"don't want to bother her\" ไม่โอนสายทั้งที่เธอว่าง · \"until she goes home\" เป็นการปล่อยให้รอโดยไม่มีเหตุผล"
+      },
+      "cloze": {
+        "sentence": "Please hold for a moment, and I'll ___ you through to the manager.",
+        "options": [
+          "give",
+          "make",
+          "keep",
+          "put"
+        ],
+        "answer": 3,
+        "whyTH": "put you through = โอนสายให้ · give, make, keep ใช้กับ you through ในความหมายโอนสายไม่ได้"
+      }
+    },
+    {
+      "id": "W-CAL-05",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Can I take a message",
+      "th": "ฝากข้อความไว้ไหมครับ/คะ",
+      "noteTH": "ใช้เสนอรับฝากข้อความเมื่อคนที่ผู้โทรต้องการคุยด้วยไม่อยู่หรือไม่ว่าง take a message = จดข้อความไว้ให้",
+      "example": "I'm afraid he's in a meeting right now, but can I take a message?",
+      "exampleTH": "ขอโทษนะครับ/คะ ตอนนี้เขาติดประชุมอยู่ จะฝากข้อความไว้ไหมครับ/คะ",
+      "situation": {
+        "promptTH": "ผู้โทรขอคุยกับเพื่อนร่วมงานที่ออกไปพบลูกค้านอกออฟฟิศ คุณควรพูดว่าอะไร",
+        "options": [
+          "He's not here. Call back later.",
+          "I'm sorry, he's out of the office. Can I take a message?",
+          "He's out, and I have no idea when he'll be back.",
+          "Can you take a message for me instead?"
+        ],
+        "answer": 1,
+        "whyTH": "\"Can I take a message?\" เสนอรับฝากข้อความอย่างสุภาพ · \"Call back later\" ห้วนและไม่ช่วยผู้โทร · \"no idea\" ฟังดูไม่ใส่ใจ · \"Can you take a message for me\" สลับบทบาท ผู้โทรไม่ใช่คนจดข้อความ"
+      },
+      "cloze": {
+        "sentence": "I'm afraid he's in a meeting right now, but can I ___ a message?",
+        "options": [
+          "make",
+          "do",
+          "bring",
+          "take"
+        ],
+        "answer": 3,
+        "whyTH": "take a message = รับฝาก/จดข้อความ · make a message, do a message ไม่ใช่สำนวนภาษาอังกฤษ · bring a message = นำข้อความมา ไม่ตรงความหมาย"
+      }
+    },
+    {
+      "id": "W-CAL-06",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could you ask him to call me back",
+      "th": "ช่วยบอกให้เขาโทรกลับหาฉันได้ไหม",
+      "noteTH": "ใช้ฝากข้อความเมื่อคนที่ต้องการคุยด้วยไม่อยู่ เปลี่ยน him เป็น her หรือ them ได้ตามบุคคล",
+      "example": "Could you ask him to call me back when he's free?",
+      "exampleTH": "ช่วยบอกให้เขาโทรกลับหาฉันตอนที่เขาว่างได้ไหม",
+      "situation": {
+        "promptTH": "คุณโทรหาลูกค้า แต่เธอไม่อยู่ที่โต๊ะ คุณต้องการฝากข้อความให้เธอติดต่อกลับ ควรพูดว่าอะไร",
+        "options": [
+          "Tell her I'm angry that she isn't there.",
+          "Could you ask her to stop calling me?",
+          "Never mind. I'll just keep calling every five minutes.",
+          "Could you ask her to call me back when she has a moment?"
+        ],
+        "answer": 3,
+        "whyTH": "\"Could you ask her to call me back...?\" ฝากข้อความอย่างสุภาพ · \"I'm angry\" ใช้อารมณ์ ไม่เป็นมืออาชีพ · \"stop calling me\" มีความหมายตรงข้าม · \"keep calling every five minutes\" ไม่ฝากข้อความและรบกวนผู้อื่น"
+      },
+      "cloze": {
+        "sentence": "Could you ask him to call me ___ when he's free?",
+        "options": [
+          "off",
+          "out",
+          "down",
+          "back"
+        ],
+        "answer": 3,
+        "whyTH": "call me back = โทรกลับหาฉัน · call off = ยกเลิก · call out = ตะโกนเรียก/ตำหนิ · call down ไม่มีความหมายในบริบทนี้"
+      }
+    },
+    {
+      "id": "W-CAL-07",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I think you're on mute",
+      "th": "คิดว่าคุณปิดไมค์อยู่นะ",
+      "noteTH": "ใช้บอกเพื่อนร่วมงานในวิดีโอคอลเมื่อเห็นเขาพูดแต่ไม่มีเสียง ใส่ I think ไว้ข้างหน้าให้ฟังนุ่มนวลขึ้น",
+      "example": "Sorry to interrupt, but I think you're on mute.",
+      "exampleTH": "ขอโทษที่ขัดนะ แต่คิดว่าคุณปิดไมค์อยู่",
+      "situation": {
+        "promptTH": "ในวิดีโอคอล Nina กำลังพูดอยู่ แต่ไม่มีใครได้ยินเสียงเธอเลย คุณควรพูดว่าอะไร",
+        "options": [
+          "Nina, your voice is far too loud.",
+          "Nina, please mute yourself.",
+          "Sorry, Nina, I think you're on mute.",
+          "Nina, stop talking. Nobody cares."
+        ],
+        "answer": 2,
+        "whyTH": "\"I think you're on mute\" บอกปัญหาได้ตรงจุดและสุภาพ · \"too loud\" ตรงข้ามกับปัญหา · \"mute yourself\" ขอให้ปิดเสียงซึ่งปิดอยู่แล้ว · \"Nobody cares\" หยาบคาย"
+      },
+      "cloze": {
+        "sentence": "Sorry to interrupt, but I think you're on ___.",
+        "options": [
+          "silence",
+          "mute",
+          "quiet",
+          "sound"
+        ],
+        "answer": 1,
+        "whyTH": "on mute = ปิดเสียงไมค์อยู่ · on silence, on quiet, on sound ไม่ใช่สำนวนที่ใช้ในภาษาอังกฤษ"
+      }
+    },
+    {
+      "id": "W-CAL-08",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Can everyone see my screen",
+      "th": "ทุกคนเห็นหน้าจอไหม",
+      "noteTH": "ใช้ตรวจสอบหลังเริ่มแชร์หน้าจอในวิดีโอคอล ก่อนเริ่มนำเสนอหรืออธิบายเอกสาร",
+      "example": "Before we start, can everyone see my screen?",
+      "exampleTH": "ก่อนเริ่ม ทุกคนเห็นหน้าจอไหมครับ/คะ",
+      "situation": {
+        "promptTH": "คุณเพิ่งกดแชร์สไลด์ในวิดีโอคอลและอยากเช็กว่าทุกคนเห็นแล้ว ควรพูดว่าอะไร",
+        "options": [
+          "Can everyone turn off their cameras?",
+          "Can everyone see my screen okay?",
+          "Is my screen beautiful today?",
+          "Why isn't anyone looking at my screen?"
+        ],
+        "answer": 1,
+        "whyTH": "\"Can everyone see my screen?\" ตรวจสอบการแชร์หน้าจอได้ตรงจุด · \"turn off their cameras\" เป็นคนละเรื่อง · \"beautiful\" ไม่เกี่ยวกับการเช็กว่าเห็นไหม · \"Why isn't anyone looking\" ฟังดูต่อว่า"
+      },
+      "cloze": {
+        "sentence": "Before we start, can everyone ___ my screen?",
+        "options": [
+          "look",
+          "show",
+          "see",
+          "hear"
+        ],
+        "answer": 2,
+        "whyTH": "see my screen = เห็นหน้าจอของฉัน · look ต้องใช้ look at · show my screen = แชร์หน้าจอ ซึ่งเป็นหน้าที่ของคุณ ไม่ใช่ทุกคน · hear ใช้กับเสียง ไม่ใช่หน้าจอ"
+      }
+    },
+    {
+      "id": "W-CAL-09",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "You're breaking up",
+      "th": "เสียงคุณขาด ๆ หาย ๆ",
+      "noteTH": "ใช้บอกอีกฝ่ายเมื่อสัญญาณไม่ดีจนได้ยินเสียงไม่ครบ · ในบริบทโทรศัพท์ ไม่ได้หมายถึงการเลิกรา",
+      "example": "Sorry, you're breaking up, and I can only hear every other word.",
+      "exampleTH": "ขอโทษนะ เสียงคุณขาด ๆ หาย ๆ ได้ยินแค่บางคำเท่านั้น",
+      "situation": {
+        "promptTH": "ระหว่างวิดีโอคอล เสียงของเพื่อนร่วมงานกระตุกและหายเป็นช่วง ๆ คุณควรพูดว่าอะไร",
+        "options": [
+          "Why are you speaking so strangely today?",
+          "Could you speak more slowly? Your accent is too strong.",
+          "Great, I can hear you perfectly.",
+          "Sorry, you're breaking up. Could you say that again?"
+        ],
+        "answer": 3,
+        "whyTH": "\"You're breaking up\" บอกว่าสัญญาณไม่ดีและขอให้พูดอีกครั้ง · \"speaking so strangely\" โทษผู้พูด ไม่ใช่สัญญาณ · \"accent is too strong\" ไม่สุภาพและผิดสาเหตุ · \"hear you perfectly\" ขัดกับสถานการณ์"
+      },
+      "cloze": {
+        "sentence": "Sorry, you're ___ up, and I can only hear every other word.",
+        "options": [
+          "breaking",
+          "cutting",
+          "picking",
+          "giving"
+        ],
+        "answer": 0,
+        "whyTH": "breaking up = เสียงขาด ๆ หาย ๆ · cutting up = หั่นเป็นชิ้น · picking up = หยิบขึ้น/รับสาย · giving up = ยอมแพ้ ไม่เกี่ยวกับสัญญาณ"
+      }
+    },
+    {
+      "id": "W-CAL-10",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "We seem to have a bad connection",
+      "th": "ดูเหมือนสัญญาณจะไม่ค่อยดี",
+      "noteTH": "ใช้บอกว่าสายไม่ชัดโดยไม่โทษใคร คำว่า seem ทำให้ฟังนุ่มนวล มักตามด้วยการเสนอโทรกลับ",
+      "example": "We seem to have a bad connection, so let me call you back.",
+      "exampleTH": "ดูเหมือนสัญญาณจะไม่ค่อยดี เดี๋ยวขอโทรกลับไปใหม่นะครับ/คะ",
+      "situation": {
+        "promptTH": "คุณคุยโทรศัพท์กับลูกค้าแล้วมีเสียงซ่าตลอด คุณอยากเสนอให้วางสายแล้วโทรใหม่อย่างสุภาพ ควรพูดว่าอะไร",
+        "options": [
+          "Your phone is terrible. You should buy a new one.",
+          "I can't hear you, so I'm hanging up now.",
+          "We seem to have a bad connection. Let me call you back.",
+          "Can you please stop making that noise?"
+        ],
+        "answer": 2,
+        "whyTH": "\"We seem to have a bad connection\" บอกปัญหาโดยไม่โทษใครและเสนอทางแก้ · \"Your phone is terrible\" โทษลูกค้า ไม่สุภาพ · \"I'm hanging up\" วางสายโดยไม่บอกว่าจะโทรกลับ · \"stop making that noise\" กล่าวหาลูกค้า"
+      },
+      "cloze": {
+        "sentence": "We seem to have a bad ___, so let me call you back.",
+        "options": [
+          "relationship",
+          "attitude",
+          "decision",
+          "connection"
+        ],
+        "answer": 3,
+        "whyTH": "bad connection = สัญญาณไม่ดี · bad relationship = ความสัมพันธ์ไม่ดี · bad attitude = ทัศนคติไม่ดี · bad decision = การตัดสินใจที่ผิด ไม่เกี่ยวกับการโทรกลับ"
+      }
+    },
+    {
+      "id": "W-CAL-11",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could you repeat that",
+      "th": "ช่วยพูดอีกครั้งได้ไหม",
+      "noteTH": "ใช้ขอให้อีกฝ่ายพูดซ้ำเมื่อฟังไม่ทันหรือไม่ชัด ใส่ Sorry ข้างหน้าและ please ข้างหลังให้สุภาพขึ้น",
+      "example": "Sorry, could you repeat that last part, please?",
+      "exampleTH": "ขอโทษนะครับ/คะ ช่วยพูดส่วนสุดท้ายอีกครั้งได้ไหมครับ/คะ",
+      "situation": {
+        "promptTH": "ลูกค้าบอกหมายเลขคำสั่งซื้อเร็วมากจนคุณจดไม่ทัน คุณควรพูดว่าอะไร",
+        "options": [
+          "Sorry, could you repeat that number more slowly, please?",
+          "What? Speak properly!",
+          "Never mind, I'll just guess the number.",
+          "OK, I'm sure I got it. Thanks."
+        ],
+        "answer": 0,
+        "whyTH": "\"Could you repeat that...?\" ขอให้พูดซ้ำอย่างสุภาพ · \"Speak properly!\" หยาบคาย · \"guess the number\" ทำให้ข้อมูลผิดพลาดได้ · \"I'm sure I got it\" ไม่ตรงกับความจริงที่คุณจดไม่ทัน"
+      },
+      "cloze": {
+        "sentence": "Sorry, could you ___ that last part, please?",
+        "options": [
+          "return",
+          "repeat",
+          "replace",
+          "remind"
+        ],
+        "answer": 1,
+        "whyTH": "repeat = พูดซ้ำ · return = คืน/กลับ · replace = แทนที่ · remind = เตือนความจำ ต้องมีคนเป็นกรรม"
+      }
+    },
+    {
+      "id": "W-CAL-12",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "I'll let you go",
+      "th": "งั้นไม่รบกวนแล้วนะ",
+      "noteTH": "ใช้ปิดการสนทนาทางโทรศัพท์อย่างนุ่มนวล เหมือนบอกว่าไม่อยากรบกวนเวลาอีกฝ่ายแล้ว · ใช้ได้ทั้งกับเพื่อนร่วมงานและลูกค้า",
+      "example": "Well, I'll let you go now, but let's catch up next week.",
+      "exampleTH": "งั้นไม่รบกวนแล้วนะ แต่สัปดาห์หน้ามาคุยกันอีกนะ",
+      "situation": {
+        "promptTH": "คุณคุยโทรศัพท์กับเพื่อนร่วมงานจนได้ข้อมูลครบแล้ว และอยากจบการสนทนาอย่างเป็นมิตร ควรพูดว่าอะไร",
+        "options": [
+          "OK, I'm hanging up now. Bye.",
+          "I'll let you go home early today.",
+          "Anyway, I'll let you go. Thanks so much for your help!",
+          "Can you hang up first? I'm tired of talking."
+        ],
+        "answer": 2,
+        "whyTH": "\"I'll let you go\" ปิดสายอย่างนุ่มนวลและขอบคุณ · \"I'm hanging up now\" ห้วนเกินไป · \"let you go home early\" เป็นการอนุญาตให้กลับบ้าน ไม่ใช่การจบสาย · \"I'm tired of talking\" ไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "Well, I'll ___ you go now, but let's catch up next week.",
+        "options": [
+          "make",
+          "let",
+          "have",
+          "leave"
+        ],
+        "answer": 1,
+        "whyTH": "let you go = ปล่อยให้คุณไปทำอย่างอื่น (จบสายอย่างสุภาพ) · make you go = บังคับให้ไป · have you go = ให้คุณไป (สั่งงาน) · leave you go ผิดไวยากรณ์"
+      }
+    }
+  ]
+}

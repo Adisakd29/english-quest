@@ -1,0 +1,33 @@
+{
+  "batch": "39",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0166",
+      "severity": "minor",
+      "problem": "'ตัวกันกระแทก' (shock absorber) is an unnatural, literal Thai for a financial buffer; Thai readers would say 'กันชน' or 'สิ่งที่ช่วยรองรับ'",
+      "fix": {
+        "shortTH": "สิ่งที่ช่วยรองรับ",
+        "exampleTH": "การเก็บเงินออมไว้เท่ากับเงินเดือนสามเดือนเป็นกันชนที่ดีหากตกงานกะทันหัน"
+      }
+    },
+    {
+      "id": "C1-S0231",
+      "severity": "minor",
+      "problem": "Negative frame 'not comparable to' is ambiguous (can mean 'cannot be compared') and does not clearly prove the sense 'similar in quality/amount'",
+      "fix": {
+        "example": "The quality of this cheaper laptop is comparable to that of expensive brands, so it is good value.",
+        "form": "comparable",
+        "exampleTH": "คุณภาพของแล็ปท็อปราคาถูกรุ่นนี้เทียบเคียงได้กับยี่ห้อราคาแพง จึงคุ้มค่ามาก"
+      }
+    },
+    {
+      "id": "C1-S0185",
+      "severity": "minor",
+      "problem": "exampleTH uses 'ชาวนา' (rice farmer) for a cattle farmer; 'เกษตรกร' is the natural neutral word",
+      "fix": {
+        "exampleTH": "เกษตรกรย้ายวัวไปไว้ที่สูงก่อนที่น้ำในแม่น้ำจะล้นท่วมทุ่ง"
+      }
+    }
+  ]
+}

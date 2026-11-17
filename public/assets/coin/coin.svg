@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF0A6"/><stop offset=".42" stop-color="#F7C443"/><stop offset="1" stop-color="#C47F0C"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B8710A"/><stop offset="1" stop-color="#7A4304"/></linearGradient>
+<radialGradient id="face" cx=".4" cy=".32" r=".78"><stop offset="0" stop-color="#FFE57A"/><stop offset=".55" stop-color="#F8C437"/><stop offset="1" stop-color="#E39B14"/></radialGradient>
+<linearGradient id="em" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD24D"/><stop offset="1" stop-color="#D88B0B"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="top"><rect x="0" y="0" width="64" height="30"/></clipPath>
+<clipPath id="faceclip"><circle cx="32" cy="31" r="22.6"/></clipPath>
+</defs>
+<ellipse cx="32" cy="34.2" rx="29.6" ry="29.4" fill="url(#edge)"/>
+<circle cx="32" cy="31" r="29.6" fill="url(#rim)"/>
+<path d="M59.20 31.00L61.20 31.00M58.97 34.55L60.95 34.81M58.27 38.04L60.21 38.56M57.13 41.41L58.98 42.17M55.56 44.60L57.29 45.60M53.58 47.56L55.17 48.78M51.23 50.23L52.65 51.65M48.56 52.58L49.78 54.17M45.60 54.56L46.60 56.29M42.41 56.13L43.17 57.98M39.04 57.27L39.56 59.21M35.55 57.97L35.81 59.95M32.00 58.20L32.00 60.20M28.45 57.97L28.19 59.95M24.96 57.27L24.44 59.21M21.59 56.13L20.83 57.98M18.40 54.56L17.40 56.29M15.44 52.58L14.22 54.17M12.77 50.23L11.35 51.65M10.42 47.56L8.83 48.78M8.44 44.60L6.71 45.60M6.87 41.41L5.02 42.17M5.73 38.04L3.79 38.56M5.03 34.55L3.05 34.81M4.80 31.00L2.80 31.00M5.03 27.45L3.05 27.19M5.73 23.96L3.79 23.44M6.87 20.59L5.02 19.83M8.44 17.40L6.71 16.40M10.42 14.44L8.83 13.22M12.77 11.77L11.35 10.35M15.44 9.42L14.22 7.83M18.40 7.44L17.40 5.71M21.59 5.87L20.83 4.02M24.96 4.73L24.44 2.79M28.45 4.03L28.19 2.05M32.00 3.80L32.00 1.80M35.55 4.03L35.81 2.05M39.04 4.73L39.56 2.79M42.41 5.87L43.17 4.02M45.60 7.44L46.60 5.71M48.56 9.42L49.78 7.83M51.23 11.77L52.65 10.35M53.58 14.44L55.17 13.22M55.56 17.40L57.29 16.40M57.13 20.59L58.98 19.83M58.27 23.96L60.21 23.44M58.97 27.45L60.95 27.19" stroke="#D99A1C" stroke-width=".9" opacity=".75"/>
+<circle cx="32" cy="31" r="24.6" fill="#B9760B"/>
+<circle cx="32" cy="31.9" r="23.4" fill="#FFF0B0" opacity=".9"/>
+<circle cx="32" cy="31" r="22.6" fill="url(#face)"/>
+<g transform="translate(0 -4.2)">
+<g fill="#9A5B05" opacity=".55" transform="translate(0 1.1)"><path d="M32.00,14.20L34.16,21.04L41.00,23.20L34.16,25.36L32.00,32.20L29.84,25.36L23.00,23.20L29.84,21.04Z"/><path d="M17.6 35.2c4.6-1.9 9.5-1.6 14.4 1.3 4.9-2.9 9.8-3.2 14.4-1.3v8.9c-4.6-1.7-9.5-1.3-14.4 1.5-4.9-2.8-9.8-3.2-14.4-1.5z"/></g>
+<path d="M32.00,14.20L34.16,21.04L41.00,23.20L34.16,25.36L32.00,32.20L29.84,25.36L23.00,23.20L29.84,21.04Z" fill="url(#em)"/>
+<path d="M32.00,14.20L34.16,21.04L41.00,23.20L34.16,25.36L32.00,32.20L29.84,25.36L23.00,23.20L29.84,21.04Z" fill="none" stroke="#FFF6CF" stroke-width=".7" stroke-linejoin="round" opacity=".9" clip-path="url(#top)"/>
+<path d="M17.6 35.2c4.6-1.9 9.5-1.6 14.4 1.3 4.9-2.9 9.8-3.2 14.4-1.3v8.9c-4.6-1.7-9.5-1.3-14.4 1.5-4.9-2.8-9.8-3.2-14.4-1.5z" fill="url(#em)"/>
+<path d="M17.6 35.2c4.6-1.9 9.5-1.6 14.4 1.3 4.9-2.9 9.8-3.2 14.4-1.3v8.9c-4.6-1.7-9.5-1.3-14.4 1.5-4.9-2.8-9.8-3.2-14.4-1.5z" fill="none" stroke="#FFF6CF" stroke-width=".7" stroke-linejoin="round" opacity=".85" clip-path="url(#top)"/>
+<path d="M32 36.5v8.6" stroke="#A86506" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+<g clip-path="url(#faceclip)"><path d="M6 22 L30 2 L40 6 L12 34Z" fill="url(#shine)" opacity=".42"/></g>
+<path d="M10.5 22.5a23 23 0 0 1 17-17.6" fill="none" stroke="#FFFBE6" stroke-width="1.6" stroke-linecap="round" opacity=".9"/>
+<path d="M50.50,7.90L51.22,11.78L55.10,12.50L51.22,13.22L50.50,17.10L49.78,13.22L45.90,12.50L49.78,11.78Z" fill="#fff" opacity=".95"/>
+</svg>

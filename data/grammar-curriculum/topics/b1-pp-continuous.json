@@ -1,0 +1,510 @@
+{
+  "id": "b1-pp-continuous",
+  "summaryTh": "บอกว่าทำอะไรมาตลอดช่วงหนึ่งจนถึงตอนนี้ (ทำมานานแค่ไหน)",
+  "concept": {
+    "what": "Present Perfect Continuous (have/has been + V-ing) ใช้พูดถึงกิจกรรมที่เริ่มในอดีตและทำต่อเนื่องมาจนถึงตอนนี้ หรือเพิ่งหยุดไปแต่ยังเห็นร่องรอย เน้นที่ \"การทำ\" และ \"ระยะเวลา\" มากกว่าผลงานที่เสร็จ",
+    "when": [
+      "กิจกรรมที่ยังทำอยู่ + ทำมานานเท่าไร: How long have you been waiting? — I've been waiting for an hour.",
+      "กิจกรรมเพิ่งหยุด แต่ยังเห็นผลหรือร่องรอย: Your eyes are red. Have you been crying?",
+      "เรื่องที่ทำซ้ำ ๆ ช่วงนี้: I've been going to the gym a lot recently.",
+      "ถ้าบอก \"จำนวน\" หรือ \"ผลงานที่เสร็จแล้ว\" (three emails, the whole book) ใช้ Present Perfect Simple แทน"
+    ],
+    "why": "ภาษาไทยพูดว่า \"ฉันเรียนภาษาอังกฤษมาห้าปีแล้ว\" โดยไม่เปลี่ยนรูปกริยา ผู้เรียนไทยจึงมักพูด I am learning English for five years ซึ่งผิด ภาษาอังกฤษต้องใช้ have been + V-ing เพื่อบอกว่าทำมาตั้งแต่อดีตจนถึงตอนนี้"
+  },
+  "structure": {
+    "formula": "Subject + have/has + been + V-ing",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + have/has + been + V-ing",
+        "example": "She [[has been studying]] for three hours."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + haven't/hasn't + been + V-ing",
+        "example": "I [[haven't been sleeping]] well lately."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "Have/Has + Subject + been + V-ing …?",
+        "example": "[[Have]] you [[been waiting]] long?"
+      },
+      {
+        "label": "ถามระยะเวลา",
+        "formula": "How long + have/has + Subject + been + V-ing?",
+        "example": "How long [[have]] they [[been playing]] football?"
+      }
+    ],
+    "notes": [
+      "for + ระยะเวลา (for two hours) · since + จุดเริ่มต้น (since 9 a.m.) · ยังใช้กับ all day, lately, recently ได้",
+      "กริยาบอกสภาพ (know, like, love, want, believe, own, understand) ไม่ใช้รูป continuous → I have known her for years.",
+      "บอกจำนวนหรือผลที่เสร็จแล้ว ใช้ Simple: I've written three emails. (ไม่ใช่ I've been writing three emails.)",
+      "กับกริยากิจกรรมอย่าง live, work, study, learn ที่มี for/since ใช้ได้ทั้งสองแบบ ความหมายแทบไม่ต่างกัน"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I[['ve been waiting]] for the bus [[for]] twenty minutes.",
+      "th": "ฉันรอรถเมล์มายี่สิบนาทีแล้ว (ยังรออยู่)"
+    },
+    {
+      "en": "It [[has been raining]] [[since]] this morning.",
+      "th": "ฝนตกตั้งแต่เช้าแล้ว"
+    },
+    {
+      "en": "Your hands are dirty. [[Have]] you [[been working]] in the garden?",
+      "th": "มือสกปรกเชียว ทำสวนมาเหรอ (เห็นร่องรอย)"
+    },
+    {
+      "en": "How long [[have]] you [[been learning]] Korean?",
+      "th": "เรียนภาษาเกาหลีมานานเท่าไรแล้ว"
+    },
+    {
+      "en": "She[['s been practising]] the piano every day [[recently]].",
+      "th": "ช่วงนี้เธอซ้อมเปียโนทุกวัน"
+    },
+    {
+      "en": "We [[haven't been sleeping]] well because of the noise.",
+      "th": "พวกเราหลับไม่ค่อยดีเพราะเสียงดัง"
+    },
+    {
+      "en": "I[['ve been reading]] this book all week, but I [[haven't finished]] it.",
+      "th": "อ่านหนังสือเล่มนี้มาทั้งอาทิตย์ แต่ยังอ่านไม่จบ"
+    },
+    {
+      "en": "He[['s been playing]] games [[for]] hours. — Yes, and he[['s won]] five matches!",
+      "th": "เขาเล่นเกมมาหลายชั่วโมงแล้ว — ใช่ แล้วก็ชนะไปห้าแมตช์ (จำนวน ใช้ Simple)"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am learning English for five years.",
+      "right": "I have been learning English for five years.",
+      "whyTh": "for + ระยะเวลาที่ต่อเนื่องถึงตอนนี้ ต้องใช้ have been + V-ing ไม่ใช่ Present Continuous (am learning)"
+    },
+    {
+      "wrong": "She has been knowing him since 2015.",
+      "right": "She has known him since 2015.",
+      "whyTh": "know เป็นกริยาบอกสภาพ ไม่ใช้รูป -ing จึงใช้ Present Perfect Simple แทน"
+    },
+    {
+      "wrong": "I've been drinking four cups of coffee today.",
+      "right": "I've drunk four cups of coffee today.",
+      "whyTh": "บอกจำนวนที่ทำเสร็จแล้ว (four cups) ใช้ Present Perfect Simple"
+    },
+    {
+      "wrong": "They have been play tennis since 3 p.m.",
+      "right": "They have been playing tennis since 3 p.m.",
+      "whyTh": "หลัง been ต้องใช้ V-ing เสมอ"
+    },
+    {
+      "wrong": "How long are you waiting?",
+      "right": "How long have you been waiting?",
+      "whyTh": "How long … ถามระยะเวลาตั้งแต่อดีตจนถึงตอนนี้ ใช้ have/has been + V-ing"
+    }
+  ],
+  "compare": {
+    "title": "Present Perfect Continuous vs Present Perfect Simple",
+    "with": [
+      "b1-pp-vs-past"
+    ],
+    "rows": [
+      {
+        "label": "เน้น",
+        "a": "Continuous: การทำ/ระยะเวลา (ทำมานานแค่ไหน)",
+        "b": "Simple: ผลลัพธ์/จำนวน (ทำได้เท่าไร เสร็จหรือยัง)"
+      },
+      {
+        "label": "คำถามที่ตอบ",
+        "a": "How long …?",
+        "b": "How many / How much …?"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "I've been painting the room all day. (ยังไม่เสร็จก็ได้ มือเลอะสี)",
+        "b": "I've painted two walls. (เสร็จแล้วสองด้าน)"
+      },
+      {
+        "label": "กริยาบอกสภาพ",
+        "a": "ใช้ไม่ได้ (✗ have been knowing)",
+        "b": "ใช้ได้ (I've known her for years.)"
+      }
+    ],
+    "tipTh": "มีตัวเลข/จำนวนชิ้นงาน → Simple · ถามหรือบอกว่าทำมานานแค่ไหน หรือเห็นร่องรอยของกิจกรรม → Continuous"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue",
+      "title": "Late for a meeting",
+      "lines": [
+        {
+          "speaker": "Mint",
+          "text": "Sorry I'm late! [[Have]] you [[been waiting]] long?"
+        },
+        {
+          "speaker": "Jay",
+          "text": "About half an hour. I[['ve been sitting]] here and checking my emails."
+        },
+        {
+          "speaker": "Mint",
+          "text": "I'm so sorry. The traffic was terrible. It[['s been raining]] [[since]] lunchtime."
+        },
+        {
+          "speaker": "Jay",
+          "text": "No problem. I[['ve answered]] twenty emails, so it was useful!"
+        }
+      ]
+    },
+    {
+      "kind": "message",
+      "title": "Message to a friend",
+      "lines": [
+        {
+          "text": "Hi Fern! Sorry I haven't replied. I[['ve been preparing]] for my exams [[all week]]. I[['ve been studying]] in the library every evening, and I[['ve finished]] three practice tests. Let's meet on Saturday!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Present Perfect Continuous",
+      "th": "ปัจจุบันสมบูรณ์กำลังกระทำ — ทำมาต่อเนื่องจนถึงตอนนี้"
+    },
+    {
+      "en": "Duration",
+      "th": "ระยะเวลา (นานแค่ไหน)"
+    },
+    {
+      "en": "Stative verb",
+      "th": "กริยาบอกสภาพ/ความรู้สึก เช่น know, like, want — ไม่ใช้รูป -ing"
+    },
+    {
+      "en": "Action verb",
+      "th": "กริยาแสดงการกระทำ เช่น run, study, wait — ใช้รูป -ing ได้"
+    },
+    {
+      "en": "Visible evidence",
+      "th": "ร่องรอยที่มองเห็นตอนนี้ เช่น เหนื่อย เปียก มือเลอะ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-pp-continuous-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Your clothes are all wet. Have you ___ in the rain?",
+      "choices": [
+        "been walking",
+        "walking",
+        "be walking",
+        "been walk"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง Have you ต้องมี been ก่อน V-ing",
+        "2": "หลัง have ใช้ been (V3 ของ be) ไม่ใช่ be",
+        "3": "หลัง been ต้องเป็น V-ing (walking)"
+      },
+      "explainTh": "เสื้อผ้าเปียก = ร่องรอยของกิจกรรมที่เพิ่งทำ → Have + you + been + V-ing: Have you been walking in the rain?",
+      "structure": "Have/Has + Subject + been + V-ing?",
+      "example": "Have you been walking in the rain?"
+    },
+    {
+      "id": "b1-pp-continuous-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "She ___ English for three hours. She needs a break.",
+      "choices": [
+        "has been studying",
+        "is studying",
+        "studies",
+        "have been studying"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "is studying ใช้กับ for three hours (ทำมาแล้วสามชั่วโมงถึงตอนนี้) ไม่ได้ ภาษาไทยพูดแบบนี้ได้แต่ภาษาอังกฤษผิด",
+        "2": "studies เป็นกิจวัตร ไม่บอกว่าทำต่อเนื่องมาจนถึงตอนนี้",
+        "3": "ประธาน She ต้องใช้ has ไม่ใช่ have"
+      },
+      "explainTh": "for three hours + ยังเรียนอยู่จนเหนื่อย → Present Perfect Continuous: has been studying (She ใช้ has)",
+      "structure": "Subject + has + been + V-ing + for …",
+      "example": "She has been studying English for three hours."
+    },
+    {
+      "id": "b1-pp-continuous-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I ___ (wait) for the bus since seven o'clock, and it still hasn't come!",
+      "accepted": [
+        "have been waiting",
+        "have waited"
+      ],
+      "explainTh": "since seven o'clock + ยังรออยู่ → have been waiting (เป็นธรรมชาติที่สุด เพราะเน้นการรอที่ยาวนาน) · have waited ก็ถูกไวยากรณ์",
+      "structure": "Subject + have been + V-ing + since …",
+      "example": "I have been waiting for the bus since seven o'clock."
+    },
+    {
+      "id": "b1-pp-continuous-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "So far, she ___ (write) three chapters of her new book.",
+      "accepted": [
+        "has written"
+      ],
+      "explainTh": "บอกจำนวนงานที่เสร็จแล้ว (three chapters) ใช้ Present Perfect Simple: has + V3 → has written ไม่ใช่ has been writing",
+      "structure": "Subject + has + V3 + จำนวน",
+      "example": "So far, she has written three chapters."
+    },
+    {
+      "id": "b1-pp-continuous-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "How long ___ (you / learn) Korean?",
+      "accepted": [
+        "have you been learning",
+        "have you learned",
+        "have you learnt"
+      ],
+      "explainTh": "How long … ถามระยะเวลาจนถึงตอนนี้ → have you been learning (นิยมที่สุด) · learn เป็นกริยากิจกรรม จึงใช้ have you learned ก็ได้",
+      "structure": "How long + have/has + Subject + been + V-ing?",
+      "example": "How long have you been learning Korean?"
+    },
+    {
+      "id": "b1-pp-continuous-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I started reading this book at nine o'clock. I'm still reading it.",
+      "instruction": "รวมเป็นประโยคเดียว ใช้ Present Perfect Continuous และ since",
+      "accepted": [
+        "I have been reading this book since nine o'clock.",
+        "I have been reading this book since 9 o'clock.",
+        "I have been reading this book since nine.",
+        "I have been reading this book since 9.",
+        "I have been reading this book since 9:00.",
+        "I have been reading this book since 9 a.m.",
+        "I have been reading this book since 9am.",
+        "I have been reading this book since nine a.m."
+      ],
+      "explainTh": "เริ่มในอดีต (at nine o'clock) + ยังทำอยู่ (still reading) → have been + V-ing + since + จุดเริ่มต้น",
+      "structure": "Subject + have been + V-ing + since …",
+      "example": "I have been reading this book since nine o'clock."
+    },
+    {
+      "id": "b1-pp-continuous-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Tom has been painting the fence.",
+      "instruction": "เขียนใหม่ให้เน้นว่าทาเสร็จเรียบร้อยแล้ว (ใช้ Present Perfect Simple)",
+      "accepted": [
+        "Tom has painted the fence."
+      ],
+      "explainTh": "has been painting เน้นกิจกรรม (อาจยังไม่เสร็จ) · ถ้าเน้นผลที่เสร็จแล้วใช้ has + V3 → has painted",
+      "structure": "Subject + has + V3",
+      "example": "Tom has painted the fence."
+    },
+    {
+      "id": "b1-pp-continuous-08",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I am learning English for five years.",
+      "errorPart": "am learning",
+      "accepted": [
+        "I have been learning English for five years.",
+        "I have learned English for five years.",
+        "I have learnt English for five years."
+      ],
+      "explainTh": "for five years = เริ่มในอดีตจนถึงตอนนี้ ใช้ Present Continuous (am learning) ไม่ได้ ต้องเป็น have been learning (หรือ have learned)",
+      "structure": "Subject + have been + V-ing + for …"
+    },
+    {
+      "id": "b1-pp-continuous-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "I've been drinking three cups of coffee today.",
+      "errorPart": "been drinking",
+      "accepted": [
+        "I've drunk three cups of coffee today.",
+        "I have drunk three cups of coffee today.",
+        "I've had three cups of coffee today.",
+        "I have had three cups of coffee today."
+      ],
+      "explainTh": "บอกจำนวน (three cups) ที่ดื่มเสร็จแล้ว → ใช้ Present Perfect Simple: have drunk (หรือ have had)",
+      "structure": "Subject + have + V3 + จำนวน"
+    },
+    {
+      "id": "b1-pp-continuous-10",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "She has been knowing him since they were children.",
+      "errorPart": "been knowing",
+      "accepted": [
+        "She has known him since they were children."
+      ],
+      "explainTh": "know เป็นกริยาบอกสภาพ (stative) ไม่ใช้รูป -ing จึงใช้ has + V3 → has known",
+      "structure": "Subject + has + V3 (stative verb)"
+    },
+    {
+      "id": "b1-pp-continuous-11",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "been",
+        "they",
+        "have",
+        "football",
+        "playing",
+        "since",
+        "lunch"
+      ],
+      "accepted": [
+        "They have been playing football since lunch.",
+        "Since lunch they have been playing football.",
+        "Have they been playing football since lunch?"
+      ],
+      "explainTh": "Subject + have + been + V-ing + กรรม + since + จุดเริ่มต้น → They have been playing football since lunch."
+    },
+    {
+      "id": "b1-pp-continuous-12",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่สิ่งที่เห็นกับคำอธิบาย",
+      "pairs": [
+        [
+          "Your hair is wet.",
+          "I've been swimming."
+        ],
+        [
+          "You're out of breath.",
+          "I've been running."
+        ],
+        [
+          "Your hands are dirty.",
+          "I've been working in the garden."
+        ],
+        [
+          "Is the report ready?",
+          "Yes, I've written all ten pages."
+        ]
+      ],
+      "explainTh": "ร่องรอยที่เห็นตอนนี้ (ผมเปียก หอบ มือเลอะ) อธิบายด้วย have been + V-ing · งานที่เสร็จแล้วพร้อมจำนวน (all ten pages) ใช้ have + V3"
+    },
+    {
+      "id": "b1-pp-continuous-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "I've been reading five books this month.",
+        "I've read five books this month.",
+        "I've been read five books this month.",
+        "I read five books since this month."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "five books เป็นจำนวนที่อ่านจบแล้ว จึงใช้ Simple ไม่ใช่ Continuous",
+        "2": "been read เป็นโครงสร้าง passive ความหมายผิด (ฉันถูกอ่าน)",
+        "3": "since ต้องใช้กับ Present Perfect และ since this month ไม่เป็นธรรมชาติ"
+      },
+      "explainTh": "this month ยังไม่จบ + จำนวนที่ทำเสร็จ (five books) → Present Perfect Simple: I've read five books this month."
+    },
+    {
+      "id": "b1-pp-continuous-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "You look really tired. What's wrong?"
+          },
+          {
+            "speaker": "B",
+            "text": "I ___ for my exams since six o'clock this morning, and I still have two subjects to go."
+          }
+        ]
+      },
+      "choices": [
+        "have been studying",
+        "am studying",
+        "studied",
+        "was studying"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "am studying ใช้กับ since ไม่ได้ (since ต้องใช้ Present Perfect)",
+        "2": "studied บอกว่าจบแล้ว ใช้กับ since ไม่ได้ และยังอ่านไม่เสร็จ",
+        "3": "was studying เป็นอดีตกำลังทำ ไม่ต่อเนื่องถึงตอนนี้ และใช้กับ since ไม่ได้"
+      },
+      "explainTh": "since six o'clock + ยังอ่านไม่จบ (still have two subjects) + ดูเหนื่อย → have been studying"
+    },
+    {
+      "id": "b1-pp-continuous-15",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Message to Mum",
+        "lines": [
+          {
+            "text": "Hi Mum, I've been cleaning the house all afternoon. I've washed the dishes and I've cleaned the bathroom, but I haven't started the bedroom yet. I've been listening to music the whole time, so it hasn't felt too long! Fern"
+          }
+        ]
+      },
+      "question": "Which job has Fern finished?",
+      "choices": [
+        "the dishes",
+        "the bedroom",
+        "cleaning the whole house",
+        "listening to music"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "I haven't started the bedroom yet = ยังไม่ได้เริ่มห้องนอนเลย",
+        "2": "I've been cleaning … all afternoon เน้นกิจกรรมที่ยังทำอยู่ ยังไม่เสร็จทั้งบ้าน",
+        "3": "I've been listening to music the whole time = ฟังเพลงมาตลอด ไม่ได้บอกว่าเสร็จ"
+      },
+      "explainTh": "I've washed the dishes (have + V3) บอกงานที่เสร็จแล้ว ส่วน I've been cleaning (have been + V-ing) บอกกิจกรรมที่ทำมาตลอดและอาจยังไม่เสร็จ"
+    },
+    {
+      "id": "b1-pp-continuous-16",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "How many cups of coffee ___ today?",
+      "choices": [
+        "have you had",
+        "have you been having",
+        "are you having",
+        "had you"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "How many ถามจำนวน จึงใช้ Simple ไม่ใช่ Continuous",
+        "2": "are you having ใช้กับ today ที่นับจำนวนถึงตอนนี้ไม่ได้",
+        "3": "had you เป็นรูปผิด — คำถาม Past Simple ต้องใช้ did you have และ today ยังไม่จบ จึงใช้ Present Perfect"
+      },
+      "explainTh": "How many + today (ยังไม่จบ) → ถามจำนวนถึงตอนนี้ด้วย Present Perfect Simple: have you had"
+    },
+    {
+      "id": "b1-pp-continuous-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับสิ่งที่คุณทำมาช่วงนี้ และทำมานานแค่ไหน ใช้ have/has been + V-ing กับ for หรือ since (Write 3 sentences about something you have been doing recently and for how long.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(have|has|'ve|'s)\\s+been\\s+\\w+ing\\b",
+          "flags": "i",
+          "msgTh": "ใช้ have/has been + V-ing อย่างน้อย 1 ครั้ง เช่น I have been learning …"
+        },
+        {
+          "re": "\\b(for|since)\\b",
+          "flags": "i",
+          "msgTh": "บอกระยะเวลาด้วย for หรือ since อย่างน้อย 1 ครั้ง"
+        }
+      ],
+      "sample": "I have been learning to play the guitar for six months. I have been practising every evening since January. My fingers hurt a bit, but I have already learned ten songs.",
+      "explainTh": "กิจกรรมที่ทำต่อเนื่อง + for/since ใช้ have been + V-ing · ถ้าบอกจำนวนที่ทำได้แล้ว (ten songs) ให้ใช้ have + V3"
+    }
+  ]
+}

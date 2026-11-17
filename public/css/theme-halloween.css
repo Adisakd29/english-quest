@@ -1,0 +1,279 @@
+/* =====================================================================
+   ธีม "Halloween 2026" — รางวัลถาวรจากกิจกรรม HALLOWEEN NIGHT 2026
+   ไม่ใช่ "ธีมมืดเปลี่ยนสี": เปลี่ยนบรรยากาศทั้งแอปเป็นโลกคืนฮาโลวีน
+   - ฉากหลัง: ท้องฟ้ากลางคืน ดาว ดวงจันทร์ ปราสาทเงา หมอก ใยแมงมุมมุมจอ ผีน้อย ฟักทองเรืองแสง ค้างคาว (public/js/halloween-fx.js)
+   - ส่วนประกอบ: แถบนำทาง/แถบข้าง ปุ่มฟักทองเรืองแสง การ์ดม่วงแฟนตาซี+ใยแมงมุม แถบพลังเวทสีส้ม หน้าต่าง/โหลด/ผลการแข่งตกแต่งฮาโลวีน
+   ใช้ฐานความเข้ากันได้ของธีมมืด (data-theme="dark") เพื่อให้ทุกหน้ารองรับครบ แล้วออกแบบทับด้วย data-skin="halloween"
+   ขนาดตัวอักษรเท่าเดิม · ตัวอักษรทุกคู่สี >= 4.5:1 · ตกแต่งเท่านั้น ไม่มีผลต่อการเล่น
+   ===================================================================== */
+:root[data-theme="dark"][data-skin="halloween"] {
+  --color-bg: #150D2B; --color-surface: #22164A; --color-surface-2: #2C1D57; --color-border: #4A3880;
+  --color-text: #F6F0FF;          /* 14.9:1 บนการ์ด */
+  --color-text-muted: #C9BEEA;    /* 9.1:1 */
+  --color-primary: #FF8A3D;       /* ส้มฟักทอง 6.9:1 บนการ์ด */
+  --color-primary-dark: #FFA766; --color-primary-soft: #43233A;
+  --color-secondary: #8CC4FF;     /* น้ำเงินกลางคืน */
+  --color-accent: #FFD166; --color-accent-bright: #FFB347;
+  --color-success: #7BE0A6; --color-success-soft: #173A33;
+  --color-warning: #FFD166; --color-warning-soft: #3D2E12;
+  --color-danger: #FF9C9C; --color-danger-soft: #45192B;
+  --shadow-sm: 0 1px 2px rgba(5, 2, 15, 0.5), 0 0 0 1px rgba(255, 138, 61, 0.04);
+  --shadow-md: 0 8px 22px rgba(5, 2, 15, 0.55), 0 0 18px rgba(124, 77, 216, 0.12);
+  --focus-ring: 0 0 0 3px #150D2B, 0 0 0 6px #FFD166;
+  --white: #FFF6E6; --parchment-dim: #D9CFF5;
+  --brand: #7C3FD0; --brand-dark: #FFC28F; --brand-accent: #FF8A3D;
+  --il-paper: #2C1D57; --il-paper-d: #22164A; --il-line: #523E8E; --il-bg: #2A1A50;
+  --il-lilac: #6A48B0; --il-lilac-d: #9A78E0; --il-indigo: #8A55E8; --il-indigo-d: #6234C0;
+  --il-coral: #FF8A3D; --il-coral-d: #E2600F; --il-amber: #FFD166;
+  --hw-card: linear-gradient(162deg, #2C1B57 0%, #221548 55%, #1E1240 100%);
+  --hw-web: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Cg transform='translate(56 0) scale(-1 1)'%3E%3Cpath d='M0 0 L56.0 0.0 M0 0 L53.3 17.3 M0 0 L45.3 32.9 M0 0 L32.9 45.3 M0 0 L17.3 53.3 M0 0 L0.0 56.0 M16.8 0.0 Q14.1 2.2 16.0 5.2 Q12.7 6.5 13.6 9.9 Q10.1 10.1 9.9 13.6 Q6.5 12.7 5.2 16.0 Q2.2 14.1 0.0 16.8 M30.8 0.0 Q25.8 4.1 29.3 9.5 Q23.3 11.9 24.9 18.1 Q18.5 18.5 18.1 24.9 Q11.9 23.3 9.5 29.3 Q4.1 25.8 0.0 30.8 M44.8 0.0 Q37.6 6.0 42.6 13.8 Q33.9 17.3 36.2 26.3 Q26.9 26.9 26.3 36.2 Q17.3 33.9 13.8 42.6 Q6.0 37.6 0.0 44.8 M54.9 0.0 Q46.0 7.3 52.2 17.0 Q41.5 21.2 44.4 32.3 Q33.0 33.0 32.3 44.4 Q21.2 41.5 17.0 52.2 Q7.3 46.0 0.0 54.9 ' fill='none' stroke='rgba(230,222,255,0.22)' stroke-width='1' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E");
+  --hw-web-lg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 90'%3E%3Cg transform='translate(90 0) scale(-1 1)'%3E%3Cpath d='M0 0 L90.0 0.0 M0 0 L85.6 27.8 M0 0 L72.8 52.9 M0 0 L52.9 72.8 M0 0 L27.8 85.6 M0 0 L0.0 90.0 M27.0 0.0 Q22.7 3.6 25.7 8.3 Q20.4 10.4 21.8 15.9 Q16.2 16.2 15.9 21.8 Q10.4 20.4 8.3 25.7 Q3.6 22.7 0.0 27.0 M49.5 0.0 Q41.5 6.6 47.1 15.3 Q37.5 19.1 40.0 29.1 Q29.7 29.7 29.1 40.0 Q19.1 37.5 15.3 47.1 Q6.6 41.5 0.0 49.5 M72.0 0.0 Q60.4 9.6 68.5 22.2 Q54.5 27.8 58.2 42.3 Q43.2 43.2 42.3 58.2 Q27.8 54.5 22.2 68.5 Q9.6 60.4 0.0 72.0 M88.2 0.0 Q74.0 11.7 83.9 27.3 Q66.8 34.0 71.4 51.8 Q53.0 53.0 51.8 71.4 Q34.0 66.8 27.3 83.9 Q11.7 74.0 0.0 88.2 ' fill='none' stroke='rgba(230,222,255,0.18)' stroke-width='1' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E");
+  color-scheme: dark;
+}
+
+/* ---------- ฉากหลังกลางคืน (ภาพนิ่ง ราคาถูก) ---------- */
+:root[data-skin="halloween"] body {
+  background-color: #120A26;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cg fill='%23FFF6D8'%3E%3Ccircle cx='20' cy='30' r='1.1' opacity='.7'/%3E%3Ccircle cx='120' cy='60' r='.8' opacity='.5'/%3E%3Ccircle cx='200' cy='20' r='1.3' opacity='.6'/%3E%3Ccircle cx='70' cy='150' r='.9' opacity='.45'/%3E%3Ccircle cx='230' cy='170' r='1' opacity='.55'/%3E%3Ccircle cx='150' cy='220' r='1.2' opacity='.5'/%3E%3Ccircle cx='40' cy='230' r='.8' opacity='.4'/%3E%3C/g%3E%3Cg fill='%23E8DEFF'%3E%3Ccircle cx='95' cy='110' r='1' opacity='.5'/%3E%3Ccircle cx='180' cy='120' r='.7' opacity='.45'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(60% 40% at 85% 0%, rgba(255, 220, 140, 0.10), transparent 70%),
+    radial-gradient(70% 50% at 10% 20%, rgba(124, 77, 216, 0.22), transparent 70%),
+    radial-gradient(80% 50% at 50% 100%, rgba(255, 106, 26, 0.10), transparent 70%),
+    linear-gradient(180deg, #170C33 0%, #1B0F3B 45%, #120A26 100%);
+  background-size: 260px 260px, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  background-attachment: fixed;
+}
+
+/* ---------- ชั้นตกแต่ง (อยู่ใต้เนื้อหา ไม่รับการแตะ) ---------- */
+#hw-fx { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; contain: strict; }
+#hw-fx > * { position: absolute; display: block; }
+.hwfx-moon { top: 70px; right: 3vw; width: clamp(90px, 13vw, 170px); height: auto; opacity: 0.95; }
+.hwfx-web { top: 62px; width: clamp(80px, 11vw, 150px); height: auto; opacity: 0.9; }
+.hwfx-web-l { left: 0; }
+.hwfx-web-r { right: 0; top: auto; bottom: 30vh; opacity: 0.55; transform: scaleY(-1); }
+.hwfx-castle { left: 2vw; bottom: 0; width: clamp(160px, 18vw, 240px); height: auto; opacity: 0.7; }
+.hwfx-fog { left: -10%; right: -10%; bottom: 0; height: 26vh; }
+.hwfx-fog span { position: absolute; left: 0; right: 0; bottom: 0; height: 100%;
+  background: radial-gradient(50% 60% at 30% 100%, rgba(207, 196, 255, 0.16), transparent 70%), radial-gradient(40% 50% at 75% 100%, rgba(207, 196, 255, 0.12), transparent 70%); }
+.hwfx-fog span + span { bottom: -4vh; opacity: 0.8; transform: translateX(8%); }
+.hwfx-pk { bottom: 6px; height: auto; }
+.hwfx-pk-l { left: clamp(150px, 19vw, 250px); width: 64px; }
+.hwfx-pk-r { right: 1.5vw; width: clamp(100px, 10vw, 140px); }
+.hwfx-ghost { width: clamp(46px, 5vw, 72px); height: auto; opacity: 0.92; }
+.hwfx-ghost-l { left: 1.5vw; top: 44vh; }
+.hwfx-ghost-r { right: 2vw; top: 30vh; width: clamp(36px, 3.6vw, 52px); opacity: 0.8; }
+.hwfx-bats { top: 14vh; left: 0; width: 180px; transform: translateX(-220px); }
+.hwfx-bats svg { width: 100%; height: auto; display: block; }
+.hwfx-sparkles { inset: 0; width: 100%; height: 100%; }
+/* แถบเมนู: เว้นฉากให้พ้นแถบข้าง/แถบล่าง */
+@media (min-width: 1024px) {
+  .hwfx-web-l { left: var(--sidebar-w, 240px); }
+  .hwfx-ghost-l { left: calc(var(--sidebar-w, 240px) + 1.5vw); }
+  .hwfx-castle { left: calc(var(--sidebar-w, 240px) + 1vw); }
+  .hwfx-pk-l { left: calc(var(--sidebar-w, 240px) + 220px); }
+}
+@media (max-width: 1023px) {
+  .hwfx-pk, .hwfx-castle { bottom: calc(66px + env(safe-area-inset-bottom, 0px)); }
+}
+/* จอเล็ก: ลดองค์ประกอบที่ไม่จำเป็น เหลือขนาดเล็กตามมุม */
+@media (max-width: 719px) {
+  .hwfx-castle, .hwfx-ghost-l, .hwfx-web-r, .hwfx-pk-l { display: none; }
+  .hwfx-moon { width: 74px; top: 64px; right: 8px; opacity: 0.8; }
+  .hwfx-web-l { width: 70px; top: 58px; opacity: 0.75; }
+  .hwfx-ghost-r { top: auto; bottom: calc(150px + env(safe-area-inset-bottom, 0px)); right: 6px; width: 34px; opacity: 0.7; }
+  .hwfx-pk-r { width: 78px; right: 4px; }
+  .hwfx-fog { height: 18vh; }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .hwfx-ghost-l, .hwfx-ghost-r, .hwfx-web-r, .hwfx-castle { display: none; }
+  .hwfx-moon { width: 64px; }
+}
+
+/* แอนิเมชันชั้นตกแต่ง */
+.hwfx-ghost-l { animation: hwfx-float 6s ease-in-out infinite; }
+.hwfx-ghost-r { animation: hwfx-float 7.5s ease-in-out -3s infinite; }
+@keyframes hwfx-float { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(6px, -14px); } }
+.hwfx-fog span { animation: hwfx-fog 22s ease-in-out infinite alternate; }
+.hwfx-fog span + span { animation-duration: 30s; animation-direction: alternate-reverse; }
+@keyframes hwfx-fog { from { transform: translateX(-5%); } to { transform: translateX(5%); } }
+.hwfx-pk .hw-pkface, .hwfx-pk .hw-pk ellipse:first-child { animation: hw-glow 3s ease-in-out infinite; }
+.hwfx-bats { animation: hwfx-bats 28s linear infinite; }
+@keyframes hwfx-bats { 0% { transform: translate(-220px, 0); } 14% { transform: translate(calc(100vw + 40px), -6vh); } 100% { transform: translate(calc(100vw + 40px), -6vh); } }
+.hwfx-bats .hw-wing { animation: hw-flap 0.3s ease-in-out infinite alternate; }
+/* โหมดเบา (เครื่องสเปกต่ำ) / แท็บไม่แสดง / ลดการเคลื่อนไหว */
+:root[data-fx="lite"] .hwfx-bats, :root[data-fx="lite"] .hwfx-sparkles { display: none; }
+:root[data-fx="lite"] #hw-fx *, :root.hw-paused #hw-fx * { animation-play-state: paused !important; }
+:root[data-fx="lite"] .hwfx-fog span { animation: none; }
+
+/* ---------- แถบบน (HUD) ---------- */
+:root[data-skin="halloween"] #hud {
+  background: linear-gradient(180deg, rgba(38, 20, 76, 0.97), rgba(28, 16, 58, 0.95));
+  border-bottom: 1px solid rgba(255, 138, 61, 0.35);
+  box-shadow: 0 1px 0 rgba(255, 209, 102, 0.12), 0 6px 18px rgba(8, 3, 22, 0.45);
+}
+:root[data-skin="halloween"] .hud-exp-bar-bg { background: rgba(255, 255, 255, 0.1); }
+:root[data-skin="halloween"] .hud-icon-btn { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 138, 61, 0.3); color: #FFE7D2; }
+:root[data-skin="halloween"] .hud-icon-btn:hover { background: rgba(255, 138, 61, 0.14); }
+
+/* ---------- เมนูล่าง / แถบข้าง ---------- */
+:root[data-skin="halloween"] #bottom-nav {
+  background: linear-gradient(180deg, rgba(36, 19, 72, 0.98), rgba(22, 12, 46, 0.98));
+  border-top: 1px solid rgba(255, 138, 61, 0.35);
+  box-shadow: 0 -6px 18px rgba(8, 3, 22, 0.5);
+}
+:root[data-skin="halloween"] .nav-item { color: #C9BEEA; }
+:root[data-skin="halloween"] .nav-item.active, :root[data-skin="halloween"] .nav-item[aria-current="page"] { color: #FFB27A; }
+:root[data-skin="halloween"] .nav-item.active .nav-icon, :root[data-skin="halloween"] .nav-item[aria-current="page"] .nav-icon {
+  background: linear-gradient(180deg, #FF9A52, #F2701F); color: #1A0F2E; box-shadow: 0 0 12px rgba(255, 138, 61, 0.55);
+}
+@media (min-width: 1024px) {
+  :root[data-skin="halloween"] #bottom-nav {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-20 -22 40 48'%3E%3Cpath d='M-15 12 V-3 a15 15 0 0 1 30 0 V12 l-5 -4 l-5 4 l-5 -4 l-5 4 l-5 -4 z' fill='%23F6F2FF'/%3E%3Cellipse cx='-5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='-9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cellipse cx='9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cpath d='M-2.5 4 q2.5 2.4 5 0' stroke='%232A1F4A' stroke-width='1.3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center bottom 26px / 54px no-repeat, var(--hw-web-lg) top right / 90px no-repeat,
+      linear-gradient(180deg, #24134A 0%, #1A0F38 60%, #140B2C 100%);
+    border-top: 0; border-right: 1px solid rgba(255, 138, 61, 0.3); box-shadow: 6px 0 22px rgba(8, 3, 22, 0.45);
+  }
+  :root[data-skin="halloween"] .nav-item:hover { background: rgba(255, 138, 61, 0.1); color: #FFE7D2; }
+  :root[data-skin="halloween"] .nav-item.active { background: linear-gradient(90deg, rgba(255, 138, 61, 0.22), rgba(255, 138, 61, 0.05)); color: #FFB27A;
+    box-shadow: inset 3px 0 0 #FF8A3D; }
+  :root[data-skin="halloween"] .nav-item.active .nav-icon { box-shadow: none; }
+}
+
+/* ---------- ปุ่ม: ฟักทองเรืองแสง ---------- */
+:root[data-skin="halloween"] .btn-primary {
+  background: linear-gradient(180deg, #FFA15C 0%, #FF8A3D 45%, #E9661A 100%); color: #1A0F2E; border-color: transparent;
+  box-shadow: 0 3px 0 #A9480D, 0 0 0 1px rgba(255, 209, 102, 0.35) inset, 0 6px 18px rgba(255, 120, 40, 0.32);
+  text-shadow: 0 1px 0 rgba(255, 230, 200, 0.35);
+}
+:root[data-skin="halloween"] .btn-primary:hover { background: linear-gradient(180deg, #FFB577, #FF9A52 45%, #F2701F);
+  box-shadow: 0 3px 0 #A9480D, 0 0 0 1px rgba(255, 209, 102, 0.5) inset, 0 8px 26px rgba(255, 138, 61, 0.5); }
+:root[data-skin="halloween"] .btn-primary:active { transform: translateY(2px); box-shadow: 0 1px 0 #A9480D, 0 4px 12px rgba(255, 120, 40, 0.3); }
+:root[data-skin="halloween"] .btn-secondary, :root[data-skin="halloween"] .mini-btn {
+  background: linear-gradient(180deg, rgba(124, 77, 216, 0.22), rgba(124, 77, 216, 0.1)); color: #F6F0FF; border-color: #5A44A0;
+}
+:root[data-skin="halloween"] .btn-secondary:hover, :root[data-skin="halloween"] .mini-btn:hover { border-color: #FF8A3D; box-shadow: 0 0 12px rgba(255, 138, 61, 0.25); }
+:root[data-skin="halloween"] .mini-btn.accept { background: linear-gradient(180deg, #FFA15C, #F2701F); color: #1A0F2E; border-color: transparent; }
+:root[data-skin="halloween"] .link-btn { color: #FFB27A; }
+:root[data-skin="halloween"] .vd-seg { background: rgba(255, 255, 255, 0.05); border-color: #4A3880; }
+:root[data-skin="halloween"] .vd-seg-btn.active { background: linear-gradient(180deg, #FF9A52, #F2701F); color: #1A0F2E; }
+:root[data-skin="halloween"] .dash-continue { background: linear-gradient(135deg, #5B2AA0 0%, #8A3AA8 55%, #C2531A 100%);
+  box-shadow: 0 10px 28px rgba(124, 63, 208, 0.35), 0 0 0 1px rgba(255, 209, 102, 0.25) inset; }
+:root[data-skin="halloween"] .home-cta { color: #3A1A08; background: #FFD166; }
+
+/* ---------- การ์ด: พื้นผิวม่วงแฟนตาซี + ใยแมงมุมที่มุม ---------- */
+:root[data-skin="halloween"] :is(.home-card, .mode-card, .path-unit, .gp-ch, .rk-play-card, .rk-hero, .rk-map-card, .rk-boss-card, .rk-season,
+  .rk-goal, .rk-mode, .vb-card, .friend-card, .pl-card, .profile-head, .chat-panel, .rk-team, .rk-vs-card, .rk-intro-card, .audio-card, .support-card) {
+  background: var(--hw-web) top right / 56px no-repeat, var(--hw-card);
+  border: 1px solid #4A3880;
+  box-shadow: 0 8px 22px rgba(8, 3, 22, 0.4), inset 0 1px 0 rgba(255, 209, 102, 0.08);
+}
+:root[data-skin="halloween"] .play-card { background: var(--hw-web) top left / 56px no-repeat, var(--hw-card); border: 1px solid #4A3880; }
+:root[data-skin="halloween"] .play-card:hover, :root[data-skin="halloween"] .home-link:hover, :root[data-skin="halloween"] .mode-card:hover {
+  border-color: #FF8A3D; box-shadow: 0 0 0 1px rgba(255, 138, 61, 0.4), 0 10px 26px rgba(255, 106, 26, 0.18); }
+:root[data-skin="halloween"] .home-link { background: #261852; border-color: #4A3880; }
+:root[data-skin="halloween"] .home-card-title .icon, :root[data-skin="halloween"] .page-title .icon { color: #FFB27A; }
+:root[data-skin="halloween"] .page-title, :root[data-skin="halloween"] .home-title { color: #FFF6E6; text-shadow: 0 2px 14px rgba(255, 138, 61, 0.25); }
+:root[data-skin="halloween"] .path-unit.completed, :root[data-skin="halloween"] .gp-ch.passed { border-color: rgba(123, 224, 166, 0.5); }
+:root[data-skin="halloween"] .path-boss.available { background: linear-gradient(135deg, #4A1E10, #3A1450); border-color: #FF8A3D; }
+:root[data-skin="halloween"] .mascot-tip { background: #261852; border: 1px solid #4A3880; }
+:root[data-skin="halloween"] .verify-banner { background: #3D2E12; border-color: #8A6A2A; }
+:root[data-skin="halloween"] .quiz-choice { background: #221548; border-color: #4A3880; }
+:root[data-skin="halloween"] .quiz-choice:hover { border-color: #FF8A3D; }
+
+/* ---------- แถบความคืบหน้า: พลังเวทมนตร์สีส้ม ---------- */
+:root[data-skin="halloween"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+  .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span) {
+  position: relative; overflow: hidden;
+  background: linear-gradient(90deg, #E2600F 0%, #FF8A3D 45%, #FFD166 100%);
+  box-shadow: 0 0 10px rgba(255, 138, 61, 0.55);
+}
+:root[data-skin="halloween"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+  .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span)::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(100deg, transparent 20%, rgba(255, 246, 216, 0.55) 50%, transparent 80%);
+  transform: translateX(-100%); animation: hw-shimmer 3.2s ease-in-out infinite;
+}
+@keyframes hw-shimmer { 0%, 35% { transform: translateX(-100%); } 75%, 100% { transform: translateX(100%); } }
+:root[data-skin="halloween"] :is(.home-progress, .path-unit-bar, .pl-progress, .dash-level-bar, .dash-mastery-bar, .rk-progress, .rk-rc-bar) {
+  background: rgba(255, 255, 255, 0.09); }
+
+/* ---------- หน้าต่าง / ป๊อปอัป ---------- */
+:root[data-skin="halloween"] .modal-card {
+  background: var(--hw-web-lg) top left / 80px no-repeat, linear-gradient(170deg, #2C1B57, #1E1240 60%);
+  border: 1px solid #5A44A0; box-shadow: 0 0 0 1px rgba(255, 138, 61, 0.18), 0 18px 48px rgba(5, 2, 15, 0.6), 0 0 40px rgba(124, 77, 216, 0.22);
+}
+:root[data-skin="halloween"] .ui-overlay { background: rgba(10, 5, 26, 0.72); }
+:root[data-skin="halloween"] .ui-overlay .sheet-close { background: #2C1D57; border-color: #5A44A0; color: #F6F0FF; }
+:root[data-skin="halloween"] .toast { background: #FFF1DC; color: #1A0F2E; border-left: 4px solid #FF8A3D; }
+:root[data-skin="halloween"] .sys-bar { background: #FFF1DC; color: #1A0F2E; }
+:root[data-skin="halloween"] .sys-bar .mini-btn { background: #FF8A3D; color: #1A0F2E; border-color: transparent; }
+:root[data-skin="halloween"] .sys-bar .mini-btn.ghost { background: transparent; color: #1A0F2E; border-color: rgba(26, 15, 46, 0.35); }
+
+/* ---------- โปรไฟล์ ---------- */
+:root[data-skin="halloween"] .profile-head { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40'%3E%3Cg fill='%23C9B8FF' opacity='.55'%3E%3Cpath d='M20 20 C14 12 6 12 1 17 C5 18 7 21 8 23 C11 21 13 22 15 24 C17 21 18 21 20 22 C22 21 23 21 25 24 C27 22 29 21 32 23 C33 21 35 18 39 17 C34 12 26 12 20 20z'/%3E%3Cpath d='M84 12 C80 7 75 7 72 10 C74 11 75 13 76 14 C78 13 79 13 80 15 C81 13 82 13 84 14 C86 13 87 13 88 15 C89 13 90 13 92 14 C93 13 94 11 96 10 C93 7 88 7 84 12z'/%3E%3C/g%3E%3C/svg%3E") top 12px right 14px / 120px no-repeat, var(--hw-web) top left / 56px no-repeat, var(--hw-card); }
+:root[data-skin="halloween"] .profile-avatar-lg { box-shadow: 0 0 0 3px #FF8A3D, 0 0 22px rgba(255, 138, 61, 0.45); }
+:root[data-skin="halloween"] .theme-prem.on { border-color: #FF8A3D; box-shadow: 0 0 14px rgba(255, 138, 61, 0.25); }
+
+/* ---------- อันดับ (Leaderboard) ---------- */
+:root[data-skin="halloween"] :is(.leaderboard-row, .rk-lb-row) { background: #201446; border: 1px solid #3E2E70; }
+:root[data-skin="halloween"] :is(.leaderboard-row, .rk-lb-row):nth-child(-n+3) { background: linear-gradient(90deg, #3A2140, #221548); border-color: rgba(255, 138, 61, 0.45); }
+:root[data-skin="halloween"] :is(.leaderboard-row, .rk-lb-row, .lb-me, .leaderboard-me) { background-color: #221548; }
+:root[data-skin="halloween"] .leaderboard-row.is-me, :root[data-skin="halloween"] .rk-lb-row.is-me { border-color: #FFD166; }
+:root[data-skin="halloween"] .lb-tab.active, :root[data-skin="halloween"] .tab-btn.active { background: linear-gradient(180deg, #FF9A52, #F2701F); color: #1A0F2E; }
+
+/* ---------- Ranked / League Journey / ผลการแข่ง ---------- */
+:root[data-skin="halloween"] .rk-hero { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40'%3E%3Cg fill='%23C9B8FF' opacity='.55'%3E%3Cpath d='M20 20 C14 12 6 12 1 17 C5 18 7 21 8 23 C11 21 13 22 15 24 C17 21 18 21 20 22 C22 21 23 21 25 24 C27 22 29 21 32 23 C33 21 35 18 39 17 C34 12 26 12 20 20z'/%3E%3Cpath d='M84 12 C80 7 75 7 72 10 C74 11 75 13 76 14 C78 13 79 13 80 15 C81 13 82 13 84 14 C86 13 87 13 88 15 C89 13 90 13 92 14 C93 13 94 11 96 10 C93 7 88 7 84 12z'/%3E%3C/g%3E%3C/svg%3E") top 10px right 12px / 110px no-repeat, var(--hw-web) top left / 56px no-repeat, var(--hw-card); }
+:root[data-skin="halloween"] .rk-cta { box-shadow: 0 0 0 1px rgba(255, 209, 102, 0.3) inset, 0 8px 24px rgba(255, 120, 40, 0.3); }
+:root[data-skin="halloween"] .rk-radar-core { background: linear-gradient(180deg, #FF9A52, #E2600F); color: #1A0F2E; }
+:root[data-skin="halloween"] .rk-radar > span { border-color: #FF8A3D; }
+:root[data-skin="halloween"] .rk-radar::after { content: ''; position: absolute; width: 38px; height: 46px; right: -6px; top: -8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-20 -22 40 48'%3E%3Cpath d='M-15 12 V-3 a15 15 0 0 1 30 0 V12 l-5 -4 l-5 4 l-5 -4 l-5 4 l-5 -4 z' fill='%23F6F2FF'/%3E%3Cellipse cx='-5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='-9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cellipse cx='9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cpath d='M-2.5 4 q2.5 2.4 5 0' stroke='%232A1F4A' stroke-width='1.3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; animation: hwfx-float 4s ease-in-out infinite; }
+:root[data-skin="halloween"] .rk-result-head { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%23FFD166'%3E%3Cpath d='M30 20 C31 26 32 27 38 28 C32 29 31 30 30 36 C29 30 28 29 22 28 C28 27 29 26 30 20z' opacity='.8'/%3E%3Cpath d='M170 70 C171 74 172 75 176 76 C172 77 171 78 170 82 C169 78 168 77 164 76 C168 75 169 74 170 70z' opacity='.6'/%3E%3C/g%3E%3Cg fill='%23FFF6D8'%3E%3Ccircle cx='90' cy='18' r='1.4'/%3E%3Ccircle cx='140' cy='30' r='1'/%3E%3Ccircle cx='60' cy='90' r='1.2'/%3E%3Ccircle cx='120' cy='100' r='1'/%3E%3C/g%3E%3C/svg%3E") center top / 100% auto no-repeat, radial-gradient(70% 80% at 50% 0%, rgba(255, 138, 61, 0.18), transparent 70%); }
+:root[data-skin="halloween"] .rk-result-head::after { content: ''; display: block; width: 44px; height: 36px; margin: 6px auto 0; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-34 -26 68 54'%3E%3Cellipse cx='-14' cy='6' rx='14' ry='18' fill='%23D9590C'/%3E%3Cellipse cx='14' cy='6' rx='14' ry='18' fill='%23D9590C'/%3E%3Cellipse cx='0' cy='6' rx='16' ry='20' fill='%23FF7B1C'/%3E%3Cpath d='M-1.5 -13 q1 -7 6 -9' stroke='%234E7A2B' stroke-width='4' stroke-linecap='round' fill='none'/%3E%3Cg fill='%23FFD36B'%3E%3Cpath d='M-11 1 l5 -7 l5 7z'/%3E%3Cpath d='M1 1 l5 -7 l5 7z'/%3E%3Cpath d='M-12 9 l4 4 l4 -3 l4 3 l4 -3 l4 3 l4 -4 q-12 12 -24 0z'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; }
+:root[data-skin="halloween"] .rk-choice { background: #221548; border-color: #4A3880; }
+:root[data-skin="halloween"] .rk-choice:hover { border-color: #FF8A3D; }
+:root[data-skin="halloween"] .rkm-viewport { box-shadow: inset 0 0 0 1px #4A3880, inset 0 0 70px rgba(42, 18, 86, 0.75); }
+:root[data-skin="halloween"] .rkm-top, :root[data-skin="halloween"] .rkm-tools { background: transparent; }
+:root[data-skin="halloween"] .rkm-sheet, :root[data-skin="halloween"] .rkm-panel { background: var(--hw-web) top right / 56px no-repeat, var(--hw-card); border-color: #4A3880; }
+
+/* ---------- กำลังโหลด ---------- */
+:root[data-skin="halloween"] .skeleton { background: linear-gradient(90deg, #2A1A50 25%, #3A2868 50%, #2A1A50 75%); background-size: 200% 100%; }
+:root.hw-booting[data-skin="halloween"] body::after {
+  content: 'กำลังโหลด…'; position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; padding-top: 150px;
+  font: 700 1rem 'Noto Sans Thai', sans-serif; color: #E6DCFF;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-20 -22 40 48'%3E%3Cpath d='M-15 12 V-3 a15 15 0 0 1 30 0 V12 l-5 -4 l-5 4 l-5 -4 l-5 4 l-5 -4 z' fill='%23F6F2FF'/%3E%3Cellipse cx='-5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='5' cy='-2' rx='2.2' ry='3' fill='%232A1F4A'/%3E%3Cellipse cx='-9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cellipse cx='9' cy='3' rx='2.6' ry='1.5' fill='%23FFB3C7'/%3E%3Cpath d='M-2.5 4 q2.5 2.4 5 0' stroke='%232A1F4A' stroke-width='1.3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center calc(50% - 30px) / 96px no-repeat, radial-gradient(60% 40% at 50% 45%, #2E1A5C, #120A26 70%);
+  animation: hw-boot-ghost 2.4s ease-in-out infinite; transition: opacity 0.4s ease;
+}
+:root.hw-booting.hw-boot-done[data-skin="halloween"] body::after { opacity: 0; }
+@keyframes hw-boot-ghost { 0%, 100% { background-position: center calc(50% - 30px), center; } 50% { background-position: center calc(50% - 44px), center; } }
+
+/* ---------- ประกายเวทมนตร์เมื่อแตะปุ่ม ---------- */
+.hwfx-burst { position: fixed; z-index: 9998; width: 0; height: 0; pointer-events: none; }
+.hwfx-burst i { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%;
+  background: radial-gradient(circle, #FFF6D8 0 30%, #FFD166 31% 55%, rgba(255, 138, 61, 0) 60%); animation: hwfx-burst 0.6s ease-out forwards; }
+.hwfx-burst i:nth-child(3n) { background: radial-gradient(circle, #FFFFFF 0 30%, #C9B8FF 31% 55%, rgba(124, 77, 216, 0) 60%); }
+@keyframes hwfx-burst { 0% { transform: translate(0, 0) scale(0.6); opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(1.1); opacity: 0; } }
+
+/* ---------- แอนิเมชันตอนเปิดธีม ---------- */
+.hwfx-intro { position: fixed; inset: 0; z-index: 9997; pointer-events: none; display: grid; place-items: center; overflow: hidden; }
+.hwfx-ring { position: absolute; width: 120vmax; height: 120vmax; border-radius: 50%; opacity: 0; transform: scale(0.2);
+  background: radial-gradient(circle, rgba(255, 138, 61, 0) 30%, rgba(124, 63, 208, 0.55) 52%, rgba(18, 10, 38, 0) 70%);
+  transition: transform 1.3s cubic-bezier(.2, .7, .3, 1), opacity 1.3s ease; }
+.hwfx-intro.go .hwfx-ring { transform: scale(1.1); opacity: 0; animation: hwfx-ring 1.4s ease-out; }
+@keyframes hwfx-ring { 0% { opacity: 0.95; transform: scale(0.2); } 100% { opacity: 0; transform: scale(1.1); } }
+.hwfx-ic { width: 160px; height: auto; opacity: 0; transform: scale(0.4); transition: transform 0.6s cubic-bezier(.3, 1.5, .5, 1), opacity 0.4s ease; }
+.hwfx-intro.go .hwfx-ic { opacity: 1; transform: none; animation: hwfx-out 0.5s ease 1.4s forwards; }
+@keyframes hwfx-out { to { opacity: 0; transform: scale(1.15); } }
+.hwfx-ib { position: absolute; left: 50%; top: 50%; width: 70px; margin: -17px 0 0 -35px; opacity: 0; }
+.hwfx-ib svg { width: 100%; height: auto; display: block; }
+.hwfx-intro.go .hwfx-ib { animation: hwfx-ib 1.5s cubic-bezier(.3, .6, .4, 1) var(--d) forwards; }
+@keyframes hwfx-ib { 0% { opacity: 0; transform: translate(0, 0) scale(0.3); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  #hw-fx *, .hwfx-burst, :root[data-skin="halloween"] .rk-radar::after,
+  :root[data-skin="halloween"] :is(.hud-exp-bar-fill, .home-progress > span, .path-unit-bar > span, .pl-progress-fill, .dash-level-fill, .dash-mastery-fill,
+    .quiz-progress-fill, .node-progress-bar-fill, .rk-progress > span, .rk-rc-bar > span)::after { animation: none !important; }
+  .hwfx-bats, .hwfx-burst { display: none; }
+  .hwfx-intro .hwfx-ib, .hwfx-intro .hwfx-ring { display: none; }
+  .hwfx-intro .hwfx-ic { transition: opacity 0.2s; }
+  :root.hw-booting[data-skin="halloween"] body::after { animation: none; }
+}

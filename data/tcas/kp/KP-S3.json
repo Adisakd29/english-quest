@@ -1,0 +1,514 @@
+{
+ "exam": "kp",
+ "setId": "KP-S3",
+ "title": "ก.พ. ภาค ก ภาษาอังกฤษ ชุดฝึกที่ 3",
+ "version": 1,
+ "original": true,
+ "level": 2,
+ "sections": [
+  {
+   "id": "conversation",
+   "groups": [
+    {
+     "id": "KP-S3-G01",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "At the passport office",
+     "dialogue": [
+      {
+       "speaker": "Applicant",
+       "text": "I'd like to apply for a new passport. Mine was stolen last week."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Applicant",
+       "text": "Yes, I have it here. The police gave it to me on Monday."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S3-001",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Then you'll need to bring the old passport with you.",
+        "I'm sorry to hear that. Do you have a police report?",
+        "That's fine. Just pay the fee and travel today.",
+        "Lucky you. Mine has never been stolen."
+       ],
+       "answer": 1,
+       "skill": "functional_language",
+       "explanationTh": "ผู้ยื่นคำขอตอบว่าตำรวจให้เอกสารมาเมื่อวันจันทร์ แสดงว่าเจ้าหน้าที่ถามหาบันทึกแจ้งความ (police report) ส่วนการนำเล่มเดิมมาเป็นไปไม่ได้เพราะถูกขโมยไปแล้ว"
+      }
+     ]
+    },
+    {
+     "id": "KP-S3-G02",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A team meeting",
+     "dialogue": [
+      {
+       "speaker": "Chief",
+       "text": "I think we should postpone the training until next month."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___ Many new staff start next week, and they need it now."
+      },
+      {
+       "speaker": "Chief",
+       "text": "Hmm, you have a point. Let's keep the original date, then."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S3-002",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "I couldn't agree more.",
+        "That's exactly what I was going to say.",
+        "I'm not sure that's a good idea.",
+        "You're absolutely right."
+       ],
+       "answer": 2,
+       "skill": "functional_language",
+       "explanationTh": "ประโยคต่อมาให้เหตุผลว่าพนักงานใหม่ต้องอบรมทันที และหัวหน้าตัดสินใจคงวันเดิม แสดงว่าผู้พูดไม่เห็นด้วยอย่างสุภาพ ส่วนตัวเลือกอื่นเป็นการเห็นด้วยทั้งหมด"
+      }
+     ]
+    },
+    {
+     "id": "KP-S3-G03",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A long wait",
+     "dialogue": [
+      {
+       "speaker": "Citizen",
+       "text": "I've been waiting for over an hour, and nobody has called my number."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Citizen",
+       "text": "Thank you. I hope it won't take much longer."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S3-003",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "I apologise for the delay. Let me check where your file is.",
+        "You should have come yesterday instead.",
+        "That's because you forgot to take a number.",
+        "Please calm down. It's only been ten minutes."
+       ],
+       "answer": 0,
+       "skill": "social_response",
+       "explanationTh": "ผู้มาติดต่อตอบ \"Thank you\" แสดงว่าเจ้าหน้าที่ขอโทษและเสนอความช่วยเหลือ ตัวเลือกอื่นเป็นการโต้แย้งหรือตำหนิซึ่งไม่เข้ากับคำขอบคุณ"
+      }
+     ]
+    },
+    {
+     "id": "KP-S3-G04",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Interview question",
+     "dialogue": [
+      {
+       "speaker": "Interviewer",
+       "text": "What would you do if a member of the public became angry at the counter?"
+      },
+      {
+       "speaker": "Candidate",
+       "text": "First, I would stay calm and listen carefully."
+      },
+      {
+       "speaker": "Interviewer",
+       "text": "And then?"
+      },
+      {
+       "speaker": "Candidate",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Interviewer",
+       "text": "That sounds very sensible."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S3-004",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "I would ask the person to leave the office immediately.",
+        "I would say that it isn't my responsibility.",
+        "I would close the counter and take my lunch break.",
+        "I would find out the problem and explain how we can help."
+       ],
+       "answer": 3,
+       "skill": "functional_language",
+       "explanationTh": "ผู้สัมภาษณ์ชมว่า \"sensible\" (มีเหตุผล) จึงต้องเป็นวิธีจัดการที่เหมาะสม คือหาสาเหตุของปัญหาและอธิบายแนวทางช่วยเหลือ"
+      }
+     ]
+    },
+    {
+     "id": "KP-S3-G05",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "In the office",
+     "dialogue": [
+      {
+       "speaker": "Ann",
+       "text": "Would you mind if I opened the window?"
+      },
+      {
+       "speaker": "Ben",
+       "text": "___1___ It's getting really warm in here."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S3-005",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Yes, I'd be glad to.",
+        "No, please don't.",
+        "Yes, I would. Thank you.",
+        "Not at all. Go ahead."
+       ],
+       "answer": 3,
+       "skill": "social_response",
+       "explanationTh": "\"Would you mind if...?\" ถ้าอนุญาตต้องตอบปฏิเสธว่า \"Not at all\" และ Ben บอกต่อว่าในห้องร้อน แสดงว่าเห็นด้วยให้เปิดหน้าต่าง"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "groups": [
+    {
+     "id": "KP-S3-G06",
+     "type": "kp_structure",
+     "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+     "items": [
+      {
+       "id": "KP-S3-006",
+       "stem": "Had the officer checked the documents more carefully, the mistake ____.",
+       "options": [
+        "would be noticing",
+        "will have been noticed",
+        "had noticed",
+        "would have been noticed"
+       ],
+       "answer": 3,
+       "skill": "grammar",
+       "explanationTh": "Had + S + V3 คือ If-clause แบบที่ 3 ที่ละ if (inversion) ประโยคหลักต้องใช้ would have + V3 และความผิดพลาดเป็นผู้ถูกกระทำ จึงเป็น \"would have been noticed\""
+      },
+      {
+       "id": "KP-S3-007",
+       "stem": "Not until the results were announced ____ how many candidates had passed.",
+       "options": [
+        "we realised",
+        "did we realise",
+        "we did realise",
+        "had realised we"
+       ],
+       "answer": 1,
+       "skill": "grammar",
+       "explanationTh": "ประโยคที่ขึ้นต้นด้วย Not until ... ต้องสลับกริยาช่วยไว้หน้าประธานในประโยคหลัก (inversion) จึงเป็น \"did we realise\""
+      },
+      {
+       "id": "KP-S3-008",
+       "stem": "The committee insisted that the report ____ before the end of the month.",
+       "options": [
+        "is submitting",
+        "was submit",
+        "be submitted",
+        "being submitted"
+       ],
+       "answer": 2,
+       "skill": "grammar",
+       "explanationTh": "หลัง insist that ใช้ subjunctive (กริยาช่อง 1 ไม่ผัน) และรายงานเป็นผู้ถูกกระทำ จึงใช้ \"be submitted\""
+      },
+      {
+       "id": "KP-S3-009",
+       "stem": "____ the heavy rain, the ceremony went ahead as planned.",
+       "options": [
+        "Although",
+        "Because of",
+        "However",
+        "Despite"
+       ],
+       "answer": 3,
+       "skill": "connector",
+       "explanationTh": "ช่องว่างตามด้วยนามวลี (the heavy rain) และสองส่วนขัดแย้งกัน จึงใช้ \"Despite\" ส่วน Although ต้องตามด้วยประโยค และ Because of ให้ความหมายเป็นเหตุผล"
+      },
+      {
+       "id": "KP-S3-010",
+       "stem": "By the time the new director arrives next month, the staff ____ the office renovation.",
+       "options": [
+        "have completed",
+        "will have completed",
+        "completed",
+        "will be complete"
+       ],
+       "answer": 1,
+       "skill": "grammar",
+       "explanationTh": "By the time + เหตุการณ์ในอนาคต แสดงว่าอีกเหตุการณ์เสร็จก่อนจุดนั้น ใช้ Future Perfect \"will have completed\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocabulary",
+   "groups": [
+    {
+     "id": "KP-S3-G07",
+     "type": "kp_vocab",
+     "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+     "items": [
+      {
+       "id": "KP-S3-011",
+       "stem": "All government agencies are required to ____ with the new data protection law.",
+       "options": [
+        "compile",
+        "comply",
+        "compose",
+        "comprise"
+       ],
+       "answer": 1,
+       "skill": "vocabulary",
+       "explanationTh": "\"comply with\" = ปฏิบัติตาม (กฎหมาย/ระเบียบ) ส่วน compile = รวบรวม, compose = ประพันธ์/ประกอบด้วย, comprise = ประกอบด้วย"
+      },
+      {
+       "id": "KP-S3-012",
+       "stem": "The minister refused to ____ on the rumours, saying only that a statement would be released soon.",
+       "options": [
+        "comment",
+        "command",
+        "commit",
+        "commute"
+       ],
+       "answer": 0,
+       "skill": "vocabulary",
+       "explanationTh": "\"comment on\" = แสดงความเห็นต่อ รัฐมนตรีปฏิเสธที่จะแสดงความเห็นต่อข่าวลือ ส่วน commute = เดินทางไปทำงาน, commit = กระทำ/ผูกมัด"
+      },
+      {
+       "id": "KP-S3-013",
+       "stem": "The project was ____ after its budget was cut by half.",
+       "options": [
+        "abundant",
+        "adopted",
+        "abandoned",
+        "admired"
+       ],
+       "answer": 2,
+       "skill": "vocabulary",
+       "explanationTh": "abandon = ล้มเลิก สอดคล้องกับเหตุผลที่งบประมาณถูกตัดครึ่ง ส่วน abundant เป็นคุณศัพท์ (อุดมสมบูรณ์) และ adopted/admired ไม่เข้ากับบริบท"
+      },
+      {
+       "id": "KP-S3-014",
+       "stem": "Officials must remain ____ and treat all citizens equally, regardless of their political views.",
+       "options": [
+        "impatient",
+        "impractical",
+        "impartial",
+        "imperfect"
+       ],
+       "answer": 2,
+       "skill": "vocabulary",
+       "explanationTh": "impartial = เป็นกลาง ไม่ลำเอียง สอดคล้องกับ \"treat all citizens equally\" ส่วน impatient = ใจร้อน, impractical = ไม่สามารถทำได้จริง"
+      },
+      {
+       "id": "KP-S3-015",
+       "stem": "'Attendance at the safety briefing is mandatory for all staff.' The word 'mandatory' is closest in meaning to ____.",
+       "options": [
+        "compulsory",
+        "optional",
+        "temporary",
+        "voluntary"
+       ],
+       "answer": 0,
+       "skill": "vocabulary",
+       "explanationTh": "mandatory = ภาคบังคับ ใกล้เคียงกับ compulsory ส่วน optional และ voluntary มีความหมายตรงข้าม (ไม่บังคับ/สมัครใจ)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "groups": [
+    {
+     "id": "KP-S3-G08",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "E-government for everyone?",
+     "text": "Over the past decade, many government services in Thailand have moved online. Citizens can now renew documents, check the status of applications and pay fees without visiting an office. Supporters argue that digital services save time for both citizens and officials, and reduce opportunities for corruption because fewer payments are made face to face.\nHowever, the shift has not benefited everyone equally. A survey by the Northern Policy Institute found that people over 65 and those living in remote areas were far less likely to use online services. Some said they did not own a smartphone; others had one but lacked the confidence to enter personal information on it. For these groups, the closure of local service counters can make public services harder rather than easier to reach.\nThe institute recommends a 'digital plus' approach. Under this model, online services continue to expand, but each district keeps at least one counter where trained staff can help people complete digital forms. Mobile units could also visit remote villages once a month. According to the report, such measures would cost relatively little compared with the savings already gained from going digital.\nThe report concludes that the success of e-government should not be measured only by how many services are available online, but by whether every citizen can actually use them.",
+     "items": [
+      {
+       "id": "KP-S3-016",
+       "stem": "What is the passage mainly about?",
+       "options": [
+        "The benefits and limits of online public services",
+        "How citizens can apply for a free smartphone",
+        "The history of corruption in local offices",
+        "Why every service counter should be closed"
+       ],
+       "answer": 0,
+       "skill": "main_idea",
+       "explanationTh": "บทความกล่าวถึงข้อดีของบริการภาครัฐออนไลน์ (ย่อหน้า 1) ปัญหาที่บางกลุ่มเข้าไม่ถึง (ย่อหน้า 2) และข้อเสนอแก้ไข จึงเป็นทั้งประโยชน์และข้อจำกัด"
+      },
+      {
+       "id": "KP-S3-017",
+       "stem": "According to the passage, why did some people avoid online services even though they owned a smartphone?",
+       "options": [
+        "They believed online services cost more.",
+        "They preferred paying officials directly.",
+        "They were not confident entering personal data.",
+        "They could not find the right website."
+       ],
+       "answer": 2,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 2 บอกว่าบางคนมีโทรศัพท์แต่ \"lacked the confidence to enter personal information on it\" คือไม่มั่นใจในการกรอกข้อมูลส่วนตัว"
+      },
+      {
+       "id": "KP-S3-018",
+       "stem": "The word 'shift' in paragraph 2 refers to ____.",
+       "options": [
+        "the move of public services to the internet",
+        "a period of work at a service counter",
+        "a change in the number of older citizens",
+        "the closure of mobile units in villages"
+       ],
+       "answer": 0,
+       "skill": "reference",
+       "explanationTh": "shift ในย่อหน้าที่ 2 หมายถึงการเปลี่ยนแปลงที่กล่าวไว้ในย่อหน้าแรก คือการย้ายบริการภาครัฐไปอยู่บนออนไลน์ ไม่ใช่ \"กะการทำงาน\""
+      },
+      {
+       "id": "KP-S3-019",
+       "stem": "Which of the following best describes the 'digital plus' approach?",
+       "options": [
+        "Replacing online services with mobile units",
+        "Closing district counters to save money",
+        "Giving smartphones to everyone over 65",
+        "Expanding online services while keeping in-person help"
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 3 อธิบายว่าบริการออนไลน์ยังขยายต่อ แต่แต่ละอำเภอต้องคงเคาน์เตอร์ที่มีเจ้าหน้าที่ช่วยเหลืออย่างน้อยหนึ่งจุด และมีหน่วยเคลื่อนที่เสริม"
+      },
+      {
+       "id": "KP-S3-020",
+       "stem": "Which statement would the writer most likely agree with?",
+       "options": [
+        "The number of online services best measures success.",
+        "Older people should be forced to learn digital skills.",
+        "Digital services have increased corruption.",
+        "A service succeeds only if all citizens can use it."
+       ],
+       "answer": 3,
+       "skill": "inference",
+       "explanationTh": "ย่อหน้าสุดท้ายสรุปว่าความสำเร็จไม่ควรวัดจากจำนวนบริการออนไลน์เท่านั้น แต่ต้องดูว่าประชาชนทุกคนใช้ได้จริงหรือไม่"
+      }
+     ]
+    },
+    {
+     "id": "KP-S3-G09",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Revised work-from-home guidelines",
+     "text": "MEMORANDUM\nTo: All staff, Department of Rural Development\nFrom: Director of Human Resources\nSubject: Revised work-from-home guidelines\nFollowing a six-month trial, the Department will continue to allow staff to work from home, subject to the following conditions, which take effect on 1 November.\nFirst, staff may work from home for a maximum of two days per week. Requests must be approved by the head of the division at least three working days in advance, and approval may be refused during busy periods such as the end of the fiscal year.\nSecond, staff working from home must be reachable by phone and the department's messaging system during normal office hours. Those who cannot be contacted for more than one hour without a valid reason may lose the right to work from home for the following month.\nThird, staff who handle confidential documents, such as personnel files or procurement records, must not take these documents home in either paper or electronic form.\nThe trial showed that productivity remained stable while electricity costs in the building fell by 12 percent. Nevertheless, some divisions reported that coordination became harder when too many staff were absent on the same day. Heads of divisions are therefore asked to ensure that at least half of their team is in the office each day.",
+     "items": [
+      {
+       "id": "KP-S3-021",
+       "stem": "What is the main purpose of the memo?",
+       "options": [
+        "To announce the end of the trial period",
+        "To report a fall in staff productivity",
+        "To explain the rules for working from home",
+        "To ask staff to save electricity at home"
+       ],
+       "answer": 2,
+       "skill": "main_idea",
+       "explanationTh": "บันทึกข้อความแจ้งเงื่อนไขการทำงานที่บ้าน 3 ข้อที่มีผล 1 พฤศจิกายน ไม่ได้ยกเลิกการทำงานที่บ้าน และผลการทดลองบอกว่าประสิทธิภาพคงที่"
+      },
+      {
+       "id": "KP-S3-022",
+       "stem": "Which request would most likely be approved?",
+       "options": [
+        "Three days at home every week",
+        "One day at home, requested a week ahead",
+        "One day at home, requested the day before",
+        "Two days at home to finish personnel files"
+       ],
+       "answer": 1,
+       "skill": "inference",
+       "explanationTh": "ต้องขอไม่เกิน 2 วันต่อสัปดาห์และล่วงหน้าอย่างน้อย 3 วันทำการ และห้ามนำแฟ้มบุคลากรกลับบ้าน การขอ 1 วันล่วงหน้า 1 สัปดาห์จึงตรงเงื่อนไขที่สุด"
+      },
+      {
+       "id": "KP-S3-023",
+       "stem": "What may happen to staff who cannot be contacted for over an hour without a good reason?",
+       "options": [
+        "They will lose one day of annual leave.",
+        "They will pay part of the electricity bill.",
+        "They will be moved to another division.",
+        "They may not work from home the next month."
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "เงื่อนไขข้อที่สองระบุว่าผู้ที่ติดต่อไม่ได้เกิน 1 ชั่วโมงโดยไม่มีเหตุผล \"may lose the right to work from home for the following month\""
+      },
+      {
+       "id": "KP-S3-024",
+       "stem": "In the last paragraph, the word 'Nevertheless' is used to ____.",
+       "options": [
+        "introduce a problem after positive results",
+        "give an example of lower electricity costs",
+        "show that the trial was a complete failure",
+        "explain why productivity stayed the same"
+       ],
+       "answer": 0,
+       "skill": "connector",
+       "explanationTh": "Nevertheless = อย่างไรก็ตาม ใช้แสดงความขัดแย้ง ประโยคก่อนหน้าเป็นผลดี (ประสิทธิภาพคงที่ ค่าไฟลด) แล้วตามด้วยปัญหาเรื่องการประสานงาน"
+      },
+      {
+       "id": "KP-S3-025",
+       "stem": "Why are heads of divisions asked to keep half of their team in the office?",
+       "options": [
+        "To reduce electricity costs even further",
+        "To make coordination between staff easier",
+        "To check the work of staff at home",
+        "To protect personnel and procurement files"
+       ],
+       "answer": 1,
+       "skill": "inference",
+       "explanationTh": "ประโยคก่อนหน้าบอกว่าการประสานงานยากขึ้นเมื่อมีคนไม่อยู่พร้อมกันมาก และคำว่า \"therefore\" เชื่อมไปยังข้อกำหนดนี้ จึงมีจุดประสงค์เพื่อแก้ปัญหาการประสานงาน"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "review": {
+  "passed": true,
+  "method": "validator + independent blind-solve (AI) 2 รอบ — ยังไม่ได้ตรวจโดยครู",
+  "date": "2026-11-17",
+  "agree": 25,
+  "total": 25,
+  "rounds": "รอบ 1 ตรงเฉลย 25/25 (S4 ไม่มั่นใจ 2 ข้อเรื่องสำนวน — แก้ S4-003 บทสนทนา/S4-020 ตัวเลือก + ลดความยาวคำตอบที่เด่นเกิน S1-004/S4-021/S2-003) · รอบ 2 ผู้ตรวจคนใหม่ทั้งชุด ตรง 25/25 ไม่มีข้อไม่มั่นใจ · ปรับคำว่า paragraph ในโจทย์ S2-024/S4-018 ให้ชัดขึ้น (ไม่เปลี่ยนเฉลย)"
+ }
+}

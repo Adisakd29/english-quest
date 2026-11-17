@@ -1,0 +1,4130 @@
+[
+  {
+    "key": "address|verb|deal with",
+    "lemma": "address",
+    "displayForm": "address",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "deal with",
+    "baseLemma": "address",
+    "baseMeaningTH": "ที่อยู่ (สำหรับส่งจดหมาย)",
+    "meaningEN": "to start dealing seriously with a problem, issue or concern",
+    "meaningTH": "จัดการ/แก้ไขปัญหาหรือประเด็นหนึ่งอย่างจริงจัง (ไม่ใช่แค่พูดถึง)",
+    "shortMeaningTH": "จัดการแก้ไข (ปัญหา)",
+    "usageNoteTH": "เป็นกริยาที่ต้องมีกรรมตามทันที (address a problem) ห้ามใส่ to; พบบ่อยมากในข่าว รายงาน และภาษาที่ทำงาน; น้ำเสียงทางการกว่า deal with หรือ sort out",
+    "register": "formal",
+    "connotation": "neutral",
+    "frequencyBand": 5,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/əˈdres/",
+    "ipaUS": "/əˈdres/",
+    "variant": "both",
+    "example": "The new housing policy fails to address the root causes of homelessness.",
+    "exampleTH": "นโยบายที่อยู่อาศัยฉบับใหม่ไม่ได้แก้ไขต้นเหตุที่แท้จริงของปัญหาคนไร้บ้าน",
+    "collocations": [
+      "address a problem",
+      "address concerns",
+      "address the issue",
+      "address the needs of",
+      "fail to address"
+    ],
+    "synonyms": [
+      "tackle",
+      "deal with",
+      "attend to"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "tackle",
+        "differenceTH": "tackle ให้ภาพว่าลงมือจัดการปัญหายากอย่างแข็งขัน (tackle crime) ส่วน address ทางการกว่าและใช้ได้กับ concerns/needs ด้วย"
+      },
+      {
+        "word": "solve",
+        "differenceTH": "solve = แก้จนปัญหาหมดไป ส่วน address = เริ่มจัดการ/รับมือ ยังไม่แน่ว่าจะแก้ได้สำเร็จ"
+      }
+    ],
+    "antonyms": [
+      "ignore",
+      "neglect"
+    ],
+    "wordFamily": [
+      {
+        "form": "address",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The government must address to the problem.",
+        "right": "The government must address the problem.",
+        "whyTH": "address ในความหมายนี้เป็นกริยาที่มีกรรมตรง ไม่ต้องใส่ to"
+      }
+    ],
+    "confusedWith": [
+      "redress"
+    ],
+    "topics": [
+      "current-affairs",
+      "workplace",
+      "society"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Residents have complained about flooding in the area for years. The council has finally promised to [[address]] the problem by building new drains before winter.",
+      "cluesTH": "'สร้างท่อระบายน้ำใหม่' เป็นการลงมือแก้ปัญหาน้ำท่วม จึงหมายถึงจัดการแก้ไข ไม่ใช่ที่อยู่หรือการกล่าวปราศรัย"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The report makes several recommendations to ___ the concerns raised by parents.",
+        "answer": "address",
+        "distractors": [
+          "solve",
+          "attend",
+          "settle"
+        ],
+        "whyTH": "address concerns = จัดการกับข้อกังวล เป็นคู่คำที่เป็นธรรมชาติ; solve ใช้กับ problem/puzzle ไม่ใช้กับ concerns; attend ต้องเป็น attend to; settle ใช้กับ dispute/argument"
+      },
+      "nearSyn": {
+        "sentence": "The company issued a formal statement to ___ customers' concerns about data privacy.",
+        "answer": "address",
+        "distractors": [
+          {
+            "word": "fix",
+            "whyNotTH": "fix ใช้กับสิ่งของที่เสียหรือปัญหาเทคนิค และภาษาไม่เป็นทางการ ไม่ใช้กับ concerns"
+          },
+          {
+            "word": "cope",
+            "whyNotTH": "cope ต้องตามด้วย with และหมายถึง 'ทนรับมือ' กับสิ่งยาก ไม่ใช่ตอบสนองข้อกังวลของผู้อื่น"
+          },
+          {
+            "word": "treat",
+            "whyNotTH": "treat ใช้กับการรักษาโรคหรือการปฏิบัติต่อคน ไม่ใช้กับการจัดการข้อกังวล"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "เขียนรายงานเป็นทางการถึงคณะกรรมการบริษัท",
+        "question": "Which sentence is most appropriate?",
+        "answer": "We recommend that the board address this issue as a matter of priority.",
+        "distractors": [
+          {
+            "text": "We reckon the board should sort this thing out ASAP.",
+            "whyNotTH": "reckon, sort out, ASAP เป็นภาษาไม่เป็นทางการ ไม่เหมาะกับรายงานถึงคณะกรรมการ"
+          },
+          {
+            "text": "The board should, like, deal with this stuff soon.",
+            "whyNotTH": "like และ stuff เป็นภาษาพูดแบบกันเอง"
+          },
+          {
+            "text": "Board, please fix this problem quick!",
+            "whyNotTH": "น้ำเสียงสั่งการห้วน ๆ และ quick ใช้แทน quickly แบบภาษาพูด"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'address' is A1–B2; the advanced sense 'deal with' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "field|verb|handle questions",
+    "lemma": "field",
+    "displayForm": "field",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "handle questions",
+    "baseLemma": "field",
+    "baseMeaningTH": "ทุ่ง / สนาม (กีฬา)",
+    "meaningEN": "to deal with questions, phone calls or criticism, especially quickly or without preparation",
+    "meaningTH": "รับมือ/ตอบคำถาม รับสายโทรศัพท์ หรือคำวิจารณ์ที่เข้ามาเรื่อย ๆ โดยมักต้องตอบทันทีโดยไม่ได้เตรียมตัว",
+    "shortMeaningTH": "รับมือ/ตอบ (คำถาม สาย)",
+    "usageNoteTH": "มักใช้กับ questions, calls, inquiries, criticism; ผู้ที่ field คือฝ่าย 'รับ' คำถาม ไม่ใช่ฝ่ายถาม; มาจากกีฬา (เช่น คริกเก็ต/เบสบอล) ที่ผู้เล่นคอยรับลูก",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/fiːld/",
+    "ipaUS": "/fiːld/",
+    "variant": "both",
+    "example": "After the presentation, the CEO fielded questions from journalists for half an hour.",
+    "exampleTH": "หลังการนำเสนอ ซีอีโอตอบคำถามนักข่าวอยู่ครึ่งชั่วโมง",
+    "collocations": [
+      "field questions",
+      "field calls",
+      "field criticism",
+      "field inquiries"
+    ],
+    "synonyms": [
+      "handle",
+      "deal with",
+      "respond to"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "answer",
+        "differenceTH": "answer = ตอบคำถามข้อหนึ่ง ส่วน field เน้นการรับมือคำถามที่เข้ามาหลายข้อต่อเนื่อง มักยากหรือไม่ทันตั้งตัว"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "fielder",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She fielded to all the reporters' questions.",
+        "right": "She fielded all the reporters' questions.",
+        "whyTH": "field เป็นกริยามีกรรมตรง ไม่ต้องใช้ to"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "communication",
+      "media",
+      "workplace"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "At the press conference, the minister spent forty minutes [[fielding]] questions from reporters, some of them openly hostile, before her assistant finally ended the session.",
+      "cluesTH": "'questions from reporters' และ 'forty minutes' บอกว่ารัฐมนตรีคอยรับและตอบคำถาม ไม่เกี่ยวกับทุ่งหรือสนาม"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The spokesperson spent the afternoon ___ awkward questions from journalists about the minister's expenses.",
+        "answer": "fielding",
+        "distractors": [
+          "raising",
+          "posing",
+          "pitching"
+        ],
+        "whyTH": "field questions = รับมือ/ตอบคำถาม ผู้พูดเป็นฝ่ายรับคำถาม 'from journalists'; raise และ pose questions = เป็นฝ่ายตั้งคำถามเอง ขัดกับ from journalists; pitch ใช้กับ idea/ball"
+      },
+      "nearSyn": {
+        "sentence": "The new intern was left alone to ___ phone calls from angry customers all morning.",
+        "answer": "field",
+        "distractors": [
+          {
+            "word": "make",
+            "whyNotTH": "make calls = เป็นฝ่ายโทรออก แต่ประโยคบอกว่าสายมาจากลูกค้า"
+          },
+          {
+            "word": "reply",
+            "whyNotTH": "reply ต้องตามด้วย to และไม่ใช้กับ phone calls"
+          },
+          {
+            "word": "attend",
+            "whyNotTH": "attend calls ไม่เป็นธรรมชาติ ต้องเป็น attend to และยังไม่สื่อการรับสายต่อเนื่อง"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'field' is A1–B2; the advanced sense 'handle questions' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "table|verb|present for discussion",
+    "lemma": "table",
+    "displayForm": "table",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "present for discussion",
+    "baseLemma": "table",
+    "baseMeaningTH": "โต๊ะ",
+    "meaningEN": "(UK) to formally present a proposal, motion or question for discussion; (US) to postpone discussion of something",
+    "meaningTH": "(อังกฤษ) ยื่น/เสนอญัตติหรือข้อเสนออย่างเป็นทางการเพื่อให้ที่ประชุมพิจารณา; (อเมริกัน) เลื่อนการพิจารณาออกไป",
+    "shortMeaningTH": "ยื่นเสนอให้พิจารณา (UK)",
+    "usageNoteTH": "ระวัง! ความหมายตรงข้ามกันระหว่างอังกฤษกับอเมริกา: ในอังกฤษ table a motion = ยื่นญัตติเข้าที่ประชุม (เริ่มพิจารณา) แต่ในอเมริกา table a motion = พักเรื่องไว้ ไม่พิจารณาตอนนี้ (เทียบได้กับ shelve ในอังกฤษ) ดูบริบทและแหล่งที่มาเสมอ; พบบ่อยในข่าวการเมือง รัฐสภา และการประชุม",
+    "register": "formal",
+    "connotation": "neutral",
+    "frequencyBand": 3,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 4,
+    "ipaUK": "/ˈteɪbl/",
+    "ipaUS": "/ˈteɪbl/",
+    "variant": "both",
+    "example": "The opposition has tabled a motion of no confidence in the government, which will be debated on Wednesday.",
+    "exampleTH": "ฝ่ายค้านได้ยื่นญัตติไม่ไว้วางใจรัฐบาล ซึ่งจะมีการอภิปรายในวันพุธ",
+    "collocations": [
+      "table a motion",
+      "table an amendment",
+      "table a proposal",
+      "table a question"
+    ],
+    "synonyms": [
+      "put forward",
+      "propose",
+      "submit"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "shelve",
+        "differenceTH": "shelve = พักเรื่องไว้ไม่พิจารณา ซึ่งตรงกับ table แบบอเมริกัน แต่ตรงข้ามกับ table แบบอังกฤษ"
+      },
+      {
+        "word": "submit",
+        "differenceTH": "submit = ยื่นเอกสาร/ใบสมัคร ใช้ได้กว้าง ส่วน table ใช้เฉพาะการยื่นญัตติ/ข้อเสนอเข้าที่ประชุม"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "The MPs tabulated an amendment to the bill.",
+        "right": "The MPs tabled an amendment to the bill.",
+        "whyTH": "tabulate = จัดข้อมูลเป็นตาราง คนละคำกับ table (ยื่นเสนอ)"
+      }
+    ],
+    "confusedWith": [
+      "tabulate",
+      "shelve"
+    ],
+    "topics": [
+      "current-affairs",
+      "law",
+      "workplace"
+    ],
+    "tags": [
+      "figurative",
+      "UK",
+      "US"
+    ],
+    "context": {
+      "text": "In Parliament yesterday, a group of Labour MPs [[tabled]] an amendment to the housing bill. It will be debated next week, and the government is expected to vote against it.",
+      "cluesTH": "'It will be debated next week' แปลว่าข้อเสนอถูกยื่นเข้าสู่การพิจารณา (ความหมายแบบอังกฤษ) ไม่ได้ถูกเลื่อนหรือเกี่ยวกับโต๊ะ"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "In the House of Commons, MPs ___ an amendment to the bill, which will be debated on Thursday.",
+        "answer": "tabled",
+        "distractors": [
+          "tabulated",
+          "booked",
+          "set"
+        ],
+        "whyTH": "table an amendment = ยื่นญัตติแก้ไขเพื่อพิจารณา (บริบทสภาอังกฤษ); tabulate = ทำเป็นตาราง; book ใช้กับการจอง; set ต้องมี out/forth จึงจะหมายถึงเสนอ"
+      },
+      "nearSyn": {
+        "sentence": "At Monday's board meeting in London, the finance director will ___ a proposal to cut travel spending, and staff will then be invited to discuss it.",
+        "answer": "table",
+        "distractors": [
+          {
+            "word": "shelve",
+            "whyNotTH": "shelve = พักเรื่องไว้ไม่พิจารณา ขัดกับ 'staff will then be invited to discuss it'"
+          },
+          {
+            "word": "adjourn",
+            "whyNotTH": "adjourn ใช้กับ meeting/trial (เลื่อนการประชุม) ไม่ใช้กับ proposal"
+          },
+          {
+            "word": "withdraw",
+            "whyNotTH": "withdraw = ถอนข้อเสนอ ขัดกับการที่จะนำมาอภิปราย"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'table' is A1–B2; the advanced sense 'present for discussion' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "shoulder|verb|accept burden",
+    "lemma": "shoulder",
+    "displayForm": "shoulder",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "accept burden",
+    "baseLemma": "shoulder",
+    "baseMeaningTH": "ไหล่",
+    "meaningEN": "to accept a difficult responsibility, blame or cost and deal with it",
+    "meaningTH": "รับภาระ ความรับผิดชอบ คำตำหนิ หรือค่าใช้จ่ายที่หนักไว้เอง",
+    "shortMeaningTH": "แบกรับ (ภาระ/ความผิด)",
+    "usageNoteTH": "ใช้กับคำนามที่เป็น 'ภาระ' เช่น the burden, the blame, responsibility, the cost; ให้ภาพว่าแบกของหนักไว้บนบ่า",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/ˈʃəʊldə(r)/",
+    "ipaUS": "/ˈʃoʊldər/",
+    "variant": "both",
+    "example": "Taxpayers will have to shoulder the cost of the failed project.",
+    "exampleTH": "ผู้เสียภาษีจะต้องแบกรับค่าใช้จ่ายของโครงการที่ล้มเหลวนี้",
+    "collocations": [
+      "shoulder the burden",
+      "shoulder the blame",
+      "shoulder responsibility",
+      "shoulder the cost"
+    ],
+    "synonyms": [
+      "bear",
+      "take on",
+      "carry"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "bear",
+        "differenceTH": "bear ทางการกว่าและใช้กับความเจ็บปวด/ค่าใช้จ่ายได้ ส่วน shoulder เน้นภาพการยอมรับภาระหนักมาไว้กับตัว"
+      },
+      {
+        "word": "accept",
+        "differenceTH": "accept กลาง ๆ ส่วน shoulder ให้ความรู้สึกว่าภาระนั้นหนักและอาจไม่ยุติธรรม"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "She shouldered on the responsibility.",
+        "right": "She shouldered the responsibility.",
+        "whyTH": "shoulder มีกรรมตรง ไม่ต้องใส่ on"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "workplace",
+      "economics",
+      "society"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "When the project failed, the manager refused to blame her team. Instead, she [[shouldered]] the responsibility herself and apologised to the client in person.",
+      "cluesTH": "'refused to blame her team' และ 'apologised ... herself' แสดงว่าเธอรับความรับผิดชอบไว้เอง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Small businesses should not have to ___ the burden of the new tax alone.",
+        "answer": "shoulder",
+        "distractors": [
+          "elbow",
+          "back",
+          "lift"
+        ],
+        "whyTH": "shoulder the burden = แบกภาระ; elbow = ใช้ศอกเบียด; back = สนับสนุน (back a plan); lift the burden = ปลดภาระออก ความหมายตรงข้าม ขัดกับ alone"
+      },
+      "nearSyn": {
+        "sentence": "Although several people were involved, the junior engineer was made to ___ all the blame for the accident.",
+        "answer": "shoulder",
+        "distractors": [
+          {
+            "word": "hold",
+            "whyNotTH": "hold ใช้ในรูป hold someone responsible ไม่ใช้ hold the blame"
+          },
+          {
+            "word": "assign",
+            "whyNotTH": "assign blame = โยนความผิดให้คนอื่น วิศวกรเป็นฝ่ายรับ ไม่ใช่ฝ่ายโยน"
+          },
+          {
+            "word": "suffer",
+            "whyNotTH": "suffer ใช้กับ consequences/losses ไม่ใช้กับ blame"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "แถลงการณ์อย่างเป็นทางการของคณะกรรมการบริษัทหลังเกิดความผิดพลาด",
+        "question": "Which sentence is most appropriate?",
+        "answer": "The board accepts that it must shoulder responsibility for these failings.",
+        "distractors": [
+          {
+            "text": "Yeah, OK, we messed up, our bad.",
+            "whyNotTH": "messed up และ our bad เป็นภาษาพูดแบบกันเอง ไม่เหมาะกับแถลงการณ์"
+          },
+          {
+            "text": "The board shoulders on the responsibility for these failings.",
+            "whyNotTH": "ผิดไวยากรณ์ shoulder ไม่ต้องใช้ on"
+          },
+          {
+            "text": "It wasn't really anyone's fault, to be honest.",
+            "whyNotTH": "ภาษาพูดและปัดความรับผิดชอบ ไม่เหมาะกับแถลงการณ์ยอมรับผิด"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'shoulder' is A1–B2; the advanced sense 'accept burden' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "weather|verb|survive difficulty",
+    "lemma": "weather",
+    "displayForm": "weather",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "survive difficulty",
+    "baseLemma": "weather",
+    "baseMeaningTH": "สภาพอากาศ / ดินฟ้าอากาศ",
+    "meaningEN": "to come safely through a difficult period or situation",
+    "meaningTH": "ผ่านพ้นช่วงเวลาหรือสถานการณ์ที่ยากลำบากมาได้โดยไม่ล้ม",
+    "shortMeaningTH": "ฝ่าฟันผ่านพ้น (วิกฤต)",
+    "usageNoteTH": "ใช้กับ crisis, storm, recession, downturn, criticism; weather the storm เป็นสำนวนเชิงเปรียบเทียบที่พบบ่อยมาก; ระวังสะกดสับสนกับ whether",
+    "register": "neutral",
+    "connotation": "positive",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/ˈweðə(r)/",
+    "ipaUS": "/ˈweðər/",
+    "variant": "both",
+    "example": "The company managed to weather the economic crisis without cutting a single job.",
+    "exampleTH": "บริษัทฝ่าวิกฤตเศรษฐกิจมาได้โดยไม่ต้องเลิกจ้างพนักงานเลยแม้แต่คนเดียว",
+    "collocations": [
+      "weather the storm",
+      "weather a crisis",
+      "weather the downturn",
+      "weather criticism"
+    ],
+    "synonyms": [
+      "survive",
+      "ride out",
+      "withstand",
+      "get through"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "survive",
+        "differenceTH": "survive = รอดชีวิต/อยู่รอด กว้างกว่า ส่วน weather เน้นผ่านช่วงยากลำบากชั่วคราวมาได้ในสภาพดี"
+      },
+      {
+        "word": "ride out",
+        "differenceTH": "ride out ความหมายใกล้กันมาก แต่ภาษาพูดกว่าเล็กน้อย"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "weathered",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We weathered through the crisis.",
+        "right": "We weathered the crisis.",
+        "whyTH": "weather มีกรรมตรง ไม่ต้องใส่ through (ต่างจาก get through)"
+      }
+    ],
+    "confusedWith": [
+      "whether"
+    ],
+    "topics": [
+      "economics",
+      "business"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Many small restaurants closed during the pandemic, but ours [[weathered]] the crisis by switching to takeaway and delivery. Today we are busier than ever.",
+      "cluesTH": "'Many ... closed, but ours ...' และ 'busier than ever' บอกว่าร้านผ่านพ้นวิกฤตมาได้"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "With strong cash reserves, the bank is well placed to ___ the storm.",
+        "answer": "weather",
+        "distractors": [
+          "whether",
+          "forecast",
+          "shelter"
+        ],
+        "whyTH": "weather the storm = ฝ่าพายุ/วิกฤตไปได้; whether เป็นคำสันธาน (สะกดคล้าย); forecast = พยากรณ์; shelter ต้องเป็น shelter from the storm"
+      },
+      "nearSyn": {
+        "sentence": "Thanks to loyal customers, the little bookshop ___ two difficult years of recession and is now expanding.",
+        "answer": "weathered",
+        "distractors": [
+          {
+            "word": "avoided",
+            "whyNotTH": "ร้านอยู่ในช่วงเศรษฐกิจถดถอยจริง จึงไม่ใช่การหลีกเลี่ยง"
+          },
+          {
+            "word": "suffered",
+            "whyNotTH": "suffered บอกแค่ว่าได้รับผลร้าย ไม่สื่อว่าผ่านพ้นมาได้ ซึ่งขัดกับ is now expanding"
+          },
+          {
+            "word": "prevented",
+            "whyNotTH": "ร้านเล็ก ๆ ป้องกันไม่ให้เกิดภาวะเศรษฐกิจถดถอยไม่ได้"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'weather' is A1–B2; the advanced sense 'survive difficulty' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "foot|verb|pay",
+    "lemma": "foot",
+    "displayForm": "foot (the bill)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "pay",
+    "baseLemma": "foot",
+    "baseMeaningTH": "เท้า",
+    "meaningEN": "to pay for something, especially something expensive that you think someone else should pay for",
+    "meaningTH": "เป็นคนจ่ายค่าใช้จ่าย มักเป็นเงินก้อนใหญ่ และมักรู้สึกว่าไม่ยุติธรรมที่ต้องจ่าย",
+    "shortMeaningTH": "ควักเงินจ่าย (ค่าใช้จ่าย)",
+    "usageNoteTH": "ใช้เกือบเฉพาะในวลี foot the bill (บางครั้ง foot the cost); มักแฝงความไม่พอใจว่าคนผิดฝาผิดตัวต้องจ่าย เช่น taxpayers foot the bill",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/fʊt/",
+    "ipaUS": "/fʊt/",
+    "variant": "both",
+    "example": "Why should taxpayers foot the bill for the minister's luxury holiday?",
+    "exampleTH": "ทำไมผู้เสียภาษีต้องเป็นคนจ่ายค่าเที่ยวหรูของรัฐมนตรีด้วย",
+    "collocations": [
+      "foot the bill",
+      "foot the cost",
+      "be left to foot the bill"
+    ],
+    "synonyms": [
+      "pay for",
+      "cover",
+      "pick up the bill"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "pay",
+        "differenceTH": "pay กลาง ๆ ส่วน foot the bill มักบอกว่าค่าใช้จ่ายสูงและผู้จ่ายไม่ควรต้องรับ"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "Who will foot for the bill?",
+        "right": "Who will foot the bill?",
+        "whyTH": "foot the bill ไม่มี for"
+      }
+    ],
+    "confusedWith": [
+      "toe the line"
+    ],
+    "topics": [
+      "economics",
+      "everyday"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The office party cost far more than planned, and in the end the employees were asked to [[foot]] the bill themselves, which made many of them angry.",
+      "cluesTH": "'cost far more' และ 'the bill' กับ 'angry' บอกว่าพนักงานถูกให้จ่ายเงินเอง ไม่เกี่ยวกับเท้า"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Parents are often left to ___ the bill for expensive school trips.",
+        "answer": "foot",
+        "distractors": [
+          "toe",
+          "hand",
+          "pick"
+        ],
+        "whyTH": "foot the bill = จ่ายค่าใช้จ่าย; toe ใช้ใน toe the line (ทำตามกฎ); hand someone the bill = ยื่นบิลให้ ไม่ใช่จ่าย; pick ต้องเป็น pick up the bill"
+      },
+      "nearSyn": {
+        "sentence": "When the concert was cancelled, it was the organisers, not the fans, who had to ___ the cost of the refunds.",
+        "answer": "foot",
+        "distractors": [
+          {
+            "word": "spend",
+            "whyNotTH": "spend ใช้กับ money/time (spend money on) ไม่ใช้ spend the cost"
+          },
+          {
+            "word": "afford",
+            "whyNotTH": "afford = มีเงินพอจะจ่าย ไม่ได้หมายถึงการเป็นผู้จ่าย"
+          },
+          {
+            "word": "charge",
+            "whyNotTH": "charge = เรียกเก็บเงินจากผู้อื่น ความหมายตรงข้าม"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'foot' is A1–B2; the advanced sense 'pay' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "harbour|verb|secretly hold feeling",
+    "lemma": "harbour",
+    "displayForm": "harbour",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "secretly hold feeling",
+    "baseLemma": "harbour",
+    "baseMeaningTH": "ท่าเรือ",
+    "meaningEN": "to keep a feeling, doubt or wish in your mind for a long time, often secretly",
+    "meaningTH": "เก็บความรู้สึก ความสงสัย หรือความทะเยอทะยานไว้ในใจเป็นเวลานาน มักไม่บอกใคร",
+    "shortMeaningTH": "เก็บ (ความรู้สึก) ไว้ในใจ",
+    "usageNoteTH": "สะกด harbour (อังกฤษ) / harbor (อเมริกัน); มักใช้กับความรู้สึกด้านลบหรือที่ซ่อนไว้ เช่น doubts, resentment, suspicions, a grudge และกับ ambitions/hopes; ไม่ใช้กับอารมณ์ชั่วขณะ เช่น happiness",
+    "register": "formal",
+    "connotation": "neutral",
+    "frequencyBand": 3,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈhɑːbə(r)/",
+    "ipaUS": "/ˈhɑːrbər/",
+    "variant": "both",
+    "example": "She had long harboured doubts about her business partner's honesty.",
+    "exampleTH": "เธอแอบสงสัยในความซื่อสัตย์ของหุ้นส่วนธุรกิจมานานแล้ว",
+    "collocations": [
+      "harbour doubts",
+      "harbour resentment",
+      "harbour suspicions",
+      "harbour ambitions",
+      "harbour a grudge"
+    ],
+    "synonyms": [
+      "nurse",
+      "hold",
+      "cherish"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "have",
+        "differenceTH": "have doubts กลาง ๆ ส่วน harbour doubts เน้นว่าเก็บไว้ในใจมานานและมักไม่เปิดเผย"
+      },
+      {
+        "word": "nurse",
+        "differenceTH": "nurse a grudge ใกล้กัน แต่ nurse เน้นการ 'หล่อเลี้ยง' ให้ความรู้สึกคงอยู่หรือแรงขึ้น"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "She harboured great happiness at the party.",
+        "right": "She felt very happy at the party.",
+        "whyTH": "harbour ใช้กับความรู้สึกที่เก็บไว้ลึก ๆ นาน ๆ ไม่ใช้กับอารมณ์ชั่วขณะ"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "psychology",
+      "relationships"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "On the surface, Tom seemed happy for his brother's success. Privately, however, he [[harboured]] a deep resentment that he had never been given the same chances.",
+      "cluesTH": "'On the surface ... Privately, however' บอกว่าความขุ่นเคืองนั้นถูกเก็บไว้ในใจ ไม่เกี่ยวกับท่าเรือ"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Investors have begun to ___ serious doubts about the company's accounts.",
+        "answer": "harbour",
+        "distractors": [
+          "dock",
+          "anchor",
+          "store"
+        ],
+        "whyTH": "harbour doubts = เก็บความสงสัยไว้ในใจ; dock และ anchor เป็นคำเกี่ยวกับเรือ ไม่ใช้กับความรู้สึก; store ใช้กับสิ่งของ/ข้อมูล ไม่ใช้กับ doubts"
+      },
+      "nearSyn": {
+        "sentence": "Even years after the divorce, he still ___ bitter feelings towards his ex-wife.",
+        "answer": "harbours",
+        "distractors": [
+          {
+            "word": "contains",
+            "whyNotTH": "contain ใช้กับสิ่งที่บรรจุอยู่ข้างใน (a box contains) หรือ 'ระงับ' อารมณ์ ไม่ใช่การเก็บความแค้นไว้"
+          },
+          {
+            "word": "shelters",
+            "whyNotTH": "shelter = ให้ที่พักพิงแก่คน/สัตว์ ไม่ใช้กับความรู้สึก"
+          },
+          {
+            "word": "saves",
+            "whyNotTH": "save ใช้กับเงิน เวลา ไฟล์ ไม่ใช้กับ bitter feelings"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'harbour' is A1–B2; the advanced sense 'secretly hold feeling' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "entertain|verb|consider idea",
+    "lemma": "entertain",
+    "displayForm": "entertain",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "consider idea",
+    "baseLemma": "entertain",
+    "baseMeaningTH": "ให้ความบันเทิง / ทำให้สนุก",
+    "meaningEN": "to be willing to consider an idea, suggestion or possibility",
+    "meaningTH": "ยอมพิจารณาหรือคิดถึงความคิด ข้อเสนอ หรือความเป็นไปได้หนึ่ง ๆ",
+    "shortMeaningTH": "ยอมพิจารณา (ความคิด)",
+    "usageNoteTH": "มักใช้ในประโยคปฏิเสธ เช่น refuse to / would not even entertain the idea; กรรมเป็น idea, possibility, notion, offer, proposal; ค่อนข้างทางการ",
+    "register": "formal",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˌentəˈteɪn/",
+    "ipaUS": "/ˌentərˈteɪn/",
+    "variant": "both",
+    "example": "The board refused to even entertain the idea of a merger.",
+    "exampleTH": "คณะกรรมการไม่ยอมแม้แต่จะพิจารณาความคิดเรื่องการควบรวมกิจการ",
+    "collocations": [
+      "entertain the idea",
+      "entertain the possibility",
+      "entertain the notion",
+      "entertain an offer",
+      "refuse to entertain"
+    ],
+    "synonyms": [
+      "consider",
+      "contemplate",
+      "countenance"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "consider",
+        "differenceTH": "consider กลาง ๆ ใช้ได้ทั่วไป ส่วน entertain ทางการกว่าและมักใช้แบบปฏิเสธ (won't entertain)"
+      },
+      {
+        "word": "contemplate",
+        "differenceTH": "contemplate = คิดใคร่ครวญอย่างจริงจัง ส่วน entertain = แค่ยอมเปิดใจรับฟัง"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "He would not entertain about the idea.",
+        "right": "He would not entertain the idea.",
+        "whyTH": "entertain มีกรรมตรง ไม่ต้องใช้ about"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "argumentation",
+      "workplace"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The manager was so sure his plan was right that he would not even [[entertain]] the possibility that it might fail, and he ignored every warning from his team.",
+      "cluesTH": "'so sure his plan was right' และ 'ignored every warning' บอกว่าเขาไม่ยอมแม้แต่จะคิดถึงความเป็นไปได้นั้น ไม่เกี่ยวกับความบันเทิง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "At first, she wouldn't even ___ the possibility of moving abroad.",
+        "answer": "entertain",
+        "distractors": [
+          "amuse",
+          "host",
+          "think"
+        ],
+        "whyTH": "entertain the possibility = ยอมพิจารณาความเป็นไปได้; amuse = ทำให้ขำ; host = เป็นเจ้าภาพ; think ต้องเป็น think about/of"
+      },
+      "nearSyn": {
+        "sentence": "He was too proud to ___ the notion that he might be wrong.",
+        "answer": "entertain",
+        "distractors": [
+          {
+            "word": "think",
+            "whyNotTH": "think ต้องตามด้วย about/of หรือ that ไม่ใช้กับกรรม the notion โดยตรง"
+          },
+          {
+            "word": "regard",
+            "whyNotTH": "regard ใช้ในโครงสร้าง regard X as Y ไม่ใช่การพิจารณาความคิด"
+          },
+          {
+            "word": "reckon",
+            "whyNotTH": "reckon เป็นภาษาพูด ใช้กับ that-clause (I reckon that...) ไม่ใช้กับ the notion"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "อีเมลตอบผู้รับเหมาที่ส่งข้อเสนอช้ากว่ากำหนด (ทางการ)",
+        "question": "Which sentence is most appropriate?",
+        "answer": "Unfortunately, we are unable to entertain proposals received after the deadline.",
+        "distractors": [
+          {
+            "text": "Sorry, mate, we're not into late stuff.",
+            "whyNotTH": "mate, into, stuff เป็นภาษาพูดกันเอง ไม่เหมาะกับอีเมลธุรกิจ"
+          },
+          {
+            "text": "Unfortunately, we cannot amuse proposals received after the deadline.",
+            "whyNotTH": "amuse หมายถึงทำให้ขำ ใช้ผิดความหมาย"
+          },
+          {
+            "text": "Nah, too late, forget it.",
+            "whyNotTH": "ห้วนและไม่สุภาพ ไม่เหมาะกับการติดต่อทางธุรกิจ"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'entertain' is A1–B2; the advanced sense 'consider idea' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "command|verb|deserve and get",
+    "lemma": "command",
+    "displayForm": "command",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "deserve and get",
+    "baseLemma": "command",
+    "baseMeaningTH": "สั่ง / ออกคำสั่ง",
+    "meaningEN": "to deserve and receive something such as respect, attention or a high price",
+    "meaningTH": "ได้รับ (ความเคารพ ความสนใจ หรือราคาสูง) เพราะมีคุณค่าหรือคุณสมบัติสมควรได้",
+    "shortMeaningTH": "ได้รับ (ความเคารพ/ราคาสูง)",
+    "usageNoteTH": "ใช้กับ respect, attention, loyalty, a high price, a premium, a salary; ประธานคือสิ่ง/คนที่มีคุณค่าในตัวเอง ไม่ต้องร้องขอ",
+    "register": "formal",
+    "connotation": "positive",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/kəˈmɑːnd/",
+    "ipaUS": "/kəˈmænd/",
+    "variant": "both",
+    "example": "As a surgeon, she commands enormous respect among her colleagues.",
+    "exampleTH": "ในฐานะศัลยแพทย์ เธอได้รับความเคารพอย่างสูงจากเพื่อนร่วมงาน",
+    "collocations": [
+      "command respect",
+      "command a high price",
+      "command a premium",
+      "command attention",
+      "command a salary"
+    ],
+    "synonyms": [
+      "earn",
+      "attract",
+      "receive"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "demand",
+        "differenceTH": "demand respect = เรียกร้องให้คนอื่นเคารพ (อาจยังไม่สมควร) ส่วน command respect = ได้รับความเคารพเองเพราะสมควร"
+      },
+      {
+        "word": "earn",
+        "differenceTH": "earn เน้นว่าได้มาจากความพยายาม ส่วน command เน้นว่าคุณสมบัติทำให้คนอื่นให้โดยธรรมชาติ"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "commanding",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He commands for respect wherever he goes.",
+        "right": "He commands respect wherever he goes.",
+        "whyTH": "command มีกรรมตรง ไม่ต้องใช้ for"
+      }
+    ],
+    "confusedWith": [
+      "demand"
+    ],
+    "topics": [
+      "business",
+      "workplace",
+      "economics"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Houses in this quiet, leafy area are rarely for sale, so when one does come onto the market, it can [[command]] a very high price.",
+      "cluesTH": "'rarely for sale' (หายาก) และ 'a very high price' บอกว่าบ้านขายได้ราคาสูง ไม่เกี่ยวกับการออกคำสั่ง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Engineers with AI experience can ___ salaries well above the industry average.",
+        "answer": "command",
+        "distractors": [
+          "order",
+          "direct",
+          "instruct"
+        ],
+        "whyTH": "command a salary = ได้รับเงินเดือนสูงเพราะคุณสมบัติ; order, direct, instruct ล้วนหมายถึง 'สั่ง' ซึ่งเป็นความหมายพื้นฐาน ใช้กับ salary ไม่ได้"
+      },
+      "nearSyn": {
+        "sentence": "She never raises her voice, yet she ___ the respect of everyone in the room.",
+        "answer": "commands",
+        "distractors": [
+          {
+            "word": "demands",
+            "whyNotTH": "demand = เรียกร้อง ขัดกับ 'never raises her voice' ที่บอกว่าเธอไม่ต้องร้องขอ"
+          },
+          {
+            "word": "requires",
+            "whyNotTH": "require = ต้องการ/จำเป็นต้องมี ไม่ได้หมายถึงได้รับ"
+          },
+          {
+            "word": "claims",
+            "whyNotTH": "claim the respect ไม่เป็นคู่คำที่เป็นธรรมชาติ"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'command' is A1–B2; the advanced sense 'deserve and get' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "mount|verb|increase gradually",
+    "lemma": "mount",
+    "displayForm": "mount",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "increase gradually",
+    "baseLemma": "mount",
+    "baseMeaningTH": "ขึ้นขี่ (ม้า/จักรยาน) / ติดตั้ง",
+    "meaningEN": "(of pressure, tension, costs, evidence) to increase gradually",
+    "meaningTH": "ค่อย ๆ เพิ่มขึ้นสะสมเรื่อย ๆ (ใช้กับแรงกดดัน ความตึงเครียด ค่าใช้จ่าย หลักฐาน)",
+    "shortMeaningTH": "ค่อย ๆ เพิ่มขึ้น",
+    "usageNoteTH": "ในความหมายนี้เป็นกริยาไม่มีกรรม มักใช้ใน continuous (pressure is mounting) หรือรูป adjective mounting (mounting evidence/concern); costs mount up ใช้กับค่าใช้จ่าย",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/maʊnt/",
+    "ipaUS": "/maʊnt/",
+    "variant": "both",
+    "example": "Pressure is mounting on the prime minister to resign.",
+    "exampleTH": "แรงกดดันให้นายกรัฐมนตรีลาออกกำลังเพิ่มขึ้นเรื่อย ๆ",
+    "collocations": [
+      "pressure mounts",
+      "mounting evidence",
+      "mounting concern",
+      "tension mounts",
+      "costs mount up"
+    ],
+    "synonyms": [
+      "grow",
+      "increase",
+      "build",
+      "escalate"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "rise",
+        "differenceTH": "rise ใช้กับตัวเลข ราคา อุณหภูมิ ส่วน mount ใช้กับสิ่งที่สะสม เช่น แรงกดดัน ความกังวล หลักฐาน"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "mounting",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pressure is mounted on the government.",
+        "right": "Pressure is mounting on the government.",
+        "whyTH": "ความหมาย 'เพิ่มขึ้น' เป็นกริยาไม่มีกรรม ใช้ passive ไม่ได้"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "current-affairs",
+      "cause-effect"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "As the deadline approached and the work was still unfinished, tension in the office continued to [[mount]]. By Friday, people had stopped speaking to each other.",
+      "cluesTH": "'deadline approached', 'continued to' และ 'By Friday ... stopped speaking' แสดงว่าความตึงเครียดค่อย ๆ เพิ่มขึ้น"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "There is ___ evidence that the drug has serious side effects.",
+        "answer": "mounting",
+        "distractors": [
+          "climbing",
+          "riding",
+          "lifting"
+        ],
+        "whyTH": "mounting evidence = หลักฐานที่สะสมเพิ่มขึ้นเรื่อย ๆ; climbing ใช้กับตัวเลข/ราคา; riding และ lifting ไม่ใช้บรรยาย evidence"
+      },
+      "nearSyn": {
+        "sentence": "As the search for the missing children entered its third day, public concern ___.",
+        "answer": "mounted",
+        "distractors": [
+          {
+            "word": "raised",
+            "whyNotTH": "raise ต้องมีกรรม (raise concern) ใช้ลอย ๆ ไม่ได้"
+          },
+          {
+            "word": "arose",
+            "whyNotTH": "arise = เกิดขึ้น (เริ่มมี) ไม่ได้สื่อว่าค่อย ๆ เพิ่มขึ้นตามวันที่ผ่านไป"
+          },
+          {
+            "word": "lifted",
+            "whyNotTH": "lift (อารมณ์) = ดีขึ้น/ผ่อนคลาย ความหมายตรงข้าม"
+          }
+        ]
+      },
+      "formation": {
+        "sentence": "Despite ___ pressure from investors, the CEO refused to step down.",
+        "root": "mount",
+        "answer": "mounting",
+        "accepted": [
+          "mounting"
+        ],
+        "options": [
+          "mounting",
+          "mounted",
+          "mountable",
+          "mount"
+        ]
+      },
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'mount' is A1–B2; the advanced sense 'increase gradually' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "flag|verb|draw attention",
+    "lemma": "flag",
+    "displayForm": "flag",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "draw attention",
+    "baseLemma": "flag",
+    "baseMeaningTH": "ธง",
+    "meaningEN": "to point out a problem or issue so that people notice it and deal with it",
+    "meaningTH": "ชี้หรือทำเครื่องหมายให้คนอื่นสังเกตเห็นปัญหาหรือประเด็นที่ควรตรวจสอบ/แก้ไข",
+    "shortMeaningTH": "แจ้ง/ชี้ให้เห็น (ปัญหา)",
+    "usageNoteTH": "พบบ่อยมากในที่ทำงานและระบบคอมพิวเตอร์ (flag a transaction, flag an email); อังกฤษนิยม flag up; I just wanted to flag that... เป็นสำนวนแจ้งเรื่องอย่างสุภาพ",
+    "register": "professional",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/flæɡ/",
+    "ipaUS": "/flæɡ/",
+    "variant": "both",
+    "example": "The software automatically flags suspicious transactions for review.",
+    "exampleTH": "ซอฟต์แวร์จะทำเครื่องหมายธุรกรรมที่น่าสงสัยโดยอัตโนมัติเพื่อให้ตรวจสอบ",
+    "collocations": [
+      "flag a problem",
+      "flag up an issue",
+      "flag concerns",
+      "flag something for review"
+    ],
+    "synonyms": [
+      "highlight",
+      "point out",
+      "raise",
+      "draw attention to"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "highlight",
+        "differenceTH": "highlight = เน้นให้เห็นความสำคัญ (อาจเป็นเรื่องดี) ส่วน flag = ชี้ว่ามีสิ่งที่ต้องตรวจสอบหรืออาจเป็นปัญหา"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "I want to flag on an issue with the budget.",
+        "right": "I want to flag (up) an issue with the budget.",
+        "whyTH": "flag มีกรรมตรง หรือใช้ flag up ไม่ใช้ on"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "workplace",
+      "technology",
+      "communication"
+    ],
+    "tags": [
+      "figurative",
+      "business"
+    ],
+    "context": {
+      "text": "Before the report was published, an editor [[flagged]] several figures that didn't match the original data, so the team checked them all again.",
+      "cluesTH": "'figures that didn't match' และ 'checked them all again' แสดงว่าบรรณาธิการชี้จุดที่ผิดปกติให้ทีมเห็น"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Please ___ any errors you notice so we can fix them before the launch.",
+        "answer": "flag",
+        "distractors": [
+          "wave",
+          "hoist",
+          "pin"
+        ],
+        "whyTH": "flag errors = แจ้ง/ชี้ข้อผิดพลาด; wave และ hoist ใช้กับธงจริง (โบก/ชักธง); pin = ปักหมุด ไม่ใช้กับ errors"
+      },
+      "nearSyn": {
+        "sentence": "The auditor ___ several unusual payments as needing further investigation.",
+        "answer": "flagged",
+        "distractors": [
+          {
+            "word": "noticed",
+            "whyNotTH": "notice X as needing ไม่เป็นโครงสร้างที่ถูก และ notice แค่ 'เห็น' ไม่ได้แจ้งให้คนอื่นรู้"
+          },
+          {
+            "word": "announced",
+            "whyNotTH": "announce = ประกาศต่อสาธารณะ ไม่ใช่การทำเครื่องหมายเพื่อตรวจสอบภายใน"
+          },
+          {
+            "word": "underlined",
+            "whyNotTH": "underline (ความหมายเปรียบ) = เน้นย้ำประเด็น ใช้กับ importance/need ไม่ใช่กับรายการที่ต้องตรวจสอบ"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "ข้อความ Slack ถึงหัวหน้าเพื่อแจ้งปัญหาอย่างสุภาพแบบมืออาชีพ",
+        "question": "Which sentence is most appropriate?",
+        "answer": "Just wanted to flag that the client still hasn't signed the contract.",
+        "distractors": [
+          {
+            "text": "Yo boss, client's ghosting us lol.",
+            "whyNotTH": "yo, ghosting, lol เป็นภาษาแชตกับเพื่อน ไม่เป็นมืออาชีพ"
+          },
+          {
+            "text": "I hereby formally notify you of the non-execution of the contract by the client.",
+            "whyNotTH": "ทางการเกินไปเหมือนเอกสารกฎหมาย ไม่เหมาะกับ Slack"
+          },
+          {
+            "text": "Just wanted to wave that the client still hasn't signed.",
+            "whyNotTH": "wave ใช้ผิดความหมาย ต้องเป็น flag"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'flag' is A1–B2; the advanced sense 'draw attention' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "cement|verb|strengthen",
+    "lemma": "cement",
+    "displayForm": "cement",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "strengthen",
+    "baseLemma": "cement",
+    "baseMeaningTH": "ปูนซีเมนต์",
+    "meaningEN": "to make a relationship, reputation or position stronger and more lasting",
+    "meaningTH": "ทำให้ความสัมพันธ์ ชื่อเสียง หรือสถานะมั่นคงแน่นแฟ้นและยั่งยืนขึ้น",
+    "shortMeaningTH": "ทำให้มั่นคงแน่นแฟ้น",
+    "usageNoteTH": "ใช้กับ relationship, friendship, ties, reputation, position, status; ให้ภาพเหมือนปูนที่ยึดให้แน่น; พบบ่อยในข่าวการเมือง กีฬา และธุรกิจ",
+    "register": "neutral",
+    "connotation": "positive",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/sɪˈment/",
+    "ipaUS": "/sɪˈment/",
+    "variant": "both",
+    "example": "The trade agreement further cemented ties between the two countries.",
+    "exampleTH": "ข้อตกลงการค้าทำให้ความสัมพันธ์ระหว่างสองประเทศแน่นแฟ้นยิ่งขึ้น",
+    "collocations": [
+      "cement a relationship",
+      "cement ties",
+      "cement a reputation",
+      "cement a position",
+      "cement a friendship"
+    ],
+    "synonyms": [
+      "strengthen",
+      "consolidate",
+      "solidify"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "strengthen",
+        "differenceTH": "strengthen กว้างและกลาง ๆ ส่วน cement เน้นทำให้แน่นและถาวร มักหลังเหตุการณ์สำคัญ"
+      },
+      {
+        "word": "consolidate",
+        "differenceTH": "consolidate ทางการกว่า มักใช้กับ position/power/market share"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "The trip cemented up their friendship.",
+        "right": "The trip cemented their friendship.",
+        "whyTH": "cement ไม่ต้องมี up"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "relationships",
+      "current-affairs",
+      "business"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The singer was already popular, but her third album, which sold ten million copies, [[cemented]] her reputation as one of the biggest stars of her generation.",
+      "cluesTH": "'already popular, but ... sold ten million copies' บอกว่าอัลบั้มทำให้ชื่อเสียงที่มีอยู่แล้วมั่นคงยิ่งขึ้น"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The victory ___ his position as the best player in the world.",
+        "answer": "cemented",
+        "distractors": [
+          "concreted",
+          "plastered",
+          "glued"
+        ],
+        "whyTH": "cement a position = ทำให้สถานะมั่นคง; concrete, plaster, glue เป็นวัสดุก่อสร้าง/กาวจริง ไม่มีความหมายเชิงเปรียบนี้"
+      },
+      "nearSyn": {
+        "sentence": "Working together through the crisis ___ the bond between the two teams.",
+        "answer": "cemented",
+        "distractors": [
+          {
+            "word": "fixed",
+            "whyNotTH": "fix = ซ่อมสิ่งที่เสีย แต่ประโยคไม่ได้บอกว่าความสัมพันธ์เคยเสีย"
+          },
+          {
+            "word": "hardened",
+            "whyNotTH": "harden ใช้กับทัศนคติ (hardened attitudes) ในแง่ลบ เช่น ใจแข็งกระด้าง"
+          },
+          {
+            "word": "set",
+            "whyNotTH": "set ใช้กับปูนหรือวุ้นที่แข็งตัวเอง (the concrete set) ไม่ใช้กับ the bond ในความหมายนี้"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'cement' is A1–B2; the advanced sense 'strengthen' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "cast|verb|cast doubt",
+    "lemma": "cast",
+    "displayForm": "cast (doubt on)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "cast doubt",
+    "baseLemma": "cast",
+    "baseMeaningTH": "โยน / ขว้าง",
+    "meaningEN": "to make something seem less certain, true or reliable",
+    "meaningTH": "ทำให้สิ่งหนึ่งดูไม่แน่นอน น่าสงสัย หรือน่าเชื่อถือน้อยลง",
+    "shortMeaningTH": "ทำให้เกิดข้อสงสัย",
+    "usageNoteTH": "ใช้ในรูป cast doubt on sth (มักมีหลักฐานหรือข้อมูลใหม่เป็นประธาน); ในตระกูลเดียวกันมี cast light on (ทำให้กระจ่าง), cast a shadow over (ทำให้มัวหมอง), cast suspicion on; รูปอดีต cast ไม่เปลี่ยน",
+    "register": "formal",
+    "connotation": "negative",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/kɑːst/",
+    "ipaUS": "/kæst/",
+    "variant": "both",
+    "example": "New evidence has cast doubt on the suspect's alibi.",
+    "exampleTH": "หลักฐานใหม่ทำให้คำอ้างที่อยู่ของผู้ต้องสงสัยน่าสงสัยขึ้นมา",
+    "collocations": [
+      "cast doubt on",
+      "cast serious doubt on",
+      "cast light on",
+      "cast a shadow over",
+      "cast suspicion on"
+    ],
+    "synonyms": [
+      "call into question",
+      "undermine",
+      "raise doubts about"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "question",
+        "differenceTH": "question = ตั้งคำถามอย่างตรง ๆ (ผู้ทำเป็นคน) ส่วน cast doubt on = ทำให้ดูไม่แน่นอน มักเกิดจากหลักฐาน"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "The report casts doubt about the figures.",
+        "right": "The report casts doubt on the figures.",
+        "whyTH": "ใช้ cast doubt on ไม่ใช่ about/to"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "current-affairs",
+      "argumentation",
+      "science"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Everyone trusted the study's results until another team tried to repeat the experiment and failed. Their findings have [[cast]] serious doubt on the original research.",
+      "cluesTH": "'another team ... failed' และ 'serious doubt' แสดงว่าผลการทดลองใหม่ทำให้งานวิจัยเดิมน่าสงสัย ไม่เกี่ยวกับการขว้างหรือนักแสดง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "A leaked email has ___ doubt on the minister's version of events.",
+        "answer": "cast",
+        "distractors": [
+          "put",
+          "dropped",
+          "made"
+        ],
+        "whyTH": "cast doubt on = ทำให้เกิดข้อสงสัย เป็นคู่คำตายตัว; put/drop/make doubt on ไม่ใช่คู่คำที่เจ้าของภาษาใช้"
+      },
+      "nearSyn": {
+        "sentence": "The latest unemployment figures ___ a shadow over the government's economic plans.",
+        "answer": "cast",
+        "distractors": [
+          {
+            "word": "drew",
+            "whyNotTH": "draw ใช้กับ attention/conclusion ไม่ใช้ draw a shadow over"
+          },
+          {
+            "word": "placed",
+            "whyNotTH": "place a shadow ไม่ใช่สำนวน ต้องเป็น cast a shadow over"
+          },
+          {
+            "word": "made",
+            "whyNotTH": "make a shadow ใช้กับเงาจริง ไม่ใช่ความหมายเปรียบว่าทำให้มัวหมอง"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'cast' is A1–B2; the advanced sense 'cast doubt' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "deliver|verb|fulfil promise",
+    "lemma": "deliver",
+    "displayForm": "deliver (on)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "fulfil promise",
+    "baseLemma": "deliver",
+    "baseMeaningTH": "ส่ง (ของ/พัสดุ)",
+    "meaningEN": "to do what you promised or what people expected; to produce the expected results",
+    "meaningTH": "ทำได้ตามที่สัญญาไว้หรือตามที่คนคาดหวัง; ให้ผลลัพธ์ตามที่ต้องการ",
+    "shortMeaningTH": "ทำได้ตามที่สัญญา",
+    "usageNoteTH": "ใช้ deliver on + a promise/pledge/expectations หรือใช้ลอย ๆ (He delivered.) และ deliver results; fail to deliver พบบ่อยมากในข่าวการเมืองและธุรกิจ",
+    "register": "neutral",
+    "connotation": "positive",
+    "frequencyBand": 5,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/dɪˈlɪvə(r)/",
+    "ipaUS": "/dɪˈlɪvər/",
+    "variant": "both",
+    "example": "Voters are tired of politicians who fail to deliver on their promises.",
+    "exampleTH": "ผู้มีสิทธิเลือกตั้งเบื่อนักการเมืองที่ทำไม่ได้ตามที่สัญญาไว้",
+    "collocations": [
+      "deliver on a promise",
+      "deliver results",
+      "fail to deliver",
+      "deliver on expectations"
+    ],
+    "synonyms": [
+      "fulfil",
+      "keep (a promise)",
+      "live up to"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "keep",
+        "differenceTH": "keep a promise ไม่มี on และเน้นการรักษาคำพูด ส่วน deliver on เน้นว่าทำให้เกิดผลจริงตามที่สัญญา"
+      },
+      {
+        "word": "fulfil",
+        "differenceTH": "fulfil ทางการกว่า ใช้กับ promise/obligation/dream โดยไม่มี on"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "delivery",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The company didn't deliver its promise.",
+        "right": "The company didn't deliver on its promise.",
+        "whyTH": "ความหมาย 'ทำตามสัญญา' ต้องใช้ deliver on"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "current-affairs",
+      "business",
+      "evaluation"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "When he arrived, the new coach promised to win the league within two years. He [[delivered]]: the team became champions in his second season.",
+      "cluesTH": "'promised to win ... within two years' ตามด้วย 'became champions in his second season' แสดงว่าทำได้ตามสัญญา"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The new phone is expensive, but it really ___ on performance.",
+        "answer": "delivers",
+        "distractors": [
+          "sends",
+          "ships",
+          "posts"
+        ],
+        "whyTH": "deliver on performance = ให้ผลตามที่คาดหวัง; send, ship, post เป็นความหมายพื้นฐานเรื่องการส่งของ ใช้กับ on performance ไม่ได้"
+      },
+      "nearSyn": {
+        "sentence": "The government has been criticised for failing to ___ on its promise to build more affordable homes.",
+        "answer": "deliver",
+        "distractors": [
+          {
+            "word": "keep",
+            "whyNotTH": "keep a promise ไม่มี on (keep on = ทำต่อไปเรื่อย ๆ ความหมายเปลี่ยน)"
+          },
+          {
+            "word": "perform",
+            "whyNotTH": "ไม่มีรูป perform on a promise ในภาษาอังกฤษ; ต้องใช้ deliver on a promise"
+          },
+          {
+            "word": "honour",
+            "whyNotTH": "honour a promise ไม่มี on"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'deliver' is A1–B2; the advanced sense 'fulfil promise' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "credit|verb|attribute quality",
+    "lemma": "credit",
+    "displayForm": "credit (somebody with)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "attribute quality",
+    "baseLemma": "credit",
+    "baseMeaningTH": "เครดิต / สินเชื่อ",
+    "meaningEN": "to believe that someone has a particular good quality, or that they did something good",
+    "meaningTH": "เชื่อหรือยอมรับว่าใครบางคนมีคุณสมบัติดีบางอย่าง หรือเป็นผู้ทำสิ่งดีนั้น",
+    "shortMeaningTH": "ยกให้ว่ามี (คุณสมบัติ/ผลงาน)",
+    "usageNoteTH": "โครงสร้าง credit sb with sth (คน + with + คุณสมบัติ/ผลงาน) หรือ passive be credited with doing sth; Please credit me with some intelligence = อย่าดูถูกสติปัญญาฉัน",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 4,
+    "ipaUK": "/ˈkredɪt/",
+    "ipaUS": "/ˈkredɪt/",
+    "variant": "both",
+    "example": "She is widely credited with saving the company from bankruptcy.",
+    "exampleTH": "เธอได้รับการยกย่องอย่างกว้างขวางว่าเป็นผู้ช่วยให้บริษัทรอดพ้นจากการล้มละลาย",
+    "collocations": [
+      "credit sb with",
+      "be credited with",
+      "credit sb with intelligence",
+      "widely credited with"
+    ],
+    "synonyms": [
+      "attribute to",
+      "ascribe to",
+      "recognise"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "attribute",
+        "differenceTH": "attribute ใช้โครงสร้างกลับกัน: attribute X to sb (สิ่ง to คน) ส่วน credit sb with X (คน with สิ่ง)"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "creditable",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I didn't credit him of such patience.",
+        "right": "I didn't credit him with such patience.",
+        "whyTH": "ต้องใช้ credit sb with ไม่ใช่ of"
+      }
+    ],
+    "confusedWith": [
+      "accredit"
+    ],
+    "topics": [
+      "evaluation",
+      "communication"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "I'm not a child, so please [[credit]] me with some intelligence. I know the 'free gift' isn't really free.",
+      "cluesTH": "'I'm not a child' และ 'some intelligence' แสดงว่าผู้พูดขอให้อีกฝ่ายเชื่อว่าตนมีสติปัญญา ไม่เกี่ยวกับเงินหรือบัตรเครดิต"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Historians ___ her with transforming the country's hospital system.",
+        "answer": "credit",
+        "distractors": [
+          "thank",
+          "praise",
+          "owe"
+        ],
+        "whyTH": "credit sb with doing sth = ยกให้ว่าเป็นผู้ทำ; thank/praise ใช้กับ for ไม่ใช่ with; owe ใช้ owe sth to sb"
+      },
+      "nearSyn": {
+        "sentence": "Many people ___ Tim Berners-Lee with inventing the World Wide Web.",
+        "answer": "credit",
+        "distractors": [
+          {
+            "word": "attribute",
+            "whyNotTH": "attribute ต้องใช้ attribute the invention to sb ไม่ใช้ sb with"
+          },
+          {
+            "word": "ascribe",
+            "whyNotTH": "ascribe ใช้ ascribe X to Y เช่นเดียวกับ attribute ไม่ใช้ with"
+          },
+          {
+            "word": "acknowledge",
+            "whyNotTH": "acknowledge sb as ... ได้ แต่ไม่ใช้ acknowledge sb with"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'credit' is A1–B2; the advanced sense 'attribute quality' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "frame|verb|present in way",
+    "lemma": "frame",
+    "displayForm": "frame",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "present in way",
+    "baseLemma": "frame",
+    "baseMeaningTH": "กรอบ (รูป/หน้าต่าง)",
+    "meaningEN": "to express or present an idea, question or issue in a particular way, which affects how people understand it",
+    "meaningTH": "นำเสนอหรือเรียบเรียงความคิด คำถาม หรือประเด็นในมุมใดมุมหนึ่ง ซึ่งส่งผลต่อการตีความของผู้ฟัง",
+    "shortMeaningTH": "นำเสนอในกรอบ/มุมหนึ่ง",
+    "usageNoteTH": "frame sth as sth (frame the debate as a choice between...) พบบ่อยในการเมือง สื่อ และวิชาการ; ระวัง frame someone = ใส่ร้ายให้ดูเหมือนทำผิด ซึ่งเป็นอีกความหมายหนึ่ง",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/freɪm/",
+    "ipaUS": "/freɪm/",
+    "variant": "both",
+    "example": "How you frame the question can change the answer people give.",
+    "exampleTH": "วิธีที่คุณตั้งหรือเรียบเรียงคำถามสามารถเปลี่ยนคำตอบที่ผู้คนให้ได้",
+    "collocations": [
+      "frame a question",
+      "frame the debate",
+      "frame an issue as",
+      "frame sth in terms of"
+    ],
+    "synonyms": [
+      "present",
+      "phrase",
+      "formulate",
+      "cast"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "phrase",
+        "differenceTH": "phrase = เลือกถ้อยคำ ส่วน frame = วางมุมมองหรือกรอบคิดที่กำหนดการตีความทั้งเรื่อง"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "framing",
+        "pos": "noun"
+      },
+      {
+        "form": "framework",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "They framed the issue like a crisis.",
+        "right": "They framed the issue as a crisis.",
+        "whyTH": "ใช้ frame sth as sth ไม่ใช่ like"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "media",
+      "argumentation",
+      "communication"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Politicians who oppose the new plan have [[framed]] it as a tax on working families, while supporters describe it as an investment in clean energy.",
+      "cluesTH": "สองฝ่ายพูดถึงแผนเดียวกันต่างกัน ('as a tax' vs 'describe it as an investment') แสดงว่า frame คือการนำเสนอในมุมหนึ่ง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The debate was ___ as a simple choice between jobs and the environment.",
+        "answer": "framed",
+        "distractors": [
+          "bordered",
+          "boxed",
+          "edged"
+        ],
+        "whyTH": "be framed as = ถูกนำเสนอในกรอบว่า; bordered, boxed, edged เกี่ยวกับขอบหรือกล่องจริง ไม่มีความหมายเปรียบเรื่องการนำเสนอ"
+      },
+      "nearSyn": {
+        "sentence": "The newspaper ___ the protest as a threat to public order, rather than as a peaceful demonstration.",
+        "answer": "framed",
+        "distractors": [
+          {
+            "word": "worded",
+            "whyNotTH": "word ใช้กับ letter/question (เลือกถ้อยคำ) ไม่ใช้ word X as Y กับเหตุการณ์"
+          },
+          {
+            "word": "termed",
+            "whyNotTH": "term ใช้โดยไม่มี as (termed it a threat) และหมายถึงแค่การเรียกชื่อ"
+          },
+          {
+            "word": "voiced",
+            "whyNotTH": "voice ใช้กับ concern/opinion (แสดงความเห็น) ไม่ใช้ voice X as Y"
+          }
+        ]
+      },
+      "formation": {
+        "sentence": "Researchers argue that the media's ___ of the issue influenced public opinion.",
+        "root": "frame",
+        "answer": "framing",
+        "accepted": [
+          "framing"
+        ],
+        "options": [
+          "framing",
+          "framed",
+          "framework",
+          "frames"
+        ]
+      },
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'frame' is A1–B2; the advanced sense 'present in way' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "fuel|verb|intensify",
+    "lemma": "fuel",
+    "displayForm": "fuel",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "intensify",
+    "baseLemma": "fuel",
+    "baseMeaningTH": "เชื้อเพลิง / น้ำมัน",
+    "meaningEN": "to make a feeling, belief or situation stronger or more intense, often a negative one",
+    "meaningTH": "ทำให้ความรู้สึก ความเชื่อ หรือสถานการณ์ (มักเป็นด้านลบ) รุนแรงหรือแพร่หลายมากขึ้น เหมือนเติมเชื้อเพลิงให้ไฟ",
+    "shortMeaningTH": "โหมกระพือ / ทำให้รุนแรงขึ้น",
+    "usageNoteTH": "ใช้กับ speculation, rumours, fears, anger, tension, inflation, demand; สะกด fuelled (อังกฤษ) / fueled (อเมริกัน); สำนวนใกล้เคียง add fuel to the fire",
+    "register": "neutral",
+    "connotation": "negative",
+    "frequencyBand": 5,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/ˈfjuːəl/",
+    "ipaUS": "/ˈfjuːəl/",
+    "variant": "both",
+    "example": "The minister's sudden resignation fuelled speculation about a split in the party.",
+    "exampleTH": "การลาออกกะทันหันของรัฐมนตรีโหมกระพือการคาดเดาว่าพรรคกำลังแตกแยก",
+    "collocations": [
+      "fuel speculation",
+      "fuel fears",
+      "fuel anger",
+      "fuel rumours",
+      "fuel inflation"
+    ],
+    "synonyms": [
+      "stoke",
+      "feed",
+      "intensify",
+      "inflame"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "cause",
+        "differenceTH": "cause = ทำให้เกิดขึ้น ส่วน fuel = ทำให้สิ่งที่มีอยู่แล้วรุนแรงขึ้น"
+      },
+      {
+        "word": "stoke",
+        "differenceTH": "stoke ความหมายใกล้กันมาก ให้ภาพการเขี่ยไฟให้ลุก ใช้บ่อยกับ fears/tensions"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "His comments fuelled to the rumours.",
+        "right": "His comments fuelled the rumours.",
+        "whyTH": "fuel มีกรรมตรง ไม่ต้องใช้ to"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "media",
+      "current-affairs",
+      "cause-effect"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The actor was seen leaving a hospital on Monday, and his refusal to answer reporters' questions only [[fuelled]] rumours that he was seriously ill.",
+      "cluesTH": "'only ... rumours' แสดงว่าการไม่ตอบคำถามยิ่งทำให้ข่าวลือแรงขึ้น ไม่เกี่ยวกับน้ำมันหรือการเติมเชื้อเพลิงจริง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Rising food prices have ___ public anger across the country.",
+        "answer": "fuelled",
+        "distractors": [
+          "powered",
+          "charged",
+          "oiled"
+        ],
+        "whyTH": "fuel anger = โหมความโกรธ; power ใช้กับเครื่องจักร; charge ใช้กับแบตเตอรี่ (emotionally charged เป็นรูป adjective); oil = หยอดน้ำมันเครื่องจักร"
+      },
+      "nearSyn": {
+        "sentence": "The company's silence about the data leak only ___ suspicions that it had something to hide.",
+        "answer": "fuelled",
+        "distractors": [
+          {
+            "word": "rose",
+            "whyNotTH": "rise เป็นกริยาไม่มีกรรม ใช้ rose suspicions ไม่ได้"
+          },
+          {
+            "word": "grew",
+            "whyNotTH": "grow ในความหมายเพิ่มขึ้นเป็นกริยาไม่มีกรรม (suspicions grew) วางกรรมตามไม่ได้"
+          },
+          {
+            "word": "supplied",
+            "whyNotTH": "supply ใช้กับสินค้า/ข้อมูล ไม่ใช่กับ suspicions"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'fuel' is A1–B2; the advanced sense 'intensify' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "champion|verb|support publicly",
+    "lemma": "champion",
+    "displayForm": "champion",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "support publicly",
+    "baseLemma": "champion",
+    "baseMeaningTH": "แชมป์ / ผู้ชนะเลิศ",
+    "meaningEN": "to publicly support and fight for a cause, group or idea",
+    "meaningTH": "สนับสนุนและต่อสู้เพื่ออุดมการณ์ กลุ่มคน หรือแนวคิดหนึ่งอย่างเปิดเผยและจริงจัง",
+    "shortMeaningTH": "ออกหน้าสนับสนุน (อุดมการณ์)",
+    "usageNoteTH": "ใช้กับ cause, rights, reform, the poor, an idea; น้ำเสียงชื่นชม; รูปนามคือ a champion of sth (ผู้สนับสนุน) ไม่ใช่ champion for",
+    "register": "neutral",
+    "connotation": "approving",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈtʃæmpiən/",
+    "ipaUS": "/ˈtʃæmpiən/",
+    "variant": "both",
+    "example": "She has championed the rights of disabled workers for over twenty years.",
+    "exampleTH": "เธอต่อสู้เพื่อสิทธิของแรงงานผู้พิการมากว่ายี่สิบปี",
+    "collocations": [
+      "champion a cause",
+      "champion the rights of",
+      "champion reform",
+      "champion an idea"
+    ],
+    "synonyms": [
+      "advocate",
+      "promote",
+      "stand up for",
+      "campaign for"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "support",
+        "differenceTH": "support กว้างและอาจแค่เห็นด้วย ส่วน champion = ออกหน้าต่อสู้เพื่อเรื่องนั้นอย่างจริงจัง"
+      },
+      {
+        "word": "advocate",
+        "differenceTH": "advocate ทางการกว่า เน้นการเสนอแนะ/สนับสนุนทางความคิด"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "champion",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He championed for the rights of refugees.",
+        "right": "He championed the rights of refugees.",
+        "whyTH": "champion (กริยา) มีกรรมตรง ไม่ต้องใช้ for"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "society",
+      "current-affairs"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Long before it became fashionable, the senator [[championed]] renewable energy, giving speeches and pushing for new laws to support solar power.",
+      "cluesTH": "'giving speeches and pushing for new laws' แสดงการสนับสนุนอย่างเปิดเผย ไม่เกี่ยวกับการชนะการแข่งขัน"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The charity has long ___ the rights of refugees.",
+        "answer": "championed",
+        "distractors": [
+          "won",
+          "defeated",
+          "conquered"
+        ],
+        "whyTH": "champion the rights of = ต่อสู้เพื่อสิทธิ; won, defeated, conquered เกี่ยวกับชัยชนะ (ความหมายพื้นฐานของแชมป์) ใช้กับ rights ในความหมายนี้ไม่ได้"
+      },
+      "nearSyn": {
+        "sentence": "For decades, the doctor has ___ the cause of free healthcare for all, speaking at rallies and writing to MPs.",
+        "answer": "championed",
+        "distractors": [
+          {
+            "word": "favoured",
+            "whyNotTH": "favour = ชอบ/เห็นด้วย เฉย ๆ ไม่สื่อการออกไปพูดในการชุมนุม"
+          },
+          {
+            "word": "approved",
+            "whyNotTH": "approve ต้องใช้ approve of และหมายถึงแค่เห็นชอบ"
+          },
+          {
+            "word": "agreed",
+            "whyNotTH": "agree ต้องมี with/to และไม่ใช้กับ the cause ในความหมายนี้"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'champion' is A1–B2; the advanced sense 'support publicly' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "bridge|verb|reduce gap",
+    "lemma": "bridge",
+    "displayForm": "bridge (the gap)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "reduce gap",
+    "baseLemma": "bridge",
+    "baseMeaningTH": "สะพาน",
+    "meaningEN": "to reduce or remove the difference or distance between two groups, things or situations",
+    "meaningTH": "ลดหรือเชื่อมช่องว่างความแตกต่างระหว่างสองกลุ่ม สองสิ่ง หรือสองสถานการณ์",
+    "shortMeaningTH": "ลด/เชื่อมช่องว่าง",
+    "usageNoteTH": "ใช้กับ the gap, the divide, differences; bridge the gap between A and B เป็นวลีที่พบบ่อยมาก; ไม่ต้องใส่ over",
+    "register": "neutral",
+    "connotation": "positive",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/brɪdʒ/",
+    "ipaUS": "/brɪdʒ/",
+    "variant": "both",
+    "example": "The programme aims to bridge the gap between school and university.",
+    "exampleTH": "โครงการนี้มุ่งเชื่อมช่องว่างระหว่างการเรียนในโรงเรียนกับมหาวิทยาลัย",
+    "collocations": [
+      "bridge the gap",
+      "bridge the divide",
+      "bridge differences",
+      "bridge the gap between A and B"
+    ],
+    "synonyms": [
+      "close",
+      "narrow",
+      "reduce"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "close",
+        "differenceTH": "close the gap = ปิดช่องว่างจนหายไป (มักเป็นตัวเลข) ส่วน bridge = เชื่อมให้สองฝ่ายเข้าหากัน"
+      },
+      {
+        "word": "narrow",
+        "differenceTH": "narrow = ทำให้แคบลง แต่ไม่ได้เชื่อมถึงกัน"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "We need to bridge over the gap.",
+        "right": "We need to bridge the gap.",
+        "whyTH": "bridge มีกรรมตรง ไม่ต้องมี over"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "society",
+      "education",
+      "technology"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Many older people struggle with online banking. Volunteers at the library are trying to [[bridge]] this digital divide by teaching them how to use smartphones.",
+      "cluesTH": "'struggle with online banking' และ 'teaching them' แสดงว่าอาสาสมัครพยายามลดช่องว่างทางดิจิทัล ไม่ได้สร้างสะพานจริง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The new scholarship aims to ___ the gap between rich and poor students.",
+        "answer": "bridge",
+        "distractors": [
+          "cross",
+          "build",
+          "jump"
+        ],
+        "whyTH": "bridge the gap = ลดช่องว่าง; cross a gap = ข้ามไป (ไม่ได้ลด); build a gap ไม่มีความหมาย; jump the gap = กระโดดข้าม"
+      },
+      "nearSyn": {
+        "sentence": "Negotiators worked through the night to ___ the differences between the two sides.",
+        "answer": "bridge",
+        "distractors": [
+          {
+            "word": "cross",
+            "whyNotTH": "cross ใช้กับเส้น/ถนน/ชายแดน ไม่ใช้กับ differences"
+          },
+          {
+            "word": "connect",
+            "whyNotTH": "connect ใช้เชื่อมสิ่งของหรือคน ไม่ใช้กับ differences"
+          },
+          {
+            "word": "join",
+            "whyNotTH": "join = เข้าร่วม/ต่อเข้าด้วยกัน ไม่ใช้กับ differences"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'bridge' is A1–B2; the advanced sense 'reduce gap' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "spare|verb|save from unpleasantness",
+    "lemma": "spare",
+    "displayForm": "spare",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "save from unpleasantness",
+    "baseLemma": "spare",
+    "baseMeaningTH": "สำรอง / อะไหล่",
+    "meaningEN": "to avoid making someone experience something unpleasant, such as details, trouble or embarrassment",
+    "meaningTH": "ไม่ทำให้ใครต้องเจอหรือรับรู้สิ่งที่ไม่น่าพอใจ เช่น รายละเอียดที่น่าเบื่อหรือน่าอึดอัด",
+    "shortMeaningTH": "ละเว้น (ไม่ให้ต้องเจอ)",
+    "usageNoteTH": "โครงสร้าง spare sb sth (spare me the details) หรือ spare sb's feelings; Spare me! ใช้แบบรำคาญว่า 'ไม่ต้องพูดแล้ว'; อย่าสลับเป็น spare the details to me",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/speə(r)/",
+    "ipaUS": "/sper/",
+    "variant": "both",
+    "example": "Spare me the details — I don't need to know exactly what happened.",
+    "exampleTH": "ไม่ต้องเล่ารายละเอียดหรอก ฉันไม่จำเป็นต้องรู้ว่าเกิดอะไรขึ้นบ้าง",
+    "collocations": [
+      "spare me the details",
+      "spare sb the trouble",
+      "spare sb's feelings",
+      "spare sb the embarrassment"
+    ],
+    "synonyms": [
+      "save",
+      "protect from"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "save",
+        "differenceTH": "save sb the trouble ใช้ได้เช่นกัน แต่ spare ใช้กับ feelings/details/embarrassment ได้กว้างกว่า และ Spare me! เป็นสำนวนเฉพาะ"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "Please spare the details to me.",
+        "right": "Please spare me the details.",
+        "whyTH": "โครงสร้างคือ spare + คน + สิ่งที่ไม่อยากเจอ"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "communication",
+      "everyday",
+      "relationships"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Julia's ex-boyfriend started describing his new relationship in great detail, but she held up her hand and said, 'Please, [[spare]] me. I really don't want to hear it.'",
+      "cluesTH": "'held up her hand' และ 'don't want to hear it' แสดงว่าเธอขอไม่ให้ต้องฟังเรื่องที่ไม่อยากรู้ ไม่เกี่ยวกับของสำรอง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "He decided not to tell his mother about the accident, to ___ her the worry.",
+        "answer": "spare",
+        "distractors": [
+          "avoid",
+          "prevent",
+          "protect"
+        ],
+        "whyTH": "spare sb sth = ไม่ให้ใครต้องเจอสิ่งนั้น; avoid ไม่ใช้โครงสร้าง avoid her the worry; prevent ต้อง prevent sb from; protect ต้อง protect sb from"
+      },
+      "nearSyn": {
+        "sentence": "'___ me the lecture, Dad — I know I should have called.'",
+        "answer": "Spare",
+        "distractors": [
+          {
+            "word": "Excuse",
+            "whyNotTH": "Excuse me ใช้ขอโทษ/ขอทาง ไม่ใช้กับ the lecture"
+          },
+          {
+            "word": "Forgive",
+            "whyNotTH": "Forgive me = ขอโทษ ไม่ใช้กับ the lecture ตามหลัง"
+          },
+          {
+            "word": "Skip",
+            "whyNotTH": "skip the lecture ได้ แต่ skip me the lecture ผิดโครงสร้าง"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'spare' is A1–B2; the advanced sense 'save from unpleasantness' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "steer|verb|avoid",
+    "lemma": "steer",
+    "displayForm": "steer clear (of)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "avoid",
+    "baseLemma": "steer",
+    "baseMeaningTH": "บังคับทิศทาง (รถ/เรือ) / ถือพวงมาลัย",
+    "meaningEN": "to deliberately avoid someone or something because it could cause problems",
+    "meaningTH": "จงใจหลีกเลี่ยงหรืออยู่ห่าง ๆ คนหรือสิ่งที่อาจนำปัญหามาให้",
+    "shortMeaningTH": "หลีกเลี่ยง / อยู่ให้ห่าง",
+    "usageNoteTH": "ใช้ในรูป steer clear of sb/sth เสมอ (ไม่ใช่ from); ภาษากลางค่อนไปทางไม่เป็นทางการ ใช้ในการให้คำแนะนำ",
+    "register": "informal",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/stɪə(r)/",
+    "ipaUS": "/stɪr/",
+    "variant": "both",
+    "example": "If you want to lose weight, steer clear of sugary drinks.",
+    "exampleTH": "ถ้าอยากลดน้ำหนัก ให้หลีกเลี่ยงเครื่องดื่มที่มีน้ำตาล",
+    "collocations": [
+      "steer clear of",
+      "steer clear of trouble",
+      "steer clear of politics",
+      "best to steer clear"
+    ],
+    "synonyms": [
+      "avoid",
+      "keep away from",
+      "stay away from"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "avoid",
+        "differenceTH": "avoid กลาง ๆ ใช้ได้ทุกระดับภาษา ส่วน steer clear of ภาษาพูดกว่าและเน้นการจงใจอยู่ให้ห่าง"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "Steer clear from that area at night.",
+        "right": "Steer clear of that area at night.",
+        "whyTH": "ใช้ steer clear of ไม่ใช่ from"
+      }
+    ],
+    "confusedWith": [
+      "veer"
+    ],
+    "topics": [
+      "everyday",
+      "communication"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "My grandfather gave me one piece of advice about family dinners: [[steer]] clear of politics and religion, or the evening will end in an argument.",
+      "cluesTH": "'or the evening will end in an argument' บอกว่าควรหลีกเลี่ยงหัวข้อเหล่านี้ ไม่เกี่ยวกับการขับรถ"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Most investors are ___ clear of the troubled airline until it publishes its accounts.",
+        "answer": "steering",
+        "distractors": [
+          "driving",
+          "going",
+          "running"
+        ],
+        "whyTH": "steer clear of = หลีกเลี่ยง เป็นวลีตายตัว; drive/go/run clear of ไม่ใช่สำนวน"
+      },
+      "nearSyn": {
+        "sentence": "Doctors advise patients with high blood pressure to ___ clear of salty food.",
+        "answer": "steer",
+        "distractors": [
+          {
+            "word": "veer",
+            "whyNotTH": "veer = เปลี่ยนทิศทางกะทันหัน ไม่ใช้ในวลี clear of"
+          },
+          {
+            "word": "drive",
+            "whyNotTH": "drive clear of ไม่ใช่สำนวน"
+          },
+          {
+            "word": "head",
+            "whyNotTH": "head ใช้ head for/towards (มุ่งหน้าไป) ความหมายตรงข้าม"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'steer' is A1–B2; the advanced sense 'avoid' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "broker|verb|arrange deal",
+    "lemma": "broker",
+    "displayForm": "broker",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "arrange deal",
+    "baseLemma": "broker",
+    "baseMeaningTH": "นายหน้า / โบรกเกอร์",
+    "meaningEN": "to arrange a deal, agreement or ceasefire by talking to the different sides involved, as a go-between",
+    "meaningTH": "เป็นตัวกลางเจรจาให้ฝ่ายต่าง ๆ ตกลงกันได้ เช่น ข้อตกลง การหยุดยิง",
+    "shortMeaningTH": "เป็นคนกลางเจรจาให้ตกลงกัน",
+    "usageNoteTH": "ใช้กับ deal, agreement, ceasefire, peace, truce; ผู้ broker มักเป็นฝ่ายที่สาม (ประเทศ/องค์กรที่เป็นกลาง) ไม่ใช่คู่กรณี; พบบ่อยในข่าวต่างประเทศ",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈbrəʊkə(r)/",
+    "ipaUS": "/ˈbroʊkər/",
+    "variant": "both",
+    "example": "The UN helped broker a ceasefire between the two sides.",
+    "exampleTH": "สหประชาชาติช่วยเป็นคนกลางเจรจาจนทั้งสองฝ่ายตกลงหยุดยิง",
+    "collocations": [
+      "broker a deal",
+      "broker a ceasefire",
+      "broker an agreement",
+      "broker peace"
+    ],
+    "synonyms": [
+      "negotiate",
+      "mediate",
+      "arrange"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "negotiate",
+        "differenceTH": "negotiate ใช้ได้ทั้งกับคู่กรณีเองและคนกลาง ส่วน broker เน้นบทบาทคนกลาง"
+      },
+      {
+        "word": "mediate",
+        "differenceTH": "mediate ใช้กับ dispute/between (mediate a dispute) ส่วน broker ใช้กับผลลัพธ์ เช่น a deal"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "broker",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Egypt brokered between a deal.",
+        "right": "Egypt brokered a deal between the two sides.",
+        "whyTH": "broker มีกรรมตรงเป็นข้อตกลง แล้วค่อยตามด้วย between"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "current-affairs",
+      "business"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The two companies had been fighting in court for years. Finally, a retired judge [[brokered]] an agreement that both sides could accept.",
+      "cluesTH": "'fighting in court' และ 'an agreement that both sides could accept' แสดงว่าผู้พิพากษาเป็นคนกลางเจรจาให้ตกลงกัน"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Qatar helped ___ a ceasefire between the warring groups.",
+        "answer": "broker",
+        "distractors": [
+          "sell",
+          "trade",
+          "invest"
+        ],
+        "whyTH": "broker a ceasefire = เป็นคนกลางเจรจาหยุดยิง; sell, trade, invest เกี่ยวกับการซื้อขายตามความหมายพื้นฐานของโบรกเกอร์"
+      },
+      "nearSyn": {
+        "sentence": "As a neutral country, Norway was asked to ___ peace talks between the government and the rebels.",
+        "answer": "broker",
+        "distractors": [
+          {
+            "word": "bargain",
+            "whyNotTH": "bargain เป็นกริยาไม่มีกรรม (bargain with/for) และหมายถึงต่อรองเพื่อตัวเอง"
+          },
+          {
+            "word": "deal",
+            "whyNotTH": "deal ต้องใช้ deal with และหมายถึงจัดการ ไม่ใช่เป็นคนกลาง"
+          },
+          {
+            "word": "trade",
+            "whyNotTH": "trade = ค้าขาย/แลกเปลี่ยน ไม่ใช้กับ peace talks"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'broker' is A1–B2; the advanced sense 'arrange deal' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "hedge|verb|avoid commitment",
+    "lemma": "hedge",
+    "displayForm": "hedge (your bets)",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "avoid commitment",
+    "baseLemma": "hedge",
+    "baseMeaningTH": "รั้วต้นไม้ / พุ่มไม้",
+    "meaningEN": "to avoid giving a clear answer or committing yourself; (hedge your bets) to reduce risk by supporting more than one possibility",
+    "meaningTH": "เลี่ยงไม่ให้คำตอบชัดเจนหรือไม่ผูกมัดตัวเอง; hedge your bets = กระจายความเสี่ยงโดยไม่ทุ่มให้ทางเลือกเดียว",
+    "shortMeaningTH": "ตอบเลี่ยง / กระจายความเสี่ยง",
+    "usageNoteTH": "hedge ใช้ลอย ๆ ได้ (The minister hedged.) หรือ hedge on a question; hedge your bets ใช้บ่อยในชีวิตประจำวันและธุรกิจ; ในการเงิน hedge against inflation = ป้องกันความเสี่ยง",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 3,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 4,
+    "ipaUK": "/hedʒ/",
+    "ipaUS": "/hedʒ/",
+    "variant": "both",
+    "example": "When asked whether she would run for president, the senator hedged.",
+    "exampleTH": "เมื่อถูกถามว่าจะลงสมัครประธานาธิบดีหรือไม่ วุฒิสมาชิกก็ตอบเลี่ยง ๆ",
+    "collocations": [
+      "hedge your bets",
+      "hedge against inflation",
+      "hedge on a question"
+    ],
+    "synonyms": [
+      "equivocate",
+      "prevaricate",
+      "sit on the fence"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "dodge",
+        "differenceTH": "dodge = หลบไม่ตอบเลย ส่วน hedge = ตอบแต่คลุมเครือไม่ผูกมัด"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "hedge",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I'll apply to both jobs to hedge the bets.",
+        "right": "I'll apply to both jobs to hedge my bets.",
+        "whyTH": "สำนวนนี้ใช้ possessive: hedge my/your/their bets"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "communication",
+      "business",
+      "current-affairs"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "When the reporter asked directly whether he would raise taxes, the minister [[hedged]], saying only that 'all options remain on the table'.",
+      "cluesTH": "'asked directly' แต่ตอบเพียง 'all options remain on the table' แสดงว่าตอบเลี่ยงไม่ผูกมัด ไม่เกี่ยวกับรั้วต้นไม้"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Not sure which university will accept her, she applied to eight of them to ___ her bets.",
+        "answer": "hedge",
+        "distractors": [
+          "fence",
+          "place",
+          "raise"
+        ],
+        "whyTH": "hedge your bets = กระจายความเสี่ยง; fence ไม่ใช่สำนวนนี้ (sit on the fence คนละสำนวน); place a bet = วางเดิมพัน; raise the bet = เพิ่มเดิมพัน ความเสี่ยงสูงขึ้น"
+      },
+      "nearSyn": {
+        "sentence": "Pressed for a clear yes or no, the spokesperson ___, saying the decision 'depended on several factors'.",
+        "answer": "hedged",
+        "distractors": [
+          {
+            "word": "lied",
+            "whyNotTH": "ไม่มีข้อมูลว่าเป็นเรื่องเท็จ เขาแค่ตอบคลุมเครือ"
+          },
+          {
+            "word": "stammered",
+            "whyNotTH": "stammer = พูดติดอ่าง เกี่ยวกับการออกเสียง ไม่ใช่การเลี่ยงคำตอบ"
+          },
+          {
+            "word": "insisted",
+            "whyNotTH": "insist = ยืนกราน ซึ่งตรงข้ามกับการตอบคลุมเครือ"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'hedge' is A1–B2; the advanced sense 'avoid commitment' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "leverage|verb|use for advantage",
+    "lemma": "leverage",
+    "displayForm": "leverage",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "use for advantage",
+    "baseLemma": "leverage",
+    "baseMeaningTH": "แรงงัด (ทางฟิสิกส์)",
+    "meaningEN": "to use something you have, such as knowledge, money or contacts, to get the maximum advantage",
+    "meaningTH": "ใช้สิ่งที่มีอยู่ (ความรู้ ทรัพยากร เครือข่าย) ให้เกิดประโยชน์สูงสุด",
+    "shortMeaningTH": "ใช้ให้เกิดประโยชน์สูงสุด",
+    "usageNoteTH": "ศัพท์ธุรกิจ/การตลาดที่พบบ่อยมาก บางคนมองว่าเป็น jargon ไม่ควรใช้ในบทสนทนาทั่วไป; ออกเสียงอังกฤษ /ˈliːv-/ อเมริกัน /ˈlev-/; มีกรรมตรง ไม่ใช้ on",
+    "register": "professional",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈliːvərɪdʒ/",
+    "ipaUS": "/ˈlevərɪdʒ/",
+    "variant": "both",
+    "example": "We need to leverage our existing customer base to launch the new product.",
+    "exampleTH": "เราต้องใช้ฐานลูกค้าเดิมที่มีอยู่ให้เป็นประโยชน์ในการเปิดตัวสินค้าใหม่",
+    "collocations": [
+      "leverage technology",
+      "leverage data",
+      "leverage expertise",
+      "leverage relationships",
+      "leverage a brand"
+    ],
+    "synonyms": [
+      "capitalise on",
+      "make the most of",
+      "exploit"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "use",
+        "differenceTH": "use กลาง ๆ ส่วน leverage เน้นการใช้อย่างมีกลยุทธ์ให้ได้ผลทวีคูณ และเป็นภาษาธุรกิจ"
+      },
+      {
+        "word": "exploit",
+        "differenceTH": "exploit ใช้ได้ในความหมายกลาง แต่มักมีนัยลบว่าเอาเปรียบ"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "leverage",
+        "pos": "noun"
+      },
+      {
+        "form": "leveraged",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We should leverage on our strengths.",
+        "right": "We should leverage our strengths.",
+        "whyTH": "leverage เป็นกริยามีกรรมตรง ไม่ใช้ on (ต่างจาก capitalise on)"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "business",
+      "workplace",
+      "technology"
+    ],
+    "tags": [
+      "figurative",
+      "business"
+    ],
+    "context": {
+      "text": "The start-up has no money for advertising, so it plans to [[leverage]] its founder's huge social-media following to reach new customers.",
+      "cluesTH": "'no money for advertising' และ 'huge social-media following' แสดงว่าจะใช้สิ่งที่มีให้เป็นประโยชน์ ไม่เกี่ยวกับคานงัด"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The company plans to ___ its expertise in AI to enter the healthcare market.",
+        "answer": "leverage",
+        "distractors": [
+          "lever",
+          "lift",
+          "raise"
+        ],
+        "whyTH": "leverage expertise = ใช้ความเชี่ยวชาญให้เกิดประโยชน์; lever (กริยา) = งัดสิ่งของจริง; lift/raise expertise ไม่มีความหมายนี้"
+      },
+      "nearSyn": {
+        "sentence": "The firm hopes to ___ its strong brand reputation to break into the Asian market.",
+        "answer": "leverage",
+        "distractors": [
+          {
+            "word": "spend",
+            "whyNotTH": "spend ใช้กับเงิน/เวลา ไม่ใช้กับ reputation"
+          },
+          {
+            "word": "borrow",
+            "whyNotTH": "borrow = ยืมจากผู้อื่น แต่ชื่อเสียงเป็นของบริษัทเอง"
+          },
+          {
+            "word": "lend",
+            "whyNotTH": "lend = ให้ยืม ความหมายไม่ตรงกับการใช้ประโยชน์จากสิ่งที่มี"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "คุยกับเพื่อนสนิทที่กำลังหางานด้านภาพยนตร์ (บทสนทนาสบาย ๆ)",
+        "question": "Which sentence sounds most natural?",
+        "answer": "Why don't you ask your uncle? He knows loads of people in the film industry.",
+        "distractors": [
+          {
+            "text": "You should leverage your uncle's network to optimise your job search.",
+            "whyNotTH": "leverage และ optimise เป็นศัพท์ธุรกิจ ฟังแข็งและแปลกในบทสนทนากับเพื่อน"
+          },
+          {
+            "text": "I recommend leveraging familial connections to maximise outcomes.",
+            "whyNotTH": "ทางการและเป็น jargon เกินไปสำหรับการคุยเล่น"
+          },
+          {
+            "text": "Your uncle is a key stakeholder you should leverage.",
+            "whyNotTH": "ใช้ศัพท์องค์กร (stakeholder) กับญาติ ฟังไม่เป็นธรรมชาติ"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'leverage' is A1–B2; the advanced sense 'use for advantage' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "pivot|verb|change strategy",
+    "lemma": "pivot",
+    "displayForm": "pivot",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "change strategy",
+    "baseLemma": "pivot",
+    "baseMeaningTH": "หมุนรอบแกน / จุดหมุน",
+    "meaningEN": "(of a business or person) to change strategy or direction completely, usually in response to new conditions",
+    "meaningTH": "(ธุรกิจหรือบุคคล) เปลี่ยนกลยุทธ์หรือทิศทางอย่างมาก มักเพื่อปรับตัวตามสถานการณ์ใหม่",
+    "shortMeaningTH": "เปลี่ยนทิศทางกลยุทธ์",
+    "usageNoteTH": "ศัพท์ธุรกิจ/สตาร์ทอัพยอดนิยม ใช้ pivot to/towards sth หรือ pivot away from sth; ใช้เป็นนามได้ (a pivot to online sales)",
+    "register": "professional",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈpɪvət/",
+    "ipaUS": "/ˈpɪvət/",
+    "variant": "both",
+    "example": "The start-up pivoted from selling software to offering consulting services.",
+    "exampleTH": "สตาร์ทอัพเปลี่ยนทิศทางจากการขายซอฟต์แวร์ไปเป็นการให้บริการที่ปรึกษา",
+    "collocations": [
+      "pivot to",
+      "pivot away from",
+      "pivot towards",
+      "make a pivot"
+    ],
+    "synonyms": [
+      "shift",
+      "change direction",
+      "switch"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "switch",
+        "differenceTH": "switch = เปลี่ยนจากสิ่งหนึ่งไปอีกสิ่ง กลาง ๆ ส่วน pivot เน้นการเปลี่ยนกลยุทธ์ทางธุรกิจโดยอาศัยฐานเดิม"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "pivot",
+        "pos": "noun"
+      },
+      {
+        "form": "pivotal",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The brand pivoted into to online sales.",
+        "right": "The brand pivoted to online sales.",
+        "whyTH": "ใช้ pivot to หรือ pivot towards"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "business",
+      "technology"
+    ],
+    "tags": [
+      "figurative",
+      "business"
+    ],
+    "context": {
+      "text": "When the pandemic closed all its shops, the clothing brand quickly [[pivoted]] to online sales and even started making face masks.",
+      "cluesTH": "'closed all its shops' แล้วหันไป 'online sales' แสดงว่าธุรกิจเปลี่ยนกลยุทธ์ ไม่ใช่การหมุนตัว"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "After its first app failed, the company ___ to selling data analytics tools.",
+        "answer": "pivoted",
+        "distractors": [
+          "rotated",
+          "spun",
+          "revolved"
+        ],
+        "whyTH": "pivot to = เปลี่ยนทิศทางธุรกิจ; rotate, spin, revolve หมายถึงการหมุนทางกายภาพ ไม่ใช้กับกลยุทธ์"
+      },
+      "nearSyn": {
+        "sentence": "Facing falling DVD sales, the company decided to ___ to streaming.",
+        "answer": "pivot",
+        "distractors": [
+          {
+            "word": "rotate",
+            "whyNotTH": "rotate = หมุนรอบแกน หรือผลัดเปลี่ยนเวร ไม่ใช้กับการเปลี่ยนกลยุทธ์"
+          },
+          {
+            "word": "revolve",
+            "whyNotTH": "revolve = หมุนรอบ (revolve around) ไม่ตามด้วย to"
+          },
+          {
+            "word": "twist",
+            "whyNotTH": "twist = บิด ไม่มีความหมายเปลี่ยนธุรกิจ"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'pivot' is A1–B2; the advanced sense 'change strategy' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "spearhead|verb|lead effort",
+    "lemma": "spearhead",
+    "displayForm": "spearhead",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "lead effort",
+    "baseLemma": "spearhead",
+    "baseMeaningTH": "หัวหอก (ปลายหอก)",
+    "meaningEN": "to lead a campaign, attack or organised effort, often from the start",
+    "meaningTH": "เป็นผู้นำหรือแกนนำการรณรงค์ โครงการ หรือความพยายามหนึ่ง มักเป็นผู้ริเริ่ม",
+    "shortMeaningTH": "เป็นหัวหอก/แกนนำ",
+    "usageNoteTH": "ใช้กับ campaign, effort, initiative, project, reform; ใช้ passive บ่อย (be spearheaded by); มีกรรมตรง",
+    "register": "neutral",
+    "connotation": "approving",
+    "frequencyBand": 3,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈspɪəhed/",
+    "ipaUS": "/ˈspɪrhed/",
+    "variant": "both",
+    "example": "She spearheaded the campaign to ban plastic bags in the city.",
+    "exampleTH": "เธอเป็นแกนนำการรณรงค์ห้ามใช้ถุงพลาสติกในเมือง",
+    "collocations": [
+      "spearhead a campaign",
+      "spearhead efforts",
+      "spearhead the development of",
+      "spearhead reform"
+    ],
+    "synonyms": [
+      "lead",
+      "head",
+      "front",
+      "pioneer"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "lead",
+        "differenceTH": "lead กว้าง ใช้ได้ทุกบริบท ส่วน spearhead เน้นการนำจากด้านหน้าและมักเป็นผู้ริเริ่ม"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "spearhead",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He spearheaded for the campaign.",
+        "right": "He spearheaded the campaign.",
+        "whyTH": "spearhead มีกรรมตรง ไม่ต้องใช้ for"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "workplace",
+      "society",
+      "business"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The project was [[spearheaded]] by a small group of students, who organised the first meetings, raised the money and persuaded the university to take part.",
+      "cluesTH": "'organised the first meetings, raised the money and persuaded' แสดงว่ากลุ่มนักศึกษาเป็นผู้นำริเริ่ม ไม่เกี่ยวกับหอกจริง"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The former minister will ___ the government's anti-corruption drive.",
+        "answer": "spearhead",
+        "distractors": [
+          "spear",
+          "pierce",
+          "point"
+        ],
+        "whyTH": "spearhead a drive = เป็นแกนนำการรณรงค์; spear และ pierce = แทง; point = ชี้ ไม่มีความหมายเป็นผู้นำ"
+      },
+      "nearSyn": {
+        "sentence": "Dr Lee ___ the research effort that led to the new vaccine.",
+        "answer": "spearheaded",
+        "distractors": [
+          {
+            "word": "chaired",
+            "whyNotTH": "chair ใช้กับ meeting/committee (เป็นประธาน) ไม่ใช่ research effort"
+          },
+          {
+            "word": "captained",
+            "whyNotTH": "captain ใช้กับทีมกีฬาหรือเรือ"
+          },
+          {
+            "word": "governed",
+            "whyNotTH": "govern ใช้กับประเทศ/องค์กร (ปกครอง)"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'spearhead' is A1–B2; the advanced sense 'lead effort' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "digest|verb|understand information",
+    "lemma": "digest",
+    "displayForm": "digest",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "understand information",
+    "baseLemma": "digest",
+    "baseMeaningTH": "ย่อย (อาหาร)",
+    "meaningEN": "to think about new information or news until you fully understand and accept it",
+    "meaningTH": "ใช้เวลาทำความเข้าใจและยอมรับข้อมูลหรือข่าวใหม่ (เหมือน 'ย่อย' ข้อมูล)",
+    "shortMeaningTH": "ทำความเข้าใจ/ซึมซับ (ข่าว)",
+    "usageNoteTH": "ใช้กับ news, information, a report, what happened; มักมี take time to/need time to digest; ใช้ได้ทั้งข้อมูลเชิงวิชาการและข่าวที่ทำให้ตกใจ",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/daɪˈdʒest/",
+    "ipaUS": "/daɪˈdʒest/",
+    "variant": "both",
+    "example": "It took me a few days to digest the news that I'd got the job.",
+    "exampleTH": "ฉันใช้เวลาหลายวันกว่าจะทำใจรับรู้ได้ว่าตัวเองได้งานนั้นแล้ว",
+    "collocations": [
+      "digest the news",
+      "digest information",
+      "take time to digest",
+      "digest a report"
+    ],
+    "synonyms": [
+      "absorb",
+      "take in",
+      "process"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "understand",
+        "differenceTH": "understand = เข้าใจ ส่วน digest เน้นต้องใช้เวลาไตร่ตรองให้เข้าใจและยอมรับอย่างถ่องแท้"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "digestible",
+        "pos": "adjective"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I need time to digest about the news.",
+        "right": "I need time to digest the news.",
+        "whyTH": "digest มีกรรมตรง ไม่ต้องใช้ about"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "psychology",
+      "education",
+      "communication"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The report was over 200 pages long and full of complex statistics. The committee asked for two more weeks to [[digest]] it before making any decisions.",
+      "cluesTH": "'200 pages', 'complex statistics' และ 'before making any decisions' บอกว่าต้องใช้เวลาทำความเข้าใจรายงาน ไม่เกี่ยวกับอาหาร"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "There's a lot of information in this email, so take some time to ___ it.",
+        "answer": "digest",
+        "distractors": [
+          "swallow",
+          "chew",
+          "eat"
+        ],
+        "whyTH": "digest information = ทำความเข้าใจข้อมูล; swallow (เปรียบ) = เชื่ออย่างง่าย ๆ; chew ต้องเป็น chew over; eat ไม่ใช้กับข้อมูล"
+      },
+      "nearSyn": {
+        "sentence": "She sat in silence for a few minutes, trying to ___ the shocking news.",
+        "answer": "digest",
+        "distractors": [
+          {
+            "word": "swallow",
+            "whyNotTH": "swallow (เปรียบ) = เชื่อเรื่องโดยไม่ตั้งคำถาม หรือ swallow your pride ไม่ใช่การทำความเข้าใจข่าว"
+          },
+          {
+            "word": "learn",
+            "whyNotTH": "learn the news ไม่ค่อยใช้ และไม่ได้สื่อการทำใจรับเรื่องที่ตกใจ"
+          },
+          {
+            "word": "study",
+            "whyNotTH": "study = ศึกษาอย่างละเอียด ใช้กับวิชา/เอกสาร ไม่ใช่การทำใจกับข่าวร้าย"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'digest' is A1–B2; the advanced sense 'understand information' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "absorb|verb|bear cost",
+    "lemma": "absorb",
+    "displayForm": "absorb",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "bear cost",
+    "baseLemma": "absorb",
+    "baseMeaningTH": "ดูดซับ (น้ำ/ของเหลว)",
+    "meaningEN": "(of a business or organisation) to pay for extra costs or accept losses yourself instead of passing them on to others",
+    "meaningTH": "(ธุรกิจ/องค์กร) รับภาระต้นทุนหรือการขาดทุนไว้เอง ไม่ผลักให้ลูกค้าหรือผู้อื่น",
+    "shortMeaningTH": "รับภาระ (ต้นทุน) ไว้เอง",
+    "usageNoteTH": "ใช้กับ the cost, losses, price increases, the impact; ตรงข้ามกับ pass sth on to customers; พบบ่อยมากในข่าวเศรษฐกิจ",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/əbˈzɔːb/",
+    "ipaUS": "/əbˈzɔːrb/",
+    "variant": "both",
+    "example": "The supermarket says it will absorb the cost of the new tax rather than raise prices.",
+    "exampleTH": "ซูเปอร์มาร์เก็ตบอกว่าจะรับภาระภาษีใหม่ไว้เองแทนที่จะขึ้นราคา",
+    "collocations": [
+      "absorb the cost",
+      "absorb losses",
+      "absorb price increases",
+      "absorb the impact"
+    ],
+    "synonyms": [
+      "bear",
+      "cover",
+      "take on"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "pay",
+        "differenceTH": "pay กลาง ๆ ส่วน absorb เน้นว่ารับไว้เองแทนที่จะผลักไปให้ลูกค้า"
+      },
+      {
+        "word": "bear",
+        "differenceTH": "bear the cost ใกล้กัน แต่ไม่ได้เน้นการไม่ผลักภาระต่อ"
+      }
+    ],
+    "antonyms": [
+      "pass on"
+    ],
+    "wordFamily": [
+      {
+        "form": "absorption",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The company will absorb the cost to its customers.",
+        "right": "The company will pass the cost on to its customers.",
+        "whyTH": "absorb = รับไว้เอง ถ้าผลักให้ลูกค้าต้องใช้ pass on"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "economics",
+      "business"
+    ],
+    "tags": [
+      "figurative",
+      "business"
+    ],
+    "context": {
+      "text": "Fuel prices rose sharply last year, but the airline decided to [[absorb]] the extra cost instead of raising ticket prices.",
+      "cluesTH": "'instead of raising ticket prices' บอกว่าบริษัทรับต้นทุนไว้เอง ไม่เกี่ยวกับการดูดซับของเหลว"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The company cannot continue to ___ such heavy losses.",
+        "answer": "absorb",
+        "distractors": [
+          "soak",
+          "suck",
+          "drink"
+        ],
+        "whyTH": "absorb losses = รับภาระการขาดทุน; soak, suck, drink เกี่ยวกับของเหลวจริง ไม่ใช้กับ losses"
+      },
+      "nearSyn": {
+        "sentence": "Rather than pass the increase on to customers, the café chose to ___ the higher cost of coffee beans itself.",
+        "answer": "absorb",
+        "distractors": [
+          {
+            "word": "afford",
+            "whyNotTH": "afford = มีเงินพอจ่าย ไม่ได้หมายถึงการเลือกรับภาระไว้เอง"
+          },
+          {
+            "word": "spend",
+            "whyNotTH": "spend ใช้กับเงิน/เวลา ไม่ใช้ spend the cost"
+          },
+          {
+            "word": "charge",
+            "whyNotTH": "charge = เรียกเก็บเงิน ซึ่งตรงข้ามกับการไม่ผลักภาระให้ลูกค้า"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'absorb' is A1–B2; the advanced sense 'bear cost' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "juggle|verb|manage several",
+    "lemma": "juggle",
+    "displayForm": "juggle",
+    "pos": "verb",
+    "kind": "sense",
+    "senseTag": "manage several",
+    "baseLemma": "juggle",
+    "baseMeaningTH": "โยนลูกบอลหลายลูกสลับกัน (กายกรรม)",
+    "meaningEN": "to try to deal with several jobs, responsibilities or activities at the same time",
+    "meaningTH": "พยายามจัดการงาน หน้าที่ หรือกิจกรรมหลายอย่างพร้อมกัน ซึ่งมักยากและเหนื่อย",
+    "shortMeaningTH": "จัดการหลายอย่างพร้อมกัน",
+    "usageNoteTH": "ใช้กับ work and family, commitments, priorities, projects; มีกรรมตรง ไม่ต้องใช้ between; ให้ภาพคนโยนลูกบอลหลายลูกไม่ให้ตก",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/ˈdʒʌɡl/",
+    "ipaUS": "/ˈdʒʌɡl/",
+    "variant": "both",
+    "example": "Many parents juggle full-time jobs and childcare.",
+    "exampleTH": "พ่อแม่หลายคนต้องจัดการทั้งงานเต็มเวลาและการเลี้ยงลูกไปพร้อมกัน",
+    "collocations": [
+      "juggle work and family",
+      "juggle commitments",
+      "juggle several projects",
+      "juggle priorities"
+    ],
+    "synonyms": [
+      "balance",
+      "manage",
+      "handle"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "balance",
+        "differenceTH": "balance = รักษาสมดุลระหว่างสองสิ่ง ส่วน juggle = จัดการหลายอย่างพร้อมกันอย่างวุ่นวาย"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "juggling act",
+        "pos": "noun"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She juggles between work and study.",
+        "right": "She juggles work and study.",
+        "whyTH": "juggle มีกรรมตรง ไม่ต้องมี between"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "workplace",
+      "everyday"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "As a single mother, Anna [[juggles]] two part-time jobs, an online degree and the school run, and she rarely gets more than six hours' sleep.",
+      "cluesTH": "รายการหน้าที่หลายอย่างและ 'rarely ... six hours' sleep' บอกว่าเธอต้องจัดการหลายอย่างพร้อมกัน ไม่ใช่โยนลูกบอล"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Freelancers often have to ___ several clients at the same time.",
+        "answer": "juggle",
+        "distractors": [
+          "throw",
+          "toss",
+          "catch"
+        ],
+        "whyTH": "juggle clients = จัดการลูกค้าหลายรายพร้อมกัน; throw, toss, catch เป็นการกระทำทางกายกับลูกบอล ไม่ใช้กับ clients"
+      },
+      "nearSyn": {
+        "sentence": "It's hard to ___ three deadlines, a sick child and a house move all in one week.",
+        "answer": "juggle",
+        "distractors": [
+          {
+            "word": "control",
+            "whyNotTH": "control = ควบคุม ไม่ใช้กับ deadlines หรือ sick child ในความหมายจัดการหลายเรื่อง"
+          },
+          {
+            "word": "divide",
+            "whyNotTH": "divide = แบ่ง ไม่ได้สื่อการรับมือหลายอย่างพร้อมกัน"
+          },
+          {
+            "word": "share",
+            "whyNotTH": "share = แบ่งปันกับผู้อื่น ความหมายไม่ตรงบริบท"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'juggle' is A1–B2; the advanced sense 'manage several' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "sharp|adjective|sudden large",
+    "lemma": "sharp",
+    "displayForm": "sharp",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "sudden large",
+    "baseLemma": "sharp",
+    "baseMeaningTH": "คม (มีด)",
+    "meaningEN": "(of an increase or decrease) sudden and large",
+    "meaningTH": "(การเพิ่มขึ้นหรือลดลง) เกิดขึ้นอย่างฉับพลันและมาก",
+    "shortMeaningTH": "ฉับพลันและมาก (ขึ้น/ลง)",
+    "usageNoteTH": "ใช้กับ rise, fall, increase, decline, drop; รูป adverb sharply (prices rose sharply); พบบ่อยมากในข่าวเศรษฐกิจและการบรรยายกราฟ (IELTS Writing Task 1)",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 5,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 1,
+    "ipaUK": "/ʃɑːp/",
+    "ipaUS": "/ʃɑːrp/",
+    "variant": "both",
+    "example": "There has been a sharp rise in energy prices this winter.",
+    "exampleTH": "ราคาพลังงานพุ่งสูงขึ้นอย่างฉับพลันในฤดูหนาวนี้",
+    "collocations": [
+      "a sharp rise",
+      "a sharp fall",
+      "a sharp decline",
+      "a sharp increase",
+      "rise sharply"
+    ],
+    "synonyms": [
+      "sudden",
+      "steep",
+      "dramatic",
+      "abrupt"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "steep",
+        "differenceTH": "steep เน้นขนาดหรือความชันของการเปลี่ยนแปลง ส่วน sharp เน้นความฉับพลัน"
+      },
+      {
+        "word": "dramatic",
+        "differenceTH": "dramatic เน้นว่ามากจนน่าตกใจ อาจไม่ฉับพลัน"
+      }
+    ],
+    "antonyms": [
+      "gradual",
+      "slight"
+    ],
+    "wordFamily": [
+      {
+        "form": "sharply",
+        "pos": "adverb"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Prices rose sharp last month.",
+        "right": "Prices rose sharply last month.",
+        "whyTH": "ขยายกริยา rose ต้องใช้ adverb sharply"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "economics",
+      "analysis"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "After the factory closed, unemployment in the town jumped from 4% to 15% in just three months — a [[sharp]] increase that shocked local officials.",
+      "cluesTH": "'from 4% to 15% in just three months' บอกว่าเพิ่มขึ้นมากและเร็ว ไม่เกี่ยวกับความคม"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Sales of electric cars saw a ___ increase last quarter.",
+        "answer": "sharp",
+        "distractors": [
+          "keen",
+          "acute",
+          "pointed"
+        ],
+        "whyTH": "a sharp increase = เพิ่มขึ้นฉับพลันและมาก; keen ใช้กับ interest/competition; acute ใช้กับ shortage/pain; pointed ใช้กับ remark/question"
+      },
+      "nearSyn": {
+        "sentence": "The company's shares suffered a ___ fall after the CEO resigned unexpectedly.",
+        "answer": "sharp",
+        "distractors": [
+          {
+            "word": "acute",
+            "whyNotTH": "acute ใช้กับ shortage/crisis/pain ไม่ใช้กับ fall ของราคาหุ้น"
+          },
+          {
+            "word": "keen",
+            "whyNotTH": "keen ใช้กับ interest/competition/eye ไม่ใช้กับ fall"
+          },
+          {
+            "word": "piercing",
+            "whyNotTH": "piercing ใช้กับเสียง/สายตา (a piercing scream) ไม่ใช้กับตัวเลข"
+          }
+        ]
+      },
+      "formation": {
+        "sentence": "House prices rose ___ in the first half of the year.",
+        "root": "sharp",
+        "answer": "sharply",
+        "accepted": [
+          "sharply"
+        ],
+        "options": [
+          "sharply",
+          "sharpness",
+          "sharpen",
+          "sharper"
+        ]
+      },
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'sharp' is A1–B2; the advanced sense 'sudden large' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "flat|adjective|firm complete",
+    "lemma": "flat",
+    "displayForm": "flat",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "firm complete",
+    "baseLemma": "flat",
+    "baseMeaningTH": "แบน / ราบเรียบ",
+    "meaningEN": "(of a refusal or denial) firm, complete and direct, with no room for discussion",
+    "meaningTH": "(การปฏิเสธ) เด็ดขาด ชัดเจน ไม่มีเงื่อนไขหรือไม่เปิดให้ต่อรอง",
+    "shortMeaningTH": "เด็ดขาด (ปฏิเสธ)",
+    "usageNoteTH": "ใช้กับ refusal, denial, rejection, 'no'; รูป adverb คือ flatly (flatly refused/denied); flat out เป็นภาษาพูดแบบอเมริกัน",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/flæt/",
+    "ipaUS": "/flæt/",
+    "variant": "both",
+    "example": "The minister issued a flat denial of the accusations.",
+    "exampleTH": "รัฐมนตรีปฏิเสธข้อกล่าวหาอย่างเด็ดขาด",
+    "collocations": [
+      "a flat refusal",
+      "a flat denial",
+      "a flat rejection",
+      "flatly refuse",
+      "flatly deny"
+    ],
+    "synonyms": [
+      "outright",
+      "categorical",
+      "absolute",
+      "firm"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "firm",
+        "differenceTH": "firm = หนักแน่น อาจยังสุภาพ ส่วน flat = ปฏิเสธห้วน ๆ ตรง ๆ ไม่มีการพูดคุยเพิ่ม"
+      },
+      {
+        "word": "categorical",
+        "differenceTH": "categorical ทางการกว่า ใช้กับ denial/assurance"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "flatly",
+        "pos": "adverb"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He refused flat to help.",
+        "right": "He flatly refused to help. / He gave a flat refusal.",
+        "whyTH": "ขยายกริยาต้องใช้ adverb flatly"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "communication",
+      "current-affairs"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "I asked my boss for a pay rise, expecting at least some discussion. Instead, I got a [[flat]] 'no' — she didn't even look up from her computer.",
+      "cluesTH": "'expecting at least some discussion. Instead' และ 'didn't even look up' บอกว่าเป็นการปฏิเสธเด็ดขาด ไม่ใช่ของแบน"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "His request for extra time was met with a ___ refusal.",
+        "answer": "flat",
+        "distractors": [
+          "level",
+          "even",
+          "smooth"
+        ],
+        "whyTH": "a flat refusal = การปฏิเสธเด็ดขาด; level, even, smooth ล้วนหมายถึงพื้นผิวราบ แต่ไม่ใช้กับ refusal"
+      },
+      "nearSyn": {
+        "sentence": "When journalists asked whether he had taken the money, the senator issued a ___ denial.",
+        "answer": "flat",
+        "distractors": [
+          {
+            "word": "level",
+            "whyNotTH": "level = ระดับเดียวกัน/ราบ ไม่ใช้กับ denial"
+          },
+          {
+            "word": "dull",
+            "whyNotTH": "dull = น่าเบื่อ/ทึม แม้เป็นอีกความหมายหนึ่งของ flat แต่ไม่ใช้กับ denial"
+          },
+          {
+            "word": "blank",
+            "whyNotTH": "blank ใช้กับ stare/look/page ไม่ใช่คู่คำกับ denial"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "เขียนข่าวในหนังสือพิมพ์เกี่ยวกับการตอบโต้ของบริษัท",
+        "question": "Which sentence is most appropriate?",
+        "answer": "The company issued a flat denial of all the allegations.",
+        "distractors": [
+          {
+            "text": "The company was like, 'Nope, totally didn't do it.'",
+            "whyNotTH": "be like และ nope เป็นภาษาพูด ไม่เหมาะกับข่าว"
+          },
+          {
+            "text": "The company gave a level denial of all the allegations.",
+            "whyNotTH": "level ใช้ผิดคู่คำ"
+          },
+          {
+            "text": "The company said no way, they never did that stuff.",
+            "whyNotTH": "no way และ stuff เป็นภาษาพูด ไม่เหมาะกับงานเขียนข่าว"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'flat' is A1–B2; the advanced sense 'firm complete' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "steep|adjective|too expensive",
+    "lemma": "steep",
+    "displayForm": "steep",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "too expensive",
+    "baseLemma": "steep",
+    "baseMeaningTH": "ชัน (ภูเขา/ทางลาด)",
+    "meaningEN": "(of a price or cost) too high; more than seems reasonable",
+    "meaningTH": "(ราคา/ค่าใช้จ่าย) แพงเกินไป สูงกว่าที่สมเหตุสมผล",
+    "shortMeaningTH": "แพงเกินไป (ราคา)",
+    "usageNoteTH": "ใช้กับ price, fee, bill, cost; มักใช้ a bit steep / pretty steep ในภาษาพูดเพื่อบ่น; ปกติใช้บรรยายราคา ไม่ใช่ตัวร้านหรือสินค้า (ต่างจาก expensive)",
+    "register": "informal",
+    "connotation": "disapproving",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/stiːp/",
+    "ipaUS": "/stiːp/",
+    "variant": "both",
+    "example": "The food was excellent, but the prices were a bit steep.",
+    "exampleTH": "อาหารอร่อยมาก แต่ราคาแพงไปหน่อย",
+    "collocations": [
+      "a steep price",
+      "steep fees",
+      "a bit steep",
+      "pay a steep price"
+    ],
+    "synonyms": [
+      "expensive",
+      "pricey",
+      "exorbitant"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "expensive",
+        "differenceTH": "expensive กลาง ๆ ใช้ได้กับร้าน/สินค้า ส่วน steep ใช้กับราคาและบ่นว่าแพงเกินควร"
+      },
+      {
+        "word": "exorbitant",
+        "differenceTH": "exorbitant ทางการและรุนแรงกว่า = แพงจนเกินเหตุ"
+      }
+    ],
+    "antonyms": [
+      "reasonable",
+      "affordable"
+    ],
+    "wordFamily": [
+      {
+        "form": "steeply",
+        "pos": "adverb"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This restaurant is very steep.",
+        "right": "The prices at this restaurant are very steep.",
+        "whyTH": "steep (ความหมายแพง) ใช้กับราคา ไม่ใช้กับร้านหรือสถานที่โดยตรง"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "everyday",
+      "economics"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "£12 for a small coffee and a croissant? That's a bit [[steep]], even for central London.",
+      "cluesTH": "'£12 for a small coffee' และ 'even for central London' บอกว่าราคาแพงเกินไป ไม่เกี่ยวกับความชัน"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "Tickets cost £200 each, which seems a bit ___ for a two-hour show.",
+        "answer": "steep",
+        "distractors": [
+          "tall",
+          "sharp",
+          "deep"
+        ],
+        "whyTH": "a bit steep = แพงไปหน่อย; tall ใช้กับความสูงของคน/ตึก (a tall order คนละสำนวน); sharp ใช้กับการขึ้นลงฉับพลัน ไม่ใช่ระดับราคา; deep ใช้กับ cuts (deep cuts)"
+      },
+      "nearSyn": {
+        "sentence": "The hotel is lovely, but $400 a night is pretty ___ for a room with no view.",
+        "answer": "steep",
+        "distractors": [
+          {
+            "word": "valuable",
+            "whyNotTH": "valuable = มีค่า เป็นด้านบวก ไม่ได้บ่นว่าแพง"
+          },
+          {
+            "word": "precious",
+            "whyNotTH": "precious = ล้ำค่า ใช้กับสิ่งของ/เวลา ไม่ใช้กับราคา"
+          },
+          {
+            "word": "rich",
+            "whyNotTH": "rich = รวย/อุดมสมบูรณ์ ไม่ใช้บรรยายราคา"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'steep' is A1–B2; the advanced sense 'too expensive' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "thin|adjective|unconvincing",
+    "lemma": "thin",
+    "displayForm": "thin",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "unconvincing",
+    "baseLemma": "thin",
+    "baseMeaningTH": "บาง / ผอม",
+    "meaningEN": "(of an excuse, argument or evidence) weak and not convincing",
+    "meaningTH": "(ข้ออ้าง เหตุผล หรือหลักฐาน) อ่อน ไม่หนักแน่น ฟังไม่ขึ้น",
+    "shortMeaningTH": "ฟังไม่ขึ้น / ไม่หนักแน่น",
+    "usageNoteTH": "ใช้กับ excuse, evidence, argument, explanation; สำนวนเกี่ยวข้อง wear thin (ความอดทน/มุกตลกเริ่มหมดความหมาย)",
+    "register": "neutral",
+    "connotation": "disapproving",
+    "frequencyBand": 4,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/θɪn/",
+    "ipaUS": "/θɪn/",
+    "variant": "both",
+    "example": "His excuse for missing the meeting was pretty thin.",
+    "exampleTH": "ข้ออ้างที่เขาไม่เข้าประชุมฟังไม่ค่อยขึ้นเลย",
+    "collocations": [
+      "a thin excuse",
+      "thin evidence",
+      "a thin argument",
+      "rather thin"
+    ],
+    "synonyms": [
+      "weak",
+      "flimsy",
+      "feeble",
+      "unconvincing"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "weak",
+        "differenceTH": "weak กว้างกว่า ส่วน thin เน้นว่ามีเนื้อหา/หลักฐานรองรับน้อย"
+      },
+      {
+        "word": "flimsy",
+        "differenceTH": "flimsy ใกล้กันมาก ใช้กับ excuse/evidence เน้นว่าเปราะบาง หักล้างง่าย"
+      }
+    ],
+    "antonyms": [
+      "convincing",
+      "solid",
+      "compelling"
+    ],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "The evidence against him is very thinly.",
+        "right": "The evidence against him is very thin.",
+        "whyTH": "หลัง be ต้องใช้ adjective thin ไม่ใช่ adverb"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "argumentation",
+      "evaluation",
+      "law"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The company claimed the delivery delay was caused by 'unexpected bad weather', but it had been sunny all week. Most customers found the explanation rather [[thin]].",
+      "cluesTH": "'but it had been sunny all week' ทำให้คำอธิบายไม่น่าเชื่อ จึงหมายถึงฟังไม่ขึ้น ไม่ใช่บางหรือผอม"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "The case against him collapsed because the evidence was too ___.",
+        "answer": "thin",
+        "distractors": [
+          "narrow",
+          "skinny",
+          "lean"
+        ],
+        "whyTH": "thin evidence = หลักฐานอ่อน; narrow = แคบ (a narrow win); skinny ใช้กับคน; lean ใช้กับเนื้อไม่ติดมันหรือร่างกาย"
+      },
+      "nearSyn": {
+        "sentence": "'My dog ate my homework' is a rather ___ excuse.",
+        "answer": "thin",
+        "distractors": [
+          {
+            "word": "slim",
+            "whyNotTH": "slim ใช้กับ chance/majority (โอกาสน้อย) ไม่ใช้กับ excuse"
+          },
+          {
+            "word": "lean",
+            "whyNotTH": "lean ใช้กับเนื้อ/ร่างกาย หรือช่วงเวลาที่ฝืดเคือง (lean years)"
+          },
+          {
+            "word": "fine",
+            "whyNotTH": "fine excuse ไม่ได้แปลว่าฟังไม่ขึ้น และอาจถูกเข้าใจว่าเป็นข้ออ้างที่ดี"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'thin' is A1–B2; the advanced sense 'unconvincing' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "loaded|adjective|hidden meaning",
+    "lemma": "loaded",
+    "displayForm": "loaded",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "hidden meaning",
+    "baseLemma": "loaded",
+    "baseMeaningTH": "บรรทุกเต็ม / (ปืน) บรรจุกระสุน",
+    "meaningEN": "(of a question, word or statement) containing a hidden assumption or strong emotional meaning, so that it is difficult to answer or use neutrally",
+    "meaningTH": "(คำถาม คำพูด) แฝงสมมุติฐานหรือนัยทางอารมณ์/การเมืองไว้ ทำให้ตอบหรือใช้อย่างเป็นกลางได้ยาก",
+    "shortMeaningTH": "มีนัยแฝง / ชี้นำ",
+    "usageNoteTH": "ใช้กับ question, word, term, statement; politically/emotionally loaded; ระวัง loaded ในภาษาพูดยังแปลว่า 'รวยมาก' หรือ 'เมา' ได้ด้วย",
+    "register": "neutral",
+    "connotation": "critical",
+    "frequencyBand": 3,
+    "realWorldPriority": 4,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈləʊdɪd/",
+    "ipaUS": "/ˈloʊdɪd/",
+    "variant": "both",
+    "example": "'Have you stopped cheating in your exams?' is a loaded question.",
+    "exampleTH": "'เธอเลิกโกงข้อสอบแล้วหรือยัง' เป็นคำถามที่มีนัยแฝง (เพราะสมมุติว่าเคยโกง)",
+    "collocations": [
+      "a loaded question",
+      "a loaded word",
+      "a loaded term",
+      "politically loaded",
+      "emotionally loaded"
+    ],
+    "synonyms": [
+      "charged",
+      "biased",
+      "leading"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "leading",
+        "differenceTH": "a leading question = คำถามชี้นำให้ตอบตามที่ผู้ถามต้องการ ส่วน loaded question = มีสมมุติฐานซ่อนอยู่ในคำถาม"
+      },
+      {
+        "word": "charged",
+        "differenceTH": "charged ใช้กับ atmosphere/issue (emotionally charged) เน้นอารมณ์รุนแรง"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [],
+    "commonMistakes": [
+      {
+        "wrong": "That's a loading question.",
+        "right": "That's a loaded question.",
+        "whyTH": "ใช้ past participle loaded เป็น adjective"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "communication",
+      "argumentation",
+      "media"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The interviewer asked, 'Why did your government ignore the warnings?' The minister protested that it was a [[loaded]] question, because it assumed the warnings had been ignored.",
+      "cluesTH": "'because it assumed the warnings had been ignored' บอกว่าคำถามมีสมมุติฐานแฝงอยู่ ไม่ใช่การบรรทุกของ"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "'Freedom fighter' and 'terrorist' are politically ___ terms.",
+        "answer": "loaded",
+        "distractors": [
+          "packed",
+          "filled",
+          "stuffed"
+        ],
+        "whyTH": "politically loaded = มีนัยทางการเมือง; packed, filled, stuffed หมายถึงอัดแน่นจริง ไม่ใช้กับ terms ในความหมายนี้"
+      },
+      "nearSyn": {
+        "sentence": "Asking 'Why are you always so lazy?' is a ___ question, because it assumes the person is lazy.",
+        "answer": "loaded",
+        "distractors": [
+          {
+            "word": "heavy",
+            "whyNotTH": "heavy question ไม่ใช่คู่คำที่มีความหมายว่ามีสมมุติฐานแฝง"
+          },
+          {
+            "word": "packed",
+            "whyNotTH": "packed ใช้กับสถานที่/ตารางเวลาที่แน่น ไม่ใช้กับ question"
+          },
+          {
+            "word": "rhetorical",
+            "whyNotTH": "rhetorical question = คำถามที่ไม่ต้องการคำตอบ ไม่ได้เน้นสมมุติฐานแฝง"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'loaded' is A1–B2; the advanced sense 'hidden meaning' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "pressing|adjective|urgent",
+    "lemma": "pressing",
+    "displayForm": "pressing",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "urgent",
+    "baseLemma": "pressing",
+    "baseMeaningTH": "การกด / การรีด (ผ้า)",
+    "meaningEN": "needing to be dealt with immediately; urgent and important",
+    "meaningTH": "เร่งด่วนและสำคัญ ต้องจัดการทันที",
+    "shortMeaningTH": "เร่งด่วน",
+    "usageNoteTH": "ใช้กับ issue, need, problem, concern, matter, engagement; most pressing พบบ่อย; ต่างจาก pressed for time (มีเวลาไม่พอ)",
+    "register": "formal",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 2,
+    "ipaUK": "/ˈpresɪŋ/",
+    "ipaUS": "/ˈpresɪŋ/",
+    "variant": "both",
+    "example": "Climate change is one of the most pressing issues of our time.",
+    "exampleTH": "การเปลี่ยนแปลงสภาพภูมิอากาศเป็นหนึ่งในปัญหาเร่งด่วนที่สุดในยุคของเรา",
+    "collocations": [
+      "a pressing issue",
+      "a pressing need",
+      "a pressing concern",
+      "a pressing matter",
+      "most pressing"
+    ],
+    "synonyms": [
+      "urgent",
+      "critical",
+      "high-priority"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "urgent",
+        "differenceTH": "urgent ใช้ได้กว้าง (urgent message) ส่วน pressing ทางการกว่าและมักใช้กับ issue/need/matter"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "form": "press",
+        "pos": "verb"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We have a pressed issue to discuss.",
+        "right": "We have a pressing issue to discuss.",
+        "whyTH": "pressed (for time) = มีเวลาน้อย ส่วนเรื่องที่เร่งด่วนใช้ pressing"
+      }
+    ],
+    "confusedWith": [
+      "pressed"
+    ],
+    "topics": [
+      "current-affairs",
+      "workplace",
+      "society"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "The new mayor has many plans for the city, but the most [[pressing]] problem is the lack of clean water, which must be solved before summer.",
+      "cluesTH": "'must be solved before summer' บอกว่าเป็นปัญหาที่เร่งด่วน ไม่เกี่ยวกับการกดหรือรีดผ้า"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "There is a ___ need for more affordable housing in the capital.",
+        "answer": "pressing",
+        "distractors": [
+          "pressed",
+          "pushing",
+          "squeezing"
+        ],
+        "whyTH": "a pressing need = ความต้องการเร่งด่วน; pressed ใช้กับคน (pressed for time); pushing และ squeezing เป็นการกระทำทางกาย ไม่ใช้กับ need"
+      },
+      "nearSyn": {
+        "sentence": "I'm afraid I have to leave early — something ___ has come up at work.",
+        "answer": "pressing",
+        "distractors": [
+          {
+            "word": "pressed",
+            "whyNotTH": "pressed ใช้กับคนที่มีเวลาน้อย ไม่ใช่กับเรื่องที่เกิดขึ้น"
+          },
+          {
+            "word": "pushy",
+            "whyNotTH": "pushy = ชอบยัดเยียด/เร่งเร้า ใช้กับคน"
+          },
+          {
+            "word": "compressed",
+            "whyNotTH": "compressed = ถูกบีบอัด ใช้กับอากาศ/ไฟล์"
+          }
+        ]
+      },
+      "formation": null,
+      "register": {
+        "situationTH": "อีเมลถึงผู้จัดการฝ่ายเพื่อขอนัดประชุมด่วน (ทางการ)",
+        "question": "Which sentence is most appropriate?",
+        "answer": "I would like to discuss a pressing matter regarding next year's budget.",
+        "distractors": [
+          {
+            "text": "Gotta talk about the budget thing ASAP!!",
+            "whyNotTH": "gotta, thing, ASAP และเครื่องหมาย !! เป็นภาษาไม่เป็นทางการ"
+          },
+          {
+            "text": "I would like to discuss a pressed matter regarding the budget.",
+            "whyNotTH": "pressed ใช้ผิดความหมาย ต้องเป็น pressing"
+          },
+          {
+            "text": "Budget's a mess, we need to chat.",
+            "whyNotTH": "ภาษาพูดและไม่สุภาพพอสำหรับอีเมลถึงผู้จัดการ"
+          }
+        ]
+      }
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'pressing' is A1–B2; the advanced sense 'urgent' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  },
+  {
+    "key": "sweeping|adjective|wide-ranging",
+    "lemma": "sweeping",
+    "displayForm": "sweeping",
+    "pos": "adjective",
+    "kind": "sense",
+    "senseTag": "wide-ranging",
+    "baseLemma": "sweeping",
+    "baseMeaningTH": "การกวาด (พื้น)",
+    "meaningEN": "affecting many things or people; very wide in effect (sweeping generalisation: too general and ignoring exceptions)",
+    "meaningTH": "มีผลกว้างขวางครอบคลุมหลายด้าน; ถ้าใช้กับ generalisation/statement = เหมารวมเกินไปไม่ดูข้อยกเว้น",
+    "shortMeaningTH": "กว้างขวาง / เหมารวม",
+    "usageNoteTH": "sweeping changes/reforms/powers = เปลี่ยนแปลงหรืออำนาจที่กว้างขวาง (กลาง ๆ); sweeping generalisation/statement = เหมารวม (เชิงตำหนิ); สะกด generalisation (UK) / generalization (US)",
+    "register": "neutral",
+    "connotation": "neutral",
+    "frequencyBand": 4,
+    "realWorldPriority": 5,
+    "tier": "core",
+    "difficulty": 3,
+    "ipaUK": "/ˈswiːpɪŋ/",
+    "ipaUS": "/ˈswiːpɪŋ/",
+    "variant": "both",
+    "example": "The new government has promised sweeping changes to the education system.",
+    "exampleTH": "รัฐบาลใหม่สัญญาว่าจะปฏิรูประบบการศึกษาครั้งใหญ่อย่างกว้างขวาง",
+    "collocations": [
+      "sweeping changes",
+      "sweeping reforms",
+      "sweeping powers",
+      "a sweeping generalisation",
+      "a sweeping statement"
+    ],
+    "synonyms": [
+      "far-reaching",
+      "wide-ranging",
+      "radical",
+      "comprehensive"
+    ],
+    "nearSynonyms": [
+      {
+        "word": "radical",
+        "differenceTH": "radical = เปลี่ยนถึงรากฐาน/สุดโต่ง ส่วน sweeping เน้นว่าผลกระทบกว้างหลายด้าน"
+      },
+      {
+        "word": "far-reaching",
+        "differenceTH": "far-reaching ใกล้กัน เน้นผลระยะยาว/ไปไกล และไม่ใช้กับ generalisation"
+      }
+    ],
+    "antonyms": [
+      "limited",
+      "minor",
+      "narrow"
+    ],
+    "wordFamily": [
+      {
+        "form": "sweep",
+        "pos": "verb"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "That's a swept generalisation.",
+        "right": "That's a sweeping generalisation.",
+        "whyTH": "ใช้รูป -ing คือ sweeping"
+      }
+    ],
+    "confusedWith": [],
+    "topics": [
+      "current-affairs",
+      "argumentation",
+      "society"
+    ],
+    "tags": [
+      "figurative"
+    ],
+    "context": {
+      "text": "Saying that 'all teenagers are lazy' is a [[sweeping]] statement: it ignores the millions of young people who study hard and work part-time.",
+      "cluesTH": "'all teenagers' และ 'it ignores the millions ...' บอกว่าเป็นการพูดเหมารวมเกินไป ไม่เกี่ยวกับการกวาดพื้น"
+    },
+    "literalTH": null,
+    "naturalTH": null,
+    "unnaturalTH": null,
+    "separable": null,
+    "q": {
+      "collocation": {
+        "sentence": "It's unfair to make ___ generalisations about people based on where they come from.",
+        "answer": "sweeping",
+        "distractors": [
+          "brushing",
+          "cleaning",
+          "dusting"
+        ],
+        "whyTH": "sweeping generalisations = การเหมารวม; brushing, cleaning, dusting เป็นงานทำความสะอาดจริง ไม่ใช้กับ generalisations"
+      },
+      "nearSyn": {
+        "sentence": "The new law gives police ___ powers to stop and search anyone without a reason.",
+        "answer": "sweeping",
+        "distractors": [
+          {
+            "word": "swept",
+            "whyNotTH": "swept เป็นรูป past participle (ถูกกวาด) ไม่ใช้เป็นคุณศัพท์ในความหมายกว้างขวาง"
+          },
+          {
+            "word": "spacious",
+            "whyNotTH": "spacious = กว้างขวาง (พื้นที่/ห้อง) ใช้กับสถานที่ ไม่ใช่ powers"
+          },
+          {
+            "word": "open",
+            "whyNotTH": "open powers ไม่ใช่คู่คำ และไม่ได้สื่อว่าครอบคลุมกว้าง"
+          }
+        ]
+      },
+      "formation": null,
+      "register": null
+    },
+    "sourceType": "editorial",
+    "sourceReference": "Basic meaning of 'sweeping' is A1–B2; the advanced sense 'wide-ranging' is C1–C2 usage (CEFR C2: precise use of polysemous everyday words)",
+    "verificationStatus": "unverified"
+  }
+]

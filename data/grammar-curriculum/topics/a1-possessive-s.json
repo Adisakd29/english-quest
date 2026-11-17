@@ -1,0 +1,212 @@
+{
+  "id": "a1-possessive-s",
+  "summaryTh": "เติม 's หลังชื่อคนหรือคำนาม เพื่อบอกว่าสิ่งนั้นเป็นของใคร (Tom's bag)",
+  "concept": {
+    "what": "Possessive 's คือการเติม 's หลังเจ้าของ แล้วตามด้วยสิ่งที่เป็นของเขา เช่น Tom's bag = กระเป๋าของทอม ถ้าเจ้าของเป็นพหูพจน์ที่ลงท้ายด้วย -s ให้เติมแค่ ' (my parents' house)",
+    "when": [
+      "บอกว่าสิ่งของเป็นของใคร (Mai's phone, my dad's car)",
+      "บอกความสัมพันธ์ในครอบครัว/เพื่อน (Tom's sister, my friend's name)",
+      "เจ้าของหลายคนที่ลงท้าย -s เติมแค่ ' (the students' books)",
+      "เจ้าของพหูพจน์รูปพิเศษที่ไม่ลงท้าย -s เติม 's (the children's toys, the women's room)"
+    ],
+    "why": "ภาษาไทยพูด \"กระเป๋าของทอม\" (สิ่งของมาก่อน) ผู้เรียนจึงมักแปลตรง ๆ ว่า the bag of Tom ซึ่งไม่เป็นธรรมชาติ — ภาษาอังกฤษพูดเจ้าของก่อน: Tom's bag"
+  },
+  "structure": {
+    "formula": "Owner + 's + thing",
+    "rows": [
+      { "label": "เจ้าของเอกพจน์", "formula": "Name / noun + 's + thing", "example": "This is [[Tom's]] bike." },
+      { "label": "เจ้าของพหูพจน์ลงท้าย -s", "formula": "plural noun + ' + thing", "example": "My [[parents']] car is white." },
+      { "label": "เจ้าของพหูพจน์รูปพิเศษ", "formula": "children / men / women / people + 's", "example": "The [[children's]] toys are on the floor." },
+      { "label": "คำถาม (Whose …?)", "formula": "Whose + thing + is this? — It's + owner's.", "example": "Whose pen is this? — It's [[Nina's]]." }
+    ],
+    "notes": [
+      "'s ตรงนี้ไม่ได้แปลว่า is: Tom's bag = กระเป๋าของทอม · Tom's tall = Tom is tall",
+      "ชื่อที่ลงท้าย s เติมได้ทั้ง 's และ ': James's / James' bag",
+      "ถ้ารู้แล้วว่าเป็นของอะไร พูดแค่ owner + 's ได้: Whose bag is this? — It's Mai's.",
+      "หลัง 's ไม่ต้องใส่ the: Tom's bag (ไม่ใช่ Tom's the bag)"
+    ]
+  },
+  "examples": [
+    { "en": "This is [[Tom's]] bike.", "th": "นี่คือจักรยานของทอม" },
+    { "en": "[[My sister's]] room is very clean.", "th": "ห้องของพี่สาว/น้องสาวฉันสะอาดมาก" },
+    { "en": "My [[parents']] car is white.", "th": "รถของพ่อแม่ฉันสีขาว (พ่อแม่ = 2 คน)" },
+    { "en": "The [[children's]] toys are on the floor.", "th": "ของเล่นของเด็ก ๆ อยู่บนพื้น" },
+    { "en": "[[Anna's]] birthday is in June.", "th": "วันเกิดของแอนนาอยู่ในเดือนมิถุนายน" },
+    { "en": "Is this [[the teacher's]] pen?", "th": "นี่ปากกาของครูใช่ไหม" },
+    { "en": "[[My best friend's]] name is Jay.", "th": "เพื่อนสนิทของฉันชื่อเจ" },
+    { "en": "The [[students']] bags are in the classroom.", "th": "กระเป๋าของนักเรียน (หลายคน) อยู่ในห้องเรียน" }
+  ],
+  "mistakes": [
+    { "wrong": "This is the bag of Tom.", "right": "This is Tom's bag.", "whyTh": "แปลตรงจาก \"กระเป๋าของทอม\" ฟังไม่เป็นธรรมชาติ — กับคนใช้ owner + 's + สิ่งของ" },
+    { "wrong": "This is Mary book.", "right": "This is Mary's book.", "whyTh": "ภาษาไทยไม่ต้องเติมอะไร แต่ภาษาอังกฤษต้องเติม 's หลังเจ้าของ" },
+    { "wrong": "Toms bag is black.", "right": "Tom's bag is black.", "whyTh": "ต้องมีเครื่องหมาย ' — Toms (ไม่มี ') อ่านเหมือนชื่อ Tom หลายคน" },
+    { "wrong": "My parent's house is big. (พ่อและแม่)", "right": "My parents' house is big. (พ่อและแม่)", "whyTh": "เจ้าของ 2 คน (parents) ลงท้ายด้วย -s อยู่แล้ว เติมแค่ ' ไว้ข้างหลัง" },
+    { "wrong": "The childrens' books are new.", "right": "The children's books are new.", "whyTh": "children เป็นพหูพจน์รูปพิเศษที่ไม่ลงท้าย -s จึงเติม 's ตามปกติ" }
+  ],
+  "compare": {
+    "title": "Possessive adjectives vs Possessive 's",
+    "with": ["a1-possessive-adjectives"],
+    "rows": [
+      { "label": "ใช้กับ", "a": "สรรพนาม: my, your, his, her, its, our, their", "b": "ชื่อหรือคำนาม: Tom's, my mum's, the dog's" },
+      { "label": "ตัวอย่าง", "a": "This is her bag.", "b": "This is Mai's bag." },
+      { "label": "ใช้ด้วยกัน", "a": "my + noun + 's: my sister's room", "b": "ห้ามใช้ซ้อนกัน: Mai's her bag (ผิด)" }
+    ],
+    "tipTh": "บอกชื่อเจ้าของ → ใช้ 's (Mai's bag) · ถ้าไม่บอกชื่อแต่แทนด้วยสรรพนาม → his / her / their (her bag)"
+  },
+  "contexts": [
+    {
+      "kind": "story", "title": "Grandma's birthday",
+      "lines": [
+        { "text": "Today is my [[grandma's]] birthday. [[Grandma's]] house is very small, so we have the party at my [[cousins']] house. My [[uncle's]] cake is chocolate, and my [[mum's]] noodles are delicious. The [[children's]] games are in the garden." }
+      ]
+    },
+    {
+      "kind": "dialogue", "title": "Whose is this?",
+      "lines": [
+        { "speaker": "Teacher", "text": "Whose phone is this?" },
+        { "speaker": "Pim", "text": "I think it's [[Joe's]]. His phone is black." },
+        { "speaker": "Teacher", "text": "And these books?" },
+        { "speaker": "Pim", "text": "They're the [[twins']] books. Their names are inside." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Possessive 's", "th": "การเติม 's บอกความเป็นเจ้าของ (Tom's = ของทอม)" },
+    { "en": "Apostrophe", "th": "เครื่องหมาย ' (อะพอสทรอฟี)" },
+    { "en": "Owner", "th": "เจ้าของ — คำที่อยู่หน้า 's" },
+    { "en": "Whose", "th": "ของใคร — ใช้ถามความเป็นเจ้าของ" }
+  ],
+  "practice": [
+    {
+      "id": "a1-possessive-s-01", "type": "mc", "difficulty": 1,
+      "question": "This bike belongs to Ben. It is ___ bike.",
+      "choices": ["Ben", "Bens", "Ben's", "Bens'"], "answer": 2,
+      "whyNot": { "0": "ต้องเติม 's หลังเจ้าของ ไม่ใช่ชื่อเฉย ๆ", "1": "ขาดเครื่องหมาย ' — Bens ไม่ได้บอกความเป็นเจ้าของ", "3": "s' ใช้กับเจ้าของพหูพจน์ แต่ Ben มีคนเดียว" },
+      "explainTh": "เจ้าของคนเดียว → ชื่อ + 's + สิ่งของ → Ben's bike",
+      "structure": "Owner + 's + thing", "example": "It is Ben's bike."
+    },
+    {
+      "id": "a1-possessive-s-02", "type": "fill", "difficulty": 1,
+      "question": "This is ___ phone. (Mai)",
+      "accepted": ["Mai's"],
+      "explainTh": "เจ้าของคือ Mai (คนเดียว) → Mai + 's",
+      "structure": "Name + 's + thing", "example": "This is Mai's phone."
+    },
+    {
+      "id": "a1-possessive-s-03", "type": "fill", "difficulty": 1,
+      "question": "___ car is red. (my dad)",
+      "accepted": ["My dad's"],
+      "explainTh": "เจ้าของคือ my dad (คนเดียว) → my dad + 's → My dad's car",
+      "structure": "my + noun + 's + thing", "example": "My dad's car is red."
+    },
+    {
+      "id": "a1-possessive-s-04", "type": "fill", "difficulty": 2,
+      "question": "The two boys share one room. The ___ room is very big. (boys)",
+      "accepted": ["boys'"],
+      "explainTh": "เจ้าของหลายคนและ boys ลงท้ายด้วย -s อยู่แล้ว → เติมแค่ ' → boys'",
+      "structure": "plural noun-s + ' + thing", "example": "The boys' room is very big."
+    },
+    {
+      "id": "a1-possessive-s-05", "type": "fill", "difficulty": 2,
+      "question": "The ___ books are on the table. (children)",
+      "accepted": ["children's"],
+      "explainTh": "children เป็นพหูพจน์รูปพิเศษ ไม่ลงท้าย -s จึงเติม 's → children's",
+      "structure": "irregular plural + 's", "example": "The children's books are on the table."
+    },
+    {
+      "id": "a1-possessive-s-06", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่วลีที่มีความหมายเดียวกัน",
+      "pairs": [["the cat of my sister", "my sister's cat"], ["the house of my parents", "my parents' house"], ["the toys of the children", "the children's toys"], ["the bike of Tom", "Tom's bike"]],
+      "explainTh": "ย้ายเจ้าของไปข้างหน้าแล้วเติม 's (เอกพจน์/พหูพจน์รูปพิเศษ) หรือ ' (พหูพจน์ลงท้าย -s)"
+    },
+    {
+      "id": "a1-possessive-s-07", "type": "error", "difficulty": 1,
+      "sentence": "This is Toms pen.",
+      "errorPart": "Toms",
+      "accepted": ["This is Tom's pen."],
+      "explainTh": "แสดงความเป็นเจ้าของต้องมี ' ก่อน s → Tom's",
+      "structure": "Name + 's"
+    },
+    {
+      "id": "a1-possessive-s-08", "type": "error", "difficulty": 2,
+      "sentence": "The students's bags are heavy.",
+      "errorPart": "students's",
+      "accepted": ["The students' bags are heavy."],
+      "explainTh": "students เป็นพหูพจน์ลงท้าย -s อยู่แล้ว เติมแค่ ' → students'",
+      "structure": "plural noun-s + '"
+    },
+    {
+      "id": "a1-possessive-s-09", "type": "order", "difficulty": 1,
+      "tokens": ["is", "Sara's", "this", "dress"],
+      "accepted": ["This is Sara's dress.", "Is this Sara's dress?"],
+      "explainTh": "Sara's วางหน้าสิ่งของ dress → This is Sara's dress."
+    },
+    {
+      "id": "a1-possessive-s-10", "type": "order", "difficulty": 2,
+      "tokens": ["my", "name", "best", "friend's", "is", "Jay"],
+      "accepted": ["My best friend's name is Jay.", "Jay is my best friend's name.", "Is my best friend's name Jay?"],
+      "explainTh": "เจ้าของ (my best friend) + 's + สิ่งที่เป็นของเขา (name) → My best friend's name is Jay."
+    },
+    {
+      "id": "a1-possessive-s-11", "type": "transform", "difficulty": 2,
+      "source": "This is the bag of my teacher.",
+      "instruction": "เขียนใหม่โดยใช้ 's",
+      "accepted": ["This is my teacher's bag."],
+      "explainTh": "ย้ายเจ้าของ (my teacher) ไปข้างหน้า เติม 's แล้วตามด้วยสิ่งของ → my teacher's bag",
+      "structure": "Owner + 's + thing", "example": "This is my teacher's bag."
+    },
+    {
+      "id": "a1-possessive-s-12", "type": "transform", "difficulty": 3,
+      "source": "These are the shoes of my sisters. (พี่สาว 2 คน)",
+      "instruction": "เขียนใหม่โดยใช้ ' หรือ 's",
+      "accepted": ["These are my sisters' shoes."],
+      "explainTh": "เจ้าของคือ my sisters (หลายคน ลงท้าย -s) → เติมแค่ ' → my sisters' shoes",
+      "structure": "plural noun-s + ' + thing", "example": "These are my sisters' shoes."
+    },
+    {
+      "id": "a1-possessive-s-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง (ผู้หญิงหลายคน)",
+      "choices": ["The womens' bags are expensive.", "The women's bags are expensive.", "The womens bags are expensive.", "The women bags are expensive."], "answer": 1,
+      "whyNot": { "0": "women เป็นพหูพจน์อยู่แล้ว ไม่มีคำว่า womens", "2": "ไม่มีคำว่า womens และขาดเครื่องหมาย '", "3": "ต้องมี 's หลังเจ้าของ จึงจะแปลว่า \"ของผู้หญิง\"" },
+      "explainTh": "women เป็นพหูพจน์รูปพิเศษ ไม่ลงท้าย -s → women's",
+      "structure": "irregular plural + 's", "example": "The women's bags are expensive."
+    },
+    {
+      "id": "a1-possessive-s-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Whose umbrella is this?" },
+        { "speaker": "B", "text": "It's ___. She always carries a blue umbrella." }
+      ] },
+      "choices": ["Nina", "Nina's", "Ninas'", "her"], "answer": 1,
+      "whyNot": { "0": "It's Nina แปลว่า \"มันคือนีน่า\" ไม่ได้บอกว่าเป็นของใคร", "2": "s' ใช้กับเจ้าของพหูพจน์ แต่ Nina มีคนเดียว", "3": "It's her แปลว่า \"นั่นคือเธอ\" ไม่ได้บอกความเป็นเจ้าของ (ถ้าใช้สรรพนามต้องเป็น It's hers.)" },
+      "explainTh": "ตอบคำถาม Whose …? ใช้ชื่อ + 's ได้เลยโดยไม่ต้องพูดสิ่งของซ้ำ → It's Nina's.",
+      "structure": "It's + owner's", "example": "It's Nina's."
+    },
+    {
+      "id": "a1-possessive-s-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "story", "title": "Grandma's birthday", "lines": [
+        { "text": "Today is my grandma's birthday. Grandma's house is very small, so we have the party at my cousins' house. My uncle's cake is chocolate. The children's games are in the garden." }
+      ] },
+      "question": "Where is the party?",
+      "choices": ["At Grandma's house", "At the cousins' house", "At the uncle's house", "At the children's school"], "answer": 1,
+      "whyNot": { "0": "เรื่องบอกว่าบ้านคุณยายเล็กมาก จึงไม่ได้จัดงานที่บ้านคุณยาย", "2": "ของลุงในเรื่องคือเค้ก (My uncle's cake)", "3": "ในเรื่องไม่ได้พูดถึงโรงเรียน" },
+      "explainTh": "\"we have the party at my cousins' house\" — งานจัดที่บ้านของลูกพี่ลูกน้อง (หลายคน ลงท้าย -s จึงเติมแค่ ' → cousins')"
+    },
+    {
+      "id": "a1-possessive-s-16", "type": "mc", "difficulty": 3,
+      "question": "My two ___ bedroom is next to mine. They share one room.",
+      "choices": ["brother's", "brothers'", "brothers", "brother"], "answer": 1,
+      "whyNot": { "0": "brother's หมายถึงเจ้าของคนเดียว แต่ที่นี่มี two brothers", "2": "ขาดเครื่องหมาย ' จึงไม่ได้บอกความเป็นเจ้าของ", "3": "two ต้องตามด้วยพหูพจน์ และต้องมีเครื่องหมายแสดงเจ้าของ" },
+      "explainTh": "เจ้าของ 2 คน (brothers ลงท้าย -s) → เติมแค่ ' → brothers' bedroom",
+      "structure": "plural noun-s + ' + thing", "example": "My two brothers' bedroom is next to mine."
+    },
+    {
+      "id": "a1-possessive-s-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับของของคนที่คุณรู้จัก ใช้ 's หรือ s' (Write 3 sentences about things that belong to people you know. Use 's, e.g. My mum's car is white.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b(?!(?:it|he|she|that|there|what|who|where|here|this|let)'s\\b)[a-z]+('s|s')\\s+[a-z]+", "flags": "i", "msgTh": "ใช้ owner + 's + สิ่งของ อย่างน้อย 1 ครั้ง (เช่น Tom's bag)" } ],
+      "sample": "My mum's car is white. My brother's name is Ton. My grandparents' house is in Nan.",
+      "explainTh": "เจ้าของคนเดียว + 's (my mum's) · เจ้าของพหูพจน์ลงท้าย -s + ' (my grandparents')"
+    }
+  ]
+}

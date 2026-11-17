@@ -1,0 +1,475 @@
+{
+  "id": "b2-participle-clauses",
+  "summaryTh": "ย่อประโยคเหตุผล/เวลาให้สั้นด้วย V-ing, Having + V3 หรือ V3 — ประธานต้องเป็นคนเดียวกัน",
+  "concept": {
+    "what": "Participle clause คือส่วนของประโยคที่ขึ้นต้นด้วย V-ing, Having + V3 หรือ V3 ใช้แทนประโยคที่มี because / when / after / while เพื่อให้สั้นและเป็นทางการขึ้น เช่น Because she felt tired, she went to bed. → Feeling tired, she went to bed.",
+    "when": [
+      "V-ing: เหตุผลหรือเหตุการณ์ที่เกิดพร้อมกัน (Feeling tired, … / Walking home, …)",
+      "Having + V3: ทำสิ่งหนึ่งเสร็จก่อน แล้วจึงทำอีกสิ่ง (Having finished the report, …)",
+      "V3: ความหมายถูกกระทำ (Built in 1890, the bridge … = The bridge was built in 1890)",
+      "Not + V-ing / Not having + V3: ปฏิเสธ (Not knowing the way, …)",
+      "ใช้มากในการเขียนเรื่องเล่า รายงาน และเรียงความ"
+    ],
+    "why": "ประธานที่ซ่อนอยู่ใน participle clause ต้องเป็นคนเดียวกับประธานของประโยคหลักเสมอ — ภาษาไทยละประธานได้อิสระ ผู้เรียนไทยจึงมักเขียน \"dangling participle\" เช่น Walking to school, the rain started. (ฝนเดินไปโรงเรียน?) ซึ่งผิดและฟังตลก"
+  },
+  "structure": {
+    "formula": "V-ing / Having + V3 / V3 …, Subject + Verb …",
+    "rows": [
+      {
+        "label": "เหตุผล / เวลาเดียวกัน",
+        "formula": "V-ing …, Subject + Verb",
+        "example": "[[Feeling]] tired, she went to bed early."
+      },
+      {
+        "label": "ทำเสร็จก่อน",
+        "formula": "Having + V3 …, Subject + Verb",
+        "example": "[[Having finished]] her homework, she went out."
+      },
+      {
+        "label": "ถูกกระทำ (Passive)",
+        "formula": "V3 …, Subject + Verb",
+        "example": "[[Written]] in simple English, the book is easy to read."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Not + V-ing / Not having + V3 …",
+        "example": "[[Not knowing]] the way, we used a map."
+      },
+      {
+        "label": "หลังคำเชื่อม",
+        "formula": "After / Before / While / When + V-ing …",
+        "example": "[[While waiting]] for the bus, I read the news."
+      }
+    ],
+    "notes": [
+      "ประธานของประโยคหลัก = ผู้ทำกริยาใน participle clause เสมอ (ไม่อย่างนั้นเป็น dangling participle)",
+      "คั่นด้วยจุลภาค (,) เมื่อ participle clause อยู่หน้าประโยค",
+      "not วางหน้า participle: Not knowing ✓ (ไม่ใช่ Knowing not)",
+      "Having + V3 ใช้เมื่ออยากเน้นว่าเหตุการณ์แรกเสร็จก่อน — ใช้ After + V-ing แทนได้ (After finishing …)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[Feeling]] tired, she went to bed early.",
+      "th": "เพราะรู้สึกเหนื่อย เธอจึงเข้านอนเร็ว"
+    },
+    {
+      "en": "[[Having finished]] the report, Tom sent it to his boss.",
+      "th": "หลังจากเขียนรายงานเสร็จ ทอมก็ส่งให้หัวหน้า"
+    },
+    {
+      "en": "[[Not knowing]] what to say, I just smiled.",
+      "th": "เพราะไม่รู้จะพูดอะไร ฉันเลยแค่ยิ้ม"
+    },
+    {
+      "en": "[[Built]] in the 14th century, the temple attracts many tourists.",
+      "th": "วัดนี้ซึ่งสร้างในศตวรรษที่ 14 ดึงดูดนักท่องเที่ยวจำนวนมาก"
+    },
+    {
+      "en": "[[While waiting]] for the train, I checked my email.",
+      "th": "ระหว่างรอรถไฟ ฉันเช็กอีเมล"
+    },
+    {
+      "en": "[[Seeing]] the dark clouds, we decided to stay at home.",
+      "th": "เมื่อเห็นเมฆดำ พวกเราจึงตัดสินใจอยู่บ้าน"
+    },
+    {
+      "en": "[[After graduating]], she moved to Singapore for work.",
+      "th": "หลังเรียนจบ เธอย้ายไปทำงานที่สิงคโปร์"
+    },
+    {
+      "en": "[[Asked]] about the delay, the manager apologised to everyone.",
+      "th": "เมื่อถูกถามเรื่องความล่าช้า ผู้จัดการก็ขอโทษทุกคน"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Walking to school, the rain started.",
+      "right": "Walking to school, I got caught in the rain.",
+      "whyTh": "ผู้ที่เดินต้องเป็นประธานของประโยคหลัก — ประโยคผิดแปลว่า \"ฝนเดินไปโรงเรียน\" (dangling participle)"
+    },
+    {
+      "wrong": "Finished my homework, I watched TV.",
+      "right": "Having finished my homework, I watched TV.",
+      "whyTh": "ฉันเป็นคนทำการบ้าน (active) และทำเสร็จก่อน → Having + V3 ส่วน V3 เดี่ยว ๆ (Finished) มีความหมายถูกกระทำ"
+    },
+    {
+      "wrong": "Knowing not the answer, she kept quiet.",
+      "right": "Not knowing the answer, she kept quiet.",
+      "whyTh": "not ต้องวางหน้า participle เสมอ"
+    },
+    {
+      "wrong": "Writing in 1950, the novel is still popular today.",
+      "right": "Written in 1950, the novel is still popular today.",
+      "whyTh": "นิยายถูกเขียน (passive) จึงใช้ V3 written — Writing แปลว่านิยายเป็นคนเขียนเอง"
+    },
+    {
+      "wrong": "Having wake up late, he missed the bus.",
+      "right": "Having woken up late, he missed the bus.",
+      "whyTh": "หลัง Having ต้องใช้กริยาช่องที่ 3 (woken)"
+    }
+  ],
+  "compare": {
+    "title": "Participle clause vs Reduced relative clause",
+    "with": [
+      "b2-reduced-relatives"
+    ],
+    "rows": [
+      {
+        "label": "ทำหน้าที่",
+        "a": "บอกเหตุผล/เวลาของการกระทำในประโยคหลัก",
+        "b": "ขยายคำนามที่อยู่ข้างหน้า"
+      },
+      {
+        "label": "ตำแหน่ง",
+        "a": "มักอยู่ต้นประโยค ตามด้วยจุลภาค",
+        "b": "อยู่หลังคำนามทันที"
+      },
+      {
+        "label": "ประธานที่ซ่อนอยู่",
+        "a": "= ประธานของประโยคหลัก",
+        "b": "= คำนามที่ถูกขยาย"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "Sitting by the window, I watched the rain.",
+        "b": "The man sitting by the window is my uncle."
+      }
+    ],
+    "tipTh": "ถ้า V-ing อยู่หน้าประโยคแล้วมีจุลภาค ให้ถามว่า \"ใครทำ?\" — คำตอบต้องเป็นประธานที่ตามมาหลังจุลภาค"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "A day at the beach",
+      "lines": [
+        {
+          "text": "[[Having packed]] our bags the night before, we left home at six. [[Arriving]] at the beach early, we found a quiet spot under a tree. [[Not wanting]] to get sunburnt, my sister stayed in the shade all morning. [[Exhausted]] after the long day, we all fell asleep in the car on the way home."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Project update",
+      "lines": [
+        {
+          "text": "[[Having reviewed]] the customer feedback, the team made three changes to the app. [[Designed]] to be simpler, the new menu now has only five buttons. [[Hoping]] to launch next month, we are now testing the app with 50 users."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Participle clause",
+      "th": "ส่วนของประโยคที่ขึ้นต้นด้วย V-ing / Having + V3 / V3 ใช้แทนประโยคย่อย"
+    },
+    {
+      "en": "Present participle (V-ing)",
+      "th": "กริยา -ing ความหมายเป็นผู้ทำ หรือเกิดพร้อมกัน"
+    },
+    {
+      "en": "Perfect participle (Having + V3)",
+      "th": "บอกว่าเหตุการณ์นั้นทำเสร็จก่อนอีกเหตุการณ์"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ความหมายถูกกระทำ"
+    },
+    {
+      "en": "Dangling participle",
+      "th": "participle ที่ \"ห้อยลอย\" — ประธานของประโยคหลักไม่ใช่ผู้ทำ ทำให้ความหมายผิด"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-participle-clauses-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ tired, I went to bed early.",
+      "choices": [
+        "Feeling",
+        "Felt",
+        "Feel",
+        "To feeling"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Felt เป็น V2/V3 — ต้นประโยคแบบนี้ต้องใช้ V-ing (ฉันเป็นผู้รู้สึก)",
+        "2": "Feel เป็นกริยารูปฐาน ขึ้นต้นแบบนี้แล้วไม่มีประธาน จึงผิด",
+        "3": "to + V-ing ไม่ใช่โครงสร้างที่ถูก"
+      },
+      "explainTh": "Because I felt tired → Feeling tired (ประธานเดียวกันคือ I และเป็นผู้ทำ → V-ing)",
+      "structure": "V-ing …, Subject + Verb",
+      "example": "Feeling tired, I went to bed early."
+    },
+    {
+      "id": "b2-participle-clauses-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ in 1890, the bridge is the oldest in the city.",
+      "choices": [
+        "Building",
+        "Built",
+        "Having built",
+        "Build"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "Building แปลว่าสะพานเป็นผู้สร้าง แต่สะพานถูกสร้าง",
+        "2": "Having built ก็เป็น active แปลว่าสะพานสร้างอะไรบางอย่างเสร็จ",
+        "3": "Build เป็นกริยารูปฐาน ใช้ขึ้นต้นประโยคแบบนี้ไม่ได้"
+      },
+      "explainTh": "The bridge was built in 1890 → ความหมายถูกกระทำ → ใช้ V3: Built in 1890, …",
+      "structure": "V3 …, Subject + Verb"
+    },
+    {
+      "id": "b2-participle-clauses-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "___ the way, we asked a police officer for help. (not / know)",
+      "accepted": [
+        "Not knowing"
+      ],
+      "explainTh": "Because we didn't know the way → Not knowing the way — not วางหน้า V-ing",
+      "structure": "Not + V-ing …,",
+      "example": "Not knowing the way, we asked a police officer for help."
+    },
+    {
+      "id": "b2-participle-clauses-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "___ all her exams, Ploy finally went on holiday. (finish — ใช้รูป Having + V3)",
+      "accepted": [
+        "Having finished"
+      ],
+      "explainTh": "สอบเสร็จก่อน แล้วจึงไปเที่ยว → Having + V3: Having finished",
+      "structure": "Having + V3 …,",
+      "example": "Having finished all her exams, Ploy finally went on holiday."
+    },
+    {
+      "id": "b2-participle-clauses-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "Knowing not what to do, she called her mother.",
+      "errorPart": "Knowing not",
+      "accepted": [
+        "Not knowing what to do, she called her mother."
+      ],
+      "explainTh": "รูปปฏิเสธของ participle: Not + V-ing (not อยู่ข้างหน้าเสมอ)"
+    },
+    {
+      "id": "b2-participle-clauses-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Writing in simple language, the book is easy for children to read.",
+      "errorPart": "Writing",
+      "accepted": [
+        "Written in simple language, the book is easy for children to read."
+      ],
+      "explainTh": "หนังสือถูกเขียน (passive) → ใช้ V3 written — Writing จะแปลว่าหนังสือเป็นคนเขียน"
+    },
+    {
+      "id": "b2-participle-clauses-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "having",
+        "read",
+        "the",
+        "instructions",
+        "she",
+        "started",
+        "the",
+        "machine"
+      ],
+      "accepted": [
+        "Having read the instructions, she started the machine.",
+        "Having read the instructions she started the machine.",
+        "She started the machine, having read the instructions.",
+        "She started the machine having read the instructions."
+      ],
+      "explainTh": "Having + V3 (อ่านคู่มือเสร็จก่อน) + จุลภาค + ประธานที่เป็นผู้อ่าน (she) + กริยาหลัก"
+    },
+    {
+      "id": "b2-participle-clauses-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Because he felt hungry, Ken made a sandwich.",
+      "instruction": "เขียนใหม่โดยใช้ participle clause ขึ้นต้นด้วย Feeling",
+      "accepted": [
+        "Feeling hungry, Ken made a sandwich."
+      ],
+      "explainTh": "ตัด Because he ออก แล้วเปลี่ยน felt เป็น feeling — ประธาน Ken เป็นคนเดียวกัน"
+    },
+    {
+      "id": "b2-participle-clauses-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "After she had sent the email, she realised she had forgotten the attachment.",
+      "instruction": "เขียนใหม่โดยใช้ participle clause ขึ้นต้นด้วย Having",
+      "accepted": [
+        "Having sent the email, she realised she had forgotten the attachment.",
+        "Having sent the email, she realized she had forgotten the attachment.",
+        "Having sent the email, she realised that she had forgotten the attachment.",
+        "Having sent the email, she realized that she had forgotten the attachment."
+      ],
+      "explainTh": "After she had sent → Having sent (ส่งอีเมลเสร็จก่อน) ประธาน she ยังอยู่ในประโยคหลัก"
+    },
+    {
+      "id": "b2-participle-clauses-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยคย่อยแบบเต็มกับ participle clause ที่ความหมายเท่ากัน",
+      "pairs": [
+        [
+          "Because I didn't have any money,",
+          "Not having any money,"
+        ],
+        [
+          "When it is seen from the hill,",
+          "Seen from the hill,"
+        ],
+        [
+          "After he had eaten lunch,",
+          "Having eaten lunch,"
+        ],
+        [
+          "While I was walking home,",
+          "Walking home,"
+        ],
+        [
+          "Because she was afraid of the dark,",
+          "Being afraid of the dark,"
+        ]
+      ],
+      "explainTh": "ปฏิเสธ → Not + V-ing · ถูกกระทำ → V3 · ทำเสร็จก่อน → Having + V3 · เกิดพร้อมกัน → V-ing · be → Being"
+    },
+    {
+      "id": "b2-participle-clauses-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "Looking out of the window, the mountains were beautiful.",
+        "Looking out of the window, I saw some beautiful mountains.",
+        "Looked out of the window, I saw some beautiful mountains.",
+        "Having look out of the window, I saw some beautiful mountains."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "dangling participle — ภูเขาไม่ได้มองออกนอกหน้าต่าง ประธานต้องเป็นคนที่มอง",
+        "2": "Looked เป็น V3 ความหมายถูกกระทำ ต้องใช้ Looking",
+        "3": "หลัง Having ต้องเป็น V3 (Having looked)"
+      },
+      "explainTh": "ผู้ที่มองออกนอกหน้าต่างคือ I → ประธานของประโยคหลักต้องเป็น I"
+    },
+    {
+      "id": "b2-participle-clauses-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Why didn't you call me back last night?"
+          },
+          {
+            "speaker": "B",
+            "text": "Sorry! ___ so tired after work, I fell asleep on the sofa."
+          }
+        ]
+      },
+      "choices": [
+        "Being",
+        "Been",
+        "Be",
+        "Was"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Been ต้องมี Having นำหน้า (Having been)",
+        "2": "Be เป็นรูปฐาน ใช้ขึ้นต้น participle clause ไม่ได้",
+        "3": "Was ต้องมีประธาน (I was) — ถ้าไม่มีประธานต้องใช้ participle"
+      },
+      "explainTh": "Because I was so tired → Being so tired (เปลี่ยน was เป็น being และตัดประธาน)"
+    },
+    {
+      "id": "b2-participle-clauses-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "A student's draft",
+        "lines": [
+          {
+            "text": "Arriving at the hotel, we checked in quickly. Having unpacked our bags, we went straight to the beach. Swimming in the sea, a jellyfish stung my brother. Exhausted after the long day, we went to bed early."
+          }
+        ]
+      },
+      "question": "Which sentence in the draft has a dangling participle?",
+      "choices": [
+        "Arriving at the hotel, we checked in quickly.",
+        "Having unpacked our bags, we went straight to the beach.",
+        "Swimming in the sea, a jellyfish stung my brother.",
+        "Exhausted after the long day, we went to bed early."
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "คนที่มาถึงโรงแรมคือ we ตรงกับประธาน จึงถูก",
+        "1": "คนที่แกะกระเป๋าเสร็จคือ we ตรงกับประธาน จึงถูก",
+        "3": "คนที่เหนื่อยคือ we ตรงกับประธาน จึงถูก"
+      },
+      "explainTh": "คนที่ว่ายน้ำคือน้องชาย แต่ประธานของประโยคหลักคือ a jellyfish → แก้เป็น While my brother was swimming in the sea, a jellyfish stung him."
+    },
+    {
+      "id": "b2-participle-clauses-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "___ the film twice before, I knew exactly how it ended.",
+      "choices": [
+        "Having seen",
+        "Seeing",
+        "Seen",
+        "Having saw"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Seeing ใช้กับเหตุการณ์ที่เกิดพร้อมกัน แต่ twice before บอกว่าดูจบไปก่อนแล้ว",
+        "2": "Seen เป็น passive (ถูกดู) แต่ฉันเป็นคนดู",
+        "3": "หลัง Having ต้องใช้ V3 (seen) ไม่ใช่ V2 (saw)"
+      },
+      "explainTh": "ดูหนังมาก่อนแล้ว (เสร็จก่อนเหตุการณ์หลัก) → Having + V3: Having seen"
+    },
+    {
+      "id": "b2-participle-clauses-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "___ to give a speech at the last minute, Somchai felt very nervous. (ask — ความหมายถูกกระทำ)",
+      "accepted": [
+        "Asked",
+        "Having been asked",
+        "Being asked"
+      ],
+      "explainTh": "สมชายถูกขอให้พูด (passive) → V3: Asked … (หรือ Having been asked / Being asked)",
+      "structure": "V3 …, Subject + Verb"
+    },
+    {
+      "id": "b2-participle-clauses-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเล่าเรื่องการเดินทางหรือวันหนึ่งที่ผ่านมา ใช้ participle clause อย่างน้อย 2 ประโยค เช่น Feeling …, / Having + V3 …, และระวังอย่าให้เป็น dangling participle (Write 3 sentences about a trip or a day in the past, using at least two participle clauses.)",
+      "minSentences": 3,
+      "expectTense": "past",
+      "checks": [
+        {
+          "re": "(^|[.!?]\\s+)(?!(?:During|Something|Nothing|Everything|Anything|Morning|Evening|Spring|Interesting|Amazing|Exciting|Boring)\\b)((After|Before|While|When|On)\\s+)?(Not\\s+)?(Having\\s+\\w+|\\w+ing|\\w+(ed|en|wn|lt|ght))\\b[^.!?]*,[\\s\\S]*?(^|[.!?]\\s+)(?!(?:During|Something|Nothing|Everything|Anything|Morning|Evening|Spring|Interesting|Amazing|Exciting|Boring)\\b)((After|Before|While|When|On)\\s+)?(Not\\s+)?(Having\\s+\\w+|\\w+ing|\\w+(ed|en|wn|lt|ght))\\b[^.!?]*,",
+          "flags": "i",
+          "msgTh": "ขึ้นต้นประโยคด้วย participle clause แล้วตามด้วยจุลภาค อย่างน้อย 2 ประโยค เช่น Feeling tired, … / Having finished …, …"
+        }
+      ],
+      "sample": "Having packed our bags the night before, we left home at six. Arriving at the beach early, we found a quiet spot. Feeling tired after the long day, I fell asleep in the car.",
+      "explainTh": "ทุกประโยคเล่าอดีต (left, found, fell) และประธานหลังจุลภาคต้องเป็นคนที่ทำกริยาใน participle clause"
+    }
+  ]
+}

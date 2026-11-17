@@ -1,0 +1,73 @@
+{
+  "batch": "45",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S0986",
+      "severity": "major",
+      "problem": "Example shows a different sense ('a risky proposition' = a risky undertaking/idea), not 'an offer or suggestion'; exampleTH 'ข้อเสนอที่เสี่ยง' is therefore misleading",
+      "fix": {
+        "example": "The investor made us an attractive proposition: she would pay for the new shop in return for half the profits.",
+        "form": "proposition",
+        "exampleTH": "นักลงทุนยื่นข้อเสนอที่น่าสนใจให้เรา คือเธอจะออกเงินเปิดร้านใหม่ให้โดยแลกกับกำไรครึ่งหนึ่ง"
+      }
+    },
+    {
+      "id": "C1-S0907",
+      "severity": "minor",
+      "problem": "meaningEN and example describe a group (police patrol), but thai 'การลาดตระเวน' is the activity; exampleTH already uses หน่วยลาดตระเวน",
+      "fix": {
+        "thai": "หน่วยลาดตระเวน, การลาดตระเวน",
+        "shortTH": "หน่วยลาดตระเวน",
+        "thaiChangeReason": "ความหมายนี้คือกลุ่มคน/ยานพาหนะที่ลาดตระเวน จึงใช้หน่วยลาดตระเวนเป็นหลัก"
+      }
+    },
+    {
+      "id": "C1-S0905",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'applied for a ___ for her new pump' also fits grant/loan",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0930",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My laptop ___ doesn't fit the sockets' also fits charger",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "C1-S0901",
+      "severity": "minor",
+      "problem": "Collocation 'in passing' belongs to a different sense (mentioning something briefly), not time going by",
+      "fix": {
+        "collocations": [
+          "the passing of time",
+          "with the passing of the years"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0902",
+      "severity": "minor",
+      "problem": "Collocation 'passive smoking' is a different sense (breathing others' smoke), not passive behaviour",
+      "fix": {
+        "collocations": [
+          "a passive role",
+          "passive learning",
+          "remain passive"
+        ]
+      }
+    },
+    {
+      "id": "C1-S0993",
+      "severity": "minor",
+      "problem": "exampleTH is repetitive and stiff ('ปฏิบัติตามระเบียบปฏิบัติ')",
+      "fix": {
+        "exampleTH": "เจ้าหน้าที่โรงพยาบาลต้องทำตามขั้นตอนปฏิบัติที่เข้มงวดเมื่อมีผู้ป่วยไข้สูงเข้ามา"
+      }
+    }
+  ]
+}

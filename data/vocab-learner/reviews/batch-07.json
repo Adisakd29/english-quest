@@ -1,0 +1,68 @@
+{
+  "batch": "07",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A1-S0810",
+      "severity": "minor",
+      "problem": "Thai 'หล่อน' is old-fashioned and can sound rude or looking down on someone; 'เขา' is the common modern choice for she alongside 'เธอ'.",
+      "fix": {
+        "thai": "เธอ, เขา (ใช้กับผู้หญิง)",
+        "shortTH": "เธอ (ผู้หญิง)",
+        "thaiChangeReason": "ตัด หล่อน ซึ่งเป็นคำเก่าและอาจฟังไม่สุภาพ เพิ่ม เขา ที่ใช้จริงบ่อย"
+      }
+    },
+    {
+      "id": "A1-S0855",
+      "severity": "minor",
+      "problem": "'แกงจืด' is one specific Thai clear soup, not a general translation of soup; it even clashes with the example (tom yum is not แกงจืด).",
+      "fix": {
+        "thai": "ซุป",
+        "shortTH": "ซุป",
+        "thaiChangeReason": "แกงจืดเป็นอาหารเฉพาะอย่าง ไม่ครอบคลุมซุปทั่วไป เช่น ต้มยำ"
+      }
+    },
+    {
+      "id": "A1-S0781",
+      "severity": "minor",
+      "problem": "Example 'My morning routine is shower, breakfast, then the bus.' is an unnatural list of bare nouns after 'is'.",
+      "fix": {
+        "example": "I shower, then eat breakfast. That is my morning routine.",
+        "form": "routine",
+        "exampleTH": "ฉันอาบน้ำแล้วกินข้าวเช้า นั่นคือกิจวัตรตอนเช้าของฉัน"
+      }
+    },
+    {
+      "id": "A1-S0779",
+      "severity": "minor",
+      "problem": "meaningEN 'a hard way for cars...' is ambiguous; learners may read 'hard way' as 'difficult way'.",
+      "fix": {
+        "meaningEN": "a wide path with a hard surface for cars and buses"
+      }
+    },
+    {
+      "id": "A1-S0756",
+      "severity": "minor",
+      "problem": "meaningEN limits a reader to someone who reads 'for fun', which is too narrow (the example is about reading speed, not enjoyment).",
+      "fix": {
+        "meaningEN": "a person who looks at and understands books, newspapers or websites"
+      }
+    },
+    {
+      "id": "A1-S0841",
+      "severity": "minor",
+      "problem": "Collocation 'so that' expresses purpose, not result, so it belongs to a different use than this sense.",
+      "fix": {
+        "collocations": ["so we", "so I", "and so"]
+      }
+    },
+    {
+      "id": "A1-S0833",
+      "severity": "minor",
+      "problem": "exampleTH translates 'blue' as 'สีกรมท่า' (navy); not a faithful translation of the English example.",
+      "fix": {
+        "exampleTH": "นักเรียนหญิงไทยใส่กระโปรงสีน้ำเงินหรือสีดำ"
+      }
+    }
+  ]
+}

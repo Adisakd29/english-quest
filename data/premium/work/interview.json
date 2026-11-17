@@ -1,0 +1,389 @@
+{
+  "topic": "interview",
+  "items": [
+    {
+      "id": "W-INT-01",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Thank you for having me",
+      "th": "ขอบคุณที่เชิญมาครับ/ค่ะ",
+      "noteTH": "ใช้ตอบตอนเริ่มสัมภาษณ์เมื่อผู้สัมภาษณ์ทักทายหรือขอบคุณที่มา ฟังดูสุภาพและเป็นมิตร",
+      "example": "Thank you for having me today.",
+      "exampleTH": "ขอบคุณที่เชิญมาวันนี้ครับ/ค่ะ",
+      "situation": {
+        "promptTH": "เมื่อเข้าห้องสัมภาษณ์ ผู้สัมภาษณ์พูดว่า \"Thanks for coming in.\" คุณควรตอบว่าอะไร",
+        "options": [
+          "No problem, I had nothing else to do today.",
+          "Thank you for having me. It's great to be here.",
+          "Yes, the traffic was terrible, so let's be quick.",
+          "You're welcome. Let's start with the salary."
+        ],
+        "answer": 1,
+        "whyTH": "\"Thank you for having me\" ตอบรับคำทักทายอย่างสุภาพ · \"nothing else to do\" ฟังดูไม่ใส่ใจ · \"let's be quick\" เร่งผู้สัมภาษณ์ ไม่สุภาพ · \"You're welcome\" ใช้ผิดบทบาท และรีบถามเงินเดือนเร็วเกินไป"
+      },
+      "cloze": {
+        "sentence": "Thank you for ___ me today.",
+        "options": [
+          "taking",
+          "getting",
+          "having",
+          "holding"
+        ],
+        "answer": 2,
+        "whyTH": "having me = ที่ให้ฉันมา/เชิญฉันมา · taking me = พาฉันไป · getting me = ไปรับ/เข้าใจฉัน · holding me = จับหรืออุ้มฉันไว้ ไม่เข้ากับบริบท"
+      }
+    },
+    {
+      "id": "W-INT-02",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I'm currently working as",
+      "th": "ปัจจุบันฉันทำงานในตำแหน่ง",
+      "noteTH": "ใช้แนะนำตัวเมื่อถูกขอให้เล่าเกี่ยวกับตัวเอง โดยเริ่มจากงานปัจจุบัน ตามด้วยชื่อตำแหน่ง",
+      "example": "I'm currently working as a marketing coordinator at a mid-sized retail company.",
+      "exampleTH": "ปัจจุบันฉันทำงานในตำแหน่งผู้ประสานงานการตลาดที่บริษัทค้าปลีกขนาดกลางแห่งหนึ่ง",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์บอกว่า \"Tell me a little about yourself.\" คุณอยากเริ่มด้วยการเล่าถึงงานปัจจุบันอย่างมืออาชีพ ควรพูดว่าอะไร",
+        "options": [
+          "I currently hate my job, so I need to leave soon.",
+          "I'm currently looking for any job that pays more.",
+          "My current job is boring, so I won't talk about it.",
+          "I'm currently working as a sales executive, mainly handling corporate accounts."
+        ],
+        "answer": 3,
+        "whyTH": "\"I'm currently working as...\" บอกตำแหน่งและหน้าที่ปัจจุบันได้ตรงคำถาม · การบอกว่าเกลียดงาน หรือว่างานน่าเบื่อ ให้ภาพลบ · \"any job that pays more\" แสดงว่าสนใจแค่เงิน ไม่ได้สนใจตำแหน่งนี้"
+      },
+      "cloze": {
+        "sentence": "I'm currently ___ as a marketing coordinator at a mid-sized retail company.",
+        "options": [
+          "working",
+          "doing",
+          "making",
+          "taking"
+        ],
+        "answer": 0,
+        "whyTH": "working as = ทำงานในตำแหน่ง · doing, making, taking ใช้กับ as แบบนี้ไม่ได้ และไม่มีความหมายว่าทำงานเป็นตำแหน่งใด"
+      }
+    },
+    {
+      "id": "W-INT-03",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'd describe myself as",
+      "th": "ถ้าให้อธิบายตัวเอง ฉันเป็นคน",
+      "noteTH": "ใช้เมื่อถูกถามให้บรรยายบุคลิกหรือนิสัยการทำงานของตัวเอง ควรตามด้วยคุณสมบัติที่เกี่ยวกับงาน",
+      "example": "I'd describe myself as someone who learns quickly and enjoys solving problems.",
+      "exampleTH": "ถ้าให้อธิบายตัวเอง ฉันเป็นคนที่เรียนรู้เร็วและชอบแก้ปัญหา",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ขอให้คุณบรรยายตัวเองสั้น ๆ คุณต้องการตอบอย่างมั่นใจแต่ไม่โอ้อวด ควรพูดว่าอะไร",
+        "options": [
+          "I'd describe myself as the best candidate you'll ever meet.",
+          "I don't know. You tell me.",
+          "I'd describe myself as reliable, organized, and a good team player.",
+          "I'd describe myself as lazy but lucky."
+        ],
+        "answer": 2,
+        "whyTH": "\"reliable, organized, and a good team player\" มั่นใจและตรงกับงาน · \"the best candidate you'll ever meet\" โอ้อวดเกินไป · \"You tell me\" เลี่ยงคำถามและดูไม่สุภาพ · \"lazy but lucky\" ให้ภาพลบ"
+      },
+      "cloze": {
+        "sentence": "I'd ___ myself as someone who learns quickly and enjoys solving problems.",
+        "options": [
+          "explain",
+          "tell",
+          "say",
+          "describe"
+        ],
+        "answer": 3,
+        "whyTH": "describe myself as = บรรยาย/นิยามตัวเองว่า · explain, tell, say ใช้ในโครงสร้าง ... myself as ไม่ได้"
+      }
+    },
+    {
+      "id": "W-INT-04",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "One of my key strengths is",
+      "th": "จุดแข็งสำคัญอย่างหนึ่งของฉันคือ",
+      "noteTH": "ใช้ตอบคำถามเรื่องจุดแข็ง ฟังดูมั่นใจแต่ไม่โอ้อวด เพราะบอกว่าเป็นหนึ่งในหลายข้อ ควรยกตัวอย่างประกอบ",
+      "example": "One of my key strengths is staying calm under pressure.",
+      "exampleTH": "จุดแข็งสำคัญอย่างหนึ่งของฉันคือการรักษาความใจเย็นได้แม้อยู่ภายใต้แรงกดดัน",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ถามว่า \"What would you say is your greatest strength?\" คุณควรตอบว่าอะไร",
+        "options": [
+          "I don't really have any strengths, to be honest.",
+          "My greatest strength is that I never make mistakes, ever.",
+          "One of my key strengths is attention to detail; I rarely miss errors in reports.",
+          "One of my key strengths is that I always leave work early."
+        ],
+        "answer": 2,
+        "whyTH": "\"attention to detail\" เป็นจุดแข็งที่ตรงกับงานและมีตัวอย่างประกอบ · \"don't have any strengths\" ทำให้ดูไม่มั่นใจ · \"never make mistakes\" เกินจริงและโอ้อวด · \"leave work early\" ไม่ใช่จุดแข็งในการทำงาน"
+      },
+      "cloze": {
+        "sentence": "One of my key ___ is staying calm under pressure.",
+        "options": [
+          "weaknesses",
+          "strengths",
+          "hobbies",
+          "worries"
+        ],
+        "answer": 1,
+        "whyTH": "strengths = จุดแข็ง ซึ่งเข้ากับการทำใจให้สงบภายใต้ความกดดัน · weaknesses = จุดอ่อน ขัดกับความหมาย · hobbies = งานอดิเรก · worries = เรื่องที่กังวล ไม่เข้ากับบริบท"
+      }
+    },
+    {
+      "id": "W-INT-05",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "I'm working on improving my",
+      "th": "ฉันกำลังพัฒนา...ของตัวเองอยู่",
+      "noteTH": "ใช้ตอบคำถามเรื่องจุดอ่อนอย่างมืออาชีพ โดยเน้นว่ากำลังแก้ไขอยู่ และควรบอกวิธีที่ใช้พัฒนาด้วย",
+      "example": "I'm working on improving my public speaking by presenting at our team meetings.",
+      "exampleTH": "ฉันกำลังพัฒนาทักษะการพูดในที่สาธารณะของตัวเองอยู่ โดยออกไปนำเสนอในการประชุมทีม",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ถามว่า \"What's your greatest weakness?\" คุณอยากตอบอย่างจริงใจและแสดงให้เห็นว่ากำลังปรับปรุงอยู่ ควรพูดว่าอะไร",
+        "options": [
+          "I'm a perfectionist, so I don't really have weaknesses.",
+          "I'm always late, but I don't think it really matters.",
+          "I'm working on improving my time management by using a daily planner.",
+          "I'd rather not talk about my weaknesses."
+        ],
+        "answer": 2,
+        "whyTH": "\"I'm working on improving my...\" ยอมรับจุดอ่อนและบอกวิธีแก้ไข · \"don't really have weaknesses\" เลี่ยงคำถาม · \"doesn't matter\" แสดงว่าไม่คิดจะปรับปรุง · \"rather not talk\" ปฏิเสธที่จะตอบ"
+      },
+      "cloze": {
+        "sentence": "I'm working on ___ my public speaking by presenting at our team meetings.",
+        "options": [
+          "ignoring",
+          "avoiding",
+          "finishing",
+          "improving"
+        ],
+        "answer": 3,
+        "whyTH": "improving = พัฒนาให้ดีขึ้น · ignoring = เพิกเฉย · avoiding = หลีกเลี่ยง ขัดกับการออกไปนำเสนอ · finishing = ทำให้เสร็จ ใช้กับทักษะไม่ได้"
+      }
+    },
+    {
+      "id": "W-INT-06",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "In my previous role",
+      "th": "ในตำแหน่งงานก่อนหน้านี้",
+      "noteTH": "ใช้เริ่มเล่าประสบการณ์จากงานเก่า ฟังดูเป็นมืออาชีพกว่าการพูดว่า in my old job",
+      "example": "In my previous role, I managed a team of five customer service agents.",
+      "exampleTH": "ในตำแหน่งงานก่อนหน้านี้ ฉันดูแลทีมพนักงานบริการลูกค้าห้าคน",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ถามว่าคุณเคยมีประสบการณ์เป็นหัวหน้าทีมหรือไม่ และคุณเคยทำมาแล้วที่งานเก่า ควรตอบว่าอะไร",
+        "options": [
+          "In my previous role, I led a small team and handled the weekly schedule.",
+          "In my next role, I hope someone will teach me how to lead.",
+          "My previous boss was terrible, so I had to do everything myself.",
+          "I've never really thought about leadership before."
+        ],
+        "answer": 0,
+        "whyTH": "\"In my previous role, I led...\" ตอบตรงคำถามพร้อมตัวอย่าง · \"next role\" พูดถึงอนาคต ไม่ใช่ประสบการณ์ · การว่าหัวหน้าเก่าทำให้ดูไม่เป็นมืออาชีพ · \"never thought about leadership\" ไม่ตรงกับที่คุณมีประสบการณ์"
+      },
+      "cloze": {
+        "sentence": "In my ___ role, I managed a team of five customer service agents.",
+        "options": [
+          "next",
+          "previous",
+          "future",
+          "upcoming"
+        ],
+        "answer": 1,
+        "whyTH": "previous = ก่อนหน้านี้ เข้ากับกริยาอดีต managed · next, future, upcoming หมายถึงอนาคต ขัดกับเหตุการณ์ที่เกิดขึ้นแล้ว"
+      }
+    },
+    {
+      "id": "W-INT-07",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I was responsible for",
+      "th": "ฉันรับผิดชอบเรื่อง",
+      "noteTH": "ใช้อธิบายหน้าที่ในงานที่ผ่านมา ตามด้วยคำนามหรือกริยาเติม -ing",
+      "example": "At my last company, I was responsible for onboarding new employees.",
+      "exampleTH": "ที่บริษัทเก่า ฉันรับผิดชอบเรื่องการปฐมนิเทศพนักงานใหม่",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ถามว่า \"What were your main duties in your last job?\" คุณควรตอบว่าอะไร",
+        "options": [
+          "I was responsible for nothing much, honestly.",
+          "I don't remember. It was a long time ago.",
+          "Duties? I just did whatever I felt like.",
+          "I was responsible for preparing monthly sales reports for the regional manager."
+        ],
+        "answer": 3,
+        "whyTH": "\"I was responsible for preparing...\" บอกหน้าที่ชัดเจน · \"nothing much\" ทำให้ดูไม่มีผลงาน · \"don't remember\" เลี่ยงคำถาม · \"whatever I felt like\" ดูไม่มีความรับผิดชอบ"
+      },
+      "cloze": {
+        "sentence": "At my last company, I was ___ for onboarding new employees.",
+        "options": [
+          "capable",
+          "interested",
+          "aware",
+          "responsible"
+        ],
+        "answer": 3,
+        "whyTH": "responsible for = รับผิดชอบ · capable ต้องใช้กับ of · interested ต้องใช้กับ in · aware ต้องใช้กับ of จึงใช้กับ for ไม่ได้"
+      }
+    },
+    {
+      "id": "W-INT-08",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could you tell me more about",
+      "th": "ช่วยเล่ารายละเอียดเพิ่มเติมเกี่ยวกับ...ได้ไหม",
+      "noteTH": "ใช้ถามกลับผู้สัมภาษณ์ช่วงท้าย แสดงว่าคุณสนใจตำแหน่งงานและบริษัทจริง ๆ",
+      "example": "Could you tell me more about the team I'd be working with?",
+      "exampleTH": "ช่วยเล่ารายละเอียดเพิ่มเติมเกี่ยวกับทีมที่ฉันจะได้ร่วมงานด้วยได้ไหม",
+      "situation": {
+        "promptTH": "ผู้สัมภาษณ์ถามว่า \"Do you have any questions for us?\" คุณอยากถามเพื่อแสดงว่าสนใจเนื้องานจริง ๆ ควรพูดว่าอะไร",
+        "options": [
+          "How soon can I take my first vacation?",
+          "Could you tell me more about the day-to-day responsibilities of this role?",
+          "No, I think you've already told me everything.",
+          "Why should I work here instead of somewhere else?"
+        ],
+        "answer": 1,
+        "whyTH": "\"Could you tell me more about...\" ถามถึงเนื้องานอย่างสุภาพ · ถามเรื่องลาพักร้อนทันทีทำให้ดูไม่สนใจงาน · การไม่ถามอะไรเลยทำให้ดูไม่กระตือรือร้น · \"Why should I work here\" ฟังดูท้าทาย ไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "Could you ___ me more about the team I'd be working with?",
+        "options": [
+          "say",
+          "tell",
+          "speak",
+          "talk"
+        ],
+        "answer": 1,
+        "whyTH": "tell me more about = เล่าให้ฟังเพิ่มเติม · say, speak, talk ไม่สามารถตามด้วยกรรม me โดยตรงแบบนี้ได้"
+      }
+    },
+    {
+      "id": "W-INT-09",
+      "level": "B2",
+      "register": "neutral",
+      "phrase": "What does success look like",
+      "th": "ความสำเร็จ...วัดจากอะไร",
+      "noteTH": "ใช้ถามผู้สัมภาษณ์ว่าบริษัทคาดหวังผลงานแบบไหน ช่วยให้รู้เกณฑ์การวัดผลและแสดงว่าคุณมุ่งเป้าหมาย",
+      "example": "What does success look like in this role after the first six months?",
+      "exampleTH": "หลังจากหกเดือนแรก ความสำเร็จในตำแหน่งนี้วัดจากอะไรบ้าง",
+      "situation": {
+        "promptTH": "คุณอยากรู้ว่าบริษัทจะวัดผลงานของตำแหน่งนี้อย่างไรในปีแรก ควรถามผู้สัมภาษณ์ว่าอะไร",
+        "options": [
+          "What happens if I don't do well here?",
+          "How much will I earn if I'm successful?",
+          "Is success even possible in this company?",
+          "What does success look like for this position in the first year?"
+        ],
+        "answer": 3,
+        "whyTH": "\"What does success look like...\" ถามถึงความคาดหวังอย่างสร้างสรรค์ · \"if I don't do well\" ฟังดูไม่มั่นใจ · ถามเรื่องเงินไม่ใช่เรื่องการวัดผลงาน · \"Is success even possible\" ฟังดูประชดและไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "What does success ___ like in this role after the first six months?",
+        "options": [
+          "watch",
+          "see",
+          "look",
+          "view"
+        ],
+        "answer": 2,
+        "whyTH": "look like = มีลักษณะ/เป็นอย่างไร (look ทำหน้าที่เป็นกริยาเชื่อม) · watch, see, view เป็นกริยาการมองดู ใช้กับ like ในความหมายนี้ไม่ได้"
+      }
+    },
+    {
+      "id": "W-INT-10",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "What are the next steps",
+      "th": "ขั้นตอนต่อไปคืออะไร",
+      "noteTH": "ใช้ถามตอนจบการสัมภาษณ์ว่าจะต้องทำอะไรต่อหรือจะได้รับคำตอบเมื่อไร ฟังดูสุภาพและเป็นมืออาชีพ",
+      "example": "What are the next steps in the hiring process?",
+      "exampleTH": "ขั้นตอนต่อไปของกระบวนการคัดเลือกคืออะไร",
+      "situation": {
+        "promptTH": "การสัมภาษณ์ใกล้จบแล้ว คุณอยากรู้ว่าหลังจากนี้จะเกิดอะไรขึ้นต่อ ควรถามว่าอะไร",
+        "options": [
+          "What are the next steps in the process?",
+          "So, when do I start?",
+          "Can you tell me right now if I got the job?",
+          "Is that all? I really need to leave."
+        ],
+        "answer": 0,
+        "whyTH": "\"What are the next steps...\" ถามอย่างสุภาพและเหมาะสม · \"when do I start\" ทึกทักว่าได้งานแล้ว · การเร่งขอคำตอบทันทีเป็นการกดดันผู้สัมภาษณ์ · \"I really need to leave\" ดูไม่ให้เกียรติ"
+      },
+      "cloze": {
+        "sentence": "What are the next ___ in the hiring process?",
+        "options": [
+          "walks",
+          "steps",
+          "stairs",
+          "feet"
+        ],
+        "answer": 1,
+        "whyTH": "next steps = ขั้นตอนต่อไป · walks = การเดินเล่น · stairs = บันได · feet = เท้า ไม่มีความหมายว่าขั้นตอน"
+      }
+    },
+    {
+      "id": "W-INT-11",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "I really appreciate your time",
+      "th": "ขอบคุณมากที่สละเวลาให้",
+      "noteTH": "ใช้ขอบคุณผู้สัมภาษณ์ตอนจบการสัมภาษณ์ สุภาพกว่าการพูดแค่ thanks",
+      "example": "I really appreciate your time and the chance to learn more about this position.",
+      "exampleTH": "ขอบคุณมากที่สละเวลาให้และให้โอกาสได้รู้จักตำแหน่งนี้มากขึ้น",
+      "situation": {
+        "promptTH": "การสัมภาษณ์จบลงและผู้สัมภาษณ์ลุกขึ้นจับมือคุณ คุณควรพูดว่าอะไร",
+        "options": [
+          "Finally! That took longer than I expected.",
+          "Thanks. I hope this wasn't a waste of my time.",
+          "OK, bye. Call me if you want.",
+          "I really appreciate your time today. I look forward to hearing from you."
+        ],
+        "answer": 3,
+        "whyTH": "\"I really appreciate your time\" ขอบคุณอย่างสุภาพและปิดท้ายได้ดี · \"Finally!\" แสดงความเบื่อ · \"a waste of my time\" ไม่สุภาพ · \"Call me if you want\" ห้วนและดูไม่ใส่ใจ"
+      },
+      "cloze": {
+        "sentence": "I really ___ your time and the chance to learn more about this position.",
+        "options": [
+          "appreciate",
+          "thank",
+          "enjoy",
+          "spend"
+        ],
+        "answer": 0,
+        "whyTH": "appreciate your time = ซาบซึ้งที่สละเวลาให้ · thank ต้องใช้กับคน เช่น thank you for · enjoy your time = สนุกกับเวลาของคุณ · spend your time = ใช้เวลาของคุณ ไม่ใช่การขอบคุณ"
+      }
+    },
+    {
+      "id": "W-INT-12",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "I'm very excited about the opportunity to",
+      "th": "ฉันตื่นเต้นมากกับโอกาสที่จะได้",
+      "noteTH": "ใช้ปิดท้ายการสัมภาษณ์เพื่อย้ำว่าคุณสนใจตำแหน่งนี้จริง ๆ หลัง to ต้องตามด้วยกริยารูปปกติ และควรบอกสิ่งที่อยากทำให้ชัดเจน",
+      "example": "I'm very excited about the opportunity to join your team and contribute to new projects.",
+      "exampleTH": "ฉันตื่นเต้นมากกับโอกาสที่จะได้เข้าร่วมทีมของคุณและมีส่วนร่วมในโปรเจกต์ใหม่ ๆ",
+      "situation": {
+        "promptTH": "ก่อนจบการสัมภาษณ์ ผู้สัมภาษณ์ถามว่ามีอะไรจะพูดเพิ่มเติมไหม คุณอยากย้ำว่าสนใจตำแหน่งนี้จริง ๆ ควรพูดว่าอะไร",
+        "options": [
+          "I'm only applying here because my friend told me to.",
+          "I'm very excited about the opportunity to leave this interview.",
+          "I'm very excited about the opportunity to bring my experience to this role.",
+          "I'm not sure this job is right for me, but I'll try it."
+        ],
+        "answer": 2,
+        "whyTH": "\"the opportunity to bring my experience to this role\" แสดงความสนใจและสิ่งที่คุณจะมอบให้ได้ · \"my friend told me to\" แสดงว่าไม่ได้สนใจงานเอง · \"leave this interview\" ฟังดูอยากรีบไป ไม่สุภาพ · \"not sure this job is right for me\" ทำให้ดูไม่มั่นใจและไม่ตั้งใจ"
+      },
+      "cloze": {
+        "sentence": "I'm very excited about the ___ to join your team and contribute to new projects.",
+        "options": [
+          "problem",
+          "difficulty",
+          "opportunity",
+          "mistake"
+        ],
+        "answer": 2,
+        "whyTH": "opportunity to = โอกาสที่จะได้ทำ เข้ากับความตื่นเต้นในเชิงบวก · problem = ปัญหา · difficulty = ความยากลำบาก · mistake = ความผิดพลาด ทั้งหมดขัดกับความหมายเชิงบวกของประโยค"
+      }
+    }
+  ]
+}

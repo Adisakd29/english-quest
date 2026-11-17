@@ -1,0 +1,518 @@
+{
+ "exam": "kp",
+ "setId": "KP-S1",
+ "title": "ก.พ. ภาค ก ภาษาอังกฤษ ชุดฝึกที่ 1",
+ "version": 1,
+ "original": true,
+ "level": 1,
+ "sections": [
+  {
+   "id": "conversation",
+   "groups": [
+    {
+     "id": "KP-S1-G01",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "At the district office",
+     "dialogue": [
+      {
+       "speaker": "Citizen",
+       "text": "Good morning. I'd like to renew my ID card."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Citizen",
+       "text": "Yes, here it is. It expires next week."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S1-001",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "No, thanks. I've already had breakfast.",
+        "Certainly. Do you have your old card with you?",
+        "It takes about two hours by bus.",
+        "You're welcome. See you again soon."
+       ],
+       "answer": 1,
+       "skill": "functional_language",
+       "explanationTh": "ผู้มาติดต่อขอต่ออายุบัตร แล้วตอบว่า \"Yes, here it is\" แสดงว่าเจ้าหน้าที่ถามหาบัตรเดิม จึงต้องตอบว่า \"Certainly. Do you have your old card with you?\""
+      }
+     ]
+    },
+    {
+     "id": "KP-S1-G02",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A phone call to the land office",
+     "dialogue": [
+      {
+       "speaker": "Officer",
+       "text": "Hello, Land Office. How may I help you?"
+      },
+      {
+       "speaker": "Caller",
+       "text": "Hi. I'd like to know your opening hours on Saturday."
+      },
+      {
+       "speaker": "Officer",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Caller",
+       "text": "Oh, I see. Then I'll have to come on Monday instead."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S1-002",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Hold on, I'll put you through to Saturday.",
+        "Yes, the office is next to the post office.",
+        "I'm sorry, but we're closed on weekends.",
+        "Of course, it's free of charge."
+       ],
+       "answer": 2,
+       "skill": "functional_language",
+       "explanationTh": "ผู้โทรตอบว่าต้องมาวันจันทร์ \"แทน\" (instead) แสดงว่าวันเสาร์สำนักงานไม่เปิด คำตอบที่เข้ากันคือ \"we're closed on weekends\""
+      }
+     ]
+    },
+    {
+     "id": "KP-S1-G03",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Talking to a supervisor",
+     "dialogue": [
+      {
+       "speaker": "Staff",
+       "text": "I'm afraid I can't finish the report by Friday."
+      },
+      {
+       "speaker": "Supervisor",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Staff",
+       "text": "Thanks. I'll have it on your desk by Tuesday morning."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S1-003",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "Congratulations! You must be very proud.",
+        "Me too. I finished mine last week.",
+        "Great. I'll read it this afternoon.",
+        "That's all right. Can you get it done by Tuesday?"
+       ],
+       "answer": 3,
+       "skill": "social_response",
+       "explanationTh": "พนักงานบอกว่าทำรายงานไม่ทันวันศุกร์ แล้วตอบรับว่าจะส่งวันอังคาร หัวหน้าจึงต้องยอมรับและถามว่าเสร็จภายในวันอังคารได้ไหม"
+      }
+     ]
+    },
+    {
+     "id": "KP-S1-G04",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "A job interview",
+     "dialogue": [
+      {
+       "speaker": "Interviewer",
+       "text": "Why do you want to work for the Department of Public Health?"
+      },
+      {
+       "speaker": "Candidate",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Interviewer",
+       "text": "That's a good reason. Now tell me about your previous experience."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S1-004",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "I want to help improve rural health services.",
+        "By motorbike, because it is faster.",
+        "At nine o'clock tomorrow morning.",
+        "Yes, I have two brothers and a sister."
+       ],
+       "answer": 0,
+       "skill": "functional_language",
+       "explanationTh": "คำถาม \"Why ...?\" ต้องตอบด้วยเหตุผล และผู้สัมภาษณ์ตอบว่า \"That's a good reason\" จึงต้องเป็นเหตุผลที่อยากทำงานกับกรมนี้"
+      }
+     ]
+    },
+    {
+     "id": "KP-S1-G05",
+     "type": "kp_conv",
+     "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+     "title": "Paying a bill",
+     "dialogue": [
+      {
+       "speaker": "Visitor",
+       "text": "Excuse me, where can I pay my water bill?"
+      },
+      {
+       "speaker": "Guard",
+       "text": "___1___"
+      },
+      {
+       "speaker": "Visitor",
+       "text": "Thank you very much."
+      },
+      {
+       "speaker": "Guard",
+       "text": "Not at all."
+      }
+     ],
+     "items": [
+      {
+       "id": "KP-S1-005",
+       "blank": 1,
+       "stem": "",
+       "options": [
+        "It costs about two hundred baht a month.",
+        "Go to counter three, on the left of the main entrance.",
+        "You should drink more water every day.",
+        "I paid mine online yesterday."
+       ],
+       "answer": 1,
+       "skill": "functional_language",
+       "explanationTh": "คำถามขึ้นต้นด้วย \"Where\" จึงต้องตอบเป็นสถานที่ คือให้ไปช่องบริการที่ 3 ทางซ้ายของทางเข้า ตัวเลือกอื่นไม่ได้บอกสถานที่"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "groups": [
+    {
+     "id": "KP-S1-G06",
+     "type": "kp_structure",
+     "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+     "items": [
+      {
+       "id": "KP-S1-006",
+       "stem": "All applicants ____ submit their documents before 30 June.",
+       "options": [
+        "have",
+        "must",
+        "should to",
+        "are"
+       ],
+       "answer": 1,
+       "skill": "grammar",
+       "explanationTh": "หลัง modal verb ต้องตามด้วยกริยาช่อง 1 \"must submit\" ถูกต้อง ส่วน \"should to\" ผิดเพราะ should ไม่ตามด้วย to และ have/are ไม่เข้ารูปประโยค"
+      },
+      {
+       "id": "KP-S1-007",
+       "stem": "The new hospital, ____ opened last month, serves more than ten villages.",
+       "options": [
+        "which",
+        "who",
+        "where",
+        "what"
+       ],
+       "answer": 0,
+       "skill": "grammar",
+       "explanationTh": "ใช้ relative pronoun \"which\" แทนสิ่งของ (hospital) ที่ทำหน้าที่ประธานของ opened ส่วน who ใช้กับคน และ where ต้องตามด้วยประโยคที่มีประธาน"
+      },
+      {
+       "id": "KP-S1-008",
+       "stem": "If it ____ tomorrow, the outdoor ceremony will be moved to the town hall.",
+       "options": [
+        "rained",
+        "will rain",
+        "raining",
+        "rains"
+       ],
+       "answer": 3,
+       "skill": "grammar",
+       "explanationTh": "If-clause แบบที่ 1 (เป็นไปได้ในอนาคต) ใช้ Present Simple ในประโยค if และ will ในประโยคหลัก จึงใช้ \"rains\""
+      },
+      {
+       "id": "KP-S1-009",
+       "stem": "Ms. Kanya has worked at the provincial office ____ 2018.",
+       "options": [
+        "for",
+        "ago",
+        "during",
+        "since"
+       ],
+       "answer": 3,
+       "skill": "grammar",
+       "explanationTh": "Present Perfect กับจุดเริ่มต้นของเวลา (ปี 2018) ใช้ \"since\" ส่วน for ใช้กับช่วงระยะเวลา เช่น for five years"
+      },
+      {
+       "id": "KP-S1-010",
+       "stem": "The documents ____ by the director before they are sent to the ministry.",
+       "options": [
+        "must sign",
+        "must be signed",
+        "must signing",
+        "must be signing"
+       ],
+       "answer": 1,
+       "skill": "grammar",
+       "explanationTh": "เอกสารเป็นผู้ถูกกระทำ (ถูกลงนามโดยผู้อำนวยการ) จึงใช้ Passive Voice \"must be signed\" — สังเกต \"by the director\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vocabulary",
+   "groups": [
+    {
+     "id": "KP-S1-G07",
+     "type": "kp_vocab",
+     "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+     "items": [
+      {
+       "id": "KP-S1-011",
+       "stem": "Please ____ the form carefully and sign at the bottom.",
+       "options": [
+        "complain",
+        "compete",
+        "complete",
+        "compare"
+       ],
+       "answer": 2,
+       "skill": "vocabulary",
+       "explanationTh": "\"complete the form\" แปลว่า กรอกแบบฟอร์มให้ครบ ส่วน complain = บ่น, compete = แข่งขัน, compare = เปรียบเทียบ"
+      },
+      {
+       "id": "KP-S1-012",
+       "stem": "The meeting has been postponed until next week. The word 'postponed' is closest in meaning to ____.",
+       "options": [
+        "cancelled",
+        "announced",
+        "attended",
+        "delayed"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "postpone = เลื่อนออกไป ใกล้เคียงกับ delayed ส่วน cancelled = ยกเลิก ไม่ตรง เพราะประโยคบอกว่าเลื่อนไปสัปดาห์หน้า (until next week)"
+      },
+      {
+       "id": "KP-S1-013",
+       "stem": "Citizens can ____ for a passport at any regional passport office.",
+       "options": [
+        "require",
+        "provide",
+        "attend",
+        "apply"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "\"apply for\" = ยื่นขอ เช่น apply for a passport (ยื่นขอหนังสือเดินทาง) คำอื่นไม่ใช้กับ for ในความหมายนี้"
+      },
+      {
+       "id": "KP-S1-014",
+       "stem": "The government will provide financial ____ to farmers affected by the flood.",
+       "options": [
+        "assistant",
+        "assistance",
+        "assist",
+        "assisted"
+       ],
+       "answer": 1,
+       "skill": "vocabulary",
+       "explanationTh": "หลังคุณศัพท์ financial ต้องเป็นคำนาม \"assistance\" (ความช่วยเหลือ) ส่วน assistant = ผู้ช่วย (คน) ไม่เข้าความหมาย"
+      },
+      {
+       "id": "KP-S1-015",
+       "stem": "Visitors are not ____ to take photographs inside the courtroom.",
+       "options": [
+        "prevented",
+        "promoted",
+        "persuaded",
+        "permitted"
+       ],
+       "answer": 3,
+       "skill": "vocabulary",
+       "explanationTh": "\"be permitted to\" = ได้รับอนุญาตให้ ประโยคนี้หมายถึงไม่อนุญาตให้ถ่ายรูปในห้องพิจารณาคดี ส่วน prevented ใช้กับ from ไม่ใช่ to"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "groups": [
+    {
+     "id": "KP-S1-G08",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Notice to residents of Ban Suan Municipality",
+     "text": "NOTICE TO RESIDENTS OF BAN SUAN MUNICIPALITY\nFrom 1 March, residents will be able to pay land and building tax online through the municipality's new e-Service website. The service is designed to reduce long queues at the tax counter, which became especially crowded in April last year, when most payments are due.\nTo use the service, residents must first register with their national ID number and a mobile phone number. A one-time password will then be sent by text message to confirm the account. After registration, residents can view their tax amount, pay by bank transfer or QR code, and download an electronic receipt. The receipt has the same legal status as a paper receipt issued at the counter.\nResidents who prefer to pay in person may still do so at the Finance Division on the ground floor, Monday to Friday, 8:30 a.m. to 4:30 p.m. Elderly residents over 70 who need help with registration can visit the Help Desk near the main entrance, where staff will guide them through the process step by step.\nPayments made before 30 April will receive a 3% discount.",
+     "items": [
+      {
+       "id": "KP-S1-016",
+       "stem": "What is the main purpose of this notice?",
+       "options": [
+        "To introduce a new way to pay a local tax",
+        "To announce an increase in land and building tax",
+        "To explain why the tax counter will close",
+        "To invite residents to apply for jobs"
+       ],
+       "answer": 0,
+       "skill": "main_idea",
+       "explanationTh": "ประกาศทั้งฉบับอธิบายบริการชำระภาษีที่ดินและสิ่งปลูกสร้างผ่านเว็บไซต์ใหม่ จึงเป็นการแนะนำช่องทางใหม่ในการชำระภาษี ไม่ได้ขึ้นภาษีหรือปิดเคาน์เตอร์"
+      },
+      {
+       "id": "KP-S1-017",
+       "stem": "According to the notice, what must residents do before they can pay online?",
+       "options": [
+        "Visit the Finance Division for a password",
+        "Download an electronic receipt first",
+        "Register with their ID and phone number",
+        "Pay a small fee by QR code"
+       ],
+       "answer": 2,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 2 บอกว่า \"residents must first register with their national ID number and a mobile phone number\" รหัสผ่านส่งทาง SMS ไม่ต้องไปรับที่สำนักงาน"
+      },
+      {
+       "id": "KP-S1-018",
+       "stem": "The phrase 'the same legal status as a paper receipt' means that the electronic receipt ____.",
+       "options": [
+        "must be printed on paper later",
+        "costs the same as a paper one",
+        "is as valid as a paper receipt",
+        "can only be used by lawyers"
+       ],
+       "answer": 2,
+       "skill": "vocab_in_context",
+       "explanationTh": "legal status เดียวกัน หมายถึงมีผลทางกฎหมายเท่ากัน ใบเสร็จอิเล็กทรอนิกส์จึงใช้เป็นหลักฐานได้เหมือนใบเสร็จกระดาษ"
+      },
+      {
+       "id": "KP-S1-019",
+       "stem": "Which of the following is TRUE according to the notice?",
+       "options": [
+        "Residents can still pay at the counter on weekdays.",
+        "The online service started in April last year.",
+        "The counter is open on Saturday mornings.",
+        "Payments made in May get a 3% discount."
+       ],
+       "answer": 0,
+       "skill": "detail",
+       "explanationTh": "ย่อหน้าที่ 3 บอกว่ายังชำระที่กองคลังได้วันจันทร์–ศุกร์ ส่วนบริการออนไลน์เริ่ม 1 มีนาคม และส่วนลด 3% สำหรับการชำระก่อน 30 เมษายนเท่านั้น"
+      },
+      {
+       "id": "KP-S1-020",
+       "stem": "What can be inferred about the tax counter in April?",
+       "options": [
+        "It is closed for the whole month.",
+        "It only accepts QR code payments.",
+        "It is usually busier than in other months.",
+        "It is moved near the main entrance."
+       ],
+       "answer": 2,
+       "skill": "inference",
+       "explanationTh": "ประกาศบอกว่าเดือนเมษายนเป็นช่วงครบกำหนดชำระภาษีส่วนใหญ่และคิวแน่นเป็นพิเศษ จึงอนุมานได้ว่าเดือนนี้คนมาติดต่อมากกว่าเดือนอื่น"
+      }
+     ]
+    },
+    {
+     "id": "KP-S1-G09",
+     "type": "kp_reading",
+     "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+     "title": "Tourism Information Officer wanted",
+     "text": "PROVINCIAL TOURISM OFFICE, CHAN NAM PROVINCE\nPosition: Tourism Information Officer (2 positions)\nThe Provincial Tourism Office is looking for friendly and reliable people to work at its new visitor centre, which opens in June. The officers will answer questions from Thai and foreign visitors, prepare maps and leaflets, and help organise local festivals throughout the year.\nQualifications\n• A bachelor's degree in any field\n• Good communication skills in Thai and English; knowledge of a third language such as Chinese or Japanese is an advantage\n• Basic computer skills\n• Willingness to work on weekends and public holidays, with days off during the week instead\nSalary and benefits\nThe starting salary is 18,000 baht per month. Officers will also receive social security, 10 days of annual leave, and free training in first aid and customer service.\nHow to apply\nSend your application form, a copy of your degree certificate and a recent photograph to the office by 15 May. Shortlisted applicants will be invited to an interview, which includes a short speaking test in English.",
+     "items": [
+      {
+       "id": "KP-S1-021",
+       "stem": "What is the advertisement mainly about?",
+       "options": [
+        "Two job openings at a new visitor centre",
+        "A festival organised by the tourism office",
+        "A free training course in first aid",
+        "A new tourist attraction in the province"
+       ],
+       "answer": 0,
+       "skill": "main_idea",
+       "explanationTh": "ประกาศระบุตำแหน่ง Tourism Information Officer 2 อัตรา สำหรับศูนย์บริการนักท่องเที่ยวที่จะเปิดใหม่ จึงเป็นประกาศรับสมัครงาน"
+      },
+      {
+       "id": "KP-S1-022",
+       "stem": "Which of the following is NOT required for the position?",
+       "options": [
+        "A bachelor's degree",
+        "Knowledge of Chinese or Japanese",
+        "Basic computer skills",
+        "Good English communication skills"
+       ],
+       "answer": 1,
+       "skill": "detail",
+       "explanationTh": "ภาษาที่ 3 เช่น จีนหรือญี่ปุ่น เป็นเพียง \"an advantage\" (ข้อได้เปรียบ) ไม่ใช่คุณสมบัติที่บังคับ ส่วนปริญญาตรี คอมพิวเตอร์ และภาษาอังกฤษเป็นคุณสมบัติที่ต้องมี"
+      },
+      {
+       "id": "KP-S1-023",
+       "stem": "Applicants who are 'shortlisted' are those who ____.",
+       "options": [
+        "have sent their forms after 15 May",
+        "have worked at the office before",
+        "have been chosen for the next stage",
+        "have failed the speaking test"
+       ],
+       "answer": 2,
+       "skill": "vocab_in_context",
+       "explanationTh": "shortlisted = ผ่านการคัดเลือกเบื้องต้น ประกาศบอกว่าผู้ที่ shortlisted จะได้รับเชิญไปสัมภาษณ์ ซึ่งเป็นขั้นตอนถัดไป"
+      },
+      {
+       "id": "KP-S1-024",
+       "stem": "What can be inferred about the officers' working schedule?",
+       "options": [
+        "They may work when most people are on holiday.",
+        "They will never work on Saturdays or Sundays.",
+        "They work only during the festival season.",
+        "They can choose to work from home."
+       ],
+       "answer": 0,
+       "skill": "inference",
+       "explanationTh": "คุณสมบัติข้อสุดท้ายกำหนดให้ต้องพร้อมทำงานวันหยุดสุดสัปดาห์และวันหยุดนักขัตฤกษ์ จึงอนุมานได้ว่าอาจต้องทำงานในวันที่คนส่วนใหญ่หยุด"
+      },
+      {
+       "id": "KP-S1-025",
+       "stem": "According to the advertisement, which is a benefit of the job?",
+       "options": [
+        "A salary of 18,000 baht per week",
+        "Twenty days of annual leave",
+        "Free accommodation near the office",
+        "Free training in customer service"
+       ],
+       "answer": 3,
+       "skill": "detail",
+       "explanationTh": "หัวข้อ Salary and benefits ระบุการอบรมปฐมพยาบาลและการบริการลูกค้าฟรี ส่วนเงินเดือน 18,000 บาทเป็นต่อเดือน และวันลาพักร้อนมี 10 วัน"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "review": {
+  "passed": true,
+  "method": "validator + independent blind-solve (AI) 2 รอบ — ยังไม่ได้ตรวจโดยครู",
+  "date": "2026-11-17",
+  "agree": 25,
+  "total": 25,
+  "rounds": "รอบ 1 ตรงเฉลย 25/25 (S4 ไม่มั่นใจ 2 ข้อเรื่องสำนวน — แก้ S4-003 บทสนทนา/S4-020 ตัวเลือก + ลดความยาวคำตอบที่เด่นเกิน S1-004/S4-021/S2-003) · รอบ 2 ผู้ตรวจคนใหม่ทั้งชุด ตรง 25/25 ไม่มีข้อไม่มั่นใจ · ปรับคำว่า paragraph ในโจทย์ S2-024/S4-018 ให้ชัดขึ้น (ไม่เปลี่ยนเฉลย)"
+ }
+}

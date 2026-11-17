@@ -1,0 +1,108 @@
+/* =====================================================================
+   หน้าเข้าสู่ระบบ — พื้นหลัง Parallax แบบหลายชั้น + การ์ดล็อกอิน
+   ใช้ token ของระบบ (--color-*, --radius-*, ฟอนต์เดิม) · ชั้นพื้นหลังเป็นของตกแต่ง: pointer-events:none, aria-hidden
+   ===================================================================== */
+#screen-auth {
+  --ab-bg1: #EEF0FF; --ab-bg2: #FBF3FF; --ab-bg3: #FFF4EC;
+  --ab-a: var(--color-primary); --ab-b: #C026D3; --ab-c: var(--color-accent-bright, #FF7A3D); --ab-d: var(--color-secondary);
+  --ab-ink: rgba(67, 56, 202, 0.16); --ab-ink-2: rgba(67, 56, 202, 0.32);
+  position: relative;
+  min-height: 100vh; min-height: 100dvh; box-sizing: border-box;
+  padding: max(32px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  background: linear-gradient(160deg, var(--ab-bg1) 0%, var(--ab-bg2) 55%, var(--ab-bg3) 100%);
+}
+:root[data-theme="dark"] #screen-auth {
+  --ab-bg1: #0F1022; --ab-bg2: #171236; --ab-bg3: #1E1430;
+  --ab-ink: rgba(165, 161, 255, 0.16); --ab-ink-2: rgba(165, 161, 255, 0.34);
+}
+:root[data-skin="halloween"] #screen-auth { --ab-bg1: #120C26; --ab-bg2: #1E1538; --ab-bg3: #2A1530; --ab-b: #FF8A3D; --ab-c: #FFD166; }
+
+.auth-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.auth-bg * { pointer-events: none; }
+.ab-layer { position: absolute; inset: -28px; }
+/* เฉพาะคอมพิวเตอร์ที่ใช้เมาส์ขณะพื้นหลังทำงาน: แยกเป็นเลเยอร์เพื่อเลื่อนลื่น */
+.auth-bg[data-quality="full"].is-live .ab-layer { will-change: transform; }
+.ab-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; overflow: visible; }
+
+/* ชั้นไกล: แสงเรือง */
+/* แสงนุ่มด้วย radial-gradient (ไม่ใช้ filter: blur — ถูกกว่ามากเวลาเลื่อนชั้น) */
+.ab-glow { position: absolute; border-radius: 50%; opacity: 0.6; }
+.ab-glow-1 { width: 60vmax; height: 60vmax; left: -22vmax; top: -24vmax; background: radial-gradient(closest-side, color-mix(in srgb, var(--ab-a) 42%, transparent), transparent); }
+.ab-glow-2 { width: 54vmax; height: 54vmax; right: -22vmax; bottom: -24vmax; background: radial-gradient(closest-side, color-mix(in srgb, var(--ab-c) 42%, transparent), transparent); }
+.ab-glow-3 { width: 40vmax; height: 40vmax; right: 12vmax; top: -16vmax; background: radial-gradient(closest-side, color-mix(in srgb, var(--ab-b) 28%, transparent), transparent); }
+
+/* ชั้นตาราง + เส้นทางผจญภัย */
+.ab-dot { fill: var(--ab-ink); }
+.ab-route { fill: none; stroke: var(--ab-ink-2); stroke-width: 3; stroke-dasharray: 2 12; stroke-linecap: round; }
+.ab-nodes circle { fill: var(--color-surface); stroke: var(--ab-a); stroke-width: 3; opacity: 0.8; }
+.ab-nodes circle:last-child { fill: var(--ab-c); stroke: var(--ab-c); }
+.ab-stars path { fill: var(--ab-c); opacity: 0.55; }
+
+/* ชั้นกลาง: ตัวอักษร · กล่องคำพูด · หนังสือ */
+.ab-bubble { fill: color-mix(in srgb, var(--color-surface) 80%, transparent); stroke: var(--ab-ink-2); stroke-width: 2; }
+.ab-bubble-2 { fill: color-mix(in srgb, var(--ab-a) 14%, var(--color-surface)); }
+.ab-letter { font: 800 24px var(--font-display, 'Plus Jakarta Sans', 'Noto Sans Thai', sans-serif); fill: var(--ab-a); text-anchor: middle; }
+.ab-glyph { font: 800 64px var(--font-display, 'Plus Jakarta Sans', sans-serif); fill: none; stroke: var(--ab-ink-2); stroke-width: 2; }
+.ab-glyph-2 { stroke: color-mix(in srgb, var(--ab-b) 55%, transparent); }
+.ab-glyph-3 { stroke: color-mix(in srgb, var(--ab-c) 60%, transparent); }
+.ab-book path { fill: color-mix(in srgb, var(--color-surface) 70%, transparent); stroke: var(--ab-ink-2); stroke-width: 2.5; stroke-linejoin: round; }
+.ab-book .ab-book-spine { stroke: var(--ab-a); }
+.ab-float { transform-box: fill-box; transform-origin: center; }
+
+/* ชั้นใกล้: วงแหวน · ประกาย · ลูกแก้ว */
+.ab-ring { fill: none; stroke: color-mix(in srgb, var(--ab-a) 35%, transparent); stroke-width: 10; }
+.ab-ring-2 { stroke: color-mix(in srgb, var(--ab-c) 40%, transparent); stroke-width: 8; }
+.ab-spark path { fill: var(--ab-c); opacity: 0.8; }
+.ab-orb { position: absolute; border-radius: 50%; background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.85), color-mix(in srgb, var(--ab-a) 55%, transparent) 70%); opacity: 0.5; }
+.ab-orb-1 { width: 90px; height: 90px; left: 6%; bottom: 10%; }
+.ab-orb-2 { width: 54px; height: 54px; right: 10%; top: 14%; background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.85), color-mix(in srgb, var(--ab-c) 60%, transparent) 70%); }
+
+/* แสงรอบการ์ด (ขยับตามเคอร์เซอร์เล็กน้อย — การ์ดเองนิ่ง) */
+.ab-cardglow { display: grid; place-items: center; }
+.ab-cardglow span { width: min(1000px, 100vw); height: min(680px, 90vh); opacity: 0.5;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--ab-a) 40%, transparent), transparent); }
+
+/* ลอยช้า ๆ (ทุกอุปกรณ์ · ปิดเมื่อ reduce motion) — transform อย่างเดียว */
+.ab-f1 { animation: ab-bob 9s ease-in-out infinite; }
+.ab-f2 { animation: ab-bob 11s ease-in-out infinite reverse; }
+.ab-f3 { animation: ab-bob 13s ease-in-out -4s infinite; }
+@keyframes ab-bob { 0%, 100% { transform: translate3d(0, 0, 0); } 50% { transform: translate3d(0, -10px, 0); } }
+
+/* มือถือ: ลดจำนวนชิ้น (light) */
+@media (max-width: 599px) {
+  .ab-glyph-3, .ab-book, .ab-orb-2, .ab-glow-3 { display: none; }
+  .ab-letter { font-size: 30px; }
+}
+.auth-bg[data-quality="static"] .ab-float { animation: none; }
+@media (prefers-reduced-motion: reduce) {
+  .ab-float { animation: none; }
+  .ab-layer { transform: none !important; }
+}
+
+/* ---------- การ์ด: อยู่เหนือพื้นหลัง · นิ่ง (ไม่หมุน/ไม่ขยับ) ---------- */
+#screen-auth .auth-wrap { position: relative; z-index: 1; box-shadow: 0 24px 70px rgba(30, 24, 90, 0.22), 0 2px 8px rgba(30, 24, 90, 0.08); }
+:root[data-theme="dark"] #screen-auth .auth-wrap { box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06); }
+/* กรอบกระจกฝ้าบาง ๆ รอบการ์ด (โปร่งแสง ไม่ใช้ backdrop-filter เพราะชั้นด้านหลังขยับตลอด = ต้องเบลอใหม่ทุกเฟรม)
+   ส่วนฟอร์มพื้นทึบ -> contrast สูงทั้งธีมสว่าง/มืด */
+#screen-auth .auth-wrap::before { content: ''; position: absolute; inset: -8px; z-index: -1; border-radius: calc(var(--radius-lg) + 8px);
+  background: color-mix(in srgb, var(--color-surface) 55%, transparent); border: 1px solid color-mix(in srgb, var(--color-surface) 80%, transparent); }
+#screen-auth .auth-card { background: var(--color-surface); color: var(--color-text); }
+.auth-welcome { margin: 0 0 14px; }
+.auth-welcome h2 { margin: 0; font-family: var(--font-display); font-size: clamp(1.35rem, 4vw, 1.7rem); font-weight: 800; line-height: 1.3; color: var(--color-text); }
+.auth-welcome p { margin: 4px 0 0; color: var(--color-text-muted); font-size: var(--text-sm, 0.94rem); line-height: 1.6; }
+/* ปุ่ม Google: ไม่แตะสไตล์ภายในของ Google (iframe) — ให้ GIS จัดการเอง */
+@media (max-width: 760px) {
+  #screen-auth { align-items: flex-start; }
+  #screen-auth .auth-wrap::before { inset: -6px; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  #screen-auth { align-items: flex-start; padding-top: max(16px, env(safe-area-inset-top)); }
+}
+
+/* จอสัมผัส: ภาพ SVG นิ่ง (ไม่ต้องวาดใหม่ทุกเฟรม) — เหลือแค่ลูกแก้วเล็ก 2 ลูกลอยช้า ๆ ด้วย transform บน compositor */
+@media (hover: none), (pointer: coarse) {
+  .ab-float { animation: none; }
+  .ab-orb-1 { animation: ab-bob 10s ease-in-out infinite; }
+  .ab-orb-2 { animation: ab-bob 12s ease-in-out -5s infinite reverse; }
+}
+@media (prefers-reduced-motion: reduce) { .ab-orb-1, .ab-orb-2 { animation: none; } }

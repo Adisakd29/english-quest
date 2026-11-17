@@ -1,0 +1,79 @@
+{
+  "batch": "47",
+  "reviewed": 128,
+  "issues": [
+    {
+      "id": "C1-S1190",
+      "severity": "major",
+      "problem": "Thai 'หุ้นส่วน' (shortTH) normally means a business partner/partnership, not the share of ownership; as an answer choice it gives the wrong meaning. exampleTH correctly uses 'หุ้น'.",
+      "fix": {
+        "thai": "หุ้น, สัดส่วนการถือหุ้น",
+        "shortTH": "สัดส่วนการถือหุ้น",
+        "thaiChangeReason": "หุ้นส่วนมักหมายถึงผู้ร่วมลงทุน (partner) ส่วน stake คือสัดส่วนหุ้นที่ถือในบริษัท"
+      }
+    },
+    {
+      "id": "C1-S1161",
+      "severity": "minor",
+      "problem": "shortTH 'ความเป็นน้ำหนึ่งใจเดียว' is a truncated, incomplete phrase; the full phrase (26 chars) fits the 30-char limit.",
+      "fix": {
+        "shortTH": "ความเป็นน้ำหนึ่งใจเดียวกัน"
+      }
+    },
+    {
+      "id": "C1-S1157",
+      "severity": "minor",
+      "problem": "'with one ruling party' adds political commentary about a real country; BRIEF asks for non-political, neutral context. A neutral factual sentence shows the sense better.",
+      "fix": {
+        "example": "The writer grew up in a socialist country where the state owned most factories.",
+        "form": "socialist",
+        "exampleTH": "นักเขียนคนนี้เติบโตในประเทศสังคมนิยมที่รัฐเป็นเจ้าของโรงงานส่วนใหญ่"
+      }
+    },
+    {
+      "id": "C1-S1198",
+      "severity": "minor",
+      "problem": "'need plenty of stimulus' uses stimulus as an uncountable mass noun; natural English is 'stimulation' here, so the example models an unnatural pattern.",
+      "fix": {
+        "example": "Light is a stimulus that makes plants grow towards the window.",
+        "form": "stimulus",
+        "exampleTH": "แสงเป็นสิ่งเร้าที่ทำให้ต้นไม้เติบโตเข้าหาหน้าต่าง"
+      }
+    },
+    {
+      "id": "C1-S1255",
+      "severity": "minor",
+      "problem": "'office syndrome' is a Thai/Asian marketing term rarely used by native speakers; teaching it as a key collocation will mislead exam writers.",
+      "fix": {
+        "example": "The doctor explained that her headaches, tiredness and dry eyes were all part of one syndrome.",
+        "form": "syndrome",
+        "exampleTH": "แพทย์อธิบายว่าอาการปวดหัว อ่อนเพลีย และตาแห้งของเธอเป็นส่วนหนึ่งของกลุ่มอาการเดียวกัน",
+        "collocations": [
+          "a rare syndrome",
+          "suffer from a syndrome",
+          "symptoms of the syndrome"
+        ]
+      }
+    },
+    {
+      "id": "C1-S1187",
+      "severity": "minor",
+      "problem": "Collocations 'a stab of pain' and 'have a stab at' are noun uses, not the verb sense taught here.",
+      "fix": {
+        "collocations": [
+          "stab with a fork",
+          "stab at your food",
+          "stab a hole in"
+        ]
+      }
+    },
+    {
+      "id": "C1-S1276",
+      "severity": "minor",
+      "problem": "gapOk true is too optimistic: 'The course is mostly ___' also fits 'academic' naturally.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

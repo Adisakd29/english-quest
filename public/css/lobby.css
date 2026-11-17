@@ -1,0 +1,187 @@
+/* =====================================================================
+   Game Lobby หน้าหลัก — v1.16.0 (public/js/lobby.js)
+   แรงบันดาลใจจากการจัดองค์ประกอบ Lobby เกมออนไลน์: แถบสถานะบน · ตัวละครกลางเวที · แผงเควสต์/กิจกรรมซ้าย · เรียน/แข่งขวา · แชทล่าง
+   มือถือเรียงเป็นคอลัมน์เดียว (ตัวละคร → เรียนต่อ/แข่ง → เควสต์ → แชท) · ทุกปุ่มสูง ≥ 44px
+   ===================================================================== */
+#screen-home .container-wide { overflow-x: clip; }
+.hl {
+  --hl-stage-a: #1d2a5c; --hl-stage-b: #3b2a78; --hl-stage-c: #0f1733; --hl-glow: #ffd27a; --hl-glow2: #7fa8ff;
+  --hl-panel: var(--color-surface); --hl-line: var(--color-border);
+  display: grid; gap: 14px; margin: 4px 0 22px; min-width: 0;
+}
+.hl > *, .hl-main > * { min-width: 0; }
+
+/* ---------- แถบสถานะบน: เลเวล/EXP · แรงค์ · Coin ---------- */
+.hl-bar { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; align-items: stretch; }
+.hl-chip {
+  display: flex; align-items: center; gap: 10px; min-height: 56px; padding: 6px 12px 6px 6px; min-width: 0;
+  border-radius: 16px; border: 1px solid var(--hl-line); background: var(--hl-panel); color: var(--color-text);
+  cursor: pointer; font: inherit; text-align: left; box-shadow: 0 2px 10px rgba(20, 24, 60, 0.06);
+  transition: transform .12s ease, border-color .12s ease;
+}
+.hl-chip:hover { border-color: var(--color-primary); }
+.hl-chip:active { transform: scale(.98); }
+.hl-chip:focus-visible, .hl-act:focus-visible, .hl-ranked:focus-visible, .hl-tile:focus-visible, .hl-quest:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.hl-lvring {
+  --p: 0; flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: conic-gradient(var(--color-primary) calc(var(--p) * 1%), var(--color-primary-soft) 0);
+}
+.hl-lvring > span { width: 36px; height: 36px; border-radius: 50%; background: var(--hl-panel); display: grid; place-items: center; line-height: 1; }
+.hl-lvring small { font-size: .55rem; font-weight: 800; color: var(--color-text-muted); letter-spacing: .06em; }
+.hl-lvring b { font-size: .95rem; font-weight: 900; color: var(--color-primary); margin-top: -6px; }
+.hl-acc-text { display: grid; gap: 3px; min-width: 0; flex: 1; }
+.hl-acc-name { font-size: .92rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-exp { display: block; height: 6px; border-radius: 99px; background: var(--color-primary-soft); overflow: hidden; }
+.hl-exp > span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--color-primary), #8b7bff); transition: width .4s ease; }
+.hl-exp-text { font-size: .72rem; color: var(--color-text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-rank { padding-right: 14px; }
+.hl-rank-img { width: 44px; height: 44px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.18)); }
+.hl-rank-text { display: grid; line-height: 1.2; min-width: 0; }
+.hl-rank-text small { font-size: .7rem; color: var(--color-text-muted); }
+.hl-rank-text b { font-size: .86rem; white-space: nowrap; }
+.hl-coin { padding: 6px 8px 6px 12px; gap: 6px; }
+.hl-coin .coin-ico { width: 24px; height: 24px; flex: 0 0 auto; }
+.hl-coin b { font-size: 1rem; font-weight: 900; font-variant-numeric: tabular-nums; }
+.hl-coin-plus { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--color-primary); color: #fff; }
+:root[data-theme="dark"] .hl-coin-plus { color: #12141F; }
+
+/* ---------- พื้นที่หลัก ---------- */
+.hl-main { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); grid-template-areas: "events" "center" "right" "left"; }
+.hl-events-wrap { grid-area: events; display: grid; gap: 8px; min-width: 0; }
+.hl-center { grid-area: center; }
+.hl-left { grid-area: left; display: grid; gap: 14px; align-content: start; }
+.hl-right { grid-area: right; display: grid; gap: 12px; align-content: start; }
+
+/* เวทีตัวละคร: พื้นหลังไล่สี + ลำแสง + แท่นยืน (CSS ล้วน ไม่โหลดรูป/โมเดลฉาก) */
+.hl-center {
+  position: relative; isolation: isolate; overflow: hidden; border-radius: 24px;
+  display: grid; justify-items: center; align-content: start; padding: 16px 12px 14px;
+  background: radial-gradient(120% 80% at 50% 0%, var(--hl-stage-b) 0%, var(--hl-stage-a) 45%, var(--hl-stage-c) 100%);
+  color: #fff; min-height: 420px; box-shadow: 0 10px 30px rgba(15, 23, 51, .25);
+}
+.hl-bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.hl-bg-rays {
+  position: absolute; left: 50%; top: -30%; width: 160%; aspect-ratio: 1; transform: translateX(-50%);
+  background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,255,255,.06) 0 6deg, transparent 6deg 18deg);
+  -webkit-mask: radial-gradient(closest-side, #000 20%, transparent 75%); mask: radial-gradient(closest-side, #000 20%, transparent 75%);
+  animation: hl-spin 90s linear infinite;
+}
+.hl-bg-sparks {
+  position: absolute; inset: 0;
+  background-image: radial-gradient(2px 2px at 18% 30%, rgba(255,255,255,.7), transparent 60%), radial-gradient(1.5px 1.5px at 78% 22%, rgba(255,255,255,.6), transparent 60%),
+    radial-gradient(2px 2px at 66% 64%, rgba(255,226,160,.7), transparent 60%), radial-gradient(1.5px 1.5px at 28% 70%, rgba(180,200,255,.7), transparent 60%),
+    radial-gradient(1.5px 1.5px at 88% 52%, rgba(255,255,255,.5), transparent 60%), radial-gradient(2px 2px at 10% 56%, rgba(255,255,255,.45), transparent 60%);
+  animation: hl-twinkle 6s ease-in-out infinite alternate;
+}
+@keyframes hl-spin { to { transform: translateX(-50%) rotate(360deg); } }
+@keyframes hl-twinkle { from { opacity: .45; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .hl-bg-rays, .hl-bg-sparks { animation: none; } }
+
+.hl-hello { text-align: center; max-width: 520px; }
+.hl-greet { margin: 0; font-size: clamp(1.15rem, 2.4vw + .6rem, 1.6rem); font-weight: 900; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,.3); }
+.hl-sub { margin: 2px 0 0; font-size: .86rem; color: rgba(255,255,255,.82); }
+.hl-stage { position: relative; width: min(300px, 78vw); margin-top: 4px; touch-action: pan-y; }
+/* แท่นยืนใต้เท้าตัวละคร (อยู่หลัง canvas — canvas โปร่งใส) */
+.hl-stage::before {
+  content: ""; position: absolute; left: 50%; bottom: 3%; width: 82%; height: 15%; transform: translateX(-50%); z-index: 0; pointer-events: none;
+  border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 210, 122, .55), rgba(127, 168, 255, .2) 62%, transparent 74%);
+}
+.hl-stage::after { content: ""; position: absolute; left: 50%; bottom: 5.5%; width: 56%; height: 9%; transform: translateX(-50%); border-radius: 50%; border: 2px solid rgba(255, 230, 170, .45); z-index: 0; pointer-events: none; }
+.hl-stage > * { position: relative; z-index: 1; }
+.hl-stage .a3-stage { background: transparent !important; border-radius: 0; box-shadow: none; }
+.hl-stage .a3-canvas { cursor: grab; }
+.hl-stage .a3-canvas:active { cursor: grabbing; }
+.hl-stage .a3-loading { color: rgba(255,255,255,.85); }
+.hl-stage .a3-fallback, .hl-stage .a3-fail-msg { color: #fff; }
+.hl-stage > svg, .hl-stage .av-svg { width: 100%; height: auto; }
+.hl-hint { margin: -4px 0 8px; font-size: .74rem; color: rgba(255,255,255,.75); display: inline-flex; align-items: center; gap: 4px; }
+.hl-stage-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.hl-act {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 16px; border-radius: 99px; cursor: pointer; font: inherit; font-weight: 800;
+  border: 0; background: linear-gradient(180deg, #ffe08f, #ffbf3c); color: #3a2400; box-shadow: 0 4px 0 #c98a0b, 0 6px 14px rgba(0,0,0,.25);
+}
+.hl-act:active { transform: translateY(2px); box-shadow: 0 2px 0 #c98a0b; }
+.hl-act-ghost { background: rgba(255,255,255,.12); color: #fff; box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+.hl-act-ghost:active { box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+
+/* ---------- แผง ---------- */
+.hl-panel { background: var(--hl-panel); border: 1px solid var(--hl-line); border-radius: 18px; padding: 14px; display: grid; gap: 10px; }
+.hl-panel-title { margin: 0; font-size: .95rem; font-weight: 800; display: flex; align-items: center; gap: 6px; }
+.hl-count { margin-left: auto; font-size: .78rem; font-weight: 800; color: var(--color-primary); background: var(--color-primary-soft); padding: 2px 8px; border-radius: 99px; }
+.hl-count:empty { display: none; }
+.hl-quests { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.hl-quest {
+  width: 100%; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-items: center; gap: 10px; min-height: 52px; padding: 8px 10px;
+  border-radius: 12px; border: 1px solid var(--hl-line); background: var(--color-bg); color: var(--color-text); font: inherit; text-align: left; cursor: pointer;
+}
+.hl-quest-ico { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--color-primary-soft); color: var(--color-primary); }
+.hl-quest.is-done .hl-quest-ico { background: var(--color-success-soft); color: var(--color-success); }
+.hl-quest-text { display: grid; gap: 4px; min-width: 0; }
+.hl-quest-text b { font-size: .86rem; font-weight: 700; }
+.hl-quest-bar { height: 5px; border-radius: 99px; background: var(--color-primary-soft); overflow: hidden; }
+.hl-quest-bar > span { display: block; height: 100%; background: var(--color-primary); border-radius: inherit; }
+.hl-quest.is-done .hl-quest-bar > span { background: var(--color-success); }
+.hl-quest-num { font-size: .78rem; font-weight: 800; color: var(--color-text-muted); font-variant-numeric: tabular-nums; }
+.hl-quest.is-done .hl-quest-num { color: var(--color-success); }
+.hl-note { margin: 0; font-size: .74rem; color: var(--color-text-muted); }
+.hl-empty { margin: 0; font-size: .84rem; color: var(--color-text-muted); }
+/* แบนเนอร์กิจกรรม: public/css/eventcarousel.css */
+.hl-ev-head { padding: 0 2px; }
+
+/* ---------- เรียนต่อ / Ranked / ร้าน / เพื่อน ---------- */
+.hl-continue .dash-continue { margin: 0; }
+.hl-continue .dash-continue-gl { margin: 0; }
+/* แผงแคบ: การ์ด Grammar เรียงข้อความบน ปุ่มล่าง (ไม่บีบตัวอักษร) */
+.hl-continue .dash-continue-gl { flex-direction: column; align-items: stretch; gap: 10px; }
+.hl-continue .dash-continue-gl .home-cta-sec { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; }
+.hl-continue .dash-continue-gl .dash-continue-detail { font-size: .98rem; }
+
+.hl-ranked {
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; min-height: 72px; padding: 12px 14px;
+  border: 0; border-radius: 18px; cursor: pointer; font: inherit; text-align: left; color: #fff; position: relative; overflow: hidden;
+  background: linear-gradient(120deg, #b3261e 0%, #e0532f 55%, #ff9a3d 100%); box-shadow: 0 6px 18px rgba(179, 38, 30, .3);
+}
+.hl-ranked::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(115deg, rgba(255,255,255,.08) 0 10px, transparent 10px 26px); pointer-events: none; }
+.hl-ranked-art { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; background: rgba(255,255,255,.18); }
+.hl-ranked-art .icon { width: 26px; height: 26px; }
+.hl-ranked-text { display: grid; gap: 2px; min-width: 0; }
+.hl-ranked-text b { font-size: 1.08rem; font-weight: 900; letter-spacing: .01em; }
+.hl-ranked-text small { font-size: .78rem; color: rgba(255,255,255,.9); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-ranked-go { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: #fff; color: #b3261e; }
+.hl-ranked:active { transform: scale(.985); }
+
+.hl-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.hl-tile {
+  display: grid; justify-items: start; gap: 2px; min-height: 84px; padding: 12px; border-radius: 16px; cursor: pointer; font: inherit; text-align: left;
+  border: 1px solid var(--hl-line); background: var(--hl-panel); color: var(--color-text);
+}
+.hl-tile .icon { width: 24px; height: 24px; color: var(--color-primary); margin-bottom: 4px; }
+.hl-tile-shop .icon { color: var(--color-accent); }
+.hl-tile b { font-size: .92rem; }
+.hl-tile small { font-size: .74rem; color: var(--color-text-muted); }
+.hl-tile:hover { border-color: var(--color-primary); }
+
+/* แชทโลกย่อ: public/css/worldchat.css */
+
+/* ---------- แท็บเล็ต (≥ 700px): ตัวละครเต็มแถว · เรียน/แข่ง กับ เควสต์ วางคู่กัน ---------- */
+@media (min-width: 700px) {
+  .hl-main { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "events events" "center center" "right left"; }
+  .hl-center { min-height: 460px; }
+  .hl-stage { width: min(320px, 46vw); }
+}
+/* ---------- จอกว้าง (≥ 1100px): ซ้าย | ตัวละคร | ขวา ---------- */
+@media (min-width: 1100px) {
+  .hl-main { grid-template-columns: 300px minmax(0, 1fr) 310px; grid-template-areas: "left center right" "events events events"; align-items: start; }
+  .hl-center { align-self: stretch; }
+  .hl-center { min-height: 560px; padding-top: 22px; }
+  .hl-stage { width: min(340px, 100%); }
+}
+/* ---------- จอแคบ ---------- */
+@media (max-width: 520px) {
+  .hl-bar { grid-template-columns: minmax(0, 1fr) auto; }
+  .hl-acc { grid-column: 1 / -1; }
+  .hl-rank { min-width: 0; }
+  .hl-center { min-height: 0; border-radius: 20px; }
+  .hl-stage { width: min(250px, 68vw); }
+}
+@media (max-width: 360px) { .hl-tiles { grid-template-columns: 1fr; } .hl-tile { min-height: 64px; } }

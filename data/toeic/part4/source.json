@@ -1,0 +1,3671 @@
+[
+ {
+  "id": "T1-01",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "customerService",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Hi, Ms. Patel, this is Daniel Ortiz calling from Brightwood Furniture. I'm calling about the oak dining table you ordered last week. It was scheduled to be delivered tomorrow morning, but unfortunately one of our delivery trucks is being repaired, so we have to move your delivery to Thursday."
+   },
+   {
+    "speaker": "M",
+    "text": "I'm very sorry for the inconvenience. To make up for it, we'd like to give you a set of four matching chair cushions at no charge. They'll arrive with the table."
+   },
+   {
+    "speaker": "M",
+    "text": "Could you call me back at five five five, zero one four eight, to confirm that Thursday works for you? Our drivers can come anytime between ten and two. Thanks, and have a great day."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mainIdea",
+    "stem": "What is the purpose of the message?",
+    "options": [
+     "To confirm a payment for an order",
+     "To report a change to a delivery date",
+     "To advertise a new line of tables",
+     "To ask for directions to a home"
+    ],
+    "answer": 1,
+    "evidence": [
+     "so we have to move your delivery to Thursday"
+    ],
+    "explanationTH": "ผู้พูดบอกว่ารถส่งของเสียอยู่ระหว่างซ่อม จึง \"move your delivery to Thursday\" แปลว่าโทรมาแจ้งเลื่อนวันส่งสินค้า",
+    "optionNotesTH": [
+     "ผิด ไม่มีการพูดถึงการชำระเงินเลย",
+     "ถูก การเลื่อนวันส่งโต๊ะเป็นวันพฤหัสคือจุดประสงค์หลักของข้อความ",
+     "ผิด ได้ยินคำว่า table แต่ไม่ได้โฆษณาสินค้าใหม่",
+     "ผิด ไม่ได้ขอเส้นทางมาบ้านลูกค้า"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker offer the listener?",
+    "options": [
+     "A discount on her next purchase",
+     "Free assembly of the table",
+     "Some complimentary chair cushions",
+     "Faster delivery with a different truck"
+    ],
+    "answer": 2,
+    "evidence": [
+     "a set of four matching chair cushions at no charge"
+    ],
+    "explanationTH": "ผู้พูดชดเชยความไม่สะดวกด้วยเบาะเก้าอี้ 4 ชิ้น \"at no charge\" ซึ่งตรงกับ complimentary (ฟรี) ในตัวเลือก C",
+    "optionNotesTH": [
+     "ผิด ไม่มีการให้ส่วนลดครั้งต่อไป",
+     "ผิด ไม่ได้พูดถึงบริการประกอบโต๊ะ",
+     "ถูก complimentary = at no charge คือให้เบาะเก้าอี้ฟรี",
+     "ผิด ได้ยินคำว่า truck แต่การส่งกลับช้าลง ไม่ได้เร็วขึ้น"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker ask the listener to do?",
+    "options": [
+     "Confirm that a new day is convenient",
+     "Choose a different table color",
+     "Visit the store on Thursday",
+     "Send a photo of her dining room"
+    ],
+    "answer": 0,
+    "evidence": [
+     "to confirm that Thursday works for you"
+    ],
+    "explanationTH": "ท้ายข้อความผู้พูดขอให้โทรกลับ \"to confirm that Thursday works for you\" คือยืนยันว่าวันพฤหัสสะดวกหรือไม่",
+    "optionNotesTH": [
+     "ถูก Thursday works for you = วันใหม่สะดวกสำหรับผู้ฟัง",
+     "ผิด ไม่มีการพูดถึงสีโต๊ะ",
+     "ผิด วันพฤหัสคือวันที่คนขับจะไปส่งของ ไม่ใช่วันที่ลูกค้าต้องไปร้าน",
+     "ผิด ไม่ได้ขอรูปห้องทานอาหาร"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีครับคุณพาเทล ผม แดเนียล ออร์ติซ โทรจากไบรต์วูดเฟอร์นิเจอร์ครับ ผมโทรมาเรื่องโต๊ะทานอาหารไม้โอ๊กที่คุณสั่งไว้เมื่อสัปดาห์ที่แล้ว เดิมกำหนดส่งพรุ่งนี้เช้า แต่น่าเสียดายที่รถส่งของคันหนึ่งของเรากำลังซ่อมอยู่ เราจึงต้องเลื่อนการส่งของคุณไปเป็นวันพฤหัสบดีครับ",
+   "ผมต้องขออภัยในความไม่สะดวกเป็นอย่างยิ่ง เพื่อเป็นการชดเชย เราขอมอบเบาะเก้าอี้ที่เข้าชุดกันจำนวนสี่ชิ้นให้โดยไม่คิดค่าใช้จ่าย ซึ่งจะส่งไปพร้อมกับโต๊ะครับ",
+   "รบกวนโทรกลับหาผมที่หมายเลข 555-0148 เพื่อยืนยันว่าวันพฤหัสบดีสะดวกสำหรับคุณหรือไม่ คนขับของเราสามารถไปได้ทุกเวลาระหว่างสิบโมงถึงบ่ายสองครับ ขอบคุณและขอให้เป็นวันที่ดีครับ"
+  ],
+  "tipTH": "ในข้อความเสียงแบบนี้ ประโยคหลังคำว่า unfortunately หรือ but มักบอกปัญหา/จุดประสงค์ของการโทร ส่วนคำขอให้ทำมักอยู่ท้ายข้อความ เช่น Could you call me back...",
+  "vocabulary": [
+   {
+    "word": "inconvenience",
+    "pos": "noun",
+    "th": "ความไม่สะดวก"
+   },
+   {
+    "word": "make up for",
+    "pos": "phrase",
+    "th": "ชดเชย"
+   },
+   {
+    "word": "at no charge",
+    "pos": "phrase",
+    "th": "โดยไม่คิดค่าใช้จ่าย ฟรี"
+   },
+   {
+    "word": "confirm",
+    "pos": "verb",
+    "th": "ยืนยัน"
+   }
+  ]
+ },
+ {
+  "id": "T1-02",
+  "part": 4,
+  "talkType": "announcement",
+  "topic": "sales",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Attention, shoppers. Thank you for visiting Greenleaf Market this afternoon. We'd like to remind you that our bakery department is closing early today at four o'clock because we're installing new ovens. If you'd like fresh bread for dinner, now is the time to pick some up."
+   },
+   {
+    "speaker": "W",
+    "text": "Also, starting today, we're giving away reusable shopping bags with every purchase over $50. We only have five hundred of them. Believe me, they're going fast. Just show your receipt at the customer service desk near the main entrance."
+   },
+   {
+    "speaker": "W",
+    "text": "Finally, don't forget to download the Greenleaf app to see this week's coupons, including twenty percent off all frozen vegetables. Thank you for shopping with us."
+   }
+  ],
+  "questions": [
+   {
+    "type": "reason",
+    "stem": "Why is the bakery department closing early?",
+    "options": [
+     "A staff member is unavailable",
+     "All of the bread has sold out",
+     "The store is closing for dinner",
+     "New equipment is being put in"
+    ],
+    "answer": 3,
+    "evidence": [
+     "because we're installing new ovens"
+    ],
+    "explanationTH": "ผู้พูดให้เหตุผลว่า \"because we're installing new ovens\" เตาอบใหม่คืออุปกรณ์ใหม่ (new equipment) ที่กำลังติดตั้ง",
+    "optionNotesTH": [
+     "ผิด ไม่ได้พูดถึงพนักงานที่มาไม่ได้",
+     "ผิด ได้ยินคำว่า bread แต่ขนมปังยังมีขาย จึงชวนให้รีบซื้อ",
+     "ผิด ได้ยินคำว่า dinner แต่หมายถึงขนมปังสำหรับมื้อเย็นของลูกค้า",
+     "ถูก installing new ovens = กำลังติดตั้งอุปกรณ์ใหม่"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker imply when she says, \"Believe me, they're going fast\"?",
+    "options": [
+     "Shoppers should act quickly to get a bag",
+     "The checkout lines are moving quickly",
+     "The store will close very soon",
+     "Delivery service has become faster"
+    ],
+    "answer": 0,
+    "evidence": [
+     "We only have five hundred of them",
+     "Believe me, they're going fast"
+    ],
+    "explanationTH": "they หมายถึงถุงผ้าที่แจกซึ่งมีแค่ 500 ใบ การบอกว่า \"they're going fast\" จึงเป็นการบอกเป็นนัยว่าถุงกำลังหมดเร็ว ลูกค้าควรรีบมารับ",
+    "optionNotesTH": [
+     "ถูก ถุงมีจำนวนจำกัดและหมดเร็ว จึงควรรีบ",
+     "ผิด ตีความคำว่า fast ผิดไปเป็นแถวจ่ายเงิน",
+     "ผิด ร้านไม่ได้ปิด มีแค่แผนกเบเกอรี่ที่ปิดเร็ว",
+     "ผิด ไม่มีการพูดถึงบริการจัดส่ง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "According to the speaker, what can listeners find on an app?",
+    "options": [
+     "A map of the store",
+     "The bakery's opening hours",
+     "Weekly discount offers",
+     "A customer service phone number"
+    ],
+    "answer": 2,
+    "evidence": [
+     "download the Greenleaf app to see this week's coupons"
+    ],
+    "explanationTH": "ผู้พูดบอกให้ดาวน์โหลดแอป \"to see this week's coupons\" คูปองประจำสัปดาห์ก็คือข้อเสนอส่วนลดรายสัปดาห์",
+    "optionNotesTH": [
+     "ผิด ไม่ได้พูดถึงแผนที่ร้าน",
+     "ผิด เวลาปิดเบเกอรี่ประกาศในข้อความนี้ ไม่ได้อยู่ในแอป",
+     "ถูก this week's coupons = ข้อเสนอส่วนลดประจำสัปดาห์",
+     "ผิด ได้ยิน customer service desk แต่เป็นจุดรับถุง ไม่ใช่ข้อมูลในแอป"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เรียนลูกค้าทุกท่าน ขอบคุณที่มาเยี่ยมชมกรีนลีฟมาร์เก็ตในบ่ายวันนี้ เราขอเรียนให้ทราบว่าแผนกเบเกอรี่จะปิดเร็วกว่าปกติในวันนี้ตอนสี่โมงเย็น เนื่องจากเรากำลังติดตั้งเตาอบใหม่ หากท่านต้องการขนมปังสดสำหรับมื้อเย็น ตอนนี้คือเวลาที่ควรมาซื้อค่ะ",
+   "นอกจากนี้ ตั้งแต่วันนี้เป็นต้นไป เราจะแจกถุงช้อปปิ้งแบบใช้ซ้ำได้ทุกครั้งที่ซื้อสินค้าเกิน 50 ดอลลาร์ เรามีเพียงห้าร้อยใบเท่านั้น เชื่อเถอะค่ะว่าหมดเร็วมาก เพียงแสดงใบเสร็จที่เคาน์เตอร์บริการลูกค้าใกล้ทางเข้าหลัก",
+   "สุดท้ายนี้ อย่าลืมดาวน์โหลดแอปกรีนลีฟเพื่อดูคูปองประจำสัปดาห์นี้ ซึ่งรวมถึงส่วนลดยี่สิบเปอร์เซ็นต์สำหรับผักแช่แข็งทุกชนิด ขอบคุณที่ใช้บริการค่ะ"
+  ],
+  "tipTH": "ประกาศในร้านค้ามักมีหลายเรื่องเรียงกัน ให้จับคำเชื่อมอย่าง Also และ Finally เพื่อแยกว่าข้อมูลแต่ละส่วนตอบคำถามข้อไหน",
+  "vocabulary": [
+   {
+    "word": "install",
+    "pos": "verb",
+    "th": "ติดตั้ง"
+   },
+   {
+    "word": "reusable",
+    "pos": "adjective",
+    "th": "ที่นำกลับมาใช้ซ้ำได้"
+   },
+   {
+    "word": "receipt",
+    "pos": "noun",
+    "th": "ใบเสร็จ"
+   },
+   {
+    "word": "coupon",
+    "pos": "noun",
+    "th": "คูปองส่วนลด"
+   }
+  ]
+ },
+ {
+  "id": "T1-03",
+  "part": 4,
+  "talkType": "meeting",
+  "topic": "manufacturing",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Okay, everyone, let's get started. As you know, our new line of herbal teas launches in November. Unfortunately, Ridgeway Containers, the company that usually makes our packaging, told us yesterday that their factory is fully booked until December. So we need to find another supplier, and quickly."
+   },
+   {
+    "speaker": "M",
+    "text": "I've collected quotes from four companies. To be ready for the launch, we need the boxes within two weeks. Corvex has the best price, but their delivery time is too long. So I've decided to go with the lowest-priced option that can still meet our deadline. I'll sign the contract this afternoon."
+   },
+   {
+    "speaker": "M",
+    "text": "Now, since the boxes will come from a new company, the print colors might look slightly different. When the first shipment arrives, I'd like the quality control team to compare a few samples with our old boxes before anything goes on the production line."
+   }
+  ],
+  "graphic": {
+   "title": "Packaging Supplier Quotes",
+   "table": "| Supplier | Price per 1,000 Boxes | Delivery Time |\n| Corvex Paper | $410 | 3 weeks |\n| Nordhall Pack | $455 | 10 days |\n| Pinecrest Supply | $480 | 1 week |\n| Talmo Boxworks | $520 | 5 days |"
+  },
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What problem does the speaker mention?",
+    "options": [
+     "A usual supplier cannot produce boxes in time",
+     "A product launch has been canceled",
+     "Some tea ingredients have become expensive",
+     "A contract was signed by mistake"
+    ],
+    "answer": 0,
+    "evidence": [
+     "their factory is fully booked until December"
+    ],
+    "explanationTH": "บริษัทที่ทำบรรจุภัณฑ์ประจำบอกว่าโรงงาน \"fully booked until December\" แต่สินค้าเปิดตัวเดือนพฤศจิกายน จึงผลิตกล่องให้ไม่ทัน",
+    "optionNotesTH": [
+     "ถูก ซัพพลายเออร์เจ้าประจำคิวเต็มถึงธันวาคม จึงผลิตไม่ทัน",
+     "ผิด การเปิดตัวยังมีอยู่ในเดือนพฤศจิกายน ไม่ได้ยกเลิก",
+     "ผิด ได้ยินคำว่า teas แต่ไม่ได้พูดถึงราคาวัตถุดิบ",
+     "ผิด ได้ยินคำว่า contract แต่ผู้พูดจะเซ็นบ่ายนี้ ไม่ได้เซ็นผิด"
+    ]
+   },
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. Which supplier has the speaker chosen?",
+    "options": [
+     "Corvex Paper",
+     "Talmo Boxworks",
+     "Pinecrest Supply",
+     "Nordhall Pack"
+    ],
+    "answer": 3,
+    "evidence": [
+     "the lowest-priced option that can still meet our deadline",
+     "Nordhall Pack | $455 | 10 days"
+    ],
+    "explanationTH": "ต้องได้กล่องภายในสองสัปดาห์ Corvex ถูกที่สุดแต่ส่งช้าเกิน (3 สัปดาห์) ในบรรดาเจ้าที่ส่งทัน Nordhall Pack ราคาต่ำสุด ($455, 10 วัน) จึงเป็นเจ้าที่เลือก",
+    "optionNotesTH": [
+     "ผิด Corvex ราคาถูกที่สุดแต่ใช้เวลา 3 สัปดาห์ เกินกำหนด",
+     "ผิด Talmo ส่งเร็วที่สุดแต่แพงที่สุด",
+     "ผิด Pinecrest ส่งทันแต่แพงกว่า Nordhall",
+     "ถูก ส่งได้ใน 10 วันและถูกที่สุดในกลุ่มที่ส่งทัน"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker ask the quality control team to do?",
+    "options": [
+     "Visit the new supplier's factory",
+     "Check samples against the old packaging",
+     "Choose new print colors for the boxes",
+     "Speed up the production line"
+    ],
+    "answer": 1,
+    "evidence": [
+     "compare a few samples with our old boxes"
+    ],
+    "explanationTH": "ผู้พูดขอให้ทีมควบคุมคุณภาพ \"compare a few samples with our old boxes\" คือตรวจตัวอย่างเทียบกับกล่องแบบเดิม เพราะสีพิมพ์อาจต่างไป",
+    "optionNotesTH": [
+     "ผิด ไม่ได้ให้ไปเยี่ยมโรงงาน",
+     "ถูก compare samples with our old boxes = ตรวจเทียบกับบรรจุภัณฑ์เดิม",
+     "ผิด ได้ยินคำว่า print colors แต่เป็นความกังวลว่าสีจะต่าง ไม่ได้ให้เลือกสีใหม่",
+     "ผิด ได้ยินคำว่า production line แต่ให้ตรวจก่อนเข้าสายการผลิต ไม่ได้ให้เร่ง"
+    ]
+   }
+  ],
+  "translationTH": [
+   "โอเคทุกคน เริ่มกันเลยนะครับ อย่างที่ทราบกัน ชาสมุนไพรไลน์ใหม่ของเราจะเปิดตัวในเดือนพฤศจิกายน แต่น่าเสียดายที่ริดจ์เวย์คอนเทนเนอร์ส ซึ่งเป็นบริษัทที่ทำบรรจุภัณฑ์ให้เราประจำ แจ้งเมื่อวานว่าโรงงานของเขาคิวเต็มไปจนถึงเดือนธันวาคม เราจึงต้องหาซัพพลายเออร์รายอื่น และต้องหาให้เร็ว",
+   "ผมได้รวบรวมใบเสนอราคาจากสี่บริษัทแล้ว เพื่อให้ทันการเปิดตัว เราต้องได้กล่องภายในสองสัปดาห์ คอร์เว็กซ์ให้ราคาดีที่สุดแต่ใช้เวลาส่งนานเกินไป ผมจึงตัดสินใจเลือกเจ้าที่ราคาต่ำที่สุดในบรรดาเจ้าที่ยังส่งทันกำหนด ผมจะเซ็นสัญญาบ่ายนี้",
+   "ทีนี้ เนื่องจากกล่องจะมาจากบริษัทใหม่ สีที่พิมพ์อาจดูต่างไปเล็กน้อย เมื่อสินค้าล็อตแรกมาถึง ผมอยากให้ทีมควบคุมคุณภาพนำตัวอย่างบางส่วนมาเปรียบเทียบกับกล่องเดิมของเรา ก่อนที่จะนำอะไรเข้าสายการผลิต"
+  ],
+  "tipTH": "ข้อกราฟิกมักต้องใช้สองเงื่อนไขพร้อมกัน ระหว่างฟังให้ตัดตัวเลือกในตารางทีละข้อ เช่น ตัดเจ้าที่ส่งไม่ทันก่อน แล้วค่อยเลือกเจ้าที่ถูกที่สุดจากที่เหลือ",
+  "vocabulary": [
+   {
+    "word": "supplier",
+    "pos": "noun",
+    "th": "ผู้จัดหาสินค้า ซัพพลายเออร์"
+   },
+   {
+    "word": "quote",
+    "pos": "noun",
+    "th": "ใบเสนอราคา"
+   },
+   {
+    "word": "fully booked",
+    "pos": "phrase",
+    "th": "คิวเต็ม จองเต็ม"
+   },
+   {
+    "word": "deadline",
+    "pos": "noun",
+    "th": "กำหนดเวลา เส้นตาย"
+   },
+   {
+    "word": "shipment",
+    "pos": "noun",
+    "th": "สินค้าที่จัดส่งในแต่ละครั้ง"
+   }
+  ]
+ },
+ {
+  "id": "T1-04",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "health",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Hello, this message is for Mr. Thomas Reed. This is Laura calling from Riverside Dental Clinic. I'm calling to remind you about your teeth cleaning appointment with Dr. Hansen next Monday at nine thirty in the morning."
+   },
+   {
+    "speaker": "W",
+    "text": "Please note that our clinic has moved since your last visit. We're now on the second floor of the Maple Plaza building, right across from the city library. There's free parking behind the building."
+   },
+   {
+    "speaker": "W",
+    "text": "Also, since this is your first visit this year, please arrive fifteen minutes early to fill out an updated health form. If you need to reschedule, just call us back before Friday. Thank you!"
+   }
+  ],
+  "questions": [
+   {
+    "type": "speaker",
+    "stem": "Who most likely is the speaker?",
+    "options": [
+     "A building manager",
+     "A librarian",
+     "A receptionist at a clinic",
+     "A parking attendant"
+    ],
+    "answer": 2,
+    "evidence": [
+     "This is Laura calling from Riverside Dental Clinic",
+     "I'm calling to remind you about your teeth cleaning appointment"
+    ],
+    "explanationTH": "ผู้พูดโทรจากคลินิกทันตกรรมเพื่อเตือนนัดหมายของคนไข้กับ Dr. Hansen ซึ่งเป็นงานของพนักงานต้อนรับคลินิก",
+    "optionNotesTH": [
+     "ผิด ได้ยินคำว่า building แต่ผู้พูดทำงานที่คลินิก",
+     "ผิด library เป็นแค่จุดสังเกตของที่ตั้งใหม่",
+     "ถูก โทรจากคลินิกเพื่อเตือนนัด จึงน่าจะเป็นพนักงานต้อนรับ",
+     "ผิด ได้ยินคำว่า parking แต่เป็นข้อมูลที่จอดรถ ไม่ใช่อาชีพผู้พูด"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What has changed since the listener's last visit?",
+    "options": [
+     "The clinic's opening hours",
+     "The location of the clinic",
+     "The name of his dentist",
+     "The cost of parking"
+    ],
+    "answer": 1,
+    "evidence": [
+     "our clinic has moved since your last visit"
+    ],
+    "explanationTH": "ผู้พูดบอกว่า \"our clinic has moved since your last visit\" คลินิกย้ายไปอยู่ชั้นสองของอาคาร Maple Plaza แปลว่าที่ตั้งเปลี่ยน",
+    "optionNotesTH": [
+     "ผิด ไม่ได้พูดถึงเวลาเปิดปิด",
+     "ถูก moved = ย้ายที่ตั้ง",
+     "ผิด ไม่มีข้อมูลว่าเปลี่ยนหมอ",
+     "ผิด ที่จอดรถฟรี ไม่ได้บอกว่าราคาเปลี่ยน"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why should the listener arrive early?",
+    "options": [
+     "To find a parking space",
+     "To meet Dr. Hansen before the cleaning",
+     "To pay a bill from his last visit",
+     "To complete some paperwork"
+    ],
+    "answer": 3,
+    "evidence": [
+     "arrive fifteen minutes early to fill out an updated health form"
+    ],
+    "explanationTH": "ผู้พูดขอให้มาก่อน 15 นาที \"to fill out an updated health form\" คือกรอกแบบฟอร์มสุขภาพ ซึ่งตรงกับ complete some paperwork",
+    "optionNotesTH": [
+     "ผิด มีที่จอดรถฟรีหลังอาคาร แต่ไม่ใช่เหตุผลที่ให้มาก่อน",
+     "ผิด ได้ยินชื่อ Dr. Hansen แต่ไม่ได้ให้มาพบก่อน",
+     "ผิด ไม่มีการพูดถึงค่าใช้จ่ายค้างชำระ",
+     "ถูก fill out a form = กรอกเอกสาร"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีค่ะ ข้อความนี้ฝากถึงคุณโทมัส รีด ดิฉันลอร่าโทรจากริเวอร์ไซด์เดนทัลคลินิกค่ะ โทรมาเพื่อเตือนนัดขูดหินปูนของคุณกับ Dr. แฮนเซน วันจันทร์หน้าเวลาเก้าโมงครึ่งค่ะ",
+   "โปรดทราบว่าคลินิกของเราได้ย้ายที่ตั้งตั้งแต่ที่คุณมาครั้งก่อน ตอนนี้เราอยู่ชั้นสองของอาคารเมเปิลพลาซ่า ตรงข้ามห้องสมุดประจำเมือง มีที่จอดรถฟรีอยู่ด้านหลังอาคารค่ะ",
+   "นอกจากนี้ เนื่องจากเป็นการมาครั้งแรกของปีนี้ กรุณามาก่อนเวลาสิบห้านาทีเพื่อกรอกแบบฟอร์มข้อมูลสุขภาพฉบับปรับปรุง หากต้องการเลื่อนนัด โทรกลับมาหาเราได้ก่อนวันศุกร์ค่ะ ขอบคุณค่ะ"
+  ],
+  "tipTH": "คำถามว่าผู้พูดเป็นใครมักตอบได้จากประโยคแนะนำตัวช่วงแรก เช่น calling from ... ให้ตั้งใจฟังชื่อหน่วยงานและเหตุผลที่โทรมา",
+  "vocabulary": [
+   {
+    "word": "remind",
+    "pos": "verb",
+    "th": "เตือนให้นึกถึง"
+   },
+   {
+    "word": "appointment",
+    "pos": "noun",
+    "th": "การนัดหมาย"
+   },
+   {
+    "word": "fill out",
+    "pos": "phrase",
+    "th": "กรอก (แบบฟอร์ม)"
+   },
+   {
+    "word": "reschedule",
+    "pos": "verb",
+    "th": "เลื่อนนัด กำหนดเวลาใหม่"
+   }
+  ]
+ },
+ {
+  "id": "T1-05",
+  "part": 4,
+  "talkType": "tour",
+  "topic": "manufacturing",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Welcome to Kestrel Chocolate Works, and thank you for joining today's factory tour. My name is Victor, and I've worked here for twelve years. Over the next hour, we'll follow a cocoa bean from the moment it arrives at our loading dock to the moment it becomes a finished chocolate bar."
+   },
+   {
+    "speaker": "M",
+    "text": "Before we begin, I have to ask everyone to put on the hairnets and shoe covers in the basket by the door. It's a food safety rule, and it applies to every visitor. Also, photography isn't allowed inside the production area, because some of our machines use designs that we keep private."
+   },
+   {
+    "speaker": "M",
+    "text": "At the end of the tour, we'll stop at our tasting room, where you can try three of our newest flavors. And anyone who fills out a short survey there will receive a free gift box to take home. Okay, let's head to the loading dock."
+   }
+  ],
+  "questions": [
+   {
+    "type": "location",
+    "stem": "Where most likely are the listeners?",
+    "options": [
+     "At a cocoa farm",
+     "At a food production facility",
+     "At a shipping company",
+     "At a cooking school"
+    ],
+    "answer": 1,
+    "evidence": [
+     "Welcome to Kestrel Chocolate Works",
+     "thank you for joining today's factory tour"
+    ],
+    "explanationTH": "ผู้พูดต้อนรับสู่ Kestrel Chocolate Works และพูดถึง factory tour จึงเป็นโรงงานผลิตอาหาร (ช็อกโกแลต)",
+    "optionNotesTH": [
+     "ผิด ได้ยิน cocoa bean แต่เมล็ดถูกส่งมาที่โรงงาน ไม่ใช่ไร่",
+     "ถูก โรงงานช็อกโกแลต = สถานที่ผลิตอาหาร",
+     "ผิด ได้ยิน loading dock แต่เป็นส่วนหนึ่งของโรงงาน",
+     "ผิด ไม่ใช่การสอนทำอาหาร"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why are listeners not allowed to take photos?",
+    "options": [
+     "Some machine designs are kept secret",
+     "The lighting in the area is too dark",
+     "Cameras could disturb the workers",
+     "It is a food safety requirement"
+    ],
+    "answer": 0,
+    "evidence": [
+     "because some of our machines use designs that we keep private"
+    ],
+    "explanationTH": "ห้ามถ่ายรูป \"because some of our machines use designs that we keep private\" คือแบบเครื่องจักรเป็นความลับของบริษัท",
+    "optionNotesTH": [
+     "ถูก keep private = เก็บเป็นความลับ",
+     "ผิด ไม่ได้พูดถึงแสงสว่าง",
+     "ผิด ไม่ได้พูดว่ารบกวนคนงาน",
+     "ผิด กฎความปลอดภัยด้านอาหารเป็นเหตุผลของการใส่หมวกคลุมผมและถุงหุ้มรองเท้า ไม่ใช่การห้ามถ่ายรูป"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "How can listeners get a free gift?",
+    "options": [
+     "By tasting three new flavors",
+     "By arriving early at the loading dock",
+     "By buying a chocolate bar",
+     "By filling out a questionnaire"
+    ],
+    "answer": 3,
+    "evidence": [
+     "anyone who fills out a short survey there will receive a free gift box"
+    ],
+    "explanationTH": "ใครที่ \"fills out a short survey\" จะได้กล่องของขวัญฟรี survey มีความหมายเดียวกับ questionnaire (แบบสอบถาม)",
+    "optionNotesTH": [
+     "ผิด การชิมสามรสเป็นกิจกรรมในห้องชิม ไม่ใช่เงื่อนไขรับของขวัญ",
+     "ผิด ได้ยิน loading dock แต่เป็นจุดเริ่มทัวร์",
+     "ผิด ไม่ต้องซื้อสินค้า",
+     "ถูก survey = questionnaire"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ยินดีต้อนรับสู่เคสเตรลช็อกโกแลตเวิร์กส์ และขอบคุณที่มาร่วมทัวร์ชมโรงงานในวันนี้ ผมชื่อวิกเตอร์ ทำงานที่นี่มาสิบสองปีแล้ว ในอีกหนึ่งชั่วโมงข้างหน้า เราจะติดตามเมล็ดโกโก้ตั้งแต่ตอนที่มาถึงท่าขนถ่ายสินค้าของเรา จนกระทั่งกลายเป็นช็อกโกแลตแท่งสำเร็จรูป",
+   "ก่อนเริ่ม ผมต้องขอให้ทุกท่านสวมหมวกคลุมผมและถุงหุ้มรองเท้าที่อยู่ในตะกร้าข้างประตู นี่เป็นกฎความปลอดภัยด้านอาหารและใช้กับผู้เยี่ยมชมทุกคน นอกจากนี้ ห้ามถ่ายภาพภายในพื้นที่การผลิต เพราะเครื่องจักรบางเครื่องของเราใช้การออกแบบที่เราเก็บเป็นความลับ",
+   "เมื่อจบทัวร์ เราจะแวะที่ห้องชิม ซึ่งท่านสามารถลองชิมรสชาติใหม่ล่าสุดสามรสของเรา และใครที่กรอกแบบสำรวจสั้นๆ ที่นั่นจะได้รับกล่องของขวัญฟรีกลับบ้าน เอาล่ะ ไปที่ท่าขนถ่ายสินค้ากันเลยครับ"
+  ],
+  "tipTH": "ข้อ reason ที่ถามว่า Why มักมีตัวเลือกหลอกที่เป็นเหตุผลของเรื่องอื่นในบทพูด ให้จับคำว่า because แล้วดูว่ามันอธิบายเรื่องไหน",
+  "vocabulary": [
+   {
+    "word": "loading dock",
+    "pos": "noun",
+    "th": "ท่าขนถ่ายสินค้า"
+   },
+   {
+    "word": "apply to",
+    "pos": "phrase",
+    "th": "ใช้กับ มีผลกับ"
+   },
+   {
+    "word": "production area",
+    "pos": "noun",
+    "th": "พื้นที่การผลิต"
+   },
+   {
+    "word": "survey",
+    "pos": "noun",
+    "th": "แบบสำรวจ"
+   }
+  ],
+  "group": "p4g1"
+ },
+ {
+  "id": "T1-06",
+  "part": 4,
+  "talkType": "introduction",
+  "topic": "technology",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Good morning, and welcome to the second day of the Regional Retail Technology Forum. Before our first session, I'm delighted to introduce our keynote speaker, Dr. Amara Okafor. Dr. Okafor spent ten years designing checkout systems for supermarket chains before founding her own consulting firm, Clearpath Analytics."
+   },
+   {
+    "speaker": "W",
+    "text": "Her firm helps small shops use sales data to decide what to stock and when. Last year, one of her clients, a family-run hardware store, cut its unsold inventory by almost half. I spoke with the owner myself. Let's just say he's become a very big fan."
+   },
+   {
+    "speaker": "W",
+    "text": "Dr. Okafor's talk will run about forty minutes, and she's agreed to take questions afterward. Because of the large audience, we'll be collecting questions through the forum app rather than using microphones. Please join me in welcoming Dr. Okafor."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What did Dr. Okafor do before starting her company?",
+    "options": [
+     "She owned a hardware store",
+     "She organized technology forums",
+     "She developed payment systems for grocery stores",
+     "She managed a chain of supermarkets"
+    ],
+    "answer": 2,
+    "evidence": [
+     "spent ten years designing checkout systems for supermarket chains before founding her own consulting firm"
+    ],
+    "explanationTH": "ก่อนตั้งบริษัท Dr. Okafor \"spent ten years designing checkout systems for supermarket chains\" คือออกแบบระบบชำระเงินที่จุดแคชเชียร์ให้ซูเปอร์มาร์เก็ต",
+    "optionNotesTH": [
+     "ผิด ร้านฮาร์ดแวร์เป็นของลูกค้าของเธอ",
+     "ผิด ผู้พูดเป็นคนจัดงาน ไม่ใช่ Dr. Okafor",
+     "ถูก checkout systems = ระบบชำระเงิน, supermarket = grocery store",
+     "ผิด เธอออกแบบระบบให้เครือซูเปอร์มาร์เก็ต ไม่ได้บริหารเอง"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker imply when she says, \"Let's just say he's become a very big fan\"?",
+    "options": [
+     "The owner will attend the session today",
+     "The hardware store has started selling fans",
+     "The owner wants to expand his business",
+     "The owner is very satisfied with Dr. Okafor's work"
+    ],
+    "answer": 3,
+    "evidence": [
+     "cut its unsold inventory by almost half",
+     "Let's just say he's become a very big fan"
+    ],
+    "explanationTH": "หลังจากร้านลดสินค้าค้างสต็อกได้เกือบครึ่ง ผู้พูดบอกว่าเจ้าของ \"he's become a very big fan\" หมายถึงเขาพอใจและชื่นชมงานของ Dr. Okafor มาก",
+    "optionNotesTH": [
+     "ผิด ไม่มีข้อมูลว่าเจ้าของร้านมางานนี้",
+     "ผิด เป็นกับดักความหมายตรงตัวของคำว่า fan (พัดลม)",
+     "ผิด ไม่ได้พูดถึงการขยายกิจการ",
+     "ถูก big fan = ชื่นชอบ พอใจมาก หลังได้ผลลัพธ์ที่ดี"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "According to the speaker, how should audience members ask questions?",
+    "options": [
+     "By using a mobile application",
+     "By speaking into microphones",
+     "By writing on paper cards",
+     "By sending e-mails after the talk"
+    ],
+    "answer": 0,
+    "evidence": [
+     "we'll be collecting questions through the forum app rather than using microphones"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าจะรับคำถาม \"through the forum app rather than using microphones\" คือผ่านแอปของงาน ไม่ใช่ไมโครโฟน",
+    "optionNotesTH": [
+     "ถูก forum app = แอปพลิเคชันบนมือถือของงาน",
+     "ผิด ผู้พูดบอกชัดว่าจะไม่ใช้ไมโครโฟน (rather than)",
+     "ผิด ไม่ได้พูดถึงกระดาษ",
+     "ผิด ไม่ได้พูดถึงอีเมล"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนเช้าค่ะ และยินดีต้อนรับสู่วันที่สองของงานประชุมเทคโนโลยีค้าปลีกระดับภูมิภาค ก่อนเริ่มช่วงแรก ดิฉันยินดีอย่างยิ่งที่จะแนะนำผู้บรรยายหลักของเรา Dr. อมารา โอคาฟอร์ ท่านใช้เวลาสิบปีออกแบบระบบชำระเงินให้กับเครือซูเปอร์มาร์เก็ต ก่อนจะก่อตั้งบริษัทที่ปรึกษาของตัวเองชื่อเคลียร์พาธอนาลิติกส์",
+   "บริษัทของท่านช่วยร้านค้าขนาดเล็กใช้ข้อมูลการขายในการตัดสินใจว่าจะสต็อกสินค้าอะไรและเมื่อไร เมื่อปีที่แล้ว ลูกค้ารายหนึ่งซึ่งเป็นร้านฮาร์ดแวร์แบบครอบครัว ลดสินค้าคงคลังที่ขายไม่ออกได้เกือบครึ่ง ดิฉันได้คุยกับเจ้าของร้านด้วยตัวเอง ขอพูดแค่ว่าตอนนี้เขากลายเป็นแฟนตัวยงไปแล้วค่ะ",
+   "การบรรยายของ Dr. โอคาฟอร์จะใช้เวลาประมาณสี่สิบนาที และท่านยินดีตอบคำถามหลังจากนั้น เนื่องจากมีผู้ฟังจำนวนมาก เราจะรับคำถามผ่านแอปของงานแทนการใช้ไมโครโฟน ขอเชิญทุกท่านร่วมต้อนรับ Dr. โอคาฟอร์ค่ะ"
+  ],
+  "tipTH": "ข้อ intent ให้ฟังประโยคก่อนหน้าประโยคที่ถูกยกมาเสมอ เพราะบริบทนั้นบอกความหมายแฝง และระวังตัวเลือกที่แปลคำแบบตรงตัว เช่น fan ที่แปลว่าพัดลม",
+  "vocabulary": [
+   {
+    "word": "keynote speaker",
+    "pos": "noun",
+    "th": "ผู้บรรยายหลัก"
+   },
+   {
+    "word": "found",
+    "pos": "verb",
+    "th": "ก่อตั้ง"
+   },
+   {
+    "word": "inventory",
+    "pos": "noun",
+    "th": "สินค้าคงคลัง"
+   },
+   {
+    "word": "stock",
+    "pos": "verb",
+    "th": "จัดเก็บสินค้าไว้ขาย"
+   }
+  ],
+  "group": "p4g3"
+ },
+ {
+  "id": "T1-07",
+  "part": 4,
+  "talkType": "announcement",
+  "topic": "travel",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Attention, passengers on Coastal Air flight two eighteen to Lisbon. This flight will now depart from Gate twelve instead of Gate five. We apologize for the change, which is due to maintenance work at Gate five."
+   },
+   {
+    "speaker": "M",
+    "text": "Boarding will begin in about twenty minutes. Passengers traveling with small children or needing extra assistance will be invited to board first. Please have your boarding pass and passport ready to show our staff."
+   },
+   {
+    "speaker": "M",
+    "text": "Also, this flight is completely full today, so space in the overhead bins will be limited. If you have a large carry-on bag, we encourage you to check it at the gate free of charge. Thank you."
+   }
+  ],
+  "questions": [
+   {
+    "type": "location",
+    "stem": "Where most likely is the announcement being made?",
+    "options": [
+     "At an airport",
+     "At a train station",
+     "On an airplane",
+     "At a travel agency"
+    ],
+    "answer": 0,
+    "evidence": [
+     "This flight will now depart from Gate twelve instead of Gate five",
+     "Boarding will begin in about twenty minutes"
+    ],
+    "explanationTH": "ประกาศเรื่องเปลี่ยนประตูขึ้นเครื่องและบอกว่าจะเริ่มขึ้นเครื่องในอีก 20 นาที จึงเป็นประกาศในสนามบิน",
+    "optionNotesTH": [
+     "ถูก มีเรื่อง flight, gate และ boarding จึงเป็นสนามบิน",
+     "ผิด เป็นเที่ยวบิน ไม่ใช่รถไฟ",
+     "ผิด ผู้โดยสารยังไม่ได้ขึ้นเครื่อง เพราะการขึ้นเครื่องยังไม่เริ่ม",
+     "ผิด บริษัททัวร์ไม่ประกาศเรื่องประตูขึ้นเครื่อง"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why has the gate been changed?",
+    "options": [
+     "The flight is completely full",
+     "The weather is bad",
+     "Repairs are being done",
+     "The flight has been delayed"
+    ],
+    "answer": 2,
+    "evidence": [
+     "which is due to maintenance work at Gate five"
+    ],
+    "explanationTH": "การเปลี่ยนประตู \"is due to maintenance work at Gate five\" maintenance work คืองานซ่อมบำรุง ตรงกับ repairs",
+    "optionNotesTH": [
+     "ผิด เที่ยวบินเต็มเป็นเหตุผลเรื่องที่เก็บสัมภาระ ไม่ใช่การเปลี่ยนประตู",
+     "ผิด ไม่ได้พูดถึงสภาพอากาศ",
+     "ถูก maintenance work = งานซ่อมบำรุง",
+     "ผิด ไม่มีการพูดถึงความล่าช้า"
+    ]
+   },
+   {
+    "type": "suggestion",
+    "stem": "What are passengers with large bags encouraged to do?",
+    "options": [
+     "Pay a fee for extra luggage",
+     "Leave their bags with staff at the gate",
+     "Board the plane before other passengers",
+     "Put their bags under their seats"
+    ],
+    "answer": 1,
+    "evidence": [
+     "we encourage you to check it at the gate free of charge"
+    ],
+    "explanationTH": "ผู้พูดแนะนำให้ผู้ที่มีกระเป๋าใบใหญ่ \"check it at the gate free of charge\" คือฝากโหลดกระเป๋ากับเจ้าหน้าที่ที่ประตูโดยไม่เสียเงิน",
+    "optionNotesTH": [
+     "ผิด บอกชัดว่า free of charge ไม่ต้องจ่าย",
+     "ถูก check it at the gate = ฝากกระเป๋าให้เจ้าหน้าที่ที่ประตู",
+     "ผิด การขึ้นก่อนเป็นสิทธิ์ของผู้มีเด็กเล็กหรือต้องการความช่วยเหลือ",
+     "ผิด ไม่ได้แนะนำให้วางใต้เบาะ"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เรียนผู้โดยสารเที่ยวบินโคสทัลแอร์ที่สองหนึ่งแปด ไปลิสบอน เที่ยวบินนี้จะเปลี่ยนไปออกจากประตูสิบสองแทนประตูห้า เราขออภัยในการเปลี่ยนแปลง ซึ่งเกิดจากงานซ่อมบำรุงที่ประตูห้าครับ",
+   "การขึ้นเครื่องจะเริ่มในอีกประมาณยี่สิบนาที ผู้โดยสารที่เดินทางพร้อมเด็กเล็กหรือต้องการความช่วยเหลือเพิ่มเติมจะได้รับเชิญให้ขึ้นเครื่องก่อน กรุณาเตรียมบัตรขึ้นเครื่องและหนังสือเดินทางให้พร้อมแสดงต่อเจ้าหน้าที่",
+   "นอกจากนี้ เที่ยวบินวันนี้เต็มทุกที่นั่ง พื้นที่ในช่องเก็บสัมภาระเหนือศีรษะจึงมีจำกัด หากท่านมีกระเป๋าถือขึ้นเครื่องใบใหญ่ เราขอแนะนำให้โหลดกระเป๋าที่ประตูขึ้นเครื่องโดยไม่เสียค่าใช้จ่าย ขอบคุณครับ"
+  ],
+  "tipTH": "ประกาศในสนามบินมักบอกเหตุผลด้วย due to หรือ because of ให้จับคำหลังสำนวนเหล่านี้ และระวังว่าคำตอบมักใช้คำที่มีความหมายเหมือนกันแทน",
+  "vocabulary": [
+   {
+    "word": "depart",
+    "pos": "verb",
+    "th": "ออกเดินทาง"
+   },
+   {
+    "word": "maintenance",
+    "pos": "noun",
+    "th": "การซ่อมบำรุง"
+   },
+   {
+    "word": "boarding pass",
+    "pos": "noun",
+    "th": "บัตรขึ้นเครื่อง"
+   },
+   {
+    "word": "carry-on bag",
+    "pos": "noun",
+    "th": "กระเป๋าถือขึ้นเครื่อง"
+   }
+  ]
+ },
+ {
+  "id": "T1-08",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "events",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Hi, Mr. Dawson, this is Fiona Clarke from Summit Event Planning. I got your e-mail saying that the number of people registered for your company's sales workshop has gone up to about eighty. That's great news, but the room I'd booked for you at the Harborview Hotel only holds sixty, so it won't be big enough."
+   },
+   {
+    "speaker": "W",
+    "text": "Luckily, the hotel still has availability that day, so I've switched your reservation to the next larger room. It's a bit more expensive, but it includes a projector and a sound system, so you won't need to rent those separately."
+   },
+   {
+    "speaker": "W",
+    "text": "There's one more thing. The hotel needs the final lunch order by Wednesday. I'll send you the menu options this afternoon, so please look them over and let me know what your team would like."
+   }
+  ],
+  "graphic": {
+   "title": "Harborview Hotel Meeting Rooms",
+   "table": "| Room | Capacity | Daily Rate |\n| Bayside | 30 | $300 |\n| Lighthouse | 60 | $550 |\n| Compass | 90 | $700 |\n| Anchor | 150 | $1,100 |"
+  },
+  "questions": [
+   {
+    "type": "mainIdea",
+    "stem": "Why is the speaker calling?",
+    "options": [
+     "To invite the listener to a workshop",
+     "To ask about a sales report",
+     "To recommend a different hotel",
+     "To explain a change to a reservation"
+    ],
+    "answer": 3,
+    "evidence": [
+     "I've switched your reservation to the next larger room"
+    ],
+    "explanationTH": "เพราะจำนวนผู้เข้าร่วมเพิ่มเป็นประมาณ 80 คน ผู้พูดจึง \"switched your reservation to the next larger room\" จุดประสงค์คือแจ้งการเปลี่ยนการจองห้อง",
+    "optionNotesTH": [
+     "ผิด workshop เป็นงานของบริษัทผู้ฟังเอง ไม่ได้โทรมาเชิญ",
+     "ผิด ได้ยินคำว่า sales แต่ไม่ได้ถามเรื่องรายงานยอดขาย",
+     "ผิด ยังใช้โรงแรม Harborview เหมือนเดิม แค่เปลี่ยนห้อง",
+     "ถูก โทรมาอธิบายว่าเปลี่ยนห้องที่จองไว้"
+    ]
+   },
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. How much will the new room cost per day?",
+    "options": [
+     "$300",
+     "$700",
+     "$550",
+     "$1,100"
+    ],
+    "answer": 1,
+    "evidence": [
+     "I've switched your reservation to the next larger room",
+     "Compass | 90 | $700"
+    ],
+    "explanationTH": "ห้องเดิมจุได้ 60 คน (Lighthouse) ห้องที่ใหญ่ขึ้นถัดไปคือ Compass ซึ่งจุ 90 คนพอสำหรับ 80 คน และมีค่าห้อง $700 ต่อวัน",
+    "optionNotesTH": [
+     "ผิด $300 คือห้อง Bayside ซึ่งเล็กที่สุด",
+     "ถูก ห้องถัดจากห้อง 60 คนคือ Compass ราคา $700",
+     "ผิด $550 คือห้อง Lighthouse ที่จองไว้เดิมและเล็กเกินไป",
+     "ผิด $1,100 คือห้อง Anchor ซึ่งใหญ่กว่าห้องถัดไปอีกขั้น"
+    ]
+   },
+   {
+    "type": "nextAction",
+    "stem": "What will the speaker do this afternoon?",
+    "options": [
+     "Visit the hotel",
+     "Rent a projector",
+     "Send some lunch choices",
+     "Register more participants"
+    ],
+    "answer": 2,
+    "evidence": [
+     "I'll send you the menu options this afternoon"
+    ],
+    "explanationTH": "ผู้พูดบอกว่า \"I'll send you the menu options this afternoon\" คือจะส่งตัวเลือกเมนูอาหารกลางวันให้บ่ายนี้",
+    "optionNotesTH": [
+     "ผิด ไม่ได้บอกว่าจะไปโรงแรม",
+     "ผิด ห้องใหม่มีโปรเจกเตอร์อยู่แล้ว ไม่ต้องเช่า",
+     "ถูก menu options = ตัวเลือกอาหารกลางวัน",
+     "ผิด จำนวนผู้ลงทะเบียนเพิ่มขึ้นเอง ผู้พูดไม่ได้ลงทะเบียนให้"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีค่ะคุณดอว์สัน ดิฉันฟิโอน่า คลาร์ก จากซัมมิทอีเวนต์แพลนนิ่ง ดิฉันได้รับอีเมลของคุณที่บอกว่าจำนวนผู้ลงทะเบียนเข้าร่วมเวิร์กช็อปการขายของบริษัทคุณเพิ่มขึ้นเป็นประมาณแปดสิบคน เป็นข่าวดีมากค่ะ แต่ห้องที่ดิฉันจองไว้ให้ที่โรงแรมฮาร์เบอร์วิวจุได้แค่หกสิบคน จึงไม่ใหญ่พอ",
+   "โชคดีที่โรงแรมยังมีห้องว่างในวันนั้น ดิฉันจึงเปลี่ยนการจองของคุณเป็นห้องที่ใหญ่ขึ้นถัดไป ราคาแพงขึ้นเล็กน้อย แต่มีโปรเจกเตอร์และระบบเสียงรวมอยู่ด้วย คุณจึงไม่ต้องเช่าแยกต่างหาก",
+   "มีอีกเรื่องหนึ่งค่ะ โรงแรมต้องการรายการอาหารกลางวันขั้นสุดท้ายภายในวันพุธ ดิฉันจะส่งตัวเลือกเมนูให้คุณบ่ายนี้ รบกวนดูแล้วแจ้งดิฉันด้วยนะคะว่าทีมของคุณอยากได้อะไร"
+  ],
+  "tipTH": "ก่อนฟังข้อกราฟิก ให้ดูตารางก่อนว่ามีคอลัมน์อะไร เช่น จำนวนคนและราคา แล้วระหว่างฟังให้จับตัวเลขที่ช่วยระบุแถว เช่น holds sixty และ next larger room",
+  "vocabulary": [
+   {
+    "word": "register",
+    "pos": "verb",
+    "th": "ลงทะเบียน"
+   },
+   {
+    "word": "availability",
+    "pos": "noun",
+    "th": "การมีว่าง (ห้อง/เวลา)"
+   },
+   {
+    "word": "reservation",
+    "pos": "noun",
+    "th": "การจอง"
+   },
+   {
+    "word": "separately",
+    "pos": "adverb",
+    "th": "แยกต่างหาก"
+   }
+  ]
+ },
+ {
+  "id": "T1-09",
+  "part": 4,
+  "talkType": "meeting",
+  "topic": "finance",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Thanks for coming, everyone. I want to talk about the new expense reporting software we started using last month. The good news is that reports are now being approved in about three days instead of two weeks. The not-so-good news is that a lot of you are still submitting paper receipts."
+   },
+   {
+    "speaker": "M",
+    "text": "I know the system takes some getting used to. But here's the thing. The accounting team has to scan every paper receipt by hand, and they're spending hours on it each week. They're a small team. You can imagine how they feel about that."
+   },
+   {
+    "speaker": "M",
+    "text": "So, starting next month, paper receipts won't be accepted at all. Instead, just take a photo of the receipt with your phone and upload it through the app. Sophie from IT will run a short training session on Thursday for anyone who'd like to see how it works. I'd strongly encourage you to attend."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "According to the speaker, what has improved since last month?",
+    "options": [
+     "Employees need to travel less often",
+     "Expense reports are processed more quickly",
+     "The accounting team has hired more staff",
+     "Paper receipts have become easier to read"
+    ],
+    "answer": 1,
+    "evidence": [
+     "reports are now being approved in about three days instead of two weeks"
+    ],
+    "explanationTH": "ข่าวดีคือ \"reports are now being approved in about three days instead of two weeks\" รายงานค่าใช้จ่ายได้รับอนุมัติเร็วขึ้นมาก",
+    "optionNotesTH": [
+     "ผิด ไม่ได้พูดถึงการเดินทาง",
+     "ถูก อนุมัติใน 3 วันแทน 2 สัปดาห์ = ดำเนินการเร็วขึ้น",
+     "ผิด ทีมบัญชียังเป็นทีมเล็ก ไม่มีการจ้างคนเพิ่ม",
+     "ผิด ใบเสร็จกระดาษยังเป็นปัญหาอยู่"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "Why does the speaker say, \"They're a small team\"?",
+    "options": [
+     "To announce that more staff will be hired",
+     "To suggest that the team move to a smaller office",
+     "To introduce the members of a new team",
+     "To stress that the extra work is a burden"
+    ],
+    "answer": 3,
+    "evidence": [
+     "they're spending hours on it each week",
+     "You can imagine how they feel about that"
+    ],
+    "explanationTH": "ผู้พูดเพิ่งบอกว่าทีมบัญชีต้องสแกนใบเสร็จด้วยมือหลายชั่วโมงทุกสัปดาห์ แล้วจึงพูดว่า \"They're a small team\" เพื่อย้ำว่างานเพิ่มนี้เป็นภาระหนักสำหรับคนจำนวนน้อย",
+    "optionNotesTH": [
+     "ผิด ทางแก้คือเลิกรับใบเสร็จกระดาษ ไม่ใช่จ้างคนเพิ่ม",
+     "ผิด ตีความคำว่า small ผิดไปเป็นขนาดสำนักงาน",
+     "ผิด ไม่ได้แนะนำสมาชิกทีม",
+     "ถูก เน้นว่าทีมเล็กแต่ต้องแบกงานสแกนหลายชั่วโมง"
+    ]
+   },
+   {
+    "type": "suggestion",
+    "stem": "What does the speaker encourage the listeners to do?",
+    "options": [
+     "Join a training session",
+     "Scan their receipts by hand",
+     "Contact the accounting team",
+     "Submit paper receipts by Thursday"
+    ],
+    "answer": 0,
+    "evidence": [
+     "Sophie from IT will run a short training session on Thursday",
+     "I'd strongly encourage you to attend"
+    ],
+    "explanationTH": "ท้ายการประชุม ผู้พูดบอกว่า Sophie จะจัดอบรมวันพฤหัส และ \"I'd strongly encourage you to attend\" คือแนะนำให้เข้าร่วมการอบรม",
+    "optionNotesTH": [
+     "ถูก attend a training session = เข้าร่วมการอบรม",
+     "ผิด การสแกนด้วยมือเป็นงานของทีมบัญชีและเป็นปัญหาที่อยากเลิก",
+     "ผิด ไม่ได้แนะนำให้ติดต่อทีมบัญชี",
+     "ผิด ได้ยิน Thursday แต่เป็นวันอบรม และใบเสร็จกระดาษจะไม่รับอีกต่อไป"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ขอบคุณทุกคนที่มานะครับ ผมอยากพูดถึงซอฟต์แวร์รายงานค่าใช้จ่ายตัวใหม่ที่เราเริ่มใช้เมื่อเดือนที่แล้ว ข่าวดีคือตอนนี้รายงานได้รับการอนุมัติภายในประมาณสามวัน แทนที่จะเป็นสองสัปดาห์ ข่าวที่ไม่ค่อยดีคือหลายคนยังคงส่งใบเสร็จแบบกระดาษอยู่",
+   "ผมเข้าใจว่าระบบนี้ต้องใช้เวลาปรับตัว แต่ประเด็นก็คือ ทีมบัญชีต้องสแกนใบเสร็จกระดาษทุกใบด้วยมือ และพวกเขาเสียเวลาหลายชั่วโมงกับเรื่องนี้ทุกสัปดาห์ พวกเขาเป็นทีมเล็กนะครับ คุณคงนึกออกว่าพวกเขารู้สึกอย่างไร",
+   "ดังนั้น ตั้งแต่เดือนหน้าเป็นต้นไป จะไม่รับใบเสร็จกระดาษอีกเลย ให้ถ่ายรูปใบเสร็จด้วยโทรศัพท์แล้วอัปโหลดผ่านแอปแทน โซฟีจากฝ่ายไอทีจะจัดอบรมสั้นๆ ในวันพฤหัสบดีสำหรับใครที่อยากดูว่าใช้งานอย่างไร ผมขอแนะนำอย่างยิ่งให้เข้าร่วมครับ"
+  ],
+  "tipTH": "ในการประชุม ผู้พูดมักแบ่งเป็นข่าวดีกับข่าวไม่ดี (The good news is... / The not-so-good news is...) ให้ใช้สำนวนเหล่านี้เป็นป้ายบอกว่าข้อมูลส่วนไหนตอบคำถามอะไร",
+  "vocabulary": [
+   {
+    "word": "expense",
+    "pos": "noun",
+    "th": "ค่าใช้จ่าย"
+   },
+   {
+    "word": "approve",
+    "pos": "verb",
+    "th": "อนุมัติ"
+   },
+   {
+    "word": "submit",
+    "pos": "verb",
+    "th": "ส่ง (เอกสาร)"
+   },
+   {
+    "word": "get used to",
+    "pos": "phrase",
+    "th": "คุ้นเคยกับ ปรับตัวเข้ากับ"
+   }
+  ]
+ },
+ {
+  "id": "T1-10",
+  "part": 4,
+  "talkType": "advertisement",
+  "topic": "realEstate",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Are you tired of working from your kitchen table? Do noisy coffee shops make it hard to concentrate? Then come check out Harbor Lane Workspace, the newest shared office space in downtown Milford."
+   },
+   {
+    "speaker": "W",
+    "text": "We offer private desks, soundproof phone booths, and meeting rooms you can reserve by the hour. All members get high-speed internet and unlimited coffee and tea. Best of all, we're open twenty-four hours a day, so you can work whenever it suits you."
+   },
+   {
+    "speaker": "W",
+    "text": "To celebrate our grand opening, we're offering your first month for just $99. That's half our regular price. This offer ends on March thirty-first, so visit our website today to book a free tour."
+   }
+  ],
+  "questions": [
+   {
+    "type": "inference",
+    "stem": "Who is the advertisement most likely intended for?",
+    "options": [
+     "Coffee shop owners",
+     "Kitchen designers",
+     "People looking for a place to work",
+     "Real estate agents"
+    ],
+    "answer": 2,
+    "evidence": [
+     "Are you tired of working from your kitchen table?",
+     "Do noisy coffee shops make it hard to concentrate?"
+    ],
+    "explanationTH": "โฆษณาเปิดด้วยคำถามถึงคนที่เบื่อการทำงานบนโต๊ะในครัวหรือในร้านกาแฟที่เสียงดัง จึงมุ่งไปที่คนที่กำลังหาที่ทำงาน",
+    "optionNotesTH": [
+     "ผิด ได้ยิน coffee shops แต่ใช้เป็นตัวอย่างที่ทำงานที่ไม่ดี",
+     "ผิด ได้ยิน kitchen table แต่ไม่เกี่ยวกับนักออกแบบครัว",
+     "ถูก กลุ่มเป้าหมายคือคนที่ต้องการสถานที่ทำงานที่ดีกว่า",
+     "ผิด ไม่ได้พูดกับนายหน้าอสังหาริมทรัพย์"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker say all members receive?",
+    "options": [
+     "Unlimited hot drinks",
+     "Free phone calls",
+     "A daily lunch",
+     "Use of a private kitchen"
+    ],
+    "answer": 0,
+    "evidence": [
+     "All members get high-speed internet and unlimited coffee and tea"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าสมาชิกทุกคนได้อินเทอร์เน็ตความเร็วสูงและ \"unlimited coffee and tea\" ชาและกาแฟคือเครื่องดื่มร้อนแบบไม่จำกัด",
+    "optionNotesTH": [
+     "ถูก coffee and tea = hot drinks ได้ไม่จำกัด",
+     "ผิด ได้ยิน phone booths แต่เป็นห้องโทรศัพท์เก็บเสียง ไม่ใช่การโทรฟรี",
+     "ผิด ไม่ได้พูดถึงอาหารกลางวัน",
+     "ผิด ได้ยิน kitchen แต่หมายถึงโต๊ะในครัวที่บ้าน"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What is being offered for a limited time?",
+    "options": [
+     "A free month of membership",
+     "A free coffee machine",
+     "Access to the space at night",
+     "A discounted first month"
+    ],
+    "answer": 3,
+    "evidence": [
+     "we're offering your first month for just $99",
+     "That's half our regular price"
+    ],
+    "explanationTH": "ฉลองเปิดตัวด้วยเดือนแรกเพียง $99 ซึ่งเป็น \"half our regular price\" และข้อเสนอสิ้นสุดวันที่ 31 มีนาคม จึงเป็นส่วนลดเดือนแรกแบบจำกัดเวลา",
+    "optionNotesTH": [
+     "ผิด เดือนแรกไม่ได้ฟรี แต่ลดเหลือครึ่งราคา",
+     "ผิด กาแฟฟรีสำหรับสมาชิก ไม่ได้แจกเครื่องชงกาแฟ",
+     "ผิด เปิด 24 ชั่วโมงเป็นบริการปกติ ไม่ใช่ข้อเสนอจำกัดเวลา",
+     "ถูก $99 = ครึ่งราคา คือส่วนลดเดือนแรก"
+    ]
+   }
+  ],
+  "translationTH": [
+   "คุณเบื่อการทำงานบนโต๊ะในครัวหรือเปล่า ร้านกาแฟที่เสียงดังทำให้คุณจดจ่อได้ยากไหม ถ้าใช่ มาลองดูฮาร์เบอร์เลนเวิร์กสเปซ พื้นที่สำนักงานแบบใช้ร่วมกันแห่งใหม่ล่าสุดในย่านใจกลางเมืองมิลฟอร์ด",
+   "เรามีโต๊ะทำงานส่วนตัว ห้องโทรศัพท์เก็บเสียง และห้องประชุมที่จองได้เป็นรายชั่วโมง สมาชิกทุกคนได้อินเทอร์เน็ตความเร็วสูง และกาแฟกับชาแบบไม่จำกัด ที่ดีที่สุดคือเราเปิดตลอดยี่สิบสี่ชั่วโมง คุณจึงทำงานได้ทุกเวลาที่สะดวก",
+   "เพื่อฉลองการเปิดตัว เราเสนอเดือนแรกในราคาเพียง 99 ดอลลาร์ ซึ่งเป็นครึ่งหนึ่งของราคาปกติ ข้อเสนอนี้สิ้นสุดวันที่สามสิบเอ็ดมีนาคม เข้าเว็บไซต์ของเราวันนี้เพื่อจองทัวร์ชมฟรี"
+  ],
+  "tipTH": "โฆษณามักเปิดด้วยคำถามที่บอกกลุ่มลูกค้าเป้าหมาย และปิดด้วยโปรโมชันที่มีวันหมดเขต ให้ระวังตัวเลือกที่บิดตัวเลข เช่น ครึ่งราคากับฟรี",
+  "vocabulary": [
+   {
+    "word": "concentrate",
+    "pos": "verb",
+    "th": "จดจ่อ มีสมาธิ"
+   },
+   {
+    "word": "soundproof",
+    "pos": "adjective",
+    "th": "กันเสียง เก็บเสียง"
+   },
+   {
+    "word": "reserve",
+    "pos": "verb",
+    "th": "จอง"
+   },
+   {
+    "word": "regular price",
+    "pos": "noun",
+    "th": "ราคาปกติ"
+   }
+  ]
+ },
+ {
+  "id": "T2-01",
+  "part": 4,
+  "talkType": "broadcast",
+  "topic": "logistics",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Good morning, and thanks for tuning in to Riverside Radio. It's seven forty-five, and here's your morning traffic update. If you're heading downtown on Highway 9, expect long delays. A truck lost part of its load near the Maple Street exit, and two lanes are currently closed."
+   },
+   {
+    "speaker": "M",
+    "text": "Crews say the lanes should reopen by around ten o'clock. Until then, drivers are advised to take Coastal Road instead. It adds a few minutes to the trip, but traffic there is moving smoothly."
+   },
+   {
+    "speaker": "M",
+    "text": "Also, a reminder for bus riders. Starting Monday, the Number 12 bus will stop at the new Greenfield Station instead of the old terminal. Stay with us, because after a short break, we'll have your weekend weather forecast."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What has caused the delays on Highway 9?",
+    "options": [
+     "Road repair work",
+     "A truck dropped some of its cargo",
+     "A traffic signal is not working",
+     "A parade is taking place downtown"
+    ],
+    "answer": 1,
+    "evidence": [
+     "A truck lost part of its load near the Maple Street exit"
+    ],
+    "explanationTH": "ผู้พูดบอกว่า \"A truck lost part of its load\" คือรถบรรทุกทำสินค้าที่บรรทุกมาหล่นบางส่วน ซึ่งตรงกับตัวเลือก B ที่ใช้คำว่า dropped some of its cargo แทน",
+    "optionNotesTH": [
+     "ผิด ไม่มีการพูดถึงงานซ่อมถนน",
+     "ถูก lost part of its load = ทำสินค้าบนรถหล่น (dropped cargo)",
+     "ผิด ไม่มีการพูดถึงสัญญาณไฟจราจรเสีย",
+     "ผิด คำว่า downtown ได้ยินในบทพูด แต่ไม่มีขบวนพาเหรด"
+    ]
+   },
+   {
+    "type": "suggestion",
+    "stem": "What are drivers advised to do?",
+    "options": [
+     "Leave home before ten o'clock",
+     "Take the bus downtown",
+     "Use an alternate route",
+     "Exit at Maple Street"
+    ],
+    "answer": 2,
+    "evidence": [
+     "drivers are advised to take Coastal Road instead"
+    ],
+    "explanationTH": "ผู้พูดแนะนำให้ผู้ขับขี่ใช้ Coastal Road แทนทางหลวงหมายเลข 9 ซึ่งก็คือการใช้เส้นทางอื่น (alternate route) จึงตอบ C",
+    "optionNotesTH": [
+     "ผิด ten o'clock คือเวลาที่ช่องจราจรจะเปิดอีกครั้ง ไม่ใช่คำแนะนำให้ออกจากบ้าน",
+     "ผิด รถบัสถูกพูดถึงในอีกเรื่องหนึ่ง ไม่ได้แนะนำให้นั่งรถบัส",
+     "ถูก take Coastal Road instead = ใช้เส้นทางอื่น",
+     "ผิด Maple Street exit คือจุดที่เกิดเหตุ ไม่ใช่ทางที่แนะนำให้ออก"
+    ]
+   },
+   {
+    "type": "nextAction",
+    "stem": "What will listeners most likely hear after the break?",
+    "options": [
+     "An interview with a bus driver",
+     "Another traffic update",
+     "A sports report",
+     "A weather forecast"
+    ],
+    "answer": 3,
+    "evidence": [
+     "after a short break, we'll have your weekend weather forecast"
+    ],
+    "explanationTH": "ท้ายรายการผู้พูดบอกว่าหลังช่วงพักสั้น ๆ จะเป็นพยากรณ์อากาศสุดสัปดาห์ จึงตอบ D คำถามแนว \"ฟังอะไรต่อ\" มักเฉลยในประโยคสุดท้าย",
+    "optionNotesTH": [
+     "ผิด มีการพูดถึงรถบัสแต่ไม่มีการสัมภาษณ์คนขับ",
+     "ผิด รายงานจราจรจบไปแล้ว ไม่ได้บอกว่าจะมีอีก",
+     "ผิด ไม่มีการพูดถึงข่าวกีฬา",
+     "ถูก weekend weather forecast = พยากรณ์อากาศ"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนเช้าครับ ขอบคุณที่รับฟังริเวอร์ไซด์เรดิโอ ตอนนี้เวลาเจ็ดนาฬิกาสี่สิบห้านาที และนี่คือรายงานสภาพการจราจรยามเช้า หากคุณกำลังมุ่งหน้าเข้าตัวเมืองทางทางหลวงหมายเลข 9 โปรดเตรียมพบกับความล่าช้านาน รถบรรทุกคันหนึ่งทำสินค้าหล่นบางส่วนใกล้ทางออกถนนเมเปิล และขณะนี้ปิดการจราจรไปสองช่องทาง",
+   "เจ้าหน้าที่แจ้งว่าช่องทางดังกล่าวน่าจะเปิดได้อีกครั้งประมาณสิบโมง ระหว่างนี้ขอแนะนำให้ผู้ขับขี่ใช้ถนนโคสทัลแทน แม้จะเสียเวลาเพิ่มอีกไม่กี่นาที แต่การจราจรเส้นนั้นคล่องตัวดี",
+   "อีกเรื่องหนึ่ง ขอเตือนผู้ใช้รถประจำทาง ตั้งแต่วันจันทร์นี้ รถบัสสาย 12 จะไปจอดที่สถานีกรีนฟิลด์แห่งใหม่แทนสถานีปลายทางเดิม อยู่กับเราต่อนะครับ เพราะหลังช่วงพักสั้น ๆ เราจะมีพยากรณ์อากาศช่วงสุดสัปดาห์มาฝาก"
+  ],
+  "tipTH": "รายงานจราจรทางวิทยุมักมีลำดับ สาเหตุ → คำแนะนำ → ข่าวอื่น → รายการถัดไป ให้จับคำว่า advised to หรือ instead เพื่อหาคำแนะนำ และฟังประโยคสุดท้ายเพื่อตอบว่าจะมีอะไรต่อ",
+  "vocabulary": [
+   {
+    "word": "delay",
+    "pos": "noun",
+    "th": "ความล่าช้า"
+   },
+   {
+    "word": "load",
+    "pos": "noun",
+    "th": "สินค้าที่บรรทุก"
+   },
+   {
+    "word": "reopen",
+    "pos": "verb",
+    "th": "เปิดอีกครั้ง"
+   },
+   {
+    "word": "terminal",
+    "pos": "noun",
+    "th": "สถานีปลายทาง"
+   }
+  ]
+ },
+ {
+  "id": "T2-02",
+  "part": 4,
+  "talkType": "news",
+  "topic": "technology",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "In business news today, Harlow Electronics announced that it will open a new research center in Westbrook next spring. The company, best known for its home security cameras, says the center will focus on developing smart-home devices that use less energy."
+   },
+   {
+    "speaker": "W",
+    "text": "The project is expected to create about two hundred jobs, most of them for engineers and software developers. Harlow had looked at several larger cities before making its final decision. Not bad for a town of just thirty thousand people."
+   },
+   {
+    "speaker": "W",
+    "text": "Harlow says it will start accepting job applications in January. In the meantime, the company will post an online information session for job seekers next week. You can find a link to it on our station's Web site."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What does Harlow Electronics plan to do?",
+    "options": [
+     "Open a research facility",
+     "Release a new security camera",
+     "Move its headquarters to Westbrook",
+     "Lower its energy costs"
+    ],
+    "answer": 0,
+    "evidence": [
+     "it will open a new research center in Westbrook next spring"
+    ],
+    "explanationTH": "ข่าวบอกว่าบริษัทจะเปิดศูนย์วิจัยแห่งใหม่ (research center) ที่เมืองเวสต์บรูก ตัวเลือก A ใช้คำว่า research facility ซึ่งมีความหมายเดียวกัน",
+    "optionNotesTH": [
+     "ถูก research center = research facility",
+     "ผิด กล้องรักษาความปลอดภัยคือสินค้าที่บริษัทมีชื่อเสียงอยู่แล้ว ไม่ได้บอกว่าจะออกรุ่นใหม่",
+     "ผิด เป็นการเปิดศูนย์วิจัยใหม่ ไม่ใช่ย้ายสำนักงานใหญ่",
+     "ผิด use less energy หมายถึงอุปกรณ์ที่จะพัฒนา ไม่ใช่ต้นทุนพลังงานของบริษัท"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker imply when she says, \"Not bad for a town of just thirty thousand people\"?",
+    "options": [
+     "The town needs more residents",
+     "Most new jobs are for engineers",
+     "It is impressive that Westbrook was chosen",
+     "Housing in the town is limited"
+    ],
+    "answer": 2,
+    "evidence": [
+     "Harlow had looked at several larger cities before making its final decision.",
+     "Not bad for a town of just thirty thousand people."
+    ],
+    "explanationTH": "ก่อนหน้านั้นผู้พูดบอกว่าบริษัทพิจารณาเมืองที่ใหญ่กว่าหลายเมืองก่อนตัดสินใจ การพูดว่า \"ไม่เลวเลยสำหรับเมืองที่มีคนแค่สามหมื่นคน\" จึงสื่อว่าเป็นเรื่องน่าประทับใจที่เมืองเล็ก ๆ ได้รับเลือก",
+    "optionNotesTH": [
+     "ผิด ไม่ได้พูดถึงความต้องการประชากรเพิ่ม",
+     "ผิด เป็นข้อเท็จจริงที่พูดถึงในข่าว แต่ไม่ใช่ความหมายของประโยคนี้",
+     "ถูก เมืองเล็กได้รับเลือกเหนือเมืองใหญ่ จึงน่าประทับใจ",
+     "ผิด ไม่มีการพูดถึงที่อยู่อาศัย"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What will be available next week?",
+    "options": [
+     "Job application forms",
+     "A recording of a press conference",
+     "A new product catalog",
+     "An online event for people looking for work"
+    ],
+    "answer": 3,
+    "evidence": [
+     "the company will post an online information session for job seekers next week"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าสัปดาห์หน้าบริษัทจะโพสต์การบรรยายให้ข้อมูลออนไลน์สำหรับผู้หางาน ตัวเลือก D ถอดความ job seekers เป็น people looking for work",
+    "optionNotesTH": [
+     "ผิด การรับสมัครงานจะเริ่มเดือนมกราคม ไม่ใช่สัปดาห์หน้า",
+     "ผิด ไม่มีการพูดถึงงานแถลงข่าว",
+     "ผิด ไม่มีการพูดถึงแคตตาล็อกสินค้า",
+     "ถูก online information session for job seekers"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ข่าวธุรกิจวันนี้ ฮาร์โลว์ อิเล็กทรอนิกส์ ประกาศว่าจะเปิดศูนย์วิจัยแห่งใหม่ที่เวสต์บรูกในฤดูใบไม้ผลิปีหน้า บริษัทซึ่งเป็นที่รู้จักดีที่สุดจากกล้องรักษาความปลอดภัยสำหรับบ้าน ระบุว่าศูนย์แห่งนี้จะมุ่งพัฒนาอุปกรณ์สมาร์ตโฮมที่ใช้พลังงานน้อยลง",
+   "คาดว่าโครงการนี้จะสร้างงานราวสองร้อยตำแหน่ง ส่วนใหญ่เป็นวิศวกรและนักพัฒนาซอฟต์แวร์ ฮาร์โลว์ได้พิจารณาเมืองที่ใหญ่กว่าหลายแห่งก่อนจะตัดสินใจขั้นสุดท้าย ไม่เลวเลยสำหรับเมืองที่มีประชากรเพียงสามหมื่นคน",
+   "ฮาร์โลว์ระบุว่าจะเริ่มรับใบสมัครงานในเดือนมกราคม ระหว่างนี้บริษัทจะโพสต์การบรรยายให้ข้อมูลออนไลน์สำหรับผู้หางานในสัปดาห์หน้า คุณสามารถหาลิงก์ได้บนเว็บไซต์ของสถานีเรา"
+  ],
+  "tipTH": "ข้อ intent ให้ฟังประโยคก่อนหน้าประโยคที่ถูกอ้าง เพราะบริบทจะบอกความหมายแฝง ส่วนข้อที่ถามเวลา ระวังตัวเลือกที่ตรงกับช่วงเวลาอื่นในข่าว เช่น January กับ next week",
+  "vocabulary": [
+   {
+    "word": "research center",
+    "pos": "noun",
+    "th": "ศูนย์วิจัย"
+   },
+   {
+    "word": "job seeker",
+    "pos": "noun",
+    "th": "ผู้หางาน"
+   },
+   {
+    "word": "in the meantime",
+    "pos": "phrase",
+    "th": "ในระหว่างนี้"
+   },
+   {
+    "word": "final decision",
+    "pos": "noun",
+    "th": "การตัดสินใจขั้นสุดท้าย"
+   }
+  ]
+ },
+ {
+  "id": "T2-03",
+  "part": 4,
+  "talkType": "announcement",
+  "topic": "sales",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Attention, shoppers. Thank you for visiting Brightline Department Store. We're happy to announce a special two-hour sale starting right now. Until five o'clock, everything on our third floor is twenty percent off, including all of our new arrivals."
+   },
+   {
+    "speaker": "M",
+    "text": "Also, our café on the first floor has just added fresh sandwiches and smoothies to its menu. It's a great place to relax with friends and take a break from shopping."
+   },
+   {
+    "speaker": "M",
+    "text": "Finally, if you sign up for a Brightline membership card today at any register, you'll receive a free tote bag. Membership costs nothing, and members get early notice about all of our sales. Happy shopping!"
+   }
+  ],
+  "graphic": {
+   "title": "Store Directory",
+   "table": "| Floor | Department |\n| 1 | Cosmetics and Shoes |\n| 2 | Women's Fashion |\n| 3 | Men's Fashion |\n| 4 | Home and Kitchen |"
+  },
+  "questions": [
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. Which department is having a sale?",
+    "options": [
+     "Cosmetics and Shoes",
+     "Women's Fashion",
+     "Men's Fashion",
+     "Home and Kitchen"
+    ],
+    "answer": 2,
+    "evidence": [
+     "everything on our third floor is twenty percent off",
+     "| 3 | Men's Fashion |"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าสินค้าทุกอย่างบนชั้นสามลดราคายี่สิบเปอร์เซ็นต์ เมื่อดูผังห้างจะเห็นว่าชั้น 3 คือแผนกแฟชั่นผู้ชาย จึงตอบ C",
+    "optionNotesTH": [
+     "ผิด แผนกนี้อยู่ชั้น 1 ซึ่งเป็นชั้นของคาเฟ่",
+     "ผิด แผนกนี้อยู่ชั้น 2",
+     "ถูก ชั้น 3 ตามตารางคือ Men's Fashion",
+     "ผิด แผนกนี้อยู่ชั้น 4"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker say about the café?",
+    "options": [
+     "It recently moved to the first floor",
+     "It has added new items to its menu",
+     "It closes at five o'clock",
+     "It offers discounts to members"
+    ],
+    "answer": 1,
+    "evidence": [
+     "our café on the first floor has just added fresh sandwiches and smoothies to its menu"
+    ],
+    "explanationTH": "คำว่า now serving บอกว่าคาเฟ่เพิ่งเริ่มขายแซนด์วิชและสมูทตี้ ซึ่งก็คือเพิ่มเมนูใหม่ จึงตอบ B",
+    "optionNotesTH": [
+     "ผิด คาเฟ่อยู่ชั้นหนึ่ง แต่ไม่ได้บอกว่าเพิ่งย้ายมา",
+     "ถูก now serving sandwiches and smoothies = เพิ่มรายการใหม่ในเมนู",
+     "ผิด ห้าโมงเย็นคือเวลาสิ้นสุดการลดราคา",
+     "ผิด สิทธิ์สมาชิกคือได้รู้ข่าวลดราคาก่อน ไม่ใช่ส่วนลดที่คาเฟ่"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "How can shoppers receive a free gift?",
+    "options": [
+     "By spending a minimum amount",
+     "By shopping on the third floor",
+     "By visiting the café",
+     "By joining a membership program"
+    ],
+    "answer": 3,
+    "evidence": [
+     "if you sign up for a Brightline membership card today at any register, you'll receive a free tote bag"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าถ้าสมัครบัตรสมาชิกวันนี้จะได้กระเป๋าผ้าฟรี ตัวเลือก D ถอดความ sign up for a membership card เป็น joining a membership program",
+    "optionNotesTH": [
+     "ผิด ไม่มีการกำหนดยอดซื้อขั้นต่ำ",
+     "ผิด ชั้นสามคือที่ที่มีการลดราคา ไม่ใช่ของแถม",
+     "ผิด คาเฟ่ไม่เกี่ยวกับของแถม",
+     "ถูก สมัครสมาชิกแล้วได้ free tote bag"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เรียนลูกค้าทุกท่านครับ ขอบคุณที่มาเยี่ยมชมห้างสรรพสินค้าไบรต์ไลน์ เรามีความยินดีที่จะประกาศการลดราคาพิเศษสองชั่วโมงซึ่งเริ่มตั้งแต่ตอนนี้ จนถึงห้าโมงเย็น สินค้าทุกชิ้นบนชั้นสามลดราคายี่สิบเปอร์เซ็นต์ รวมถึงสินค้ามาใหม่ทั้งหมดของเราด้วย",
+   "นอกจากนี้ คาเฟ่ของเราที่ชั้นหนึ่งเพิ่งเพิ่มแซนด์วิชสดและสมูทตี้ลงในเมนู เป็นที่ที่เหมาะสำหรับนั่งพักผ่อนกับเพื่อน ๆ ระหว่างช็อปปิ้ง",
+   "สุดท้าย หากท่านสมัครบัตรสมาชิกไบรต์ไลน์วันนี้ที่จุดชำระเงินใดก็ได้ ท่านจะได้รับกระเป๋าผ้าฟรี การเป็นสมาชิกไม่มีค่าใช้จ่าย และสมาชิกจะได้รับแจ้งข่าวการลดราคาทุกครั้งก่อนใคร ขอให้สนุกกับการช็อปปิ้งครับ"
+  ],
+  "tipTH": "ข้อที่มีกราฟิก ให้ดูตารางก่อนฟัง แล้วคาดว่าผู้พูดจะพูดข้อมูลคอลัมน์ไหน (ที่นี่คือเลขชั้น) จากนั้นจับเลขนั้นแล้วอ่านคำตอบจากอีกคอลัมน์",
+  "vocabulary": [
+   {
+    "word": "department store",
+    "pos": "noun",
+    "th": "ห้างสรรพสินค้า"
+   },
+   {
+    "word": "new arrival",
+    "pos": "noun",
+    "th": "สินค้ามาใหม่"
+   },
+   {
+    "word": "register",
+    "pos": "noun",
+    "th": "จุดชำระเงิน แคชเชียร์"
+   },
+   {
+    "word": "sign up",
+    "pos": "phrase",
+    "th": "สมัคร ลงทะเบียน"
+   }
+  ]
+ },
+ {
+  "id": "T2-04",
+  "part": 4,
+  "talkType": "instructions",
+  "topic": "logistics",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Okay, everyone, before you start your shift, I'd like to go over how to use the new label printers. They've replaced the old machines at each packing station, and they're much faster once you get used to them."
+   },
+   {
+    "speaker": "W",
+    "text": "First, scan the barcode on the order sheet. The printer will automatically fill in the customer's shipping address. Then check the screen to make sure the address is complete before you press Print. If anything is missing, don't type it in yourself. Just call a supervisor over."
+   },
+   {
+    "speaker": "W",
+    "text": "Now, I know some of you were worried that these machines would be complicated. The manual is forty pages long. But honestly, you'll only need the first two. I've left copies of those pages at every station, so please keep them handy this week."
+   }
+  ],
+  "questions": [
+   {
+    "type": "location",
+    "stem": "Where do the listeners most likely work?",
+    "options": [
+     "At a shipping warehouse",
+     "At a print shop",
+     "At an electronics store",
+     "At a bank branch"
+    ],
+    "answer": 0,
+    "evidence": [
+     "the old machines at each packing station",
+     "fill in the customer's shipping address"
+    ],
+    "explanationTH": "คำว่า packing station, order sheet และ shipping address บ่งบอกว่าเป็นที่ทำงานที่แพ็กและส่งสินค้าให้ลูกค้า คือคลังสินค้าสำหรับจัดส่ง จึงตอบ A",
+    "optionNotesTH": [
+     "ถูก มีจุดแพ็กของและพิมพ์ที่อยู่จัดส่ง",
+     "ผิด ได้ยินคำว่า printer แต่เป็นเครื่องพิมพ์ฉลาก ไม่ใช่ร้านรับพิมพ์",
+     "ผิด ไม่ได้ขายเครื่องใช้ไฟฟ้า",
+     "ผิด ไม่มีคำที่เกี่ยวกับธนาคาร"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What should listeners do if an address is incomplete?",
+    "options": [
+     "Type in the missing details",
+     "Ask a supervisor for help",
+     "Scan the barcode again",
+     "Print a new order sheet"
+    ],
+    "answer": 1,
+    "evidence": [
+     "If anything is missing, don't type it in yourself. Just call a supervisor over."
+    ],
+    "explanationTH": "ผู้พูดบอกว่าถ้าข้อมูลขาดไป อย่าพิมพ์เอง ให้เรียกหัวหน้างานมา จึงตอบ B ตัวเลือก A เป็นกับดักเพราะเป็นสิ่งที่ผู้พูดห้ามทำ",
+    "optionNotesTH": [
+     "ผิด ผู้พูดห้ามพิมพ์เอง (don't type it in yourself)",
+     "ถูก call a supervisor over = ขอความช่วยเหลือจากหัวหน้างาน",
+     "ผิด การสแกนบาร์โค้ดคือขั้นตอนแรก ไม่ใช่วิธีแก้ปัญหา",
+     "ผิด ไม่มีการพูดถึงการพิมพ์ใบสั่งใหม่"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "Why does the speaker say, \"The manual is forty pages long\"?",
+    "options": [
+     "To ask listeners to read it carefully",
+     "To explain why training will take a week",
+     "To acknowledge a concern the listeners have",
+     "To complain about the manufacturer"
+    ],
+    "answer": 2,
+    "evidence": [
+     "I know some of you were worried that these machines would be complicated.",
+     "you'll only need the first two"
+    ],
+    "explanationTH": "ผู้พูดเพิ่งบอกว่ารู้ว่าบางคนกังวลว่าเครื่องจะใช้ยาก แล้วยอมรับว่าคู่มือยาวสี่สิบหน้าจริง ก่อนจะบอกว่าใช้แค่สองหน้าแรก จึงเป็นการรับรู้ความกังวลของผู้ฟัง ตอบ C",
+    "optionNotesTH": [
+     "ผิด ผู้พูดบอกว่าใช้แค่สองหน้าแรก ไม่ได้ให้อ่านทั้งเล่ม",
+     "ผิด this week หมายถึงให้เก็บสำเนาไว้ใกล้มือ ไม่ได้บอกว่าอบรมนานหนึ่งสัปดาห์",
+     "ถูก ยอมรับว่าความกังวลเรื่องความซับซ้อนมีเหตุผล",
+     "ผิด ไม่มีการตำหนิผู้ผลิต"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เอาล่ะทุกคน ก่อนจะเริ่มกะทำงาน ฉันขออธิบายวิธีใช้เครื่องพิมพ์ฉลากเครื่องใหม่ เครื่องเหล่านี้มาแทนเครื่องเก่าที่จุดแพ็กของทุกจุด และเร็วกว่ามากเมื่อใช้จนคล่องแล้ว",
+   "ขั้นแรก ให้สแกนบาร์โค้ดบนใบสั่งซื้อ เครื่องพิมพ์จะกรอกที่อยู่จัดส่งของลูกค้าให้อัตโนมัติ จากนั้นตรวจดูหน้าจอว่าที่อยู่ครบถ้วนก่อนกดพิมพ์ ถ้ามีข้อมูลขาดไป อย่าพิมพ์เติมเอง ให้เรียกหัวหน้างานมาเลย",
+   "ฉันรู้ว่าบางคนกังวลว่าเครื่องพวกนี้จะใช้ยาก คู่มือยาวตั้งสี่สิบหน้า แต่บอกตรง ๆ ว่าพวกคุณจะใช้แค่สองหน้าแรกเท่านั้น ฉันวางสำเนาสองหน้านั้นไว้ทุกจุดแล้ว สัปดาห์นี้ช่วยเก็บไว้ใกล้มือด้วยนะ"
+  ],
+  "tipTH": "บทพูดแนวอธิบายขั้นตอนมักมีคำว่า First, Then, If ให้ตามลำดับขั้นตอน และระวังตัวเลือกที่เป็นสิ่งที่ผู้พูดห้ามทำ (don't ...) ซึ่งมักถูกใช้เป็นตัวลวง",
+  "vocabulary": [
+   {
+    "word": "shift",
+    "pos": "noun",
+    "th": "กะการทำงาน"
+   },
+   {
+    "word": "packing station",
+    "pos": "noun",
+    "th": "จุดแพ็กสินค้า"
+   },
+   {
+    "word": "supervisor",
+    "pos": "noun",
+    "th": "หัวหน้างาน"
+   },
+   {
+    "word": "handy",
+    "pos": "adjective",
+    "th": "อยู่ใกล้มือ หยิบใช้ได้สะดวก"
+   }
+  ]
+ },
+ {
+  "id": "T2-05",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "realEstate",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Hi, Ms. Patel, this is Jordan Reyes from Lakeview Property Management. I'm calling about the office space on Brook Avenue that you viewed last Thursday. You mentioned that your company needs to move in by the first of March."
+   },
+   {
+    "speaker": "M",
+    "text": "Well, I spoke with the owner this morning, and the current tenant will be moving out at the end of January. So, March first won't be a problem. The owner also agreed to repaint the walls before you move in, as you requested."
+   },
+   {
+    "speaker": "M",
+    "text": "There's one thing, though. Another company has also shown interest in the space, so if you'd like it, I'll need your signed application by Friday. I'll e-mail you the form this afternoon. Please give me a call if you have any questions."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What did Ms. Patel do last Thursday?",
+    "options": [
+     "She signed a lease",
+     "She met the building's owner",
+     "She requested a lower rent",
+     "She inspected a rental property"
+    ],
+    "answer": 3,
+    "evidence": [
+     "the office space on Brook Avenue that you viewed last Thursday"
+    ],
+    "explanationTH": "ผู้พูดอ้างถึงสำนักงานที่คุณพาเทลไปดูเมื่อวันพฤหัสบดีที่แล้ว (viewed) ตัวเลือก D ถอดความเป็น inspected a rental property",
+    "optionNotesTH": [
+     "ผิด ยังไม่ได้เซ็นสัญญา ผู้พูดยังขอใบสมัครอยู่",
+     "ผิด คนที่คุยกับเจ้าของคือผู้พูด ไม่ใช่คุณพาเทล",
+     "ผิด สิ่งที่เธอขอคือให้ทาสีผนังใหม่ ไม่ใช่ลดค่าเช่า",
+     "ถูก viewed the office space = ไปดูอสังหาฯ ให้เช่า"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker mean when he says, \"March first won't be a problem\"?",
+    "options": [
+     "The office will be ready in time",
+     "The rent will stay the same in March",
+     "The owner is available to meet that day",
+     "The tenant will leave in March"
+    ],
+    "answer": 0,
+    "evidence": [
+     "the current tenant will be moving out at the end of January",
+     "your company needs to move in by the first of March"
+    ],
+    "explanationTH": "คุณพาเทลต้องย้ายเข้าภายในวันที่หนึ่งมีนาคม และผู้เช่าปัจจุบันจะย้ายออกปลายเดือนมกราคม ประโยคนี้จึงหมายความว่าสำนักงานจะพร้อมทันเวลาที่ต้องการ ตอบ A",
+    "optionNotesTH": [
+     "ถูก ผู้เช่าเดิมออกปลายมกราคม จึงทันกำหนดวันที่หนึ่งมีนาคม",
+     "ผิด ไม่มีการพูดถึงค่าเช่า",
+     "ผิด ไม่ได้นัดพบเจ้าของ",
+     "ผิด ผู้เช่าออกปลายเดือนมกราคม ไม่ใช่มีนาคม"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why does the speaker ask for an application by Friday?",
+    "options": [
+     "The owner will be away next week",
+     "Another business wants the space",
+     "The walls will be repainted then",
+     "The current tenant is leaving early"
+    ],
+    "answer": 1,
+    "evidence": [
+     "Another company has also shown interest in the space, so if you'd like it, I'll need your signed application by Friday."
+    ],
+    "explanationTH": "ผู้พูดบอกว่ามีบริษัทอื่นสนใจพื้นที่นี้ด้วย จึงต้องได้ใบสมัครภายในวันศุกร์ คำว่า so เป็นสัญญาณบอกเหตุและผล ตอบ B",
+    "optionNotesTH": [
+     "ผิด ไม่มีการพูดว่าเจ้าของจะไม่อยู่",
+     "ถูก another company has shown interest = ธุรกิจอื่นต้องการพื้นที่",
+     "ผิด การทาสีจะทำก่อนย้ายเข้า ไม่เกี่ยวกับกำหนดวันศุกร์",
+     "ผิด ไม่ได้บอกว่าผู้เช่าออกก่อนกำหนด และไม่ใช่เหตุผลของกำหนดวันศุกร์"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีครับคุณพาเทล ผมจอร์แดน เรเยส จากเลกวิว พร็อพเพอร์ตี้ แมเนจเมนต์ ผมโทรมาเรื่องพื้นที่สำนักงานบนถนนบรูกที่คุณไปดูเมื่อวันพฤหัสบดีที่แล้ว คุณบอกไว้ว่าบริษัทของคุณต้องย้ายเข้าภายในวันที่หนึ่งมีนาคม",
+   "ผมคุยกับเจ้าของเมื่อเช้านี้แล้ว ผู้เช่าปัจจุบันจะย้ายออกปลายเดือนมกราคม ดังนั้นวันที่หนึ่งมีนาคมไม่มีปัญหาครับ เจ้าของยังตกลงจะทาสีผนังใหม่ก่อนคุณย้ายเข้าตามที่คุณขอไว้ด้วย",
+   "แต่มีเรื่องหนึ่งครับ มีอีกบริษัทหนึ่งสนใจพื้นที่นี้เหมือนกัน ถ้าคุณต้องการ ผมต้องได้ใบสมัครที่เซ็นแล้วภายในวันศุกร์ ผมจะอีเมลแบบฟอร์มไปให้บ่ายนี้ ถ้ามีคำถามโทรหาผมได้เลยครับ"
+  ],
+  "tipTH": "ข้อความเสียงมักขึ้นต้นด้วยชื่อผู้โทรและจุดประสงค์ แล้วตามด้วยข่าวดีและเงื่อนไข ให้จับคำว่า though หรือ so เพราะมักนำไปสู่เหตุผลหรือสิ่งที่ผู้ฟังต้องทำ",
+  "vocabulary": [
+   {
+    "word": "tenant",
+    "pos": "noun",
+    "th": "ผู้เช่า"
+   },
+   {
+    "word": "property management",
+    "pos": "noun",
+    "th": "การบริหารอสังหาริมทรัพย์"
+   },
+   {
+    "word": "repaint",
+    "pos": "verb",
+    "th": "ทาสีใหม่"
+   },
+   {
+    "word": "show interest",
+    "pos": "phrase",
+    "th": "แสดงความสนใจ"
+   }
+  ]
+ },
+ {
+  "id": "T2-06",
+  "part": 4,
+  "talkType": "speech",
+  "topic": "events",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Good evening, everyone. I'm honored to accept this year's Community Partner Award on behalf of Greenleaf Foods. When we opened our first little grocery store twelve years ago, we never imagined we'd be standing on a stage like this one."
+   },
+   {
+    "speaker": "W",
+    "text": "But this award really belongs to our staff. Three years ago, a group of our cashiers suggested donating unsold fruit and vegetables to local food banks instead of throwing them away. Management wasn't sure it would work. The paperwork alone seemed overwhelming. Well, last year we donated over forty tons of food."
+   },
+   {
+    "speaker": "W",
+    "text": "Tonight, I'd especially like to thank Marcus Lee, who has coordinated the program from the very beginning. Next month, Marcus is transferring to our new store in Fairview, where he'll set up the same program. Marcus, would you please come up and join me?"
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What does the speaker say about Greenleaf Foods?",
+    "options": [
+     "It started as a single small shop",
+     "It recently opened its first location",
+     "It has received this award before",
+     "It was founded by a group of cashiers"
+    ],
+    "answer": 0,
+    "evidence": [
+     "When we opened our first little grocery store twelve years ago"
+    ],
+    "explanationTH": "ผู้พูดเล่าว่าเมื่อสิบสองปีก่อนบริษัทเปิดร้านขายของชำเล็ก ๆ ร้านแรก ซึ่งตรงกับ A ที่ว่าเริ่มต้นจากร้านเล็ก ๆ ร้านเดียว",
+    "optionNotesTH": [
+     "ถูก first little grocery store = ร้านเล็กร้านเดียวในตอนเริ่มต้น",
+     "ผิด ร้านแรกเปิดเมื่อสิบสองปีก่อน ไม่ใช่เร็ว ๆ นี้",
+     "ผิด ผู้พูดบอกว่าไม่เคยคิดว่าจะได้ขึ้นเวทีแบบนี้ จึงไม่น่าเคยได้รางวัลนี้",
+     "ผิด แคชเชียร์เป็นผู้เสนอโครงการบริจาค ไม่ใช่ผู้ก่อตั้งบริษัท"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "Why does the speaker say, \"Well, last year we donated over forty tons of food\"?",
+    "options": [
+     "To complain about the amount of paperwork",
+     "To ask the audience for more donations",
+     "To explain why the program will end",
+     "To show that early doubts were proven wrong"
+    ],
+    "answer": 3,
+    "evidence": [
+     "Management wasn't sure it would work.",
+     "Well, last year we donated over forty tons of food."
+    ],
+    "explanationTH": "ก่อนหน้านั้นผู้พูดบอกว่าฝ่ายบริหารไม่แน่ใจว่าโครงการจะได้ผล แต่ปีที่แล้วบริจาคอาหารได้กว่าสี่สิบตัน จึงเป็นการแสดงว่าความไม่มั่นใจในตอนแรกนั้นผิด ตอบ D",
+    "optionNotesTH": [
+     "ผิด เอกสารถูกพูดถึงเป็นข้อกังวลเดิม แต่ประโยคนี้ไม่ได้บ่น",
+     "ผิด ไม่ได้ขอให้ผู้ฟังบริจาค",
+     "ผิด โครงการกำลังขยายไปสาขาใหม่ ไม่ได้จะยุติ",
+     "ถูก ผลลัพธ์ที่ดีพิสูจน์ว่าความสงสัยตอนแรกไม่ถูกต้อง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What will Marcus Lee do next month?",
+    "options": [
+     "Retire from the company",
+     "Receive a community award",
+     "Start a program at another store",
+     "Open a new food bank"
+    ],
+    "answer": 2,
+    "evidence": [
+     "Marcus is transferring to our new store in Fairview, where he'll set up the same program"
+    ],
+    "explanationTH": "เดือนหน้ามาร์คัสจะย้ายไปสาขาใหม่ที่แฟร์วิวและจะตั้งโครงการเดียวกันที่นั่น ตัวเลือก C ถอดความ set up the same program เป็น start a program",
+    "optionNotesTH": [
+     "ผิด เขาย้ายสาขา ไม่ได้เกษียณ",
+     "ผิด ผู้รับรางวัลคือผู้พูดในนามบริษัท",
+     "ถูก set up the same program at the new store",
+     "ผิด food bank คือผู้รับบริจาค มาร์คัสไม่ได้จะเปิดเอง"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนค่ำค่ะทุกท่าน ดิฉันรู้สึกเป็นเกียรติที่ได้รับรางวัลพันธมิตรชุมชนประจำปีนี้ในนามของกรีนลีฟ ฟู้ดส์ เมื่อเราเปิดร้านขายของชำเล็ก ๆ ร้านแรกเมื่อสิบสองปีก่อน เราไม่เคยคิดเลยว่าจะได้มายืนบนเวทีแบบนี้",
+   "แต่รางวัลนี้เป็นของพนักงานของเราจริง ๆ เมื่อสามปีก่อน แคชเชียร์กลุ่มหนึ่งเสนอให้บริจาคผักและผลไม้ที่ขายไม่หมดให้ธนาคารอาหารในท้องถิ่นแทนที่จะทิ้งไป ฝ่ายบริหารไม่แน่ใจว่าจะได้ผล แค่งานเอกสารก็ดูล้นมือแล้ว แต่ปีที่แล้วเราบริจาคอาหารไปกว่าสี่สิบตัน",
+   "คืนนี้ดิฉันขอขอบคุณเป็นพิเศษคุณมาร์คัส ลี ผู้ประสานงานโครงการนี้มาตั้งแต่เริ่มต้น เดือนหน้ามาร์คัสจะย้ายไปประจำสาขาใหม่ที่แฟร์วิว ซึ่งเขาจะตั้งโครงการเดียวกันขึ้นที่นั่น มาร์คัส ช่วยขึ้นมาบนเวทีกับดิฉันหน่อยได้ไหมคะ"
+  ],
+  "tipTH": "คำว่า Well หรือ But ในสุนทรพจน์มักใช้หักมุมจากความกังวลไปสู่ผลลัพธ์ ข้อ intent ให้เทียบประโยคที่ถูกอ้างกับประโยคก่อนหน้าว่าขัดแย้งหรือยืนยันกัน",
+  "vocabulary": [
+   {
+    "word": "on behalf of",
+    "pos": "phrase",
+    "th": "ในนามของ"
+   },
+   {
+    "word": "food bank",
+    "pos": "noun",
+    "th": "ธนาคารอาหาร องค์กรรับบริจาคอาหาร"
+   },
+   {
+    "word": "overwhelming",
+    "pos": "adjective",
+    "th": "มากจนรับมือไม่ไหว"
+   },
+   {
+    "word": "coordinate",
+    "pos": "verb",
+    "th": "ประสานงาน"
+   }
+  ]
+ },
+ {
+  "id": "T2-07",
+  "part": 4,
+  "talkType": "advertisement",
+  "topic": "dining",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Planning a company lunch, a training day, or an office party? Let Sunny Table Catering take care of the food. For over ten years, we've been delivering fresh, homemade meals to businesses all over the Danford area."
+   },
+   {
+    "speaker": "M",
+    "text": "Choose from more than fifty dishes, including vegetarian and gluten-free options. Every order comes with plates, napkins, and serving spoons, so you don't have to worry about a thing. Our drivers will even set everything up for you."
+   },
+   {
+    "speaker": "M",
+    "text": "This month only, first-time customers get fifteen percent off any order over $200. To see our full menu and place an order, visit sunnytablecatering dot com today."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mainIdea",
+    "stem": "What is being advertised?",
+    "options": [
+     "A restaurant chain",
+     "A catering company",
+     "A cooking class",
+     "An office supply store"
+    ],
+    "answer": 1,
+    "evidence": [
+     "Let Sunny Table Catering take care of the food.",
+     "we've been delivering fresh, homemade meals to businesses"
+    ],
+    "explanationTH": "โฆษณานี้เสนอบริการจัดเตรียมและส่งอาหารสำหรับงานของบริษัท ชื่อธุรกิจก็มีคำว่า Catering จึงตอบ B",
+    "optionNotesTH": [
+     "ผิด เป็นการส่งอาหารถึงที่ ไม่ใช่เครือร้านอาหาร",
+     "ถูก บริการจัดเลี้ยง ส่งอาหารให้บริษัท",
+     "ผิด ไม่ได้สอนทำอาหาร",
+     "ผิด office ได้ยินในบทพูด แต่ไม่ได้ขายอุปกรณ์สำนักงาน"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What is included with every order?",
+    "options": [
+     "Items for serving and eating",
+     "A free dessert",
+     "Delivery within one hour",
+     "A printed menu"
+    ],
+    "answer": 0,
+    "evidence": [
+     "Every order comes with plates, napkins, and serving spoons"
+    ],
+    "explanationTH": "ทุกคำสั่งซื้อมาพร้อมจาน ผ้าเช็ดปาก และช้อนตัก ซึ่งตัวเลือก A รวมเรียกว่าอุปกรณ์สำหรับเสิร์ฟและรับประทาน",
+    "optionNotesTH": [
+     "ถูก plates, napkins, serving spoons = ของใช้สำหรับเสิร์ฟและกิน",
+     "ผิด ไม่มีการพูดถึงของหวานฟรี",
+     "ผิด มีบริการส่ง แต่ไม่ได้รับประกันภายในหนึ่งชั่วโมง",
+     "ผิด เมนูดูได้บนเว็บไซต์ ไม่ได้แนบเมนูพิมพ์มา"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "How can new customers get a discount?",
+    "options": [
+     "By ordering vegetarian dishes",
+     "By ordering ten days in advance",
+     "By referring a friend",
+     "By spending more than a certain amount"
+    ],
+    "answer": 3,
+    "evidence": [
+     "first-time customers get fifteen percent off any order over $200"
+    ],
+    "explanationTH": "ลูกค้าใหม่จะได้ส่วนลดสิบห้าเปอร์เซ็นต์เมื่อสั่งเกิน 200 ดอลลาร์ ตัวเลือก D ถอดความเป็นการใช้จ่ายเกินจำนวนที่กำหนด",
+    "optionNotesTH": [
+     "ผิด เมนูมังสวิรัติเป็นตัวเลือกอาหาร ไม่เกี่ยวกับส่วนลด",
+     "ผิด ten ได้ยินจาก ten years ไม่ใช่สั่งล่วงหน้าสิบวัน",
+     "ผิด ไม่มีการพูดถึงการแนะนำเพื่อน",
+     "ถูก any order over $200 = ใช้จ่ายเกินยอดที่กำหนด"
+    ]
+   }
+  ],
+  "translationTH": [
+   "กำลังวางแผนจัดมื้อกลางวันของบริษัท วันฝึกอบรม หรืองานเลี้ยงในออฟฟิศอยู่หรือเปล่าครับ ให้ซันนี่ เทเบิล เคเทอริง ดูแลเรื่องอาหารให้คุณ ตลอดกว่าสิบปีที่ผ่านมา เราส่งอาหารสดใหม่แบบโฮมเมดให้ธุรกิจทั่วพื้นที่แดนฟอร์ด",
+   "เลือกได้จากอาหารกว่าห้าสิบรายการ รวมถึงเมนูมังสวิรัติและปลอดกลูเตน ทุกคำสั่งซื้อมาพร้อมจาน ผ้าเช็ดปาก และช้อนตักอาหาร คุณจึงไม่ต้องกังวลเรื่องใดเลย พนักงานส่งของเรายังจัดเตรียมทุกอย่างให้คุณด้วย",
+   "เฉพาะเดือนนี้เท่านั้น ลูกค้าใหม่รับส่วนลดสิบห้าเปอร์เซ็นต์สำหรับคำสั่งซื้อที่เกิน 200 ดอลลาร์ ดูเมนูทั้งหมดและสั่งอาหารได้ที่ sunnytablecatering ดอทคอม วันนี้เลย"
+  ],
+  "tipTH": "โฆษณามักมีลำดับ สินค้าหรือบริการ → จุดเด่น → โปรโมชันและวิธีติดต่อ ให้ระวังตัวลวงที่ใช้ตัวเลขจากส่วนอื่น เช่น ten years กลายเป็น ten days",
+  "vocabulary": [
+   {
+    "word": "catering",
+    "pos": "noun",
+    "th": "บริการจัดเลี้ยงอาหาร"
+   },
+   {
+    "word": "vegetarian",
+    "pos": "adjective",
+    "th": "มังสวิรัติ"
+   },
+   {
+    "word": "first-time customer",
+    "pos": "noun",
+    "th": "ลูกค้าใหม่ที่ใช้บริการครั้งแรก"
+   },
+   {
+    "word": "set up",
+    "pos": "phrase",
+    "th": "จัดเตรียม ติดตั้ง"
+   }
+  ]
+ },
+ {
+  "id": "T2-08",
+  "part": 4,
+  "talkType": "broadcast",
+  "topic": "events",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "You're listening to Harbor City Radio, and this is Grace Kim with your community update. Organizers of the Harbor Food Festival have announced a change to this weekend's plans. Because of the storm expected to hit the coast, the festival will not open on Saturday as planned. Instead, it will be held the following day at the same location, Pier Seven Park."
+   },
+   {
+    "speaker": "W",
+    "text": "Organizers say more than sixty food vendors have confirmed they can still take part. However, the cooking demonstration by chef Antonio Ruiz has been canceled, since he has another commitment that day. Tickets already purchased will be accepted on the new date, so there's no need to exchange them."
+   },
+   {
+    "speaker": "W",
+    "text": "If you can't make it, refunds are available through the festival's Web site until Thursday. And speaking of that storm, stay tuned. Our meteorologist, Ben Ford, will join me after these messages to tell you exactly what to expect."
+   }
+  ],
+  "graphic": {
+   "title": "Harbor City Weekend Forecast",
+   "table": "| Day | Forecast | High |\n| Friday | Sunny | 24°C |\n| Saturday | Stormy | 17°C |\n| Sunday | Cloudy | 20°C |\n| Monday | Sunny | 23°C |"
+  },
+  "questions": [
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. What is the expected high temperature on the day of the festival?",
+    "options": [
+     "24°C",
+     "17°C",
+     "20°C",
+     "23°C"
+    ],
+    "answer": 2,
+    "evidence": [
+     "the festival will not open on Saturday as planned",
+     "it will be held the following day",
+     "| Sunday | Cloudy | 20°C |"
+    ],
+    "explanationTH": "เทศกาลเลื่อนจากวันเสาร์ไปเป็นวันถัดไปคือวันอาทิตย์ ในตารางพยากรณ์ วันอาทิตย์มีอุณหภูมิสูงสุด 20 องศา จึงตอบ C",
+    "optionNotesTH": [
+     "ผิด 24 องศาคือวันศุกร์",
+     "ผิด 17 องศาคือวันเสาร์ ซึ่งเป็นวันเดิมที่ถูกยกเลิก",
+     "ถูก วันถัดจากวันเสาร์คือวันอาทิตย์ 20 องศา",
+     "ผิด 23 องศาคือวันจันทร์"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why has the cooking demonstration been canceled?",
+    "options": [
+     "The chef has a scheduling conflict",
+     "A storm is expected",
+     "Not enough tickets were sold",
+     "Some vendors cannot attend"
+    ],
+    "answer": 0,
+    "evidence": [
+     "the cooking demonstration by chef Antonio Ruiz has been canceled, since he has another commitment that day"
+    ],
+    "explanationTH": "การสาธิตทำอาหารถูกยกเลิกเพราะเชฟมีภารกิจอื่นในวันนั้น (another commitment) ซึ่งก็คือตารางเวลาชนกัน ตอบ A ตัวเลือก B เป็นกับดักเพราะพายุเป็นเหตุผลของการเลื่อนเทศกาล ไม่ใช่การยกเลิกการสาธิต",
+    "optionNotesTH": [
+     "ถูก another commitment = ตารางเวลาชนกัน",
+     "ผิด พายุเป็นเหตุผลที่เทศกาลเลื่อน ไม่ใช่เหตุที่ยกเลิกการสาธิต",
+     "ผิด ไม่มีการพูดถึงยอดขายตั๋ว",
+     "ผิด ผู้ขายกว่าหกสิบรายยืนยันว่ายังมาร่วมได้"
+    ]
+   },
+   {
+    "type": "nextAction",
+    "stem": "What will Ben Ford most likely do?",
+    "options": [
+     "Explain the refund process",
+     "Discuss the weather in detail",
+     "Interview a famous chef",
+     "Announce the festival vendors"
+    ],
+    "answer": 1,
+    "evidence": [
+     "Our meteorologist, Ben Ford, will join me after these messages to tell you exactly what to expect."
+    ],
+    "explanationTH": "เบน ฟอร์ดเป็นนักอุตุนิยมวิทยา และจะมาบอกรายละเอียดว่าพายุจะเป็นอย่างไร จึงน่าจะรายงานสภาพอากาศอย่างละเอียด ตอบ B",
+    "optionNotesTH": [
+     "ผิด เรื่องการคืนเงินผู้พูดอธิบายไปแล้ว",
+     "ถูก meteorologist จะอธิบายเรื่องพายุอย่างละเอียด",
+     "ผิด เชฟถูกพูดถึงแต่ไม่มีการสัมภาษณ์",
+     "ผิด ข้อมูลผู้ขายอาหารประกาศไปแล้ว"
+    ]
+   }
+  ],
+  "translationTH": [
+   "คุณกำลังรับฟังฮาร์เบอร์ซิตี้เรดิโอ ดิฉันเกรซ คิม กับข่าวสารชุมชน ผู้จัดงานเทศกาลอาหารฮาร์เบอร์ประกาศเปลี่ยนแผนสำหรับสุดสัปดาห์นี้ เนื่องจากคาดว่าพายุจะพัดเข้าชายฝั่ง เทศกาลจะไม่เปิดในวันเสาร์ตามกำหนดเดิม แต่จะจัดในวันถัดไปที่สถานที่เดิม คือสวนสาธารณะพียร์เซเวน",
+   "ผู้จัดงานบอกว่าผู้ขายอาหารกว่าหกสิบรายยืนยันว่ายังเข้าร่วมได้ อย่างไรก็ตาม การสาธิตทำอาหารของเชฟอันโตนิโอ รุยซ์ ถูกยกเลิก เพราะเขามีภารกิจอื่นในวันนั้น ตั๋วที่ซื้อไว้แล้วใช้ได้ในวันใหม่ จึงไม่จำเป็นต้องเปลี่ยนตั๋ว",
+   "หากคุณมาไม่ได้ สามารถขอคืนเงินผ่านเว็บไซต์ของเทศกาลได้จนถึงวันพฤหัสบดี และพูดถึงพายุแล้ว อย่าเพิ่งไปไหน นักอุตุนิยมวิทยาของเรา เบน ฟอร์ด จะมาร่วมรายการกับดิฉันหลังช่วงโฆษณา เพื่อบอกคุณว่าจะต้องเจอกับอะไรบ้าง"
+  ],
+  "tipTH": "เมื่อผู้พูดไม่ระบุวันตรง ๆ แต่ใช้คำอย่าง the following day ให้คำนวณจากวันที่ได้ยินก่อน แล้วค่อยอ่านค่าในตาราง และระวังตัวลวงที่ใช้เหตุผลของอีกเหตุการณ์หนึ่ง",
+  "vocabulary": [
+   {
+    "word": "vendor",
+    "pos": "noun",
+    "th": "ผู้ขาย ร้านค้า"
+   },
+   {
+    "word": "commitment",
+    "pos": "noun",
+    "th": "ภารกิจหรือนัดที่รับปากไว้"
+   },
+   {
+    "word": "refund",
+    "pos": "noun",
+    "th": "การคืนเงิน"
+   },
+   {
+    "word": "meteorologist",
+    "pos": "noun",
+    "th": "นักอุตุนิยมวิทยา"
+   },
+   {
+    "word": "stay tuned",
+    "pos": "phrase",
+    "th": "ติดตามรับฟังต่อ"
+   }
+  ]
+ },
+ {
+  "id": "T2-09",
+  "part": 4,
+  "talkType": "news",
+  "topic": "manufacturing",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "In local business news, Corwin Automotive Parts says it will expand its factory in Millbrook rather than build a new plant overseas, as many analysts had predicted. Chief executive Linda Shaw told reporters that keeping production close to the company's main customers would cut shipping times and costs."
+   },
+   {
+    "speaker": "M",
+    "text": "The expansion will add a second assembly line and is expected to double the plant's output by the end of next year. Construction is scheduled to begin in April. However, some nearby residents have raised concerns about more trucks on Route 4, which already gets crowded during the morning rush."
+   },
+   {
+    "speaker": "M",
+    "text": "In response, Corwin has agreed to build a new access road connecting the factory directly to the highway. A public meeting on the road's design will be held at Millbrook City Hall on May third. Residents who can't attend may submit their comments online."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What had analysts expected Corwin Automotive Parts to do?",
+    "options": [
+     "Close its Millbrook factory",
+     "Build a facility in another country",
+     "Hire a new chief executive",
+     "Reduce its shipping costs"
+    ],
+    "answer": 1,
+    "evidence": [
+     "rather than build a new plant overseas, as many analysts had predicted"
+    ],
+    "explanationTH": "นักวิเคราะห์คาดว่าบริษัทจะสร้างโรงงานใหม่ในต่างประเทศ (overseas) แต่บริษัทเลือกขยายโรงงานเดิมแทน ตัวเลือก B ถอดความ overseas เป็น in another country",
+    "optionNotesTH": [
+     "ผิด ไม่มีใครคาดว่าจะปิดโรงงาน บริษัทกำลังขยายโรงงานนี้",
+     "ถูก build a new plant overseas = สร้างโรงงานในต่างประเทศ",
+     "ผิด ลินดา ชอว์ เป็นผู้บริหารอยู่แล้ว ไม่มีการพูดถึงการจ้างคนใหม่",
+     "ผิด การลดค่าขนส่งเป็นเหตุผลของซีอีโอ ไม่ใช่สิ่งที่นักวิเคราะห์คาดการณ์"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What concern have some residents raised?",
+    "options": [
+     "Noise from construction work",
+     "The loss of local jobs",
+     "Pollution from the factory",
+     "Heavier traffic on a local road"
+    ],
+    "answer": 3,
+    "evidence": [
+     "some nearby residents have raised concerns about more trucks on Route 4, which already gets crowded during the morning rush"
+    ],
+    "explanationTH": "ชาวบ้านกังวลว่าจะมีรถบรรทุกบนถนนหมายเลข 4 มากขึ้น ซึ่งรถติดอยู่แล้วช่วงเช้า ตัวเลือก D ถอดความเป็นการจราจรหนาแน่นขึ้นบนถนนในพื้นที่",
+    "optionNotesTH": [
+     "ผิด มีการพูดถึงการก่อสร้าง แต่ไม่ได้กังวลเรื่องเสียงดัง",
+     "ผิด ไม่มีการพูดถึงการเสียงานในพื้นที่",
+     "ผิด ไม่มีการพูดถึงมลพิษ",
+     "ถูก more trucks on Route 4 = การจราจรหนาแน่นขึ้น"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "According to the speaker, what will happen on May third?",
+    "options": [
+     "Construction will begin",
+     "A second assembly line will open",
+     "Residents can give input on a road plan",
+     "The deadline for online comments will pass"
+    ],
+    "answer": 2,
+    "evidence": [
+     "A public meeting on the road's design will be held at Millbrook City Hall on May third."
+    ],
+    "explanationTH": "วันที่สามพฤษภาคมจะมีการประชุมสาธารณะเรื่องการออกแบบถนน ซึ่งเป็นโอกาสให้ประชาชนแสดงความคิดเห็น ตอบ C",
+    "optionNotesTH": [
+     "ผิด การก่อสร้างเริ่มในเดือนเมษายน",
+     "ผิด สายการผลิตที่สองคาดว่าจะเสร็จปลายปีหน้า",
+     "ถูก public meeting on the road's design = ให้ความเห็นต่อแผนถนน",
+     "ผิด ส่งความเห็นออนไลน์ได้ แต่ไม่ได้บอกกำหนดเส้นตาย"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ข่าวธุรกิจท้องถิ่น คอร์วิน ออโตโมทีฟ พาร์ตส์ ระบุว่าจะขยายโรงงานในมิลล์บรูกแทนที่จะสร้างโรงงานใหม่ในต่างประเทศอย่างที่นักวิเคราะห์หลายคนคาดการณ์ไว้ ลินดา ชอว์ ประธานเจ้าหน้าที่บริหาร บอกผู้สื่อข่าวว่าการผลิตใกล้ลูกค้าหลักจะช่วยลดเวลาและค่าใช้จ่ายในการขนส่ง",
+   "การขยายครั้งนี้จะเพิ่มสายการประกอบสายที่สอง และคาดว่าจะทำให้กำลังการผลิตของโรงงานเพิ่มเป็นสองเท่าภายในปลายปีหน้า การก่อสร้างมีกำหนดเริ่มในเดือนเมษายน อย่างไรก็ตาม ผู้อยู่อาศัยใกล้เคียงบางส่วนแสดงความกังวลเรื่องรถบรรทุกที่จะเพิ่มขึ้นบนถนนหมายเลข 4 ซึ่งรถติดอยู่แล้วในชั่วโมงเร่งด่วนตอนเช้า",
+   "เพื่อตอบสนองต่อเรื่องนี้ คอร์วินตกลงจะสร้างถนนทางเข้าสายใหม่ที่เชื่อมโรงงานกับทางหลวงโดยตรง การประชุมสาธารณะเกี่ยวกับการออกแบบถนนจะจัดขึ้นที่ศาลาว่าการเมืองมิลล์บรูกในวันที่สามพฤษภาคม ผู้ที่ไม่สามารถเข้าร่วมได้สามารถส่งความคิดเห็นทางออนไลน์"
+  ],
+  "tipTH": "ข่าวที่มีหลายวันที่และตัวเลข (April, next year, May third) ให้จดคู่ เวลา กับ เหตุการณ์ ไว้ในใจ เพราะตัวลวงมักนำเหตุการณ์จากวันอื่นมาใส่",
+  "vocabulary": [
+   {
+    "word": "expand",
+    "pos": "verb",
+    "th": "ขยาย"
+   },
+   {
+    "word": "overseas",
+    "pos": "adverb",
+    "th": "ในต่างประเทศ"
+   },
+   {
+    "word": "assembly line",
+    "pos": "noun",
+    "th": "สายการประกอบ"
+   },
+   {
+    "word": "output",
+    "pos": "noun",
+    "th": "ผลผลิต กำลังการผลิต"
+   },
+   {
+    "word": "access road",
+    "pos": "noun",
+    "th": "ถนนทางเข้า"
+   }
+  ],
+  "group": "p4g2"
+ },
+ {
+  "id": "T2-10",
+  "part": 4,
+  "talkType": "announcement",
+  "topic": "travel",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Good afternoon, passengers. This is an announcement for those traveling on the two fifteen express train to Port Ellison. Due to a signal problem near Ashford, this train will depart approximately forty minutes late. We apologize for the inconvenience."
+   },
+   {
+    "speaker": "W",
+    "text": "Passengers who would prefer not to wait may take the two thirty local train instead. Please note that the local train makes eight additional stops along the way. Your express ticket is valid on either train."
+   },
+   {
+    "speaker": "W",
+    "text": "While you wait, complimentary coffee and tea are available at the Station Café on Platform Two. Simply show your express ticket at the counter. We'll provide further updates as soon as we receive them."
+   }
+  ],
+  "questions": [
+   {
+    "type": "reason",
+    "stem": "Why is the express train delayed?",
+    "options": [
+     "There is a technical problem",
+     "The weather is bad",
+     "A crew member is late",
+     "Track construction is under way"
+    ],
+    "answer": 0,
+    "evidence": [
+     "Due to a signal problem near Ashford, this train will depart approximately forty minutes late."
+    ],
+    "explanationTH": "รถไฟล่าช้าเพราะปัญหาระบบสัญญาณ (signal problem) ซึ่งเป็นปัญหาทางเทคนิค ตอบ A",
+    "optionNotesTH": [
+     "ถูก signal problem = ปัญหาทางเทคนิค",
+     "ผิด ไม่มีการพูดถึงสภาพอากาศ",
+     "ผิด ไม่มีการพูดถึงพนักงานมาสาย",
+     "ผิด ปัญหาคือระบบสัญญาณ ไม่ใช่งานก่อสร้างราง"
+    ]
+   },
+   {
+    "type": "inference",
+    "stem": "What does the speaker imply about the local train?",
+    "options": [
+     "It costs more than the express",
+     "Its trip takes more time",
+     "It requires a new ticket",
+     "It leaves from Platform Two"
+    ],
+    "answer": 1,
+    "evidence": [
+     "the local train makes eight additional stops along the way"
+    ],
+    "explanationTH": "รถไฟธรรมดาจอดเพิ่มอีกแปดสถานี จึงสื่อเป็นนัยว่าใช้เวลาเดินทางนานกว่า ตอบ B",
+    "optionNotesTH": [
+     "ผิด ไม่มีการพูดถึงราคา",
+     "ถูก จอดเพิ่มแปดสถานีจึงใช้เวลาเดินทางนานกว่า",
+     "ผิด ตั๋วด่วนใช้ได้กับทั้งสองขบวน",
+     "ผิด ชานชาลาที่สองคือที่ตั้งคาเฟ่ ไม่ใช่ชานชาลาของรถไฟธรรมดา"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What can passengers receive at the café?",
+    "options": [
+     "A discount on meals",
+     "Updated train schedules",
+     "A ticket refund",
+     "Free hot drinks"
+    ],
+    "answer": 3,
+    "evidence": [
+     "complimentary coffee and tea are available at the Station Café on Platform Two"
+    ],
+    "explanationTH": "ที่คาเฟ่มีกาแฟและชาให้ฟรี (complimentary) ตัวเลือก D ถอดความเป็นเครื่องดื่มร้อนฟรี",
+    "optionNotesTH": [
+     "ผิด เป็นเครื่องดื่มฟรี ไม่ใช่ส่วนลดอาหาร",
+     "ผิด ข้อมูลอัปเดตจะประกาศทางเสียงตามสาย ไม่ได้รับที่คาเฟ่",
+     "ผิด ต้องแสดงตั๋ว แต่ไม่มีการคืนเงิน",
+     "ถูก complimentary coffee and tea = เครื่องดื่มร้อนฟรี"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนบ่ายค่ะท่านผู้โดยสาร ประกาศนี้สำหรับผู้เดินทางด้วยรถไฟด่วนเวลาบ่ายสองโมงสิบห้านาทีไปพอร์ตเอลลิสัน เนื่องจากปัญหาระบบสัญญาณใกล้แอชฟอร์ด รถไฟขบวนนี้จะออกล่าช้าประมาณสี่สิบนาที ขออภัยในความไม่สะดวก",
+   "ผู้โดยสารที่ไม่ต้องการรอ สามารถขึ้นรถไฟธรรมดาเวลาบ่ายสองโมงครึ่งแทนได้ โปรดทราบว่ารถไฟธรรมดาจะจอดเพิ่มอีกแปดสถานีระหว่างทาง ตั๋วรถไฟด่วนของท่านใช้ได้กับทั้งสองขบวน",
+   "ระหว่างรอ มีกาแฟและชาให้บริการฟรีที่สเตชันคาเฟ่บนชานชาลาที่สอง เพียงแสดงตั๋วรถไฟด่วนที่เคาน์เตอร์ เราจะแจ้งข้อมูลเพิ่มเติมทันทีที่ได้รับ"
+  ],
+  "tipTH": "ประกาศที่สถานีมักบอก ปัญหา → สาเหตุ → ทางเลือก → บริการระหว่างรอ คำถาม imply ต้องคิดต่อจากข้อมูลที่ได้ยิน เช่น จอดเพิ่มหลายสถานี แปลว่าช้ากว่า",
+  "vocabulary": [
+   {
+    "word": "depart",
+    "pos": "verb",
+    "th": "ออกเดินทาง"
+   },
+   {
+    "word": "inconvenience",
+    "pos": "noun",
+    "th": "ความไม่สะดวก"
+   },
+   {
+    "word": "valid",
+    "pos": "adjective",
+    "th": "ใช้ได้ มีผล"
+   },
+   {
+    "word": "complimentary",
+    "pos": "adjective",
+    "th": "ฟรี ไม่คิดค่าบริการ"
+   }
+  ]
+ },
+ {
+  "id": "T3-01",
+  "part": 4,
+  "talkType": "meeting",
+  "topic": "manufacturing",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Good morning, everyone. Before we start the shift, I want to go over a change on the packaging line. As of Monday, we'll be switching from plastic wrap to recycled paper wrap for all our ceramic dinnerware. The paper costs a little more, but several of our biggest retail clients have asked for it, and we don't want to lose them."
+   },
+   {
+    "speaker": "M",
+    "text": "Now, I know the new wrapping machine only arrived yesterday, and most of you haven't touched it yet. That's why Helena from the supplier is coming in on Thursday afternoon to run a training session. It'll take about two hours. I realize Thursday is our busiest day. But it's the only day she's available."
+   },
+   {
+    "speaker": "M",
+    "text": "So here's what I'd like you to do. Please check the schedule posted by the break room and sign up for either the one o'clock or the three o'clock group. Supervisors, make sure your teams are covered while people are in training."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mainIdea",
+    "stem": "What change is the speaker announcing?",
+    "options": [
+     "A switch to a different packaging material",
+     "A new line of ceramic dinnerware",
+     "A reduction in shipping costs",
+     "An extension of the Monday shift"
+    ],
+    "answer": 0,
+    "evidence": [
+     "we'll be switching from plastic wrap to recycled paper wrap"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าตั้งแต่วันจันทร์จะเปลี่ยนจากพลาสติกห่อเป็นกระดาษรีไซเคิล ซึ่งก็คือการเปลี่ยนวัสดุบรรจุภัณฑ์ ข้อ A จึงถอดความได้ถูกต้อง",
+    "optionNotesTH": [
+     "ถูก: plastic wrap → recycled paper wrap คือเปลี่ยนวัสดุห่อ",
+     "ผิด: ceramic dinnerware เป็นสินค้าเดิม ไม่ใช่สินค้าใหม่",
+     "ผิด: กลับกัน กระดาษมีราคาแพงขึ้นเล็กน้อย",
+     "ผิด: Monday เป็นวันเริ่มเปลี่ยน ไม่ได้พูดถึงการขยายกะ"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "Why does the speaker say, \"But it's the only day she's available\"?",
+    "options": [
+     "To recommend that workers stay late",
+     "To explain why a busy day was chosen",
+     "To ask for a volunteer to replace the trainer",
+     "To complain about a supplier's service"
+    ],
+    "answer": 1,
+    "evidence": [
+     "I realize Thursday is our busiest day. But it's the only day she's available."
+    ],
+    "explanationTH": "ผู้พูดยอมรับก่อนว่าวันพฤหัสฯ เป็นวันที่งานยุ่งที่สุด แล้วจึงบอกว่าเป็นวันเดียวที่ผู้สอนว่าง เป็นการอธิบายเหตุผลที่ต้องเลือกวันที่ยุ่ง",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้ขอให้พนักงานอยู่ทำงานดึก",
+     "ถูก: อธิบายว่าทำไมต้องจัดอบรมในวันที่ยุ่งที่สุด",
+     "ผิด: ไม่ได้หาคนมาแทน Helena",
+     "ผิด: ไม่ได้ตำหนิผู้จำหน่าย แค่บอกข้อจำกัดเรื่องเวลา"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What are the listeners asked to do?",
+    "options": [
+     "Test the new machine on Monday",
+     "Contact the supplier directly",
+     "Register for a training time",
+     "Post a schedule in the break room"
+    ],
+    "answer": 2,
+    "evidence": [
+     "sign up for either the one o'clock or the three o'clock group"
+    ],
+    "explanationTH": "ผู้พูดขอให้ผู้ฟังดูตารางแล้วลงชื่อเข้ากลุ่มบ่ายโมงหรือบ่ายสามโมง ซึ่งก็คือลงทะเบียนเลือกรอบอบรม",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้ให้ทดลองเครื่องในวันจันทร์",
+     "ผิด: Helena จะมาเอง ไม่ต้องติดต่อผู้จำหน่าย",
+     "ถูก: sign up for a group = ลงทะเบียนรอบอบรม",
+     "ผิด: ตารางติดไว้แล้ว ผู้ฟังแค่ไปดู ไม่ได้ให้ติดประกาศ"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนเช้าทุกคน ก่อนเริ่มกะ ผมอยากชี้แจงเรื่องการเปลี่ยนแปลงในสายการบรรจุ ตั้งแต่วันจันทร์นี้ เราจะเปลี่ยนจากพลาสติกห่อเป็นกระดาษห่อรีไซเคิลสำหรับเครื่องใช้บนโต๊ะอาหารเซรามิกทั้งหมด กระดาษแพงกว่านิดหน่อย แต่ลูกค้าค้าปลีกรายใหญ่หลายรายขอมา และเราไม่อยากเสียพวกเขาไป",
+   "ผมรู้ว่าเครื่องห่อใหม่เพิ่งมาถึงเมื่อวาน และพวกคุณส่วนใหญ่ยังไม่เคยจับเลย เพราะฉะนั้น Helena จากบริษัทผู้จำหน่ายจะเข้ามาจัดอบรมในบ่ายวันพฤหัสบดี ใช้เวลาประมาณสองชั่วโมง ผมรู้ว่าวันพฤหัสฯ เป็นวันที่งานยุ่งที่สุดของเรา แต่มันเป็นวันเดียวที่เธอว่าง",
+   "ดังนั้นสิ่งที่ผมอยากให้ทำคือ ช่วยดูตารางที่ติดไว้ข้างห้องพัก แล้วลงชื่อเข้ากลุ่มบ่ายโมงหรือบ่ายสามโมงอย่างใดอย่างหนึ่ง หัวหน้างานช่วยดูให้แน่ใจว่ามีคนทำงานแทนระหว่างที่ทีมไปอบรม"
+  ],
+  "tipTH": "ประโยคที่ขึ้นต้นด้วย I realize ... But ... มักเป็นการยอมรับปัญหาแล้วให้เหตุผล คำถาม intent จึงมักถามถึงเหตุผลนั้น",
+  "vocabulary": [
+   {
+    "word": "packaging line",
+    "pos": "noun",
+    "th": "สายการบรรจุหีบห่อ"
+   },
+   {
+    "word": "recycled",
+    "pos": "adjective",
+    "th": "ที่นำกลับมาใช้ใหม่"
+   },
+   {
+    "word": "supplier",
+    "pos": "noun",
+    "th": "ผู้จำหน่าย, ซัพพลายเออร์"
+   },
+   {
+    "word": "sign up for",
+    "pos": "phrase",
+    "th": "ลงชื่อสมัคร"
+   }
+  ]
+ },
+ {
+  "id": "T3-02",
+  "part": 4,
+  "talkType": "tour",
+  "topic": "travel",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Welcome to Old Harbor Lighthouse, and thanks for joining the morning tour. My name is Priya, and I'll be your guide for the next forty-five minutes. The lighthouse was built in 1872, and it guided fishing boats into this harbor for more than a hundred years."
+   },
+   {
+    "speaker": "W",
+    "text": "We'll begin here in the keeper's cottage, where you can see the original furniture and logbooks. Then we'll climb the tower. There are one hundred and twelve steps, so take your time. At the top, you'll have a wonderful view of the coastline."
+   },
+   {
+    "speaker": "W",
+    "text": "One quick request before we start. Photographs are welcome everywhere, but please don't use a flash inside the cottage. The light can damage the old paper in the logbooks. All right, follow me, please."
+   }
+  ],
+  "questions": [
+   {
+    "type": "location",
+    "stem": "Where is the tour taking place?",
+    "options": [
+     "At a fishing company",
+     "At a furniture store",
+     "At a historic landmark on the coast",
+     "At a boat factory"
+    ],
+    "answer": 2,
+    "evidence": [
+     "Welcome to Old Harbor Lighthouse",
+     "The lighthouse was built in 1872"
+    ],
+    "explanationTH": "ผู้พูดกล่าวต้อนรับสู่ประภาคาร Old Harbor ที่สร้างตั้งแต่ปี 1872 จึงเป็นสถานที่ประวัติศาสตร์ริมชายฝั่ง",
+    "optionNotesTH": [
+     "ผิด: fishing boats เป็นเรือที่ประภาคารนำทาง ไม่ใช่บริษัทประมง",
+     "ผิด: furniture เป็นของในบ้านผู้ดูแล ไม่ใช่ร้านเฟอร์นิเจอร์",
+     "ถูก: ประภาคารเก่าแก่ริมทะเล = historic landmark on the coast",
+     "ผิด: ไม่ได้พูดถึงโรงงานต่อเรือ"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "According to the speaker, what can visitors see in the cottage?",
+    "options": [
+     "Original furniture and records",
+     "Photographs of fishing boats",
+     "A model of the coastline",
+     "Tools used to build the tower"
+    ],
+    "answer": 0,
+    "evidence": [
+     "you can see the original furniture and logbooks"
+    ],
+    "explanationTH": "ในบ้านผู้ดูแลประภาคารมีเฟอร์นิเจอร์ดั้งเดิมและสมุดบันทึก (logbooks) ซึ่งตรงกับ furniture and records",
+    "optionNotesTH": [
+     "ถูก: logbooks = records บันทึก",
+     "ผิด: ภาพถ่ายถูกพูดถึงในแง่อนุญาตให้ถ่าย ไม่ใช่สิ่งที่จัดแสดง",
+     "ผิด: coastline คือวิวที่เห็นจากยอดหอคอย ไม่ใช่โมเดล",
+     "ผิด: ไม่ได้พูดถึงเครื่องมือก่อสร้าง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What are the listeners asked not to do?",
+    "options": [
+     "Touch the original furniture",
+     "Take pictures from the top",
+     "Bring bags up the tower",
+     "Use a flash when taking photos indoors"
+    ],
+    "answer": 3,
+    "evidence": [
+     "please don't use a flash inside the cottage"
+    ],
+    "explanationTH": "ผู้พูดขอไม่ให้ใช้แฟลชภายในบ้านผู้ดูแล เพราะแสงอาจทำให้กระดาษเก่าเสียหาย ข้อ D จึงถูก",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้ห้ามจับเฟอร์นิเจอร์",
+     "ผิด: ถ่ายรูปได้ทุกที่ ห้ามเฉพาะแฟลชในบ้าน",
+     "ผิด: ไม่ได้พูดถึงกระเป๋า",
+     "ถูก: inside the cottage = indoors"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ยินดีต้อนรับสู่ประภาคาร Old Harbor และขอบคุณที่มาร่วมทัวร์รอบเช้า ฉันชื่อ Priya จะเป็นไกด์ของทุกท่านตลอดสี่สิบห้านาทีนี้ ประภาคารแห่งนี้สร้างในปี 1872 และนำทางเรือประมงเข้าสู่ท่าเรือนี้มานานกว่าร้อยปี",
+   "เราจะเริ่มกันที่บ้านของผู้ดูแลประภาคาร ซึ่งทุกท่านจะได้เห็นเฟอร์นิเจอร์และสมุดบันทึกดั้งเดิม จากนั้นเราจะขึ้นหอคอย มีทั้งหมดหนึ่งร้อยสิบสองขั้น ค่อย ๆ ขึ้นไปนะคะ เมื่อถึงยอด ทุกท่านจะได้ชมวิวชายฝั่งที่สวยงาม",
+   "มีคำขอสั้น ๆ หนึ่งข้อก่อนเริ่ม ถ่ายรูปได้ทุกที่ แต่กรุณาอย่าใช้แฟลชภายในบ้านผู้ดูแล เพราะแสงอาจทำให้กระดาษเก่าในสมุดบันทึกเสียหาย เอาล่ะ เชิญตามฉันมาเลยค่ะ"
+  ],
+  "tipTH": "ในบทนำทัวร์ คำขอหรือข้อห้ามมักตามหลังวลี One quick request หรือ please don't ให้ฟังส่วนนี้ให้ดี",
+  "vocabulary": [
+   {
+    "word": "lighthouse",
+    "pos": "noun",
+    "th": "ประภาคาร"
+   },
+   {
+    "word": "logbook",
+    "pos": "noun",
+    "th": "สมุดบันทึกประจำวัน"
+   },
+   {
+    "word": "coastline",
+    "pos": "noun",
+    "th": "แนวชายฝั่ง"
+   },
+   {
+    "word": "damage",
+    "pos": "verb",
+    "th": "ทำให้เสียหาย"
+   }
+  ]
+ },
+ {
+  "id": "T3-03",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "realEstate",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Hi, Ms. Okafor, this is Daniel Reyes calling from Brightway Property Management. I'm returning your call about the two-bedroom apartment on Linden Street. You asked whether it's still available for a move-in date of June first. Well, another applicant submitted paperwork this morning. They haven't paid the deposit yet, though."
+   },
+   {
+    "speaker": "M",
+    "text": "If you're still interested, I'd recommend coming to see the unit as soon as possible. I'm showing it tomorrow at ten thirty and again at four. Also, you mentioned you have a small dog. The building does allow pets, but there's a one-time cleaning fee of $200."
+   },
+   {
+    "speaker": "M",
+    "text": "Please call me back at 555-0148 to let me know which time works for you. And bring a copy of a recent pay slip when you come, so we can start your application right away."
+   }
+  ],
+  "questions": [
+   {
+    "type": "intent",
+    "stem": "Why does the speaker say, \"They haven't paid the deposit yet, though\"?",
+    "options": [
+     "To request that the listener pay a deposit",
+     "To complain about a delay in paperwork",
+     "To explain why the move-in date changed",
+     "To suggest the apartment may still be available"
+    ],
+    "answer": 3,
+    "evidence": [
+     "another applicant submitted paperwork this morning. They haven't paid the deposit yet, though."
+    ],
+    "explanationTH": "หลังบอกว่ามีผู้สมัครอีกคนยื่นเอกสารแล้ว ผู้พูดเสริมว่าคนนั้นยังไม่ได้จ่ายเงินมัดจำ แปลว่าห้องยังไม่ได้ถูกจองแน่นอน ผู้ฟังยังมีโอกาสอยู่",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้ขอให้ผู้ฟังจ่ายมัดจำ คนที่ยังไม่จ่ายคือผู้สมัครอีกคน",
+     "ผิด: ไม่ได้บ่นเรื่องความล่าช้า",
+     "ผิด: วันย้ายเข้า June first ไม่ได้เปลี่ยน",
+     "ถูก: ใบ้ว่าห้องอาจยังว่างให้ผู้ฟัง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker say about pets?",
+    "options": [
+     "They must stay off the balcony",
+     "They require an extra fee",
+     "They are not allowed in the building",
+     "They must be registered by June first"
+    ],
+    "answer": 1,
+    "evidence": [
+     "The building does allow pets, but there's a one-time cleaning fee of $200."
+    ],
+    "explanationTH": "อาคารอนุญาตให้เลี้ยงสัตว์ได้ แต่ต้องจ่ายค่าทำความสะอาดครั้งเดียว 200 ดอลลาร์ ซึ่งก็คือค่าธรรมเนียมเพิ่มเติม",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้พูดถึงระเบียง",
+     "ถูก: one-time cleaning fee = extra fee",
+     "ผิด: กลับกัน อาคารอนุญาตให้เลี้ยงสัตว์",
+     "ผิด: June first เป็นวันย้ายเข้า ไม่เกี่ยวกับการลงทะเบียนสัตว์"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What should the listener bring to the viewing?",
+    "options": [
+     "A deposit payment",
+     "A reference letter",
+     "Proof of income",
+     "A signed lease"
+    ],
+    "answer": 2,
+    "evidence": [
+     "bring a copy of a recent pay slip when you come"
+    ],
+    "explanationTH": "ผู้พูดขอให้นำสำเนาสลิปเงินเดือนล่าสุดมาด้วย ซึ่งเป็นหลักฐานแสดงรายได้",
+    "optionNotesTH": [
+     "ผิด: deposit ถูกพูดถึงเรื่องผู้สมัครอีกคน",
+     "ผิด: ไม่ได้ขอจดหมายรับรอง",
+     "ถูก: pay slip = proof of income",
+     "ผิด: ยังไม่ถึงขั้นเซ็นสัญญา เพิ่งจะเริ่มยื่นใบสมัคร"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีครับคุณ Okafor ผม Daniel Reyes โทรจาก Brightway Property Management ครับ ผมโทรกลับเรื่องอพาร์ตเมนต์สองห้องนอนบนถนน Linden คุณถามว่าห้องยังว่างสำหรับย้ายเข้าวันที่หนึ่งมิถุนายนหรือไม่ คือมีผู้สมัครอีกรายยื่นเอกสารมาเมื่อเช้านี้ แต่เขายังไม่ได้จ่ายเงินมัดจำนะครับ",
+   "ถ้าคุณยังสนใจ ผมแนะนำให้มาดูห้องโดยเร็วที่สุด พรุ่งนี้ผมจะพาชมห้องตอนสิบโมงครึ่ง และอีกรอบตอนสี่โมง อีกเรื่องหนึ่ง คุณบอกว่ามีสุนัขตัวเล็ก อาคารนี้อนุญาตให้เลี้ยงสัตว์ได้ แต่มีค่าทำความสะอาดครั้งเดียว 200 ดอลลาร์",
+   "กรุณาโทรกลับมาที่ 555-0148 เพื่อแจ้งว่าเวลาไหนสะดวก และนำสำเนาสลิปเงินเดือนล่าสุดมาด้วยตอนมา เราจะได้เริ่มกระบวนการสมัครได้ทันที"
+  ],
+  "tipTH": "คำว่า though ท้ายประโยคเป็นสัญญาณของข้อมูลที่ขัดแย้งหรือพลิกความหมาย ให้คิดว่าผู้พูดต้องการสื่ออะไรจากข้อมูลนั้น",
+  "vocabulary": [
+   {
+    "word": "applicant",
+    "pos": "noun",
+    "th": "ผู้สมัคร"
+   },
+   {
+    "word": "deposit",
+    "pos": "noun",
+    "th": "เงินมัดจำ"
+   },
+   {
+    "word": "one-time",
+    "pos": "adjective",
+    "th": "ครั้งเดียว"
+   },
+   {
+    "word": "pay slip",
+    "pos": "noun",
+    "th": "สลิปเงินเดือน"
+   }
+  ]
+ },
+ {
+  "id": "T3-04",
+  "part": 4,
+  "talkType": "meeting",
+  "topic": "marketing",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Okay, let's get started. I've put the third-quarter numbers up on the screen. Overall, we brought in almost twenty-nine hundred new customers, which beat our target. But I want to focus on the one channel that disappointed us. It was the only one that didn't reach four hundred new customers, so starting next quarter, we'll be dropping it completely."
+   },
+   {
+    "speaker": "W",
+    "text": "Some of you have asked where that money will go instead. Honestly, I'm leaning toward the channel with the lowest cost per customer, since it's clearly working. But I don't want to make that decision on my own."
+   },
+   {
+    "speaker": "W",
+    "text": "Ravi's team ran a survey last month asking customers how they first heard about us. He'll share the results with everyone tomorrow. Please read them before Friday's meeting, and come ready with a recommendation."
+   }
+  ],
+  "graphic": {
+   "title": "Third-Quarter Campaign Results",
+   "table": "| Channel | New Customers | Cost per Customer |\n| Social media ads | 1,240 | $18 |\n| Radio spots | 310 | $52 |\n| Email newsletter | 860 | $9 |\n| Podcast sponsorship | 450 | $27 |"
+  },
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What does the speaker say about the overall results?",
+    "options": [
+     "They exceeded a target",
+     "They were lower than last quarter",
+     "They came mostly from radio",
+     "They have not been finalized"
+    ],
+    "answer": 0,
+    "evidence": [
+     "we brought in almost twenty-nine hundred new customers, which beat our target"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าได้ลูกค้าใหม่เกือบ 2,900 ราย ซึ่ง beat our target แปลว่าเกินเป้าหมาย",
+    "optionNotesTH": [
+     "ถูก: beat our target = exceeded a target",
+     "ผิด: ไม่ได้เปรียบเทียบกับไตรมาสก่อน",
+     "ผิด: วิทยุได้ลูกค้าน้อยที่สุด",
+     "ผิด: ตัวเลขขึ้นจอแล้ว ไม่ได้บอกว่ายังไม่สรุป"
+    ]
+   },
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. Which channel will the company stop using?",
+    "options": [
+     "Social media ads",
+     "Radio spots",
+     "Email newsletter",
+     "Podcast sponsorship"
+    ],
+    "answer": 1,
+    "evidence": [
+     "It was the only one that didn't reach four hundred new customers",
+     "| Radio spots | 310 | $52 |"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าจะเลิกใช้ช่องทางเดียวที่ได้ลูกค้าใหม่ไม่ถึง 400 ราย เมื่อดูตาราง มีเพียง Radio spots ที่ได้ 310 ราย",
+    "optionNotesTH": [
+     "ผิด: ได้ลูกค้ามากที่สุด 1,240 ราย",
+     "ถูก: 310 ราย เป็นช่องทางเดียวที่ต่ำกว่า 400",
+     "ผิด: เป็นช่องทางที่ต้นทุนต่อลูกค้าต่ำสุด ซึ่งผู้พูดอยากเพิ่มงบให้",
+     "ผิด: 450 ราย เกิน 400 แล้ว"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What are the listeners asked to do before Friday?",
+    "options": [
+     "Conduct a customer survey",
+     "Prepare a budget report",
+     "Contact new customers",
+     "Review survey findings"
+    ],
+    "answer": 3,
+    "evidence": [
+     "He'll share the results with everyone tomorrow. Please read them before Friday's meeting"
+    ],
+    "explanationTH": "Ravi จะแชร์ผลสำรวจพรุ่งนี้ และผู้พูดขอให้ทุกคนอ่านผลก่อนประชุมวันศุกร์ ซึ่งก็คือทบทวนผลสำรวจ",
+    "optionNotesTH": [
+     "ผิด: ทีมของ Ravi ทำแบบสำรวจไปแล้วเมื่อเดือนก่อน",
+     "ผิด: ให้เตรียมข้อเสนอแนะ ไม่ใช่รายงานงบประมาณ",
+     "ผิด: ไม่ได้ให้ติดต่อลูกค้า",
+     "ถูก: read the results = review survey findings"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เอาล่ะ เริ่มกันเลยนะคะ ฉันขึ้นตัวเลขไตรมาสสามไว้บนจอแล้ว โดยรวมเราได้ลูกค้าใหม่เกือบสองพันเก้าร้อยราย ซึ่งเกินเป้าหมาย แต่ฉันอยากเน้นช่องทางหนึ่งที่ทำให้เราผิดหวัง มันเป็นช่องทางเดียวที่ได้ลูกค้าใหม่ไม่ถึงสี่ร้อยราย ดังนั้นตั้งแต่ไตรมาสหน้า เราจะเลิกใช้ช่องทางนี้ไปเลย",
+   "บางคนถามว่าเงินส่วนนั้นจะไปลงที่ไหนแทน พูดตรง ๆ ฉันค่อนข้างเอนเอียงไปทางช่องทางที่มีต้นทุนต่อลูกค้าต่ำที่สุด เพราะเห็นชัดว่ามันได้ผล แต่ฉันไม่อยากตัดสินใจเรื่องนี้คนเดียว",
+   "ทีมของ Ravi ทำแบบสำรวจเมื่อเดือนที่แล้ว ถามลูกค้าว่ารู้จักเราครั้งแรกจากที่ไหน เขาจะแชร์ผลให้ทุกคนพรุ่งนี้ กรุณาอ่านก่อนประชุมวันศุกร์ และเตรียมข้อเสนอแนะมาด้วย"
+  ],
+  "tipTH": "ข้อ graphic มักไม่บอกชื่อตรง ๆ แต่ให้เงื่อนไข เช่น ตัวเลขต่ำกว่าเท่าไร ให้อ่านตารางล่วงหน้าแล้วจับเงื่อนไขในบทพูดมาเทียบ",
+  "vocabulary": [
+   {
+    "word": "channel",
+    "pos": "noun",
+    "th": "ช่องทาง (การตลาด)"
+   },
+   {
+    "word": "beat",
+    "pos": "verb",
+    "th": "ทำได้เกิน (เป้าหมาย)"
+   },
+   {
+    "word": "lean toward",
+    "pos": "phrase",
+    "th": "เอนเอียงไปทาง, ค่อนข้างเลือก"
+   },
+   {
+    "word": "recommendation",
+    "pos": "noun",
+    "th": "ข้อเสนอแนะ"
+   }
+  ]
+ },
+ {
+  "id": "T3-05",
+  "part": 4,
+  "talkType": "announcement",
+  "topic": "sales",
+  "difficulty": "easy",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Attention, shoppers. Thank you for shopping at Greenfield Market. We'd like to remind you that our store will be closing in thirty minutes, at nine P.M. Please bring your final selections to the front registers."
+   },
+   {
+    "speaker": "M",
+    "text": "Also, don't forget about this weekend's special event. On Saturday and Sunday, our bakery will be offering free samples of our new whole-grain breads, and all fresh fruit will be twenty percent off. It's a great time to stock up."
+   },
+   {
+    "speaker": "M",
+    "text": "Finally, if you'd like to receive our weekly coupons, just give your email address to any cashier. We hope you found everything you needed. Thank you, and have a good evening."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What does the speaker remind listeners about?",
+    "options": [
+     "A change in bakery hours",
+     "A new checkout system",
+     "The store will close soon",
+     "A parking restriction"
+    ],
+    "answer": 2,
+    "evidence": [
+     "our store will be closing in thirty minutes"
+    ],
+    "explanationTH": "ผู้พูดเตือนว่าร้านจะปิดในอีกสามสิบนาที ข้อ C จึงถูก",
+    "optionNotesTH": [
+     "ผิด: bakery ถูกพูดถึงเรื่องแจกชิมขนมปัง ไม่ใช่เวลาเปิดปิด",
+     "ผิด: registers คือจุดชำระเงินเดิม ไม่ได้มีระบบใหม่",
+     "ถูก: closing in thirty minutes = close soon",
+     "ผิด: ไม่ได้พูดถึงที่จอดรถ"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What will be discounted this weekend?",
+    "options": [
+     "Bread",
+     "Fresh fruit",
+     "Coffee",
+     "Dairy products"
+    ],
+    "answer": 1,
+    "evidence": [
+     "all fresh fruit will be twenty percent off"
+    ],
+    "explanationTH": "สุดสัปดาห์นี้ผลไม้สดทุกชนิดลดยี่สิบเปอร์เซ็นต์ ส่วนขนมปังเป็นการแจกชิมฟรี ไม่ใช่ลดราคา",
+    "optionNotesTH": [
+     "ผิด: ขนมปังมีแจกชิม (free samples) ไม่ใช่ลดราคา",
+     "ถูก: fresh fruit ลด 20%",
+     "ผิด: ไม่ได้พูดถึงกาแฟ",
+     "ผิด: ไม่ได้พูดถึงผลิตภัณฑ์นม"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "How can listeners receive coupons?",
+    "options": [
+     "By downloading an app",
+     "By filling out a form",
+     "By visiting the website",
+     "By providing contact information at checkout"
+    ],
+    "answer": 3,
+    "evidence": [
+     "just give your email address to any cashier"
+    ],
+    "explanationTH": "ถ้าอยากได้คูปองรายสัปดาห์ ให้แจ้งอีเมลกับแคชเชียร์คนไหนก็ได้ ซึ่งก็คือให้ข้อมูลติดต่อตอนชำระเงิน",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้พูดถึงแอป",
+     "ผิด: ไม่ต้องกรอกแบบฟอร์ม แค่บอกอีเมล",
+     "ผิด: ไม่ได้พูดถึงเว็บไซต์",
+     "ถูก: email address = contact information, cashier = checkout"
+    ]
+   }
+  ],
+  "translationTH": [
+   "เรียนลูกค้าทุกท่าน ขอบคุณที่มาซื้อของที่ Greenfield Market ขอเรียนให้ทราบว่าร้านจะปิดในอีกสามสิบนาที คือเวลาสามทุ่ม กรุณานำสินค้าที่เลือกไปชำระที่เคาน์เตอร์ด้านหน้า",
+   "และอย่าลืมกิจกรรมพิเศษสุดสัปดาห์นี้ ในวันเสาร์และอาทิตย์ แผนกเบเกอรี่ของเราจะแจกชิมฟรีขนมปังโฮลเกรนรสใหม่ และผลไม้สดทุกชนิดลดราคายี่สิบเปอร์เซ็นต์ เป็นโอกาสดีที่จะซื้อตุนไว้",
+   "สุดท้ายนี้ หากท่านต้องการรับคูปองรายสัปดาห์ เพียงแจ้งอีเมลกับแคชเชียร์คนใดก็ได้ หวังว่าท่านจะได้ทุกอย่างที่ต้องการ ขอบคุณและขอให้มีค่ำคืนที่ดีครับ"
+  ],
+  "tipTH": "ระวังกับดักที่ใช้คำที่ได้ยินแต่ข้อมูลผิด เช่น ขนมปังที่แจกฟรีกับผลไม้ที่ลดราคา ให้จับคู่ของกับข้อเสนอให้ถูก",
+  "vocabulary": [
+   {
+    "word": "register",
+    "pos": "noun",
+    "th": "เครื่องคิดเงิน, จุดชำระเงิน"
+   },
+   {
+    "word": "free sample",
+    "pos": "noun",
+    "th": "ของแจกชิมฟรี"
+   },
+   {
+    "word": "stock up",
+    "pos": "phrase",
+    "th": "ซื้อตุนไว้"
+   },
+   {
+    "word": "cashier",
+    "pos": "noun",
+    "th": "พนักงานเก็บเงิน"
+   }
+  ]
+ },
+ {
+  "id": "T3-06",
+  "part": 4,
+  "talkType": "voicemail",
+  "topic": "customerService",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Hello, Mr. Tanaka. This is Grace from the service department at Lakeview Appliances. I'm calling about the dishwasher you dropped off for repair last Tuesday. Our technician found the problem. It's a broken water pump, and we've ordered a replacement part from the manufacturer."
+   },
+   {
+    "speaker": "W",
+    "text": "Unfortunately, the part won't arrive until next Wednesday, so the repair will take about a week longer than we told you. I know that's not what you were hoping to hear. Since your dishwasher is still under warranty, though, there's no charge for the part or the labor."
+   },
+   {
+    "speaker": "W",
+    "text": "In the meantime, we can lend you a portable dishwasher at no cost. If you'd like one, just call us at 555-0192, and we'll arrange delivery to your home for tomorrow morning."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What problem does the speaker mention?",
+    "options": [
+     "A part needs to be replaced",
+     "A delivery was sent to the wrong address",
+     "A warranty has expired",
+     "A technician is unavailable"
+    ],
+    "answer": 0,
+    "evidence": [
+     "It's a broken water pump, and we've ordered a replacement part"
+    ],
+    "explanationTH": "ช่างพบว่าปั๊มน้ำเสีย และร้านสั่งชิ้นส่วนมาเปลี่ยนแล้ว จึงเป็นปัญหาที่ต้องเปลี่ยนชิ้นส่วน",
+    "optionNotesTH": [
+     "ถูก: broken water pump + replacement part",
+     "ผิด: delivery ที่พูดถึงคือการส่งเครื่องยืมไปบ้าน ไม่มีการส่งผิดที่",
+     "ผิด: กลับกัน เครื่องยังอยู่ในประกัน",
+     "ผิด: ช่างตรวจเจอปัญหาแล้ว ไม่ได้บอกว่าไม่ว่าง"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker imply when she says, \"I know that's not what you were hoping to hear\"?",
+    "options": [
+     "She misunderstood the listener's request",
+     "She needs more information from the listener",
+     "She understands the listener will be disappointed",
+     "She disagrees with the technician's report"
+    ],
+    "answer": 2,
+    "evidence": [
+     "the repair will take about a week longer than we told you. I know that's not what you were hoping to hear."
+    ],
+    "explanationTH": "หลังแจ้งว่าการซ่อมจะช้าไปอีกประมาณหนึ่งสัปดาห์ ผู้พูดกล่าวประโยคนี้เพื่อแสดงว่าเข้าใจว่าลูกค้าคงผิดหวังกับข่าวนี้",
+    "optionNotesTH": [
+     "ผิด: ไม่มีการเข้าใจคำขอผิด",
+     "ผิด: ไม่ได้ขอข้อมูลเพิ่ม",
+     "ถูก: ยอมรับว่าข่าวล่าช้านี้น่าผิดหวัง",
+     "ผิด: ไม่ได้โต้แย้งผลตรวจของช่าง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What does the speaker offer to do?",
+    "options": [
+     "Refund the repair fee",
+     "Provide a temporary appliance",
+     "Extend a warranty",
+     "Send a technician to the listener's home"
+    ],
+    "answer": 1,
+    "evidence": [
+     "we can lend you a portable dishwasher at no cost"
+    ],
+    "explanationTH": "ระหว่างรอซ่อม ร้านเสนอให้ยืมเครื่องล้างจานแบบพกพาฟรี ซึ่งก็คือเครื่องใช้ชั่วคราว",
+    "optionNotesTH": [
+     "ผิด: ไม่มีค่าซ่อมตั้งแต่แรกเพราะอยู่ในประกัน จึงไม่มีอะไรต้องคืน",
+     "ถูก: lend a portable dishwasher = temporary appliance",
+     "ผิด: warranty ถูกพูดถึงว่ายังมีผล ไม่ได้ขยาย",
+     "ผิด: จะส่งเครื่องไปที่บ้าน ไม่ใช่ส่งช่าง"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีค่ะคุณ Tanaka ดิฉัน Grace จากแผนกบริการของ Lakeview Appliances โทรมาเรื่องเครื่องล้างจานที่คุณนำมาซ่อมเมื่อวันอังคารที่แล้ว ช่างของเราพบปัญหาแล้ว คือปั๊มน้ำเสีย และเราได้สั่งชิ้นส่วนใหม่จากผู้ผลิตแล้วค่ะ",
+   "น่าเสียดายที่ชิ้นส่วนจะมาถึงวันพุธหน้า การซ่อมจึงจะนานกว่าที่เราแจ้งไว้ประมาณหนึ่งสัปดาห์ ดิฉันทราบดีว่านี่ไม่ใช่สิ่งที่คุณอยากได้ยิน แต่เนื่องจากเครื่องของคุณยังอยู่ในประกัน จึงไม่มีค่าใช้จ่ายทั้งค่าชิ้นส่วนและค่าแรง",
+   "ระหว่างนี้ เราสามารถให้คุณยืมเครื่องล้างจานแบบพกพาได้ฟรี ถ้าต้องการ โทรหาเราที่ 555-0192 แล้วเราจะจัดส่งไปที่บ้านคุณพรุ่งนี้เช้าค่ะ"
+  ],
+  "tipTH": "ประโยคแสดงความเห็นใจอย่าง I know that's not what you were hoping to hear มักตามหลังข่าวร้าย ให้ดูว่าข่าวก่อนหน้าคืออะไร",
+  "vocabulary": [
+   {
+    "word": "replacement part",
+    "pos": "noun",
+    "th": "ชิ้นส่วนอะไหล่ที่นำมาเปลี่ยน"
+   },
+   {
+    "word": "under warranty",
+    "pos": "phrase",
+    "th": "อยู่ในระยะประกัน"
+   },
+   {
+    "word": "labor",
+    "pos": "noun",
+    "th": "ค่าแรง"
+   },
+   {
+    "word": "portable",
+    "pos": "adjective",
+    "th": "แบบพกพา, เคลื่อนย้ายได้"
+   }
+  ]
+ },
+ {
+  "id": "T3-07",
+  "part": 4,
+  "talkType": "introduction",
+  "topic": "events",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "Good evening, and welcome to the annual Northshore Small Business Awards. Before we present tonight's awards, it's my pleasure to introduce our keynote speaker, Dr. Amara Collins. Many of you know Dr. Collins as the author of Start Small, Think Big. Fewer people know that her career began somewhere very different. She spent ten years as a hospital pharmacist before opening her first bakery."
+   },
+   {
+    "speaker": "M",
+    "text": "That bakery has since grown into Collins Kitchen, a chain of eleven cafes across the region. Last year, Dr. Collins also launched a mentoring program that pairs new business owners with experienced ones. Several of tonight's nominees have been through that program."
+   },
+   {
+    "speaker": "M",
+    "text": "Dr. Collins will be speaking for about twenty minutes. Afterward, she'll be signing copies of her book in the lobby, so you'll have a chance to talk with her then. Please join me in welcoming Dr. Amara Collins."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mainIdea",
+    "stem": "What is the purpose of the event?",
+    "options": [
+     "To launch a new book",
+     "To open a new cafe",
+     "To recruit mentors",
+     "To recognize local businesses"
+    ],
+    "answer": 3,
+    "evidence": [
+     "welcome to the annual Northshore Small Business Awards",
+     "Before we present tonight's awards"
+    ],
+    "explanationTH": "งานนี้คืองานมอบรางวัลธุรกิจขนาดเล็กประจำปีของ Northshore จุดประสงค์จึงเป็นการยกย่องธุรกิจในท้องถิ่น",
+    "optionNotesTH": [
+     "ผิด: หนังสือเป็นผลงานเดิมของวิทยากร ไม่ได้เปิดตัวในงานนี้",
+     "ผิด: cafes เป็นธุรกิจของวิทยากร ไม่ใช่จุดประสงค์ของงาน",
+     "ผิด: โครงการพี่เลี้ยงเปิดตัวไปปีที่แล้ว ไม่ได้รับสมัครในงานนี้",
+     "ถูก: Small Business Awards = ยกย่องธุรกิจท้องถิ่น"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "According to the speaker, what is not widely known about Dr. Collins?",
+    "options": [
+     "She first worked in health care",
+     "She wrote a cookbook",
+     "She owns eleven bakeries",
+     "She was once an award nominee"
+    ],
+    "answer": 0,
+    "evidence": [
+     "Fewer people know that her career began somewhere very different. She spent ten years as a hospital pharmacist"
+    ],
+    "explanationTH": "ผู้พูดบอกว่ามีคนน้อยกว่าที่รู้ว่าเธอเคยเป็นเภสัชกรโรงพยาบาลสิบปี ซึ่งก็คือเคยทำงานด้านสาธารณสุข",
+    "optionNotesTH": [
+     "ถูก: hospital pharmacist = งานด้าน health care",
+     "ผิด: หนังสือของเธอเป็นที่รู้จักดีอยู่แล้ว และไม่ได้บอกว่าเป็นตำราอาหาร",
+     "ผิด: สิบเอ็ดแห่งคือร้านคาเฟ่ และเป็นข้อมูลทั่วไป ไม่ใช่สิ่งที่ไม่ค่อยมีใครรู้",
+     "ผิด: nominees คือผู้เข้าชิงคืนนี้ ไม่ใช่ตัวเธอ"
+    ]
+   },
+   {
+    "type": "inference",
+    "stem": "What is suggested about some of the award nominees?",
+    "options": [
+     "They will speak after the keynote",
+     "They have received guidance from Dr. Collins's program",
+     "They work at Collins Kitchen",
+     "They helped write a book"
+    ],
+    "answer": 1,
+    "evidence": [
+     "a mentoring program that pairs new business owners with experienced ones. Several of tonight's nominees have been through that program."
+    ],
+    "explanationTH": "ผู้เข้าชิงรางวัลหลายคนเคยผ่านโครงการพี่เลี้ยงของ Dr. Collins แสดงว่าพวกเขาได้รับคำแนะนำจากโครงการของเธอ",
+    "optionNotesTH": [
+     "ผิด: หลังปาฐกถาคือการแจกลายเซ็นหนังสือ ไม่ใช่ผู้เข้าชิงขึ้นพูด",
+     "ถูก: have been through that program = ได้รับการชี้แนะจากโครงการ",
+     "ผิด: ไม่ได้บอกว่าทำงานที่ Collins Kitchen",
+     "ผิด: หนังสือเป็นผลงานของ Dr. Collins"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีตอนค่ำครับ และยินดีต้อนรับสู่งานประกาศรางวัลธุรกิจขนาดเล็ก Northshore ประจำปี ก่อนที่เราจะมอบรางวัลคืนนี้ ผมมีความยินดีที่จะแนะนำวิทยากรหลักของเรา Dr. Amara Collins หลายท่านรู้จัก Dr. Collins ในฐานะผู้เขียนหนังสือ Start Small, Think Big แต่มีน้อยคนที่รู้ว่าอาชีพของเธอเริ่มต้นในที่ที่ต่างออกไปมาก เธอเป็นเภสัชกรประจำโรงพยาบาลอยู่สิบปีก่อนจะเปิดร้านเบเกอรี่ร้านแรก",
+   "ร้านเบเกอรี่นั้นเติบโตจนกลายเป็น Collins Kitchen เครือร้านคาเฟ่สิบเอ็ดสาขาทั่วภูมิภาค เมื่อปีที่แล้ว Dr. Collins ยังเปิดโครงการพี่เลี้ยงที่จับคู่เจ้าของธุรกิจหน้าใหม่กับผู้มีประสบการณ์ ผู้เข้าชิงรางวัลคืนนี้หลายคนก็เคยผ่านโครงการนั้นมา",
+   "Dr. Collins จะบรรยายประมาณยี่สิบนาที หลังจากนั้นเธอจะแจกลายเซ็นบนหนังสือที่ล็อบบี้ ทุกท่านจะได้มีโอกาสพูดคุยกับเธอตอนนั้น ขอเชิญทุกท่านร่วมต้อนรับ Dr. Amara Collins ครับ"
+  ],
+  "tipTH": "บทแนะนำวิทยากรมักมีโครงสร้าง: ชื่องาน → ประวัติวิทยากร → สิ่งที่จะเกิดขึ้นต่อ ให้ระวังคำว่า Fewer people know ที่บอกข้อมูลไม่ค่อยมีใครรู้",
+  "vocabulary": [
+   {
+    "word": "keynote speaker",
+    "pos": "noun",
+    "th": "วิทยากรหลัก, ผู้กล่าวปาฐกถาหลัก"
+   },
+   {
+    "word": "pharmacist",
+    "pos": "noun",
+    "th": "เภสัชกร"
+   },
+   {
+    "word": "mentoring program",
+    "pos": "noun",
+    "th": "โครงการพี่เลี้ยง"
+   },
+   {
+    "word": "nominee",
+    "pos": "noun",
+    "th": "ผู้เข้าชิง"
+   }
+  ],
+  "group": "p4g3"
+ },
+ {
+  "id": "T3-08",
+  "part": 4,
+  "talkType": "instructions",
+  "topic": "office",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Hi, everyone. As you know, we're replacing the old key cards with new security badges next week, so I'll walk you through what to do. First, upload a photo of yourself to the employee portal by Friday. The photo should be taken against a plain background, and please don't wear sunglasses or a hat."
+   },
+   {
+    "speaker": "W",
+    "text": "Next, you'll need to collect your new badge from the security office on the first floor. To avoid long lines, each department has been given its own pickup day. Since everyone in this room works in the finance department, you'll go on the day listed for your team."
+   },
+   {
+    "speaker": "W",
+    "text": "When you pick up your badge, bring your old key card with you. Security will deactivate it on the spot. And if you lose your new badge, report it right away, because there's a $15 replacement fee."
+   }
+  ],
+  "graphic": {
+   "title": "Badge Pickup Schedule",
+   "table": "| Department | Pickup Day |\n| Human Resources | Monday |\n| Finance | Tuesday |\n| Marketing | Wednesday |\n| Sales | Thursday |"
+  },
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What are the listeners asked to do by Friday?",
+    "options": [
+     "Return their old key cards",
+     "Update their passwords",
+     "Submit a photograph online",
+     "Visit the security office"
+    ],
+    "answer": 2,
+    "evidence": [
+     "upload a photo of yourself to the employee portal by Friday"
+    ],
+    "explanationTH": "ผู้พูดขอให้อัปโหลดรูปตัวเองเข้าพอร์ทัลพนักงานภายในวันศุกร์ ซึ่งก็คือส่งรูปถ่ายทางออนไลน์",
+    "optionNotesTH": [
+     "ผิด: คืนบัตรเก่าตอนไปรับบัตรใหม่ ไม่ได้กำหนดวันศุกร์",
+     "ผิด: ไม่ได้พูดถึงรหัสผ่าน",
+     "ถูก: upload a photo to the portal = submit a photograph online",
+     "ผิด: ไปห้องรักษาความปลอดภัยตามวันของแผนก ไม่ใช่ภายในวันศุกร์"
+    ]
+   },
+   {
+    "type": "graphic",
+    "stem": "Look at the graphic. On which day will the listeners pick up their badges?",
+    "options": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday"
+    ],
+    "answer": 1,
+    "evidence": [
+     "everyone in this room works in the finance department",
+     "| Finance | Tuesday |"
+    ],
+    "explanationTH": "ผู้ฟังทุกคนอยู่แผนกการเงิน (finance) เมื่อดูตาราง แผนก Finance รับบัตรวันอังคาร",
+    "optionNotesTH": [
+     "ผิด: วันจันทร์เป็นของฝ่ายบุคคล",
+     "ถูก: Finance = Tuesday",
+     "ผิด: วันพุธเป็นของฝ่ายการตลาด",
+     "ผิด: วันพฤหัสฯ เป็นของฝ่ายขาย"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why should the listeners bring their old key cards?",
+    "options": [
+     "To exchange them for a discount",
+     "To show proof of employment",
+     "So they can be recycled",
+     "So they can be disabled"
+    ],
+    "answer": 3,
+    "evidence": [
+     "bring your old key card with you. Security will deactivate it on the spot"
+    ],
+    "explanationTH": "ต้องนำบัตรเก่ามาด้วยเพราะเจ้าหน้าที่จะยกเลิกการใช้งาน (deactivate) ทันที ข้อ D จึงถูก",
+    "optionNotesTH": [
+     "ผิด: ไม่มีส่วนลด ค่า 15 ดอลลาร์เป็นค่าทำบัตรใหม่เมื่อทำหาย",
+     "ผิด: ไม่ได้บอกว่าใช้ยืนยันการเป็นพนักงาน",
+     "ผิด: ไม่ได้พูดถึงการรีไซเคิล",
+     "ถูก: deactivate = disable ทำให้ใช้งานไม่ได้"
+    ]
+   }
+  ],
+  "translationTH": [
+   "สวัสดีทุกคน อย่างที่ทราบกัน สัปดาห์หน้าเราจะเปลี่ยนคีย์การ์ดเก่าเป็นบัตรรักษาความปลอดภัยแบบใหม่ ฉันจะอธิบายขั้นตอนให้ฟัง ขั้นแรก อัปโหลดรูปตัวเองเข้าพอร์ทัลพนักงานภายในวันศุกร์ รูปควรถ่ายกับพื้นหลังเรียบ ๆ และกรุณาอย่าใส่แว่นกันแดดหรือหมวก",
+   "ต่อไป คุณต้องไปรับบัตรใหม่ที่ห้องรักษาความปลอดภัยชั้นหนึ่ง เพื่อไม่ให้ต่อแถวยาว แต่ละแผนกจะมีวันรับบัตรของตัวเอง เนื่องจากทุกคนในห้องนี้ทำงานแผนกการเงิน ให้ไปตามวันที่ระบุไว้สำหรับทีมของคุณ",
+   "เมื่อไปรับบัตร ให้นำคีย์การ์ดเก่าไปด้วย เจ้าหน้าที่จะยกเลิกการใช้งานให้ทันที และถ้าทำบัตรใหม่หาย ให้แจ้งทันที เพราะมีค่าทำบัตรใหม่ 15 ดอลลาร์"
+  ],
+  "tipTH": "ก่อนฟัง ให้ดูหัวตารางและแถวในกราฟิก แล้วฟังข้อมูลที่เชื่อมกับตาราง เช่น ชื่อแผนก เพื่อหาคำตอบอีกคอลัมน์",
+  "vocabulary": [
+   {
+    "word": "security badge",
+    "pos": "noun",
+    "th": "บัตรรักษาความปลอดภัย, บัตรผ่าน"
+   },
+   {
+    "word": "employee portal",
+    "pos": "noun",
+    "th": "เว็บพอร์ทัลสำหรับพนักงาน"
+   },
+   {
+    "word": "deactivate",
+    "pos": "verb",
+    "th": "ยกเลิกการใช้งาน"
+   },
+   {
+    "word": "on the spot",
+    "pos": "phrase",
+    "th": "ทันที ณ ที่นั้น"
+   }
+  ]
+ },
+ {
+  "id": "T3-09",
+  "part": 4,
+  "talkType": "broadcast",
+  "topic": "logistics",
+  "difficulty": "hard",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "M",
+    "text": "And now for the local business news. Riverton Freight, the trucking company based in the Eastgate industrial park, announced this morning that it will open a second distribution center near the airport. The new facility is expected to create about three hundred jobs when it opens next spring."
+   },
+   {
+    "speaker": "M",
+    "text": "Company president Marcus Lowe said the expansion was necessary because online orders in the region have nearly doubled over the past two years. The city council approved the project last month, but not without debate. Some residents near the airport had raised concerns about increased truck traffic. In response, Riverton agreed to build a new access road so that trucks won't pass through residential streets."
+   },
+   {
+    "speaker": "M",
+    "text": "Hiring will begin in January, and the company expects a lot of interest. If you're thinking of applying, I wouldn't wait. Stay tuned for the weather, coming up after this short break."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What did Riverton Freight announce?",
+    "options": [
+     "Plans to open an additional facility",
+     "A merger with an airline",
+     "A move to an industrial park",
+     "A new online ordering service"
+    ],
+    "answer": 0,
+    "evidence": [
+     "it will open a second distribution center near the airport"
+    ],
+    "explanationTH": "บริษัทประกาศว่าจะเปิดศูนย์กระจายสินค้าแห่งที่สองใกล้สนามบิน ซึ่งก็คือสถานที่แห่งใหม่เพิ่มเติม",
+    "optionNotesTH": [
+     "ถูก: second distribution center = additional facility",
+     "ผิด: airport เป็นแค่ที่ตั้ง ไม่ได้ควบรวมกับสายการบิน",
+     "ผิด: บริษัทตั้งอยู่ในนิคมอุตสาหกรรมอยู่แล้ว ไม่ได้ย้ายไป",
+     "ผิด: online orders เป็นเหตุผลของการขยาย ไม่ใช่บริการใหม่"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "How did the company respond to residents' concerns?",
+    "options": [
+     "It reduced the number of trucks",
+     "It moved the project to another site",
+     "It agreed to construct a road",
+     "It changed its delivery hours"
+    ],
+    "answer": 2,
+    "evidence": [
+     "Riverton agreed to build a new access road"
+    ],
+    "explanationTH": "เพื่อตอบข้อกังวลเรื่องรถบรรทุก บริษัทตกลงสร้างถนนทางเข้าใหม่ไม่ให้รถผ่านย่านที่อยู่อาศัย",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้ลดจำนวนรถ แค่เปลี่ยนเส้นทาง",
+     "ผิด: โครงการยังอยู่ใกล้สนามบินตามเดิม",
+     "ถูก: build a new access road = construct a road",
+     "ผิด: ไม่ได้พูดถึงเวลาจัดส่ง"
+    ]
+   },
+   {
+    "type": "intent",
+    "stem": "What does the speaker mean when he says, \"I wouldn't wait\"?",
+    "options": [
+     "The facility may open later than planned",
+     "He plans to apply for a job himself",
+     "Hiring has been postponed until spring",
+     "Listeners should submit applications early"
+    ],
+    "answer": 3,
+    "evidence": [
+     "the company expects a lot of interest. If you're thinking of applying, I wouldn't wait."
+    ],
+    "explanationTH": "ผู้พูดบอกว่าบริษัทคาดว่าจะมีคนสนใจมาก แล้วแนะนำว่าถ้าคิดจะสมัครก็อย่ารอ หมายความว่าควรรีบสมัครแต่เนิ่น ๆ",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้บอกว่าจะเปิดช้ากว่ากำหนด",
+     "ผิด: ผู้พูดแนะนำผู้ฟัง ไม่ได้จะสมัครเอง",
+     "ผิด: การรับสมัครเริ่มเดือนมกราคม spring คือเวลาเปิดศูนย์",
+     "ถูก: I wouldn't wait = ควรรีบสมัคร"
+    ]
+   }
+  ],
+  "translationTH": [
+   "และต่อไปเป็นข่าวธุรกิจท้องถิ่น Riverton Freight บริษัทขนส่งรถบรรทุกที่ตั้งอยู่ในนิคมอุตสาหกรรม Eastgate ประกาศเมื่อเช้านี้ว่าจะเปิดศูนย์กระจายสินค้าแห่งที่สองใกล้สนามบิน คาดว่าสถานที่แห่งใหม่จะสร้างงานราวสามร้อยตำแหน่งเมื่อเปิดในฤดูใบไม้ผลิปีหน้า",
+   "Marcus Lowe ประธานบริษัทกล่าวว่าการขยายครั้งนี้จำเป็น เพราะคำสั่งซื้อออนไลน์ในภูมิภาคเพิ่มขึ้นเกือบเท่าตัวในช่วงสองปีที่ผ่านมา สภาเมืองอนุมัติโครงการเมื่อเดือนที่แล้ว แต่ก็มีการถกเถียงกัน ชาวบ้านบางส่วนใกล้สนามบินกังวลเรื่องรถบรรทุกที่จะเพิ่มขึ้น บริษัทจึงตกลงสร้างถนนทางเข้าใหม่เพื่อไม่ให้รถบรรทุกผ่านถนนในย่านที่อยู่อาศัย",
+   "การรับสมัครงานจะเริ่มในเดือนมกราคม และบริษัทคาดว่าจะมีผู้สนใจจำนวนมาก ถ้าคุณคิดจะสมัคร ผมว่าอย่ารอเลยครับ ติดตามพยากรณ์อากาศได้หลังช่วงพักสั้น ๆ นี้"
+  ],
+  "tipTH": "ในข่าวธุรกิจ คำถามมักถามถึงสิ่งที่ประกาศ เหตุผล และผลกระทบ ให้แยกให้ออกว่าข้อมูลไหนเป็นที่ตั้งเดิม ข้อมูลไหนเป็นแผนใหม่",
+  "vocabulary": [
+   {
+    "word": "distribution center",
+    "pos": "noun",
+    "th": "ศูนย์กระจายสินค้า"
+   },
+   {
+    "word": "expansion",
+    "pos": "noun",
+    "th": "การขยายกิจการ"
+   },
+   {
+    "word": "raise concerns",
+    "pos": "phrase",
+    "th": "แสดงความกังวล"
+   },
+   {
+    "word": "residential",
+    "pos": "adjective",
+    "th": "ที่เป็นย่านที่อยู่อาศัย"
+   }
+  ],
+  "group": "p4g2"
+ },
+ {
+  "id": "T3-10",
+  "part": 4,
+  "talkType": "tour",
+  "topic": "manufacturing",
+  "difficulty": "medium",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "turns": [
+   {
+    "speaker": "W",
+    "text": "Welcome to Sunridge Juice Company. I'm Mei, and I'll be showing you around our production facility today. Before we go in, please put on the safety glasses and hairnets from the basket next to the door. Everyone has to wear them on the factory floor, even visitors."
+   },
+   {
+    "speaker": "W",
+    "text": "Our first stop is the washing area, where all the fruit is cleaned when it arrives from local farms. After that, we'll see the bottling line, which fills up to twelve thousand bottles an hour. It's quite noisy in there, so I'll explain everything before we go in, rather than inside."
+   },
+   {
+    "speaker": "W",
+    "text": "At the end of the tour, we'll stop by our tasting room, where you can try our three newest flavors. And before you leave, everyone will receive a coupon for ten percent off at our gift shop."
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "stem": "What are the listeners asked to do before entering the factory?",
+    "options": [
+     "Put on protective equipment",
+     "Leave their bags by the door",
+     "Sign a visitor form",
+     "Turn off their phones"
+    ],
+    "answer": 0,
+    "evidence": [
+     "please put on the safety glasses and hairnets"
+    ],
+    "explanationTH": "ก่อนเข้าโรงงาน ผู้พูดขอให้ใส่แว่นนิรภัยและตาข่ายคลุมผม ซึ่งก็คืออุปกรณ์ป้องกัน",
+    "optionNotesTH": [
+     "ถูก: safety glasses and hairnets = protective equipment",
+     "ผิด: next to the door คือที่วางตะกร้าอุปกรณ์ ไม่ได้ให้วางกระเป๋า",
+     "ผิด: ไม่ได้พูดถึงแบบฟอร์ม",
+     "ผิด: ไม่ได้พูดถึงโทรศัพท์"
+    ]
+   },
+   {
+    "type": "reason",
+    "stem": "Why will the speaker give explanations before entering the bottling area?",
+    "options": [
+     "The area is very small",
+     "Photography is not permitted",
+     "The room is too loud",
+     "Visitors cannot stay long"
+    ],
+    "answer": 2,
+    "evidence": [
+     "It's quite noisy in there, so I'll explain everything before we go in"
+    ],
+    "explanationTH": "ผู้พูดบอกว่าในไลน์บรรจุขวดเสียงดังมาก จึงจะอธิบายก่อนเข้าไป ข้อ C จึงถูก",
+    "optionNotesTH": [
+     "ผิด: ไม่ได้บอกว่าพื้นที่เล็ก",
+     "ผิด: ไม่ได้พูดถึงการถ่ายรูป",
+     "ถูก: noisy = loud",
+     "ผิด: ไม่ได้จำกัดเวลาอยู่ในห้อง"
+    ]
+   },
+   {
+    "type": "detail",
+    "stem": "What will the listeners receive at the end of the tour?",
+    "options": [
+     "A discount coupon",
+     "A free bottle of juice",
+     "A tour of a local farm",
+     "A recipe booklet"
+    ],
+    "answer": 0,
+    "evidence": [
+     "everyone will receive a coupon for ten percent off at our gift shop"
+    ],
+    "explanationTH": "ตอนจบทัวร์ทุกคนจะได้คูปองลดสิบเปอร์เซ็นต์สำหรับร้านขายของที่ระลึก",
+    "optionNotesTH": [
+     "ถูก: coupon for ten percent off = discount coupon",
+     "ผิด: ได้ชิมรสใหม่ในห้องชิม ไม่ได้รับขวดน้ำผลไม้ฟรีกลับไป",
+     "ผิด: local farms เป็นแหล่งผลไม้ ไม่มีทัวร์ฟาร์ม",
+     "ผิด: ไม่ได้พูดถึงสูตรอาหาร"
+    ]
+   }
+  ],
+  "translationTH": [
+   "ยินดีต้อนรับสู่ Sunridge Juice Company ฉันชื่อ Mei วันนี้จะพาทุกท่านชมโรงงานผลิตของเรา ก่อนเข้าไป กรุณาสวมแว่นนิรภัยและตาข่ายคลุมผมจากตะกร้าข้างประตู ทุกคนต้องสวมเมื่ออยู่ในพื้นที่โรงงาน แม้แต่ผู้มาเยี่ยมชม",
+   "จุดแรกคือพื้นที่ล้าง ซึ่งผลไม้ทั้งหมดจะถูกล้างเมื่อมาถึงจากฟาร์มในท้องถิ่น หลังจากนั้นเราจะไปดูไลน์บรรจุขวด ซึ่งบรรจุได้ถึงหนึ่งหมื่นสองพันขวดต่อชั่วโมง ข้างในเสียงดังมาก ฉันจึงจะอธิบายทุกอย่างก่อนเข้าไปแทนที่จะอธิบายข้างใน",
+   "ตอนจบทัวร์ เราจะแวะห้องชิม ซึ่งทุกท่านจะได้ลองสามรสชาติใหม่ล่าสุดของเรา และก่อนกลับ ทุกคนจะได้รับคูปองลดสิบเปอร์เซ็นต์สำหรับร้านขายของที่ระลึกของเรา"
+  ],
+  "tipTH": "คำถาม Why มักมีคำตอบอยู่ใกล้คำเชื่อม so หรือ because ให้ฟังเหตุผลที่อยู่ก่อน so ให้ดี",
+  "vocabulary": [
+   {
+    "word": "production facility",
+    "pos": "noun",
+    "th": "โรงงานผลิต"
+   },
+   {
+    "word": "hairnet",
+    "pos": "noun",
+    "th": "ตาข่ายคลุมผม"
+   },
+   {
+    "word": "bottling line",
+    "pos": "noun",
+    "th": "สายการบรรจุขวด"
+   },
+   {
+    "word": "noisy",
+    "pos": "adjective",
+    "th": "เสียงดัง"
+   }
+  ],
+  "group": "p4g1"
+ }
+]
