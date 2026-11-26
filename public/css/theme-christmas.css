@@ -1,0 +1,136 @@
+/* =====================================================================
+   ธีม "A Magical Christmas" (คริสต์มาส 2569 · v1.25.0) — ธีมเทศกาลอัตโนมัติ (config/season.js · ผู้ดูแลเปิด/ปิดได้)
+   โทนสี (ตามสเปก): Midnight #10213A · Pine #1F6A4C · Red #C63D3D · Gold #E6C26A · Snow #F7F9FC · Ice #CFE8F7 · Candle #FFBF66
+   - ฐานธีมมืด (data-theme="dark") + ชั้นธีม data-skin="christmas"
+   - ตัวอักษร: ข้อความหลัก #F7F9FC บนการ์ด #152A49 ≈ 14:1 · ตัวรอง #C9D8EC ≈ 9.6:1 · สีหลักทอง #E6C26A ≈ 8.7:1 (ตรวจใน test/e2e/xmas_e2e.py)
+   - หิมะตก = public/js/snow-fx.js (Canvas ใต้เนื้อหา) · หิมะเกาะเมนู/ไฟประดับ = CSS ในไฟล์นี้ (ภาพนิ่ง + กะพริบช้า ปิดได้)
+   - ไม่ใช้ backdrop-filter (ฉากหลังมีหิมะเคลื่อนไหว → เบลอใหม่ทุกเฟรม = ช้า — บทเรียนจากธีมลอยกระทง 20 → 58 fps)
+   ===================================================================== */
+:root[data-theme="dark"][data-skin="christmas"] {
+  --christmas-midnight: #10213A; --christmas-pine: #1F6A4C; --christmas-red: #C63D3D; --christmas-gold: #E6C26A;
+  --christmas-snow: #F7F9FC; --christmas-ice: #CFE8F7; --christmas-candle: #FFBF66;
+  --color-bg: #0B1830; --color-surface: #152A49; --color-surface-2: #1B3357; --color-border: #2E4B75;
+  --color-text: #F7F9FC; --color-text-muted: #C9D8EC;
+  --color-primary: #E6C26A; --color-primary-dark: #F3DDA0; --color-primary-soft: #2A3A4E;
+  --color-secondary: #CFE8F7; --color-accent: #FFBF66; --color-accent-bright: #FFB04D;
+  --color-success: #8FE0B0; --color-success-soft: #123A30;
+  --color-warning: #FFD27A; --color-warning-soft: #3A3014;
+  --color-danger: #FF9DA6; --color-danger-soft: #45182A;
+  --shadow-sm: 0 1px 2px rgba(2, 6, 16, 0.55), 0 0 0 1px rgba(207, 232, 247, 0.04);
+  --shadow-md: 0 8px 22px rgba(2, 6, 16, 0.6), 0 0 18px rgba(255, 191, 102, 0.07);
+  --focus-ring: 0 0 0 3px #0B1830, 0 0 0 6px #E6C26A;
+  --white: #F7F9FC; --parchment-dim: #C9D8EC;
+  --brand: #C63D3D; --brand-dark: #F3DDA0; --brand-accent: #E6C26A;
+  --il-paper: #1B3357; --il-paper-d: #152A49; --il-line: #36578A; --il-bg: #13274A;
+  --il-lilac: #3E6A9E; --il-lilac-d: #9CC3E6; --il-indigo: #4C7BB8; --il-indigo-d: #3A65A0;
+  --il-coral: #FF9DA6; --il-coral-d: #C63D3D; --il-amber: #E6C26A;
+  --xm-card: linear-gradient(165deg, #172E50 0%, #142846 55%, #11223D 100%);
+  color-scheme: dark;
+}
+
+/* ---------- ฉากหลัง: ฟ้าคืนหิมะตก + แสงหมู่บ้านไกล ๆ + เนินหิมะขอบล่าง (ภาพนิ่ง) ---------- */
+:root[data-skin="christmas"] body {
+  background-color: #0B1830;
+  background-image:
+    radial-gradient(70% 40% at 50% 104%, rgba(255, 191, 102, 0.16), transparent 70%),
+    radial-gradient(40% 30% at 12% 0%, rgba(207, 232, 247, 0.1), transparent 70%),
+    linear-gradient(180deg, #0D1D36 0%, #11284A 60%, #0B1830 100%);
+  background-attachment: fixed;
+}
+/* หมู่บ้าน + ต้นสนหิมะเกาะ + เนินหิมะ ที่ขอบล่าง (ใต้เนื้อหา ไม่รับการแตะ) */
+:root[data-skin="christmas"] body::before {
+  content: ''; position: fixed; inset: auto 0 0 0; top: auto; height: 110px; z-index: -2; pointer-events: none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 110' preserveAspectRatio='none'%3E%3Cpath d='M0 70 Q90 52 180 66 T360 62 T600 60 V110 H0Z' fill='%23E9F2FA'/%3E%3Cpath d='M0 86 Q120 74 260 84 T600 80 V110 H0Z' fill='%23CFE8F7' opacity='.75'/%3E%3C/svg%3E") bottom / 100% 100% no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 110'%3E%3Cg%3E%3Crect x='30' y='44' width='40' height='26' fill='%23203C63'/%3E%3Cpath d='M24 46 L50 26 L76 46Z' fill='%23E9F2FA'/%3E%3Crect x='38' y='52' width='8' height='8' fill='%23FFBF66'/%3E%3Crect x='54' y='52' width='8' height='8' fill='%23FFBF66'/%3E%3Cpath d='M110 66 L124 30 L138 66Z' fill='%231F6A4C'/%3E%3Cpath d='M124 30 L130 44 Q124 48 118 44Z' fill='%23F7F9FC'/%3E%3Cpath d='M180 66 L190 40 L200 66Z' fill='%23185A40'/%3E%3Crect x='222' y='48' width='34' height='22' fill='%231B3357'/%3E%3Cpath d='M217 50 L239 32 L261 50Z' fill='%23E9F2FA'/%3E%3Crect x='234' y='56' width='8' height='8' fill='%23FFBF66'/%3E%3C/g%3E%3C/svg%3E") bottom 34px left / 300px 110px repeat-x;
+  opacity: 0.9;
+}
+@media (max-width: 1023px) { :root[data-skin="christmas"] body::before { bottom: calc(64px + env(safe-area-inset-bottom, 0px)); height: 80px; background-size: 100% 100%, 220px 80px; background-position: bottom, bottom 22px left; } }
+#xm-snow { position: fixed; inset: 0; z-index: -1; pointer-events: none; display: block; }
+#xm-snow.is-off { display: none; }
+#xm-snow-fg { position: fixed; inset: 0; z-index: 40; pointer-events: none; display: block; }   /* ใต้แถบบน (50) / modal — เกล็ดใหญ่จาง ๆ ผ่านหน้าเล็กน้อย */
+
+/* ---------- แถบบน: หิมะเกาะขอบล่าง + น้ำแข็งย้อย + ไฟประดับดวงเล็ก ---------- */
+:root[data-skin="christmas"] :is(#hud, #bottom-nav, .gcm, .evc-nav, .evc button) { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+:root[data-skin="christmas"] #hud {
+  background: linear-gradient(180deg, rgba(21, 42, 73, 0.98), rgba(16, 33, 58, 0.97));
+  border-bottom: 1px solid rgba(207, 232, 247, 0.28); box-shadow: 0 6px 18px rgba(2, 6, 16, 0.45);
+}
+/* ไฟประดับ: ดวงไฟเล็กสีแดง/ทอง/เขียว/ฟ้า ห้อยตามขอบ — กะพริบช้า (ปิดเมื่อลดการเคลื่อนไหว/ปิดเอฟเฟกต์) */
+:root[data-skin="christmas"] #hud::before {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 10px; pointer-events: none; z-index: 1;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 10'%3E%3Cpath d='M0 1 Q30 6 60 1 T120 1 T180 1 T240 1' fill='none' stroke='%23395A80' stroke-width='.8'/%3E%3Ccircle cx='14' cy='4' r='2.2' fill='%23FF6B6B'/%3E%3Ccircle cx='44' cy='4' r='2.2' fill='%23FFD27A'/%3E%3Ccircle cx='74' cy='4' r='2.2' fill='%238FE0B0'/%3E%3Ccircle cx='104' cy='4' r='2.2' fill='%239CCBE8'/%3E%3Ccircle cx='134' cy='4' r='2.2' fill='%23FF6B6B'/%3E%3Ccircle cx='164' cy='4' r='2.2' fill='%23FFD27A'/%3E%3Ccircle cx='194' cy='4' r='2.2' fill='%238FE0B0'/%3E%3Ccircle cx='224' cy='4' r='2.2' fill='%239CCBE8'/%3E%3C/svg%3E") top left / 240px 10px repeat-x;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-skin="christmas"]:not([data-xmfx="off"]) #hud::before { animation: xm-twinkle 3.2s ease-in-out infinite; }
+  @keyframes xm-twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+}
+:root[data-skin="christmas"] .hud-exp-bar-bg { background: rgba(255, 255, 255, 0.1); }
+:root[data-skin="christmas"] .hud-exp-bar-fill { background: linear-gradient(90deg, #C63D3D, #E6C26A); }
+:root[data-skin="christmas"] .hud-icon-btn { background: rgba(255, 255, 255, 0.05); border-color: rgba(207, 232, 247, 0.28); color: #F7F9FC; }
+:root[data-skin="christmas"] .hud-icon-btn:hover { background: rgba(230, 194, 106, 0.12); }
+
+/* ---------- เมนูล่าง (มือถือ) / แถบข้าง (จอกว้าง): หิมะกองบนขอบบน ---------- */
+:root[data-skin="christmas"] #bottom-nav {
+  background: linear-gradient(180deg, rgba(21, 42, 73, 0.99), rgba(13, 27, 50, 0.99));
+  border-top: 1px solid rgba(207, 232, 247, 0.28); box-shadow: 0 -6px 18px rgba(2, 6, 16, 0.5);
+}
+@media (min-width: 1024px) {
+  :root[data-skin="christmas"] #bottom-nav { border-top: 0; border-right: 1px solid rgba(207, 232, 247, 0.24); }
+}
+:root[data-skin="christmas"] .nav-item { color: #C9D8EC; }
+:root[data-skin="christmas"] .nav-item.active, :root[data-skin="christmas"] .nav-item[aria-current="page"] { color: #F3DDA0; }
+:root[data-skin="christmas"] .nav-item.active .nav-icon, :root[data-skin="christmas"] .nav-item[aria-current="page"] .nav-icon {
+  background: radial-gradient(circle at 35% 30%, #FFE9E9, #E0575A 55%, #A82E33); color: #FFF8F0; box-shadow: 0 0 14px rgba(198, 61, 61, 0.55);
+}
+
+/* ---------- การ์ด / ปุ่ม ---------- */
+:root[data-skin="christmas"] :is(.home-card, .hl-panel, .card, .modal-card) { background: var(--xm-card); border-color: #2E4B75; }
+:root[data-skin="christmas"] .btn-primary, :root[data-skin="christmas"] .hl-act:not(.hl-act-ghost) {
+  background: linear-gradient(180deg, #E0575A 0%, #C63D3D 60%, #A82E33 100%); color: #FFF8F0; border-color: #8E2430;
+  box-shadow: 0 3px 0 #7A1E26, 0 8px 18px rgba(198, 61, 61, 0.28);
+}
+:root[data-skin="christmas"] .btn-primary:hover { filter: brightness(1.05); background: linear-gradient(180deg, #E86467 0%, #CC4444 60%, #AE3238 100%); color: #FFF8F0; }   /* v1.26.0 กัน hover ของธีมมืดทับเป็นสีซีด */
+:root[data-skin="christmas"] .home-cta { color: #2A1A06; background: linear-gradient(180deg, #F7DB8F, #E6C26A); }   /* v1.26.0 ปุ่ม "เรียนต่อ" อ่านออก (เดิมตัวอักษรสีอ่อนบนพื้นขาว) */
+
+/* ---------- หน้าเข้าสู่ระบบ: หมู่บ้านหิมะ + จิ้งจอกผ้าพันคอ + "Welcome to a Magical Christmas!" ---------- */
+:root[data-skin="christmas"] #screen-auth { background: transparent; }
+:root[data-skin="christmas"] #screen-auth .auth-bg { display: none; }
+:root[data-skin="christmas"] #screen-auth .auth-wrap { background: linear-gradient(160deg, rgba(23, 46, 80, 0.86), rgba(14, 28, 52, 0.9)); border: 1px solid rgba(207, 232, 247, 0.34);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset, 0 24px 60px rgba(2, 6, 16, 0.55), 0 0 40px rgba(255, 191, 102, 0.1); }
+:root[data-skin="christmas"] #screen-auth .auth-hero { background: linear-gradient(165deg, rgba(23, 46, 80, 0.5), rgba(11, 24, 48, 0.3)); color: #F7F9FC; position: relative; }
+:root[data-skin="christmas"] #screen-auth .auth-hero-art { background: url("/img/christmas/login-fox.webp") center / cover no-repeat; aspect-ratio: 1; width: min(100%, 260px); min-height: 0; margin: 8px auto 0; border-radius: 28px;
+  border: 1px solid rgba(207, 232, 247, 0.35); box-shadow: 0 14px 34px rgba(2, 6, 16, 0.45), 0 0 30px rgba(255, 191, 102, 0.12); }
+:root[data-skin="christmas"] #screen-auth .auth-hero-art > * { display: none; }
+:root[data-skin="christmas"] #screen-auth .auth-message { color: #F7F9FC; text-shadow: 0 2px 20px rgba(255, 191, 102, 0.28); }   /* ข้อความ "Welcome to a Magical Christmas!" ใส่โดย christmas.js (อ่านได้ทั้งตาและโปรแกรมอ่านจอ) */
+:root[data-skin="christmas"] #screen-auth .brand-title { color: #F7F9FC; }
+:root[data-skin="christmas"] #screen-auth .brand-sub { color: #CFE8F7; }
+:root[data-skin="christmas"] #screen-auth .auth-card { background: rgba(11, 24, 48, 0.78); color: #F7F9FC; }
+:root[data-skin="christmas"] #screen-auth .auth-welcome :is(h1, h2) { color: #F7F9FC; }
+:root[data-skin="christmas"] #screen-auth :is(.auth-note, .auth-welcome p, .auth-divider span) { color: #C9D8EC; }
+:root[data-skin="christmas"] #screen-auth .auth-divider span { background: transparent; }
+:root[data-skin="christmas"] #screen-auth .tabs { background: rgba(11, 24, 48, 0.6); border: 1px solid #2E4B75; }
+:root[data-skin="christmas"] #screen-auth .tab-btn { color: #C9D8EC; }
+:root[data-skin="christmas"] #screen-auth .tab-btn.active { background: linear-gradient(180deg, #E0575A, #C63D3D); color: #FFF8F0; }
+:root[data-skin="christmas"] #screen-auth .form-group label { color: #F7F9FC; }
+:root[data-skin="christmas"] #screen-auth .form-error { color: #FF9DA6; }
+/* หิมะเกาะขอบบนของกล่องเข้าสู่ระบบ */
+:root[data-skin="christmas"] #screen-auth .auth-wrap { position: relative; }
+:root[data-skin="christmas"] #screen-auth .auth-wrap::after {
+  content: ''; position: absolute; left: 18px; right: 18px; top: -8px; height: 14px; pointer-events: none; z-index: 2;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14'%3E%3Cpath d='M0 14 V9 Q12 3 26 8 Q40 1 56 7 Q70 3 84 8 Q100 0 118 7 Q132 3 146 8 Q160 2 176 7 Q190 4 200 9 V14Z' fill='%23F7F9FC'/%3E%3C/svg%3E") bottom left / 200px 14px repeat-x;
+}
+
+/* ---------- Lobby: ต้นคริสต์มาส + กล่องของขวัญหลังตัวละคร (ภาพนิ่ง) ---------- */
+:root[data-skin="christmas"] .hl-bg {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 170'%3E%3Cpath d='M60 6 L64 16 L75 17 L66 24 L69 35 L60 29 L51 35 L54 24 L45 17 L56 16Z' fill='%23E6C26A'/%3E%3Cpath d='M60 26 L86 66 L34 66Z M60 50 L96 104 L24 104Z M60 82 L108 146 L12 146Z' fill='%231F6A4C'/%3E%3Cpath d='M60 26 L70 42 Q60 48 50 42Z M60 50 L74 72 Q60 80 46 72Z M60 82 L78 108 Q60 116 42 108Z' fill='%23F7F9FC' opacity='.92'/%3E%3Crect x='53' y='146' width='14' height='18' fill='%235A3A22'/%3E%3Cg%3E%3Ccircle cx='48' cy='60' r='3' fill='%23C63D3D'/%3E%3Ccircle cx='72' cy='88' r='3' fill='%23E6C26A'/%3E%3Ccircle cx='40' cy='96' r='3' fill='%23CFE8F7'/%3E%3Ccircle cx='84' cy='124' r='3.2' fill='%23C63D3D'/%3E%3Ccircle cx='34' cy='130' r='3.2' fill='%23E6C26A'/%3E%3Ccircle cx='62' cy='120' r='3.2' fill='%23CFE8F7'/%3E%3C/g%3E%3C/svg%3E") 2% 98% / auto 34% no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 50'%3E%3Crect x='6' y='18' width='36' height='30' rx='2' fill='%23C63D3D'/%3E%3Crect x='21' y='18' width='6' height='30' fill='%23E6C26A'/%3E%3Cpath d='M24 18 Q14 6 18 4 Q24 6 24 18 Q30 6 34 4 Q36 8 24 18Z' fill='%23E6C26A'/%3E%3Crect x='48' y='26' width='28' height='22' rx='2' fill='%231F6A4C'/%3E%3Crect x='59' y='26' width='6' height='22' fill='%23F7F9FC'/%3E%3Crect x='82' y='22' width='30' height='26' rx='2' fill='%23CFE8F7'/%3E%3Crect x='94' y='22' width='6' height='26' fill='%23C63D3D'/%3E%3C/svg%3E") 98% 99% / auto 11% no-repeat,
+    radial-gradient(50% 44% at 50% 55%, rgba(255, 191, 102, 0.18), transparent 70%);
+}
+:root[data-skin="christmas"] .hl-bg-rays, :root[data-skin="christmas"] .hl-bg-sparks { opacity: 0.25; }
+
+/* ---------- เส้นทางการเรียน: ตกแต่งเบา ๆ (ไม่รบกวนเนื้อหา) ---------- */
+:root[data-skin="christmas"] .path-node.current, :root[data-skin="christmas"] .lp-node.is-current { box-shadow: 0 0 0 3px rgba(230, 194, 106, 0.55), 0 0 18px rgba(255, 191, 102, 0.35); }
+
+@media (prefers-reduced-motion: reduce) { :root[data-skin="christmas"] #hud::before { animation: none; } }

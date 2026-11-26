@@ -1,0 +1,471 @@
+{
+  "id": "b1-passive",
+  "summaryTh": "พูดถึงสิ่งที่ \"ถูกทำ\" โดยเน้นผู้ถูกกระทำ ไม่ใช่ผู้ทำ",
+  "concept": {
+    "what": "Passive Voice (be + V3) คือประโยคที่ประธานเป็น \"ผู้ถูกกระทำ\" เช่น The bridge was built in 1932. เราสนใจสะพาน ไม่ได้สนใจว่าใครสร้าง",
+    "when": [
+      "ไม่รู้ว่าใครทำ หรือไม่สำคัญว่าใครทำ: My bike was stolen last night.",
+      "ผู้ทำชัดเจนอยู่แล้ว: Rice is grown in many parts of Thailand. (ชาวนาปลูก)",
+      "ข่าว ประกาศ คำอธิบายขั้นตอน และงานเขียนทางการ: The results will be announced on Monday.",
+      "ถ้าอยากบอกผู้ทำด้วย ใช้ by: This song was written by a Thai singer."
+    ],
+    "why": "ภาษาไทยมักใช้ \"ถูก\" กับเรื่องไม่ดี (ถูกขโมย ถูกตี) แต่ภาษาอังกฤษใช้ passive กับเรื่องทั่วไปด้วย เช่น English is spoken here. (มีคนพูดภาษาอังกฤษที่นี่) ผู้เรียนไทยจึงมักลืมใช้ passive หรือใส่ be กับกริยาที่ไม่มีกรรม เช่น ✗ It was happened."
+  },
+  "structure": {
+    "formula": "Subject + be (ตาม tense) + V3 (+ by …)",
+    "rows": [
+      {
+        "label": "Present Simple",
+        "formula": "am/is/are + V3",
+        "example": "English [[is spoken]] in many countries."
+      },
+      {
+        "label": "Past Simple",
+        "formula": "was/were + V3",
+        "example": "The museum [[was built]] in 1900."
+      },
+      {
+        "label": "Present Continuous",
+        "formula": "am/is/are being + V3",
+        "example": "The road [[is being repaired]] this week."
+      },
+      {
+        "label": "Present Perfect",
+        "formula": "have/has been + V3",
+        "example": "The concert [[has been cancelled]]."
+      },
+      {
+        "label": "Future / Modal",
+        "formula": "will be + V3 · can/must/should be + V3",
+        "example": "The winners [[will be announced]] tomorrow."
+      },
+      {
+        "label": "ปฏิเสธ / คำถาม",
+        "formula": "be + not + V3 · Be + Subject + V3?",
+        "example": "The letter [[wasn't sent]]. / [[Was]] it [[sent]]?"
+      }
+    ],
+    "notes": [
+      "เปลี่ยน active เป็น passive: กรรมของ active ขึ้นมาเป็นประธาน · tense อยู่ที่ be · กริยาหลักเป็น V3 เสมอ",
+      "ใส่ by + ผู้ทำ เฉพาะเมื่อข้อมูลนั้นสำคัญหรือน่าสนใจ ส่วนใหญ่ไม่ต้องใส่ (✗ by someone, by people)",
+      "กริยาที่ไม่มีกรรม (happen, arrive, die, come, go) ทำเป็น passive ไม่ได้ → It happened. ไม่ใช่ It was happened.",
+      "be ต้องตรงกับประธาน: The letter was … · The letters were …"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Rice [[is grown]] in the Central Plains of Thailand.",
+      "th": "มีการปลูกข้าวในภาคกลางของไทย"
+    },
+    {
+      "en": "My phone [[was stolen]] on the train yesterday.",
+      "th": "โทรศัพท์ฉันถูกขโมยบนรถไฟเมื่อวาน"
+    },
+    {
+      "en": "This photo [[was taken]] [[by]] my grandfather in 1975.",
+      "th": "รูปนี้คุณปู่ถ่ายไว้เมื่อปี 1975"
+    },
+    {
+      "en": "The school hall [[is being painted]] this week.",
+      "th": "สัปดาห์นี้กำลังทาสีหอประชุมโรงเรียนอยู่"
+    },
+    {
+      "en": "Your order [[has been sent]]. It will arrive in two days.",
+      "th": "สินค้าของคุณถูกส่งออกไปแล้ว จะถึงภายในสองวัน"
+    },
+    {
+      "en": "Phones [[must be switched]] off during the exam.",
+      "th": "ต้องปิดโทรศัพท์ระหว่างสอบ"
+    },
+    {
+      "en": "The new library [[will be opened]] next month.",
+      "th": "ห้องสมุดใหม่จะเปิดเดือนหน้า"
+    },
+    {
+      "en": "[[Were]] you [[invited]] to Joy's wedding?",
+      "th": "คุณได้รับเชิญไปงานแต่งของจอยไหม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The accident was happened at night.",
+      "right": "The accident happened at night.",
+      "whyTh": "happen ไม่มีกรรม จึงทำเป็น passive ไม่ได้ ภาษาไทยพูด \"อุบัติเหตุเกิดขึ้น\" ไม่มี \"ถูก\" ภาษาอังกฤษก็เช่นกัน"
+    },
+    {
+      "wrong": "The museum was build in 1900.",
+      "right": "The museum was built in 1900.",
+      "whyTh": "passive ต้องใช้กริยาช่องที่ 3 เสมอ build → built"
+    },
+    {
+      "wrong": "English speaks in many countries.",
+      "right": "English is spoken in many countries.",
+      "whyTh": "ภาษาพูดเองไม่ได้ (ไม่ใช่ผู้ทำ) ต้องใช้ passive: is + V3 ภาษาไทยพูด \"ภาษาอังกฤษพูดกันในหลายประเทศ\" ได้ จึงพลาดบ่อย"
+    },
+    {
+      "wrong": "The letters was delivered this morning.",
+      "right": "The letters were delivered this morning.",
+      "whyTh": "be ต้องตรงกับประธาน letters เป็นพหูพจน์ จึงใช้ were"
+    },
+    {
+      "wrong": "My car is repairing at the garage.",
+      "right": "My car is being repaired at the garage.",
+      "whyTh": "รถซ่อมตัวเองไม่ได้ ต้องเป็น passive แบบกำลังเกิดขึ้น: is being + V3"
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "school",
+      "title": "How Thai tea is made",
+      "lines": [
+        {
+          "text": "Thai tea [[is made]] from strong black tea. First, the tea leaves [[are boiled]] in water for a few minutes. Then the tea [[is mixed]] with sugar and milk. Finally, it [[is poured]] over ice and [[served]] in a tall glass. Thai tea [[is sold]] at almost every market in the country."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "A lost bag",
+      "lines": [
+        {
+          "speaker": "Staff",
+          "text": "Good afternoon. How can I help you?"
+        },
+        {
+          "speaker": "Pim",
+          "text": "My bag [[was left]] on the bus this morning. [[Has]] it [[been found]]?"
+        },
+        {
+          "speaker": "Staff",
+          "text": "Let me check. Yes, a black bag [[was brought]] in at ten o'clock. Your name [[is written]] on it."
+        },
+        {
+          "speaker": "Pim",
+          "text": "That's mine. Thank you so much!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Active voice",
+      "th": "ประโยคที่ประธานเป็นผู้ทำ (Someone stole my bike.)"
+    },
+    {
+      "en": "Passive voice",
+      "th": "ประโยคที่ประธานเป็นผู้ถูกกระทำ (My bike was stolen.)"
+    },
+    {
+      "en": "Agent (by …)",
+      "th": "ผู้ทำ บอกด้วย by เมื่อจำเป็น"
+    },
+    {
+      "en": "Transitive verb",
+      "th": "กริยาที่มีกรรม (make, build) ทำเป็น passive ได้"
+    },
+    {
+      "en": "Intransitive verb",
+      "th": "กริยาที่ไม่มีกรรม (happen, arrive) ทำเป็น passive ไม่ได้"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-passive-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "English ___ in many countries around the world.",
+      "choices": [
+        "is spoken",
+        "speaks",
+        "is speaking",
+        "spoken"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ภาษาอังกฤษไม่ได้เป็นผู้พูด จึงใช้ active (speaks) ไม่ได้",
+        "2": "is speaking เป็น active กำลังทำ ความหมายคือภาษากำลังพูดเอง",
+        "3": "ขาด be — passive ต้องเป็น be + V3"
+      },
+      "explainTh": "ภาษาอังกฤษถูกพูด (ผู้ถูกกระทำ) + ข้อเท็จจริงทั่วไป → Present Simple passive: is + V3 → is spoken",
+      "structure": "Subject + is/are + V3",
+      "example": "English is spoken in many countries."
+    },
+    {
+      "id": "b1-passive-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "This bridge ___ in 1932.",
+      "choices": [
+        "was built",
+        "built",
+        "is built",
+        "was build"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "สะพานสร้างตัวเองไม่ได้ ต้องใช้ passive (was built)",
+        "2": "in 1932 เป็นอดีต ต้องใช้ was ไม่ใช่ is",
+        "3": "passive ต้องใช้ V3 (built) ไม่ใช่ V1 (build)"
+      },
+      "explainTh": "สะพานถูกสร้าง + in 1932 (อดีต) → Past Simple passive: was + V3 → was built",
+      "structure": "Subject + was/were + V3",
+      "example": "This bridge was built in 1932."
+    },
+    {
+      "id": "b1-passive-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "The letters ___ (deliver) every morning at nine o'clock.",
+      "accepted": [
+        "are delivered",
+        "get delivered"
+      ],
+      "explainTh": "จดหมายถูกส่ง + every morning (เป็นประจำ) → Present Simple passive · letters พหูพจน์ → are + V3: are delivered",
+      "structure": "Subject + are + V3",
+      "example": "The letters are delivered every morning."
+    },
+    {
+      "id": "b1-passive-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "My phone ___ (steal) on the bus yesterday.",
+      "accepted": [
+        "was stolen",
+        "got stolen"
+      ],
+      "explainTh": "โทรศัพท์ถูกขโมย + yesterday → Past Simple passive: was + V3 · steal–stole–stolen → was stolen (got stolen ใช้ในภาษาพูดได้)",
+      "structure": "Subject + was + V3",
+      "example": "My phone was stolen on the bus yesterday."
+    },
+    {
+      "id": "b1-passive-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "The exam results ___ (announce) next Monday.",
+      "accepted": [
+        "will be announced",
+        "are going to be announced",
+        "are being announced"
+      ],
+      "explainTh": "ผลสอบถูกประกาศ + next Monday (อนาคต) → will be + V3: will be announced (are going to be announced ก็ได้)",
+      "structure": "Subject + will be + V3",
+      "example": "The exam results will be announced next Monday."
+    },
+    {
+      "id": "b1-passive-06",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "You can't use the meeting room right now because it ___ (clean).",
+      "accepted": [
+        "is being cleaned"
+      ],
+      "explainTh": "right now = กำลังเกิดขึ้น + ห้องถูกทำความสะอาด → Present Continuous passive: is being + V3 → is being cleaned",
+      "structure": "Subject + is being + V3",
+      "example": "The room is being cleaned right now."
+    },
+    {
+      "id": "b1-passive-07",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Someone cleans the office every evening.",
+      "instruction": "เปลี่ยนเป็น passive ขึ้นต้นด้วย The office … (ไม่ต้องใส่ by someone)",
+      "accepted": [
+        "The office is cleaned every evening."
+      ],
+      "explainTh": "กรรม (the office) ขึ้นมาเป็นประธาน · cleans (Present Simple) → is + V3 · ไม่ใส่ by someone เพราะไม่ให้ข้อมูลเพิ่ม",
+      "structure": "Subject + is + V3",
+      "example": "The office is cleaned every evening."
+    },
+    {
+      "id": "b1-passive-08",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "They have cancelled the concert because of the storm.",
+      "instruction": "เปลี่ยนเป็น passive ขึ้นต้นด้วย The concert …",
+      "accepted": [
+        "The concert has been cancelled because of the storm.",
+        "The concert has been canceled because of the storm."
+      ],
+      "explainTh": "have cancelled (Present Perfect) → has been + V3 · the concert เป็นเอกพจน์จึงใช้ has",
+      "structure": "Subject + has been + V3",
+      "example": "The concert has been cancelled."
+    },
+    {
+      "id": "b1-passive-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Did Shakespeare write this play?",
+      "instruction": "เปลี่ยนเป็นคำถามแบบ passive ขึ้นต้นด้วย Was …",
+      "accepted": [
+        "Was this play written by Shakespeare?"
+      ],
+      "explainTh": "คำถาม passive ในอดีต: Was + Subject + V3 + by …? · write → written และใส่ by Shakespeare เพราะผู้เขียนเป็นข้อมูลสำคัญ",
+      "structure": "Was/Were + Subject + V3 (+ by …)?",
+      "example": "Was this play written by Shakespeare?"
+    },
+    {
+      "id": "b1-passive-10",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "The museum was build in 1900.",
+      "errorPart": "build",
+      "accepted": [
+        "The museum was built in 1900."
+      ],
+      "explainTh": "passive ต้องเป็น be + V3 · build–built–built → was built",
+      "structure": "was/were + V3"
+    },
+    {
+      "id": "b1-passive-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "This song was wrote by a famous Thai singer.",
+      "errorPart": "wrote",
+      "accepted": [
+        "This song was written by a famous Thai singer."
+      ],
+      "explainTh": "หลัง be ใน passive ต้องใช้ V3 ไม่ใช่ V2 · write–wrote–written → was written",
+      "structure": "was + V3 + by …"
+    },
+    {
+      "id": "b1-passive-12",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "The accident was happened late at night.",
+      "errorPart": "was happened",
+      "accepted": [
+        "The accident happened late at night."
+      ],
+      "explainTh": "happen เป็นกริยาที่ไม่มีกรรม ทำเป็น passive ไม่ได้ → The accident happened … (ภาษาไทย \"เกิดขึ้น\" ก็ไม่มีคำว่า \"ถูก\")",
+      "structure": "Subject + V2 (intransitive verb)"
+    },
+    {
+      "id": "b1-passive-13",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "was",
+        "by",
+        "the",
+        "painted",
+        "picture",
+        "my",
+        "grandfather"
+      ],
+      "accepted": [
+        "The picture was painted by my grandfather.",
+        "Was the picture painted by my grandfather?"
+      ],
+      "explainTh": "ผู้ถูกกระทำ (the picture) เป็นประธาน + was + V3 + by + ผู้ทำ → The picture was painted by my grandfather."
+    },
+    {
+      "id": "b1-passive-14",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่รูป passive กับ tense",
+      "pairs": [
+        [
+          "is made",
+          "Present Simple"
+        ],
+        [
+          "was made",
+          "Past Simple"
+        ],
+        [
+          "is being made",
+          "Present Continuous"
+        ],
+        [
+          "has been made",
+          "Present Perfect"
+        ],
+        [
+          "will be made",
+          "Future with will"
+        ]
+      ],
+      "explainTh": "tense ของ passive ดูที่ be: is/are · was/were · is being · has been · will be — ส่วนกริยาหลักเป็น V3 (made) เสมอ"
+    },
+    {
+      "id": "b1-passive-15",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Where's your car? I didn't see it outside."
+          },
+          {
+            "speaker": "B",
+            "text": "It ___ at the garage this week. It should be ready on Friday."
+          }
+        ]
+      },
+      "choices": [
+        "is being repaired",
+        "is repairing",
+        "repairs",
+        "has repaired"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "is repairing เป็น active แปลว่ารถกำลังซ่อม (สิ่งอื่น) เอง",
+        "2": "repairs เป็น active และเป็นกิจวัตร ความหมายผิด",
+        "3": "has repaired เป็น active แปลว่ารถซ่อมบางอย่างเสร็จแล้ว"
+      },
+      "explainTh": "รถถูกซ่อม (ผู้ถูกกระทำ) + this week ยังไม่เสร็จ (ready on Friday) → is being + V3: is being repaired"
+    },
+    {
+      "id": "b1-passive-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "announcement",
+        "title": "Library notice",
+        "lines": [
+          {
+            "text": "Notice to all students: The school library is being renovated this month. During this time, books can be borrowed from Room 204. All library books must be returned by 30 November. A fine of 5 baht a day will be charged for late books. The new library will be opened by the school director on 1 December."
+          }
+        ]
+      },
+      "question": "Where can students borrow books this month?",
+      "choices": [
+        "In Room 204",
+        "In the school library",
+        "From the school director",
+        "Nowhere, because borrowing has stopped"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ห้องสมุดกำลังถูกปรับปรุง (is being renovated) จึงยังใช้ไม่ได้",
+        "2": "ผู้อำนวยการเป็นคนเปิดห้องสมุดใหม่วันที่ 1 ธันวาคม ไม่ได้ให้ยืมหนังสือ",
+        "3": "ประกาศบอกว่า books can be borrowed from Room 204 ยังยืมได้"
+      },
+      "explainTh": "books can be borrowed from Room 204 — modal passive (can be + V3) บอกว่ายืมหนังสือได้ที่ห้อง 204"
+    },
+    {
+      "id": "b1-passive-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับโรงเรียน เมือง หรือบ้านของคุณ โดยใช้ passive (be + V3) อย่างน้อย 2 ประโยค (Write 3 sentences about your school, town or home. Use the passive at least twice.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(am|is|are|was|were|be|been|being)\\s+(not\\s+)?(\\w+ed|built|made|sold|spoken|written|taken|given|known|grown|eaten|seen|done|held|found|kept|taught|told|thought|brought|bought|paid|sent|worn|driven|chosen|broken|stolen|drunk|put|set|served|hidden|shown|won)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ passive (be + V3) เช่น was built, is spoken, are sold"
+        },
+        {
+          "re": "(\\b(am|is|are|was|were|be|been|being)\\s+(not\\s+)?(\\w+ed|built|made|sold|spoken|written|taken|given|known|grown|eaten|seen|done|held|found|kept|taught|told|thought|brought|bought|paid|sent|worn|driven|chosen|broken|stolen|drunk|put|set|served|hidden|shown|won)\\b[\\s\\S]*){2}",
+          "flags": "i",
+          "msgTh": "ใช้ passive อย่างน้อย 2 ครั้ง"
+        }
+      ],
+      "sample": "My school was built in 1975. Thai and English are taught there, and lunch is served at noon. Every year a sports day is held in December.",
+      "explainTh": "passive = be (ตาม tense) + V3 เช่น was built (อดีต) · are taught / is served / is held (ข้อเท็จจริงหรือสิ่งที่เกิดเป็นประจำ)"
+    }
+  ]
+}

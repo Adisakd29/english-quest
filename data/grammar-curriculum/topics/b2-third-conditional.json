@@ -1,0 +1,501 @@
+{
+  "id": "b2-third-conditional",
+  "summaryTh": "สมมติเรื่องในอดีตที่ไม่ได้เกิดจริง และผลที่จะเกิดขึ้นในอดีต",
+  "concept": {
+    "what": "Third conditional ใช้พูดถึงอดีตที่ \"ไม่ได้เป็นแบบนั้นจริง\" แล้วจินตนาการว่าถ้าเป็นแบบนั้นผลในอดีตจะต่างไปอย่างไร โครงสร้าง: If + had + V3, would have + V3",
+    "when": [
+      "เสียดายหรือคิดย้อนเรื่องที่ผ่านไปแล้ว (If I had studied, I would have passed.)",
+      "วิจารณ์หรือตำหนิสิ่งที่เกิดไปแล้ว (If you had listened, this wouldn't have happened.)",
+      "บอกความโล่งใจว่าโชคดีที่ไม่เกิด (If he hadn't braked, he would have hit the dog.)",
+      "ใช้ could have / might have แทน would have เมื่อหมายถึง \"อาจจะ/สามารถ\""
+    ],
+    "why": "ภาษาไทยพูดว่า \"ถ้ารู้ก็คงไปแล้ว\" โดยไม่เปลี่ยนรูปกริยา แต่ภาษาอังกฤษต้องถอย tense ไปไกลถึง had + V3 เพื่อบอกว่าเรื่องนี้ \"ไม่ได้เกิดจริง และจบไปแล้ว\" ถ้าใช้ If I knew … จะกลายเป็นสมมติเรื่องตอนนี้"
+  },
+  "structure": {
+    "formula": "If + Subject + had + V3, Subject + would have + V3",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "If + had + V3, would have + V3",
+        "example": "If we [[had left]] earlier, we [[would have caught]] the train."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "If + hadn't + V3, wouldn't have + V3",
+        "example": "If it [[hadn't rained]], we [[wouldn't have cancelled]] the trip."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "What would you have + V3 + if + had + V3?",
+        "example": "What [[would]] you [[have done]] if you [[had lost]] your passport?"
+      },
+      {
+        "label": "could / might",
+        "formula": "If + had + V3, could/might have + V3",
+        "example": "If she [[had applied]], she [[might have got]] the job."
+      },
+      {
+        "label": "สลับ if (ทางการ)",
+        "formula": "Had + Subject + V3, would have + V3",
+        "example": "[[Had]] I [[known]], I [[would have helped]]."
+      }
+    ],
+    "notes": [
+      "สลับประโยคได้: I would have helped if you had asked. (ไม่ต้องมีจุลภาค)",
+      "ภาษาพูดย่อเป็น I'd have / would've / I'd known — ระวัง 'd อาจเป็น had หรือ would",
+      "ไม่ใช้ would ในประโยค if: If I had known (ไม่ใช่ If I would have known)",
+      "had had = had (กริยาแท้ช่อง 3) ใช้ได้ถูกต้อง: If I had had time, I would have called."
+    ]
+  },
+  "examples": [
+    {
+      "en": "If I [[had known]] about the party, I [[would have gone]].",
+      "th": "ถ้าฉันรู้เรื่องปาร์ตี้ ฉันคงไปแล้ว (แต่ไม่รู้ เลยไม่ได้ไป)"
+    },
+    {
+      "en": "We [[wouldn't have got]] lost if we [[had used]] the map app.",
+      "th": "พวกเราคงไม่หลงทาง ถ้าใช้แอปแผนที่"
+    },
+    {
+      "en": "If she [[hadn't missed]] the bus, she [[would have arrived]] on time.",
+      "th": "ถ้าเธอไม่พลาดรถเมล์ เธอคงมาทันเวลา"
+    },
+    {
+      "en": "If you [[had told]] me earlier, I [[could have helped]] you.",
+      "th": "ถ้าคุณบอกฉันเร็วกว่านี้ ฉันคงช่วยคุณได้"
+    },
+    {
+      "en": "He [[might have won]] the race if he [[hadn't fallen]].",
+      "th": "เขาอาจจะชนะการแข่งขัน ถ้าเขาไม่ล้ม"
+    },
+    {
+      "en": "What [[would]] you [[have done]] if the hotel [[had been]] full?",
+      "th": "ถ้าตอนนั้นโรงแรมเต็ม คุณจะทำอย่างไร (แต่จริง ๆ โรงแรมไม่เต็ม)"
+    },
+    {
+      "en": "If I [[had checked]] my email, I [[wouldn't have missed]] the meeting.",
+      "th": "ถ้าฉันเช็กอีเมล ฉันคงไม่พลาดการประชุม"
+    },
+    {
+      "en": "[[Had]] they [[booked]] earlier, they [[would have got]] cheaper tickets.",
+      "th": "ถ้าพวกเขาจองเร็วกว่านี้ คงได้ตั๋วราคาถูกกว่า (แบบทางการ)"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I would have known, I would have come.",
+      "right": "If I had known, I would have come.",
+      "whyTh": "ประโยค if ใช้ had + V3 ไม่ใช้ would — would อยู่ฝั่งผลลัพธ์เท่านั้น"
+    },
+    {
+      "wrong": "If I knew about the test, I would have studied.",
+      "right": "If I had known about the test, I would have studied.",
+      "whyTh": "เรื่องสอบจบไปแล้ว ฝั่ง if ต้องถอยเป็น had + V3 (knew ใช้สมมติปัจจุบัน)"
+    },
+    {
+      "wrong": "If she had studied, she would passed.",
+      "right": "If she had studied, she would have passed.",
+      "whyTh": "ฝั่งผลลัพธ์ต้องเป็น would have + V3 ห้ามขาด have"
+    },
+    {
+      "wrong": "If we had left earlier, we will have caught the train.",
+      "right": "If we had left earlier, we would have caught the train.",
+      "whyTh": "สมมติอดีตที่ไม่จริงใช้ would ไม่ใช่ will"
+    },
+    {
+      "wrong": "If he had came, he would have enjoyed it.",
+      "right": "If he had come, he would have enjoyed it.",
+      "whyTh": "หลัง had ต้องใช้ V3: come – came – come (ไม่ใช่ came)"
+    }
+  ],
+  "compare": {
+    "title": "Second Conditional vs Third Conditional",
+    "with": [
+      "b1-second-conditional"
+    ],
+    "rows": [
+      {
+        "label": "เวลา",
+        "a": "ปัจจุบัน/อนาคต ที่ไม่จริงหรือไม่น่าเป็นไปได้",
+        "b": "อดีตที่ไม่ได้เกิดจริง (จบไปแล้ว เปลี่ยนไม่ได้)"
+      },
+      {
+        "label": "โครงสร้าง",
+        "a": "If + V2, would + V1",
+        "b": "If + had + V3, would have + V3"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "If I had more time, I would help you. (ตอนนี้ไม่มีเวลา)",
+        "b": "If I had had more time, I would have helped you. (ตอนนั้นไม่มีเวลา)"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่าเรื่องนี้ \"ผ่านไปแล้วหรือยัง\" ถ้าผ่านไปแล้วและเปลี่ยนไม่ได้ ใช้ Third conditional"
+  },
+  "contexts": [
+    {
+      "kind": "story",
+      "title": "A bad morning",
+      "lines": [
+        {
+          "text": "Last Friday, Krit overslept because his phone battery died during the night. He missed the bus and arrived at the exam twenty minutes late. \"If I [[had charged]] my phone, I [[would have woken]] up on time,\" he said. \"And if I [[hadn't missed]] the bus, I [[wouldn't have lost]] twenty minutes.\""
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "After the match",
+      "lines": [
+        {
+          "speaker": "Coach",
+          "text": "We lost 2–1, but it was close."
+        },
+        {
+          "speaker": "Player",
+          "text": "If Nok [[hadn't got]] injured, we [[would have won]]."
+        },
+        {
+          "speaker": "Coach",
+          "text": "Maybe. And if we [[had trained]] harder, we [[might have scored]] more goals."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Third conditional",
+      "th": "ประโยคเงื่อนไขสมมติอดีตที่ไม่ได้เกิดจริง"
+    },
+    {
+      "en": "If-clause",
+      "th": "ส่วนเงื่อนไข (ประโยคที่มี if)"
+    },
+    {
+      "en": "Main clause / result clause",
+      "th": "ส่วนผลลัพธ์ (would have + V3)"
+    },
+    {
+      "en": "Unreal past",
+      "th": "อดีตที่ไม่จริง — สิ่งที่ไม่ได้เกิดขึ้น"
+    },
+    {
+      "en": "Regret",
+      "th": "ความเสียดาย"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-third-conditional-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "If I had known about the party last Saturday, I ___.",
+      "choices": [
+        "would have gone",
+        "would go",
+        "will go",
+        "had gone"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "would go เป็นผลในปัจจุบัน/อนาคต แต่ปาร์ตี้จบไปแล้ว (last Saturday)",
+        "2": "will go ใช้กับเงื่อนไขที่เป็นไปได้จริง ไม่ใช่สมมติอดีต",
+        "3": "had gone อยู่ฝั่ง if ฝั่งผลต้องเป็น would have + V3"
+      },
+      "explainTh": "สมมติอดีตที่ไม่จริง (ไม่รู้ เลยไม่ได้ไป) → If + had + V3, would have + V3",
+      "structure": "If + had + V3, would have + V3",
+      "example": "If I had known, I would have gone."
+    },
+    {
+      "id": "b2-third-conditional-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "If we ___ (leave) earlier, we wouldn't have missed the train.",
+      "accepted": [
+        "had left"
+      ],
+      "explainTh": "ฝั่ง if ของ Third conditional ใช้ had + V3 → had left (ความจริงคือออกช้า เลยตกรถไฟ)",
+      "structure": "If + had + V3",
+      "example": "If we had left earlier, …"
+    },
+    {
+      "id": "b2-third-conditional-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "She ___ (not / fail) the exam if she had studied harder.",
+      "accepted": [
+        "wouldn't have failed",
+        "would not have failed",
+        "might not have failed"
+      ],
+      "explainTh": "ฝั่งผลของ Third conditional: would + not + have + V3 → wouldn't have failed (might not have failed = อาจจะไม่ตก ก็ถูก)",
+      "structure": "wouldn't have + V3",
+      "example": "She wouldn't have failed."
+    },
+    {
+      "id": "b2-third-conditional-04",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "If he would have called me, I would have helped him.",
+      "errorPart": "would have called",
+      "accepted": [
+        "If he had called me, I would have helped him.",
+        "If he'd called me, I would have helped him.",
+        "Had he called me, I would have helped him."
+      ],
+      "explainTh": "ประโยค if ไม่ใช้ would ต้องใช้ had + V3 → If he had called me",
+      "structure": "If + had + V3, would have + V3"
+    },
+    {
+      "id": "b2-third-conditional-05",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "We would have won yesterday's match if our best player ___ injured in the first half.",
+      "choices": [
+        "hadn't got",
+        "didn't get",
+        "wouldn't get",
+        "hasn't got"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "didn't get เป็นรูปของ Second conditional (สมมติปัจจุบัน) แต่การบาดเจ็บเกิดในแมตช์เมื่อวาน",
+        "2": "ฝั่ง if ไม่ใช้ would",
+        "3": "hasn't got เป็น Present Perfect ใช้สมมติอดีตไม่ได้"
+      },
+      "explainTh": "การบาดเจ็บเกิดในอดีตและผลก็อยู่ในอดีต → If + hadn't + V3: hadn't got injured"
+    },
+    {
+      "id": "b2-third-conditional-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "I didn't have an umbrella, so I got wet.",
+      "instruction": "เขียนใหม่เป็น Third conditional ขึ้นต้นด้วย If I … และใช้ wet",
+      "accepted": [
+        "If I had had an umbrella, I wouldn't have got wet.",
+        "If I had had an umbrella I wouldn't have got wet.",
+        "If I had had an umbrella, I wouldn't have gotten wet.",
+        "If I had had an umbrella I wouldn't have gotten wet.",
+        "If I'd had an umbrella, I wouldn't have got wet.",
+        "If I'd had an umbrella I wouldn't have got wet.",
+        "If I'd had an umbrella, I wouldn't have gotten wet.",
+        "If I'd had an umbrella I wouldn't have gotten wet."
+      ],
+      "explainTh": "ความจริง: ไม่มีร่ม → สมมติตรงข้าม: had had (had + V3 ของ have) · ผล: เปียก → wouldn't have got wet (AmE: gotten)",
+      "structure": "If + had + V3, wouldn't have + V3"
+    },
+    {
+      "id": "b2-third-conditional-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "She was late because the bus broke down.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย If the bus … และใช้ late",
+      "accepted": [
+        "If the bus hadn't broken down, she wouldn't have been late.",
+        "If the bus hadn't broken down she wouldn't have been late.",
+        "If the bus hadn't broken down, she wouldn't have arrived late.",
+        "If the bus hadn't broken down she wouldn't have arrived late."
+      ],
+      "explainTh": "ความจริง: รถเสีย → สมมติ hadn't broken down · ความจริง: สาย → wouldn't have been late (break – broke – broken)",
+      "structure": "If + hadn't + V3, wouldn't have + V3"
+    },
+    {
+      "id": "b2-third-conditional-08",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "if",
+        "you",
+        "had",
+        "asked",
+        "me",
+        "I",
+        "would",
+        "have",
+        "helped",
+        "you"
+      ],
+      "accepted": [
+        "If you had asked me I would have helped you.",
+        "I would have helped you if you had asked me.",
+        "If I had asked you you would have helped me.",
+        "You would have helped me if I had asked you."
+      ],
+      "explainTh": "If + had + V3 (had asked), would have + V3 (would have helped) — สลับเอาส่วนผลขึ้นก่อนก็ได้"
+    },
+    {
+      "id": "b2-third-conditional-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "she",
+        "would",
+        "have",
+        "passed",
+        "if",
+        "she",
+        "had",
+        "studied"
+      ],
+      "accepted": [
+        "She would have passed if she had studied.",
+        "If she had studied she would have passed."
+      ],
+      "explainTh": "would have + V3 + if + had + V3 → She would have passed if she had studied."
+    },
+    {
+      "id": "b2-third-conditional-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่เงื่อนไขกับผลลัพธ์ที่สมเหตุสมผล",
+      "pairs": [
+        [
+          "If it hadn't rained,",
+          "we would have had a picnic."
+        ],
+        [
+          "If I had set my alarm,",
+          "I wouldn't have overslept."
+        ],
+        [
+          "If she had checked the map,",
+          "she wouldn't have got lost."
+        ],
+        [
+          "If they had saved more money,",
+          "they could have bought the house."
+        ]
+      ],
+      "explainTh": "ทุกคู่ใช้ If + had + V3, would/could have + V3 — ดูความหมายให้เข้ากัน เช่น ตั้งนาฬิกาปลุก → ไม่ตื่นสาย"
+    },
+    {
+      "id": "b2-third-conditional-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง (ตอนนั้นฉันไม่รู้ว่าคุณป่วย เลยไม่ได้ไปเยี่ยม)",
+      "choices": [
+        "If I had known you were ill, I would have visited you.",
+        "If I would have known you were ill, I would have visited you.",
+        "If I had known you were ill, I will have visited you.",
+        "If I had knew you were ill, I would have visited you."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ฝั่ง if ไม่ใช้ would ต้องเป็น had + V3",
+        "2": "สมมติอดีตใช้ would have ไม่ใช่ will have",
+        "3": "หลัง had ต้องใช้ V3: known ไม่ใช่ knew"
+      },
+      "explainTh": "If + had known (V3), would have + visited (V3)"
+    },
+    {
+      "id": "b2-third-conditional-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The concert last night was amazing! Why didn't you come?"
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody told me about it! If someone ___ me, I would definitely have come."
+          }
+        ]
+      },
+      "choices": [
+        "had told",
+        "told",
+        "would tell",
+        "has told"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "told ใช้กับ Second conditional (สมมติปัจจุบัน) แต่คอนเสิร์ตจบไปแล้ว",
+        "2": "ฝั่ง if ไม่ใช้ would",
+        "3": "has told เป็น Present Perfect ใช้ในประโยคสมมติอดีตไม่ได้"
+      },
+      "explainTh": "ความจริงคือไม่มีใครบอก (อดีต) → สมมติตรงข้าม: If someone had told me, I would have come."
+    },
+    {
+      "id": "b2-third-conditional-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "story",
+        "title": "A bad morning",
+        "lines": [
+          {
+            "text": "Last Friday, Krit overslept because his phone battery died during the night. He missed the bus and arrived at the exam twenty minutes late. \"If I had charged my phone, I would have woken up on time,\" he said. \"And if I hadn't missed the bus, I wouldn't have lost twenty minutes.\""
+          }
+        ]
+      },
+      "question": "Which sentence is TRUE?",
+      "choices": [
+        "Krit didn't charge his phone.",
+        "Krit woke up on time.",
+        "Krit caught the bus.",
+        "Krit arrived at the exam on time."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "would have woken up on time เป็นการสมมติ ความจริงคือเขาตื่นสาย",
+        "2": "if I hadn't missed the bus บอกว่าความจริงเขาพลาดรถเมล์",
+        "3": "เรื่องบอกว่าเขามาสาย 20 นาที"
+      },
+      "explainTh": "Third conditional พูดตรงข้ามกับความจริง: If I had charged my phone → ความจริงคือเขาไม่ได้ชาร์จ"
+    },
+    {
+      "id": "b2-third-conditional-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "___ the fire alarm, they would have left the building earlier.",
+      "choices": [
+        "Had they heard",
+        "If they heard",
+        "Have they heard",
+        "Did they hear"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "If they heard เป็น Second conditional ไม่เข้ากับ would have left",
+        "2": "Have they heard เป็นคำถาม Present Perfect ใช้เป็นเงื่อนไขไม่ได้",
+        "3": "Did they hear เป็นคำถาม Past Simple ใช้เป็นเงื่อนไขไม่ได้"
+      },
+      "explainTh": "แบบทางการ ตัด if แล้วสลับ had ขึ้นหน้าประธาน: Had they heard = If they had heard"
+    },
+    {
+      "id": "b2-third-conditional-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "If the doctors hadn't acted so quickly, the patient ___ (might / not / survive).",
+      "accepted": [
+        "might not have survived",
+        "mightn't have survived"
+      ],
+      "explainTh": "ฝั่งผลของ Third conditional ใช้ might + not + have + V3 → might not have survived (อาจจะไม่รอด)",
+      "structure": "might not have + V3"
+    },
+    {
+      "id": "b2-third-conditional-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยค Third conditional เกี่ยวกับเรื่องในอดีตของคุณที่อยากให้ต่างไป (Write 3 third conditional sentences about things in your past.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bif\\b[^.!?]*(\\b(had|hadn't)|\\w'd)\\s+(not\\s+|never\\s+)?\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ If + had + V3 อย่างน้อย 1 ครั้ง เช่น If I had studied …"
+        },
+        {
+          "re": "\\b(would|could|might)(n't)?\\s+(not\\s+|never\\s+)?have\\s+\\w+|\\b(would|could|might)(n't)?'ve\\s+\\w+|\\w'd\\s+(not\\s+|never\\s+)?have\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ฝั่งผลใช้ would/could/might have + V3 เช่น I would have passed."
+        }
+      ],
+      "sample": "If I had studied harder at school, I would have got better grades. If my friend hadn't helped me, I would have failed the maths test. I could have joined the trip if I had saved enough money.",
+      "explainTh": "ทุกประโยคมีสองส่วน: If + had + V3 (สิ่งที่ไม่ได้เกิดจริง) และ would/could have + V3 (ผลในอดีตที่ไม่ได้เกิด)"
+    }
+  ]
+}

@@ -1,0 +1,1574 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S1",
+  "title": "A-Level ภาษาอังกฤษ ชุดฝึกที่ 1",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S1-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the admissions office",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "Good morning. Welcome to the Admissions Office. How can I help you?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Hi. I submitted my application to the Faculty of Engineering last week, but I still haven't received a confirmation email. ___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Certainly. Could I have your application number, please?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "It's ENG-24718."
+            },
+            {
+              "speaker": "Officer",
+              "text": "Let me see... Here it is. It seems two letters in your email address were typed the wrong way round. ___2___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Oh no, that explains it. ___3___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Of course. I've corrected it, so the confirmation should arrive within an hour. Your portfolio, however, is still marked as incomplete."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Really? I uploaded it on Friday."
+            },
+            {
+              "speaker": "Officer",
+              "text": "The file was uploaded, but it's over the 10 MB limit, so the system rejected it. ___4___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "I'll do that tonight. Thank you so much for your help."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S1-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Will I have to send the whole application again?",
+                "Could you check whether it actually went through?",
+                "Could you give me the phone number of the faculty office?",
+                "Is it possible to switch to another faculty?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ploy ยังไม่ได้รับอีเมลยืนยัน จึงขอให้เจ้าหน้าที่ตรวจว่าใบสมัครส่งถึงหรือไม่ เจ้าหน้าที่จึงขอเลขที่ใบสมัครเพื่อค้นหา ส่วนการถามว่าต้องส่งใหม่ทั้งหมดไหม ถ้าตอบ \"Certainly\" จะขัดกับตอนท้ายที่แก้อีเมลให้โดยไม่ต้องสมัครใหม่ และการขอเบอร์โทรคณะหรือขอย้ายคณะไม่เกี่ยวกับการค้นข้อมูลที่ตามมา"
+            },
+            {
+              "id": "AL-S1-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "You'll have to submit a new application, I'm afraid.",
+                "Don't worry, our system automatically fixes typos like that.",
+                "That's probably why the confirmation never reached you.",
+                "So we sent your confirmation by text message instead."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "อีเมลพิมพ์ผิดจึงเป็นสาเหตุที่อีเมลยืนยันส่งไม่ถึง Ploy จึงตอบว่า \"that explains it\" ส่วนการต้องสมัครใหม่ขัดกับที่เจ้าหน้าที่แก้อีเมลให้ทันทีในภายหลัง และถ้าระบบแก้คำผิดเองหรือส่งทาง SMS แทน Ploy ก็ควรได้รับการยืนยันแล้ว จึงไม่ใช่คำอธิบายของปัญหา"
+            },
+            {
+              "id": "AL-S1-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'd rather you didn't change anything.",
+                "Can I fix it myself online later?",
+                "Do I need to show you my ID card?",
+                "Could you update it for me?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"Of course. I've corrected it\" แสดงว่า Ploy ขอให้เจ้าหน้าที่แก้อีเมลให้ ส่วนการไม่ให้แก้อะไรหรือการจะแก้เองทางออนไลน์ขัดกับที่เจ้าหน้าที่แก้ให้ทันที และคำถามเรื่องบัตรประชาชนไม่สอดคล้องกับ \"I've corrected it\""
+            },
+            {
+              "id": "AL-S1-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "There's no need for you to do anything else.",
+                "We'll shrink the file for you automatically next week.",
+                "Could you make it smaller and upload it again?",
+                "Portfolios are no longer required for this faculty."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ไฟล์เกิน 10 MB จึงต้องลดขนาดแล้วอัปโหลดใหม่ และ Ploy ตอบว่า \"I'll do that tonight\" ซึ่งต้องเป็นสิ่งที่เธอต้องทำเอง ตัวเลือกอื่นไม่ได้ให้เธอทำอะไร"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Planning a group project",
+          "dialogue": [
+            {
+              "speaker": "Nat",
+              "text": "We have to present our project on urban heat on Thursday. Has everyone finished their part?"
+            },
+            {
+              "speaker": "Fah",
+              "text": "I've done the slides on the causes, but I'm still waiting for the survey results from Kirk."
+            },
+            {
+              "speaker": "Kirk",
+              "text": "Sorry, ___1___ I'll send them to you tonight, I promise."
+            },
+            {
+              "speaker": "Nat",
+              "text": "That's fine, as long as we have them by tomorrow. Fah, ___2___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Not at all. I'll make a bar chart comparing the two neighbourhoods."
+            },
+            {
+              "speaker": "Kirk",
+              "text": "What about the conclusion? We still haven't agreed on our main recommendation."
+            },
+            {
+              "speaker": "Nat",
+              "text": "___3___ Planting more trees seems the cheapest option, but cool roofs might work faster."
+            },
+            {
+              "speaker": "Fah",
+              "text": "Why don't we present both and let the class vote on the best one?"
+            },
+            {
+              "speaker": "Kirk",
+              "text": "___4___ It'll make the presentation much more interactive."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S1-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I sent them to you about a month ago.",
+                "I thought Fah was doing the survey.",
+                "I've already sent them to the whole class.",
+                "I've been so busy revising for exams."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Kirk ขอโทษและให้เหตุผลว่ายุ่งกับการทบทวนสอบ แล้วสัญญาว่าจะส่งคืนนี้ ส่วนการบอกว่าส่งไปแล้ว หรือคิดว่า Fah เป็นคนทำแบบสำรวจ ขัดกับการที่เขาสัญญาว่าจะส่งผลสำรวจให้คืนนี้"
+            },
+            {
+              "id": "AL-S1-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "would you mind adding a chart once the data arrives?",
+                "would you mind to add a chart once the data arrives?",
+                "would you mind if I add a chart once the data arrived?",
+                "wouldn't you add a chart once the data will arrive?"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง would you mind + V-ing ใช้ขอร้อง และ Fah ตอบ \"Not at all. I'll make a bar chart\" แสดงว่าเธอเป็นคนทำเอง ตัวเลือก \"mind to add\" ผิดไวยากรณ์ และ \"if I add\" หมายถึง Nat ทำเอง"
+            },
+            {
+              "id": "AL-S1-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I've already made up my mind.",
+                "I'd rather not discuss the project now.",
+                "We agreed on that last week, remember?",
+                "I'm torn between two ideas."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Nat ยังลังเลระหว่างการปลูกต้นไม้กับหลังคาเย็น (\"seems... but might\") จึงต้องเป็น \"torn between two ideas\" ตัวเลือกที่บอกว่าตัดสินใจแล้วหรือตกลงกันแล้วขัดกับบริบท"
+            },
+            {
+              "id": "AL-S1-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I couldn't agree less.",
+                "I'm not so sure about that.",
+                "Let's not go overboard.",
+                "I'm all for it."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Kirk เห็นด้วยกับข้อเสนอ เพราะประโยคต่อมาบอกว่าจะทำให้การนำเสนอมีปฏิสัมพันธ์มากขึ้น \"I'm all for it\" = สนับสนุนเต็มที่ ส่วน \"I couldn't agree less\" แปลว่าไม่เห็นด้วยอย่างยิ่ง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At a travel agency",
+          "dialogue": [
+            {
+              "speaker": "Agent",
+              "text": "Good afternoon, Horizon Trails Travel. How may I help you?"
+            },
+            {
+              "speaker": "Wan",
+              "text": "Hi. I'm looking for a three-day trip to Chiang Mai for my family in early December. ___1___"
+            },
+            {
+              "speaker": "Agent",
+              "text": "We have two. \"City and Culture\" includes temple visits and a cooking class, while \"Mountain Escape\" focuses on hiking and a night at a farm stay."
+            },
+            {
+              "speaker": "Wan",
+              "text": "My parents aren't very fit, so ___2___"
+            },
+            {
+              "speaker": "Agent",
+              "text": "Good choice. It's 8,900 baht per person, including flights and the hotel. ___3___"
+            },
+            {
+              "speaker": "Wan",
+              "text": "Yes, my younger brother is eleven."
+            },
+            {
+              "speaker": "Agent",
+              "text": "In that case, he qualifies for our 20 percent child discount."
+            },
+            {
+              "speaker": "Wan",
+              "text": "Great. ___4___ Do I have to pay the full amount now?"
+            },
+            {
+              "speaker": "Agent",
+              "text": "No, a 30 percent deposit is enough to secure your seats."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S1-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Is December a good time to go there?",
+                "What packages do you have available?",
+                "Do you have any beach trips that week?",
+                "Which hotel there would you recommend?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"We have two.\" แล้วอธิบายแพ็กเกจเชียงใหม่สองแบบ คำถามจึงต้องถามว่ามีแพ็กเกจอะไรบ้าง ส่วนคำถามเรื่องช่วงเวลาที่เหมาะ ทริปทะเล หรือโรงแรมที่แนะนำ ไม่ได้คำตอบเป็นแพ็กเกจเชียงใหม่สองแบบ"
+            },
+            {
+              "id": "AL-S1-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "the hiking trip would be perfect for them.",
+                "they would love to climb a mountain.",
+                "the first one sounds more suitable.",
+                "we'd prefer something more active."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "พ่อแม่ไม่ค่อยแข็งแรง จึงเหมาะกับแพ็กเกจแรกที่ไม่ต้องเดินป่า และเจ้าหน้าที่ตอบรับว่า \"Good choice\" ส่วนการเลือกทริปเดินป่า ปีนเขา หรือกิจกรรมที่ใช้แรงมากขึ้น ขัดกับเหตุผลนี้"
+            },
+            {
+              "id": "AL-S1-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Will any children be travelling with you?",
+                "Would you like to add travel insurance?",
+                "Is anyone in your group over sixty?",
+                "Have you ever booked a trip with us before?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Wan ตอบว่า \"Yes, my younger brother is eleven.\" และเจ้าหน้าที่พูดถึงส่วนลดเด็ก คำถามจึงต้องถามว่ามีเด็กเดินทางด้วยหรือไม่ ส่วนคำถามเรื่องประกันการเดินทาง ผู้ที่อายุเกินหกสิบ หรือเคยจองมาก่อน ไม่เข้ากับคำตอบที่บอกอายุของน้องชาย"
+            },
+            {
+              "id": "AL-S1-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'll talk to my parents and call you back.",
+                "I'm afraid that's well beyond our budget.",
+                "I'd like to go ahead and book it.",
+                "Could I see the hiking package again?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Wan ถามต่อว่า \"Do I have to pay the full amount now?\" แสดงว่าตัดสินใจจองแล้ว ส่วนการขอไปปรึกษาพ่อแม่ก่อน การบอกว่าเกินงบ หรือการกลับไปดูแพ็กเกจเดินป่า ขัดกับคำถามเรื่องการชำระเงินตอนนี้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Interviewing a zookeeper for the school magazine",
+          "dialogue": [
+            {
+              "speaker": "Ms Anong",
+              "text": "Hello, you must be Ice from the school magazine. ___1___"
+            },
+            {
+              "speaker": "Ice",
+              "text": "Thanks, but I'm fine. I had a drink at the café by the gate."
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "Good. Shall we sit here in the shade? So, what would you like to know?"
+            },
+            {
+              "speaker": "Ice",
+              "text": "Our readers are curious about what keepers actually do. ___2___"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "It starts at six with cleaning and the first feed of the day. After that, I spend most of the morning on what we call \"enrichment\"."
+            },
+            {
+              "speaker": "Ice",
+              "text": "___3___"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "It means giving animals things to do so they don't get bored. For example, we freeze fruit inside blocks of ice for the bears to break open."
+            },
+            {
+              "speaker": "Ice",
+              "text": "That sounds fun to watch. But why does boredom matter so much?"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "In the wild, animals spend hours every day searching for food. ___4___"
+            },
+            {
+              "speaker": "Ice",
+              "text": "So the ice blocks give them a job to do instead."
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "Exactly. A bored bear may walk the same path up and down for hours. ___5___"
+            },
+            {
+              "speaker": "Ice",
+              "text": "That's a big improvement. ___6___"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "The whole team does. We meet every Friday to share ideas, and school groups sometimes send in suggestions too."
+            },
+            {
+              "speaker": "Ice",
+              "text": "School groups? ___7___"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "We'd love that. Just make sure the ideas are safe, like toys that can't break into sharp pieces."
+            },
+            {
+              "speaker": "Ice",
+              "text": "I'll tell my teacher tomorrow. One last question: what advice would you give students who want to become keepers?"
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "___8___ Most of the job is cleaning and paperwork, so it isn't for everyone."
+            },
+            {
+              "speaker": "Ice",
+              "text": "That's really useful. Thank you so much for your time."
+            },
+            {
+              "speaker": "Ms Anong",
+              "text": "My pleasure. Send me a copy of the magazine when it comes out!"
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S1-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Have you been waiting outside for long?",
+                "Would you like a quick tour of the park first?",
+                "Can I get you some cold water first?",
+                "Did you have any trouble finding the gate?"
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Ice ตอบว่า \"Thanks, but I'm fine. I had a drink at the café by the gate.\" ซึ่งเป็นการปฏิเสธข้อเสนอเรื่องเครื่องดื่ม จึงต้องเป็นการเสนอน้ำเย็น ส่วนการถามว่ารอนานไหมหรือหาประตูเจอไหมตอบด้วย \"Thanks, but I'm fine.\" ไม่ได้ และการชวนเดินชมสวนสัตว์ไม่เกี่ยวกับการที่เธอดื่มน้ำมาแล้ว"
+            },
+            {
+              "id": "AL-S1-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "How did you first get a job here?",
+                "What does a normal day involve for you?",
+                "Which animal do you enjoy working with most?",
+                "How long have you been a zookeeper?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ms Anong ตอบด้วยการเล่ากิจวัตรตั้งแต่หกโมงเช้า ทั้งทำความสะอาด ให้อาหาร และ enrichment คำถามจึงต้องเป็นว่าวันทำงานปกติเป็นอย่างไร ส่วนคำถามเรื่องการได้งาน สัตว์ที่ชอบ หรือทำงานมานานเท่าไร ไม่ได้รับคำตอบนี้"
+            },
+            {
+              "id": "AL-S1-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Enrichment? What does that involve?",
+                "Why do you have to start so early?",
+                "Do visitors ever get to help with that?",
+                "How often does a vet check the animals?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ms Anong อธิบายความหมายของ enrichment ว่าคือการให้สัตว์มีอะไรทำจะได้ไม่เบื่อ จึงต้องเป็นคำถามว่า enrichment คืออะไร ส่วนเรื่องการเริ่มงานแต่เช้า ผู้เข้าชมช่วยได้ไหม หรือสัตวแพทย์ตรวจบ่อยแค่ไหน ไม่ตรงกับคำตอบ"
+            },
+            {
+              "id": "AL-S1-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Here, they hunt for food just as much as wild animals do.",
+                "Most of them would actually rather sleep all day.",
+                "Here, food just appears, so they have little to do.",
+                "That's why they need very little care from us."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Ms Anong เปรียบเทียบว่าในป่าสัตว์ใช้เวลาหลายชั่วโมงหาอาหาร ส่วนในสวนสัตว์อาหารมาถึงเองจึงแทบไม่มีอะไรทำ Ice จึงสรุปว่าก้อนน้ำแข็งช่วยให้สัตว์มี \"งาน\" ทำ ส่วนการบอกว่าสัตว์ที่นี่หาอาหารมากเท่าในป่าหรืออยากนอนทั้งวันขัดกับเรื่องความเบื่อ และการบอกว่าสัตว์ต้องการการดูแลน้อยขัดกับที่ Ms Anong ใช้เวลาเกือบทั้งเช้าทำกิจกรรม enrichment ให้สัตว์"
+            },
+            {
+              "id": "AL-S1-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "That's perfectly normal, so we let them carry on.",
+                "Enrichment tends to make that habit even worse.",
+                "Sadly, nothing we've tried has changed it much.",
+                "With enrichment, we see that much less often."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Ice ตอบว่า \"That's a big improvement.\" แสดงว่า Ms Anong เพิ่งบอกว่า enrichment ทำให้พฤติกรรมเดินวนซ้ำ ๆ ลดลง ส่วนการปล่อยให้ทำต่อไป การบอกว่าแย่ลง หรือไม่มีอะไรช่วยได้ ไม่ใช่ \"การพัฒนาที่ดีขึ้น\""
+            },
+            {
+              "id": "AL-S1-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "How much does each activity usually cost?",
+                "Who comes up with all of these ideas?",
+                "When did the wildlife park first open?",
+                "Do you ever feed the bears by hand?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ms Anong ตอบว่า \"The whole team does.\" และเล่าว่าประชุมแบ่งปันไอเดียทุกวันศุกร์ คำถามจึงต้องเป็นว่าใครคิดกิจกรรมเหล่านี้ ส่วนเรื่องค่าใช้จ่าย วันเปิดสวนสัตว์ หรือการป้อนอาหารด้วยมือ ไม่ได้รับคำตอบนี้"
+            },
+            {
+              "id": "AL-S1-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Do they mostly come on weekdays?",
+                "Have any of their ideas ever been used?",
+                "Could our class send you some ideas?",
+                "Are they usually from primary schools?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Ms Anong ตอบว่า \"We'd love that.\" และเตือนเรื่องความปลอดภัยของไอเดีย แสดงว่า Ice เสนอให้ห้องของเธอส่งไอเดียมา ส่วนคำถามเรื่องวันที่กลุ่มโรงเรียนมา ไอเดียเคยถูกใช้ไหม หรือมาจากโรงเรียนประถมไหม ตอบด้วย \"We'd love that.\" ไม่ได้"
+            },
+            {
+              "id": "AL-S1-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Try it out as a volunteer before you decide.",
+                "Read as many books about wild animals as you can.",
+                "Don't worry, it's mostly playing with the animals.",
+                "Apply right away, since almost anyone would enjoy it."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมาบอกว่างานส่วนใหญ่คือทำความสะอาดและงานเอกสาร \"so it isn't for everyone\" จึงแนะนำให้ลองเป็นอาสาสมัครก่อนตัดสินใจ ส่วนการบอกว่างานส่วนใหญ่คือเล่นกับสัตว์หรือใคร ๆ ก็ชอบ ขัดกับประโยคต่อมา และการอ่านหนังสือเรื่องสัตว์ป่าไม่ได้ช่วยให้รู้ว่างานจริงเป็นอย่างไร"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S1-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "CodeKite Summer Camp",
+          "text": "CODEKITE SUMMER CAMP 2027\nBuild it. Break it. Fix it.\n\nAre you aged 15–18 and curious about how apps really work? Join CodeKite for three intensive weeks of hands-on programming at Nakhon Hills Science Park.\n\nWhat you'll do\n• Week 1: Python fundamentals and problem-solving\n• Week 2: Designing and building your own mobile app\n• Week 3: A team project to create an app that tackles a real problem in your community\n\nNo coding experience? No problem. Our mentors, all current computer science students, will guide you every step of the way. Laptops are provided, but you are welcome to bring your own.\n\nDates: 5–23 April 2027 (Monday–Friday, 9:00–16:00)\nFee: 12,500 baht (lunch included). Register before 1 February and save 15%.\nScholarships: Ten full scholarships are available for students from schools outside the city. Applicants must submit a two-minute video explaining why they want to join.\n\nOn the final day, teams will present their apps to a panel of engineers from local tech companies.",
+          "items": [
+            {
+              "id": "AL-S1-021",
+              "stem": "Who is the camp mainly intended for?",
+              "options": [
+                "Computer science students looking for summer mentoring roles",
+                "Programmers aged 15–18 who already have coding experience",
+                "Teenagers interested in apps, whether or not they can code",
+                "Local engineers who want to judge student app projects"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "โฆษณาระบุ \"aged 15–18 and curious about how apps really work\" และ \"No coding experience? No problem.\" นักศึกษาคอมพิวเตอร์เป็นพี่เลี้ยง ส่วนวิศวกรเป็นกรรมการ"
+            },
+            {
+              "id": "AL-S1-022",
+              "stem": "How much will a student without a scholarship pay if they register on 10 January 2027?",
+              "options": [
+                "12,500 baht",
+                "11,250 baht",
+                "10,625 baht",
+                "1,875 baht"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "สมัครก่อน 1 กุมภาพันธ์ได้ลด 15% จาก 12,500 บาท คือ 12,500 − 1,875 = 10,625 บาท"
+            },
+            {
+              "id": "AL-S1-023",
+              "stem": "What must students applying for a scholarship do?",
+              "options": [
+                "Send a short video about their reasons for joining",
+                "Bring their own laptop to use during all three weeks",
+                "Prove that they attend a school inside the city",
+                "Show an app they have built to a panel of engineers"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุ \"Applicants must submit a two-minute video explaining why they want to join.\" ส่วนทุนมีให้นักเรียนจากโรงเรียนนอกเมือง ไม่ใช่ในเมือง"
+            },
+            {
+              "id": "AL-S1-024",
+              "stem": "The word \"tackles\" in the ad is closest in meaning to",
+              "options": [
+                "causes",
+                "ignores",
+                "describes",
+                "deals with"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"an app that tackles a real problem\" หมายถึงแอปที่ช่วยจัดการหรือแก้ปัญหา จึงตรงกับ deals with"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Riverbend Museum of Science membership",
+          "text": "BECOME A FRIEND OF THE RIVERBEND MUSEUM OF SCIENCE\nLove discovering? Make every visit count.\n\nOur annual membership gives you more than free entry. As a Friend, you will enjoy:\n• unlimited entry to all permanent galleries for 12 months\n• early booking for special exhibitions, plus one free special-exhibition ticket per year\n• 10% off in the museum shop and café\n• invitations to members-only evening talks with researchers\n\nMembership types (per year)\nStudent (with valid ID): 600 baht\nIndividual: 1,200 baht\nFamily (2 adults + up to 3 children under 16): 2,500 baht\n\nA standard single entry costs 150 baht for adults and 80 baht for students, so a student who visits eight times a year has already saved money.\n\nPlease note: Members-only talks are held on the first Thursday of every month and must be booked in advance, as seating is limited. Membership cards are non-transferable and must be shown at the entrance.\n\nJoin at the ticket desk or online and start exploring today.",
+          "items": [
+            {
+              "id": "AL-S1-025",
+              "stem": "What is the main purpose of this advertisement?",
+              "options": [
+                "To announce the opening of a new special exhibition",
+                "To explain the history of the Riverbend Museum",
+                "To persuade people to become annual members",
+                "To recruit researchers to give evening talks"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "หัวเรื่องและเนื้อหาทั้งหมดชวนให้ \"Become a Friend\" พร้อมบอกสิทธิประโยชน์และราคา จุดประสงค์จึงเป็นการชักชวนให้สมัครสมาชิก"
+            },
+            {
+              "id": "AL-S1-026",
+              "stem": "Which statement about the members-only talks is true?",
+              "options": [
+                "Members need to reserve a seat beforehand.",
+                "They take place every Thursday evening.",
+                "They are free for non-members on Thursdays.",
+                "Members may bring up to three children."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"must be booked in advance, as seating is limited\" และจัดเฉพาะวันพฤหัสบดีแรกของเดือน ไม่ใช่ทุกวันพฤหัสบดี"
+            },
+            {
+              "id": "AL-S1-027",
+              "stem": "What does the ad suggest about the student membership?",
+              "options": [
+                "It gives free entry to every special exhibition.",
+                "It can be bought without any identification.",
+                "It is cheaper than eight single student visits.",
+                "It is valid for six months from the date of purchase."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "บัตรนักเรียน 600 บาท ขณะที่ค่าเข้าแปดครั้ง 8 × 80 = 640 บาท จึงถูกกว่า ส่วนนิทรรศการพิเศษได้ฟรีเพียงปีละหนึ่งใบ และต้องมีบัตรนักเรียน"
+            },
+            {
+              "id": "AL-S1-028",
+              "stem": "The word \"non-transferable\" means that a membership card",
+              "options": [
+                "cannot be renewed once the twelve months are over",
+                "cannot be bought online, only at the ticket desk",
+                "can be used only by the person it was issued to",
+                "must be handed back at the desk after each visit"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "non-transferable แปลว่าโอนให้ผู้อื่นไม่ได้ ใช้ได้เฉพาะเจ้าของบัตร ซึ่งสอดคล้องกับที่ต้องแสดงบัตรที่ทางเข้า"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: TalkTrellis — fun, but is it enough?",
+          "text": "When TalkTrellis appeared on my phone's list of recommended apps, I was sceptical. I had already abandoned three language apps, each of which promised fluency in months and delivered little more than vocabulary flashcards. After using TalkTrellis every day for six weeks to brush up my Japanese, I have to admit it is a step above its rivals, though it is far from perfect.\n\nThe app's greatest strength is its speaking practice. Instead of simply repeating words, you hold short conversations with an AI character who responds to what you actually say. Within a fortnight, I noticed I was hesitating less when ordering food in the role-plays. The lessons are also refreshingly short; at around ten minutes each, they fit easily into a bus ride.\n\nHowever, the app falls down when it comes to grammar. Explanations are brief to the point of being unhelpful, and when I made a mistake, I was simply told I was wrong rather than why. Learners starting from zero may find this frustrating. I also found the constant reminders irritating: the app sent me four notifications a day until I switched them off.\n\nAt 249 baht a month, TalkTrellis is not the cheapest option, but a seven-day free trial lets you decide for yourself. Overall, I would recommend it to intermediate learners who want to build confidence in speaking, provided they pair it with a good grammar book. Complete beginners, on the other hand, should probably look elsewhere.\n\nRating: 3.5/5",
+          "items": [
+            {
+              "id": "AL-S1-029",
+              "stem": "What is the writer's overall opinion of TalkTrellis?",
+              "options": [
+                "It is the best choice for complete beginners.",
+                "It is no better than the apps the writer gave up on.",
+                "It is too expensive for what it offers.",
+                "It is useful for some learners but has clear weaknesses."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนบอกว่า \"a step above its rivals, though it is far from perfect\" และแนะนำเฉพาะผู้เรียนระดับกลาง ส่วนผู้เริ่มต้น \"should probably look elsewhere\" และเรื่องราคาก็มีทดลองใช้ฟรี จึงเป็นความเห็นแบบมีทั้งข้อดีและข้อเสีย"
+            },
+            {
+              "id": "AL-S1-030",
+              "stem": "According to the review, what makes the app's speaking practice special?",
+              "options": [
+                "Users repeat new words many times after a recording.",
+                "Users talk with an AI character that responds to them.",
+                "Users practise with native speakers by video call.",
+                "Users record themselves and receive a written grammar report."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุ \"you hold short conversations with an AI character who responds to what you actually say\" ซึ่งต่างจากการพูดตามคำศัพท์"
+            },
+            {
+              "id": "AL-S1-031",
+              "stem": "The phrase \"brush up\" in the first paragraph is closest in meaning to",
+              "options": [
+                "start learning from zero",
+                "refresh and improve",
+                "translate into English",
+                "stop practising"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "brush up หมายถึงทบทวนและพัฒนาสิ่งที่เคยรู้มาแล้ว ไม่ใช่เริ่มจากศูนย์ ผู้เขียนใช้แอปฝึกภาษาญี่ปุ่นที่เคยเรียนมาก่อน"
+            },
+            {
+              "id": "AL-S1-032",
+              "stem": "Why does the writer think complete beginners should look elsewhere?",
+              "options": [
+                "The lessons are too long to finish on a bus.",
+                "The app offers no speaking practice for beginners.",
+                "It does not explain why mistakes are wrong.",
+                "There is no way to try the app before paying."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าคำอธิบายไวยากรณ์สั้นเกินไปและ \"told I was wrong rather than why\" ซึ่ง \"Learners starting from zero may find this frustrating\" บทเรียนสั้นและมีทดลองใช้ฟรี"
+            },
+            {
+              "id": "AL-S1-033",
+              "stem": "In the second paragraph, \"they\" in \"they fit easily into a bus ride\" refers to",
+              "options": [
+                "the role-plays",
+                "the lessons",
+                "the AI characters",
+                "the words"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยค \"The lessons are also refreshingly short; at around ten minutes each, they fit easily...\" คำว่า they จึงหมายถึง the lessons ที่ยาวประมาณสิบนาที"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Port Selwyn launches city-wide bike-sharing scheme",
+          "text": "PORT SELWYN — Residents of Port Selwyn can now rent a bicycle from any of 120 docking stations across the city, after the long-awaited PedalPort scheme opened on Monday.\n\nThe scheme, run by the city council in partnership with the transport company SpokeLine, began with 1,500 bicycles, a third of which are electric. Users unlock a bike with a mobile app and pay 10 baht for the first 30 minutes and 5 baht for every additional 15 minutes. Monthly passes are available for 299 baht.\n\nCouncil officials say the project aims to reduce traffic in the city centre, where average rush-hour speeds have fallen to just 12 kilometres per hour. \"If even five percent of short car journeys are replaced by cycling, the difference on our roads will be enormous,\" said transport officer Dara Wichian.\n\nNot everyone is convinced, however. Several shop owners on Harbour Road complained that docking stations had replaced roadside parking spaces in front of their businesses. \"My customers used to park right outside. Now they just drive past,\" said one café owner. Local cycling groups, meanwhile, have welcomed the scheme but warned that the city has only 18 kilometres of protected bike lanes.\n\nIn response, the council has promised to build a further 25 kilometres of lanes by the end of 2028 and to review the location of stations after six months.\n\nAccording to SpokeLine, more than 4,000 trips were made on the first day alone, with the busiest station at Central Market.",
+          "items": [
+            {
+              "id": "AL-S1-034",
+              "stem": "What is the news report mainly about?",
+              "options": [
+                "A dispute between two transport companies in Port Selwyn",
+                "The construction of 25 kilometres of new bike lanes",
+                "A sharp fall in the number of cars in the city centre",
+                "A new bicycle rental system and reactions to it"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวเล่าถึงการเปิดโครงการ PedalPort รายละเอียดการใช้ และเสียงตอบรับทั้งด้านบวกและลบ ส่วนเลนจักรยานใหม่เป็นเพียงรายละเอียดหนึ่ง"
+            },
+            {
+              "id": "AL-S1-035",
+              "stem": "How much would a user without a monthly pass pay for a 60-minute ride?",
+              "options": [
+                "20 baht",
+                "15 baht",
+                "25 baht",
+                "40 baht"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "30 นาทีแรก 10 บาท อีก 30 นาทีคิดเป็นสองช่วง ช่วงละ 15 นาที ช่วงละ 5 บาท รวม 10 + 10 = 20 บาท"
+            },
+            {
+              "id": "AL-S1-036",
+              "stem": "Why are some shop owners on Harbour Road unhappy?",
+              "options": [
+                "They feel the stations have taken their customers' parking.",
+                "They were not allowed to set up docking stations of their own.",
+                "They think the electric bikes make the road unsafe for shoppers.",
+                "They believe the monthly pass is too expensive for their staff."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "เจ้าของร้านบ่นว่าจุดจอดจักรยาน \"replaced roadside parking spaces\" ทำให้ลูกค้าไม่จอดแวะ"
+            },
+            {
+              "id": "AL-S1-037",
+              "stem": "The word \"long-awaited\" in the first paragraph is closest in meaning to",
+              "options": [
+                "delayed several times for safety reasons",
+                "criticised by many residents for years",
+                "expected and wanted for a long time",
+                "already used by residents for many years"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "long-awaited หมายถึงสิ่งที่ผู้คนรอคอยมานาน โครงการเพิ่งเปิดวันจันทร์ จึงไม่ใช่สิ่งที่ใช้มาหลายปี"
+            },
+            {
+              "id": "AL-S1-038",
+              "stem": "What can be inferred about the local cycling groups?",
+              "options": [
+                "They support the scheme but want more protected lanes.",
+                "They oppose the scheme because of the electric bicycles.",
+                "They think 18 kilometres of protected lanes is enough.",
+                "They want all docking stations moved off Harbour Road."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "กลุ่มนักปั่น \"welcomed the scheme but warned that the city has only 18 kilometres of protected bike lanes\" คำว่า only แสดงว่าคิดว่าเลนปลอดภัยยังไม่พอ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Study habits and screen time",
+          "text": "The counselling team at Bannakorn Secondary School surveyed 600 students about their typical weekday habits to understand how they balance study, screen time and rest. The table shows the average number of hours per day reported by students in each grade.",
+          "table": {
+            "caption": "Average hours per weekday, Bannakorn Secondary School (2026)",
+            "columns": [
+              "Grade",
+              "Self-study",
+              "Social media",
+              "Online gaming",
+              "Sleep"
+            ],
+            "rows": [
+              [
+                "Grade 7",
+                "1.2",
+                "1.5",
+                "1.4",
+                "8.6"
+              ],
+              [
+                "Grade 8",
+                "1.4",
+                "1.9",
+                "1.6",
+                "8.3"
+              ],
+              [
+                "Grade 9",
+                "1.7",
+                "2.3",
+                "1.5",
+                "7.9"
+              ],
+              [
+                "Grade 10",
+                "2.0",
+                "2.6",
+                "1.2",
+                "7.4"
+              ],
+              [
+                "Grade 11",
+                "2.6",
+                "2.4",
+                "1.0",
+                "7.0"
+              ],
+              [
+                "Grade 12",
+                "3.4",
+                "2.1",
+                "0.7",
+                "6.5"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S1-039",
+              "stem": "Students in which grade spent the most time on social media?",
+              "options": [
+                "Grade 12",
+                "Grade 9",
+                "Grade 11",
+                "Grade 10"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ช่อง Social media สูงสุดคือ 2.6 ชั่วโมงของ Grade 10 มากกว่า Grade 11 (2.4) และ Grade 9 (2.3)"
+            },
+            {
+              "id": "AL-S1-040",
+              "stem": "Which statement best describes the trend in sleep shown in the table?",
+              "options": [
+                "Sleep time rises again after Grade 10.",
+                "Sleep time stays roughly the same in all grades.",
+                "Grade 12 students sleep more than Grade 7 students.",
+                "Sleep time falls steadily from Grade 7 to Grade 12."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ชั่วโมงนอนลดลงทุกระดับชั้นจาก 8.6 จนเหลือ 6.5 ชั่วโมง จึงเป็นการลดลงอย่างต่อเนื่อง"
+            },
+            {
+              "id": "AL-S1-041",
+              "stem": "How many more hours per day did Grade 12 students spend on self-study than Grade 7 students?",
+              "options": [
+                "1.4 hours",
+                "2.2 hours",
+                "2.0 hours",
+                "4.6 hours"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Grade 12 อ่านหนังสือเอง 3.4 ชั่วโมง Grade 7 อ่าน 1.2 ชั่วโมง ต่างกัน 3.4 − 1.2 = 2.2 ชั่วโมง"
+            },
+            {
+              "id": "AL-S1-042",
+              "stem": "In which grade did self-study time first become greater than social media time?",
+              "options": [
+                "Grade 10",
+                "Grade 11",
+                "Grade 12",
+                "Grade 9"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Grade 10 ยังอ่านหนังสือ 2.0 น้อยกว่าโซเชียลมีเดีย 2.6 แต่ Grade 11 อ่าน 2.6 มากกว่าโซเชียลมีเดีย 2.4 จึงเป็นระดับแรก"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Recycling in Thanmai City",
+          "text": "In 2023, Thanmai City introduced separate bins for plastic, paper and food waste. The table shows the percentage of household waste that was recycled in each of its four districts, together with the total amount of household waste collected in 2025.",
+          "table": {
+            "caption": "Household waste recycled by district, Thanmai City",
+            "columns": [
+              "District",
+              "2023 (%)",
+              "2024 (%)",
+              "2025 (%)",
+              "Waste collected in 2025 (tonnes/month)"
+            ],
+            "rows": [
+              [
+                "North Hill",
+                "18",
+                "22",
+                "27",
+                "3,200"
+              ],
+              [
+                "Riverside",
+                "25",
+                "24",
+                "23",
+                "4,100"
+              ],
+              [
+                "Old Town",
+                "12",
+                "17",
+                "24",
+                "2,600"
+              ],
+              [
+                "Eastgate",
+                "30",
+                "31",
+                "32",
+                "3,800"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S1-043",
+              "stem": "Which district had the highest recycling rate in all three years?",
+              "options": [
+                "Riverside",
+                "North Hill",
+                "Eastgate",
+                "Old Town"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "Eastgate มีอัตรารีไซเคิลสูงสุดทุกปี คือ 30, 31 และ 32 เปอร์เซ็นต์"
+            },
+            {
+              "id": "AL-S1-044",
+              "stem": "Which district showed the largest increase in its recycling rate between 2023 and 2025?",
+              "options": [
+                "Old Town",
+                "North Hill",
+                "Eastgate",
+                "Riverside"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "Old Town เพิ่มจาก 12 เป็น 24 คือเพิ่ม 12 จุด มากกว่า North Hill ที่เพิ่ม 9 จุด (18 เป็น 27)"
+            },
+            {
+              "id": "AL-S1-045",
+              "stem": "Which district saw its recycling rate fall every year?",
+              "options": [
+                "Old Town",
+                "Eastgate",
+                "North Hill",
+                "Riverside"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "Riverside ลดลงจาก 25 เป็น 24 และ 23 เปอร์เซ็นต์ ส่วนเขตอื่นเพิ่มขึ้นทุกปี"
+            },
+            {
+              "id": "AL-S1-046",
+              "stem": "According to the table, which statement is true?",
+              "options": [
+                "North Hill recycled a higher percentage than Eastgate in 2025.",
+                "Old Town's recycling rate doubled between 2023 and 2025.",
+                "Riverside collected the least household waste in 2025.",
+                "Eastgate's recycling rate rose by five points over the three years."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Old Town เพิ่มจาก 12 เป็น 24 เปอร์เซ็นต์ คือเพิ่มเป็นสองเท่า ส่วน Riverside เก็บขยะมากที่สุด (4,100 ตัน) และ Eastgate เพิ่มเพียง 2 จุด"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Why teenagers can't simply 'go to bed earlier'",
+          "text": "Ask almost any parent why their teenager is so tired in the morning, and the answer is likely to be the same: late nights spent on a phone. There is some truth in this, but it is only part of the story. Over the past few decades, sleep researchers have found that the teenage body runs on a different schedule from that of children or adults, and that this shift is a normal part of growing up rather than a sign of laziness.\n\nThe key lies in the body's internal clock, a system that tells us when to feel alert and when to feel sleepy. One of its main signals is melatonin, a hormone released in the evening that prepares the body for sleep. In younger children, melatonin begins to rise fairly early, which is why many of them fall asleep without much difficulty by eight or nine o'clock. During adolescence, however, this release can be delayed by up to two hours. As a result, many teenagers simply do not feel tired until close to midnight, no matter how early they climb into bed. Adults' clocks, by contrast, gradually drift back towards earlier hours, which may be one reason why parents find their children's late nights so hard to understand.\n\nThis would not matter much if teenagers could sleep later in the morning. Most experts agree that people aged 13 to 18 need between eight and ten hours of sleep a night, yet school timetables rarely take this into account. A student who falls asleep at midnight and wakes at six for a seven-thirty start gets only six hours, well short of what they need. Over a school week, the missing hours add up, creating what researchers call \"sleep debt.\" Unlike financial debt, it cannot simply be paid back by sleeping until noon on Saturday. In fact, long weekend lie-ins can push the internal clock even later, making Monday mornings harder still.\n\nThe effects of this shortfall are wide-ranging. Tired students find it harder to concentrate and to remember what they have learnt, and they are more likely to feel irritable or anxious. Surveys of secondary students have suggested that those who regularly sleep fewer than seven hours on school nights are much more likely to report falling asleep in class than those who sleep eight hours or more. Lack of sleep also affects judgement, which may help to explain why exhausted teenagers sometimes make choices they would normally avoid.\n\nNone of this means that screens are innocent. Bright light from phones and tablets late in the evening can delay the release of melatonin even further, adding to a problem that biology has already created. Some schools have therefore begun to experiment with later start times, while others run workshops that teach students about \"sleep hygiene\": simple habits such as keeping a regular bedtime, avoiding screens in the last hour before sleep, and keeping bedrooms dark and cool.\n\nThe message for parents and teachers is that a sleepy teenager is not necessarily a lazy one. Understanding the science behind teenage sleep may be the first step towards timetables, and habits, that work with young people's bodies rather than against them.",
+          "items": [
+            {
+              "id": "AL-S1-047",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Phones are the main reason why teenagers stay up late and sleep too little.",
+                "Teenagers' late sleep is driven mainly by biology, not only by their phones.",
+                "Schools should ban phones at night so that students can sleep for longer.",
+                "Teenagers need less sleep than younger children because their clocks change."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความเริ่มว่าโทรศัพท์เป็น \"only part of the story\" แล้วอธิบายนาฬิกาชีวภาพของวัยรุ่นที่เลื่อนออกไป และย่อหน้าที่ห้าบอกว่าหน้าจอทำให้ปัญหาแย่ลง"
+            },
+            {
+              "id": "AL-S1-048",
+              "stem": "According to the passage, why do many teenagers not feel sleepy until late at night?",
+              "options": [
+                "Their bodies release melatonin earlier in the evening than adults' bodies do.",
+                "They spend the hour before bed in rooms that are too dark and cool.",
+                "Their bodies release melatonin later in the evening than in childhood.",
+                "They usually take long naps after school, so they are not tired."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่สองบอกว่าในวัยรุ่น การหลั่งเมลาโทนิน \"can be delayed by up to two hours\" จึงยังไม่ง่วงจนใกล้เที่ยงคืน ส่วนนาฬิกาของผู้ใหญ่ \"drift back towards earlier hours\" แปลว่าวัยรุ่นหลั่งช้ากว่าผู้ใหญ่ ไม่ใช่เร็วกว่า"
+            },
+            {
+              "id": "AL-S1-049",
+              "stem": "The word \"shortfall\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "a sudden drop in students' attention",
+                "a lack of the amount that is needed",
+                "a short period of rest during the day",
+                "a mistake made when adding up the hours"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "shortfall หมายถึงการขาดไปจากปริมาณที่ต้องการ ในที่นี้คือการนอนไม่ครบตามที่ร่างกายต้องการ ซึ่งต่อจาก \"sleep debt\" ในย่อหน้าก่อน"
+            },
+            {
+              "id": "AL-S1-050",
+              "stem": "What can be inferred about sleeping until noon on Saturday?",
+              "options": [
+                "It fully repays the hours of sleep that were lost during the week.",
+                "It is the habit that most sleep experts recommend for teenagers.",
+                "It helps to move the internal clock back to an earlier schedule.",
+                "It may make it harder to wake up early at the start of the week."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าการนอนตื่นสายช่วงสุดสัปดาห์ \"can push the internal clock even later, making Monday mornings harder still\" และหนี้การนอนชดใช้แบบนั้นไม่ได้"
+            },
+            {
+              "id": "AL-S1-051",
+              "stem": "In paragraph 3, \"it\" in \"it cannot simply be paid back\" refers to",
+              "options": [
+                "financial debt",
+                "the internal clock",
+                "the school week",
+                "sleep debt"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยค \"Unlike financial debt, it cannot simply be paid back...\" เปรียบเทียบหนี้การนอนกับหนี้เงิน คำว่า it จึงหมายถึง sleep debt"
+            },
+            {
+              "id": "AL-S1-052",
+              "stem": "According to paragraph 4, what have surveys of secondary students suggested?",
+              "options": [
+                "Students who sleep under seven hours more often report falling asleep in class.",
+                "Students who sleep eight hours or more are the least likely to feel anxious.",
+                "Most secondary students sleep fewer than seven hours on school nights.",
+                "Students at schools with later start times fall asleep in class less often."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 ระบุว่านักเรียนที่นอนน้อยกว่าเจ็ดชั่วโมง \"are much more likely to report falling asleep in class\" ส่วนเรื่องความวิตกกังวล สัดส่วนนักเรียนที่นอนน้อย และผลของการเข้าเรียนสายขึ้น ไม่ได้มาจากผลสำรวจนี้"
+            },
+            {
+              "id": "AL-S1-053",
+              "stem": "What is the main purpose of the final paragraph?",
+              "options": [
+                "To blame teenagers for using their phones and tablets late at night",
+                "To introduce a new piece of research about school timetables",
+                "To argue that schools should replace sleep workshops with later starts",
+                "To encourage adults to view tired teenagers with more understanding"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"a sleepy teenager is not necessarily a lazy one\" และชวนให้เข้าใจวิทยาศาสตร์เบื้องหลัง จึงเป็นการชวนให้ผู้ใหญ่เข้าใจวัยรุ่นมากขึ้น ย่อหน้านี้ไม่ได้เสนอให้เลิกจัดเวิร์กช็อปหรือนำเสนองานวิจัยใหม่"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Rice: a grain that shaped civilisations",
+          "text": "For more than half of the world's population, a meal without rice hardly counts as a meal. Yet few people stop to think about how this small grain came to occupy such a central place on our plates, or about the remarkable science that allows it to grow where most other crops would fail.\n\nArchaeological evidence suggests that rice was first domesticated in the Yangtze River valley of China roughly 9,000 years ago. Early farmers gradually selected wild plants whose grains stayed on the stalk instead of scattering on the ground when ripe, which made harvesting far easier. Over thousands of years, cultivation spread south and west across Asia, while a separate species was domesticated independently in West Africa. Wherever rice arrived, it tended to support large populations, since a well-managed field could feed more people than the same area planted with many other grains. Rice reached the river plains of what is now Thailand several thousand years ago, and by the time of the earliest Thai kingdoms it had become the foundation of both the local diet and regional trade.\n\nMuch of rice's success lies in its unusual relationship with water. Unlike most cereals, rice can grow in flooded fields, known as paddies. This is possible because the plant has developed tiny air channels in its stems and roots, which carry oxygen down to roots sitting in waterlogged soil. Flooding is not strictly necessary for rice to survive, but it brings important advantages. The standing water suppresses many weeds, which cannot tolerate such conditions, and it helps to keep soil temperatures stable.\n\nBuilding and maintaining paddies, however, demanded enormous cooperation. Terraces had to be carved into hillsides, channels dug, and water shared fairly between neighbouring farms. Some historians argue that the need to manage water together helped to shape social life in rice-growing regions, encouraging close-knit village communities and shared rules. In northern Thailand, for example, traditional irrigation systems were run by groups of farmers who agreed on schedules for opening and closing water gates and who repaired the channels together each year.\n\nToday, rice cultivation faces new challenges. Flooded paddies release methane, a powerful greenhouse gas, as plant material breaks down in soil without oxygen. Growing rice also consumes vast quantities of fresh water at a time when many regions face shortages. In response, scientists and farmers are testing methods such as \"alternate wetting and drying,\" in which fields are allowed to dry out for several days before being flooded again. Field trials suggest that this approach can reduce water use considerably and cut methane emissions without causing a serious fall in harvests. Meanwhile, rice farming remains hard physical work, and as many young people in rural areas move to cities for other jobs, the fields are increasingly managed by older farmers.\n\nResearchers are also breeding new varieties that can survive being completely underwater for up to two weeks, a trait that could protect farmers in flood-prone areas as storms become more intense. In this sense, the story of rice is still being written. A crop that once helped to build ancient societies may now help modern ones to adapt to a changing climate, provided that farmers have access to the knowledge and seeds they need.",
+          "items": [
+            {
+              "id": "AL-S1-054",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How farmers in northern Thailand shared water through irrigation systems",
+                "How rice developed, why it grows in water, and how its farming is changing",
+                "Why fewer young people in rural Asia are choosing to become rice farmers",
+                "Why rice is a healthier and more filling food than wheat or barley"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความครอบคลุมประวัติการเพาะปลูกข้าว เหตุผลทางวิทยาศาสตร์ที่ข้าวโตในน้ำได้ และวิธีปลูกแบบใหม่ ระบบชลประทานภาคเหนือและการที่คนหนุ่มสาวย้ายเข้าเมืองเป็นเพียงรายละเอียดย่อย"
+            },
+            {
+              "id": "AL-S1-055",
+              "stem": "According to paragraph 2, why did early farmers select certain wild rice plants?",
+              "options": [
+                "Their grains stayed on the plant when ripe, so harvesting was easier.",
+                "Their grains were larger and sweeter than those of other wild plants.",
+                "They could grow well in dry soil without needing any extra water.",
+                "They had already been grown by farmers in West Africa for centuries."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่าชาวนายุคแรกเลือกต้นที่ \"grains stayed on the stalk instead of scattering... which made harvesting far easier\""
+            },
+            {
+              "id": "AL-S1-056",
+              "stem": "The word \"suppresses\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "provides food for",
+                "spreads quickly among",
+                "attracts",
+                "prevents the growth of"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "น้ำขังช่วยกดการเติบโตของวัชพืชเพราะวัชพืช \"cannot tolerate such conditions\" จึงหมายถึงยับยั้งการเติบโต"
+            },
+            {
+              "id": "AL-S1-057",
+              "stem": "Why can rice grow in flooded fields when most cereals cannot?",
+              "options": [
+                "The standing water keeps weeds away from its roots and stems.",
+                "Its roots grow above the water, where they can take in oxygen.",
+                "Its leaves absorb extra oxygen from the water around them.",
+                "Air channels in its stems and roots carry oxygen to the roots."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่สามอธิบายว่าข้าวมี \"tiny air channels in its stems and roots, which carry oxygen down to roots\" จึงอยู่ในดินที่น้ำขังได้ ส่วนการกำจัดวัชพืชเป็นเพียงข้อดีของการขังน้ำ ไม่ใช่เหตุที่ข้าวอยู่รอดได้"
+            },
+            {
+              "id": "AL-S1-058",
+              "stem": "What can be inferred from paragraph 4?",
+              "options": [
+                "Rice farming frequently destroyed village communities.",
+                "Paddy farming was hard for one family to manage alone.",
+                "Water gates were controlled by a national government.",
+                "Terraces were built mainly to make hillsides look attractive."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "การสร้างนาขั้นบันได ขุดคลอง และแบ่งน้ำ \"demanded enormous cooperation\" และชาวนาต้องร่วมกันซ่อมคลองทุกปี จึงอนุมานได้ว่าครอบครัวเดียวทำเองได้ยาก"
+            },
+            {
+              "id": "AL-S1-059",
+              "stem": "In paragraph 5, \"this approach\" refers to",
+              "options": [
+                "keeping paddies flooded throughout the whole growing season",
+                "letting fields dry out for several days before flooding them again",
+                "breeding new rice varieties that can survive underwater for weeks",
+                "allowing methane to escape from waterlogged soil more slowly"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"this approach\" หมายถึงวิธี \"alternate wetting and drying\" ที่ปล่อยให้นาแห้งหลายวันก่อนปล่อยน้ำเข้าอีกครั้ง ซึ่งกล่าวไว้ในประโยคก่อนหน้า"
+            },
+            {
+              "id": "AL-S1-060",
+              "stem": "Which best describes the author's attitude towards the future of rice farming?",
+              "options": [
+                "Deeply pessimistic",
+                "Largely indifferent",
+                "Cautiously hopeful",
+                "Openly angry"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนเห็นว่าข้าว \"may now help modern ones to adapt\" แต่มีเงื่อนไข \"provided that farmers have access...\" จึงเป็นการมองในแง่ดีอย่างระมัดระวัง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S1-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "The humble pencil",
+          "text": "The pencil is so ordinary that we rarely give it a second thought. Yet this simple tool ___1___ for more than four hundred years, and it can still be found in almost every pencil case.\n\nMany people believe that pencils contain lead, a soft grey metal. ___2___, the \"lead\" in a pencil is a mixture of graphite, a form of carbon, and clay. The name goes back several centuries, to a time when people mistook graphite for a type of lead.\n\nThe amount of clay in the mixture decides what kind of line a pencil makes. The more clay there is, the harder the pencil and the lighter its line; ___3___, more graphite gives a softer, darker mark. This is why artists often carry several pencils, each one ___4___ to a different task, from fine outlines to deep shadows.\n\nPencils also have practical advantages over pens. They write upside down and in freezing weather, they never leak, and mistakes can be rubbed out in seconds. Architects and designers often sketch their first ideas in pencil because they can change them without starting again.\n\nOf course, digital tablets now let us draw and erase on a screen. For many people, however, nothing quite replaces the feeling of a pencil moving across paper: a tool that needs no battery, only a sharpener and a hand to hold ___5___.",
+          "items": [
+            {
+              "id": "AL-S1-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "was used",
+                "is using",
+                "has been used",
+                "has used"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "มีคำว่า \"for more than four hundred years\" และ \"can still be found\" แสดงช่วงเวลาจากอดีตถึงปัจจุบัน และดินสอ \"ถูกใช้\" จึงต้องเป็น present perfect passive \"has been used\" ส่วน \"has used\" เป็นรูป active และ \"was used\" บอกว่าจบไปแล้วในอดีต"
+            },
+            {
+              "id": "AL-S1-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Therefore",
+                "Similarly",
+                "For example",
+                "In fact"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ประโยคหลังแก้ความเชื่อผิดในประโยคก่อน (คนเชื่อว่ามีตะกั่ว แต่ความจริงคือแกรไฟต์ผสมดินเหนียว) จึงใช้ \"In fact\" ส่วน Therefore แสดงผล Similarly แสดงความคล้าย และ For example ยกตัวอย่าง ไม่เข้ากับความหมาย"
+            },
+            {
+              "id": "AL-S1-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "conversely",
+                "for instance",
+                "as a result",
+                "in addition"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "สองส่วนของประโยคกล่าวถึงผลตรงข้ามกัน (ดินเหนียวมาก = เส้นแข็งและจาง แกรไฟต์มาก = เส้นนุ่มและเข้ม) จึงใช้ \"conversely\" (ในทางกลับกัน) ไม่ใช่การยกตัวอย่าง ผลลัพธ์ หรือการเพิ่มเติม"
+            },
+            {
+              "id": "AL-S1-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "suited",
+                "fixed",
+                "joined",
+                "stuck"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"suited to\" แปลว่าเหมาะกับ ใช้บอกว่าดินสอแต่ละแท่งเหมาะกับงานต่างกัน ส่วน fixed, joined และ stuck to หมายถึงยึดหรือติดอยู่กับสิ่งของ ไม่ได้หมายถึงความเหมาะสม"
+            },
+            {
+              "id": "AL-S1-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "them",
+                "its",
+                "it",
+                "itself"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "สรรพนามหลัง \"a hand to hold\" ต้องเป็นกรรมที่อ้างถึง \"a tool\" (เอกพจน์) จึงใช้ \"it\" ส่วน them เป็นพหูพจน์ its ต้องมีคำนามตาม และ itself ใช้เมื่อกรรมเป็นสิ่งเดียวกับประธาน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Lights along the coast",
+          "text": "Long before satellites and electronic maps, sailors approaching a rocky coast at night depended on a simple idea: a tall tower with a light at the top. The earliest lighthouses were little more than fires ___1___ on hilltops, and keeping them burning all night was hard, dirty work.\n\nOver time, lighthouses became far more ___2___. In the nineteenth century, a new kind of glass lens collected the light from a small flame and sent it out in a strong beam that could be seen from many kilometres away. Each lighthouse was also given its own pattern of flashes, so that sailors could tell one from another. A captain who saw three quick flashes every ten seconds knew exactly which part of the coast he was passing. ___3___, a lighthouse worked like a road sign that could be read in the dark.\n\nLife for the families who ran lighthouses was often lonely. Someone had to climb the stairs several times each night to clean the lens and check the fuel, ___4___ the sea was calm or stormy, and some families lived on tiny islands with no neighbours at all.\n\nToday, most lighthouses are automatic, and ships rely mainly on satellite systems. Yet many towers are still kept in working order, partly as a back-up and partly because coastal towns are proud of ___5___ and want visitors to enjoy them.",
+          "items": [
+            {
+              "id": "AL-S1-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "lighting",
+                "lit",
+                "were lit",
+                "to light"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เป็น reduced relative clause แบบ passive (= fires that were lit on hilltops) เพราะไฟ \"ถูกจุด\" จึงใช้ \"lit\" ส่วน \"lighting\" เป็นความหมาย active \"were lit\" ทำให้มีกริยาซ้อน และ \"to light\" ไม่เข้ากับโครงสร้าง"
+            },
+            {
+              "id": "AL-S1-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "powerful",
+                "fragile",
+                "crowded",
+                "ancient"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคต่อมาเล่าว่าเลนส์แบบใหม่ทำให้แสงส่องได้ไกลหลายกิโลเมตร จึงหมายถึงประภาคารมีพลังมากขึ้น \"powerful\" ส่วน fragile (เปราะบาง) crowded (แออัด) และ ancient (เก่าแก่) ไม่เข้ากับการพัฒนาที่บรรยาย"
+            },
+            {
+              "id": "AL-S1-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "However",
+                "In other words",
+                "Otherwise",
+                "On the other hand"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ประโยคนี้สรุปความเดิมด้วยคำใหม่ว่าประภาคารทำหน้าที่เหมือนป้ายบอกทางที่อ่านได้ในความมืด จึงใช้ \"In other words\" ไม่ใช่คำที่แสดงความขัดแย้งหรือเงื่อนไข"
+            },
+            {
+              "id": "AL-S1-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "whether",
+                "if only",
+                "unless",
+                "even though"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "โครงสร้าง \"whether ... or ...\" แปลว่า \"ไม่ว่าจะ...หรือ...\" ต้องมีคนขึ้นบันไดทุกคืนไม่ว่าทะเลจะสงบหรือมีพายุ ส่วน unless และ even though ใช้คู่กับ \"or\" แบบนี้ไม่ได้ และ if only ใช้แสดงความปรารถนา"
+            },
+            {
+              "id": "AL-S1-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "it",
+                "they",
+                "them",
+                "their"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างเป็นกรรมของ \"proud of\" และอ้างถึง \"many towers\" (พหูพจน์) จึงใช้ \"them\" ส่วน they เป็นรูปประธาน it เป็นเอกพจน์ และ their ต้องมีคำนามตามหลัง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Paper folding gets serious",
+          "text": "For centuries, paper folding was seen mainly as a pastime for children, who spent rainy afternoons at the kitchen table ___1___ cranes and frogs out of coloured squares. In recent decades, however, engineers have started to take it seriously.\n\n___2___ treating origami as a mere hobby, many designers now study its patterns to solve real problems. The challenge they face is often the same: how can something large be made small enough to carry, and then opened again quickly and safely?\n\nOne well-known answer is a folding pattern ___3___ for space missions in the late twentieth century. It allows a large solar panel to be packed tightly inside a rocket and then opened in a single smooth movement once it reaches space.\n\nThe same ideas are now used much closer to home. Some maps are folded so that they open with one pull, ___4___ certain emergency shelters can be carried by one person and set up in minutes. Researchers are even testing folding patterns for furniture, so that a table or a shelf can be flattened when it is not needed.\n\nFor students, the message is encouraging. A hobby that looks simple can ___5___ to surprising careers, and the patience learned from folding a single sheet of paper may one day help to design something that travels far beyond our planet.",
+          "items": [
+            {
+              "id": "AL-S1-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "folded",
+                "to fold",
+                "fold",
+                "folding"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"spend + เวลา + V-ing\" (ใช้เวลาทำสิ่งใด) จึงต้องเป็น \"spent rainy afternoons ... folding\" ส่วน \"to fold\" ใช้หลัง spend ไม่ได้ และ folded/fold ผิดรูป"
+            },
+            {
+              "id": "AL-S1-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "According to",
+                "Instead of",
+                "Thanks to",
+                "In case of"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "นักออกแบบเปลี่ยนจากการมองว่า origami เป็นแค่งานอดิเรกไปเป็นการศึกษาแบบแผนเพื่อแก้ปัญหาจริง จึงใช้ \"Instead of\" (แทนที่จะ) ส่วนตัวเลือกอื่นไม่ได้แสดงการทำสิ่งหนึ่งแทนอีกสิ่งหนึ่ง"
+            },
+            {
+              "id": "AL-S1-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "developing",
+                "developed",
+                "which develops",
+                "was developed"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เป็น reduced relative clause แบบ passive (= a folding pattern which was developed for space missions) เพราะแบบแผน \"ถูกพัฒนา\" ขึ้น จึงใช้ \"developed\" ส่วน \"was developed\" ทำให้มีกริยาซ้อนในประโยค"
+            },
+            {
+              "id": "AL-S1-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "while",
+                "so that",
+                "unless",
+                "in order that"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ช่องว่างเชื่อมสองตัวอย่างที่เป็นอิสระต่อกัน คือแผนที่ที่เปิดได้ด้วยการดึงครั้งเดียว และที่พักฉุกเฉินที่คนเดียวถือได้ จึงใช้ \"while\" (ขณะที่/ส่วน) ส่วน so that และ in order that แสดงจุดประสงค์ และ unless แสดงเงื่อนไข"
+            },
+            {
+              "id": "AL-S1-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "result",
+                "lead",
+                "belong",
+                "refer"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"lead to\" แปลว่านำไปสู่ งานอดิเรกที่ดูง่ายอาจนำไปสู่อาชีพที่คาดไม่ถึง ส่วน result ต้องใช้ \"result in\" belong to แปลว่าเป็นของ และ refer to แปลว่าอ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Making a short documentary",
+          "text": "A. They then spent two weekends filming him as he split bamboo and painted each umbrella by hand.\nB. As a result, the finished film was clear enough to win second prize in a provincial student contest.\nC. When they watched the footage, however, they realised that traffic noise drowned out most of his explanations.\nD. Last term, three students at Wiang Pa School decided to make a short documentary about a local umbrella maker.\nE. To solve this problem, they recorded his voice again in a quiet room and added it over the pictures.",
+          "items": [
+            {
+              "id": "AL-S1-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – C – A – E – B",
+                "A – D – C – E – B",
+                "D – A – E – C – B",
+                "D – A – C – E – B"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "D แนะนำนักเรียนและช่างทำร่ม A (\"then... filming him\") การถ่ายทำ C (\"the footage, however\") ปัญหาเสียงรบกวนที่พบหลังถ่าย E (\"this problem\") วิธีแก้ และ B (\"As a result\") ผลลัพธ์"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How bees make honey",
+          "text": "A. Back at the hive, they pass this nectar to younger bees, which store it in wax cells.\nB. Once the honey is thick enough, the cells are sealed with a thin layer of wax.\nC. Honey begins as nectar, a sweet liquid that worker bees collect from flowers.\nD. These bees then fan the cells with their wings until much of the water has evaporated.",
+          "items": [
+            {
+              "id": "AL-S1-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – A – D – B",
+                "C – D – A – B",
+                "A – C – D – B",
+                "C – A – B – D"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "C เริ่มต้นจากน้ำหวานที่ผึ้งงานเก็บ A (\"they pass this nectar\") ส่งต่อให้ผึ้งอายุน้อยเก็บในหลอดรวง D (\"These bees then\") พัดให้น้ำระเหย และ B (\"Once the honey is thick enough\") ปิดหลอดรวงเป็นขั้นสุดท้าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Training for a 10 km race",
+          "text": "A. He therefore asked his PE teacher to help him plan a gentler programme with rest days.\nB. However, after only a week, he was so exhausted that he could hardly concentrate in class.\nC. Two months later, he finished the race comfortably and still had energy for his homework.\nD. Arm wanted to run a 10-kilometre race, so he started training hard every evening after school.",
+          "items": [
+            {
+              "id": "AL-S1-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – B – A – C",
+                "D – A – B – C",
+                "B – D – A – C",
+                "D – B – C – A"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "D แนะนำ Arm และเป้าหมาย B (\"However\") ปัญหาที่เกิดจากการซ้อมหนัก A (\"therefore\") การขอให้ครูช่วยวางแผนซึ่งเป็นผลจากปัญหา และ C (\"Two months later\") ผลลัพธ์สุดท้าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Making pocket money last",
+          "text": "A. Fortunately, a few simple habits can make a small budget last much longer.\nB. Another is to wait a day before buying anything that is not really necessary.\nC. One of them, for instance, is to write down every purchase, however small, for a whole week.\nD. These habits will not make anyone rich, but they are a good place to start.\nE. Many students find that their pocket money runs out well before the end of the month.",
+          "items": [
+            {
+              "id": "AL-S1-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "E – C – A – B – D",
+                "A – E – C – B – D",
+                "E – A – B – C – D",
+                "E – A – C – B – D"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "E บอกปัญหาเงินหมดก่อนสิ้นเดือน A (\"Fortunately... a few simple habits\") เสนอทางออก C (\"One of them\") นิสัยแรก B (\"Another\") นิสัยที่สอง และ D (\"These habits\") สรุป"
+            }
+          ]
+        },
+        {
+          "id": "AL-S1-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "A pot that waters itself",
+          "text": "A. For example, a small chilli plant in such a pot can survive a two-week holiday without any care.\nB. As a result, even busy students can keep plants alive on a sunny balcony.\nC. Unlike ordinary flower pots, the AquaNest pot does not need to be watered every day.\nD. Instead, it draws water slowly from a hidden tank beneath the soil.",
+          "items": [
+            {
+              "id": "AL-S1-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – D – A – B",
+                "C – A – D – B",
+                "D – C – A – B",
+                "A – C – D – B"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "C มีประโยคปฏิเสธ (\"does not need to be watered every day\") D (\"Instead\") ต้องตามประโยคปฏิเสธนี้ A (\"For example... such a pot\") ยกตัวอย่าง และ B (\"As a result\") ผลลัพธ์"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI) — ยังไม่ได้ตรวจโดยครู",
+    "date": "2026-11-10",
+    "agree": 80,
+    "total": 80,
+    "rounds": "รอบ 1 ตรงเฉลย 80/80 · แก้หัวข้อซ้ำในชุด/ความยาวตัวเลือก/แหล่งอ้างอิงสมมุติ · รอบ 2 (ทั้งชุด) ตรง 80/80 · v1.19.1: แก้ตัวลวง + เขียนใหม่ G04/G13/G14/G15 — ตรวจแบบไม่เห็นเฉลย 7 กลุ่ม ตรง 35/35"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "id": "c1-nominalisation",
+  "summaryTh": "เปลี่ยนกริยา/คุณศัพท์เป็นคำนาม เพื่อให้ภาษาเขียนกระชับและเป็นวิชาการ",
+  "concept": {
+    "what": "Nominalisation คือการเปลี่ยนกริยาหรือคุณศัพท์ให้เป็นคำนาม แล้วจัดประโยคใหม่ เช่น Prices rose sharply, which worried investors. → The sharp rise in prices worried investors. — กริยา rose กลายเป็นคำนาม rise · คำวิเศษณ์ sharply กลายเป็นคุณศัพท์ sharp · ประโยคสองส่วนรวมเป็นประโยคเดียว",
+    "when": [
+      "รายงาน เรียงความ บทคัดย่องานวิจัย ที่ต้องการภาษากระชับและเป็นกลาง",
+      "สรุปเหตุ-ผลในประโยคเดียว: The closure of the factory led to unemployment.",
+      "บรรยายแนวโน้มและตัวเลข: a rise in, a decline in, a reduction in, growth of",
+      "เปลี่ยนจุดสนใจจาก \"ใครทำ\" ไปที่ \"สิ่งที่เกิดขึ้น\": The introduction of the new law …"
+    ],
+    "why": "ภาษาไทยมีวิธีคล้ายกันคือเติม \"การ\" หรือ \"ความ\" หน้ากริยา (การพัฒนา ความสำเร็จ) แต่ภาษาอังกฤษต้องเปลี่ยนรูปคำ (develop → development) และต้องเปลี่ยนคำขยายด้วย (rapidly → rapid) รวมถึงใช้บุพบทให้ถูก (increase in ไม่ใช่ increase of) ผู้เรียนไทยจึงมักใช้รูปคำผิดหรือลืม the … of"
+  },
+  "structure": {
+    "formula": "S + V + adv  →  the + adj + noun + of / in + …",
+    "rows": [
+      {
+        "label": "กริยา → คำนาม",
+        "formula": "verb → noun (-tion, -ment, -al, -ure, -sis …)",
+        "example": "The company expanded. → [[The expansion of the company]] …"
+      },
+      {
+        "label": "คำวิเศษณ์ → คุณศัพท์",
+        "formula": "V + adverb → adjective + noun",
+        "example": "Prices rose sharply. → [[a sharp rise in prices]]"
+      },
+      {
+        "label": "คุณศัพท์ → คำนาม",
+        "formula": "be + adjective → noun (-ity, -ness, -ance, -ence)",
+        "example": "The data is accurate. → [[the accuracy of the data]]"
+      },
+      {
+        "label": "ประธาน → of / 's",
+        "formula": "S + V → the + N + of + S · S's + N",
+        "example": "The government decided … → [[the government's decision]] / [[the decision of the government]]"
+      },
+      {
+        "label": "เหตุ → ผล",
+        "formula": "Because S + V, … → N + led to / resulted in / caused + N",
+        "example": "Because the economy declined, shops closed. → [[The decline in the economy led to the closure]] of shops."
+      },
+      {
+        "label": "คำนาม + บุพบทที่ต้องจำ",
+        "formula": "increase / rise / decline / reduction + in · demand / need + for · impact / effect + on · solution + to",
+        "example": "a sharp [[increase in]] demand · the [[impact on]] students"
+      }
+    ],
+    "notes": [
+      "เมื่อกริยากลายเป็นคำนาม คำวิเศษณ์ (-ly) ต้องเปลี่ยนเป็นคุณศัพท์: rapidly grew → rapid growth",
+      "คำนามที่แปลงมามักต้องมี the / a หน้า และ of ตามหลัง: the introduction of …",
+      "กริยาที่ใช้คู่บ่อย: carry out an analysis, make a decision, reach an agreement, lead to, result in",
+      "อย่าใช้ nominalisation มากเกินไปจนอ่านยาก — 1–2 ครั้งต่อประโยคพอ"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[The rapid growth of]] online shopping has changed the retail industry.",
+      "th": "การเติบโตอย่างรวดเร็วของการช้อปปิ้งออนไลน์ได้เปลี่ยนอุตสาหกรรมค้าปลีก"
+    },
+    {
+      "en": "[[The introduction of]] stricter rules resulted in [[a reduction in]] accidents.",
+      "th": "การนำกฎที่เข้มงวดขึ้นมาใช้ส่งผลให้อุบัติเหตุลดลง"
+    },
+    {
+      "en": "[[The government's decision]] to raise taxes was unpopular.",
+      "th": "การตัดสินใจขึ้นภาษีของรัฐบาลไม่เป็นที่นิยม"
+    },
+    {
+      "en": "Researchers carried out [[a detailed analysis of]] the survey data.",
+      "th": "นักวิจัยได้วิเคราะห์ข้อมูลแบบสำรวจอย่างละเอียด"
+    },
+    {
+      "en": "There has been [[a significant increase in]] demand for electric cars.",
+      "th": "ความต้องการรถยนต์ไฟฟ้าเพิ่มขึ้นอย่างมีนัยสำคัญ"
+    },
+    {
+      "en": "[[The failure of]] the negotiations surprised many observers.",
+      "th": "ความล้มเหลวของการเจรจาทำให้ผู้สังเกตการณ์หลายคนประหลาดใจ"
+    },
+    {
+      "en": "[[The accuracy of]] the results depends on [[the quality of]] the data.",
+      "th": "ความแม่นยำของผลลัพธ์ขึ้นอยู่กับคุณภาพของข้อมูล"
+    },
+    {
+      "en": "[[The closure of]] the factory led to [[a sharp rise in]] unemployment.",
+      "th": "การปิดโรงงานทำให้อัตราการว่างงานเพิ่มขึ้นอย่างรวดเร็ว"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The rapidly growth of the city caused traffic problems.",
+      "right": "The rapid growth of the city caused traffic problems.",
+      "whyTh": "growth เป็นคำนาม คำขยายจึงต้องเป็นคุณศัพท์ (rapid) ไม่ใช่คำวิเศษณ์ (rapidly)"
+    },
+    {
+      "wrong": "There was a sharp increase of prices last year.",
+      "right": "There was a sharp increase in prices last year.",
+      "whyTh": "increase / rise / decline / reduction ตามด้วย in เมื่อบอกว่าอะไรเพิ่ม/ลด"
+    },
+    {
+      "wrong": "The government's decide to raise taxes was unpopular.",
+      "right": "The government's decision to raise taxes was unpopular.",
+      "whyTh": "หลัง 's ต้องเป็นคำนาม (decision) ไม่ใช่กริยา (decide)"
+    },
+    {
+      "wrong": "Introduction of the new policy led to many complaints.",
+      "right": "The introduction of the new policy led to many complaints.",
+      "whyTh": "คำนามที่ตามด้วย of + สิ่งที่เฉพาะเจาะจง ต้องมี the นำหน้า — ภาษาไทยไม่มี article จึงลืมบ่อย"
+    },
+    {
+      "wrong": "The analyse of the data took three weeks.",
+      "right": "The analysis of the data took three weeks.",
+      "whyTh": "analyse เป็นกริยา รูปคำนามคือ analysis"
+    },
+    {
+      "wrong": "Pollution has a serious effect to health.",
+      "right": "Pollution has a serious effect on health.",
+      "whyTh": "effect / impact / influence ใช้บุพบท on"
+    }
+  ],
+  "contexts": [
+    {
+      "kind": "school",
+      "title": "Abstract of a student research paper",
+      "lines": [
+        {
+          "text": "This study examines [[the impact of]] remote work [[on]] employee productivity. [[An analysis of]] survey data from 500 employees indicates [[a slight increase in]] output but [[a decline in]] team communication. [[The findings]] suggest [[a need for]] better online collaboration tools."
+        }
+      ]
+    },
+    {
+      "kind": "work",
+      "title": "Rewriting a sentence for a report",
+      "lines": [
+        {
+          "speaker": "Draft",
+          "text": "Sales fell dramatically because the company raised its prices."
+        },
+        {
+          "speaker": "Final",
+          "text": "[[The increase in prices]] led to [[a dramatic fall in sales]]."
+        },
+        {
+          "speaker": "Draft",
+          "text": "The team was not able to meet the deadline, so the client was disappointed."
+        },
+        {
+          "speaker": "Final",
+          "text": "[[The team's failure]] to meet the deadline led to [[the client's disappointment]]."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Nominalisation",
+      "th": "การเปลี่ยนกริยาหรือคุณศัพท์ให้เป็นคำนาม (เหมือนเติม \"การ\" / \"ความ\")"
+    },
+    {
+      "en": "Noun phrase",
+      "th": "กลุ่มคำนาม เช่น the rapid growth of the city"
+    },
+    {
+      "en": "Suffix",
+      "th": "ส่วนเติมท้ายคำ เช่น -tion, -ment, -ity, -ance ที่ทำให้กลายเป็นคำนาม"
+    },
+    {
+      "en": "Academic register",
+      "th": "ระดับภาษาแบบวิชาการ กระชับ เป็นกลาง ไม่ใช้ภาษาพูด"
+    },
+    {
+      "en": "Dependent preposition",
+      "th": "บุพบทที่ต้องตามคำนามบางคำ เช่น increase in, impact on, demand for"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-nominalisation-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The ___ of the new bridge took three years.",
+      "choices": [
+        "construction",
+        "construct",
+        "constructive",
+        "constructed"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "construct เป็นกริยา หลัง The … of ต้องเป็นคำนาม",
+        "2": "constructive เป็นคุณศัพท์ (สร้างสรรค์) ไม่ใช่คำนาม",
+        "3": "constructed เป็นกริยาช่องที่ 2/3 ไม่ใช่คำนาม"
+      },
+      "explainTh": "The + คำนาม + of → construction (การก่อสร้าง)",
+      "structure": "the + noun + of"
+    },
+    {
+      "id": "c1-nominalisation-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "There has been a significant ___ in unemployment this year.",
+      "choices": [
+        "reduction",
+        "reduce",
+        "reduced",
+        "reducing"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "reduce เป็นกริยา หลัง a significant ต้องเป็นคำนาม",
+        "2": "reduced เป็นกริยาช่องที่ 2/3 หรือคุณศัพท์ ต้องมีคำนามตามหลัง",
+        "3": "reducing ไม่ใช้เป็นคำนามนับได้กับ a และไม่ใช้คู่ in แบบนี้"
+      },
+      "explainTh": "a + adj + คำนาม + in → a significant reduction in unemployment (การลดลงอย่างมีนัยสำคัญ)",
+      "structure": "a + adj + noun + in"
+    },
+    {
+      "id": "c1-nominalisation-03",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "The report highlights the growing demand ___ renewable energy.",
+      "choices": [
+        "for",
+        "of",
+        "to",
+        "on"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "demand of ไม่ใช้ในความหมาย \"ความต้องการ (สินค้า/บริการ)\"",
+        "2": "demand ไม่ตามด้วย to + คำนาม",
+        "3": "on ใช้กับ impact / effect ไม่ใช่ demand"
+      },
+      "explainTh": "demand for + สิ่งที่ต้องการ (คำนาม + บุพบทที่ต้องจำ)"
+    },
+    {
+      "id": "c1-nominalisation-04",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "The ___ (fail) of the project was due to poor planning.",
+      "accepted": [
+        "failure"
+      ],
+      "explainTh": "fail (กริยา) → failure (คำนาม) ใช้หลัง The … of"
+    },
+    {
+      "id": "c1-nominalisation-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Researchers carried out a detailed ___ (analyse) of the survey results.",
+      "accepted": [
+        "analysis"
+      ],
+      "explainTh": "carry out + a/an + คำนาม → analyse (กริยา) เปลี่ยนเป็น analysis (คำนาม)"
+    },
+    {
+      "id": "c1-nominalisation-06",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "The new policy has had a positive impact ___ student attendance.",
+      "accepted": [
+        "on",
+        "upon"
+      ],
+      "explainTh": "impact / effect / influence + on (upon เป็นรูปทางการกว่า)"
+    },
+    {
+      "id": "c1-nominalisation-07",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Her ___ (able) to explain complex ideas simply impressed the panel.",
+      "accepted": [
+        "ability"
+      ],
+      "explainTh": "able (คุณศัพท์) → ability (คำนาม) ใช้หลัง her และตามด้วย to + V1"
+    },
+    {
+      "id": "c1-nominalisation-08",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่กริยา/คุณศัพท์กับรูปคำนาม",
+      "pairs": [
+        [
+          "decide",
+          "decision"
+        ],
+        [
+          "arrive",
+          "arrival"
+        ],
+        [
+          "refuse",
+          "refusal"
+        ],
+        [
+          "accurate",
+          "accuracy"
+        ],
+        [
+          "maintain",
+          "maintenance"
+        ]
+      ],
+      "explainTh": "ส่วนเติมท้ายที่ทำให้เป็นคำนามมีหลายแบบ: -sion (decision), -al (arrival, refusal), -cy (accuracy), -ance (maintenance) ต้องจำเป็นคำ ๆ"
+    },
+    {
+      "id": "c1-nominalisation-09",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "The rapidly growth of online shopping has changed the retail industry.",
+      "errorPart": "rapidly",
+      "accepted": [
+        "The rapid growth of online shopping has changed the retail industry."
+      ],
+      "explainTh": "growth เป็นคำนาม คำขยายต้องเป็นคุณศัพท์ rapid ไม่ใช่คำวิเศษณ์ rapidly"
+    },
+    {
+      "id": "c1-nominalisation-10",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "There was a dramatic increase of the number of applicants.",
+      "errorPart": "increase of",
+      "accepted": [
+        "There was a dramatic increase in the number of applicants."
+      ],
+      "explainTh": "increase (คำนาม) + in + สิ่งที่เพิ่มขึ้น → an increase in the number of …"
+    },
+    {
+      "id": "c1-nominalisation-11",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "The government's decide to close the factory surprised everyone.",
+      "errorPart": "decide",
+      "accepted": [
+        "The government's decision to close the factory surprised everyone."
+      ],
+      "explainTh": "หลัง 's ต้องเป็นคำนาม → decision (การตัดสินใจ) + to + V1"
+    },
+    {
+      "id": "c1-nominalisation-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "The company expanded rapidly, and this created new jobs.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย The company's และใช้คำนาม expansion กับกริยา created",
+      "accepted": [
+        "The company's rapid expansion created new jobs."
+      ],
+      "explainTh": "expanded rapidly → rapid expansion (กริยา → คำนาม · คำวิเศษณ์ → คุณศัพท์) แล้วใช้เป็นประธานของ created",
+      "structure": "S's + adj + noun + V"
+    },
+    {
+      "id": "c1-nominalisation-13",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Because the economy declined, many small businesses closed.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย The decline และใช้ led to",
+      "accepted": [
+        "The decline in the economy led to the closure of many small businesses.",
+        "The decline of the economy led to the closure of many small businesses.",
+        "The decline in the economy led to the closing of many small businesses.",
+        "The decline in the economy led to many small businesses closing.",
+        "The decline of the economy led to many small businesses closing.",
+        "The decline in the economy led to many small businesses closing down.",
+        "The decline of the economy led to many small businesses closing down.",
+        "The decline in the economy led to the closing down of many small businesses."
+      ],
+      "explainTh": "Because S + declined → The decline in/of S · ผล (businesses closed) → the closure of many small businesses — เชื่อมเหตุผลด้วย led to",
+      "structure": "The + noun + in/of … + led to + noun phrase"
+    },
+    {
+      "id": "c1-nominalisation-14",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Scientists discovered the vaccine in 2020, which saved millions of lives.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย The discovery",
+      "accepted": [
+        "The discovery of the vaccine in 2020 saved millions of lives.",
+        "The discovery of the vaccine by scientists in 2020 saved millions of lives.",
+        "The discovery of the vaccine in 2020 by scientists saved millions of lives."
+      ],
+      "explainTh": "discovered → the discovery of + กรรมเดิม (the vaccine) แล้วใช้ saved เป็นกริยาหลักของประโยคเดียว"
+    },
+    {
+      "id": "c1-nominalisation-15",
+      "type": "choose",
+      "difficulty": 3,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "The introducing stricter regulations resulted in a reduction in pollution.",
+        "Introduction stricter regulations resulted in a reduction in pollution.",
+        "The introduction of stricter regulations resulted in a reduce in pollution.",
+        "The introduction of stricter regulations resulted in a reduction in pollution."
+      ],
+      "answer": 3,
+      "whyNot": {
+        "0": "The + V-ing + กรรม (The introducing stricter …) ผิดโครงสร้าง ต้องเป็น The introduction of …",
+        "1": "ขาด The และ of: The introduction of stricter regulations",
+        "2": "หลัง a ต้องเป็นคำนาม reduction ไม่ใช่กริยา reduce"
+      },
+      "explainTh": "The + noun + of + … · result in + a + noun + in … → The introduction of stricter regulations resulted in a reduction in pollution."
+    },
+    {
+      "id": "c1-nominalisation-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "school",
+        "title": "Research abstract",
+        "lines": [
+          {
+            "text": "This study examines the impact of remote work on employee productivity. An analysis of survey data from 500 employees indicates a slight increase in output but a decline in team communication."
+          }
+        ]
+      },
+      "question": "According to the abstract, what happened to team communication?",
+      "choices": [
+        "It became worse.",
+        "It improved slightly.",
+        "It was analysed by 500 employees.",
+        "It had no impact on productivity."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "a slight increase ใช้กับ output (ผลงาน) ไม่ใช่การสื่อสาร",
+        "2": "500 employees เป็นผู้ตอบแบบสำรวจ ไม่ใช่ผู้วิเคราะห์ (An analysis of survey data from 500 employees)",
+        "3": "บทคัดย่อไม่ได้บอกความสัมพันธ์นี้ — impact of remote work on productivity คือหัวข้อการศึกษา"
+      },
+      "explainTh": "a decline in team communication = team communication declined (แย่ลง) — ต้อง \"แกะ\" คำนามกลับเป็นกริยาเพื่อเข้าใจความหมาย"
+    },
+    {
+      "id": "c1-nominalisation-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคแบบรายงานวิชาการ บรรยายการเปลี่ยนแปลงในโรงเรียน/ที่ทำงานของคุณ ใช้คำนามที่แปลงมาพร้อมบุพบท เช่น a rise in, the introduction of, a decline in, an analysis of อย่างน้อย 2 ครั้ง (Write 3 academic sentences using nominalisation.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(increase|rise|decline|fall|drop|growth|reduction|improvement|introduction|expansion|development|analysis|closure|discovery|demand|impact|effect|decision|failure)\\s+(in|of|on|for|to)\\b",
+          "flags": "i",
+          "msgTh": "ใช้คำนามที่แปลงมา + บุพบท เช่น a rise in, the introduction of, an analysis of"
+        },
+        {
+          "re": "\\b(increase|rise|decline|fall|drop|growth|reduction|improvement|introduction|expansion|development|analysis|closure|discovery|demand|impact|effect|decision|failure)\\s+(in|of|on|for|to)\\b[\\s\\S]*\\b(increase|rise|decline|fall|drop|growth|reduction|improvement|introduction|expansion|development|analysis|closure|discovery|demand|impact|effect|decision|failure)\\s+(in|of|on|for|to)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ nominalisation อย่างน้อย 2 ครั้ง"
+        }
+      ],
+      "sample": "The introduction of online classes led to a sharp rise in student attendance. However, the lack of face-to-face contact caused a decline in motivation. Further analysis of the data is needed.",
+      "explainTh": "ระวังรูปคำ (analysis ไม่ใช่ analyse) คุณศัพท์หน้าคำนาม (sharp ไม่ใช่ sharply) และบุพบท (rise in, impact on)"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/* =====================================================================
+   v1.26.0 Snow-Covered Navigation — ใช้ได้ทุกธีม (ปิดตามการตั้งค่า "หิมะตก")
+   ภาพ: public/img/snow/*.svg (สร้างด้วย scripts/snowcaps/build_snowcaps.py · ทรงธรรมชาติ 2 ชั้น · ไล่แสงเงา · ไทล์กว้าง 1200px)
+   - แถบบน: สันหิมะห้อยใต้ขอบ (ยื่นลงสูงสุด ~14px · ไม่รับการแตะ · อยู่ใต้ข้อความ/ไอคอนของแถบ)
+   - เมนูล่าง (มือถือ): หิมะกองบนขอบบน · แถบข้าง (จอกว้าง): หิมะห้อยขอบบน + ก้อนหิมะบนโลโก้
+   - แผงในล็อบบี้: ก้อนหิมะเกาะมุมบนบางจุด
+   - ธีมสว่าง/พาสเทล ใช้ชุดสีที่ขอบเข้มขึ้น (data-snow-tone="light" ตั้งโดย snow-fx.js)
+   - คริสต์มาส: สันหิมะมีน้ำแข็งย้อย (theme-christmas.css เพิ่มสายไฟประดับต่อ)
+   ===================================================================== */
+:root:not([data-snow="off"]) #hud::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -14px; height: 26px; pointer-events: none; z-index: 0;
+  background: url("/img/snow/cap-hang-dark.svg") 0 0 / 1200px 26px repeat-x;
+  filter: drop-shadow(0 2px 2px rgba(2, 6, 16, 0.32));
+}
+:root[data-snow-tone="light"]:not([data-snow="off"]) #hud::after { background-image: url("/img/snow/cap-hang-light.svg"); filter: drop-shadow(0 2px 2px rgba(40, 60, 100, 0.16)); }
+:root[data-skin="christmas"]:not([data-snow="off"]) #hud::after { background-image: url("/img/snow/cap-hang-ice-dark.svg"); height: 30px; background-size: 1200px 30px; bottom: -18px; }
+#hud > .container { position: relative; z-index: 1; }
+
+/* เมนูล่าง (มือถือ/แท็บเล็ต): หิมะกองบนขอบ */
+:root:not([data-snow="off"]) #bottom-nav::before {
+  content: ''; position: absolute; left: 0; right: 0; top: -13px; height: 20px; pointer-events: none;
+  background: url("/img/snow/cap-pile-dark.svg") 0 0 / 1200px 20px repeat-x;
+  filter: drop-shadow(0 -1px 2px rgba(2, 6, 16, 0.28));
+}
+:root[data-snow-tone="light"]:not([data-snow="off"]) #bottom-nav::before { background-image: url("/img/snow/cap-pile-light.svg"); filter: drop-shadow(0 -1px 2px rgba(40, 60, 100, 0.14)); }
+@media (min-width: 1024px) {
+  /* แถบข้าง: หิมะห้อยจากขอบบน + ก้อนหิมะบนโลโก้ */
+  :root:not([data-snow="off"]) #bottom-nav::before { top: 0; height: 26px; background-image: url("/img/snow/cap-hang-dark.svg"); background-size: 1200px 26px; filter: drop-shadow(0 2px 2px rgba(2, 6, 16, 0.3)); }
+  :root[data-snow-tone="light"]:not([data-snow="off"]) #bottom-nav::before { background-image: url("/img/snow/cap-hang-light.svg"); filter: drop-shadow(0 2px 2px rgba(40, 60, 100, 0.14)); }
+  :root:not([data-snow="off"]) #bottom-nav .nav-brand { position: relative; }
+  :root:not([data-snow="off"]) #bottom-nav .nav-brand::after {
+    content: ''; position: absolute; left: 2px; top: -7px; width: 40px; height: 14px; pointer-events: none;
+    background: url("/img/snow/clump-dark.svg") center / contain no-repeat; filter: drop-shadow(0 1px 1px rgba(2, 6, 16, 0.3));
+  }
+  :root[data-snow-tone="light"]:not([data-snow="off"]) #bottom-nav .nav-brand::after { background-image: url("/img/snow/clump-light.svg"); }
+}
+
+/* ก้อนหิมะเกาะมุมแผง (บางจุด · ไม่บังหัวข้อ: อยู่ที่มุมขวาบน นอกพื้นที่ข้อความ) */
+:root:not([data-snow="off"]) .hl-panel { position: relative; }
+:root:not([data-snow="off"]) .hl-panel::before {
+  content: ''; position: absolute; right: 14px; top: -8px; width: 46px; height: 16px; pointer-events: none;
+  background: url("/img/snow/clump-dark.svg") center / contain no-repeat; filter: drop-shadow(0 1px 1px rgba(2, 6, 16, 0.28));
+}
+:root[data-snow-tone="light"]:not([data-snow="off"]) .hl-panel::before { background-image: url("/img/snow/clump-light.svg"); }

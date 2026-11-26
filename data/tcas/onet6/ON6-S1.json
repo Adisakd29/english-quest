@@ -1,0 +1,1521 @@
+{
+  "exam": "onet6",
+  "setId": "ON6-S1",
+  "title": "O-NET ม.6 ชุดฝึกที่ 1",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "communication",
+      "groups": [
+        {
+          "id": "ON6-S1-G01",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the school canteen",
+          "dialogue": [
+            {
+              "speaker": "Ploy",
+              "text": "Hi, Auntie Noi. ___1___"
+            },
+            {
+              "speaker": "Auntie Noi",
+              "text": "Of course. With chicken or pork?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Chicken, please, and not too spicy. How much is it?"
+            },
+            {
+              "speaker": "Auntie Noi",
+              "text": "Forty baht. ___2___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Oh no, I only have a 500-baht note. I'm sorry."
+            },
+            {
+              "speaker": "Auntie Noi",
+              "text": "Hmm, I don't have enough change yet. It's still early."
+            },
+            {
+              "speaker": "Ken",
+              "text": "___3___ I'll pay for it, and you can give me the money tomorrow."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Thanks, Ken. You're a lifesaver!"
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S1-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Can I have a plate of fried rice, please?",
+                "I made some fried rice for you.",
+                "Have you ever cooked fried rice before?",
+                "Would you like a plate of fried rice today?",
+                "Where did you buy this fried rice?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "แม่ค้าตอบว่า \"Of course. With chicken or pork?\" แสดงว่าพลอยกำลังขอสั่งอาหาร จึงต้องเป็นประโยคขอ \"Can I have ..., please?\" ส่วน \"Would you like ...?\" เป็นการเสนอให้ ซึ่งผิดบทบาทของผู้ซื้อ"
+            },
+            {
+              "id": "ON6-S1-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Do you have the exact amount?",
+                "Would you like to order more?",
+                "It's free for students today.",
+                "Please keep the change.",
+                "Here is your change."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พลอยตอบว่ามีแต่แบงก์ 500 บาท แสดงว่าแม่ค้าถามว่ามีเงินพอดีหรือไม่ (exact amount) ตัวเลือกอื่นไม่ทำให้พลอยต้องตอบเรื่องแบงก์ใหญ่"
+            },
+            {
+              "id": "ON6-S1-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Never mind, I'm full.",
+                "You should go home now.",
+                "I'm afraid I can't.",
+                "Don't worry. Let me help.",
+                "That's not my problem."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "เคนพูดต่อว่า \"I'll pay for it\" แสดงว่าเขาเสนอความช่วยเหลือ จึงต้องเป็น \"Don't worry. Let me help.\" ตัวเลือกอื่นเป็นการปฏิเสธหรือไม่เกี่ยวข้อง"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G02",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Asking the way",
+          "dialogue": [
+            {
+              "speaker": "Visitor",
+              "text": "Excuse me. ___4___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Sure. Go straight past the library and turn left at the basketball court."
+            },
+            {
+              "speaker": "Visitor",
+              "text": "Is it far from here?"
+            },
+            {
+              "speaker": "Fah",
+              "text": "___5___ It's only about a three-minute walk."
+            },
+            {
+              "speaker": "Visitor",
+              "text": "Great. And is the meeting room on the ground floor?"
+            },
+            {
+              "speaker": "Fah",
+              "text": "No, it's on the second floor. ___6___"
+            },
+            {
+              "speaker": "Visitor",
+              "text": "That's very kind of you. Thank you."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S1-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Why is the science building so far away from here?",
+                "Have you ever studied in the science building?",
+                "Do you know what time the science class starts?",
+                "Could you tell me where the science building is?",
+                "Would you like to visit the science building?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ฟ้าตอบด้วยการบอกทาง (Go straight ... turn left ...) ผู้มาเยือนจึงต้องถามทาง \"Could you tell me where ... is?\" ตัวเลือกอื่นไม่ได้ถามทาง"
+            },
+            {
+              "id": "ON6-S1-005",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Yes, very far.",
+                "You'd better take a taxi.",
+                "Not really.",
+                "It's closed today.",
+                "I have no idea."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "ประโยคถัดไปบอกว่าเดินแค่ 3 นาที จึงต้องตอบว่า \"ไม่ค่อยไกล\" (Not really) ส่วน \"Yes, very far.\" และ \"take a taxi\" ขัดกับข้อมูลนี้"
+            },
+            {
+              "id": "ON6-S1-006",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "I'm not a student at this school.",
+                "The meeting finished an hour ago.",
+                "Please don't go upstairs without me.",
+                "I can take you there.",
+                "You'd better ask somebody else."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้มาเยือนตอบว่า \"That's very kind of you\" แสดงว่าฟ้าเสนอความช่วยเหลือ คือพาไปส่ง ตัวเลือกอื่นไม่ใช่ความมีน้ำใจที่ต้องขอบคุณ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G03",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Saying sorry",
+          "dialogue": [
+            {
+              "speaker": "Nat",
+              "text": "Jay, I'm really sorry. ___7___"
+            },
+            {
+              "speaker": "Jay",
+              "text": "Oh no! What happened to it?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "My little brother dropped it on the floor, and now it won't turn on."
+            },
+            {
+              "speaker": "Jay",
+              "text": "Well, ___8___ It was quite old anyway."
+            },
+            {
+              "speaker": "Nat",
+              "text": "That's nice of you, but I'd still like to buy you a new one."
+            },
+            {
+              "speaker": "Jay",
+              "text": "___9___ We can go to the stationery shop together after school."
+            },
+            {
+              "speaker": "Nat",
+              "text": "Sounds good. Thanks for being so understanding."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S1-007",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "I'd like a new calculator.",
+                "I can lend you my calculator.",
+                "I've found your calculator.",
+                "I've broken your calculator.",
+                "I've bought a calculator."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "แนทขอโทษ และเจย์ถามว่า \"What happened to it?\" ต่อมาบอกว่าเครื่องเปิดไม่ติด จึงต้องเป็นการสารภาพว่าทำเครื่องคิดเลขพัง"
+            },
+            {
+              "id": "ON6-S1-008",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "you must pay me back today.",
+                "these things happen.",
+                "I'm really angry with you.",
+                "it was my favourite thing.",
+                "congratulations on your success."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "เจย์พูดต่อว่า \"It was quite old anyway\" และแนทตอบว่า \"That's nice of you\" แสดงว่าเจย์ให้อภัย \"these things happen\" (เรื่องแบบนี้เกิดขึ้นได้)"
+            },
+            {
+              "id": "ON6-S1-009",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "No, I'll never forgive you.",
+                "Well, OK, if you really want to.",
+                "You can borrow it again.",
+                "Sorry, I'm busy all week.",
+                "I don't need a calculator."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "เจย์ชวนไปร้านเครื่องเขียนด้วยกันหลังเลิกเรียน แสดงว่ายอมรับข้อเสนอของแนทที่จะซื้อเครื่องใหม่ให้ \"Well, OK, if you really want to.\" ส่วน \"busy all week\" ขัดกับการนัดไปด้วยกัน"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G04",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "An invitation",
+          "dialogue": [
+            {
+              "speaker": "Mai",
+              "text": "Pim, are you free this Saturday?"
+            },
+            {
+              "speaker": "Pim",
+              "text": "I think so. ___10___"
+            },
+            {
+              "speaker": "Mai",
+              "text": "My cousin is opening a small bakery, and ___11___"
+            },
+            {
+              "speaker": "Pim",
+              "text": "I'd love to! What time should I be there?"
+            },
+            {
+              "speaker": "Mai",
+              "text": "The opening is at ten, but let's meet at the bus stop at half past nine."
+            },
+            {
+              "speaker": "Pim",
+              "text": "___12___ See you then."
+            },
+            {
+              "speaker": "Mai",
+              "text": "Great. Don't forget to bring your camera!"
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S1-010",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "I don't like weekends.",
+                "Where were you last Saturday?",
+                "Why do you ask?",
+                "Who told you that?",
+                "How did you get there?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ไหมตอบโดยอธิบายเหตุผลที่ถามว่าว่างไหม (ญาติเปิดร้านเบเกอรี่) จึงต้องถามว่า \"Why do you ask?\""
+            },
+            {
+              "id": "ON6-S1-011",
+              "blank": 11,
+              "stem": "",
+              "options": [
+                "the cakes there are far too expensive.",
+                "would you like to come with me?",
+                "I have to stay home alone.",
+                "she doesn't know how to bake.",
+                "you should open one too."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "พิมตอบว่า \"I'd love to!\" ซึ่งเป็นการตอบรับคำชวน ดังนั้นช่องนี้ต้องเป็นคำชวน \"would you like to come with me?\""
+            },
+            {
+              "id": "ON6-S1-012",
+              "blank": 12,
+              "stem": "",
+              "options": [
+                "That's too bad.",
+                "What a pity.",
+                "Never again.",
+                "That works for me.",
+                "I'm afraid not."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "พิมพูดต่อว่า \"See you then.\" แสดงว่าตกลงตามเวลานัด \"That works for me.\" (สะดวก/ได้เลย) ตัวเลือกอื่นเป็นการปฏิเสธหรือแสดงความเสียใจ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G05",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Choosing a project topic",
+          "dialogue": [
+            {
+              "speaker": "Beam",
+              "text": "We need to choose a topic for our class presentation. ___13___"
+            },
+            {
+              "speaker": "Tan",
+              "text": "How about street food in our town? Everybody loves it."
+            },
+            {
+              "speaker": "Beam",
+              "text": "___14___ But lots of groups chose food last year."
+            },
+            {
+              "speaker": "Tan",
+              "text": "Good point. What about the old wooden shophouses on River Road?"
+            },
+            {
+              "speaker": "Beam",
+              "text": "That's a great idea! We could take photos and interview the owners."
+            },
+            {
+              "speaker": "Tan",
+              "text": "___15___ When should we start?"
+            },
+            {
+              "speaker": "Beam",
+              "text": "Let's go there on Sunday morning."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S1-013",
+              "blank": 13,
+              "stem": "",
+              "options": [
+                "Have you finished it already?",
+                "Can you speak more loudly?",
+                "Do you have any ideas?",
+                "Who is our new teacher?",
+                "Where is our classroom?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "แทนตอบด้วยการเสนอหัวข้อ \"How about street food ...?\" จึงต้องเป็นคำถามขอความคิดเห็น \"Do you have any ideas?\""
+            },
+            {
+              "id": "ON6-S1-014",
+              "blank": 14,
+              "stem": "",
+              "options": [
+                "Let me check my diary.",
+                "No, thanks. I'm full.",
+                "You're absolutely wrong.",
+                "It's nothing to do with me.",
+                "I see what you mean."
+              ],
+              "answer": 4,
+              "skill": "social_response",
+              "explanationTh": "บีมเห็นด้วยบางส่วนก่อนแย้งด้วย \"But ...\" จึงใช้ \"I see what you mean.\" (เข้าใจที่เธอพูด) ส่วน \"You're absolutely wrong.\" ไม่เข้ากับคำว่า But ที่ตามมา"
+            },
+            {
+              "id": "ON6-S1-015",
+              "blank": 15,
+              "stem": "",
+              "options": [
+                "I'd rather not.",
+                "I'm not so sure about that.",
+                "That's a terrible plan.",
+                "I couldn't agree more.",
+                "You must be joking."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "แทนถามต่อทันทีว่า \"When should we start?\" แสดงว่าเห็นด้วยอย่างยิ่ง \"I couldn't agree more.\" ตัวเลือกอื่นแสดงความไม่เห็นด้วย"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G06",
+          "type": "on_notice",
+          "instructionTh": "อ่านประกาศ แล้วตอบคำถาม",
+          "title": "Green Leaf Weekend Market",
+          "text": "GREEN LEAF WEEKEND MARKET\nEvery Saturday and Sunday, 7:00 a.m. – 1:00 p.m.\nCar park behind Ban Mai Sports Centre\n\nFresh vegetables from local farms, homemade snacks, second-hand books and handmade bags.\n\nPlease note:\n• From 6 July, the market will close one hour later than usual.\n• Bring your own bag. Sellers will charge 2 baht for each plastic bag.\n• Dogs and other pets must be kept on a lead.\n• Parking is free for the first two hours. After that, it costs 20 baht per hour.\n\nWould you like to sell at the market? Call Khun Darin on 081-555-0192 before Thursday each week.",
+          "items": [
+            {
+              "id": "ON6-S1-016",
+              "stem": "What is the main purpose of this notice?",
+              "options": [
+                "To invite farmers to a meeting",
+                "To teach people how to make handmade bags",
+                "To ask people to sell their pets",
+                "To give information about a market",
+                "To advertise a new sports centre"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ประกาศบอกวัน เวลา สถานที่ สินค้า และกฎของตลาดนัดสุดสัปดาห์ จุดประสงค์จึงเป็นการให้ข้อมูลเกี่ยวกับตลาด"
+            },
+            {
+              "id": "ON6-S1-017",
+              "stem": "What time will the market close from 6 July?",
+              "options": [
+                "1:00 p.m.",
+                "6:00 p.m.",
+                "2:00 p.m.",
+                "7:00 a.m.",
+                "12:00 p.m."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "เดิมตลาดปิด 1:00 p.m. และประกาศบอกว่าตั้งแต่ 6 ก.ค. จะปิด \"one hour later\" จึงเป็น 2:00 p.m."
+            },
+            {
+              "id": "ON6-S1-018",
+              "stem": "If you park your car for three hours, how much will you pay?",
+              "options": [
+                "Nothing",
+                "20 baht",
+                "2 baht",
+                "40 baht",
+                "60 baht"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "จอดฟรีสองชั่วโมงแรก หลังจากนั้นชั่วโมงละ 20 บาท จอดสามชั่วโมงจึงจ่ายเฉพาะชั่วโมงที่สาม คือ 20 บาท"
+            },
+            {
+              "id": "ON6-S1-019",
+              "stem": "Which of the following is TRUE according to the notice?",
+              "options": [
+                "The market is held inside the sports centre.",
+                "The market is open every day of the week.",
+                "Plastic bags are given out for free.",
+                "You can bring your dog if it is on a lead.",
+                "People who want to sell must call on Friday."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ประกาศเขียนว่า \"Pets must be kept on a lead\" จึงพาสุนัขมาได้ถ้าใส่สายจูง ส่วนถุงพลาสติกคิดใบละ 2 บาท ตลาดเปิดแค่เสาร์–อาทิตย์ และต้องโทรก่อนวันพฤหัสบดี"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G07",
+          "type": "on_notice",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A message from the class teacher",
+          "text": "Hi Grade 12/3,\nThis is a reminder about our trip to the Sri Wiang Paper Museum tomorrow. Because heavy rain is expected in the morning, the bus will leave at 8:30 instead of 8:00. Please meet in front of the school hall, not at the main gate. Wear your PE uniform and comfortable shoes, and bring a raincoat. Lunch will be provided by the museum, but you may bring your own snacks. Anyone who has not handed in the permission form must give it to me before 4 p.m. today. Without the form, you will not be able to join the trip.\nSee you tomorrow!\nMs. Kanya",
+          "items": [
+            {
+              "id": "ON6-S1-020",
+              "stem": "Why will the bus leave later than planned?",
+              "options": [
+                "Because the museum opens late",
+                "Because the bus is broken",
+                "Because of the weather",
+                "Because the hall is closed",
+                "Because students want more sleep"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่า \"Because heavy rain is expected in the morning\" รถจึงออกช้าลง สาเหตุคือสภาพอากาศ"
+            },
+            {
+              "id": "ON6-S1-021",
+              "stem": "Where should the students meet tomorrow?",
+              "options": [
+                "Outside the school's PE room",
+                "In front of the school hall",
+                "At the paper museum",
+                "At the main gate",
+                "At the bus station"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ครูเขียนว่า \"meet in front of the school hall, not at the main gate\" จึงต้องไปพบกันหน้าหอประชุม"
+            },
+            {
+              "id": "ON6-S1-022",
+              "stem": "The word \"provided\" in the message is closest in meaning to ____.",
+              "options": [
+                "shared",
+                "given",
+                "sold",
+                "refused",
+                "cooked"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Lunch will be provided by the museum\" หมายถึงพิพิธภัณฑ์จัดอาหารกลางวันให้ provided จึงใกล้เคียงกับ given (ให้/จัดให้)"
+            },
+            {
+              "id": "ON6-S1-023",
+              "stem": "What will happen to a student who hands in the form at 5 p.m. today?",
+              "options": [
+                "He or she will get a raincoat.",
+                "He or she must bring lunch.",
+                "He or she will sit at the front.",
+                "He or she cannot go on the trip.",
+                "He or she must pay extra."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ต้องส่งใบขออนุญาตก่อน 4 โมงเย็น และ \"Without the form, you will not be able to join the trip\" ส่งตอน 5 โมงจึงเลยกำหนดและไปทัศนศึกษาไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G08",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "An email from Thailand",
+          "text": "Dear Grandma,\n\nI can't believe I've already been in Thailand for a month! My host family, the Srisuks, are really kind. My host sister, Nam, is the same age as me, and for the first few weeks I sat on the back of her bicycle on the way to Ban Suan School. Last week, I finally learned to ride one myself, so now we cycle side by side. I fell off three times, but Nam never laughed at me.\n\nSchool here starts early, at 7:30, and everyone stands in line for the flag ceremony first. At first I found the heat difficult, but now I'm getting used to it. My favourite subject is Thai. My teacher says my pronunciation is improving, but I still mix up the words for \"near\" and \"far\", which caused some funny problems when I gave directions to a visitor last Tuesday!\n\nLast weekend I joined the school band. They needed someone who could play the trumpet, so I was lucky that I had packed mine before I left home. We are practising for a concert in December, and Nam's parents have already promised to come.\n\nI miss your apple pie, but Thai mango sticky rice is a very good replacement. Please give my love to Grandpa.\n\nLove,\nLena",
+          "items": [
+            {
+              "id": "ON6-S1-024",
+              "stem": "Which of the following has Lena NOT done yet?",
+              "options": [
+                "Given directions in Thai",
+                "Joined the school band",
+                "Played in a concert with the band",
+                "Eaten mango sticky rice",
+                "Learned to ride a bicycle"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "เลนาเขียนว่า \"We are practising for a concert in December\" คอนเสิร์ตยังไม่เกิดขึ้น ส่วนการขี่จักรยาน เข้าวงดนตรี บอกทางเป็นภาษาไทย และกินข้าวเหนียวมะม่วง เธอทำไปแล้วทั้งหมด"
+            },
+            {
+              "id": "ON6-S1-025",
+              "stem": "How does Lena get to school now?",
+              "options": [
+                "She walks to school with Nam.",
+                "Nam's father drives her there.",
+                "She takes the school bus with Nam.",
+                "She sits on the back of Nam's bicycle.",
+                "She rides a bicycle next to Nam."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่าช่วงแรกนั่งซ้อนท้ายจักรยานของน้ำ แต่ \"now we cycle side by side\" ตอนนี้จึงปั่นจักรยานเองข้าง ๆ น้ำ"
+            },
+            {
+              "id": "ON6-S1-026",
+              "stem": "The phrase \"getting used to\" in paragraph 2 is closest in meaning to ____.",
+              "options": [
+                "running away from",
+                "complaining about",
+                "worrying about",
+                "becoming comfortable with",
+                "making use of"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ตอนแรกเลนารู้สึกว่าอากาศร้อนลำบาก \"but now I'm getting used to it\" แปลว่าเริ่มคุ้นเคย คือ becoming comfortable with"
+            },
+            {
+              "id": "ON6-S1-027",
+              "stem": "Why does Lena say she was lucky?",
+              "options": [
+                "She had packed her own trumpet.",
+                "Her grandmother sent her a trumpet.",
+                "The band chose her as its leader.",
+                "She won a prize at a music concert.",
+                "Nam taught her to play the trumpet."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "วงต้องการคนเป่าทรัมเป็ต และเลนาโชคดีที่ \"I had packed mine before I left home\" คือเอาทรัมเป็ตของตัวเองมาด้วย"
+            },
+            {
+              "id": "ON6-S1-028",
+              "stem": "What does \"which\" in paragraph 2 refer to?",
+              "options": [
+                "The visitor who came last Tuesday",
+                "The flag ceremony every morning",
+                "Lena's improving Thai pronunciation",
+                "Lena's favourite school subject",
+                "Mixing up two Thai words"
+              ],
+              "answer": 4,
+              "skill": "reference",
+              "explanationTh": "\"which caused some funny problems\" ขยายสิ่งที่อยู่ก่อนหน้า คือการที่เลนาสับสนคำว่า \"ใกล้\" กับ \"ไกล\" จึงบอกทางผิดจนเกิดเรื่องตลก"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G09",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "The Blue Umbrella",
+          "text": "It was raining hard when Krit left his after-school maths class. He opened his blue umbrella and walked quickly to the bus stop. There, an old man was standing at the edge of the shelter, holding a large paper bag. The roof was small and the wind was blowing the rain in, so the bag was getting wetter and wetter.\n\n\"Excuse me, sir,\" Krit said. \"Would you like to use my umbrella? My bus comes in two minutes, and my house is right next to the stop where I get off.\"\n\nThe man looked surprised. \"But then you won't have one tomorrow.\"\n\n\"I'll borrow my sister's,\" Krit smiled. \"Please take it.\"\n\nThe man thanked him many times and wrote Krit's name on the paper bag.\n\nTwo weeks later, the school had a special guest for Reading Week: a writer of children's books who had grown up in the town. When he walked onto the stage, Krit nearly dropped his pen. It was the old man from the bus stop! In his hand was a familiar blue umbrella.\n\n\"Before I begin,\" the writer said, \"I need to return something to a very kind young man.\" The whole hall turned to look as Krit walked slowly to the stage, his face as red as a tomato.",
+          "items": [
+            {
+              "id": "ON6-S1-029",
+              "stem": "Why was the old man's bag getting wet?",
+              "options": [
+                "There was a hole in the umbrella.",
+                "He had dropped it into a puddle.",
+                "The wind blew rain into the small shelter.",
+                "Krit splashed water on it by mistake.",
+                "He had been waiting for a taxi in the heavy rain."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "เรื่องบอกว่า \"The roof was small and the wind was blowing the rain in\" ฝนจึงสาดเข้ามาในที่พักรอรถที่หลังคาเล็ก ทำให้ถุงเปียก"
+            },
+            {
+              "id": "ON6-S1-030",
+              "stem": "Why did Krit think he would not need the umbrella?",
+              "options": [
+                "He had another umbrella in his bag.",
+                "His older sister was coming to pick him up by car.",
+                "He thought the rain would stop soon.",
+                "He enjoyed walking in the rain.",
+                "He would not have to walk far after the bus."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "กฤษบอกว่า \"my house is right next to the stop where I get off\" ลงรถแล้วบ้านอยู่ติดป้ายเลย จึงแทบไม่ต้องเดินตากฝน ส่วนร่มของพี่สาวเขาจะยืมในวันพรุ่งนี้"
+            },
+            {
+              "id": "ON6-S1-031",
+              "stem": "Who was the old man?",
+              "options": [
+                "Krit's new maths teacher",
+                "Krit's grandfather",
+                "A writer of children's books",
+                "A local bus driver",
+                "The school principal"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "แขกพิเศษในสัปดาห์การอ่านคือ \"a writer of children's books\" และกฤษจำได้ว่าเป็นชายชราที่ป้ายรถเมล์"
+            },
+            {
+              "id": "ON6-S1-032",
+              "stem": "The phrase \"his face as red as a tomato\" shows that Krit felt ____.",
+              "options": [
+                "hungry",
+                "embarrassed",
+                "sick",
+                "angry",
+                "bored"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ทั้งหอประชุมหันมามองขณะกฤษเดินขึ้นเวที หน้าแดงเหมือนมะเขือเทศจึงแสดงความเขินอาย (embarrassed) ไม่ใช่โกรธหรือป่วย"
+            },
+            {
+              "id": "ON6-S1-033",
+              "stem": "Which sentence best describes the message of the story?",
+              "options": [
+                "A small act of kindness can be remembered.",
+                "Old people should stay home when it rains.",
+                "Reading Week is the best school event.",
+                "Students should not lend their things.",
+                "Writers often forget their umbrellas."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "กฤษให้ยืมร่มด้วยความมีน้ำใจ และนักเขียนจดชื่อไว้แล้วกลับมาขอบคุณต่อหน้าทุกคน แสดงว่าความใจดีเล็ก ๆ ถูกจดจำ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G10",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Saturdays at Little Lamp Books",
+          "text": "Posted by Oat, 17\n\nThree months ago, I started my first part-time job at Little Lamp Books, a small bookshop near my school. I work every Saturday from ten to four, and I earn 400 baht a day.\n\nBefore I started, I thought the job would be easy. I imagined myself sitting quietly and reading all day. I was wrong! In the morning I unpack boxes of new books and put price stickers on them. Then I help customers find what they are looking for, which is harder than it sounds. Last week, a woman asked for \"the green book about a cat\". She didn't know the title or the writer. After twenty minutes of searching, we finally found it. She was so happy that she bought two more books.\n\nThe owner, Khun Rattana, has taught me a lot. She says a good shop assistant listens first and talks second. I have also become better at maths, because I count the money at the end of each day.\n\nThe best part of the job? Every month I can choose one book to take home for free. So far I have chosen a travel guide to Laos, a comic about space and a cookbook for my mum.\n\nIf you are thinking about getting a weekend job, my advice is simple: don't expect it to be easy, but expect to learn a lot.",
+          "items": [
+            {
+              "id": "ON6-S1-034",
+              "stem": "How many hours does Oat work each Saturday?",
+              "options": [
+                "Eight",
+                "Ten",
+                "Six",
+                "Four",
+                "Five"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "โอ๊ตทำงาน \"from ten to four\" คือ 10 โมงถึง 4 โมงเย็น รวม 6 ชั่วโมง"
+            },
+            {
+              "id": "ON6-S1-035",
+              "stem": "What did Oat believe before he started the job?",
+              "options": [
+                "The owner would be strict.",
+                "It would pay very little.",
+                "He would have no time to read.",
+                "He would have to count money.",
+                "It would not be hard work."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "เขาเขียนว่า \"I thought the job would be easy\" และคิดว่าจะได้นั่งอ่านหนังสือทั้งวัน จึงเชื่อว่างานไม่หนัก"
+            },
+            {
+              "id": "ON6-S1-036",
+              "stem": "Why did the woman most likely buy two more books?",
+              "options": [
+                "Oat asked her to buy more.",
+                "She wanted gifts for her cat.",
+                "The books were on sale that week.",
+                "She had lost the green book.",
+                "She was pleased with Oat's help."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "หลังจากโอ๊ตช่วยหาหนังสือนาน 20 นาทีจนเจอ \"She was so happy that she bought two more books\" แสดงว่าพอใจกับความช่วยเหลือ"
+            },
+            {
+              "id": "ON6-S1-037",
+              "stem": "What does Khun Rattana mean by \"listens first and talks second\"?",
+              "options": [
+                "Never say anything to the customers",
+                "Read every book before helping any customer",
+                "Speak only when the shop owner is nearby",
+                "Talk more than customers so they feel welcome",
+                "Find out what customers need before speaking"
+              ],
+              "answer": 4,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"listens first and talks second\" คือต้องฟังลูกค้าก่อนเพื่อให้รู้ว่าเขาต้องการอะไร แล้วจึงค่อยพูด ไม่ได้หมายถึงห้ามพูดเลย"
+            },
+            {
+              "id": "ON6-S1-038",
+              "stem": "What does Oat's advice suggest about weekend jobs?",
+              "options": [
+                "They suit only good readers.",
+                "They pay very well.",
+                "They are bad for students.",
+                "They are hard but useful.",
+                "They are easy and fun."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "คำแนะนำ \"don't expect it to be easy, but expect to learn a lot\" บอกว่างานไม่ง่ายแต่ได้เรียนรู้มาก คือยากแต่มีประโยชน์"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G11",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Board Game Cafés",
+          "text": "In many cities, a new kind of café is becoming popular with teenagers and families: the board game café. Customers pay a small fee, usually 60 to 100 baht per person, and can then play any game from a large collection for as long as they like. Drinks and snacks are sold separately.\n\n\"People come here to talk face to face,\" says Jaruwan Mekha, who opened Two Moons Café in Phitsanulok two years ago. \"At most tables, nobody looks at their phone for hours.\" Her café has over 400 games, from simple card games for young children to long strategy games that can take a whole afternoon.\n\nChoosing a game can be difficult for new customers, so many cafés employ \"game guides\". These staff members recommend a suitable game for each group and explain the rules, so players do not have to read a thick instruction book.\n\nTeachers have also noticed the benefits. Some games require players to plan ahead, solve problems and work as a team, and a few schools now hold board game clubs after class. However, not everyone is a fan. Some parents say the cafés are too noisy for studying, and some customers complain that the best games are always taken at weekends.\n\nStill, the success of these cafés shows that, even in a digital world, people enjoy simply sitting around a table together.",
+          "items": [
+            {
+              "id": "ON6-S1-039",
+              "stem": "Which statement about Two Moons Café is TRUE?",
+              "options": [
+                "It opened five years ago.",
+                "It does not allow phones at tables.",
+                "It has games for young children too.",
+                "It has fewer than 400 games.",
+                "Its fee includes drinks and snacks."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ร้านมีเกม \"from simple card games for young children to long strategy games\" จึงมีเกมสำหรับเด็กเล็กด้วย ส่วนร้านเปิดมาสองปี มีเกมมากกว่า 400 เกม เครื่องดื่มขายแยก และไม่ได้ห้ามใช้โทรศัพท์"
+            },
+            {
+              "id": "ON6-S1-040",
+              "stem": "What do customers get for the fee?",
+              "options": [
+                "A private room for one hour only",
+                "A lesson with a school teacher",
+                "The use of any game in the café",
+                "One free drink and a snack",
+                "A new game to take home"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ค่าบริการทำให้ \"can then play any game ... for as long as they like\" ส่วนเครื่องดื่มและขนมขายแยก (sold separately)"
+            },
+            {
+              "id": "ON6-S1-041",
+              "stem": "What is the job of a \"game guide\"?",
+              "options": [
+                "To sell snacks to the players",
+                "To play against the customers",
+                "To help players choose and learn a game",
+                "To clean the tables after games",
+                "To write thick instruction books"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "game guides \"recommend a suitable game ... and explain the rules\" คือช่วยเลือกเกมและอธิบายกติกา"
+            },
+            {
+              "id": "ON6-S1-042",
+              "stem": "The word \"require\" in paragraph 4 is closest in meaning to ____.",
+              "options": [
+                "avoid",
+                "need",
+                "forget",
+                "allow",
+                "stop"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Some games require players to plan ahead\" หมายถึงเกมบางเกมต้องให้ผู้เล่นวางแผนล่วงหน้า require จึงตรงกับ need (ต้องการ/จำเป็นต้อง)"
+            },
+            {
+              "id": "ON6-S1-043",
+              "stem": "Which is a problem with board game cafés mentioned in the passage?",
+              "options": [
+                "The fees are too high for families.",
+                "The best games may be taken at weekends.",
+                "The games are too hard for children.",
+                "Game guides are often unfriendly.",
+                "Customers are not allowed to buy drinks."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่า \"the best games are always taken at weekends\" เกมดี ๆ มักถูกเล่นอยู่ในวันหยุด ส่วนข้อเสียอีกข้อคือเสียงดังเกินกว่าจะอ่านหนังสือ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "groups": [
+        {
+          "id": "ON6-S1-G12",
+          "type": "on_structure",
+          "instructionTh": "เลือกคำตอบที่ถูกต้องหรือเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "ON6-S1-044",
+              "stem": "If it rains tomorrow, we ____ the football match.",
+              "options": [
+                "cancelling",
+                "would have cancelled",
+                "will cancel",
+                "are cancelled",
+                "cancelled"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประโยคเงื่อนไขแบบที่ 1 (If + present simple) ส่วนผลใช้ will + V1 จึงเป็น \"will cancel\""
+            },
+            {
+              "id": "ON6-S1-045",
+              "stem": "My brother has lived in Chiang Mai ____ 2019.",
+              "options": [
+                "ago",
+                "for",
+                "during",
+                "since",
+                "at"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "present perfect กับจุดเริ่มต้นของเวลา (ปี 2019) ใช้ since ส่วน for ใช้กับช่วงเวลา เช่น for five years"
+            },
+            {
+              "id": "ON6-S1-046",
+              "stem": "This is the student ____ won the English speech contest.",
+              "options": [
+                "who",
+                "whose",
+                "which",
+                "whom",
+                "where"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ต้องการ relative pronoun แทนคน และทำหน้าที่เป็นประธานของ won จึงใช้ who (whom ใช้เป็นกรรม, which ใช้กับสิ่งของ)"
+            },
+            {
+              "id": "ON6-S1-047",
+              "stem": "Students are not allowed ____ their phones during the exam.",
+              "options": [
+                "to use",
+                "use",
+                "using",
+                "to using",
+                "used"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง be allowed + to V1 จึงเป็น \"are not allowed to use\""
+            },
+            {
+              "id": "ON6-S1-048",
+              "stem": "A: \"Would you mind closing the door, please?\" B: \"____\"",
+              "options": [
+                "Not at all.",
+                "Yes, you would.",
+                "You're welcome.",
+                "Never mind.",
+                "Yes, of course I do."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "\"Would you mind ...?\" แปลว่า \"รังเกียจไหมที่จะ...\" ถ้ายินดีทำให้ต้องตอบ \"Not at all.\" (ไม่รังเกียจเลย) ตอบ Yes จะกลายเป็นการปฏิเสธ"
+            },
+            {
+              "id": "ON6-S1-049",
+              "stem": "In \"I'm broke this week, so I can't go to the cinema,\" what does \"broke\" mean?",
+              "options": [
+                "being badly hurt",
+                "feeling very tired",
+                "feeling very sad",
+                "being very busy",
+                "having no money"
+              ],
+              "answer": 4,
+              "skill": "vocabulary",
+              "explanationTh": "สำนวน be broke แปลว่า \"ไม่มีเงิน/ถังแตก\" ซึ่งสอดคล้องกับเหตุผลที่ไปดูหนังไม่ได้"
+            },
+            {
+              "id": "ON6-S1-050",
+              "stem": "The new school library is much ____ than the old one.",
+              "options": [
+                "the bigger",
+                "biggest",
+                "bigger",
+                "big",
+                "more big"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "มีคำว่า than จึงต้องใช้ขั้นกว่า big เป็นคำพยางค์เดียวลงท้ายด้วยสระ+พยัญชนะ จึงเติม g + er เป็น bigger"
+            },
+            {
+              "id": "ON6-S1-051",
+              "stem": "When someone says \"It's a piece of cake,\" they mean the task is ____.",
+              "options": [
+                "a kind of dessert",
+                "too expensive",
+                "only half done",
+                "very easy",
+                "very sweet"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "สำนวน \"a piece of cake\" หมายถึงเรื่องง่ายมาก ไม่ได้เกี่ยวกับขนมเค้กจริง ๆ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G13",
+          "type": "on_culture",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Songkran: Having Fun Politely",
+          "text": "Songkran, the Thai New Year, takes place from 13 to 15 April, during the hottest time of the year. For many visitors, it is famous as a huge water festival. But Songkran is not only about water fights. It is also a time for families to get together and to show respect to older people.\n\nIn many homes, younger family members gently pour scented water over the hands of their parents and grandparents. This custom is called rod nam dam hua. In return, the elders give them good wishes for the new year. Many people also clean their houses at this time as a way of starting the year fresh.\n\nIf you plan to join the water fun in the streets, there are a few simple rules to remember. First, only splash people who are clearly playing. Elderly people, people carrying babies and anyone in a work uniform, such as a delivery rider, should be left dry. Second, use clean water and never throw ice, which can hurt. Third, do not aim at the face of a person on a motorbike, because it can cause an accident. Finally, put your phone in a waterproof bag. Keeping it dry is your own responsibility, not other people's!\n\nMany towns now have \"Songkran zones\" where water play is allowed, and quiet areas where it is not. Some organisers also ask players to save water by using small buckets instead of hoses.\n\nIf someone splashes you and you do not want to play, simply smile and say \"Sawasdee pee mai!\" – Happy New Year. A friendly smile is the best way to enjoy Songkran, wet or dry.",
+          "items": [
+            {
+              "id": "ON6-S1-052",
+              "stem": "What is paragraph 3 mainly about?",
+              "options": [
+                "Places where water play is not allowed",
+                "Ways that families show respect to elders",
+                "Rules to follow when playing with water",
+                "How to greet people who want to stay dry",
+                "Reasons why Songkran takes place in April"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าที่ 3 ขึ้นต้นว่า \"there are a few simple rules to remember\" แล้วบอกกฎ First–Finally ในการเล่นน้ำ ส่วนการเคารพผู้ใหญ่อยู่ย่อหน้า 2 และโซนเงียบอยู่ย่อหน้า 4"
+            },
+            {
+              "id": "ON6-S1-053",
+              "stem": "In rod nam dam hua, what do the elders do?",
+              "options": [
+                "They pour water over children's heads.",
+                "They join the water fights in the street.",
+                "They clean the house for the family.",
+                "They give good wishes to the young.",
+                "They buy new clothes for the children."
+              ],
+              "answer": 3,
+              "skill": "culture",
+              "explanationTh": "ในพิธีรดน้ำดำหัว ลูกหลานรดน้ำที่มือผู้ใหญ่ และ \"the elders give them good wishes\" คือผู้ใหญ่ให้พร"
+            },
+            {
+              "id": "ON6-S1-054",
+              "stem": "According to the passage, who should NOT be splashed?",
+              "options": [
+                "A teenager in a Songkran zone",
+                "A tourist holding a water gun",
+                "A friend who is splashing back",
+                "A child playing with a bucket",
+                "A delivery rider in uniform"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่า \"anyone in a work uniform, such as a delivery rider, should be left dry\" ส่วนตัวเลือกอื่นเป็นคนที่กำลังเล่นน้ำอยู่"
+            },
+            {
+              "id": "ON6-S1-055",
+              "stem": "Why should people not aim water at the face of a motorbike rider?",
+              "options": [
+                "Riders often carry phones.",
+                "It wastes too much water.",
+                "Motorbikes are not allowed then.",
+                "The rider may catch a cold.",
+                "It may cause an accident."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "เหตุผลอยู่ในประโยค \"because it can cause an accident\" คืออาจทำให้เกิดอุบัติเหตุ"
+            },
+            {
+              "id": "ON6-S1-056",
+              "stem": "The word \"responsibility\" in paragraph 3 is closest in meaning to ____.",
+              "options": [
+                "luck",
+                "duty",
+                "habit",
+                "danger",
+                "gift"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "การเก็บโทรศัพท์ไม่ให้เปียกเป็น \"your own responsibility, not other people's\" คือหน้าที่ของเราเอง จึงตรงกับ duty"
+            },
+            {
+              "id": "ON6-S1-057",
+              "stem": "Why do some organisers ask players to use small buckets?",
+              "options": [
+                "To make the water fights longer",
+                "To keep the streets cleaner",
+                "To stop people from using phones",
+                "To make the game safer for babies",
+                "To use less water"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ผู้จัดขอให้ใช้ขันหรือถังเล็กแทนสายยาง \"to save water\" คือเพื่อประหยัดน้ำ"
+            },
+            {
+              "id": "ON6-S1-058",
+              "stem": "If a stranger splashes you and you do not want to play, the writer suggests that you ____.",
+              "options": [
+                "smile and greet the person politely",
+                "splash the person back with ice",
+                "complain to the organisers",
+                "take a photo of the person",
+                "go straight home and change your clothes"
+              ],
+              "answer": 0,
+              "skill": "culture",
+              "explanationTh": "ผู้เขียนแนะนำ \"simply smile and say 'Sawasdee pee mai!'\" คือยิ้มและอวยพรปีใหม่อย่างสุภาพ ส่วนการปาน้ำแข็งเป็นสิ่งที่ห้ามทำ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross_curricular",
+      "groups": [
+        {
+          "id": "ON6-S1-G14",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "How Plants Make Their Own Food",
+          "text": "Humans and animals need to eat to get energy, but green plants are different. They can make their own food through a process called photosynthesis. The word comes from two Greek parts: \"photo\", meaning light, and \"synthesis\", meaning putting together.\n\nPhotosynthesis takes place mainly in the leaves. Inside leaf cells there are tiny parts called chloroplasts. They contain a green substance called chlorophyll, which gives plants their colour and captures energy from sunlight.\n\nTo make food, a plant needs three things. It takes in water from the soil through its roots. It takes in carbon dioxide, a gas in the air, through very small holes in its leaves. And it uses the energy of sunlight, which is captured by chlorophyll. With these, the plant produces glucose, a type of sugar. Some of the glucose is used right away for energy, and some is stored, for example as starch in potatoes and rice grains.\n\nPhotosynthesis also gives off oxygen as a by-product. This oxygen goes out through the leaves into the air, and it is the same oxygen that humans and animals breathe.\n\nBecause plants need light, photosynthesis stops at night. This is why a houseplant kept in a dark corner may slowly turn yellow and weak. Scientists say that almost all life on Earth depends, directly or indirectly, on photosynthesis: plants feed animals, and those animals feed other animals.",
+          "items": [
+            {
+              "id": "ON6-S1-059",
+              "stem": "According to the passage, what does \"synthesis\" mean?",
+              "options": [
+                "putting together",
+                "growing",
+                "light",
+                "breaking apart",
+                "green colour"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "บทความอธิบายว่า \"'synthesis', meaning putting together\" ส่วน light เป็นความหมายของ photo"
+            },
+            {
+              "id": "ON6-S1-060",
+              "stem": "What is the job of chlorophyll?",
+              "options": [
+                "To make small holes in leaves",
+                "To turn leaves yellow at night",
+                "To carry water from the roots",
+                "To capture energy from sunlight",
+                "To store sugar in rice grains"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "คลอโรฟิลล์ \"gives plants their colour and captures energy from sunlight\" คือดักจับพลังงานจากแสงอาทิตย์"
+            },
+            {
+              "id": "ON6-S1-061",
+              "stem": "How does carbon dioxide get into a plant?",
+              "options": [
+                "Through tiny holes in the leaves",
+                "From the light of the sun",
+                "Through the flowers at night",
+                "From the starch in its roots",
+                "Through the roots with water"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "พืชรับคาร์บอนไดออกไซด์ \"through very small holes in its leaves\" ส่วนรากใช้ดูดน้ำ"
+            },
+            {
+              "id": "ON6-S1-062",
+              "stem": "What happens to the glucose that a plant makes?",
+              "options": [
+                "All of it is kept in the roots for night.",
+                "It is changed back into carbon dioxide.",
+                "Some is used at once and some is stored.",
+                "All of it is given off through the leaves.",
+                "It is sent down into the soil for later."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่า \"Some of the glucose is used right away for energy, and some is stored\" เช่น เก็บเป็นแป้งในมันฝรั่งและเมล็ดข้าว ส่วนสิ่งที่ปล่อยออกทางใบคือออกซิเจน"
+            },
+            {
+              "id": "ON6-S1-063",
+              "stem": "In paragraph 4, the word \"by-product\" most likely means ____.",
+              "options": [
+                "a thing that is bought nearby",
+                "an extra thing that is produced",
+                "a thing made only at night",
+                "the main thing that is produced",
+                "a thing that is very harmful"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผลผลิตหลักคือกลูโคส ส่วนออกซิเจนเป็น \"by-product\" คือผลพลอยได้ที่เกิดขึ้นเพิ่มเติม และเป็นประโยชน์ต่อคนและสัตว์ จึงไม่ใช่สิ่งที่เป็นอันตราย"
+            },
+            {
+              "id": "ON6-S1-064",
+              "stem": "Why might a houseplant in a dark corner become weak?",
+              "options": [
+                "It cannot make enough food without light.",
+                "It takes in too much carbon dioxide.",
+                "It gives off too much oxygen.",
+                "Its leaves contain far too much chlorophyll.",
+                "Its roots take in too much water."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "พืชต้องใช้แสงในการสังเคราะห์ด้วยแสง ถ้าอยู่ในที่มืดจึงสร้างอาหารได้ไม่พอ บทความเชื่อมโยงไว้ว่า \"Because plants need light ... This is why a houseplant ... may slowly turn yellow and weak\""
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G15",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "From Shells to Smartphones: A Short History of Money",
+          "text": "Long ago, people did not use money. If a farmer had rice but wanted fish, he had to find a fisherman who wanted rice. This system is called barter. It worked in small villages, but it had a big problem: both people had to want what the other person had at the same time.\n\nTo solve this, people began to use objects that everyone agreed were valuable. In different parts of the world, these included shells, salt, cloth and beads. Cowrie shells, for example, were used in parts of Asia and Africa for hundreds of years because they were small, strong and hard to copy.\n\nLater, metal coins appeared. Coins were easy to carry and count, and they did not break or go bad like salt or cloth. Paper money came next. It was much lighter than a bag of coins, which made trade between distant cities easier.\n\nToday, many people rarely touch cash at all. They pay with bank cards or by scanning a code with their smartphones. However, the basic idea of money has not changed. Whether it is a shell or a number on a screen, money only works because people trust that others will accept it.\n\nSome experts think cash may disappear one day. Others point out that many older people and people in the countryside still depend on it, so coins and notes will probably stay with us for some time.",
+          "items": [
+            {
+              "id": "ON6-S1-065",
+              "stem": "What was the main problem with barter?",
+              "options": [
+                "People could easily make copies.",
+                "Farmers always had too much rice.",
+                "Fish always went bad before it could be traded.",
+                "It was only used in large cities.",
+                "Both sides had to want each other's goods."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ปัญหาของการแลกเปลี่ยนสินค้าคือ \"both people had to want what the other person had at the same time\" ทั้งสองฝ่ายต้องต้องการของของอีกฝ่ายพร้อมกัน"
+            },
+            {
+              "id": "ON6-S1-066",
+              "stem": "Why were cowrie shells used as money?",
+              "options": [
+                "They could be eaten when needed.",
+                "Only kings were able to collect them.",
+                "They were large and beautiful.",
+                "They were lighter than paper notes.",
+                "They were strong and difficult to copy."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "เปลือกหอยเบี้ยถูกใช้เพราะ \"small, strong and hard to copy\" คือแข็งแรงและปลอมยาก ไม่ใช่เพราะใหญ่"
+            },
+            {
+              "id": "ON6-S1-067",
+              "stem": "According to the passage, coins were better than salt because they ____.",
+              "options": [
+                "were made of paper",
+                "were easier to copy",
+                "could be scanned easily",
+                "did not go bad",
+                "were lighter than notes"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "เหรียญ \"did not break or go bad like salt or cloth\" คือไม่เสื่อมเสียเหมือนเกลือ ส่วนธนบัตรต่างหากที่เบากว่าเหรียญ"
+            },
+            {
+              "id": "ON6-S1-068",
+              "stem": "In paragraph 4, what does \"it\" in \"others will accept it\" refer to?",
+              "options": [
+                "money",
+                "the basic idea",
+                "trade",
+                "a screen",
+                "a smartphone"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ประโยค \"money only works because people trust that others will accept it\" คำว่า it หมายถึง money คือคนเชื่อว่าคนอื่นจะยอมรับเงินนั้น"
+            },
+            {
+              "id": "ON6-S1-069",
+              "stem": "What can be inferred from the last paragraph?",
+              "options": [
+                "Older people have started to prefer cards.",
+                "Cash is used more in cities than in villages.",
+                "Coins will soon be replaced by paper notes.",
+                "Most experts believe cash will soon disappear.",
+                "Cash will probably not disappear soon."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่ามีผู้เชี่ยวชาญบางคน (ไม่ใช่ส่วนใหญ่) คิดว่าเงินสดอาจหายไป แต่คนสูงอายุและคนในชนบทยังพึ่งพาเงินสด \"so coins and notes will probably stay with us for some time\" จึงสรุปได้ว่าเงินสดคงไม่หายไปเร็ว ๆ นี้"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community_world",
+      "groups": [
+        {
+          "id": "ON6-S1-G16",
+          "type": "on_visual",
+          "instructionTh": "ศึกษาตารางและข้อมูล แล้วตอบคำถาม",
+          "title": "Route 27 bus timetable",
+          "table": {
+            "caption": "Route 27: Ban Suan School – Central Station (Monday to Friday)",
+            "columns": [
+              "Stop",
+              "Bus A",
+              "Bus B",
+              "Bus C",
+              "Bus D"
+            ],
+            "rows": [
+              [
+                "Ban Suan School",
+                "06:30",
+                "07:15",
+                "12:00",
+                "16:40"
+              ],
+              [
+                "Riverside Park",
+                "06:45",
+                "07:30",
+                "12:15",
+                "16:55"
+              ],
+              [
+                "Clock Tower",
+                "07:05",
+                "07:55",
+                "12:30",
+                "17:20"
+              ],
+              [
+                "City Library",
+                "07:15",
+                "—",
+                "12:40",
+                "17:30"
+              ],
+              [
+                "Central Station",
+                "07:30",
+                "08:20",
+                "12:55",
+                "17:50"
+              ]
+            ]
+          },
+          "text": "Bus B does not stop at City Library. Fares: 15 baht for a trip of 1–3 stops, 25 baht for a longer trip. Students with a school card pay half price. On Saturdays and Sundays, only Bus A and Bus D run, at the same times.",
+          "items": [
+            {
+              "id": "ON6-S1-070",
+              "stem": "How long does Bus A take to go from Ban Suan School to Central Station?",
+              "options": [
+                "1 hour 5 minutes",
+                "30 minutes",
+                "1 hour",
+                "1 hour 15 minutes",
+                "45 minutes"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "Bus A ออกจาก Ban Suan School 06:30 ถึง Central Station 07:30 ใช้เวลา 1 ชั่วโมงพอดี"
+            },
+            {
+              "id": "ON6-S1-071",
+              "stem": "You must arrive at City Library before 8:00 a.m. Which bus should you take?",
+              "options": [
+                "Bus B",
+                "Bus C",
+                "Bus D",
+                "No bus arrives in time",
+                "Bus A"
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "Bus A ถึง City Library 07:15 ก่อน 8 โมง ส่วน Bus B แม้จะเป็นรถเช้าแต่ไม่จอดที่ City Library (—)"
+            },
+            {
+              "id": "ON6-S1-072",
+              "stem": "Which bus takes the shortest time from Ban Suan School to Central Station?",
+              "options": [
+                "They all take the same time",
+                "Bus A",
+                "Bus B",
+                "Bus D",
+                "Bus C"
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "A ใช้ 60 นาที B ใช้ 65 นาที C ใช้ 55 นาที (12:00–12:55) และ D ใช้ 70 นาที Bus C จึงเร็วที่สุด"
+            },
+            {
+              "id": "ON6-S1-073",
+              "stem": "A student with a school card rides from Ban Suan School to Central Station. How much does she pay?",
+              "options": [
+                "15 baht",
+                "50 baht",
+                "7.50 baht",
+                "25 baht",
+                "12.50 baht"
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "จาก Ban Suan School ถึง Central Station นั่งไป 4 ป้าย ถือเป็นเส้นทางยาว ค่าโดยสาร 25 บาท นักเรียนที่มีบัตรจ่ายครึ่งราคา คือ 12.50 บาท"
+            },
+            {
+              "id": "ON6-S1-074",
+              "stem": "Kit wants to go from Riverside Park to Clock Tower on Sunday afternoon. Which bus can he take?",
+              "options": [
+                "Bus D at 16:55",
+                "Bus A at 06:45",
+                "Bus C at 12:15",
+                "Bus B at 07:30",
+                "Bus D at 17:20"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "วันเสาร์–อาทิตย์มีแค่ Bus A และ D ช่วงบ่ายจึงต้องเป็น Bus D ซึ่งออกจาก Riverside Park เวลา 16:55 ส่วน 17:20 เป็นเวลาที่ถึง Clock Tower"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S1-G17",
+          "type": "on_world",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Ban Nong Bua Says No to Plastic",
+          "text": "Two years ago, the small community of Ban Nong Bua had a problem that everyone could see. Plastic bags hung in the trees, bottles floated in the canal, and the monthly community fair left piles of foam boxes behind it.\n\nThe change began with a group of Grade 11 students from Nong Bua Witthaya School. For a science project, they collected all the rubbish along 500 metres of the canal in one morning. They counted more than 1,200 pieces of plastic. When they shared their photos at a village meeting, many adults were shocked.\n\nThe students and the village committee then started the \"Bring It Back\" project. Every household received two cloth bags made by a local sewing group. Food sellers agreed to stop giving out foam boxes and to offer a 2-baht discount to customers who brought their own containers. A refill station was set up at the community centre, where people can buy dish soap and cooking oil by weight in their own bottles.\n\nNot everything went smoothly. In the first few months, some sellers lost customers who were in a hurry and had forgotten their containers. To solve this, the project placed boxes of clean containers at the market, which people can borrow and return the next time.\n\nToday, according to the committee's own count, plastic waste in the canal has fallen by about 70 percent, and nearby villages have started sending visitors to learn from Ban Nong Bua. \"We are not perfect,\" says Somjai Rakdee, the committee leader. \"But we have shown that small changes, made by everyone together, can make a big difference.\"",
+          "items": [
+            {
+              "id": "ON6-S1-075",
+              "stem": "Who started the change in Ban Nong Bua?",
+              "options": [
+                "Some secondary school students",
+                "The food sellers at the fair",
+                "The leader of a nearby village",
+                "A local sewing group",
+                "Visitors from another country"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่า \"The change began with a group of Grade 11 students\" คือนักเรียนชั้น ม.5 เป็นผู้เริ่มต้น"
+            },
+            {
+              "id": "ON6-S1-076",
+              "stem": "Why were many adults shocked at the village meeting?",
+              "options": [
+                "The canal had completely dried up.",
+                "The students had cleaned the whole village.",
+                "Food sellers had raised their prices.",
+                "The project was going to cost a lot.",
+                "They saw how much plastic was in the canal."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "นักเรียนนับขยะพลาสติกได้กว่า 1,200 ชิ้นในคลองระยะ 500 เมตร และนำภาพมาให้ดู ผู้ใหญ่จึงตกใจกับปริมาณพลาสติก"
+            },
+            {
+              "id": "ON6-S1-077",
+              "stem": "What can people do at the refill station?",
+              "options": [
+                "Buy soap and oil in their own bottles",
+                "Borrow clean food containers",
+                "Sell their old plastic bottles",
+                "Get two free cloth bags",
+                "Return foam boxes for money"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ที่จุดเติม \"people can buy dish soap and cooking oil by weight in their own bottles\" ส่วนการยืมกล่องอาหารอยู่ที่ตลาด"
+            },
+            {
+              "id": "ON6-S1-078",
+              "stem": "What problem did some food sellers have at first?",
+              "options": [
+                "Their containers were often stolen.",
+                "Customers asked for bigger discounts.",
+                "They lost some customers in a hurry.",
+                "They could not find any foam boxes.",
+                "They had to pay for the cloth bags."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่า \"some sellers lost customers who were in a hurry and had forgotten their containers\""
+            },
+            {
+              "id": "ON6-S1-079",
+              "stem": "The word \"smoothly\" in paragraph 4 is closest in meaning to ____.",
+              "options": [
+                "very slowly",
+                "in a clean way",
+                "with much money",
+                "without problems",
+                "very quietly"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Not everything went smoothly\" ตามด้วยปัญหาที่เกิดขึ้น จึงหมายถึงไม่ได้ราบรื่นไปทุกอย่าง smoothly = without problems"
+            },
+            {
+              "id": "ON6-S1-080",
+              "stem": "What does Somjai Rakdee admit about the project?",
+              "options": [
+                "It still has some problems.",
+                "It was started by adults.",
+                "It has cost too much money.",
+                "Other villages do not like it.",
+                "It has ended plastic waste completely."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "สมใจพูดว่า \"We are not perfect\" คือยอมรับว่าโครงการยังมีข้อบกพร่องอยู่ ส่วนขยะพลาสติกลดลงประมาณ 70% ไม่ใช่หมดไป และหมู่บ้านอื่นส่งคนมาเรียนรู้"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  }
+}

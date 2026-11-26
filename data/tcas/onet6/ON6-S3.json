@@ -1,0 +1,1540 @@
+{
+  "exam": "onet6",
+  "setId": "ON6-S3",
+  "title": "O-NET ม.6 ชุดฝึกที่ 3",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "sections": [
+    {
+      "id": "communication",
+      "groups": [
+        {
+          "id": "ON6-S3-G01",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "A part-time job interview",
+          "dialogue": [
+            {
+              "speaker": "Ms. Kanya",
+              "text": "Thanks for coming in, Ploy. Please have a seat. So, why would you like to work in our aquarium gift shop?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Ms. Kanya",
+              "text": "That's good to hear. The weekend shift starts at 7 a.m. Would that be a problem?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Not at all. I'm an early riser, and the bus from my place runs every fifteen minutes."
+            },
+            {
+              "speaker": "Ms. Kanya",
+              "text": "Great. Have you ever had to deal with difficult customers?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "___2___ At my aunt's noodle stall, I learned to stay calm and listen first."
+            },
+            {
+              "speaker": "Ms. Kanya",
+              "text": "Excellent. We'll let you know by Friday. Do you have any questions for me?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "___3___"
+            },
+            {
+              "speaker": "Ms. Kanya",
+              "text": "Yes. All new staff do two days of paid training before their first shift."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S3-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "My best friend already works here, so I don't really need the job.",
+                "Honestly, I work best when nobody tells me what I should be doing.",
+                "I'd prefer to start next year, if that's all right with you.",
+                "I've visited this aquarium since I was small, and I love talking about sea life.",
+                "I heard the job is easy and nobody checks on the staff."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้สัมภาษณ์ถามเหตุผลที่อยากทำงาน และตอบรับว่า \"That's good to hear.\" คำตอบที่ดีต้องแสดงความสนใจในงานอย่างเหมาะสม คือมาเที่ยวพิพิธภัณฑ์สัตว์น้ำนี้ตั้งแต่เด็กและชอบเล่าเรื่องสัตว์ทะเล ตัวเลือกอื่นทำให้ภาพลักษณ์ผู้สมัครเสีย"
+            },
+            {
+              "id": "ON6-S3-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Yes, quite a few times, actually.",
+                "Sorry, could you speak up a bit?",
+                "No, I always try to avoid them.",
+                "It depends on the weather, really.",
+                "Not yet, but I'm a quick learner."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดมา Ploy เล่าประสบการณ์ที่ร้านก๋วยเตี๋ยวของป้าว่าเรียนรู้ที่จะใจเย็น แสดงว่าเคยเจอลูกค้ายากมาแล้ว จึงต้องตอบว่า \"Yes, quite a few times\" ส่วน \"Not yet\" ขัดกับประสบการณ์ที่เล่า"
+            },
+            {
+              "id": "ON6-S3-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "How much training have I already finished?",
+                "Can I bring my own customers to the shop?",
+                "Will there be any training before I start?",
+                "Do I have to work on Friday evenings as well?",
+                "Why did you decide to choose me for the job?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบของผู้สัมภาษณ์คือ \"All new staff do two days of paid training\" จึงต้องเป็นคำถามเรื่องการฝึกอบรมก่อนเริ่มงาน ส่วน \"Why did you choose me\" ผิดเพราะยังไม่ได้ประกาศผล"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G02",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "At the lost property office",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "Good afternoon. How can I help you?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "I left my backpack on the 2:15 train from Ayutthaya. ___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Let me check our records. Can you describe it?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "It's dark green, with a small yellow keyring shaped like a cat."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___2___ Is this one yours?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "Yes, that's it! Thank you so much."
+            },
+            {
+              "speaker": "Officer",
+              "text": "You're welcome. ___3___ It's just to confirm that the bag belongs to you."
+            },
+            {
+              "speaker": "Nat",
+              "text": "Sure. Here's my student card."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S3-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Did you leave yours there too?",
+                "Should I take the next train?",
+                "Where can I buy a new one?",
+                "Could you hand it in for me?",
+                "Has anyone handed one in?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Nat มาที่แผนกของหาย และเจ้าหน้าที่ตอบว่า \"Let me check our records\" จึงต้องเป็นคำถามว่ามีคนนำกระเป๋ามาส่งหรือไม่ (hand in = นำมาส่งคืน)"
+            },
+            {
+              "id": "ON6-S3-005",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Sorry, nothing has come in today.",
+                "You really should be more careful.",
+                "Hold on, we've got something like that.",
+                "I'm afraid you'll need to describe it.",
+                "Please could you call back tomorrow?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "หลังช่องว่าง เจ้าหน้าที่ถามต่อว่า \"Is this one yours?\" แสดงว่าพบกระเป๋าที่คล้ายกัน \"nothing has come in\" จึงขัดแย้ง และ Nat ก็บรรยายลักษณะกระเป๋าไปแล้ว"
+            },
+            {
+              "id": "ON6-S3-006",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "May I keep it for one more day?",
+                "Could you tell me your seat number?",
+                "Could I see some ID, please?",
+                "Would you like a new ticket, then?",
+                "Would you mind waiting outside?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่บอกว่าต้องการยืนยันว่ากระเป๋าเป็นของ Nat และ Nat ยื่นบัตรนักเรียนให้ จึงต้องเป็นการขอดูบัตรแสดงตน (ID) บัตรนักเรียนไม่ได้ตอบคำถามเรื่องเลขที่นั่ง"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G03",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Planning a class presentation",
+          "dialogue": [
+            {
+              "speaker": "Ice",
+              "text": "Our presentation on traditional Thai toys is due on Monday. ___1___"
+            },
+            {
+              "speaker": "Ton",
+              "text": "How about I do the research, and you design the slides?"
+            },
+            {
+              "speaker": "Ice",
+              "text": "Sounds fair. But I'm hopeless at design."
+            },
+            {
+              "speaker": "Ton",
+              "text": "___2___ We can use the free templates on the school computers."
+            },
+            {
+              "speaker": "Ice",
+              "text": "Good idea. When shall we meet to put it all together?"
+            },
+            {
+              "speaker": "Ton",
+              "text": "___3___"
+            },
+            {
+              "speaker": "Ice",
+              "text": "Saturday afternoon works for me. See you in the library, then."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S3-007",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Have you finished your part yet?",
+                "Why did you pick this topic?",
+                "Who told you about the presentation?",
+                "Can we hand it in a bit late?",
+                "How should we divide the work?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Ton ตอบโดยเสนอการแบ่งงาน (\"I do the research, and you design the slides\") จึงต้องเป็นคำถามว่าจะแบ่งงานกันอย่างไร"
+            },
+            {
+              "id": "ON6-S3-008",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "You're right, it'll look terrible.",
+                "I'm glad you enjoy it so much.",
+                "Then I'll have to do it all myself.",
+                "That doesn't really matter.",
+                "Then you'd better start practising."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Ton บอกต่อว่า \"We can use the free templates\" แสดงว่ากำลังปลอบว่าการออกแบบไม่เก่งไม่ใช่ปัญหาและจะช่วยกันทำ ส่วน \"I'll have to do it all myself\" ขัดกับคำว่า we"
+            },
+            {
+              "id": "ON6-S3-009",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "We met last Saturday afternoon.",
+                "I met her on Saturday afternoon.",
+                "It took me all Saturday afternoon.",
+                "Are you free on Saturday afternoon?",
+                "I'm busy every afternoon this week."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Ice ตอบว่า \"Saturday afternoon works for me\" จึงต้องเป็นคำถามชวน/เสนอเวลาบ่ายวันเสาร์ ส่วน \"busy every afternoon\" ขัดกับการนัดเจอ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G04",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Changing a hostel booking",
+          "dialogue": [
+            {
+              "speaker": "Receptionist",
+              "text": "Riverside Hostel, Mali speaking. How may I help you?"
+            },
+            {
+              "speaker": "Jake",
+              "text": "Hi, I have a booking for two nights from the 14th. ___1___"
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "Certainly. What dates would you like instead?"
+            },
+            {
+              "speaker": "Jake",
+              "text": "The 16th and 17th, if possible."
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "___2___ Hmm, your private room is free on the 16th, but we only have a dorm bed left on the 17th."
+            },
+            {
+              "speaker": "Jake",
+              "text": "That's fine. I don't mind sharing a room for one night."
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "All right, it's done. ___3___"
+            },
+            {
+              "speaker": "Jake",
+              "text": "No, that's everything. Thanks for your help."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S3-010",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I'm calling to change the dates.",
+                "I'd like to cancel it completely.",
+                "I'm calling to complain about my room.",
+                "I'd like to pay for it in advance.",
+                "Could you tell me where you are?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานถามว่า \"What dates would you like instead?\" คำว่า instead แสดงว่า Jake ต้องการเปลี่ยนวันที่ ไม่ใช่ยกเลิกหรือร้องเรียน"
+            },
+            {
+              "id": "ON6-S3-011",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Those dates are completely free.",
+                "Let me just check for you.",
+                "You will need to pay in cash.",
+                "Sorry, we're fully booked then.",
+                "Then I'll cancel your booking."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "หลังช่องว่าง พนักงานแจ้งห้องที่ว่างในแต่ละคืน จึงต้องเป็นการขอเวลาตรวจสอบก่อน \"fully booked\" และ \"completely free\" ขัดกับข้อมูลที่ว่าเหลือแค่เตียงหอพักรวมในคืนที่ 17"
+            },
+            {
+              "id": "ON6-S3-012",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Would you like to make a complaint?",
+                "Is that your final offer, then?",
+                "What time did you arrive last night?",
+                "Did you enjoy your stay with us?",
+                "Is there anything else I can do for you?"
+              ],
+              "answer": 4,
+              "skill": "social_response",
+              "explanationTh": "Jake ตอบว่า \"No, that's everything.\" ซึ่งเป็นคำตอบของคำถามว่ามีอะไรให้ช่วยอีกไหม ส่วน \"Did you enjoy your stay?\" ไม่เหมาะเพราะเขายังไม่ได้มาพัก"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G05",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Asking a teacher for help",
+          "dialogue": [
+            {
+              "speaker": "Arm",
+              "text": "Excuse me, Ms. Pranee. Do you have a minute?"
+            },
+            {
+              "speaker": "Ms. Pranee",
+              "text": "Of course, Arm. What's up?"
+            },
+            {
+              "speaker": "Arm",
+              "text": "I'm applying to the engineering programme at Chaloem University. ___1___"
+            },
+            {
+              "speaker": "Ms. Pranee",
+              "text": "I'd be happy to. When's the deadline?"
+            },
+            {
+              "speaker": "Arm",
+              "text": "The end of next month, but I'd like to send everything early."
+            },
+            {
+              "speaker": "Ms. Pranee",
+              "text": "___2___ Could you email me a list of your school activities so that I can mention them?"
+            },
+            {
+              "speaker": "Arm",
+              "text": "___3___ Thank you so much, Ms. Pranee."
+            },
+            {
+              "speaker": "Ms. Pranee",
+              "text": "You're welcome. Good luck!"
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S3-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Would you mind writing me a recommendation letter?",
+                "Could you tell me how to get to the campus?",
+                "Could you lend me your old engineering textbook?",
+                "Have you ever studied engineering yourself?",
+                "Would you mind applying to the programme with me?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ครูตอบรับและถามกำหนดส่ง จากนั้นขอรายการกิจกรรม \"so that I can mention them\" แสดงว่าครูจะเขียนจดหมายรับรองให้"
+            },
+            {
+              "id": "ON6-S3-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "That's very sensible of you.",
+                "I'm afraid it's already too late.",
+                "I've never heard of that university.",
+                "So you've already been accepted?",
+                "You'd better wait until next year."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Arm บอกว่าอยากส่งเอกสารก่อนกำหนด ครูจึงชมว่าเป็นความคิดที่รอบคอบ (sensible) ส่วน \"too late\" ขัดกับที่กำหนดส่งคือสิ้นเดือนหน้า"
+            },
+            {
+              "id": "ON6-S3-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'd rather you didn't mention them.",
+                "No, I don't use email at all.",
+                "Sure, I'll send it tonight.",
+                "Sorry, I've never done any activities.",
+                "Sure, as soon as I've been accepted."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ครูขอรายการกิจกรรมเพื่อใช้เขียนจดหมายรับรอง และ Arm ขอบคุณต่อ จึงต้องตอบรับว่าจะส่งคืนนี้ ส่วน \"as soon as I've been accepted\" ไม่สมเหตุผลเพราะจดหมายต้องใช้ก่อนสมัคร"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G06",
+          "type": "on_notice",
+          "instructionTh": "อ่านประกาศ/ข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Gym notice",
+          "text": "PEAKFORM COMMUNITY GYM — RULES FOR ALL MEMBERS\nWelcome! To keep the gym safe and pleasant for everyone, please follow these rules.\n• Scan your membership card at the entrance every time you visit. Cards may not be lent to friends or family.\n• Members aged 15–17 may use the gym only between 3 p.m. and 7 p.m. on weekdays, and must complete a free induction session with a trainer first.\n• Wipe down every machine after use. Spray bottles and paper towels are next to the water fountain.\n• Return all weights to the racks. Never drop dumbbells on the floor.\n• Clean, indoor-only trainers are required. Outdoor shoes damage the flooring.\n• Please limit your time on cardio machines to 30 minutes when others are waiting.\n• Lockers are for use during your visit only. Items left overnight will be removed and kept at reception for 7 days.\nQuestions? Ask any member of staff in a blue shirt.",
+          "items": [
+            {
+              "id": "ON6-S3-016",
+              "stem": "What is the main purpose of this notice?",
+              "options": [
+                "To advertise new machines to the public",
+                "To announce new opening hours",
+                "To warn members about higher fees",
+                "To explain how members should behave",
+                "To invite teenagers to a free class"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ประกาศมีหัวข้อ \"RULES FOR ALL MEMBERS\" และบอกว่า \"please follow these rules\" จุดประสงค์จึงเป็นการแจ้งกฎการปฏิบัติตัวของสมาชิก"
+            },
+            {
+              "id": "ON6-S3-017",
+              "stem": "Sompong is 16 and has just joined the gym. Which of the following is he allowed to do?",
+              "options": [
+                "Work out at 5 p.m. on a Tuesday after his induction",
+                "Train on Saturday morning if he scans his card",
+                "Use his older brother's card on busy days",
+                "Use the machines at 8 p.m. on a Wednesday",
+                "Skip the induction because he is over 15"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "สมาชิกอายุ 15–17 ปีใช้ได้เฉพาะ 15.00–19.00 น. ในวันธรรมดา และต้องผ่าน induction ก่อน วันอังคาร 17.00 น. หลังผ่าน induction จึงเป็นตัวเลือกเดียวที่ทำได้"
+            },
+            {
+              "id": "ON6-S3-018",
+              "stem": "The word \"induction\" in the notice is closest in meaning to",
+              "options": [
+                "a fitness competition",
+                "an introductory session",
+                "a medical check-up",
+                "a membership card",
+                "an entrance fee"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"a free induction session with a trainer\" ที่ต้องทำก่อนเริ่มใช้ยิม หมายถึงการแนะนำการใช้งานเบื้องต้น และคำว่า free บอกว่าไม่ใช่ค่าธรรมเนียม"
+            },
+            {
+              "id": "ON6-S3-019",
+              "stem": "What will most likely happen to a bag left in a locker until the next morning?",
+              "options": [
+                "Its owner will lose his or her card.",
+                "Its owner will have to pay a fine.",
+                "It will be thrown away at once.",
+                "Staff will take it to reception.",
+                "It will stay in the locker for a week."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ประกาศระบุว่า \"Items left overnight will be removed and kept at reception for 7 days\" ของจึงถูกย้ายไปเก็บที่เคาน์เตอร์ ไม่ใช่อยู่ในล็อกเกอร์ 7 วัน"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G07",
+          "type": "on_notice",
+          "instructionTh": "อ่านประกาศ/ข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Product label",
+          "text": "GREENSIP SELF-WATERING POT — How to use\n1. Push the cotton wick through the hole in the inner pot before adding soil.\n2. Fill the inner pot with soil and plant as usual. Water the soil from above ONCE to help the roots settle.\n3. From then on, add water only through the filling tube on the side, until the red float rises to the FULL line.\n4. Refill when the float drops to the bottom — usually every 10–14 days, depending on the plant and the room temperature.\nNot suitable for cacti or other plants that prefer dry soil.\nKeep out of direct afternoon sun, as the water may become too warm.\nOuter pot: dishwasher-safe. Inner pot: hand wash only.",
+          "items": [
+            {
+              "id": "ON6-S3-020",
+              "stem": "According to the label, when should the soil be watered from the top?",
+              "options": [
+                "Never — only through the tube",
+                "Whenever the room is very warm",
+                "Every 10 to 14 days",
+                "Whenever the float reaches FULL",
+                "Only once, right after planting"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ข้อ 2 บอกว่า \"Water the soil from above ONCE to help the roots settle\" คือรดจากด้านบนครั้งเดียวหลังปลูก หลังจากนั้นเติมผ่านท่อด้านข้างเท่านั้น"
+            },
+            {
+              "id": "ON6-S3-021",
+              "stem": "What does the red float show?",
+              "options": [
+                "Whether the soil is too dry for cacti",
+                "Which pot can go in the dishwasher",
+                "How warm the water has become",
+                "When the plant needs more sunlight",
+                "How much water is left in the pot"
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "ให้เติมน้ำจนทุ่นสีแดงขึ้นถึงขีด FULL และเติมใหม่เมื่อทุ่นลงถึงก้น แสดงว่าทุ่นบอกระดับน้ำที่เหลืออยู่"
+            },
+            {
+              "id": "ON6-S3-022",
+              "stem": "Who should NOT buy this pot?",
+              "options": [
+                "Someone who grows herbs indoors",
+                "Someone who often travels for a week",
+                "Someone who forgets to water plants",
+                "Someone who grows desert cacti",
+                "Someone who owns a dishwasher"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ฉลากระบุว่า \"Not suitable for cacti or other plants that prefer dry soil\" คนปลูกกระบองเพชรจึงไม่ควรซื้อ ส่วนคนที่ไม่อยู่บ้านหรือขี้ลืมรดน้ำกลับได้ประโยชน์"
+            },
+            {
+              "id": "ON6-S3-023",
+              "stem": "Why might the pot need refilling sooner than every 10 days?",
+              "options": [
+                "The wick was put in before the soil.",
+                "The outer pot went in the dishwasher.",
+                "The inner pot was washed by hand.",
+                "The soil was watered from above once.",
+                "The room it is in is very hot."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "ฉลากบอกว่าระยะเวลาเติมน้ำขึ้นอยู่กับ \"the plant and the room temperature\" ห้องที่ร้อนมากจึงทำให้น้ำหมดเร็วกว่าปกติ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G08",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "An email from abroad",
+          "text": "Subject: Greetings from Harlow Bay!\n\nDear Ms. Wanida,\n\nI hope you and everyone in the English club are well. I've now been in Harlow Bay for seven weeks, and I finally feel settled enough to write properly.\n\nTo be honest, the first fortnight was harder than I expected. Everyone spoke so quickly, and I kept nodding even when I had no idea what they meant. My host mother, Ruth, noticed this and gave me some advice I'll never forget: \"Asking someone to repeat themselves isn't rude. Pretending to understand is far riskier.\" After that, I started saying \"Sorry, could you say that again?\" — and people were always happy to help.\n\nSchool here is quite different from home. Classes are smaller, and teachers expect us to argue for our opinions out loud, which still makes me nervous. On the other hand, I've joined the rowing team, which practises at six in the morning, three days a week. I never imagined I'd choose to get up before sunrise!\n\nNext month our class is cooking a \"world dinner\" for the parents, and I've been asked to make green curry. The problem is that I can't find Thai basil anywhere, so I may have to use the ordinary kind. Could you ask Khun Sudarat in the canteen whether that will spoil the taste? She'll know.\n\nPlease say hello to the club for me. I'll send photos soon.\n\nBest wishes,\nFern",
+          "items": [
+            {
+              "id": "ON6-S3-024",
+              "stem": "What is Fern's main reason for writing?",
+              "options": [
+                "To share her news and ask a small favour",
+                "To complain about her unhelpful host family",
+                "To invite her teacher to the world dinner",
+                "To ask if she can come home earlier",
+                "To explain why she has stopped rowing"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "Fern เล่าชีวิตที่ต่างประเทศ (เรื่องภาษา โรงเรียน ทีมพายเรือ) และขอให้ครูช่วยถามคุณสุดารัตน์เรื่องใบโหระพา จึงเป็นการเล่าข่าวและขอความช่วยเหลือเล็กน้อย"
+            },
+            {
+              "id": "ON6-S3-025",
+              "stem": "What can be inferred about Fern when she first arrived?",
+              "options": [
+                "She found lessons much easier than in Thailand.",
+                "She was too shy to talk to her host mother.",
+                "She often pretended to understand when she didn't.",
+                "She asked people to repeat things all the time.",
+                "She got up before sunrise every single day."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Fern เขียนว่า \"I kept nodding even when I had no idea what they meant\" คือแกล้งทำเป็นเข้าใจ เธอเพิ่งเริ่มขอให้คนพูดซ้ำหลังได้คำแนะนำจาก Ruth"
+            },
+            {
+              "id": "ON6-S3-026",
+              "stem": "The word \"fortnight\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "two weeks",
+                "a long night",
+                "a school term",
+                "seven weeks",
+                "a short holiday"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "fortnight แปลว่าสองสัปดาห์ บริบทคือช่วงแรกของการอยู่ 7 สัปดาห์ จึงไม่ใช่ seven weeks ทั้งหมด"
+            },
+            {
+              "id": "ON6-S3-027",
+              "stem": "Which statement about school in Harlow Bay is TRUE?",
+              "options": [
+                "Teachers rarely ask students to speak out loud.",
+                "The rowing team practises every single morning.",
+                "Classes are bigger than the ones in Thailand.",
+                "Fern no longer feels nervous during lessons.",
+                "Students are expected to give their views in class."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "Fern เขียนว่า \"teachers expect us to argue for our opinions out loud\" ส่วนห้องเรียนเล็กกว่า ทีมพายเรือซ้อม 3 วันต่อสัปดาห์ และเธอยังรู้สึกประหม่าอยู่"
+            },
+            {
+              "id": "ON6-S3-028",
+              "stem": "Why does Fern want Ms. Wanida to speak to Khun Sudarat?",
+              "options": [
+                "To ask her to send Thai basil abroad",
+                "To check if ordinary basil is acceptable",
+                "To invite her to cook at the dinner",
+                "To get a complete green curry recipe",
+                "To find out where Thai basil is sold"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "Fern หาใบโหระพาไทยไม่ได้ อาจต้องใช้ใบโหระพาธรรมดา จึงอยากถามว่า \"whether that will spoil the taste\" คือจะทำให้รสชาติเสียหรือไม่"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G09",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "A blog post",
+          "text": "Second Spin: Fixing Bikes, One Soi at a Time\nPosted by Krit, 17\n\nLast March, the chain on my old mountain bike snapped on the way to school. The repair shop near my house wanted 450 baht to fix it, which was more than I had. So instead, I watched a few online tutorials, borrowed my uncle's toolbox and repaired it myself in an afternoon. It wasn't pretty — I got grease all over Mum's doorstep — but it worked.\n\nThat small success gave me an idea. Our soi is full of bicycles that nobody rides any more: flat tyres, rusty brakes, missing pedals. I put a handwritten sign on our gate: \"Free bike check-ups, Saturdays 9–12. Bring your bike, bring a snack.\" The first weekend, only Grandpa Somchai from next door turned up. By June, I had a queue.\n\nI don't charge for my time, but people pay for any parts I need to buy. Some neighbours also give me bikes they no longer want. I fix those up and pass them on to younger kids in the community who otherwise couldn't afford one. So far, eleven bikes have found new owners.\n\nWhat have I learned? Patience, mostly. Some problems take three Saturdays to solve. I've also discovered that people love to chat while they wait, so I now know far more about my neighbours than I used to!\n\nNext term, my school has asked me to run a lunchtime repair workshop. I'm nervous about teaching, but if I can bring a 30-year-old bike back to life, I can probably explain how I did it.",
+          "items": [
+            {
+              "id": "ON6-S3-029",
+              "stem": "What led Krit to start repairing bikes?",
+              "options": [
+                "His uncle needed help in his repair shop.",
+                "His school asked him to run a workshop.",
+                "He could not afford to have his own bike fixed.",
+                "Grandpa Somchai asked him to fix a bike.",
+                "He wanted to earn some extra pocket money."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ร้านซ่อมคิดค่าซ่อม 450 บาท \"which was more than I had\" เขาจึงซ่อมเอง ส่วนการสอนที่โรงเรียนเป็นเรื่องในอนาคต และเขาไม่คิดค่าแรง"
+            },
+            {
+              "id": "ON6-S3-030",
+              "stem": "The phrase \"By June, I had a queue\" suggests that",
+              "options": [
+                "nobody came on Saturday mornings",
+                "he had to buy a lot of spare parts",
+                "he did not have enough tools",
+                "many people were waiting for his help",
+                "his neighbours complained about noise"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "สัปดาห์แรกมีแค่คุณตาสมชายคนเดียว แต่พอถึงเดือนมิถุนายน \"had a queue\" คือมีคนมาต่อแถวรอให้ช่วยซ่อมจำนวนมาก"
+            },
+            {
+              "id": "ON6-S3-031",
+              "stem": "Which of the following is NOT mentioned as part of Second Spin?",
+              "options": [
+                "Giving donated bikes to younger children",
+                "Asking owners to pay for new parts",
+                "Selling repaired bikes to raise money",
+                "Repairing bikes without charging for labour",
+                "Holding check-ups on Saturday mornings"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Krit ส่งต่อจักรยานที่ซ่อมแล้วให้เด็กฟรี (\"pass them on to younger kids\") ไม่ได้ขาย ส่วนตัวเลือกอื่นมีกล่าวไว้ในบทความทั้งหมด"
+            },
+            {
+              "id": "ON6-S3-032",
+              "stem": "What does \"those\" in paragraph 3 refer to?",
+              "options": [
+                "bikes his neighbours no longer want",
+                "neighbours who chat while waiting",
+                "younger kids in the community",
+                "parts he needs to buy",
+                "tools in his uncle's toolbox"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "\"Some neighbours also give me bikes they no longer want. I fix those up\" คำว่า those หมายถึงจักรยานที่เพื่อนบ้านไม่ต้องการแล้วและนำมาให้"
+            },
+            {
+              "id": "ON6-S3-033",
+              "stem": "How does Krit feel about running the lunchtime workshop?",
+              "options": [
+                "Nervous but fairly confident",
+                "Bored because it is too easy",
+                "Excited and completely relaxed",
+                "Annoyed that he was chosen",
+                "Unwilling to take part at all"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "เขาเขียนว่า \"I'm nervous about teaching, but ... I can probably explain how I did it\" คือกังวลแต่ก็ค่อนข้างมั่นใจ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G10",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "The Wrong Bus",
+          "text": "Tao checked the time again: 7:42. His university entrance interview at Mae Rim Campus began at 9:00, and the bus ride usually took forty minutes. Plenty of time, he told himself, as he climbed onto the first blue bus that pulled in.\n\nIt was only when the bus turned onto the highway instead of crossing the river that his stomach dropped. He had taken the 52, not the 25.\n\nHe hurried to the front. \"Excuse me,\" he said to the driver, trying to keep his voice steady. \"Does this bus go anywhere near Mae Rim?\"\n\nThe driver shook his head. \"Opposite direction, I'm afraid.\"\n\nAn elderly woman with a basket of mangoes had been listening. \"Get off at the next stop,\" she said calmly. \"My nephew drives a songthaew from there. He passes the campus every morning.\"\n\nTao hesitated. He had been told a hundred times not to go along with strangers' plans. But the woman simply took out her phone, made a short call and showed him the screen: a photo of a red songthaew with a sign reading \"Mae Rim – Campus\".\n\nTwelve minutes later, he was sitting in the back of that very vehicle. He arrived at 8:51, out of breath, his shirt sticking to his back.\n\nThe interview went well. Near the end, one of the professors asked, \"What's the biggest problem you've solved recently?\"\n\nTao smiled. \"Well,\" he began, \"this morning I got on the wrong bus…\"",
+          "items": [
+            {
+              "id": "ON6-S3-034",
+              "stem": "Why did Tao's \"stomach drop\"?",
+              "options": [
+                "He felt sick because the bus was too fast.",
+                "He saw that the bus was very crowded.",
+                "He had left his interview papers at home.",
+                "He realised he was going the wrong way.",
+                "He was hungry because he skipped breakfast."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ท้องของเขา \"drop\" ตอนที่รถเลี้ยวขึ้นทางหลวงแทนที่จะข้ามแม่น้ำ และเขารู้ตัวว่าขึ้นสาย 52 ไม่ใช่ 25 สำนวนนี้หมายถึงตกใจ/ใจหาย"
+            },
+            {
+              "id": "ON6-S3-035",
+              "stem": "Why did Tao hesitate before accepting the woman's offer?",
+              "options": [
+                "He thought songthaews never went to the campus.",
+                "He wanted to wait for the correct bus instead.",
+                "He was worried the ride would cost too much.",
+                "He had often been warned about trusting strangers.",
+                "He wanted to phone his parents for advice first."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"He had been told a hundred times not to go along with strangers' plans\" เขาจึงลังเลเพราะถูกเตือนเรื่องคนแปลกหน้ามาตลอด"
+            },
+            {
+              "id": "ON6-S3-036",
+              "stem": "What finally made Tao decide to trust the woman?",
+              "options": [
+                "She agreed to travel with him to campus.",
+                "She gave him some of her mangoes.",
+                "He recognised her from his neighbourhood.",
+                "The driver said she could be trusted.",
+                "She showed him evidence on her phone."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "คำว่า \"But\" ตามด้วยการที่หญิงชราโทรศัพท์และให้ดูรูปรถสองแถวสีแดงที่มีป้าย \"Mae Rim – Campus\" เป็นหลักฐานที่ทำให้เขาเชื่อ"
+            },
+            {
+              "id": "ON6-S3-037",
+              "stem": "How early was Tao for his interview?",
+              "options": [
+                "Nine minutes",
+                "One minute",
+                "Eighteen minutes",
+                "Forty minutes",
+                "Twelve minutes"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "สัมภาษณ์เริ่ม 9:00 น. และเขามาถึง 8:51 น. จึงมาก่อนเวลา 9 นาที ส่วน 12 นาทีคือเวลาที่รอรถสองแถว"
+            },
+            {
+              "id": "ON6-S3-038",
+              "stem": "Which word best describes the ending of the story?",
+              "options": [
+                "Humorous",
+                "Disappointing",
+                "Tragic",
+                "Frightening",
+                "Mysterious"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ตอนจบ Tao ยิ้มและตอบคำถามเรื่องปัญหาที่เคยแก้ได้ด้วยเรื่องขึ้นรถผิดสายเมื่อเช้า ซึ่งเป็นตอนจบที่ขำขันและการสัมภาษณ์ก็ราบรื่น"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G11",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Quiet or noisy?",
+          "text": "Quiet or Noisy: Where Do Students Study Best?\n\nAsk ten students where they study best and you might get ten different answers. Some insist on total silence; others cannot concentrate without the hum of a busy café. A small survey by the student council of Phrom Witthaya School suggests that both groups may be right, depending on the task.\n\nThe council asked 240 students to rate how productive they felt in three places: the school library, the canteen at lunchtime and a café with soft background music. For memorising vocabulary or solving maths problems, 68 per cent preferred the library. For creative work such as designing posters or brainstorming essay ideas, however, more than half chose the café.\n\nWhy might sound help creativity? One explanation is that a moderate level of noise distracts the brain just enough to make it think more broadly, instead of focusing narrowly on one idea. Loud noise, by contrast, seems to harm almost every kind of work. Only 9 per cent of students said they could do anything useful in the canteen at lunchtime.\n\nThe council admits that its survey has limits. It measured how productive students felt, not their actual results, and all the participants came from one school. Even so, the findings have already led to a change: the library now has a \"low-chat zone\" on its second floor, where quiet conversation and soft music are allowed.\n\nThe lesson may be simple. Instead of searching for one perfect study spot, students could choose their surroundings to suit the job in front of them.",
+          "items": [
+            {
+              "id": "ON6-S3-039",
+              "stem": "What is the main idea of the article?",
+              "options": [
+                "Most students now prefer cafés to libraries.",
+                "School libraries should allow more noise.",
+                "Students learn better in groups than alone.",
+                "Background music improves students' test results.",
+                "The best study place may depend on the task."
+              ],
+              "answer": 4,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่า \"both groups may be right, depending on the task\" และย่อหน้าสุดท้ายสรุปว่าควรเลือกสถานที่ให้เหมาะกับงาน นักเรียนเลือกคาเฟ่เฉพาะงานสร้างสรรค์ และการสำรวจไม่ได้วัดผลสอบจริง"
+            },
+            {
+              "id": "ON6-S3-040",
+              "stem": "According to the survey, which activity did most students prefer to do in the library?",
+              "options": [
+                "Solving maths problems",
+                "Brainstorming essay ideas",
+                "Chatting with friends",
+                "Listening to music",
+                "Designing posters"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "\"For memorising vocabulary or solving maths problems, 68 per cent preferred the library.\" ส่วนงานสร้างสรรค์อย่างออกแบบโปสเตอร์ นักเรียนเลือกคาเฟ่"
+            },
+            {
+              "id": "ON6-S3-041",
+              "stem": "The word \"moderate\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "extreme",
+                "medium",
+                "sudden",
+                "pleasant",
+                "constant"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "moderate แปลว่าปานกลาง บทความเปรียบกับ \"Loud noise, by contrast\" ซึ่งเป็นเสียงดังมาก จึงหมายถึงระดับเสียงกลาง ๆ"
+            },
+            {
+              "id": "ON6-S3-042",
+              "stem": "Why does the council admit that its survey has limits?",
+              "options": [
+                "The library was closed during the survey.",
+                "Students from many schools took part.",
+                "Too few students answered the questions.",
+                "It only asked about maths and science.",
+                "It did not measure students' real results."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "สภานักเรียนยอมรับว่า \"It measured how productive students felt, not their actual results\" และผู้ตอบมาจากโรงเรียนเดียว ไม่ใช่หลายโรงเรียน"
+            },
+            {
+              "id": "ON6-S3-043",
+              "stem": "What is the most likely purpose of the \"low-chat zone\"?",
+              "options": [
+                "To punish students who talk too much",
+                "To offer a space suited to creative work",
+                "To help students memorise vocabulary",
+                "To replace the noisy school canteen",
+                "To let students eat lunch while studying"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผลสำรวจพบว่าเสียงระดับปานกลางช่วยงานสร้างสรรค์ โซนที่อนุญาตให้คุยเบา ๆ และเปิดเพลงเบา ๆ จึงน่าจะมีไว้สำหรับงานลักษณะนี้ ส่วนการท่องศัพท์นักเรียนชอบความเงียบ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "groups": [
+        {
+          "id": "ON6-S3-G12",
+          "type": "on_structure",
+          "instructionTh": "เลือกคำตอบที่ถูกต้องหรือเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "ON6-S3-044",
+              "stem": "By the time the guests arrived, we ____ the whole house.",
+              "options": [
+                "have already cleaned",
+                "already clean",
+                "will have cleaned",
+                "had already cleaned",
+                "were already cleaned"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "เหตุการณ์ทำความสะอาดเกิดก่อนเหตุการณ์ในอดีต (the guests arrived) จึงใช้ Past Perfect \"had already cleaned\""
+            },
+            {
+              "id": "ON6-S3-045",
+              "stem": "If I ____ about the traffic jam, I would have left home much earlier.",
+              "options": [
+                "have known",
+                "would know",
+                "had known",
+                "know",
+                "knew"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประโยคเงื่อนไขแบบที่ 3 (สมมติในอดีต) ใช้ If + had + V3 คู่กับ would have + V3"
+            },
+            {
+              "id": "ON6-S3-046",
+              "stem": "The teacher made us ____ the experiment because the first results were unclear.",
+              "options": [
+                "to repeat",
+                "to be repeated",
+                "repeat",
+                "repeating",
+                "repeated"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "make + กรรม + กริยาช่องที่ 1 ไม่มี to (bare infinitive) จึงเป็น \"made us repeat\""
+            },
+            {
+              "id": "ON6-S3-047",
+              "stem": "Neither the manager nor her assistants ____ able to answer my question yesterday.",
+              "options": [
+                "are",
+                "has been",
+                "is",
+                "was being",
+                "were"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "neither ... nor ให้กริยาตามคำนามที่อยู่ใกล้ที่สุด คือ assistants (พหูพจน์) และมี yesterday จึงใช้ were"
+            },
+            {
+              "id": "ON6-S3-048",
+              "stem": "Pim was so ____ by the documentary that she started volunteering at an animal shelter.",
+              "options": [
+                "inspired",
+                "discouraged",
+                "puzzled",
+                "embarrassed",
+                "exhausted"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ผลของการดูสารคดีคือเธอเริ่มไปเป็นอาสาสมัคร จึงต้องเป็นความรู้สึกได้แรงบันดาลใจ (inspired) ส่วน discouraged (หมดกำลังใจ) หรือ exhausted (เหนื่อยล้า) ไม่ทำให้เกิดการกระทำนี้"
+            },
+            {
+              "id": "ON6-S3-049",
+              "stem": "Choose the most appropriate response. A: \"I'm so sorry — I accidentally deleted the file you sent me.\" B: \"____\"",
+              "options": [
+                "Congratulations, you did well!",
+                "You're welcome, any time.",
+                "I'm glad you liked it so much.",
+                "Yes, please delete it for me.",
+                "Don't worry, I'll send it again."
+              ],
+              "answer": 4,
+              "skill": "social_response",
+              "explanationTh": "A ขอโทษที่เผลอลบไฟล์ คำตอบที่เหมาะสมคือปลอบและเสนอส่งให้ใหม่ \"You're welcome\" ใช้ตอบคำขอบคุณ ไม่ใช่คำขอโทษ"
+            },
+            {
+              "id": "ON6-S3-050",
+              "stem": "Which sentence is closest in meaning to \"Hardly had the concert started when the power went out\"?",
+              "options": [
+                "The concert was hard to hear because of the power.",
+                "The concert began after the power came back.",
+                "The power never went out during the concert.",
+                "The power went out before the concert began.",
+                "The power went out just after the concert began."
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง Hardly had ... when ... หมายถึง \"ทันทีที่...ก็...\" คอนเสิร์ตเพิ่งเริ่มได้ไม่นานไฟก็ดับ hardly ไม่ได้แปลว่ายาก (hard)"
+            },
+            {
+              "id": "ON6-S3-051",
+              "stem": "The new sports hall, ____ was opened last month, can hold over 2,000 people.",
+              "options": [
+                "that",
+                "where",
+                "who",
+                "which",
+                "what"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "อนุประโยคขยายแบบไม่จำกัดความ (มีจุลภาค) ที่ขยายสิ่งของและทำหน้าที่ประธาน ต้องใช้ which ห้ามใช้ that หลังจุลภาค"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G13",
+          "type": "on_culture",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Bows, wais and handshakes",
+          "text": "Bows, Wais and Handshakes\n\nWhen two people meet, the first few seconds often say a great deal about respect. In Japan, the most common greeting is the bow. A quick, slight bow of about 15 degrees is used between friends or colleagues of similar status. A deeper bow of around 30 degrees shows respect to a teacher, a customer or a senior manager, while a very deep bow of 45 degrees or more is usually saved for a sincere apology or deep gratitude. Men generally keep their hands at their sides, while women often place them together in front. Interestingly, many Japanese people bow even while talking on the phone, which shows how naturally the gesture has become part of daily life.\n\nIn Southeast Asia, greetings vary from country to country. In Thailand, the wai, in which the palms are pressed together and the head is lowered slightly, is used to say hello, thank you or goodbye. The higher the hands are held, the more respect is shown, and it is usually the younger person who offers the wai first. In Cambodia and Laos, similar gestures known as the sampeah and the nop are used. In the Philippines, some young people greet older relatives with the mano, gently pressing the back of the elder's hand to their own forehead. Meanwhile, in Singapore and in business settings across the region, a light handshake is common.\n\nFor visitors, the safest strategy is to watch and follow. A foreigner who returns a wai with a smile, or bows slightly in Tokyo, is rarely judged harshly for small mistakes. What matters most is not perfect technique but showing that you have noticed, and respected, local ways.",
+          "items": [
+            {
+              "id": "ON6-S3-052",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The long history of the Thai wai",
+                "Why Japanese people prefer bows to handshakes",
+                "How greetings show respect in parts of Asia",
+                "How to apologise correctly in Japan",
+                "Business manners for travellers in Singapore"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความกล่าวถึงการโค้งในญี่ปุ่นและการทักทายในประเทศอาเซียนหลายประเทศ โดยเน้นว่าการทักทายสื่อถึงความเคารพ ตัวเลือกอื่นแคบเกินไป"
+            },
+            {
+              "id": "ON6-S3-053",
+              "stem": "In Japan, a bow of about 30 degrees would most likely be made to",
+              "options": [
+                "a close friend at school",
+                "a customer in a shop",
+                "someone you have badly hurt",
+                "a younger brother or sister",
+                "a colleague of the same age"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "โค้งราว 30 องศา \"shows respect to a teacher, a customer or a senior manager\" ส่วนเพื่อนหรือคนสถานะเท่ากันใช้ 15 องศา และการขอโทษอย่างจริงใจใช้ 45 องศาขึ้นไป"
+            },
+            {
+              "id": "ON6-S3-054",
+              "stem": "Why does the writer mention people bowing on the phone?",
+              "options": [
+                "To show that bowing has become a natural habit",
+                "To suggest that phone calls in Japan are formal",
+                "To criticise a custom that seems strange",
+                "To explain why bows have different angles",
+                "To show that bowing is becoming less common"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าการโค้งขณะคุยโทรศัพท์ \"shows how naturally the gesture has become part of daily life\" คือเป็นนิสัยที่ทำโดยอัตโนมัติ"
+            },
+            {
+              "id": "ON6-S3-055",
+              "stem": "Which statement about the Thai wai is TRUE according to the passage?",
+              "options": [
+                "It is used only when people say hello.",
+                "Holding the hands higher shows more respect.",
+                "It is exactly the same as the Filipino mano.",
+                "The older person usually offers it first.",
+                "It is mostly used in business meetings."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "\"The higher the hands are held, the more respect is shown\" ส่วนการไหว้ใช้ทั้งทักทาย ขอบคุณ และลา และผู้น้อยมักไหว้ก่อน"
+            },
+            {
+              "id": "ON6-S3-056",
+              "stem": "The word \"sincere\" in paragraph 1 is closest in meaning to",
+              "options": [
+                "polite",
+                "public",
+                "genuine",
+                "formal",
+                "brief"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"a sincere apology\" คือการขอโทษที่จริงใจ ตรงกับ genuine ส่วน polite แค่สุภาพแต่ไม่จำเป็นต้องจริงใจ"
+            },
+            {
+              "id": "ON6-S3-057",
+              "stem": "According to the passage, the mano is a greeting in which",
+              "options": [
+                "an older relative touches a child's head gently",
+                "a young person touches an elder's hand to the forehead",
+                "a person bows deeply in order to say sorry",
+                "two business partners shake hands very lightly",
+                "both people press their palms together and smile"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความอธิบายว่าเด็กฟิลิปปินส์ทักทายญาติผู้ใหญ่โดย \"pressing the back of the elder's hand to their own forehead\""
+            },
+            {
+              "id": "ON6-S3-058",
+              "stem": "What advice does the writer give to visitors?",
+              "options": [
+                "Avoid greeting people they do not know well.",
+                "Always shake hands to avoid making mistakes.",
+                "Wait for local people to bow to them first.",
+                "Learn every greeting perfectly before travelling.",
+                "Observe local people and copy their greetings."
+              ],
+              "answer": 4,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนแนะนำว่า \"the safest strategy is to watch and follow\" และบอกว่าไม่จำเป็นต้องทำได้สมบูรณ์แบบ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross_curricular",
+      "groups": [
+        {
+          "id": "ON6-S3-G14",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "The body's defence team",
+          "text": "Your Body's Defence Team\n\nEvery day, your body comes into contact with millions of microbes, tiny living things such as bacteria and viruses. Most are harmless, but some can make you ill. The immune system is the body's way of recognising these invaders and removing them.\n\nThe first line of defence is a set of physical barriers. Your skin acts like a wall, while the sticky mucus in your nose and throat traps particles before they can travel deeper. Acid in the stomach destroys many of the microbes found in food.\n\nIf a microbe gets past these barriers, the second line of defence goes to work. White blood cells called phagocytes move towards the area and swallow the invaders. This response is fast but general: phagocytes attack almost anything that looks foreign, without \"knowing\" exactly what it is. The redness and warmth sometimes seen around a cut are signs that this activity is taking place.\n\nThe third line of defence is slower but far more precise. White blood cells called lymphocytes identify particular features on the surface of a microbe, known as antigens. Some lymphocytes then produce antibodies, Y-shaped proteins that fit onto one specific antigen, rather like a key fits a lock. Once attached, antibodies make the microbe easier for other cells to destroy.\n\nWhat makes this third line so remarkable is its memory. After an infection, some lymphocytes remain in the body as \"memory cells\". If the same microbe returns, these cells recognise it, and the body can respond much more quickly than it did the first time.\n\nScientists are still discovering how these defences communicate with one another, but the basic idea is clear: the body protects itself in layers, from simple walls to highly specialised cells.",
+          "items": [
+            {
+              "id": "ON6-S3-059",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How people can avoid common illnesses",
+                "Why the stomach needs to produce acid",
+                "Who first discovered white blood cells",
+                "How the body defends itself in layers",
+                "Why all bacteria and viruses are harmful"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายแนวป้องกัน 3 ชั้นของร่างกาย และสรุปว่า \"the body protects itself in layers\" ส่วนเชื้อโรคส่วนใหญ่ \"are harmless\""
+            },
+            {
+              "id": "ON6-S3-060",
+              "stem": "Which is an example of the FIRST line of defence?",
+              "options": [
+                "Antibodies attaching to antigens",
+                "Lymphocytes producing proteins",
+                "Mucus trapping particles in the nose",
+                "Phagocytes swallowing invaders",
+                "Memory cells recognising a microbe"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "แนวป้องกันแรกคือสิ่งกีดขวางทางกายภาพ ได้แก่ ผิวหนัง เมือกในจมูกและคอ และกรดในกระเพาะ ส่วนฟาโกไซต์เป็นแนวที่สอง"
+            },
+            {
+              "id": "ON6-S3-061",
+              "stem": "According to the passage, redness around a cut suggests that",
+              "options": [
+                "the skin has stopped every invader",
+                "the stomach acid is not working",
+                "memory cells have been destroyed",
+                "phagocytes are attacking microbes there",
+                "the microbe is completely harmless"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "บทความบอกว่ารอยแดงและความอุ่นรอบแผล \"are signs that this activity is taking place\" ซึ่งหมายถึงการที่ฟาโกไซต์จัดการเชื้อโรค"
+            },
+            {
+              "id": "ON6-S3-062",
+              "stem": "The word \"precise\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "gentle",
+                "common",
+                "exact",
+                "powerful",
+                "quick"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "แนวที่สามช้า \"but far more precise\" ตรงข้ามกับแนวที่สองที่ \"fast but general\" จึงหมายถึงแม่นยำ/เจาะจง (exact) ไม่ใช่เร็ว"
+            },
+            {
+              "id": "ON6-S3-063",
+              "stem": "How is the second line of defence different from the third?",
+              "options": [
+                "It remembers the microbes it has met before.",
+                "It produces antibodies instead of using phagocytes.",
+                "It works only inside the stomach and the throat.",
+                "It acts quickly but does not target particular microbes.",
+                "It is slower and more accurate than the third line."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "แนวที่สอง \"fast but general\" โจมตีเกือบทุกสิ่งที่แปลกปลอม ส่วนแนวที่สามช้ากว่าแต่เจาะจง และเป็นแนวที่มีความจำ"
+            },
+            {
+              "id": "ON6-S3-064",
+              "stem": "Why does the writer compare antibodies to keys?",
+              "options": [
+                "They open holes in the walls of microbes.",
+                "They let microbes enter body cells.",
+                "Each one fits only a particular antigen.",
+                "They lock microbes inside the skin.",
+                "They are made of metal-like proteins."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "แอนติบอดี \"fit onto one specific antigen, rather like a key fits a lock\" การเปรียบเทียบนี้เน้นว่าแอนติบอดีแต่ละชนิดเข้ากับแอนติเจนได้เพียงชนิดเดียว"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G15",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Noise-cancelling headphones",
+          "text": "How Do Noise-Cancelling Headphones Work?\n\nSit on a long flight wearing noise-cancelling headphones, and the steady roar of the engines seems to fade away. It feels almost like magic, but the trick is pure physics.\n\nSound travels as a wave of pressure. Air particles are pushed together, creating areas of high pressure, and then pulled apart, creating areas of low pressure. When two sound waves meet, they combine. If the high points of one wave line up with the high points of another, the sound becomes louder. But if the high points of one wave meet the low points of another, the two waves cancel each other out. Scientists call this destructive interference.\n\nActive noise-cancelling headphones make use of this principle. A tiny microphone on the outside of each ear cup \"listens\" to the noise around you. A chip inside then creates an \"anti-noise\" wave, an exact mirror image of the incoming sound, and plays it through the speaker together with your music. When the noise and the anti-noise meet, much of the unwanted sound vanishes.\n\nThe technology works best on low, constant sounds, such as engines, air conditioners or the hum of a train. Sudden or high-pitched sounds, like a baby crying or a door slamming, change too quickly for the chip to follow perfectly. For this reason, most headphones also have soft, thick ear cushions that physically block higher sounds, a method known as passive noise reduction.\n\nSo the next time the world goes quiet when you put on your headphones, remember: two sounds are meeting and cancelling each other out.",
+          "items": [
+            {
+              "id": "ON6-S3-065",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "To explain the science behind a common device",
+                "To persuade readers to buy expensive headphones",
+                "To warn readers about the dangers of loud music",
+                "To describe how air travel has become quieter",
+                "To compare several brands of headphones"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ประโยค \"the trick is pure physics\" และเนื้อหาทั้งหมดอธิบายหลักการคลื่นเสียงหักล้างกัน จุดประสงค์จึงเป็นการอธิบายวิทยาศาสตร์เบื้องหลังหูฟัง"
+            },
+            {
+              "id": "ON6-S3-066",
+              "stem": "According to the passage, destructive interference happens when",
+              "options": [
+                "the high points of two waves line up with each other",
+                "sound passes through soft and thick ear cushions",
+                "the high points of one wave meet the low points of another",
+                "air particles stop moving and the pressure becomes low",
+                "a microphone records music from outside the ear cup"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"if the high points of one wave meet the low points of another, the two waves cancel each other out\" ส่วนถ้าจุดสูงตรงกัน เสียงจะดังขึ้น"
+            },
+            {
+              "id": "ON6-S3-067",
+              "stem": "What is the job of the microphone on each ear cup?",
+              "options": [
+                "To record the listener's own voice",
+                "To create the anti-noise wave",
+                "To pick up the sounds around the listener",
+                "To block high-pitched noises",
+                "To make the music sound louder"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ไมโครโฟน \"listens to the noise around you\" ส่วนผู้สร้างคลื่น anti-noise คือชิป ไม่ใช่ไมโครโฟน"
+            },
+            {
+              "id": "ON6-S3-068",
+              "stem": "Which sound would active noise cancelling probably reduce MOST effectively?",
+              "options": [
+                "A dog barking suddenly",
+                "A friend calling your name",
+                "A glass breaking on the floor",
+                "The hum of a refrigerator",
+                "A referee's sharp whistle"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เทคโนโลยีนี้ได้ผลดีที่สุดกับ \"low, constant sounds\" เสียงหึ่งของตู้เย็นต่ำและต่อเนื่อง ส่วนเสียงอื่นเกิดขึ้นกะทันหันหรือแหลมสูง"
+            },
+            {
+              "id": "ON6-S3-069",
+              "stem": "Why do most headphones also have thick ear cushions?",
+              "options": [
+                "They cancel low and constant engine sounds.",
+                "The microphone needs extra protection from wind.",
+                "The anti-noise wave is too loud for the ears.",
+                "The chip cannot fully cancel sudden, high sounds.",
+                "They make the headphones lighter to wear."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "เสียงกะทันหันหรือแหลมสูง \"change too quickly for the chip to follow perfectly\" \"For this reason\" จึงใช้ฟองน้ำหนาบล็อกเสียงสูงแบบ passive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community_world",
+      "groups": [
+        {
+          "id": "ON6-S3-G16",
+          "type": "on_visual",
+          "instructionTh": "ศึกษาตารางและข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "Rainfall in four cities",
+          "text": "The table shows the average rainfall in four cities in the imaginary country of Varella, based on thirty years of weather records. Monthly figures are given for four months only.",
+          "table": {
+            "caption": "Average rainfall in four Varellan cities",
+            "columns": [
+              "City",
+              "January (mm)",
+              "April (mm)",
+              "July (mm)",
+              "October (mm)",
+              "Yearly total (mm)",
+              "Rainy days per year"
+            ],
+            "rows": [
+              [
+                "Port Selan",
+                "210",
+                "95",
+                "40",
+                "260",
+                "1,850",
+                "162"
+              ],
+              [
+                "Dorrow",
+                "15",
+                "60",
+                "310",
+                "140",
+                "1,420",
+                "118"
+              ],
+              [
+                "Kestamar",
+                "5",
+                "20",
+                "35",
+                "25",
+                "310",
+                "41"
+              ],
+              [
+                "Ilvane Heights",
+                "120",
+                "180",
+                "220",
+                "190",
+                "2,400",
+                "205"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "ON6-S3-070",
+              "stem": "Which city shows the greatest difference between its wettest and driest month in the table, and how big is that difference?",
+              "options": [
+                "Ilvane Heights, 100 mm",
+                "Dorrow, 295 mm",
+                "Port Selan, 260 mm",
+                "Port Selan, 220 mm",
+                "Dorrow, 310 mm"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Dorrow: 310 − 15 = 295 มม. มากที่สุด ส่วน Port Selan: 260 − 40 = 220, Ilvane Heights: 220 − 120 = 100 และ Kestamar: 35 − 5 = 30 (310 และ 260 เป็นค่าสูงสุดของเดือน ไม่ใช่ผลต่าง)"
+            },
+            {
+              "id": "ON6-S3-071",
+              "stem": "How much more rain does Ilvane Heights receive in a year than Port Selan?",
+              "options": [
+                "450 mm",
+                "550 mm",
+                "2,090 mm",
+                "980 mm",
+                "650 mm"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ปริมาณฝนทั้งปีของ Ilvane Heights 2,400 − Port Selan 1,850 = 550 มม."
+            },
+            {
+              "id": "ON6-S3-072",
+              "stem": "A tourist who wants as little rain as possible in July should choose",
+              "options": [
+                "Port Selan",
+                "Dorrow",
+                "Dorrow or Port Selan",
+                "Kestamar",
+                "Ilvane Heights"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ฝนเดือนกรกฎาคม: Kestamar 35 มม. น้อยที่สุด ใกล้เคียงกับ Port Selan 40 มม. แต่ยังมากกว่า ส่วน Dorrow 310 มม. มากที่สุด"
+            },
+            {
+              "id": "ON6-S3-073",
+              "stem": "Which statement is TRUE according to the table?",
+              "options": [
+                "Every city is at its wettest in October.",
+                "Port Selan receives the most rain in April.",
+                "Kestamar has more rainy days than Dorrow.",
+                "Ilvane Heights receives under 2,000 mm a year.",
+                "Dorrow gets more rain in July than in the other months shown."
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "Dorrow มีฝนเดือนกรกฎาคม 310 มม. มากกว่าเดือนอื่นในตาราง ส่วน Port Selan ฝนมากสุดในเดือนตุลาคม และ Kestamar มีวันฝนตกเพียง 41 วัน"
+            },
+            {
+              "id": "ON6-S3-074",
+              "stem": "On average, about how much rain falls on each rainy day in Kestamar?",
+              "options": [
+                "About 30–31 mm",
+                "About 7–8 mm",
+                "About 4–5 mm",
+                "About 41 mm",
+                "About 10–11 mm"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ปริมาณฝนทั้งปี 310 มม. ÷ วันฝนตก 41 วัน ≈ 7.6 มม. ต่อวัน จึงอยู่ที่ราว 7–8 มม."
+            }
+          ]
+        },
+        {
+          "id": "ON6-S3-G17",
+          "type": "on_world",
+          "instructionTh": "อ่านข้อความต่อไปนี้ แล้วตอบคำถาม",
+          "title": "A fairer cup",
+          "text": "A Fairer Cup\n\nFor most of us, coffee is simply a morning habit. Yet behind every cup is a long chain of people (farmers, traders, roasters and shop owners), and the money is rarely shared evenly. In many cases, the farmers who grow the beans receive only a small fraction of what customers finally pay.\n\nFair trade is one attempt to change this. Under a fair-trade system, buyers agree to pay farmers a guaranteed minimum price, even when world coffee prices fall. On top of that, they pay an extra amount, often called a premium, which farming communities decide together how to spend. In return, farmers must meet certain standards, such as limiting harmful chemicals and refusing to use child labour.\n\nConsider the Pha Hom Growers' Group, an imaginary cooperative of 140 families in the hills of northern Thailand. Before joining a fair-trade scheme, its members sold their beans to whichever trader arrived first, often at very low prices. Today, the group sells directly to two roasters in Bangkok. Last year, its premium paid for a new drying shed and scholarships for twelve students.\n\nFair trade is not without its critics, however. Certification can be expensive, so the smallest farms sometimes cannot afford to join. Some economists also argue that a guaranteed price may encourage farmers to keep growing coffee even when other crops would earn them more. And because fair-trade coffee usually costs a little more in shops, its success depends on shoppers being willing to pay extra.\n\nStill, many consumers see that extra cost as a small price for a clearer conscience. Next time you buy coffee, take a moment to read the label. It may tell you more about the journey of your drink than you expect.",
+          "items": [
+            {
+              "id": "ON6-S3-075",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The aims and limits of fair-trade coffee",
+                "Why world coffee prices keep rising",
+                "The history of coffee shops in Bangkok",
+                "How to grow coffee in northern Thailand",
+                "Why people should drink less coffee"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่าการค้าที่เป็นธรรมช่วยเกษตรกรอย่างไร (ราคาขั้นต่ำ เงินพรีเมียม) และกล่าวถึงข้อวิจารณ์ จึงเป็นทั้งเป้าหมายและข้อจำกัด"
+            },
+            {
+              "id": "ON6-S3-076",
+              "stem": "According to the passage, what is the \"premium\"?",
+              "options": [
+                "The lowest price that farmers can be paid",
+                "Extra money a community spends as it chooses",
+                "A prize for the farm that grows the most beans",
+                "The final price that customers pay in shops",
+                "A fee that farmers pay to become certified"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "premium คือ \"an extra amount ... which farming communities decide together how to spend\" ส่วนราคาต่ำสุดที่รับประกันเป็นอีกส่วนหนึ่ง"
+            },
+            {
+              "id": "ON6-S3-077",
+              "stem": "Before joining the scheme, members of the Pha Hom Growers' Group",
+              "options": [
+                "sold their beans to the first trader who came",
+                "sold their beans directly to Bangkok roasters",
+                "gave scholarships to twelve local students",
+                "had a modern shed for drying their beans",
+                "already received a guaranteed minimum price"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ก่อนเข้าร่วม สมาชิก \"sold their beans to whichever trader arrived first\" ส่วนการขายตรงให้โรงคั่วและทุนการศึกษาเกิดขึ้นหลังเข้าร่วมแล้ว"
+            },
+            {
+              "id": "ON6-S3-078",
+              "stem": "Which of the following would probably find it hardest to benefit from fair trade?",
+              "options": [
+                "A coffee roaster in a big city",
+                "A shopper who buys coffee every day",
+                "A tiny farm with very little money",
+                "A large cooperative with many members",
+                "A farm that uses no harmful chemicals"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนระบุว่า \"Certification can be expensive, so the smallest farms sometimes cannot afford to join\" ฟาร์มเล็กที่มีเงินน้อยจึงได้ประโยชน์ยากที่สุด"
+            },
+            {
+              "id": "ON6-S3-079",
+              "stem": "In the last paragraph, \"a clearer conscience\" most likely means",
+              "options": [
+                "a better understanding of prices",
+                "a fresher taste in the coffee",
+                "a clearer memory of the label",
+                "a more alert mind in the morning",
+                "a feeling of having acted fairly"
+              ],
+              "answer": 4,
+              "skill": "vocab_in_context",
+              "explanationTh": "conscience คือมโนธรรม/ความรู้สึกผิดชอบชั่วดี การยอมจ่ายแพงขึ้นเล็กน้อยเพื่อให้เกษตรกรได้ราคาที่เป็นธรรม ทำให้ผู้ซื้อสบายใจว่าได้ทำสิ่งที่ถูกต้อง ไม่เกี่ยวกับความสดชื่นจากกาแฟหรือรสชาติ"
+            },
+            {
+              "id": "ON6-S3-080",
+              "stem": "What is the writer's attitude towards fair trade?",
+              "options": [
+                "Positive, though aware of its drawbacks",
+                "Neutral, reporting only what economists say",
+                "Mostly critical, despite a few benefits",
+                "Uncertain whether it helps farmers at all",
+                "Positive, believing it has no real weaknesses"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยกตัวอย่างประโยชน์ของกลุ่มผู้ปลูก และมีย่อหน้าข้อวิจารณ์ (\"not without its critics\") ก่อนสรุปในเชิงบวกด้วย \"Still, many consumers see that extra cost as a small price...\" จึงมองในแง่บวกแต่รู้ข้อเสีย"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  }
+}

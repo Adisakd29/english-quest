@@ -1,0 +1,1547 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S8",
+  "title": "A-Level ชุดฝึกที่ 8",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 79,
+    "keyMatch": 80,
+    "total": 80,
+    "note": "ข้อ 048 ปรับถ้อยคำตัวเลือกหลังรอบสุดท้าย (เฉลยเดิม)"
+  },
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S8-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A result that will not replicate",
+          "dialogue": [
+            {
+              "speaker": "Napat",
+              "text": "Dr Wierzba, I've repeated the seed-soaking experiment three times now, and I'm still nowhere near the effect the original paper reported."
+            },
+            {
+              "speaker": "Dr Wierzba",
+              "text": "___1___ Still, before we conclude anything, walk me through exactly what you did differently, if anything."
+            },
+            {
+              "speaker": "Napat",
+              "text": "Only one thing, as far as I know. They used distilled water, but the lab had run out, so I used tap water that had been left to stand overnight."
+            },
+            {
+              "speaker": "Dr Wierzba",
+              "text": "___2___ Tap water carries dissolved minerals, and some of those could quite plausibly interfere with germination."
+            },
+            {
+              "speaker": "Napat",
+              "text": "Oh no. So should I write the whole thing up as a failed replication?"
+            },
+            {
+              "speaker": "Dr Wierzba",
+              "text": "___3___ What you may actually have shown is that the effect depends on water quality, which the original authors never tested."
+            },
+            {
+              "speaker": "Napat",
+              "text": "That sounds far more interesting. Should I rerun it with distilled water to check?"
+            },
+            {
+              "speaker": "Dr Wierzba",
+              "text": "___4___ If the effect reappears, you'll have a genuine finding; if it doesn't, the water wasn't the culprit after all."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S8-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "So the original paper must simply have been wrong.",
+                "And this time the effect was even larger than theirs?",
+                "You should have checked with me before the third run.",
+                "Three failures in a row are unlikely to be bad luck."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Dr Wierzba ยอมรับก่อนว่าการล้มเหลวสามครั้งติดไม่น่าใช่ความบังเอิญ แล้วใช้ \"Still, before we conclude anything\" เพื่อชะลอการสรุป กับดักคือการสรุปว่างานต้นฉบับผิดแน่นอน ซึ่งขัดกับการบอกว่ายังไม่ควรสรุปอะไร ส่วนผลที่ \"ใหญ่กว่า\" ขัดกับที่ Napat บอกว่า \"nowhere near the effect\""
+            },
+            {
+              "id": "AL-S8-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "That's hardly a trivial detail, then.",
+                "Standing overnight removes all of that, of course.",
+                "Then their distilled water must be the problem.",
+                "That shouldn't make any real difference."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไปอธิบายว่าน้ำประปามีแร่ธาตุที่อาจรบกวนการงอก จึงต้องเป็นการบอกว่าเรื่องน้ำไม่ใช่รายละเอียดเล็กน้อย กับดักคือ \"shouldn't make any real difference\" ซึ่งขัดกับเหตุผลที่ตามมา และการตั้งน้ำค้างคืนไม่ได้กำจัด \"dissolved minerals\" ตามที่เธอพูด"
+            },
+            {
+              "id": "AL-S8-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Yes, a failure is a failure, I'm afraid.",
+                "Yes, and say their data must have been invented.",
+                "I'd frame it rather differently.",
+                "No, just leave the experiment out entirely."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เธอเสนอให้มองว่าผลอาจแสดงว่า \"the effect depends on water quality\" ซึ่งเป็นการเปลี่ยนกรอบการรายงาน ไม่ใช่เรียกว่าล้มเหลว กับดักคือการตัดการทดลองทิ้ง ซึ่งขัดกับที่เธอบอกว่ามันอาจแสดงสิ่งที่น่าสนใจ และการกล่าวหาว่าข้อมูลถูกแต่งขึ้นไม่มีหลักฐานในบทสนทนา"
+            },
+            {
+              "id": "AL-S8-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "There's no point, as we already know the outcome.",
+                "Only after you've submitted the final report.",
+                "I'd rather you moved on to a fresh topic now.",
+                "By all means; that's the obvious next step."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมาวางผลสองทาง \"If the effect reappears... if it doesn't...\" แสดงว่าเธอสนับสนุนให้ทดลองซ้ำ กับดักคือ \"we already know the outcome\" ซึ่งขัดกับการที่ผลยังเป็นไปได้สองทาง และการทำหลังส่งรายงานแล้วไม่สมเหตุผล เพราะผลการทดลองจะเปลี่ยนสิ่งที่ต้องเขียน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Drawing the side you disagree with",
+          "dialogue": [
+            {
+              "speaker": "Kanokwan",
+              "text": "Mr Ashdown, we've drawn the proposition for Friday's motion on abolishing homework in primary schools, and honestly, all three of us are against it."
+            },
+            {
+              "speaker": "Mr Ashdown",
+              "text": "___1___ Arguing for a case you don't personally hold is half the point of competitive debating."
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "I accept that in principle, but I'm worried our speeches will come across as half-hearted."
+            },
+            {
+              "speaker": "Mr Ashdown",
+              "text": "They will if you simply list whatever benefits occur to you. ___2___ Work out what a sincere supporter would actually say, and build from there."
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "Fair enough. And if the opposition argue that homework builds self-discipline? That's the point I find most convincing myself."
+            },
+            {
+              "speaker": "Mr Ashdown",
+              "text": "___3___ If you already understand why it persuades you, you're well placed to predict exactly how they'll frame it."
+            },
+            {
+              "speaker": "Kanokwan",
+              "text": "I hadn't looked at it that way. Should I write the rebuttal out word for word, then?"
+            },
+            {
+              "speaker": "Mr Ashdown",
+              "text": "___4___ Adjudicators can tell when someone is reading from a script, so keep to a few key phrases and trust yourself with the rest."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S8-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Have you told the other team how you feel?",
+                "All the better, in a way.",
+                "In that case you're bound to lose, I'm afraid.",
+                "Then I'll ask the organisers to swap sides."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Mr Ashdown มองว่าการได้ฝ่ายที่ไม่เห็นด้วยเป็นข้อดี เพราะ \"half the point of competitive debating\" คือการเถียงในจุดยืนที่ตนไม่ได้ถือ กับดักคือการขอสลับฝ่าย ซึ่งขัดกับเหตุผลที่เขาให้ และ \"bound to lose\" ขัดกับน้ำเสียงให้กำลังใจและคำแนะนำในบรรทัดต่อ ๆ ไป"
+            },
+            {
+              "id": "AL-S8-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "It's safer to concede the motion in your opening.",
+                "Try inhabiting the position rather than reciting it.",
+                "Focus instead on criticising the opposition's tone.",
+                "Just speak more loudly and nobody will notice."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไป \"Work out what a sincere supporter would actually say\" ขยายความคำแนะนำให้คิดแบบผู้ที่เชื่อในจุดยืนนั้นจริง ๆ ไม่ใช่แค่ท่องรายการข้อดี กับดักคือการยอมรับญัตติตั้งแต่ต้น ซึ่งขัดกับบทบาทฝ่ายเสนอ และการโจมตีน้ำเสียงคู่แข่งไม่เกี่ยวกับปัญหา \"half-hearted\""
+            },
+            {
+              "id": "AL-S8-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Then that's the very one to prepare against first.",
+                "That point rarely comes up, so don't worry about it.",
+                "Then agree with them, since judges reward honesty.",
+                "Then simply avoid mentioning discipline at all."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เหตุผลที่ตามมาคือ ถ้าเข้าใจว่าทำไมประเด็นนี้โน้มน้าวตัวเอง ก็จะคาดได้ว่าฝ่ายค้านจะเสนออย่างไร จึงควรเตรียมโต้ประเด็นนี้ก่อน กับดักคือการเลี่ยงไม่พูดถึง หรือการเห็นด้วยกับฝ่ายค้าน ซึ่งทำลายฝ่ายตนเอง ส่วน \"rarely comes up\" ไม่สอดคล้องกับการที่เขาพูดถึงการคาดการณ์วิธีที่คู่แข่งจะใช้ประเด็นนี้"
+            },
+            {
+              "id": "AL-S8-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Yes, and learn it all by heart.",
+                "Only if the motion is reworded.",
+                "Yes, the more detail, the safer.",
+                "I'd advise against it."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "เหตุผลต่อมาคือกรรมการรู้ว่าใครอ่านจากบท จึงให้จดแค่ \"a few key phrases\" แปลว่าเขาไม่แนะนำให้เขียนทุกคำ กับดักคือคำตอบ \"Yes\" ทั้งสองแบบ ซึ่งขัดกับคำแนะนำให้ใช้คำสำคัญไม่กี่คำ และการเปลี่ยนถ้อยคำญัตติไม่เกี่ยวกับวิธีเตรียมคำโต้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Sources for a literature review",
+          "dialogue": [
+            {
+              "speaker": "Thiti",
+              "text": "Hi, I'm writing a literature review on urban heat islands, and I've found a website that summarises about thirty studies. Could I just cite that?"
+            },
+            {
+              "speaker": "Ms Faraday",
+              "text": "___1___ A summary is only as reliable as whoever wrote it, and you'd have no way of knowing what they left out."
+            },
+            {
+              "speaker": "Thiti",
+              "text": "But reading thirty papers in full would take weeks, and my deadline is the twentieth."
+            },
+            {
+              "speaker": "Ms Faraday",
+              "text": "___2___ Use the summary as a map: pick out the five or six studies it mentions most often, and read those properly."
+            },
+            {
+              "speaker": "Thiti",
+              "text": "That's manageable. How do I tell which of them are worth trusting, though?"
+            },
+            {
+              "speaker": "Ms Faraday",
+              "text": "___3___ Check whether each one appeared in a peer-reviewed journal, and see how often other researchers have cited it."
+            },
+            {
+              "speaker": "Thiti",
+              "text": "And what if two of them flatly contradict each other?"
+            },
+            {
+              "speaker": "Ms Faraday",
+              "text": "___4___ Explaining why they disagree, perhaps because they studied different cities or measured heat differently, is exactly what a strong review does."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S8-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, as long as you give the site's name.",
+                "Certainly; it'll save you a lot of reading.",
+                "I'd be wary of relying on it alone.",
+                "Websites can never be cited in any review."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Ms Faraday ให้เหตุผลว่าบทสรุป \"only as reliable as whoever wrote it\" จึงไม่ควรพึ่งแหล่งนี้แหล่งเดียว กับดักคือการตอบรับ ซึ่งขัดกับเหตุผลที่ตามมา และ \"can never be cited\" เด็ดขาดเกินไป เพราะต่อมาเธอยังแนะนำให้ใช้เว็บไซต์นั้น \"as a map\""
+            },
+            {
+              "id": "AL-S8-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Then read only the abstracts of all thirty instead.",
+                "Then you'd better ask your teacher for more time.",
+                "Nobody expects you to read every one of them.",
+                "In that case, just cite the summary after all."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "คำแนะนำที่ตามมาคือเลือกอ่านจริงจังแค่ \"five or six studies\" จึงต้องเป็นการบอกว่าไม่จำเป็นต้องอ่านทั้งหมด กับดักคือการอ่านบทคัดย่อทั้งสามสิบเรื่อง ซึ่งขัดกับการเลือกห้าหกเรื่องมาอ่าน \"properly\" และการกลับไปอ้างบทสรุปขัดกับคำเตือนในบรรทัดที่ 2"
+            },
+            {
+              "id": "AL-S8-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "There are a couple of quick indicators.",
+                "Only your teacher can really decide that.",
+                "The most recent ones are always the best.",
+                "Honestly, you'll have to trust your instincts."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไปให้เกณฑ์ที่ชัดเจนสองข้อ คือวารสารที่มี peer review และจำนวนการอ้างอิง จึงต้องเป็นการบอกว่ามี \"indicators\" ให้ดู กับดักคือการให้ใช้สัญชาตญาณหรือให้ครูตัดสิน ซึ่งขัดกับเกณฑ์ที่เธออธิบาย และ \"most recent\" ไม่ใช่เกณฑ์ที่เธอกล่าวถึง"
+            },
+            {
+              "id": "AL-S8-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Cite the one your teacher will prefer.",
+                "Don't hide it; that's worth discussing.",
+                "Drop whichever seems less convincing.",
+                "Then neither one can be cited at all."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เธอบอกว่าการอธิบายว่าทำไมงานวิจัยขัดแย้งกันคือ \"exactly what a strong review does\" จึงควรนำความขัดแย้งมาอภิปราย กับดักคือการตัดงานใดงานหนึ่งทิ้ง หรือการไม่อ้างทั้งคู่ ซึ่งขัดกับการให้วิเคราะห์ความเห็นต่างนั้น"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Feedback after the semi-final",
+          "dialogue": [
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Thanks for staying behind. You asked for feedback on the round, so let me start with what worked."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "___1___ We already know the result, so we'd rather hear what went wrong."
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Fair enough. Your main problem was structural. Your first speaker promised three arguments, but your second speaker only delivered two of them."
+            },
+            {
+              "speaker": "Arthit",
+              "text": "That was my fault. I ran short of time because I spent so long answering their point about cost."
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "___2___ But a panel can only reward what you actually say, not what you meant to say."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "So should he have dropped the rebuttal altogether?"
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Not dropped it, shortened it. ___3___ Thirty seconds on their cost argument would have been plenty, because their own figures didn't match."
+            },
+            {
+              "speaker": "Arthit",
+              "text": "Their figures didn't match? I didn't notice that at all."
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Their first speaker said the scheme would cost two million, and their final speaker said five. ___4___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "That's maddening. What about our points of information, though? We offered loads."
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "___5___ You offered eleven, but most were really statements rather than questions, so the speaker could simply wave them away."
+            },
+            {
+              "speaker": "Arthit",
+              "text": "So a sharp question beats a clever remark."
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Precisely. A question forces them to commit to an answer in front of the panel. ___6___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "If you had to name one thing for us to work on before the regional round, what would it be?"
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "Time management, without question. ___7___ Your material is strong enough to win; at the moment, the clock is beating you more often than the opposition is."
+            },
+            {
+              "speaker": "Arthit",
+              "text": "That's really helpful. Would you mind if we recorded our next practice debate and sent it to you?"
+            },
+            {
+              "speaker": "Ms Lindqvist",
+              "text": "___8___ I can't promise detailed comments, though, as I'm judging at two other tournaments this month."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Understood. Thanks again for giving us so much of your time."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S8-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Actually, could you just tell us our scores?",
+                "Actually, we'd rather leave before the final.",
+                "Thank you; we were fairly sure we'd won it.",
+                "That's kind, but please don't soften it for us."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Ploy ขอให้พูดตรง ๆ เพราะ \"we'd rather hear what went wrong\" จึงต้องเป็นการปฏิเสธอย่างสุภาพไม่ให้เริ่มจากคำชม กับดักคือ \"sure we'd won\" ซึ่งขัดกับบริบทที่ทีมแพ้และมาขอคำวิจารณ์ และการถามคะแนนขัดกับ \"We already know the result\""
+            },
+            {
+              "id": "AL-S8-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Then you should have ignored their point entirely.",
+                "So your cost rebuttal was the strongest part, then.",
+                "I guessed as much, and it's an understandable choice.",
+                "Don't worry; nobody on the panel noticed the gap."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "คำว่า \"But\" ในประโยคถัดไปต้องตัดกับข้อความที่เห็นใจ จึงต้องเป็นการยอมรับว่าเข้าใจเหตุผลของ Arthit ก่อนแล้วจึงชี้ปัญหา กับดักคือ \"ignored their point entirely\" ซึ่งเธอแย้งเองต่อมาว่า \"Not dropped it, shortened it\" และ \"nobody noticed\" ขัดกับที่เธอเพิ่งชี้ว่าขาดไปหนึ่งประเด็น"
+            },
+            {
+              "id": "AL-S8-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "The rebuttal was right in substance, wrong in proportion.",
+                "The rebuttal was the weakest part of your whole case.",
+                "Rebuttals should always be saved for the final speech.",
+                "Their cost argument was, in fact, almost unanswerable."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "\"Not dropped it, shortened it\" และ \"Thirty seconds ... would have been plenty\" แสดงว่าเนื้อหาการโต้ถูกแล้ว แต่ใช้เวลามากเกินสัดส่วน กับดักคือ \"weakest part\" ซึ่งขัดกับการให้เก็บไว้ และ \"almost unanswerable\" ขัดกับที่ตัวเลขของฝ่ายตรงข้าม \"didn't match\""
+            },
+            {
+              "id": "AL-S8-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "So you were quite right not to mention the cost issue at all.",
+                "Neither speaker, however, gave the panel any figures of their own.",
+                "Both figures were therefore perfectly reasonable estimates in context.",
+                "Pointing that out would have hurt them more than any counter-argument."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เธอยกตัวเลขที่ไม่ตรงกัน (สองล้านกับห้าล้าน) เพื่อแสดงว่าการชี้จุดอ่อนนี้ในเวลาสั้น ๆ จะได้ผลกว่าการโต้ยาว ๆ กับดักคือ \"Neither speaker ... gave ... figures\" ซึ่งขัดกับตัวเลขที่เธอเพิ่งยก และการบอกว่าถูกแล้วที่ไม่พูดถึงขัดกับที่เธอบอกว่าควรใช้ 30 วินาทีกับประเด็นนี้"
+            },
+            {
+              "id": "AL-S8-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Yes, and that nearly won you the round.",
+                "Quantity wasn't really the issue.",
+                "The rules don't permit those, I'm afraid.",
+                "You offered far too few, unfortunately."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคถัดไปบอกว่าเสนอถึง 11 ครั้งแต่ส่วนใหญ่เป็น \"statements rather than questions\" ปัญหาจึงอยู่ที่คุณภาพ ไม่ใช่จำนวน กับดักคือ \"far too few\" ซึ่งขัดกับจำนวน 11 ครั้ง และ \"nearly won you the round\" ขัดกับคำวิจารณ์ที่ตามมา"
+            },
+            {
+              "id": "AL-S8-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "A remark just hands them something to brush aside.",
+                "A remark, by contrast, is always more persuasive.",
+                "A question, however, wastes a great deal of time.",
+                "That's why I'd stop offering them altogether."
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "Arthit สรุปว่า \"a sharp question beats a clever remark\" และเธอเห็นด้วย ประโยคที่ตามมาจึงต้องอธิบายจุดอ่อนของคำพูดลอย ๆ ซึ่งสอดคล้องกับ \"wave them away\" ก่อนหน้า กับดักคือการบอกว่าคำพูดลอย ๆ โน้มน้าวกว่า หรือคำถามเสียเวลา ซึ่งขัดกับ \"Precisely\""
+            },
+            {
+              "id": "AL-S8-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Practise with a timer until you can feel a minute passing.",
+                "Stop thinking about the clock and focus on delivery.",
+                "I'd also try out a completely different team line-up.",
+                "Your arguments simply need a great deal more research."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เธอระบุว่าเรื่องที่ต้องฝึกคือ \"Time management\" และบอกว่า \"Your material is strong enough to win\" จึงเหลือคำแนะนำเรื่องการฝึกจับเวลา กับดักคือการให้ค้นคว้าเพิ่ม ซึ่งขัดกับการชมเนื้อหา และ \"Stop thinking about the clock\" ขัดกับปัญหาที่ \"the clock is beating you\""
+            },
+            {
+              "id": "AL-S8-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Not at all; I'd be glad to take a look.",
+                "I never comment on practice debates, sorry.",
+                "I'm afraid I'd rather you didn't send it.",
+                "Only once you've won the regional round."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "\"Would you mind if...?\" ตอบตกลงด้วย \"Not at all\" และประโยคถัดไปที่มี \"though\" เป็นการตั้งข้อจำกัดหลังตอบรับ (ให้ความเห็นละเอียดไม่ได้) กับดักคือคำปฏิเสธ ซึ่งไม่เข้ากับ \"I can't promise detailed comments, though\" ที่สื่อว่าเธอจะดูให้"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S8-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Meridian Bench equipment hire",
+          "text": "MERIDIAN BENCH\nScientific equipment for hire: schools, student researchers and small laboratories\n\nWhat we lend\nMicroscopes, centrifuges, incubators, data loggers and spectrophotometers, every one serviced and calibrated before it leaves our Nong Sarai depot.\n\nWeekly rates (per item)\n• Microscopes and data loggers: 900 baht\n• Centrifuges and incubators: 1,500 baht\n• Spectrophotometers: 2,800 baht\nRegistered schools receive 20% off all rates. On loans of four weeks or longer, every fourth week is free. The two offers cannot be combined; we will automatically apply whichever is cheaper for you.\n\nDeposit\nEach item requires a refundable deposit equal to one week at the full rate. Deposits are returned within five working days of the item coming back undamaged.\n\nDelivery\nFree within 30 km of the depot. Beyond 30 km, a one-off charge of 15 baht per km applies to the whole distance.\n\nPlease note\nSpectrophotometers are lent only to borrowers who have completed our free two-hour online training. Late returns are charged at double the full weekly rate for each extra week or part of a week.",
+          "items": [
+            {
+              "id": "AL-S8-021",
+              "stem": "A registered school hires one centrifuge for exactly four weeks. How much is the hire charge, not including the deposit?",
+              "options": [
+                "6,000 baht",
+                "4,800 baht",
+                "4,500 baht",
+                "3,600 baht"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ราคาเต็ม 1,500 × 4 = 6,000 บาท ถ้าใช้ส่วนลดโรงเรียน 20% จะเป็น 4,800 บาท ถ้าใช้ \"every fourth week is free\" จะจ่าย 3 สัปดาห์ = 4,500 บาท และร้าน \"apply whichever is cheaper\" จึงเป็น 4,500 บาท กับดักคือ 3,600 บาท ซึ่งเกิดจากใช้สองโปรพร้อมกัน ทั้งที่ \"cannot be combined\""
+            },
+            {
+              "id": "AL-S8-022",
+              "stem": "A registered school borrows two microscopes and one incubator. What is the total deposit?",
+              "options": [
+                "3,300 baht",
+                "1,500 baht",
+                "2,400 baht",
+                "2,640 baht"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "มัดจำคือ \"one week at the full rate\" ต่อชิ้น: กล้องจุลทรรศน์ 900 × 2 + ตู้บ่มเพาะ 1,500 = 3,300 บาท แม้เป็นโรงเรียนที่ได้ส่วนลด แต่มัดจำคิดราคาเต็ม กับดักคือ 2,640 บาท ซึ่งหักส่วนลด 20% ออกไป และ 2,400 บาท ซึ่งนับกล้องจุลทรรศน์เพียงตัวเดียว"
+            },
+            {
+              "id": "AL-S8-023",
+              "stem": "A student researcher who has never dealt with Meridian Bench before wants a spectrophotometer. What can be inferred?",
+              "options": [
+                "They will need to finish a short course before borrowing one.",
+                "They can borrow one only if they belong to a registered school.",
+                "They will have to pay double the usual weekly rate for it.",
+                "They will have to collect it from the depot in person."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ประกาศระบุว่า \"Spectrophotometers are lent only to borrowers who have completed our free two-hour online training\" ผู้ยืมครั้งแรกจึงต้องผ่านการอบรมก่อน กับดักคือค่าปรับสองเท่า ซึ่งใช้กับการคืนช้าเท่านั้น และเงื่อนไขโรงเรียนจดทะเบียนเกี่ยวกับส่วนลด ไม่ใช่สิทธิ์ในการยืม"
+            },
+            {
+              "id": "AL-S8-024",
+              "stem": "A student researcher based 42 km from the depot has a data logger delivered and returns it one and a half weeks late. Which is correct?",
+              "options": [
+                "Delivery costs 180 baht, and the late charge is 1,800 baht.",
+                "Delivery costs 630 baht, and the late charge is 2,700 baht.",
+                "Delivery costs 630 baht, and the late charge is 3,600 baht.",
+                "Delivery costs 180 baht, and the late charge is 3,600 baht."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ค่าส่งคิด \"to the whole distance\" คือ 15 × 42 = 630 บาท ไม่ใช่เฉพาะ 12 กม. ที่เกิน (180 บาท) ส่วนค่าปรับคิด \"for each extra week or part of a week\" ช้าหนึ่งสัปดาห์ครึ่งจึงนับเป็น 2 สัปดาห์ × 1,800 = 3,600 บาท กับดักคือ 2,700 บาท ซึ่งคิดตามจริง 1.5 สัปดาห์"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Call for papers: young researchers' symposium",
+          "text": "CALL FOR PAPERS\n4th Varinthorn Young Researchers' Symposium\n\"Evidence in an Age of Noise\" · 14–15 March · Varinthorn University\n\nWe invite original research from students currently in upper-secondary school or in the first two years of an undergraduate degree. Projects may come from any discipline, provided they examine how evidence is gathered, tested or communicated.\n\nSubmitting\nSend an abstract of no more than 300 words by 10 January. Abstracts over the limit will be returned unread. Teams of up to three authors are welcome, but no individual may be named on more than one abstract.\n\nSelection\nEach abstract is assessed by two reviewers who are not told who wrote it, so please leave your name and school out of the abstract itself. Shortlisted authors will hear from us by 1 February and must then submit a full paper of 3,000–4,000 words by 20 February.\n\nFormats\nShortlisted papers are presented as 15-minute talks. Authors whose work is not shortlisted for a talk may be offered a poster slot instead.\n\nCosts\nRegistration is free for all presenters. We cover up to two nights' accommodation for authors travelling more than 200 km.",
+          "items": [
+            {
+              "id": "AL-S8-025",
+              "stem": "Which of the following people is eligible to submit an abstract?",
+              "options": [
+                "A Grade 11 student designing a new logo for the school's annual science fair",
+                "A recent graduate comparing how two newspapers reported the same opinion survey",
+                "A third-year undergraduate testing a faster method of sampling river water",
+                "A first-year music undergraduate testing how reliably critics' verdicts match audience surveys"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้สมัครต้องเป็นนักเรียนมัธยมปลายหรือ \"first two years of an undergraduate degree\" และหัวข้อต้องเกี่ยวกับ \"how evidence is gathered, tested or communicated\" ซึ่งสาขาใดก็ได้ นักศึกษาปีหนึ่งสาขาดนตรีที่ทดสอบว่าคำตัดสินของนักวิจารณ์ตรงกับผลสำรวจผู้ชมเพียงใด (เป็นการทดสอบหลักฐาน)จึงเข้าเกณฑ์ กับดักคือนักศึกษาปีสามและผู้จบแล้ว ซึ่งหัวข้อเข้าเกณฑ์แต่สถานะไม่เข้า ส่วนการออกแบบโลโก้ไม่เกี่ยวกับหลักฐาน"
+            },
+            {
+              "id": "AL-S8-026",
+              "stem": "Why are applicants asked to leave their names out of their abstracts?",
+              "options": [
+                "Because the organisers will add all the names after selection",
+                "So that every abstract stays safely within the 300-word limit",
+                "Because only individual authors may submit an abstract",
+                "So reviewers can judge the work without knowing its author"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ประกาศบอกว่าผู้ตรวจ \"are not told who wrote it, so please leave your name and school out\" จุดประสงค์จึงเป็นการประเมินโดยไม่รู้ตัวผู้เขียน กับดักคือเรื่องจำกัดจำนวนคำ ซึ่งไม่ใช่เหตุผลที่ให้ไว้ และ \"only individual authors\" ขัดกับ \"Teams of up to three authors are welcome\""
+            },
+            {
+              "id": "AL-S8-027",
+              "stem": "Which plan would break the symposium's rules?",
+              "options": [
+                "A student in her second university year submits an abstract alone.",
+                "Three classmates submit a single abstract together on 9 January.",
+                "A student submits a 290-word abstract with no name or school on it.",
+                "Two friends send a joint abstract, and one of them also sends a solo one."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "กติกาคือ \"no individual may be named on more than one abstract\" คนที่มีชื่อทั้งในบทคัดย่อร่วมและบทคัดย่อเดี่ยวจึงผิดกติกา กับดักคือทีมสามคน ซึ่งยังอยู่ใน \"up to three\" และส่งก่อน 10 มกราคม ส่วนบทคัดย่อ 290 คำไม่เกิน 300 คำ"
+            },
+            {
+              "id": "AL-S8-028",
+              "stem": "What can be concluded about authors whose abstracts are not shortlisted for a talk?",
+              "options": [
+                "Their abstract will be returned to them unread.",
+                "They might still have a chance to present a poster.",
+                "They will automatically be given a poster slot.",
+                "They must pay to register if they wish to attend."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ประกาศใช้คำว่า \"may be offered a poster slot\" คืออาจได้รับเสนอ ไม่ใช่ได้แน่นอน กับดักคือ \"automatically\" ซึ่งแรงเกินข้อความ ส่วน \"returned unread\" ใช้กับบทคัดย่อที่เกินจำนวนคำเท่านั้น และไม่มีข้อมูลว่าผู้ไม่ได้นำเสนอแบบบรรยายต้องจ่ายค่าลงทะเบียน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: the Quillmark Slate 7",
+          "text": "Quillmark Slate 7: a clever compromise, but a compromise all the same\n\nThe Slate 7 is Quillmark's first e-reader with a colour screen, and the company has clearly agonised over it. Colour e-ink has always involved a trade-off: the layer that produces colour also dims the page and softens the text. Quillmark's engineers have narrowed that gap rather than closed it. Side by side with last year's black-and-white Slate 6, the new screen looks faintly grey, as if printed on recycled paper; on its own, after a few minutes, I stopped noticing.\n\nWhere colour earns its keep is in illustrated material. Comics, cookbooks and textbook diagrams, which earlier models reduced to murky shades of grey, are now genuinely legible. For novels, it adds nothing at all.\n\nThe bundled stylus is the more surprising success. Handwritten notes appear with almost no delay, and the device can search them, provided your handwriting is tidier than mine. Annotating a PDF in the margins felt remarkably close to working on paper.\n\nBattery life is the price paid. Quillmark claims four weeks; with colour content and the front light at half strength, I managed eleven days. Readers who stick to novels will get considerably more, but they are also the readers with the least reason to upgrade.\n\nAt 6,490 baht, the Slate 7 costs almost twice as much as the Slate 6, which remains on sale. If you mainly read fiction, the older model is the shrewder purchase. If your reading involves diagrams, charts or a pen in hand, the Slate 7 is the first e-reader I would recommend without reservation, or at least without many.",
+          "items": [
+            {
+              "id": "AL-S8-029",
+              "stem": "Which statement best summarises the reviewer's overall view?",
+              "options": [
+                "The Slate 7 is worth its price mainly for readers whose material benefits from colour or a stylus.",
+                "The Slate 7's screen is too dim and grey to be recommended to anyone who reads for long periods.",
+                "Quillmark should have kept its e-readers black and white instead of attempting colour at all.",
+                "The Slate 7 is a clear improvement on the Slate 6 for every kind of reader, including novel readers."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนสรุปว่าคนอ่านนิยายควรซื้อรุ่นเก่า (\"the older model is the shrewder purchase\") แต่คนที่อ่านแผนภาพหรือใช้ปากกาควรซื้อ Slate 7 กับดักคือ \"for every kind of reader\" ซึ่งขัดกับ \"For novels, it adds nothing at all\" และ \"too dim ... to anyone\" ขัดกับที่ผู้เขียน \"stopped noticing\" ความหมองหลังใช้ไม่กี่นาที"
+            },
+            {
+              "id": "AL-S8-030",
+              "stem": "In paragraph 2, the phrase \"earns its keep\" is closest in meaning to",
+              "options": [
+                "becomes cheaper",
+                "is easiest to adjust",
+                "saves battery power",
+                "proves its worth"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"earns its keep\" แปลว่าคุ้มค่าหรือพิสูจน์ว่ามีประโยชน์ บริบทถัดไปบอกว่าสีทำให้การ์ตูนและแผนภาพ \"genuinely legible\" แต่กับนิยาย \"adds nothing\" กับดักคือ \"becomes cheaper\" ซึ่งแปลคำว่า keep ตามตัวอักษรเรื่องค่าใช้จ่าย และเรื่องแบตเตอรี่ซึ่งไม่เกี่ยวกับย่อหน้านี้"
+            },
+            {
+              "id": "AL-S8-031",
+              "stem": "What does the reviewer imply about the stylus?",
+              "options": [
+                "Notes can be searched only after they have been converted into typed text.",
+                "The reviewer's handwriting became tidier after using the stylus for a while.",
+                "The search function did not always work well on the reviewer's own notes.",
+                "The reviewer did not actually test the stylus's search function at all."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "\"provided your handwriting is tidier than mine\" สื่ออย่างอ้อม ๆ ว่าลายมือของผู้เขียนไม่เรียบร้อยพอ ทำให้ค้นหาบันทึกของตัวเองได้ไม่ดีนัก กับดักคือ \"did not actually test\" ซึ่งขัดกับที่ผู้เขียนพูดจากประสบการณ์ และการแปลงเป็นข้อความพิมพ์ก่อนไม่มีในบทวิจารณ์"
+            },
+            {
+              "id": "AL-S8-032",
+              "stem": "What point does the reviewer make about battery life?",
+              "options": [
+                "Those likely to get the longest battery life have least reason to buy the Slate 7.",
+                "The front light uses considerably more power than the colour layer of the screen does.",
+                "Quillmark's claim of four weeks cannot be achieved under any conditions whatsoever.",
+                "The Slate 7's battery lasts noticeably longer than the Slate 6's when used for novels."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าคนอ่านนิยาย \"will get considerably more\" แต่ \"are also the readers with the least reason to upgrade\" กับดักคือ \"cannot be achieved under any conditions\" ซึ่งแรงเกินไป เพราะผู้เขียนยอมรับว่าคนอ่านนิยายจะได้มากกว่า 11 วัน ส่วนการเปรียบเทียบไฟหน้าจอกับชั้นสีและกับแบตเตอรี่ Slate 6 ไม่มีในบทวิจารณ์"
+            },
+            {
+              "id": "AL-S8-033",
+              "stem": "What is the effect of the final phrase \"or at least without many\"?",
+              "options": [
+                "It stresses that the reviewer's enthusiasm has absolutely no limits.",
+                "It lightly and humorously qualifies an otherwise strong recommendation.",
+                "It sarcastically withdraws the recommendation made earlier in the sentence.",
+                "It apologises for an error in the reviewer's earlier claims about price."
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "\"without reservation, or at least without many\" เป็นการถอยคำพูดเล็กน้อยแบบติดตลก ยังคงแนะนำอยู่แต่ยอมรับว่ามีข้อจำกัดบ้าง (เช่นแบตเตอรี่และราคา) กับดักคือ \"sarcastically withdraws\" ซึ่งแรงเกินไป และ \"no limits\" ตรงข้ามกับการเติมวลีนี้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Velmont congestion charge",
+          "text": "Velmont to charge drivers entering old town from June\n\nDrivers entering Velmont's historic centre on weekdays will pay a daily charge of 120 baht from 1 June, the city's transport authority confirmed on Tuesday. The charge will apply between 7 a.m. and 7 p.m. inside the zone enclosed by the ring canal, and will be collected automatically by cameras that read number plates.\n\nThe authority says the scheme is intended to speed up the city's buses, which currently crawl through the centre at an average of 9 km/h during the morning peak. All revenue, it says, will be spent on public transport, beginning with forty electric buses and longer operating hours for the river ferry.\n\nResidents of the zone will receive a 90% discount, while delivery vans will pay the charge only once a day, however many times they enter. Motorcycles are exempt for the first year, a decision the authority describes as \"a review point rather than a promise\".\n\nNot everyone is persuaded. Kittima Saelim, who runs a fabric shop on Tha Phraya Road inside the zone, fears that customers will drive to the malls on the city's outskirts instead. \"People say they'll take the bus, but my customers carry home rolls of cloth,\" she said. \"It's hardly a handbag.\"\n\nThe authority points to a three-month trial last year on two streets, during which traffic fell by 18% and, it says, takings at most shops held steady. Critics note, however, that the trial ran during the rainy season, when footfall in the old town is low in any case, making comparisons difficult.\n\nThe authority has promised a public review once the scheme has run for twelve months, and says the charge could be raised, lowered or reshaped in light of the findings.",
+          "items": [
+            {
+              "id": "AL-S8-034",
+              "stem": "According to the report, which statement about the charge is accurate?",
+              "options": [
+                "A car entering the zone at 8 p.m. on a Wednesday pays the full 120 baht.",
+                "A resident of the zone will not have to pay anything to drive in the centre.",
+                "A delivery van entering the zone four times on a Monday pays 120 baht that day.",
+                "Motorcycle riders have been promised that they will never have to pay the charge."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "รถส่งของ \"pay the charge only once a day, however many times they enter\" จึงจ่าย 120 บาทต่อวัน กับดักคือผู้อาศัย ซึ่งได้ลด 90% ไม่ใช่ฟรี มอเตอร์ไซค์ได้ยกเว้นแค่ปีแรกและเป็น \"a review point rather than a promise\" ส่วนเวลา 20.00 น. อยู่นอกช่วง 7 a.m.–7 p.m."
+            },
+            {
+              "id": "AL-S8-035",
+              "stem": "What does the authority's description of the motorcycle exemption suggest?",
+              "options": [
+                "Motorcycles cause more congestion than any other vehicle.",
+                "The authority has guaranteed the exemption will continue.",
+                "Motorcycles will be charged more than cars after one year.",
+                "The exemption may well end once the first year is over."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "\"a review point rather than a promise\" แปลว่าการยกเว้นนี้จะถูกทบทวน ไม่ได้รับประกันว่าจะคงอยู่ จึงอาจสิ้นสุดหลังปีแรก กับดักคือ \"guaranteed\" ซึ่งตรงข้ามกับคำว่า \"rather than a promise\" และการเก็บแพงกว่ารถยนต์ไม่มีข้อมูลรองรับ"
+            },
+            {
+              "id": "AL-S8-036",
+              "stem": "What does Kittima Saelim mean when she says \"It's hardly a handbag\"?",
+              "options": [
+                "She believes the city's buses do not allow passengers to carry bags.",
+                "Her customers' purchases are too bulky to carry easily on a bus.",
+                "Most of her customers already prefer to shop at the outlying malls.",
+                "She is planning to start selling handbags alongside her fabrics."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "เธอพูดว่าลูกค้า \"carry home rolls of cloth\" แล้วตามด้วย \"It's hardly a handbag\" หมายความว่าของที่ซื้อใหญ่และหนักเกินกว่าจะถือขึ้นรถเมล์สะดวก กับดักคือการตีความ handbag ตามตัวอักษรว่าจะขายกระเป๋า และ \"already prefer\" ขัดกับที่เธอกังวลว่าลูกค้า \"will\" ไปห้างในอนาคต"
+            },
+            {
+              "id": "AL-S8-037",
+              "stem": "In paragraph 5, the word \"takings\" refers to",
+              "options": [
+                "the rent that shopkeepers pay each month",
+                "goods that are taken from shops without payment",
+                "money that a business receives from sales",
+                "the number of customers who visit a shop"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"takings\" หมายถึงรายรับจากการขายของร้านค้า บริบทคือหน่วยงานอ้างว่าแม้รถลดลง แต่รายได้ร้านค้า \"held steady\" กับดักคือการแปลจาก take ว่าของที่ถูกขโมย และจำนวนลูกค้า ซึ่งบทความใช้อีกคำว่า \"footfall\""
+            },
+            {
+              "id": "AL-S8-038",
+              "stem": "Why do critics question the evidence from last year's trial?",
+              "options": [
+                "Shop sales might have stayed level partly because they were low that season anyway.",
+                "The trial covered the whole zone, so its results cannot be applied to two streets.",
+                "Traffic in the trial area actually rose rather than falling during the rainy months.",
+                "The trial was far too short, lasting only a few days during the rainy season."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้วิจารณ์ชี้ว่าการทดลองจัด \"during the rainy season, when footfall in the old town is low in any case\" ดังนั้นการที่รายได้ร้านไม่ลดลงอาจไม่ได้พิสูจน์ว่าค่าธรรมเนียมไม่กระทบร้านค้า กับดักคือ \"covered the whole zone\" ซึ่งขัดกับ \"on two streets\" และการทดลอง \"three-month\" ไม่ใช่ไม่กี่วัน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Preferences for remote learning",
+          "text": "Banthat Wittaya School asked students in four groups how they would prefer to study next year. Each student chose exactly one option. The table also shows the average number of hours each group currently spends on online study per week. The school has decided that a group will move to a mixed timetable next year only if MORE THAN 60% of its students chose either fully remote or mixed learning.",
+          "table": {
+            "caption": "Study preferences for next year, Banthat Wittaya School (1,000 students)",
+            "columns": [
+              "Group",
+              "Students surveyed",
+              "Fully remote",
+              "Mixed",
+              "Fully in person",
+              "Online study (hours/week)"
+            ],
+            "rows": [
+              [
+                "Mathayom 4",
+                "400",
+                "10%",
+                "45%",
+                "45%",
+                "6"
+              ],
+              [
+                "Mathayom 5",
+                "300",
+                "20%",
+                "50%",
+                "30%",
+                "9"
+              ],
+              [
+                "Mathayom 6",
+                "200",
+                "35%",
+                "40%",
+                "25%",
+                "14"
+              ],
+              [
+                "Vocational stream",
+                "100",
+                "30%",
+                "20%",
+                "50%",
+                "8"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S8-039",
+              "stem": "Which group contains the largest NUMBER of students who prefer mixed learning?",
+              "options": [
+                "Mathayom 5",
+                "Mathayom 4",
+                "Vocational stream",
+                "Mathayom 6"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "จำนวนนักเรียนที่เลือก mixed: ม.4 = 400 × 45% = 180 คน, ม.5 = 300 × 50% = 150 คน, ม.6 = 200 × 40% = 80 คน, สายอาชีพ = 20 คน จึงเป็น ม.4 กับดักคือ ม.5 ซึ่งมีร้อยละสูงสุด แต่โจทย์ถามจำนวนคน"
+            },
+            {
+              "id": "AL-S8-040",
+              "stem": "In total, how many of the 1,000 students chose fully remote learning?",
+              "options": [
+                "200",
+                "160",
+                "95",
+                "240"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "ผู้เลือก fully remote: 400 × 10% = 40, 300 × 20% = 60, 200 × 35% = 70, 100 × 30% = 30 รวม 200 คน กับดักคือ 95 ซึ่งเป็นการบวกร้อยละของทั้งสี่กลุ่มตรง ๆ (10 + 20 + 35 + 30) โดยไม่คูณกับจำนวนนักเรียน"
+            },
+            {
+              "id": "AL-S8-041",
+              "stem": "Which group(s) will move to a mixed timetable next year?",
+              "options": [
+                "Mathayom 5, Mathayom 6 and the vocational stream",
+                "Mathayom 6 only",
+                "Mathayom 4, Mathayom 5 and Mathayom 6",
+                "Mathayom 5 and Mathayom 6 only"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "รวม remote + mixed: ม.4 = 55%, ม.5 = 70%, ม.6 = 75%, สายอาชีพ = 50% เกณฑ์คือ \"MORE THAN 60%\" จึงผ่านเฉพาะ ม.5 และ ม.6 กับดักคือการรวม ม.4 ซึ่งมีจำนวนคนที่เลือก mixed มากที่สุด แต่สัดส่วนรวมยังไม่ถึง 60%"
+            },
+            {
+              "id": "AL-S8-042",
+              "stem": "Which statement is supported by the table?",
+              "options": [
+                "The vocational stream has the lowest share of students preferring fully in-person learning.",
+                "The group with the most weekly online study also has the highest share choosing fully remote.",
+                "More students in the vocational stream than in Mathayom 5 chose fully remote learning.",
+                "In every group, a larger share of students chose fully in-person learning than chose mixed learning."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ม.6 ใช้เวลาเรียนออนไลน์มากที่สุด (14 ชั่วโมง) และมีสัดส่วนเลือก fully remote สูงสุด (35%) กับดักคือสายอาชีพมากกว่า ม.5 ซึ่งผิดเพราะ 30 คน น้อยกว่า 60 คน ส่วนสายอาชีพมีสัดส่วนเลือก in person สูงที่สุด (50%) ไม่ใช่ต่ำที่สุด และ ม.5 กับ ม.6 เลือก mixed มากกว่า in person"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Student theatre festival ticket sales",
+          "text": "The table shows ticket sales for the four productions at this year's Riverside Student Theatre Festival. Every performance of a show had the same number of seats available. The organisers will invite a production back next year only if it BOTH sold at least 85% of all the seats available across its performances AND earned at least 60,000 baht in ticket sales.",
+          "table": {
+            "caption": "Riverside Student Theatre Festival: ticket sales by production",
+            "columns": [
+              "Production",
+              "Seats per performance",
+              "Performances",
+              "Tickets sold",
+              "Price per ticket (baht)"
+            ],
+            "rows": [
+              [
+                "The Glass Orchard",
+                "120",
+                "4",
+                "432",
+                "130"
+              ],
+              [
+                "Monsoon Letters",
+                "200",
+                "3",
+                "480",
+                "100"
+              ],
+              [
+                "Nine Doors",
+                "80",
+                "5",
+                "380",
+                "180"
+              ],
+              [
+                "Paper Kingdom",
+                "150",
+                "4",
+                "420",
+                "120"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S8-043",
+              "stem": "Which production sold the highest proportion of the seats available to it?",
+              "options": [
+                "The Glass Orchard",
+                "Nine Doors",
+                "Paper Kingdom",
+                "Monsoon Letters"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ที่นั่งทั้งหมด = ที่นั่งต่อรอบ × จำนวนรอบ: Glass Orchard 432/480 = 90%, Monsoon Letters 480/600 = 80%, Nine Doors 380/400 = 95%, Paper Kingdom 420/600 = 70% จึงเป็น Nine Doors กับดักคือ Monsoon Letters ซึ่งขายตั๋วได้จำนวนมากที่สุดแต่สัดส่วนต่ำกว่า"
+            },
+            {
+              "id": "AL-S8-044",
+              "stem": "How much more did Nine Doors earn in ticket sales than Paper Kingdom?",
+              "options": [
+                "18,000 baht",
+                "24,000 baht",
+                "5,760 baht",
+                "12,000 baht"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "รายได้ Nine Doors = 380 × 180 = 68,400 บาท และ Paper Kingdom = 420 × 120 = 50,400 บาท ต่างกัน 18,000 บาท กับดักคือ 5,760 บาท ซึ่งเป็นผลต่างระหว่าง Glass Orchard (56,160) กับ Paper Kingdom"
+            },
+            {
+              "id": "AL-S8-045",
+              "stem": "Which production(s) will be invited back next year?",
+              "options": [
+                "The Glass Orchard and Nine Doors",
+                "The Glass Orchard only",
+                "Nine Doors and Monsoon Letters",
+                "Nine Doors only"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ต้องผ่านสองเงื่อนไข: Nine Doors ขายได้ 95% และรายได้ 68,400 บาท จึงผ่าน ส่วน Glass Orchard ขายได้ 90% แต่รายได้แค่ 432 × 130 = 56,160 บาท ต่ำกว่า 60,000 บาท Monsoon Letters ได้ 80% และ 48,000 บาท จึงไม่ผ่านทั้งสองข้อ กับดักคือ Glass Orchard ที่ผ่านเฉพาะเกณฑ์ที่นั่ง"
+            },
+            {
+              "id": "AL-S8-046",
+              "stem": "What is the smallest number of additional tickets Paper Kingdom would have needed to sell to be invited back?",
+              "options": [
+                "80",
+                "60",
+                "90",
+                "180"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "Paper Kingdom มีที่นั่ง 600 ที่ ต้องขายอย่างน้อย 85% = 510 ใบ (เพิ่ม 90 ใบ) ซึ่งได้รายได้ 510 × 120 = 61,200 บาท ผ่านเกณฑ์รายได้ด้วย กับดักคือ 80 ใบ ซึ่งทำให้รายได้ถึง 60,000 บาทพอดี แต่ 500/600 ≈ 83% ยังไม่ถึง 85%"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Control Group's Quiet Job",
+          "text": "Imagine that a company claims its new sports drink makes runners faster. It recruits forty athletes, times them over 400 metres, gives them the drink daily for a month and then times them again. Average times improve by almost a second. Has the drink worked? Almost any researcher would reply that the question cannot yet be answered, and the reasons why reveal a great deal about how careful studies are built.\n\nThe first problem is that the athletes would probably have improved anyway. They were training throughout the month, and some may have volunteered precisely because they had recently run badly and were keen to do better. People who are measured at an unusually poor moment tend to score closer to their normal level the next time, simply because bad days are, by definition, unusual. Statisticians call this regression to the mean, and it can make almost any intervention look effective if it is introduced straight after a slump.\n\nThe obvious remedy is a comparison group: a second set of athletes, recruited in the same way, who are timed twice but given nothing. Yet this introduces a subtler difficulty. Runners who know they are drinking a promising new product may try harder, rest more carefully or simply believe they are quicker, and belief alone can alter performance. Runners who know they are receiving nothing enjoy no such encouragement. Any difference between the two groups might therefore reflect expectations rather than ingredients.\n\nThis is the gap a placebo is designed to fill. If the comparison group receives a drink that looks, smells and tastes identical but lacks the supposed active ingredient, both groups share the same expectations. Whatever difference remains can more confidently be credited to the ingredient itself. The placebo, in other words, is not a treatment under test; it is a tool for subtracting everything except the thing being tested.\n\nFor the tool to work, however, the disguise must hold. If athletes can tell which drink they received, perhaps because the real one leaves a faint bitterness, the shared expectations collapse. Careful studies therefore 'blind' participants, keeping them unaware of their group, and often blind the researchers as well, since a coach who knows which runner had the real drink may, without meaning to, shout louder encouragement at the finish line. Some studies go further and ask participants at the end which group they think they were in. If their guesses are much better than chance, the blinding has probably failed.\n\nSome researchers also add a third group that receives nothing at all, not even the placebo. Comparing this group with the placebo group isolates the influence of expectation itself, which can be surprisingly large and is a legitimate subject of study in its own right. Comparing the no-treatment group with its own earlier results, meanwhile, shows how much improvement time and chance would have produced on their own.\n\nNone of this guarantees a correct answer. Small samples can still mislead, and a drink that seems to help trained sprinters may do nothing for weekend joggers. But the logic is worth grasping even for those who will never run a study. Whenever a product promises improvement, the useful question is not 'Did people get better?' but 'Better than whom, and did they know which group they were in?'",
+          "items": [
+            {
+              "id": "AL-S8-047",
+              "stem": "What is the main purpose of the example in paragraph 1?",
+              "options": [
+                "To describe a study that the author personally conducted",
+                "To show that sports drinks generally make runners faster",
+                "To argue that athletes should not take part in research",
+                "To present a claim whose evidence is not yet adequate"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าแรกยกตัวอย่างการทดลองที่เวลาวิ่งดีขึ้น แล้วบอกว่า \"the question cannot yet be answered\" เพื่อปูไปสู่การอธิบายการออกแบบงานวิจัย กับดักคือ \"sports drinks generally make runners faster\" ซึ่งเป็นสิ่งที่บทความตั้งคำถาม ไม่ใช่ยืนยัน และไม่มีข้อมูลว่าผู้เขียนทำการทดลองนี้เอง"
+            },
+            {
+              "id": "AL-S8-048",
+              "stem": "Which situation best illustrates regression to the mean as it is described in paragraph 2?",
+              "options": [
+                "A student whose marks rise steadily across a whole year because she practises a little every single day.",
+                "A student whose scores fall gradually over a term because the quizzes become more and more difficult.",
+                "A student who performs better than usual on a quiz because a teacher told her she was sure to do well.",
+                "A student who does unusually badly on one quiz and then scores nearer her usual level on the next."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "regression to the mean ตามบทความคือคนที่วัดผลในช่วง \"unusually poor moment\" มักได้ผลใกล้ระดับปกติในครั้งต่อไป โดยไม่ต้องมีอะไรเปลี่ยน กับดักคือนักเรียนที่ทำดีเพราะครูบอกว่าจะทำได้ดี ซึ่งเป็นผลจากความคาดหวัง (expectation) ไม่ใช่ regression to the mean และการพัฒนาจากการฝึกเป็นการเปลี่ยนแปลงจริง"
+            },
+            {
+              "id": "AL-S8-049",
+              "stem": "According to paragraph 3, what weakness remains if the comparison group simply receives nothing?",
+              "options": [
+                "Its members would not be timed at the start of the study at all.",
+                "Its members would be more likely to be recovering from a slump.",
+                "Its members would lack the expectations that the drink group has.",
+                "Its members would be recruited in a different way from the others."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 อธิบายว่าคนที่รู้ว่าตัวเองไม่ได้รับอะไร \"enjoy no such encouragement\" ความต่างของสองกลุ่มจึงอาจมาจาก \"expectations rather than ingredients\" กับดักคือการคัดเลือกต่างกัน ซึ่งขัดกับ \"recruited in the same way\" และการไม่จับเวลาครั้งแรก ซึ่งขัดกับ \"timed twice\""
+            },
+            {
+              "id": "AL-S8-050",
+              "stem": "What does the author mean by calling the placebo \"a tool for subtracting everything except the thing being tested\"?",
+              "options": [
+                "It is itself a treatment whose benefits the researchers hope to measure.",
+                "It lets researchers remove the influence of every factor except the ingredient.",
+                "It allows researchers to keep the real ingredient's identity secret.",
+                "It reduces the number of athletes needed for the study to give results."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"a tool for subtracting everything except the thing being tested\" หมายความว่ายาหลอกทำให้ปัจจัยอื่น ๆ เช่นความคาดหวังเท่ากันทั้งสองกลุ่ม ความต่างที่เหลือจึงมาจากส่วนผสมจริง กับดักคือ \"itself a treatment\" ซึ่งบทความปฏิเสธตรง ๆ ว่า \"not a treatment under test\" และเรื่องปิดบังชื่อส่วนผสมไม่ใช่ความหมายของประโยคนี้"
+            },
+            {
+              "id": "AL-S8-051",
+              "stem": "In paragraph 5, the word \"hold\" in \"the disguise must hold\" is closest in meaning to",
+              "options": [
+                "contain the ingredient",
+                "be carried by hand",
+                "continue to be effective",
+                "be postponed until later"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"the disguise must hold\" หมายถึงการปลอมแปลงต้องยังได้ผลอยู่ ประโยคถัดไปอธิบายว่าถ้านักกีฬาแยกออกว่าได้เครื่องดื่มแบบไหน \"the shared expectations collapse\" กับดักคือความหมายทั่วไปของ hold ว่าถือไว้ในมือ หรือบรรจุ ซึ่งไม่เข้ากับบริบท"
+            },
+            {
+              "id": "AL-S8-052",
+              "stem": "If most participants correctly guess their group at the end of a study, what would the author most likely conclude?",
+              "options": [
+                "The no-treatment group must have been recruited in a careless way.",
+                "Group differences might partly reflect expectations after all.",
+                "The participants must have been unusually skilled at the running task.",
+                "The real drink must have had no effect whatsoever on the runners' times."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 5 บอกว่าถ้าเดากลุ่มได้ดีกว่าโอกาส \"the blinding has probably failed\" และเมื่อการปกปิดล้มเหลว \"the shared expectations collapse\" ความต่างที่พบจึงอาจมาจากความคาดหวังด้วย กับดักคือการสรุปว่าเครื่องดื่มไม่มีผลเลย ซึ่งเกินจากหลักฐาน เพราะการปกปิดล้มเหลวทำให้สรุปไม่ได้ ไม่ใช่พิสูจน์ว่าไม่มีผล"
+            },
+            {
+              "id": "AL-S8-053",
+              "stem": "According to paragraph 6, what does comparing the no-treatment group with the placebo group reveal?",
+              "options": [
+                "How large an effect expectation alone produces",
+                "Whether the participants were properly blinded",
+                "How much improvement time and chance produce",
+                "Whether the drink's ingredient actually works"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 6 ระบุว่าการเทียบกลุ่มไม่ได้รับอะไรเลยกับกลุ่มยาหลอก \"isolates the influence of expectation itself\" กับดักคือ \"time and chance\" ซึ่งได้จากการเทียบกลุ่มไม่ได้รับอะไรกับผลของตัวเองก่อนหน้า ไม่ใช่เทียบกับกลุ่มยาหลอก"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "What Disappears with a Language",
+          "text": "Languages have always died. Some faded slowly as their speakers drifted towards a neighbour's tongue; others vanished within a generation. What troubles linguists today is not that languages disappear but how many are now doing so at once, and how little of what they contain has ever been written down. Behind that concern lies a harder question: when the last fluent speaker of a language falls silent, what, exactly, has been lost?\n\nThe intuitive answer is vocabulary: words for local plants, fishing techniques or family relationships that have no neat equivalent elsewhere. Such losses are real, but they are not the deepest. Words can often be translated, if clumsily, by a phrase. Grammar is harder to carry across. Consider a pattern found in a number of languages in different parts of the world. In such languages, a speaker reporting a past event cannot simply say that a bridge collapsed. A small ending on the verb must also show how she knows it: because she saw it happen, because someone told her, or because she inferred it from the wreckage. Linguists call such endings evidentials. Their existence suggests that languages differ not only in what they allow speakers to say but in what they oblige speakers to notice.\n\nHow does a language reach the point of disappearing? Popular accounts tend to imagine outright prohibition, and that has certainly happened. More often, however, the decline is quieter and is driven by the speakers themselves. Parents conclude, often reasonably, that their children's prospects depend on the language of schools, markets and offices, and they begin to use it at home. A familiar pattern then unfolds across three generations. Grandparents speak only the community language; their children speak both; and the grandchildren understand it when spoken to but answer in the dominant tongue. By the time those grandchildren have children of their own, there is no one left to pass the language on.\n\nEfforts to respond take two broad forms. Documentation aims to record a language before it is lost: dictionaries, grammars and hours of recorded conversation. This work is invaluable, yet a record is not a living language, any more than a pressed flower in a museum drawer is a meadow. Revitalisation, by contrast, aims to create new speakers. Some of the most successful projects have been 'language nests', in which elders look after very young children entirely in the endangered language, so that it becomes the language of play rather than of lessons.\n\nSceptics sometimes ask whether any of this matters. Would the world not communicate more easily with fewer languages? The question rests on a false choice. Learning a second language does not require abandoning a first, and the majority of people in many regions already move between two or three languages every day. A child can learn the language of commerce without losing the language of her grandmother; what she cannot do is learn a language that no one is left to speak to her.\n\nFor researchers, the urgency is partly scientific. Every theory of what human language can and cannot do is tested against the languages that happen to exist. Each one that disappears unrecorded removes evidence that can never be gathered again, and with it, perhaps, a possibility no one had thought to imagine.",
+          "items": [
+            {
+              "id": "AL-S8-054",
+              "stem": "What is the main purpose of paragraph 1?",
+              "options": [
+                "To describe how linguists first recorded a language",
+                "To ask what is truly lost when a language dies",
+                "To prove that languages are dying faster than ever",
+                "To argue that most languages could easily be saved"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกจบด้วยคำถามหลักของบทความ \"what, exactly, has been lost?\" ซึ่งย่อหน้าต่อ ๆ ไปพยายามตอบ กับดักคือ \"prove that languages are dying faster than ever\" ซึ่งบทความเพียงกล่าวถึงความกังวล ไม่ได้พิสูจน์ด้วยตัวเลข และ \"easily be saved\" ไม่มีในบทความ"
+            },
+            {
+              "id": "AL-S8-055",
+              "stem": "What point does the author use the example of evidentials to support?",
+              "options": [
+                "Speakers of every language must state how they know about events in the past.",
+                "Grammar can oblige speakers to notice things that other languages leave optional.",
+                "A language with evidentials is easier to translate than one with a large vocabulary.",
+                "Words for local plants and animals are impossible to translate into any other language."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "บทความใช้ evidentials เป็นตัวอย่างว่าภาษา \"oblige speakers to notice\" สิ่งต่าง ๆ ต่างกัน เช่นต้องบอกว่ารู้เหตุการณ์มาอย่างไร กับดักคือ \"impossible to translate\" ซึ่งขัดกับ \"Words can often be translated, if clumsily\" และ \"every language\" ขัดกับที่บอกว่าพบใน \"a number of languages\" เท่านั้น"
+            },
+            {
+              "id": "AL-S8-056",
+              "stem": "In paragraph 2, what does \"it\" in \"because she saw it happen\" refer to?",
+              "options": [
+                "the collapse of the bridge",
+                "the language the speaker uses",
+                "the ending added to the verb",
+                "the wreckage of the bridge"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "\"because she saw it happen\" คำว่า it คือเหตุการณ์ที่สะพานถล่ม (\"a bridge collapsed\") ซึ่งผู้พูดเห็นด้วยตาตนเอง กับดักคือ \"the wreckage\" ซึ่งปรากฏในกรณีที่สามเมื่อผู้พูดอนุมานจากซาก และซากสะพานไม่ใช่สิ่งที่ \"happen\" ได้ ส่วนคำลงท้ายกริยาเป็นสิ่งที่ผู้พูดเติม ไม่ใช่สิ่งที่เห็น"
+            },
+            {
+              "id": "AL-S8-057",
+              "stem": "According to paragraph 3, what most often drives a language's decline?",
+              "options": [
+                "Children being taught the language only through lessons",
+                "Governments forbidding the community language in all of their schools",
+                "Grandparents refusing to learn the dominant language of the region",
+                "Parents choosing the dominant language for their children's sake"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าการห้ามโดยตรงเคยเกิดขึ้น แต่ \"More often\" การเสื่อมเกิดจากผู้พูดเอง คือพ่อแม่ตัดสินใจว่าอนาคตของลูกขึ้นกับภาษาของโรงเรียนและตลาด กับดักคือการห้ามโดยรัฐ ซึ่งบทความบอกว่าเป็นภาพที่ \"Popular accounts tend to imagine\" ไม่ใช่สาเหตุที่พบบ่อยกว่า"
+            },
+            {
+              "id": "AL-S8-058",
+              "stem": "What does the comparison between a pressed flower and a meadow suggest?",
+              "options": [
+                "A record keeps a language's form but cannot keep it in daily use.",
+                "Languages, like flowers, survive best in remote natural surroundings.",
+                "Documentation is useless and should be replaced by revitalisation.",
+                "Museums are the most suitable places to store recordings of languages."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "การเปรียบดอกไม้ทับแห้งกับทุ่งดอกไม้หมายความว่าบันทึกเก็บรูปร่างไว้ได้ แต่ไม่ใช่สิ่งที่มีชีวิต \"a record is not a living language\" กับดักคือ \"useless\" ซึ่งขัดกับ \"This work is invaluable\" และการตีความตามตัวอักษรเรื่องพิพิธภัณฑ์หรือธรรมชาติ"
+            },
+            {
+              "id": "AL-S8-059",
+              "stem": "Why does the author describe the sceptics' question as resting on \"a false choice\"?",
+              "options": [
+                "It wrongly assumes people must give up one language to gain another.",
+                "It shows that the sceptics have never learned a second language themselves.",
+                "It correctly predicts that most people will soon speak only one language.",
+                "It proves that the language of commerce is harder to learn than others."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนเรียกคำถามของผู้ไม่เห็นด้วยว่า \"a false choice\" เพราะ \"Learning a second language does not require abandoning a first\" กับดักคือการบอกว่าคำถามนั้นถูกต้อง ซึ่งขัดกับน้ำเสียงของผู้เขียน และการกล่าวถึงตัวผู้วิจารณ์เองไม่มีในบทความ"
+            },
+            {
+              "id": "AL-S8-060",
+              "stem": "Which best describes the author's attitude throughout the article?",
+              "options": [
+                "Detached and neutral, carefully avoiding any judgement on the issue",
+                "Hopeless, convinced that nothing can now be done to help at all",
+                "Dismissive of linguists' worries as largely exaggerated",
+                "Concerned but reasoned, weighing scientific and personal losses"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนแสดงความห่วงใย (\"urgency\") แต่ให้เหตุผลอย่างเป็นระบบ ทั้งด้านวิทยาศาสตร์และด้านครอบครัว (\"the language of her grandmother\") กับดักคือ \"Hopeless\" ซึ่งขัดกับการยกตัวอย่าง \"language nests\" ที่ \"most successful\" และ \"Detached and neutral\" ขัดกับการโต้แย้งผู้ไม่เห็นด้วยอย่างชัดเจน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S8-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "When every town kept its own time",
+          "text": "Until the nineteenth century, every town set its clocks by the sun, so that noon arrived a few minutes earlier or later depending on how far east or west a place lay. For travellers on horseback, who took days to cover any real distance, the differences hardly mattered. ___1___ had the railways begun to link distant cities, however, than the confusion became impossible to ignore. A single line might pass through a dozen local times, and printed timetables had to list them all.\n\nThe solution, ___2___ it may seem in hindsight, met fierce resistance. Many townspeople objected that a time chosen by a distant railway company had no right to overrule the sun. Some public clocks were even fitted with two minute hands, one for local time and one for railway time, a compromise that ___3___ the problem rather than solving it.\n\nIn the end, it was the practical need for coordination, ___4___ any scientific argument, that settled the matter, and regional time zones were gradually adopted. The more closely connected the world became, ___5___ it was to agree on a single answer to the simple question \"What time is it?\"",
+          "items": [
+            {
+              "id": "AL-S8-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Scarcely",
+                "Hardly",
+                "Not only",
+                "No sooner"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"No sooner had + S + V3 ... than ...\" (ทันทีที่...ก็...) ต้องจับคู่กับ \"than\" ที่อยู่ในประโยค กับดักคือ \"Hardly\" และ \"Scarcely\" ซึ่งมีความหมายใกล้เคียงแต่ต้องใช้คู่กับ \"when\" หรือ \"before\" ส่วน \"Not only\" ต้องคู่กับ \"but (also)\""
+            },
+            {
+              "id": "AL-S8-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "whatever obvious",
+                "however obvious",
+                "so obvious",
+                "how obvious"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"however + adj + S + may + V\" แปลว่า \"ไม่ว่าจะ...เพียงใด\" ในที่นี้คือ แม้วิธีแก้จะดูชัดเจนเมื่อมองย้อนกลับไป ก็ยังถูกต่อต้าน กับดักคือ \"how obvious\" ซึ่งใช้ในประโยคอุทานหรือคำถามซ้อน และ \"whatever\" ใช้กับคำนาม ไม่ใช่คำคุณศัพท์"
+            },
+            {
+              "id": "AL-S8-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "overcame",
+                "resolved",
+                "settled",
+                "sidestepped"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "วลี \"rather than solving it\" แสดงว่านาฬิกาสองเข็มเป็นการหลบเลี่ยงปัญหา ไม่ใช่แก้ปัญหา จึงใช้ \"sidestepped\" กับดักคือ \"overcame\" \"resolved\" และ \"settled\" ซึ่งล้วนแปลว่าแก้ไขได้สำเร็จ ขัดกับ \"rather than solving it\""
+            },
+            {
+              "id": "AL-S8-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "in place",
+                "let alone",
+                "rather than",
+                "instead"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ประโยคเปรียบว่าความจำเป็นในทางปฏิบัติ ไม่ใช่เหตุผลทางวิทยาศาสตร์ เป็นสิ่งที่ยุติเรื่อง จึงใช้ \"rather than + noun\" กับดักคือ \"instead\" และ \"in place\" ซึ่งต้องตามด้วย \"of\" ก่อนคำนาม และ \"let alone\" (นับประสาอะไรกับ) ใช้หลังประโยคปฏิเสธเท่านั้น"
+            },
+            {
+              "id": "AL-S8-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "the more urgent",
+                "the most urgent",
+                "so urgent",
+                "more urgent"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"The + comparative ..., the + comparative ...\" (ยิ่ง...ยิ่ง...) ประโยคเริ่มด้วย \"The more closely connected\" ส่วนหลังจึงต้องเป็น \"the more urgent\" กับดักคือ \"more urgent\" ที่ขาด the และ \"the most urgent\" ซึ่งเป็นขั้นสูงสุด ใช้ในโครงสร้างนี้ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Hunting by echo",
+          "text": "Many bats hunt in complete darkness, yet they can snatch a moth from the air with astonishing accuracy. They do so by echolocation. As a bat flies, it ___1___ a rapid stream of high-pitched calls, most of them far above the range of human hearing, and listens for the echoes that bounce back from objects around it. Its ears are finely ___2___ to the frequencies of its own calls, allowing it to pick out faint returning sounds against a background of noise.\n\n___3___ the precision of this system that some species can detect a wire thinner than a human hair. By comparing the time each echo takes to return, a bat judges how far away an insect is; by noting tiny shifts in pitch, it can even tell whether the insect is moving towards it or away.\n\nThe insects have not been entirely defenceless, however. Some moths can hear these calls, ___4___ their habit of suddenly folding their wings and dropping towards the ground when a bat approaches. Others produce clicks of their own that appear to confuse the hunter. ___5___ for echolocation, many bats would struggle to feed at all on moonless nights, so the contest between hunter and hunted remains finely balanced.",
+          "items": [
+            {
+              "id": "AL-S8-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "admits",
+                "remits",
+                "emits",
+                "omits"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"emit a call/sound\" แปลว่าปล่อยหรือส่งเสียงออกมา ตรงกับการที่ค้างคาวส่งเสียงความถี่สูงออกไป กับดักคือคำที่สะกดคล้ายกัน \"omit\" (ละเว้น) \"admit\" (ยอมรับ/ให้เข้า) และ \"remit\" (ส่งเงิน/มอบหมาย) ซึ่งความหมายไม่เข้ากับบริบท"
+            },
+            {
+              "id": "AL-S8-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "attuned",
+                "prone",
+                "devoted",
+                "entitled"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"attuned to\" แปลว่าปรับให้รับรู้หรือไวต่อบางสิ่ง ตรงกับหูที่รับคลื่นความถี่ของเสียงตัวเองได้ดี กับดักคือคำที่ตามด้วย to เหมือนกัน \"devoted to\" (อุทิศให้) \"entitled to\" (มีสิทธิ์) และ \"prone to\" (มีแนวโน้มจะเกิดสิ่งไม่ดี) ซึ่งความหมายไม่เข้ากัน"
+            },
+            {
+              "id": "AL-S8-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Such does",
+                "Such is",
+                "So much is",
+                "So is"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Such is + noun + that ...\" เป็นการกลับประธานเพื่อเน้น (= The precision is so great that ...) กับดักคือ \"So is\" ซึ่งต้องตามด้วยคำคุณศัพท์ (So precise is the system that ...) และ \"Such does\" ที่ใช้กริยาช่วยผิด"
+            },
+            {
+              "id": "AL-S8-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "hence",
+                "therefore",
+                "so",
+                "thus"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ส่วนที่ตามมาเป็นนามวลี \"their habit of ...\" ไม่มีกริยาแท้ จึงต้องใช้ \"hence\" ซึ่งตามด้วยคำนามได้ (= และนั่นคือเหตุผลของ...) กับดักคือ \"therefore\" \"thus\" และ \"so\" ซึ่งในความหมายนี้ต้องตามด้วยประโยคที่มีประธานและกริยา"
+            },
+            {
+              "id": "AL-S8-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Was it not",
+                "Were it not",
+                "Had it not",
+                "Were not it"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Were it not for + noun\" เป็นเงื่อนไขแบบที่ 2 แบบกลับประธาน (= If it were not for echolocation) เข้ากับ \"would struggle\" ในประโยคหลัก กับดักคือ \"Had it not\" ซึ่งเป็นเงื่อนไขแบบที่ 3 ต้องตามด้วย \"been for\" และ \"would have struggled\" ส่วน \"Were not it\" วางคำผิดลำดับ และ \"Was it not\" ไม่ใช่รูปมาตรฐานของโครงสร้างนี้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Why bread goes stale",
+          "text": "Most people assume that stale bread has simply dried out. ___1___ the whole story, the loss of moisture is only a small part of what happens. When bread is baked, the heat causes starch in the flour to absorb water and lose its orderly structure, which is what makes fresh bread soft. As the loaf cools and sits, however, the starch molecules slowly ___2___ into a rigid, crystal-like arrangement, squeezing water out as they do so. The bread hardens even if it is sealed in a bag.\n\nThis explains a puzzle familiar to many cooks. Refrigeration, ___3___ its success in slowing the growth of mould, actually speeds up staling, because the starch crystallises fastest at temperatures just above freezing. Freezing, by contrast, stops the process almost completely.\n\nIt also explains why a hard loaf warmed briefly in an oven becomes soft again: the heat loosens the crystals and frees the trapped water. The effect is only ___4___, though, and the bread will stale even faster once it cools. The reason it is worth knowing all this is ___5___ a great deal of perfectly edible bread is thrown away every day simply because it feels hard.",
+          "items": [
+            {
+              "id": "AL-S8-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Far from being",
+                "On top of being",
+                "As well as being",
+                "Except for being"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "\"Far from being the whole story\" แปลว่า \"ห่างไกลจากการเป็นเรื่องทั้งหมด\" ซึ่งเข้ากับส่วนหลังที่บอกว่าการเสียความชื้น \"is only a small part\" กับดักคือ \"As well as being\" ซึ่งทำให้ความหมายเป็นว่าการแห้งเป็นเรื่องทั้งหมด ขัดกับส่วนหลัง ส่วน \"Except for being\" และ \"On top of being\" ไม่สื่อการปฏิเสธข้อสันนิษฐานแบบนี้ และทำให้ประโยคไม่มีความหมาย"
+            },
+            {
+              "id": "AL-S8-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "realign",
+                "resign",
+                "refine",
+                "reassign"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"realign\" แปลว่าจัดเรียงตัวใหม่ เข้ากับการที่โมเลกุลแป้งกลับมาเรียงเป็นโครงสร้างแข็งคล้ายผลึก (\"into a rigid, crystal-like arrangement\") กับดักคือคำที่ขึ้นต้นด้วย re- เหมือนกัน \"resign\" (ลาออก) \"reassign\" (มอบหมายใหม่) และ \"refine\" (ขัดเกลา) ซึ่งไม่เข้ากับบริบท"
+            },
+            {
+              "id": "AL-S8-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "despite of",
+                "although",
+                "in spite",
+                "for all"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "\"for all + noun\" แปลว่า \"แม้จะ...\" (= despite) ตามด้วยนามวลี \"its success in slowing ...\" ได้ กับดักคือ \"although\" ซึ่งต้องตามด้วยประโยค \"in spite\" ที่ขาด of และ \"despite of\" ซึ่งเป็นรูปที่ผิด (despite ไม่ใช้ of)"
+            },
+            {
+              "id": "AL-S8-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "temporary",
+                "tentative",
+                "temperate",
+                "contemporary"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคหลัง \"the bread will stale even faster once it cools\" แสดงว่าผลของการอุ่นอยู่ได้ไม่นาน จึงใช้ \"temporary\" (ชั่วคราว) กับดักคือคำที่สะกดคล้าย \"contemporary\" (ร่วมสมัย) \"temperate\" (อบอุ่นพอดี/พอประมาณ) และ \"tentative\" (ไม่แน่นอน/ลังเล)"
+            },
+            {
+              "id": "AL-S8-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "why",
+                "because of",
+                "that",
+                "due to"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"The reason ... is that + clause\" ใช้ \"that\" นำประโยคที่เป็นส่วนเติมเต็ม กับดักคือ \"because of\" และ \"due to\" ซึ่งต้องตามด้วยคำนาม ไม่ใช่ประโยคที่มีประธานและกริยา (a great deal ... is thrown away) และ \"why\" ซ้ำความหมายกับ \"The reason\""
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Reading the past in ice",
+          "text": "A. Reading the record is not entirely straightforward, however, because near the bottom of an ice sheet the layers are squeezed so thin that individual years blur together.\nB. Over centuries, the weight of the snow above compresses these layers into solid ice, sealing the bubbles inside.\nC. In these deeper sections, researchers must instead estimate ages from models of how the ice has flowed.\nD. Each winter's snowfall on a polar ice sheet traps tiny pockets of air before it is buried by the following year's snow.\nE. By drilling out long cylinders of this ice, scientists can therefore sample the air of periods long before any instruments existed.",
+          "items": [
+            {
+              "id": "AL-S8-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – B – A – E – C",
+                "D – E – B – A – C",
+                "D – B – E – C – A",
+                "D – B – E – A – C"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "D เริ่มจากหิมะที่กักอากาศ → B \"these layers\" และ \"the bubbles\" อ้างถึงหิมะและอากาศใน D → E \"this ice\" คือน้ำแข็งที่เกิดใน B และ \"therefore\" สรุปผลที่ใช้ศึกษาได้ → A \"however\" เปิดข้อจำกัดของการอ่านบันทึก → C \"these deeper sections\" อ้างถึง \"near the bottom\" ใน A กับดักคือการวาง C ก่อน A ซึ่งทำให้ \"these deeper sections\" ไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How a word enters the dictionary",
+          "text": "A. A word is usually considered for inclusion only once these examples show it being used over several years by many unrelated writers.\nB. Those that survive it are then given a definition drawn from the collected examples, not from the editors' own preferences.\nC. Dictionary editors do not invent words; they wait for speakers to do so.\nD. This waiting period filters out the many coinages that enjoy a brief fashion and then vanish.\nE. When a new term appears, they begin collecting examples of it from books, newspapers and online writing.",
+          "items": [
+            {
+              "id": "AL-S8-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – A – E – D – B",
+                "C – E – A – B – D",
+                "C – E – A – D – B",
+                "C – E – D – A – B"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "C บอกว่าบรรณาธิการรอให้ผู้พูดสร้างคำ → E \"they\" คือบรรณาธิการ เริ่มเก็บตัวอย่าง → A \"these examples\" อ้างถึงตัวอย่างใน E และกำหนดช่วงเวลาหลายปี → D \"This waiting period\" อ้างถึงช่วงเวลาใน A → B \"survive it\" คือผ่านช่วงรอใน D กับดักคือการวาง B ก่อน D ซึ่งทำให้ \"it\" ไม่มีสิ่งที่อ้างถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Why a steel ship floats",
+          "text": "A. As soon as the weight of that displaced water equals the weight of the ship, it stops sinking any further.\nB. A lump of steel dropped into the sea sinks at once, yet a ship built from thousands of tonnes of it floats.\nC. The lump, by contrast, displaces only its own small volume of water, which weighs far less than the steel itself.\nD. A hull spreads its steel around a large hollow space, so the ship pushes aside a great volume of water as it settles.\nE. The difference lies in the shape rather than the material.",
+          "items": [
+            {
+              "id": "AL-S8-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – E – D – A – C",
+                "B – E – D – C – A",
+                "B – D – E – A – C",
+                "B – E – C – D – A"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "B ตั้งปริศนาเหล็กก้อนจมแต่เรือลอย → E \"The difference\" ตอบว่าอยู่ที่รูปทรง → D อธิบายตัวเรือที่แทนที่น้ำปริมาณมาก → A \"that displaced water\" อ้างถึงน้ำใน D → C \"by contrast\" กลับมาเทียบกับเหล็กก้อน หลังอธิบายกลไกของเรือครบแล้ว กับดักคือการวาง C ก่อน A ซึ่งตัดคำอธิบายของเรือ ทำให้ \"that displaced water\" ใน A อยู่ห่างจากต้นเรื่อง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Seeds that wait for spring",
+          "text": "A. This delay is no accident, since a seedling that emerged then would be killed by the first frost.\nB. Gardeners who want to grow such plants indoors can imitate the process by storing the seeds in a refrigerator for several weeks.\nC. Only once winter has broken these chemicals down will the seed respond to the warmth of spring.\nD. Many seeds that fall in autumn do not sprout straight away, even when the soil is warm and moist.\nE. To prevent this, the seeds contain chemicals that block germination until they have experienced a long period of cold.",
+          "items": [
+            {
+              "id": "AL-S8-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – A – C – E – B",
+                "D – A – E – C – B",
+                "D – A – E – B – C",
+                "D – E – A – C – B"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "D บอกว่าเมล็ดไม่งอกทันที → A \"This delay\" อ้างถึงการไม่งอกใน D และบอกว่าต้นอ่อนที่งอกตอนนั้นจะตายเพราะน้ำค้างแข็ง → E \"To prevent this\" อ้างถึงการตายใน A จึงต้องตามหลัง A (ถ้าวางต่อ D จะกลายเป็นป้องกันการไม่งอก ซึ่งขัดกัน) → C \"these chemicals\" อ้างถึงสารใน E → B \"imitate the process\" เลียนแบบกระบวนการทั้งหมด จึงอยู่ท้าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S8-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "The accuracy of a crowd",
+          "text": "A. If they hear one another's answers first, their errors begin to lean in the same direction, and the cancelling no longer happens.\nB. This works because those who guess too high and those who guess too low tend to cancel each other out.\nC. Ask a large group of people to guess the number of beans in a jar, and most individual answers will be well off the mark.\nD. Yet the average of all the guesses is often remarkably close to the true figure.\nE. The effect depends, however, on people guessing independently.",
+          "items": [
+            {
+              "id": "AL-S8-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – B – D – E – A",
+                "C – D – B – E – A",
+                "C – D – E – B – A",
+                "C – D – B – A – E"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "C บอกว่าคำตอบรายคนคลาดเคลื่อน → D \"Yet\" ตัดกันว่าค่าเฉลี่ยกลับแม่นยำ → B \"This works because\" อธิบายเหตุของ D → E \"however\" ตั้งเงื่อนไขว่าต้องเดาอย่างอิสระ → A \"the cancelling\" อ้างถึงการหักล้างใน B และเป็นผลเมื่อไม่ได้เดาอิสระตาม E กับดักคือการวาง A ก่อน E ซึ่งทำให้ไม่มีเงื่อนไขที่ A ขยายความ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

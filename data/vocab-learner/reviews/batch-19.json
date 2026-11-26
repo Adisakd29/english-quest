@@ -1,0 +1,165 @@
+{
+  "batch": "19",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "B1-S0189",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'It is ___ to keep a big dog in a tiny cage' also fits wrong/bad/unkind/sad.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0190",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'an important ___ event' also fits big/national/traditional.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0197",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The museum is open ___ from nine...' fits 'today' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0200",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'We made a ___:' fits 'plan' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0215",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a ring with a small ___ that shines' fits stone/ruby/pearl.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0219",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'buy tickets ___ from the theatre' does not force 'directly' (only/cheaply also fit).",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0221",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'One ___ of living far from school' fits 'problem' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0232",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'I ___ the bus will come on time' fits hope/think/don't think.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0233",
+      "severity": "minor",
+      "problem": "meaningEN says 'bed clothes', which in English means sheets/blankets, not pyjamas.",
+      "fix": {
+        "meaningEN": "wearing your clothes, not your pyjamas"
+      }
+    },
+    {
+      "id": "B1-S0238",
+      "severity": "minor",
+      "problem": "'attic' is above B1 and uncommon in Thai homes; simpler setting is better.",
+      "fix": {
+        "example": "There was a thick layer of dust on the old books on the top shelf.",
+        "form": "dust",
+        "exampleTH": "มีฝุ่นหนาเกาะอยู่บนหนังสือเก่า ๆ บนชั้นบนสุด"
+      }
+    },
+    {
+      "id": "B1-S0256",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'In an ___, call 1669 for an ambulance' fits 'accident' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0264",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The clown ___ the children with funny tricks' fits surprised/amused.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0272",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'shared the sweets ___ between the three of us' fits 'fairly' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0274",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'everyone made a safe ___ through the back door' fits 'exit' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0278",
+      "severity": "minor",
+      "problem": "Thai 'ยกเว้นว่า' as a conjunction reads as 'unless'; this sense means 'only/but the thing is' (as exampleTH itself shows).",
+      "fix": {
+        "thai": "เพียงแต่ว่า, ติดอยู่ที่ว่า",
+        "shortTH": "เพียงแต่ว่า",
+        "thaiChangeReason": "ยกเว้นว่า มักสื่อความว่า เว้นแต่ (unless) แต่ความหมายนี้คือ เพียงแต่ว่า"
+      }
+    },
+    {
+      "id": "B1-S0279",
+      "severity": "minor",
+      "problem": "'In exchange for helping me..., I taught Nok' is awkward (unclear who helped), and the gap also fits 'return' (in return for), so gapOk=true is wrong.",
+      "fix": {
+        "example": "Nok helped me with maths, and in exchange, I taught her to play guitar.",
+        "form": "exchange",
+        "exampleTH": "นกช่วยสอนคณิตศาสตร์ให้ฉัน เพื่อเป็นการตอบแทน ฉันจึงสอนเธอเล่นกีตาร์",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0288",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The chef likes to ___ with Thai and Italian flavours together' fits cook/play.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0289",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The balloon ___ with a loud bang' fits burst/popped equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0299",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Do you ___ going for a coffee after class?' is also grammatical with 'like'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

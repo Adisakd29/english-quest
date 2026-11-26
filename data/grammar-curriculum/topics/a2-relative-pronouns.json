@@ -1,0 +1,218 @@
+{
+  "id": "a2-relative-pronouns",
+  "summaryTh": "ใช้ who / which / that ต่อท้ายคำนาม เพื่อบอกว่าหมายถึงคนไหน สิ่งไหน",
+  "concept": {
+    "what": "Relative pronoun (who / which / that) คือคำที่ใช้ต่อท้ายคำนาม เพื่อให้ข้อมูลเพิ่มว่าหมายถึงคนไหนหรือสิ่งไหน คล้ายคำว่า \"ที่\" หรือ \"ซึ่ง\" ในภาษาไทย",
+    "when": [
+      "who ใช้กับคน: The girl who sits next to me is from Laos.",
+      "which ใช้กับสิ่งของและสัตว์: I have a cat which sleeps all day.",
+      "that ใช้ได้ทั้งคนและสิ่งของ เมื่อเป็นข้อมูลจำเป็นที่บอกว่า \"คนไหน / อันไหน\": The bus that goes to the airport is number 29.",
+      "ถ้าเป็นข้อมูลเสริมที่คั่นด้วยจุลภาค (,) ใช้ who / which เท่านั้น ห้ามใช้ that: My father, who is 60, still plays football."
+    ],
+    "why": "ภาษาไทยใช้ \"ที่\" คำเดียวกับทุกอย่าง แต่ภาษาอังกฤษแยก who (คน) กับ which (สิ่งของ) — ผู้เรียนไทยมักใช้ what แทน หรือใส่ประธานซ้ำ (the man who he … ✗)"
+  },
+  "structure": {
+    "formula": "noun + who / which / that + clause",
+    "rows": [
+      { "label": "คน", "formula": "person + who / that + verb …", "example": "I have a friend [[who]] speaks five languages." },
+      { "label": "สิ่งของ / สัตว์", "formula": "thing + which / that + verb …", "example": "This is the bus [[which]] goes to the airport." },
+      { "label": "เป็นกรรมในอนุประโยค", "formula": "noun + who / which / that + subject + verb", "example": "The cake [[that]] my mum made was delicious." },
+      { "label": "ข้อมูลเสริม (มีจุลภาค)", "formula": "noun, who / which + …,", "example": "Chiang Mai, [[which]] is in the north, is very cool in December." }
+    ],
+    "notes": [
+      "หลัง who / which / that ไม่ต้องใส่ประธานซ้ำ: the man who lives here (ไม่ใช่ the man who he lives here)",
+      "กริยาหลัง who / which / that ต้องตรงกับคำนามข้างหน้า: a boy who plays · boys who play",
+      "ไม่ใช้ what แทน which / that: the phone which I bought (ไม่ใช่ the phone what I bought)",
+      "ถ้า who / which / that เป็นกรรม ละได้: The cake (that) my mum made … — แต่ถ้าเป็นประธานละไม่ได้",
+      "เมื่อมีจุลภาคคั่น (ข้อมูลเสริม) ห้ามใช้ that"
+    ]
+  },
+  "examples": [
+    { "en": "A dentist is a doctor [[who]] looks after your teeth.", "th": "ทันตแพทย์คือหมอที่ดูแลฟันของคุณ" },
+    { "en": "I lost the umbrella [[which]] you gave me.", "th": "ฉันทำร่มที่คุณให้มาหาย" },
+    { "en": "The students [[who]] got full marks will get a prize.", "th": "นักเรียนที่ได้คะแนนเต็มจะได้รางวัล" },
+    { "en": "Is this the train [[that]] goes to Ayutthaya?", "th": "นี่คือรถไฟที่ไปอยุธยาใช่ไหม" },
+    { "en": "She posted a video [[that]] got a million views.", "th": "เธอโพสต์วิดีโอที่มีคนดูหนึ่งล้านครั้ง" },
+    { "en": "My best friend, [[who]] lives in Phuket, is visiting me next week.", "th": "เพื่อนสนิทของฉัน ซึ่งอยู่ที่ภูเก็ต จะมาเยี่ยมฉันสัปดาห์หน้า" },
+    { "en": "Do you know the man [[who]] is talking to our teacher?", "th": "คุณรู้จักผู้ชายที่กำลังคุยกับครูของเราไหม" },
+    { "en": "We stayed at a hotel [[which]] had a great pool.", "th": "พวกเราพักที่โรงแรมซึ่งมีสระว่ายน้ำดีมาก" }
+  ],
+  "mistakes": [
+    { "wrong": "The man which lives next door is a teacher.", "right": "The man who lives next door is a teacher.", "whyTh": "which ใช้กับสิ่งของและสัตว์ — คนใช้ who (หรือ that)" },
+    { "wrong": "This is the phone what I bought yesterday.", "right": "This is the phone which I bought yesterday.", "whyTh": "what ใช้ขยายคำนามแบบนี้ไม่ได้ สิ่งของใช้ which หรือ that" },
+    { "wrong": "The girl who she sits next to me is very funny.", "right": "The girl who sits next to me is very funny.", "whyTh": "who ทำหน้าที่เป็นประธานแทน the girl แล้ว จึงไม่ต้องใส่ she ซ้ำ" },
+    { "wrong": "My sister, that lives in Japan, is a chef.", "right": "My sister, who lives in Japan, is a chef.", "whyTh": "ข้อมูลเสริมที่คั่นด้วยจุลภาค ใช้ who / which เท่านั้น ห้ามใช้ that" },
+    { "wrong": "I have a friend who live in London.", "right": "I have a friend who lives in London.", "whyTh": "กริยาหลัง who ต้องตรงกับคำนามข้างหน้า — a friend เป็นเอกพจน์ จึงใช้ lives" }
+  ],
+  "compare": {
+    "title": "who vs which",
+    "with": [],
+    "rows": [
+      { "label": "ใช้กับ", "a": "คน", "b": "สิ่งของ สัตว์" },
+      { "label": "ใช้ that แทนได้ไหม", "a": "ได้ ถ้าไม่มีจุลภาค (the girl that sings)", "b": "ได้ ถ้าไม่มีจุลภาค (the bag that I lost)" },
+      { "label": "มีจุลภาคคั่น", "a": "My mum, who is a nurse, …", "b": "Phuket, which is an island, …" },
+      { "label": "ตัวอย่าง", "a": "the nurse who helped me", "b": "the bag which I lost" }
+    ],
+    "tipTh": "คน → who · สิ่งของ / สัตว์ → which · ถ้าไม่มีจุลภาค ใช้ that ได้ทั้งคู่ · มีจุลภาค ห้ามใช้ that"
+  },
+  "contexts": [
+    {
+      "kind": "conversation", "title": "At a party",
+      "lines": [
+        { "speaker": "Jin", "text": "Who's the woman [[who]] is wearing the red dress?" },
+        { "speaker": "Lek", "text": "That's Dao. She's the friend [[who]] helped me find my job." },
+        { "speaker": "Jin", "text": "And the man next to her?" },
+        { "speaker": "Lek", "text": "That's her husband. He owns the café [[that]] sells those amazing cakes." }
+      ]
+    },
+    {
+      "kind": "social", "title": "Online review",
+      "lines": [
+        { "text": "We stayed at a small guesthouse [[which]] is near the beach. The owner, [[who]] speaks good English, gave us a map [[that]] showed all the best places to eat. The only thing [[that]] we didn't like was the noisy road. 4/5" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Relative pronoun", "th": "คำเชื่อมที่ขยายคำนาม (who / which / that) — คล้าย \"ที่ / ซึ่ง\"" },
+    { "en": "Relative clause", "th": "ส่วนที่ขยายคำนาม เช่น who lives next door" },
+    { "en": "Defining (ข้อมูลจำเป็น)", "th": "บอกว่า \"คนไหน / อันไหน\" ไม่มีจุลภาค ใช้ that ได้" },
+    { "en": "Non-defining (ข้อมูลเสริม)", "th": "ข้อมูลเพิ่มเติม คั่นด้วยจุลภาค ใช้ who / which เท่านั้น" }
+  ],
+  "practice": [
+    {
+      "id": "a2-relative-pronouns-01", "type": "mc", "difficulty": 1,
+      "question": "A pilot is a person ___ flies planes.",
+      "choices": ["who", "which", "what", "where"], "answer": 0,
+      "whyNot": { "1": "which ใช้กับสิ่งของหรือสัตว์ แต่ a person เป็นคน", "2": "what ใช้ขยายคำนามไม่ได้", "3": "where ใช้กับสถานที่" },
+      "explainTh": "a person เป็นคน → who (หรือ that) + กริยา → a person who flies planes",
+      "structure": "person + who + verb", "example": "A pilot is a person who flies planes."
+    },
+    {
+      "id": "a2-relative-pronouns-02", "type": "mc", "difficulty": 1,
+      "question": "I bought a bag ___ has lots of pockets.",
+      "choices": ["who", "which", "what", "where"], "answer": 1,
+      "whyNot": { "0": "who ใช้กับคน แต่ a bag เป็นสิ่งของ", "2": "what ใช้ขยายคำนามไม่ได้", "3": "where ใช้กับสถานที่ ไม่ใช่สิ่งของ" },
+      "explainTh": "a bag เป็นสิ่งของ → which (หรือ that) → a bag which has lots of pockets",
+      "structure": "thing + which + verb", "example": "I bought a bag which has lots of pockets."
+    },
+    {
+      "id": "a2-relative-pronouns-03", "type": "fill", "difficulty": 1,
+      "question": "The teacher ___ teaches us maths is very kind.",
+      "accepted": ["who", "that"],
+      "explainTh": "the teacher เป็นคน → who · เป็นข้อมูลจำเป็น (ไม่มีจุลภาค) จึงใช้ that ได้ด้วย",
+      "structure": "person + who / that + verb", "example": "The teacher who teaches us maths is very kind."
+    },
+    {
+      "id": "a2-relative-pronouns-04", "type": "fill", "difficulty": 2,
+      "question": "This is the cake ___ my grandmother made for my birthday.",
+      "accepted": ["which", "that"],
+      "explainTh": "the cake เป็นสิ่งของ → which หรือ that (ในประโยคนี้ละไปเลยก็ได้ เพราะเป็นกรรมของ made)",
+      "structure": "thing + which / that + subject + verb", "example": "This is the cake which my grandmother made."
+    },
+    {
+      "id": "a2-relative-pronouns-05", "type": "fill", "difficulty": 3,
+      "question": "Bangkok, ___ is the capital of Thailand, has very heavy traffic.",
+      "accepted": ["which"],
+      "explainTh": "ข้อมูลเสริมที่คั่นด้วยจุลภาค และ Bangkok เป็นสถานที่ (สิ่ง) → which เท่านั้น (ห้ามใช้ that เมื่อมีจุลภาค)",
+      "structure": "noun, which + …,", "example": "Bangkok, which is the capital of Thailand, has heavy traffic."
+    },
+    {
+      "id": "a2-relative-pronouns-06", "type": "mc", "difficulty": 3,
+      "question": "My uncle, ___ works in Dubai, sends us presents every year.",
+      "choices": ["who", "that", "which", "what"], "answer": 0,
+      "whyNot": { "1": "มีจุลภาคคั่น (ข้อมูลเสริม) ห้ามใช้ that", "2": "which ใช้กับสิ่งของ แต่ my uncle เป็นคน", "3": "what ใช้ขยายคำนามไม่ได้" },
+      "explainTh": "my uncle เป็นคน และเป็นข้อมูลเสริมที่คั่นด้วยจุลภาค → who เท่านั้น"
+    },
+    {
+      "id": "a2-relative-pronouns-07", "type": "error", "difficulty": 1,
+      "sentence": "The boy which won the race is my cousin.",
+      "errorPart": "which",
+      "accepted": ["The boy who won the race is my cousin.", "The boy that won the race is my cousin."],
+      "explainTh": "the boy เป็นคน ใช้ who (หรือ that) ไม่ใช่ which",
+      "structure": "person + who / that + verb"
+    },
+    {
+      "id": "a2-relative-pronouns-08", "type": "error", "difficulty": 2,
+      "sentence": "I don't like films what have sad endings.",
+      "errorPart": "what",
+      "accepted": ["I don't like films which have sad endings.", "I don't like films that have sad endings."],
+      "explainTh": "what ใช้ขยายคำนามไม่ได้ films เป็นสิ่งของ → which หรือ that",
+      "structure": "thing + which / that + verb"
+    },
+    {
+      "id": "a2-relative-pronouns-09", "type": "error", "difficulty": 3,
+      "sentence": "The woman who she works at the bank is my aunt.",
+      "errorPart": "she",
+      "accepted": ["The woman who works at the bank is my aunt.", "The woman that works at the bank is my aunt."],
+      "explainTh": "who เป็นประธานแทน the woman อยู่แล้ว จึงไม่ต้องใส่ she ซ้ำ → The woman who works …",
+      "structure": "person + who + verb (ไม่มีประธานซ้ำ)"
+    },
+    {
+      "id": "a2-relative-pronouns-10", "type": "order", "difficulty": 1,
+      "tokens": ["a", "friend", "I", "have", "who", "plays", "the", "guitar"],
+      "accepted": ["I have a friend who plays the guitar."],
+      "explainTh": "Subject + verb + คำนาม (คน) + who + กริยา → I have a friend who plays the guitar."
+    },
+    {
+      "id": "a2-relative-pronouns-11", "type": "order", "difficulty": 2,
+      "tokens": ["the", "which", "goes", "to", "bus", "Siam", "is", "this"],
+      "accepted": ["This is the bus which goes to Siam.", "Is this the bus which goes to Siam?"],
+      "explainTh": "This is + คำนาม (สิ่งของ) + which + กริยา → This is the bus which goes to Siam."
+    },
+    {
+      "id": "a2-relative-pronouns-12", "type": "transform", "difficulty": 2,
+      "source": "I have a cousin. She lives in Canada.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย who",
+      "accepted": ["I have a cousin who lives in Canada."],
+      "explainTh": "who แทน She (คน) → I have a cousin who lives in Canada. (ไม่ต้องใส่ she ซ้ำ)"
+    },
+    {
+      "id": "a2-relative-pronouns-13", "type": "transform", "difficulty": 3,
+      "source": "The film was boring. We watched it last night.",
+      "instruction": "รวมเป็นประโยคเดียวด้วย which ขึ้นต้นด้วย The film …",
+      "accepted": ["The film which we watched last night was boring.", "The film that we watched last night was boring.", "The film we watched last night was boring."],
+      "explainTh": "which แทน it (the film) และไม่ต้องใส่ it ซ้ำ → The film which we watched last night was boring."
+    },
+    {
+      "id": "a2-relative-pronouns-14", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่ให้เป็นคำอธิบายความหมายของคำ",
+      "pairs": [["A chef is a person", "who cooks food in a restaurant."], ["A fridge is a machine", "which keeps food cold."], ["A tourist is a person", "who travels for fun."], ["A dictionary is a book", "which tells you the meaning of words."], ["A pharmacy is a shop", "which sells medicine."]],
+      "explainTh": "คน (a person) → who · สิ่งของ (a machine, a book, a shop) → which"
+    },
+    {
+      "id": "a2-relative-pronouns-15", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["The people who lives here are friendly.", "The people who live here are friendly.", "The people which live here are friendly.", "The people who they live here are friendly."], "answer": 1,
+      "whyNot": { "0": "people เป็นพหูพจน์ กริยาหลัง who ต้องเป็น live ไม่ใช่ lives", "2": "people เป็นคน ใช้ who ไม่ใช่ which", "3": "who เป็นประธานแล้ว ไม่ต้องใส่ they ซ้ำ" },
+      "explainTh": "people (คน, พหูพจน์) + who + live → The people who live here are friendly."
+    },
+    {
+      "id": "a2-relative-pronouns-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Which phone did you buy in the end?" },
+        { "speaker": "B", "text": "The one ___ has the best camera. It was expensive!" }
+      ] },
+      "choices": ["that", "who", "what", "it"], "answer": 0,
+      "whyNot": { "1": "who ใช้กับคน แต่ the one ในที่นี้คือโทรศัพท์", "2": "what ใช้ขยายคำนามไม่ได้", "3": "it เป็นสรรพนาม ใช้เชื่อมประโยคแบบนี้ไม่ได้ (The one it has ✗)" },
+      "explainTh": "the one = โทรศัพท์ (สิ่งของ) → that (หรือ which) + has … → The one that has the best camera."
+    },
+    {
+      "id": "a2-relative-pronouns-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "announcement", "title": "Welcome to our school", "lines": [
+        { "text": "Hello everyone! Welcome to our school. Mr Chai, who is standing by the door, is our head teacher. The building which has a blue roof is the library. Students who want to join the music club should meet Ms Ploy after lunch." }
+      ] },
+      "question": "Which building is the library?",
+      "choices": ["The one which has a blue roof.", "The one which is by the door.", "The one which Ms Ploy uses.", "The one which is next to the music room."], "answer": 0,
+      "whyNot": { "1": "คนที่ยืนอยู่ข้างประตูคือ Mr Chai ไม่ใช่ห้องสมุด", "2": "ประกาศบอกแค่ว่าให้ไปพบ Ms Ploy ไม่ได้พูดถึงอาคารที่เธอใช้", "3": "ประกาศไม่ได้พูดถึงห้องดนตรี" },
+      "explainTh": "\"The building which has a blue roof is the library.\" — which + has a blue roof ขยาย the building ว่าอาคารไหนคือห้องสมุด"
+    },
+    {
+      "id": "a2-relative-pronouns-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคแนะนำคนหรือสิ่งของที่คุณชอบ ใช้ who / which / that (Write 3 sentences about people or things you like. Use who, which or that.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b[a-z]+,?\\s+(who|which|that)\\s+[a-z]+", "flags": "i", "msgTh": "ใช้ who / which / that ขยายคำนามอย่างน้อย 1 ครั้ง เช่น a friend who …, a café which …" } ],
+      "sample": "I have a best friend who lives in Korat. She has a dog which loves swimming in the river. We often go to a café that sells great coconut cake.",
+      "explainTh": "คน → who · สิ่งของ / สัตว์ → which · ใช้ that ได้ทั้งคู่ถ้าไม่มีจุลภาค และไม่ต้องใส่ประธานซ้ำหลัง who / which / that"
+    }
+  ]
+}

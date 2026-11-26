@@ -1,0 +1,519 @@
+{
+  "exam": "kp",
+  "setId": "KP-S8",
+  "title": "ก.พ. ภาค ก ชุดฝึกที่ 8",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 25,
+    "keyMatch": 25,
+    "total": 25
+  },
+  "sections": [
+    {
+      "id": "conversation",
+      "groups": [
+        {
+          "id": "KP-S8-G01",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Before the budget hearing",
+          "dialogue": [
+            {
+              "speaker": "Analyst",
+              "text": "The committee wants the revised figures for road maintenance by noon."
+            },
+            {
+              "speaker": "Director",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Analyst",
+              "text": "I'm afraid not. The contractor's quotation only arrived this morning, so I'm still reconciling the numbers."
+            },
+            {
+              "speaker": "Director",
+              "text": "Then let the committee secretary know we may need another hour."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S8-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Are we in a position to submit them yet?",
+                "Did the committee say which room to use?",
+                "Who prepared the original estimate for them?",
+                "Why did the committee reject them last time?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ผู้วิเคราะห์ตอบ \"I'm afraid not\" และบอกว่ายังกระทบยอดตัวเลขอยู่ จึงต้องเป็นคำถามแบบ Yes/No ว่าพร้อมส่งตัวเลขหรือยัง ส่วนคำถาม Who/Why ตอบด้วย \"I'm afraid not\" ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S8-G02",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "An annual performance review",
+          "dialogue": [
+            {
+              "speaker": "Supervisor",
+              "text": "Overall, your ratings this year are well above the division average."
+            },
+            {
+              "speaker": "Officer",
+              "text": "Thank you. Is there any area you think I should work on?"
+            },
+            {
+              "speaker": "Supervisor",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "That's fair. I do tend to take everything on myself. I'll try to share the workload more."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S8-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Not at all. I was glad to be of some help.",
+                "Your ratings will be sent to you by email.",
+                "The division average is slightly lower this year.",
+                "Learning to delegate might be worth some thought."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"I do tend to take everything on myself\" และจะแบ่งงานให้คนอื่นมากขึ้น แสดงว่าหัวหน้าแนะนำให้รู้จักมอบหมายงาน (delegate)"
+            }
+          ]
+        },
+        {
+          "id": "KP-S8-G03",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A request for staff information",
+          "dialogue": [
+            {
+              "speaker": "Caller",
+              "text": "Good afternoon. I'm calling from Sirin Assurance. Could you give me the home address of one of your staff, Mr. Pakorn?"
+            },
+            {
+              "speaker": "HR Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Caller",
+              "text": "I see. Then perhaps you could pass my number on to him, and he can decide for himself whether to share it."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S8-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "His office is on the second floor, next to the lift.",
+                "Of course. I'll read it out to you right now.",
+                "Sorry, that's only released with the employee's written permission.",
+                "Certainly. Could you spell his surname for me?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ผู้โทรขอให้ส่งเบอร์ต่อให้คุณภาคร แล้ว \"he can decide for himself whether to share it\" แสดงว่าฝ่ายบุคคลไม่ให้ที่อยู่เอง ต้องได้รับอนุญาตจากเจ้าตัวก่อน ส่วนตัวเลือกที่ตกลงจะให้ข้อมูลทันทีขัดกับคำตอบของผู้โทร"
+            }
+          ]
+        },
+        {
+          "id": "KP-S8-G04",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Negotiating a car park partnership",
+          "dialogue": [
+            {
+              "speaker": "Company Representative",
+              "text": "We'd be willing to cover the construction costs, provided we can operate the car park for twenty years."
+            },
+            {
+              "speaker": "City Official",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Company Representative",
+              "text": "Fifteen? That's rather short for us to recover our investment, but let's discuss it."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S8-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "That's longer than we had in mind; we were thinking fifteen.",
+                "Twenty years ago, this whole area was rice fields.",
+                "Construction should take less than fifteen months.",
+                "We'd be delighted to accept those terms in full."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ผู้แทนบริษัทตอบว่า \"Fifteen? That's rather short...\" แสดงว่าเจ้าหน้าที่เสนอระยะเวลา 15 ปีซึ่งสั้นกว่า 20 ปีที่บริษัทขอ ตัวเลือกเรื่อง 15 เดือนเป็นเวลาก่อสร้าง ไม่ใช่ระยะเวลาสัมปทาน"
+            }
+          ]
+        },
+        {
+          "id": "KP-S8-G05",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "After the hearing",
+          "dialogue": [
+            {
+              "speaker": "Colleague",
+              "text": "I heard the committee approved your project budget without a single cut."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Colleague",
+              "text": "Well, you earned it. Your presentation was by far the most convincing."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S8-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I'm sorry to hear that. Better luck next time.",
+                "Don't mention it. It was no trouble at all.",
+                "No wonder they asked us to cut it in half.",
+                "Yes, I can hardly believe it myself."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "เพื่อนร่วมงานแสดงความยินดีว่างบได้รับอนุมัติเต็มจำนวน แล้วตอบต่อว่า \"you earned it\" ผู้พูดจึงควรแสดงความดีใจปนประหลาดใจว่า \"I can hardly believe it myself\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "KP-S8-G06",
+          "type": "kp_structure",
+          "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+          "items": [
+            {
+              "id": "KP-S8-006",
+              "stem": "Had the ministry released the funds earlier, the district clinic ____ on schedule.",
+              "options": [
+                "would open",
+                "would have opened",
+                "had opened",
+                "will have opened"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Had the ministry released...\" คือ If-clause แบบที่ 3 ที่ละ if แล้วสลับ had ขึ้นต้น ประโยคหลักต้องใช้ would have + V3 จึงเป็น \"would have opened\""
+            },
+            {
+              "id": "KP-S8-007",
+              "stem": "Not until the minutes were circulated ____ that a key figure had been left out.",
+              "options": [
+                "the committee noticed",
+                "did the committee notice",
+                "the committee did notice",
+                "noticed the committee"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เมื่อขึ้นต้นประโยคด้วย \"Not until...\" ประโยคหลักต้องสลับกริยาช่วยไว้หน้าประธาน (inversion) จึงเป็น \"did the committee notice\""
+            },
+            {
+              "id": "KP-S8-008",
+              "stem": "The auditors recommended that each division ____ a revised spending plan by the end of March.",
+              "options": [
+                "to submit",
+                "submit",
+                "has submitted",
+                "submitting"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา recommend + that ใช้ subjunctive คือกริยารูปพื้นฐานไม่เติม s แม้ประธานเป็นเอกพจน์ จึงเป็น \"each division submit\""
+            },
+            {
+              "id": "KP-S8-009",
+              "stem": "The new data policy applies to all employees, ____ of their position or length of service.",
+              "options": [
+                "whatever",
+                "despite",
+                "regardless",
+                "although"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "สำนวน \"regardless of ...\" แปลว่า โดยไม่คำนึงถึง ส่วน despite ไม่ตามด้วย of และ although ต้องตามด้วยประโยค"
+            },
+            {
+              "id": "KP-S8-010",
+              "stem": "Neither the private contractor nor the city engineers ____ willing to comment on the delay.",
+              "options": [
+                "were",
+                "was being",
+                "has been",
+                "is"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง neither A nor B กริยาผันตามคำนามที่อยู่ใกล้กว่า คือ \"the city engineers\" ซึ่งเป็นพหูพจน์ จึงใช้ \"were\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "KP-S8-G07",
+          "type": "kp_vocab",
+          "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "KP-S8-011",
+              "stem": "The committee asked the department to ____ its request for new vehicles, as it lacked supporting evidence.",
+              "options": [
+                "testify",
+                "amplify",
+                "justify",
+                "qualify"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"justify\" = ให้เหตุผลหรือหลักฐานสนับสนุน เข้ากับคำว่า \"lacked supporting evidence\" ส่วน testify = ให้การ, qualify = มีคุณสมบัติ, amplify = ขยาย/เพิ่มเสียง"
+            },
+            {
+              "id": "KP-S8-012",
+              "stem": "Her meticulous record-keeping was praised in her annual review. The word 'meticulous' is closest in meaning to ____.",
+              "options": [
+                "very careful",
+                "very quick",
+                "very generous",
+                "very modern"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "meticulous = ละเอียดถี่ถ้วนมาก ใกล้เคียงกับ very careful ซึ่งเข้ากับการได้รับคำชมเรื่องการเก็บบันทึก"
+            },
+            {
+              "id": "KP-S8-013",
+              "stem": "Under the partnership, the cost of any delays will be ____ by the private company rather than the taxpayer.",
+              "options": [
+                "bored",
+                "born",
+                "borne",
+                "bound"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"be borne by\" (V3 ของ bear) = รับภาระ/แบกรับ ส่วน born = เกิด ซึ่งสะกดคล้ายแต่ความหมายต่างกัน, bound = ผูกมัด, bored = เบื่อ"
+            },
+            {
+              "id": "KP-S8-014",
+              "stem": "Officials must not ____ citizens' personal data to outside parties without permission.",
+              "options": [
+                "dispose",
+                "display",
+                "discard",
+                "disclose"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"disclose ... to\" = เปิดเผยข้อมูลให้ผู้อื่น ส่วน dispose = กำจัด (ต้องใช้ dispose of), discard = ทิ้ง, display = จัดแสดง ไม่เข้ากับบริบทการให้ข้อมูลแก่บุคคลภายนอก"
+            },
+            {
+              "id": "KP-S8-015",
+              "stem": "The clause was so ambiguous that each side read it differently. The word 'ambiguous' is closest in meaning to ____.",
+              "options": [
+                "approved by both sides",
+                "open to more than one meaning",
+                "written in a foreign language",
+                "enforced strictly by law"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "ambiguous = กำกวม ตีความได้หลายทาง สอดคล้องกับ \"each side read it differently\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "KP-S8-G08",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Saeng Thong signs wastewater plant deal",
+          "text": "SAENG THONG — The Saeng Thong Municipal Council last week approved a 25-year agreement with Riverbend Utilities Co. to build and run a new wastewater treatment plant on the eastern edge of the city. Under the deal, the company will finance the 1.2-billion-baht construction in full and operate the plant until 2051, after which ownership will pass to the municipality at no cost.\nIn return, the municipality will pay Riverbend a monthly fee linked to the volume of water treated. Officials say the arrangement shifts the risk of construction delays to the company, which must cover any cost overruns from its own funds.\nMunicipal Clerk Wiphada Sornsakul described the agreement as \"the only realistic option\" for meeting national water-quality standards, which the city's existing plant, built in 1987, has failed to meet for three consecutive years. \"Our annual budget simply could not absorb a project of this scale,\" she said.\nNot everyone is convinced. Thanakrit Boonma, an engineer on the council's advisory panel, warned that the fee formula could leave residents paying considerably more in years of heavy rainfall. He also questioned why the full contract had not been made public before the vote. A municipal spokesperson said a summary would be posted online \"once minor legal details have been settled.\"\nConstruction is due to begin in March, and the plant is expected to be operating within thirty months.",
+          "items": [
+            {
+              "id": "KP-S8-016",
+              "stem": "What is the news report mainly about?",
+              "options": [
+                "A dispute between a company and its engineers",
+                "New national standards for water quality",
+                "A plan to close an old plant built in 1987",
+                "A long-term deal for a firm to build and run a public facility"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวทั้งเรื่องเล่าถึงข้อตกลง 25 ปีที่ให้บริษัท Riverbend ก่อสร้างและดำเนินงานโรงบำบัดน้ำเสีย พร้อมเสียงสนับสนุนและข้อกังวล ส่วนตัวเลือกอื่นเป็นเพียงรายละเอียดย่อยหรือไม่ได้กล่าวถึง"
+            },
+            {
+              "id": "KP-S8-017",
+              "stem": "According to the report, who will own the plant after 2051?",
+              "options": [
+                "The council's advisory panel",
+                "The Saeng Thong Municipality",
+                "A new private operator",
+                "Riverbend Utilities Co."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกระบุว่า \"after which ownership will pass to the municipality at no cost\" คือกรรมสิทธิ์จะโอนให้เทศบาลโดยไม่มีค่าใช้จ่าย"
+            },
+            {
+              "id": "KP-S8-018",
+              "stem": "It can be inferred that the municipality chose this arrangement mainly because ____.",
+              "options": [
+                "it could not pay for the plant from its own budget",
+                "the company offered to treat water free of charge",
+                "residents had asked for a private operator",
+                "the old plant had been damaged by heavy rain"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ปลัดเทศบาลกล่าวว่า \"Our annual budget simply could not absorb a project of this scale\" แสดงว่าเหตุผลหลักคืองบประมาณของเทศบาลไม่พอ ส่วนบริษัทไม่ได้ให้บริการฟรี เพราะเทศบาลต้องจ่ายค่าธรรมเนียมรายเดือน"
+            },
+            {
+              "id": "KP-S8-019",
+              "stem": "The word 'absorb' in the third paragraph is closest in meaning to ____.",
+              "options": [
+                "combine with",
+                "understand fully",
+                "soak up",
+                "cope with the cost of"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ในบริบท \"budget could not absorb a project of this scale\" หมายถึงงบประมาณรับภาระค่าใช้จ่ายของโครงการขนาดนี้ไม่ไหว ไม่ใช่ความหมายตรงตัวว่าดูดซับของเหลว"
+            },
+            {
+              "id": "KP-S8-020",
+              "stem": "Which concern did Thanakrit Boonma raise?",
+              "options": [
+                "Riverbend had too little experience with wastewater.",
+                "Construction would take longer than thirty months.",
+                "The plant would be built too far from the city.",
+                "The contract was not fully public before approval."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่าเขา \"questioned why the full contract had not been made public before the vote\" (และกังวลเรื่องสูตรค่าธรรมเนียม) ส่วนตัวเลือกอื่นไม่ได้กล่าวถึงในข่าว"
+            }
+          ]
+        },
+        {
+          "id": "KP-S8-G09",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Memo on handling personal data",
+          "text": "MEMORANDUM\nTo: All Divisional Directors\nFrom: Office of the Director-General, Department of Rural Transport Services\nDate: 4 August\nSubject: Handling of citizens' personal data\nFollowing an internal audit in June, which found that application files containing citizens' ID numbers had been shared through personal messaging apps, the Department is introducing the following measures with immediate effect.\nFirst, personal data may be transmitted only through the Department's secure file system. Messaging apps, including those installed on official phones, are no longer to be used for this purpose under any circumstances.\nSecond, paper documents containing personal data must be kept in locked cabinets at the end of each working day. Divisions without enough cabinets should submit a request to the General Administration Division by 31 August.\nThird, every staff member must complete the online module \"Personal Data in Public Service\" by 30 September. Directors will be held responsible for full completion within their divisions, and completion rates will be reviewed at the October management meeting.\nIt should be stressed that the audit found no evidence that any data had actually been misused. Nevertheless, the practices identified fall short of the standards in the Department's privacy policy, and public trust depends on our treating citizens' information with the same care we would expect for our own.\nQuestions about this memo should be directed to the Data Protection Officer, Ms. Ornuma Chaiwat, at extension 4127.",
+          "items": [
+            {
+              "id": "KP-S8-021",
+              "stem": "The main purpose of the memo is to ____.",
+              "options": [
+                "set out new rules for protecting personal data",
+                "report that citizens' data had been stolen",
+                "invite directors to the October meeting",
+                "announce the results of a staff survey"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "บันทึกแจ้งมาตรการสามข้อที่มีผลทันทีหลังการตรวจสอบภายใน เพื่อดูแลข้อมูลส่วนบุคคลของประชาชน และระบุชัดว่าไม่พบการนำข้อมูลไปใช้ในทางมิชอบ จึงไม่ใช่การรายงานว่าข้อมูลถูกขโมย"
+            },
+            {
+              "id": "KP-S8-022",
+              "stem": "According to the memo, which of the following is NOT allowed?",
+              "options": [
+                "Taking the online module before 30 September",
+                "Sending personal data through the secure file system",
+                "Sending ID numbers through a messaging app on an official phone",
+                "Asking for extra cabinets by the end of August"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกของมาตรการระบุว่าห้ามใช้แอปส่งข้อความ \"including those installed on official phones\" ในการส่งข้อมูลส่วนบุคคลไม่ว่ากรณีใด"
+            },
+            {
+              "id": "KP-S8-023",
+              "stem": "The phrase 'this purpose' in the paragraph beginning with 'First' refers to ____.",
+              "options": [
+                "completing the online training",
+                "installing apps on official phones",
+                "storing paper documents",
+                "transmitting personal data"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "\"this purpose\" หมายถึงสิ่งที่กล่าวในประโยคก่อนหน้า คือการส่ง (transmit) ข้อมูลส่วนบุคคล ซึ่งห้ามทำผ่านแอปส่งข้อความ"
+            },
+            {
+              "id": "KP-S8-024",
+              "stem": "The tone of the paragraph beginning with 'It should be stressed' is best described as ____.",
+              "options": [
+                "angry and accusing",
+                "relaxed and humorous",
+                "firm but reassuring",
+                "apologetic and anxious"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้านี้ให้ความมั่นใจว่าไม่พบการใช้ข้อมูลในทางมิชอบ (reassuring) แต่ยังยืนยันว่าการปฏิบัติเดิมต่ำกว่ามาตรฐาน (firm) โดยใช้คำว่า \"Nevertheless\""
+            },
+            {
+              "id": "KP-S8-025",
+              "stem": "What can be inferred about divisional directors from the memo?",
+              "options": [
+                "They must personally check every locked cabinet each evening.",
+                "They should send their questions to the General Administration Division.",
+                "They are the only staff required to take the online module.",
+                "They may be questioned if their staff do not finish the module."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "บันทึกระบุว่าผู้อำนวยการต้องรับผิดชอบให้บุคลากรทุกคนเรียนครบ และจะทบทวนอัตราการเรียนจบในที่ประชุมเดือนตุลาคม จึงอนุมานได้ว่าหากไม่ครบอาจถูกสอบถาม ส่วนคำถามให้ส่งถึงเจ้าหน้าที่คุ้มครองข้อมูล ไม่ใช่กองบริหารงานทั่วไป"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

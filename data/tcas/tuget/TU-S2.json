@@ -1,0 +1,1409 @@
+{
+  "exam": "tuget",
+  "setId": "TU-S2",
+  "title": "TU-GET ชุดฝึกที่ 2",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 100,
+    "keyMatch": 100,
+    "total": 100
+  },
+  "sections": [
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "TU-S2-G01",
+          "type": "tu_sentence",
+          "instructionTh": "เลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง เพื่อให้ประโยคถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "TU-S2-001",
+              "stem": "Halfway up the mountain, many of the hikers wished they ____ more water before starting the climb.",
+              "options": [
+                "have brought",
+                "had brought",
+                "would bring",
+                "brought"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "wish ที่พูดถึงสิ่งที่ไม่ได้ทำในอดีต (ก่อนเริ่มปีน) ใช้ past perfect จึงตอบ \"had brought\" ส่วน \"brought\" ใช้เสียดายเรื่องในปัจจุบัน"
+            },
+            {
+              "id": "TU-S2-002",
+              "stem": "Before the exhibition opened, the museum had its oldest maps ____ by a team of specialists.",
+              "options": [
+                "restored",
+                "restore",
+                "restoring",
+                "to restore"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง causative \"have + object + past participle\" (ให้ผู้อื่นทำให้) ใช้ \"had its maps restored\" เพราะแผนที่ถูกซ่อม และมี \"by a team of specialists\" บอกผู้กระทำ"
+            },
+            {
+              "id": "TU-S2-003",
+              "stem": "The students spoke in low voices in the reading room ____ disturb the people studying around them.",
+              "options": [
+                "so as not to",
+                "in order not",
+                "so that not to",
+                "not so as to"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "การบอกจุดประสงค์เชิงปฏิเสธใช้ \"so as not to + V\" (หรือ in order not to) ส่วน \"in order not\" ขาด to และ \"so that\" ต้องตามด้วยประโยค"
+            },
+            {
+              "id": "TU-S2-004",
+              "stem": "The tour guide told us that the castle ____ by a wealthy merchant family several centuries earlier.",
+              "options": [
+                "was building",
+                "has been built",
+                "had been built",
+                "had built"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ปราสาทถูกสร้าง (passive) ก่อนเหตุการณ์ที่ไกด์เล่าในอดีต ในประโยคบอกเล่า (reported speech) จึงใช้ \"had been built\" ส่วน \"had built\" เป็น active ความหมายผิด"
+            },
+            {
+              "id": "TU-S2-005",
+              "stem": "Researchers have found that students who sleep at least eight hours a night ____ better on memory tests than those who do not.",
+              "options": [
+                "tending to perform",
+                "tend performing",
+                "tend to perform",
+                "tends to perform"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประธานคือ \"students\" (พหูพจน์) ซึ่งยังขาดกริยาแท้ จึงใช้ \"tend\" ไม่เติม -s และ tend ตามด้วย to-infinitive จึงเป็น \"tend to perform\""
+            },
+            {
+              "id": "TU-S2-006",
+              "stem": "____ surprised the researchers most was the speed at which the damaged forest recovered.",
+              "options": [
+                "That",
+                "Which",
+                "What",
+                "It"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ noun clause ขึ้นต้นด้วย \"What\" (= the thing that) ทำหน้าที่เป็นประธานของกริยา \"was\" ส่วน That/Which ไม่สามารถทำหน้าที่นี้ได้ในประโยคนี้"
+            },
+            {
+              "id": "TU-S2-007",
+              "stem": "If the town council had approved the budget last year, the new public library ____ open to residents now.",
+              "options": [
+                "would be",
+                "had been",
+                "would have",
+                "will be"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "เป็น mixed conditional: เงื่อนไขในอดีต (had approved) ส่งผลถึงปัจจุบัน (now) จึงใช้ \"would be\""
+            },
+            {
+              "id": "TU-S2-008",
+              "stem": "The new intern talks about the project ____ she had been working on it for years, although she joined only last week.",
+              "options": [
+                "in case",
+                "so that",
+                "as if",
+                "even if"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "\"as if\" ใช้เปรียบเทียบกับสิ่งที่ไม่จริง (เธอพูดราวกับทำมาหลายปี ทั้งที่เพิ่งเข้ามา) ตามด้วย past perfect ส่วน even if/so that/in case ให้ความหมายไม่เข้ากับบริบท"
+            },
+            {
+              "id": "TU-S2-009",
+              "stem": "The professor insisted on ____ every essay a second time before giving it a final grade.",
+              "options": [
+                "reading",
+                "that he read",
+                "to read",
+                "being read"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "หลังบุพบท on ต้องตามด้วย gerund และศาสตราจารย์เป็นผู้อ่านเอง (active) จึงใช้ \"reading\" ส่วน \"being read\" เป็น passive ความหมายผิด"
+            },
+            {
+              "id": "TU-S2-010",
+              "stem": "Most of the old computers in the language lab badly need ____ before the new semester begins.",
+              "options": [
+                "replacing",
+                "to replace",
+                "be replaced",
+                "replace"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "\"need + V-ing\" มีความหมายเป็น passive (= need to be replaced) คอมพิวเตอร์ถูกเปลี่ยน จึงใช้ \"replacing\" ส่วน \"need to replace\" หมายถึงคอมพิวเตอร์เป็นผู้เปลี่ยนเอง"
+            },
+            {
+              "id": "TU-S2-011",
+              "stem": "The results of the reading survey were ____ surprising that the research team decided to repeat the study.",
+              "options": [
+                "very",
+                "so",
+                "such",
+                "too"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หน้า adjective (surprising) ที่ตามด้วย that-clause แสดงผล ใช้ \"so ... that\" ส่วน such ใช้หน้าคำนาม"
+            },
+            {
+              "id": "TU-S2-012",
+              "stem": "By the time the rescue team reached the valley, the stranded hikers ____ for nearly two days.",
+              "options": [
+                "were waited",
+                "would wait",
+                "have been waiting",
+                "had been waiting"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "การกระทำที่ดำเนินต่อเนื่องมาจนถึงจุดหนึ่งในอดีต (By the time ... reached) ใช้ past perfect continuous \"had been waiting\""
+            },
+            {
+              "id": "TU-S2-013",
+              "stem": "____ the heavy rain, the outdoor craft exhibition attracted far more visitors than the organizers had expected.",
+              "options": [
+                "In spite",
+                "Although",
+                "Despite of",
+                "Despite"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างตามด้วยนามวลี \"the heavy rain\" และความหมายขัดแย้งกัน จึงใช้ \"Despite\" ส่วน Although ต้องตามด้วยประโยค \"In spite\" ต้องมี of และ \"Despite\" ไม่ใช้คู่กับ of"
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G02",
+          "type": "tu_error",
+          "instructionTh": "แต่ละประโยคมีส่วนที่ขีดเส้นใต้ 4 ส่วน เลือกส่วนที่ผิดหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "TU-S2-014",
+              "stem": "Thanks to the unusually wet season, this year's rice harvest was [[much]] [[more better]] than last year's, [[according to]] [[local]] farmers.",
+              "options": [
+                "much",
+                "more better",
+                "according to",
+                "local"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"better\" เป็นขั้นกว่าอยู่แล้ว ไม่ต้องใช้ more ซ้อน ที่ถูกคือ \"much better\""
+            },
+            {
+              "id": "TU-S2-015",
+              "stem": "[[Sudden]], the lights in the hall went out, and the speaker [[had to]] [[continue]] [[without]] her slides.",
+              "options": [
+                "Sudden",
+                "had to",
+                "continue",
+                "without"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "คำที่ขยายทั้งประโยคต้องเป็น adverb จึงต้องเป็น \"Suddenly\" ไม่ใช่ adjective \"Sudden\""
+            },
+            {
+              "id": "TU-S2-016",
+              "stem": "The report [[which]] the committee [[published]] last month [[contain]] several [[useful]] recommendations.",
+              "options": [
+                "which",
+                "published",
+                "contain",
+                "useful"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประธานของประโยคคือ \"The report\" (เอกพจน์) กริยาจึงต้องเป็น \"contains\""
+            },
+            {
+              "id": "TU-S2-017",
+              "stem": "Historians [[have long]] believed that the ancient city was [[abandoned]] because of a [[severe]] drought [[happened]] around that time.",
+              "options": [
+                "have long",
+                "abandoned",
+                "severe",
+                "happened"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "\"happened\" ขยายคำนาม drought แต่ไม่มี relative pronoun ต้องเป็น \"that happened\" (หรือ \"which happened\")"
+            },
+            {
+              "id": "TU-S2-018",
+              "stem": "Our teacher [[suggested]] that we [[should]] [[to visit]] the science museum [[early]] in the morning.",
+              "options": [
+                "suggested",
+                "should",
+                "to visit",
+                "early"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "หลัง modal verb \"should\" ต้องตามด้วยกริยารูปฐาน ต้องเป็น \"should visit\" ไม่มี to"
+            },
+            {
+              "id": "TU-S2-019",
+              "stem": "The new software allows users [[edit]] shared documents [[simultaneously]], [[which]] saves [[a great deal of]] time.",
+              "options": [
+                "edit",
+                "simultaneously",
+                "which",
+                "a great deal of"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง allow + object + to-infinitive จึงต้องเป็น \"allows users to edit\""
+            },
+            {
+              "id": "TU-S2-020",
+              "stem": "Many [[economist]] argue that [[rising]] interest rates [[will]] slow [[down]] consumer spending.",
+              "options": [
+                "economist",
+                "rising",
+                "will",
+                "down"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "หลัง \"Many\" ต้องใช้คำนามพหูพจน์ จึงต้องเป็น \"economists\""
+            },
+            {
+              "id": "TU-S2-021",
+              "stem": "The museum [[is]] closed on Mondays [[so that]] the staff [[can]] [[cleaning]] the galleries.",
+              "options": [
+                "is",
+                "so that",
+                "can",
+                "cleaning"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลัง modal verb \"can\" ต้องเป็นกริยารูปฐาน คือ \"can clean\""
+            },
+            {
+              "id": "TU-S2-022",
+              "stem": "Each of the [[three]] museums in the old town [[offer]] free guided tours [[on]] [[weekday]] mornings.",
+              "options": [
+                "three",
+                "offer",
+                "on",
+                "weekday"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"Each\" (เอกพจน์) กริยาต้องเป็น \"offers\" ส่วนอื่นถูกต้องแล้ว"
+            },
+            {
+              "id": "TU-S2-023",
+              "stem": "The volunteers [[were]] [[so]] tired after the clean-up [[that]] they could hardly [[kept]] their eyes open.",
+              "options": [
+                "were",
+                "so",
+                "that",
+                "kept"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลัง \"could\" ต้องใช้กริยารูปฐาน คือ \"could hardly keep\""
+            },
+            {
+              "id": "TU-S2-024",
+              "stem": "[[A]] large amount of [[informations]] about the project is now [[available]] [[online]].",
+              "options": [
+                "A",
+                "informations",
+                "available",
+                "online"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"information\" เป็นคำนามนับไม่ได้ ไม่เติม -s"
+            },
+            {
+              "id": "TU-S2-025",
+              "stem": "[[Unlike]] most of her classmates, Ploy [[prefers]] studying alone [[than]] [[studying]] in a large group.",
+              "options": [
+                "Unlike",
+                "prefers",
+                "than",
+                "studying"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "prefer A to B ใช้ \"to\" ไม่ใช้ \"than\" ที่ถูกคือ \"prefers studying alone to studying in a large group\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "TU-S2-G03",
+          "type": "tu_vocab",
+          "instructionTh": "เลือกคำหรือความหมายที่เหมาะสมที่สุดตามบริบทของประโยค",
+          "items": [
+            {
+              "id": "TU-S2-026",
+              "stem": "The council introduced new building rules to mitigate the effects of flooding on low-lying farms. The word \"mitigate\" is closest in meaning to",
+              "options": [
+                "measure",
+                "predict",
+                "ignore",
+                "reduce"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"mitigate\" แปลว่า บรรเทา ทำให้ลดความรุนแรงลง ตรงกับ \"reduce\""
+            },
+            {
+              "id": "TU-S2-027",
+              "stem": "The findings of the first survey were ambiguous, so the team designed a second one. The word \"ambiguous\" is closest in meaning to",
+              "options": [
+                "complete",
+                "unclear",
+                "surprising",
+                "accurate"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"ambiguous\" แปลว่า กำกวม ตีความได้หลายทาง ตรงกับ \"unclear\" และบริบทที่ต้องทำแบบสำรวจใหม่ก็สนับสนุน"
+            },
+            {
+              "id": "TU-S2-028",
+              "stem": "Before the proposal can be approved, the board needs to ____ every figure in the budget very carefully.",
+              "options": [
+                "abandon",
+                "tolerate",
+                "dominate",
+                "scrutinize"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"scrutinize\" แปลว่า ตรวจสอบอย่างละเอียด เข้ากับ \"every figure ... very carefully\""
+            },
+            {
+              "id": "TU-S2-029",
+              "stem": "Building a second bridge across the river is technically feasible, but the cost may be too high. The word \"feasible\" is closest in meaning to",
+              "options": [
+                "profitable",
+                "possible",
+                "permitted",
+                "required"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"feasible\" แปลว่า เป็นไปได้ ทำได้จริง ตรงกับ \"possible\" และ \"technically feasible ... but the cost may be too high\" บอกว่าทำได้แต่แพง ส่วน permitted คือได้รับอนุญาต ซึ่งต่างจากทำได้ทางเทคนิค"
+            },
+            {
+              "id": "TU-S2-030",
+              "stem": "Some degree of risk is inherent in any scientific expedition to the polar regions. The word \"inherent\" is closest in meaning to",
+              "options": [
+                "suddenly increased",
+                "naturally present",
+                "rarely noticed",
+                "officially reported"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"inherent\" แปลว่า มีอยู่โดยธรรมชาติ แยกไม่ออก ตรงกับ \"naturally present\""
+            },
+            {
+              "id": "TU-S2-031",
+              "stem": "Without regular maintenance, old wooden houses can ____ quickly in a hot and humid climate.",
+              "options": [
+                "deteriorate",
+                "accelerate",
+                "evaporate",
+                "originate"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"deteriorate\" แปลว่า เสื่อมสภาพ ทรุดโทรม เหมาะกับบ้านไม้ที่ไม่ได้ดูแลในอากาศชื้น"
+            },
+            {
+              "id": "TU-S2-032",
+              "stem": "The city archive offers a comprehensive collection of maps from the nineteenth century. The word \"comprehensive\" is closest in meaning to",
+              "options": [
+                "ancient",
+                "expensive",
+                "confusing",
+                "complete"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"comprehensive\" แปลว่า ครอบคลุม ครบถ้วน ตรงกับ \"complete\""
+            },
+            {
+              "id": "TU-S2-033",
+              "stem": "The school decided to ____ more funds to science equipment after a survey revealed a serious shortage.",
+              "options": [
+                "evaluate",
+                "associate",
+                "eliminate",
+                "allocate"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"allocate funds to\" แปลว่า จัดสรรงบประมาณให้ เข้ากับบริบทที่พบว่าอุปกรณ์ขาดแคลน"
+            },
+            {
+              "id": "TU-S2-034",
+              "stem": "Her explanation for the missing data seemed plausible to most of the reviewers. The word \"plausible\" is closest in meaning to",
+              "options": [
+                "believable",
+                "carefully written",
+                "widely accepted",
+                "well organized"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"plausible\" แปลว่า ฟังดูมีเหตุผล น่าเชื่อ ตรงกับ \"believable\" ส่วน \"widely accepted\" หมายถึงคนส่วนใหญ่ยอมรับแล้ว ซึ่งไม่ใช่ความหมายของคำนี้"
+            },
+            {
+              "id": "TU-S2-035",
+              "stem": "The online bookstore reported a substantial increase in sales during the school holidays. The word \"substantial\" is closest in meaning to",
+              "options": [
+                "unexpected",
+                "temporary",
+                "gradual",
+                "considerable"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"substantial\" แปลว่า มาก อย่างมีนัยสำคัญ ตรงกับ \"considerable\""
+            },
+            {
+              "id": "TU-S2-036",
+              "stem": "Constant notifications from mobile phones can seriously ____ a student's ability to concentrate on complex tasks.",
+              "options": [
+                "underline",
+                "undertake",
+                "undermine",
+                "undergo"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"undermine\" แปลว่า บั่นทอน ทำให้อ่อนแอลง เข้ากับบริบทที่การแจ้งเตือนรบกวนสมาธิ"
+            },
+            {
+              "id": "TU-S2-037",
+              "stem": "Mobile payment has become prevalent among young shoppers in large Thai cities. The word \"prevalent\" is closest in meaning to",
+              "options": [
+                "convenient",
+                "affordable",
+                "widespread",
+                "fashionable"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"prevalent\" แปลว่า แพร่หลาย พบได้ทั่วไป ตรงกับ \"widespread\" ส่วน fashionable (ทันสมัย) หรือ convenient (สะดวก) เป็นคุณสมบัติอื่น ไม่ได้บอกว่าแพร่หลาย"
+            },
+            {
+              "id": "TU-S2-038",
+              "stem": "The research assistant spent two weeks compiling a list of plant species found near the reservoir. The word \"compiling\" is closest in meaning to",
+              "options": [
+                "putting together",
+                "shortening",
+                "translating",
+                "checking for errors"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"compile\" แปลว่า รวบรวมข้อมูลมาจัดทำเป็นรายการ ตรงกับ \"putting together\""
+            },
+            {
+              "id": "TU-S2-039",
+              "stem": "The two organizations reached only a tentative agreement, and the details will be discussed next month. The word \"tentative\" is closest in meaning to",
+              "options": [
+                "fully detailed",
+                "widely reported",
+                "strongly opposed",
+                "not yet final"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"tentative\" แปลว่า ชั่วคราว ยังไม่แน่นอน ตรงกับ \"not yet final\" และบริบทว่ารายละเอียดยังต้องคุยกันอีก"
+            },
+            {
+              "id": "TU-S2-040",
+              "stem": "The essay was well researched but not very ____; its ideas jumped from one point to another without clear links.",
+              "options": [
+                "detailed",
+                "formal",
+                "coherent",
+                "concise"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"coherent\" แปลว่า เชื่อมโยงกันอย่างมีเหตุผล บริบท \"jumped from one point to another without clear links\" บอกว่าขาดความเชื่อมโยง ไม่ใช่เรื่องความกระชับหรือความละเอียด"
+            },
+            {
+              "id": "TU-S2-041",
+              "stem": "Interest in the village's traditional boat race has diminished as younger residents move to the city. The word \"diminished\" is closest in meaning to",
+              "options": [
+                "decreased",
+                "returned",
+                "spread",
+                "changed"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"diminish\" แปลว่า ลดลง ตรงกับ \"decreased\" และสอดคล้องกับการที่คนหนุ่มสาวย้ายออกไป"
+            },
+            {
+              "id": "TU-S2-042",
+              "stem": "The teacher asked open-ended questions to ____ more detailed answers from the quieter students.",
+              "options": [
+                "elicit",
+                "illicit",
+                "exhibit",
+                "inhibit"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"elicit\" แปลว่า ดึงหรือกระตุ้นให้ได้คำตอบหรือปฏิกิริยา ส่วน \"inhibit\" แปลว่า ยับยั้ง ซึ่งความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S2-043",
+              "stem": "The laboratory technician was meticulous in recording every measurement. The word \"meticulous\" is closest in meaning to",
+              "options": [
+                "very careful",
+                "very efficient",
+                "highly skilled",
+                "quite experienced"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"meticulous\" แปลว่า พิถีพิถัน ละเอียดถี่ถ้วน ตรงกับ \"very careful\" ส่วน efficient/experienced/skilled เป็นคุณสมบัติอื่นของคนทำงาน"
+            },
+            {
+              "id": "TU-S2-044",
+              "stem": "Because the sample was so small, the researchers were careful not to ____ their findings to the whole population.",
+              "options": [
+                "minimize",
+                "memorize",
+                "categorize",
+                "generalize"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"generalize ... to\" แปลว่า สรุปเหมารวมไปยังกลุ่มใหญ่ เหมาะกับบริบทที่กลุ่มตัวอย่างเล็กเกินไป"
+            },
+            {
+              "id": "TU-S2-045",
+              "stem": "The provincial office launched an initiative to encourage recycling in secondary schools. The word \"initiative\" is closest in meaning to",
+              "options": [
+                "small fee",
+                "public debate",
+                "new plan",
+                "strict law"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"initiative\" ในที่นี้คือ โครงการหรือแผนริเริ่มใหม่ ตรงกับ \"new plan\""
+            },
+            {
+              "id": "TU-S2-046",
+              "stem": "The rapid growth of the town has put a strain on its limited water supply. The word \"strain\" is closest in meaning to",
+              "options": [
+                "limit",
+                "ban",
+                "pressure",
+                "tax"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"put a strain on\" แปลว่า สร้างภาระหรือแรงกดดันให้ ตรงกับ \"pressure\" ส่วน \"put a limit on\" หมายถึงจำกัดปริมาณ ซึ่งความหมายต่างกัน"
+            },
+            {
+              "id": "TU-S2-047",
+              "stem": "The new fossil evidence did not ____ the original theory; in fact, it strongly supported it.",
+              "options": [
+                "contribute",
+                "contradict",
+                "construct",
+                "confess"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"contradict\" แปลว่า ขัดแย้ง หักล้าง ตรงข้ามกับ \"supported\" ที่ตามมาหลัง in fact"
+            },
+            {
+              "id": "TU-S2-048",
+              "stem": "Attendance at the evening language classes fluctuated throughout the term. The word \"fluctuated\" is closest in meaning to",
+              "options": [
+                "slowly grew",
+                "quickly dropped",
+                "rose and fell",
+                "stayed level"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"fluctuate\" แปลว่า ขึ้น ๆ ลง ๆ ไม่คงที่ ตรงกับ \"rose and fell\""
+            },
+            {
+              "id": "TU-S2-049",
+              "stem": "The editor asked the team to make their weekly reports more concise. The word \"concise\" is closest in meaning to",
+              "options": [
+                "accurate and complete",
+                "formal and polite",
+                "short and clear",
+                "interesting and lively"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"concise\" แปลว่า กระชับ ได้ใจความ คือสั้นแต่ครบใจความ ตรงกับ \"short and clear\" ส่วนตัวเลือกอื่นเป็นคุณสมบัติที่ดีของรายงานแต่ไม่ใช่ความหมายของคำนี้"
+            },
+            {
+              "id": "TU-S2-050",
+              "stem": "Many low-lying coastal communities are ____ to rising sea levels and stronger storms.",
+              "options": [
+                "valuable",
+                "vulnerable",
+                "resistant",
+                "attentive"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"vulnerable to\" แปลว่า เสี่ยงหรือเปราะบางต่อ เหมาะกับชุมชนชายฝั่งที่อยู่ \"low-lying\" ส่วน resistant (ทนทานต่อ) ขัดกับบริบท และ valuable เป็นคำหน้าตาคล้ายแต่ความหมายต่างกัน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TU-S2-G04",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "Survival in the Driest Places",
+          "text": "To a casual visitor, a desert can look almost empty of life. Yet many deserts support a surprising variety of plants, each of which has developed its own way of dealing with intense heat, strong sunlight and, above all, a severe shortage of water. Botanists usually divide these strategies into three broad groups: storing water, avoiding drought and tolerating it.\n\nThe most familiar water-storers are succulents, such as cacti. Their thick stems are filled with a spongy tissue that can hold large amounts of water after a rare rainstorm. Many cacti have also replaced ordinary leaves with spines. Because spines have very little surface area, they lose almost no moisture, and they discourage thirsty animals from biting into the plant. In some species the spines even cast a thin web of shade over the stem, lowering its temperature by a few degrees.\n\nSucculents also save water through an unusual form of photosynthesis. Most plants open the tiny pores on their leaves, called stomata, during the day to take in carbon dioxide. In a desert, however, this would cause them to lose a great deal of water through evaporation. Succulents therefore open their stomata at night, when the air is cooler and more humid, and store the carbon dioxide as an acid. During the day, with their pores firmly closed, they use sunlight to turn this stored gas into sugar.\n\nThe second group, the drought-avoiders, takes a completely different approach. These are mostly annual plants that spend the dry months as seeds lying in the soil. When enough rain finally falls, the seeds germinate within days, and the plants grow, flower and produce new seeds in a few short weeks before the ground dries out again. The seeds of some species contain chemicals that prevent them from sprouting after only a light shower. This is not a weakness but a safeguard: a seed that started growing after a small amount of rain would probably die before it could reproduce.\n\nDrought-tolerant plants, the third group, stay active above ground all year. Many of them are shrubs with extremely long roots. A shrub that stands less than a metre tall may send its roots down more than twenty metres to reach water deep underground. Others spread shallow roots over a wide area so that they can capture rainwater quickly before it evaporates. During the harshest periods, some tolerant shrubs simply drop their leaves and wait, appearing dead until conditions improve.\n\nScientists have taken a growing interest in these adaptations. As droughts become more common in farming regions, plant breeders hope to transfer some desert traits, such as night-time photosynthesis, into food crops. A team at the Halvorsen Institute of Arid Botany has already grown experimental bean plants that use about a quarter less water than ordinary varieties. The work is still at an early stage, but it suggests that the quiet survivors of the desert may one day help feed a thirstier world.",
+          "items": [
+            {
+              "id": "TU-S2-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "why deserts contain fewer plants than other regions",
+                "how desert plants cope with a lack of water",
+                "how cacti are being used to develop new food crops",
+                "the history of scientific research in desert areas"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทความอธิบายกลยุทธ์ 3 แบบของพืชทะเลทรายในการรับมือกับการขาดน้ำ (storing, avoiding, tolerating) ส่วนตัวเลือกอื่นเป็นเพียงรายละเอียดย่อยหรือไม่ได้กล่าวถึง"
+            },
+            {
+              "id": "TU-S2-052",
+              "stem": "According to the passage, how do spines help cacti?",
+              "options": [
+                "They collect rainwater and carry it to the roots.",
+                "They store carbon dioxide for use during the day.",
+                "They reduce water loss and keep animals away.",
+                "They attract insects that help the plant reproduce."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าหนาม \"lose almost no moisture\" และ \"discourage thirsty animals from biting into the plant\""
+            },
+            {
+              "id": "TU-S2-053",
+              "stem": "Why do succulents open their stomata at night?",
+              "options": [
+                "to take in carbon dioxide while saving water",
+                "to absorb moisture directly from the night air",
+                "to release the sugar they produced during the day",
+                "to cool their stems down after a hot day"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าการเปิดปากใบกลางวันทำให้เสียน้ำมาก จึงเปิดตอนกลางคืนที่อากาศเย็นและชื้นกว่าเพื่อรับคาร์บอนไดออกไซด์มาเก็บไว้"
+            },
+            {
+              "id": "TU-S2-054",
+              "stem": "The word \"germinate\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "become hard",
+                "lose moisture",
+                "begin to grow",
+                "break apart"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"germinate\" แปลว่า งอก บริบท \"the seeds germinate within days, and the plants grow\" แสดงว่าเมล็ดเริ่มเจริญเติบโต"
+            },
+            {
+              "id": "TU-S2-055",
+              "stem": "It can be inferred that a seed which sprouted after only a light shower would most likely",
+              "options": [
+                "store extra water in its stem",
+                "fail to produce seeds of its own",
+                "grow faster than other seeds",
+                "develop unusually long roots"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่าเมล็ดที่งอกหลังฝนเล็กน้อย \"would probably die before it could reproduce\" จึงน่าจะไม่ได้ผลิตเมล็ดรุ่นต่อไป"
+            },
+            {
+              "id": "TU-S2-056",
+              "stem": "The word \"This\" in paragraph 4 (\"This is not a weakness but a safeguard\") refers to",
+              "options": [
+                "plants producing seeds within a few weeks",
+                "seeds lying in the soil during the dry months",
+                "seeds not sprouting after a light shower",
+                "heavy rain falling on dry desert soil"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "\"This\" อ้างถึงประโยคก่อนหน้าทันที คือสารเคมีที่ทำให้เมล็ด \"not sprouting after only a light shower\" ซึ่งผู้เขียนบอกว่าเป็นการป้องกันตัว"
+            },
+            {
+              "id": "TU-S2-057",
+              "stem": "According to the passage, which of the following is true of drought-tolerant plants?",
+              "options": [
+                "They complete their whole life cycle in a few weeks.",
+                "They store water mainly in thick, spongy stems.",
+                "Some survive harsh periods by dropping their leaves.",
+                "They remain as seeds until heavy rain arrives."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5 บอกว่า \"some tolerant shrubs simply drop their leaves and wait\" ส่วนตัวเลือกอื่นเป็นลักษณะของพืชกลุ่มอื่น"
+            },
+            {
+              "id": "TU-S2-058",
+              "stem": "The author mentions a shrub \"less than a metre tall\" in order to show that",
+              "options": [
+                "shallow roots capture rainwater more quickly",
+                "small shrubs need much less water than large ones",
+                "desert shrubs grow very slowly above the ground",
+                "roots can be much longer than the plant is tall"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่างนี้เปรียบเทียบความสูงไม่ถึง 1 เมตรกับรากที่ยาวกว่า 20 เมตร เพื่อแสดงว่ารากยาวกว่าลำต้นมาก"
+            },
+            {
+              "id": "TU-S2-059",
+              "stem": "Which best describes the author's attitude toward the research in the last paragraph?",
+              "options": [
+                "strongly critical",
+                "completely indifferent",
+                "openly doubtful",
+                "cautiously hopeful"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่างาน \"still at an early stage\" แต่ \"may one day help feed a thirstier world\" จึงมีความหวังอย่างระมัดระวัง"
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G05",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "Before the Postbox",
+          "text": "For most of human history, sending a message over a long distance was a privilege enjoyed by rulers rather than ordinary people. Ancient empires built networks of roads and relay stations where messengers could change horses and pass documents to fresh riders. Such systems could carry an order across a vast territory in days rather than weeks, but they existed to serve the government. A farmer who wished to write to a cousin in another province generally had to find a traveller heading in the right direction and hope that the letter arrived.\n\nOver the centuries, merchants and universities began to organise their own courier services, and some governments gradually opened their official routes to the public in exchange for a fee. Even so, the service remained expensive and confusing. In many countries the cost depended on both the distance travelled and the number of sheets of paper, and it was usually the person receiving the letter, not the sender, who paid. Recipients sometimes refused letters they could not afford, leaving the postal service with the cost of carrying something for nothing. Some people even developed tricks to avoid paying altogether: they would mark the outside of a letter with small symbols that told the receiver the news, and the receiver would read them, hand the letter back unopened and pay nothing.\n\nThe great change came in the nineteenth century, when reformers in several countries argued that the system should be made simple and cheap. Their proposal had three main parts. First, the sender rather than the receiver would pay. Second, letters would be charged by weight alone, at a single low rate, no matter how far they travelled within the country. Third, payment would be shown by a small printed label glued to the envelope: the adhesive postage stamp. Critics warned that such low prices would bankrupt the post office. Instead, the number of letters rose so sharply that income soon recovered and then grew.\n\nThe effects reached far beyond the post office itself. Cheap postage allowed families separated by migration to stay in touch, helped small businesses advertise to distant customers and encouraged ordinary people to practise reading and writing. Collecting stamps became a popular hobby, and the design of a nation's stamps turned into a small but visible way of presenting its history and culture to the world.\n\nToday, the volume of personal letters has fallen dramatically as people communicate through email and messaging apps. Yet postal services have not disappeared; they have adapted. In the coastal town of Marlow Bay, for example, the local post office now earns most of its income from delivering parcels ordered online, and on their daily rounds its staff also check on elderly residents who live alone. The tools have changed, but the basic promise of the post, that a message or package can reach anyone, anywhere, at a fair price, remains much the same.",
+          "items": [
+            {
+              "id": "TU-S2-060",
+              "stem": "Which of the following would be the best title for the passage?",
+              "options": [
+                "The Art and Value of Stamp Collecting",
+                "Why Email Has Replaced the Letter",
+                "The Roads That Built Ancient Empires",
+                "From Royal Messengers to Modern Parcels"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าพัฒนาการของระบบไปรษณีย์ตั้งแต่ผู้ส่งสารของจักรวรรดิโบราณจนถึงการส่งพัสดุในปัจจุบัน ตัวเลือกอื่นเป็นเพียงประเด็นย่อย"
+            },
+            {
+              "id": "TU-S2-061",
+              "stem": "According to paragraph 1, ancient relay systems were mainly used to",
+              "options": [
+                "help farmers sell their goods",
+                "deliver letters between relatives",
+                "carry messages for the government",
+                "train young riders and horses"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 1 บอกว่าระบบเหล่านี้ \"existed to serve the government\" ส่วนชาวบ้านต้องฝากจดหมายกับนักเดินทางเอง"
+            },
+            {
+              "id": "TU-S2-062",
+              "stem": "Before the nineteenth-century reforms, the cost of a letter usually depended on",
+              "options": [
+                "the type of envelope that was used",
+                "the job of the person who sent it",
+                "the distance and the number of sheets",
+                "the weight of the letter alone"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่า \"the cost depended on both the distance travelled and the number of sheets of paper\" ส่วนการคิดตามน้ำหนักเป็นการปฏิรูปภายหลัง"
+            },
+            {
+              "id": "TU-S2-063",
+              "stem": "Why does the author mention people who marked symbols on the outside of letters?",
+              "options": [
+                "to explain how the first stamps were designed",
+                "to describe an early way of teaching writing",
+                "to show a weakness of making receivers pay",
+                "to show that many letters were lost in transit"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้รับอ่านสัญลักษณ์แล้วคืนจดหมายโดยไม่จ่ายเงิน เป็นตัวอย่างจุดอ่อนของระบบที่ให้ผู้รับเป็นผู้จ่าย"
+            },
+            {
+              "id": "TU-S2-064",
+              "stem": "The word \"bankrupt\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "leave without enough money",
+                "make more popular",
+                "force to hire more staff",
+                "cause to open later"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้คัดค้านกังวลว่าราคาถูกจะทำให้ไปรษณีย์ \"ล้มละลาย\" แต่ประโยคถัดไปบอกว่า \"income soon recovered\" ซึ่งยืนยันว่าเป็นเรื่องเงิน"
+            },
+            {
+              "id": "TU-S2-065",
+              "stem": "What happened after the reforms were introduced?",
+              "options": [
+                "The post office lost money for many years.",
+                "Prices rose to cover the cost of stamps.",
+                "The number of letters increased sharply.",
+                "More receivers began refusing their letters."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"the number of letters rose so sharply that income soon recovered and then grew\""
+            },
+            {
+              "id": "TU-S2-066",
+              "stem": "The word \"its\" in paragraph 4 (\"presenting its history and culture\") refers to",
+              "options": [
+                "a nation",
+                "the post office",
+                "a stamp",
+                "a hobby"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "\"its\" อ้างถึง \"a nation\" ในวลี \"the design of a nation's stamps\" คือการนำเสนอประวัติศาสตร์และวัฒนธรรมของประเทศ"
+            },
+            {
+              "id": "TU-S2-067",
+              "stem": "According to the passage, the post office in Marlow Bay",
+              "options": [
+                "earns most of its money from personal letters",
+                "gets most of its money from delivering online orders",
+                "employs its staff mainly to care for elderly people",
+                "has stopped delivering personal letters altogether"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"now earns most of its income from delivering parcels ordered online\" ส่วนการเยี่ยมผู้สูงอายุเป็นงานเสริมระหว่างส่งของ ไม่ใช่งานหลัก"
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G06",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "Small Pushes, Big Changes",
+          "text": "Traditional economic theory assumes that people make decisions by carefully weighing costs and benefits. If you want people to save more money or eat more healthily, the theory suggests, you should give them better information or change the prices. In practice, however, human beings often behave in ways that this model fails to predict. We put off important tasks, follow the crowd and choose whatever option requires the least effort. Over the past few decades, researchers in behavioural science have studied these habits and asked a practical question: could small changes in the way choices are presented guide people towards better decisions without forcing them?\n\nSuch changes are known as \"nudges\". A nudge does not ban any option or make it significantly more expensive; it simply alters the setting in which a choice is made. One of the most powerful nudges involves default options, that is, what happens if a person does nothing. When a company automatically enrols new employees in a savings plan and allows them to leave if they wish, far more people end up saving than when employees must actively sign up. The choice is identical in both cases, yet the outcome differs dramatically, because many people never get round to changing the default.\n\nOther nudges make use of our tendency to compare ourselves with others. In the city of Brennford, the water authority added a single line to household bills telling customers how their usage compared with that of their neighbours. Within six months, households that had used more than average reduced their consumption by around eight per cent. Nothing about the price had changed; the information alone was enough. Placement can matter too. When a school canteen in Brennford moved fruit to the front of the counter and put desserts on a lower shelf, fruit sales rose noticeably, even though both items remained available.\n\nNudges are attractive to governments and organisations because they are usually cheap and easy to introduce. Nevertheless, they have attracted criticism. Some critics argue that nudges can be manipulative, since they work partly by taking advantage of habits that people are not fully aware of. Who decides which direction people should be nudged in, and what happens if those decision-makers are wrong? Others point out that the effects of some nudges fade over time, or are much smaller when tested on a large scale than in early experiments.\n\nSupporters respond that there is no such thing as a neutral design. A canteen must place food somewhere, and a form must have some default setting, so choices are always being influenced in one way or another. The real question, they argue, is whether that influence is open and serves people's own interests. Most researchers now agree that nudges are a useful tool, but not a replacement for clear rules, fair prices and good education.",
+          "items": [
+            {
+              "id": "TU-S2-068",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "to argue that nudges should replace all laws",
+                "to describe a water-saving project in one city",
+                "to prove that traditional economics is useless",
+                "to explain nudges and the debate around them"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่า nudge คืออะไร ยกตัวอย่าง แล้วนำเสนอทั้งข้อวิจารณ์และข้อโต้แย้งของฝ่ายสนับสนุน ส่วนโครงการประหยัดน้ำเป็นเพียงตัวอย่าง"
+            },
+            {
+              "id": "TU-S2-069",
+              "stem": "According to the passage, traditional economic theory assumes that people",
+              "options": [
+                "usually do what the people around them do",
+                "prefer whichever option needs the least effort",
+                "tend to delay making important choices",
+                "weigh costs and benefits before deciding"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ประโยคแรกบอกว่า \"Traditional economic theory assumes that people make decisions by carefully weighing costs and benefits\" ส่วนตัวเลือกอื่นคือพฤติกรรมที่ทฤษฎีนี้ทำนายไม่ได้"
+            },
+            {
+              "id": "TU-S2-070",
+              "stem": "Which of the following is NOT a feature of a nudge as described in the passage?",
+              "options": [
+                "It is usually cheap and easy to introduce.",
+                "It makes one option much more expensive.",
+                "It leaves all of the options available.",
+                "It changes the way a choice is presented."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่า nudge \"does not ban any option or make it significantly more expensive\" จึงการทำให้แพงขึ้นมากไม่ใช่ลักษณะของ nudge"
+            },
+            {
+              "id": "TU-S2-071",
+              "stem": "Why do more employees save when they are enrolled in the plan automatically?",
+              "options": [
+                "The automatic plan pays a higher rate of interest.",
+                "Employees are not allowed to leave the plan.",
+                "Many people never change the default option.",
+                "The company explains the plan more clearly."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 2 บอกเหตุผลว่า \"many people never get round to changing the default\" และพนักงานยังออกจากแผนได้ จึงไม่ใช่การบังคับ"
+            },
+            {
+              "id": "TU-S2-072",
+              "stem": "In the Brennford water example, which households reduced their water use?",
+              "options": [
+                "those that had used less than their neighbours",
+                "those that were offered lower prices",
+                "those living closest to the water authority",
+                "those that had used more than average"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"households that had used more than average reduced their consumption\" และราคาไม่ได้เปลี่ยน"
+            },
+            {
+              "id": "TU-S2-073",
+              "stem": "The word \"manipulative\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "working very effectively",
+                "easy for people to understand",
+                "costly for governments to use",
+                "controlling people unfairly"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้วิจารณ์มองว่า nudge \"take advantage of habits that people are not fully aware of\" คือชักจูงคนอย่างไม่เป็นธรรม"
+            },
+            {
+              "id": "TU-S2-074",
+              "stem": "The word \"them\" in paragraph 2 (\"allows them to leave\") refers to",
+              "options": [
+                "companies",
+                "new employees",
+                "savings plans",
+                "researchers"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"them\" อ้างถึง \"new employees\" ที่บริษัทลงทะเบียนเข้าแผนออมให้อัตโนมัติ และอนุญาตให้ออกได้หากต้องการ"
+            },
+            {
+              "id": "TU-S2-075",
+              "stem": "Supporters of nudges would most likely agree that",
+              "options": [
+                "people who design choices are never wrong",
+                "nudges should replace education and clear rules",
+                "every way of presenting choices influences people",
+                "choices can be presented in a fully neutral way"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ฝ่ายสนับสนุนกล่าวว่า \"there is no such thing as a neutral design\" และ \"choices are always being influenced in one way or another\""
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G07",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "Harvesting the Wind",
+          "text": "People have used the power of the wind for thousands of years, first to push sailing boats across the water and later to turn the stones of windmills that ground grain. Modern wind turbines follow the same basic principle, but instead of grinding grain they generate electricity. As the wind pushes against the long blades, they turn a shaft connected to a generator inside a housing at the top of the tower. The faster the wind blows, the more electricity is produced, up to a point. In extremely strong winds, turbines are designed to stop turning in order to avoid damage.\n\nThe amount of energy a turbine can capture depends heavily on two factors: wind speed and blade length. Because the energy in moving air increases sharply as wind speed rises, a site where the wind blows only slightly faster can produce a great deal more power. This is why engineers spend months measuring wind conditions before choosing a location. Longer blades sweep a larger area of air, so turbines have grown steadily taller over the years. Some of today's largest machines have blades longer than a football field.\n\nWind farms on land are usually cheaper to build and maintain, but suitable sites are limited, and some nearby residents object to the noise and the change to the landscape. For these reasons, many countries are turning to offshore wind farms built in shallow seas. Winds over the ocean tend to be stronger and more constant than on land, and the turbines are far from homes. However, building foundations in the seabed and connecting turbines to the electricity network with underwater cables is costly and technically demanding.\n\nThe biggest challenge for wind power is not its cost but its variability. The wind does not always blow when people need electricity, and it sometimes blows hardest when demand is low, such as late at night. Electricity networks must therefore balance wind with other sources that can be switched on and off as required, or store surplus energy for later use. Large batteries, which were once too expensive for this purpose, are becoming more affordable, and some engineers are experimenting with using spare wind power to produce hydrogen fuel.\n\nConcerns have also been raised about wildlife. Birds and bats can be killed if they fly into moving blades. At the Kestrel Point wind farm, operators installed a radar system that detects large flocks of migrating birds and briefly stops selected turbines as the birds pass. According to the company that runs the site, collisions fell by more than half in the first year, while electricity output dropped by less than one per cent.\n\nDespite these difficulties, wind power has become one of the fastest-growing sources of electricity in many parts of the world. As technology improves and costs continue to fall, it is likely to play an even larger role in efforts to reduce the use of fossil fuels.",
+          "items": [
+            {
+              "id": "TU-S2-076",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "the history of windmills used for grinding grain",
+                "how wind power works and the problems it faces",
+                "the reasons offshore wind is cheaper than land wind",
+                "the danger that turbines pose to migrating birds"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายหลักการทำงานของกังหันลม ปัจจัยที่มีผล ข้อดีข้อเสียของแต่ละแบบ และความท้าทายต่าง ๆ ส่วนตัวเลือกอื่นเป็นเพียงบางส่วนหรือขัดกับเนื้อหา"
+            },
+            {
+              "id": "TU-S2-077",
+              "stem": "According to paragraph 1, what happens to a turbine in extremely strong winds?",
+              "options": [
+                "It produces its highest amount of power.",
+                "Its blades are removed for safety.",
+                "It stops turning to prevent damage.",
+                "It turns slowly but keeps working."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 1 บอกว่า \"In extremely strong winds, turbines are designed to stop turning in order to avoid damage\""
+            },
+            {
+              "id": "TU-S2-078",
+              "stem": "Why do engineers measure wind conditions for months before choosing a site?",
+              "options": [
+                "Turbines cannot be built during the windy season.",
+                "Local residents must approve every measurement.",
+                "Longer blades work only in very calm weather.",
+                "Slightly stronger winds can give far more power."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าที่ที่ลมแรงขึ้นเพียงเล็กน้อย \"can produce a great deal more power\" จึงต้องวัดลมอย่างละเอียด (\"This is why...\")"
+            },
+            {
+              "id": "TU-S2-079",
+              "stem": "The word \"sweep\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "clean",
+                "damage",
+                "measure",
+                "move across"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ใบพัดที่ยาวกว่า \"sweep a larger area of air\" คือหมุนเคลื่อนผ่านพื้นที่อากาศที่กว้างขึ้น ไม่ใช่การกวาดทำความสะอาด"
+            },
+            {
+              "id": "TU-S2-080",
+              "stem": "Which advantage of offshore wind farms is mentioned in the passage?",
+              "options": [
+                "They are cheaper to build than land farms.",
+                "Winds at sea are stronger and steadier.",
+                "They need no cables to reach the network.",
+                "Their foundations are simple to construct."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"Winds over the ocean tend to be stronger and more constant than on land\" ส่วนการสร้างฐานและวางสายเคเบิลนั้นแพงและยาก"
+            },
+            {
+              "id": "TU-S2-081",
+              "stem": "According to the passage, the biggest challenge for wind power is that",
+              "options": [
+                "batteries are unable to store any electricity",
+                "modern turbines are growing too tall to be safe",
+                "turbines have become far too expensive to build",
+                "the wind does not always blow when it is needed"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่าปัญหาใหญ่ที่สุด \"is not its cost but its variability\" คือลมไม่ได้พัดในเวลาที่ต้องการไฟฟ้าเสมอ"
+            },
+            {
+              "id": "TU-S2-082",
+              "stem": "The word \"surplus\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "clean",
+                "cheap",
+                "local",
+                "extra"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"surplus energy\" คือพลังงานส่วนเกินที่ผลิตได้มากกว่าความต้องการ ซึ่งสอดคล้องกับ \"spare wind power\" ในประโยคถัดไป"
+            },
+            {
+              "id": "TU-S2-083",
+              "stem": "What was the result of the radar system at Kestrel Point?",
+              "options": [
+                "The number of birds visiting the area increased.",
+                "Bird collisions fell sharply with little loss of power.",
+                "Electricity output fell by more than half in the first year.",
+                "All turbines stopped during the migration season."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5 บอกว่า \"collisions fell by more than half\" ขณะที่ไฟฟ้าลดลง \"less than one per cent\" และหยุดเฉพาะบางตัวชั่วคราว"
+            },
+            {
+              "id": "TU-S2-084",
+              "stem": "The author's view of the future of wind power can best be described as",
+              "options": [
+                "doubtful",
+                "alarmed",
+                "uninterested",
+                "optimistic"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าแม้มีปัญหา แต่ลม \"is likely to play an even larger role\" แสดงทัศนะเชิงบวก"
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G08",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "How Children Crack the Code",
+          "text": "By the age of four or five, most children can hold a conversation, ask complicated questions and tell simple stories. They achieve this without formal lessons, textbooks or tests. For linguists and psychologists, the speed and apparent ease with which young children learn their first language remains one of the most fascinating puzzles in the study of the human mind.\n\nLearning begins earlier than many parents realise. Even before birth, babies can hear sounds from the outside world, and newborns seem to prefer the rhythm of the language spoken around them. During their first year, infants gradually tune in to the particular sounds of that language. A six-month-old can usually tell apart sounds from many languages, but by around twelve months this ability narrows, and the child becomes an expert in the sounds that matter in the language at home. At the same time, babies begin to babble, repeating syllables such as \"ba-ba\" or \"da-da\", which allows them to practise controlling their lips and tongue.\n\nWords usually appear around the first birthday, at first slowly and then with remarkable speed. Many children experience a \"vocabulary burst\" at some point in their second year, when they may learn several new words a day. Soon after, they start combining words into short phrases like \"more milk\" or \"daddy gone\". These early sentences are not random. Children tend to place words in the order typical of the adult language, which suggests they are already paying attention to grammar.\n\nSome of the most revealing evidence comes from children's mistakes. A child who says \"I runned\" or \"two mouses\" has almost certainly never heard an adult say these words. Instead, the child has noticed a general rule, such as adding \"-ed\" for the past or \"-s\" for plurals, and applied it too widely. Interestingly, many children correctly say \"ran\" at first, then switch to \"runned\" for a period, before finally returning to \"ran\". Rather than a step backwards, this pattern shows that the child has moved from simply copying words to understanding the system behind them.\n\nScholars still disagree about how much of this ability is built into the human brain and how much depends on experience. Some argue that children are born with a special capacity for grammar; others believe that general learning skills, combined with huge amounts of language input, are enough. On one point, however, there is broad agreement: interaction matters. In a study by researchers at Calder University, toddlers whose parents regularly talked with them, asking questions, responding to their attempts at speech and taking turns, developed larger vocabularies than toddlers who mainly heard speech from television. It seems that language is learned best not by listening alone, but through conversation.",
+          "items": [
+            {
+              "id": "TU-S2-085",
+              "stem": "Which of the following best states the main idea of the passage?",
+              "options": [
+                "Young children learn language mainly from watching television.",
+                "Babies are born already knowing the words of their language.",
+                "Children learn their first language actively, in stages.",
+                "Grammar is the part of language that children learn last."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความไล่ลำดับขั้นการเรียนภาษาตั้งแต่ก่อนเกิด การพูดอ้อแอ้ คำแรก ไปจนถึงการใช้กฎไวยากรณ์ และเน้นว่าเด็กเรียนรู้อย่างกระตือรือร้นผ่านการสนทนา"
+            },
+            {
+              "id": "TU-S2-086",
+              "stem": "According to paragraph 2, what happens to infants' ability to tell sounds apart by about twelve months?",
+              "options": [
+                "It extends to the sounds of many new languages.",
+                "It depends on how often the child babbles.",
+                "It focuses on the sounds of the home language.",
+                "It disappears until the child begins to speak."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าเมื่อราว 12 เดือน ความสามารถนี้ \"narrows\" และเด็กเชี่ยวชาญ \"the sounds that matter in the language at home\""
+            },
+            {
+              "id": "TU-S2-087",
+              "stem": "According to the passage, babbling helps babies to",
+              "options": [
+                "tell apart sounds from other languages",
+                "combine words into short, simple phrases",
+                "practise controlling their lips and tongue",
+                "learn the meanings of several new words"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าการพูดอ้อแอ้ \"allows them to practise controlling their lips and tongue\""
+            },
+            {
+              "id": "TU-S2-088",
+              "stem": "The word \"burst\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "loud noise",
+                "short pause",
+                "serious problem",
+                "sudden increase"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "บริบท \"with remarkable speed\" และ \"learn several new words a day\" แสดงว่า burst คือการเพิ่มขึ้นอย่างรวดเร็วฉับพลัน"
+            },
+            {
+              "id": "TU-S2-089",
+              "stem": "What do phrases such as \"daddy gone\" suggest about young children?",
+              "options": [
+                "They learn verbs before they learn nouns.",
+                "They already follow some rules of word order.",
+                "They repeat whole adult sentences exactly.",
+                "They prefer to talk only about their families."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าประโยคแรก ๆ \"are not random\" และเด็กเรียงคำ \"in the order typical of the adult language\" แสดงว่าเริ่มใส่ใจไวยากรณ์แล้ว"
+            },
+            {
+              "id": "TU-S2-090",
+              "stem": "Why does the author consider mistakes like \"I runned\" to be important?",
+              "options": [
+                "They show the child has learned a general rule.",
+                "They prove that the child's learning has stopped.",
+                "They show the child copies what adults say.",
+                "They show the child has a poor memory for words."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 4 อธิบายว่าเด็ก \"has noticed a general rule ... and applied it too widely\" และเด็กไม่เคยได้ยินผู้ใหญ่พูดแบบนี้"
+            },
+            {
+              "id": "TU-S2-091",
+              "stem": "The phrase \"these words\" in paragraph 4 refers to",
+              "options": [
+                "\"ran\" and \"mice\"",
+                "\"runned\" and \"mouses\"",
+                "the rules for \"-ed\" and \"-s\"",
+                "words used by adults"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"these words\" อ้างถึงคำที่เด็กพูดผิดในประโยคเดียวกัน คือ \"I runned\" และ \"two mouses\" ซึ่งผู้ใหญ่ไม่พูด"
+            },
+            {
+              "id": "TU-S2-092",
+              "stem": "What did the study at Calder University find?",
+              "options": [
+                "Talking with parents led to larger vocabularies.",
+                "Children are born with a capacity for grammar.",
+                "Toddlers learn best by listening quietly.",
+                "Television helped toddlers learn new words more quickly."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าเด็กที่พ่อแม่คุยโต้ตอบด้วย \"developed larger vocabularies than toddlers who mainly heard speech from television\""
+            }
+          ]
+        },
+        {
+          "id": "TU-S2-G09",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามตามเนื้อหา",
+          "title": "Who Pays for the Museum?",
+          "text": "Visitors who wander through a large museum on a quiet afternoon rarely think about how it pays its bills. Yet running a museum is expensive. Buildings must be heated, cooled and kept at exactly the right humidity to protect fragile objects. Collections need to be cleaned, repaired, insured and stored, and only a small fraction of what most museums own is ever on display at any one time. Add the salaries of curators, conservators, educators and security staff, and the annual costs of even a medium-sized institution can be enormous.\n\nTraditionally, many museums have depended heavily on public money from national or local governments. This support reflects the belief that museums provide benefits to society as a whole: they preserve heritage, support education and attract tourists who spend money in nearby shops, hotels and restaurants. Economists describe such benefits as \"positive externalities\", meaning advantages enjoyed by people who are not directly paying for the service. Because ticket prices alone would not reflect this wider value, governments argue, public funding is justified.\n\nIn recent decades, however, public budgets in many places have become tighter, and museums have had to find other sources of income. Ticket sales are the most obvious option, but they are controversial. Higher entrance fees can exclude families on low incomes and students, the very groups that museums often hope to reach. When the Rosewood Museum of Industry introduced free entry on the first Sunday of each month, attendance on those days was almost three times higher than on paying Sundays, and the share of first-time visitors rose noticeably.\n\nAs a result, many museums try to combine free or low-cost entry with other kinds of earnings. Shops and cafés can be surprisingly profitable, and some institutions rent out their halls for conferences and private events. Others charge for special exhibitions while keeping the permanent collection free. Membership schemes, which offer benefits such as early access to new exhibitions in return for an annual fee, help create a reliable income and build a loyal community of supporters.\n\nPrivate donations and sponsorship from businesses form another major source of funds. These can be very generous, but they also raise difficult questions. A museum that depends on a single large sponsor may feel pressure, even if it is never stated openly, to avoid exhibitions that might displease that sponsor. For this reason, many museums now publish clear rules about what sponsors may and may not influence.\n\nThere is no single correct model. A small local museum and a famous national gallery face very different situations. What successful institutions seem to share is a willingness to experiment, a clear understanding of their public mission, and a recognition that money is not an end in itself but a means of keeping their doors, and their collections, open to as many people as possible.",
+          "items": [
+            {
+              "id": "TU-S2-093",
+              "stem": "What is the passage mainly concerned with?",
+              "options": [
+                "the history of famous national galleries",
+                "the problems caused by free entry",
+                "the reasons old objects need repair",
+                "the ways museums pay for their work"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความพูดถึงค่าใช้จ่ายของพิพิธภัณฑ์และแหล่งรายได้ต่าง ๆ ทั้งเงินรัฐ ค่าตั๋ว ร้านค้า สมาชิก และผู้สนับสนุน"
+            },
+            {
+              "id": "TU-S2-094",
+              "stem": "According to paragraph 1, which is true about most museum collections?",
+              "options": [
+                "Most of the objects are kept in public halls.",
+                "The objects rarely need to be insured.",
+                "Only a small part is on display at one time.",
+                "They are cleaned mainly by volunteers."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 1 บอกว่า \"only a small fraction of what most museums own is ever on display at any one time\""
+            },
+            {
+              "id": "TU-S2-095",
+              "stem": "In paragraph 2, \"positive externalities\" refers to",
+              "options": [
+                "costs that local governments must pay",
+                "profits that museums make from selling tickets",
+                "benefits for people who do not pay directly",
+                "objects borrowed from other museums"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้เขียนให้ความหมายไว้ทันทีว่า \"advantages enjoyed by people who are not directly paying for the service\""
+            },
+            {
+              "id": "TU-S2-096",
+              "stem": "Why are higher ticket prices described as \"controversial\"?",
+              "options": [
+                "They may keep away the groups museums want to reach.",
+                "Tourists generally prefer to pay higher prices.",
+                "Many governments have banned them completely.",
+                "They never cover the cost of special exhibitions."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าค่าเข้าที่สูง \"can exclude families on low incomes and students, the very groups that museums often hope to reach\""
+            },
+            {
+              "id": "TU-S2-097",
+              "stem": "What happened at the Rosewood Museum of Industry on its free Sundays?",
+              "options": [
+                "Attendance roughly doubled on those days.",
+                "Shop and café sales tripled.",
+                "The share of returning visitors rose.",
+                "Nearly three times as many people came."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"attendance on those days was almost three times higher than on paying Sundays\" และสัดส่วนที่เพิ่มคือผู้มาครั้งแรก ไม่ใช่ผู้มาซ้ำ"
+            },
+            {
+              "id": "TU-S2-098",
+              "stem": "According to the passage, membership schemes help museums by",
+              "options": [
+                "allowing them to rent out their halls for events",
+                "removing the need for any public money",
+                "providing steady income and loyal supporters",
+                "keeping all special exhibitions free"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่าระบบสมาชิก \"help create a reliable income and build a loyal community of supporters\""
+            },
+            {
+              "id": "TU-S2-099",
+              "stem": "What can be inferred about a museum that relies on one large sponsor?",
+              "options": [
+                "It must charge visitors higher entrance fees.",
+                "It usually receives more money from the state.",
+                "It is not allowed to run a shop or café.",
+                "It may avoid shows the sponsor would dislike."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 5 บอกว่าพิพิธภัณฑ์เช่นนี้ \"may feel pressure ... to avoid exhibitions that might displease that sponsor\""
+            },
+            {
+              "id": "TU-S2-100",
+              "stem": "The word \"their\" in the last sentence (\"keeping their doors\") refers to",
+              "options": [
+                "museum visitors",
+                "business sponsors",
+                "successful institutions",
+                "national governments"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "\"their\" อ้างถึงประธานของประโยคคือ \"successful institutions\" ที่ใช้เงินเพื่อเปิดประตูพิพิธภัณฑ์ให้คนเข้าชมได้มากที่สุด"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

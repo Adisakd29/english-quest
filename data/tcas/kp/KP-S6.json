@@ -1,0 +1,523 @@
+{
+  "exam": "kp",
+  "setId": "KP-S6",
+  "title": "ก.พ. ภาค ก ชุดฝึกที่ 6",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "conversation",
+      "groups": [
+        {
+          "id": "KP-S6-G01",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "In the queue at the land office",
+          "dialogue": [
+            {
+              "speaker": "Visitor",
+              "text": "Excuse me, is this the queue for transferring a land title?"
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Visitor",
+              "text": "Oh, I didn't know that. Where can I get one?"
+            },
+            {
+              "speaker": "Officer",
+              "text": "From the machine by the front door. Your number will appear on the screen."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S6-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, and you're next. Please go to counter four.",
+                "No, this line is only for paying land fees.",
+                "Yes, please wait here. It shouldn't take long.",
+                "Yes, but you need to take a queue number first."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้มาติดต่อตอบว่า \"Oh, I didn't know that. Where can I get one?\" แสดงว่าเจ้าหน้าที่บอกสิ่งที่ต้องไปรับก่อน (บัตรคิว) และเจ้าหน้าที่ตอบว่ารับจากเครื่องหน้าประตู ตัวเลือกอื่นไม่มีสิ่งที่ \"one\" อ้างถึงได้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S6-G02",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "News about the park",
+          "dialogue": [
+            {
+              "speaker": "Somchai",
+              "text": "Did you see the news? Chalerm Suk Park will close for renovation next month."
+            },
+            {
+              "speaker": "Pim",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "Until April, I think. They're adding a new jogging track and more shade trees."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S6-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Really? How long has it been open?",
+                "Really? How long will it stay closed?",
+                "Really? How long did the last repairs take?",
+                "Really? How long is the new jogging track?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "สมชายตอบว่า \"Until April\" ซึ่งบอกจุดสิ้นสุดของช่วงเวลาในอนาคต จึงตรงกับคำถามว่าสวนจะปิดถึงเมื่อไร ส่วนคำถามเรื่องที่ผ่านมา (has been open / did take) ไม่เข้ากับ until April และพิมยังไม่รู้เรื่องลู่วิ่งใหม่ เพราะสมชายเพิ่งบอกทีหลัง"
+            }
+          ]
+        },
+        {
+          "id": "KP-S6-G03",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Registering for a training course",
+          "dialogue": [
+            {
+              "speaker": "Caller",
+              "text": "Hello. I'd like to sign up for the computer course for new staff."
+            },
+            {
+              "speaker": "Officer",
+              "text": "I'm sorry, but that course is already full."
+            },
+            {
+              "speaker": "Caller",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Yes, there's another one in August. Shall I put your name down for it?"
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S6-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Oh, that's a pity. Will there be another one?",
+                "I see. Could I join without registering, then?",
+                "Never mind. Please cancel my booking, then.",
+                "Oh, that's a pity. Was there one earlier this year?"
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"Yes, there's another one in August\" ซึ่งเป็นรอบในอนาคต จึงต้องถามว่าจะมีรอบอื่นอีกไหม ตัวเลือกที่ถามถึงรอบที่ผ่านมา (Was there ...) ใช้กาลไม่ตรงกับคำตอบ"
+            }
+          ]
+        },
+        {
+          "id": "KP-S6-G04",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Asking a colleague for help",
+          "dialogue": [
+            {
+              "speaker": "Nok",
+              "text": "Could you help me carry these boxes to the meeting room?"
+            },
+            {
+              "speaker": "Arthit",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Nok",
+              "text": "No problem. I'll ask Somsak, then."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S6-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Sure. Where would you like me to put them?",
+                "Yes, Somsak asked me to carry them.",
+                "I'm sorry I couldn't help you yesterday.",
+                "Sorry, I'm on my way to a meeting now."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "นกตอบว่า \"No problem. I'll ask Somsak, then.\" แสดงว่าอาทิตย์ปฏิเสธในตอนนี้ จึงต้องขอโทษและบอกว่ากำลังจะไปประชุม ถ้าตอบรับ (Sure) นกไม่ต้องไปขอคนอื่น ส่วนการขอโทษเรื่องเมื่อวานไม่ได้ตอบคำขอครั้งนี้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S6-G05",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Reporting a problem",
+          "dialogue": [
+            {
+              "speaker": "Resident",
+              "text": "Good afternoon. I'd like to report a broken streetlight on Soi 5."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Resident",
+              "text": "Since last Thursday. The street is very dark at night."
+            },
+            {
+              "speaker": "Officer",
+              "text": "I see. I'll send a technician tomorrow morning."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S6-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Where exactly on Soi 5 is it?",
+                "How often has it broken this year?",
+                "How long will it take to fix?",
+                "How long has it been broken?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้แจ้งตอบว่า \"Since last Thursday\" ซึ่งบอกจุดเริ่มต้นของช่วงเวลา จึงตอบคำถาม \"How long has it been broken?\" ส่วน How long will it take to fix? ถามอนาคตซึ่งผู้แจ้งตอบไม่ได้ และ How often ต้องตอบเป็นจำนวนครั้ง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "KP-S6-G06",
+          "type": "kp_structure",
+          "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+          "items": [
+            {
+              "id": "KP-S6-006",
+              "stem": "Each of the visitors ____ a queue number on arrival at the land office.",
+              "options": [
+                "are receiving",
+                "receives",
+                "have received",
+                "receive"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "Each of + คำนามพหูพจน์ ใช้กริยาเอกพจน์ จึงใช้ \"receives\" และเป็นข้อเท็จจริงที่ทำเป็นประจำจึงใช้ Present Simple"
+            },
+            {
+              "id": "KP-S6-007",
+              "stem": "Mr. Prasert had his land documents ____ by a lawyer before signing the contract.",
+              "options": [
+                "checked",
+                "check",
+                "checking",
+                "to check"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง have + กรรม + V3 (causative) หมายถึงให้คนอื่นทำให้ เอกสารถูกตรวจโดยทนายความ จึงใช้ \"checked\""
+            },
+            {
+              "id": "KP-S6-008",
+              "stem": "By the time the inspector arrived, the staff ____ the report.",
+              "options": [
+                "have already finished",
+                "will already finish",
+                "already finish",
+                "had already finished"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "เหตุการณ์ที่เสร็จก่อนอีกเหตุการณ์ในอดีต (arrived) ใช้ Past Perfect \"had already finished\""
+            },
+            {
+              "id": "KP-S6-009",
+              "stem": "The deadline for the training registration is next Friday, ____?",
+              "options": [
+                "isn't it",
+                "is it",
+                "doesn't it",
+                "wasn't it"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "Question tag: ประโยคหลักเป็นบอกเล่าและใช้ is จึงใช้ tag ปฏิเสธ \"isn't it\" ส่วน doesn't ใช้กับกริยาแท้ และ wasn't ผิดกาล"
+            },
+            {
+              "id": "KP-S6-010",
+              "stem": "The park will remain closed ____ the renovation work is completed.",
+              "options": [
+                "since",
+                "despite",
+                "during",
+                "until"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ต้องการความหมาย \"จนกว่า\" งานปรับปรุงจะเสร็จ และตามด้วยประโยค จึงใช้ \"until\" ส่วน during และ despite ต้องตามด้วยคำนาม"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "KP-S6-G07",
+          "type": "kp_vocab",
+          "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "KP-S6-011",
+              "stem": "Staff who wish to attend the workshop must obtain ____ from their supervisor first.",
+              "options": [
+                "approach",
+                "appearance",
+                "approval",
+                "appointment"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "obtain approval = ได้รับอนุมัติ เหมาะกับการขออนุญาตหัวหน้าก่อนเข้าอบรม ส่วน approach = วิธีการ, appearance = รูปลักษณ์"
+            },
+            {
+              "id": "KP-S6-012",
+              "stem": "Residents should dispose of old batteries at the collection point. The phrase 'dispose of' is closest in meaning to ____.",
+              "options": [
+                "buy",
+                "repair",
+                "get rid of",
+                "charge"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "dispose of = ทิ้ง กำจัด ความหมายใกล้เคียง get rid of ส่วน charge = ชาร์จ, repair = ซ่อม ไม่เข้ากับการนำไปจุดรับทิ้ง"
+            },
+            {
+              "id": "KP-S6-013",
+              "stem": "The renovation project is expected to ____ about 12 million baht.",
+              "options": [
+                "cost",
+                "pay",
+                "charge",
+                "spend"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "สิ่งของหรือโครงการ \"cost\" + จำนวนเงิน = มีค่าใช้จ่าย ส่วน spend และ pay ต้องมีคนเป็นประธาน"
+            },
+            {
+              "id": "KP-S6-014",
+              "stem": "Every participant will receive a ____ after completing the training course.",
+              "options": [
+                "certificate",
+                "certify",
+                "certainly",
+                "certified"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "หลัง a ต้องเป็นคำนาม \"certificate\" (ใบประกาศนียบัตร) ส่วน certify เป็นกริยา certified เป็นคุณศัพท์ certainly เป็นกริยาวิเศษณ์"
+            },
+            {
+              "id": "KP-S6-015",
+              "stem": "The officer was very ____ and answered all of our questions patiently.",
+              "options": [
+                "jealous",
+                "careless",
+                "helpful",
+                "nervous"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "เจ้าหน้าที่ตอบทุกคำถามอย่างอดทน จึงต้องเป็น \"helpful\" (ช่วยเหลือดี) ส่วน careless = สะเพร่า, jealous = อิจฉา, nervous = ประหม่า"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "KP-S6-G08",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Orientation course announcement",
+          "text": "ORIENTATION COURSE FOR NEWLY APPOINTED CIVIL SERVANTS\nThe Office of Personnel Development of Thong Rak Province will hold a five-day orientation course for civil servants who were appointed between January and June this year. The course will take place from 14 to 18 July at the Provincial Training Centre on Rattana Road.\nParticipants will learn about the rules of government service, official document writing, public service ethics, and the new e-Document system, which will replace most paper memos from October. On the final day, each participant will take a short test. Those who score 60% or higher will receive a certificate. This certificate is required before a civil servant can complete his or her probation period.\nParticipants must register through their own department by 30 June. Each department is responsible for sending a list of names to the Office of Personnel Development. Accommodation is not provided, but lunch and two coffee breaks will be served each day. Participants should wear the white uniform on the first day only; polite office clothes are acceptable on the other days.\nAnyone who cannot attend because of urgent work must inform their supervisor in writing. They will be able to join the next course in December.",
+          "items": [
+            {
+              "id": "KP-S6-016",
+              "stem": "Why was this announcement made?",
+              "options": [
+                "To invite the public to visit the training centre",
+                "To announce the results of a civil-service test",
+                "To inform new civil servants about a required course",
+                "To explain how to apply for a government job"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ประกาศแจ้งรายละเอียดหลักสูตรปฐมนิเทศสำหรับข้าราชการบรรจุใหม่ ทั้งวัน สถานที่ เนื้อหา และการลงทะเบียน ไม่ได้ประกาศผลสอบหรือรับสมัครงาน"
+            },
+            {
+              "id": "KP-S6-017",
+              "stem": "How should participants register for the course?",
+              "options": [
+                "Through the Provincial Training Centre",
+                "Through the Office of Personnel Development",
+                "Through their supervisor, in writing",
+                "Through the department they work for"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"Participants must register through their own department\" สำนักงานพัฒนาบุคลากรเป็นเพียงผู้รับรายชื่อจากหน่วยงาน ส่วนการแจ้งหัวหน้าเป็นลายลักษณ์อักษรใช้กับผู้ที่มาอบรมไม่ได้"
+            },
+            {
+              "id": "KP-S6-018",
+              "stem": "In paragraph 2, the word 'which' in 'which will replace most paper memos' refers to ____.",
+              "options": [
+                "the rules of government service",
+                "the final test",
+                "public service ethics",
+                "the e-Document system"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "which อยู่หลัง the new e-Document system ทันที และระบบนี้คือสิ่งที่จะมาแทนบันทึกข้อความแบบกระดาษ"
+            },
+            {
+              "id": "KP-S6-019",
+              "stem": "According to the announcement, what will participants be given on each day of the course?",
+              "options": [
+                "A new white uniform",
+                "A room at the training centre",
+                "Lunch and two coffee breaks",
+                "A short written test"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ประกาศบอกว่า \"lunch and two coffee breaks will be served each day\" ส่วนที่พักไม่มีให้ ชุดขาวผู้เข้าอบรมต้องใส่มาเองในวันแรก และการทดสอบมีเฉพาะวันสุดท้าย"
+            },
+            {
+              "id": "KP-S6-020",
+              "stem": "A new civil servant scores 50% on the final test. Based on the announcement, what is most likely true?",
+              "options": [
+                "He or she must pay for the next course.",
+                "He or she cannot complete probation yet.",
+                "He or she will lose the government job.",
+                "He or she will get a certificate in December."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ต้องได้ 60% ขึ้นไปจึงได้ใบประกาศ และต้องมีใบประกาศก่อนจึงจะผ่านทดลองงานได้ ผู้ได้ 50% จึงยังผ่านทดลองงานไม่ได้ ส่วนเรื่องถูกให้ออกหรือเสียเงินไม่มีกล่าวไว้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S6-G09",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A letter from the municipality",
+          "text": "Nong Phai Municipality\nPublic Cleansing Division\n5 September\nDear Residents of Wards 3 and 4,\nWe are writing to inform you of changes to the waste collection schedule, which will take effect on 1 October. Because the municipality has added two new collection trucks, we are now able to collect general waste and recyclable materials separately.\nGeneral waste will be collected every Monday, Wednesday and Friday between 6:00 and 9:00 a.m. Recyclable materials, such as plastic bottles, cans and paper, will be collected every Saturday morning. Please put recyclables in clear bags so that our staff can check them easily. Food waste should be placed in the green bins at the end of each street, not in general waste bags.\nHazardous waste, including batteries, light bulbs and paint cans, will no longer be collected from homes. Residents should take these items to the drop-off point behind Nong Phai Fresh Market, which is open daily from 8:00 a.m. to 5:00 p.m.\nPlease note that bags left out after 9:00 a.m. on collection days will not be picked up until the next scheduled collection day. If you have any questions, please call the Public Cleansing Division at 0 4321 5566.\nYours faithfully,\nWichai Thongdee\nDirector, Public Cleansing Division",
+          "items": [
+            {
+              "id": "KP-S6-021",
+              "stem": "The letter was mainly written in order to ____.",
+              "options": [
+                "thank residents for recycling more waste",
+                "announce the opening of a fresh market",
+                "ask residents to pay a new waste fee",
+                "tell residents about a new collection timetable"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าแรกบอกว่า \"to inform you of changes to the waste collection schedule\" จดหมายจึงแจ้งตารางเก็บขยะใหม่ ไม่มีการเก็บค่าธรรมเนียมหรือเปิดตลาด"
+            },
+            {
+              "id": "KP-S6-022",
+              "stem": "When will recyclable materials be collected?",
+              "options": [
+                "Three times a week",
+                "Once a week, on Saturdays",
+                "Every Monday morning",
+                "Every day from 8 a.m. to 5 p.m."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "จดหมายระบุว่า \"Recyclable materials ... will be collected every Saturday morning\" ส่วนจันทร์ พุธ ศุกร์ เป็นวันเก็บขยะทั่วไป"
+            },
+            {
+              "id": "KP-S6-023",
+              "stem": "A resident has some used batteries. What should he do with them?",
+              "options": [
+                "Leave them in the green bin on his street",
+                "Take them to the point behind the market",
+                "Put them out with general waste on Monday",
+                "Put them in a clear bag on Saturday"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "แบตเตอรี่เป็นขยะอันตราย ซึ่งจะไม่เก็บจากบ้านอีกแล้ว ต้องนำไปที่จุดรับหลังตลาดสดหนองไผ่ ถุงใสใช้กับขยะรีไซเคิล ถังเขียวใช้กับเศษอาหาร"
+            },
+            {
+              "id": "KP-S6-024",
+              "stem": "The phrase 'take effect' in paragraph 1 is closest in meaning to ____.",
+              "options": [
+                "be printed",
+                "be cancelled",
+                "start to apply",
+                "be discussed"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "take effect on 1 October = มีผลบังคับใช้ตั้งแต่ 1 ตุลาคม จึงใกล้เคียงกับ start to apply (เริ่มใช้)"
+            },
+            {
+              "id": "KP-S6-025",
+              "stem": "What will probably happen to a bag of general waste put out at 10 a.m. on a Wednesday?",
+              "options": [
+                "It will be collected that afternoon.",
+                "It will be taken to the fresh market.",
+                "It will be collected on Friday.",
+                "It will be collected with recyclables on Saturday."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ถุงที่วางหลัง 9 โมงจะไม่ถูกเก็บจนถึงวันเก็บครั้งถัดไป วันเก็บขยะทั่วไปถัดจากวันพุธคือวันศุกร์"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 25,
+    "keyMatch": 25,
+    "total": 25
+  }
+}

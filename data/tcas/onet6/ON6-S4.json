@@ -1,0 +1,1497 @@
+{
+  "exam": "onet6",
+  "setId": "ON6-S4",
+  "title": "O-NET ม.6 ชุดฝึกที่ 4",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "sections": [
+    {
+      "id": "communication",
+      "groups": [
+        {
+          "id": "ON6-S4-G01",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the baggage service desk",
+          "dialogue": [
+            {
+              "speaker": "Nadia",
+              "text": "Excuse me, my suitcase never came out on the belt. I was on flight KR 218 from Hallington."
+            },
+            {
+              "speaker": "Agent",
+              "text": "I'm sorry to hear that. ___1___"
+            },
+            {
+              "speaker": "Nadia",
+              "text": "Here it is. It's a large silver case with a cracked wheel and a red name tag on the handle."
+            },
+            {
+              "speaker": "Agent",
+              "text": "Thanks. According to our system, it was loaded onto a connecting flight by mistake. It should arrive on the evening flight."
+            },
+            {
+              "speaker": "Nadia",
+              "text": "___2___ I've got a job interview first thing tomorrow, and my suit is in there."
+            },
+            {
+              "speaker": "Agent",
+              "text": "I completely understand. ___3___ we'll deliver the case straight to your hotel by ten tonight."
+            },
+            {
+              "speaker": "Nadia",
+              "text": "That would be a huge help. Thank you."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S4-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Would you like to check in another bag?",
+                "How long are you planning to stay here?",
+                "Could I see your baggage claim tag, please?",
+                "Did you enjoy the meal on the flight?",
+                "Is this your first time flying with us?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ต้องขอหลักฐานก่อน และ Nadia ตอบว่า \"Here it is\" แล้วบรรยายกระเป๋า จึงต้องเป็นการขอดูป้ายรับกระเป๋า (baggage claim tag) ตัวเลือกอื่นไม่เกี่ยวกับการตามหากระเป๋า"
+            },
+            {
+              "id": "ON6-S4-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Then I'd rather fly home tonight.",
+                "Then I'll just carry it with me.",
+                "So it's already at my hotel?",
+                "In that case, there's no rush at all.",
+                "That's cutting it a bit fine, though."
+              ],
+              "answer": 4,
+              "skill": "social_response",
+              "explanationTh": "ประโยคถัดมาบอกว่าพรุ่งนี้เช้ามีสัมภาษณ์งานและชุดสูทอยู่ในกระเป๋า แสดงว่ากังวลว่าเวลาเฉียดฉิวเกินไป \"cutting it a bit fine\" ส่วน \"there's no rush at all\" (ไม่ต้องรีบเลย) ขัดกับความกังวลนี้"
+            },
+            {
+              "id": "ON6-S4-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Unless you fill in this form,",
+                "Instead of filling in this form,",
+                "Even though you filled in this form,",
+                "If you fill in this form,",
+                "Until you had filled in this form,"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "การส่งกระเป๋าถึงโรงแรมเป็นผลที่เกิดเมื่อกรอกแบบฟอร์ม จึงใช้เงื่อนไข \"If you fill in this form, we'll deliver...\" ส่วน Unless ให้ความหมายตรงข้าม"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G02",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Planning a rehearsal",
+          "dialogue": [
+            {
+              "speaker": "Ploy",
+              "text": "Ken, we still haven't picked a time to rehearse our presentation. ___1___"
+            },
+            {
+              "speaker": "Ken",
+              "text": "Thursday's tricky. I've got badminton practice until five. Could we make it Friday lunchtime instead?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Friday's fine by me, but Arthit said he's ___2___ with the school magazine all week."
+            },
+            {
+              "speaker": "Ken",
+              "text": "Then let's each record our parts separately, and he can add his on Saturday."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "___3___ The teacher wants to watch us rehearse together, remember?"
+            },
+            {
+              "speaker": "Ken",
+              "text": "Good point. I'll message him tonight and ask whether he can spare twenty minutes."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S4-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "When was the presentation due?",
+                "Where did you save the slides?",
+                "Why did you choose that topic again?",
+                "Who presented first last week?",
+                "How does Thursday after school sound?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Ploy ต้องการนัดเวลาซ้อม และ Ken ตอบว่า \"Thursday's tricky\" จึงต้องเป็นการเสนอวันพฤหัสบดี ตัวเลือกอื่นไม่ได้เสนอเวลา"
+            },
+            {
+              "id": "ON6-S4-005",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "run out",
+                "put off",
+                "tied up",
+                "taken after",
+                "given in"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"be tied up with something\" แปลว่ายุ่งหรือติดธุระกับงานนั้น เหมาะกับการที่ Arthit ทำนิตยสารโรงเรียนทั้งสัปดาห์ ส่วน put off = เลื่อน, run out = หมด, take after = เหมือน, give in = ยอมแพ้"
+            },
+            {
+              "id": "ON6-S4-006",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Same here, I'm free on Saturday.",
+                "I'm not sure that would work.",
+                "Sure, go ahead and record it.",
+                "That's exactly what I had in mind.",
+                "You can say that again."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "ประโยคถัดมาให้เหตุผลคัดค้านว่าครูต้องการเห็นซ้อมพร้อมกัน จึงต้องเป็นการไม่เห็นด้วยอย่างสุภาพ ตัวเลือกอื่นเป็นการเห็นด้วยทั้งหมด"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G03",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Returning a faulty product",
+          "dialogue": [
+            {
+              "speaker": "Lukas",
+              "text": "Hi. I bought these wireless headphones here last week, but the left side keeps cutting out."
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Oh, I'm sorry about that. ___1___"
+            },
+            {
+              "speaker": "Lukas",
+              "text": "Yes, it's right here. I'd prefer a replacement rather than a refund, if possible."
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Unfortunately, that model is ___2___ at the moment. We won't get any more until next month."
+            },
+            {
+              "speaker": "Lukas",
+              "text": "I see. In that case, ___3___"
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Of course. The ones on the second shelf are the same price, and you're welcome to try them first."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S4-007",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Do you need a bigger size?",
+                "Shall I charge them overnight?",
+                "Would you like them gift-wrapped?",
+                "Could you turn the volume down?",
+                "Have you still got the receipt?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Lukas ตอบว่า \"Yes, it's right here.\" แสดงว่าถูกถามถึงสิ่งของที่พกมา คือใบเสร็จ ซึ่งร้านต้องใช้เมื่อคืนสินค้า"
+            },
+            {
+              "id": "ON6-S4-008",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "on the house",
+                "in good shape",
+                "out of order",
+                "up to date",
+                "out of stock"
+              ],
+              "answer": 4,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคต่อมา \"We won't get any more until next month\" แสดงว่าสินค้าหมด จึงใช้ out of stock ส่วน out of order ใช้กับเครื่องที่เสีย และ on the house แปลว่าฟรี"
+            },
+            {
+              "id": "ON6-S4-009",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'd rather just keep these ones.",
+                "could I swap them for a similar pair?",
+                "I'm glad they're working perfectly now.",
+                "could you repair them while I wait?",
+                "I'll ask for a replacement, then."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เมื่อรุ่นเดิมหมด ทางเลือกที่สมเหตุสมผลคือขอเปลี่ยนเป็นรุ่นใกล้เคียง และพนักงานตอบว่ารุ่นบนชั้นที่สองราคาเท่ากันและลองได้ ซึ่งไม่เข้ากับการขอซ่อมหรือเก็บของเดิมไว้ ส่วนการขอ replacement รุ่นเดิมทำไม่ได้แล้ว"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G04",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Calling a bike shop",
+          "dialogue": [
+            {
+              "speaker": "Wanda",
+              "text": "Pedal Point Repairs, Wanda speaking. How can I help?"
+            },
+            {
+              "speaker": "Tomas",
+              "text": "Hi. My bike's chain keeps slipping, and the brakes ___1___ quite a lot when I stop."
+            },
+            {
+              "speaker": "Wanda",
+              "text": "That sounds like a fairly quick job. ___2___"
+            },
+            {
+              "speaker": "Tomas",
+              "text": "Would tomorrow morning be all right? I need it for my commute on Monday."
+            },
+            {
+              "speaker": "Wanda",
+              "text": "Tomorrow's fully booked, I'm afraid, but if you drop it off this afternoon, ___3___"
+            },
+            {
+              "speaker": "Tomas",
+              "text": "Perfect. I'll be there around three."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S4-010",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "squeaking",
+                "to squeak",
+                "has squeaked",
+                "squeaks",
+                "squeak"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "ประธาน \"the brakes\" เป็นพหูพจน์และเล่าสิ่งที่เกิดเป็นประจำ จึงใช้ Present Simple รูปไม่เติม s คือ squeak"
+            },
+            {
+              "id": "ON6-S4-011",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "How much did you pay for the bike?",
+                "Why don't you buy a new chain online?",
+                "Where did you learn to ride?",
+                "Who sold you that bike originally?",
+                "When would you like to bring it in?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Tomas ตอบด้วยการเสนอเวลา \"Would tomorrow morning be all right?\" คำถามที่เหมาะจึงเป็นการถามว่าจะนำจักรยานมาเมื่อไร"
+            },
+            {
+              "id": "ON6-S4-012",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "it had been ready by Saturday",
+                "it'll be ready by Saturday",
+                "it was ready by Saturday",
+                "it would have been ready by Saturday",
+                "it has been ready since Saturday"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ประโยคเงื่อนไขแบบที่ 1 (If + present, will + V1) เพราะพูดถึงสิ่งที่เป็นไปได้ในอนาคต จึงใช้ \"it'll be ready\""
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G05",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "University open day",
+          "dialogue": [
+            {
+              "speaker": "Mai",
+              "text": "Hi, I'm interested in the marine biology programme. ___1___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Yes, Dr. Orvel is giving a talk in Hall C at two. Students can ask her questions afterwards."
+            },
+            {
+              "speaker": "Mai",
+              "text": "Great. And ___2___ any scholarships for international applicants?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "There are a few. ___3___ Everything you need is in this booklet, including the deadlines."
+            },
+            {
+              "speaker": "Mai",
+              "text": "Thanks so much. That's really helpful."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S4-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Is there anyone I could talk to about it?",
+                "Could you tell me what time it is?",
+                "Have you ever studied marine biology?",
+                "Do you happen to know how to swim?",
+                "How far is the nearest beach from here?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบว่ามีอาจารย์บรรยายและให้ถามคำถามได้ จึงแสดงว่า Mai ถามหาคนที่จะพูดคุยเรื่องหลักสูตรด้วย"
+            },
+            {
+              "id": "ON6-S4-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "could you tell me if are there",
+                "do you know whether is there",
+                "do you happen to know are there",
+                "would you happen to know there are",
+                "would you happen to know if there are"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "คำถามทางอ้อมหลัง \"would you happen to know\" ต้องมี if/whether และเรียงประธานก่อนกริยา (if there are) ตัวเลือกอื่นขาด if หรือกลับกริยาไว้หน้าประธานแบบคำถามตรง"
+            },
+            {
+              "id": "ON6-S4-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Don't bother applying this year.",
+                "I'm afraid we've never had any.",
+                "Take one of these with you.",
+                "You'd better ask somebody else.",
+                "They're only for local students, though."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "เจ้าหน้าที่ตอบว่ามีทุนอยู่บ้าง และต่อด้วย \"Everything you need is in this booklet\" จึงต้องเป็นการยื่นเอกสารให้ ตัวเลือกอื่นขัดกับข้อมูล เช่น ทุนมีสำหรับผู้สมัครต่างชาติ ไม่ใช่เฉพาะนักเรียนในประเทศ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G06",
+          "type": "on_notice",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Linden Court lease notice",
+          "text": "NOTICE TO RESIDENTS: LINDEN COURT APARTMENTS\nLease Renewals for the Coming Year\n\nAll current leases at Linden Court expire on 31 March. Residents who wish to stay must return the signed renewal form to the management office by 15 February. Late forms cannot be guaranteed, as vacant units will be advertised to the public from 16 February.\n\nPlease note the following changes under the new lease:\n• Monthly rent will rise by 4%, the first increase in three years.\n• Tenants may now keep one small pet (under 10 kg) with written permission from the office.\n• Bicycles must be stored in the basement rack, not on balconies or in corridors.\n\nResidents planning to move out must give at least 30 days' written notice so that a final inspection can be arranged. Deposits will be returned within 14 days of a satisfactory inspection.\n\nLinden Court Management",
+          "items": [
+            {
+              "id": "ON6-S4-016",
+              "stem": "What is the main purpose of this notice?",
+              "options": [
+                "To advertise empty apartments to the general public",
+                "To warn tenants about a recent rise in break-ins",
+                "To explain how and when residents can renew their leases",
+                "To announce that the building is going to be sold",
+                "To invite residents to a meeting about keeping pets"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ประกาศมีหัวเรื่อง \"Lease Renewals\" และบอกกำหนดส่งแบบฟอร์มต่อสัญญาพร้อมเงื่อนไขใหม่ จุดประสงค์หลักจึงเป็นการแจ้งวิธีและกำหนดต่อสัญญาเช่า"
+            },
+            {
+              "id": "ON6-S4-017",
+              "stem": "What may happen to a resident who returns the renewal form on 20 February?",
+              "options": [
+                "Their flat may already have been offered to someone else.",
+                "They will be charged a late fee of 4% of the rent.",
+                "Their deposit will be returned within 14 days.",
+                "They will have to move their bicycle to the basement.",
+                "They will be asked to leave before 31 March."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ประกาศบอกว่าแบบฟอร์มที่ส่งช้า \"cannot be guaranteed\" เพราะห้องว่างจะถูกประกาศให้คนทั่วไปตั้งแต่ 16 ก.พ. จึงอาจมีคนอื่นได้ห้องไปแล้ว"
+            },
+            {
+              "id": "ON6-S4-018",
+              "stem": "Which statement about the rent is true?",
+              "options": [
+                "It will go down by 4% after 31 March.",
+                "It goes up by 4% every single year.",
+                "It has stayed the same for the past three years.",
+                "Tenants who keep a pet will pay more of it.",
+                "It must be paid in person at the basement office."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความ \"the first increase in three years\" แสดงว่าค่าเช่าไม่ได้ขึ้นมาสามปีแล้ว ไม่ใช่ขึ้นทุกปีหรือลดลง"
+            },
+            {
+              "id": "ON6-S4-019",
+              "stem": "The word \"vacant\" in the notice is closest in meaning to ____.",
+              "options": [
+                "expensive",
+                "empty",
+                "shared",
+                "renovated",
+                "furnished"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ห้องที่จะนำไปประกาศหาผู้เช่าใหม่คือห้องที่ไม่มีคนอยู่ vacant จึงแปลว่า empty (ว่าง)"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G07",
+          "type": "on_notice",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Laundry instructions",
+          "text": "SUDSWAY 24-HOUR LAUNDRY: HOW TO USE OUR MACHINES\n\n1. Load your clothes, close the door firmly and choose a programme. Do not fill the drum more than three-quarters full.\n2. Pay at the central kiosk with coins or the SudsWay app. Enter the number printed on your machine's door, not the number painted on the floor in front of it.\n3. Washing takes 35 minutes. Dryers run in 12-minute cycles; extra cycles can be added at the kiosk.\n\nPlease collect your laundry within 15 minutes of the cycle ending. After that, staff or other customers may move it to the shelves by the window.\n\nDetergent is added automatically. Customers who bring their own must select the ECO setting, which skips our detergent and costs 10 baht less.\n\nMachine not working? Call the number above the kiosk. Refunds are processed within 48 hours.",
+          "items": [
+            {
+              "id": "ON6-S4-020",
+              "stem": "What should a customer with a very large load of washing do?",
+              "options": [
+                "Press it down firmly before closing the door",
+                "Divide it so that no drum is overfilled",
+                "Choose the ECO setting to save money",
+                "Ask a member of staff to load it",
+                "Pay for an extra cycle at the kiosk"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ป้ายบอกว่า \"Do not fill the drum more than three-quarters full\" ผ้าจำนวนมากจึงต้องแบ่งใส่หลายเครื่องเพื่อไม่ให้ถังแน่นเกินไป"
+            },
+            {
+              "id": "ON6-S4-021",
+              "stem": "Why might a customer accidentally pay for the wrong machine?",
+              "options": [
+                "They forgot to close the door firmly.",
+                "They entered the number on the floor.",
+                "They paid with the app instead of coins.",
+                "They selected the ECO programme.",
+                "They collected their laundry too late."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ป้ายเตือนให้ใส่หมายเลขที่ประตูเครื่อง \"not the number painted on the floor\" แสดงว่าหมายเลขบนพื้นอาจไม่ตรงกับเครื่องและทำให้จ่ายผิดเครื่องได้"
+            },
+            {
+              "id": "ON6-S4-022",
+              "stem": "A customer who brings her own detergent ____.",
+              "options": [
+                "should add it after the first 35 minutes",
+                "is not allowed to use the washing machines",
+                "must pay an extra 10 baht at the kiosk",
+                "should select ECO and will pay 10 baht less",
+                "needs written permission from a staff member"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ป้ายระบุว่าผู้ที่นำผงซักฟอกมาเอง \"must select the ECO setting, which skips our detergent and costs 10 baht less\""
+            },
+            {
+              "id": "ON6-S4-023",
+              "stem": "Kai's dryer finished at 6:00 p.m., but he came back at 6:30 p.m. What may have happened?",
+              "options": [
+                "His clothes may have been washed again.",
+                "His clothes may have been moved to a shelf.",
+                "He may have been charged for extra time.",
+                "His dryer may have started another cycle.",
+                "He may have received a 48-hour refund."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "Kai กลับมาช้ากว่า 15 นาทีหลังเครื่องหยุด ป้ายบอกว่าหลังจากนั้น \"staff or other customers may move it to the shelves by the window\" ส่วนการคิดเงินเพิ่มหรือคืนเงินไม่เกี่ยวกับกรณีนี้"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G08",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "An email from the fair coordinator",
+          "text": "Subject: Science Fair: change to the judging format\n\nDear participants,\n\nThank you for registering for this year's Hillcrest Science Fair on 14 March. Sixty-two projects have been entered, almost double last year's number. While this is wonderful news, it also means we need to change the way judging works.\n\nIn previous years, each judge visited every table for ten minutes. With sixty-two projects, that would keep a single judge busy for more than ten hours, so this year the judges will work in three panels, each responsible for one category: life sciences, physical sciences or engineering. Please check the attached list to confirm that your project has been placed in the right category. If you believe it has not, email me by 1 March with a short explanation; after that date, the list will be final.\n\nSeveral of you have asked whether posters must be printed. They do not, but if you plan to use a screen instead, you will need to bring your own device with a fully charged battery. There are only a handful of power points in the hall, and they will be reserved for projects that genuinely need electricity to run.\n\nFinally, a reminder that the judges are interested in your process, not just your results. A project whose experiment \"failed\" but which explains clearly what went wrong, and why, can score just as highly as one that worked perfectly.\n\nBest wishes,\nDaniel Achebe\nScience Fair Coordinator",
+          "items": [
+            {
+              "id": "ON6-S4-024",
+              "stem": "What is the main purpose of Mr. Achebe's email?",
+              "options": [
+                "To complain about projects submitted late",
+                "To explain changes caused by a rise in entries",
+                "To announce that the fair has been postponed",
+                "To ask students to help judge other projects",
+                "To invite more students to enter the fair"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "อีเมลบอกว่ามีโครงงานเกือบสองเท่าของปีก่อน \"it also means we need to change the way judging works\" แล้วอธิบายรูปแบบการตัดสินใหม่และข้อปฏิบัติ"
+            },
+            {
+              "id": "ON6-S4-025",
+              "stem": "Why will the judges work in three panels this year?",
+              "options": [
+                "Some categories had no projects at all last year.",
+                "One judge could not see every project in a reasonable time.",
+                "The hall is too small for all the project tables.",
+                "The judges disagreed about last year's winners.",
+                "Students asked to be judged by subject experts."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ถ้ากรรมการคนเดียวดูทุกโต๊ะ \"that would keep a single judge busy for more than ten hours\" จึงต้องแบ่งเป็นสามคณะตามหมวด"
+            },
+            {
+              "id": "ON6-S4-026",
+              "stem": "A student emails on 5 March to say his project is in the wrong category. What will most likely happen?",
+              "options": [
+                "He will have to present a printed poster instead.",
+                "His project will be moved to another category at once.",
+                "His project will stay in the category on the list.",
+                "He will be asked to withdraw from the fair.",
+                "His project will be judged by all three panels."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ต้องแจ้งภายใน 1 มีนาคม \"after that date, the list will be final\" การแจ้งวันที่ 5 มีนาคมจึงสายเกินไป โครงงานน่าจะอยู่ในหมวดเดิม"
+            },
+            {
+              "id": "ON6-S4-027",
+              "stem": "The phrase \"a handful of\" in paragraph 3 is closest in meaning to ____.",
+              "options": [
+                "some broken",
+                "hand-operated",
+                "only a few",
+                "a great many",
+                "several new"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้เขียนให้นำแบตเตอรี่มาเองเพราะปลั๊กมีน้อยและสงวนไว้ให้โครงงานที่จำเป็น a handful of จึงหมายถึงจำนวนน้อย (only a few)"
+            },
+            {
+              "id": "ON6-S4-028",
+              "stem": "According to the email, what do the judges care about?",
+              "options": [
+                "Whether the posters were printed professionally",
+                "How many power points each project uses",
+                "How much the equipment for a project cost",
+                "How clearly students explain their process",
+                "Whether the experiment gave the expected result"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"the judges are interested in your process, not just your results\" และโครงงานที่ล้มเหลวแต่อธิบายได้ชัดก็ได้คะแนนสูงได้"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G09",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Lost on purpose",
+          "text": "Lost on Purpose: My Month Without a Map App\nPosted by Nicha, 17\n\nLast month, I deleted the map app from my phone. My friends thought I'd lost my mind, and to be fair, the first week gave them plenty of evidence. I missed the start of my cousin's birthday lunch because I mixed up two streets with almost identical names, and I spent forty minutes circling the old city looking for a stationery shop that turned out to be directly behind my school.\n\nSo why did I do it? Earlier this year, I realised that I could get to dozens of places around Chiang Mai, yet I couldn't have drawn even a rough sketch of how any of them connected. I was following a blue dot, not learning a city.\n\nBy the second week, things began to change. I bought a folding paper map, and before going anywhere, I traced the route with my finger and picked out two or three landmarks: a temple gate, a petrol station, a tall tamarind tree. I also started asking people for directions, which I'd always found awkward. Most were happy to help, and one fruit seller even drew me a little map on the back of a receipt.\n\nNow that the month is over, I've reinstalled the app. I'm not going to pretend paper is always better; for a bus journey across town, the app wins easily. But I use it differently. I check the route first, then put my phone away and try to get there on my own.",
+          "items": [
+            {
+              "id": "ON6-S4-029",
+              "stem": "Why did Nicha decide to delete her map app?",
+              "options": [
+                "Her friends had challenged her to try it.",
+                "She wanted to cut down on her mobile data.",
+                "The app had given her the wrong directions.",
+                "She noticed she didn't understand how places connected.",
+                "Her phone had run out of space for new apps."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "Nicha เล่าว่าไปได้หลายที่แต่ \"couldn't have drawn even a rough sketch of how any of them connected\" คือไม่เข้าใจว่าสถานที่ต่าง ๆ เชื่อมกันอย่างไร"
+            },
+            {
+              "id": "ON6-S4-030",
+              "stem": "What does Nicha mean by \"the first week gave them plenty of evidence\"?",
+              "options": [
+                "She quickly proved that her friends were wrong.",
+                "Her friends helped her find her way that week.",
+                "Her early mistakes seemed to prove her friends right.",
+                "Her friends also got lost during the first week.",
+                "She showed her friends how well she could navigate."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "เพื่อนคิดว่าเธอเสียสติ และสัปดาห์แรกเธอหลงทางจนไปงานสายและเดินวนหาร้านถึง 40 นาที ความผิดพลาดเหล่านี้จึงเหมือนยืนยันว่าเพื่อนคิดถูก"
+            },
+            {
+              "id": "ON6-S4-031",
+              "stem": "From the second week on, what did Nicha do before going somewhere?",
+              "options": [
+                "Checked the route on the map app first",
+                "Planned the route and chose a few landmarks",
+                "Took a bus across town to save time",
+                "Asked a fruit seller to draw her a map",
+                "Walked around the old city to practise"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"I traced the route with my finger and picked out two or three landmarks\" ส่วนการเช็กเส้นทางในแอปเป็นสิ่งที่ทำหลังจบเดือนแล้ว"
+            },
+            {
+              "id": "ON6-S4-032",
+              "stem": "In paragraph 3, \"which\" in \"which I'd always found awkward\" refers to ____.",
+              "options": [
+                "asking people for directions",
+                "buying a folding paper map",
+                "tracing the route with her finger",
+                "picking out landmarks",
+                "drawing a map on a receipt"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "which ขยายสิ่งที่อยู่ข้างหน้าในประโยคเดียวกัน คือ \"asking people for directions\" ซึ่งเธอเคยรู้สึกเขินมาตลอด"
+            },
+            {
+              "id": "ON6-S4-033",
+              "stem": "How does Nicha feel about map apps now?",
+              "options": [
+                "She has decided to keep the app off her phone.",
+                "She feels the experiment was a waste of time.",
+                "She now prefers a paper map for every journey.",
+                "She uses one only when she is walking somewhere.",
+                "She uses one, but tries to rely on herself more."
+              ],
+              "answer": 4,
+              "skill": "purpose_tone",
+              "explanationTh": "เธอติดตั้งแอปกลับแล้วและยอมรับว่าแอปดีกว่าสำหรับรถเมล์ แต่ \"I check the route first, then put my phone away and try to get there on my own\" คือใช้แอปแต่พึ่งตัวเองมากขึ้น"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G10",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "The Notebook",
+          "text": "When Grandma Lek moved in with us, she brought only two boxes. One held her clothes. The other held a battered notebook with a cracked blue cover, its pages stiff with old splashes of fish sauce.\n\n\"My recipes,\" she said, as if that explained everything.\n\nI was sixteen and confident in the kitchen, so one Saturday I decided to surprise her by cooking her famous tom kha, a chicken soup with coconut milk. I opened the notebook and immediately ran into trouble. Coconut milk: enough. Lime juice: depends on the day. Galangal: a good handful, not a greedy one. There wasn't a single exact measurement on the page.\n\nI did my best. The soup was edible but flat, like a song played on the wrong instrument. Grandma tasted it, nodded politely, then shuffled over to the stove.\n\n\"Watch,\" she said. She squeezed in a little lime and tasted. She added a splash of fish sauce and tasted again. She never once looked at the notebook.\n\n\"Then why write it down at all?\" I asked.\n\nShe smiled. \"The notebook doesn't teach you the soup. It reminds you to pay attention.\"\n\nThese days I cook from that notebook most weekends. I still can't tell you how much coconut milk is enough. But I've stopped looking for the number.",
+          "items": [
+            {
+              "id": "ON6-S4-034",
+              "stem": "What was unusual about Grandma Lek's recipes?",
+              "options": [
+                "They were in a foreign language.",
+                "They gave no exact amounts.",
+                "Most of the pages were missing.",
+                "They were copied from a cookbook.",
+                "They had no names for the dishes."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผู้เล่าบอกว่า \"There wasn't a single exact measurement on the page\" สูตรเขียนเพียง \"enough\" หรือ \"a good handful\" ไม่มีปริมาณที่แน่นอน"
+            },
+            {
+              "id": "ON6-S4-035",
+              "stem": "The soup was \"like a song played on the wrong instrument.\" This suggests it was ____.",
+              "options": [
+                "burnt at the bottom of the pot",
+                "exactly like Grandma's version",
+                "noisy and messy to prepare",
+                "acceptable but missing something",
+                "far too spicy to eat"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "คำว่า \"edible but flat\" บอกว่าซุปกินได้แต่รสชาติไม่กลมกล่อม การเปรียบกับเพลงที่เล่นผิดเครื่องดนตรีจึงหมายถึงพอใช้ได้แต่ยังขาดบางอย่าง"
+            },
+            {
+              "id": "ON6-S4-036",
+              "stem": "Why did Grandma keep tasting the soup as she cooked?",
+              "options": [
+                "She had completely forgotten her own recipe.",
+                "She was hungry after moving into the house.",
+                "She adjusted the flavour by judgement, not by rule.",
+                "She wanted to see if the narrator used the notebook.",
+                "She was trying to make the soup less sour."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ยายบีบมะนาวและเติมน้ำปลาแล้วชิมทีละนิดโดย \"never once looked at the notebook\" แสดงว่าปรุงตามการสังเกตรสชาติ ไม่ใช่ตามสูตรตายตัว ส่วนการเติมมะนาวทำให้เปรี้ยวขึ้น ไม่ใช่ลดลง"
+            },
+            {
+              "id": "ON6-S4-037",
+              "stem": "Which of the following best states the theme of the story?",
+              "options": [
+                "Moving in with family can be hard for older people.",
+                "Traditional dishes taste better when older people cook them.",
+                "Family recipes are worth updating with accurate measurements.",
+                "Young cooks learn more from cookbooks than from relatives.",
+                "Good cooking depends more on attention than on exact rules."
+              ],
+              "answer": 4,
+              "skill": "main_idea",
+              "explanationTh": "คำพูดของยาย \"It reminds you to pay attention.\" และตอนจบที่ผู้เล่าเลิกมองหาตัวเลข สื่อว่าการทำอาหารให้ดีอยู่ที่ความใส่ใจ ไม่ใช่ปริมาณที่แน่นอน ตัวเลือกอื่นเป็นความคิดที่เรื่องไม่ได้สื่อ"
+            },
+            {
+              "id": "ON6-S4-038",
+              "stem": "What does the narrator mean by \"I've stopped looking for the number\"?",
+              "options": [
+                "She now weighs every ingredient carefully.",
+                "She has given up cooking altogether.",
+                "She can no longer read the handwriting.",
+                "She has accepted Grandma's way of cooking.",
+                "She has lost Grandma's old notebook."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เล่ายังทำอาหารจากสมุดทุกสุดสัปดาห์ แต่ไม่พยายามหาปริมาณที่แน่นอนอีก แสดงว่ายอมรับวิธีทำอาหารแบบใช้การสังเกตของยาย"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G11",
+          "type": "on_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Reading together, quietly",
+          "text": "Most book clubs follow a familiar pattern: everyone reads the same novel at home, then meets to discuss it. In the small town of Bexley Vale, a group of librarians has turned that idea upside down.\n\nAt their monthly \"Quiet Hour\", members bring any book they like, whether a thriller, a cookbook or a comic, and read silently in the library's reading room for sixty minutes. There is no assigned title and no homework. Only after the hour is over do people chat, usually about whatever they happen to be reading.\n\nThe idea began almost by accident. Librarian Odette Fane noticed that many people who signed up for the traditional book club dropped out after one or two meetings. \"They told me they felt guilty for not finishing the book,\" she explains. \"Reading had become just another chore on their list.\"\n\nQuiet Hour now attracts around forty regulars, from teenagers to retired farmers. Some admit they come mainly for the peace. \"At home there's always a screen or a job waiting,\" says one member, who works night shifts at a bakery. \"Here, for one hour, I'm allowed to do nothing but read.\"\n\nNot everyone is convinced. Critics argue that without a shared book, the conversations stay shallow. Fane disagrees, though she accepts that the point is worth considering. \"We're not trying to replace traditional clubs,\" she says. \"We're offering a door for people who found the old one too heavy to push.\"",
+          "items": [
+            {
+              "id": "ON6-S4-039",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "A library that has stopped lending novels",
+                "A study of how quickly teenagers read",
+                "A traditional book club that meets every week",
+                "A book club that removes the pressure of a set title",
+                "A campaign to cut screen time at home"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าถึง \"Quiet Hour\" ที่ให้สมาชิกนำหนังสืออะไรก็ได้มาอ่าน \"There is no assigned title and no homework\" จึงเป็นชมรมหนังสือที่ไม่กดดันเรื่องต้องอ่านเล่มที่กำหนด"
+            },
+            {
+              "id": "ON6-S4-040",
+              "stem": "According to Odette Fane, why did people leave the traditional club?",
+              "options": [
+                "The meetings were held too late at night.",
+                "They felt bad about not finishing the book.",
+                "They disliked the librarians' choice of books.",
+                "The reading room was far too noisy.",
+                "They preferred reading books on screens."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "Fane เล่าว่า \"They told me they felt guilty for not finishing the book\" คือรู้สึกผิดที่อ่านหนังสือไม่จบ"
+            },
+            {
+              "id": "ON6-S4-041",
+              "stem": "In the last sentence, \"the old one\" refers to ____.",
+              "options": [
+                "the library's reading room",
+                "the novel everyone had to read",
+                "the Quiet Hour meeting",
+                "the traditional book club",
+                "a heavy door in the library"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "Fane เปรียบ Quiet Hour เป็น \"a door\" ใหม่ ดังนั้น \"the old one\" คือประตูเดิม ซึ่งหมายถึงชมรมหนังสือแบบดั้งเดิมที่บางคนรู้สึกว่าหนักเกินไป"
+            },
+            {
+              "id": "ON6-S4-042",
+              "stem": "How does Fane respond to the critics?",
+              "options": [
+                "She tells them to join traditional clubs.",
+                "She disagrees but takes their point seriously.",
+                "She agrees and will start assigning books.",
+                "She ignores everything they have said.",
+                "She says they have never visited Quiet Hour."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "บทความบอกว่า \"Fane disagrees, though she accepts that the point is worth considering\" คือไม่เห็นด้วยแต่ยอมรับว่าประเด็นนั้นควรพิจารณา"
+            },
+            {
+              "id": "ON6-S4-043",
+              "stem": "The word \"shallow\" in paragraph 5 is closest in meaning to ____.",
+              "options": [
+                "lacking depth",
+                "hard to follow",
+                "quiet and polite",
+                "very short in time",
+                "full of arguments"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้วิจารณ์มองว่าเมื่อไม่มีหนังสือเล่มเดียวกัน การสนทนาจะไม่ลึกซึ้ง shallow ในที่นี้จึงแปลว่าผิวเผิน ขาดความลึก"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "groups": [
+        {
+          "id": "ON6-S4-G12",
+          "type": "on_structure",
+          "instructionTh": "เลือกคำตอบที่ถูกต้องหรือเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "ON6-S4-044",
+              "stem": "It's high time the council ____ something about the broken streetlights on our road.",
+              "options": [
+                "will do",
+                "has done",
+                "did",
+                "to do",
+                "does"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"It's high time + ประธาน + V2\" ใช้กริยารูปอดีตเพื่อบอกว่าควรทำได้แล้วตั้งนาน จึงใช้ did"
+            },
+            {
+              "id": "ON6-S4-045",
+              "stem": "The coach insisted that every player ____ at the stadium by seven o'clock sharp.",
+              "options": [
+                "to be",
+                "be",
+                "has been",
+                "being",
+                "will be"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา insist that ใช้ subjunctive คือกริยารูปฐาน (be) กับประธานทุกบุรุษ ไม่ใช่ to-infinitive หรือ V-ing"
+            },
+            {
+              "id": "ON6-S4-046",
+              "stem": "Not until the final whistle blew ____ that they had won the championship.",
+              "options": [
+                "the players realised",
+                "the players did realise",
+                "had realised the players",
+                "realised the players",
+                "did the players realise"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "เมื่อขึ้นต้นประโยคด้วย \"Not until ...\" ต้องกลับกริยาช่วยไว้หน้าประธาน (inversion) เป็น did the players realise"
+            },
+            {
+              "id": "ON6-S4-047",
+              "stem": "Which sentence is closest in meaning to \"Despite the heavy traffic, Somchai arrived on time\"?",
+              "options": [
+                "Although the traffic was heavy, Somchai arrived on time.",
+                "The traffic was heavy, so Somchai arrived late.",
+                "Because the traffic was heavy, Somchai arrived on time.",
+                "Somchai arrived on time, and then the traffic got heavy.",
+                "Unless the traffic was heavy, Somchai arrived on time."
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "Despite + คำนาม มีความหมายเหมือน Although + ประโยค คือ \"แม้ว่า\" ซึ่งแสดงความขัดแย้ง ไม่ใช่เหตุผล (Because) หรือผล (so)"
+            },
+            {
+              "id": "ON6-S4-048",
+              "stem": "Nok is used to ____ up early because she has worked at a bakery for years.",
+              "options": [
+                "have got",
+                "be getting",
+                "got",
+                "get",
+                "getting"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "\"be used to\" (เคยชินกับ) ตามด้วยคำนามหรือ V-ing จึงใช้ getting"
+            },
+            {
+              "id": "ON6-S4-049",
+              "stem": "Choose the most appropriate response. A: \"Would you mind if I opened the window? It's rather stuffy in here.\" B: \"____\"",
+              "options": [
+                "You're welcome, it was nothing.",
+                "Yes, please do it now.",
+                "Not at all. Go ahead.",
+                "Never mind, it's not your fault.",
+                "I'm afraid I would. Go ahead."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "\"Would you mind if ...?\" ถามว่ารังเกียจไหม การอนุญาตจึงต้องตอบปฏิเสธว่า \"Not at all\" ส่วน \"Yes\" แปลว่ารังเกียจ จึงขัดกับ \"please do it\""
+            },
+            {
+              "id": "ON6-S4-050",
+              "stem": "The final report must ____ by Friday, or the project will lose its funding.",
+              "options": [
+                "be submitted",
+                "submit",
+                "submitting",
+                "have submitting",
+                "being submitted"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "รายงานเป็นสิ่งที่ถูกส่ง จึงใช้ passive หลัง modal คือ must + be + V3 = must be submitted"
+            },
+            {
+              "id": "ON6-S4-051",
+              "stem": "The more you practise speaking English, ____ you will become.",
+              "options": [
+                "more confident",
+                "the most confident",
+                "the more confident",
+                "the confident more",
+                "so confident"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"The + comparative ..., the + comparative ...\" (ยิ่ง...ยิ่ง...) จึงต้องใช้ the more confident"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G13",
+          "type": "on_culture",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Talking about the weather, even when you aren't",
+          "text": "Visitors to Britain often joke that the weather is the national hobby. Strangers at bus stops comment on the drizzle; colleagues open meetings by complaining about the wind. Some linguists suggest that in a country where the sky can change several times in one afternoon, the weather offers a safe, shared topic that does not require anyone to reveal personal information. Perhaps it is no surprise, then, that English is full of weather idioms which have nothing to do with the weather at all.\n\nIf you are feeling slightly unwell, you might say you are \"under the weather\". One popular explanation links the phrase to sailors, who were sent below deck, away from the rough weather above, when they felt seasick. When someone stays calm and keeps going through a difficult period, others may admire how they \"weathered the storm\". An argument that is \"a storm in a teacup\", meanwhile, causes far more fuss than it deserves.\n\nOther idioms describe planning. To \"save for a rainy day\" means to put money aside for a future emergency, while \"taking a rain check\" politely postpones an invitation. The second phrase is believed to come from American baseball, where spectators at games cancelled because of rain received a ticket, or \"check\", to attend a later match.\n\nLearners should be careful, however. \"It's raining cats and dogs\" appears in almost every textbook, yet many young British speakers rarely use it, preferring simply \"It's pouring.\" Idioms, like the weather, change over time, and the best way to learn which ones are current is to listen to how people actually speak.",
+          "items": [
+            {
+              "id": "ON6-S4-052",
+              "stem": "According to the passage, why might the weather be such a popular topic in Britain?",
+              "options": [
+                "It is a safe subject that everyone shares.",
+                "British people are trained to forecast it.",
+                "It lets strangers share personal news.",
+                "The British weather hardly ever changes.",
+                "Discussing it is a rule at most meetings."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่าสภาพอากาศเป็น \"a safe, shared topic that does not require anyone to reveal personal information\" คือหัวข้อปลอดภัยที่ทุกคนมีร่วมกัน"
+            },
+            {
+              "id": "ON6-S4-053",
+              "stem": "A friend says, \"I can't come to the cinema tonight, but can I take a rain check?\" She means that she ____.",
+              "options": [
+                "needs to check the weather first",
+                "wants her ticket money back",
+                "has already seen the film",
+                "would rather watch baseball",
+                "would like to go another time"
+              ],
+              "answer": 4,
+              "skill": "culture",
+              "explanationTh": "\"take a rain check\" คือการปฏิเสธคำชวนอย่างสุภาพโดยขอเลื่อนไปครั้งหน้า ตามที่บทความบอกว่า \"politely postpones an invitation\""
+            },
+            {
+              "id": "ON6-S4-054",
+              "stem": "Which situation is the best example of \"a storm in a teacup\"?",
+              "options": [
+                "A team stays calm through a long losing season.",
+                "A boy feels a little unwell and stays at home.",
+                "A family loses its home in a powerful typhoon.",
+                "A student saves part of her allowance every week.",
+                "Two friends argue for an hour over who gets the window seat."
+              ],
+              "answer": 4,
+              "skill": "culture",
+              "explanationTh": "\"a storm in a teacup\" คือเรื่องเล็กที่ถูกทำให้วุ่นวายเกินเหตุ การเถียงกันนานเป็นชั่วโมงเรื่องที่นั่งริมหน้าต่างจึงตรงที่สุด"
+            },
+            {
+              "id": "ON6-S4-055",
+              "stem": "The passage links the origin of \"under the weather\" to ____.",
+              "options": [
+                "fans at cancelled baseball games",
+                "soldiers sheltering under bridges",
+                "people waiting at rainy bus stops",
+                "sailors sent below deck when seasick",
+                "farmers staying indoors during storms"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่า \"One popular explanation links the phrase to sailors, who were sent below deck ... when they felt seasick\""
+            },
+            {
+              "id": "ON6-S4-056",
+              "stem": "What does the writer suggest about the expression \"It's raining cats and dogs\"?",
+              "options": [
+                "It means that the rain has suddenly stopped.",
+                "It is the most common weather idiom in Britain.",
+                "It may sound dated to many young British people.",
+                "It was first used by American baseball fans.",
+                "It should be removed from English textbooks."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าสำนวนนี้มีในตำราแทบทุกเล่ม แต่ \"many young British speakers rarely use it\" จึงอนุมานได้ว่าอาจฟังดูล้าสมัยสำหรับคนรุ่นใหม่"
+            },
+            {
+              "id": "ON6-S4-057",
+              "stem": "In paragraph 2, \"weathered the storm\" is closest in meaning to ____.",
+              "options": [
+                "started an unnecessary argument",
+                "avoided going outside in bad weather",
+                "predicted that a problem was coming",
+                "complained about their bad luck",
+                "got through a hard time successfully"
+              ],
+              "answer": 4,
+              "skill": "vocab_in_context",
+              "explanationTh": "บริบทคือ \"stays calm and keeps going through a difficult period\" สำนวน weather the storm จึงหมายถึงผ่านพ้นช่วงยากลำบากมาได้"
+            },
+            {
+              "id": "ON6-S4-058",
+              "stem": "Which advice would the writer most likely give to learners of English?",
+              "options": [
+                "Notice which idioms people use in real conversations.",
+                "Learn idioms only from old historical sources.",
+                "Never use weather idioms when talking to British people.",
+                "Say \"raining cats and dogs\" whenever it rains hard.",
+                "Memorise every idiom that appears in your textbook."
+              ],
+              "answer": 0,
+              "skill": "culture",
+              "explanationTh": "ประโยคสุดท้ายบอกว่า \"the best way to learn which ones are current is to listen to how people actually speak\" คือให้สังเกตสำนวนที่คนใช้จริง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross_curricular",
+      "groups": [
+        {
+          "id": "ON6-S4-G14",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "The restless ground beneath us",
+          "text": "Although the ground under our feet feels solid and still, Earth's outer shell is in constant, if extremely slow, motion. This shell, called the lithosphere, is broken into about fifteen major pieces known as tectonic plates. They rest on a hotter, softer layer beneath, the asthenosphere, and move at roughly the speed at which fingernails grow: a few centimetres a year.\n\nScientists did not always accept this idea. In the early twentieth century, the suggestion that continents could drift was widely dismissed, largely because no one could explain what force might move them. The evidence grew much stronger in the 1950s and 1960s, when surveys of the ocean floor revealed long underwater mountain ranges where new crust was forming, as well as matching patterns of magnetism in the rocks on either side.\n\nMost geological activity happens at the boundaries between plates. Where plates move apart, molten rock rises to fill the gap and creates new crust. Where they collide, one plate may sink beneath the other in a process called subduction, which often produces deep ocean trenches and chains of volcanoes. Where two plates collide and neither sinks, the crust crumples upwards, which is how the world's highest mountain ranges formed. At a third type of boundary, plates slide past each other sideways; stress builds up along the boundary and is released suddenly as an earthquake.\n\nUnderstanding these movements cannot prevent earthquakes, but it helps engineers decide where to build and how strong structures need to be.",
+          "items": [
+            {
+              "id": "ON6-S4-059",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "Why the ocean floor has no mountains or volcanoes",
+                "Why scientists still reject the idea of moving continents",
+                "How Earth's plates move and what happens where they meet",
+                "How to predict the exact date of the next earthquake",
+                "How engineers measure the speed of fingernail growth"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่าแผ่นเปลือกโลกคืออะไร เคลื่อนที่อย่างไร และเกิดอะไรขึ้นที่รอยต่อแต่ละแบบ ตัวเลือกอื่นเป็นรายละเอียดผิดหรือขัดกับเนื้อเรื่อง"
+            },
+            {
+              "id": "ON6-S4-060",
+              "stem": "What finally made the theory of moving plates more convincing?",
+              "options": [
+                "Measurements of how quickly fingernails grow",
+                "A strong earthquake early in the twentieth century",
+                "The discovery of a force pulling continents apart",
+                "Photographs of the continents taken from space",
+                "Discoveries about the ocean floor in the mid-1900s"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าหลักฐานแข็งแรงขึ้นในช่วงทศวรรษ 1950–1960 เมื่อการสำรวจพื้นมหาสมุทรพบแนวเทือกเขาใต้น้ำและรูปแบบแม่เหล็กในหิน"
+            },
+            {
+              "id": "ON6-S4-061",
+              "stem": "The word \"dismissed\" in paragraph 2 is closest in meaning to ____.",
+              "options": [
+                "proved",
+                "published",
+                "measured",
+                "celebrated",
+                "rejected"
+              ],
+              "answer": 4,
+              "skill": "vocab_in_context",
+              "explanationTh": "ความคิดเรื่องทวีปเคลื่อนที่ไม่ได้รับการยอมรับ \"because no one could explain what force might move them\" dismissed จึงแปลว่าปฏิเสธ (rejected)"
+            },
+            {
+              "id": "ON6-S4-062",
+              "stem": "What would most likely be found where one plate sinks beneath another?",
+              "options": [
+                "Two plates sliding sideways past each other",
+                "A deep trench with volcanoes nearby",
+                "New crust rising in the middle of an ocean",
+                "A wide, flat plain with little activity",
+                "The world's highest mountains without volcanoes"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "บทความบอกว่า subduction (แผ่นหนึ่งมุดลงใต้อีกแผ่น) \"often produces deep ocean trenches and chains of volcanoes\" ส่วนเทือกเขาสูงที่สุดเกิดเมื่อชนกันแต่ไม่มีแผ่นใดมุดลง"
+            },
+            {
+              "id": "ON6-S4-063",
+              "stem": "The writer compares plate movement to the growth of fingernails to show that plates move ____.",
+              "options": [
+                "faster than most people think",
+                "only when an earthquake occurs",
+                "very slowly but continuously",
+                "in unpredictable directions",
+                "at exactly the same speed everywhere"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "เล็บยาวขึ้นช้ามากแต่ไม่หยุด สอดคล้องกับ \"in constant, if extremely slow, motion\" คือเคลื่อนช้ามากแต่ต่อเนื่อง"
+            },
+            {
+              "id": "ON6-S4-064",
+              "stem": "Which conclusion is supported by the last paragraph?",
+              "options": [
+                "Knowing about plate boundaries can help reduce earthquake damage.",
+                "Engineers have found a way to stop earthquakes from happening.",
+                "No buildings should ever be constructed near plate boundaries.",
+                "Earthquakes only happen where plates move away from each other.",
+                "Plate movement has now stopped in most parts of the world."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าความรู้นี้ \"cannot prevent earthquakes, but it helps engineers decide where to build and how strong structures need to be\" ซึ่งช่วยลดความเสียหายได้ แต่ไม่ได้หยุดแผ่นดินไหว"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G15",
+          "type": "on_academic",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Why a scratched QR code still works",
+          "text": "Square black-and-white QR codes now appear everywhere, from café menus to museum labels. Many people have noticed that a code can often still be scanned even when part of it is torn, dirty or covered by a sticker. This is not luck; it is design.\n\nA QR code stores information as a pattern of tiny squares called modules, each representing a binary digit, either a 1 or a 0. The three large squares in the corners do not hold any data. Instead, they tell the scanner where the code is and which way up it is, so that it can be read from almost any angle.\n\nThe secret of the code's toughness is a technique called error correction. When a code is created, extra modules are added that contain no new information but describe the original data in a mathematical way. If some modules are damaged, the scanner uses these extra modules to work out what the missing ones must have been. Designers can choose from four levels of error correction. At the lowest level, about 7 per cent of the code can be restored; at the highest, about 30 per cent.\n\nThere is, however, a trade-off. The more error correction a code contains, the more modules it needs, so the code becomes larger or more crowded for the same amount of information. A code printed on a large outdoor poster, which may get wet or faded, benefits from a high level. A code on a small business card, which will usually be kept clean, can manage with less.",
+          "items": [
+            {
+              "id": "ON6-S4-065",
+              "stem": "What is the purpose of the three large squares in the corners?",
+              "options": [
+                "To help the scanner locate the code and its position",
+                "To store the most important part of the data",
+                "To make the edges of the code look attractive",
+                "To show which level of error correction is used",
+                "To repair any modules that have been damaged"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าสี่เหลี่ยมใหญ่ที่มุม \"tell the scanner where the code is and which way up it is\" และ \"do not hold any data\""
+            },
+            {
+              "id": "ON6-S4-066",
+              "stem": "In paragraph 2, \"they\" in \"Instead, they tell the scanner\" refers to ____.",
+              "options": [
+                "the café menus",
+                "the tiny modules",
+                "the people scanning the code",
+                "the three large corner squares",
+                "the binary digits"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดถึง \"The three large squares in the corners do not hold any data. Instead, they ...\" they จึงหมายถึงสี่เหลี่ยมใหญ่สามอันที่มุม"
+            },
+            {
+              "id": "ON6-S4-067",
+              "stem": "At the highest level of error correction, a code can still be read when ____ of it is damaged.",
+              "options": [
+                "nearly a third",
+                "more than half",
+                "only a tiny fraction",
+                "exactly 7 per cent",
+                "almost all"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ระดับสูงสุดกู้คืนได้ \"about 30 per cent\" ซึ่งใกล้เคียงหนึ่งในสาม ส่วน 7% เป็นระดับต่ำสุด"
+            },
+            {
+              "id": "ON6-S4-068",
+              "stem": "The word \"trade-off\" in paragraph 4 is closest in meaning to ____.",
+              "options": [
+                "a sudden technical failure",
+                "a balance between a gain and a cost",
+                "an exchange of goods between countries",
+                "a method of making codes smaller",
+                "a rule that can never be broken"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ย่อหน้านี้อธิบายว่ายิ่งแก้ไขข้อผิดพลาดได้มาก โค้ดก็ยิ่งใหญ่หรือแน่นขึ้น คือได้อย่างหนึ่งต้องเสียอีกอย่าง trade-off จึงหมายถึงการได้อย่างเสียอย่าง"
+            },
+            {
+              "id": "ON6-S4-069",
+              "stem": "Which QR code would benefit MOST from a high level of error correction?",
+              "options": [
+                "One on a bus-stop sign exposed to rain and sun",
+                "One on a business card kept inside a wallet",
+                "One inside a book that is stored on a shelf",
+                "One that must be printed as small as possible",
+                "One shown briefly on a clean phone screen"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "บทความบอกว่าโค้ดบนโปสเตอร์กลางแจ้ง \"which may get wet or faded, benefits from a high level\" ป้ายรถเมล์ที่โดนฝนและแดดจึงตรงที่สุด ส่วนโค้ดที่ต้องเล็กที่สุดควรใช้ระดับต่ำ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community_world",
+      "groups": [
+        {
+          "id": "ON6-S4-G16",
+          "type": "on_visual",
+          "instructionTh": "ศึกษาตารางและข้อความ แล้วตอบคำถาม",
+          "title": "Migration in five countries",
+          "text": "Net migration is the number of arrivals minus the number of departures. A positive figure means that a country's population grew as a result of migration; a negative figure means it shrank.",
+          "table": {
+            "caption": "Migration into and out of five countries, 2025 (thousands of people)",
+            "columns": [
+              "Country",
+              "Arrivals",
+              "Departures",
+              "Net migration",
+              "Main reason for arrival"
+            ],
+            "rows": [
+              [
+                "Valdoria",
+                "182",
+                "95",
+                "+87",
+                "Work"
+              ],
+              [
+                "Ostrenia",
+                "64",
+                "121",
+                "−57",
+                "Study"
+              ],
+              [
+                "Kelmar",
+                "210",
+                "204",
+                "+6",
+                "Family"
+              ],
+              [
+                "Pelland",
+                "47",
+                "39",
+                "+8",
+                "Study"
+              ],
+              [
+                "Sundavi",
+                "133",
+                "58",
+                "+75",
+                "Work"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "ON6-S4-070",
+              "stem": "Which country gained the most people through migration in 2025?",
+              "options": [
+                "Pelland",
+                "Sundavi",
+                "Valdoria",
+                "Ostrenia",
+                "Kelmar"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "ดูคอลัมน์ Net migration ค่าสูงสุดคือ +87 ของ Valdoria แม้ Kelmar จะมีคนเข้ามามากที่สุด แต่มีคนออกเกือบเท่ากัน จึงเพิ่มเพียง +6"
+            },
+            {
+              "id": "ON6-S4-071",
+              "stem": "In which country did more people leave than arrive?",
+              "options": [
+                "Kelmar",
+                "Ostrenia",
+                "Pelland",
+                "Valdoria",
+                "Sundavi"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "Ostrenia มีคนเข้า 64 พันคน แต่ออก 121 พันคน ค่า net migration จึงติดลบ (−57) เป็นประเทศเดียว"
+            },
+            {
+              "id": "ON6-S4-072",
+              "stem": "How many more people arrived in Sundavi than in Pelland?",
+              "options": [
+                "75,000",
+                "67,000",
+                "94,000",
+                "86,000",
+                "180,000"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "Sundavi มีคนเข้า 133 พันคน และ Pelland 47 พันคน ต่างกัน 133 − 47 = 86 พันคน หรือ 86,000 คน"
+            },
+            {
+              "id": "ON6-S4-073",
+              "stem": "Which statement is supported by the table?",
+              "options": [
+                "Ostrenia's population grew by 57,000 through migration.",
+                "Pelland had more departures than arrivals in 2025.",
+                "Kelmar had the most arrivals but only a small net gain.",
+                "Study was the main reason people moved to Valdoria.",
+                "Sundavi and Valdoria received equal numbers of people."
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "Kelmar มีคนเข้ามามากที่สุด (210) แต่ net migration เพียง +6 เพราะมีคนออก 204 ส่วนข้ออื่นขัดกับตาราง เช่น Ostrenia ติดลบ 57 คือประชากรลดลง"
+            },
+            {
+              "id": "ON6-S4-074",
+              "stem": "In which two countries was work the main reason for arrival?",
+              "options": [
+                "Ostrenia and Pelland",
+                "Valdoria and Sundavi",
+                "Kelmar and Valdoria",
+                "Sundavi and Kelmar",
+                "Pelland and Valdoria"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "คอลัมน์ Main reason for arrival ระบุ \"Work\" เฉพาะ Valdoria และ Sundavi ส่วน Ostrenia และ Pelland คือ Study และ Kelmar คือ Family"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S4-G17",
+          "type": "on_world",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "The food we never eat",
+          "text": "Every year, a large share of the food produced around the world is never eaten. Estimates vary, but researchers agree that a surprising amount is lost or wasted somewhere between the farm and the plate. The problem is not only a moral one, as food is thrown away while many people still go hungry. It is also environmental. When food is wasted, so are the water, land, fuel and labour used to produce it, and food rotting in landfill releases methane, a powerful greenhouse gas.\n\nInterestingly, where the waste happens depends heavily on a country's wealth. In lower-income countries, most food is lost early in the chain: crops spoil in the field because of poor storage, or go bad on the way to market without refrigerated transport. In wealthier countries, by contrast, the largest share is wasted at the end, in shops and, above all, in homes. Supermarkets may reject vegetables that are the wrong shape, and households buy more than they need, then throw it out once it passes a \"best before\" date, even though such food is often still perfectly fine.\n\nSolutions therefore differ too. In some regions, simple technology such as airtight grain bags or solar-powered cold rooms can save a large part of a harvest. Elsewhere, the focus is on changing habits: planning meals, freezing leftovers and understanding date labels. In the city of Norhaven, for example, a pilot scheme gave 500 families a weekly meal-planning sheet; after six months, they reported throwing away about a quarter less food.\n\nNo single solution fits everywhere, but the aim is the same: making sure that food fulfils the purpose it was grown for.",
+          "items": [
+            {
+              "id": "ON6-S4-075",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Households can reduce greenhouse gases mainly by freezing their leftovers.",
+                "Where food is wasted varies with wealth, so the solutions vary as well.",
+                "Refrigerated transport is the most effective way to cut waste in rich countries.",
+                "Better date labels on packaging would prevent most of the world's food waste.",
+                "Wealthier countries now waste less food overall than poorer countries do."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความชี้ว่าจุดที่เกิดการสูญเสียอาหารขึ้นอยู่กับความมั่งคั่งของประเทศ และ \"Solutions therefore differ too\" ตัวเลือกอื่นเป็นรายละเอียดย่อยที่บิดเบือนหรือไม่ได้กล่าวไว้"
+            },
+            {
+              "id": "ON6-S4-076",
+              "stem": "In lower-income countries, most food is lost ____.",
+              "options": [
+                "after its best-before date",
+                "in restaurants and cafés",
+                "before it reaches consumers",
+                "in household kitchens",
+                "on supermarket shelves"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าในประเทศรายได้ต่ำ \"most food is lost early in the chain\" เช่น เน่าในไร่หรือระหว่างขนส่งไปตลาด คือก่อนถึงมือผู้บริโภค"
+            },
+            {
+              "id": "ON6-S4-077",
+              "stem": "Why is wasted food described as an environmental problem?",
+              "options": [
+                "It attracts wild animals into large cities.",
+                "It makes farmland less fertile year after year.",
+                "It pushes up the price of fuel for drivers.",
+                "It reduces the amount of rain that farms receive.",
+                "The resources used to produce it are wasted as well."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"When food is wasted, so are the water, land, fuel and labour used to produce it\" และยังปล่อยก๊าซมีเทนด้วย"
+            },
+            {
+              "id": "ON6-S4-078",
+              "stem": "The phrase \"by contrast\" in paragraph 2 could best be replaced by ____.",
+              "options": [
+                "as a result",
+                "in addition",
+                "on the other hand",
+                "at the same time",
+                "for example"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "by contrast ใช้เปรียบเทียบความต่างระหว่างประเทศรายได้ต่ำกับประเทศร่ำรวย จึงมีความหมายเท่ากับ on the other hand"
+            },
+            {
+              "id": "ON6-S4-079",
+              "stem": "What happened to the families in the Norhaven pilot scheme?",
+              "options": [
+                "They saved exactly 500 meals a week.",
+                "They threw away about 25% less food.",
+                "They stopped buying fresh vegetables.",
+                "They wasted a third more food than before.",
+                "They began using solar-powered cold rooms."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าหลังหกเดือนครอบครัวเหล่านี้ \"reported throwing away about a quarter less food\" ซึ่งเท่ากับลดลงประมาณ 25%"
+            },
+            {
+              "id": "ON6-S4-080",
+              "stem": "Which action best matches the advice given for wealthier countries?",
+              "options": [
+                "Building refrigerated trucks for local farmers",
+                "Throwing food away on its best-before date",
+                "Using airtight bags to store harvested grain",
+                "Checking the fridge before writing a shopping list",
+                "Buying extra food in case of an emergency"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "สำหรับประเทศร่ำรวย บทความเน้นการเปลี่ยนพฤติกรรม เช่น \"planning meals\" การดูของในตู้เย็นก่อนจดรายการซื้อจึงตรงที่สุด ส่วนถุงเก็บเมล็ดพืชและรถห้องเย็นเป็นทางแก้ของประเทศรายได้ต่ำ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  }
+}

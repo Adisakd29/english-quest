@@ -1,0 +1,389 @@
+{
+  "topic": "emails",
+  "items": [
+    {
+      "id": "W-EML-01",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "I hope this email finds you well",
+      "th": "หวังว่าคุณจะสบายดี",
+      "noteTH": "ประโยคทักทายสุภาพหลังคำขึ้นต้นอีเมล ใช้กับลูกค้าหรือคนที่ไม่ได้ติดต่อกันมาสักพัก ไม่จำเป็นต้องใช้กับเพื่อนร่วมทีมที่คุยกันทุกวัน",
+      "example": "Dear Ms. Carter, I hope this email finds you well.",
+      "exampleTH": "เรียนคุณคาร์เตอร์ หวังว่าคุณจะสบายดีนะคะ",
+      "situation": {
+        "promptTH": "คุณกำลังเขียนอีเมลถึงลูกค้าที่ไม่ได้ติดต่อกันมาหลายเดือน หลังคำขึ้นต้น \"Dear Mr. Lee,\" คุณควรเขียนประโยคทักทายว่าอะไร",
+        "options": [
+          "Hey, what's up?",
+          "I hope this email finds you well.",
+          "I hope this email finds you busy.",
+          "Why haven't you contacted us for months?"
+        ],
+        "answer": 1,
+        "whyTH": "\"I hope this email finds you well.\" เป็นคำทักทายสุภาพมาตรฐาน · \"Hey, what's up?\" กันเองเกินไปสำหรับลูกค้า · \"finds you busy\" ฟังแปลกและไม่ใช่การอวยพร · ประโยคที่ถามว่าทำไมไม่ติดต่อมาฟังเหมือนต่อว่า"
+      },
+      "cloze": {
+        "sentence": "Dear Ms. Carter, I hope this email ___ you well.",
+        "options": [
+          "gets",
+          "takes",
+          "finds",
+          "brings"
+        ],
+        "answer": 2,
+        "whyTH": "สำนวนตายตัวคือ this email finds you well (หวังว่าตอนที่อีเมลไปถึง คุณสบายดี) · gets, takes, brings ใช้กับ you well ในความหมายนี้ไม่ได้"
+      }
+    },
+    {
+      "id": "W-EML-02",
+      "level": "B1",
+      "register": "informal",
+      "phrase": "Just following up on",
+      "th": "ขอติดตามเรื่อง… อีกครั้ง",
+      "noteTH": "ใช้ทวงถามแบบสั้นและเป็นกันเองกับเพื่อนร่วมงาน เมื่อส่งอีเมลไปแล้วยังไม่ได้รับคำตอบ",
+      "example": "Hi Sam, just following up on my email from Monday about the budget.",
+      "exampleTH": "สวัสดีแซม ขอติดตามอีเมลที่ส่งไปเมื่อวันจันทร์เรื่องงบประมาณอีกครั้งนะ",
+      "situation": {
+        "promptTH": "คุณส่งอีเมลถามเพื่อนร่วมทีมเรื่องตารางงานไปตั้งแต่วันจันทร์ แต่ยังไม่มีคำตอบ คุณจะส่งข้อความทวงถามแบบเป็นกันเองว่าอะไร",
+        "options": [
+          "Just cancelling my email about the schedule.",
+          "Just forget my email about the schedule.",
+          "Just following up on my email about the schedule.",
+          "You never read my emails, do you?"
+        ],
+        "answer": 2,
+        "whyTH": "\"Just following up on...\" เป็นการทวงถามอย่างเป็นกันเองและสุภาพ · cancelling คือยกเลิกเรื่อง · \"Just forget my email\" บอกให้ลืมอีเมล ไม่ใช่ทวงถาม · ประโยคสุดท้ายประชดและไม่สุภาพ"
+      },
+      "cloze": {
+        "sentence": "Hi Sam, just ___ up on my email from Monday about the budget.",
+        "options": [
+          "following",
+          "looking",
+          "setting",
+          "holding"
+        ],
+        "answer": 0,
+        "whyTH": "follow up on = ติดตามเรื่อง · look up = ค้นหา · set up = จัดตั้ง/ติดตั้ง · hold up = ทำให้ล่าช้า ไม่มีคำไหนใช้กับ on my email ในความหมายทวงถามได้"
+      }
+    },
+    {
+      "id": "W-EML-03",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "Please find attached",
+      "th": "กรุณาดูไฟล์ที่แนบมา",
+      "noteTH": "ใช้แจ้งว่ามีไฟล์แนบในอีเมล เป็นสำนวนทางการที่ใช้กับลูกค้าและหน่วยงานภายนอก ถ้าเป็นกันเองใช้ I've attached แทนได้",
+      "example": "Please find attached the signed contract for your review.",
+      "exampleTH": "กรุณาดูสัญญาที่ลงนามแล้วซึ่งแนบมาเพื่อให้คุณพิจารณา",
+      "situation": {
+        "promptTH": "หัวหน้าขอให้คุณส่งใบเสนอราคาให้ลูกค้าทางอีเมลอย่างเป็นทางการ คุณจะเขียนบอกเรื่องไฟล์แนบว่าอะไร",
+        "options": [
+          "Please find attached our quotation for your review.",
+          "Please find our quotation somewhere on the internet.",
+          "Please attach our quotation for your review.",
+          "I forgot to attach our quotation, sorry."
+        ],
+        "answer": 0,
+        "whyTH": "\"Please find attached...\" คือการแจ้งว่าแนบไฟล์มาแล้วอย่างเป็นทางการ · ให้ลูกค้าไปหาเองในอินเทอร์เน็ตไม่เหมาะ · \"Please attach\" กลายเป็นสั่งให้ลูกค้าแนบไฟล์เอง · ข้อสุดท้ายบอกว่าลืมแนบ ซึ่งไม่ใช่สิ่งที่ต้องการ"
+      },
+      "cloze": {
+        "sentence": "Please find ___ the signed contract for your review.",
+        "options": [
+          "attaching",
+          "attach",
+          "attaches",
+          "attached"
+        ],
+        "answer": 3,
+        "whyTH": "สำนวนคือ Please find attached (ใช้รูป attached ซึ่งแปลว่า \"ที่แนบมา\") · attaching, attach, attaches ไม่ใช่รูปที่ใช้ในสำนวนนี้"
+      }
+    },
+    {
+      "id": "W-EML-04",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Could you let me know",
+      "th": "ช่วยแจ้งให้ฉันทราบได้ไหม",
+      "noteTH": "ใช้ขอข้อมูลอย่างสุภาพ ใช้ได้ทั้งกับเพื่อนร่วมงานและลูกค้า ตามด้วย when, if, whether หรือ what ได้",
+      "example": "Could you let me know when the report will be ready?",
+      "exampleTH": "ช่วยแจ้งให้ฉันทราบได้ไหมว่ารายงานจะเสร็จเมื่อไร",
+      "situation": {
+        "promptTH": "คุณต้องการทราบว่าฝ่ายจัดส่งจะส่งสินค้าถึงลูกค้าวันไหน คุณจะเขียนขอข้อมูลจากเพื่อนร่วมงานว่าอะไร",
+        "options": [
+          "Could you let me know why you hate deliveries?",
+          "Tell me the delivery date now.",
+          "Could you deliver me to the customer?",
+          "Could you let me know when the order will be delivered?"
+        ],
+        "answer": 3,
+        "whyTH": "\"Could you let me know when...\" ขอข้อมูลได้สุภาพและตรงประเด็น · การถามว่าทำไมเกลียดการส่งของไม่เกี่ยวและไม่สุภาพ · \"Tell me... now\" เป็นคำสั่งที่ห้วน · \"deliver me\" แปลว่าให้ส่งตัวคุณไปหาลูกค้า ผิดความหมาย"
+      },
+      "cloze": {
+        "sentence": "Could you ___ me know when the report will be ready?",
+        "options": [
+          "make",
+          "let",
+          "tell",
+          "give"
+        ],
+        "answer": 1,
+        "whyTH": "let me know = แจ้งให้ฉันทราบ · make me know ไม่ใช่สำนวนที่ใช้ · tell me know และ give me know ผิดโครงสร้าง"
+      }
+    },
+    {
+      "id": "W-EML-05",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "I would appreciate it if you could",
+      "th": "จะเป็นพระคุณอย่างยิ่งหากคุณช่วย",
+      "noteTH": "ใช้ขอร้องอย่างสุภาพและเป็นทางการ เหมาะกับการขอสิ่งที่ต้องรบกวนอีกฝ่าย ระวังอย่าลืมคำว่า it",
+      "example": "I would appreciate it if you could send the final figures by Friday.",
+      "exampleTH": "จะเป็นพระคุณอย่างยิ่งหากคุณช่วยส่งตัวเลขฉบับสุดท้ายภายในวันศุกร์",
+      "situation": {
+        "promptTH": "คุณต้องขอให้ซัพพลายเออร์ส่งเอกสารเพิ่มเติมก่อนสิ้นเดือน และต้องการใช้ภาษาที่สุภาพเป็นทางการ คุณจะเขียนว่าอะไร",
+        "options": [
+          "Send the documents by the end of the month or else.",
+          "I would appreciate it if you could forget the documents.",
+          "I would appreciate it if you could send the documents by the end of the month.",
+          "Maybe send the documents sometime, whatever."
+        ],
+        "answer": 2,
+        "whyTH": "\"I would appreciate it if you could...\" เป็นคำขอที่สุภาพเป็นทางการ · \"or else\" เป็นการขู่ · ขอให้ลืมเอกสารตรงข้ามกับสิ่งที่ต้องการ · \"sometime, whatever\" ไม่ระบุเวลาและฟังไม่ใส่ใจ"
+      },
+      "cloze": {
+        "sentence": "I would ___ it if you could send the final figures by Friday.",
+        "options": [
+          "thank",
+          "appreciate",
+          "grateful",
+          "pleasure"
+        ],
+        "answer": 1,
+        "whyTH": "appreciate it if = ซาบซึ้งถ้า... · thank it ผิดเพราะ thank ต้องตามด้วยคน · grateful เป็นคำคุณศัพท์ ต้องเป็น would be grateful · pleasure เป็นคำนาม ใช้แบบนี้ไม่ได้"
+      }
+    },
+    {
+      "id": "W-EML-06",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Sorry for the late reply",
+      "th": "ขอโทษที่ตอบช้านะ",
+      "noteTH": "ใช้ขึ้นต้นอีเมลตอบกลับเมื่อตอบช้าไปเล็กน้อย เหมาะกับเพื่อนร่วมงาน ถ้าเป็นทางการให้ใช้ Apologies for the delay in responding",
+      "example": "Sorry for the late reply, and thanks for your patience.",
+      "exampleTH": "ขอโทษที่ตอบช้านะ และขอบคุณที่รอ",
+      "situation": {
+        "promptTH": "เพื่อนร่วมงานส่งอีเมลมาถามคุณเมื่อสามวันก่อน แต่คุณเพิ่งได้อ่าน คุณจะขึ้นต้นอีเมลตอบกลับว่าอะไร",
+        "options": [
+          "Sorry for the early reply. Here are the details you asked for.",
+          "Sorry for the late reply. Here are the details you asked for.",
+          "Why did you email me three days ago?",
+          "Congratulations on your reply. Here are the details."
+        ],
+        "answer": 1,
+        "whyTH": "\"Sorry for the late reply\" ขอโทษที่ตอบช้าได้ตรงสถานการณ์ · early reply แปลว่าตอบเร็ว ตรงข้ามกับความจริง · การถามว่าทำไมส่งอีเมลมาไม่สุภาพ · การแสดงความยินดีไม่เกี่ยวกับสถานการณ์"
+      },
+      "cloze": {
+        "sentence": "Sorry for the ___ reply, and thanks for your patience.",
+        "options": [
+          "latest",
+          "last",
+          "lately",
+          "late"
+        ],
+        "answer": 3,
+        "whyTH": "late reply = การตอบที่ล่าช้า · latest reply = คำตอบล่าสุด · last reply = คำตอบครั้งก่อน · lately เป็นคำกริยาวิเศษณ์ แปลว่า \"ช่วงนี้\" ไม่มีคำไหนสื่อว่าตอบช้า"
+      }
+    },
+    {
+      "id": "W-EML-07",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "Apologies for the delay in responding",
+      "th": "ขออภัยที่ตอบกลับล่าช้า",
+      "noteTH": "ใช้ขอโทษอย่างเป็นทางการเมื่อตอบอีเมลลูกค้าหรือผู้บริหารช้า มักตามด้วยคำตอบหรือเหตุผลสั้นๆ",
+      "example": "Apologies for the delay in responding to your inquiry about our services.",
+      "exampleTH": "ขออภัยที่ตอบกลับคำถามของคุณเกี่ยวกับบริการของเราล่าช้า",
+      "situation": {
+        "promptTH": "ลูกค้าส่งอีเมลสอบถามราคามาเมื่อสัปดาห์ก่อน และคุณเพิ่งตอบกลับ คุณจะขึ้นต้นอีเมลอย่างเป็นทางการว่าอะไร",
+        "options": [
+          "Thank you for waiting forever, LOL.",
+          "Apologies for responding to your inquiry so quickly.",
+          "Your inquiry was not important, so we waited.",
+          "Apologies for the delay in responding to your inquiry."
+        ],
+        "answer": 3,
+        "whyTH": "\"Apologies for the delay in responding...\" ขอโทษอย่างเป็นทางการและตรงสถานการณ์ · \"LOL\" และ \"forever\" ไม่เหมาะกับลูกค้า · ขอโทษที่ตอบเร็วผิดความจริง · บอกว่าคำถามไม่สำคัญเป็นการดูถูกลูกค้า"
+      },
+      "cloze": {
+        "sentence": "Apologies for the delay in ___ to your inquiry about our services.",
+        "options": [
+          "responding",
+          "requesting",
+          "reminding",
+          "resigning"
+        ],
+        "answer": 0,
+        "whyTH": "delay in responding = ความล่าช้าในการตอบกลับ · requesting = การร้องขอ · reminding = การเตือน · resigning = การลาออก ไม่เข้ากับบริบทการตอบคำถามลูกค้า"
+      }
+    },
+    {
+      "id": "W-EML-08",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Please let me know if you have any questions",
+      "th": "หากมีคำถามใดๆ แจ้งได้เลย",
+      "noteTH": "ประโยคปิดท้ายอีเมลยอดนิยม แสดงว่าพร้อมช่วยเหลือ ใช้ได้เกือบทุกสถานการณ์ก่อนคำลงท้าย",
+      "example": "Please let me know if you have any questions about the new schedule.",
+      "exampleTH": "หากมีคำถามใดๆ เกี่ยวกับตารางงานใหม่ แจ้งได้เลยนะ",
+      "situation": {
+        "promptTH": "คุณส่งคู่มือการใช้ระบบใหม่ให้ทีมทางอีเมล และอยากปิดท้ายว่าพร้อมช่วยตอบข้อสงสัย คุณจะเขียนว่าอะไร",
+        "options": [
+          "Please let me know if you have any questions about the guide.",
+          "Please don't ask me any questions about the guide.",
+          "Please let me know if you have any free time to read my diary.",
+          "Questions about the guide will not be answered."
+        ],
+        "answer": 0,
+        "whyTH": "\"Please let me know if you have any questions...\" แสดงว่าพร้อมช่วยเหลือ · \"don't ask me\" ปฏิเสธการช่วยเหลือ · ถามเรื่องเวลาว่างอ่านไดอารี่ไม่เกี่ยวกับงาน · บอกว่าจะไม่ตอบคำถามตรงข้ามกับสิ่งที่ต้องการ"
+      },
+      "cloze": {
+        "sentence": "Please let me know if you have any ___ about the new schedule.",
+        "options": [
+          "answers",
+          "reasons",
+          "questions",
+          "replies"
+        ],
+        "answer": 2,
+        "whyTH": "have any questions about = มีคำถามเกี่ยวกับ... · answers คือคำตอบ ผู้รับยังไม่มีคำตอบให้ · reasons และ replies ไม่สื่อว่ามีข้อสงสัย"
+      }
+    },
+    {
+      "id": "W-EML-09",
+      "level": "B1",
+      "register": "formal",
+      "phrase": "I look forward to hearing from you",
+      "th": "หวังว่าจะได้รับการติดต่อกลับจากคุณ",
+      "noteTH": "ประโยคปิดท้ายอีเมลทางการ ใช้เมื่อรอคำตอบจากอีกฝ่าย หลัง look forward to ต้องตามด้วยกริยาเติม -ing",
+      "example": "Thank you for your time, and I look forward to hearing from you.",
+      "exampleTH": "ขอบคุณที่สละเวลา และหวังว่าจะได้รับการติดต่อกลับจากคุณ",
+      "situation": {
+        "promptTH": "คุณส่งข้อเสนอโครงการให้ลูกค้ารายใหม่ และต้องการปิดอีเมลอย่างเป็นทางการโดยบอกว่ารอคำตอบอยู่ คุณจะเขียนว่าอะไร",
+        "options": [
+          "I look forward to never hearing from you.",
+          "I look forward to hearing from you.",
+          "Don't bother replying.",
+          "I look forward to hearing myself."
+        ],
+        "answer": 1,
+        "whyTH": "\"I look forward to hearing from you.\" บอกว่ารอคำตอบอย่างสุภาพ · \"never hearing from you\" แปลว่าไม่อยากได้ยินจากเขาอีก · \"Don't bother replying\" บอกว่าไม่ต้องตอบ · \"hearing myself\" ไม่มีความหมายในบริบทนี้"
+      },
+      "cloze": {
+        "sentence": "Thank you for your time, and I look forward to ___ from you.",
+        "options": [
+          "hear",
+          "listening",
+          "receiving",
+          "hearing"
+        ],
+        "answer": 3,
+        "whyTH": "look forward to + กริยา -ing และ hear from = ได้รับการติดต่อจาก · hear ผิดเพราะหลัง to ในสำนวนนี้ต้องเป็น -ing · listening from และ receiving from you ไม่ใช่สำนวนที่ใช้"
+      }
+    },
+    {
+      "id": "W-EML-10",
+      "level": "B1",
+      "register": "neutral",
+      "phrase": "Thanks in advance for your help",
+      "th": "ขอบคุณล่วงหน้าสำหรับความช่วยเหลือ",
+      "noteTH": "ใช้ปิดท้ายอีเมลที่ขอความช่วยเหลือ เป็นการขอบคุณก่อนที่อีกฝ่ายจะลงมือทำ ใช้กับเพื่อนร่วมงานได้ดี",
+      "example": "Could you check these numbers before noon? Thanks in advance for your help!",
+      "exampleTH": "ช่วยตรวจตัวเลขเหล่านี้ก่อนเที่ยงได้ไหม ขอบคุณล่วงหน้าสำหรับความช่วยเหลือนะ",
+      "situation": {
+        "promptTH": "คุณขอให้เพื่อนร่วมงานต่างแผนกช่วยส่งข้อมูลยอดขายให้ และต้องการขอบคุณไว้ก่อนในตอนท้ายอีเมล คุณจะเขียนว่าอะไร",
+        "options": [
+          "Thanks for nothing.",
+          "Thanks in advance, but I'll probably do it myself.",
+          "Thanks in advance for your help with the sales data.",
+          "Thank you for already sending the sales data."
+        ],
+        "answer": 2,
+        "whyTH": "\"Thanks in advance for your help\" ขอบคุณล่วงหน้าอย่างเป็นมิตร · \"Thanks for nothing\" เป็นการประชด · บอกว่าจะทำเองแสดงว่าไม่ไว้ใจ · ขอบคุณที่ส่งมาแล้วผิดความจริงเพราะเขายังไม่ได้ส่ง"
+      },
+      "cloze": {
+        "sentence": "Could you check these numbers before noon? Thanks in ___ for your help!",
+        "options": [
+          "advance",
+          "before",
+          "ahead",
+          "front"
+        ],
+        "answer": 0,
+        "whyTH": "in advance = ล่วงหน้า · in before, in ahead, in front ไม่ใช่สำนวนขอบคุณล่วงหน้า (in front แปลว่าข้างหน้า ตามตำแหน่ง)"
+      }
+    },
+    {
+      "id": "W-EML-11",
+      "level": "B2",
+      "register": "formal",
+      "phrase": "Could you please confirm whether",
+      "th": "รบกวนช่วยยืนยันว่า… หรือไม่",
+      "noteTH": "ใช้ขอให้อีกฝ่ายยืนยันข้อมูลที่ยังไม่แน่ใจ whether ใช้กับคำถามแบบใช่หรือไม่ใช่ เหมาะกับอีเมลทางการ",
+      "example": "Could you please confirm whether the meeting room is still available on Thursday?",
+      "exampleTH": "รบกวนช่วยยืนยันว่าห้องประชุมยังว่างอยู่ในวันพฤหัสบดีหรือไม่",
+      "situation": {
+        "promptTH": "คุณไม่แน่ใจว่าลูกค้าได้รับใบแจ้งหนี้ที่ส่งไปแล้วหรือยัง คุณจะเขียนถามอย่างเป็นทางการว่าอะไร",
+        "options": [
+          "Could you please confirm whether you have received our invoice?",
+          "Could you please confirm whether you like our logo?",
+          "Did you lose our invoice again?",
+          "Could you please pay twice to be safe?"
+        ],
+        "answer": 0,
+        "whyTH": "\"Could you please confirm whether...\" ขอให้ยืนยันว่าได้รับใบแจ้งหนี้หรือไม่ ตรงกับสิ่งที่อยากรู้ · ถามว่าชอบโลโก้ไหมไม่เกี่ยว · \"lose... again\" เป็นการกล่าวหา · ขอให้จ่ายสองครั้งไม่สมเหตุสมผล"
+      },
+      "cloze": {
+        "sentence": "Could you please ___ whether the meeting room is still available on Thursday?",
+        "options": [
+          "conform",
+          "convince",
+          "confirm",
+          "contain"
+        ],
+        "answer": 2,
+        "whyTH": "confirm whether = ยืนยันว่า...หรือไม่ · conform = ทำตามกฎ · convince = โน้มน้าว · contain = บรรจุ ไม่มีคำไหนใช้ขอให้ยืนยันข้อมูลได้"
+      }
+    },
+    {
+      "id": "W-EML-12",
+      "level": "B2",
+      "register": "informal",
+      "phrase": "I'm looping in",
+      "th": "ขอดึง… เข้ามาร่วมในอีเมลนี้ด้วย",
+      "noteTH": "ใช้บอกว่าได้เพิ่มคนใหม่เข้ามาในอีเมล (มัก cc) เพราะเขาเกี่ยวข้องกับเรื่องนี้ ใช้กันมากในอีเมลทำงานแบบอเมริกัน",
+      "example": "I'm looping in Dana, who manages our invoices.",
+      "exampleTH": "ขอดึงดาน่าซึ่งดูแลเรื่องใบแจ้งหนี้ของเราเข้ามาร่วมในอีเมลนี้ด้วย",
+      "situation": {
+        "promptTH": "คุณกำลังคุยอีเมลกับลูกค้าเรื่องปัญหาทางเทคนิค และเพิ่มชื่อเพื่อนร่วมทีมฝ่าย IT เข้ามาใน cc คุณจะบอกทุกคนว่าอะไร",
+        "options": [
+          "I'm removing Ken from our IT team, who can help with this issue.",
+          "Ken from IT is useless, but here he is.",
+          "I'm looping out of this issue forever.",
+          "I'm looping in Ken from our IT team, who can help with this issue."
+        ],
+        "answer": 3,
+        "whyTH": "\"I'm looping in Ken...\" แจ้งว่าดึงคนที่ช่วยได้เข้ามาในอีเมล · removing คือเอาออก ขัดกับที่เพิ่งเพิ่มชื่อ · ว่าเพื่อนร่วมงานว่าไร้ประโยชน์ไม่เป็นมืออาชีพ · \"looping out... forever\" แปลว่าจะออกจากเรื่องนี้ ไม่ตรงสถานการณ์"
+      },
+      "cloze": {
+        "sentence": "I'm ___ in Dana, who manages our invoices.",
+        "options": [
+          "logging",
+          "looping",
+          "locking",
+          "leaving"
+        ],
+        "answer": 1,
+        "whyTH": "loop someone in = ดึงใครเข้ามารับรู้เรื่อง · log in = เข้าสู่ระบบ · lock in = ล็อกไว้ · leave in = ทิ้งไว้ข้างใน ไม่มีคำไหนสื่อว่าเพิ่มคนเข้ามาในอีเมล"
+      }
+    }
+  ]
+}

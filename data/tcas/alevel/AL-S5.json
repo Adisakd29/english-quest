@@ -1,0 +1,1563 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S5",
+  "title": "A-Level ชุดฝึกที่ 5",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 1,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  },
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S5-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Reporting a lost student card",
+          "dialogue": [
+            {
+              "speaker": "Staff",
+              "text": "Good afternoon. Is there something I can help you with?"
+            },
+            {
+              "speaker": "Nan",
+              "text": "I hope so. I think I dropped my student card somewhere near the canteen this morning. ___1___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Let me check the lost property box. What's your name and which class are you in?"
+            },
+            {
+              "speaker": "Nan",
+              "text": "Nan Siriwan, Grade 11, Room 4."
+            },
+            {
+              "speaker": "Staff",
+              "text": "Hmm, there's nothing under that name, I'm afraid. ___2___"
+            },
+            {
+              "speaker": "Nan",
+              "text": "Later today? The thing is, I need it to borrow books from the library this afternoon."
+            },
+            {
+              "speaker": "Staff",
+              "text": "In that case, I can give you a temporary pass that's valid for one week. ___3___"
+            },
+            {
+              "speaker": "Nan",
+              "text": "Sure, here's my national ID card. How much is a new student card if the old one never turns up?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "It's 100 baht, and it takes three working days to print. ___4___"
+            },
+            {
+              "speaker": "Nan",
+              "text": "That's fair. I'll come back on Friday if nobody hands it in."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S5-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Has anyone handed one in yet?",
+                "Could you print me a new one right now?",
+                "Do you know when the canteen closes today?",
+                "Is it all right if I miss my next class?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"Let me check the lost property box\" แสดงว่า Nan ถามว่ามีคนนำบัตรมาคืนหรือยัง ส่วนการขอพิมพ์บัตรใหม่ทันที เวลาปิดโรงอาหาร หรือการขาดเรียนไม่สอดคล้องกับการไปค้นกล่องของหาย"
+            },
+            {
+              "id": "AL-S5-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Someone may still bring it in later today, though.",
+                "The canteen staff have already returned it to you.",
+                "You'll have to pay for a new card immediately.",
+                "Our records show it was handed in yesterday."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Nan ทวนว่า \"Later today?\" และบอกว่าต้องใช้บัตรบ่ายนี้ แสดงว่าเจ้าหน้าที่บอกว่าอาจมีคนนำมาคืนภายหลังในวันนี้ ส่วนตัวเลือกที่ว่ามีคนคืนแล้วหรือคืนให้ Nan แล้วขัดกับ \"there's nothing under that name\""
+            },
+            {
+              "id": "AL-S5-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Would you like me to call your parents?",
+                "You'll need your teacher to sign it first.",
+                "I'll just need to see another form of ID.",
+                "The library is closed this afternoon anyway."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Nan ตอบว่า \"Sure, here's my national ID card.\" จึงเป็นคำตอบของการขอดูบัตรแสดงตนอื่น ส่วนการให้ครูเซ็น การโทรหาผู้ปกครอง หรือห้องสมุดปิด ไม่เข้ากับการยื่นบัตรประชาชน"
+            },
+            {
+              "id": "AL-S5-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I've already ordered the new card for you.",
+                "Lost cards can't be replaced, unfortunately.",
+                "Let's wait a few days before you order one, though.",
+                "You can collect it from the canteen tomorrow."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Nan ตอบว่า \"That's fair. I'll come back on Friday if nobody hands it in.\" แสดงว่าเจ้าหน้าที่แนะนำให้รอดูก่อนสั่งทำบัตรใหม่ ส่วนการบอกว่าสั่งให้แล้วหรือทำบัตรใหม่ไม่ได้ขัดกับเรื่องราคา 100 บาทและการรอถึงวันศุกร์"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Changing an elective course",
+          "dialogue": [
+            {
+              "speaker": "Ton",
+              "text": "Excuse me, Ms Pranee. I signed up for Robotics as my elective, but I'd like to change to Photography. ___1___"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "You're just in time. Today is the last day for changes. Why do you want to switch?"
+            },
+            {
+              "speaker": "Ton",
+              "text": "Robotics meets on Wednesday afternoons, and that clashes with my football training. ___2___"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "I see. Unfortunately, Photography is already full. ___3___"
+            },
+            {
+              "speaker": "Ton",
+              "text": "Oh. Which other courses run on Thursday, then?"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "There's Creative Writing and Thai Cooking. Cooking has a materials fee of 300 baht, though."
+            },
+            {
+              "speaker": "Ton",
+              "text": "___4___ I've always wanted to try writing short stories."
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "Good choice. Just fill in this form and ask a parent to sign it."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S5-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Can I take both courses at once?",
+                "Is it too late to do that?",
+                "Do I need to buy my own camera?",
+                "Who teaches Photography this year?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ครูตอบว่า \"You're just in time. Today is the last day for changes.\" ซึ่งตอบคำถามว่าสายเกินไปไหม ส่วนคำถามเรื่องครูผู้สอน การเรียนสองวิชา หรือการซื้อกล้อง ไม่ได้รับคำตอบนี้"
+            },
+            {
+              "id": "AL-S5-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "My coach thinks I should give up football.",
+                "I've already missed three Robotics lessons this term.",
+                "Wednesday is the only afternoon I'm free.",
+                "Photography is on Thursdays, so it would suit me better."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Ton บอกเหตุผลที่อยากย้าย และต่อมาถามถึงวิชาอื่น \"on Thursday, then\" แสดงว่าวิชาถ่ายภาพเรียนวันพฤหัสบดีซึ่งไม่ชนกับการซ้อมฟุตบอล ส่วนการว่างแค่วันพุธขัดกับปัญหาที่เพิ่งบอก"
+            },
+            {
+              "id": "AL-S5-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Would another course on the same day work for you?",
+                "There's one seat left if you hurry.",
+                "Could you come back tomorrow to check again?",
+                "Football training has moved to Monday, hasn't it?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ton ถามต่อว่าวันพฤหัสบดีมีวิชาอะไรอีก จึงตอบรับข้อเสนอให้เลือกวิชาอื่นในวันเดียวกัน ส่วน \"one seat left\" ขัดกับ \"already full\" และ \"come back tomorrow\" ขัดกับที่วันนี้เป็นวันสุดท้าย"
+            },
+            {
+              "id": "AL-S5-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'll go for Creative Writing, then.",
+                "I'd rather wait for a place in Photography.",
+                "Neither of those is on a Thursday, is it?",
+                "Cooking sounds perfect for me, then."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ton บอกว่า \"I've always wanted to try writing short stories.\" จึงเลือกวิชาการเขียนสร้างสรรค์ ไม่ใช่วิชาทำอาหาร และครูตอบว่า \"Good choice\" แสดงว่าเขาตัดสินใจเลือกแล้ว ไม่ได้รอหรือสงสัยเรื่องวัน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Catching up after being absent",
+          "dialogue": [
+            {
+              "speaker": "Kaew",
+              "text": "Fah! You're back. Are you feeling better?"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Much better, thanks. I was off for three days, though, and now I'm completely lost in chemistry. ___1___"
+            },
+            {
+              "speaker": "Kaew",
+              "text": "Of course. They're a bit messy, but you can take photos of them at lunch."
+            },
+            {
+              "speaker": "Fah",
+              "text": "Thanks a million. Did Mr Chai set any homework while I was away?"
+            },
+            {
+              "speaker": "Kaew",
+              "text": "Yes, a worksheet on acids and bases. ___2___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Tomorrow? There's no way I can finish it by then."
+            },
+            {
+              "speaker": "Kaew",
+              "text": "___3___ He's usually understanding if you explain why you were absent."
+            },
+            {
+              "speaker": "Fah",
+              "text": "Good idea. I'll talk to him after class. Oh, and what about the lab test?"
+            },
+            {
+              "speaker": "Kaew",
+              "text": "It's been put back a week, so you've got time. ___4___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "That would be amazing. Let's meet in the library after school."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S5-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Have you finished the chemistry project yet?",
+                "Would you mind lending me your notes?",
+                "Could you tell me why you missed class?",
+                "Do you know where Mr Chai's office is?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Kaew ตอบว่า \"They're a bit messy, but you can take photos of them\" คำว่า They จึงหมายถึงสมุดจดที่ Fah ขอยืม ส่วนตัวเลือกอื่นไม่เกี่ยวกับสิ่งที่ถ่ายรูปได้"
+            },
+            {
+              "id": "AL-S5-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "You can hand it in whenever you like.",
+                "It was due last Monday, actually.",
+                "He said you don't have to do it.",
+                "It's due tomorrow morning."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "Fah ทวนว่า \"Tomorrow?\" และบอกว่าทำไม่ทันแน่ จึงต้องเป็นงานที่ต้องส่งพรุ่งนี้ ส่วนตัวเลือกที่ว่าไม่ต้องทำหรือส่งเมื่อไรก็ได้จะไม่ทำให้ Fah กังวล"
+            },
+            {
+              "id": "AL-S5-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Why don't you ask him for more time?",
+                "You could ask the head teacher to cancel it.",
+                "Why don't you just copy my answers?",
+                "Maybe you should skip it this time."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมา \"He's usually understanding if you explain why you were absent.\" สนับสนุนการขอขยายเวลาส่งงานกับครู Chai ส่วนการลอกคำตอบหรือไม่ส่งงานไม่ต้องอธิบายกับครู และ head teacher ไม่ใช่ \"He\" ที่พูดถึง"
+            },
+            {
+              "id": "AL-S5-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Unfortunately, you'll have to take it on your own.",
+                "If you like, we could revise for it together.",
+                "I've already lent my notes to someone else.",
+                "So there's really no need to revise at all."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Fah ตอบว่า \"That would be amazing. Let's meet in the library after school.\" จึงเป็นการตอบรับคำชวนให้ทบทวนบทเรียนด้วยกัน ส่วนตัวเลือกอื่นไม่ใช่ข้อเสนอที่จะตอบว่า amazing และนัดเจอกันได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A student council meeting about a book sale",
+          "dialogue": [
+            {
+              "speaker": "Pim",
+              "text": "Okay, everyone, let's get started. ___1___"
+            },
+            {
+              "speaker": "Bank",
+              "text": "Right. Have we decided on a date yet?"
+            },
+            {
+              "speaker": "Pim",
+              "text": "I was thinking of the last Friday of the month, during the long lunch break."
+            },
+            {
+              "speaker": "Mai",
+              "text": "___2___ That's the day of the Grade 12 mock exams."
+            },
+            {
+              "speaker": "Pim",
+              "text": "Oh, you're right, and they're usually our best customers. ___3___"
+            },
+            {
+              "speaker": "Bank",
+              "text": "Monday works for me. Where should we set up the tables?"
+            },
+            {
+              "speaker": "Mai",
+              "text": "The covered walkway near the canteen. Everyone passes it at lunchtime, and it won't matter if it rains."
+            },
+            {
+              "speaker": "Pim",
+              "text": "Great. Now, what about prices? ___4___"
+            },
+            {
+              "speaker": "Bank",
+              "text": "I'd keep it simple: 20 baht for paperbacks and 40 for textbooks."
+            },
+            {
+              "speaker": "Mai",
+              "text": "Agreed. And anything left over at the end could go to the village library in Ban Dong."
+            },
+            {
+              "speaker": "Pim",
+              "text": "___5___ Their librarian told me last year that they're short of novels in English."
+            },
+            {
+              "speaker": "Bank",
+              "text": "How are we going to collect the books in the first place?"
+            },
+            {
+              "speaker": "Mai",
+              "text": "We could put a box in every classroom. ___6___"
+            },
+            {
+              "speaker": "Pim",
+              "text": "Good, but someone will have to empty the boxes every afternoon. ___7___"
+            },
+            {
+              "speaker": "Bank",
+              "text": "I can do it on Mondays and Tuesdays, but I've got swimming on the other days."
+            },
+            {
+              "speaker": "Mai",
+              "text": "I'll take the rest of the week, then."
+            },
+            {
+              "speaker": "Pim",
+              "text": "Perfect. Last thing: we need posters. ___8___"
+            },
+            {
+              "speaker": "Bank",
+              "text": "My cousin in Grade 10 is brilliant at art. I'll ask her tonight."
+            },
+            {
+              "speaker": "Pim",
+              "text": "Thanks, Bank. I think that's everything. Let's meet again next Wednesday to check our progress."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S5-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Has everyone finished their homework for tomorrow?",
+                "The main thing on today's list is the book sale.",
+                "I'm afraid I have to leave a bit early today.",
+                "Let's start by reviewing last year's sports day."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประธานเปิดประชุมโดยบอกหัวข้อหลัก และ Bank ถามต่อทันทีเรื่องวันจัดงาน ทั้งบทสนทนาก็พูดถึงการขายหนังสือ ส่วนเรื่องกีฬาสี การกลับก่อน หรือการบ้าน ไม่นำไปสู่คำถามเรื่องวันที่"
+            },
+            {
+              "id": "AL-S5-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "That sounds absolutely perfect to me.",
+                "I'm not sure that's a good idea.",
+                "Shall we invite the Grade 12s, then?",
+                "Lunch breaks are far too short anyway."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Mai ให้เหตุผลว่าวันนั้นตรงกับวันสอบ mock ของ ม.6 จึงต้องเป็นการแสดงความไม่เห็นด้วยอย่างสุภาพ ส่วน \"absolutely perfect\" ขัดกับเหตุผลที่ตามมา และเรื่องเวลาพักสั้นไม่เกี่ยวกับวันสอบ"
+            },
+            {
+              "id": "AL-S5-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "How about the following Monday instead?",
+                "Shall we cancel the sale altogether?",
+                "Let's keep it on the Friday, then.",
+                "Could we hold it during the exams?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Bank ตอบว่า \"Monday works for me.\" จึงต้องเป็นการเสนอเปลี่ยนเป็นวันจันทร์ ส่วนการคงวันศุกร์ไว้หรือจัดระหว่างสอบขัดกับที่ Pim เพิ่งยอมรับปัญหา และการยกเลิกงานขัดกับการวางแผนที่ทำต่อ"
+            },
+            {
+              "id": "AL-S5-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "When will the tables be delivered?",
+                "How many books have we collected?",
+                "Who will look after the money?",
+                "How much should we charge?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Bank ตอบเป็นราคา \"20 baht for paperbacks and 40 for textbooks\" จึงเป็นคำตอบของคำถามว่าควรตั้งราคาเท่าไร ส่วนจำนวนหนังสือ การส่งโต๊ะ หรือคนดูแลเงิน ไม่ได้ตอบด้วยราคา"
+            },
+            {
+              "id": "AL-S5-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "We'd better raise the prices, then.",
+                "That's a lovely idea.",
+                "I doubt anyone there reads English.",
+                "Let's save them for next year's sale."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Pim ให้เหตุผลสนับสนุนว่าบรรณารักษ์บอกว่าห้องสมุดขาดนวนิยายภาษาอังกฤษ จึงเห็นด้วยกับการบริจาค ส่วนการเก็บไว้ปีหน้าหรือสงสัยว่าไม่มีคนอ่านภาษาอังกฤษขัดกับเหตุผลนี้"
+            },
+            {
+              "id": "AL-S5-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "We'll have to ask parents to pay for them.",
+                "That way, nobody has to carry books very far.",
+                "But I doubt anyone would bother to use them.",
+                "Then the teachers can sell the books for us."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "Mai อธิบายข้อดีของการวางกล่องทุกห้องเรียน และ Pim ตอบว่า \"Good\" จึงต้องเป็นข้อดีว่าไม่ต้องถือหนังสือไปไกล ส่วนการบอกว่าไม่มีใครใช้ไม่ใช่สิ่งที่จะได้คำตอบว่า Good"
+            },
+            {
+              "id": "AL-S5-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Shall we empty them every morning instead?",
+                "Should we buy plastic boxes instead?",
+                "Who could take care of that?",
+                "Are the boxes big enough, do you think?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Bank ตอบว่า \"I can do it on Mondays and Tuesdays\" และ Mai รับวันที่เหลือ จึงเป็นคำตอบของคำถามว่าใครจะรับหน้าที่นี้ ส่วนคำถามเรื่องขนาดหรือชนิดกล่องไม่ได้ถามหาคนทำ"
+            },
+            {
+              "id": "AL-S5-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Can anyone help us design them?",
+                "Has anyone already printed them?",
+                "Do we really need any at all?",
+                "Should we put them up after the sale?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Bank ตอบว่าญาติของเขาเก่งศิลปะและจะไปถามให้ จึงเป็นการหาคนช่วยออกแบบโปสเตอร์ ส่วนการถามว่าพิมพ์แล้วหรือยังหรือจำเป็นไหม ไม่ได้ตอบด้วยการหาคนเก่งศิลปะ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S5-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Lumo Mobile Student Flex plan",
+          "text": "LUMO MOBILE — STUDENT FLEX PLAN\nStay connected without breaking the bank.\n\nDesigned for students aged 15–24, Student Flex gives you everything you need for study and fun:\n• 30 GB of high-speed data every month\n• Unlimited calls to other Lumo numbers\n• 100 minutes of calls to other networks\n• Free access to Lumo Learn, our library of short online courses\n\nOnly 249 baht a month. Sign up for 12 months and get your first two months free!\nData you don't use rolls over to the next month (up to 10 GB). Need more? Add an extra 10 GB for 59 baht at any time in the Lumo app.\n\nTo apply, visit any Lumo shop with your student card and national ID card. Applicants under 18 must be accompanied by a parent or guardian.\n\n*Speeds may be reduced after 30 GB has been used. Free months are for new customers only.",
+          "items": [
+            {
+              "id": "AL-S5-021",
+              "stem": "Who is the Student Flex plan mainly designed for?",
+              "options": [
+                "Parents who want a cheap plan for their children",
+                "Business customers who make many calls abroad",
+                "Teachers who run short online courses",
+                "Young people who are still in full-time education"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "โฆษณาระบุ \"Designed for students aged 15–24\" จึงมุ่งเป้าไปที่คนหนุ่มสาวที่ยังเป็นนักเรียนนักศึกษา ผู้ปกครองต้องมาด้วยเฉพาะผู้สมัครอายุต่ำกว่า 18 แต่ไม่ใช่กลุ่มลูกค้าหลัก"
+            },
+            {
+              "id": "AL-S5-022",
+              "stem": "A new customer signs up for 12 months. How much will they pay in total for that year?",
+              "options": [
+                "2,241 baht",
+                "2,988 baht",
+                "2,739 baht",
+                "2,490 baht"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "สมัคร 12 เดือนได้ฟรี 2 เดือนแรก จึงจ่าย 10 เดือน × 249 = 2,490 บาท ส่วน 2,988 บาทคือราคาเต็ม 12 เดือนที่ยังไม่หักเดือนฟรี"
+            },
+            {
+              "id": "AL-S5-023",
+              "stem": "What does a 16-year-old need to do to apply?",
+              "options": [
+                "Download the Lumo app and buy an extra 10 GB",
+                "Go to a Lumo shop with an adult and two forms of ID",
+                "Complete one of the short courses on Lumo Learn",
+                "Ask a parent to apply online on their behalf"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ต้องไปที่ร้าน Lumo พร้อมบัตรนักเรียนและบัตรประชาชน และผู้สมัครอายุต่ำกว่า 18 ปีต้องมีผู้ปกครองมาด้วย (\"must be accompanied by a parent or guardian\") โฆษณาไม่ได้พูดถึงการสมัครออนไลน์"
+            },
+            {
+              "id": "AL-S5-024",
+              "stem": "The phrase \"without breaking the bank\" is closest in meaning to",
+              "options": [
+                "without losing your phone signal",
+                "without signing a long contract",
+                "without spending too much money",
+                "without visiting a bank branch"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"without breaking the bank\" เป็นสำนวนแปลว่าไม่ต้องจ่ายเงินมากเกินไป สอดคล้องกับการเน้นราคา \"Only 249 baht a month\" ไม่ได้เกี่ยวกับธนาคารจริง ๆ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Northfield Campus Fitness Centre",
+          "text": "NOTICE TO ALL MEMBERS — Northfield Campus Fitness Centre\nChanges to membership from 1 January\n\nThank you for making the Fitness Centre one of the busiest places on campus. To reduce crowding at peak times and to pay for new equipment, we are making the following changes.\n\n1. Membership types\nFull Access (any day, 6:00–22:00): 450 baht per month\nOff-Peak (weekdays before 16:00, any time at weekends): 280 baht per month\n\n2. Booking\nMembers must book a 90-minute slot in the campus app before visiting between 17:00 and 20:00 on weekdays. Anyone who misses two booked slots in one month without cancelling will not be able to book for 14 days.\n\n3. New equipment\nSix rowing machines will be installed in February. The free-weights area will be closed from 3 to 9 February while this work takes place.\n\nCurrent members may change their membership type free of charge at the front desk until 31 December. After that date, a 100-baht fee will apply.",
+          "items": [
+            {
+              "id": "AL-S5-025",
+              "stem": "What is the main purpose of this notice?",
+              "options": [
+                "To tell members about new prices and rules",
+                "To advertise a new rowing class for beginners",
+                "To invite students to join a university sports team",
+                "To apologise for closing the centre in February"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "หัวเรื่อง \"Changes to membership from 1 January\" และเนื้อหาแจ้งประเภทสมาชิก ราคา และกฎการจอง จึงเป็นการแจ้งราคาและกฎใหม่ ส่วนการปิดเป็นเพียงพื้นที่ยกน้ำหนักบางวัน ไม่ใช่ทั้งศูนย์"
+            },
+            {
+              "id": "AL-S5-026",
+              "stem": "Which member would be following the new rules?",
+              "options": [
+                "A Full Access member training at 23:00 on a Saturday",
+                "An Off-Peak member arriving at 17:30 on a Tuesday",
+                "A Full Access member arriving unbooked at 18:00 on a Monday",
+                "An Off-Peak member training at 18:00 on a Sunday"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "สมาชิก Off-Peak ใช้ได้ทุกเวลาในวันหยุดสุดสัปดาห์ และการจองบังคับเฉพาะวันธรรมดา 17:00–20:00 จึงมาได้เวลา 18:00 วันอาทิตย์ ส่วนวันอังคาร 17:30 เกิน 16:00 วันจันทร์ 18:00 ต้องจองก่อน และ 23:00 เกินเวลาปิด 22:00"
+            },
+            {
+              "id": "AL-S5-027",
+              "stem": "What happens to a member who misses two booked slots in a month without cancelling?",
+              "options": [
+                "They have to pay a fee of 100 baht.",
+                "Their membership is cancelled immediately.",
+                "They are moved to Off-Peak membership.",
+                "They cannot make bookings for two weeks."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่า \"will not be able to book for 14 days\" คือจองไม่ได้ 2 สัปดาห์ ส่วนค่าธรรมเนียม 100 บาทเป็นค่าเปลี่ยนประเภทสมาชิกหลัง 31 ธันวาคม"
+            },
+            {
+              "id": "AL-S5-028",
+              "stem": "The phrase \"peak times\" in the notice is closest in meaning to",
+              "options": [
+                "the early mornings before classes",
+                "the hours when prices are lowest",
+                "the days when new machines arrive",
+                "the busiest periods of the day"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"To reduce crowding at peak times\" ช่วงเวลาที่ต้องลดความแออัดคือช่วงที่คนมากที่สุด จึงหมายถึงช่วงเวลาที่คนใช้มากที่สุด ซึ่งตรงกับช่วงที่ต้องจองล่วงหน้า (17:00–20:00)"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: Tempo Desk, a study planner that listens",
+          "text": "I have tried more study apps than I care to admit, and most of them ended up forgotten on the third screen of my phone. Tempo Desk, a planner aimed at secondary and university students, is the first one I have kept using for a whole term.\n\nIts central idea is simple. You enter your deadlines and exams, tell the app how many hours you can study each day, and it builds a weekly timetable for you. What sets it apart is that the timetable adjusts itself. When I skipped a planned session one Tuesday to help at my aunt's shop, Tempo Desk quietly spread the missed work over the rest of the week instead of piling it all onto Wednesday.\n\nThe built-in focus timer is also well designed. It blocks social media during study sessions, but you can unlock it for five minutes if you genuinely need to message a classmate. I liked the fact that it treats users as sensible people rather than small children.\n\nThere are drawbacks, however. The free version allows only three subjects, which is hardly enough for anyone preparing for a full set of exams, and the premium plan costs 89 baht a month. The app also assumes that every hour of study is equal; it has no way of knowing that an hour of maths drains me far more than an hour of history.\n\nEven so, Tempo Desk has earned its place on my home screen. If you can live with the price, it is the most flexible planner I have used.",
+          "items": [
+            {
+              "id": "AL-S5-029",
+              "stem": "What is the writer's overall opinion of Tempo Desk?",
+              "options": [
+                "It is too expensive to recommend to anyone.",
+                "It is very useful, although it has some weaknesses.",
+                "It is only really suitable for university students.",
+                "It is no better than the other planners the writer tried."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนบอกว่าเป็นแอปแรกที่ใช้ได้ทั้งเทอมและ \"the most flexible planner I have used\" แต่ก็ยอมรับว่ามี \"drawbacks\" เช่น ราคาและจำนวนวิชาในเวอร์ชันฟรี จึงเป็นความเห็นเชิงบวกที่มีข้อเสียบ้าง"
+            },
+            {
+              "id": "AL-S5-030",
+              "stem": "What happened when the writer missed a planned study session?",
+              "options": [
+                "The missed work was shared out over the following days.",
+                "The app sent a warning message to the writer's teacher.",
+                "The app removed that session from the timetable for good.",
+                "All of the missed work was moved to the next day."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "รีวิวระบุว่าแอป \"spread the missed work over the rest of the week instead of piling it all onto Wednesday\" คือกระจายงานไปวันอื่น ๆ ไม่ได้ย้ายไปวันถัดไปทั้งหมด"
+            },
+            {
+              "id": "AL-S5-031",
+              "stem": "Why does the writer mention that the focus timer can be unlocked for five minutes?",
+              "options": [
+                "To complain that the timer is too easy to switch off",
+                "To explain why the writer often failed to study",
+                "To warn parents that the app is unsafe for children",
+                "To show that the app trusts users to behave sensibly"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนกล่าวต่อว่า \"it treats users as sensible people rather than small children\" จึงยกตัวอย่างนี้เพื่อชมว่าแอปไว้ใจผู้ใช้ ไม่ใช่เพื่อบ่นหรือเตือน"
+            },
+            {
+              "id": "AL-S5-032",
+              "stem": "The word \"drains\" in the fourth paragraph is closest in meaning to",
+              "options": [
+                "empties",
+                "excites",
+                "pleases",
+                "tires"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"an hour of maths drains me far more than an hour of history\" หมายถึงคณิตศาสตร์ทำให้เหนื่อยล้ามากกว่า จึงตรงกับ tires แม้ drain จะแปลว่าระบายน้ำออกได้ แต่ในบริบทนี้หมายถึงพลังหมด ไม่ใช่การเทของออก"
+            },
+            {
+              "id": "AL-S5-033",
+              "stem": "In the fourth paragraph, \"it\" in \"it has no way of knowing\" refers to",
+              "options": [
+                "the app",
+                "the free version",
+                "an hour of maths",
+                "the premium plan"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าคือ \"The app also assumes that every hour of study is equal\" แล้วต่อด้วย \"it has no way of knowing\" จึงหมายถึงแอปที่ไม่รู้ว่าวิชาไหนเหนื่อยกว่า"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "New bus route links Khao Phrao Bay station with college",
+          "text": "KHAO PHRAO BAY — Students at Phrao Bay Technical College no longer need two buses and a long walk to get to class, after a new direct route, the Number 17, began running on Monday.\n\nThe route, operated by the town's Seaview Transit Company, runs from the railway station to the college gates by way of the central market and the new district sports complex. Buses leave every 15 minutes between 6:00 and 21:00 on weekdays and every 30 minutes at weekends. The journey takes about 25 minutes, compared with almost an hour on the old route, which involved changing buses at the market.\n\nFares are 15 baht for adults, while students in uniform or with a student card pay 8 baht. All twelve buses on the route are electric and have space for two wheelchairs and four bicycles.\n\n\"For years, our students have arrived late and exhausted,\" said Wanida Prasert, director of the college. \"This route will make a real difference to their day.\"\n\nNot everyone is pleased, however. Residents of Soi Lamyai, a narrow street on the route, say they were never consulted. \"Buses pass our houses four times an hour from six in the morning,\" said shop owner Somsak Rattana. \"This road was never built for that.\" Seaview Transit says it is studying an alternative route along the wider Beach Road, but warns that this could add five minutes to the journey.\n\nThe company expects around 3,000 passengers a day by the end of the year.",
+          "items": [
+            {
+              "id": "AL-S5-034",
+              "stem": "What is the news report mainly about?",
+              "options": [
+                "The rising cost of public transport in Khao Phrao Bay",
+                "A disagreement between two local bus companies",
+                "A new direct bus service and people's reactions to it",
+                "A plan to build a sports complex near the market"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวเล่าถึงสาย 17 ที่เปิดใหม่ รายละเอียดเส้นทางและค่าโดยสาร แล้วต่อด้วยความเห็นของผู้อำนวยการวิทยาลัยและชาวบ้านซอยลำไย ส่วนศูนย์กีฬาเป็นเพียงจุดที่รถผ่าน"
+            },
+            {
+              "id": "AL-S5-035",
+              "stem": "How much does a student with a student card pay to go to the college and back on the same day?",
+              "options": [
+                "8 baht",
+                "30 baht",
+                "16 baht",
+                "23 baht"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "นักเรียนที่มีบัตรนักเรียนจ่ายเที่ยวละ 8 บาท ไปและกลับจึงเป็น 8 × 2 = 16 บาท ส่วน 30 บาทคือค่าโดยสารผู้ใหญ่ไปกลับ"
+            },
+            {
+              "id": "AL-S5-036",
+              "stem": "Why are some residents of Soi Lamyai unhappy?",
+              "options": [
+                "The buses keep running until late at night.",
+                "Frequent buses now use a street they think is too narrow.",
+                "The fares are too high for local shop owners.",
+                "The buses do not stop anywhere near their homes."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ชาวบ้านบอกว่ารถผ่านบ้าน \"four times an hour\" และ \"This road was never built for that\" อีกทั้งข่าวเรียกซอยนี้ว่า \"a narrow street\" ข่าวไม่ได้พูดถึงค่าโดยสารหรือการเดินรถดึกเป็นปัญหา"
+            },
+            {
+              "id": "AL-S5-037",
+              "stem": "The word \"consulted\" in the fifth paragraph is closest in meaning to",
+              "options": [
+                "told about the fares",
+                "asked for their opinion",
+                "given free bus tickets",
+                "paid for any damage"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"they were never consulted\" หมายถึงไม่เคยถูกถามความเห็นก่อนกำหนดเส้นทาง ซึ่งเป็นเหตุให้ชาวบ้านไม่พอใจ"
+            },
+            {
+              "id": "AL-S5-038",
+              "stem": "What can be inferred about the Beach Road route?",
+              "options": [
+                "The company has not yet decided whether to use it.",
+                "Residents of Beach Road have rejected the idea.",
+                "It will open before the end of the year.",
+                "It would make the journey shorter for students."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "บริษัทบอกว่า \"is studying an alternative route\" แปลว่ายังศึกษาอยู่ ยังไม่ได้ตัดสินใจ และยังเตือนว่าอาจทำให้ใช้เวลาเพิ่มขึ้นห้านาที ไม่ใช่สั้นลง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Fruit exports from Na Rai Province",
+          "text": "The table shows the value of fresh fruit exported by Na Rai, a fictional province in eastern Thailand, over three years. Durian remains the province's most valuable export crop, but local farmers' groups have been encouraging growers to plant a wider range of fruit.",
+          "table": {
+            "caption": "Value of fresh fruit exports, Na Rai Province (million baht)",
+            "columns": [
+              "Fruit",
+              "2023",
+              "2024",
+              "2025"
+            ],
+            "rows": [
+              [
+                "Durian",
+                "820",
+                "910",
+                "1,050"
+              ],
+              [
+                "Mangosteen",
+                "410",
+                "380",
+                "455"
+              ],
+              [
+                "Longan",
+                "360",
+                "395",
+                "420"
+              ],
+              [
+                "Mango",
+                "290",
+                "340",
+                "330"
+              ],
+              [
+                "Pomelo",
+                "120",
+                "150",
+                "210"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S5-039",
+              "stem": "Which fruit had the second-highest export value in 2025?",
+              "options": [
+                "Longan",
+                "Mangosteen",
+                "Durian",
+                "Mango"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ปี 2025 ทุเรียนสูงสุด (1,050) รองลงมาคือมังคุด (455) มากกว่าลำไย (420) และมะม่วง (330)"
+            },
+            {
+              "id": "AL-S5-040",
+              "stem": "Which fruit was the only one whose export value fell between 2023 and 2024?",
+              "options": [
+                "Longan",
+                "Mango",
+                "Pomelo",
+                "Mangosteen"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "มังคุดลดลงจาก 410 เป็น 380 ระหว่างปี 2023–2024 ส่วนมะม่วงลดลงในช่วง 2024–2025 (340 เป็น 330) ไม่ใช่ช่วงที่ถาม"
+            },
+            {
+              "id": "AL-S5-041",
+              "stem": "By how much did the export value of pomelo increase from 2023 to 2025?",
+              "options": [
+                "30 million baht",
+                "90 million baht",
+                "60 million baht",
+                "210 million baht"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "ส้มโอเพิ่มจาก 120 เป็น 210 ล้านบาท ต่างกัน 210 − 120 = 90 ล้านบาท ส่วน 60 และ 30 เป็นการเพิ่มขึ้นเพียงปีเดียว"
+            },
+            {
+              "id": "AL-S5-042",
+              "stem": "What was the total value of the five fruits exported in 2024?",
+              "options": [
+                "2,175 million baht",
+                "2,000 million baht",
+                "2,040 million baht",
+                "2,465 million baht"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "รวมปี 2024 = 910 + 380 + 395 + 340 + 150 = 2,175 ล้านบาท ส่วน 2,000 และ 2,465 คือยอดรวมของปี 2023 และ 2025 ตามลำดับ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Volunteer hours at Ban Suan Wittaya School",
+          "text": "Ban Suan Wittaya School asked its upper-secondary students to record the hours they spent on volunteer activities during the first semester. The school will present a certificate to every activity that reaches more than 500 hours in total across the three grades.",
+          "table": {
+            "caption": "Volunteer hours by activity and grade, first semester",
+            "columns": [
+              "Activity",
+              "Grade 10",
+              "Grade 11",
+              "Grade 12"
+            ],
+            "rows": [
+              [
+                "Beach clean-up",
+                "240",
+                "180",
+                "90"
+              ],
+              [
+                "Tutoring younger pupils",
+                "150",
+                "210",
+                "260"
+              ],
+              [
+                "Community garden",
+                "120",
+                "130",
+                "70"
+              ],
+              [
+                "Animal shelter",
+                "200",
+                "210",
+                "110"
+              ],
+              [
+                "Library help",
+                "60",
+                "80",
+                "140"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S5-043",
+              "stem": "Which activity did Grade 12 students spend the most hours on?",
+              "options": [
+                "Animal shelter",
+                "Beach clean-up",
+                "Tutoring younger pupils",
+                "Library help"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "ในคอลัมน์ Grade 12 ค่าสูงสุดคือการติวน้อง 260 ชั่วโมง มากกว่างานห้องสมุด (140) และศูนย์พักพิงสัตว์ (110)"
+            },
+            {
+              "id": "AL-S5-044",
+              "stem": "Which grade recorded the most volunteer hours in total?",
+              "options": [
+                "Grade 12",
+                "All grades recorded the same total",
+                "Grade 11",
+                "Grade 10"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "รวม Grade 10 = 770, Grade 11 = 180 + 210 + 130 + 210 + 80 = 810, Grade 12 = 670 ชั่วโมง ดังนั้น Grade 11 มากที่สุด"
+            },
+            {
+              "id": "AL-S5-045",
+              "stem": "Which activity's hours went down steadily from Grade 10 to Grade 12?",
+              "options": [
+                "Library help",
+                "Beach clean-up",
+                "Animal shelter",
+                "Community garden"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "เก็บขยะชายหาดลดลงทุกระดับ 240 → 180 → 90 ส่วนศูนย์พักพิงสัตว์และสวนชุมชนเพิ่มขึ้นที่ Grade 11 ก่อนลดลง และงานห้องสมุดเพิ่มขึ้น"
+            },
+            {
+              "id": "AL-S5-046",
+              "stem": "According to the text and the table, how many activities will receive a certificate?",
+              "options": [
+                "One",
+                "Four",
+                "Three",
+                "Two"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "กิจกรรมที่รวมเกิน 500 ชั่วโมง ได้แก่ เก็บขยะชายหาด (510) ติวน้อง (620) และศูนย์พักพิงสัตว์ (520) รวม 3 กิจกรรม ส่วนสวนชุมชน (320) และห้องสมุด (280) ไม่ถึง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Small pieces, big problem",
+          "text": "When people picture plastic pollution, they usually imagine bottles floating on the waves or bags caught in the branches of trees. These images are real enough, but some of the most widespread plastic pollution on Earth is almost invisible. Scientists call it microplastic: any piece of plastic smaller than five millimetres, about the size of a grain of rice or much smaller.\n\nMicroplastics come from two main sources. Some are made small on purpose. Tiny plastic beads were once common in face scrubs, and small pellets are still produced as the raw material that factories melt down to make larger products. Most microplastics, however, start life as something bigger. Over the years, sunlight, wind and waves break larger items into smaller and smaller fragments, so a single bag left on a beach may eventually become thousands of particles. Clothing is another surprising source. Every time synthetic fabrics such as polyester are washed, they shed thousands of tiny fibres, many of which are too small to be caught by water treatment plants.\n\nBecause they are so small and light, microplastics travel remarkably well. They have been found in deep ocean trenches, in Arctic snow and in the soil of farms far from any city. Rivers carry them to the sea, and the wind can lift them into the air and drop them hundreds of kilometres away.\n\nFor wildlife, the effects are still being studied. Small sea creatures such as plankton and shellfish can mistake the particles for food. When they fill their stomachs with material that offers no nutrition, they may grow more slowly. Because larger animals eat these smaller ones, the particles can then move up the food chain. Researchers are particularly interested in whether chemicals attached to the plastic are passed along at the same time, a question that is still open.\n\nDealing with the problem is difficult for one simple reason: once microplastics are in the environment, removing them is almost impossible. A net fine enough to catch them would also trap the plankton on which ocean life depends. For this reason, most experts argue that the solution lies upstream, in stopping plastic from breaking into fragments in the first place.\n\nSome progress has already been made. Several countries have banned plastic microbeads in cosmetics, and companies are testing washing-machine filters that capture fibres before they reach the drains. In one trial by Brightwash, a fictional appliance maker, filters caught roughly 80 per cent of the fibres released during a typical wash. Engineers are also developing fabrics that shed less, while some towns have improved the way they collect rubbish so that less plastic reaches rivers at all.\n\nIndividuals can help too, although their role is often misunderstood. Picking up litter on a beach is valuable, but it is most useful when it removes large items before they have had time to break apart. Washing clothes less often, running full loads and choosing natural fibres when possible all reduce the number of fibres entering the water. None of these actions will solve the problem alone. Taken together, however, they suggest that a problem made of billions of tiny pieces may also be solved by millions of small decisions.",
+          "items": [
+            {
+              "id": "AL-S5-047",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Scientists have shown that microplastics seriously harm all sea animals.",
+                "Most microplastics come from beads that are added to face scrubs.",
+                "Beach clean-ups are the best way to remove microplastics from the sea.",
+                "Microplastics are widespread and hard to remove, so prevention matters most."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่าไมโครพลาสติกมาจากไหน แพร่ไปไกลแค่ไหน และ \"removing them is almost impossible\" จึงสรุปว่าทางแก้คือป้องกันตั้งแต่ต้นทาง (\"the solution lies upstream\") ส่วนผลต่อสัตว์ยัง \"still being studied\" ไม่ใช่พิสูจน์แล้ว"
+            },
+            {
+              "id": "AL-S5-048",
+              "stem": "According to the second paragraph, how are most microplastics formed?",
+              "options": [
+                "Factories produce them as pellets for making products.",
+                "Companies add them to face scrubs and other cosmetics.",
+                "Water treatment plants turn plastic waste into fibres.",
+                "Larger plastic items slowly break into smaller pieces."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่า \"Most microplastics, however, start life as something bigger\" และแสงแดด ลม คลื่นทำให้แตกเป็นชิ้นเล็กลง ส่วนเม็ดพลาสติกจากโรงงานและในเครื่องสำอางเป็นแหล่งส่วนน้อยที่ผลิตให้เล็กโดยตั้งใจ"
+            },
+            {
+              "id": "AL-S5-049",
+              "stem": "The word \"shed\" in the second paragraph is closest in meaning to",
+              "options": [
+                "collect",
+                "repair",
+                "absorb",
+                "release"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"synthetic fabrics ... shed thousands of tiny fibres\" หมายถึงผ้าปล่อยหรือหลุดเส้นใยออกมาระหว่างซัก จึงตรงกับ release ไม่ใช่ดูดซับหรือเก็บสะสม"
+            },
+            {
+              "id": "AL-S5-050",
+              "stem": "In the fourth paragraph, \"they\" in \"they may grow more slowly\" refers to",
+              "options": [
+                "the particles",
+                "larger animals",
+                "small sea creatures",
+                "researchers"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดถึง \"Small sea creatures such as plankton and shellfish\" ที่กินอนุภาคเข้าไป สิ่งที่ \"fill their stomachs\" และโตช้าลงจึงเป็นสัตว์ทะเลขนาดเล็ก"
+            },
+            {
+              "id": "AL-S5-051",
+              "stem": "Why does the writer say that fine nets are not a solution?",
+              "options": [
+                "They would also catch the plankton that ocean life needs.",
+                "They are too expensive for most countries to produce.",
+                "The nets themselves break down into microplastics.",
+                "Microplastics are too heavy to be lifted out by nets."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่า \"A net fine enough to catch them would also trap the plankton on which ocean life depends.\" เหตุผลจึงเป็นเรื่องแพลงก์ตอน ไม่ได้พูดถึงราคาหรือน้ำหนัก"
+            },
+            {
+              "id": "AL-S5-052",
+              "stem": "What can be inferred about picking up litter on beaches?",
+              "options": [
+                "It is the only action individuals can take against the problem.",
+                "It helps most when large items are removed before they break up.",
+                "It is less useful than washing clothes in half loads.",
+                "It removes most of the microplastics that are already in the sea."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าการเก็บขยะ \"is most useful when it removes large items before they have had time to break apart\" จึงอนุมานได้ว่าได้ผลที่สุดเมื่อเก็บก่อนพลาสติกแตกตัว ส่วนการซักแนะนำให้ใช้ full loads ไม่ใช่ half loads"
+            },
+            {
+              "id": "AL-S5-053",
+              "stem": "Which word best describes the writer's attitude in the final paragraph?",
+              "options": [
+                "Openly angry",
+                "Cautiously hopeful",
+                "Deeply pessimistic",
+                "Completely unconcerned"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยอมรับว่า \"None of these actions will solve the problem alone\" แต่สรุปว่าการตัดสินใจเล็ก ๆ จำนวนมากอาจแก้ปัญหาได้ จึงมีความหวังอย่างระมัดระวัง ไม่ได้สิ้นหวังหรือโกรธ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Is it ever too late to learn an instrument?",
+          "text": "Many adults who never learned to play music as children assume that the door has closed. They watch a teenager play the guitar with apparent ease and conclude that musical ability is something you either develop early or never have. Music teachers, however, tell a different story. While starting young has some advantages, the habits a learner builds matter far more than the age at which they begin.\n\nChildren do have certain benefits. They usually have more free time, fewer responsibilities and less fear of sounding bad. A seven-year-old will happily play the same simple tune twenty times, whereas an adult is more likely to feel embarrassed and give up. Yet adults bring strengths of their own. They can understand explanations of rhythm and harmony more quickly, organise their practice more carefully and connect new pieces to music they already know and love.\n\nThe most important factor for learners of any age is the way they practise. Teachers often distinguish between \"playing\" and \"practising\". Playing means running through pieces you can already manage, which is enjoyable but leads to little improvement. Practising means working slowly on the few bars that cause difficulty, repeating them until they feel comfortable, and only then increasing the speed. It is less fun, but it is where progress actually happens. Short, focused sessions also tend to work better than long, unfocused ones: twenty minutes of careful work every day often achieves more than two hours on a Sunday.\n\nAlmost every learner eventually reaches a plateau, a period when, despite regular practice, they seem to stop improving. This stage is so common that many teachers see it as a normal part of learning rather than a sign of failure. Plateaus often occur because learners have become comfortable at a certain level and are no longer challenging themselves. Changing something, such as learning a piece in a new style, playing with other people or recording yourself and listening carefully, can help them break through.\n\nPlaying with others is valuable for another reason as well. Joining a school band, a community orchestra or even an informal group of friends gives learners a reason to practise and a date to work towards. Many adult beginners say that the social side of making music is what keeps them going when their motivation is low. At the Willowmere Music Centre, a fictional school, teachers found that adult students who joined a weekly group class were twice as likely to still be learning after a year as those who took only private lessons.\n\nFinally, learners should choose their instrument with care. The best instrument is not necessarily the easiest or the most popular, but the one whose sound the learner genuinely enjoys. Someone who loves the piano will put up with hours of scales; someone who chose the violin only because a friend plays it may lose interest within months.\n\nSo, is it ever too late? For most people, the honest answer is no. Few adult beginners will become concert performers, but that was never really the point. With patient practice and realistic goals, almost anyone can reach the stage where music becomes not a struggle but a pleasure.",
+          "items": [
+            {
+              "id": "AL-S5-054",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Children learn instruments faster because they have more time.",
+                "Only people who start young can become good musicians.",
+                "People of any age can learn an instrument if they practise well.",
+                "Adults should take private lessons rather than group classes."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่า \"the habits a learner builds matter far more than the age\" และย่อหน้าสุดท้ายสรุปว่าแทบไม่มีใครสายเกินไป บทความจึงเน้นว่าทุกวัยเรียนได้ถ้าฝึกอย่างถูกวิธี"
+            },
+            {
+              "id": "AL-S5-055",
+              "stem": "According to the passage, what advantage do adult learners have?",
+              "options": [
+                "They can understand ideas about rhythm and harmony faster.",
+                "They usually have more free time than younger learners.",
+                "They are less afraid of making mistakes in front of others.",
+                "They are happy to repeat the same simple tune many times."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่าผู้ใหญ่ \"can understand explanations of rhythm and harmony more quickly\" ส่วนการไม่กลัวเสียงไม่เพราะ เวลาว่างมากกว่า และการเล่นเพลงซ้ำ ๆ เป็นข้อได้เปรียบของเด็ก"
+            },
+            {
+              "id": "AL-S5-056",
+              "stem": "How is \"practising\" different from \"playing\", according to the passage?",
+              "options": [
+                "It means playing music only for enjoyment and relaxation.",
+                "It means working slowly on the difficult parts of a piece.",
+                "It means learning many new pieces as quickly as possible.",
+                "It means performing complete pieces in front of a teacher."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความนิยาม practising ว่า \"working slowly on the few bars that cause difficulty\" ส่วน playing คือเล่นเพลงที่เล่นได้แล้วเพื่อความสนุก"
+            },
+            {
+              "id": "AL-S5-057",
+              "stem": "In the third paragraph, \"It\" in \"It is less fun\" refers to",
+              "options": [
+                "the speed",
+                "practising",
+                "playing",
+                "a difficult bar"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าอธิบายความหมายของ practising แล้วตามด้วย \"It is less fun, but it is where progress actually happens\" ซึ่งตรงข้ามกับ playing ที่ \"enjoyable\" จึงหมายถึง practising"
+            },
+            {
+              "id": "AL-S5-058",
+              "stem": "The word \"plateau\" in the fourth paragraph is closest in meaning to",
+              "options": [
+                "a test taken at the end of a course",
+                "a sudden improvement in skill",
+                "a decision to give up learning",
+                "a time when progress seems to stop"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้เขียนอธิบายทันทีว่า plateau คือ \"a period when, despite regular practice, they seem to stop improving\" คือช่วงที่ฝีมือดูเหมือนไม่พัฒนา ไม่ใช่การเลิกเรียน"
+            },
+            {
+              "id": "AL-S5-059",
+              "stem": "What does the example of the Willowmere Music Centre suggest?",
+              "options": [
+                "Private lessons are twice as expensive as group classes.",
+                "Most adult students stop learning within their first year.",
+                "Group classes are only suitable for complete beginners.",
+                "Learning with others may help adults keep going with music."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้ใหญ่ที่เรียนแบบกลุ่ม \"were twice as likely to still be learning after a year\" สนับสนุนประเด็นว่าการเล่นดนตรีกับผู้อื่นช่วยให้ไม่เลิกกลางคัน ข้อมูลไม่ได้พูดถึงราคา"
+            },
+            {
+              "id": "AL-S5-060",
+              "stem": "Why might someone who chose the violin because a friend plays it lose interest?",
+              "options": [
+                "The violin is much harder to learn than the piano.",
+                "They may not truly enjoy the sound of the instrument.",
+                "Their friend will not have time to teach them.",
+                "The violin needs more hours of scales than other instruments."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าเครื่องดนตรีที่ดีที่สุดคือ \"the one whose sound the learner genuinely enjoys\" คนที่เลือกเพราะเพื่อนจึงอาจไม่ได้ชอบเสียงของมันจริง ๆ บทความไม่ได้บอกว่าไวโอลินยากกว่าเปียโน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S5-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "How the zip found its place",
+          "text": "Today the zip is everywhere, from jackets and backpacks to pencil cases and tents. It is hard to imagine that this small device once ___1___ to find any customers at all.\n\nEarly versions, developed in the late nineteenth century, were heavy and unreliable. They often jammed or sprang open ___2___, which was hardly what anyone wanted from a pair of trousers. ___3___, most people continued to rely on buttons and hooks, which were cheap and familiar.\n\nThe breakthrough came when engineers redesigned the metal teeth so that each one fitted neatly into the next. The new design was lighter and far more dependable, and it was soon used on boots and money belts. Even then, several decades passed before clothing makers were ___4___ that customers would accept zips on everyday clothes.\n\nWhat finally won people over was convenience. A zip could be done up in a second, even with cold fingers, and young children could manage it ___5___ any help from adults. Today billions are produced every year, and few of us give a moment's thought to the clever engineering that holds our belongings together.",
+          "items": [
+            {
+              "id": "AL-S5-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "was struggled",
+                "struggling",
+                "struggled",
+                "has struggled"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "คำว่า \"once\" แสดงเหตุการณ์ในอดีตที่จบแล้ว จึงใช้ past simple \"struggled\" ส่วน present perfect ใช้กับ once ในความหมายนี้ไม่ได้ struggle เป็นกริยาที่ไม่มีกรรม จึงเป็น passive ไม่ได้ และ struggling ไม่มีกริยาหลัก"
+            },
+            {
+              "id": "AL-S5-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "by heart",
+                "without warning",
+                "on purpose",
+                "in advance"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "ซิปรุ่นแรกเสียบ่อยและ \"sprang open\" แบบที่ไม่มีใครต้องการ จึงต้องเป็นการเปิดออกเองโดยไม่ทันตั้งตัว \"without warning\" ส่วน in advance (ล่วงหน้า) on purpose (ตั้งใจ) และ by heart (ท่องจำ) ไม่เข้าความหมาย"
+            },
+            {
+              "id": "AL-S5-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "For instance",
+                "Even so",
+                "In contrast",
+                "As a result"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "คนยังใช้กระดุมต่อไปเป็นผลจากการที่ซิปรุ่นแรกหนักและเสียบ่อย จึงใช้ \"As a result\" ส่วน Even so และ In contrast แสดงความขัดแย้ง และ For instance ใช้ยกตัวอย่าง"
+            },
+            {
+              "id": "AL-S5-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "denied",
+                "prevented",
+                "convinced",
+                "refused"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"were convinced that customers would accept zips\" แปลว่าผู้ผลิตเสื้อผ้าเชื่อมั่นแล้วว่าลูกค้าจะยอมรับ ส่วน refused, prevented และ denied ใช้โครงสร้าง be ___ that ในความหมายนี้ไม่ได้ และไม่สื่อว่าผู้ผลิตเริ่มเชื่อมั่น"
+            },
+            {
+              "id": "AL-S5-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "without",
+                "unless",
+                "except",
+                "despite"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ข้างหลังเป็นคำนาม \"any help from adults\" และความหมายคือเด็กทำเองได้โดยไม่ต้องมีผู้ใหญ่ช่วย จึงใช้ \"without\" ส่วน unless ต้องตามด้วยประโยค despite ให้ความหมายขัดแย้ง และ except ไม่เข้ากับโครงสร้าง manage it ___ any help"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Forests between land and sea",
+          "text": "Along many tropical coasts, including parts of southern Thailand, a remarkable kind of forest grows where the land meets the sea. Mangrove trees are able to survive in salty water ___1___ would kill most other plants. Some species filter the salt out through their roots, while others store it in older leaves, which later fall off.\n\nMangroves are valuable in many ways. Their tangled roots slow down waves and ___2___ coastal villages from storms. They also provide shelter for young fish, crabs and shrimps, ___3___ later move out to open water. For this reason, many fishing communities depend on healthy mangroves for their income.\n\n___4___ these benefits, large areas of mangrove forest were cleared in past decades to make space for shrimp farms and coastal building. In recent years, however, many communities have begun replanting. Volunteers, including school groups, plant young trees at low tide, and the results can often be seen within a few years.\n\nExperts point out that replanting works best when the right species are planted in the right places. Simply pushing as many seedlings into the mud as possible, without checking how often an area floods, can lead to most of them dying. Careful planning, rather than sheer numbers, is what ___5___ a project succeed.",
+          "items": [
+            {
+              "id": "AL-S5-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "what",
+                "who",
+                "that",
+                "where"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างเป็นประพันธสรรพนามที่ทำหน้าที่ประธานของ \"would kill\" และขยายคำนาม \"salty water\" ซึ่งเป็นสิ่งของ จึงใช้ \"that\" ส่วน what ไม่มีคำนามนำหน้า where ใช้กับสถานที่ที่ไม่ใช่ประธาน และ who ใช้กับคน"
+            },
+            {
+              "id": "AL-S5-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "protecting",
+                "protect",
+                "to protecting",
+                "protected"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้างคู่ขนานกับ \"Their tangled roots slow down waves and ___\" ต้องใช้กริยารูปเดียวกับ slow คือ present simple \"protect\""
+            },
+            {
+              "id": "AL-S5-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "many of whom",
+                "many of which",
+                "which many",
+                "many of them"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ประพันธสรรพนามเชื่อมประโยค \"many of which\" อ้างถึงลูกปลา ปู กุ้ง (สัตว์) ส่วน many of them ทำให้เป็นสองประโยคเชื่อมด้วยจุลภาคซึ่งผิด และ whom ใช้กับคน"
+            },
+            {
+              "id": "AL-S5-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Although",
+                "Unless",
+                "Despite",
+                "Because of"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ป่าชายเลนมีประโยชน์ แต่กลับถูกตัด ความหมายขัดแย้งกันและตามด้วยคำนาม \"these benefits\" จึงใช้ \"Despite\" ส่วน Although และ Unless ต้องตามด้วยประโยค และ Because of ให้ความหมายเป็นเหตุผล"
+            },
+            {
+              "id": "AL-S5-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "makes",
+                "causes",
+                "allows",
+                "lets to"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง make + กรรม + กริยาช่อง 1 (\"makes a project succeed\") ถูกต้อง ส่วน cause และ allow ต้องใช้ to succeed และ let ไม่ตามด้วย to"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Learning to touch-type",
+          "text": "Most students today spend hours typing essays, messages and search terms, yet surprisingly few have ever learned to type properly. Instead, they rely on two or three fingers and keep looking down at the keyboard. This method works, ___1___ it is slow and tiring over long periods.\n\nTouch-typing means typing without looking at the keys, using all ten fingers. Each finger is ___2___ for a particular group of keys, and the two index fingers rest on small bumps on the F and J keys, so the hands always know where they are.\n\nLearning the skill takes patience. At first, many learners find that they type even more slowly than before, and some give up ___3___ the new habits have had time to form. Those who keep going, however, usually notice a big improvement after a few weeks of daily practice. A common goal is around 40 words per minute, ___4___ is fast enough for most schoolwork.\n\nThe benefits go beyond speed. Because their eyes stay on the screen, touch-typists notice mistakes sooner and can focus on their ideas rather than on hunting for letters. If you have been ___5___ to learn, free online courses make it easier than ever to start.",
+          "items": [
+            {
+              "id": "AL-S5-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "unless",
+                "so",
+                "because",
+                "but"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "วิธีพิมพ์สองสามนิ้ว \"works\" แต่ช้าและเหนื่อย ความหมายขัดแย้งกันจึงใช้ \"but\" ส่วน so แสดงผล because แสดงเหตุ และ unless แสดงเงื่อนไข"
+            },
+            {
+              "id": "AL-S5-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "responsible",
+                "famous",
+                "careful",
+                "capable"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"responsible for\" แปลว่ามีหน้าที่ดูแล นิ้วแต่ละนิ้วรับผิดชอบแป้นกลุ่มหนึ่ง ส่วน capable ใช้กับ of famous for แปลว่ามีชื่อเสียง และ careful ไม่เข้าความหมาย"
+            },
+            {
+              "id": "AL-S5-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "before",
+                "since",
+                "unless",
+                "after"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "บางคนเลิกก่อนที่นิสัยใหม่จะมีเวลาก่อตัว จึงใช้ \"before\" ส่วน after ขัดกับความหมาย (ถ้านิสัยเกิดแล้วจะไม่เลิก) since และ unless ไม่เข้ากับบริบทเวลา"
+            },
+            {
+              "id": "AL-S5-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "which",
+                "it",
+                "what",
+                "that"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "หลังจุลภาคเป็น non-defining relative clause ขยาย \"around 40 words per minute\" จึงใช้ \"which\" ไม่ใช้ that หลังจุลภาค ส่วน what ไม่มีคำนามนำหน้า และ it ทำให้เป็นสองประโยคเชื่อมด้วยจุลภาค"
+            },
+            {
+              "id": "AL-S5-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "to mean",
+                "meaning",
+                "means",
+                "mean"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"have been meaning to do something\" เป็นสำนวน present perfect continuous แปลว่าตั้งใจจะทำมาสักพักแล้ว หลัง have been ต้องใช้รูป -ing ส่วน means, mean และ to mean ผิดโครงสร้าง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Starting a class blog",
+          "text": "A. Within a month, the blog had more than a hundred posts, and students from other classes were reading it too.\nB. Their English teacher suggested setting up a class blog where everyone could share short book reviews.\nC. At first, only a few students posted, so the class agreed that each person would write one review a week.\nD. The students of Room 5/2 wanted more chances to practise their writing outside lessons.",
+          "items": [
+            {
+              "id": "AL-S5-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – D – C – A",
+                "D – C – B – A",
+                "D – B – C – A",
+                "D – B – A – C"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "D บอกความต้องการของนักเรียน B ครูเสนอให้ทำบล็อก (\"Their\" อ้างถึงนักเรียนใน D) C ปัญหาช่วงแรกและวิธีแก้ (\"At first\") และ A ผลลัพธ์หลังหนึ่งเดือน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How a rainbow forms",
+          "text": "A. As the light enters a raindrop, it bends and splits into its different colours.\nB. A rainbow appears when sunlight shines through drops of rain in the air.\nC. Finally, the colours leave the drop and spread out into the arc we see in the sky.\nD. This is why rainbows are usually seen when the sun is behind the viewer and the rain is in front.\nE. These colours then reflect off the back of the drop.",
+          "items": [
+            {
+              "id": "AL-S5-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – E – A – C – D",
+                "B – A – C – E – D",
+                "B – A – E – C – D",
+                "A – B – E – C – D"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B เป็นประโยคใจความหลัก A แสงเข้าหยดน้ำแล้วแยกเป็นสี E \"These colours then\" สะท้อนที่ด้านหลังหยดน้ำ C \"Finally\" สีออกจากหยดน้ำเป็นรุ้ง และ D สรุปว่าทำไมจึงเห็นรุ้งเมื่อดวงอาทิตย์อยู่ข้างหลัง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "A wallet under the bench",
+          "text": "A. Inside, she found an ID card, some cash and a photo of a small boy.\nB. While waiting for the bus home, Dao noticed a brown wallet lying under the bench.\nC. The next day, the owner came to her school to thank her with a box of homemade cookies.\nD. Using the address on the card, she took the wallet to the nearest police station.",
+          "items": [
+            {
+              "id": "AL-S5-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "A – B – D – C",
+                "B – D – A – C",
+                "B – A – D – C",
+                "B – A – C – D"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B เริ่มเรื่องที่ Dao เห็นกระเป๋าสตางค์ A \"Inside\" เปิดดูข้างใน D ใช้ที่อยู่บน \"the card\" (บัตรใน A) นำไปส่งสถานีตำรวจ และ C วันต่อมาเจ้าของมาขอบคุณ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "A herb garden on a balcony",
+          "text": "A. First, choose pots with holes in the bottom so that extra water can drain away.\nB. Growing herbs on a balcony is easier than many people think.\nC. Next, fill them with good soil and plant herbs such as basil, mint or coriander.\nD. After that, place the pots where they will get at least five hours of sunlight a day.\nE. Within a few weeks, you will have fresh leaves to add to your cooking.",
+          "items": [
+            {
+              "id": "AL-S5-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – D – C – E",
+                "A – B – C – D – E",
+                "B – C – A – D – E",
+                "B – A – C – D – E"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "B เป็นประโยคใจความหลัก ตามด้วยขั้นตอน A (\"First\" เลือกกระถาง) C (\"Next, fill them\" — them คือกระถางใน A) D (\"After that\" วางกระถางรับแดด) และ E ผลลัพธ์ที่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S5-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Preparing for a job interview",
+          "text": "A. She therefore spent the evening before reading the café's website and practising answers with her brother.\nB. Mild was nervous because it would be her first job interview.\nC. Her preparation paid off, and the manager offered her the job on the spot.\nD. Hoping to save money for a summer course, Mild applied to work weekends at a café near her home.",
+          "items": [
+            {
+              "id": "AL-S5-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – B – C – A",
+                "D – B – A – C",
+                "D – A – B – C",
+                "B – D – A – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "D เริ่มด้วยการสมัครงานร้านกาแฟและเอ่ยชื่อ Mild ครั้งแรก B เธอกังวลเพราะเป็นการสัมภาษณ์ครั้งแรก A \"therefore\" เตรียมตัวเพราะความกังวลนั้น และ C \"Her preparation paid off\" ผลของการเตรียมตัว"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

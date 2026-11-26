@@ -1,0 +1,1412 @@
+{
+  "exam": "tuget",
+  "setId": "TU-S1",
+  "title": "TU-GET ชุดฝึกที่ 1",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 4,
+    "agree": 100,
+    "keyMatch": 100,
+    "total": 100
+  },
+  "sections": [
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "TU-S1-G01",
+          "type": "tu_sentence",
+          "instructionTh": "เลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างเพื่อให้ประโยคถูกต้องสมบูรณ์",
+          "title": "Sentence Completion",
+          "items": [
+            {
+              "id": "TU-S1-001",
+              "stem": "Hardly ____ the lecture begun when the fire alarm suddenly went off.",
+              "options": [
+                "was",
+                "had",
+                "did",
+                "has"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง Hardly + had + S + V3 ... when ... ใช้กับเหตุการณ์ในอดีตที่เกิดต่อเนื่องกันทันที และ begun เป็น V3 จึงต้องใช้ had"
+            },
+            {
+              "id": "TU-S1-002",
+              "stem": "The committee recommended that every applicant ____ a portfolio by the end of May.",
+              "options": [
+                "will submit",
+                "submitted",
+                "submit",
+                "submits"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา recommend that ... ใช้ subjunctive คือกริยาช่องที่ 1 ไม่ผัน (submit) แม้ประธานจะเป็นเอกพจน์"
+            },
+            {
+              "id": "TU-S1-003",
+              "stem": "Neither the manager nor her assistants ____ aware of the change in the schedule.",
+              "options": [
+                "has been",
+                "is",
+                "were",
+                "was"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "Neither ... nor ... กริยาผันตามประธานตัวที่อยู่ใกล้ที่สุด คือ assistants ซึ่งเป็นพหูพจน์ จึงใช้ were"
+            },
+            {
+              "id": "TU-S1-004",
+              "stem": "____ in 1897, the old library remains one of the most admired buildings on campus.",
+              "options": [
+                "To build",
+                "It was built",
+                "Built",
+                "Building"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ห้องสมุดถูกสร้าง จึงใช้ participle รูป passive คือ Built ขึ้นต้นประโยค ส่วน It was built จะทำให้เกิดประโยคซ้อนโดยไม่มีคำเชื่อม (comma splice)"
+            },
+            {
+              "id": "TU-S1-005",
+              "stem": "If the researchers had collected more data last year, they ____ the problem before the deadline passed.",
+              "options": [
+                "had identified",
+                "would identify",
+                "will identify",
+                "would have identified"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "Conditional แบบที่ 3 (สมมติตรงข้ามกับอดีต) ใช้ If + had V3, would have V3 จึงตอบ would have identified"
+            },
+            {
+              "id": "TU-S1-006",
+              "stem": "The new policy is aimed at ____ the amount of plastic waste produced by local markets.",
+              "options": [
+                "reduced",
+                "to reduce",
+                "reduce",
+                "reducing"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "หลังคำบุพบท at ต้องตามด้วย gerund (V-ing) จึงใช้ reducing"
+            },
+            {
+              "id": "TU-S1-007",
+              "stem": "Dr. Kanya, ____ research focuses on coastal erosion, will give the opening talk at the conference.",
+              "options": [
+                "who",
+                "whose",
+                "which",
+                "whom"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ relative pronoun แสดงความเป็นเจ้าของ (งานวิจัยของ Dr. Kanya) ซึ่งตามด้วยคำนาม research จึงใช้ whose"
+            },
+            {
+              "id": "TU-S1-008",
+              "stem": "Not until the final results were published ____ how serious the problem had been.",
+              "options": [
+                "the public did realise",
+                "did the public realise",
+                "the public realised",
+                "realised the public"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เมื่อขึ้นต้นประโยคด้วย Not until ... ส่วนประโยคหลักต้องสลับที่ (inversion) เป็น did + S + V1 จึงตอบ did the public realise"
+            },
+            {
+              "id": "TU-S1-009",
+              "stem": "The more carefully you plan your monthly budget, ____ you are to run out of money.",
+              "options": [
+                "so less likely",
+                "the least likely",
+                "less likely",
+                "the less likely"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง The + comparative ..., the + comparative ... ต้องมี the ทั้งสองส่วนและใช้ขั้นกว่า จึงเป็น the less likely"
+            },
+            {
+              "id": "TU-S1-010",
+              "stem": "By the time the new bridge is completed, the city ____ more than two billion baht on it.",
+              "options": [
+                "spent",
+                "has spent",
+                "will have spent",
+                "will spend"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "By the time + present simple ที่หมายถึงอนาคต ใช้คู่กับ future perfect (will have V3) เพราะการใช้เงินจะเสร็จก่อนจุดนั้น"
+            },
+            {
+              "id": "TU-S1-011",
+              "stem": "Candidates must remain in their seats ____ all the answer sheets have been collected.",
+              "options": [
+                "despite",
+                "until",
+                "in case of",
+                "whereas"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ประโยคหมายถึงต้องนั่งอยู่ 'จนกว่า' จะเก็บกระดาษคำตอบครบ จึงใช้ until ส่วน despite และ in case of ต้องตามด้วยคำนาม ไม่ใช่ประโยค"
+            },
+            {
+              "id": "TU-S1-012",
+              "stem": "It is essential that the samples ____ at a constant temperature throughout the experiment.",
+              "options": [
+                "keep",
+                "be kept",
+                "to be kept",
+                "are keeping"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "It is essential that ... ใช้ subjunctive (be + V3 ในรูป passive) และตัวอย่างถูกเก็บ จึงใช้ be kept"
+            },
+            {
+              "id": "TU-S1-013",
+              "stem": "The professor suggested ____ the survey to include students from rural schools as well.",
+              "options": [
+                "expand",
+                "expanded",
+                "to expand",
+                "expanding"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "กริยา suggest ตามด้วย gerund (V-ing) ไม่ใช้ to-infinitive จึงตอบ expanding"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G02",
+          "type": "tu_error",
+          "instructionTh": "แต่ละประโยคมีส่วนที่ขีดเส้นใต้ 4 ส่วน ให้เลือกส่วนที่ไม่ถูกต้องตามหลักไวยากรณ์",
+          "title": "Error Identification",
+          "items": [
+            {
+              "id": "TU-S1-014",
+              "stem": "The number of students [[who apply]] for scholarships [[have increased]] steadily [[over]] the past [[five years]].",
+              "options": [
+                "who apply",
+                "have increased",
+                "over",
+                "five years"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "The number of ... เป็นประธานเอกพจน์ กริยาต้องเป็น has increased ไม่ใช่ have increased"
+            },
+            {
+              "id": "TU-S1-015",
+              "stem": "[[Despite of]] the heavy rain, the volunteers [[continued]] planting trees [[along]] the [[riverbank]].",
+              "options": [
+                "Despite of",
+                "continued",
+                "along",
+                "riverbank"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "Despite ไม่ต้องมี of ตามหลัง (ใช้ Despite หรือ In spite of) จึงผิดที่ Despite of"
+            },
+            {
+              "id": "TU-S1-016",
+              "stem": "The software still [[contains]] several [[serious]] bugs, although the team [[has been]] working on it [[since]] three months.",
+              "options": [
+                "contains",
+                "serious",
+                "has been",
+                "since"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "three months เป็นช่วงระยะเวลา ต้องใช้ for ส่วน since ใช้กับจุดเวลาเริ่มต้น เช่น since March"
+            },
+            {
+              "id": "TU-S1-017",
+              "stem": "Rice is one of [[the most]] important [[crop]] in Southeast Asia, [[feeding]] millions of [[families]] every day.",
+              "options": [
+                "the most",
+                "crop",
+                "feeding",
+                "families"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง one of the + superlative + คำนามพหูพจน์ จึงต้องเป็น crops"
+            },
+            {
+              "id": "TU-S1-018",
+              "stem": "The guide [[describe]] to us how the ancient city [[had been]] [[abandoned]] by [[its]] residents centuries ago.",
+              "options": [
+                "describe",
+                "had been",
+                "abandoned",
+                "its"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน The guide เป็นเอกพจน์และเล่าเรื่องในอดีต กริยาต้องเป็น described จึงผิดที่ describe ส่วน had been abandoned เป็น past perfect passive ที่ถูกต้อง"
+            },
+            {
+              "id": "TU-S1-019",
+              "stem": "I [[would have]] [[registered]] for the workshop [[if]] I [[would have known]] about it earlier.",
+              "options": [
+                "would have",
+                "registered",
+                "if",
+                "would have known"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ในอนุประโยค if ของ conditional แบบที่ 3 ต้องใช้ had known ไม่ใช้ would have known"
+            },
+            {
+              "id": "TU-S1-020",
+              "stem": "The data [[collected]] by the volunteers [[was]] [[analysing]] by a team of [[statisticians]].",
+              "options": [
+                "collected",
+                "was",
+                "analysing",
+                "statisticians"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ข้อมูลถูกวิเคราะห์ ต้องเป็น passive คือ was analysed ไม่ใช่ was analysing"
+            },
+            {
+              "id": "TU-S1-021",
+              "stem": "She is [[used to]] [[work]] late at night, so the night shift [[does not]] [[bother]] her at all.",
+              "options": [
+                "used to",
+                "work",
+                "does not",
+                "bother"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "be used to (เคยชินกับ) ต้องตามด้วย V-ing จึงต้องเป็น working"
+            },
+            {
+              "id": "TU-S1-022",
+              "stem": "Although the company's profits [[rose]] sharply last year, its employees [[has received]] no [[additional]] bonus [[so far]].",
+              "options": [
+                "rose",
+                "has received",
+                "additional",
+                "so far"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน its employees เป็นพหูพจน์ จึงต้องใช้ have received ส่วน rose ถูกเพราะมี last year และ so far ใช้คู่กับ present perfect ได้"
+            },
+            {
+              "id": "TU-S1-023",
+              "stem": "The guest lecture was so [[bored]] that several students [[fell]] asleep [[before]] it [[ended]].",
+              "options": [
+                "bored",
+                "fell",
+                "before",
+                "ended"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "การบรรยายเป็นสิ่งที่ทำให้น่าเบื่อ ต้องใช้ boring ส่วน bored ใช้กับคนที่รู้สึกเบื่อ"
+            },
+            {
+              "id": "TU-S1-024",
+              "stem": "The experiment failed because the samples [[had been]] stored [[at]] a temperature that was [[too much]] [[high]].",
+              "options": [
+                "had been",
+                "at",
+                "too much",
+                "high"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ขยายคำคุณศัพท์ high ต้องใช้ too high ส่วน too much ใช้ขยายคำนามนับไม่ได้หรือกริยา"
+            },
+            {
+              "id": "TU-S1-025",
+              "stem": "The new bridge will [[allow]] commuters [[to cross]] the river in [[less]] time and with [[fewer]] cost.",
+              "options": [
+                "allow",
+                "to cross",
+                "less",
+                "fewer"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "cost ในที่นี้ใช้เป็นคำนามนับไม่ได้ ต้องใช้ less cost ส่วน fewer ใช้กับคำนามนับได้พหูพจน์"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "TU-S1-G03",
+          "type": "tu_vocab",
+          "instructionTh": "เลือกคำหรือความหมายที่เหมาะสมที่สุดตามบริบทของประโยค",
+          "title": "Vocabulary in Context",
+          "items": [
+            {
+              "id": "TU-S1-026",
+              "stem": "The findings of the study were inconclusive, so the researchers decided to repeat the experiment. The word 'inconclusive' is closest in meaning to",
+              "options": [
+                "not reliable",
+                "not decisive",
+                "not original",
+                "not relevant"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "inconclusive = ยังสรุปผลไม่ได้ (not decisive) นักวิจัยจึงต้องทำการทดลองซ้ำ คำนี้ไม่ได้แปลว่าผลไม่น่าเชื่อถือหรือไม่เกี่ยวข้อง"
+            },
+            {
+              "id": "TU-S1-027",
+              "stem": "The government plans to ____ the outdated regulations and replace them with a simpler system.",
+              "options": [
+                "endorse",
+                "abolish",
+                "extend",
+                "enforce"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "abolish = ยกเลิก เข้ากับ \"and replace them with a simpler system\" ส่วน enforce (บังคับใช้) endorse (รับรอง) extend (ขยายเวลา) ล้วนเป็นการคงกฎเดิมไว้ ขัดกับการแทนที่"
+            },
+            {
+              "id": "TU-S1-028",
+              "stem": "The scientist's hypothesis was later corroborated by data from three independent laboratories. The word 'corroborated' is closest in meaning to",
+              "options": [
+                "collected",
+                "compared",
+                "contradicted",
+                "confirmed"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "corroborate = ยืนยันด้วยหลักฐาน ข้อมูลจากสามห้องแล็บอิสระช่วยยืนยันสมมติฐาน ส่วน contradicted มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S1-029",
+              "stem": "Prices of fresh vegetables tend to ____ throughout the year depending on weather conditions.",
+              "options": [
+                "circulate",
+                "fluctuate",
+                "stagnate",
+                "accumulate"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "fluctuate = ขึ้นลงไม่คงที่ สอดคล้องกับ \"depending on weather conditions\" ส่วน stagnate = หยุดนิ่ง accumulate = สะสม circulate = หมุนเวียน ใช้กับราคาไม่เหมาะ"
+            },
+            {
+              "id": "TU-S1-030",
+              "stem": "Learning a second language at a young age can enhance a child's problem-solving skills. The word 'enhance' is closest in meaning to",
+              "options": [
+                "evaluate",
+                "influence",
+                "encourage",
+                "improve"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "enhance = ทำให้ดีขึ้น ตรงกับ improve ส่วน influence แค่ \"มีผลต่อ\" โดยไม่บอกว่าดีขึ้น และ evaluate = ประเมิน"
+            },
+            {
+              "id": "TU-S1-031",
+              "stem": "The new manager made a ____ effort to learn the names of all two hundred employees in her first month.",
+              "options": [
+                "deficient",
+                "delicate",
+                "deliberate",
+                "defensive"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "deliberate effort = ความพยายามอย่างตั้งใจ เหมาะกับการตั้งใจจำชื่อพนักงาน 200 คน ส่วน delicate (บอบบาง) defensive (ตั้งรับ) deficient (บกพร่อง) ไม่เข้าบริบท"
+            },
+            {
+              "id": "TU-S1-032",
+              "stem": "Without adequate funding, the community project is unlikely to survive in the long term. The word 'adequate' is closest in meaning to",
+              "options": [
+                "sufficient",
+                "adjusted",
+                "accurate",
+                "additional"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "adequate = เพียงพอ ตรงกับ sufficient ระวังสับสนกับ accurate (แม่นยำ) ที่รูปคำคล้าย และ additional (เพิ่มเติม) ซึ่งไม่ได้แปลว่าพอ"
+            },
+            {
+              "id": "TU-S1-033",
+              "stem": "The author's argument rests on the ____ that all consumers act rationally, a view many economists dispute.",
+              "options": [
+                "exemption",
+                "assumption",
+                "resumption",
+                "consumption"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "assumption = ข้อสันนิษฐาน ข้อโต้แย้งตั้งอยู่บนข้อสันนิษฐานว่าผู้บริโภคมีเหตุผล ส่วน consumption (การบริโภค) resumption (การเริ่มใหม่) exemption (การยกเว้น) รูปคล้ายแต่ความหมายไม่เข้า"
+            },
+            {
+              "id": "TU-S1-034",
+              "stem": "Heavy rain in the mountains is likely to impede the progress of the rescue team. The word 'impede' is closest in meaning to",
+              "options": [
+                "hinder",
+                "affect",
+                "report",
+                "follow"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "impede = ขัดขวางทำให้ล่าช้า ตรงกับ hinder ส่วน affect แปลกว้าง ๆ ว่า \"มีผลต่อ\" ไม่ได้เจาะจงว่าทำให้ช้าลง"
+            },
+            {
+              "id": "TU-S1-035",
+              "stem": "The museum's collection is so ____ that visitors can see everything from ancient pottery to modern robots.",
+              "options": [
+                "distinct",
+                "diverse",
+                "uniform",
+                "divided"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "diverse = หลากหลาย สอดคล้องกับ \"everything from ancient pottery to modern robots\" ส่วน uniform = เหมือนกันหมด divided = ถูกแบ่ง"
+            },
+            {
+              "id": "TU-S1-036",
+              "stem": "Many species of frogs are vulnerable to even small changes in water quality. The word 'vulnerable' is closest in meaning to",
+              "options": [
+                "easily harmed",
+                "widely spread",
+                "easily replaced",
+                "rarely noticed"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "vulnerable = ได้รับอันตรายง่าย คำว่า even small changes บอกว่าแม้น้ำเปลี่ยนเพียงเล็กน้อยกบก็ได้รับผลกระทบ"
+            },
+            {
+              "id": "TU-S1-037",
+              "stem": "The two small firms decided to ____ their resources in order to compete with larger rivals.",
+              "options": [
+                "waive",
+                "split",
+                "pool",
+                "drain"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "pool resources = รวมทรัพยากรเข้าด้วยกันเพื่อแข่งกับรายใหญ่ ส่วน split (แยก) ตรงข้ามกับเป้าหมาย drain (ทำให้หมด) และ waive (สละสิทธิ์) ไม่เข้าบริบท"
+            },
+            {
+              "id": "TU-S1-038",
+              "stem": "Before the debate, the professor gave a concise summary of the main theories. The word 'concise' is closest in meaning to",
+              "options": [
+                "exact and technical",
+                "lively and entertaining",
+                "brief and clear",
+                "careful and thorough"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "concise = สั้นกระชับได้ใจความ ตรงกับ brief and clear ส่วน thorough (ละเอียดครบถ้วน) และ technical ไม่ได้เน้นความสั้น"
+            },
+            {
+              "id": "TU-S1-039",
+              "stem": "Officials are trying to ____ the impact of the flood on local farmers by providing free seeds and equipment.",
+              "options": [
+                "migrate",
+                "aggravate",
+                "mitigate",
+                "motivate"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "mitigate = บรรเทา การแจกเมล็ดพันธุ์และอุปกรณ์ช่วยลดผลกระทบ ส่วน aggravate = ทำให้แย่ลง migrate และ motivate รูปคล้ายแต่ความหมายไม่เข้า"
+            },
+            {
+              "id": "TU-S1-040",
+              "stem": "The island's economy depends heavily on tourism, which makes it susceptible to sudden changes in travel trends. The word 'susceptible' is closest in meaning to",
+              "options": [
+                "likely to be suspected",
+                "slow to respond",
+                "able to adapt quickly",
+                "likely to be affected"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "susceptible = ได้รับผลกระทบได้ง่าย เศรษฐกิจที่พึ่งการท่องเที่ยวมากจึงอ่อนไหวต่อเทรนด์การเดินทาง อย่าสับสนกับ suspect (สงสัย) ที่รูปคำคล้าย"
+            },
+            {
+              "id": "TU-S1-041",
+              "stem": "Because the instructions were ____, half of the participants completed the wrong task.",
+              "options": [
+                "anonymous",
+                "explicit",
+                "ambiguous",
+                "ambitious"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ambiguous = กำกวม ทำให้ผู้เข้าร่วมครึ่งหนึ่งทำงานผิด ส่วน ambitious (ทะเยอทะยาน) รูปคล้ายแต่ความหมายต่าง และ explicit = ชัดเจน ตรงข้าม"
+            },
+            {
+              "id": "TU-S1-042",
+              "stem": "The committee will scrutinise every proposal before allocating the funds. The word 'scrutinise' is closest in meaning to",
+              "options": [
+                "summarise briefly",
+                "criticise strongly",
+                "examine carefully",
+                "approve formally"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "scrutinise = ตรวจสอบอย่างละเอียด ไม่ได้แปลว่าวิจารณ์ (criticise) ซึ่งเป็นตัวลวงที่มักสับสน คณะกรรมการตรวจทุกข้อเสนอก่อนจัดสรรงบ"
+            },
+            {
+              "id": "TU-S1-043",
+              "stem": "Online banking has made it ____ for most customers to visit a branch for simple transactions.",
+              "options": [
+                "inevitable",
+                "unnecessary",
+                "compulsory",
+                "essential"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "unnecessary = ไม่จำเป็น เมื่อมีธนาคารออนไลน์ ลูกค้าก็ไม่ต้องไปสาขาเพื่อทำธุรกรรมง่าย ๆ"
+            },
+            {
+              "id": "TU-S1-044",
+              "stem": "The ancient trade route facilitated the exchange of ideas between distant cultures. The word 'facilitated' is closest in meaning to",
+              "options": [
+                "made familiar",
+                "made formal",
+                "made easier",
+                "made fashionable"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "facilitate = ทำให้ง่ายหรือสะดวกขึ้น เส้นทางการค้าช่วยให้แลกเปลี่ยนความคิดได้ง่ายขึ้น ตัวลวงขึ้นต้น fa- คล้ายกันแต่ความหมายต่าง"
+            },
+            {
+              "id": "TU-S1-045",
+              "stem": "Her explanation was so ____ that even first-year students could follow it without difficulty.",
+              "options": [
+                "ludicrous",
+                "lucrative",
+                "lucid",
+                "lengthy"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "lucid = ชัดเจนเข้าใจง่าย สอดคล้องกับ \"could follow it without difficulty\" ส่วน lengthy = ยืดยาว lucrative = ทำกำไร ludicrous = น่าขัน"
+            },
+            {
+              "id": "TU-S1-046",
+              "stem": "The company's profits declined sharply in the subsequent year. The word 'subsequent' is closest in meaning to",
+              "options": [
+                "subsidiary",
+                "following",
+                "previous",
+                "substantial"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "subsequent = ที่ตามมา ถัดไป ตรงกับ following ส่วน previous ตรงข้าม และ subsidiary/substantial เป็นคำรูปคล้ายที่ความหมายต่าง"
+            },
+            {
+              "id": "TU-S1-047",
+              "stem": "The researchers had to ____ several participants from the study because they did not complete the questionnaire.",
+              "options": [
+                "exert",
+                "exceed",
+                "exclude",
+                "include"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "exclude ... from = คัดออกจาก เพราะผู้เข้าร่วมกรอกแบบสอบถามไม่ครบ ส่วน include มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S1-048",
+              "stem": "Critics argued that the plan was too ambitious and lacked a feasible timeline. The word 'feasible' is closest in meaning to",
+              "options": [
+                "achievable",
+                "fixed",
+                "favourable",
+                "flexible"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "feasible = ทำได้จริง ตรงกับ achievable บริบท too ambitious บอกว่ากำหนดเวลาไม่สมจริง ส่วน flexible (ยืดหยุ่น) รูปคล้ายแต่ความหมายต่าง"
+            },
+            {
+              "id": "TU-S1-049",
+              "stem": "The harvest festival has become an ____ part of the town's identity, and residents cannot imagine life without it.",
+              "options": [
+                "incidental",
+                "internal",
+                "integral",
+                "intentional"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "integral = เป็นส่วนสำคัญที่ขาดไม่ได้ สอดคล้องกับ \"cannot imagine life without it\" ส่วน internal (ภายใน) และ incidental (เป็นเรื่องรอง) ไม่ตรงความหมาย"
+            },
+            {
+              "id": "TU-S1-050",
+              "stem": "The negotiations reached a deadlock because neither side was willing to compromise. The word 'deadlock' is closest in meaning to",
+              "options": [
+                "final deadline",
+                "heated argument",
+                "sudden collapse",
+                "complete standstill"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "deadlock = ทางตัน ไม่มีความคืบหน้า เพราะไม่มีฝ่ายใดยอมประนีประนอม ไม่ได้แปลว่ากำหนดเส้นตาย (deadline) หรือการโต้เถียงรุนแรง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TU-S1-G04",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "How Honeybees Find Their Way",
+          "text": "For an insect with a brain smaller than a grain of rice, the honeybee is a remarkably skilled navigator. A forager may fly several kilometres from its hive in search of flowers, visit dozens of blossoms, and then return home along an almost straight line. How bees manage this has fascinated biologists for more than a century, and recent work suggests that the answer involves not one system but several working together.\n\nThe most important of these is the sun. Bees use the sun's position as a compass, and they can do so even when the sun itself is hidden behind clouds. This is possible because sunlight becomes polarised as it passes through the atmosphere, creating patterns in the sky that are invisible to humans but clearly detectable by specialised cells at the top of a bee's eyes. Since the sun moves across the sky during the day, a bee must also adjust for the time. Experiments in which hives were moved to new locations overnight showed that foragers continued to fly at the correct angle relative to the sun hours later, indicating that they possess an internal clock that compensates for its movement.\n\nDistance is measured in a different way. Early researchers assumed that bees counted the energy they used during a flight, but this idea was largely abandoned after a series of tunnel experiments. In one study at the fictional Corvale Field Station, bees were trained to fly through a narrow tunnel lined with a busy black-and-white pattern. When they returned to the hive, they reported a distance far greater than the one they had actually flown. The researchers concluded that bees estimate distance from \"optic flow\", the speed at which images move across their eyes. A cluttered tunnel makes the world appear to rush past, so the bee overestimates how far it has travelled.\n\nOnce a forager has found a good source of food, it shares the information through the well-known waggle dance. Inside the dark hive, the dancer runs forward while shaking its body, then circles back and repeats the movement. The angle of the run relative to vertical represents the direction of the food relative to the sun, while the length of the waggle phase signals distance. Other workers follow the dancer closely, picking up both the movements and the scent of the flowers it has visited.\n\nLandmarks also play a role, especially near the hive. Bees memorise trees, buildings and the edges of fields, and they seem to store these as a series of snapshots that are compared with the scene in front of them. When researchers at Corvale moved a familiar row of hedges, returning bees hesitated and circled for some time before finding the entrance.\n\nUnderstanding these systems is not merely an academic exercise. Engineers designing small flying robots have begun to borrow the bee's strategies, since optic flow can be calculated with very little computing power. At the same time, ecologists warn that artificial light, pesticides and changes in the landscape may interfere with the cues bees depend on. A navigator this efficient, it turns out, is also surprisingly easy to confuse.",
+          "items": [
+            {
+              "id": "TU-S1-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "the way honeybees choose which flowers to visit",
+                "the reasons honeybees are disappearing from farms",
+                "the history of research on the brains of insects",
+                "the different methods honeybees combine to navigate"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทความอธิบายว่าผึ้งใช้หลายระบบร่วมกัน (ดวงอาทิตย์ optic flow การเต้นรำ จุดสังเกต) ตามประโยค 'not one system but several working together'"
+            },
+            {
+              "id": "TU-S1-052",
+              "stem": "According to the passage, how can bees use the sun as a compass on a cloudy day?",
+              "options": [
+                "They rely on the warmth of the sun on their bodies.",
+                "They wait until the clouds have moved away.",
+                "They follow other bees that saw the sun earlier.",
+                "They detect patterns of polarised light in the sky."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่าแสงแดดถูก polarised ทำให้เกิดรูปแบบบนท้องฟ้าที่ผึ้งตรวจจับได้ด้วยเซลล์พิเศษที่ตา"
+            },
+            {
+              "id": "TU-S1-053",
+              "stem": "The experiment in which hives were moved overnight suggests that bees",
+              "options": [
+                "prefer to forage in places they already know",
+                "use landmarks more than the sun",
+                "can take the time of day into account",
+                "become confused when their hive is moved"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผึ้งยังบินถูกมุมเทียบกับดวงอาทิตย์หลายชั่วโมงต่อมา แสดงว่ามี 'internal clock' ที่ชดเชยการเคลื่อนที่ของดวงอาทิตย์"
+            },
+            {
+              "id": "TU-S1-054",
+              "stem": "The word 'abandoned' in paragraph 3 is closest in meaning to",
+              "options": [
+                "given up",
+                "expanded",
+                "tested",
+                "proved"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "แนวคิดเรื่องนับพลังงานถูก abandoned หลังการทดลองในอุโมงค์ คือถูกล้มเลิกไป ตรงกับ given up"
+            },
+            {
+              "id": "TU-S1-055",
+              "stem": "Why did the bees in the tunnel report a longer distance than they had really flown?",
+              "options": [
+                "They could not see the sun inside the tunnel.",
+                "The pattern made their surroundings seem to move quickly.",
+                "The tunnel was much longer than it appeared.",
+                "They used more energy flying in a narrow space."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผึ้งประมาณระยะจาก optic flow ลวดลายที่ยุ่งเหยิงทำให้ภาพดู 'rush past' ผึ้งจึงประเมินระยะทางเกินจริง"
+            },
+            {
+              "id": "TU-S1-056",
+              "stem": "In the waggle dance, the length of the waggle phase tells other bees",
+              "options": [
+                "how far away the food is",
+                "which direction the food is in",
+                "what kind of flower was visited",
+                "how much food is available"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่า 'the length of the waggle phase signals distance' ส่วนทิศทางบอกด้วยมุมของการวิ่ง"
+            },
+            {
+              "id": "TU-S1-057",
+              "stem": "In paragraph 4, the word 'it' in 'the flowers it has visited' refers to",
+              "options": [
+                "the dancer",
+                "the hive",
+                "the movement",
+                "the food"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ผึ้งตัวที่เต้นรำ (the dancer) เป็นผู้ไปเยือนดอกไม้ ผึ้งตัวอื่นจึงได้กลิ่นดอกไม้จากตัวมัน"
+            },
+            {
+              "id": "TU-S1-058",
+              "stem": "What can be inferred from the bees' behaviour after the hedges were moved?",
+              "options": [
+                "Bees lose their sense of time when confused.",
+                "Bees prefer hives that are hidden by hedges.",
+                "Bees cannot fly well near tall plants.",
+                "Bees partly depend on remembered views near the hive."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผึ้งลังเลและบินวนเมื่อแนวพุ่มไม้ถูกย้าย แสดงว่ามันใช้ภาพจำ (snapshots) ของจุดสังเกตใกล้รังในการหาทางเข้า"
+            },
+            {
+              "id": "TU-S1-059",
+              "stem": "Why does the author mention flying robots in the last paragraph?",
+              "options": [
+                "to show that bee navigation research has practical uses",
+                "to argue that robots navigate better than insects",
+                "to warn that robots may replace bees in pollination",
+                "to explain why bees are easily confused by machines"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนกล่าวว่างานวิจัยนี้ 'not merely an academic exercise' แล้วยกตัวอย่างวิศวกรที่นำกลยุทธ์ของผึ้งไปใช้กับหุ่นยนต์บิน"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G05",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "From Running Machine to Safety Bicycle",
+          "text": "Few inventions look as simple as the bicycle, yet the machine we ride today is the result of nearly a century of trial, error and argument. Its story is a useful reminder that technology rarely appears fully formed; instead, it develops through many small improvements, some of which are later forgotten.\n\nThe earliest ancestor of the bicycle, which appeared in Europe in the early nineteenth century, had no pedals at all. Riders sat on a wooden frame between two wheels and pushed themselves along with their feet, rather like a small child on a balance bike. These \"running machines\" enjoyed a brief period of popularity among wealthy young men, but they were heavy, difficult to steer and of little use on the rough roads of the time. Within a few years, most had been put away.\n\nPedals arrived several decades later, attached directly to the front wheel. Because one turn of the pedals produced only one turn of the wheel, makers soon realised that a larger front wheel would carry the rider further with each stroke. The result was the high-wheeler, whose front wheel could be taller than an adult. It was fast, but it was also dangerous: a rider perched so high above the ground could be thrown forward by a single stone in the road. As the historian Margaret Ellory puts it in her (fictional) study The Wheel and the Road, the high-wheeler \"turned cycling into a sport for the brave rather than a means of transport for the many.\"\n\nThe decisive change came with the so-called safety bicycle in the 1880s. By using a chain to connect the pedals to the rear wheel, designers could make both wheels the same modest size while keeping the machine fast. Shortly afterwards, air-filled rubber tyres replaced solid ones, making rides far more comfortable. For the first time, the bicycle was practical for ordinary people, including women, whose long skirts had made the high-wheeler almost impossible to use.\n\nThe social effects were considerable. Workers could live further from factories, and young people in rural areas could travel to neighbouring towns without a horse. Ellory argues that the bicycle also changed clothing: as more women took up cycling, lighter and shorter garments became more widely accepted. Cycling clubs pressed local authorities to improve road surfaces, and some historians believe these campaigns helped prepare roads for the motor car, which would later push the bicycle aside in many countries.\n\nToday the bicycle is enjoying a revival as cities look for cleaner, cheaper forms of transport. Modern frames are lighter, and electric motors can assist riders on hills, but the basic layout of two equal wheels, a chain and a diamond-shaped frame has barely changed in well over a century. In that sense, the designers of the 1880s solved the problem so well that their successors have mostly been refining, rather than reinventing, their work.",
+          "items": [
+            {
+              "id": "TU-S1-060",
+              "stem": "Which of the following best states the main idea of the passage?",
+              "options": [
+                "Cycling was mainly a sport for wealthy young men.",
+                "Modern bicycles are very different from early ones.",
+                "The high-wheeler was the most important bicycle ever built.",
+                "The bicycle developed gradually and changed society."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าการพัฒนาจักรยานทีละขั้นและผลต่อสังคม ตามประโยคแรกที่ว่าเกิดจาก 'nearly a century of trial, error and argument' และย่อหน้าผลทางสังคม"
+            },
+            {
+              "id": "TU-S1-061",
+              "stem": "What was the main problem with the early 'running machines'?",
+              "options": [
+                "They were hard to control and unsuited to rough roads.",
+                "Their front wheels were too large to steer.",
+                "They were too expensive for wealthy young men.",
+                "Their pedals often broke on uneven surfaces."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่ารถเหล่านี้ 'heavy, difficult to steer and of little use on the rough roads' และยังไม่มีบันได"
+            },
+            {
+              "id": "TU-S1-062",
+              "stem": "Why did makers increase the size of the front wheel after pedals were introduced?",
+              "options": [
+                "to make steering on rough roads easier",
+                "to allow riders to carry heavy loads",
+                "to move the rider further with each pedal turn",
+                "to make the machine safer for beginners"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "บันไดติดกับล้อหน้าโดยตรง หมุนหนึ่งรอบได้ล้อหนึ่งรอบ ล้อใหญ่ขึ้นจึง 'carry the rider further with each stroke'"
+            },
+            {
+              "id": "TU-S1-063",
+              "stem": "The word 'perched' in paragraph 3 is closest in meaning to",
+              "options": [
+                "leaning forward heavily",
+                "moving very quickly",
+                "sitting in a high position",
+                "standing nervously"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "perched หมายถึงนั่งเกาะอยู่บนที่สูง บริบทคือผู้ขี่ที่อยู่ 'so high above the ground'"
+            },
+            {
+              "id": "TU-S1-064",
+              "stem": "The author quotes Margaret Ellory in paragraph 3 in order to",
+              "options": [
+                "stress that the high-wheeler suited mainly risk-takers",
+                "prove that the high-wheeler was the fastest design",
+                "suggest that cycling should be treated as a sport",
+                "show that historians disagree about early bicycles"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "คำพูดที่ว่า 'a sport for the brave rather than a means of transport for the many' เน้นว่ารถล้อสูงเหมาะกับคนกล้าเสี่ยงเท่านั้น สอดคล้องกับความอันตรายที่เพิ่งกล่าวไป"
+            },
+            {
+              "id": "TU-S1-065",
+              "stem": "Which feature of the safety bicycle allowed both wheels to be the same size?",
+              "options": [
+                "a lighter wooden frame",
+                "air-filled rubber tyres",
+                "pedals on the front wheel",
+                "a chain to the rear wheel"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4: 'By using a chain to connect the pedals to the rear wheel, designers could make both wheels the same modest size'"
+            },
+            {
+              "id": "TU-S1-066",
+              "stem": "It can be inferred from paragraph 5 that the campaigns of cycling clubs",
+              "options": [
+                "prevented cars from becoming popular",
+                "were opposed by most local authorities",
+                "were mainly concerned with women's clothing",
+                "indirectly benefited a later form of transport"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ชมรมจักรยานผลักดันให้ปรับปรุงถนน และนักประวัติศาสตร์เชื่อว่าช่วย 'prepare roads for the motor car' จึงเป็นประโยชน์ทางอ้อมต่อรถยนต์"
+            },
+            {
+              "id": "TU-S1-067",
+              "stem": "In the last sentence, the word 'their' in 'their work' refers to",
+              "options": [
+                "the designers of the 1880s",
+                "the successors",
+                "modern cyclists",
+                "cities"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "their work หมายถึงผลงานของนักออกแบบในทศวรรษ 1880 ที่ผู้สืบทอดเพียงปรับปรุงแทนที่จะคิดใหม่"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G06",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Marketing on a Small Budget",
+          "text": "When Pim Rattanakul opened a small bakery called Golden Crust in a quiet lane of Chiang Mai, she assumed that good bread would sell itself. Six months later, she was throwing away almost a third of her stock each evening. Her experience is common. Surveys of new small businesses by the fictional Northern Enterprise Council suggest that roughly four in ten close within three years, and poor marketing is among the reasons owners most often give.\n\nMarketing is frequently confused with advertising, but the two are not the same. Advertising means paying to place a message in front of potential customers; marketing is the broader process of understanding who those customers are, what they need, and how a business can reach them. A large company can afford to spend heavily on both. A small business, by contrast, usually has to rely on time, creativity and close relationships rather than money.\n\nThe first step, consultants argue, is to define a clear target market. Many owners are reluctant to do this because they fear that focusing on one group will drive others away. In practice, the opposite tends to happen. A shop that tries to appeal to everyone often appeals strongly to no one. When Pim studied her sales records, she noticed that her best customers were office workers who bought breakfast on their way to work. She began opening an hour earlier, introduced a small set breakfast, and saw daily sales rise by about 40 percent within two months.\n\nSocial media has made it possible for even the smallest business to reach thousands of people at almost no cost. However, the ease of posting can be misleading. Accounts that publish nothing but advertisements quickly lose followers, while those that share useful or entertaining content, such as a short video of bread being shaped or a story about a long-serving employee, tend to build loyal audiences. The aim is not simply to announce a product but to give people a reason to care about the business behind it.\n\nWord of mouth remains perhaps the most powerful tool of all. Customers trust recommendations from friends and neighbours far more than they trust paid messages, and a single disappointed customer can now share a complaint with hundreds of strangers online. For this reason, many successful owners treat customer service as part of their marketing. Pim, for instance, now gives a free roll to anyone who has to wait more than ten minutes, a gesture that costs little but is frequently mentioned in online reviews.\n\nNone of this guarantees success. Rents rise, tastes change, and larger competitors can lower prices in ways a small shop cannot. Yet owners who understand their customers have a far better chance of adapting when conditions change. Golden Crust, now in its fourth year, has recently opened a second branch near a university, a decision Pim says was based not on instinct but on data from her own loyalty cards.",
+          "items": [
+            {
+              "id": "TU-S1-068",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "to describe the history of a bakery in Chiang Mai",
+                "to explain how small firms can market themselves well",
+                "to warn readers against starting a small business",
+                "to compare advertising costs in large and small firms"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความให้แนวทางการตลาดสำหรับธุรกิจเล็กที่มีงบน้อย โดยใช้ร้าน Golden Crust เป็นตัวอย่างประกอบ ไม่ได้มุ่งเล่าประวัติร้าน"
+            },
+            {
+              "id": "TU-S1-069",
+              "stem": "According to the passage, how does marketing differ from advertising?",
+              "options": [
+                "Marketing is used only by large companies.",
+                "Marketing also involves understanding customers' needs.",
+                "Marketing focuses mainly on paid messages.",
+                "Marketing is cheaper but less effective."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2: advertising คือการจ่ายเงินลงโฆษณา ส่วน marketing คือ 'the broader process of understanding who those customers are, what they need...'"
+            },
+            {
+              "id": "TU-S1-070",
+              "stem": "The word 'reluctant' in paragraph 3 is closest in meaning to",
+              "options": [
+                "eager",
+                "unwilling",
+                "unable",
+                "careful"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "reluctant = ไม่เต็มใจ เจ้าของร้านไม่อยากกำหนดกลุ่มเป้าหมายเพราะกลัวเสียลูกค้ากลุ่มอื่น"
+            },
+            {
+              "id": "TU-S1-071",
+              "stem": "According to paragraph 3, why did Golden Crust's daily sales rise?",
+              "options": [
+                "Pim began advertising on local radio.",
+                "Pim moved the shop closer to offices.",
+                "Pim adjusted the business to suit her best customers.",
+                "Pim lowered the price of her bread."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Pim พบว่าลูกค้าหลักคือพนักงานออฟฟิศที่ซื้ออาหารเช้า จึงเปิดร้านเร็วขึ้นและเพิ่มชุดอาหารเช้า ยอดขายจึงเพิ่ม"
+            },
+            {
+              "id": "TU-S1-072",
+              "stem": "According to the passage, which social media account is most likely to lose followers?",
+              "options": [
+                "one that tells stories about staff",
+                "one that shares useful information",
+                "one that shows how products are made",
+                "one that posts only advertisements"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4: 'Accounts that publish nothing but advertisements quickly lose followers' ส่วนตัวเลือกอื่นเป็นเนื้อหาที่สร้างผู้ติดตาม"
+            },
+            {
+              "id": "TU-S1-073",
+              "stem": "The free roll mentioned in paragraph 5 is given as an example of",
+              "options": [
+                "a reward for writing reviews",
+                "a way to reduce food waste",
+                "customer service that also markets",
+                "a discount for loyal customers"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ประโยคก่อนหน้าบอกว่าเจ้าของร้านหลายคน 'treat customer service as part of their marketing' แล้วยกขนมปังฟรีเป็นตัวอย่าง"
+            },
+            {
+              "id": "TU-S1-074",
+              "stem": "In paragraph 4, the word 'it' in 'the business behind it' refers to",
+              "options": [
+                "the audience",
+                "a reason",
+                "the aim",
+                "a product"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ 'not simply to announce a product but to give people a reason to care about the business behind it' ธุรกิจอยู่เบื้องหลังสินค้า (a product)"
+            },
+            {
+              "id": "TU-S1-075",
+              "stem": "Which statement would the author most likely agree with?",
+              "options": [
+                "Understanding customers helps a business adapt to change.",
+                "Small shops can usually beat larger rivals on price.",
+                "Business decisions should be based mainly on instinct.",
+                "Social media has made word of mouth less important."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้าย: 'owners who understand their customers have a far better chance of adapting when conditions change' และ Pim ตัดสินใจจากข้อมูล ไม่ใช่สัญชาตญาณ"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G07",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Invisible Pollutant",
+          "text": "Ask city residents what bothers them most about their neighbourhood, and noise often appears near the top of the list, alongside traffic and the cost of housing. Yet noise has traditionally received far less attention from planners than air or water pollution. Part of the reason is that it leaves no visible trace: a polluted river changes colour, but a noisy street looks exactly like a quiet one.\n\nNoise is usually measured in decibels, a scale on which every increase of ten units represents a sound that most listeners perceive as twice as loud. In a typical example, a quiet library registers 30 decibels, a normal conversation 60, and a busy main road 80. Because the scale is not linear, a reduction of just a few decibels can make a noticeable difference to people living nearby.\n\nRoad traffic is the largest single source of noise in most cities, followed by construction, aircraft and, in some districts, entertainment venues. The problem is not only loudness but also timing. A survey of 3,000 households carried out by the fictional Eastport Urban Research Unit found that residents were far more disturbed by noise at night than by noise of the same volume during the day. More than half of those living on main roads said they regularly kept their windows closed at night, even in hot weather, simply in order to sleep.\n\nThe consequences go beyond irritation. Researchers have linked persistent noise with poorer concentration, and the Eastport team found that pupils in classrooms facing a busy road scored lower on reading tasks than pupils in the same schools whose classrooms faced a courtyard. Although the researchers were careful to note that other factors could have played a part, the pattern was consistent across all six schools they studied.\n\nCities have tried a range of solutions. Some are technical: low-noise road surfaces, barriers along highways, and quieter engines for buses. Others are a matter of planning, such as placing bedrooms on the quiet side of new apartment buildings or keeping heavy lorries out of residential streets after ten o'clock at night. In the fictional port city of Valmora, a programme that combined new road surfaces with a lower speed limit reduced average night-time noise on major roads by six decibels. Complaints to the city council fell by almost half within a year.\n\nInterestingly, the goal is not always silence. Studies of parks and public squares suggest that people find certain sounds, such as running water, birdsong or distant voices, pleasant and even calming. Some designers now speak of creating \"soundscapes\" rather than simply removing noise, adding fountains or planting trees that attract birds in order to mask the hum of traffic. As one Valmora planner put it, \"A good city is not a silent city. It is one where people can choose what they hear.\"\n\nAs more of the world's population moves into cities, the question of how to manage sound is likely to become more pressing. Noise may be invisible, but its effects on daily life are anything but.",
+          "items": [
+            {
+              "id": "TU-S1-076",
+              "stem": "What is the passage mainly concerned with?",
+              "options": [
+                "the scientific method of measuring sound in decibels",
+                "why traffic is the main cause of city noise",
+                "the design of parks and fountains in modern cities",
+                "how noise affects city life and how it can be managed"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความกล่าวถึงผลกระทบของเสียงในเมืองและวิธีจัดการหลายแบบ ตัวเลือกอื่นเป็นเพียงรายละเอียดบางส่วน"
+            },
+            {
+              "id": "TU-S1-077",
+              "stem": "According to paragraph 1, why has noise received less attention than other forms of pollution?",
+              "options": [
+                "It is less common in cities.",
+                "Residents rarely complain about it.",
+                "It is cheaper to control.",
+                "Its effects cannot be seen."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรก: 'it leaves no visible trace' แม่น้ำที่สกปรกเปลี่ยนสี แต่ถนนที่เสียงดังดูเหมือนถนนที่เงียบ"
+            },
+            {
+              "id": "TU-S1-078",
+              "stem": "According to paragraph 2, how loud would the busy main road sound to most listeners?",
+              "options": [
+                "four times as loud as a normal conversation",
+                "eight times as loud as a normal conversation",
+                "a third louder than a normal conversation",
+                "twice as loud as a normal conversation"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ทุก 10 เดซิเบลดังขึ้น 2 เท่า ถนนสายหลัก 80 เดซิเบล มากกว่าบทสนทนา (60) อยู่ 20 จึงดังเป็น 2 × 2 = 4 เท่า ตัวเลือก \"a third louder\" มาจากการคิดแบบเส้นตรง (80/60) ซึ่งผิด"
+            },
+            {
+              "id": "TU-S1-079",
+              "stem": "What did the Eastport survey find?",
+              "options": [
+                "Most residents of main roads had moved to quieter areas.",
+                "Closing windows did not reduce noise at night.",
+                "Noise at night bothered people more than equally loud daytime noise.",
+                "Construction was more disturbing than road traffic."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผลสำรวจระบุว่าผู้อยู่อาศัย 'far more disturbed by noise at night than by noise of the same volume during the day'"
+            },
+            {
+              "id": "TU-S1-080",
+              "stem": "The word 'persistent' in paragraph 4 is closest in meaning to",
+              "options": [
+                "unusual",
+                "distant",
+                "sudden",
+                "continuing"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "persistent = ต่อเนื่อง ไม่หยุด เสียงดังต่อเนื่องเชื่อมโยงกับสมาธิที่ลดลง"
+            },
+            {
+              "id": "TU-S1-081",
+              "stem": "Which statement about the classroom study is supported by the passage?",
+              "options": [
+                "The researchers admitted that other factors may have mattered.",
+                "It proved that noise was the only cause of low scores.",
+                "Pupils facing courtyards had difficulty concentrating.",
+                "It was carried out in only one school near a road."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "นักวิจัย 'were careful to note that other factors could have played a part' จึงไม่ได้อ้างว่าเสียงเป็นสาเหตุเดียว"
+            },
+            {
+              "id": "TU-S1-082",
+              "stem": "What happened after Valmora introduced its noise programme?",
+              "options": [
+                "Complaints to the council nearly halved.",
+                "Residents moved their bedrooms to quiet sides.",
+                "Night-time noise fell by about half.",
+                "Speed limits on major roads were raised."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5: เสียงลดลง 6 เดซิเบล และ 'Complaints to the city council fell by almost half within a year' ส่วนเสียงไม่ได้ลดลงครึ่งหนึ่ง"
+            },
+            {
+              "id": "TU-S1-083",
+              "stem": "The planner's statement in paragraph 6 suggests that a well-designed city",
+              "options": [
+                "must keep traffic out of every public square",
+                "gives people some control over the sounds around them",
+                "is one where residents rarely go outside",
+                "should remove as much sound as possible"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "'A good city is not a silent city. It is one where people can choose what they hear.' คือเมืองที่ดีให้คนเลือกเสียงที่ได้ยินได้"
+            },
+            {
+              "id": "TU-S1-084",
+              "stem": "In the last sentence, the word 'its' refers to",
+              "options": [
+                "the world's",
+                "noise's",
+                "the question's",
+                "daily life's"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยค 'Noise may be invisible, but its effects on daily life...' คำว่า its หมายถึงผลกระทบของเสียง (noise)"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G08",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Mental Side of Sport",
+          "text": "Two athletes train with equal effort, follow the same diet and have similar physical ability. On the day of the competition, one performs at her best while the other makes uncharacteristic mistakes. Explaining the difference between them is the central task of sports psychology, a field that examines how thoughts and emotions affect physical performance.\n\nOne of the most studied topics is anxiety. A certain level of nervousness before a match is normal and can even be useful, since it raises alertness and prepares the body for action. Problems arise when anxiety becomes so intense that athletes begin to focus on the possibility of failure rather than on the task in front of them. Some experienced players describe this as \"thinking too much\": a movement that is normally automatic, such as a tennis serve, becomes awkward once the player starts to examine each step consciously.\n\nPsychologists have developed several techniques to help athletes manage these pressures. One is the pre-performance routine, a fixed sequence of actions carried out before a skill is attempted. A basketball player might bounce the ball three times, take a breath and look at the rim before every free throw. The routine itself has no physical effect on the shot, but it gives the mind something familiar to focus on and leaves less room for distracting thoughts.\n\nAnother widely used method is mental imagery, in which athletes picture themselves performing a skill successfully. In a study by the fictional Southbridge Sports Science Centre, two groups of young swimmers followed the same training programme for eight weeks, but one group also spent ten minutes a day imagining their races in detail. By the end of the study, the imagery group had improved their times slightly more than the other group. The researchers suggested that imagining a race allowed the swimmers to rehearse decisions, such as when to speed up, without the physical cost of extra practice.\n\nSelf-talk, the things athletes say to themselves, is a third area of interest. Instructional phrases such as \"eyes on the ball\" appear to help with tasks that require precision, while motivational phrases such as \"I can do this\" seem more useful in tasks that demand strength or endurance. What athletes avoid saying may matter as much as what they say: phrases built around negatives, such as \"don't miss\", can draw attention to the very outcome the athlete wants to avoid.\n\nSports psychology is not limited to elite competitors. Coaches of school teams increasingly recognise that young players who learn to handle pressure on the field can apply the same skills in examinations or when speaking in public. As one coach at a fictional Bangkok secondary school explained, \"We are not only training footballers. We are training people who can stay calm when something important is at stake.\"",
+          "items": [
+            {
+              "id": "TU-S1-085",
+              "stem": "Which title best fits the passage?",
+              "options": [
+                "A Diet Plan for Young Athletes",
+                "The Mind Behind Athletic Performance",
+                "How to Become a Professional Swimmer",
+                "Why Nervous Athletes Always Lose"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความพูดถึงจิตวิทยาการกีฬาว่าความคิดและอารมณ์ส่งผลต่อการแสดงออกทางร่างกายอย่างไร ตัวเลือก D ผิดเพราะบทความบอกว่าความกังวลระดับหนึ่งมีประโยชน์"
+            },
+            {
+              "id": "TU-S1-086",
+              "stem": "According to the passage, when does anxiety become a problem for athletes?",
+              "options": [
+                "when their coach puts them under pressure",
+                "whenever they feel nervous before a match",
+                "when it makes them focus on failure, not the task",
+                "when they train harder than their opponents"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2: ปัญหาเกิดเมื่อความกังวลรุนแรงจน 'focus on the possibility of failure rather than on the task' ส่วนความกังวลเล็กน้อยเป็นเรื่องปกติ"
+            },
+            {
+              "id": "TU-S1-087",
+              "stem": "The example of the tennis serve in paragraph 2 suggests that",
+              "options": [
+                "experienced players rarely make mistakes",
+                "tennis players suffer from more anxiety than others",
+                "examining a well-learned movement can disrupt it",
+                "serving requires more strength than other skills"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ท่าเสิร์ฟที่ปกติทำได้อัตโนมัติจะ 'becomes awkward' เมื่อผู้เล่นคิดวิเคราะห์ทีละขั้นตอน"
+            },
+            {
+              "id": "TU-S1-088",
+              "stem": "According to the passage, what is the main benefit of a pre-performance routine?",
+              "options": [
+                "It warms up the athlete's muscles before play.",
+                "It gives the mind something familiar to focus on.",
+                "It improves the physical accuracy of the shot.",
+                "It makes opponents feel more nervous."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่า routine 'has no physical effect on the shot, but it gives the mind something familiar to focus on'"
+            },
+            {
+              "id": "TU-S1-089",
+              "stem": "The word 'rehearse' in paragraph 4 is closest in meaning to",
+              "options": [
+                "practise",
+                "forget",
+                "explain",
+                "change"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "rehearse = ซ้อม นักว่ายน้ำซ้อมการตัดสินใจในจินตนาการโดยไม่ต้องเสียแรงฝึกจริง"
+            },
+            {
+              "id": "TU-S1-090",
+              "stem": "In the Southbridge study, how was the imagery group different from the other group?",
+              "options": [
+                "It also spent time imagining races each day.",
+                "It swam shorter distances during practice.",
+                "It trained for eight weeks longer.",
+                "It followed a more demanding training programme."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ทั้งสองกลุ่มฝึกเหมือนกัน แต่กลุ่มหนึ่ง 'also spent ten minutes a day imagining their races in detail'"
+            },
+            {
+              "id": "TU-S1-091",
+              "stem": "Based on the passage, which phrase would most likely help a long-distance runner in the final kilometre?",
+              "options": [
+                "\"I'm strong enough to finish this.\"",
+                "\"Keep the elbows low and steps short.\"",
+                "\"Don't let anyone pass me now.\"",
+                "\"Don't slow down and don't stop.\""
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "การวิ่งระยะไกลต้องใช้ความอดทน ซึ่งบทความบอกว่าวลีให้กำลังใจได้ผลดีกว่า ส่วนวลีเชิงปฏิเสธ (don't) อาจดึงความสนใจไปที่สิ่งที่ไม่อยากให้เกิด"
+            },
+            {
+              "id": "TU-S1-092",
+              "stem": "Why does the author include the coach's comment in the last paragraph?",
+              "options": [
+                "to show that only elite athletes need mental training",
+                "to criticise schools for focusing too much on sport",
+                "to show that these skills are useful outside sport",
+                "to explain the rules of school football matches"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าทักษะรับมือแรงกดดันใช้ได้ในการสอบหรือการพูดในที่สาธารณะ และโค้ชกล่าวว่ากำลังฝึก 'people who can stay calm'"
+            }
+          ]
+        },
+        {
+          "id": "TU-S1-G09",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "New Tools for an Ancient Crop",
+          "text": "For thousands of years, rice farming in Asia has depended on large amounts of water and human labour. Fields are flooded for most of the growing season, and seedlings have traditionally been transplanted by hand, one bundle at a time. Today, however, many farmers face a difficult combination of pressures: rising costs, an ageing workforce as young people move to cities, and less reliable rainfall. In response, a growing range of technologies is changing the way rice is grown.\n\nOne of the simplest changes concerns water. Researchers have long known that rice does not need to stand in water throughout its life. Under a method sometimes called alternate wetting and drying, farmers allow the field to dry out until the water level falls a short distance below the surface of the soil, then flood it again. To judge the right moment, they push a short plastic tube with holes in its sides into the ground and check the water level inside it. Trials by the fictional Mekong Valley Agricultural Institute found that the method reduced water use by about a quarter without lowering yields. It also reduced the release of methane, a gas produced by bacteria in permanently flooded soil.\n\nMachines are addressing the shortage of labour. Mechanical transplanters can plant seedlings in neat rows far faster than a team of workers, and in some regions farmers have stopped transplanting altogether in favour of sowing seeds directly into the field. Small drones are now used to spray fertiliser and to photograph crops from above. The images reveal areas where plants are pale or growing slowly, allowing farmers to treat only the parts of the field that need attention rather than the whole area.\n\nData is becoming as important as machinery. In one pilot project in the fictional province of Na Rong, farmers received text messages that combined local weather forecasts with advice on when to drain fields or apply fertiliser. Farmers who followed the advice spent less on fertiliser than their neighbours and reported slightly higher harvests.\n\nThese developments are not without problems. Machines and drones are expensive, and many farmers own plots too small to justify buying them. Some communities have responded by forming cooperatives that share equipment, or by hiring service providers who bring machines from farm to farm. There are also concerns that technology could widen the gap between larger, better-connected farms and smaller ones. Agricultural experts therefore stress that training is as important as the tools themselves: a drone is of little value to a farmer who does not know how to interpret its images.\n\nRice is a staple food for a very large share of the world's population, so improvements in how it is grown matter far beyond the fields themselves. The challenge for the coming decades will be to ensure that new methods are not only productive and environmentally sound but also accessible to the millions of small farmers who still grow most of the world's rice.",
+          "items": [
+            {
+              "id": "TU-S1-093",
+              "stem": "What does the passage mainly discuss?",
+              "options": [
+                "new technologies in rice farming and the difficulties of adopting them",
+                "the history of rice farming in Asian countries",
+                "how drones are replacing farmers in rice fields",
+                "the reasons young people are leaving rice-farming villages"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความกล่าวถึงเทคโนโลยีใหม่ (การจัดการน้ำ เครื่องจักร โดรน ข้อมูล) และปัญหาในการนำมาใช้ จึงครอบคลุมทั้งบทความ"
+            },
+            {
+              "id": "TU-S1-094",
+              "stem": "Which of the following is NOT mentioned as a pressure facing rice farmers?",
+              "options": [
+                "an ageing workforce",
+                "falling demand for rice",
+                "less reliable rainfall",
+                "rising costs"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกระบุแรงกดดัน 3 อย่าง คือต้นทุนสูงขึ้น แรงงานสูงวัย และฝนไม่แน่นอน ไม่ได้กล่าวถึงความต้องการข้าวที่ลดลง"
+            },
+            {
+              "id": "TU-S1-095",
+              "stem": "What is the purpose of the plastic tube described in paragraph 2?",
+              "options": [
+                "to measure how much methane the soil releases",
+                "to carry water from one field to another",
+                "to protect young seedlings from insects",
+                "to show farmers when to flood the field again"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ท่อใช้ 'to judge the right moment' โดยดูระดับน้ำในท่อ เพื่อรู้ว่าเมื่อใดควรปล่อยน้ำเข้านาอีกครั้ง"
+            },
+            {
+              "id": "TU-S1-096",
+              "stem": "According to the Mekong Valley trials, alternate wetting and drying",
+              "options": [
+                "worked only in fields with sandy soil",
+                "raised yields but needed more labour",
+                "used less water without reducing harvests",
+                "increased the amount of methane released"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผลการทดลอง: 'reduced water use by about a quarter without lowering yields' และยังลดก๊าซมีเทนด้วย"
+            },
+            {
+              "id": "TU-S1-097",
+              "stem": "The word 'reveal' in paragraph 3 is closest in meaning to",
+              "options": [
+                "repair",
+                "show",
+                "protect",
+                "create"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "reveal = เผยให้เห็น ภาพถ่ายจากโดรนแสดงให้เห็นบริเวณที่ต้นข้าวซีดหรือโตช้า"
+            },
+            {
+              "id": "TU-S1-098",
+              "stem": "What advantage of drone images is described in the passage?",
+              "options": [
+                "Farmers can treat only the parts that need it.",
+                "Farmers no longer need to visit their fields.",
+                "Seeds can be sown directly from the air.",
+                "Fertiliser can be sold to neighbouring farms."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ภาพช่วยให้เกษตรกร 'treat only the parts of the field that need attention rather than the whole area'"
+            },
+            {
+              "id": "TU-S1-099",
+              "stem": "Why have some communities formed cooperatives?",
+              "options": [
+                "so farmers can sell their rice at higher prices",
+                "so young people will return to work on farms",
+                "so the government will provide free training",
+                "so small farmers can use costly machines without buying them"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เครื่องจักรแพงและแปลงนาเล็กเกินกว่าจะคุ้มที่จะซื้อ ชุมชนจึงตั้งสหกรณ์ 'that share equipment'"
+            },
+            {
+              "id": "TU-S1-100",
+              "stem": "The author's attitude toward new rice-farming technology can best be described as",
+              "options": [
+                "completely indifferent",
+                "uncritically enthusiastic",
+                "strongly opposed",
+                "cautiously optimistic"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนเสนอข้อดีหลายประการ แต่ก็ชี้ปัญหา เช่น ราคาแพงและช่องว่างระหว่างฟาร์ม ('not without problems') จึงมีท่าทีมองบวกอย่างระมัดระวัง"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

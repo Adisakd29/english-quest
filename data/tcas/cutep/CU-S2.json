@@ -1,0 +1,2028 @@
+{
+  "exam": "cutep",
+  "setId": "CU-S2",
+  "title": "CU-TEP ชุดฝึกที่ 2",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 120,
+    "keyMatch": 120,
+    "total": 120
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "groups": [
+        {
+          "id": "CU-S2-G01",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A broken heater",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "The heater in my dorm room has been broken for a week, and the maintenance office keeps saying they'll get to it."
+            },
+            {
+              "speaker": "Man",
+              "text": "If I were you, I'd stop waiting and take it up with the dorm supervisor directly."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-001",
+              "stem": "What does the man suggest the woman do?",
+              "options": [
+                "Try to repair the heater by herself",
+                "Ask to move to a different dorm room",
+                "Wait a little longer for the maintenance office",
+                "Report the problem to someone with more authority"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกให้ \"take it up with the dorm supervisor directly\" คือนำเรื่องไปแจ้งหัวหน้าหอโดยตรง ซึ่งเป็นผู้มีอำนาจมากกว่าฝ่ายซ่อมบำรุง และเขาบอกให้เลิกรอ จึงไม่ใช่ให้รอต่อ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G02",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Slides for the presentation",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Did Preeya finish her part of the presentation slides?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Finish them? She hasn't even started. She's been dragging her feet all week."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-002",
+              "stem": "What does the woman imply about Preeya?",
+              "options": [
+                "She has been slow to do her share of the work",
+                "She finished the slides earlier than expected",
+                "She wants the group to change its topic",
+                "She has been too ill to come to meetings"
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"drag one's feet\" แปลว่า ทำอะไรอืดอาดหรือผัดวันประกันพรุ่ง และผู้หญิงบอกว่า Preeya ยังไม่ได้เริ่มเลย จึงหมายความว่าเธอทำส่วนของตัวเองช้า"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G03",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Library hours",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I can't believe the library is closing at six during exam week."
+            },
+            {
+              "speaker": "Man",
+              "text": "Tell me about it. I was counting on studying there late every night."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-003",
+              "stem": "What does the man mean?",
+              "options": [
+                "He prefers to study at home at night",
+                "He wants her to explain the new hours",
+                "He doesn't believe the library will close",
+                "He shares the woman's frustration"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"Tell me about it.\" ในที่นี้ไม่ได้ขอให้เล่า แต่เป็นสำนวนแสดงว่าเห็นด้วยและรู้สึกแย่เหมือนกัน เพราะเขาเองก็ตั้งใจจะอ่านหนังสือที่ห้องสมุดจนดึกทุกคืน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G04",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A noisy roommate",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "My roommate practises his guitar until two in the morning. I'm running on empty."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Have you two ever sat down and talked about some ground rules?"
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-004",
+              "stem": "What does the woman suggest?",
+              "options": [
+                "The man should ask the university for a new room",
+                "The man should learn to play the guitar too",
+                "The man should sleep during the afternoon",
+                "The man and his roommate should agree on some rules"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้หญิงถามว่าเคยนั่งคุยกันเรื่อง \"ground rules\" (กฎพื้นฐานในการอยู่ร่วมกัน) หรือยัง ซึ่งเป็นการแนะนำให้ทั้งสองตกลงกติกากัน ส่วน \"running on empty\" หมายถึงผู้ชายหมดแรงเพราะนอนไม่พอ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G05",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The midterm",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Professor Danvers said the midterm would be a piece of cake."
+            },
+            {
+              "speaker": "Man",
+              "text": "Well, after seeing the practice questions, I'd take that with a grain of salt."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-005",
+              "stem": "What does the man mean?",
+              "options": [
+                "The professor should give out more practice questions",
+                "He has not looked at the practice questions yet",
+                "He agrees that the exam will be very simple",
+                "The exam may not be as easy as the professor said"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"take something with a grain of salt\" แปลว่า อย่าเชื่อทั้งหมด ผู้ชายเห็นข้อสอบฝึกแล้วจึงไม่เชื่อว่าข้อสอบจะง่าย (\"a piece of cake\") อย่างที่อาจารย์พูด"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G06",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Writing the report",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Should we split the report four ways, or have one person write the whole thing?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Splitting it sounds fair, but then it'll read like four different papers. Someone should at least go over the final draft."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-006",
+              "stem": "What is the woman concerned about?",
+              "options": [
+                "The report might not have a consistent style",
+                "One person would have too much to write",
+                "The final draft might be submitted late",
+                "The work might not be divided fairly"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้หญิงกังวลว่ารายงานจะ \"read like four different papers\" คืออ่านแล้วเหมือนงานสี่ชิ้นที่สำนวนไม่เข้ากัน จึงเสนอให้มีคนตรวจร่างสุดท้าย ส่วนเรื่องความยุติธรรมเธอบอกว่า \"sounds fair\" อยู่แล้ว"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G07",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The field trip",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Are you going to sign up for the field trip to the coast?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I would if it weren't the same weekend as my scholarship interview."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-007",
+              "stem": "What can be inferred about the woman?",
+              "options": [
+                "She has already signed up for the trip",
+                "She is not interested in visiting the coast",
+                "Her interview has been moved to another weekend",
+                "She will not go on the field trip"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "ประโยคเงื่อนไข \"I would if it weren't...\" แสดงสิ่งที่ไม่เป็นจริง คือการสอบสัมภาษณ์ทุนตรงกับสุดสัปดาห์เดียวกัน เธอจึงไปทัศนศึกษาไม่ได้ แม้ว่าอยากไปก็ตาม"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G08",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Washing machines",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "The washing machines on our floor are out of order again."
+            },
+            {
+              "speaker": "Man",
+              "text": "Again? That's the third time this month. Something's got to give."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-008",
+              "stem": "What does the man mean?",
+              "options": [
+                "The machines were repaired well enough last time",
+                "He will try to repair the machines himself",
+                "The situation cannot go on as it is",
+                "Someone should give the woman some coins"
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"Something's got to give\" หมายถึง สถานการณ์แบบนี้ดำเนินต่อไปไม่ได้แล้ว ต้องมีอะไรเปลี่ยน เพราะเครื่องเสียเป็นครั้งที่สามของเดือน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G09",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A difficult course",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "I'm thinking of dropping statistics. I'm completely lost after the first three weeks."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Before you throw in the towel, why not drop by the tutoring centre? They've helped lots of first-years."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-009",
+              "stem": "What does the woman advise the man to do?",
+              "options": [
+                "Get some help before giving up the course",
+                "Work as a tutor for first-year students",
+                "Take statistics again next year",
+                "Withdraw from the course immediately"
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "\"throw in the towel\" แปลว่า ยอมแพ้ ผู้หญิงแนะนำให้แวะ (\"drop by\") ศูนย์ติวก่อนจะยอมถอนวิชา จึงไม่ใช่ให้ถอนทันที"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G10",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Meeting time",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Our group meeting is at nine tomorrow, right?"
+            },
+            {
+              "speaker": "Man",
+              "text": "It was, but Kittipong couldn't make it, so we pushed it back to eleven."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-010",
+              "stem": "What does the man say about the meeting?",
+              "options": [
+                "It has been cancelled completely",
+                "It will start later than planned",
+                "It will be held without Kittipong",
+                "It has been moved to an earlier time"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "\"push something back\" แปลว่า เลื่อนให้ช้าลง จากเก้าโมงเป็นสิบเอ็ดโมง เพราะ Kittipong มาเวลาเดิมไม่ได้ (\"couldn't make it\") จึงเลื่อนเพื่อให้เขามาได้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G11",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถาม 5 ข้อ",
+          "title": "At the residential services office",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Good morning, Residential Services. How can I help?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Hi. I live in Building C of Rattana Hall, room 412. I'm here about a leak in my bathroom ceiling. I reported it online ten days ago, but nobody has come."
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'm sorry to hear that. Let me look up your request. Ah, here it is. It was marked as low priority because the form said 'minor drip'."
+            },
+            {
+              "speaker": "Man",
+              "text": "It was minor when I filled in the form. Now there's water running down the wall, and a brown stain is spreading across the ceiling."
+            },
+            {
+              "speaker": "Woman",
+              "text": "That changes things. Water near the walls can reach the electrical wiring, so I'm upgrading it to urgent. A technician should be there by this afternoon."
+            },
+            {
+              "speaker": "Man",
+              "text": "Thank you. Will I need to be in the room?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Not necessarily. If you sign this permission slip, the technician can let himself in with a master key."
+            },
+            {
+              "speaker": "Man",
+              "text": "I'd rather be there, actually. My laptop and all my lecture notes are on the desk right under the stain."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Understandable. Then I'd move anything valuable away from that corner right away, just in case."
+            },
+            {
+              "speaker": "Man",
+              "text": "Good idea. And if the repair takes several days, is there anywhere else I could stay?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "We keep a few guest rooms in Building A for situations like this. If the technician decides the bathroom can't be used, come back here and we'll sort out a temporary room for you."
+            },
+            {
+              "speaker": "Man",
+              "text": "That's a relief. Should I update my online request as well?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "No need. I've added a note myself. But next time a problem gets worse, call us instead of waiting. The online system doesn't alert anyone when a request changes."
+            },
+            {
+              "speaker": "Man",
+              "text": "Got it. Thanks for all your help."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-011",
+              "stem": "Why hasn't the student's problem been fixed yet?",
+              "options": [
+                "His request was treated as low priority",
+                "The repair required special parts",
+                "The technician lost his room number",
+                "He forgot to submit the online form"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่าคำร้อง \"was marked as low priority\" เพราะในแบบฟอร์มเขียนว่าแค่น้ำหยดเล็กน้อย (\"minor drip\")"
+            },
+            {
+              "id": "CU-S2-012",
+              "stem": "Why does the officer decide to make the request urgent?",
+              "options": [
+                "The student is moving out of the dorm soon",
+                "The water could reach the electrical wiring",
+                "The student has complained several times",
+                "The stain has made the room smell bad"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่ให้เหตุผลว่า \"Water near the walls can reach the electrical wiring\" จึงยกระดับเป็นเร่งด่วน"
+            },
+            {
+              "id": "CU-S2-013",
+              "stem": "Why does the student want to be in the room during the repair?",
+              "options": [
+                "He was told that he must be there in person",
+                "His belongings are close to the damaged area",
+                "He has not been given a permission slip",
+                "He wants to learn how to repair leaks"
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "นักศึกษาบอกว่าแล็ปท็อปและสมุดจดอยู่บนโต๊ะใต้รอยน้ำซึม (\"right under the stain\") จึงอยากอยู่ดูแลของเอง ส่วนใบอนุญาตนั้นเจ้าหน้าที่เสนอให้เซ็นได้อยู่แล้ว"
+            },
+            {
+              "id": "CU-S2-014",
+              "stem": "According to the officer, what will happen if the bathroom cannot be used?",
+              "options": [
+                "The student may be given a temporary room",
+                "The repair will be delayed until the holidays",
+                "The student will share a room in Building C",
+                "The student must find a hotel nearby"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่ามีห้องรับรองในตึก A และ \"we'll sort out a temporary room for you\" ถ้าใช้ห้องน้ำไม่ได้"
+            },
+            {
+              "id": "CU-S2-015",
+              "stem": "What does the officer advise the student to do in future?",
+              "options": [
+                "Phone the office if a problem gets worse",
+                "Wait for the technician to contact him",
+                "Mark every repair request as urgent",
+                "Submit a new online form every week"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่า \"next time a problem gets worse, call us instead of waiting\" เพราะระบบออนไลน์ไม่แจ้งเตือนเมื่อคำร้องเปลี่ยนแปลง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G12",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถาม 5 ข้อ",
+          "title": "A project update",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Hey, have you got a minute to talk about the urban planning project?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Sure. Is something wrong?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Sort of. The proposal is due on Friday, and we still don't have the survey results from Daniel. He promised them last Wednesday."
+            },
+            {
+              "speaker": "Man",
+              "text": "I messaged him yesterday. He said he'd collected about half the responses but was having trouble getting people at the market to stop and answer."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Only half? We need at least eighty responses for the analysis to mean anything."
+            },
+            {
+              "speaker": "Man",
+              "text": "I know. What if the two of us spend Saturday morning at the market helping him? Three people could get through it in a few hours."
+            },
+            {
+              "speaker": "Woman",
+              "text": "But Saturday is after the deadline."
+            },
+            {
+              "speaker": "Man",
+              "text": "Right, the proposal. Hmm. Actually, the proposal only needs our research plan and a sample of the questions. The full results aren't due until the final report next month."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Oh, you're right. I was mixing up the two deadlines. So we're not as far behind as I thought."
+            },
+            {
+              "speaker": "Man",
+              "text": "Not at all. Let's finish the proposal ourselves by Thursday and then help Daniel with the survey over the weekend."
+            },
+            {
+              "speaker": "Woman",
+              "text": "That works. But I still think we should ask him to keep us in the loop. I only found out about the problem from you."
+            },
+            {
+              "speaker": "Man",
+              "text": "Fair enough. Why don't we set up a shared progress sheet? Everyone writes a short update every couple of days."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Good idea. I'll make one tonight and send everyone the link."
+            },
+            {
+              "speaker": "Man",
+              "text": "Great. And I'll book a study room for Thursday afternoon so we can put the proposal together."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S2-016",
+              "stem": "What is the woman's main concern at the start of the conversation?",
+              "options": [
+                "The market is too far away for them to visit",
+                "The professor has rejected their proposal topic",
+                "A group member has not delivered his part of the work",
+                "The group has too many members to manage"
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้หญิงเปิดเรื่องว่ายังไม่ได้ผลสำรวจจาก Daniel ทั้งที่เขาสัญญาว่าจะส่งตั้งแต่วันพุธที่แล้ว คือสมาชิกคนหนึ่งยังไม่ส่งงานส่วนของตน"
+            },
+            {
+              "id": "CU-S2-017",
+              "stem": "What problem has Daniel had?",
+              "options": [
+                "People at the market were reluctant to answer",
+                "He was ill and missed a week of classes",
+                "He lost the survey responses he had collected",
+                "He was unable to find the right market"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายเล่าว่า Daniel \"was having trouble getting people at the market to stop and answer\" คือหาคนตอบแบบสำรวจได้ยาก"
+            },
+            {
+              "id": "CU-S2-018",
+              "stem": "Why is the group not as far behind as the woman first thought?",
+              "options": [
+                "The professor has extended the proposal deadline",
+                "Eighty responses is more than the group needs",
+                "Daniel has already finished collecting the data",
+                "The full survey results are not needed until later"
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายอธิบายว่าข้อเสนอโครงการต้องการแค่แผนวิจัยและตัวอย่างคำถาม ผลสำรวจเต็มส่งพร้อมรายงานฉบับสมบูรณ์เดือนหน้า ผู้หญิงจึงรู้ว่าตนสับสนกำหนดส่งสองอย่าง (\"mixing up the two deadlines\")"
+            },
+            {
+              "id": "CU-S2-019",
+              "stem": "What does the man suggest to improve communication in the group?",
+              "options": [
+                "Creating a shared sheet for regular updates",
+                "Asking another student to replace Daniel",
+                "Sending the professor a weekly report",
+                "Meeting Daniel at the market every day"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายเสนอ \"a shared progress sheet\" ให้ทุกคนเขียนอัปเดตสั้น ๆ ทุกสองสามวัน หลังจากผู้หญิงบอกว่าอยากให้ Daniel \"keep us in the loop\" (แจ้งความคืบหน้าให้รู้)"
+            },
+            {
+              "id": "CU-S2-020",
+              "stem": "What does the man say he will do?",
+              "options": [
+                "Tell the professor about Daniel",
+                "Write the whole proposal by himself",
+                "Make the progress sheet this evening",
+                "Reserve a room for Thursday afternoon"
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่า \"I'll book a study room for Thursday afternoon\" ส่วนการทำ progress sheet คืนนี้เป็นสิ่งที่ผู้หญิงรับจะทำ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G13",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศ แล้วตอบคำถาม 5 ข้อ",
+          "title": "Lecture: Watching a volcano",
+          "text": "Good afternoon, everyone. Last week we looked at how volcanoes form. Today I want to turn to a more practical question: how do scientists know when a volcano is about to erupt? The honest answer is that they can't know for certain. But they can watch for warning signs, and modern monitoring has become remarkably good at reading them.\n\nThe first and most important tool is the seismometer, which records small earthquakes. When magma pushes upward, it cracks the rock around it and produces swarms of tiny tremors that people on the surface usually can't feel. A sudden rise in the number of these tremors is often the earliest signal that something is changing underground.\n\nThe second sign is ground deformation. As magma collects beneath a volcano, the surface can swell slightly, a bit like a balloon being slowly blown up. The change may be only a few centimetres, so it's measured with GPS stations placed on the slopes and, more and more often, with satellites that compare images taken weeks apart.\n\nThird, scientists measure the gases escaping from vents in the ground. A rise in sulfur dioxide, in particular, suggests that fresh magma is getting closer to the surface. Teams used to collect gas samples by hand, which was dangerous work. Today many volcanoes have automatic sensors, and some observatories even fly small drones through the gas clouds.\n\nNow, none of these signs is reliable on its own. Earthquake swarms can fade away without any eruption at all. That's why observatories combine all three types of data before they raise an alert level. Take Mount Keralu, the volcano in your assignment data. Tremors there increased for months, but the alert level was raised only when the ground began to swell and gas readings doubled in the same week.\n\nFor Thursday, please read chapter seven and download the Keralu data set from the course website. Working in teams, you'll decide at what point you would have warned the public.",
+          "items": [
+            {
+              "id": "CU-S2-021",
+              "stem": "What is the main topic of the lecture?",
+              "options": [
+                "The history of several famous volcanic eruptions",
+                "Methods of protecting towns from lava flows",
+                "Ways of detecting signs that an eruption may be coming",
+                "The processes by which volcanoes are formed"
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้บรรยายบอกตั้งแต่ต้นว่าวันนี้จะพูดเรื่อง \"how do scientists know when a volcano is about to erupt\" แล้วอธิบายสัญญาณเตือนสามอย่าง ส่วนการเกิดภูเขาไฟเป็นเรื่องของสัปดาห์ที่แล้ว"
+            },
+            {
+              "id": "CU-S2-022",
+              "stem": "According to the lecturer, what is often the earliest sign of change underground?",
+              "options": [
+                "Smoke that nearby residents notice",
+                "An increase in small earthquakes",
+                "A slight swelling of the ground",
+                "A rise in sulfur dioxide levels"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าแผ่นดินไหวเล็ก ๆ ที่เพิ่มขึ้นอย่างฉับพลัน \"is often the earliest signal that something is changing underground\""
+            },
+            {
+              "id": "CU-S2-023",
+              "stem": "Why does the lecturer mention a balloon?",
+              "options": [
+                "To show how quickly gas escapes from the vents",
+                "To describe the shape of a volcano's crater",
+                "To explain how the ground rises as magma collects",
+                "To explain why some eruptions are very loud"
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้บรรยายเปรียบพื้นดินที่โป่งขึ้นเมื่อแมกมาสะสมตัวว่า \"like a balloon being slowly blown up\" เพื่ออธิบายการเปลี่ยนรูปของพื้นดิน"
+            },
+            {
+              "id": "CU-S2-024",
+              "stem": "What does the lecturer say about collecting gas samples by hand?",
+              "options": [
+                "It has mostly been taken over by satellites",
+                "It used to put scientists in danger",
+                "It is still the most accurate method",
+                "It is now done mainly by drones"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าการเก็บตัวอย่างแก๊สด้วยมือ \"was dangerous work\" ส่วนโดรนนั้นใช้เพียงในบางหอสังเกตการณ์ (\"some observatories\") ไม่ใช่วิธีหลัก"
+            },
+            {
+              "id": "CU-S2-025",
+              "stem": "What will students do for their assignment?",
+              "options": [
+                "Decide when a public warning should have been given",
+                "Build a simple model of a seismometer",
+                "Write a summary of chapter seven",
+                "Visit a volcano observatory on Thursday"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ท้ายการบรรยายบอกว่านักศึกษาจะทำงานเป็นทีมเพื่อ \"decide at what point you would have warned the public\" ส่วนบทที่เจ็ดให้อ่านเท่านั้น ไม่ได้ให้เขียนสรุป"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G14",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศ แล้วตอบคำถาม 5 ข้อ",
+          "title": "Field trip briefing",
+          "text": "Okay, everyone, can I have your attention for a few minutes before you go? This is the briefing for Saturday's field trip to the Pak Lan mangrove research station, so please listen carefully, because some details have changed since the email you received on Monday.\n\nFirst, the departure time. The bus will now leave from the car park behind the Science Building at six-thirty, not seven as the email said. The reason is the tide. We need to reach the boardwalk while the water is still low, because that's the only time you can see the roots and the mud flats clearly. If we arrive late, we'll be looking at nothing but water.\n\nWhen we get there, you'll work in pairs. Each pair will mark out a square, one metre by one metre, and count the crabs and snails inside it. Then you'll measure how deep the mud is at each corner. Please record everything on the printed data sheets, not on your phones. Last year, two pairs lost all their data when their phones got wet, and they had to borrow another group's results, which rather defeats the purpose of the exercise.\n\nAs for clothing, wear shoes you don't mind getting muddy. Sandals are not allowed on the boardwalk, because the wood can be slippery and there are sharp shells in the mud. Bring a hat, sunscreen and at least two bottles of water. Lunch will be provided by the station.\n\nWe should be back on campus at around four. Your report is due two weeks after the trip, and it should compare the results from your own square with the figures for the class as a whole.\n\nFinally, if you can't come for any reason, let me know by Thursday so that I can offer your place to someone on the waiting list. Any questions?",
+          "items": [
+            {
+              "id": "CU-S2-026",
+              "stem": "What is the main purpose of the talk?",
+              "options": [
+                "To report the results of last year's field trip",
+                "To give students details about an upcoming field trip",
+                "To invite students to join a research club",
+                "To explain how mangrove forests are formed"
+              ],
+              "answer": 1,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้พูดบอกตั้งแต่ต้นว่า \"This is the briefing for Saturday's field trip\" แล้วอธิบายเวลาออกเดินทาง งานที่ต้องทำ และการแต่งกาย"
+            },
+            {
+              "id": "CU-S2-027",
+              "stem": "Why has the departure time been changed?",
+              "options": [
+                "The group needs to arrive while the tide is low",
+                "The bus company has changed its timetable",
+                "The research station closes early on Saturdays",
+                "The journey takes longer than it did last year"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้พูดบอกว่า \"The reason is the tide\" ต้องไปถึงทางเดินไม้ตอนน้ำยังลง จึงจะเห็นรากและหาดเลนชัดเจน"
+            },
+            {
+              "id": "CU-S2-028",
+              "stem": "What will each pair of students do at the station?",
+              "options": [
+                "Plant young mangrove trees along the boardwalk",
+                "Photograph the mangrove roots with their phones",
+                "Collect water samples from the nearby river",
+                "Count animals and measure the mud in a small area"
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "แต่ละคู่จะกำหนดพื้นที่ 1 x 1 เมตร นับปูและหอยในนั้น แล้ววัดความลึกของเลนที่แต่ละมุม"
+            },
+            {
+              "id": "CU-S2-029",
+              "stem": "Why does the speaker mention what happened last year?",
+              "options": [
+                "To explain why the bus leaves earlier this year",
+                "To warn students not to wear sandals on the trip",
+                "To explain why results should be written on paper",
+                "To show that the boardwalk can be dangerous"
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "เหตุการณ์ปีที่แล้วที่โทรศัพท์เปียกจนข้อมูลหาย ถูกยกมาหลังคำสั่ง \"record everything on the printed data sheets, not on your phones\" เพื่อให้เหตุผลว่าทำไมต้องจดลงกระดาษ"
+            },
+            {
+              "id": "CU-S2-030",
+              "stem": "What should students do if they are unable to attend?",
+              "options": [
+                "Ask a classmate to collect their data",
+                "Hand in their report a week early",
+                "Put their name on next year's list",
+                "Tell the speaker by Thursday"
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้พูดบอกว่า \"let me know by Thursday so that I can offer your place to someone on the waiting list\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "CU-S2-G15",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "How children learn to talk",
+          "text": "How do young children acquire their first language so quickly? By the age of four, most children can produce fairly complex sentences, ___1___ nobody has ever given them a grammar lesson. For much of the twentieth century, researchers argued about whether this ability is mainly ___2___ or mainly learned from the environment.\n\nOne influential view held that children are born with a mental framework that ___3___ them to recognise the basic patterns of any human language. Supporters of this idea pointed out that children often produce forms they have never heard, such as \"goed\" instead of \"went.\" Such errors suggest that children are not simply ___4___ adults; they are actively building rules of their own.\n\nOther researchers placed more weight on the input children receive. A long-term study known as the Linden Family Project found that children ___5___ parents spoke to them often, and in response to their interests, had larger vocabularies by the age of three. The ___6___ of talk mattered as well as the amount: back-and-forth exchanges were far more useful than speech the child merely overheard.\n\nToday, most specialists accept that both factors play a role. Children appear to come equipped with powerful learning abilities, ___7___ these abilities need rich social interaction to develop fully. This helps explain why a child left in front of a screen ___8___ hours of foreign-language cartoons usually learns much less than one who plays with a speaker of that language for a far shorter time.\n\nThese findings have important ___9___ for teachers of second languages. Simply exposing learners to a language is rarely enough. What seems to matter most is meaningful communication, in ___10___ learners must understand and respond to real messages.",
+          "items": [
+            {
+              "id": "CU-S2-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "because",
+                "even though",
+                "so that",
+                "unless"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ประโยคหลังขัดแย้งกับประโยคหน้า (พูดประโยคซับซ้อนได้ ทั้งที่ไม่เคยเรียนไวยากรณ์) จึงใช้ \"even though\" (แม้ว่า)"
+            },
+            {
+              "id": "CU-S2-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "borrowed",
+                "unusual",
+                "inborn",
+                "forgotten"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ข้อถกเถียงคือความสามารถนี้ \"มีมาแต่กำเนิด\" (inborn) หรือเรียนรู้จากสิ่งแวดล้อม ซึ่งตรงข้ามกับ \"learned from the environment\""
+            },
+            {
+              "id": "CU-S2-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "allowing",
+                "allows",
+                "allow",
+                "is allowed"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ต้องเป็นกริยาแท้ของ relative clause \"that ___ them\" ประธานคือ framework (เอกพจน์) และมีกรรม them จึงใช้ active \"allows\""
+            },
+            {
+              "id": "CU-S2-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "correcting",
+                "copying",
+                "teaching",
+                "ignoring"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "เด็กพูด \"goed\" ซึ่งไม่เคยได้ยินจากผู้ใหญ่ แสดงว่าเด็กไม่ได้แค่ \"เลียนแบบ\" (copying) ผู้ใหญ่ แต่สร้างกฎเอง"
+            },
+            {
+              "id": "CU-S2-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "whose",
+                "whom",
+                "which",
+                "who"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ต้องการคำแสดงความเป็นเจ้าของ \"children whose parents spoke to them\" (เด็กที่พ่อแม่ของเขาพูดด้วย) จึงใช้ whose"
+            },
+            {
+              "id": "CU-S2-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "speed",
+                "quality",
+                "volume",
+                "quantity"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"as well as the amount\" บอกว่ามีอย่างอื่นสำคัญนอกจากปริมาณ และประโยคต่อมาพูดถึงลักษณะของการพูดคุยแบบโต้ตอบ จึงเป็น \"quality\" (คุณภาพ) ส่วน quantity/volume ซ้ำความหมายกับ amount"
+            },
+            {
+              "id": "CU-S2-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "but",
+                "since",
+                "unless",
+                "so"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "เด็กมีความสามารถในการเรียนรู้ \"แต่\" ความสามารถนั้นต้องอาศัยปฏิสัมพันธ์ทางสังคมจึงจะพัฒนาเต็มที่ เป็นความหมายขัดแย้ง จึงใช้ but"
+            },
+            {
+              "id": "CU-S2-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "since",
+                "for",
+                "during",
+                "by"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "บอกระยะเวลา \"for hours\" (เป็นชั่วโมง ๆ) ส่วน since ใช้กับจุดเวลา และ during ไม่ใช้กับ hours ที่ไม่เจาะจงแบบนี้"
+            },
+            {
+              "id": "CU-S2-039",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "ingredients",
+                "complaints",
+                "directions",
+                "implications"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"have implications for\" แปลว่า มีนัยสำคัญหรือผลต่อ ซึ่งเข้ากับเนื้อหาที่ตามมาว่าครูสอนภาษาที่สองควรทำอย่างไร"
+            },
+            {
+              "id": "CU-S2-040",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "that",
+                "what",
+                "where",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "หลังบุพบท in ต้องใช้ relative pronoun \"which\" (in which = ซึ่งในนั้น) ใช้ that หรือ where ตามหลังบุพบทไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G16",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Why bridges need gaps",
+          "text": "Anyone who has walked across a long bridge may have noticed metal plates with teeth like a comb ___1___ the road at regular intervals. These are expansion joints, and without them, many bridges would slowly tear themselves apart.\n\nThe reason lies in a simple physical fact: most materials expand when they are heated and contract when they cool. A steel bridge one kilometre long can grow by ___2___ much as forty centimetres between a cold winter night and a hot summer afternoon. If the ends of the bridge were fixed rigidly in place, this movement would have nowhere to go, and the resulting stress could ___3___ the concrete or bend the steel beams out of shape.\n\nExpansion joints solve this problem by leaving small gaps ___4___ sections of the bridge. The comb-like teeth slide past one another as each gap opens and closes, ___5___ cars and trucks to cross smoothly whatever the temperature. On smaller bridges, engineers may use a strip of rubber instead, which ___6___ and stretches as needed.\n\nHowever, expansion joints are also among the weakest parts of any bridge. Because they are constantly moving and are struck by thousands of tyres every day, they ___7___ out faster than the rest of the structure. Water and road salt can leak through damaged joints and ___8___ the steel underneath. For this reason, inspectors at the Northgate Transport Authority check joints far more often than ___9___ parts of a bridge.\n\nSome newer bridges are designed with fewer joints, relying instead on flexible supports that absorb movement. ___10___, for very long spans, the humble expansion joint remains essential.",
+          "items": [
+            {
+              "id": "CU-S2-041",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "to cross",
+                "crossed",
+                "crossing",
+                "crosses"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "เป็นวลีขยายคำนาม \"metal plates crossing the road\" (แผ่นโลหะที่พาดขวางถนน) ย่อมาจาก which cross จึงใช้ V-ing ส่วน crosses เป็นกริยาแท้ซึ่งซ้อนกับประโยคหลักไม่ได้"
+            },
+            {
+              "id": "CU-S2-042",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "so",
+                "too",
+                "as",
+                "very"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"as much as + จำนวน\" แปลว่า มากถึง"
+            },
+            {
+              "id": "CU-S2-043",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "hold",
+                "crack",
+                "cool",
+                "grow"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "แรงเค้นที่ไม่มีทางระบายจะทำให้คอนกรีต \"แตกร้าว\" (crack) คู่กับการที่คานเหล็กบิดงอ"
+            },
+            {
+              "id": "CU-S2-044",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "between",
+                "toward",
+                "above",
+                "without"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างอยู่ \"ระหว่าง\" ส่วนต่าง ๆ ของสะพาน จึงใช้ between"
+            },
+            {
+              "id": "CU-S2-045",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "allowed",
+                "allow",
+                "to allowing",
+                "allowing"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "วลีแสดงผลที่ตามมาหลังเครื่องหมายจุลภาค ใช้ V-ing \"allowing cars and trucks to cross\" (ทำให้รถข้ามได้)"
+            },
+            {
+              "id": "CU-S2-046",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "dissolves",
+                "compresses",
+                "collapses",
+                "evaporates"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "ยางต้อง \"หดตัว/ถูกบีบ\" (compresses) และยืดออก (stretches) ตามการเคลื่อนของสะพาน ส่วนตัวเลือกอื่นแปลว่าพังลง ละลาย และระเหย"
+            },
+            {
+              "id": "CU-S2-047",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "wear",
+                "put",
+                "take",
+                "carry"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "phrasal verb \"wear out\" แปลว่า สึกหรอ ซึ่งเข้ากับการที่รอยต่อถูกล้อรถกระแทกทุกวัน"
+            },
+            {
+              "id": "CU-S2-048",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "decorate",
+                "polish",
+                "strengthen",
+                "corrode"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "น้ำและเกลือละลายหิมะที่รั่วลงไปทำให้เหล็ก \"กัดกร่อน/เป็นสนิม\" (corrode) ซึ่งเป็นผลเสีย สอดคล้องกับย่อหน้าที่พูดถึงจุดอ่อน"
+            },
+            {
+              "id": "CU-S2-049",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "each",
+                "other",
+                "another",
+                "every"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หน้าคำนามพหูพจน์ parts ใช้ \"other\" ส่วน another, every และ each ใช้กับคำนามเอกพจน์"
+            },
+            {
+              "id": "CU-S2-050",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "Nevertheless",
+                "Therefore",
+                "For example",
+                "Similarly"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "สะพานใหม่ใช้รอยต่อน้อยลง \"อย่างไรก็ตาม\" สะพานช่วงยาวมากยังต้องใช้รอยต่ออยู่ เป็นความขัดแย้ง จึงใช้ Nevertheless"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G17",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Small loans, big expectations",
+          "text": "In the 1970s, a small group of economists began asking a question that most banks had never taken seriously: could people with almost no money be trusted to repay a loan? Traditional banks had always assumed the answer was no. Poor households had no property to offer as security, kept no written financial records, and wanted to borrow amounts so small that processing the paperwork cost more than the interest the bank could earn. As a result, millions of farmers, street vendors and craft workers were left with two choices: save slowly for years or borrow from local moneylenders who often charged extremely high rates.\n\nMicrofinance was designed to fill this gap. Its basic idea is to offer very small loans, sometimes worth less than a week's wages in a richer country, to people who would otherwise be shut out of the financial system. Early programmes found an ingenious way to replace the security that banks normally require. Instead of lending to individuals, they lent to small groups of five or six neighbours. Each member received a loan, but if one person failed to repay, none of the others would be allowed to borrow again. This arrangement turned social ties into a kind of guarantee. Members encouraged one another, shared advice and, when necessary, helped a struggling neighbour meet a payment.\n\nThe early results were striking. Many programmes reported repayment rates above ninety-five percent, higher than those of some ordinary commercial banks. Stories spread of women who had used a tiny loan to buy a sewing machine or a few goats and gradually built a profitable business. Such stories attracted funding from governments and charities, and by the early 2000s microfinance was widely praised as one of the most promising tools for reducing poverty.\n\nMore recent research, however, has painted a more complicated picture. A series of careful studies comparing villages with and without access to microloans found that the loans did help some families cope with sudden costs and smooth out irregular incomes. Yet the average increase in household income was modest, and only a minority of borrowers actually started new businesses. In some regions, competition among lenders led people to take out several loans at once, using one to repay another, until they were deeper in debt than before.\n\nNone of this means that microfinance has failed. Rather, it suggests that the early claims were too ambitious. A small loan cannot, by itself, overcome poor roads, weak markets or a lack of training. Many organisations have therefore broadened their services, offering savings accounts, insurance and business courses alongside credit. The lesson, as development economist Amara Velasco of the Hollis Institute puts it, is that \"money is a tool, not a solution.\"",
+          "items": [
+            {
+              "id": "CU-S2-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How to start a profitable business with a small loan",
+                "Why commercial banks still refuse to lend to farmers",
+                "The history of moneylenders in rural villages",
+                "How views of lending small sums to the poor have changed"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าตั้งแต่จุดเริ่มต้นของไมโครไฟแนนซ์ ช่วงที่ได้รับคำชม จนถึงงานวิจัยใหม่ที่ทำให้มุมมองซับซ้อนขึ้น จึงเป็นเรื่องมุมมองต่อการให้กู้รายย่อยที่เปลี่ยนไปตามเวลา"
+            },
+            {
+              "id": "CU-S2-052",
+              "stem": "According to the passage, why did traditional banks avoid lending to poor households?",
+              "options": [
+                "Handling such small loans cost more than they earned",
+                "Governments did not allow banks to lend to farmers",
+                "Poor households preferred to use moneylenders",
+                "Poor households rarely asked banks for loans"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่าจำนวนเงินกู้น้อยมากจน \"processing the paperwork cost more than the interest the bank could earn\" (รวมถึงไม่มีหลักทรัพย์ค้ำประกัน)"
+            },
+            {
+              "id": "CU-S2-053",
+              "stem": "The word \"ingenious\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "clever",
+                "costly",
+                "honest",
+                "temporary"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"ingenious\" แปลว่า ชาญฉลาด แยบยล ซึ่งเข้ากับการคิดวิธีใช้กลุ่มเพื่อนบ้านแทนหลักทรัพย์ค้ำประกัน"
+            },
+            {
+              "id": "CU-S2-054",
+              "stem": "How did group lending replace the security that banks normally require?",
+              "options": [
+                "Each member gave the lender a valuable item to hold",
+                "One wealthy member guaranteed every loan in the group",
+                "Group members paid the lender a fee in advance",
+                "No member could borrow again if one failed to repay"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ถ้าสมาชิกคนหนึ่งไม่ชำระหนี้ \"none of the others would be allowed to borrow again\" ทำให้ความสัมพันธ์ทางสังคมกลายเป็นหลักประกัน"
+            },
+            {
+              "id": "CU-S2-055",
+              "stem": "The word \"those\" in paragraph 3 refers to",
+              "options": [
+                "commercial banks",
+                "repayment rates",
+                "programmes",
+                "poor households"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"higher than those of some ordinary commercial banks\" คือสูงกว่าอัตราการชำระคืน (repayment rates) ของธนาคารพาณิชย์บางแห่ง"
+            },
+            {
+              "id": "CU-S2-056",
+              "stem": "According to the more recent research, which of the following is true?",
+              "options": [
+                "Most borrowers did not go on to start new businesses",
+                "Repayment rates fell below fifty percent",
+                "Villages without microloans became poorer",
+                "Household incomes rose dramatically in most villages"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่า \"only a minority of borrowers actually started new businesses\" แปลว่าผู้กู้ส่วนใหญ่ไม่ได้เริ่มธุรกิจใหม่ และรายได้เพิ่มขึ้นเพียงเล็กน้อย (modest)"
+            },
+            {
+              "id": "CU-S2-057",
+              "stem": "What can be inferred from paragraph 4 about borrowers who took out several loans at once?",
+              "options": [
+                "They used the extra money to start larger businesses",
+                "They were offered lower interest rates by competing lenders",
+                "They mostly lived in villages that had no other lenders",
+                "They were probably not earning enough to repay their loans"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้กู้เหล่านี้ต้อง \"using one to repay another\" คือกู้ใหม่เพื่อใช้หนี้เก่า แสดงว่ารายได้ของตนไม่พอชำระหนี้ จนสุดท้าย \"deeper in debt than before\" ส่วนการแข่งขันระหว่างผู้ให้กู้แสดงว่ามีผู้ให้กู้หลายราย"
+            },
+            {
+              "id": "CU-S2-058",
+              "stem": "Which best describes the author's attitude toward microfinance?",
+              "options": [
+                "Enthusiastic",
+                "Indifferent",
+                "Dismissive",
+                "Balanced"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนนำเสนอทั้งความสำเร็จและข้อจำกัด และสรุปว่า \"None of this means that microfinance has failed\" แต่คำกล่าวอ้างช่วงแรกเกินจริงไป จึงเป็นท่าทีที่สมดุล"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G18",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Rivers of ice",
+          "text": "Glaciers look motionless, but they are in fact slow-moving rivers of ice. Formed over centuries as snow piles up faster than it melts, a glacier eventually becomes so heavy that the ice near its base begins to deform and flow downhill under its own weight. Some glaciers creep forward only a few centimetres a day; others, especially those that end in the sea, can travel several metres in the same period.\n\nScientists study glaciers for several reasons. One of the most practical is water supply. In many mountain regions, glaciers act like natural water towers. They store precipitation as ice during the cold season and release it gradually as meltwater during warm, dry months, precisely when farms and towns need it most. In the Talvik Valley, a high farming region studied by researchers from Norland University, nearly half of the summer river flow comes from glacier melt.\n\nA glacier's health is usually described in terms of its mass balance: the difference between the ice it gains each year from snowfall and the ice it loses through melting and, for some glaciers, through large chunks breaking off into lakes or the sea. When gains and losses are roughly equal, the glacier stays about the same size. When losses consistently exceed gains, the glacier thins, and its front, known as the terminus, retreats up the valley.\n\nMeasuring mass balance used to require teams of researchers to hike onto the ice, drill holes and insert long poles called stakes. By returning months later and noting how much of each stake had become exposed, they could calculate how much surface ice had melted. This method is still used, but it is now supported by satellites that measure changes in the height of the ice surface and even tiny variations in the pull of gravity caused by shifting masses of ice.\n\nThese measurements reveal a troubling trend. Most mountain glaciers worldwide have been losing mass for decades, and the rate of loss has increased. In the short term, this can actually mean more water in rivers, as stored ice melts faster than usual. Researchers call the highest point of this increase \"peak water.\" But once a glacier shrinks past a certain size, summer flow begins to decline, sometimes sharply. Communities that have grown used to a generous supply may suddenly find it shrinking just as their demand is rising.\n\nPredicting when peak water will arrive in a particular valley is therefore one of the key questions in glacier research today. The answer depends not only on climate but also on each glacier's size, shape and altitude, which is why scientists insist that every glacier be studied on its own terms.",
+          "items": [
+            {
+              "id": "CU-S2-059",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "To explain how glaciers are studied and why changes in them matter",
+                "To describe a recent scientific expedition across a mountain glacier",
+                "To argue that mountain glaciers should be protected by new national laws",
+                "To compare glaciers with rivers in warmer regions"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายการเคลื่อนตัวของธารน้ำแข็ง ความสำคัญต่อแหล่งน้ำ วิธีวัด mass balance และผลของการสูญเสียน้ำแข็ง จึงเป็นเรื่องการศึกษาธารน้ำแข็งและเหตุที่การเปลี่ยนแปลงมีความสำคัญ"
+            },
+            {
+              "id": "CU-S2-060",
+              "stem": "According to the passage, what causes a glacier to begin flowing?",
+              "options": [
+                "The weight of the ice makes its lower layers deform",
+                "Melting snow on the surface pushes it downhill",
+                "Sea water pulls the ice toward the coast",
+                "Strong mountain winds move the surface ice"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่าธารน้ำแข็งหนักมากจน \"the ice near its base begins to deform and flow downhill under its own weight\""
+            },
+            {
+              "id": "CU-S2-061",
+              "stem": "The word \"precisely\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "rarely",
+                "suddenly",
+                "exactly",
+                "partly"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"precisely when farms and towns need it most\" แปลว่า ตรงกับช่วงที่ต้องการน้ำมากที่สุดพอดี precisely จึงมีความหมายใกล้เคียง exactly"
+            },
+            {
+              "id": "CU-S2-062",
+              "stem": "The author mentions the Talvik Valley in order to show",
+              "options": [
+                "how much some areas rely on glacier meltwater",
+                "why farmers are moving to higher valleys",
+                "how scientists first measured mass balance",
+                "how quickly some glaciers move toward the sea"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่างหุบเขา Talvik บอกว่าเกือบครึ่งหนึ่งของน้ำในแม่น้ำช่วงฤดูร้อนมาจากธารน้ำแข็งละลาย ใช้สนับสนุนประเด็นว่าธารน้ำแข็งเป็นเหมือน \"natural water towers\""
+            },
+            {
+              "id": "CU-S2-063",
+              "stem": "What happens when a glacier's losses are greater than its gains for many years?",
+              "options": [
+                "It gains extra ice from heavy snowfall",
+                "Its terminus moves back up the valley",
+                "It grows thicker near its front",
+                "It advances further down the valley"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าเมื่อการสูญเสียมากกว่าที่ได้รับต่อเนื่อง ธารน้ำแข็งจะบางลงและปลาย (terminus) \"retreats up the valley\""
+            },
+            {
+              "id": "CU-S2-064",
+              "stem": "The word \"they\" in paragraph 4 refers to",
+              "options": [
+                "satellites",
+                "stakes",
+                "holes",
+                "researchers"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "\"they could calculate how much surface ice had melted\" ผู้ที่กลับไปดูหลักและคำนวณคือทีมนักวิจัย (researchers) ที่เดินขึ้นไปบนน้ำแข็ง"
+            },
+            {
+              "id": "CU-S2-065",
+              "stem": "Which of the following statements about \"peak water\" is best supported by the passage?",
+              "options": [
+                "It means that rivers carry less water than before",
+                "It happens after a glacier has disappeared",
+                "It can make a water supply seem more secure than it really is",
+                "It happens at the same time in every mountain valley"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ช่วง peak water แม่น้ำมีน้ำมากขึ้นชั่วคราว ชุมชนจึงคุ้นกับน้ำที่อุดมสมบูรณ์ แต่หลังจากนั้นน้ำจะลดลงอย่างฉับพลัน จึงอนุมานได้ว่าทำให้ดูเหมือนแหล่งน้ำมั่นคงกว่าความเป็นจริง และย่อหน้าสุดท้ายบอกว่าแต่ละหุบเขาเกิดไม่พร้อมกัน"
+            },
+            {
+              "id": "CU-S2-066",
+              "stem": "Why does the author mention a glacier's size, shape and altitude in the last paragraph?",
+              "options": [
+                "To suggest that satellite measurements are no longer very useful",
+                "To show that climate has little effect on how glaciers change",
+                "To explain why each glacier needs to be studied separately",
+                "To describe the largest glaciers in the world"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าเวลาของ peak water ขึ้นกับขนาด รูปร่าง และความสูงของธารน้ำแข็งด้วย \"which is why scientists insist that every glacier be studied on its own terms\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G19",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Passing goods along",
+          "text": "Long before container ships and cargo planes, goods moved across continents along networks of trade routes that linked peoples who never met one another. Historians sometimes picture these routes as single roads running from one end of the known world to the other. In reality, they worked more like relay races. A bale of cloth might pass through the hands of a dozen merchants, each of whom carried it only a few hundred kilometres before selling it to the next. Because no single trader travelled the whole distance, knowledge also moved in fragments. Merchants at one end of a route often had only vague ideas about where their goods finally ended up, and stories about faraway lands grew stranger with each retelling.\n\nGeography largely determined where routes ran. Caravans crossing deserts depended on oases spaced roughly a day or two apart, since camels could go without water for some time but people and other pack animals still needed regular rest and fresh supplies. Mountain passes, which were blocked by snow for part of the year, forced traders to time their journeys carefully. At sea, the seasonal winds were decisive: ships sailed in one direction while the winds blew toward the land and waited months to return when they reversed.\n\nThese patterns gave enormous importance to the towns where routes met. Oasis settlements and port cities grew wealthy not mainly by producing goods but by providing services: water, food, storage, protection and markets where merchants from different regions could do business. Records from the Sareth Road, a desert route studied by archaeologists from the Orvane Institute, show that one oasis town charged a fee on every animal that entered its gates, and that this income paid for its walls, its wells and a large covered market.\n\nTrade routes carried more than silk, spices and metals. Ideas, technologies and languages travelled with the merchants. Techniques for making paper, new crops and systems of counting spread along the same paths as luxury goods. Diseases did too, and some historians argue that the movement of illness along trade networks shaped history as much as the movement of wealth.\n\nThe decline of a particular route usually had several causes. When ships became able to carry larger cargoes more cheaply, some overland roads lost much of their traffic. Disputes between neighbouring states could close a route for years, pushing merchants to look for alternatives. Even changes in fashion played a part: when demand for a certain dye or perfume fell in distant markets, the towns that had grown rich by supplying it could fade within a generation.\n\nStudying these networks reminds us that globalisation is not entirely new. The scale and speed of modern trade are unprecedented, but the basic pattern, in which distant regions depend on one another through long chains of exchange, is very old indeed.",
+          "items": [
+            {
+              "id": "CU-S2-067",
+              "stem": "Which of the following is the best title for the passage?",
+              "options": [
+                "The Remarkable Journey of One Merchant Across an Entire Continent",
+                "Why Modern Trade Is Slower Than Ancient Trade",
+                "Why Camels Were More Reliable Than Ships for Long-Distance Trade",
+                "How Ancient Trade Networks Worked and What They Changed"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความพูดถึงลักษณะการทำงานของเส้นทางการค้าโบราณ ปัจจัยทางภูมิศาสตร์ เมืองที่รุ่งเรือง สิ่งที่แพร่ไปตามเส้นทาง และสาเหตุของการเสื่อมถอย ชื่อเรื่องแรกจึงครอบคลุมที่สุด"
+            },
+            {
+              "id": "CU-S2-068",
+              "stem": "Why does the author compare trade routes to relay races?",
+              "options": [
+                "Goods were passed between many traders over short distances",
+                "The routes were used mainly for sporting events",
+                "Merchants competed with each other to reach markets first",
+                "Goods travelled much faster than people expected"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนอธิบายต่อว่าผ้าหนึ่งมัดผ่านมือพ่อค้านับสิบคน แต่ละคนขนไปแค่ไม่กี่ร้อยกิโลเมตรแล้วขายต่อ เหมือนการวิ่งผลัดส่งไม้ต่อกัน"
+            },
+            {
+              "id": "CU-S2-069",
+              "stem": "According to the passage, why did desert caravans follow routes with oases?",
+              "options": [
+                "Desert routes were shorter than the mountain passes",
+                "People and most animals needed regular rest and supplies",
+                "Oases were the only places where goods could legally be sold",
+                "Camels could not survive a single day without water"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าอูฐอดน้ำได้ระยะหนึ่ง \"but people and other pack animals still needed regular rest and fresh supplies\" ตัวเลือกเรื่องอูฐจึงขัดกับบทความ"
+            },
+            {
+              "id": "CU-S2-070",
+              "stem": "The word \"decisive\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "gentle",
+                "dangerous",
+                "unusual",
+                "crucial"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ลมมรสุมเป็นตัว \"ชี้ขาด\" ว่าเรือจะออกเดินทางหรือต้องรอเป็นเดือน decisive จึงหมายถึง สำคัญอย่างยิ่ง (crucial)"
+            },
+            {
+              "id": "CU-S2-071",
+              "stem": "According to paragraph 3, how did oasis towns and ports mainly become wealthy?",
+              "options": [
+                "By lending money to travelling traders",
+                "By growing crops to sell in distant markets",
+                "By producing silk and spices for export",
+                "By offering services to passing merchants"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าเมืองเหล่านี้ร่ำรวย \"not mainly by producing goods but by providing services\" เช่น น้ำ อาหาร ที่เก็บสินค้า และตลาด"
+            },
+            {
+              "id": "CU-S2-072",
+              "stem": "What can be inferred about the oasis town on the Sareth Road?",
+              "options": [
+                "It produced most of the goods carried by caravans",
+                "Its public structures depended on income from trade",
+                "It refused entry to animals from other regions",
+                "It was abandoned before its market was built"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "บันทึกบอกว่าเมืองเก็บค่าธรรมเนียมจากสัตว์ทุกตัวที่เข้าเมือง และรายได้นี้ใช้สร้างกำแพง บ่อน้ำ และตลาด จึงอนุมานได้ว่าสิ่งก่อสร้างสาธารณะพึ่งพารายได้จากการค้า"
+            },
+            {
+              "id": "CU-S2-073",
+              "stem": "Which of the following is NOT mentioned as a reason why a trade route might decline?",
+              "options": [
+                "A shortage of experienced merchants",
+                "Cheaper transport by sea",
+                "Falling demand for certain products",
+                "Disputes between neighbouring states"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5 กล่าวถึงการขนส่งทางเรือที่ถูกลง ข้อพิพาทระหว่างรัฐ และความต้องการสินค้าที่ลดลง แต่ไม่ได้พูดถึงการขาดแคลนพ่อค้าที่มีประสบการณ์"
+            },
+            {
+              "id": "CU-S2-074",
+              "stem": "What point does the author make in the final paragraph?",
+              "options": [
+                "Modern global trade has deep historical roots",
+                "Ancient trade routes should be restored today",
+                "Globalisation is a fairly recent development",
+                "Ancient trade was larger in scale than modern trade"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่า \"globalisation is not entirely new\" แม้ขนาดและความเร็วจะต่างกัน แต่รูปแบบการพึ่งพากันของภูมิภาคที่ห่างไกล \"is very old indeed\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G20",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Reading the small print",
+          "text": "Walk down any supermarket aisle and you will find packages covered in numbers: calories, grams of fat, milligrams of sodium, percentages of daily values. Nutrition labels were introduced to help shoppers make informed choices, but research suggests that many people either ignore them or misread them. Understanding why reveals as much about human psychology as it does about food.\n\nThe most common problem is serving size. The figures on a label usually describe a single serving rather than the whole package, and the serving chosen by the manufacturer may be smaller than the amount most people actually eat. A bag of crisps might list 150 calories per serving while containing three servings. A shopper who glances at the number and then finishes the bag has eaten three times what they believed. In one experiment at the Westbrook Consumer Lab, fewer than one in four participants checked the serving size before estimating the calories in a snack.\n\nAnother difficulty is the sheer amount of information. A typical label may contain more than fifteen separate figures. Faced with so much data, and often in a hurry, shoppers tend to focus on one or two numbers that they have heard are important and overlook the rest. Someone trying to cut down on sugar may choose a product that is low in sugar but high in salt without realising it.\n\nPackaging adds a further complication. Phrases such as \"light,\" \"natural\" or \"made with real fruit\" appear in large, colourful letters on the front of the box, while the detailed label sits in small print on the back. These front-of-pack claims can create what researchers call a \"health halo\": a general impression that a product is good for you, which discourages buyers from checking the details. A cereal advertised as \"whole grain\" may still contain a large amount of added sugar.\n\nTo address these problems, several countries have experimented with simpler designs. Some use a traffic-light system, in which red, amber and green circles show whether a product is high, medium or low in fat, sugar and salt. Others print a single summary score on the front of the package. Early evidence suggests that such systems help shoppers compare similar products quickly, although critics argue that reducing a food to one colour or one score can hide important differences between products.\n\nIn the end, no label can make decisions for us. But knowing the common traps, such as checking the serving size first, reading beyond the front of the box and looking at the whole label rather than a single number, can turn a confusing panel of figures into a genuinely useful tool.",
+          "items": [
+            {
+              "id": "CU-S2-075",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How to plan a balanced diet for the whole week",
+                "How food companies measure and calculate the calories in their products",
+                "Why nutrition labels are often misread and how they could be improved",
+                "Why shoppers should avoid buying packaged food whenever possible"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายปัญหาที่ทำให้คนอ่านฉลากโภชนาการผิด (ขนาดหนึ่งหน่วยบริโภค ข้อมูลมากเกินไป ข้อความหน้ากล่อง) และแนวทางปรับปรุง เช่น ระบบสัญญาณไฟจราจร"
+            },
+            {
+              "id": "CU-S2-076",
+              "stem": "According to paragraph 2, what mistake do many shoppers make?",
+              "options": [
+                "They believe that crisps contain very few calories",
+                "They count the calories in each serving twice",
+                "They read the label only after finishing the food",
+                "They assume the figures refer to the whole package"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ตัวเลขบนฉลากมักเป็นของหนึ่งหน่วยบริโภค ไม่ใช่ทั้งห่อ ผู้ที่ดูตัวเลขแวบเดียวแล้วกินหมดห่อจึงได้พลังงานมากกว่าที่คิดถึงสามเท่า"
+            },
+            {
+              "id": "CU-S2-077",
+              "stem": "What can be inferred from the experiment at the Westbrook Consumer Lab?",
+              "options": [
+                "Most participants read the labels very carefully",
+                "The serving sizes printed on the snack packets were incorrect",
+                "Most participants said they preferred snacks with fewer calories",
+                "Many participants' calorie estimates were probably too low"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เข้าร่วมไม่ถึงหนึ่งในสี่ที่ดูขนาดหน่วยบริโภค คนส่วนใหญ่จึงน่าจะคิดว่าตัวเลขเป็นของทั้งห่อ ทำให้ประเมินพลังงานต่ำเกินจริง"
+            },
+            {
+              "id": "CU-S2-078",
+              "stem": "The word \"sheer\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "varied",
+                "hidden",
+                "exact",
+                "very large"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"the sheer amount of information\" เน้นว่าข้อมูลมีปริมาณมากมาย ประโยคต่อมาบอกว่ามีตัวเลขมากกว่าสิบห้ารายการ"
+            },
+            {
+              "id": "CU-S2-079",
+              "stem": "The example of someone trying to cut down on sugar is used to show that",
+              "options": [
+                "focusing on one figure can make people miss others",
+                "products low in sugar are usually a good choice",
+                "sugar matters more than salt for most people",
+                "shoppers usually read labels too slowly"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่างนี้ตามหลังประโยคที่ว่าผู้ซื้อมักดูแค่ตัวเลขหนึ่งหรือสองตัว \"and overlook the rest\" คนที่ลดน้ำตาลจึงอาจได้เกลือมากโดยไม่รู้ตัว"
+            },
+            {
+              "id": "CU-S2-080",
+              "stem": "According to the passage, what is a \"health halo\"?",
+              "options": [
+                "A type of packaging that keeps food fresh longer",
+                "A positive impression that stops people checking a product closely",
+                "A government symbol printed on foods that have been approved",
+                "A detailed label on the back that lists every single ingredient"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "บทความนิยามว่า health halo คือ \"a general impression that a product is good for you, which discourages buyers from checking the details\""
+            },
+            {
+              "id": "CU-S2-081",
+              "stem": "What criticism of simplified labelling systems is mentioned?",
+              "options": [
+                "They use too many different colours",
+                "They are difficult for most shoppers to understand",
+                "They may hide important differences between products",
+                "They are too expensive for companies to print"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "นักวิจารณ์บอกว่าการลดอาหารเหลือสีเดียวหรือคะแนนเดียว \"can hide important differences between products\" ส่วนบทความบอกว่าระบบนี้ช่วยให้เปรียบเทียบได้เร็ว จึงไม่ได้เข้าใจยาก"
+            },
+            {
+              "id": "CU-S2-082",
+              "stem": "What is the main purpose of the final paragraph?",
+              "options": [
+                "To give practical advice on reading labels",
+                "To argue that labels should be removed",
+                "To summarise the history of food labels",
+                "To criticise food manufacturers directly"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายสรุปเคล็ดลับ เช่น ดูขนาดหน่วยบริโภคก่อน อ่านเลยหน้ากล่องไป และดูทั้งฉลาก เป็นคำแนะนำเชิงปฏิบัติ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G21",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Robots in the field",
+          "text": "For most of history, farming has depended on large amounts of human labour. Even after tractors and combine harvesters transformed agriculture in the twentieth century, many tasks remained stubbornly manual. Picking soft fruit, removing weeds between rows of vegetables and checking individual plants for disease all required human eyes and hands. Today, a new generation of agricultural robots is beginning to take on these jobs, and the change may reshape rural life as profoundly as the tractor once did.\n\nUnlike earlier farm machines, which were large and powerful, many of these robots are small, light and highly specialised. One type, now being tested on vegetable farms, moves slowly along crop rows, using cameras and software to tell the difference between a lettuce seedling and a weed. When it spots a weed, it removes it with a tiny blade or a precise burst of heat. Because it targets individual plants, it can greatly reduce the need for chemical weedkillers sprayed across whole fields.\n\nFruit picking has proved more difficult. A strawberry or a tomato must be located among the leaves, judged to be ripe and then gripped firmly enough to be pulled off but gently enough not to be bruised. Engineers at Calder Robotics, a start-up working with growers in the Brennan Hills region, spent four years developing a soft gripper modelled on the human hand. Their latest prototype picks around 1,800 strawberries an hour, roughly the same as an experienced worker, although it still struggles with fruit hidden deep inside the plant.\n\nSupporters argue that robots could solve a pressing problem. In many countries, farms find it increasingly hard to hire seasonal workers, and crops sometimes rot in the fields because there is no one to harvest them. Robots can work at night and do not get tired. In addition, the detailed data they collect on the size, health and ripeness of every plant could help farmers use water and fertiliser more efficiently.\n\nYet there are reasons for caution. The machines are expensive, and small family farms may be unable to afford them, which could widen the gap between large agricultural businesses and everyone else. Robots also require reliable internet connections and skilled technicians, both of which are scarce in many rural areas. Finally, there is the question of what will happen to workers whose jobs disappear. Some experts believe that new roles in maintenance and data analysis will be created, while others doubt that these will be numerous enough, or located in the right places, to replace the jobs that are lost.\n\nAgricultural robots are unlikely to replace human farmers entirely in the near future. More probably, they will become one more tool, like the tractor, that changes what farm work looks like and who does it.",
+          "items": [
+            {
+              "id": "CU-S2-083",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The possible benefits and drawbacks of farm robots",
+                "Why seasonal workers prefer jobs in cities",
+                "How engineers design a robotic hand",
+                "The history of tractors and combine harvesters"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายหุ่นยนต์การเกษตรแบบใหม่ ข้อดีตามที่ผู้สนับสนุนกล่าว และข้อควรระวัง จึงเป็นเรื่องประโยชน์และข้อเสียของหุ่นยนต์ในฟาร์ม"
+            },
+            {
+              "id": "CU-S2-084",
+              "stem": "How are the new farm robots different from earlier farm machines?",
+              "options": [
+                "They are mainly designed for very large farms",
+                "They are more powerful and can work much faster than tractors",
+                "They are smaller and built for specific jobs",
+                "They can operate without any software"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าเครื่องจักรเดิม \"large and powerful\" ส่วนหุ่นยนต์ใหม่ \"small, light and highly specialised\""
+            },
+            {
+              "id": "CU-S2-085",
+              "stem": "What can be inferred about the weeding robot described in paragraph 2?",
+              "options": [
+                "It is also able to harvest lettuce once it is ripe",
+                "It could make farms less dependent on chemicals",
+                "It works faster than even the most experienced human worker",
+                "It is too expensive for any farm to use"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "หุ่นยนต์กำจัดวัชพืชทีละต้น จึง \"greatly reduce the need for chemical weedkillers\" อนุมานได้ว่าฟาร์มจะพึ่งสารเคมีน้อยลง"
+            },
+            {
+              "id": "CU-S2-086",
+              "stem": "The word \"stubbornly\" in paragraph 1 is closest in meaning to",
+              "options": [
+                "persistently",
+                "carelessly",
+                "briefly",
+                "cheerfully"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"remained stubbornly manual\" หมายถึง ยังคงต้องใช้แรงคนอย่างดื้อดึง ไม่เปลี่ยนแม้มีรถแทรกเตอร์แล้ว จึงใกล้เคียงกับ persistently (อย่างต่อเนื่อง ไม่ยอมเปลี่ยน)"
+            },
+            {
+              "id": "CU-S2-087",
+              "stem": "According to the passage, why has fruit picking been difficult for robots?",
+              "options": [
+                "Fruit must be held with just the right amount of force",
+                "Most farmers do not allow machines to go near their fruit",
+                "Most fruit is too heavy for small robots",
+                "Fruit can only be picked during the night"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ผลไม้ต้องจับ \"firmly enough to be pulled off but gently enough not to be bruised\" คือต้องใช้แรงพอดี"
+            },
+            {
+              "id": "CU-S2-088",
+              "stem": "The word \"it\" in \"although it still struggles\" in paragraph 3 refers to",
+              "options": [
+                "the strawberry plant",
+                "the latest prototype",
+                "the human hand",
+                "an experienced worker"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคบอกว่าต้นแบบล่าสุดเก็บสตรอว์เบอร์รีได้ชั่วโมงละ 1,800 ผล \"although it still struggles with fruit hidden deep inside the plant\" สิ่งที่ยังมีปัญหาคือต้นแบบหุ่นยนต์"
+            },
+            {
+              "id": "CU-S2-089",
+              "stem": "Which of the following is mentioned as a concern about farm robots?",
+              "options": [
+                "They produce fruit of lower quality",
+                "They are unable to collect useful data",
+                "Small farms may not be able to afford them",
+                "They may damage the soil in the fields"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5 บอกว่าเครื่องมีราคาแพง \"small family farms may be unable to afford them\" ส่วนการเก็บข้อมูลเป็นข้อดีที่บทความกล่าวถึง"
+            },
+            {
+              "id": "CU-S2-090",
+              "stem": "Which statement best reflects the conclusion of the passage?",
+              "options": [
+                "Robots are likely to be a short-lived trend in agriculture",
+                "Robots will soon replace most human farmers",
+                "Robots will probably change farm work rather than end it",
+                "Robots should not be used on small family farms at all"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าหุ่นยนต์ \"unlikely to replace human farmers entirely\" แต่จะเป็นเครื่องมืออีกชิ้นที่ \"changes what farm work looks like and who does it\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "CU-S2-G22",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ (A, B, C หรือ D) ที่ไม่ถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "CU-S2-091",
+              "stem": "The report, [[publishing]] last month, [[showed]] that [[most]] glaciers in the region [[were shrinking]].",
+              "options": [
+                "publishing",
+                "showed",
+                "most",
+                "were shrinking"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "รายงานเป็นสิ่งที่ \"ถูกตีพิมพ์\" จึงต้องใช้ past participle \"published\" (ย่อมาจาก which was published) ไม่ใช่ publishing"
+            },
+            {
+              "id": "CU-S2-092",
+              "stem": "The portable seismometers [[used]] on the slopes are nearly [[as sensitive than]] the permanent instruments [[installed]] at the [[main]] observatory.",
+              "options": [
+                "used",
+                "as sensitive than",
+                "installed",
+                "main"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "การเปรียบเทียบแบบเท่ากันใช้ \"as + adj + as\" จึงต้องเป็น \"as sensitive as\" ใช้ than ไม่ได้"
+            },
+            {
+              "id": "CU-S2-093",
+              "stem": "Glaciers in the region [[have been]] retreating [[steadily]] [[since]] more than fifty years, [[according to]] recent data.",
+              "options": [
+                "have been",
+                "steadily",
+                "since",
+                "according to"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ช่วงระยะเวลา \"more than fifty years\" ต้องใช้ \"for\" ส่วน since ใช้กับจุดเริ่มต้นของเวลา"
+            },
+            {
+              "id": "CU-S2-094",
+              "stem": "[[Being finished]] the experiment, the team [[analysed]] the data [[that]] they [[had collected]].",
+              "options": [
+                "Being finished",
+                "analysed",
+                "that",
+                "had collected"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ต้องการแสดงว่าทำการทดลองเสร็จก่อนแล้วจึงวิเคราะห์ และมีกรรม the experiment ตามมา จึงต้องใช้ perfect participle \"Having finished\""
+            },
+            {
+              "id": "CU-S2-095",
+              "stem": "Microloans [[are]] often [[used]] to buy equipment, [[pay]] school fees, or [[covering]] unexpected costs.",
+              "options": [
+                "are",
+                "used",
+                "pay",
+                "covering"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้างคู่ขนาน to buy ..., (to) pay ..., or (to) cover ... ต้องใช้ \"cover\" ไม่ใช่ covering"
+            },
+            {
+              "id": "CU-S2-096",
+              "stem": "Merchants on the coast [[had]] long [[grown]] used to [[wait]] several months [[for]] the seasonal winds to change.",
+              "options": [
+                "had",
+                "grown",
+                "wait",
+                "for"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "\"be/get/grow used to\" ในความหมาย \"เคยชินกับ\" ตามด้วยคำนามหรือ V-ing เพราะ to เป็นบุพบท จึงต้องเป็น \"used to waiting\""
+            },
+            {
+              "id": "CU-S2-097",
+              "stem": "Farmers who [[adopt]] new technology [[often]] find [[that]] their costs [[rises]] at first.",
+              "options": [
+                "adopt",
+                "often",
+                "that",
+                "rises"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ประธานของอนุประโยคคือ \"their costs\" (พหูพจน์) กริยาต้องเป็น \"rise\""
+            },
+            {
+              "id": "CU-S2-098",
+              "stem": "The number of students [[enrolling]] in language courses [[have]] [[increased]] [[significantly]] this year.",
+              "options": [
+                "enrolling",
+                "have",
+                "increased",
+                "significantly"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"The number of + นามพหูพจน์\" ถือเป็นเอกพจน์ ต้องใช้ \"has increased\""
+            },
+            {
+              "id": "CU-S2-099",
+              "stem": "[[The more]] carefully shoppers read labels, [[the most]] likely they [[are]] to [[notice]] hidden sugar.",
+              "options": [
+                "The more",
+                "the most",
+                "are",
+                "notice"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง \"the + comparative ..., the + comparative\" ต้องใช้ \"the more likely\" ไม่ใช่ the most"
+            },
+            {
+              "id": "CU-S2-100",
+              "stem": "[[It is]] essential [[for]] researchers [[to recording]] their observations [[accurately]].",
+              "options": [
+                "It is",
+                "for",
+                "to recording",
+                "accurately"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง \"It is essential for someone to + V1\" ต้องเป็น \"to record\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G23",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ (A, B, C หรือ D) ที่ไม่ถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "CU-S2-101",
+              "stem": "Ancient merchants [[rarely]] travelled the [[entire]] route, [[which]] [[it]] could stretch for thousands of kilometres.",
+              "options": [
+                "rarely",
+                "entire",
+                "which",
+                "it"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "relative pronoun \"which\" ทำหน้าที่ประธานของอนุประโยคแล้ว จึงต้องตัด \"it\" ที่ซ้ำออก"
+            },
+            {
+              "id": "CU-S2-102",
+              "stem": "Scientists [[had]] monitored the volcano [[for]] years before it finally [[has erupted]] [[last]] spring.",
+              "options": [
+                "had",
+                "for",
+                "has erupted",
+                "last"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "เหตุการณ์ในอดีตที่ระบุเวลา \"last spring\" ต้องใช้ past simple \"erupted\" (คู่กับ past perfect \"had monitored\")"
+            },
+            {
+              "id": "CU-S2-103",
+              "stem": "[[Young child]] are remarkably [[good]] at acquiring the sounds of [[whatever]] language they [[hear]].",
+              "options": [
+                "Young child",
+                "good",
+                "whatever",
+                "hear"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "กริยา \"are\" และสรรพนาม \"they\" แสดงว่าประธานเป็นพหูพจน์ ต้องเป็น \"Young children\""
+            },
+            {
+              "id": "CU-S2-104",
+              "stem": "The library's new booking system, [[which]] [[was introduced]] last month, [[have]] [[reduced]] waiting times.",
+              "options": [
+                "which",
+                "was introduced",
+                "have",
+                "reduced"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประธานหลักคือ \"system\" (เอกพจน์) กริยาต้องเป็น \"has reduced\""
+            },
+            {
+              "id": "CU-S2-105",
+              "stem": "The guest lecture was [[such]] interesting [[that]] [[many]] students stayed [[behind]] to ask questions.",
+              "options": [
+                "such",
+                "that",
+                "many",
+                "behind"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "หน้าคุณศัพท์ที่ไม่มีคำนามตามต้องใช้ \"so interesting that\" ส่วน such ใช้กับคำนาม เช่น such an interesting lecture"
+            },
+            {
+              "id": "CU-S2-106",
+              "stem": "Expansion joints [[allow]] bridges [[to expand]] and contract [[without]] [[suffer]] serious damage.",
+              "options": [
+                "allow",
+                "to expand",
+                "without",
+                "suffer"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลังบุพบท \"without\" ต้องใช้ V-ing คือ \"without suffering\""
+            },
+            {
+              "id": "CU-S2-107",
+              "stem": "[[Although]] satellites [[provides]] valuable data, field measurements [[remain]] [[essential]] for accuracy.",
+              "options": [
+                "Although",
+                "provides",
+                "remain",
+                "essential"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน \"satellites\" เป็นพหูพจน์ กริยาต้องเป็น \"provide\""
+            },
+            {
+              "id": "CU-S2-108",
+              "stem": "Researchers [[interviewed]] farmers whose fields [[had been]] flooded [[during]] the storm, many of [[them]] had lost their entire harvest.",
+              "options": [
+                "interviewed",
+                "had been",
+                "during",
+                "them"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "อนุประโยคหลังจุลภาคไม่มีคำเชื่อม จึงต้องใช้ relative pronoun \"many of whom\" แทน them เพื่อเชื่อมกับ farmers"
+            },
+            {
+              "id": "CU-S2-109",
+              "stem": "Students who live on campus [[generally]] spend [[fewer]] money on transport than [[those]] who [[commute]].",
+              "options": [
+                "generally",
+                "fewer",
+                "those",
+                "commute"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"money\" นับไม่ได้ ต้องใช้ \"less money\" ส่วน fewer ใช้กับคำนามนับได้พหูพจน์"
+            },
+            {
+              "id": "CU-S2-110",
+              "stem": "The professor, [[along with]] her assistants, [[are]] [[preparing]] a new [[edition]] of the textbook.",
+              "options": [
+                "along with",
+                "are",
+                "preparing",
+                "edition"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "วลี \"along with her assistants\" ไม่นับรวมเป็นประธาน ประธานจริงคือ \"The professor\" กริยาจึงต้องเป็น \"is preparing\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S2-G24",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ (A, B, C หรือ D) ที่ไม่ถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "CU-S2-111",
+              "stem": "Trade routes [[enabled]] not only goods [[but also]] ideas [[spreading]] [[across]] continents.",
+              "options": [
+                "enabled",
+                "but also",
+                "spreading",
+                "across"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "\"enable + กรรม + to + V1\" ต้องเป็น \"to spread\" ไม่ใช่ spreading"
+            },
+            {
+              "id": "CU-S2-112",
+              "stem": "If the observatory [[had raised]] the alert earlier, more residents [[would leave]] the area [[before]] the ash cloud [[reached]] the town.",
+              "options": [
+                "had raised",
+                "would leave",
+                "before",
+                "reached"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประโยคเงื่อนไขแบบที่ 3 พูดถึงอดีตที่ไม่เกิดขึ้นจริง (If + had raised) ส่วนผลต้องเป็น \"would have left\" ไม่ใช่ would leave"
+            },
+            {
+              "id": "CU-S2-113",
+              "stem": "Shoppers [[compare]] prices far more carefully [[for]] the past two years, [[according to]] a survey [[carried out]] by the Westbrook Consumer Lab.",
+              "options": [
+                "compare",
+                "for",
+                "according to",
+                "carried out"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "\"for the past two years\" แสดงการกระทำที่ต่อเนื่องจากอดีตถึงปัจจุบัน กริยาต้องเป็น present perfect \"have compared\""
+            },
+            {
+              "id": "CU-S2-114",
+              "stem": "Many economists [[argue]] [[that]] microfinance works best [[when]] [[combining]] with training programmes.",
+              "options": [
+                "argue",
+                "that",
+                "when",
+                "combining"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "microfinance เป็นฝ่ายถูกนำไปรวม จึงต้องใช้รูป passive \"when combined with\" ไม่ใช่ combining"
+            },
+            {
+              "id": "CU-S2-115",
+              "stem": "The survey [[was]] [[conducting]] by a team [[of]] graduate students [[from]] three universities.",
+              "options": [
+                "was",
+                "conducting",
+                "of",
+                "from"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "มี \"by a team\" แสดงว่าเป็น passive ต้องใช้ \"was conducted\""
+            },
+            {
+              "id": "CU-S2-116",
+              "stem": "[[Unlike]] earlier machines, [[modern]] farm robots are small, light and [[high]] [[specialised]].",
+              "options": [
+                "Unlike",
+                "modern",
+                "high",
+                "specialised"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำที่ขยายคุณศัพท์ \"specialised\" ต้องเป็นกริยาวิเศษณ์ \"highly\""
+            },
+            {
+              "id": "CU-S2-117",
+              "stem": "The course aims to improve students' ability [[to read]] academic texts, [[writing]] clear summaries, and [[to present]] their findings [[confidently]].",
+              "options": [
+                "to read",
+                "writing",
+                "to present",
+                "confidently"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้างคู่ขนาน to read ..., to write ..., and to present ... ต้องใช้รูปเดียวกัน จึงต้องเป็น \"to write\" ไม่ใช่ writing"
+            },
+            {
+              "id": "CU-S2-118",
+              "stem": "The dormitory manager insisted [[on]] [[inspect]] every room [[before]] the [[semester]] ended.",
+              "options": [
+                "on",
+                "inspect",
+                "before",
+                "semester"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "หลังบุพบท \"insist on\" ต้องใช้ V-ing คือ \"insisted on inspecting\""
+            },
+            {
+              "id": "CU-S2-119",
+              "stem": "[[Because of]] the leak [[had]] damaged the wiring, the technician [[turned off]] the power [[immediately]].",
+              "options": [
+                "Because of",
+                "had",
+                "turned off",
+                "immediately"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ตามด้วยอนุประโยค (ประธาน + กริยา \"the leak had damaged\") ต้องใช้ \"Because\" ส่วน because of ตามด้วยคำนามเท่านั้น"
+            },
+            {
+              "id": "CU-S2-120",
+              "stem": "[[The amount of]] volunteers who [[signed up]] for the survey [[was]] far [[higher]] than the organisers had expected.",
+              "options": [
+                "The amount of",
+                "signed up",
+                "was",
+                "higher"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "\"volunteers\" เป็นคำนามนับได้ ต้องใช้ \"The number of\" ส่วน the amount of ใช้กับคำนามนับไม่ได้ (กริยา was ถูกแล้วเพราะ the number of ถือเป็นเอกพจน์)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

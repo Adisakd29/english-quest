@@ -1,0 +1,152 @@
+{
+  "batch": "17",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0926",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a ___ plane, not a real one' also accepts 'model' or 'paper'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0935",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'had ___ finding the hotel' also accepts 'problems' or 'difficulty'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0937",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Nok and her ___ look so alike' is equally answered by 'sister'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0952",
+      "severity": "minor",
+      "problem": "meaningEN 'has and operates an app' is unnatural wording.",
+      "fix": {
+        "meaningEN": "a person who has an account on an app or website"
+      }
+    },
+    {
+      "id": "A2-S0966",
+      "severity": "minor",
+      "problem": "Example shows physical weakness after illness (ET uses อ่อนแรง), but thai gives only อ่อนแอ, which leans towards weak health/character.",
+      "fix": {
+        "thai": "อ่อนแอ, อ่อนแรง",
+        "shortTH": "อ่อนแอ",
+        "thaiChangeReason": "เพิ่ม อ่อนแรง ซึ่งตรงกับความหมายร่างกายไม่มีแรง เช่น หลังป่วย"
+      }
+    },
+    {
+      "id": "A2-S0991",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Has the pizza arrived ___?' also accepts 'already'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0001",
+      "severity": "minor",
+      "problem": "Example uses the 'completely/extremely' sense (absolutely beautiful = สวยสุด ๆ), but shortTH อย่างแน่นอน is the 'certainly/yes' sense, so the answer choice does not match the example.",
+      "fix": {
+        "thai": "อย่างยิ่ง, โดยสิ้นเชิง, แน่นอน (ใช้ตอบรับ)",
+        "shortTH": "อย่างยิ่ง, โดยสิ้นเชิง",
+        "thaiChangeReason": "ตัวอย่างใช้ในความหมาย อย่างยิ่ง/สุด ๆ จึงให้คำแปลหลักตรงกับตัวอย่าง"
+      }
+    },
+    {
+      "id": "B1-S0002",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: \"Ploy's ___ results\" also accepts 'exam', 'school' or 'test'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0005",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ near the beach is expensive' accepts many nouns (food, parking, land).",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0008",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'was a kind ___' is equally answered by 'thing'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0010",
+      "severity": "minor",
+      "problem": "Collocations 'in addition' / 'in addition to' mean 'also/as well as', a different sense from the item (a new thing added to a group).",
+      "fix": {
+        "collocations": [
+          "a new addition",
+          "a great addition to",
+          "a welcome addition"
+        ]
+      }
+    },
+    {
+      "id": "B1-S0014",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The doctor ___ me to drink more water' also accepts 'told' or 'asked'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0028",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'We were ___ by how fast...' is equally answered by 'surprised'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0031",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The scientists ___ the water' also accepts 'tested', 'checked' or 'studied'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0033",
+      "severity": "minor",
+      "problem": "'classes would close' is unnatural; schools close and classes are cancelled.",
+      "fix": {
+        "example": "The school announced that it would close because of the flood.",
+        "form": "announced",
+        "exampleTH": "โรงเรียนประกาศว่าจะปิดเพราะน้ำท่วม"
+      }
+    },
+    {
+      "id": "B1-S0050",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ your photo to the email' is equally answered by 'add'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B1-S0056",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Ploy was ___ a prize' is equally answered by 'given'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}

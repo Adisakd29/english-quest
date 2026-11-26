@@ -1,0 +1,199 @@
+/* =====================================================================
+   v1.26.1 Game UI ระดับหน้า — Learning Path · Profile · Login · Avatar · Ranked · Event Hub
+   ใช้ token/คอมโพเนนต์จาก game-ui.css (โหลดหลังสุด) · ทุกธีมปรับผ่าน --g-* (ไม่เขียนคอมโพเนนต์ซ้ำต่อธีม)
+   ===================================================================== */
+
+/* ---------- ฉากหัวหน้าแบบเกม (ใช้ซ้ำ: Learning Path · Profile) ---------- */
+.path-hero, .pf-hero {
+  position: relative; isolation: isolate; overflow: hidden; border-radius: var(--g-r-xl); color: #fff;
+  background: linear-gradient(180deg, rgba(8, 14, 40, .35), rgba(8, 14, 40, .78)), url("/img/hero/village.webp") center 62% / cover no-repeat, #13204a;
+  box-shadow: var(--g-shadow-2); border: 1px solid rgba(255, 255, 255, .12);
+}
+.path-hero { padding: 18px 18px 18px 20px; min-height: 132px; margin: 6px 0 12px; }
+.path-hero .path-title { color: #fff; margin: 0; font-size: var(--g-fs-xl); text-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 6px 18px rgba(0, 0, 0, .45); }
+.path-hero-sub { margin: 4px 0 0; color: rgba(255, 255, 255, .86); font-size: var(--g-fs-sm); text-wrap: balance; }
+.path-hero .page-hero-art { width: clamp(84px, 20vw, 150px); filter: drop-shadow(0 8px 14px rgba(0, 0, 0, .35)); }
+:root[data-skin="christmas"] .path-hero::after, :root[data-skin="christmas"] .pf-hero::after { content: ''; position: absolute; left: 0; right: 0; top: -6px; height: 44px; pointer-events: none;
+  background: url("/img/snow/garland.svg") center top / auto 44px repeat-x; filter: drop-shadow(0 3px 4px rgba(0, 0, 0, .35)); }
+:root[data-skin="christmas"] .path-hero { padding-top: 34px; }
+
+/* ตำแหน่งปัจจุบัน + ปุ่มเรียนต่อ */
+.path-now { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 12px 14px; margin: 0 0 14px;
+  border-radius: var(--g-r-lg); background: var(--g-plate); border: 1px solid var(--g-gold); box-shadow: 0 0 0 1px rgba(230, 194, 106, .2), var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+.path-now[hidden] { display: none; }
+.path-now-text { display: grid; gap: 3px; min-width: 0; }
+.path-now-text small { color: var(--g-sub); font-size: var(--g-fs-xs); }
+.path-now-text b { font-size: var(--g-fs-lg); color: var(--g-ink); line-height: 1.25; overflow-wrap: anywhere; }
+.path-now-bar { display: block; height: 8px; border-radius: 99px; background: var(--g-track); overflow: hidden; }
+.path-now-bar > i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #ffcf5a, #ff9d3d); }
+.path-now-go { min-height: 44px; padding: 0 16px; border: 0; border-radius: 999px; font: inherit; font-weight: 900; cursor: pointer; display: inline-flex; gap: 6px; align-items: center;
+  color: #3a2400; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 3px 0 #c98a0b, 0 6px 12px rgba(201, 138, 11, .3); transition: transform .12s var(--g-ease); }
+.path-now-go:active { transform: translateY(2px); box-shadow: 0 1px 0 #c98a0b; }
+.path-now-go:focus-visible { outline: 3px solid var(--g-gold); outline-offset: 2px; }
+@media (max-width: 480px) { .path-now { grid-template-columns: auto minmax(0, 1fr); } .path-now-go { grid-column: 1 / -1; justify-content: center; } }
+
+/* ปุ่มลัด: แผ่นเกม + ไอคอนอัญมณีสีประจำเมนู */
+#screen-path .path-quick { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0 0 12px; }
+@media (max-width: 520px) { #screen-path .path-quick { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+#screen-path .path-quick .vb-open { margin: 0; display: flex; align-items: center; gap: 10px; justify-content: flex-start; min-height: 58px; padding: 8px 10px; border-radius: var(--g-r-md);
+  background: var(--g-plate); color: var(--g-ink); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); font-weight: 800; text-align: left;
+  transition: transform .14s var(--g-ease), border-color .14s; }
+#screen-path .path-quick .vb-open:hover { transform: translateY(-2px); border-color: var(--g-gold); }
+#screen-path .path-quick .vb-open:active { transform: translateY(1px); }
+#screen-path .path-quick .vb-open > .icon { flex: none; width: 38px; height: 38px; padding: 8px; border-radius: 12px; color: #fff;
+  background: var(--qg, linear-gradient(160deg, #6fb6ff, #3a6df0 60%, #2a48b8)); box-shadow: inset 0 2px 0 rgba(255, 255, 255, .4), inset 0 -3px 0 rgba(0, 0, 0, .18), 0 3px 8px rgba(0, 0, 0, .18); }
+#screen-path .path-quick .vb-open span { line-height: 1.25; font-size: var(--g-fs-sm); }
+#screen-path .path-quick .vb-open:nth-child(2) { --qg: linear-gradient(160deg, #c49bff, #7b5cf0 60%, #5338c0); }
+#screen-path .path-quick .vb-open:nth-child(3) { --qg: linear-gradient(160deg, #7fe0c0, #23a77e 60%, #157a5a); }
+#screen-path .path-quick .vb-open:nth-child(4) { --qg: linear-gradient(160deg, #ffc58a, #f08a2c 60%, #b85f12); }
+#screen-path .path-quick .vb-open:nth-child(5) { --qg: linear-gradient(160deg, #9ad0ff, #3b8fd6 60%, #23609c); }
+#screen-path .path-quick .vb-open:nth-child(6) { --qg: linear-gradient(160deg, #ff9fb6, #e0537a 60%, #a83355); }
+
+/* ทางเข้าโหมดพิเศษ (TGAT / ก.พ. / Vocabulary Quiz) */
+#screen-path .wa-entry { border-radius: var(--g-r-lg); background: var(--g-plate); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi);
+  transition: transform .14s var(--g-ease), border-color .14s; }
+#screen-path .wa-entry:hover { transform: translateY(-2px); border-color: var(--g-gold); }
+#screen-path .wa-entry .wa-entry-ic { color: #fff; border-radius: 14px; background: linear-gradient(160deg, #ffd27a, #e8a23a 60%, #b8741a);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .45), inset 0 -3px 0 rgba(0, 0, 0, .18), 0 3px 8px rgba(0, 0, 0, .2); }
+#screen-path .wa-entry:not(.tc-entry):not(.kp-entry) .wa-entry-ic { background: linear-gradient(160deg, #c49bff, #7b5cf0 60%, #5338c0); }
+#screen-path .wa-entry b { color: var(--g-ink); }
+
+/* โลกแต่ละระดับ: แผ่นเกม + แถบสีประจำระดับ + Progress */
+#screen-path .path-level { position: relative; overflow: hidden; border-radius: var(--g-r-lg); background: var(--g-plate); border: 1px solid var(--g-edge);
+  box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+#screen-path .path-level::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--lv, var(--g-accent)); opacity: .9; }
+#screen-path .path-level.is-open { border-color: color-mix(in srgb, var(--lv, #4f46e5) 55%, transparent); }
+#screen-path .path-level-head { position: relative; flex-wrap: wrap; }
+#screen-path .path-level-head .emblem { filter: drop-shadow(0 3px 6px color-mix(in srgb, var(--lv, #4f46e5) 45%, transparent)); }
+.path-level-prog { flex-basis: 100%; display: block; height: 6px; margin: 8px 0 0; border-radius: 99px; background: var(--g-track); overflow: hidden; }
+.path-level-prog > i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--lv, #4f46e5), color-mix(in srgb, var(--lv, #4f46e5) 55%, #fff)); }
+#screen-path .path-level.locked { opacity: .78; }
+#screen-path .path-level.locked .path-level-head .emblem { filter: grayscale(.6); }
+
+/* Unit ปัจจุบัน: ขอบทอง เรืองแสง · node วงแหวนเต้นเบา ๆ */
+#screen-path .path-unit-row.is-current .path-unit { border: 2px solid var(--g-gold); box-shadow: 0 0 0 3px rgba(230, 194, 106, .22), 0 8px 18px rgba(230, 170, 60, .18); }
+#screen-path .path-here { background: linear-gradient(180deg, #ffe08f, #ffbf3c); color: #3a2400; box-shadow: 0 2px 0 #c98a0b; }
+@media (prefers-reduced-motion: no-preference) {
+  #screen-path .node-current .path-node { animation: g-node 2.4s ease-in-out infinite; }
+  @keyframes g-node { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 191, 60, .45); } 50% { box-shadow: 0 0 0 8px rgba(255, 191, 60, 0); } }
+}
+#screen-path .path-unit { border-radius: var(--g-r-md); }
+#screen-path .path-test-btn { border-radius: var(--g-r-md); }
+/* Boss ท้ายระดับ */
+#screen-path .path-boss.available { position: relative; overflow: hidden; color: #fff; border: 0; border-radius: var(--g-r-lg);
+  background: radial-gradient(120% 120% at 0% 0%, #ff9a5a, #c2341f 55%, #6e1414); box-shadow: 0 6px 0 #4d0e0e, 0 12px 24px rgba(194, 52, 31, .35); }
+#screen-path .path-boss.available .path-boss-icon { color: #ffd27a; filter: drop-shadow(0 0 8px rgba(255, 210, 122, .7)); }
+#screen-path .path-boss.available small { color: rgba(255, 255, 255, .9); }
+
+/* =====================================================================
+   Profile
+   ===================================================================== */
+#screen-profile .pf-hero { padding: 16px; margin: 6px 0 12px; grid-template-columns: minmax(110px, 150px) 1fr; }
+:root[data-skin="christmas"] #screen-profile .pf-hero { padding-top: 34px; }
+#screen-profile .pf-stage { aspect-ratio: 1; min-height: 0; width: 100%; border-radius: 50%; box-shadow: 0 0 0 4px rgba(255, 220, 140, .9), 0 0 0 7px rgba(201, 138, 11, .55), 0 10px 26px rgba(0, 0, 0, .4); background: rgba(255, 255, 255, .08); overflow: hidden; }
+#screen-profile .profile-name { color: #fff; text-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 6px 16px rgba(0, 0, 0, .45); overflow-wrap: anywhere; }
+#screen-profile .profile-level { display: inline-flex; padding: 2px 12px; border-radius: 999px; font-weight: 900; color: #3a2400; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 2px 0 #c98a0b; width: max-content; }
+/* เมนูอวตาร: แผ่นเกม + ไอคอนอัญมณี */
+#screen-profile .pf-menu { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (min-width: 700px) { #screen-profile .pf-menu { grid-template-columns: repeat(7, minmax(0, 1fr)); } }
+#screen-profile .pf-menu button { min-height: 84px; border-radius: var(--g-r-md); background: var(--g-plate); color: var(--g-ink); border: 1px solid var(--g-edge);
+  box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); font-weight: 800; font-size: var(--g-fs-xs); line-height: 1.25; text-wrap: balance; transition: transform .14s var(--g-ease), border-color .14s; }
+#screen-profile .pf-menu button:hover { transform: translateY(-2px); border-color: var(--g-gold); }
+#screen-profile .pf-menu button .icon { width: 38px; height: 38px; padding: 8px; border-radius: 12px; color: #fff; background: var(--qg, linear-gradient(160deg, #c49bff, #7b5cf0 60%, #5338c0));
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .4), inset 0 -3px 0 rgba(0, 0, 0, .18), 0 3px 8px rgba(0, 0, 0, .18); }
+#screen-profile .pf-menu button:nth-child(2) { --qg: linear-gradient(160deg, #ff9fb6, #e0537a 60%, #a83355); }
+#screen-profile .pf-menu button:nth-child(3) { --qg: linear-gradient(160deg, #ffc58a, #f08a2c 60%, #b85f12); }
+#screen-profile .pf-menu button:nth-child(4) { --qg: linear-gradient(160deg, #ffd27a, #e8a23a 60%, #b8741a); }
+#screen-profile .pf-menu button:nth-child(5) { --qg: linear-gradient(160deg, #7fe0c0, #23a77e 60%, #157a5a); }
+#screen-profile .pf-menu button:nth-child(6) { --qg: linear-gradient(160deg, #6fb6ff, #3a6df0 60%, #2a48b8); }
+#screen-profile .pf-menu button:nth-child(7) { --qg: linear-gradient(160deg, #9ad0ff, #3b8fd6 60%, #23609c); }
+@media (max-width: 380px) { #screen-profile .pf-menu { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+/* การ์ดในโปรไฟล์/สถิติ/ความสำเร็จ: แผ่นเกมเดียวกัน */
+:is(#screen-profile, #screen-stats, #screen-achievements, #screen-frames) .home-card { border-radius: var(--g-r-lg); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+:is(#screen-profile, #screen-stats) .home-card-title { font-weight: 900; }
+
+/* =====================================================================
+   Avatar · Ranked · Event Hub · Login — ขอบแผ่นเกม/หัวข้อให้เป็นชุดเดียวกัน (เลย์เอาต์เดิมคงไว้)
+   ===================================================================== */
+#screen-avatar :is(.av-panel, .av-stage-wrap, .home-card), #screen-ranked :is(.home-card, .rk-card), #screen-event :is(.home-card, .ev-card) {
+  border-radius: var(--g-r-lg); }
+#screen-avatar .av-stage-wrap { box-shadow: var(--g-shadow-2); }
+.page-title { letter-spacing: .005em; }
+/* Login: การ์ดกระจกขอบทอง + หัวข้อเรืองแสง */
+#screen-auth .auth-card, #screen-auth .auth-panel { border: 1px solid rgba(255, 220, 140, .35); box-shadow: 0 0 0 1px rgba(255, 255, 255, .06) inset, 0 20px 50px rgba(0, 0, 0, .35); }
+#screen-auth .auth-hero h1 { text-shadow: 0 2px 0 rgba(0, 0, 0, .2), 0 6px 18px rgba(0, 0, 0, .35); }
+
+/* =====================================================================
+   v1.26.2 Ranked: เวทีประลอง (Arena) — พื้นมืดทุกธีม · สีประจำแรงค์ (--rk-p) เป็นแสงหลังตรา · ปุ่มเริ่มแข่งแบบเกมต่อสู้
+   ===================================================================== */
+#screen-ranked .rk-hero-v2 { color: #fff; border: 1px solid color-mix(in srgb, var(--rk-p, #e6c26a) 55%, rgba(255, 255, 255, .2)); box-shadow: var(--g-shadow-2);
+  background:
+    radial-gradient(60% 50% at 50% 26%, color-mix(in srgb, var(--rk-p, #7b5cf0) 60%, transparent), transparent 70%),
+    repeating-conic-gradient(from 0deg at 50% 26%, rgba(255, 255, 255, .06) 0 6deg, transparent 6deg 18deg),
+    linear-gradient(180deg, #1a1f4a 0%, #0d1130 70%, #090c22 100%); }
+@media (min-width: 640px) { #screen-ranked .rk-hero-v2 { background:
+    radial-gradient(40% 70% at 16% 45%, color-mix(in srgb, var(--rk-p, #7b5cf0) 60%, transparent), transparent 70%),
+    repeating-conic-gradient(from 0deg at 16% 45%, rgba(255, 255, 255, .06) 0 6deg, transparent 6deg 18deg),
+    linear-gradient(120deg, #1a1f4a 0%, #0d1130 70%, #090c22 100%); } }
+#screen-ranked .rk-hero-v2 .rk-badge-xl { filter: drop-shadow(0 0 22px color-mix(in srgb, var(--rk-p, #ffd27a) 70%, transparent)) drop-shadow(0 10px 16px rgba(0, 0, 0, .45)); }
+@media (prefers-reduced-motion: no-preference) {
+  #screen-ranked .rk-hero-v2 .rk-hero-badge { animation: g-float 4s ease-in-out infinite; }
+  @keyframes g-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+}
+#screen-ranked .rk-hero-v2 .rk-league, #screen-ranked .rk-hero-v2 .rk-league span { color: #fff; text-shadow: 0 2px 0 rgba(0, 0, 0, .3), 0 6px 18px rgba(0, 0, 0, .45); }
+#screen-ranked .rk-hero-v2 .rk-div { color: #3a2400; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 2px 0 #c98a0b; text-shadow: none; }
+#screen-ranked .rk-hero-v2 :is(.rk-season, .rk-qr span) { color: rgba(255, 255, 255, .82); }
+#screen-ranked .rk-hero-v2 .rk-qr b { color: #ffe08f; text-shadow: 0 0 14px rgba(255, 210, 122, .45); }
+#screen-ranked .rk-hero-v2 .rk-progress { background: rgba(255, 255, 255, .12); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .16); }
+#screen-ranked .rk-hero-v2 .rk-progress > span { background: linear-gradient(90deg, #ffcf5a, #ff9d3d 60%, #ff7a59); }
+#screen-ranked .rk-hero-v2 .rk-goal:not(.rk-goal-ready) { background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .18); color: #fff; }
+#screen-ranked .rk-hero-v2 .rk-goal:not(.rk-goal-ready) small { color: rgba(255, 255, 255, .8); }
+#screen-ranked .rk-hero-stats > div { background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .16); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1); }
+#screen-ranked .rk-hero-stats dt { color: rgba(255, 255, 255, .75); }
+#screen-ranked .rk-hero-stats dd { color: #fff; }
+/* ปุ่มเริ่มแข่ง: แดง-ส้มแบบเกมต่อสู้ · กดยุบ · ประกายวิ่ง */
+#screen-ranked .rk-cta.btn-primary { position: relative; overflow: hidden; isolation: isolate; border: 0; color: #fff; font-weight: 900;
+  background: linear-gradient(180deg, #ff7a4d 0%, #e5442c 55%, #b8261b 100%); box-shadow: 0 5px 0 #7d150f, 0 12px 26px rgba(229, 68, 44, .38); text-shadow: 0 2px 0 rgba(0, 0, 0, .25); }
+#screen-ranked .rk-cta.btn-primary:hover { filter: brightness(1.05); }
+#screen-ranked .rk-cta.btn-primary:active { transform: translateY(3px); box-shadow: 0 2px 0 #7d150f, 0 6px 14px rgba(229, 68, 44, .3); }
+#screen-ranked .rk-cta.btn-primary::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, .38) 45%, transparent 60%); transform: translateX(-120%); }
+@media (prefers-reduced-motion: no-preference) { #screen-ranked .rk-cta.btn-primary::after { animation: g-shine 3.2s ease-in-out infinite; } }
+/* ปุ่มลัด: แผ่นเกม + ไอคอนอัญมณี */
+#screen-ranked .rk-quick-btn { border-radius: var(--g-r-md); background: var(--g-plate); color: var(--g-ink); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); font-weight: 800; transition: transform .14s var(--g-ease), border-color .14s; }
+#screen-ranked .rk-quick-btn:hover { transform: translateY(-2px); border-color: var(--g-gold); }
+#screen-ranked .rk-quick-btn .icon { width: 34px; height: 34px; padding: 7px; border-radius: 11px; color: #fff; background: var(--qg, linear-gradient(160deg, #ffd27a, #e8a23a 60%, #b8741a));
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .4), inset 0 -3px 0 rgba(0, 0, 0, .18); }
+#screen-ranked .rk-quick-btn:nth-child(2) { --qg: linear-gradient(160deg, #c49bff, #7b5cf0 60%, #5338c0); }
+#screen-ranked .rk-quick-btn:nth-child(3) { --qg: linear-gradient(160deg, #6fb6ff, #3a6df0 60%, #2a48b8); }
+#screen-ranked .rk-map-card { border-radius: var(--g-r-lg); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+
+/* =====================================================================
+   v1.26.2 Login: หน้าเปิดแบบเกม — แผงซ้าย/บนเป็นฉากหมู่บ้านหิมะ + ข้อความเรืองแสง
+   ===================================================================== */
+:root:not([data-skin="christmas"]) #screen-auth .auth-wrap .auth-hero {
+  background: linear-gradient(180deg, rgba(40, 22, 110, .7) 0%, rgba(20, 14, 60, .62) 50%, rgba(10, 10, 40, .85) 100%), url("/img/hero/village.webp") center 60% / cover no-repeat, #1e1653; }
+#screen-auth .auth-hero .auth-message { color: #fff; text-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 8px 22px rgba(0, 0, 0, .45); }
+#screen-auth .auth-hero .brand-title { color: #fff; }
+#screen-auth .auth-hero .brand-sub { color: rgba(255, 255, 255, .92); text-shadow: 0 1px 6px rgba(0, 0, 0, .55); }
+#screen-auth .hero-levels { box-shadow: 0 6px 16px rgba(0, 0, 0, .25); }
+#screen-auth .auth-card .btn-primary:not(:disabled) { border: 0; color: #3a2400; font-weight: 900; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 4px 0 #c98a0b, 0 10px 20px rgba(201, 138, 11, .25); }
+#screen-auth .auth-card .btn-primary:not(:disabled):active { transform: translateY(3px); box-shadow: 0 1px 0 #c98a0b; }
+
+/* =====================================================================
+   v1.26.2 Avatar: แถบหมวดซ้ายเป็นแผ่นเกม · หมวดที่เลือกเป็นทอง
+   ===================================================================== */
+#screen-avatar .av-stage-wrap, #screen-avatar .av-stage { border-radius: var(--g-r-xl); }
+#screen-avatar .av-cat.active, #screen-avatar .av-cats [aria-selected="true"], #screen-avatar .av-cats .active { background: linear-gradient(180deg, #ffe08f, #ffbf3c) !important; color: #3a2400 !important; border-color: #f3dc9c !important; box-shadow: 0 2px 0 #c98a0b; }
+
+/* =====================================================================
+   v1.26.2 Learning Path: รายการ Unit แบบด่านเกม
+   ===================================================================== */
+#screen-path .path-unit { background: var(--g-plate); border: 1px solid var(--g-edge); box-shadow: inset 0 1px 0 var(--g-edge-hi); transition: transform .14s var(--g-ease), border-color .14s; }
+#screen-path .path-unit:not([disabled]):hover { transform: translateX(3px); border-color: var(--lv, var(--g-gold)); }
+#screen-path .path-unit.completed { background: linear-gradient(90deg, color-mix(in srgb, #2fae68 12%, var(--g-plate)), var(--g-plate)); }
+#screen-path .path-unit.locked:not(.explorable) { opacity: .62; }
+#screen-path .node-done .path-node { box-shadow: inset 0 2px 0 rgba(255, 255, 255, .35), inset 0 -3px 0 rgba(0, 0, 0, .2), 0 3px 8px rgba(0, 0, 0, .18); }
+#screen-path .node-active .path-node, #screen-path .node-current .path-node { box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 3px 8px rgba(0, 0, 0, .15); }
+#screen-path .path-unit-bar span { background: linear-gradient(90deg, var(--lv, #6fb6ff), color-mix(in srgb, var(--lv, #6fb6ff) 55%, #fff)); }
+#screen-path .path-test-btn { background: var(--g-plate); border: 1px solid var(--g-edge); box-shadow: var(--g-shadow-1); }
+#screen-path .path-more { border-radius: var(--g-r-md); }

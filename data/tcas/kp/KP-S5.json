@@ -1,0 +1,523 @@
+{
+  "exam": "kp",
+  "setId": "KP-S5",
+  "title": "ก.พ. ภาค ก ชุดฝึกที่ 5",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "conversation",
+      "groups": [
+        {
+          "id": "KP-S5-G01",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the passport counter",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "Next, please. How can I help you?"
+            },
+            {
+              "speaker": "Applicant",
+              "text": "I'd like to apply for a new passport. My old one expired last month."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Applicant",
+              "text": "Yes, here it is. And I've already paid the fee online."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S5-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I see. Did you renew it before it expired?",
+                "I see. Do you have your ID card with you?",
+                "I see. Would you like to pay the fee in cash?",
+                "I see. Your new passport has already been posted to you."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ผู้ยื่นคำร้องตอบว่า \"Yes, here it is\" แสดงว่าเจ้าหน้าที่ขอดูเอกสาร จึงต้องเป็น \"Do you have your ID card with you?\" ข้อที่ถามเรื่องจ่ายเงินสดขัดกับ \"already paid the fee online\" และหนังสือเดินทางหมดอายุไปแล้วจึงไม่ได้ต่อก่อนหมดอายุ"
+            }
+          ]
+        },
+        {
+          "id": "KP-S5-G02",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Booking a hospital appointment",
+          "dialogue": [
+            {
+              "speaker": "Receptionist",
+              "text": "Nong Khram Hospital, appointment desk. How may I help you?"
+            },
+            {
+              "speaker": "Caller",
+              "text": "I'd like to see an eye doctor sometime this week, please."
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Caller",
+              "text": "Thursday afternoon is fine. Thank you."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S5-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Your appointment was on Thursday afternoon last week.",
+                "Would you prefer Thursday morning or Friday morning?",
+                "I'm afraid the eye clinic is closed all this week.",
+                "The earliest free slot is Thursday at two. Is that OK?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้โทรตอบว่า \"Thursday afternoon is fine\" แสดงว่าพนักงานเสนอเวลาวันพฤหัสบดีช่วงบ่าย จึงต้องเป็นคิว Thursday at two ข้อที่เสนอช่วงเช้าไม่ตรงกับ afternoon ข้อที่บอกว่าคลินิกปิดทั้งสัปดาห์และข้อที่เป็นนัดสัปดาห์ที่แล้วขัดกับการตอบรับนัด"
+            }
+          ]
+        },
+        {
+          "id": "KP-S5-G03",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A missing document",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "Your application is missing a copy of your house registration."
+            },
+            {
+              "speaker": "Applicant",
+              "text": "Oh no, I left it at home. ___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Yes, you can email it to us before Friday."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S5-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Can I send it to you later?",
+                "Have you received the copy I emailed?",
+                "Where can I get a copy made here?",
+                "Must I come back in person with it?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบว่า \"Yes, you can email it to us before Friday\" จึงต้องเป็นคำขออนุญาตส่งตามมาทีหลัง ข้อที่ถามว่าต้องกลับมาด้วยตนเองไหมขัดกับการให้ส่งอีเมล ข้อที่ถามว่าได้รับอีเมลหรือยังขัดกับที่ผู้ยื่นบอกว่าลืมไว้ที่บ้าน และคำถาม Where ตอบด้วย Yes ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S5-G04",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A new colleague",
+          "dialogue": [
+            {
+              "speaker": "Waree",
+              "text": "Hi, I'm Waree. I've just started in the planning section."
+            },
+            {
+              "speaker": "Colleague",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Waree",
+              "text": "Thanks. Everyone has been really kind so far."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S5-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Welcome back! How was your holiday?",
+                "Welcome! Just ask me if you need anything.",
+                "Nice to meet you. Which section are you in?",
+                "Congratulations on your retirement! We'll miss you."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "วารีเพิ่งเริ่มงานและตอบว่า \"Thanks. Everyone has been really kind\" จึงต้องเป็นคำต้อนรับพร้อมเสนอความช่วยเหลือ \"Welcome back\" ใช้กับคนที่กลับมาทำงาน คำถามเรื่องแผนกซ้ำกับที่เธอเพิ่งบอก และการแสดงความยินดีเรื่องเกษียณไม่เข้ากับคนที่เพิ่งเริ่มงาน"
+            }
+          ]
+        },
+        {
+          "id": "KP-S5-G05",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Arriving late for a meeting",
+          "dialogue": [
+            {
+              "speaker": "Visitor",
+              "text": "I'm so sorry I'm late. The traffic was terrible."
+            },
+            {
+              "speaker": "Secretary",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Visitor",
+              "text": "Oh, good. Thank you for waiting."
+            },
+            {
+              "speaker": "Secretary",
+              "text": "Please take a seat. The director will be here in a minute."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S5-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Don't worry. We haven't started yet.",
+                "Don't worry. The meeting has just finished.",
+                "I'm sorry, but the director has gone home.",
+                "That's all right. Shall we reschedule for tomorrow?"
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "ผู้มาติดต่อตอบว่า \"Oh, good. Thank you for waiting.\" และเลขาฯ บอกว่าผู้อำนวยการจะมาในอีกครู่ จึงต้องเป็น \"We haven't started yet\" ข้อที่บอกว่าประชุมจบแล้ว ผู้อำนวยการกลับบ้านแล้ว หรือเสนอเลื่อนนัดเป็นพรุ่งนี้ ล้วนขัดกับการที่ประชุมกำลังจะเริ่ม"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "KP-S5-G06",
+          "type": "kp_structure",
+          "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+          "items": [
+            {
+              "id": "KP-S5-006",
+              "stem": "The passport office ____ at 8:30 a.m. every weekday.",
+              "options": [
+                "open",
+                "opening",
+                "is opened to",
+                "opens"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ประธาน The passport office เป็นเอกพจน์ และ every weekday บอกกิจวัตร จึงใช้ Present Simple เติม -s เป็น \"opens\""
+            },
+            {
+              "id": "KP-S5-007",
+              "stem": "The number of online passport applications ____ risen sharply since the new system was launched.",
+              "options": [
+                "are",
+                "has",
+                "having",
+                "have"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"The number of + คำนามพหูพจน์\" ถือเป็นประธานเอกพจน์ จึงใช้ \"has\" (Present Perfect กับ since) ต่างจาก \"A number of ...\" ที่ใช้กริยาพหูพจน์"
+            },
+            {
+              "id": "KP-S5-008",
+              "stem": "The applicant ____ we interviewed yesterday has accepted the offer.",
+              "options": [
+                "what",
+                "whom",
+                "whose",
+                "which"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ใช้ \"whom\" แทนคน (applicant) ที่เป็นกรรมของ interviewed ส่วน which ใช้กับสิ่งของ และ whose ต้องตามด้วยคำนาม"
+            },
+            {
+              "id": "KP-S5-009",
+              "stem": "The clerk was so busy ____ she forgot to have lunch.",
+              "options": [
+                "such",
+                "than",
+                "because",
+                "that"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง so + adjective + that ... แปลว่า \"...มากจนกระทั่ง...\" จึงเติม \"that\""
+            },
+            {
+              "id": "KP-S5-010",
+              "stem": "Your new ID card will be ready ____ three working days.",
+              "options": [
+                "among",
+                "since",
+                "until",
+                "within"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"within three working days\" = ภายในสามวันทำการ ส่วน since ใช้กับจุดเริ่มต้นเวลา และ until ต้องตามด้วยจุดสิ้นสุดของเวลา ไม่ใช่ระยะเวลา"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "KP-S5-G07",
+          "type": "kp_vocab",
+          "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "KP-S5-011",
+              "stem": "The clinic is always busy, so patients need to make an ____ in advance.",
+              "options": [
+                "apartment",
+                "announcement",
+                "appointment",
+                "achievement"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"make an appointment\" = ทำนัด ส่วน apartment = ห้องพัก, achievement = ความสำเร็จ, announcement = ประกาศ"
+            },
+            {
+              "id": "KP-S5-012",
+              "stem": "The district office sent letters to ____ residents of the payment deadline.",
+              "options": [
+                "remind",
+                "reply",
+                "refund",
+                "remain"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"remind somebody of something\" = เตือนให้นึกถึง ใช้กับกำหนดเวลาชำระเงินได้พอดี คำอื่นไม่ใช้โครงสร้าง ... residents of ..."
+            },
+            {
+              "id": "KP-S5-013",
+              "stem": "'All documents must be verified before the request is approved.' The word 'verified' is closest in meaning to ____.",
+              "options": [
+                "signed",
+                "checked",
+                "copied",
+                "printed"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "verify = ตรวจสอบความถูกต้อง ใกล้เคียงกับ checked ส่วน signed = ลงนาม, copied = ถ่ายสำเนา, printed = พิมพ์"
+            },
+            {
+              "id": "KP-S5-014",
+              "stem": "The new building of the public hospital can ____ about 300 more patients a day.",
+              "options": [
+                "accuse",
+                "avoid",
+                "admire",
+                "accommodate"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "accommodate = รองรับ/รับได้ ตรงกับความหมายว่าอาคารใหม่รองรับผู้ป่วยเพิ่มได้ ส่วน avoid = หลีกเลี่ยง, accuse = กล่าวหา, admire = ชื่นชม"
+            },
+            {
+              "id": "KP-S5-015",
+              "stem": "Applicants who do not meet the minimum requirements will be ____ from the selection process.",
+              "options": [
+                "expected",
+                "included",
+                "excluded",
+                "exchanged"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "exclude from = ตัดออกจาก ผู้ที่ไม่มีคุณสมบัติขั้นต่ำจะถูกตัดออกจากการคัดเลือก ส่วน included = รวมไว้ ความหมายตรงข้าม expected = คาดหวัง และ exchanged = แลกเปลี่ยน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "KP-S5-G08",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Job vacancy at the Provincial Office of Water Resources",
+          "text": "PHU KRADAN PROVINCIAL OFFICE OF WATER RESOURCES\nJob Vacancy: Administrative Assistant (temporary contract, 1 position)\nThe Provincial Office of Water Resources is seeking an Administrative Assistant to support its drought-relief programme. The successful candidate will keep records of water deliveries to villages, answer telephone enquiries from district offices, and prepare simple monthly reports for the programme manager. The contract runs for one year, from 1 February, and may be extended depending on the programme budget.\nRequirements\n• Thai nationality, aged 20–35 on the closing date\n• At least a vocational diploma in business, accounting or a related field\n• Able to use spreadsheet and word-processing programs\n• A valid motorcycle licence is preferred, as some field visits are required\nSalary: 13,500 baht per month, plus a travel allowance for field visits\nHow to apply\nApplications can be made in person at the Personnel Section, 2nd floor, Provincial Hall, or online through the office website, from 2 to 20 January (8:30 a.m.–4:00 p.m. on working days). Each person may apply only once. A list of qualified candidates will be posted on 23 January, and a written test will be held on 27 January. Please note that documents submitted with an application will not be returned.",
+          "items": [
+            {
+              "id": "KP-S5-016",
+              "stem": "Why was this notice issued?",
+              "options": [
+                "To announce the results of a written test",
+                "To report on the drought in the province",
+                "To invite people to apply for a temporary job",
+                "To explain how to use spreadsheet programs"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ประกาศระบุ Job Vacancy ตำแหน่งผู้ช่วยธุรการแบบสัญญาจ้างชั่วคราว พร้อมคุณสมบัติและวิธีสมัคร จึงเป็นการเชิญชวนให้สมัครงาน"
+            },
+            {
+              "id": "KP-S5-017",
+              "stem": "Which of the following is one of the duties of the Administrative Assistant?",
+              "options": [
+                "Managing the programme budget",
+                "Hiring staff for district offices",
+                "Keeping records of water deliveries",
+                "Driving water trucks to villages"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ประกาศบอกว่าผู้ได้รับคัดเลือกจะ \"keep records of water deliveries to villages\" ไม่ได้ขับรถส่งน้ำหรือบริหารงบประมาณเอง"
+            },
+            {
+              "id": "KP-S5-018",
+              "stem": "The word 'extended' in the notice is closest in meaning to ____.",
+              "options": [
+                "made longer",
+                "cancelled",
+                "shortened",
+                "checked again"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "สัญญาจ้าง 1 ปี \"may be extended\" ขึ้นกับงบประมาณ หมายถึงอาจต่อให้ยาวขึ้น extend = ขยาย/ทำให้ยาวขึ้น"
+            },
+            {
+              "id": "KP-S5-019",
+              "stem": "What can be inferred about a person who does NOT have a motorcycle licence?",
+              "options": [
+                "He or she can still apply for the job.",
+                "He or she cannot take the written test.",
+                "He or she will receive a higher salary.",
+                "He or she must take a driving test first."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ใบขับขี่รถจักรยานยนต์เป็นเพียงคุณสมบัติที่ \"preferred\" (พึงประสงค์) ไม่ใช่ข้อบังคับ ผู้ที่ไม่มีจึงยังสมัครได้"
+            },
+            {
+              "id": "KP-S5-020",
+              "stem": "According to the notice, which statement is correct?",
+              "options": [
+                "Documents will be returned after the test.",
+                "Applications are accepted until 20 January.",
+                "The written test will be held on 23 January.",
+                "Applicants must be at least 25 years old."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ประกาศรับสมัครวันที่ 2–20 มกราคม ส่วนอายุขั้นต่ำคือ 20 ปี วันที่ 23 มกราคมเป็นวันประกาศรายชื่อ และจะไม่คืนเอกสาร"
+            }
+          ]
+        },
+        {
+          "id": "KP-S5-G09",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A tax-filing reminder",
+          "text": "KHLONG RANG AREA REVENUE OFFICE\n48 Wiset Road, Khlong Rang District\n5 March\nDear Mr. Teerapat Wongsiri,\nReminder: Personal Income Tax Return\nOur records show that we have not yet received your personal income tax return for last year. We would like to remind you that the deadline for paper returns is 31 March. If you file online through our e-Filing portal, you will have ten extra days, until 10 April.\nFiling online is quick and safe. You can log in with your national ID number, and most of the income information from your employer will already appear on the form. Please check these figures carefully, add any other income you received, and claim the allowances you are entitled to, such as those for supporting your parents.\nIf you paid more tax than necessary during the year, you may receive a refund. Refunds for online returns are normally transferred to your bank account within 30 days, while those for paper returns may take up to three months.\nPlease note that late filing may result in a fine of up to 2,000 baht, as well as a monthly charge on any unpaid tax.\nIf you have already submitted your return, please ignore this letter. For further help, call our taxpayer service line or visit our office on any working day.\nYours sincerely,\nNalinee Charoenphon\nHead, Taxpayer Services Section",
+          "items": [
+            {
+              "id": "KP-S5-021",
+              "stem": "Why was this letter written?",
+              "options": [
+                "To invite Mr. Teerapat to work at the revenue office",
+                "To tell Mr. Teerapat that his refund has been paid",
+                "To remind Mr. Teerapat to submit his tax return",
+                "To thank Mr. Teerapat for paying his tax early"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "จดหมายขึ้นต้นว่ายังไม่ได้รับแบบแสดงรายการภาษีของเขา และ \"We would like to remind you...\" จึงเป็นจดหมายเตือนให้ยื่นแบบภาษี"
+            },
+            {
+              "id": "KP-S5-022",
+              "stem": "If Mr. Teerapat files his return online, what is the latest date he can do so?",
+              "options": [
+                "30 April",
+                "31 March",
+                "5 March",
+                "10 April"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "จดหมายบอกว่ายื่นออนไลน์ได้เพิ่มอีก 10 วัน \"until 10 April\" ส่วน 31 มีนาคมเป็นกำหนดสำหรับการยื่นแบบกระดาษ"
+            },
+            {
+              "id": "KP-S5-023",
+              "stem": "The phrase 'are entitled to' in the letter is closest in meaning to ____.",
+              "options": [
+                "have already paid",
+                "are not sure about",
+                "are afraid of",
+                "have a right to"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "be entitled to = มีสิทธิ์ได้รับ ในที่นี้หมายถึงค่าลดหย่อนที่ผู้เสียภาษีมีสิทธิ์ขอ เช่น ค่าเลี้ยงดูบิดามารดา"
+            },
+            {
+              "id": "KP-S5-024",
+              "stem": "What can be inferred from the letter?",
+              "options": [
+                "Paper returns are no longer accepted.",
+                "Mr. Teerapat has already filed a paper return.",
+                "Filing online may help taxpayers get refunds sooner.",
+                "Every taxpayer will receive a refund this year."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "จดหมายบอกว่าเงินคืนภาษีของการยื่นออนไลน์ได้ภายใน 30 วัน แต่แบบกระดาษอาจนานถึง 3 เดือน จึงอนุมานได้ว่ายื่นออนไลน์ได้รับเงินคืนเร็วกว่า"
+            },
+            {
+              "id": "KP-S5-025",
+              "stem": "In the letter, 'these figures' refers to ____.",
+              "options": [
+                "the fines for filing late",
+                "the income information from the employer",
+                "the taxpayer's national ID number",
+                "the allowances for supporting parents"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้ากล่าวถึง \"the income information from your employer will already appear on the form\" ตัวเลขที่ต้องตรวจสอบจึงหมายถึงข้อมูลรายได้จากนายจ้าง"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 25,
+    "keyMatch": 25,
+    "total": 25
+  }
+}

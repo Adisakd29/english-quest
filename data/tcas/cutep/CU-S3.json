@@ -1,0 +1,2029 @@
+{
+  "exam": "cutep",
+  "setId": "CU-S3",
+  "title": "CU-TEP ชุดฝึกที่ 3",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 115,
+    "keyMatch": 120,
+    "total": 120,
+    "note": "5 ข้อผู้ตรวจตอบตรงเฉลยแต่ติงว่าง่ายเกินระดับ/ใบ้คำตอบ (056,066,092,117,118)"
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "groups": [
+        {
+          "id": "CU-S3-G01",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Feedback on a proposal",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Did Professor Halden ever get back to you about your thesis proposal?"
+            },
+            {
+              "speaker": "Man",
+              "text": "She did. Let's just say she didn't pull any punches."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-001",
+              "stem": "What does the man mean?",
+              "options": [
+                "The professor refused to comment on his proposal.",
+                "The professor praised his proposal with enthusiasm.",
+                "The professor has not replied to him yet.",
+                "The professor was very blunt about his proposal."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"didn't pull any punches\" แปลว่า พูดตรง ๆ ไม่ออมมือ จึงหมายถึงอาจารย์วิจารณ์โครงร่างอย่างตรงไปตรงมาและหนักแน่น ส่วน \"She did.\" บอกว่าอาจารย์ตอบกลับแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G02",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A study session",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "A few of us are going over the statistics problem set at the library tonight. Want to join?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'd love to, but I'm up to my ears in lab reports. Can I take a rain check?"
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-002",
+              "stem": "What does the woman imply?",
+              "options": [
+                "She would rather study statistics on her own.",
+                "She will come once her reports are done tonight.",
+                "She hopes to join them another time.",
+                "She has no real interest in joining the group."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "\"take a rain check\" หมายถึง ขอเลื่อนไปคราวหน้า เธอปฏิเสธคืนนี้เพราะ \"up to my ears in lab reports\" (งานล้นมือ) แต่ยังอยากร่วมในโอกาสอื่น จึงไม่ใช่ว่าไม่สนใจหรือจะตามไปคืนนี้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G03",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "At the loan desk",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Excuse me, is this where I return laptops from the short-term loan service?"
+            },
+            {
+              "speaker": "Man",
+              "text": "It is, but our scanner's down at the moment. Just leave it with me and I'll check it in as soon as the system's back up."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-003",
+              "stem": "What will the man probably do?",
+              "options": [
+                "Record the laptop's return later.",
+                "Send the woman to another service desk.",
+                "Repair the scanner before she leaves.",
+                "Lend the woman a different laptop."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกว่า \"I'll check it in as soon as the system's back up\" คือจะบันทึกการคืนเครื่องเมื่อระบบกลับมาใช้ได้ ไม่ได้บอกว่าจะซ่อมเครื่องสแกนเองหรือส่งไปที่อื่น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G04",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A scholarship winner",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "I can't believe Ploy got the research scholarship. She was hardly ever in class this term."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Don't jump to conclusions. She spent most of the semester on fieldwork in Nan with Dr. Wiriya's team."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-004",
+              "stem": "What can be inferred about Ploy?",
+              "options": [
+                "She missed class for academic reasons.",
+                "She did not really deserve the scholarship.",
+                "She was ill for most of the semester.",
+                "She has decided to leave the university."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้หญิงอธิบายว่า Ploy ไม่ได้เข้าเรียนเพราะไปทำ \"fieldwork\" กับทีมวิจัยของอาจารย์ จึงอนุมานได้ว่าการขาดเรียนเกี่ยวกับงานวิชาการ และ \"Don't jump to conclusions\" ก็ค้านความคิดว่าเธอไม่สมควรได้ทุน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G05",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Choosing a course",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Should I sign up for Advanced Research Methods or play it safe with the introductory course?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Honestly, I'd bite the bullet. You'll need the advanced one for your thesis sooner or later."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-005",
+              "stem": "What does the man suggest the woman do?",
+              "options": [
+                "Postpone her thesis until the following year.",
+                "Complete the introductory course first.",
+                "Take the harder course despite the challenge.",
+                "Ask her thesis supervisor which course to take."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "\"bite the bullet\" แปลว่า ยอมทำสิ่งที่ยากหรือไม่อยากทำ และเขาให้เหตุผลว่าต้องใช้วิชาขั้นสูงในการทำวิทยานิพนธ์อยู่ดี จึงแนะนำให้ลงวิชาที่ยากกว่า"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G06",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Seminar reading",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Have you finished the case studies for Thursday's seminar?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Finished? I've barely scratched the surface. There are twelve of them, and each one's about twenty pages long."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-006",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She was not informed about the seminar.",
+                "She thinks the case studies are too superficial.",
+                "She has already finished all twelve case studies.",
+                "She has read only a small part of the material."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"barely scratched the surface\" หมายถึง เพิ่งทำไปได้นิดเดียว ไม่ได้หมายความว่าเนื้อหาตื้นเขิน (superficial) ซึ่งเป็นตัวลวงจากคำว่า surface"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G07",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "An application deadline",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Do you think the faculty will extend the deadline for the exchange programme applications?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I wouldn't hold my breath. They've never made an exception before."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-007",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She thinks an extension is unlikely.",
+                "She expects the deadline to be moved.",
+                "She advises the man to apply next year.",
+                "She has already sent in her application."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "\"I wouldn't hold my breath\" แปลว่า อย่าไปคาดหวังเลย ประกอบกับ \"They've never made an exception before\" จึงหมายความว่าเธอคิดว่าคณะคงไม่ขยายเวลา"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G08",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "After a conference",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "How did your conference presentation go? You looked so tense this morning."
+            },
+            {
+              "speaker": "Man",
+              "text": "Believe it or not, it went off without a hitch. Even the projector behaved itself for once."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-008",
+              "stem": "What does the man say about his presentation?",
+              "options": [
+                "It was delayed by a technical problem.",
+                "It went smoothly from start to finish.",
+                "It made him more nervous than usual.",
+                "It was cancelled at the last minute."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "\"went off without a hitch\" แปลว่า ผ่านไปด้วยดีไม่มีปัญหา และ \"the projector behaved itself\" บอกว่าอุปกรณ์ก็ไม่ขัดข้อง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G09",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A difficult midterm",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "I'm seriously thinking of dropping Microeconomics. That midterm was brutal."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Don't do anything rash. Why not have a word with your adviser first? The withdrawal deadline isn't for another three weeks."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-009",
+              "stem": "What does the woman suggest?",
+              "options": [
+                "He should get advice before deciding.",
+                "He should withdraw from the course at once.",
+                "He should retake the midterm in three weeks.",
+                "He should ask the lecturer to raise his grade."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้หญิงบอกว่า \"Don't do anything rash\" และแนะนำให้ \"have a word with your adviser first\" คือให้ปรึกษาอาจารย์ที่ปรึกษาก่อนตัดสินใจ เพราะยังมีเวลาอีกสามสัปดาห์"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G10",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The student committee",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I thought you were going to chair the student committee this year."
+            },
+            {
+              "speaker": "Man",
+              "text": "I was, but between my part-time job and my final project, I realised I'd bitten off more than I could chew."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-010",
+              "stem": "What does the man imply?",
+              "options": [
+                "He was not elected to the committee.",
+                "He has recently lost his part-time job.",
+                "He prefers working alone.",
+                "He had agreed to do too much."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"bite off more than you can chew\" หมายถึง รับภาระมากเกินกว่าจะรับไหว เขามีทั้งงานพิเศษและโปรเจกต์จบ จึงถอนตัวจากการเป็นประธาน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G11",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "Two internship offers",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Thanks for seeing me at such short notice. I've got two internship offers, and I have to give both companies an answer by Friday."
+            },
+            {
+              "speaker": "Man",
+              "text": "That's a nice problem to have. Tell me about them."
+            },
+            {
+              "speaker": "Woman",
+              "text": "The first is with Larkspur Analytics, the big data consultancy in Bangkok. It's paid, it's well known, and it would look great on my CV."
+            },
+            {
+              "speaker": "Man",
+              "text": "And the second?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "It's with a small start-up called Tidewell that builds water-monitoring sensors for farms. It's unpaid for the first month, but they've said I'd be working directly with the engineering team."
+            },
+            {
+              "speaker": "Man",
+              "text": "What did the people at Larkspur say you would actually be doing day to day?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "That's the odd thing. The interview was mostly about the company's reputation. When I asked about my tasks, they were rather vague, something about \"supporting client projects.\""
+            },
+            {
+              "speaker": "Man",
+              "text": "That's worth noticing. In my experience, large firms sometimes treat interns as an extra pair of hands for photocopying and data entry. That's not always the case, of course, but vague answers are a yellow flag."
+            },
+            {
+              "speaker": "Woman",
+              "text": "So you think I should go with the start-up?"
+            },
+            {
+              "speaker": "Man",
+              "text": "I didn't say that. I think you should find out more before you decide. Could you email Larkspur and ask to speak to a current or former intern?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I hadn't thought of that. But what about the money? Going a whole month without pay would be tough."
+            },
+            {
+              "speaker": "Man",
+              "text": "Then ask Tidewell whether they'd cover your travel costs during that month. Small companies often have more flexibility than you'd expect, but they won't offer unless you ask."
+            },
+            {
+              "speaker": "Woman",
+              "text": "All right. And if both answers turn out to be disappointing?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Then think about which one will teach you something you can't learn in a lecture hall. In the long run, the name on your CV matters far less than what you can say you actually did."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-011",
+              "stem": "Why has the woman come to see the man?",
+              "options": [
+                "To find out how to apply for an internship",
+                "To complain about an interview",
+                "To get advice on two internships",
+                "To ask for more time to finish an assignment"
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้หญิงบอกตั้งแต่ต้นว่า \"I've got two internship offers\" และต้องตอบบริษัทภายในวันศุกร์ จึงมาขอคำแนะนำในการเลือกระหว่างสองที่"
+            },
+            {
+              "id": "CU-S3-012",
+              "stem": "What concerns the man about the offer from Larkspur Analytics?",
+              "options": [
+                "The company was unclear about the intern's duties.",
+                "The company does not pay its interns.",
+                "The company has a poor reputation in the industry.",
+                "The company is located too far from the university campus."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เมื่อถามถึงงานที่จะทำ บริษัทตอบ \"rather vague\" ผู้ชายจึงเตือนว่าคำตอบคลุมเครือเป็นสัญญาณที่ควรระวัง ส่วน Larkspur จ่ายค่าตอบแทนและมีชื่อเสียงดี"
+            },
+            {
+              "id": "CU-S3-013",
+              "stem": "What does the man mean when he calls vague answers \"a yellow flag\"?",
+              "options": [
+                "They prove that a company is being dishonest.",
+                "They are a warning sign worth checking.",
+                "They are normal and can safely be ignored.",
+                "They show that the interviewer was nervous."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "\"yellow flag\" คือสัญญาณเตือนระดับกลาง เขาบอกว่า \"That's not always the case\" และแนะนำให้หาข้อมูลเพิ่ม จึงไม่ได้หมายความว่าบริษัทไม่ซื่อสัตย์แน่นอน แต่ควรตรวจสอบ"
+            },
+            {
+              "id": "CU-S3-014",
+              "stem": "What does the man suggest the woman ask Tidewell?",
+              "options": [
+                "Whether it could pay her a full salary",
+                "Whether she could start a month later",
+                "Whether she could join its sales team",
+                "Whether it would pay her travel expenses"
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายแนะนำว่า \"ask Tidewell whether they'd cover your travel costs during that month\" คือให้ถามเรื่องค่าเดินทางในเดือนแรกที่ไม่มีค่าตอบแทน"
+            },
+            {
+              "id": "CU-S3-015",
+              "stem": "Which statement best summarises the man's overall advice?",
+              "options": [
+                "Hands-on experience outweighs a famous employer.",
+                "Start-ups offer better training than large firms.",
+                "A paid internship is always the wiser choice.",
+                "Students should accept the earliest offer they get."
+              ],
+              "answer": 0,
+              "skill": "listening_gist",
+              "explanationTh": "ประโยคปิดท้าย \"the name on your CV matters far less than what you can say you actually did\" แสดงว่าเขาให้ความสำคัญกับประสบการณ์จริงมากกว่าชื่อบริษัท และเขาก็ไม่ได้ชี้ว่าสตาร์ตอัปดีกว่าเสมอ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G12",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "A change to the exam timetable",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Did you see the email from the faculty office? The Organic Chemistry final has been postponed."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Postponed? Until when? I've been cramming all week for Monday."
+            },
+            {
+              "speaker": "Man",
+              "text": "They haven't fixed a new date yet. Apparently the exam hall in the Sirindra Building failed its fire-safety inspection, and they can't use it until the alarm system's been replaced."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Couldn't they just move us to another room?"
+            },
+            {
+              "speaker": "Man",
+              "text": "That's what I wondered, but there are over three hundred of us, and every other hall that size is already booked for other finals."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Typical. So we're just left hanging?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Not entirely. The email said the new date will be announced by Wednesday, and it'll be no earlier than the following Monday."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Well, at least that gives me another week. I'm actually a bit behind on reaction mechanisms, so maybe it's a blessing in disguise."
+            },
+            {
+              "speaker": "Man",
+              "text": "Lucky you. For me it could be a disaster. I'm flying home to Hat Yai on the twentieth for my sister's graduation, and if the exam ends up on the twenty-first, I'm stuck."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Did the email say anything about students with conflicts?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Yes, there's a form for requesting an alternative sitting. But it has to be submitted within forty-eight hours of the new date being announced, along with some kind of supporting evidence."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Then I'd keep your flight confirmation handy. And maybe email Dr. Pimchanok now, so she knows the situation before the date is even set."
+            },
+            {
+              "speaker": "Man",
+              "text": "Good idea. I'd rather raise it early than look as if I'm making excuses at the last minute."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Exactly. And in the meantime, do you want to go over the mechanisms together? We've both got time on our hands now."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S3-016",
+              "stem": "Why has the exam been postponed?",
+              "options": [
+                "Too many students registered for the course.",
+                "The lecturer is unavailable on Monday.",
+                "Its venue did not pass a safety inspection.",
+                "The exam paper has to be rewritten."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่าห้องสอบ \"failed its fire-safety inspection\" และใช้ไม่ได้จนกว่าจะเปลี่ยนระบบเตือนไฟ จำนวนนักศึกษา 300 คนเป็นเหตุผลที่ย้ายห้องไม่ได้ ไม่ใช่สาเหตุของการเลื่อน"
+            },
+            {
+              "id": "CU-S3-017",
+              "stem": "Why can the exam not simply be held in a different room?",
+              "options": [
+                "The faculty office is closed for the week.",
+                "The other rooms also lack working alarms.",
+                "The students voted against changing rooms.",
+                "No other room of a suitable size is free."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายอธิบายว่ามีนักศึกษากว่า 300 คน และ \"every other hall that size is already booked\" จึงไม่มีห้องขนาดพอที่ว่าง"
+            },
+            {
+              "id": "CU-S3-018",
+              "stem": "How does the woman feel about the postponement?",
+              "options": [
+                "She sees it as a chance to catch up on her studies.",
+                "She is annoyed because it ruins her travel plans.",
+                "She does not care when the exam takes place.",
+                "She is worried that she will forget what she learned."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "เธอบอกว่ายังตามเรื่อง reaction mechanisms ไม่ทัน และ \"maybe it's a blessing in disguise\" คือเรื่องที่ดูแย่แต่กลับเป็นผลดี ส่วนคนที่มีปัญหาเรื่องการเดินทางคือผู้ชาย"
+            },
+            {
+              "id": "CU-S3-019",
+              "stem": "What must the man do to request an alternative sitting?",
+              "options": [
+                "Send in a form and evidence within two days of the announcement",
+                "Send in a form and evidence before the new date is announced",
+                "Persuade the lecturer to change the date for the whole class",
+                "Show his flight booking to the faculty office on the morning of the exam"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่าแบบฟอร์มต้องส่ง \"within forty-eight hours of the new date being announced\" พร้อมหลักฐาน คือภายในสองวันหลังประกาศ ไม่ใช่ก่อนประกาศ"
+            },
+            {
+              "id": "CU-S3-020",
+              "stem": "Why does the man agree to contact Dr. Pimchanok straight away?",
+              "options": [
+                "Early notice will make his request more believable.",
+                "He wants help with his revision.",
+                "He needs her signature on his flight booking.",
+                "He hopes she will postpone the exam once again."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "เขาบอกว่า \"I'd rather raise it early than look as if I'm making excuses at the last minute\" จึงอยากแจ้งล่วงหน้าเพื่อไม่ให้ดูเหมือนข้ออ้างนาทีสุดท้าย"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G13",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "Lecture: the economics of streaming",
+          "text": "Good morning, everyone. Today I want to look at a business that most of you use every day without ever thinking about its economics: music and video streaming.\n\nLet's begin with a puzzle. A streaming service may have tens of millions of subscribers, yet for years many such companies reported losses. How is that possible? The answer lies in the structure of their costs. A streaming platform pays in two main ways: a large fixed cost to build and maintain its technology, and a royalty to rights holders that grows with every single play. In other words, the more popular the service becomes, the more it owes. Growth alone does not guarantee profit.\n\nThis brings us to what is called the pro-rata model. Under this system, all subscription money is pooled and then divided according to each artist's share of total plays. It sounds fair, but consider a listener who pays her monthly fee and listens only to a little-known jazz trio. Most of her money doesn't go to that trio at all. It goes to whichever stars dominate everyone else's playlists. Some economists have therefore proposed a user-centric model, in which each subscriber's fee is split only among the artists that subscriber actually played.\n\nLast year, a study by the Halvorsen Institute modelled what would happen if one mid-sized platform switched to the user-centric approach. The headline result was surprisingly modest. The very top artists lost around four percent of their income, while niche performers gained a little more than that. So it is hardly a revolution. But for a small band, a few extra percent might be the difference between touring and giving up.\n\nFinally, notice that platforms are increasingly producing their own content. Why? Because if you own the series or the recording, you pay no royalties on it. Keep that in mind when you read this week's case study, because it explains a great deal about which shows end up being promoted on your home screen.",
+          "items": [
+            {
+              "id": "CU-S3-021",
+              "stem": "What is the talk mainly about?",
+              "options": [
+                "Why physical albums are more profitable than streams",
+                "What students need to do to start a streaming company",
+                "How recorded music developed over the last century",
+                "How streaming services earn and share out money"
+              ],
+              "answer": 3,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้บรรยายเปิดว่าจะพูดถึง \"its economics\" ของบริการสตรีมมิง แล้วอธิบายโครงสร้างต้นทุน ค่าลิขสิทธิ์ และวิธีแบ่งเงินให้ศิลปิน จึงเป็นเรื่องการหาเงินและแบ่งเงินของบริการสตรีมมิง"
+            },
+            {
+              "id": "CU-S3-022",
+              "stem": "According to the speaker, why can a popular streaming service still lose money?",
+              "options": [
+                "Its subscribers tend to cancel after one month.",
+                "It must pay a fee for every album it stores.",
+                "Its technology becomes cheaper far too slowly to help.",
+                "Its royalty payments rise as people use it more."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าค่าลิขสิทธิ์ \"grows with every single play\" และ \"the more popular the service becomes, the more it owes\" จึงขาดทุนได้แม้มีผู้ใช้มาก"
+            },
+            {
+              "id": "CU-S3-023",
+              "stem": "What point does the speaker make with the example of the jazz listener?",
+              "options": [
+                "Fans of niche music should pay a higher monthly fee.",
+                "Small bands earn more under the pro-rata model.",
+                "Jazz is steadily losing listeners on streaming platforms.",
+                "Under the pro-rata model, her fee mostly goes to stars."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "ตัวอย่างนี้แสดงว่าในระบบ pro-rata เงินของผู้ฟังส่วนใหญ่ \"goes to whichever stars dominate everyone else's playlists\" ไม่ได้ไปถึงวงที่เธอฟังจริง"
+            },
+            {
+              "id": "CU-S3-024",
+              "stem": "What did the Halvorsen Institute study find?",
+              "options": [
+                "A user-centric model would change artist income only slightly.",
+                "The platform would lose subscribers after switching.",
+                "Niche performers would earn less than they do at present.",
+                "Top artists would lose nearly half of their income."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผลการศึกษา \"surprisingly modest\" ศิลปินระดับท็อปเสียรายได้ราว 4% และศิลปินกลุ่มเฉพาะได้เพิ่มเล็กน้อย ผู้บรรยายสรุปว่า \"hardly a revolution\""
+            },
+            {
+              "id": "CU-S3-025",
+              "stem": "What does the speaker imply about content that platforms produce themselves?",
+              "options": [
+                "Platforms may promote it since it costs no royalties.",
+                "It is usually shown only to brand-new subscribers.",
+                "It pays artists higher royalties than other content.",
+                "It is generally of lower quality than licensed content."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้บรรยายบอกว่าถ้าแพลตฟอร์มเป็นเจ้าของเนื้อหาเอง \"you pay no royalties on it\" และเรื่องนี้อธิบาย \"which shows end up being promoted\" จึงสื่อว่าแพลตฟอร์มมีแรงจูงใจโปรโมตเนื้อหาของตัวเอง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G14",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "Lecture: who decided what time it is?",
+          "text": "Before we turn to next week's reading, I'd like to spend a few minutes on a question that sounds almost silly: who decided what time it is?\n\nFor most of human history, time was local. Each town set its clocks by the sun, so noon was simply the moment when the sun stood highest in the sky. Because the sun appears to travel from east to west, a town even a short distance to the west would be a few minutes behind its neighbour. Nobody minded, since almost nobody travelled fast enough to notice.\n\nThe railway changed all that. Once trains could cross a country in a matter of hours, dozens of local times became a genuine headache. A timetable printed in one city might be wrong by ten or fifteen minutes in the next, and on a line where trains in both directions shared a single track, a misread timetable was not merely inconvenient. It could put two trains on the same stretch of rail at the same moment. So it was railway companies, rather than governments, that first adopted a single standard time along their routes.\n\nWhat interests me as a historian is the resistance. In a number of towns, people refused to accept railway time as the real time. Some public clocks were even fitted with two minute hands, one showing local solar time and the other showing the railway's time. To many residents, giving up local time felt like handing a piece of their town's identity over to a distant company.\n\nEventually, of course, standard time won, and later the world was divided into time zones. But the debate reminds us that technical standards are never purely technical. They decide whose convenience counts. When you read Chapter Six, I'd like you to look for a modern example of the same tension, perhaps in the way online services choose default languages or date formats for their users.",
+          "items": [
+            {
+              "id": "CU-S3-026",
+              "stem": "What is the speaker's main purpose?",
+              "options": [
+                "To show how standard time spread and why some people opposed it",
+                "To argue that the world should abolish its time zones",
+                "To describe how the very first railway engines were designed and built",
+                "To explain how sundials were able to measure time precisely"
+              ],
+              "answer": 0,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้บรรยายเล่าว่าเวลาท้องถิ่นถูกแทนที่ด้วยเวลามาตรฐานเพราะรถไฟ และเน้น \"the resistance\" ของชาวเมือง จึงมีจุดประสงค์อธิบายการแพร่ของเวลามาตรฐานและการต่อต้าน"
+            },
+            {
+              "id": "CU-S3-027",
+              "stem": "Why did the time differ from one town to the next?",
+              "options": [
+                "Each town bought its clocks from a different local maker.",
+                "Each town based its time on the position of the sun.",
+                "Railway companies changed the clocks in every town.",
+                "The government set a separate time for every region."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่า \"Each town set its clocks by the sun\" เมืองที่อยู่ทางตะวันตกจึงช้ากว่าไม่กี่นาที"
+            },
+            {
+              "id": "CU-S3-028",
+              "stem": "According to the speaker, why were local times dangerous for railways?",
+              "options": [
+                "Trains in the west always ran several hours behind.",
+                "Drivers could not see the town clocks from their trains.",
+                "Passengers often missed trains and blocked the platforms.",
+                "Timetable mistakes could send two trains onto one track."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าตารางเวลาที่อ่านผิด \"could put two trains on the same stretch of rail at the same moment\" บนเส้นทางที่ใช้รางเดียวร่วมกัน"
+            },
+            {
+              "id": "CU-S3-029",
+              "stem": "Why did some public clocks have two minute hands?",
+              "options": [
+                "To allow the clock to keep running during repairs",
+                "To display the time in two different countries",
+                "To display both local time and railway time",
+                "To separate the morning hours from the afternoon"
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "นาฬิกาบางเรือนมีเข็มนาทีสองเข็ม \"one showing local solar time and the other showing the railway's time\""
+            },
+            {
+              "id": "CU-S3-030",
+              "stem": "What does the speaker imply by saying that technical standards are \"never purely technical\"?",
+              "options": [
+                "Standards involve choices about whose interests come first.",
+                "Only national governments should create technical standards.",
+                "Standards are often designed by engineers who make errors.",
+                "Most technical standards change every few years."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้บรรยายขยายความทันทีว่า \"They decide whose convenience counts\" คือมาตรฐานเป็นการเลือกว่าจะให้ความสำคัญกับผลประโยชน์ของใคร"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "CU-S3-G15",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "How bacteria outwit antibiotics",
+          "text": "Few discoveries have transformed medicine as profoundly as antibiotics. Yet within a few decades of their introduction, scientists had begun to notice a troubling pattern: bacteria that had once been easily killed by a particular drug were surviving ___1___ to it.\n\nThe explanation lies in natural selection. In any large population of bacteria, a few individuals may carry a random genetic change that allows them to ___2___ the drug's effects. When the antibiotic is applied, the susceptible bacteria die, ___3___ the resistant ones survive and multiply. Over many generations, the resistant strain can come to ___4___ the entire population.\n\nBacteria also possess an advantage that animals lack. Through a process known as horizontal gene transfer, they can pass genetic material directly to neighbouring cells, ___5___ cells belonging to entirely different species. As a result, resistance that ___6___ in one species may spread to others far more quickly than ordinary inheritance would allow.\n\nHuman behaviour has accelerated this process considerably. When antibiotics are used unnecessarily, ___7___ against viral infections on which they have no effect, bacteria throughout the body are exposed to the drug with no benefit at all. Large quantities are also used in livestock farming, ___8___ the drugs have sometimes been given to healthy animals simply to make them grow faster.\n\nResearchers at the Coldwater Microbiology Unit warn that, ___9___ new classes of antibiotics are developed and existing ones are used more carefully, infections that are now easy to treat could once again become serious threats. Their report concludes that the problem cannot be solved in the laboratory alone; it ___10___ coordinated changes in how these medicines are prescribed, sold and used around the world.",
+          "items": [
+            {
+              "id": "CU-S3-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "exposing",
+                "exposure",
+                "exposed",
+                "expose"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา surviving ต้องการคำนามเป็นกรรม \"surviving exposure to it\" (รอดจากการได้รับยา) จึงใช้คำนาม exposure"
+            },
+            {
+              "id": "CU-S3-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "withhold",
+                "withdraw",
+                "overtake",
+                "withstand"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "withstand = ทนต่อ/ต้านทาน เหมาะกับ \"withstand the drug's effects\" ส่วน withdraw (ถอน) withhold (ระงับไว้) overtake (แซง) ไม่เข้าความหมาย"
+            },
+            {
+              "id": "CU-S3-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "in case",
+                "whereas",
+                "so that",
+                "unless"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "สองอนุประโยคตรงข้ามกัน แบคทีเรียที่ไวต่อยาตาย \"whereas\" ตัวที่ดื้อยารอด จึงต้องใช้คำเชื่อมแสดงความขัดแย้ง"
+            },
+            {
+              "id": "CU-S3-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "domination",
+                "dominant",
+                "dominating",
+                "dominate"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"come to + V1\" (ค่อย ๆ กลายเป็น) ต้องตามด้วยกริยารูปพื้นฐาน จึงเป็น \"come to dominate\""
+            },
+            {
+              "id": "CU-S3-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "including",
+                "involving",
+                "comprising",
+                "concerning"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"including cells belonging to entirely different species\" = รวมถึงเซลล์ต่างสปีชีส์ ใช้ยกส่วนหนึ่งที่รวมอยู่ในกลุ่ม neighbouring cells"
+            },
+            {
+              "id": "CU-S3-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "arises",
+                "arouses",
+                "raises",
+                "arrives"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "arise = เกิดขึ้น (อกรรมกริยา) \"resistance that arises in one species\" ส่วน arouse และ raise ต้องมีกรรม และ arrive ไม่เข้าความหมาย"
+            },
+            {
+              "id": "CU-S3-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "as a result",
+                "in contrast",
+                "for instance",
+                "nevertheless"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "การใช้ยากับการติดเชื้อไวรัสเป็น \"ตัวอย่าง\" ของการใช้ยาโดยไม่จำเป็น จึงใช้ for instance"
+            },
+            {
+              "id": "CU-S3-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "which",
+                "where",
+                "whom",
+                "what"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลังเครื่องหมายจุลภาคเป็นอนุประโยคสมบูรณ์ (the drugs have sometimes been given...) ที่ขยายสถานที่/บริบท livestock farming จึงใช้ where; which ต้องการช่องว่างของประธานหรือกรรม"
+            },
+            {
+              "id": "CU-S3-039",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "so that",
+                "although",
+                "unless",
+                "whether"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ความหมายคือ \"ถ้าไม่\" มียาใหม่และใช้ยาอย่างระมัดระวัง การติดเชื้อง่าย ๆ อาจกลับมาอันตราย จึงใช้ unless"
+            },
+            {
+              "id": "CU-S3-040",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "requires",
+                "sustains",
+                "undergoes",
+                "withholds"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "require = ต้องการ/จำเป็นต้องมี \"it requires coordinated changes\" (ปัญหานี้ต้องอาศัยการเปลี่ยนแปลงร่วมกัน) ส่วน undergoes (ผ่าน/ประสบ) sustains (ค้ำจุน) withholds (ระงับไว้) ไม่เข้าความหมาย"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G16",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "When languages fall silent",
+          "text": "Of the several thousand languages spoken in the world today, a considerable number are used only by small and ageing communities. When the last fluent speakers of such a language pass away, it does not simply disappear from everyday conversation; a unique way of describing the world is lost ___1___ it.\n\nLanguages rarely vanish ___2___. More often, the process unfolds over two or three generations. Parents who speak a minority language at home may choose to raise their children in a more widely used language, ___3___ that it will offer them better opportunities at school and at work. The children grow up able to understand their grandparents ___4___ feel uncomfortable speaking the old language themselves. By the time the grandchildren arrive, few people in the household use it ___5___.\n\nResearchers distinguish between languages that are merely vulnerable and ___6___ that are critically endangered. The single most reliable warning sign is whether children are still ___7___ the language at home. A language with thousands of adult speakers but no young ones may in fact be ___8___ danger than one with only a few hundred speakers, most of whom are children.\n\nEfforts to revive threatened languages have produced ___9___ results in some places. At the Taruna Language Centre, for example, preschool programmes ___10___ young children spend the whole day with fluent elders have helped to raise a new generation of confident speakers. Such projects demand patience and long-term funding, but they suggest that language loss, however common, is not inevitable.",
+          "items": [
+            {
+              "id": "CU-S3-041",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "along with",
+                "apart from",
+                "instead of",
+                "in spite of"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "เมื่อภาษาหายไป วิธีมองโลกที่มีเฉพาะในภาษานั้นก็สูญไป \"along with it\" (ไปพร้อมกับภาษา) ตัวเลือกอื่นแปลว่า แทนที่/นอกจาก/ทั้งที่"
+            },
+            {
+              "id": "CU-S3-042",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "overnight",
+                "overseas",
+                "overhead",
+                "overall"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "overnight = ในชั่วข้ามคืน ตรงข้ามกับประโยคถัดไปที่บอกว่ากระบวนการใช้เวลา \"two or three generations\""
+            },
+            {
+              "id": "CU-S3-043",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "believes",
+                "believing",
+                "believed",
+                "belief"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เป็นวลี participle ขยายประธาน Parents ซึ่งเป็นผู้ \"เชื่อ\" เอง (active) จึงใช้ believing ส่วน believed มีความหมายถูกกระทำ และ belief/believes ทำให้ประโยคผิดโครงสร้าง"
+            },
+            {
+              "id": "CU-S3-044",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "or",
+                "so",
+                "but",
+                "nor"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "สองส่วนขัดแย้งกัน เข้าใจภาษาของปู่ย่า \"but\" ไม่สบายใจที่จะพูดเอง จึงใช้ but"
+            },
+            {
+              "id": "CU-S3-045",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "in all",
+                "after all",
+                "at all",
+                "above all"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"few people ... use it at all\" = แทบไม่มีใครใช้เลย at all ใช้เน้นความหมายปฏิเสธ (few) ส่วน in all = รวมทั้งหมด, after all = อย่างไรก็ตาม, above all = ที่สำคัญที่สุด"
+            },
+            {
+              "id": "CU-S3-046",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "those",
+                "these",
+                "that",
+                "them"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ใช้ those แทนคำนามพหูพจน์ languages ที่กล่าวไปแล้ว ตามด้วย that-clause ขยาย (\"those that are critically endangered\")"
+            },
+            {
+              "id": "CU-S3-047",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "acquiring",
+                "accumulating",
+                "acquainting",
+                "accustoming"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "acquire a language = เรียนรู้ภาษา (โดยเฉพาะภาษาแม่) เด็กยังเรียนภาษานี้ที่บ้านหรือไม่ ส่วน accustom และ acquaint ต้องมีโครงสร้าง oneself to/with และ accumulate (สะสม) ไม่เข้าความหมาย"
+            },
+            {
+              "id": "CU-S3-048",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "in greater",
+                "in great",
+                "on greater",
+                "at greater"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "สำนวนคือ \"in danger\" และมี than ตามหลัง จึงต้องใช้ขั้นกว่า \"in greater danger\" ส่วน \"at risk\" ใช้ at แต่ไม่ใช้กับ danger"
+            },
+            {
+              "id": "CU-S3-049",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "encourage",
+                "encouraged",
+                "encouragement",
+                "encouraging"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้คำคุณศัพท์ขยาย results และผลลัพธ์เป็นสิ่งที่ \"ทำให้รู้สึกมีกำลังใจ\" จึงใช้รูป -ing คือ encouraging"
+            },
+            {
+              "id": "CU-S3-050",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "which",
+                "in which",
+                "in that",
+                "whom"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "อนุประโยคหลังช่องว่างสมบูรณ์ (young children spend the whole day ...) และหมายถึง \"ในโครงการนั้น\" จึงใช้ in which ส่วน which ต้องการช่องว่างของประธานหรือกรรม"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G17",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "The universe's missing mass",
+          "text": "When astronomers first measured how quickly stars orbit the centres of their galaxies, they expected the results to follow a familiar rule. In our own solar system, distant planets move more slowly than those close to the sun, because the sun's gravitational pull weakens with distance. Galaxies, it was assumed, would behave in much the same way: stars near the bright, crowded core should race around quickly, while those in the dim outskirts should drift along at a more leisurely pace.\n\nThat is not what the measurements showed. Again and again, stars far from the centre were found to be moving roughly as fast as those much closer in. If the visible matter in these galaxies were all there was, the outer stars would be travelling fast enough to escape altogether, and the galaxies would long ago have flown apart. Something was holding them together, and whatever it was, it could not be seen.\n\nThe name given to this invisible something is dark matter. The term is, in a sense, a confession of ignorance. Dark matter does not emit, absorb or reflect light in any way that current instruments can detect; it reveals itself only through its gravity. Yet the indirect evidence for it is now considerable. Beyond the rotation of galaxies, astronomers point to the way light from distant galaxies is bent as it passes massive clusters, an effect known as gravitational lensing. The amount of bending is often far greater than the visible matter in a cluster could produce. Calculations based on such observations suggest that ordinary matter (everything made of atoms, from stars to the human body) accounts for only around a sixth of all the matter in the universe.\n\nWhat dark matter actually is remains one of the great open questions in physics. For several decades, a leading candidate has been a class of hypothetical particles that interact with ordinary matter only extremely weakly. Detectors have been built deep underground, shielded from cosmic radiation, in the hope of catching one of these particles in a rare collision with an atomic nucleus. So far, these experiments have produced no convincing signal. Each null result narrows the range of possibilities, but it also feeds a growing unease.\n\nThat unease has given new energy to a rival school of thought. Rather than adding an unseen substance to the universe, some theorists propose that our understanding of gravity itself is incomplete, and that at the very low accelerations found at the edges of galaxies, gravity behaves differently from what established theory predicts. Such modified-gravity theories can reproduce the rotation of galaxies with impressive economy. Their weakness is that they struggle to explain other observations, notably certain collisions between galaxy clusters in which the gravitational effects appear to be separated from the visible gas, exactly as if an invisible mass had passed straight through.\n\nDr. Ilse Varnholt of the Kessington Observatory compares the situation to a detective story in which the culprit has left footprints everywhere but has never been seen. \"It would be strange,\" she says, \"to conclude that footprints can appear by themselves. But it would be equally foolish to arrest someone before we know who they are.\"",
+          "items": [
+            {
+              "id": "CU-S3-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The methods astronomers use to measure the speed of planets",
+                "The reasons modified-gravity theories have been disproved",
+                "The design and cost of underground particle detectors",
+                "Evidence for dark matter and doubts about what it is"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าหลักฐานทางอ้อมของสสารมืด (การหมุนของดาราจักร, gravitational lensing) และย้ำว่ายังไม่รู้ว่ามันคืออะไร ส่วนทฤษฎีแรงโน้มถ่วงดัดแปลงยังไม่ได้ถูกหักล้าง"
+            },
+            {
+              "id": "CU-S3-052",
+              "stem": "According to the passage, what did astronomers originally expect to find?",
+              "options": [
+                "Stars far from a galaxy's centre would move more slowly.",
+                "Stars in the outskirts would move faster than core stars.",
+                "Most galaxies would gradually begin to fly apart.",
+                "All stars in a galaxy would orbit at the same speed."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่าคาดว่าดาวใกล้แกนจะ \"race around quickly\" ส่วนดาวรอบนอก \"drift along at a more leisurely pace\" เหมือนดาวเคราะห์ในระบบสุริยะ"
+            },
+            {
+              "id": "CU-S3-053",
+              "stem": "The word \"leisurely\" in paragraph 1 is closest in meaning to",
+              "options": [
+                "irregular",
+                "careless",
+                "unhurried",
+                "constant"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "leisurely ตรงข้ามกับ \"race around quickly\" ในประโยคเดียวกัน จึงหมายถึง ช้า ๆ ไม่เร่งรีบ (unhurried)"
+            },
+            {
+              "id": "CU-S3-054",
+              "stem": "Why does the author call the term \"dark matter\" \"a confession of ignorance\"?",
+              "options": [
+                "It was first given to the wrong object.",
+                "It reflects how embarrassed astronomers were by their early errors.",
+                "It names something unseen instead of explaining it.",
+                "It was chosen by scientists who refused to study the subject further."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนอธิบายต่อว่าสสารมืดไม่ปล่อย ดูดกลืน หรือสะท้อนแสงที่ตรวจได้ คำว่า \"dark\" จึงบอกเพียงว่ามองไม่เห็น เป็นการยอมรับว่ายังไม่รู้ว่ามันคืออะไร"
+            },
+            {
+              "id": "CU-S3-055",
+              "stem": "How does gravitational lensing provide evidence for dark matter?",
+              "options": [
+                "It shows that galaxy clusters contain no ordinary matter.",
+                "It allows astronomers to photograph dark matter directly.",
+                "It proves that light itself produces a gravitational pull.",
+                "Light is bent more than the visible matter alone could cause."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่า \"The amount of bending is often far greater than the visible matter in a cluster could produce\" จึงต้องมีมวลที่มองไม่เห็นเพิ่มเติม"
+            },
+            {
+              "id": "CU-S3-056",
+              "stem": "In paragraph 4, the word \"it\" in \"it also feeds a growing unease\" refers to",
+              "options": [
+                "an atomic nucleus",
+                "each null result",
+                "the range of possibilities",
+                "cosmic radiation"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"Each null result narrows the range of possibilities, but it also feeds a growing unease\" it จึงหมายถึงผลการทดลองที่ไม่พบสัญญาณแต่ละครั้ง"
+            },
+            {
+              "id": "CU-S3-057",
+              "stem": "According to the passage, what is a weakness of modified-gravity theories?",
+              "options": [
+                "They can only be tested in underground laboratories.",
+                "They depend on particles that have never been detected.",
+                "They cannot explain how galaxies rotate.",
+                "They cannot easily explain some cluster collisions."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าทฤษฎีนี้อธิบายการหมุนของดาราจักรได้ดี แต่ \"struggle to explain ... certain collisions between galaxy clusters\""
+            },
+            {
+              "id": "CU-S3-058",
+              "stem": "What does Dr. Varnholt's comparison suggest?",
+              "options": [
+                "The evidence for dark matter is weaker than it seems.",
+                "Something exists, but we should not assume what it is.",
+                "Modified gravity is by far the most likely explanation.",
+                "The underground detectors were poorly designed."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "รอยเท้ามีอยู่ทั่วไป (มีหลักฐานว่ามีบางสิ่ง) แต่ \"foolish to arrest someone before we know who they are\" คือไม่ควรด่วนสรุปว่ามันคืออะไร"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G18",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "Why sensible minds go astray",
+          "text": "Ask a room full of people whether they drive more carefully than the average motorist, and most hands will go up. Not everyone in the room can be right, of course, but nobody is lying, either. Each person is drawing on a mind that, for reasons which once served our ancestors well, tends to see itself in a flattering light. Psychologists call such systematic distortions in judgement cognitive biases, and over the past half-century they have catalogued dozens of them.\n\nIt is worth stressing what a bias is not. It is not simply a mistake. Random errors scatter in all directions and tend to cancel one another out when many judgements are averaged. Biases, by contrast, push our thinking consistently in one direction, which is precisely why they are so hard to notice and so costly when they go uncorrected.\n\nConsider confirmation bias, perhaps the best known of all. Once we hold a belief, we tend to seek out, remember and give extra weight to information that supports it, while treating contrary evidence with suspicion. In a study at the Marlowe Institute, volunteers who held opposing views on a proposed city transport scheme were shown the same mixed set of research findings. Afterwards, both groups reported that the evidence had strengthened their original position. The information was identical; what differed was how each side processed it.\n\nA second example is anchoring. When people are asked to estimate an unknown quantity, their answers are pulled towards whatever number they happened to encounter beforehand, even when that number is plainly irrelevant. In one classroom demonstration, students first wrote down the last two digits of their phone number and then guessed the price of a used bicycle. Those with high digits offered noticeably higher prices. Nobody believed that a phone number had anything to do with bicycles, yet the number left its mark.\n\nWhy would evolution produce minds that work like this? One influential answer is that biases are side effects of mental shortcuts, or heuristics, which allow us to make fast decisions with limited information. For an early human deciding whether a rustle in the grass was a predator, speed mattered far more than statistical precision. A shortcut that was occasionally wrong but usually quick may have been a better bet than careful reasoning that arrived too late.\n\nThe practical question is whether we can do better, and here the evidence is sobering. Simply teaching people about biases appears to have only a limited effect: in one experiment, participants who could define confirmation bias perfectly went on to display it in the very next task. More promising are changes to the setting in which decisions are made. Some hospitals and engineering firms now require teams to list the reasons a preferred plan might fail before approving it. Such procedures do not make individuals any less biased, but they create structures in which one person's blind spot is more likely to be caught by someone else.\n\nIn the end, the realistic goal is not to eliminate biases, which may well be impossible, but to recognise the situations in which they are most likely to lead us astray.",
+          "items": [
+            {
+              "id": "CU-S3-059",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "To explain cognitive biases and how to limit their effects",
+                "To report the complete findings of a study at the Marlowe Institute",
+                "To prove that most people are less skilful drivers than they think",
+                "To argue that mental shortcuts do more harm than good"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความนิยามอคติทางความคิด ยกตัวอย่าง อธิบายที่มา แล้วเสนอวิธีลดผลกระทบ ตัวอย่างเรื่องคนขับรถเป็นเพียงบทนำ"
+            },
+            {
+              "id": "CU-S3-060",
+              "stem": "According to the passage, how do biases differ from random errors?",
+              "options": [
+                "Biases affect only people who hold strong opinions.",
+                "Biases push judgement consistently in the same direction.",
+                "Biases tend to cancel out when judgements are averaged.",
+                "Biases occur far less often than random errors do."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่า random errors กระจายทุกทิศและหักล้างกันได้ แต่ \"Biases ... push our thinking consistently in one direction\""
+            },
+            {
+              "id": "CU-S3-061",
+              "stem": "What does the Marlowe Institute study suggest?",
+              "options": [
+                "Most volunteers changed their minds after reading the findings.",
+                "The research findings shown to volunteers were one-sided.",
+                "Transport schemes are too complex for the public to judge.",
+                "People read the same evidence to fit their existing views."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ทั้งสองฝ่ายเห็นหลักฐานชุดเดียวกันแต่ต่างรู้สึกว่าหลักฐานสนับสนุนจุดยืนเดิม \"what differed was how each side processed it\""
+            },
+            {
+              "id": "CU-S3-062",
+              "stem": "The bicycle demonstration is used to illustrate that",
+              "options": [
+                "an irrelevant number can influence an estimate",
+                "people struggle to recall their own phone numbers",
+                "students are poor at judging second-hand prices",
+                "students with high digits are richer"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "เป็นตัวอย่างของ anchoring ตัวเลขที่ไม่เกี่ยวข้อง (เลขโทรศัพท์) ดึงการประเมินราคาให้สูงขึ้น \"yet the number left its mark\""
+            },
+            {
+              "id": "CU-S3-063",
+              "stem": "According to the passage, why might evolution have favoured mental shortcuts?",
+              "options": [
+                "Early humans rarely needed to make decisions under pressure.",
+                "Shortcuts tended to be more accurate than careful reasoning.",
+                "Early human brains were incapable of careful reasoning.",
+                "A quick decision was often more valuable than a precise one."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความบอกว่าสำหรับมนุษย์ยุคแรก \"speed mattered far more than statistical precision\" ทางลัดที่ผิดบ้างแต่เร็วจึงคุ้มกว่า ไม่ได้บอกว่าทางลัดแม่นยำกว่าเสมอ"
+            },
+            {
+              "id": "CU-S3-064",
+              "stem": "The word \"sobering\" in paragraph 6 is closest in meaning to",
+              "options": [
+                "encouraging",
+                "discouraging",
+                "inconclusive",
+                "complicated"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคถัดมาบอกว่าการสอนเรื่องอคติ \"only a limited effect\" หลักฐานจึงน่าผิดหวัง ทำให้ต้องคิดอย่างจริงจัง (discouraging)"
+            },
+            {
+              "id": "CU-S3-065",
+              "stem": "In paragraph 6, the word \"it\" in \"went on to display it\" refers to",
+              "options": [
+                "the limited effect",
+                "the experiment",
+                "the very next task",
+                "confirmation bias"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ผู้เข้าร่วม \"could define confirmation bias perfectly\" แต่กลับ \"display it\" ในงานถัดไป it จึงหมายถึง confirmation bias"
+            },
+            {
+              "id": "CU-S3-066",
+              "stem": "Which approach would the author most likely recommend to an organisation?",
+              "options": [
+                "Having a team list ways a plan might fail before approval",
+                "Giving every employee a lecture on the main types of bias",
+                "Letting one experienced expert make all major decisions alone",
+                "Encouraging staff to make decisions as quickly as possible"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนเห็นว่าการสอนเรื่องอคติได้ผลจำกัด แต่ \"More promising\" คือการให้ทีมระบุเหตุผลที่แผนอาจล้มเหลวก่อนอนุมัติ ซึ่งช่วยให้ผู้อื่นจับจุดบอดได้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G19",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "When reefs turn white",
+          "text": "Seen from a boat, a healthy coral reef can look like a garden of colourful rock. In fact, each coral is a colony of tiny animals called polyps, and much of its colour comes from microscopic algae living inside their tissues. The relationship between the two is a remarkable partnership. The algae, sheltered within the coral, use sunlight to produce sugars through photosynthesis, and they pass a large share of this food to their hosts. In return, the coral provides the algae with a protected home and with the carbon dioxide and nutrients they need. For many reef-building corals, the algae supply most of their energy.\n\nCoral bleaching occurs when this partnership breaks down. When the surrounding water stays unusually warm for an extended period, the algae's photosynthetic machinery is damaged and begins to produce harmful by-products. The coral responds by expelling the algae. Without them, the coral's tissue becomes almost transparent, revealing the white limestone skeleton underneath; hence the term \"bleaching\".\n\nA bleached coral is not necessarily a dead one. It is better thought of as a starving one. If temperatures return to normal within a few weeks, the coral can take in new algae from the water and gradually recover its colour. If the heat persists, however, the coral is likely to die, and the reef that depends on it begins to decline. Fish that feed or shelter among the coral move away or disappear, and the structure itself, no longer maintained by living polyps, is slowly worn down by waves and burrowing organisms.\n\nHistorically, mass bleaching events were rare, and reefs had years or even decades to recover between them. Researchers at the Tamarind Bay Marine Laboratory, who have photographed the same twenty reef sites every year for three decades, report that the interval between major events at their sites has shrunk from an average of roughly eighteen years to fewer than six. \"Recovery is still happening,\" notes the laboratory's director, Dr. Sunee Rattanakorn, \"but the reefs are being asked to run a marathon while someone keeps moving the finish line.\"\n\nNot all corals respond in the same way. Some species, and even some individual colonies within a species, tolerate heat far better than others. Part of this difference seems to depend on which type of algae a coral hosts, since certain types are more heat-resistant. This has led some scientists to explore what is known as assisted evolution: selectively breeding heat-tolerant corals in laboratories, or encouraging corals to host tougher algae, before transplanting them onto damaged reefs.\n\nSuch projects attract both enthusiasm and caution. Supporters argue that they could buy valuable time. Critics point out that reefs are vast, whereas laboratory work can only ever restore small patches. They also fear that the promise of a technical fix could weaken the pressure to deal with the warming ocean itself. Most researchers, Dr. Rattanakorn included, regard assisted evolution as a supplement to, rather than a substitute for, tackling the underlying causes of rising sea temperatures.",
+          "items": [
+            {
+              "id": "CU-S3-067",
+              "stem": "Which of the following would be the most suitable title for the passage?",
+              "options": [
+                "How Algae Turn Sunlight into Sugar for Corals",
+                "Coral Bleaching: Causes, Effects and Responses",
+                "Why Reef Fish Prefer Colourful Coral",
+                "The Proven Success of Assisted Evolution on Reefs"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายสาเหตุของการฟอกขาว ผลกระทบต่อแนวปะการัง และแนวทางรับมือ (assisted evolution) ส่วนตัวเลือกอื่นเป็นเพียงรายละเอียดย่อย หรือขัดกับเนื้อหา (ยังไม่ได้พิสูจน์ว่าสำเร็จ)"
+            },
+            {
+              "id": "CU-S3-068",
+              "stem": "According to the passage, what does the coral provide for the algae?",
+              "options": [
+                "A home, carbon dioxide and nutrients",
+                "Sugars produced through photosynthesis",
+                "Most of the energy the algae need to grow",
+                "Colours that attract fish"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่า \"the coral provides the algae with a protected home and with the carbon dioxide and nutrients\" ส่วนน้ำตาลเป็นสิ่งที่สาหร่ายให้ปะการัง"
+            },
+            {
+              "id": "CU-S3-069",
+              "stem": "Why does a bleached coral look white?",
+              "options": [
+                "It becomes covered by a layer of fine sand.",
+                "It produces a white chemical to cool itself.",
+                "Its algae turn white when they overheat.",
+                "Its clear tissue reveals the skeleton beneath."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "เมื่อขับสาหร่ายออก เนื้อเยื่อ \"becomes almost transparent, revealing the white limestone skeleton underneath\""
+            },
+            {
+              "id": "CU-S3-070",
+              "stem": "Why does the author describe a bleached coral as \"a starving one\"?",
+              "options": [
+                "It can no longer catch passing fish.",
+                "It is being eaten by burrowing organisms.",
+                "It has lost its main source of food.",
+                "Its skeleton has started to dissolve."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าแรกบอกว่าสาหร่ายให้พลังงานส่วนใหญ่แก่ปะการัง เมื่อสาหร่ายถูกขับออก ปะการังจึงขาดแหล่งอาหารหลัก เปรียบเหมือนกำลังอดอยาก"
+            },
+            {
+              "id": "CU-S3-071",
+              "stem": "What have researchers at the Tamarind Bay Marine Laboratory found?",
+              "options": [
+                "Each bleaching event now lasts about eighteen years.",
+                "Major bleaching events now occur far more often.",
+                "The number of healthy reef sites has fallen to six.",
+                "Bleaching now mainly affects the deepest reef sites."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ช่วงห่างระหว่างเหตุการณ์ฟอกขาวใหญ่ลดจากราว 18 ปีเหลือไม่ถึง 6 ปี แปลว่าเกิดถี่ขึ้นมาก และผู้อำนวยการยังบอกว่า \"Recovery is still happening\""
+            },
+            {
+              "id": "CU-S3-072",
+              "stem": "What does Dr. Rattanakorn's comparison to a marathon suggest?",
+              "options": [
+                "Reefs are recovering faster than scientists had expected.",
+                "Reefs get less and less time to recover between events.",
+                "Researchers disagree about how recovery should be measured.",
+                "Corals grow best in areas with strong, fast currents."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "\"someone keeps moving the finish line\" สื่อว่าเป้าหมายการฟื้นตัวถูกเลื่อนออกไปเรื่อย ๆ เพราะเหตุการณ์ใหม่มาเร็วขึ้น ปะการังจึงไม่มีเวลาฟื้นตัวพอ"
+            },
+            {
+              "id": "CU-S3-073",
+              "stem": "According to the passage, assisted evolution involves",
+              "options": [
+                "moving whole reefs into cooler, deeper waters",
+                "removing algae from corals before summer begins",
+                "lowering the temperature of seawater artificially",
+                "developing corals that can better tolerate heat"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "assisted evolution คือ \"selectively breeding heat-tolerant corals\" หรือส่งเสริมให้ปะการังอาศัยสาหร่ายที่ทนร้อน แล้วนำไปปลูกบนแนวปะการังที่เสียหาย"
+            },
+            {
+              "id": "CU-S3-074",
+              "stem": "Which statement best describes most researchers' view of assisted evolution?",
+              "options": [
+                "Its effects are too small to justify the effort.",
+                "It offers a complete solution to coral bleaching.",
+                "Its risks probably outweigh its likely benefits.",
+                "It may help but cannot replace action on warming."
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ประโยคสุดท้ายบอกว่านักวิจัยส่วนใหญ่มองว่าเป็น \"a supplement to, rather than a substitute for\" การแก้ต้นเหตุของอุณหภูมิน้ำทะเลที่สูงขึ้น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G20",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "Print, pixels and the lessons of history",
+          "text": "Whenever a new communication technology appears, commentators reach for historical comparisons, and none is more popular than the printing press. The internet, we are often told, is the most important information revolution since movable type made books cheap enough to spread across Europe in the fifteenth and sixteenth centuries. The comparison is useful, but only if it is handled with care.\n\nThe similarities are real. Before printing, books were copied by hand, a slow and costly process that kept written knowledge in the hands of a small number of institutions. Printing broke that bottleneck. Within a few generations, the number of books in circulation had multiplied many times over, and readers could compare texts in ways that had previously been all but impossible. The internet has had a comparable effect on the cost of publishing: today anyone with a connection can address a potential audience of millions at almost no expense.\n\nBoth technologies also produced a flood of material of very uneven quality. Historians of print note that alongside scholarly works came cheap pamphlets full of rumour, exaggeration and deliberate falsehood. Critics at the time complained that there were simply too many books for anyone to read and no reliable way to tell the good from the bad. Such complaints sound strikingly familiar to anyone who has scrolled through a social media feed.\n\nYet the differences are at least as instructive. The first is speed. A printed pamphlet took days or weeks to travel from one city to the next; a post online can circle the globe in minutes. Printing societies therefore had time, however imperfectly, to develop institutions for sorting reliable information from unreliable: publishers who staked their reputations on what they printed, reviewers, libraries and, eventually, formal systems of academic peer review. These institutions took well over a century to mature. It is far from clear that the internet will grant us the same breathing space.\n\nThe second difference concerns who controls distribution. A printed book, once sold, belonged to its reader, and no one could quietly change which pages that reader saw. Online, by contrast, much of what we encounter is selected by ranking systems designed by a small number of companies, often with the aim of holding our attention rather than informing us. In this respect, argues the historian Dr. Marcus Ellery, the internet may be less like the printing press than like a vast bookshop in which the shelves are rearranged for every customer who walks in.\n\nNone of this means that the comparison should be abandoned. Its real value lies less in predicting outcomes than in reminding us that the effects of a technology are shaped by the institutions and habits that grow up around it. The printing press did not, by itself, produce either the scientific journal or the propaganda pamphlet; people built both. The same will be true of whatever the internet eventually becomes.",
+          "items": [
+            {
+              "id": "CU-S3-075",
+              "stem": "Which statement best expresses the author's main point?",
+              "options": [
+                "The comparison helps only if key differences are also noted.",
+                "Historical comparisons should be avoided.",
+                "The internet has had far less impact on society than printing did.",
+                "Printing spread more false information than the internet has done."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนบอกตั้งแต่ต้นว่าการเปรียบเทียบ \"is useful, but only if it is handled with care\" แล้วเสนอทั้งความเหมือนและความต่าง และย่อหน้าสุดท้ายบอกว่าไม่ควรทิ้งการเปรียบเทียบนี้"
+            },
+            {
+              "id": "CU-S3-076",
+              "stem": "According to the passage, why was written knowledge limited before printing?",
+              "options": [
+                "Governments banned the copying of most books.",
+                "Copying books by hand was slow and expensive.",
+                "Most people were not permitted to learn to read.",
+                "Paper was too scarce for books to be produced."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่าการคัดลอกด้วยมือเป็น \"a slow and costly process\" ทำให้ความรู้อยู่ในมือสถาบันเพียงไม่กี่แห่ง"
+            },
+            {
+              "id": "CU-S3-077",
+              "stem": "The word \"bottleneck\" in paragraph 2 refers to",
+              "options": [
+                "a sudden increase in demand for books",
+                "a new method of copying long texts",
+                "a container used for storing ink",
+                "a point at which progress is restricted"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "bottleneck = คอขวด จุดที่ทำให้การไหลหรือความก้าวหน้าติดขัด ในที่นี้คือการคัดลอกด้วยมือที่จำกัดจำนวนหนังสือ ซึ่งการพิมพ์ \"broke\" ได้"
+            },
+            {
+              "id": "CU-S3-078",
+              "stem": "What did some critics complain about in the early days of print?",
+              "options": [
+                "Pamphlets were much longer than they needed to be.",
+                "Printers would not publish the work of scholars.",
+                "There were too many books to read or judge.",
+                "Printed books were too costly for most readers."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่านักวิจารณ์บ่นว่า \"too many books for anyone to read and no reliable way to tell the good from the bad\""
+            },
+            {
+              "id": "CU-S3-079",
+              "stem": "Why does the author mention academic peer review?",
+              "options": [
+                "As evidence that the internet has already solved the problem of quality",
+                "As an example of a slow-developing quality-control system",
+                "As proof that printed pamphlets travelled faster than people assume",
+                "As an example of an institution that the author would like to abolish"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "peer review ถูกยกเป็นหนึ่งในสถาบันคัดกรองข้อมูลที่ \"took well over a century to mature\" เพื่อชี้ว่าสังคมการพิมพ์มีเวลาพัฒนากลไกเหล่านี้"
+            },
+            {
+              "id": "CU-S3-080",
+              "stem": "In paragraph 4, \"the same breathing space\" refers to",
+              "options": [
+                "a pause in the development of new technologies",
+                "enough time to develop ways of judging reliability",
+                "freedom from the influence of online advertising",
+                "the delay between printing a pamphlet and selling it"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าบอกว่าสังคมการพิมพ์ \"had time ... to develop institutions for sorting reliable information\" breathing space จึงหมายถึงเวลาที่เพียงพอสำหรับพัฒนากลไกเหล่านั้น"
+            },
+            {
+              "id": "CU-S3-081",
+              "stem": "What does Dr. Ellery's bookshop comparison suggest about the internet?",
+              "options": [
+                "Online information costs more than printed books.",
+                "The internet sells more books than real bookshops.",
+                "Companies arrange what each user sees differently.",
+                "Readers are free to rearrange content however they like."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "\"shelves are rearranged for every customer\" สื่อว่าระบบจัดอันดับของบริษัทเลือกเนื้อหาให้ผู้ใช้แต่ละคนต่างกัน ไม่ใช่ผู้อ่านเป็นผู้จัดเอง"
+            },
+            {
+              "id": "CU-S3-082",
+              "stem": "Which best describes the author's attitude towards the printing-press comparison?",
+              "options": [
+                "Openly hostile",
+                "Cautiously appreciative",
+                "Entirely dismissive",
+                "Uncritically enthusiastic"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนเห็นว่าการเปรียบเทียบมีประโยชน์ (\"None of this means that the comparison should be abandoned\") แต่ต้องใช้อย่างระมัดระวัง จึงเป็นท่าทีชื่นชมอย่างมีข้อสงวน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G21",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามข้อละ 1 คำตอบ",
+          "title": "The minimum wage: an argument that will not go away",
+          "text": "Few economic policies provoke as much argument as the minimum wage. To its supporters, a legal wage floor is a simple matter of fairness: no one who works full-time should be unable to cover basic living costs. To its critics, it is a well-meaning policy that risks harming the very people it is intended to help. What makes the debate so durable is that both sides can point to evidence, and that the evidence is genuinely harder to interpret than either side tends to admit.\n\nThe traditional case against the minimum wage rests on a basic model of supply and demand. If the government sets the price of labour above the level the market would produce, employers will buy less of it. Some workers, typically the least experienced, will therefore be priced out of jobs altogether. On this view, a worker who earns nothing at a higher legal wage is worse off than one who earned a little at a lower market wage.\n\nFor decades, many economists regarded this argument as close to settled. That changed when researchers began comparing neighbouring regions that had adopted different minimum wages at the same time. If the basic model were correct, employment in low-wage industries should have fallen in the regions that raised their minimum. In a number of such studies, it did not fall noticeably, and in some it even rose slightly.\n\nSeveral explanations have been offered. One is that, in many local labour markets, employers have more power to set wages than the simple model assumes, especially where there are few alternative employers. Under such conditions, a modest minimum wage can raise pay without reducing jobs, and may even draw more people into work. Another is that higher pay reduces the costly turnover of staff: workers who are paid better tend to stay longer, sparing employers the expense of constant recruitment and training.\n\nNone of this means that the minimum wage can be raised without limit. Even economists sympathetic to the policy accept that, at some point, a sufficiently high minimum would lead employers to cut staff, reduce hours or replace workers with machines. The real disagreement is about where that point lies, and it may well lie in different places in different economies. A wage floor that is harmless in a prosperous capital city could be damaging in a rural province where living costs and typical wages are much lower.\n\nFor this reason, some governments set minimum wages that vary by region, and a number of them link the rate to a fixed percentage of the local median wage rather than to a single national figure. Economists at the Valmora Policy Centre, for example, recommend reviewing the rate every year against local data rather than raising it in large, infrequent steps. Such approaches will not end the argument, but they reflect a broader shift in the debate: away from whether a minimum wage is good or bad in principle, and towards how it can be set sensibly in practice.",
+          "items": [
+            {
+              "id": "CU-S3-083",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Regional minimum wages are the best way to protect low-paid workers.",
+                "The evidence is complex, and the focus is now on setting the rate.",
+                "Economists disagree mainly because the data are unreliable.",
+                "Recent studies have overturned the traditional case against wage floors."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนชี้ว่าหลักฐาน \"genuinely harder to interpret\" และสรุปว่าการถกเถียงเปลี่ยนไปสู่ \"how it can be set sensibly in practice\" ไม่ได้บอกว่างานวิจัยใหม่ล้มล้างข้อโต้แย้งเดิมทั้งหมด (ยังยอมรับว่ามีจุดที่ทำให้ตกงาน) หรือว่าค่าแรงรายภูมิภาคดีที่สุด"
+            },
+            {
+              "id": "CU-S3-084",
+              "stem": "The word \"durable\" in paragraph 1 is closest in meaning to",
+              "options": [
+                "long-lasting",
+                "well-informed",
+                "bitter",
+                "technical"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "durable = คงทน ยืนยาว ผู้เขียนอธิบายว่าการถกเถียงไม่จบเพราะทั้งสองฝ่ายมีหลักฐาน จึงหมายถึงการถกเถียงที่ยืดเยื้อ (long-lasting)"
+            },
+            {
+              "id": "CU-S3-085",
+              "stem": "According to the traditional argument, what happens when the minimum wage is set above the market level?",
+              "options": [
+                "Prices fall because workers have more money to spend on goods.",
+                "Experienced workers leave to find better-paid jobs.",
+                "Workers stay longer with the same employer.",
+                "Fewer workers are hired, especially inexperienced ones."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 บอกว่านายจ้าง \"will buy less of it\" และคนที่ \"least experienced\" จะหลุดจากงาน ส่วนการอยู่งานนานขึ้นเป็นคำอธิบายของอีกฝ่าย"
+            },
+            {
+              "id": "CU-S3-086",
+              "stem": "What did studies comparing neighbouring regions often find?",
+              "options": [
+                "Businesses left the regions that had raised their minimum wage.",
+                "Employment did not drop noticeably after the minimum was raised.",
+                "Wages also rose in the region that kept its old minimum.",
+                "Workers moved to the region that kept the lower minimum wage."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าการจ้างงาน \"did not fall noticeably, and in some it even rose slightly\" ซึ่งขัดกับแบบจำลองดั้งเดิม"
+            },
+            {
+              "id": "CU-S3-087",
+              "stem": "According to the passage, how might higher wages benefit employers?",
+              "options": [
+                "Staff stay longer, so hiring and training costs fall.",
+                "Better-paid workers need much less supervision at work.",
+                "Employers become eligible for lower rates of tax.",
+                "Machines become cheaper to buy and to maintain."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่า \"workers who are paid better tend to stay longer, sparing employers the expense of constant recruitment and training\""
+            },
+            {
+              "id": "CU-S3-088",
+              "stem": "In paragraph 5, the word \"it\" in \"it may well lie in different places\" refers to",
+              "options": [
+                "the disagreement among economists about the policy",
+                "the policy of having a minimum wage",
+                "the wage level at which jobs start to be lost",
+                "the use of machines to replace workers"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"The real disagreement is about where that point lies, and it may well lie in different places\" it หมายถึง that point คือจุดที่ค่าแรงขั้นต่ำสูงจนทำให้มีการลดคน"
+            },
+            {
+              "id": "CU-S3-089",
+              "stem": "What can be inferred from the example of the capital city and the rural province?",
+              "options": [
+                "Capital cities should set a lower rate than rural areas.",
+                "Living costs are similar in all parts of most countries.",
+                "Rural provinces should have a higher rate than the capital.",
+                "A single national rate may suit some areas but harm others."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ค่าแรงขั้นต่ำที่ \"harmless\" ในเมืองหลวงอาจ \"damaging\" ในชนบทที่ค่าครองชีพต่ำกว่า จึงสื่อว่าอัตราเดียวทั้งประเทศอาจไม่เหมาะกับทุกพื้นที่ ซึ่งนำไปสู่การกำหนดตามภูมิภาค"
+            },
+            {
+              "id": "CU-S3-090",
+              "stem": "Which best describes the author's tone?",
+              "options": [
+                "Balanced and analytical",
+                "Quietly supportive of wage rises",
+                "Sceptical of recent findings",
+                "Critical of regional rates"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนนำเสนอทั้งข้อโต้แย้งของฝ่ายสนับสนุนและฝ่ายค้าน พร้อมหลักฐานและข้อจำกัด โดยไม่เข้าข้างฝ่ายใด จึงเป็นน้ำเสียงที่สมดุลและวิเคราะห์"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "CU-S3-G22",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (แต่ละประโยคมีที่ผิดเพียง 1 แห่ง)",
+          "items": [
+            {
+              "id": "CU-S3-091",
+              "stem": "Rarely [[the researchers have]] encountered a species [[that]] adapts [[so quickly]] to [[changing]] conditions.",
+              "options": [
+                "the researchers have",
+                "that",
+                "so quickly",
+                "changing"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "เมื่อขึ้นต้นด้วยคำปฏิเสธ Rarely ต้องกลับประธานกับกริยาช่วย เป็น \"Rarely have the researchers encountered\""
+            },
+            {
+              "id": "CU-S3-092",
+              "stem": "Students [[are required]] to submit [[their]] assignments electronically, and late submissions [[will not]] be [[accepting]].",
+              "options": [
+                "are required",
+                "their",
+                "will not",
+                "accepting"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "submissions ถูกรับ (passive) จึงต้องเป็น \"will not be accepted\" ใช้ V3 ไม่ใช่ V-ing"
+            },
+            {
+              "id": "CU-S3-093",
+              "stem": "Although the survey [[was conducted]] over three months, the researchers [[were unable]] to draw firm conclusions [[because]] the [[small]] size of the sample.",
+              "options": [
+                "was conducted",
+                "were unable",
+                "because",
+                "small"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "หลังช่องว่างเป็นวลีนาม (the small size of the sample) ไม่ใช่อนุประโยค จึงต้องใช้บุพบท because of แทน because"
+            },
+            {
+              "id": "CU-S3-094",
+              "stem": "The museum's collection [[consists]] of more than ten thousand objects, [[many of which]] [[has]] never been [[displayed]] publicly.",
+              "options": [
+                "consists",
+                "many of which",
+                "has",
+                "displayed"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "\"many of which\" หมายถึง objects หลายชิ้น (พหูพจน์) จึงต้องใช้ have never been displayed"
+            },
+            {
+              "id": "CU-S3-095",
+              "stem": "The number of students [[who enrol]] in online courses [[have risen]] steadily [[since]] the university [[introduced]] its new platform.",
+              "options": [
+                "who enrol",
+                "have risen",
+                "since",
+                "introduced"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"The number\" (เอกพจน์) จึงต้องใช้ has risen ไม่ใช่ have risen"
+            },
+            {
+              "id": "CU-S3-096",
+              "stem": "[[Despite]] the heavy rain, the field researchers [[continued]] collecting samples [[until]] late in the evening, [[that]] surprised their supervisor.",
+              "options": [
+                "Despite",
+                "continued",
+                "until",
+                "that"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "อนุประโยคหลังจุลภาคที่ขยายความทั้งประโยคต้องใช้ which ไม่ใช้ that ใน non-defining relative clause"
+            },
+            {
+              "id": "CU-S3-097",
+              "stem": "The new library, [[designing]] by a local architecture firm, [[has become]] one of the [[most visited]] buildings [[on]] campus.",
+              "options": [
+                "designing",
+                "has become",
+                "most visited",
+                "on"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ห้องสมุดถูกออกแบบ (passive) วลีขยายจึงต้องเป็น \"designed by\" ไม่ใช่ designing"
+            },
+            {
+              "id": "CU-S3-098",
+              "stem": "The results of the experiment [[was]] reported to the committee [[before]] the data [[had been]] fully [[checked]].",
+              "options": [
+                "was",
+                "before",
+                "had been",
+                "checked"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ The results (พหูพจน์) ไม่ใช่ experiment กริยาจึงต้องเป็น were reported"
+            },
+            {
+              "id": "CU-S3-099",
+              "stem": "The findings, [[which]] were published last spring, [[suggests]] that urban trees [[can lower]] street temperatures [[considerably]].",
+              "options": [
+                "which",
+                "suggests",
+                "can lower",
+                "considerably"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ The findings (พหูพจน์) กริยาจึงต้องเป็น suggest ไม่เติม -s"
+            },
+            {
+              "id": "CU-S3-100",
+              "stem": "The archive [[contains]] letters [[written]] by merchants [[whom]] traded along the coast [[during]] the eighteenth century.",
+              "options": [
+                "contains",
+                "written",
+                "whom",
+                "during"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำเชื่อมทำหน้าที่ประธานของ traded จึงต้องใช้ who ส่วน whom ใช้เป็นกรรมเท่านั้น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G23",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (แต่ละประโยคมีที่ผิดเพียง 1 แห่ง)",
+          "items": [
+            {
+              "id": "CU-S3-101",
+              "stem": "A growing body of evidence [[indicate]] that students who [[take]] handwritten notes [[recall]] lecture content better than [[do]] those who type.",
+              "options": [
+                "indicate",
+                "take",
+                "recall",
+                "do"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"A growing body\" (เอกพจน์) ไม่ใช่ evidence หรือ students จึงต้องใช้ indicates ส่วน \"than do those\" เป็นการสลับที่แบบทางการที่ถูกต้อง"
+            },
+            {
+              "id": "CU-S3-102",
+              "stem": "[[The more carefully]] a hypothesis is tested, [[the most]] confidence scientists [[can place]] in [[its]] predictions.",
+              "options": [
+                "The more carefully",
+                "the most",
+                "can place",
+                "its"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้างเปรียบเทียบคู่ \"the + comparative ..., the + comparative\" ต้องใช้ the more confidence ไม่ใช่ the most"
+            },
+            {
+              "id": "CU-S3-103",
+              "stem": "Not only [[does]] the new curriculum emphasise critical thinking, but it also [[encourage]] students [[to work]] [[collaboratively]].",
+              "options": [
+                "does",
+                "encourage",
+                "to work",
+                "collaboratively"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ในส่วน but it also ... ประธาน it เป็นเอกพจน์ กริยาจึงต้องเป็น encourages"
+            },
+            {
+              "id": "CU-S3-104",
+              "stem": "Each of the participants [[was given]] a questionnaire [[asking]] them [[to describe]] [[theirs]] daily study habits.",
+              "options": [
+                "was given",
+                "asking",
+                "to describe",
+                "theirs"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หน้าคำนาม (daily study habits) ต้องใช้คำคุณศัพท์แสดงความเป็นเจ้าของ their ส่วน theirs เป็นสรรพนามที่ใช้แทนคำนาม"
+            },
+            {
+              "id": "CU-S3-105",
+              "stem": "[[Despite of]] the cold weather, the expedition [[reached]] the summit [[earlier]] than [[planned]].",
+              "options": [
+                "Despite of",
+                "reached",
+                "earlier",
+                "planned"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "despite ไม่ใช้ร่วมกับ of ต้องเป็น \"Despite the cold weather\" หรือ \"In spite of the cold weather\""
+            },
+            {
+              "id": "CU-S3-106",
+              "stem": "[[Owing to]] a shortage of funding, the excavation [[had to]] be suspended, and [[many]] of the pottery [[is]] still unexamined.",
+              "options": [
+                "Owing to",
+                "had to",
+                "many",
+                "is"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "pottery เป็นคำนามนับไม่ได้ จึงต้องใช้ much of the pottery ไม่ใช่ many ส่วนกริยา remains (เอกพจน์) ถูกต้องแล้ว"
+            },
+            {
+              "id": "CU-S3-107",
+              "stem": "One of the [[most significant]] outcomes of the project [[was]] the [[development]] of a low-cost water filter [[what]] could be produced locally.",
+              "options": [
+                "most significant",
+                "was",
+                "development",
+                "what"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้คำเชื่อม relative pronoun that หรือ which ขยาย a low-cost water filter ส่วน what ไม่ใช้ขยายคำนามข้างหน้า"
+            },
+            {
+              "id": "CU-S3-108",
+              "stem": "The town council [[has decided]] to postpone the project [[until]] a full environmental assessment [[will be]] [[completed]].",
+              "options": [
+                "has decided",
+                "until",
+                "will be",
+                "completed"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "อนุประโยคบอกเวลาหลัง until ไม่ใช้ will แม้หมายถึงอนาคต ต้องใช้ \"has been completed\" หรือ \"is completed\""
+            },
+            {
+              "id": "CU-S3-109",
+              "stem": "By the time the survey team [[arrived]], the river [[has already]] [[risen]] above the [[highest]] recorded level.",
+              "options": [
+                "arrived",
+                "has already",
+                "risen",
+                "highest"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีต (arrived) ต้องใช้ past perfect \"had already risen\" ไม่ใช่ present perfect"
+            },
+            {
+              "id": "CU-S3-110",
+              "stem": "[[Unlike]] earlier studies, [[which]] relied on self-reported data, the current project measures participants' activity [[by means of]] sensors [[weared]] on the wrist.",
+              "options": [
+                "Unlike",
+                "which",
+                "by means of",
+                "weared"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "กริยาช่องที่ 3 ของ wear คือ worn วลีขยายแบบ passive จึงต้องเป็น \"sensors worn on the wrist\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S3-G24",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (แต่ละประโยคมีที่ผิดเพียง 1 แห่ง)",
+          "items": [
+            {
+              "id": "CU-S3-111",
+              "stem": "Many participants [[were]] [[surprising]] by how [[quickly]] they [[adapted]] to the new software.",
+              "options": [
+                "were",
+                "surprising",
+                "quickly",
+                "adapted"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ผู้เข้าร่วมรู้สึกประหลาดใจ (ถูกทำให้แปลกใจ) จึงต้องใช้ surprised ไม่ใช่ surprising"
+            },
+            {
+              "id": "CU-S3-112",
+              "stem": "The new bridge was designed [[to withstand]] winds [[that]] are [[more stronger]] than [[any]] previously recorded in the area.",
+              "options": [
+                "to withstand",
+                "that",
+                "more stronger",
+                "any"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "strong เป็นคำพยางค์เดียว ขั้นกว่าคือ stronger ไม่ต้องใช้ more ซ้ำ (double comparative)"
+            },
+            {
+              "id": "CU-S3-113",
+              "stem": "The electron microscope, [[that]] was purchased only last year, [[has already been]] replaced [[by]] a [[more advanced]] model.",
+              "options": [
+                "that",
+                "has already been",
+                "by",
+                "more advanced"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "non-defining relative clause (มีจุลภาคคั่น) ต้องใช้ which ไม่ใช้ that"
+            },
+            {
+              "id": "CU-S3-114",
+              "stem": "The volunteers [[who participated]] in the study [[were asked]] to avoid [[to use]] their phones for [[an entire]] week.",
+              "options": [
+                "who participated",
+                "were asked",
+                "to use",
+                "an entire"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "avoid ต้องตามด้วย V-ing จึงเป็น \"avoid using\" ไม่ใช่ to use"
+            },
+            {
+              "id": "CU-S3-115",
+              "stem": "The quantity of plastic waste [[entering]] the ocean each year [[is]] estimated to be [[several]] million tonnes, [[the most]] of which comes from land.",
+              "options": [
+                "entering",
+                "is",
+                "several",
+                "the most"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "สำนวนที่ถูกคือ \"most of which\" (ส่วนใหญ่ของจำนวนนั้น) ไม่ใช้ the most หน้า of which"
+            },
+            {
+              "id": "CU-S3-116",
+              "stem": "The professor, [[together with]] her two assistants, [[are]] [[preparing]] a report [[on]] the findings.",
+              "options": [
+                "together with",
+                "are",
+                "preparing",
+                "on"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานหลักคือ The professor (เอกพจน์) วลี together with ... ไม่ทำให้ประธานเป็นพหูพจน์ จึงต้องใช้ is preparing"
+            },
+            {
+              "id": "CU-S3-117",
+              "stem": "[[Every]] participants in the workshop [[received]] a certificate [[after]] [[completing]] the final assessment.",
+              "options": [
+                "Every",
+                "received",
+                "after",
+                "completing"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "every ต้องตามด้วยคำนามเอกพจน์ เมื่อคำนามเป็นพหูพจน์ (participants) ต้องใช้ All แทน Every"
+            },
+            {
+              "id": "CU-S3-118",
+              "stem": "Researchers [[have found]] that people [[tend]] to underestimate how [[many]] time they will need [[to finish]] a task.",
+              "options": [
+                "have found",
+                "tend",
+                "many",
+                "to finish"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "time ในความหมาย \"เวลา\" เป็นคำนามนับไม่ได้ จึงต้องใช้ how much time ไม่ใช่ how many"
+            },
+            {
+              "id": "CU-S3-119",
+              "stem": "The professor asked the students [[where]] [[did they]] [[find]] the sources [[cited]] in their reports.",
+              "options": [
+                "where",
+                "did they",
+                "find",
+                "cited"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "คำถามทางอ้อม (indirect question) ใช้ลำดับแบบประโยคบอกเล่า \"where they found\" ไม่ใช้ did they"
+            },
+            {
+              "id": "CU-S3-120",
+              "stem": "It was [[not until]] the twentieth century [[that]] geologists [[began]] to understand how earthquakes [[originates]].",
+              "options": [
+                "not until",
+                "that",
+                "began",
+                "originates"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน earthquakes เป็นพหูพจน์ กริยาจึงต้องเป็น originate ไม่เติม -s"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

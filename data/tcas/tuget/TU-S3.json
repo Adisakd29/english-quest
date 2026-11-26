@@ -1,0 +1,1410 @@
+{
+  "exam": "tuget",
+  "setId": "TU-S3",
+  "title": "TU-GET ชุดฝึกที่ 3",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 98,
+    "keyMatch": 98,
+    "total": 100,
+    "note": "รอบสุดท้ายผู้ตรวจเลือกต่างจากเฉลย 2 ข้อ (095/096) โดยไม่ระบุเหตุผล — ผู้ประสานงานตรวจซ้ำกับบทความแล้วเฉลยถูก"
+  },
+  "sections": [
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "TU-S3-G01",
+          "type": "tu_sentence",
+          "instructionTh": "เลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างเพื่อให้ประโยคถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "TU-S3-001",
+              "stem": "Not until the final figures were published ____ how close the two research teams had come to the same result.",
+              "options": [
+                "had realized the scientists",
+                "the scientists realized",
+                "did the scientists realize",
+                "the scientists did realize"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง Not until ... ขึ้นต้นประโยค ต้องกลับประธานกับกริยาช่วยในประโยคหลัก จึงต้องเป็น did the scientists realize ตัวเลือกอื่นไม่ได้กลับลำดับหรือกลับผิดรูป"
+            },
+            {
+              "id": "TU-S3-002",
+              "stem": "The admissions committee recommended that every applicant ____ a portfolio of recent work by the end of the month.",
+              "options": [
+                "is submitting",
+                "submits",
+                "has submitted",
+                "submit"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา recommend that ... ใช้ subjunctive คือกริยารูปฐาน (submit) โดยไม่เติม s แม้ประธานเป็นเอกพจน์"
+            },
+            {
+              "id": "TU-S3-003",
+              "stem": "____ the cost of raw materials, the factory managed to keep its prices stable throughout the year.",
+              "options": [
+                "Although a sharp rise in",
+                "Even though sharply rising",
+                "Because of a sharp rise in",
+                "Despite a sharp rise in"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้คำบุพบท Despite ตามด้วยนามวลี และความหมายขัดแย้งกัน (ต้นทุนขึ้น แต่ยังคุมราคาได้) Although ต้องตามด้วยอนุประโยค ส่วน Because of ให้ความหมายไม่สมเหตุผล"
+            },
+            {
+              "id": "TU-S3-004",
+              "stem": "Had the bridge been inspected more carefully, the cracks in its supports ____ much earlier.",
+              "options": [
+                "would have been detected",
+                "would have detected",
+                "will have been detected",
+                "would be detected"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "Had ... been inspected คือ If-clause แบบที่ 3 ที่ละ if แล้วกลับประธาน ผลจึงต้องเป็น would have + V3 และรอยร้าวถูกตรวจพบ จึงต้องเป็น passive (would have been detected)"
+            },
+            {
+              "id": "TU-S3-005",
+              "stem": "The rainfall data, ____ were collected over a period of six years, point to a gradual shift in the monsoon season.",
+              "options": [
+                "which most",
+                "most of them",
+                "most of what",
+                "most of which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ relative pronoun เชื่อมอนุประโยคหลังเครื่องหมายจุลภาค most of which หมายถึงข้อมูลส่วนใหญ่ ส่วน most of them เป็นสรรพนามธรรมดาที่เชื่อมประโยคไม่ได้"
+            },
+            {
+              "id": "TU-S3-006",
+              "stem": "Scarcely had the guest speaker begun her presentation ____ the projector suddenly stopped working.",
+              "options": [
+                "when",
+                "then",
+                "than",
+                "that"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "สำนวนคู่ Scarcely/Hardly ... when หมายถึงเพิ่ง...ก็... ส่วน than ใช้คู่กับ No sooner เท่านั้น"
+            },
+            {
+              "id": "TU-S3-007",
+              "stem": "The city library, ____ in the late 1990s, has recently been extended to include a digital media centre.",
+              "options": [
+                "was originally designed",
+                "which originally designed",
+                "originally designing",
+                "originally designed"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "เป็นการลดรูป relative clause แบบ passive (which was originally designed) ห้องสมุดถูกออกแบบ จึงใช้ V3 ส่วน which originally designed ขาด was และมีความหมายเป็น active"
+            },
+            {
+              "id": "TU-S3-008",
+              "stem": "It is essential that the water samples ____ at a constant temperature until they reach the laboratory.",
+              "options": [
+                "will keep",
+                "being kept",
+                "be kept",
+                "are keeping"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "It is essential that ... ใช้ subjunctive (กริยารูปฐาน) และตัวอย่างน้ำถูกเก็บ จึงเป็น passive be kept"
+            },
+            {
+              "id": "TU-S3-009",
+              "stem": "Only by comparing several independent sources ____ a reliable picture of what happened in the village.",
+              "options": [
+                "historians can build",
+                "can historians build",
+                "historians building",
+                "can build historians"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "Only by ... ขึ้นต้นประโยค ต้องกลับกริยาช่วยไว้หน้าประธาน คือ can historians build"
+            },
+            {
+              "id": "TU-S3-010",
+              "stem": "The head of the department, together with her two assistants, ____ to present the findings at next month's conference.",
+              "options": [
+                "have been expected",
+                "expecting",
+                "is expected",
+                "are expected"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประธานจริงคือ The head (เอกพจน์) ส่วน together with her two assistants เป็นเพียงส่วนขยาย กริยาจึงเป็นเอกพจน์ is expected"
+            },
+            {
+              "id": "TU-S3-011",
+              "stem": "The more carefully a survey question is worded, ____ the answers are likely to be.",
+              "options": [
+                "the most reliable",
+                "more reliable",
+                "the more reliable",
+                "the reliable more"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้างเปรียบเทียบคู่ The more ..., the more ... ต้องมี the นำหน้าทั้งสองส่วนและใช้ขั้นกว่า"
+            },
+            {
+              "id": "TU-S3-012",
+              "stem": "Her parents would rather she ____ the shuttle bus than walk back to the dormitory alone late at night.",
+              "options": [
+                "takes",
+                "took",
+                "taking",
+                "to take"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "would rather + ประธานอีกคน ตามด้วยกริยาช่อง 2 (past subjunctive) เพื่อพูดถึงความต้องการในปัจจุบันหรืออนาคต จึงใช้ took"
+            },
+            {
+              "id": "TU-S3-013",
+              "stem": "By the time the new regulations take effect next year, most of the staff ____ the required safety training.",
+              "options": [
+                "have completed",
+                "had completed",
+                "will complete",
+                "will have completed"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "By the time + เหตุการณ์ในอนาคต ใช้ future perfect (will have completed) เพราะการอบรมจะเสร็จก่อนจุดเวลานั้น"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G02",
+          "type": "tu_error",
+          "instructionTh": "แต่ละประโยคมีส่วนที่ขีดเส้นใต้ 4 ส่วน เลือกส่วนที่ผิดหลักไวยากรณ์ซึ่งต้องแก้ไขเพื่อให้ประโยคถูกต้อง",
+          "items": [
+            {
+              "id": "TU-S3-014",
+              "stem": "[[Having finishing]] the quarterly report, the analyst [[sent]] it to her manager [[for]] [[approval]].",
+              "options": [
+                "Having finishing",
+                "sent",
+                "for",
+                "approval"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "หลัง Having ต้องใช้ V3 เป็น perfect participle คือ Having finished ไม่ใช่ Having finishing"
+            },
+            {
+              "id": "TU-S3-015",
+              "stem": "The number of students [[who apply]] for overseas scholarships [[have increased]] steadily [[over]] the past [[decade]].",
+              "options": [
+                "who apply",
+                "have increased",
+                "over",
+                "decade"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "The number of ... เป็นประธานเอกพจน์ (จำนวน) กริยาต้องเป็น has increased ต่างจาก A number of ที่ใช้พหูพจน์"
+            },
+            {
+              "id": "TU-S3-016",
+              "stem": "Researchers have found that people who [[regularly]] sleep less than six hours a night [[are]] more likely [[making]] errors [[at]] work.",
+              "options": [
+                "regularly",
+                "are",
+                "making",
+                "at"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "สำนวน be likely ต้องตามด้วย to + V1 จึงต้องเป็น more likely to make ไม่ใช่ making"
+            },
+            {
+              "id": "TU-S3-017",
+              "stem": "The museum's new wing, [[which]] opened last spring, [[has attracted]] far more visitors [[than]] [[expecting]].",
+              "options": [
+                "which",
+                "has attracted",
+                "than",
+                "expecting"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ต้องเป็น than expected (ที่คาดไว้) ซึ่งเป็นรูป passive ย่อ ไม่ใช่ expecting"
+            },
+            {
+              "id": "TU-S3-018",
+              "stem": "[[Despite of]] the heavy traffic, the delegates [[arrived]] at the venue [[in time]] [[for]] the opening speech.",
+              "options": [
+                "Despite of",
+                "arrived",
+                "in time",
+                "for"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "Despite ใช้ตามด้วยนามได้เลยโดยไม่มี of (หรือใช้ In spite of) Despite of จึงผิด"
+            },
+            {
+              "id": "TU-S3-019",
+              "stem": "Neither the project manager nor the engineers [[was]] informed [[about]] the change [[in]] the delivery [[schedule]].",
+              "options": [
+                "was",
+                "about",
+                "in",
+                "schedule"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "Neither ... nor ... กริยาผันตามประธานตัวที่อยู่ใกล้ที่สุด คือ the engineers (พหูพจน์) จึงต้องเป็น were"
+            },
+            {
+              "id": "TU-S3-020",
+              "stem": "If the city [[had invested]] in public transport a decade ago, traffic congestion [[would not have]] [[became]] [[so]] severe.",
+              "options": [
+                "had invested",
+                "would not have",
+                "became",
+                "so"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "หลัง would not have ต้องใช้กริยาช่อง 3 คือ become (would not have become) ไม่ใช่ became ซึ่งเป็นช่อง 2 ส่วนอื่นถูกตามโครงสร้างเงื่อนไขแบบที่ 3"
+            },
+            {
+              "id": "TU-S3-021",
+              "stem": "The survey findings were [[so]] surprising [[that]] several journals [[refused]] to publish [[it]].",
+              "options": [
+                "so",
+                "that",
+                "refused",
+                "it"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "สรรพนามต้องอ้างถึง findings ซึ่งเป็นพหูพจน์ จึงต้องใช้ them ไม่ใช่ it"
+            },
+            {
+              "id": "TU-S3-022",
+              "stem": "[[Much]] of the participants [[reported]] that the instructions [[were]] [[confusing]].",
+              "options": [
+                "Much",
+                "reported",
+                "were",
+                "confusing"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "participants เป็นนามนับได้พหูพจน์ ต้องใช้ Many of ไม่ใช่ Much of ซึ่งใช้กับนามนับไม่ได้"
+            },
+            {
+              "id": "TU-S3-023",
+              "stem": "The committee [[decided]] [[postponing]] the vote until all members [[had]] [[read]] the report.",
+              "options": [
+                "decided",
+                "postponing",
+                "had",
+                "read"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "decide ต้องตามด้วย to + V1 จึงต้องเป็น decided to postpone ไม่ใช่ postponing"
+            },
+            {
+              "id": "TU-S3-024",
+              "stem": "Plastic waste [[poses]] a serious threat to marine life [[because]] many sea animals [[mistakes]] it for [[food]].",
+              "options": [
+                "poses",
+                "because",
+                "mistakes",
+                "food"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ many sea animals (พหูพจน์) กริยาต้องเป็น mistake ไม่เติม s"
+            },
+            {
+              "id": "TU-S3-025",
+              "stem": "Only [[a few]] of the applicants [[were]] able to answer [[the]] final interview question [[correct]].",
+              "options": [
+                "a few",
+                "were",
+                "the",
+                "correct"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "คำที่ขยายกริยา answer ต้องเป็นคำวิเศษณ์ correctly ไม่ใช่คำคุณศัพท์ correct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "TU-S3-G03",
+          "type": "tu_vocab",
+          "instructionTh": "เลือกคำหรือวลีที่มีความหมายใกล้เคียงกับคำที่กำหนดมากที่สุด หรือเลือกคำที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "items": [
+            {
+              "id": "TU-S3-026",
+              "stem": "The committee's decision was based on a meticulous review of all the available evidence. The word 'meticulous' is closest in meaning to",
+              "options": [
+                "partial",
+                "thorough",
+                "hasty",
+                "public"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "meticulous แปลว่า ละเอียดถี่ถ้วนมาก ตรงกับ thorough ส่วน hasty (รีบร้อน) และ partial (บางส่วน) มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S3-027",
+              "stem": "The committee's conclusions were dismissed as speculative because they were not supported by any data. The word 'speculative' is closest in meaning to",
+              "options": [
+                "based on guesswork",
+                "based on bias",
+                "based on old records",
+                "based on careful testing"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "speculative แปลว่า เป็นการคาดเดา ไม่มีหลักฐานรองรับ สอดคล้องกับ not supported by any data ส่วน based on bias (อคติ) เป็นตัวลวงที่ใกล้เคียงแต่ไม่ใช่ความหมายของคำ"
+            },
+            {
+              "id": "TU-S3-028",
+              "stem": "The government introduced several measures to ____ the impact of rising food prices on low-income families.",
+              "options": [
+                "estimate",
+                "aggravate",
+                "mitigate",
+                "illuminate"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "mitigate แปลว่า บรรเทา ลดความรุนแรง เหมาะกับมาตรการช่วยครอบครัวรายได้น้อย ส่วน aggravate แปลว่าทำให้แย่ลง ขัดกับเจตนาของมาตรการ"
+            },
+            {
+              "id": "TU-S3-029",
+              "stem": "The author's argument is seriously undermined by her reliance on a single, outdated source. The word 'undermined' is closest in meaning to",
+              "options": [
+                "supported",
+                "replaced",
+                "clarified",
+                "weakened"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "undermine แปลว่า บ่อนทำลาย ทำให้อ่อนลง การพึ่งแหล่งข้อมูลเก่าเพียงแหล่งเดียวทำให้ข้อโต้แย้งอ่อนลง จึงตรงกับ weakened"
+            },
+            {
+              "id": "TU-S3-030",
+              "stem": "The report summarises the salient points of the proposal on a single page for busy board members. The word 'salient' is closest in meaning to",
+              "options": [
+                "most controversial",
+                "most important",
+                "least familiar",
+                "most technical"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "salient แปลว่า เด่นชัด สำคัญที่สุด รายงานหน้าเดียวสำหรับกรรมการที่มีเวลาน้อยจึงสรุปเฉพาะประเด็นสำคัญ ส่วน most controversial (ขัดแย้งที่สุด) เป็นตัวลวงที่ไม่ใช่ความหมายของคำ"
+            },
+            {
+              "id": "TU-S3-031",
+              "stem": "Reliable access to clean water is a ____ for any successful public health program in rural areas.",
+              "options": [
+                "consequence",
+                "dilemma",
+                "substitute",
+                "prerequisite"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "prerequisite แปลว่า สิ่งที่ต้องมีก่อน เงื่อนไขจำเป็น น้ำสะอาดต้องมีก่อนโครงการจึงจะสำเร็จ ส่วน consequence คือผลที่ตามมา ไม่เข้ากับความหมาย"
+            },
+            {
+              "id": "TU-S3-032",
+              "stem": "The two village leaders met privately in an attempt to ____ tensions over the shared irrigation canal.",
+              "options": [
+                "dispatch",
+                "inflate",
+                "provoke",
+                "defuse"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "defuse tensions แปลว่า คลี่คลายความตึงเครียด เป็นเหตุผลของการพบกันเพื่อหาทางออก ส่วน provoke คือยั่วยุให้รุนแรงขึ้น"
+            },
+            {
+              "id": "TU-S3-033",
+              "stem": "The results of the pilot study were inconclusive, so the team decided to collect more data. The word 'inconclusive' is closest in meaning to",
+              "options": [
+                "not published",
+                "not accurate",
+                "not definite",
+                "not expected"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "inconclusive แปลว่า ยังสรุปไม่ได้ ไม่ชี้ขาด ทีมจึงต้องเก็บข้อมูลเพิ่ม ส่วน not accurate (ไม่ถูกต้อง) เป็นกับดัก เพราะผลที่สรุปไม่ได้ไม่จำเป็นต้องผิด"
+            },
+            {
+              "id": "TU-S3-034",
+              "stem": "The manager was praised for her pragmatic approach to solving the staffing shortage. The word 'pragmatic' is closest in meaning to",
+              "options": [
+                "practical",
+                "careless",
+                "emotional",
+                "idealistic"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "pragmatic แปลว่า มุ่งเน้นการปฏิบัติได้จริง ตรงกับ practical ส่วน idealistic (ยึดอุดมคติ) มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S3-035",
+              "stem": "Several species of lizard are ____ to the island and cannot be found anywhere else on Earth.",
+              "options": [
+                "exotic",
+                "immune",
+                "endemic",
+                "hostile"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "endemic to แปลว่า เป็นถิ่นกำเนิดเฉพาะที่ ซึ่งตรงกับข้อความว่าไม่พบที่อื่นในโลก ส่วน exotic หมายถึงมาจากต่างถิ่น"
+            },
+            {
+              "id": "TU-S3-036",
+              "stem": "The guest lecture was so convoluted that few of the first-year students could follow it. The word 'convoluted' is closest in meaning to",
+              "options": [
+                "repetitive",
+                "brief",
+                "persuasive",
+                "complicated"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "convoluted แปลว่า ซับซ้อน วกวน เป็นเหตุให้นักศึกษาตามไม่ทัน จึงตรงกับ complicated"
+            },
+            {
+              "id": "TU-S3-037",
+              "stem": "Encouraged by strong sales at home, the company plans to ____ its operations into neighbouring markets next year.",
+              "options": [
+                "expound",
+                "expend",
+                "expand",
+                "expel"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "expand operations into ... แปลว่า ขยายกิจการเข้าไปใน... สอดคล้องกับยอดขายที่ดี ส่วน expend (ใช้จ่าย) expound (อธิบายละเอียด) และ expel (ขับไล่) สะกดคล้ายกันแต่ใช้กับ operations into ไม่ได้"
+            },
+            {
+              "id": "TU-S3-038",
+              "stem": "Satellite images corroborate the villagers' account of how quickly the river changed course. The word 'corroborate' is closest in meaning to",
+              "options": [
+                "contradict",
+                "confirm",
+                "summarize",
+                "question"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "corroborate แปลว่า ยืนยัน สนับสนุนให้น่าเชื่อถือขึ้น ตรงกับ confirm ส่วน contradict แปลว่าขัดแย้ง"
+            },
+            {
+              "id": "TU-S3-039",
+              "stem": "The new regulations are intended to ____ unfair competition among small retailers in the old market district.",
+              "options": [
+                "qualify",
+                "foster",
+                "curb",
+                "resume"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "curb แปลว่า ควบคุม ยับยั้ง กฎใหม่ย่อมมีจุดประสงค์ยับยั้งการแข่งขันที่ไม่เป็นธรรม ส่วน foster (ส่งเสริม) ไม่สมเหตุผล"
+            },
+            {
+              "id": "TU-S3-040",
+              "stem": "A lack of reliable long-term funding remains the main impediment to coral research in the region. The word 'impediment' is closest in meaning to",
+              "options": [
+                "priority",
+                "incentive",
+                "obstacle",
+                "consequence"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "impediment แปลว่า อุปสรรค สิ่งขัดขวาง การขาดงบประมาณที่มั่นคงย่อมขัดขวางการวิจัย ส่วน incentive (แรงจูงใจ) มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S3-041",
+              "stem": "The documentary offers a candid portrait of daily life in a small fishing community. The word 'candid' is closest in meaning to",
+              "options": [
+                "imaginary",
+                "honest",
+                "colourful",
+                "flattering"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "candid แปลว่า ตรงไปตรงมา จริงใจ ไม่ปรุงแต่ง ตรงกับ honest ส่วน flattering หมายถึงเยินยอให้ดูดีเกินจริง"
+            },
+            {
+              "id": "TU-S3-042",
+              "stem": "Because the two studies relied on ____ methods, their results cannot easily be compared.",
+              "options": [
+                "desperate",
+                "deliberate",
+                "disparate",
+                "dispassionate"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "disparate แปลว่า แตกต่างกันมาก จึงทำให้เปรียบเทียบผลกันยาก ส่วน desperate (สิ้นหวัง) หน้าตาคล้ายกันแต่ความหมายไม่เกี่ยว และ deliberate (ตั้งใจ) หรือ dispassionate (ไม่ใช้อารมณ์) ไม่ได้อธิบายว่าทำไมเปรียบเทียบไม่ได้"
+            },
+            {
+              "id": "TU-S3-043",
+              "stem": "Population growth in the district has been negligible over the past decade. The word 'negligible' is closest in meaning to",
+              "options": [
+                "very rapid",
+                "very small",
+                "well documented",
+                "unpredictable"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "negligible แปลว่า น้อยมากจนแทบไม่ต้องนับ ตรงกับ very small"
+            },
+            {
+              "id": "TU-S3-044",
+              "stem": "The small museum relies heavily on private donations to ____ its educational programs for schools.",
+              "options": [
+                "restrain",
+                "obtain",
+                "sustain",
+                "contain"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "sustain แปลว่า ค้ำจุนให้ดำเนินต่อไปได้ เงินบริจาคช่วยให้โครงการของพิพิธภัณฑ์ดำเนินต่อไป ส่วน obtain (ได้มา) restrain (ยับยั้ง) และ contain (บรรจุ/ควบคุม) ที่สะกดคล้ายกันไม่เข้ากับความหมาย"
+            },
+            {
+              "id": "TU-S3-045",
+              "stem": "The scientist's tentative conclusion was later confirmed by further experiments. The word 'tentative' is closest in meaning to",
+              "options": [
+                "final",
+                "controversial",
+                "surprising",
+                "provisional"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "tentative แปลว่า ยังไม่แน่นอน เป็นการชั่วคราว ตรงกับ provisional และบริบทที่ว่าภายหลังจึงได้รับการยืนยันก็สนับสนุนความหมายนี้"
+            },
+            {
+              "id": "TU-S3-046",
+              "stem": "The parking policy has been criticized for being ____; it changes so often that no one knows which rules currently apply.",
+              "options": [
+                "rigid",
+                "transparent",
+                "inconsistent",
+                "comprehensive"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "inconsistent แปลว่า ไม่คงเส้นคงวา ตรงกับข้อความว่าเปลี่ยนบ่อยจนไม่มีใครรู้กฎ ส่วน rigid (เข้มงวดตายตัว) มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S3-047",
+              "stem": "The decline of traditional weaving in the region has been exacerbated by cheap factory imports. The word 'exacerbated' is closest in meaning to",
+              "options": [
+                "slowed down",
+                "prevented",
+                "made obvious",
+                "made worse"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "exacerbate แปลว่า ทำให้รุนแรงหรือแย่ลง สินค้าโรงงานราคาถูกทำให้การทอผ้าพื้นบ้านถดถอยหนักขึ้น"
+            },
+            {
+              "id": "TU-S3-048",
+              "stem": "Before the report was released, every figure in it was ____ checked by two independent reviewers to ensure there were no errors.",
+              "options": [
+                "roughly",
+                "reluctantly",
+                "rigidly",
+                "rigorously"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "rigorously แปลว่า อย่างเข้มงวดละเอียดถี่ถ้วน เข้ากับจุดประสงค์ to ensure there were no errors ส่วน rigidly (แข็งทื่อ ไม่ยืดหยุ่น) สะกดคล้ายแต่ไม่ใช้กับการตรวจ และ roughly (คร่าวๆ) ขัดกับการตรวจให้ไม่มีข้อผิดพลาด"
+            },
+            {
+              "id": "TU-S3-049",
+              "stem": "The speaker's closing remarks were ambiguous, leaving the audience unsure of her real position. The word 'ambiguous' is closest in meaning to",
+              "options": [
+                "carefully balanced",
+                "overly ambitious",
+                "poorly delivered",
+                "open to interpretation"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "ambiguous แปลว่า กำกวม ตีความได้หลายแบบ ทำให้ผู้ฟังไม่แน่ใจจุดยืนของผู้พูด ส่วน overly ambitious เป็นกับดักจากคำที่คล้ายกัน (ambitious) และ poorly delivered หมายถึงการพูดไม่ดี ไม่ใช่ความหมายกำกวม"
+            },
+            {
+              "id": "TU-S3-050",
+              "stem": "The new fees may ____ some families from applying, so the school is offering a number of scholarships.",
+              "options": [
+                "derive",
+                "deter",
+                "entitle",
+                "persuade"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "deter ... from แปลว่า ยับยั้ง ทำให้ไม่กล้าทำ ค่าธรรมเนียมใหม่อาจทำให้บางครอบครัวไม่สมัคร จึงมีทุนช่วย ส่วน persuade ใช้กับ into/to ไม่ใช่ from"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TU-S3-G04",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Life Without Sunlight",
+          "text": "Until the late 1970s, most biologists assumed that the deep ocean floor was something close to a desert. Far below the reach of sunlight, where temperatures hover just above freezing and the pressure is hundreds of times greater than at the surface, life was thought to exist only in scattered form, surviving on the thin \"marine snow\" of dead plankton drifting down from above. The discovery of hydrothermal vents overturned that picture almost overnight.\n\nHydrothermal vents form where the plates of the Earth's crust are slowly pulling apart. Seawater seeps down through cracks in the young rock, is heated by magma lying close beneath, and rises again, often at temperatures above 350°C. Because of the immense pressure at these depths, the water does not boil. Instead, it dissolves metals and sulphur compounds from the surrounding rock. When this superheated fluid meets the near-freezing seawater, the dissolved minerals precipitate out, building chimney-like structures that can grow several metres in a matter of months. The darkest of these, nicknamed \"black smokers,\" release clouds of fine metal particles that look strikingly like smoke.\n\nWhat astonished the first observers, however, was not the geology but the crowds of animals clustered around the chimneys: pale crabs, dense beds of mussels, and tube worms taller than a person, topped with bright red plumes. Such abundance seemed impossible in total darkness. The explanation lies in a process called chemosynthesis. Certain bacteria are able to extract energy from chemicals in the vent fluid, particularly hydrogen sulphide, and use it to turn carbon dioxide into organic matter, much as plants use the energy of sunlight. These microbes form the base of the vent food web. Some live freely as mats on the rocks; others live inside the bodies of animals. The giant tube worms, for example, have no mouth or gut as adults. They depend entirely on billions of bacteria housed in a specialised organ. The worms deliver the chemicals these microbes need through their blood, and in exchange the microbes give them a share of the food they produce.\n\nVent communities are also remarkably temporary. A single vent may remain active for only a few decades before shifting geological activity cuts off its supply of hot fluid, and the animals that rely on it then die off. How vent species manage to colonise new sites, which may lie hundreds of kilometres apart, remains one of the field's open questions. One hypothesis, supported by a recent survey led by marine ecologist Dr. Helena Varga of the Northbridge Ocean Institute, is that larvae drift on deep currents for months, surviving in a low-energy state until they encounter the chemical signature of an active vent.\n\nInterest in vents now extends well beyond biology. Some researchers argue that environments like these, rich in chemical energy and sheltered from harsh conditions at the surface, may resemble the settings in which life on Earth first emerged. At the same time, the metal deposits around vents have drawn the attention of mining companies, raising concerns that ecosystems scientists have barely begun to study could be damaged before they are properly understood.",
+          "items": [
+            {
+              "id": "TU-S3-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How black smokers produce metal deposits that attract mining companies",
+                "How life survives around deep-sea vents and why it matters",
+                "How scientists first explored the deep ocean floor in the late 1970s",
+                "Why the deep ocean floor was long thought to be almost lifeless"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทอธิบายว่าปล่องน้ำร้อนเกิดอย่างไร สิ่งมีชีวิตอยู่รอดได้ด้วย chemosynthesis และปิดท้ายด้วยความสำคัญต่อวิทยาศาสตร์และความเสี่ยงจากการทำเหมือง ตัวเลือกอื่นเป็นเพียงรายละเอียดย่อยหรือขัดกับเนื้อหา"
+            },
+            {
+              "id": "TU-S3-052",
+              "stem": "It can be inferred from paragraph 2 that if the same vent fluid were released in much shallower water, it would most likely",
+              "options": [
+                "boil, because the surrounding pressure would be lower",
+                "dissolve more sulphur, because the rock would be younger",
+                "stay liquid, because it would still contain dissolved metals",
+                "freeze, because the surrounding water would be colder"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าน้ำที่ร้อนกว่า 350°C ไม่เดือดเพราะ the immense pressure at these depths ถ้าอยู่ในน้ำตื้นซึ่งความดันต่ำกว่า น้ำจึงน่าจะเดือด"
+            },
+            {
+              "id": "TU-S3-053",
+              "stem": "The phrase 'precipitate out' in paragraph 2 is closest in meaning to",
+              "options": [
+                "flow away with the current",
+                "become more strongly dissolved",
+                "turn rapidly into gas and rise upward",
+                "separate from the liquid as solids"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "แร่ที่ละลายอยู่ precipitate out แล้วก่อตัวเป็นปล่องคล้ายปล่องไฟ แสดงว่าแร่แยกตัวออกจากน้ำกลายเป็นของแข็ง"
+            },
+            {
+              "id": "TU-S3-054",
+              "stem": "It can be inferred that the first observers found the animal life around vents surprising mainly because they",
+              "options": [
+                "expected the chimneys to be too hot for any bacteria",
+                "had never before seen tube worms living in shallow coastal waters",
+                "believed rich ecosystems ultimately depended on sunlight",
+                "thought crabs could not survive at such high pressure"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนกล่าวว่า Such abundance seemed impossible in total darkness แสดงว่านักวิทยาศาสตร์เชื่อว่าระบบนิเวศที่อุดมสมบูรณ์ต้องพึ่งแสงอาทิตย์"
+            },
+            {
+              "id": "TU-S3-055",
+              "stem": "The author compares vent bacteria to plants in order to show that both",
+              "options": [
+                "depend on hydrogen sulphide as their main source of food",
+                "live inside the bodies of other organisms",
+                "need some sunlight to survive",
+                "produce organic matter using an outside energy source"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ข้อความ much as plants use the energy of sunlight เปรียบว่าแบคทีเรียใช้พลังงานเคมีสร้างสารอินทรีย์ เหมือนพืชใช้พลังงานแสง จุดร่วมคือใช้แหล่งพลังงานภายนอกสร้างอาหาร"
+            },
+            {
+              "id": "TU-S3-056",
+              "stem": "In paragraph 3, the word 'their' in 'through their blood' refers to",
+              "options": [
+                "the giant tube worms",
+                "the mussels",
+                "the bacteria",
+                "the vent chemicals"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ประโยคนี้มีประธานคือ The worms ซึ่งเป็นผู้ส่งสารเคมีผ่านเลือดของตนให้จุลินทรีย์ และแบคทีเรียไม่มีเลือด their จึงหมายถึงหนอนท่อยักษ์"
+            },
+            {
+              "id": "TU-S3-057",
+              "stem": "How do adult giant tube worms obtain their food?",
+              "options": [
+                "By filtering marine snow that drifts down from above",
+                "By absorbing metals from the chimneys",
+                "By eating the mussels that grow nearby",
+                "From bacteria living inside a special organ"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 บอกว่าหนอนท่อตัวเต็มวัยไม่มีปากและลำไส้ แต่พึ่งแบคทีเรียใน specialised organ ทั้งหมด"
+            },
+            {
+              "id": "TU-S3-058",
+              "stem": "According to the hypothesis supported by Dr. Varga's survey, vent animals reach new sites because",
+              "options": [
+                "new vents open close to the ones that are dying",
+                "larvae are carried upward by the hot vent fluid",
+                "adult animals walk slowly across the ocean floor",
+                "their young drift for long periods on deep currents"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "สมมติฐานในย่อหน้า 4 คือ larvae drift on deep currents for months จนพบสัญญาณเคมีของปล่องที่ยังทำงาน"
+            },
+            {
+              "id": "TU-S3-059",
+              "stem": "Why does the author mention mining companies in the final paragraph?",
+              "options": [
+                "To warn of a risk to ecosystems that are still poorly understood",
+                "To explain how scientists pay for deep-sea research",
+                "To suggest that vent metals could replace other resources",
+                "To show that vents were first found by industry rather than by science"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนกล่าวถึงบริษัทเหมืองเพื่อชี้ความกังวลว่าระบบนิเวศที่นักวิทยาศาสตร์ยังแทบไม่รู้จักอาจถูกทำลายก่อนจะได้ศึกษา"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G05",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Paper on the Move",
+          "text": "Of all the goods that travelled along the network of trade routes now known as the Silk Road, few changed the world as profoundly as paper. Silk, spices and porcelain were luxuries enjoyed by a wealthy few. Paper, by contrast, eventually transformed the way ordinary societies kept records, educated their children and spread ideas.\n\nPaper was developed in China, where early versions made from hemp and other plant fibres were in use more than two thousand years ago. Compared with the materials it gradually replaced, such as bamboo strips, which were heavy, and silk, which was costly, it was light, cheap and easy to produce in large quantities. For several centuries, however, the knowledge of how to make it stayed largely within East Asia. Merchants carried finished sheets westward, but the techniques themselves were not widely shared.\n\nA traditional account holds that the craft reached Central Asia in the eighth century, when papermakers taken prisoner during a conflict were brought to the city of Samarkand and put to work there. Historians today treat this story with some caution. As the historian Idris Halvorsen has observed, the tale is tidy in a way that real history rarely is; technologies seldom spread through a single dramatic event. Fragments recovered from old caravan towns suggest that paper was already being used, and perhaps produced, in the region before that date. What is clear is that within a few generations Samarkand, and then Baghdad, had become major centres of paper manufacture.\n\nThe craft did not simply pass from one place to the next unchanged. Papermakers in Central Asia and the Middle East, who lacked the mulberry bark and bamboo used in China, turned instead to linen rags, which were plentiful in growing cities. They also developed methods of coating the sheets with starch so that ink would not soak in, producing a smooth surface well suited to the flowing scripts used in government and scholarship. These adaptations were not minor details: they made paper practical in a new region with different resources and different writing traditions.\n\nThe consequences were far-reaching. Government offices that had relied on parchment, made from animal skin, could now keep much larger archives at a fraction of the cost. Book markets flourished, and libraries grew to sizes that would have been unthinkable a few centuries earlier. Mathematicians and astronomers filled notebooks with calculations and observations that could be copied and circulated. From there, paper moved on through North Africa and into Europe, where water-powered mills were operating by the twelfth and thirteenth centuries.\n\nIt is tempting to describe this history as a straight line of progress, but doing so hides the role of the many anonymous craftspeople who experimented, failed and adjusted along the way. The story of paper is less about a single invention than about thousands of small decisions made by people who never imagined how much their work would matter.",
+          "items": [
+            {
+              "id": "TU-S3-060",
+              "stem": "Which of the following would be the best title for the passage?",
+              "options": [
+                "Silk and Spices: The Luxuries of Ancient Trade",
+                "How Paper Travelled and Changed Along the Silk Road",
+                "Why Parchment Survived for So Long in Government Offices",
+                "The Battle That Brought Paper to Samarkand"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าการเดินทางของกระดาษจากจีนผ่านเอเชียกลางไปยุโรป และการปรับเปลี่ยนวิธีผลิตระหว่างทาง ตัวเลือกอื่นเน้นเรื่องรองหรือเรื่องที่ผู้เขียนเองยังสงสัย"
+            },
+            {
+              "id": "TU-S3-061",
+              "stem": "According to paragraph 2, what advantage did paper have over bamboo strips and silk?",
+              "options": [
+                "It lasted much longer in hot, damp weather.",
+                "It could be made without plant fibres.",
+                "It was lighter and cheaper to produce.",
+                "It was easier for merchants to dye."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 2 ระบุว่าไม้ไผ่หนักและผ้าไหมแพง ส่วนกระดาษ light, cheap and easy to produce"
+            },
+            {
+              "id": "TU-S3-062",
+              "stem": "The author's attitude toward the story of the captured papermakers in Samarkand is best described as",
+              "options": [
+                "uninterested in whether it is true",
+                "fully convinced that it is accurate",
+                "critical of the papermakers involved",
+                "doubtful that it tells the whole story"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่านักประวัติศาสตร์ treat this story with some caution และมีหลักฐานว่ามีกระดาษในภูมิภาคก่อนหน้านั้น แสดงว่าไม่เชื่อว่าเรื่องนี้อธิบายได้ครบ"
+            },
+            {
+              "id": "TU-S3-063",
+              "stem": "The word 'tidy' in paragraph 3 is closest in meaning to",
+              "options": [
+                "carefully hidden",
+                "neat and simple",
+                "widely known",
+                "physically clean"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "tidy ในที่นี้หมายถึงเรื่องเล่าที่เรียบร้อยลงตัวเกินจริง ผู้เขียนเทียบว่าประวัติศาสตร์จริงไม่ค่อยเกิดจากเหตุการณ์เดียวง่ายๆ"
+            },
+            {
+              "id": "TU-S3-064",
+              "stem": "Why did papermakers in Central Asia and the Middle East use linen rags?",
+              "options": [
+                "Linen produced a stronger paper than bark.",
+                "China's materials were not available to them.",
+                "Government offices insisted on linen paper.",
+                "Rags were the only material that could take a starch coating."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4 ระบุว่าช่างกระดาษเหล่านี้ lacked the mulberry bark and bamboo used in China จึงหันมาใช้เศษผ้าลินินที่หาง่ายในเมือง"
+            },
+            {
+              "id": "TU-S3-065",
+              "stem": "It can be inferred that, without a starch coating, writing on rag paper would have",
+              "options": [
+                "been impossible to copy by hand",
+                "faded quickly when exposed to sunlight",
+                "required much thicker writing brushes",
+                "spread into the sheet and looked less clear"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ช่างเคลือบแป้ง so that ink would not soak in เพื่อให้ผิวเรียบเหมาะกับตัวอักษรที่ลื่นไหล หากไม่เคลือบ หมึกจะซึมกระจายทำให้ตัวอักษรไม่คมชัด"
+            },
+            {
+              "id": "TU-S3-066",
+              "stem": "It can be inferred from paragraph 5 that parchment",
+              "options": [
+                "was made mainly from plant fibres",
+                "was rarely used by government offices",
+                "was more expensive than paper",
+                "was preferred by most book markets"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนกล่าวว่าเมื่อมีกระดาษ สำนักงานรัฐเก็บเอกสารได้มากขึ้น at a fraction of the cost จึงอนุมานได้ว่าหนังสัตว์ (parchment) แพงกว่า"
+            },
+            {
+              "id": "TU-S3-067",
+              "stem": "The main purpose of the final paragraph is to",
+              "options": [
+                "stress the role of unnamed workers in the history of paper",
+                "argue that paper was invented in more than one place",
+                "compare paper with other inventions of the same period",
+                "explain why paper mills spread so slowly in Europe"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายเน้นว่าเรื่องราวของกระดาษคือการตัดสินใจเล็กๆ ของ anonymous craftspeople จำนวนมาก ไม่ใช่การประดิษฐ์ครั้งเดียว"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G06",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Understanding Inflation",
+          "text": "Few economic terms appear in the news as often as inflation, yet it is frequently misunderstood. In simple terms, inflation is a sustained rise in the general level of prices across an economy. The key words are \"sustained\" and \"general.\" A sudden jump in the price of mangoes after a poor harvest is not, by itself, inflation; nor is a one-off increase in the cost of a single service. Inflation describes a situation in which the prices of a wide range of goods and services rise steadily over time, so that each unit of money buys less than it did before.\n\nEconomists usually measure inflation with a price index. Statisticians select a \"basket\" of goods and services that a typical household buys, such as food, rent, transport, electricity and school fees, and track how much that basket costs from month to month. If the basket cost 10,000 baht last year and 10,300 baht this year, the annual inflation rate is 3 percent. The method is not perfect. Households in the countryside and in large cities spend their money differently, and the basket must be updated as new products appear and old ones disappear. Even so, the index offers a useful snapshot of how prices are moving.\n\nWhy do prices rise in the first place? Economists generally point to two broad causes. The first, known as demand-pull inflation, occurs when total spending in an economy grows faster than the economy's ability to produce goods and services. Too much money, in effect, is chasing too few goods, and sellers respond by raising prices. The second, cost-push inflation, begins on the supply side. When the costs of production increase, because of higher fuel prices or rising wages, for instance, firms pass at least part of those costs on to their customers. In practice, the two often occur together and can be difficult to separate.\n\nModerate inflation is not necessarily harmful. Many central banks deliberately aim for a low, stable rate, often around two percent. A little inflation gives the economy some flexibility and is considered less damaging than its opposite, deflation, in which falling prices can encourage consumers to postpone purchases and so slow down economic activity. What causes real difficulty is high or unpredictable inflation. When prices rise quickly, people on fixed incomes, such as retirees living on pensions, find that their money covers less and less. Savings kept in cash lose value. Businesses, uncertain about future costs, may delay investment.\n\nConsider a café owner, whom we will call Ploy. If her costs for milk, coffee beans and electricity rise by 8 percent in a year, she faces an uncomfortable choice. She can raise her prices and risk losing customers, or keep them unchanged and accept lower profits. Multiply that dilemma across millions of businesses and households, and it becomes clear why governments watch inflation figures so closely.\n\nThe main tool central banks use to control inflation is the interest rate. Raising rates makes borrowing more expensive and saving more attractive, which tends to reduce spending and ease pressure on prices. The difficulty lies in timing: changes in interest rates can take many months to have their full effect, so policymakers must act on forecasts rather than certainties.",
+          "items": [
+            {
+              "id": "TU-S3-068",
+              "stem": "The passage is written mainly to",
+              "options": [
+                "describe the problems faced by small café owners",
+                "compare spending habits in rural and urban households",
+                "explain what inflation is, how it is measured and why it matters",
+                "argue that central banks should try to remove inflation completely"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความนิยามเงินเฟ้อ อธิบายการวัดด้วยดัชนีราคา สาเหตุ ผลกระทบ และเครื่องมือควบคุม ตัวเลือกอื่นเป็นเพียงตัวอย่างย่อยหรือขัดกับเนื้อหา"
+            },
+            {
+              "id": "TU-S3-069",
+              "stem": "The example of mangoes in paragraph 1 is used to illustrate",
+              "options": [
+                "the effect of inflation on farmers' incomes",
+                "how poor harvests usually cause inflation",
+                "a price rise that does not count as inflation",
+                "why fruit is included in the price index"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าราคามะม่วงที่พุ่งขึ้นหลังเก็บเกี่ยวไม่ดี is not, by itself, inflation เพราะไม่ใช่การขึ้นราคาทั่วไปและต่อเนื่อง"
+            },
+            {
+              "id": "TU-S3-070",
+              "stem": "If the basket described in paragraph 2 had cost 10,500 baht this year instead, the annual inflation rate would have been",
+              "options": [
+                "5 percent",
+                "10.5 percent",
+                "0.5 percent",
+                "50 percent"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "จาก 10,000 เป็น 10,500 บาท เพิ่มขึ้น 500 บาท คิดเป็น 500/10,000 = 5 เปอร์เซ็นต์ ใช้วิธีเดียวกับตัวอย่าง 10,300 บาท = 3 เปอร์เซ็นต์"
+            },
+            {
+              "id": "TU-S3-071",
+              "stem": "The word 'snapshot' in paragraph 2 is closest in meaning to",
+              "options": [
+                "a precise forecast of where prices are heading",
+                "a picture of a situation at one moment",
+                "a summary of government policy",
+                "a photograph printed in the news"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "snapshot ในบริบทนี้คือภาพรวมของสถานการณ์ราคา ณ ช่วงเวลาหนึ่ง ไม่ใช่การพยากรณ์ และไม่ได้หมายถึงภาพถ่ายจริง"
+            },
+            {
+              "id": "TU-S3-072",
+              "stem": "According to the passage, demand-pull inflation occurs when",
+              "options": [
+                "spending grows faster than the economy can produce",
+                "wages rise faster than the price of goods",
+                "central banks raise interest rates too quickly",
+                "firms pass higher fuel costs on to customers"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 นิยาม demand-pull ว่า total spending ... grows faster than the economy's ability to produce ส่วนต้นทุนเชื้อเพลิงและค่าแรงเป็นลักษณะของ cost-push"
+            },
+            {
+              "id": "TU-S3-073",
+              "stem": "Retirees living on pensions are mentioned as an example of people who",
+              "options": [
+                "spend most of their monthly income on food",
+                "gain from rising interest rates",
+                "have incomes that do not rise with prices",
+                "tend to delay their purchases"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนยกผู้เกษียณเป็นตัวอย่างของ people on fixed incomes ที่เงินซื้อของได้น้อยลงเมื่อราคาสูงขึ้น"
+            },
+            {
+              "id": "TU-S3-074",
+              "stem": "Why do many central banks prefer low inflation to deflation?",
+              "options": [
+                "Deflation makes it impossible for statisticians to measure a price index.",
+                "Falling prices may make people delay buying, slowing the economy.",
+                "Low inflation guarantees that savings keep their value.",
+                "Falling prices force businesses to raise wages."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4 อธิบายว่าภาวะเงินฝืดทำให้ผู้บริโภค postpone purchases และทำให้เศรษฐกิจชะลอ ส่วนข้อที่ว่าเงินออมคงค่าแน่นอนขัดกับเนื้อหา"
+            },
+            {
+              "id": "TU-S3-075",
+              "stem": "What is the main purpose of the example of Ploy?",
+              "options": [
+                "To explain how central banks decide on interest rates",
+                "To prove that small cafés cause prices to rise",
+                "To show the hard choices inflation creates for firms",
+                "To show that customers rarely notice higher prices"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่างร้านกาแฟของพลอยแสดง dilemma ระหว่างขึ้นราคาเสี่ยงเสียลูกค้า หรือคงราคาแต่กำไรลด"
+            },
+            {
+              "id": "TU-S3-076",
+              "stem": "It can be inferred from the last paragraph that a central bank",
+              "options": [
+                "seldom makes decisions based on forecasts",
+                "prefers to cut interest rates when prices rise",
+                "may raise rates before inflation has become severe",
+                "can bring prices down within a few days"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผลของดอกเบี้ยใช้เวลาหลายเดือน ธนาคารกลางจึงต้อง act on forecasts คือขึ้นดอกเบี้ยล่วงหน้าก่อนเงินเฟ้อรุนแรงจริง"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G07",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "What the Sleeping Brain Does",
+          "text": "For much of history, sleep was regarded as a period when the brain simply switched off. Research over the past several decades has painted a very different picture. Far from being idle, the sleeping brain appears to be busy with an important task: sorting, strengthening and reorganising the memories formed during the day.\n\nPsychologists distinguish between encoding, the process of taking in new information, and consolidation, the slower process by which a fragile new memory becomes stable and long-lasting. Consolidation can take place while we are awake, but a growing body of evidence suggests that sleep provides especially favourable conditions for it. One influential idea holds that during certain stages of sleep the brain \"replays\" patterns of activity that occurred during learning. Recordings in laboratory animals have shown that cells which were active while an animal explored a maze fire again, in the same order, while it sleeps afterward, often at a much faster speed.\n\nNot all sleep is the same. Over a night, the brain cycles through several stages, including deep, slow-wave sleep and rapid eye movement (REM) sleep, the stage most associated with vivid dreaming. Researchers have proposed that these stages play different roles. Slow-wave sleep has been linked mainly to memory for facts and events, while REM sleep may be more involved in emotional memories and in skills. These divisions, however, are far from settled, and many scientists now believe that the stages work together rather than separately.\n\nA study carried out at the Larchmont Institute of Cognitive Science illustrates the kind of evidence researchers rely on. Sixty university students learned a list of word pairs in the evening. Half then slept normally, while the other half stayed awake through the night under supervision. Both groups were then allowed a full night of recovery sleep before being tested, so that tiredness on the day of the test could not account for any difference between them. Those who had slept immediately after learning recalled noticeably more pairs. Interestingly, the advantage was greatest for the pairs the students had found most difficult, suggesting that sleep may give priority to information that was only weakly learned.\n\nFindings like these have sometimes been exaggerated in popular articles, with claims that people can pick up a new language by listening to recordings while they sleep. The evidence for such claims is weak. Most researchers stress that sleep appears to strengthen what has already been learned rather than allowing entirely new material to be absorbed from scratch. Studies in this area are also typically small, and results obtained in carefully controlled laboratories do not always hold in everyday life.\n\nWhat does seem clear is that learning and sleep are more closely connected than was once believed. For students who regularly trade sleep for extra hours of late-night study, the research raises an uncomfortable question: whether the hours gained are worth the consolidation that may be lost.",
+          "items": [
+            {
+              "id": "TU-S3-077",
+              "stem": "The main point of the passage is that",
+              "options": [
+                "REM sleep is responsible for every type of memory",
+                "sleep appears to play an active part in stabilising memories",
+                "the brain is inactive during most stages of sleep",
+                "students can learn new languages simply by listening while asleep"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความเสนอว่าสมองไม่ได้หยุดทำงานขณะหลับ แต่ช่วยจัดระเบียบและทำให้ความจำมั่นคง (consolidation) ตัวเลือกอื่นขัดกับเนื้อหาโดยตรง"
+            },
+            {
+              "id": "TU-S3-078",
+              "stem": "The word 'fragile' in paragraph 2 is closest in meaning to",
+              "options": [
+                "very detailed",
+                "highly emotional",
+                "recently forgotten",
+                "easily damaged"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "fragile แปลว่าเปราะบาง ความจำใหม่ยังไม่มั่นคง ตรงข้ามกับ stable and long-lasting ที่ตามมาในประโยค"
+            },
+            {
+              "id": "TU-S3-079",
+              "stem": "What did recordings in laboratory animals show?",
+              "options": [
+                "Cells active during learning fired again in the same order during sleep.",
+                "Animals learned mazes more slowly after a night without any sleep at all.",
+                "Brain activity stopped completely during deep sleep.",
+                "Animals dreamed about mazes during REM sleep."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 2 ระบุว่าเซลล์ที่ทำงานขณะสัตว์สำรวจเขาวงกต fire again, in the same order, while it sleeps afterward"
+            },
+            {
+              "id": "TU-S3-080",
+              "stem": "According to the passage, REM sleep has been linked mainly to",
+              "options": [
+                "memory for facts and events",
+                "the replay of maze routes",
+                "the encoding of new information",
+                "emotional memories and skills"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 บอกว่า REM sleep may be more involved in emotional memories and in skills ส่วนความจำข้อเท็จจริงเชื่อมโยงกับ slow-wave sleep"
+            },
+            {
+              "id": "TU-S3-081",
+              "stem": "Why were both groups in the Larchmont study given a night of recovery sleep before the test?",
+              "options": [
+                "So that the difficult pairs could be removed from the list",
+                "So that the students could learn the word pairs again",
+                "So that the researchers could record their dreams",
+                "So that tiredness could not explain any difference in scores"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่าให้ทั้งสองกลุ่มนอนชดเชยก่อนสอบ so that tiredness on the day of the test could not account for any difference between them คือเพื่อไม่ให้ความเหนื่อยเป็นสาเหตุของคะแนนที่ต่างกัน"
+            },
+            {
+              "id": "TU-S3-082",
+              "stem": "In the Larchmont study, sleeping after learning helped most with",
+              "options": [
+                "the word pairs with emotional meanings",
+                "the word pairs students had found hardest",
+                "the word pairs learned earliest in the evening",
+                "the word pairs heard on recordings"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผลการศึกษาระบุว่า the advantage was greatest for the pairs the students had found most difficult"
+            },
+            {
+              "id": "TU-S3-083",
+              "stem": "How does the author regard claims that people can learn a language in their sleep?",
+              "options": [
+                "They apply only to students in their twenties.",
+                "They are not supported by strong evidence.",
+                "They have been confirmed by most laboratories.",
+                "They are true but have not been widely reported."
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนกล่าวว่าข้ออ้างนี้ถูก exaggerated และ The evidence for such claims is weak"
+            },
+            {
+              "id": "TU-S3-084",
+              "stem": "The phrase 'from scratch' in paragraph 5 is closest in meaning to",
+              "options": [
+                "through repetition",
+                "from the very beginning",
+                "with great effort",
+                "without permission"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "from scratch แปลว่าเริ่มจากศูนย์ ประโยคเปรียบเทียบการเสริมสิ่งที่เรียนแล้วกับการรับเนื้อหาใหม่ทั้งหมดตั้งแต่ต้น"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G08",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Building for Weight and Weather",
+          "text": "Visitors to historic temples and mosques often focus on their decoration: gilded panels, carved stucco, and glazed tiles in deep blues and greens. Yet some of the most impressive achievements of these buildings are hidden in plain sight, in the way they solve practical problems of structure and climate using materials and techniques that existed long before modern engineering.\n\nConsider the dome. Placing a round dome on top of a square room is far more difficult than it appears, because the circular base of the dome does not match the square walls beneath it. Builders in West and Central Asia developed two main solutions. The squinch is an arch built diagonally across each upper corner of the square, turning it into an octagon that is much closer to a circle. The pendentive, a curved triangular section of masonry, creates a smoother transition, gathering the weight of the dome and channelling it down to four corner supports. Both techniques allowed builders to roof large interior spaces without forests of columns, and both later became decorative features in their own right, often covered with intricate honeycomb-like carving.\n\nIn mainland Southeast Asia, by contrast, the main challenge was not spanning space but shedding water. Where monsoon rains can fall heavily for months, roofs had to move huge volumes of water away from walls of brick and lime plaster, which could weaken if constantly soaked. The steep, layered roofs familiar from many historic temples in Thailand, Laos and Myanmar respond to this problem. Overlapping tiers allow a roof to stay steep enough to drain quickly while keeping its overall height manageable, and deep overhanging eaves protect the walls below. The tiers also reduce the visual bulk of the roof, giving even large halls a sense of lightness.\n\nClimate shaped interiors as well. In hot, dry cities, many mosques were arranged around open courtyards, sometimes with a central pool. Shaded arcades around the courtyard offered cool places to walk, while water and stone surfaces helped to moderate temperatures. Thick walls absorbed heat during the day and released it slowly at night. In humid tropical settings, builders generally favoured the opposite strategy: rather than storing coolness, they encouraged air to move. High ceilings, tall doors and rows of windows on opposite walls allowed breezes to pass through, carrying away heat and moisture.\n\nThe architectural historian Dr. Malin Charoenwet argues that these buildings should be read as \"records of experiment.\" Many of them show signs of repairs and later modifications, suggesting that builders learned from failures such as cracked walls, collapsed vaults and leaking roofs, and adjusted their methods over generations. Restoration specialists today face a delicate task. Replacing traditional lime plaster with modern cement, for example, may seem like an improvement, but because cement traps moisture rather than allowing it to evaporate, it has in some cases accelerated the very decay it was meant to prevent.",
+          "items": [
+            {
+              "id": "TU-S3-085",
+              "stem": "Which statement best expresses the main idea of the passage?",
+              "options": [
+                "These buildings show practical solutions to problems of structure and climate.",
+                "Domes were the most important invention in the history of architecture.",
+                "The decoration of historic buildings matters more than the way they are built.",
+                "Modern materials should gradually replace traditional ones in historic buildings."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่าความสำเร็จที่น่าประทับใจคือวิธีแก้ปัญหาโครงสร้างและภูมิอากาศ แล้วยกตัวอย่างโดม หลังคาซ้อนชั้น และการระบายอากาศ"
+            },
+            {
+              "id": "TU-S3-086",
+              "stem": "According to paragraph 2, what makes placing a dome on a square room difficult?",
+              "options": [
+                "Builders did not have arches at that time.",
+                "The round base does not match the square walls.",
+                "The dome is too heavy for any kind of wall.",
+                "Square rooms cannot support decorative carving."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนอธิบายว่า the circular base of the dome does not match the square walls beneath it"
+            },
+            {
+              "id": "TU-S3-087",
+              "stem": "The word 'channelling' in paragraph 2 is closest in meaning to",
+              "options": [
+                "dividing",
+                "reducing",
+                "hiding",
+                "directing"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "pendentive รวบน้ำหนักของโดมแล้ว channelling it down สู่เสาสี่มุม หมายถึงนำทางหรือส่งน้ำหนักลงไป จึงตรงกับ directing"
+            },
+            {
+              "id": "TU-S3-088",
+              "stem": "How does the pendentive differ from the squinch?",
+              "options": [
+                "It requires many more columns inside the room.",
+                "It is built straight across the middle of each wall.",
+                "It makes a smoother change from square to circle.",
+                "It turns the square into an eight-sided shape."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า pendentive creates a smoother transition ส่วนการเปลี่ยนเป็นรูปแปดเหลี่ยมคือหน้าที่ของ squinch"
+            },
+            {
+              "id": "TU-S3-089",
+              "stem": "According to the passage, the layered roofs of Southeast Asian temples allow",
+              "options": [
+                "builders to use fewer bricks in the walls",
+                "heavy domes to rest safely on square halls",
+                "rain to drain quickly without the roof becoming too tall",
+                "sunlight to enter the hall through gaps between tiers"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 บอกว่าหลังคาซ้อนชั้น stay steep enough to drain quickly while keeping its overall height manageable"
+            },
+            {
+              "id": "TU-S3-090",
+              "stem": "It can be inferred from paragraph 4 that builders in humid tropical regions",
+              "options": [
+                "built few windows in order to keep out moisture",
+                "preferred courtyards with large central pools",
+                "did not depend mainly on thick walls for cooling",
+                "were unable to build very high ceilings"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนกล่าวว่าในเขตร้อนชื้นช่างใช้ the opposite strategy คือให้อากาศถ่ายเท แทนการเก็บความเย็นด้วยกำแพงหนา จึงอนุมานได้ว่าไม่ได้พึ่งกำแพงหนาเป็นหลัก"
+            },
+            {
+              "id": "TU-S3-091",
+              "stem": "What does Dr. Charoenwet mean by calling these buildings 'records of experiment'?",
+              "options": [
+                "They contain written notes left by the original builders.",
+                "They show that methods were improved through trial and error.",
+                "They were designed as models for scientific study.",
+                "They were never finished according to the original plan."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ร่องรอยการซ่อมและดัดแปลงแสดงว่าช่าง learned from failures และปรับวิธีมาหลายรุ่น จึงเป็นการลองผิดลองถูก"
+            },
+            {
+              "id": "TU-S3-092",
+              "stem": "The author mentions modern cement in order to",
+              "options": [
+                "recommend it as a cheaper and stronger alternative to lime plaster",
+                "explain why most historic roofs have collapsed",
+                "compare building costs in different periods",
+                "show how a modern material can harm a historic building"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนชี้ว่าซีเมนต์กักความชื้นไว้และ accelerated the very decay it was meant to prevent เป็นตัวอย่างว่าวัสดุใหม่อาจสร้างความเสียหาย"
+            }
+          ]
+        },
+        {
+          "id": "TU-S3-G09",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Science by the Crowd",
+          "text": "When astronomers at the Westmere Observatory found themselves with more than a million images of distant galaxies and no practical way to classify them all, they tried an unusual solution: they asked the public for help. Within weeks of launching a simple website, tens of thousands of volunteers had signed up to sort galaxies by shape. The project completed in a few months a task the researchers had estimated would take a single specialist several decades.\n\nProjects like this are known as citizen science or crowd-sourced science: research in which members of the public, most with no formal scientific training, help to collect or analyse data. The idea is not entirely new. Amateur naturalists have recorded bird sightings and weather observations for centuries, and some of those records remain valuable today. What has changed is scale. Smartphones, inexpensive sensors and the internet now allow projects to recruit participants from around the world and to process their contributions almost instantly.\n\nThe range of projects is wide. Volunteers photograph insects in their gardens, count frogs calling in roadside ponds, transcribe handwritten ship logs from the nineteenth century, and play online puzzle games whose solutions help scientists predict the shapes of complex molecules. In the Mekong Rain Watch project, more than 4,000 households in three countries measured daily rainfall with simple plastic gauges, filling the gaps between official weather stations that can be more than fifty kilometres apart.\n\nNot everyone was convinced at first. Critics worried that data gathered by untrained volunteers would be too unreliable to be useful. These concerns were not unreasonable, and project designers have responded in several ways. Many tasks are shown to several volunteers, so that one person's mistakes are outweighed by the agreement of the majority. Some projects include items whose correct classification is already known, which allows organisers to check each participant's accuracy. Still others ask volunteers to say how confident they are in each answer, so that uncertain cases can be passed on to experts. Studies comparing volunteer and expert results have often found the two to be remarkably close, particularly for tasks that are clearly defined.\n\nThe benefits are not only scientific. Participants frequently report that they understand the research process better and feel a stronger connection to nature or to the subject they are helping to study. Volunteers also sometimes notice what professionals miss. In the frog-counting project, for instance, a retired engineer observed that one species had stopped calling at several ponds near a newly built highway, an observation that led to a formal study of the effects of road noise.\n\nCrowd-sourced science also raises difficult questions. Volunteers may contribute hundreds of hours of work, yet they are rarely named in the papers that result. Some researchers argue that participants deserve clearer recognition and more say in how projects are designed, rather than being treated simply as a free source of labour. As citizen science continues to grow, finding a fair balance between the interests of professional scientists and those of the public is likely to become one of its central challenges.",
+          "items": [
+            {
+              "id": "TU-S3-093",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "A new method that astronomers use to classify distant galaxies",
+                "The history of amateur bird watching",
+                "Why data from volunteers is usually too unreliable to use",
+                "Public involvement in research, with its benefits and problems"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายวิทยาศาสตร์พลเมือง ตัวอย่างโครงการ วิธีควบคุมคุณภาพข้อมูล ประโยชน์ และปัญหาเรื่องการให้เครดิต ตัวเลือกอื่นแคบเกินไปหรือขัดกับเนื้อหา"
+            },
+            {
+              "id": "TU-S3-094",
+              "stem": "It can be inferred that, before asking the public, the astronomers believed that classifying the images themselves would",
+              "options": [
+                "take far too long to be practical",
+                "cost less than building a website",
+                "require a more powerful telescope",
+                "be too difficult for trained experts"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "นักวิจัยประเมินว่าผู้เชี่ยวชาญคนเดียวต้องใช้เวลา several decades และบอกว่า no practical way to classify them all จึงอนุมานได้ว่าการทำเองใช้เวลานานเกินไป"
+            },
+            {
+              "id": "TU-S3-095",
+              "stem": "According to paragraph 2, what is new about citizen science today?",
+              "options": [
+                "The requirement that volunteers have formal training",
+                "The idea that amateurs can record observations",
+                "The number of people involved and the speed of processing",
+                "The use of bird sightings as scientific data"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนบอกว่า The idea is not entirely new แต่ What has changed is scale คือรับสมัครคนได้ทั่วโลกและประมวลผลได้เกือบทันที"
+            },
+            {
+              "id": "TU-S3-096",
+              "stem": "The Mekong Rain Watch project is mentioned as an example of volunteers who",
+              "options": [
+                "filled gaps left by official measuring stations",
+                "checked the accuracy of satellite rainfall data",
+                "replaced all official weather stations in the region",
+                "built new weather stations in three countries"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ครัวเรือนวัดปริมาณฝน filling the gaps between official weather stations ที่อยู่ห่างกันมาก ไม่ได้มาแทนที่สถานีทั้งหมด"
+            },
+            {
+              "id": "TU-S3-097",
+              "stem": "The word 'outweighed' in paragraph 4 is closest in meaning to",
+              "options": [
+                "made less important",
+                "reported",
+                "repeated",
+                "made heavier than before"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "เมื่อให้อาสาหลายคนทำงานเดียวกัน ความผิดพลาดของคนหนึ่งถูก outweighed by the agreement of the majority คือมีน้ำหนักน้อยลงจนไม่สำคัญ"
+            },
+            {
+              "id": "TU-S3-098",
+              "stem": "Which of the following is NOT mentioned as a way of making volunteer data more reliable?",
+              "options": [
+                "Showing each task to several volunteers",
+                "Including items with known correct answers",
+                "Requiring volunteers to pass a formal exam",
+                "Asking volunteers to rate their confidence"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4 กล่าวถึงการให้หลายคนทำงานเดียวกัน การใส่ข้อที่รู้คำตอบแล้ว และการให้อาสาระบุความมั่นใจเพื่อส่งกรณีที่ไม่แน่ใจให้ผู้เชี่ยวชาญ แต่ไม่มีการสอบวัดคุณสมบัติ"
+            },
+            {
+              "id": "TU-S3-099",
+              "stem": "In paragraph 4, 'the two' in 'found the two to be remarkably close' refers to",
+              "options": [
+                "clearly defined and unclear tasks",
+                "correct and incorrect classifications",
+                "critics and project designers",
+                "volunteer results and expert results"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคพูดถึง Studies comparing volunteer and expert results ดังนั้น the two คือผลของอาสาสมัครและผลของผู้เชี่ยวชาญ"
+            },
+            {
+              "id": "TU-S3-100",
+              "stem": "Which concern about citizen science is raised in the final paragraph?",
+              "options": [
+                "Professional scientists are losing their jobs.",
+                "Projects are growing too slowly to be useful.",
+                "Volunteers receive little credit for their work.",
+                "Volunteers often damage the places they study."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าสุดท้ายระบุว่าอาสาสมัครทำงานหลายร้อยชั่วโมง yet they are rarely named in the papers และควรได้รับการยอมรับมากขึ้น"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "id": "c1-cleft",
+  "summaryTh": "แยกประโยคเป็นสองส่วนเพื่อเน้นข้อมูลสำคัญ (It was … that / What … is …)",
+  "concept": {
+    "what": "Cleft sentence คือการ \"ผ่า\" ประโยคธรรมดาออกเป็นสองส่วน เพื่อดึงข้อมูลที่อยากเน้นออกมาไว้ในจุดเด่น เช่น Tom broke the window. → It was Tom who broke the window. (คนที่ทำแตกคือทอม ไม่ใช่คนอื่น) หรือ What I need is more time. (สิ่งที่ฉันต้องการคือเวลาเพิ่ม)",
+    "when": [
+      "แก้ความเข้าใจผิด / เน้นว่า \"คนนี้ ไม่ใช่คนอื่น\": It was the manager who approved it, not me.",
+      "เกริ่นก่อนแล้วค่อยเปิดข้อมูลสำคัญท้ายประโยค: What surprised me most was the price.",
+      "บอกว่า \"แค่นั้นเอง\": All I want is a quiet weekend.",
+      "อธิบายเหตุผล สถานที่ เวลา: The reason (why) I called is that … / It was in 2019 that …",
+      "เน้นช่วงเวลาที่เพิ่งเกิด: It was not until March that we noticed the problem."
+    ],
+    "why": "ภาษาพูดใช้น้ำเสียงเน้นคำได้ แต่ภาษาเขียนทำไม่ได้ Cleft จึงช่วยบอกผู้อ่านชัด ๆ ว่าข้อมูลไหนสำคัญ — ภาษาไทยมีโครงสร้างคล้ายกัน (\"คนที่ … คือ …\" \"สิ่งที่ … คือ …\") แต่ผู้เรียนไทยมักใส่ประธานซ้ำ (What she did was she …) ใช้ All what หรือเลือก which/where ผิดที่"
+  },
+  "structure": {
+    "formula": "It + be + focus + that/who + rest  ·  What + S + V + be + focus",
+    "rows": [
+      {
+        "label": "It-cleft (เน้นคน/สิ่ง/เวลา/สถานที่)",
+        "formula": "It + is/was + ส่วนที่เน้น + that / who + ส่วนที่เหลือ",
+        "example": "[[It was]] the finance director [[who]] approved the budget."
+      },
+      {
+        "label": "What-cleft",
+        "formula": "What + S + V + is/was + ส่วนที่เน้น",
+        "example": "[[What we need is]] more reliable data."
+      },
+      {
+        "label": "What-cleft กลับด้าน",
+        "formula": "ส่วนที่เน้น + is/was + what + S + V",
+        "example": "More reliable data [[is what we need]]."
+      },
+      {
+        "label": "เน้นการกระทำ",
+        "formula": "What + S + do/did + is/was + (to) V1",
+        "example": "[[What she did was]] rewrite the whole report."
+      },
+      {
+        "label": "All-cleft (แค่นั้นเอง)",
+        "formula": "All (that) + S + V + is/was + ส่วนที่เน้น",
+        "example": "[[All I asked for was]] a little patience."
+      },
+      {
+        "label": "The reason / The thing / The place",
+        "formula": "The reason (why) + clause + is that … · The place where … is …",
+        "example": "[[The reason I called is that]] I need your advice."
+      },
+      {
+        "label": "It was not until … that",
+        "formula": "It + was + not until + time + that + S + V",
+        "example": "[[It was not until]] midnight [[that]] the results were announced."
+      }
+    ],
+    "notes": [
+      "It-cleft ใช้ that ได้เสมอ · who ใช้เมื่อเน้นคน · ห้ามใช้ which / where / what แทน that ในตำแหน่งนี้ (It was in Paris that …)",
+      "กริยาหลัง who/that ผันตามคำที่เน้น: It is the managers who make … / It is the manager who makes …",
+      "What-cleft: หลัง was ใส่กริยาได้เลย (was rewrite / was to rewrite) — ห้ามใส่ประธานซ้ำ (was she rewrote ✗)",
+      "All I want … (ละ that ได้) — ห้ามใช้ All what",
+      "be ใน It-cleft ใช้ตาม tense ของเรื่อง: It is … ปัจจุบัน · It was … อดีต"
+    ]
+  },
+  "examples": [
+    {
+      "en": "[[It was]] my sister [[who]] suggested studying abroad, not my parents.",
+      "th": "พี่สาวต่างหากที่แนะนำให้ไปเรียนต่างประเทศ ไม่ใช่พ่อแม่"
+    },
+    {
+      "en": "[[What]] really matters [[is]] how you treat other people.",
+      "th": "สิ่งที่สำคัญจริง ๆ คือการที่คุณปฏิบัติต่อคนอื่นอย่างไร"
+    },
+    {
+      "en": "[[It was]] in a small café in Hanoi [[that]] they first met.",
+      "th": "พวกเขาพบกันครั้งแรกที่ร้านกาแฟเล็ก ๆ ในฮานอยนี่เอง"
+    },
+    {
+      "en": "[[All I need]] right now [[is]] a few hours of sleep.",
+      "th": "ตอนนี้ฉันต้องการแค่นอนสักไม่กี่ชั่วโมงเท่านั้น"
+    },
+    {
+      "en": "[[What the company did was]] reduce its prices by twenty per cent.",
+      "th": "สิ่งที่บริษัททำคือลดราคาลงยี่สิบเปอร์เซ็นต์"
+    },
+    {
+      "en": "[[The reason]] the project failed [[is that]] nobody took responsibility.",
+      "th": "เหตุผลที่โครงการล้มเหลวคือไม่มีใครรับผิดชอบ"
+    },
+    {
+      "en": "[[It wasn't until]] I moved to Bangkok [[that]] I learned to cook.",
+      "th": "จนกระทั่งย้ายมากรุงเทพฯ ฉันถึงได้หัดทำอาหาร"
+    },
+    {
+      "en": "A clear plan [[is what]] this team is missing.",
+      "th": "แผนที่ชัดเจนคือสิ่งที่ทีมนี้ยังขาดอยู่"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "All what I want is a quiet place to work.",
+      "right": "All I want is a quiet place to work.",
+      "whyTh": "All ใช้คู่กับ that (หรือละไป) ไม่ใช้ what — All what เป็นการแปลตรงจาก \"ทั้งหมดที่\""
+    },
+    {
+      "wrong": "What she did was she rewrote the report.",
+      "right": "What she did was rewrite the report.",
+      "whyTh": "หลัง was ให้ใส่กริยา (rewrite / to rewrite) ได้เลย ไม่ต้องใส่ประธานซ้ำ"
+    },
+    {
+      "wrong": "It was in 2019 which the company moved to Singapore.",
+      "right": "It was in 2019 that the company moved to Singapore.",
+      "whyTh": "It-cleft ใช้ that เชื่อม ไม่ใช้ which — which ใช้ขยายคำนาม ไม่ใช่ในโครงสร้างเน้นนี้"
+    },
+    {
+      "wrong": "It is the managers who makes the final decision.",
+      "right": "It is the managers who make the final decision.",
+      "whyTh": "กริยาหลัง who ผันตามคำที่เน้น (the managers = พหูพจน์) → make"
+    },
+    {
+      "wrong": "That I need is more time.",
+      "right": "What I need is more time.",
+      "whyTh": "ต้องใช้ What (= สิ่งที่) เป็นประธานของประโยค That ไม่มีความหมายนี้"
+    }
+  ],
+  "compare": {
+    "title": "It-cleft vs What-cleft",
+    "with": [
+      "c1-emphasis"
+    ],
+    "rows": [
+      {
+        "label": "เน้นอะไร",
+        "a": "คน สิ่ง เวลา สถานที่ — มักเพื่อแยกจากตัวเลือกอื่น",
+        "b": "สิ่ง/การกระทำ — เกริ่นก่อนแล้วเปิดข้อมูลใหม่ท้ายประโยค"
+      },
+      {
+        "label": "รูปแบบ",
+        "a": "It + be + FOCUS + that/who …",
+        "b": "What + S + V + be + FOCUS"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "It was Anna who solved the problem.",
+        "b": "What solved the problem was a simple change."
+      },
+      {
+        "label": "ความรู้สึก",
+        "a": "\"คนนี้แหละ ไม่ใช่คนอื่น\"",
+        "b": "\"สิ่งที่ … ก็คือ …\" (สร้างความสนใจก่อน)"
+      }
+    ],
+    "tipTh": "ถ้าต้องการแก้ความเข้าใจผิดว่าใคร/เมื่อไร/ที่ไหน ใช้ It-cleft · ถ้าต้องการเกริ่นแล้วค่อยเฉลยข้อมูลสำคัญ ใช้ What-cleft"
+  },
+  "contexts": [
+    {
+      "kind": "conversation",
+      "title": "Clearing up a misunderstanding at work",
+      "lines": [
+        {
+          "speaker": "Ken",
+          "text": "I heard you cancelled the client meeting."
+        },
+        {
+          "speaker": "Ploy",
+          "text": "No, [[it was]] the client [[who]] cancelled it. [[What I did was]] suggest a new date."
+        },
+        {
+          "speaker": "Ken",
+          "text": "Oh, I see. So when is it now?"
+        },
+        {
+          "speaker": "Ploy",
+          "text": "[[It's]] next Thursday [[that]] they're free. [[All we need]] now [[is]] a room."
+        }
+      ]
+    },
+    {
+      "kind": "email",
+      "title": "Feedback on a proposal",
+      "lines": [
+        {
+          "text": "Dear Dr Wong, Thank you for your comments. [[What I found most useful was]] your note on the budget. [[It was]] your suggestion about the timeline, however, [[that]] made me rethink the whole plan. [[The reason]] I am writing [[is that]] I would like to discuss it further. Best regards, Nida"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Cleft sentence",
+      "th": "ประโยคที่ถูกแยกเป็นสองส่วนเพื่อเน้นข้อมูลหนึ่ง"
+    },
+    {
+      "en": "It-cleft",
+      "th": "ประโยคเน้นแบบ It is/was … that/who …"
+    },
+    {
+      "en": "What-cleft (pseudo-cleft)",
+      "th": "ประโยคเน้นแบบ What … is/was … (สิ่งที่ … คือ …)"
+    },
+    {
+      "en": "Focus",
+      "th": "ส่วนที่ต้องการเน้น — ข้อมูลที่สำคัญที่สุดในประโยค"
+    },
+    {
+      "en": "New information",
+      "th": "ข้อมูลใหม่ที่ผู้ฟังยังไม่รู้ มักอยู่ท้ายประโยค"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-cleft-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "It was my sister ___ suggested the idea, not my brother.",
+      "choices": [
+        "who",
+        "which",
+        "what",
+        "whom"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "which ใช้กับสิ่งของ แต่ my sister เป็นคน",
+        "2": "what ไม่ใช้เชื่อมใน It-cleft (ใช้ who หรือ that)",
+        "3": "whom ใช้เป็นกรรม แต่ตรงนี้คนที่เน้นเป็นผู้ทำ (ประธานของ suggested)"
+      },
+      "explainTh": "It-cleft เน้นคน: It was + คน + who/that + กริยา → It was my sister who suggested …",
+      "structure": "It was + person + who + V",
+      "example": "It was my sister who suggested the idea."
+    },
+    {
+      "id": "c1-cleft-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "___ I really need right now is a long holiday.",
+      "choices": [
+        "What",
+        "That",
+        "Which",
+        "It"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "That ไม่มีความหมาย \"สิ่งที่\" จึงเป็นประธานแบบนี้ไม่ได้",
+        "2": "Which ต้องมีคำนามข้างหน้าให้ขยาย หรือใช้ถามตัวเลือก",
+        "3": "It ต้องตามด้วย is/was ก่อน (It is a holiday that …)"
+      },
+      "explainTh": "What-cleft: What + S + V + is + ส่วนที่เน้น → What I really need is a long holiday. (สิ่งที่ฉันต้องการจริง ๆ คือ …)",
+      "structure": "What + S + V + is + focus"
+    },
+    {
+      "id": "c1-cleft-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "___ I want is a quiet place to work. (คำเดียว ขึ้นต้นด้วยตัว A = แค่นั้นเอง)",
+      "accepted": [
+        "All"
+      ],
+      "explainTh": "All (that) + S + V + is … = ฉันต้องการแค่ … เท่านั้น ใช้ All ตามด้วยประธานได้เลย ไม่ต้องมี what",
+      "structure": "All + S + V + is + focus",
+      "example": "All I want is a quiet place to work."
+    },
+    {
+      "id": "c1-cleft-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "It was not ___ she read the email again that she noticed the mistake.",
+      "accepted": [
+        "until"
+      ],
+      "explainTh": "It was not until … that … = จนกระทั่ง … จึง … เป็น It-cleft ที่เน้นเวลา",
+      "structure": "It was not until + clause + that + S + V"
+    },
+    {
+      "id": "c1-cleft-05",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "it",
+        "was",
+        "the",
+        "noise",
+        "that",
+        "kept",
+        "me",
+        "awake"
+      ],
+      "accepted": [
+        "It was the noise that kept me awake.",
+        "Was it the noise that kept me awake?"
+      ],
+      "explainTh": "It + was + ส่วนที่เน้น (the noise) + that + ส่วนที่เหลือ (kept me awake)",
+      "structure": "It was + focus + that + V"
+    },
+    {
+      "id": "c1-cleft-06",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "what",
+        "surprised",
+        "me",
+        "most",
+        "was",
+        "the",
+        "price"
+      ],
+      "accepted": [
+        "What surprised me most was the price.",
+        "What most surprised me was the price.",
+        "The price was what surprised me most.",
+        "The price was what most surprised me."
+      ],
+      "explainTh": "What-cleft: What + V + me + most + was + ส่วนที่เน้น — หรือกลับด้านเป็น The price was what surprised me most.",
+      "structure": "What + V + was + focus"
+    },
+    {
+      "id": "c1-cleft-07",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "All what we need is a clear plan.",
+      "errorPart": "All what",
+      "accepted": [
+        "All we need is a clear plan.",
+        "All that we need is a clear plan.",
+        "What we need is a clear plan."
+      ],
+      "explainTh": "All ใช้คู่กับ that หรือละไป (All we need …) ไม่ใช้ All what · ถ้าต้องการ \"สิ่งที่\" ให้ใช้ What อย่างเดียว"
+    },
+    {
+      "id": "c1-cleft-08",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "It is the managers who makes the final decision.",
+      "errorPart": "makes",
+      "accepted": [
+        "It is the managers who make the final decision.",
+        "It is the manager who makes the final decision."
+      ],
+      "explainTh": "กริยาหลัง who ผันตามคำที่เน้น: the managers (พหูพจน์) → make · หรือถ้าเป็นคนเดียว the manager → makes"
+    },
+    {
+      "id": "c1-cleft-09",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "What she did was she rewrote the entire report.",
+      "errorPart": "she rewrote",
+      "accepted": [
+        "What she did was rewrite the entire report.",
+        "What she did was to rewrite the entire report."
+      ],
+      "explainTh": "What + S + did + was + (to) V1 — หลัง was ใส่กริยารูปฐาน (หรือ to + V1) ได้เลย ห้ามใส่ประธานและกริยาอดีตซ้ำ"
+    },
+    {
+      "id": "c1-cleft-10",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "The lack of funding worries me.",
+      "instruction": "เขียนใหม่เป็น What-cleft โดยขึ้นต้นด้วย What",
+      "accepted": [
+        "What worries me is the lack of funding."
+      ],
+      "explainTh": "ย้ายส่วนที่เน้น (the lack of funding) ไปไว้หลัง is แล้วเริ่มด้วย What + กริยา + me → What worries me is the lack of funding.",
+      "structure": "What + V + O + is + focus"
+    },
+    {
+      "id": "c1-cleft-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "We only realised the scale of the problem in March.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย It was not until",
+      "accepted": [
+        "It was not until March that we realised the scale of the problem.",
+        "It was not until March that we realized the scale of the problem."
+      ],
+      "explainTh": "only … in March = เพิ่งรู้ตอนมีนาคม → It was not until March that we realised … (จนกระทั่งมีนาคมเราจึงตระหนัก)",
+      "structure": "It was not until + time + that + S + V2"
+    },
+    {
+      "id": "c1-cleft-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "Professor Lee discovered the error, not her students.",
+      "instruction": "เน้น Professor Lee ด้วยโครงสร้าง It was … who",
+      "accepted": [
+        "It was Professor Lee who discovered the error, not her students.",
+        "It was Professor Lee who discovered the error.",
+        "It was Professor Lee, not her students, who discovered the error."
+      ],
+      "explainTh": "It was + คนที่เน้น + who + กริยา → It was Professor Lee who discovered the error (ไม่ใช่นักศึกษา)",
+      "structure": "It was + person + who + V2"
+    },
+    {
+      "id": "c1-cleft-13",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "It was in 2015 which the company moved its headquarters to Singapore.",
+        "It was in 2015 where the company moved its headquarters to Singapore.",
+        "It was in 2015 that the company moved its headquarters to Singapore.",
+        "That was in 2015 that the company moved its headquarters to Singapore."
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "It-cleft ไม่ใช้ which เชื่อม ต้องใช้ that",
+        "1": "in 2015 เป็นเวลา ไม่ใช่สถานที่ และ It-cleft ที่มี in … ใช้ that",
+        "3": "โครงสร้างต้องขึ้นต้นด้วย It ไม่ใช่ That"
+      },
+      "explainTh": "It-cleft เน้นเวลา: It was + in 2015 + that + ประโยค (เมื่อปี 2015 นั่นเองที่ …)"
+    },
+    {
+      "id": "c1-cleft-14",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "So you're angry because I was late?"
+          },
+          {
+            "speaker": "B",
+            "text": "No. ___ was that you didn't call to tell me."
+          }
+        ]
+      },
+      "choices": [
+        "It annoyed me",
+        "That annoyed me",
+        "What annoyed me",
+        "Which annoyed me"
+      ],
+      "answer": 2,
+      "whyNot": {
+        "0": "It annoyed me เป็นประโยคสมบูรณ์แล้ว จะต่อ was … อีกไม่ได้",
+        "1": "That ไม่มีความหมาย \"สิ่งที่\" ใช้เป็นประธานของ was แบบนี้ไม่ได้",
+        "3": "Which ต้องมีคำนามข้างหน้าให้ขยาย"
+      },
+      "explainTh": "B แก้ความเข้าใจว่าไม่ได้โกรธเรื่องมาสาย แต่โกรธเรื่องไม่โทรบอก → What annoyed me was that … (สิ่งที่ทำให้ฉันหงุดหงิดคือ …)"
+    },
+    {
+      "id": "c1-cleft-15",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยคให้ถูกต้อง",
+      "pairs": [
+        [
+          "What I need",
+          "is a few more days to finish."
+        ],
+        [
+          "It was in Kyoto",
+          "that the conference was first held."
+        ],
+        [
+          "All she wanted",
+          "was an honest answer."
+        ],
+        [
+          "The reason I called",
+          "is that I need your advice."
+        ],
+        [
+          "It was the manager",
+          "who approved the change."
+        ]
+      ],
+      "explainTh": "ดู tense และคำเชื่อม: What I need + is · All she wanted + was · The reason … is that · It was + สถานที่ + that · It was + คน + who"
+    },
+    {
+      "id": "c1-cleft-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "email",
+        "title": "Reply about a proposal",
+        "lines": [
+          {
+            "text": "Hi Tom, Thanks for the feedback on my proposal. What I found most useful was your comment on the budget. It was your suggestion about the timeline, though, that changed my mind about the launch date. All I need now is the director's approval. Best, Mai"
+          }
+        ]
+      },
+      "question": "According to the email, what made Mai change her mind about the launch date?",
+      "choices": [
+        "Tom's suggestion about the timeline",
+        "Tom's comment on the budget",
+        "The director's approval",
+        "Her own proposal"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ความเห็นเรื่องงบประมาณคือสิ่งที่ \"มีประโยชน์ที่สุด\" (What I found most useful) ไม่ใช่สิ่งที่ทำให้เปลี่ยนใจ",
+        "2": "การอนุมัติของผู้อำนวยการเป็นสิ่งที่ยังต้องการ (All I need now) ยังไม่ได้รับ",
+        "3": "ข้อเสนอเป็นของ Mai เอง ไม่ได้ทำให้เปลี่ยนใจ"
+      },
+      "explainTh": "It was your suggestion about the timeline … that changed my mind — It-cleft เน้นว่าสิ่งนี้แหละที่ทำให้เปลี่ยนใจ"
+    },
+    {
+      "id": "c1-cleft-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับการเรียนหรือการทำงานของคุณ โดยใช้ It-cleft อย่างน้อย 1 ประโยค และ What-cleft / All-cleft อย่างน้อย 1 ประโยค (Write 3 sentences about your studies or work using an It-cleft and a What/All-cleft.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bit(\\s+is|\\s+was|'s)\\b(\\s+not)?[^.!?]*\\b(that|who)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ It-cleft อย่างน้อย 1 ประโยค: It is/was + ส่วนที่เน้น + that/who …"
+        },
+        {
+          "re": "(^|[.!?]\\s+)(what|all)\\b[^.!?]*\\b(is|was|are|were)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ What-cleft หรือ All-cleft อย่างน้อย 1 ประโยค: What/All + S + V + is/was …"
+        }
+      ],
+      "sample": "What I enjoy most about my job is solving problems. It was my first manager who taught me to stay calm under pressure. All I need now is more experience with international clients.",
+      "explainTh": "ตรวจว่า It-cleft มี that/who และ What-cleft ไม่ใส่ประธานซ้ำหลัง is/was"
+    }
+  ]
+}

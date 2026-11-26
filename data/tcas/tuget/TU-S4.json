@@ -1,0 +1,1410 @@
+{
+  "exam": "tuget",
+  "setId": "TU-S4",
+  "title": "TU-GET ชุดฝึกที่ 4",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "sections": [
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "TU-S4-G01",
+          "type": "tu_sentence",
+          "instructionTh": "เลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง เพื่อให้ประโยคถูกต้องตามหลักไวยากรณ์",
+          "items": [
+            {
+              "id": "TU-S4-001",
+              "stem": "Not until the final data set had been cross-checked ____ to publish the findings.",
+              "options": [
+                "did the team agree",
+                "had agreed the team",
+                "the team did agree",
+                "the team agreed"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "เมื่อขึ้นต้นด้วย \"Not until ...\" ประโยคหลักต้องสลับกริยาช่วยไว้หน้าประธาน (inversion) จึงเป็น \"did the team agree\" ส่วนตัวเลือกอื่นไม่สลับหรือสลับผิดรูป"
+            },
+            {
+              "id": "TU-S4-002",
+              "stem": "The admissions committee recommended that every applicant ____ a portfolio of recent work before the interview.",
+              "options": [
+                "submit",
+                "submitting",
+                "to submit",
+                "had submitted"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "หลังกริยา recommend + that ใช้ subjunctive คือกริยารูปพื้นฐาน (base form) ไม่ว่าประธานจะเป็นอะไร จึงตอบ \"submit\""
+            },
+            {
+              "id": "TU-S4-003",
+              "stem": "Had the engineers tested the bridge under winter conditions, the cracks ____ much earlier.",
+              "options": [
+                "will have been detected",
+                "would have been detected",
+                "had been detected",
+                "would detect"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Had the engineers tested ...\" คือ If-clause แบบที่ 3 ที่ละ if แล้วสลับ had ไว้หน้า ประโยคหลักจึงต้องเป็น would have + V3 และรอยร้าว \"ถูกตรวจพบ\" จึงใช้ passive \"would have been detected\""
+            },
+            {
+              "id": "TU-S4-004",
+              "stem": "____ in a remote valley, the village was largely untouched by the tourism boom of the 1990s.",
+              "options": [
+                "To situate",
+                "Situating",
+                "Situated",
+                "Having situated"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "หมู่บ้าน \"ถูกตั้งอยู่\" ในหุบเขา ความหมายเป็น passive จึงใช้ past participle \"Situated\" ขึ้นต้นวลี ส่วน Situating/Having situated เป็นความหมายเชิงกระทำ"
+            },
+            {
+              "id": "TU-S4-005",
+              "stem": "The proposal, ____ was debated for nearly three hours, was eventually shelved.",
+              "options": [
+                "that",
+                "what",
+                "whose",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "อนุประโยคที่อยู่ระหว่างจุลภาคเป็น non-defining relative clause ซึ่งใช้ that ไม่ได้ และต้องการสรรพนามแทนสิ่งของที่เป็นประธาน จึงใช้ \"which\""
+            },
+            {
+              "id": "TU-S4-006",
+              "stem": "So persuasive ____ that even the most sceptical members of the panel changed their votes.",
+              "options": [
+                "did her argument",
+                "her argument has",
+                "her argument was",
+                "was her argument"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"So + adjective\" ขึ้นต้นประโยคต้องสลับกริยาไว้หน้าประธาน และกริยาหลักคือ be จึงเป็น \"was her argument\" ไม่ใช้ did กับ be"
+            },
+            {
+              "id": "TU-S4-007",
+              "stem": "It is high time the city council ____ something about the flooding in the eastern districts.",
+              "options": [
+                "does",
+                "did",
+                "will do",
+                "has done"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "สำนวน \"It is high time + ประธาน\" ตามด้วยกริยาช่องที่ 2 (past simple) เพื่อบอกว่าควรทำได้แล้ว จึงตอบ \"did\""
+            },
+            {
+              "id": "TU-S4-008",
+              "stem": "By the time the new regulations take effect next year, most firms ____ their reporting systems.",
+              "options": [
+                "had updated",
+                "would update",
+                "will have updated",
+                "have updated"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "\"By the time ... take effect next year\" บอกจุดเวลาในอนาคต การกระทำที่จะเสร็จก่อนจุดนั้นใช้ future perfect \"will have updated\""
+            },
+            {
+              "id": "TU-S4-009",
+              "stem": "Scarcely had the guest lecture begun ____ the fire alarm went off.",
+              "options": [
+                "that",
+                "when",
+                "then",
+                "than"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"Scarcely/Hardly had ... when ...\" ใช้คู่กับ when ส่วน than ใช้คู่กับ No sooner"
+            },
+            {
+              "id": "TU-S4-010",
+              "stem": "The more carefully a hypothesis is framed, ____ to test it becomes.",
+              "options": [
+                "the easiest",
+                "it is easier",
+                "the easier",
+                "easier"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้างเปรียบเทียบคู่ขนาน \"The more ..., the + comparative ...\" จึงต้องเป็น \"the easier\""
+            },
+            {
+              "id": "TU-S4-011",
+              "stem": "Neither the director nor the board members ____ aware of the accounting error until the audit.",
+              "options": [
+                "being",
+                "has been",
+                "were",
+                "was"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "กับ neither ... nor ... กริยาผันตามประธานตัวที่อยู่ใกล้กว่า คือ \"the board members\" ซึ่งเป็นพหูพจน์ และเหตุการณ์เป็นอดีต จึงใช้ \"were\""
+            },
+            {
+              "id": "TU-S4-012",
+              "stem": "The manuscript is thought ____ in a monastery library before being sold in the eighteenth century.",
+              "options": [
+                "having kept",
+                "to be keeping",
+                "to have been kept",
+                "to keep"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "การกระทำ (ถูกเก็บรักษา) เกิดก่อนเวลาที่ \"is thought\" และต้นฉบับเป็นผู้ถูกกระทำ จึงใช้ perfect passive infinitive \"to have been kept\""
+            },
+            {
+              "id": "TU-S4-013",
+              "stem": "She would rather her students ____ their own research questions than copy them from a textbook.",
+              "options": [
+                "develop",
+                "developing",
+                "had developed",
+                "developed"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"would rather + ประธานอื่น\" ตามด้วยกริยาช่องที่ 2 เมื่อพูดถึงความต้องการในปัจจุบัน/อนาคต จึงตอบ \"developed\" ส่วน had developed ใช้กับเรื่องในอดีต"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G02",
+          "type": "tu_error",
+          "instructionTh": "แต่ละประโยคมีส่วนที่ขีดเส้นใต้ 4 ส่วน (A–D) เลือกส่วนที่ผิดหลักไวยากรณ์ ซึ่งมีเพียงส่วนเดียว",
+          "items": [
+            {
+              "id": "TU-S4-014",
+              "stem": "The number of students [[who enroll]] in online courses [[have risen]] steadily [[over the past]] decade, [[according to]] the survey.",
+              "options": [
+                "who enroll",
+                "have risen",
+                "over the past",
+                "according to"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"The number of ...\" เป็นประธานเอกพจน์ กริยาต้องเป็น \"has risen\" ไม่ใช่ have risen (ต่างจาก \"A number of ...\" ที่ใช้พหูพจน์)"
+            },
+            {
+              "id": "TU-S4-015",
+              "stem": "[[Despite of]] the heavy rain, the organizers [[decided]] to hold the ceremony [[outdoors]] [[as planned]].",
+              "options": [
+                "Despite of",
+                "decided",
+                "outdoors",
+                "as planned"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "despite ไม่ใช้คู่กับ of ต้องเป็น \"Despite the heavy rain\" หรือ \"In spite of the heavy rain\""
+            },
+            {
+              "id": "TU-S4-016",
+              "stem": "The researchers [[could not]] [[explain]] to the panel [[exactly]] [[why did the samples]] change colour so rapidly.",
+              "options": [
+                "could not",
+                "explain",
+                "exactly",
+                "why did the samples"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "คำถามที่ซ้อนอยู่ในประโยค (embedded question) ต้องเรียงแบบประโยคบอกเล่า คือ \"why the samples changed\" ไม่ใช้ did"
+            },
+            {
+              "id": "TU-S4-017",
+              "stem": "The professor [[suggested]] that the class [[spend]] more time [[to discuss]] the primary sources [[before]] the exam.",
+              "options": [
+                "suggested",
+                "spend",
+                "to discuss",
+                "before"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "สำนวน \"spend time + V-ing\" จึงต้องเป็น \"discussing\" ส่วน \"spend\" หลัง suggested that ถูกต้องตามหลัก subjunctive"
+            },
+            {
+              "id": "TU-S4-018",
+              "stem": "The new library, [[which]] opened last month, [[has attracted]] more visitors [[than]] [[expecting]].",
+              "options": [
+                "which",
+                "has attracted",
+                "than",
+                "expecting"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ต้องเป็น \"than expected\" (ที่ถูกคาดไว้) ใช้ past participle เพราะผู้เยี่ยมชม \"ถูกคาดการณ์\" ไม่ใช่ expecting"
+            },
+            {
+              "id": "TU-S4-019",
+              "stem": "Not only [[the museum lacks]] funding, but it [[also]] struggles [[to attract]] [[younger]] visitors.",
+              "options": [
+                "the museum lacks",
+                "also",
+                "to attract",
+                "younger"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "เมื่อขึ้นต้นด้วย \"Not only\" ต้องสลับกริยาช่วยไว้หน้าประธาน คือ \"does the museum lack\""
+            },
+            {
+              "id": "TU-S4-020",
+              "stem": "The committee [[is looking forward]] to [[receive]] your application [[and]] will contact you [[shortly]].",
+              "options": [
+                "is looking forward",
+                "receive",
+                "and",
+                "shortly"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "\"look forward to\" ใช้ to เป็นบุพบท ต้องตามด้วยคำนามหรือ V-ing คือ \"receiving\""
+            },
+            {
+              "id": "TU-S4-021",
+              "stem": "It was [[such a]] complicated experiment [[that]] [[few of]] the assistants [[could understood]] the procedure.",
+              "options": [
+                "such a",
+                "that",
+                "few of",
+                "could understood"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลัง modal verb (could) ต้องใช้กริยารูปพื้นฐาน คือ \"could understand\""
+            },
+            {
+              "id": "TU-S4-022",
+              "stem": "The harbour town, [[known]] for [[its]] seafood market, [[have]] become [[increasingly]] popular with cyclists.",
+              "options": [
+                "known",
+                "its",
+                "have",
+                "increasingly"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"The harbour town\" เป็นเอกพจน์ กริยาต้องเป็น \"has become\" วลีระหว่างจุลภาคไม่มีผลต่อการผันกริยา"
+            },
+            {
+              "id": "TU-S4-023",
+              "stem": "The volunteers [[were told]] not to touch the fossils, [[most of them]] were [[extremely]] [[fragile]].",
+              "options": [
+                "were told",
+                "most of them",
+                "extremely",
+                "fragile"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "การเชื่อมสองประโยคด้วยจุลภาคต้องใช้ relative pronoun คือ \"most of which\" (ซึ่งส่วนใหญ่) การใช้ them ทำให้เป็นสองประโยคเชื่อมกันผิด (comma splice)"
+            },
+            {
+              "id": "TU-S4-024",
+              "stem": "She [[has been working]] at the observatory [[since]] 2019, so she [[is knowing]] its instruments better than [[anyone else]].",
+              "options": [
+                "has been working",
+                "since",
+                "is knowing",
+                "anyone else"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "know เป็น stative verb ไม่ใช้ในรูป continuous ต้องเป็น \"she knows\" ส่วน \"has been working ... since 2019\" ถูกต้องตามหลัก present perfect continuous"
+            },
+            {
+              "id": "TU-S4-025",
+              "stem": "[[The]] information [[that]] the farmers provided [[were]] [[surprisingly]] detailed.",
+              "options": [
+                "The",
+                "that",
+                "were",
+                "surprisingly"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "information เป็นคำนามนับไม่ได้ ใช้กริยาเอกพจน์ \"was\" ไม่ใช่ were"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "TU-S4-G03",
+          "type": "tu_vocab",
+          "instructionTh": "เลือกคำที่เหมาะสมที่สุดเติมในช่องว่าง หรือเลือกคำ/วลีที่มีความหมายใกล้เคียงที่สุดกับคำที่กำหนด",
+          "items": [
+            {
+              "id": "TU-S4-026",
+              "stem": "The results were so ____ that the journal requested a second, independent analysis before publication.",
+              "options": [
+                "coherent",
+                "anomalous",
+                "ubiquitous",
+                "mundane"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "anomalous = ผิดปกติ ผิดไปจากที่คาด จึงทำให้วารสารต้องขอให้วิเคราะห์ซ้ำ ส่วน mundane (ธรรมดา) และ coherent (สอดคล้องกัน) ไม่ใช่เหตุให้ต้องตรวจซ้ำ"
+            },
+            {
+              "id": "TU-S4-027",
+              "stem": "In the sentence \"New drainage channels helped mitigate the effects of the flood,\" the word \"mitigate\" is closest in meaning to",
+              "options": [
+                "predict",
+                "reveal",
+                "lessen",
+                "worsen"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "mitigate = ทำให้เบาบางลง ลดความรุนแรง ใกล้เคียงกับ lessen"
+            },
+            {
+              "id": "TU-S4-028",
+              "stem": "Her account of the mountain expedition was so ____ that readers felt they were travelling alongside her.",
+              "options": [
+                "verbatim",
+                "vivid",
+                "vicarious",
+                "vigilant"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "vivid = มีชีวิตชีวา เห็นภาพชัด จึงทำให้ผู้อ่านรู้สึกเหมือนร่วมเดินทาง ส่วน vicarious ใช้กับประสบการณ์ของผู้อ่าน (vicarious experience) ไม่ใช้บรรยายตัวงานเขียน และ verbatim แปลว่าคำต่อคำ"
+            },
+            {
+              "id": "TU-S4-029",
+              "stem": "\"Auditors will scrutinize every invoice submitted last year.\" The word \"scrutinize\" is closest in meaning to",
+              "options": [
+                "examine closely",
+                "summarise briefly",
+                "approve formally",
+                "check randomly"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "scrutinize = ตรวจสอบอย่างละเอียดถี่ถ้วนทุกรายการ ตรงกับ examine closely ส่วน check randomly คือสุ่มตรวจ ขัดกับคำว่า every invoice"
+            },
+            {
+              "id": "TU-S4-030",
+              "stem": "Because the instructions were ____, half of the participants completed the task incorrectly.",
+              "options": [
+                "ambiguous",
+                "explicit",
+                "meticulous",
+                "thorough"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ambiguous = กำกวม ตีความได้หลายทาง จึงเป็นเหตุให้คนทำผิดครึ่งหนึ่ง ส่วน meticulous, thorough, explicit ล้วนมีความหมายเชิงบวกว่าละเอียด/ชัดเจน"
+            },
+            {
+              "id": "TU-S4-031",
+              "stem": "\"Rising shipping costs have steadily eroded the company's profits.\" The word \"eroded\" is closest in meaning to",
+              "options": [
+                "officially reported",
+                "suddenly doubled",
+                "gradually reduced",
+                "carefully hidden"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "erode = กัดกร่อน ค่อย ๆ ลดลง คำว่า steadily ช่วยยืนยันว่าเป็นการลดลงทีละน้อย"
+            },
+            {
+              "id": "TU-S4-032",
+              "stem": "The professor is admired for her ____ approach to research: she checks every source and questions every assumption, including her own.",
+              "options": [
+                "haphazard",
+                "complacent",
+                "gullible",
+                "rigorous"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "rigorous = เข้มงวด รอบคอบ สอดคล้องกับการตรวจทุกแหล่งข้อมูลและตั้งคำถามกับทุกสมมติฐาน ส่วน haphazard (สะเปะสะปะ) และ gullible (เชื่อคนง่าย) ตรงข้าม"
+            },
+            {
+              "id": "TU-S4-033",
+              "stem": "\"The new survey corroborates the guide's account of where the old harbour wall stood.\" The word \"corroborates\" is closest in meaning to",
+              "options": [
+                "contradicts",
+                "exaggerates",
+                "simplifies",
+                "confirms"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "corroborate = ยืนยัน สนับสนุนว่าเป็นความจริง ตรงกับ confirms"
+            },
+            {
+              "id": "TU-S4-034",
+              "stem": "The annual craft fair has become ____ part of the town's identity; residents cannot imagine the year without it.",
+              "options": [
+                "a provisional",
+                "a peripheral",
+                "an integral",
+                "a superficial"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "integral = เป็นส่วนสำคัญที่ขาดไม่ได้ สอดคล้องกับ \"cannot imagine the year without it\" ส่วน peripheral (ชายขอบ) และ superficial (ผิวเผิน) ขัดกับบริบท"
+            },
+            {
+              "id": "TU-S4-035",
+              "stem": "\"Funding for the second phase is contingent on the results of the pilot study.\" The phrase \"contingent on\" is closest in meaning to",
+              "options": [
+                "ahead of",
+                "dependent on",
+                "unrelated to",
+                "opposed to"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "contingent on = ขึ้นอยู่กับ คือทุนระยะที่สองจะได้หรือไม่ขึ้นอยู่กับผลการศึกษานำร่อง"
+            },
+            {
+              "id": "TU-S4-036",
+              "stem": "The two theories are not ____; a researcher can reasonably accept both at the same time.",
+              "options": [
+                "interchangeable",
+                "influential",
+                "incompatible",
+                "indispensable"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "incompatible = ขัดแย้งกัน ไปด้วยกันไม่ได้ เมื่อทฤษฎี \"ไม่ขัดแย้งกัน\" จึงยอมรับทั้งสองได้พร้อมกัน"
+            },
+            {
+              "id": "TU-S4-037",
+              "stem": "\"The museum's collection was greatly augmented by a private donation.\" The word \"augmented\" is closest in meaning to",
+              "options": [
+                "restored",
+                "enlarged",
+                "appraised",
+                "financed"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "augment = เพิ่มขึ้น ขยายให้มากขึ้น การบริจาคทำให้คอลเลกชันใหญ่ขึ้น จึงตรงกับ enlarged ส่วน appraised (ประเมินราคา) และ restored (บูรณะ) ไม่ได้หมายถึงการเพิ่มจำนวน"
+            },
+            {
+              "id": "TU-S4-038",
+              "stem": "Critics argued that the consultants' report ____ the risks of the plan while exaggerating its benefits.",
+              "options": [
+                "underwent",
+                "understated",
+                "undertook",
+                "underlined"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "understate = กล่าวน้อยกว่าความจริง ซึ่งตรงข้ามกับ exaggerating ในประโยคเดียวกัน ส่วน underlined (เน้นย้ำ) ไม่เข้ากับการเปรียบเทียบนี้"
+            },
+            {
+              "id": "TU-S4-039",
+              "stem": "\"Her explanation was plausible, though not entirely convincing.\" The word \"plausible\" is closest in meaning to",
+              "options": [
+                "persuasive",
+                "polished",
+                "proven",
+                "reasonable"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "plausible = ฟังดูมีเหตุผล น่าเชื่อได้ ตรงกับ reasonable ส่วน persuasive และ proven ขัดกับ \"though not entirely convincing\""
+            },
+            {
+              "id": "TU-S4-040",
+              "stem": "After months of negotiation, the two firms finally reached a ____ that both sides could accept.",
+              "options": [
+                "dilemma",
+                "compromise",
+                "deficit",
+                "precedent"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "reach a compromise = ได้ข้อตกลงที่ต่างฝ่ายต่างยอมกันคนละครึ่ง เข้ากับ \"both sides could accept\""
+            },
+            {
+              "id": "TU-S4-041",
+              "stem": "\"The scientist was reluctant to extrapolate from such a small sample.\" The word \"extrapolate\" is closest in meaning to",
+              "options": [
+                "draw wider conclusions",
+                "repeat the test",
+                "publish the results",
+                "collect more data"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "extrapolate = อนุมานหรือขยายผลจากข้อมูลที่มีไปสู่ข้อสรุปที่กว้างขึ้น นักวิทยาศาสตร์ลังเลเพราะกลุ่มตัวอย่างเล็กเกินไป"
+            },
+            {
+              "id": "TU-S4-042",
+              "stem": "The village's population has ____ from 3,000 to fewer than 800 as young people move to the cities.",
+              "options": [
+                "stagnated",
+                "flourished",
+                "fluctuated",
+                "dwindled"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "dwindle = ค่อย ๆ ลดน้อยลง ตรงกับตัวเลขที่ลดจาก 3,000 เหลือไม่ถึง 800 ส่วน stagnated (หยุดนิ่ง) และ fluctuated (ขึ้น ๆ ลง ๆ) ไม่ตรงกับการลดลงต่อเนื่อง"
+            },
+            {
+              "id": "TU-S4-043",
+              "stem": "\"The new timetable had several unforeseen ramifications for students who commute.\" The word \"ramifications\" is closest in meaning to",
+              "options": [
+                "consequences",
+                "supporters",
+                "exceptions",
+                "revisions"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ramifications = ผลที่ตามมา (มักไม่ได้คาดไว้) ตรงกับ consequences"
+            },
+            {
+              "id": "TU-S4-044",
+              "stem": "The tour guide gave a ____ summary of the castle's history, covering six centuries in under five minutes.",
+              "options": [
+                "subsidiary",
+                "successive",
+                "sustained",
+                "succinct"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "succinct = กระชับ ได้ใจความ สอดคล้องกับการเล่าประวัติหกศตวรรษในเวลาไม่ถึงห้านาที ส่วน successive (ต่อเนื่องกัน) และ sustained (ยืดเยื้อ) หน้าตาคล้ายแต่ความหมายไม่เข้ากับบริบท"
+            },
+            {
+              "id": "TU-S4-045",
+              "stem": "\"The new manager proved adept at resolving disagreements among staff.\" The word \"adept\" is closest in meaning to",
+              "options": [
+                "appointed",
+                "skilled",
+                "eager",
+                "adaptable"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "adept at = ชำนาญ เก่งในเรื่องใดเรื่องหนึ่ง ตรงกับ skilled ส่วน adaptable (ปรับตัวได้) หน้าตาคล้าย adept แต่ความหมายต่างกัน"
+            },
+            {
+              "id": "TU-S4-046",
+              "stem": "Many early inventors worked in ____, unaware that others elsewhere were trying to solve the same problem.",
+              "options": [
+                "collaboration",
+                "insulation",
+                "succession",
+                "isolation"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "work in isolation = ทำงานโดดเดี่ยว ไม่ติดต่อกับผู้อื่น สอดคล้องกับ \"unaware that others ...\" ส่วน insulation (ฉนวน) เป็นคำหน้าตาคล้าย และ collaboration ขัดกับบริบท"
+            },
+            {
+              "id": "TU-S4-047",
+              "stem": "\"The evidence for the theory remains tenuous.\" The word \"tenuous\" is closest in meaning to",
+              "options": [
+                "conclusive",
+                "contested",
+                "weak",
+                "tenacious"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "tenuous = บอบบาง อ่อน ไม่มีน้ำหนัก ตรงกับ weak ส่วน tenacious (เหนียวแน่น) หน้าตาคล้ายแต่ความหมายต่างกัน และ conclusive มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TU-S4-048",
+              "stem": "The bridge was closed as a ____ measure while engineers inspected the cracks.",
+              "options": [
+                "punitive",
+                "retrospective",
+                "precautionary",
+                "voluntary"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "precautionary measure = มาตรการป้องกันไว้ก่อน ปิดสะพานระหว่างตรวจรอยร้าวเพื่อความปลอดภัย ส่วน punitive แปลว่าเพื่อลงโทษ"
+            },
+            {
+              "id": "TU-S4-049",
+              "stem": "\"Several reviewers dismissed the band's second album as derivative.\" The word \"derivative\" is closest in meaning to",
+              "options": [
+                "commercially successful",
+                "technically complex",
+                "lacking originality",
+                "highly emotional"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "derivative ในบริบทงานศิลปะ = ลอกเลียนหรือดัดแปลงจากงานอื่น ไม่มีความเป็นต้นฉบับ คำว่า dismissed บอกว่าเป็นคำวิจารณ์เชิงลบ"
+            },
+            {
+              "id": "TU-S4-050",
+              "stem": "Despite the ____ of information available online, finding reliable sources can still be surprisingly difficult.",
+              "options": [
+                "abundance",
+                "scarcity",
+                "absence",
+                "accuracy"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "abundance = ความมีอยู่มากมาย คำว่า Despite แสดงความขัดแย้ง: ข้อมูลมีมาก แต่หาแหล่งที่เชื่อถือได้ยาก"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TU-S4-G04",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Measuring the World with Fragile Atoms",
+          "text": "For most of the twentieth century, the word \"quantum\" conjured up images of particle accelerators and thought experiments rather than practical tools. That perception is changing. A new generation of quantum sensors, devices that exploit the extreme sensitivity of atoms to their surroundings, is moving out of physics laboratories and into fields as varied as archaeology, civil engineering and navigation.\n\nThe principle behind these instruments is, in one sense, a turning of weakness into strength. Quantum states are notoriously fragile: a stray magnetic field, a slight change in temperature or a passing vibration can disturb them. For engineers trying to build quantum computers, this fragility is the central obstacle, since any disturbance corrupts the information being processed. Sensor designers, however, regard the same property as an asset. If a cloud of atoms reacts measurably to a change in gravity a billion times smaller than the pull we feel every day, then that cloud can be used to detect the change.\n\nConsider the quantum gravimeter. In a typical design, atoms are cooled with lasers to a fraction of a degree above absolute zero and then allowed to fall inside a vacuum chamber. As they fall, further laser pulses split each atom's wave into two paths that later recombine. The pattern produced when the paths meet depends on how strongly gravity acted on the atoms during their fall. Because local gravity varies slightly with the density of the ground below, a sufficiently precise gravimeter can reveal hidden structures: an empty tunnel, a buried wall, a pocket of groundwater.\n\nA team at the fictional Halvorsen Institute of Applied Physics demonstrated this last year by surveying a field where old estate records suggested a medieval cellar had once stood. Conventional ground-penetrating radar had produced unclear results because of the clay-rich soil. The quantum device, by contrast, identified a void roughly two metres below the surface, and a small excavation later confirmed the cellar's outline. \"We didn't need to dig twenty test pits,\" noted Ingrid Solberg, the project's lead engineer. \"We dug one.\"\n\nNavigation offers a second promising application. Satellite positioning is convenient, but its signals are weak and can be blocked underwater, underground or by interference. Quantum accelerometers, which track motion by measuring how atoms respond to acceleration, could allow ships and trains to calculate their position for long periods without any external signal. Prototype models drift by only a few hundred metres over a day-long voyage, compared with several kilometres for the best conventional inertial systems.\n\nYet enthusiasm should be tempered by practical realities. Most quantum sensors still require bulky lasers, vacuum pumps and careful shielding, which makes them expensive and difficult to operate outside controlled environments. The Halvorsen gravimeter, for instance, weighs over 150 kilograms and needed a team of four to transport and calibrate. Moreover, measurements take time: to average out background noise, the device sometimes has to remain in one spot for twenty minutes. For a survey covering several square kilometres, this is a serious limitation.\n\nResearchers are therefore concentrating less on improving sensitivity, which is already remarkable, and more on miniaturisation and robustness. Several groups are developing chip-scale components that could shrink the laser systems to the size of a shoebox. If they succeed, the next decade may see quantum sensors become as routine on construction sites as surveying tripods are today, though few in the field expect that transition to be quick.",
+          "items": [
+            {
+              "id": "TU-S4-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The coming replacement of satellite navigation systems",
+                "Why quantum computers remain impractical for engineers",
+                "A medieval cellar discovered with a new technology",
+                "Sensors that exploit quantum fragility, and their limits"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความพูดถึงเซนเซอร์ควอนตัมที่ใช้ความเปราะบางของสถานะควอนตัมมาวัดค่า ทั้งการประยุกต์ใช้และข้อจำกัด (ย่อหน้า 6–7) ส่วนห้องใต้ดินยุคกลางเป็นเพียงตัวอย่างหนึ่ง"
+            },
+            {
+              "id": "TU-S4-052",
+              "stem": "What does the author mean by \"a turning of weakness into strength\" in paragraph 2?",
+              "options": [
+                "Sensor designers have solved the main problem facing computing",
+                "Fragile atoms can be made stronger by cooling them with lasers",
+                "A property that hinders quantum computing makes sensing possible",
+                "Weak gravitational fields are easier to measure than strong ones"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 2 อธิบายว่าความเปราะบาง (fragility) เป็นอุปสรรคหลักของคอมพิวเตอร์ควอนตัม แต่ผู้ออกแบบเซนเซอร์มองว่าเป็น \"asset\" เพราะทำให้ตรวจจับการเปลี่ยนแปลงเล็ก ๆ ได้"
+            },
+            {
+              "id": "TU-S4-053",
+              "stem": "According to the passage, a quantum gravimeter can reveal buried structures because",
+              "options": [
+                "atoms are drawn toward empty spaces underground",
+                "laser pulses can pass through solid rock and clay",
+                "it measures the vibrations caused by groundwater",
+                "local gravity changes slightly with the density below"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3 ระบุว่า \"local gravity varies slightly with the density of the ground below\" จึงตรวจพบโพรงหรือกำแพงที่ฝังอยู่ได้"
+            },
+            {
+              "id": "TU-S4-054",
+              "stem": "Why did the Halvorsen team most likely use a quantum device for the field survey?",
+              "options": [
+                "Old estate records gave the exact depth of the cellar.",
+                "Radar had not given a clear picture in that kind of soil.",
+                "The site was too large for any other method to cover.",
+                "The owners of the field had forbidden any excavation."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 4 บอกว่าเรดาร์แบบเดิม \"produced unclear results because of the clay-rich soil\" จึงต้องใช้อุปกรณ์ควอนตัมแทน และสุดท้ายก็มีการขุดจริง ตัวเลือก D จึงผิด"
+            },
+            {
+              "id": "TU-S4-055",
+              "stem": "Ingrid Solberg's comment \"We dug one\" suggests that the sensor",
+              "options": [
+                "found several cellars that had never been recorded",
+                "allowed the team to target its digging precisely",
+                "made further archaeological research unnecessary",
+                "was faster to set up than ground-penetrating radar"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "เธอเปรียบเทียบว่าไม่ต้องขุดหลุมทดสอบ 20 หลุม ขุดเพียงหลุมเดียว แสดงว่าเซนเซอร์ระบุตำแหน่งได้แม่นจนขุดได้ตรงจุด ไม่ได้บอกว่าไม่ต้องวิจัยต่อหรือติดตั้งเร็วกว่า"
+            },
+            {
+              "id": "TU-S4-056",
+              "stem": "The word \"tempered\" in paragraph 6 is closest in meaning to",
+              "options": [
+                "encouraged",
+                "replaced",
+                "hardened",
+                "moderated"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"enthusiasm should be tempered by practical realities\" หมายถึงความกระตือรือร้นควรถูกลดทอนลงด้วยข้อเท็จจริง จึงตรงกับ moderated ส่วน hardened เป็นความหมายของ temper ในงานโลหะ ไม่ใช่ในบริบทนี้"
+            },
+            {
+              "id": "TU-S4-057",
+              "stem": "Which of the following is NOT mentioned as a limitation of current quantum sensors?",
+              "options": [
+                "They may need to stay in one place for a long time.",
+                "Their sensitivity is too low for most surveys.",
+                "They are heavy and need several people to move.",
+                "They depend on bulky lasers and vacuum pumps."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 7 กล่าวว่าความไว (sensitivity) \"is already remarkable\" จึงไม่ใช่ข้อจำกัด ส่วนน้ำหนัก 150 กิโลกรัม อุปกรณ์เลเซอร์/ปั๊มสุญญากาศ และการวัดนาน 20 นาที ถูกกล่าวถึงในย่อหน้า 6"
+            },
+            {
+              "id": "TU-S4-058",
+              "stem": "Compared with the best conventional inertial systems, prototype quantum accelerometers",
+              "options": [
+                "lose far less accuracy over a day-long journey",
+                "still depend on satellite signals to correct drift",
+                "can so far be used only on trains, not on ships",
+                "are already compact enough to fit most vessels"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 5: คลาดเคลื่อนเพียง \"a few hundred metres over a day-long voyage\" เทียบกับ \"several kilometres\" ของระบบเดิม ทั้งยังทำงานได้ \"without any external signal\" และย่อหน้า 6 บอกว่าอุปกรณ์ยังเทอะทะ"
+            },
+            {
+              "id": "TU-S4-059",
+              "stem": "The author's attitude toward the future of quantum sensors is best described as",
+              "options": [
+                "cautiously optimistic",
+                "dismissive",
+                "alarmed",
+                "unreservedly enthusiastic"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนเชื่อว่าเซนเซอร์อาจกลายเป็นเรื่องปกติในทศวรรษหน้า แต่เตือนว่า \"few in the field expect that transition to be quick\" จึงเป็นการมองในแง่ดีอย่างระมัดระวัง"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G05",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Slow Reach of Interest Rates",
+          "text": "When a central bank raises its main interest rate, the effects do not arrive all at once. Economists have long described monetary policy as operating with \"long and variable lags\": a rate decision taken today may not reach its full impact on prices for eighteen months or more. This delay creates a peculiar problem for policymakers. They must act on forecasts of an economy they cannot yet see, knowing that by the time their decisions take effect, conditions may have shifted entirely.\n\nThe transmission of a rate change works through several channels. The most direct is the cost of borrowing. Higher rates make mortgages, business loans and credit card balances more expensive, discouraging spending and investment. A second channel runs through asset prices: when savings accounts and government bonds offer better returns, investors are less willing to pay high prices for shares and property, and households that feel less wealthy tend to cut back. A third channel is the exchange rate. Higher domestic rates attract foreign capital, strengthening the currency and making imported goods cheaper, which directly lowers measured inflation.\n\nEach channel, however, depends on circumstances. In Varenland, a fictional economy often used in textbook exercises, most homeowners hold mortgages whose rates are fixed for ten years. A rate rise there barely affects household budgets until those mortgages come up for renewal, so the borrowing channel is weak and slow. In neighbouring Ostmark, where nearly all mortgages carry variable rates, the same rise shows up in monthly repayments within weeks. Identical decisions can thus produce strikingly different outcomes depending on the structure of a country's financial system.\n\nBecause of these complications, central banks increasingly rely on a fourth tool that costs almost nothing to deploy: communication. The idea, known as forward guidance, is that by signalling the likely path of future rates, a central bank can influence long-term borrowing costs and expectations immediately, without waiting for actual rate changes to work through the economy. If businesses believe that inflation will return to target, they are less likely to raise prices pre-emptively, and workers are less likely to demand wage increases that would push costs up further. Expectations, in other words, can become self-fulfilling.\n\nForward guidance is not without risks. Its power rests entirely on credibility, and credibility is easier to lose than to build. If a central bank promises to keep rates low \"for an extended period\" and then reverses course a few months later, markets may discount its future statements. Some economists also worry that overly precise guidance ties policymakers' hands: having committed publicly to a particular path, a bank may hesitate to change direction even when new data clearly call for it, simply to avoid appearing inconsistent.\n\nThere is, finally, the question of audience. Statements crafted for bond traders, who parse every adjective, may mean little to the shopkeepers and families whose expectations matter most for inflation. A survey by the fictional Lindqvist Economic Forum found that fewer than one in five Varenland adults could correctly state whether the central bank's last move had been an increase or a cut. Several central banks have responded by publishing plain-language summaries alongside their technical reports, using short sentences and everyday examples. The aim is a welcome one. Whether such efforts genuinely reshape public expectations, or merely reassure the institutions producing them, remains an open question.",
+          "items": [
+            {
+              "id": "TU-S4-060",
+              "stem": "Which of the following best states the main idea of the passage?",
+              "options": [
+                "Central banks should stop changing rates and rely on words alone.",
+                "Fixed-rate mortgages make Varenland more stable than Ostmark.",
+                "Most adults do not understand what their central bank decides.",
+                "Policy acts slowly and unevenly; communication helps but has limits."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่านโยบายการเงินส่งผลช้าและไม่เท่ากันในแต่ละประเทศ จึงหันมาใช้การสื่อสาร (forward guidance) ซึ่งก็มีความเสี่ยงและข้อจำกัด ตัวเลือกอื่นเป็นเพียงรายละเอียดหรือเกินกว่าที่บทความกล่าว"
+            },
+            {
+              "id": "TU-S4-061",
+              "stem": "According to paragraph 1, the \"long and variable lags\" of monetary policy mean that policymakers",
+              "options": [
+                "are unable to influence prices in any meaningful way",
+                "must base their decisions on forecasts of the future",
+                "can usually see the results of a decision within weeks",
+                "should change interest rates as rarely as possible"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 1: \"They must act on forecasts of an economy they cannot yet see\" เพราะผลของการตัดสินใจต้องใช้เวลานานกว่าจะเกิด"
+            },
+            {
+              "id": "TU-S4-062",
+              "stem": "Which channel, according to the passage, reduces measured inflation by making imports cheaper?",
+              "options": [
+                "The cost of borrowing",
+                "Forward guidance",
+                "Asset prices",
+                "The exchange rate"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 2: ดอกเบี้ยสูงดึงดูดเงินทุนต่างชาติ ทำให้ค่าเงินแข็งและ \"making imported goods cheaper, which directly lowers measured inflation\" คือช่องทางอัตราแลกเปลี่ยน"
+            },
+            {
+              "id": "TU-S4-063",
+              "stem": "Why does a rate rise have only a weak and slow effect on household borrowing in Varenland?",
+              "options": [
+                "Banks in Varenland refuse to change their lending rates.",
+                "Variable-rate mortgages there adjust only once a year.",
+                "Most mortgages there have rates fixed for ten years.",
+                "Foreign capital keeps mortgage costs artificially low."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3: เจ้าของบ้านส่วนใหญ่ใน Varenland มีสินเชื่อ \"whose rates are fixed for ten years\" การขึ้นดอกเบี้ยจึงแทบไม่กระทบจนกว่าจะต่อสัญญาใหม่"
+            },
+            {
+              "id": "TU-S4-064",
+              "stem": "The author contrasts Varenland with Ostmark in order to",
+              "options": [
+                "show that one decision can have different effects in each",
+                "predict how both economies will perform in the future",
+                "argue that variable-rate mortgages are always preferable",
+                "explain why Ostmark's central bank is more successful"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ประโยคท้ายย่อหน้า 3 สรุปว่า \"Identical decisions can thus produce strikingly different outcomes\" ขึ้นกับโครงสร้างระบบการเงิน ผู้เขียนไม่ได้ตัดสินว่าแบบใดดีกว่า"
+            },
+            {
+              "id": "TU-S4-065",
+              "stem": "In paragraph 4, expectations \"can become self-fulfilling\" because",
+              "options": [
+                "people who expect low inflation act in ways that keep it low",
+                "forward guidance changes actual interest rates immediately",
+                "workers usually demand higher wages whenever rates are cut",
+                "central banks can always force businesses to keep prices low"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ถ้าธุรกิจเชื่อว่าเงินเฟ้อจะลดลงก็จะไม่ขึ้นราคาล่วงหน้า และแรงงานก็ไม่เรียกร้องค่าจ้างเพิ่ม ความคาดหวังจึงทำให้เงินเฟ้อต่ำลงจริง"
+            },
+            {
+              "id": "TU-S4-066",
+              "stem": "The word \"parse\" in paragraph 6 is closest in meaning to",
+              "options": [
+                "repeat often",
+                "translate freely",
+                "ignore entirely",
+                "analyse closely"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "นักค้าพันธบัตรที่ \"parse every adjective\" คือวิเคราะห์ทุกคำคุณศัพท์อย่างละเอียด ต่างจากคนทั่วไปที่แทบไม่เข้าใจถ้อยแถลง"
+            },
+            {
+              "id": "TU-S4-067",
+              "stem": "How does the author view the plain-language summaries published by some central banks?",
+              "options": [
+                "As a proven way of changing public expectations",
+                "As a welcome effort whose real impact is uncertain",
+                "As useful mainly to bond traders and economists",
+                "As a waste of resources that should be abandoned"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนเรียกเป้าหมายนี้ว่า \"a welcome one\" แต่ปิดท้ายว่าได้ผลจริงหรือไม่ \"remains an open question\" จึงไม่ใช่ \"proven\" และไม่ได้บอกให้เลิกทำ"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G06",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Patterns Across Languages",
+          "text": "Linguists who compare the world's languages quickly discover that there are far fewer basic patterns than one might expect. Of the six logically possible orders of subject (S), verb (V) and object (O) in a simple sentence, two account for the great majority of languages. Subject-object-verb, as in Japanese or Turkish, and subject-verb-object, as in English or Thai, together cover roughly three-quarters of the languages for which reliable descriptions exist. Orders in which the object comes before the subject are so rare that, for decades, some scholars doubted they existed at all.\n\nThe study of such patterns is called linguistic typology. Its practitioners are less interested in the history of any particular language than in the range of variation across all of them, and in the constraints that seem to limit it. One of the field's most influential discoveries is that certain features tend to cluster. Languages in which the verb comes last usually place their equivalent of prepositions after the noun as well, so that they have \"postpositions\" rather than prepositions, and they tend to put possessors before the thing possessed. Verb-initial languages show the opposite tendencies. These correlations, sometimes called implicational universals, take the form \"if a language has feature X, it will probably have feature Y.\"\n\nWhy should such regularities exist? One family of explanations appeals to processing efficiency. A language that consistently places \"heads\", the words that determine a phrase's grammatical character, on the same side of their dependents may be easier for listeners to process in real time, because they can apply a single strategy throughout. Laboratory experiments in which volunteers learn small artificial languages lend some support to this view: participants exposed to inconsistent word orders tend, without being told to, to regularise them into more harmonious patterns.\n\nA second family of explanations is historical. Languages that share an ancestor naturally inherit many features, and languages spoken in the same region borrow from one another, even when they are unrelated. If one were to count every language in a large, closely related family as an independent data point, apparent universals might simply reflect the success of a few ancestral languages that happened to have particular traits. Careful typologists therefore build samples that include only one or two languages from each family and each geographical area, though critics note that the choice of which languages to include can itself shape the results.\n\nThe tension between these explanations came to a head in a study by the fictional Corvallis Linguistic Database team, who traced word-order changes along the reconstructed family trees of several large language groups. If processing pressures were universal, they argued, features should change together in the same way in every family. Instead, they found that linked changes were common in some families but almost absent in others. Their conclusion was not that cognitive explanations are wrong, but that they operate alongside lineage-specific factors that no single principle can predict.\n\nFor students of English, typology offers a useful corrective to the assumption that one's own language represents a natural default. English's subject-verb-object order, its prepositions and its reliance on word order rather than word endings to show who did what to whom are not inevitable features of human language. They are one solution among many, and speakers of Turkish or Japanese manage perfectly well with quite different ones.",
+          "items": [
+            {
+              "id": "TU-S4-068",
+              "stem": "What is the main purpose of the passage?",
+              "options": [
+                "To introduce typology and discuss why word-order patterns exist",
+                "To prove that processing efficiency explains every universal",
+                "To trace the history of a single family of related languages",
+                "To show that English grammar is simpler than that of Japanese"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความแนะนำวิชา linguistic typology และอภิปรายคำอธิบายสองแนว (การประมวลผลและประวัติศาสตร์) ว่าทำไมรูปแบบลำดับคำจึงเกิดขึ้น ไม่ได้ศึกษาภาษาตระกูลเดียว และไม่ได้สรุปว่าคำอธิบายเดียวถูกทั้งหมด"
+            },
+            {
+              "id": "TU-S4-069",
+              "stem": "According to paragraph 1, which word orders are the rarest?",
+              "options": [
+                "Orders in which the subject comes first",
+                "Orders in which the verb precedes the object",
+                "Orders in which the verb comes last",
+                "Orders in which the object precedes the subject"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 1: \"Orders in which the object comes before the subject are so rare that ... some scholars doubted they existed at all\""
+            },
+            {
+              "id": "TU-S4-070",
+              "stem": "The word \"cluster\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "change rapidly",
+                "vanish over time",
+                "occur together",
+                "differ widely"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคถัดมาอธิบายว่าลักษณะบางอย่างมักมาคู่กัน เช่น กริยาอยู่ท้ายมักมี postpositions ด้วย cluster จึงหมายถึงเกิดร่วมกัน"
+            },
+            {
+              "id": "TU-S4-071",
+              "stem": "Which of the following would be consistent with the tendencies described in paragraph 2?",
+              "options": [
+                "A verb-initial language that puts possessors before nouns",
+                "A verb-final language that puts possessors after nouns",
+                "A verb-final language that uses prepositions before nouns",
+                "A verb-final language that has postpositions, not prepositions"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 2: ภาษาที่กริยาอยู่ท้ายมักใช้ postpositions และวางผู้เป็นเจ้าของไว้หน้าสิ่งที่ถูกครอบครอง ตัวเลือกอื่นขัดกับแนวโน้มนี้"
+            },
+            {
+              "id": "TU-S4-072",
+              "stem": "What do the artificial-language experiments described in paragraph 3 suggest?",
+              "options": [
+                "Learners tend to favour consistent word-order patterns.",
+                "Volunteers learn invented languages faster than real ones.",
+                "Inconsistent word orders are impossible for adults to learn.",
+                "Participants were instructed to make the languages regular."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เข้าร่วมที่เจอลำดับคำไม่สม่ำเสมอ \"tend, without being told to, to regularise them\" แสดงว่าผู้เรียนโน้มเอียงไปสู่รูปแบบที่สม่ำเสมอ และไม่มีใครสั่งให้ทำ ตัวเลือก D จึงผิด"
+            },
+            {
+              "id": "TU-S4-073",
+              "stem": "In paragraph 3, the word \"them\" in \"to regularise them\" refers to",
+              "options": [
+                "laboratory experiments",
+                "participants",
+                "inconsistent word orders",
+                "listeners"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "สิ่งที่ผู้เข้าร่วมทำให้ \"more harmonious\" คือ \"inconsistent word orders\" ที่กล่าวถึงก่อนหน้าในประโยคเดียวกัน"
+            },
+            {
+              "id": "TU-S4-074",
+              "stem": "Why do careful typologists include only one or two languages from each family and area?",
+              "options": [
+                "Researchers are required to focus on rare languages.",
+                "Unrelated languages rarely share grammatical features.",
+                "Large families are too difficult to describe reliably.",
+                "Shared ancestry and contact could create false universals."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4: หากนับภาษาในตระกูลเดียวกันทุกภาษาเป็นข้อมูลอิสระ \"apparent universals might simply reflect the success of a few ancestral languages\" จึงต้องจำกัดจำนวนต่อตระกูลและพื้นที่"
+            },
+            {
+              "id": "TU-S4-075",
+              "stem": "What did the Corvallis team conclude?",
+              "options": [
+                "Cognitive explanations of word order have been disproved.",
+                "Word-order features change together in every family.",
+                "Processing pressures work alongside family-specific factors.",
+                "Language families should be excluded from all samples."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 5: ข้อสรุป \"was not that cognitive explanations are wrong, but that they operate alongside lineage-specific factors\" ตัวเลือก A จึงตรงข้ามกับข้อสรุป"
+            },
+            {
+              "id": "TU-S4-076",
+              "stem": "What is the purpose of the final paragraph?",
+              "options": [
+                "To argue that English word order is the most efficient one",
+                "To summarise the methods used by the Corvallis researchers",
+                "To recommend that English learners study Turkish or Japanese",
+                "To question the idea that English reflects a natural default"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า typology เป็น \"a useful corrective to the assumption that one's own language represents a natural default\" ลักษณะของภาษาอังกฤษเป็นเพียงทางเลือกหนึ่ง"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G07",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Who Pays for an Invasion?",
+          "text": "When an invasive plant or animal establishes itself in a new environment, ecologists tend to describe the damage in terms of lost biodiversity. Economists, increasingly, are asking a different question: who pays, and how much? The answer matters because decisions about whether and how to fight an invasion are ultimately decisions about how to spend limited public money.\n\nThe costs fall into two broad categories. Direct damages include crops eaten, water pipes clogged and timber destroyed. In the fictional river province of Maralinga Basin, an invasive freshwater mussel that arrived in the ballast water of cargo ships attached itself to the intake pipes of a hydroelectric plant, forcing operators to shut down turbines for cleaning several times a year. Each shutdown cost the plant roughly 400,000 dollars in lost generation. Management costs, the second category, cover everything spent on prevention, monitoring and removal: inspection stations for boats, trained detection dogs, chemical treatments and the labour of volunteers who pull weeds from riverbanks.\n\nA striking pattern emerges when these costs are tracked over time. Spending on prevention is typically tiny compared with spending on control once an invader is established. A widely cited model developed by the fictional Okonjo Centre for Environmental Economics suggests that a dollar invested in early detection can avoid between ten and a hundred dollars of later costs. The logic is intuitive: a population of a few hundred individuals can often be eradicated relatively cheaply, whereas one of several million may only ever be contained.\n\nWhy, then, do governments so often under-invest in prevention? Part of the answer lies in the nature of the benefits. The success of a prevention programme is invisible: nothing happens. It is difficult to win support, or budgets, for averting a disaster that the public never sees. Damages from an established invader, by contrast, are concrete and attract attention, so resources tend to flow towards visible crises rather than quiet risks.\n\nA further complication is that costs and benefits are rarely borne by the same people. The shipping companies whose vessels carry stowaway organisms seldom pay for the invasions they cause; those costs fall on farmers, utilities and taxpayers, often in places far from any port. Economists describe this as an externality, a cost imposed on third parties that is not reflected in the price of the activity that generates it. Some have proposed charging a small fee on imports from high-risk regions to fund inspection programmes, in effect making the polluter pay. Opponents argue that such fees are difficult to calibrate and could become trade barriers in disguise.\n\nNot every introduced species is purely a liability. Some provide services that partly offset their damage: an introduced shrub may stabilise eroding slopes, or a non-native fish may support a commercial fishery. Assigning monetary values to these benefits is contentious, and critics warn that doing so may give a misleading impression of balance where ecological harm is severe and irreversible. Nonetheless, most economists in the field agree that ignoring benefits altogether produces worse decisions than attempting to measure them, however imperfectly.",
+          "items": [
+            {
+              "id": "TU-S4-077",
+              "stem": "Which title best fits the passage?",
+              "options": [
+                "Volunteers on the Front Line Against Weeds",
+                "Counting the Costs: Invasions and Public Money",
+                "How Invasive Mussels Reached Maralinga Basin",
+                "Why Some Introduced Species Prove Useful"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทความมองการรุกรานของสิ่งมีชีวิตต่างถิ่นในแง่เศรษฐศาสตร์ ว่าใครจ่าย จ่ายเท่าไร และควรใช้เงินสาธารณะอย่างไร ตัวเลือกอื่นเป็นเพียงรายละเอียดของบางย่อหน้า"
+            },
+            {
+              "id": "TU-S4-078",
+              "stem": "The example of the freshwater mussel in paragraph 2 is used to illustrate",
+              "options": [
+                "a direct form of damage",
+                "a successful eradication",
+                "a benefit of an invader",
+                "a typical management cost"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้า 2 เริ่มด้วย \"Direct damages include ... water pipes clogged\" แล้วยกตัวอย่างหอยที่อุดท่อโรงไฟฟ้า จึงเป็นตัวอย่างความเสียหายทางตรง ส่วนค่าจัดการ (management costs) เป็นอีกประเภทหนึ่ง"
+            },
+            {
+              "id": "TU-S4-079",
+              "stem": "According to the Okonjo Centre's model, one dollar spent on early detection",
+              "options": [
+                "is usually wasted because invasions are hard to predict",
+                "costs ten to a hundred times more than later control",
+                "can prevent ten to a hundred dollars of later costs",
+                "should be paid by shipping firms rather than taxpayers"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3: \"a dollar invested in early detection can avoid between ten and a hundred dollars of later costs\" ตัวเลือก B กลับความหมาย"
+            },
+            {
+              "id": "TU-S4-080",
+              "stem": "Why can a small invasive population often be removed \"relatively cheaply\"?",
+              "options": [
+                "Small populations cause no damage to crops or pipes.",
+                "It may still be possible to eliminate it entirely.",
+                "Volunteers are willing to work on small projects only.",
+                "Chemical treatments work only on small populations."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 3 เปรียบเทียบว่าประชากรไม่กี่ร้อยตัว \"can often be eradicated\" ขณะที่ประชากรหลายล้าน \"may only ever be contained\" แปลว่าประชากรเล็กยังกำจัดให้หมดได้"
+            },
+            {
+              "id": "TU-S4-081",
+              "stem": "According to paragraph 4, governments under-invest in prevention mainly because",
+              "options": [
+                "established invaders cause only minor damage",
+                "prevention programmes rarely succeed in practice",
+                "the public prefers to pay for chemical treatments",
+                "the success of prevention cannot be seen"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4: \"The success of a prevention programme is invisible: nothing happens\" จึงยากที่จะได้งบประมาณ"
+            },
+            {
+              "id": "TU-S4-082",
+              "stem": "Which of the following is the best example of an externality as defined in the passage?",
+              "options": [
+                "A boat owner paying to have her own hull cleaned",
+                "A government charging a fee on high-risk imports",
+                "A town cleaning pipes clogged by a ship's stowaways",
+                "A shipping firm buying engines to cut its fuel costs"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "externality คือต้นทุนที่ตกแก่บุคคลที่สามซึ่งไม่ได้ก่อ เมืองที่ต้องจ่ายค่าล้างท่อจากสิ่งมีชีวิตที่เรือพามาตรงกับนิยามนี้ ส่วนเจ้าของเรือที่จ่ายค่าทำความสะอาดเรือของตนเองเป็นผู้รับภาระต้นทุนของตัวเอง ไม่ใช่บุคคลที่สาม"
+            },
+            {
+              "id": "TU-S4-083",
+              "stem": "The word \"calibrate\" in paragraph 5 is closest in meaning to",
+              "options": [
+                "set accurately",
+                "advertise widely",
+                "abolish entirely",
+                "collect fairly"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "ฝ่ายคัดค้านกล่าวว่าค่าธรรมเนียมนี้ \"difficult to calibrate\" คือยากจะกำหนดอัตราให้พอดีหรือถูกต้อง"
+            },
+            {
+              "id": "TU-S4-084",
+              "stem": "According to the final paragraph, most economists in the field would agree that",
+              "options": [
+                "ecological harm can always be expressed in money terms",
+                "invasive species usually provide more benefits than costs",
+                "the benefits of introduced species are too small to count",
+                "the benefits of invaders should be estimated, even if imperfectly"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ประโยคสุดท้าย: \"ignoring benefits altogether produces worse decisions than attempting to measure them, however imperfectly\" จึงควรพยายามประเมินประโยชน์แม้จะไม่สมบูรณ์"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G08",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Business Behind the Brush",
+          "text": "Visitors to the great galleries of Europe often admire Renaissance paintings as the products of individual genius. The reality behind many of these works was considerably more commercial. Most painters in fifteenth-century Italy did not create art and then look for buyers; they worked to order, under detailed contracts drawn up by the patrons who paid them. Understanding these arrangements does not diminish the achievements of the artists, but it does change how we read the works themselves.\n\nSurviving contracts reveal how much patrons sought to control. A typical agreement specified the subject of the painting, the number of figures, the size of the panel and the deadline for completion. Many also regulated materials, and here money spoke loudly. Ultramarine, a deep blue pigment ground from a semi-precious stone imported from Central Asia, cost more than gold by weight. Contracts often stipulated that the robe of the central figure be painted in ultramarine \"of the finest quality, at two florins the ounce\", ensuring that the patron's devotion, and wealth, would be visible to everyone who saw the work.\n\nOver the course of the century, however, a subtle shift took place. Earlier contracts devoted most of their attention to materials, measuring the value of a painting largely by the cost of what went into it. Later agreements increasingly emphasised the artist's own labour. A contract drafted in 1487 for the fictional painter Matteo Varri, for example, required that \"all the figures be painted by Matteo's own hand, and especially the faces\", rather than by his assistants. The patron was now paying not only for precious blue but for the master's skill, a sign that artistic talent itself was becoming a form of conspicuous expenditure.\n\nPatrons had varied motives. Wealthy merchant families commissioned altarpieces partly as expressions of faith, but also to display their status in a society where commerce was sometimes viewed with suspicion. Guilds funded public sculptures to advertise their prosperity and to compete with rival guilds. City authorities ordered large wall paintings for council halls to project an image of good government. In each case, the work served purposes that went well beyond decoration.\n\nArtists were not merely passive executors of these wishes. The most successful negotiated terms, raised their prices as their reputations grew, and occasionally exploited vague contract language to introduce their own ideas. Varri's letters, preserved in a family archive, show him gently persuading a patron to replace a crowded scene of twelve figures with a quieter composition of four, arguing that \"a few figures well made bring more honour than many made in haste\". The patron agreed, and the finished panel is now considered one of Varri's finest works.\n\nRecognising the role of patrons helps explain features of Renaissance art that might otherwise seem puzzling: the small kneeling figures of donors tucked into the corners of scenes, the coats of arms painted on frames, the striking prominence of blue. These are not distractions from the art but evidence of the economic and social world that made it possible. To look at a Renaissance altarpiece in this light is to read a kind of document, one that records not only an artistic vision but also a negotiation between those who paid and those who painted.",
+          "items": [
+            {
+              "id": "TU-S4-085",
+              "stem": "What is the passage mainly concerned with?",
+              "options": [
+                "The techniques Renaissance painters used to mix pigments",
+                "Why ultramarine became more valuable than gold",
+                "How patrons and contracts shaped Renaissance painting",
+                "The life and career of the painter Matteo Varri"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายบทบาทของผู้อุปถัมภ์และสัญญาจ้างที่มีต่องานจิตรกรรมยุคเรอเนซองส์ ส่วน Varri และสีน้ำเงินเป็นเพียงตัวอย่างประกอบ"
+            },
+            {
+              "id": "TU-S4-086",
+              "stem": "Why did contracts often specify high-quality ultramarine?",
+              "options": [
+                "It was the only blue pigment painters knew how to use.",
+                "It made the patron's wealth visible to every viewer.",
+                "Artists refused to work with any cheaper materials.",
+                "It lasted longer than any other pigment available."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 2: ระบุสีราคาแพงกว่าทองคำ \"ensuring that the patron's devotion, and wealth, would be visible to everyone\" จึงเป็นการแสดงความมั่งคั่งของผู้ว่าจ้าง"
+            },
+            {
+              "id": "TU-S4-087",
+              "stem": "According to paragraph 3, how did contracts change over the fifteenth century?",
+              "options": [
+                "They stopped mentioning the subject of the painting.",
+                "They began to let assistants paint the main faces.",
+                "They paid more attention to the cost of materials.",
+                "They placed more value on the master's own labour."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3: สัญญาช่วงแรกเน้นวัสดุ แต่ \"Later agreements increasingly emphasised the artist's own labour\" ตัวเลือก B และ C กลับความหมาย"
+            },
+            {
+              "id": "TU-S4-088",
+              "stem": "The word \"conspicuous\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "strictly limited",
+                "meant to be noticed",
+                "easily afforded",
+                "carefully hidden"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "conspicuous expenditure คือการใช้จ่ายเพื่อให้ผู้อื่นเห็น สอดคล้องกับแนวคิดที่ผู้ว่าจ้างต้องการแสดงฐานะผ่านฝีมือของปรมาจารย์"
+            },
+            {
+              "id": "TU-S4-089",
+              "stem": "According to the passage, guilds paid for public sculptures in order to",
+              "options": [
+                "advertise their wealth and outdo rival guilds",
+                "decorate the halls where their members met",
+                "train young artists in difficult techniques",
+                "express their gratitude to the city authorities"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4: \"Guilds funded public sculptures to advertise their prosperity and to compete with rival guilds\" ส่วนห้องประชุมสภาเป็นเรื่องของเจ้าหน้าที่เมือง"
+            },
+            {
+              "id": "TU-S4-090",
+              "stem": "What do Varri's letters suggest about successful Renaissance artists?",
+              "options": [
+                "They rarely communicated directly with patrons.",
+                "They preferred crowded scenes with many figures.",
+                "They could sometimes influence what they painted.",
+                "They usually ignored the terms of their contracts."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Varri โน้มน้าวผู้ว่าจ้างให้ลดจำนวนบุคคลในภาพจาก 12 เหลือ 4 และผู้ว่าจ้างยอม แสดงว่าศิลปินมีอิทธิพลต่อเนื้อหางานได้ แต่ไม่ได้เพิกเฉยต่อสัญญา"
+            },
+            {
+              "id": "TU-S4-091",
+              "stem": "In the final paragraph, \"These\" in \"These are not distractions from the art\" refers to",
+              "options": [
+                "donor figures, coats of arms and blue",
+                "the economic and social world",
+                "the patrons who paid for works",
+                "Renaissance paintings as a whole"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "\"These\" ย้อนไปยังลักษณะที่ดูแปลกซึ่งระบุไว้ก่อนหน้า ได้แก่ รูปผู้บริจาคคุกเข่า ตราประจำตระกูลบนกรอบ และการใช้สีน้ำเงินอย่างโดดเด่น"
+            },
+            {
+              "id": "TU-S4-092",
+              "stem": "The author compares an altarpiece to \"a kind of document\" because it",
+              "options": [
+                "was stored in archives together with letters",
+                "contains text written by the artist himself",
+                "records the dealings between patron and painter",
+                "was usually accompanied by a written contract"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่างานชิ้นนี้ \"records ... a negotiation between those who paid and those who painted\" จึงเปรียบเหมือนเอกสารบันทึกการต่อรอง ไม่ใช่เพราะมีตัวอักษรหรือถูกเก็บในหอจดหมายเหตุ"
+            }
+          ]
+        },
+        {
+          "id": "TU-S4-G09",
+          "type": "tu_reading",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถามโดยเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "When Software Inherits Prejudice",
+          "text": "Automated decision systems are often promoted as a cure for human prejudice. A loan officer may be swayed by an applicant's accent; a hiring manager may favour candidates who attended the same university as she did. Software, the argument goes, applies the same rules to everyone. Yet a growing body of research shows that algorithms can reproduce, and sometimes amplify, the very biases they were meant to remove.\n\nThe problem usually begins with data. Machine-learning systems learn patterns from historical examples, and history is not neutral. Suppose a company trains a program to identify promising job applicants using records of whom it hired and promoted over the past twenty years. If, during that period, the company rarely promoted people from a particular background, the program may learn to rate such applicants poorly, not because anyone instructed it to, but because it has faithfully absorbed the patterns in its training data. The algorithm, in effect, mistakes past discrimination for evidence of merit.\n\nRemoving sensitive categories from the data does not necessarily solve the problem. Even if a system is never told an applicant's gender or ethnicity, other variables can serve as proxies. Home address may correlate with ethnicity; gaps in employment may correlate with caring responsibilities that fall disproportionately on women; the clubs or hobbies listed on a CV may hint at social class. A model hungry for any signal that predicts its target will exploit these correlations unless it is specifically designed not to.\n\nMeasurement creates further difficulties. Developers must choose what their system is trying to predict, and the most convenient target is not always the most appropriate. In one widely discussed case study, a fictional city's road-maintenance tool was meant to identify streets most in need of repair. Because the actual condition of every street was costly to survey, the tool used the number of resident complaints as a substitute. Neighbourhoods where residents had less free time or less access to the city's online reporting system complained less often, and their roads were judged to need less attention, even when they were in worse condition.\n\nDefining fairness is itself contested. A system might be considered fair if it approves the same proportion of applicants from each group, or if its error rates are equal across groups, or if applicants with the same score have the same actual chance of success regardless of group. Researchers at the fictional Brandt Institute for Computational Ethics have shown mathematically that, except in unusual circumstances, these definitions cannot all be satisfied at once. Choosing among them is therefore not a purely technical matter but a question of values, and not one that engineers should be left to settle alone.\n\nNone of this means that automated systems are necessarily worse than human judgement. Unlike a human decision-maker, an algorithm can be audited: its outputs can be tested systematically, its errors counted, and its rules adjusted. Several organisations now commission independent audits before introducing high-stakes systems, and some publish summaries of the results. Supporters argue that such transparency, if it became standard, could make automated decisions more accountable than the informal judgements they replace. The challenge is to ensure that audits are rigorous rather than ceremonial, and that their findings actually lead to change.",
+          "items": [
+            {
+              "id": "TU-S4-093",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Algorithms are always more biased than human decision-makers.",
+                "Automated systems can carry hidden biases that are hard to remove.",
+                "Companies should stop using historical data to hire new staff.",
+                "Removing sensitive data is enough to make an algorithm fair."
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่าอัลกอริทึมสืบทอดอคติจากข้อมูล ตัวแปรแทน การเลือกเป้าหมาย และนิยามความเป็นธรรมที่ขัดกัน ซึ่งแก้ได้ยาก ตัวเลือก A และ D ขัดกับย่อหน้า 6 และ 3"
+            },
+            {
+              "id": "TU-S4-094",
+              "stem": "What does the author mean by saying the algorithm \"mistakes past discrimination for evidence of merit\"?",
+              "options": [
+                "The program was told to prefer applicants from one background.",
+                "The company hid its hiring records from the software developers.",
+                "The program cannot tell which applicants exaggerate their skills.",
+                "The program treats unfair past outcomes as signs of real ability."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "โปรแกรมเรียนรู้จากประวัติที่บริษัทไม่ค่อยเลื่อนตำแหน่งคนบางกลุ่ม จึงตีความผลที่ไม่เป็นธรรมนั้นว่าคนกลุ่มนั้นด้อยความสามารถ และย่อหน้า 2 บอกว่า \"not because anyone instructed it to\" ตัวเลือก A จึงผิด"
+            },
+            {
+              "id": "TU-S4-095",
+              "stem": "According to paragraph 3, why might removing gender or ethnicity from the data fail to prevent bias?",
+              "options": [
+                "Other variables can indirectly reveal the same information.",
+                "Programs cannot function without these sensitive categories.",
+                "Laws require companies to record these details separately.",
+                "Applicants often state these details in their CVs anyway."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 3: ตัวแปรอื่น เช่น ที่อยู่ ช่วงว่างงาน หรืองานอดิเรก \"can serve as proxies\" คือบอกข้อมูลเดียวกันได้ทางอ้อม"
+            },
+            {
+              "id": "TU-S4-096",
+              "stem": "The road-repair example in paragraph 4 illustrates the danger of",
+              "options": [
+                "relying on a computer instead of city engineers",
+                "letting residents decide which roads to repair",
+                "predicting a convenient target, not the real one",
+                "collecting too little data from city residents"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้า 4 เริ่มด้วย \"the most convenient target is not always the most appropriate\" ระบบใช้จำนวนข้อร้องเรียนแทนสภาพถนนจริง จึงละเลยย่านที่ร้องเรียนน้อย"
+            },
+            {
+              "id": "TU-S4-097",
+              "stem": "What have the Brandt Institute researchers shown?",
+              "options": [
+                "Common definitions of fairness usually cannot all be met.",
+                "Equal error rates are the best single measure of fairness.",
+                "Most algorithms already meet every definition of fairness.",
+                "Engineers are the people best placed to decide what is fair."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 5: \"these definitions cannot all be satisfied at once\" ยกเว้นกรณีพิเศษ ส่วน D ขัดกับข้อความที่ว่าไม่ควรปล่อยให้วิศวกรตัดสินเพียงลำพัง"
+            },
+            {
+              "id": "TU-S4-098",
+              "stem": "It can be inferred that the author believes the choice of a fairness definition",
+              "options": [
+                "should be left to the engineers who build each system",
+                "matters in hiring decisions but not in public services",
+                "will be settled by better mathematics in the future",
+                "should involve a wider discussion of social values"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนกล่าวว่าเป็น \"a question of values, and not one that engineers should be left to settle alone\" จึงควรให้สังคมวงกว้างร่วมพิจารณา"
+            },
+            {
+              "id": "TU-S4-099",
+              "stem": "According to the final paragraph, one advantage algorithms have over human judgement is that they",
+              "options": [
+                "can be tested and adjusted in a systematic way",
+                "never make errors once they have been audited",
+                "are trusted more by the general public",
+                "are cheaper to operate than human staff"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าสุดท้าย: \"an algorithm can be audited: its outputs can be tested systematically, its errors counted, and its rules adjusted\" ไม่ได้บอกว่าไม่ผิดพลาดหรือถูกกว่า"
+            },
+            {
+              "id": "TU-S4-100",
+              "stem": "The word \"ceremonial\" in the final paragraph is closest in meaning to",
+              "options": [
+                "highly technical",
+                "done only for show",
+                "very expensive",
+                "officially approved"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "ผู้เขียนเปรียบ audits ที่ \"rigorous\" กับ \"ceremonial\" หมายถึงการตรวจสอบที่ทำแค่เป็นพิธีหรือให้ดูดี ไม่ได้ทำให้เกิดการเปลี่ยนแปลงจริง"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 99,
+    "keyMatch": 100,
+    "total": 100,
+    "note": "ข้อ 039 ผู้ตรวจตอบตรงเฉลยแต่ไม่แน่ใจ (plausible vs persuasive) — ตัดได้ด้วยวลี not entirely convincing"
+  }
+}

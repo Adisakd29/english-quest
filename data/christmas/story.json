@@ -1,0 +1,53 @@
+{
+  "id": "xm26-story",
+  "title": "The Missing Star of Snowfield",
+  "titleTh": "ดาวที่หายไปของเมืองสโนว์ฟิลด์",
+  "note": "เนื้อเรื่องแต่งใหม่สำหรับ EnglishQuest (ร่างโดย AI) — ต้องให้ผู้ดูแลตรวจและอนุมัติทุกตอนในหน้าผู้ดูแลก่อนเปิดให้ผู้เล่นเห็น · ไม่ระบุระดับ CEFR (ยังไม่ได้ประเมินโดยผู้เชี่ยวชาญ)",
+  "chapters": [
+    {
+      "id": "c1", "title": "A Quiet Morning", "titleTh": "เช้าวันที่เงียบผิดปกติ",
+      "text": "It is the first day of December in the small town of Snowfield. Mali wakes up early and looks out of her window. Snow covers the roofs, and the big tree in the town square is ready for the festival. But something is wrong. The golden star at the top of the tree is gone! People stand around the tree and talk quietly. \"Without the star, we cannot light the tree,\" says Mr. Holt, the baker. Then Mali sees small footprints in the snow. They go from the tree toward the old library. A little fox with a red scarf is sitting next to them.",
+      "questions": [
+        { "q": "What is missing from the tree?", "options": ["The golden star", "The lights", "The red scarf", "The snow"], "answer": 0, "why": "\"The golden star at the top of the tree is gone!\"" },
+        { "q": "Who is Mr. Holt?", "options": ["A teacher", "The baker", "A librarian", "Mali's father"], "answer": 1, "why": "\"...says Mr. Holt, the baker.\"" },
+        { "q": "Where do the footprints go?", "options": ["To the bakery", "To Mali's house", "Toward the old library", "To the river"], "answer": 2, "why": "\"They go from the tree toward the old library.\"" }
+      ]
+    },
+    {
+      "id": "c2", "title": "The Fox Called Pip", "titleTh": "จิ้งจอกชื่อพิป",
+      "text": "The fox looks at Mali and says, \"Hello. My name is Pip. I can help you, but you must help me too.\" Mali is surprised, but she smiles. \"How can I help you?\" she asks. Pip explains that the star did not fall. A strong wind carried it away last night. \"The wind left three clues,\" Pip says. \"Each clue is written in English. If we read them carefully, we can find the star before Christmas Eve.\" Pip gives Mali a small card. On the card, there are only four words: \"Look where stories sleep.\"",
+      "questions": [
+        { "q": "What does Pip say happened to the star?", "options": ["Someone stole it", "It fell and broke", "A strong wind carried it away", "Mali took it home"], "answer": 2, "why": "\"A strong wind carried it away last night.\"" },
+        { "q": "How many clues did the wind leave?", "options": ["Two", "Three", "Four", "Five"], "answer": 1, "why": "\"The wind left three clues.\"" },
+        { "q": "What is written on the card?", "options": ["Look where stories sleep.", "Follow the river.", "Open the red door.", "Ask the baker."], "answer": 0, "why": "On the card: \"Look where stories sleep.\"" }
+      ]
+    },
+    {
+      "id": "c3", "title": "Where Stories Sleep", "titleTh": "ที่ที่เรื่องเล่าหลับใหล",
+      "text": "\"Stories sleep in books,\" Mali says. \"The clue means the library!\" They walk to the old library. It is warm inside, and it smells of paper and hot chocolate. The librarian, Ms. Reed, is putting books on a high shelf. Mali asks her politely, \"Excuse me, did you see anything strange last night?\" Ms. Reed thinks for a moment. \"Yes. The window was open this morning, and I found this on the floor.\" She shows them a piece of silver ribbon. On the ribbon, someone wrote the second clue: \"Go where bread is warm before the sun is up.\"",
+      "questions": [
+        { "q": "Why does Mali think the clue means the library?", "options": ["Because stories sleep in books", "Because Pip lives there", "Because it is warm", "Because Ms. Reed called her"], "answer": 0, "why": "\"Stories sleep in books... The clue means the library!\"" },
+        { "q": "What did Ms. Reed find on the floor?", "options": ["A golden star", "A piece of silver ribbon", "A red scarf", "A book about foxes"], "answer": 1, "why": "\"She shows them a piece of silver ribbon.\"" },
+        { "q": "The second clue most likely points to...", "options": ["the school", "the bakery", "the river", "the town hall"], "answer": 1, "why": "Bread is warm before sunrise at a bakery — and Mr. Holt is the baker." }
+      ]
+    },
+    {
+      "id": "c4", "title": "Before the Sun Is Up", "titleTh": "ก่อนพระอาทิตย์ขึ้น",
+      "text": "The next morning, Mali and Pip go to the bakery at five o'clock. Mr. Holt is already baking. The kitchen is full of the smell of cinnamon. \"You are early!\" he laughs. Mali tells him about the clue. Mr. Holt looks surprised. \"Last night I heard a noise on the roof, but I was too busy to check.\" They climb the ladder carefully. On the roof, under a thin layer of snow, there is a small wooden box. Inside the box is the last clue: \"The star is where the town can see everything.\"",
+      "questions": [
+        { "q": "What time do Mali and Pip go to the bakery?", "options": ["At five o'clock", "At noon", "At nine o'clock", "In the evening"], "answer": 0, "why": "\"...go to the bakery at five o'clock.\"" },
+        { "q": "Why didn't Mr. Holt check the noise?", "options": ["He was asleep", "He was too busy", "He was afraid", "He was not at home"], "answer": 1, "why": "\"...but I was too busy to check.\"" },
+        { "q": "Where do they find the last clue?", "options": ["In the kitchen", "In a box on the roof", "Under the tree", "In the library"], "answer": 1, "why": "\"On the roof... there is a small wooden box. Inside the box is the last clue.\"" }
+      ]
+    },
+    {
+      "id": "c5", "title": "The Light of Snowfield", "titleTh": "แสงแห่งสโนว์ฟิลด์",
+      "text": "\"Where can the town see everything?\" Mali asks. Pip points to the old clock tower on the hill. From the top, you can see every house in Snowfield. They climb the long stairs together. At the top, next to the big clock, the golden star is shining in the snow. Mali carries it back to the square, and everyone cheers. On Christmas Eve, the tree lights up, and the whole town sings. Mali turns to thank Pip, but the little fox is gone. Only a red scarf is left on the bench, with a note: \"Thank you for reading carefully. Merry Christmas!\"",
+      "questions": [
+        { "q": "Where is the star?", "options": ["In the bakery", "At the top of the clock tower", "In the library", "Under the bench"], "answer": 1, "why": "\"At the top, next to the big clock, the golden star is shining.\"" },
+        { "q": "What happens on Christmas Eve?", "options": ["It stops snowing", "The tree lights up and the town sings", "Pip opens a shop", "Mali leaves Snowfield"], "answer": 1, "why": "\"On Christmas Eve, the tree lights up, and the whole town sings.\"" },
+        { "q": "What does Pip leave on the bench?", "options": ["A golden star", "A wooden box", "A red scarf and a note", "A book"], "answer": 2, "why": "\"Only a red scarf is left on the bench, with a note.\"" }
+      ]
+    }
+  ]
+}

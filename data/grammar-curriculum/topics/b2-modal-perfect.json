@@ -1,0 +1,498 @@
+{
+  "id": "b2-modal-perfect",
+  "summaryTh": "should / could / must / might / can't / needn't + have + V3 — เสียดาย ตำหนิ และคาดเดาเรื่องในอดีต",
+  "concept": {
+    "what": "Modal perfect คือกริยาช่วย (should, could, must, might, may, can't, needn't) + have + V3 ใช้พูดถึงอดีต: เสียดายหรือตำหนิสิ่งที่ทำ/ไม่ได้ทำ, สิ่งที่อาจเกิดขึ้นได้แต่ไม่ได้เกิด, และการคาดเดาว่าอะไรน่าจะเกิดขึ้นแล้ว",
+    "when": [
+      "เสียดาย / ตำหนิ: should have + V3 = ควรทำแต่ไม่ได้ทำ · shouldn't have + V3 = ไม่ควรทำแต่ทำไปแล้ว",
+      "ทำได้แต่ไม่ได้ทำ หรือเกือบเกิด: could have + V3 (You could have hurt yourself!)",
+      "คาดเดาแบบมั่นใจ: must have + V3 = ต้อง … แน่ ๆ · can't / couldn't have + V3 = ไม่มีทาง … แน่ ๆ",
+      "คาดเดาแบบไม่แน่ใจ: might / may / could have + V3 = อาจจะ …",
+      "ทำไปแล้วแต่ไม่จำเป็น: needn't have + V3"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"น่าจะ … แล้ว\" \"ไม่น่า … เลย\" \"ควรจะ … \" โดยไม่เปลี่ยนรูปกริยา ผู้เรียนไทยจึงมักพูด should go (ปัจจุบัน) แทน should have gone (อดีต) หรือใช้ V2 หลัง have (should have went) — modal perfect ทำให้ผู้ฟังรู้ทันทีว่ากำลังพูดถึงเรื่องที่ผ่านไปแล้ว"
+  },
+  "structure": {
+    "formula": "Subject + modal + have + V3",
+    "rows": [
+      {
+        "label": "เสียดาย / ตำหนิ",
+        "formula": "should / shouldn't + have + V3",
+        "example": "You [[should have told]] me earlier."
+      },
+      {
+        "label": "ทำได้แต่ไม่ได้ทำ",
+        "formula": "could + have + V3",
+        "example": "We [[could have won]], but we made too many mistakes."
+      },
+      {
+        "label": "มั่นใจว่าเกิด",
+        "formula": "must + have + V3",
+        "example": "She [[must have forgotten]] about the meeting."
+      },
+      {
+        "label": "อาจจะเกิด",
+        "formula": "might / may / could + have + V3",
+        "example": "He [[might have missed]] the bus."
+      },
+      {
+        "label": "มั่นใจว่าไม่เกิด",
+        "formula": "can't / couldn't + have + V3",
+        "example": "They [[can't have finished]] already."
+      },
+      {
+        "label": "ทำไปแล้วแต่ไม่จำเป็น",
+        "formula": "needn't + have + V3",
+        "example": "You [[needn't have brought]] a gift."
+      }
+    ],
+    "notes": [
+      "หลัง modal ใช้ have เสมอ ไม่ใช่ has: She should have … (ไม่ใช่ should has)",
+      "หลัง have ต้องเป็น V3: should have gone (ไม่ใช่ should have went)",
+      "ตรงข้ามกับ must have ที่ใช้บ่อยที่สุดคือ can't / couldn't have (ภาษาอังกฤษแบบอเมริกันใช้ must not have ได้ด้วย)",
+      "ในภาษาพูดออกเสียง should've / could've คล้าย \"should of\" แต่เขียนว่า of ไม่ได้",
+      "needn't have + V3 = ทำไปแล้วโดยไม่จำเป็น · didn't need to + V1 = ไม่จำเป็นต้องทำ (มักจะไม่ได้ทำ)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I [[should have studied]] harder for the test.",
+      "th": "ฉันน่าจะอ่านหนังสือสอบให้หนักกว่านี้ (เสียดาย)"
+    },
+    {
+      "en": "You [[shouldn't have shouted]] at your little brother.",
+      "th": "เธอไม่ควรตะคอกใส่น้องเลย"
+    },
+    {
+      "en": "She isn't answering her phone. She [[must have gone]] to bed.",
+      "th": "เธอไม่รับโทรศัพท์ คงเข้านอนไปแล้วแน่ ๆ"
+    },
+    {
+      "en": "Tom is late. He [[might have missed]] the bus.",
+      "th": "ทอมมาสาย เขาอาจจะตกรถเมล์"
+    },
+    {
+      "en": "They [[can't have finished]] already — they only started ten minutes ago.",
+      "th": "พวกเขาไม่มีทางทำเสร็จแล้วหรอก เพิ่งเริ่มไปสิบนาทีเอง"
+    },
+    {
+      "en": "You [[could have hurt]] yourself! Please be more careful.",
+      "th": "เธออาจจะเจ็บตัวได้นะ ระวังหน่อย"
+    },
+    {
+      "en": "We [[needn't have taken]] a taxi. The hotel was just around the corner.",
+      "th": "เราไม่จำเป็นต้องนั่งแท็กซี่เลย โรงแรมอยู่แค่หัวมุมเอง"
+    },
+    {
+      "en": "I [[could have gone]] to the party, but I was too tired.",
+      "th": "ฉันไปงานปาร์ตี้ได้นะ แต่เหนื่อยเกินไป"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You should have came earlier.",
+      "right": "You should have come earlier.",
+      "whyTh": "หลัง have ต้องเป็น V3 (come) ไม่ใช่ V2 (came)"
+    },
+    {
+      "wrong": "She must has left already.",
+      "right": "She must have left already.",
+      "whyTh": "หลัง modal ใช้ have เสมอ ไม่ว่าประธานจะเป็นอะไร"
+    },
+    {
+      "wrong": "He can't have saw us.",
+      "right": "He can't have seen us.",
+      "whyTh": "หลัง can't have ต้องใช้ V3 (seen) ไม่ใช่ V2 (saw) — can't have + V3 = มั่นใจว่าไม่ได้เกิดขึ้น"
+    },
+    {
+      "wrong": "I should of called you.",
+      "right": "I should have called you.",
+      "whyTh": "should've ออกเสียงคล้าย should of แต่ต้องเขียนว่า have"
+    },
+    {
+      "wrong": "I should study harder last year.",
+      "right": "I should have studied harder last year.",
+      "whyTh": "พูดถึงอดีต (last year) ต้องใช้ should have + V3 — should + V1 ใช้แนะนำในปัจจุบัน/อนาคต"
+    }
+  ],
+  "compare": {
+    "title": "การคาดเดาปัจจุบัน vs การคาดเดาอดีต",
+    "with": [
+      "b1-modal-deduction"
+    ],
+    "rows": [
+      {
+        "label": "มั่นใจว่าใช่",
+        "a": "She must be at home. (ตอนนี้)",
+        "b": "She must have been at home. (เมื่อก่อน)"
+      },
+      {
+        "label": "อาจจะ",
+        "a": "He might be busy.",
+        "b": "He might have been busy."
+      },
+      {
+        "label": "ไม่มีทาง",
+        "a": "It can't be true.",
+        "b": "It can't have been true."
+      },
+      {
+        "label": "โครงสร้าง",
+        "a": "modal + V1 / be + V-ing",
+        "b": "modal + have + V3"
+      }
+    ],
+    "tipTh": "ถามตัวเองว่าคาดเดาเรื่อง \"ตอนนี้\" หรือ \"ที่ผ่านมาแล้ว\" — ถ้าผ่านมาแล้วให้เติม have + V3 หลัง modal"
+  },
+  "contexts": [
+    {
+      "kind": "message",
+      "title": "Message after a trip",
+      "lines": [
+        {
+          "text": "Hi Nok! I took the 7 a.m. train to Ayutthaya, but I [[needn't have woken]] up so early — the museum didn't open until ten! I [[should have checked]] the website first. Also, I think I [[might have left]] my umbrella on the train. What a day!"
+        }
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "Where is Jane?",
+      "lines": [
+        {
+          "speaker": "Mark",
+          "text": "I waited for an hour, but Jane never came."
+        },
+        {
+          "speaker": "Lisa",
+          "text": "She [[must have forgotten]]. She's always mixing up dates."
+        },
+        {
+          "speaker": "Mark",
+          "text": "But I reminded her this morning! She [[can't have forgotten]]."
+        },
+        {
+          "speaker": "Lisa",
+          "text": "Then she [[might have got]] stuck in traffic. You [[should have called]] her."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Modal verb",
+      "th": "กริยาช่วยที่บอกความเป็นไปได้ หน้าที่ หรือคำแนะนำ เช่น should, must, might"
+    },
+    {
+      "en": "Modal perfect",
+      "th": "modal + have + V3 ใช้พูดถึงเรื่องในอดีต"
+    },
+    {
+      "en": "Deduction",
+      "th": "การคาดเดาโดยใช้หลักฐาน (ต้อง … แน่ / ไม่มีทาง … / อาจจะ …)"
+    },
+    {
+      "en": "Regret / Criticism",
+      "th": "ความเสียดาย / การตำหนิ (ควรทำแต่ไม่ได้ทำ)"
+    },
+    {
+      "en": "Past participle (V3)",
+      "th": "กริยาช่องที่ 3 ที่ตามหลัง have"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-modal-perfect-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "I failed the test. I ___ harder.",
+      "choices": [
+        "should have studied",
+        "should studied",
+        "must have studied",
+        "should have study"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง should ต้องมี have + V3 หรือ V1 เท่านั้น ใช้ V2 ไม่ได้",
+        "2": "must have studied = ต้องอ่านมาแน่ ๆ (คาดเดา) ขัดกับการสอบตก และไม่ได้บอกความเสียดาย",
+        "3": "หลัง have ต้องเป็น V3 (studied)"
+      },
+      "explainTh": "เสียดายสิ่งที่ไม่ได้ทำในอดีต → should have + V3: should have studied",
+      "structure": "should have + V3",
+      "example": "I failed the test. I should have studied harder."
+    },
+    {
+      "id": "b2-modal-perfect-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The lights are off and nobody is answering the door. They ___ out.",
+      "choices": [
+        "must have gone",
+        "must go",
+        "should have gone",
+        "can't have gone"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "must go = ต้องไป (หน้าที่ในปัจจุบัน/อนาคต) ไม่ใช่การคาดเดาเรื่องที่เกิดไปแล้ว",
+        "2": "should have gone = ควรจะไป (ตำหนิ) ไม่ใช่การคาดเดาจากหลักฐาน",
+        "3": "can't have gone = ไม่มีทางออกไป ขัดกับหลักฐาน (ไฟดับ ไม่มีคนเปิดประตู)"
+      },
+      "explainTh": "มีหลักฐานชัด → คาดเดาแบบมั่นใจว่าเกิดขึ้นแล้ว: must have + V3",
+      "structure": "must have + V3"
+    },
+    {
+      "id": "b2-modal-perfect-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "You ___ me about the party! I would have come. (should / tell)",
+      "accepted": [
+        "should have told"
+      ],
+      "explainTh": "ตำหนิว่าอีกฝ่ายไม่ได้บอก → should have + V3 (tell → told)",
+      "structure": "should have + V3",
+      "example": "You should have told me about the party!"
+    },
+    {
+      "id": "b2-modal-perfect-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Tom isn't here yet. He ___ the bus. (might / miss)",
+      "accepted": [
+        "might have missed"
+      ],
+      "explainTh": "ไม่แน่ใจว่าเกิดอะไรขึ้น (อดีต) → might have + V3: might have missed",
+      "structure": "might have + V3"
+    },
+    {
+      "id": "b2-modal-perfect-05",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "She should have went to the doctor earlier.",
+      "errorPart": "went",
+      "accepted": [
+        "She should have gone to the doctor earlier."
+      ],
+      "explainTh": "หลัง have ใช้ V3 → gone (go – went – gone)"
+    },
+    {
+      "id": "b2-modal-perfect-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "He must have heard the phone because he was in the shower.",
+      "errorPart": "must have",
+      "accepted": [
+        "He can't have heard the phone because he was in the shower.",
+        "He couldn't have heard the phone because he was in the shower.",
+        "He might not have heard the phone because he was in the shower.",
+        "He may not have heard the phone because he was in the shower.",
+        "He must not have heard the phone because he was in the shower."
+      ],
+      "explainTh": "อยู่ในห้องอาบน้ำ = เหตุผลว่าไม่น่าจะได้ยิน แต่ must have heard แปลว่า \"ต้องได้ยินแน่ ๆ\" ขัดกับเหตุผล → ใช้ can't / couldn't have heard (มั่นใจว่าไม่ได้ยิน) หรือ might not have heard (อาจจะไม่ได้ยิน)"
+    },
+    {
+      "id": "b2-modal-perfect-07",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "you",
+        "needn't",
+        "have",
+        "cooked",
+        "so",
+        "much",
+        "food"
+      ],
+      "accepted": [
+        "You needn't have cooked so much food."
+      ],
+      "explainTh": "needn't have + V3 = ทำไปแล้ว แต่ไม่จำเป็นต้องทำ"
+    },
+    {
+      "id": "b2-modal-perfect-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "It was a mistake for us to leave the window open.",
+      "instruction": "เขียนใหม่ด้วย shouldn't have โดยขึ้นต้นด้วย We",
+      "accepted": [
+        "We shouldn't have left the window open."
+      ],
+      "explainTh": "ทำสิ่งที่ไม่ควรทำไปแล้ว → shouldn't have + V3 (leave → left)"
+    },
+    {
+      "id": "b2-modal-perfect-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "I'm sure she forgot about the meeting.",
+      "instruction": "เขียนใหม่ด้วย must have (ขึ้นต้นด้วย She)",
+      "accepted": [
+        "She must have forgotten about the meeting.",
+        "She must have forgotten the meeting."
+      ],
+      "explainTh": "I'm sure + อดีต = must have + V3 (forget → forgotten)"
+    },
+    {
+      "id": "b2-modal-perfect-10",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่โครงสร้างกับความหมาย",
+      "pairs": [
+        [
+          "should have + V3",
+          "ควรทำแต่ไม่ได้ทำ (เสียดาย/ตำหนิ)"
+        ],
+        [
+          "must have + V3",
+          "มั่นใจว่าเกิดขึ้นแล้วในอดีต"
+        ],
+        [
+          "can't have + V3",
+          "มั่นใจว่าไม่ได้เกิดขึ้น"
+        ],
+        [
+          "might have + V3",
+          "อาจจะเกิดขึ้น (ไม่แน่ใจ)"
+        ],
+        [
+          "needn't have + V3",
+          "ทำไปแล้ว แต่จริง ๆ ไม่จำเป็น"
+        ]
+      ],
+      "explainTh": "should = ความควร · must = มั่นใจว่าใช่ · can't = มั่นใจว่าไม่ใช่ · might = อาจจะ · needn't = ไม่จำเป็น"
+    },
+    {
+      "id": "b2-modal-perfect-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "You could have told me you were vegetarian!",
+        "You could told me you were vegetarian!",
+        "You could have tell me you were vegetarian!",
+        "You could has told me you were vegetarian!"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง could ต้องมี have ก่อน V3",
+        "2": "หลัง have ต้องใช้ V3 (told)",
+        "3": "หลัง modal ใช้ have เสมอ ไม่ใช่ has"
+      },
+      "explainTh": "could have + V3 = ทำได้แต่ไม่ได้ทำ (ใช้ตำหนิเบา ๆ ได้) → You could have told me …"
+    },
+    {
+      "id": "b2-modal-perfect-12",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I waited for an hour, but Jane never came."
+          },
+          {
+            "speaker": "B",
+            "text": "She ___ the date. She's always mixing things up."
+          }
+        ]
+      },
+      "choices": [
+        "must have forgotten",
+        "should have forgotten",
+        "must forget",
+        "can't have forgotten"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "should have forgotten = ควรจะลืม ไม่มีความหมายในสถานการณ์นี้",
+        "2": "must forget เป็นปัจจุบัน/หน้าที่ แต่เรื่องเกิดไปแล้ว",
+        "3": "can't have forgotten = ไม่มีทางลืม ขัดกับ She's always mixing things up"
+      },
+      "explainTh": "มีเหตุผลสนับสนุน (เธอสับสนวันบ่อย) → คาดเดาแบบมั่นใจในอดีต: must have + V3"
+    },
+    {
+      "id": "b2-modal-perfect-13",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "message",
+        "title": "Message after a trip",
+        "lines": [
+          {
+            "text": "Hi Nok! I took the 7 a.m. train to Ayutthaya, but I needn't have woken up so early — the museum didn't open until ten! I should have checked the website first. Also, I think I might have left my umbrella on the train."
+          }
+        ]
+      },
+      "question": "What does the writer regret NOT doing?",
+      "choices": [
+        "Checking the museum website",
+        "Waking up early",
+        "Taking the train",
+        "Leaving the umbrella on the train"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "needn't have woken up = ตื่นเช้าไปแล้วโดยไม่จำเป็น เป็นสิ่งที่ \"ทำ\" ไม่ใช่สิ่งที่ \"ไม่ได้ทำ\"",
+        "2": "ผู้เขียนไม่ได้บอกว่าเสียดายเรื่องนั่งรถไฟ",
+        "3": "might have left = อาจจะลืมร่มไว้ เป็นการคาดเดา ไม่ใช่สิ่งที่ไม่ได้ทำ"
+      },
+      "explainTh": "I should have checked the website = ควรเช็กเว็บไซต์แต่ไม่ได้เช็ก → เสียดายที่ไม่ได้ทำ"
+    },
+    {
+      "id": "b2-modal-perfect-14",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "We cooked for twenty people, but only five came. We ___ so much food.",
+      "choices": [
+        "needn't have cooked",
+        "needn't cook",
+        "mustn't have cooked",
+        "can't have cooked"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "needn't cook = ไม่จำเป็นต้องทำ (ปัจจุบัน/อนาคต) แต่เรื่องนี้ทำไปแล้ว",
+        "2": "mustn't have cooked เป็นการคาดเดาว่า \"คงไม่ได้ทำอาหาร\" ขัดกับความจริงที่เราทำไปแล้ว (และไม่ได้บอกว่าไม่จำเป็น)",
+        "3": "can't have cooked = ไม่มีทางทำอาหาร ขัดกับความจริงที่ทำไปแล้ว"
+      },
+      "explainTh": "ทำไปแล้วแต่ไม่จำเป็น → needn't have + V3: needn't have cooked"
+    },
+    {
+      "id": "b2-modal-perfect-15",
+      "type": "fill",
+      "difficulty": 3,
+      "question": "Thanks for washing up, but you ___ the dishes. We have a dishwasher! (need / not / wash)",
+      "accepted": [
+        "needn't have washed",
+        "need not have washed",
+        "didn't need to wash",
+        "did not need to wash"
+      ],
+      "explainTh": "อีกฝ่ายล้างจานไปแล้วแต่ไม่จำเป็น → needn't have washed (ภาษาพูดใช้ didn't need to wash ได้ด้วย)",
+      "structure": "needn't have + V3"
+    },
+    {
+      "id": "b2-modal-perfect-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคถึงเพื่อนที่เพิ่งพลาดเที่ยวบิน ใช้ modal perfect (should have / could have / must have / might have / can't have) อย่างน้อย 2 ประโยค — ไม่จำเป็นต้องใส่คำบอกเวลา (Write 3 sentences to a friend who has just missed a flight, using modal perfects.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "(\\b(should|shouldn't|could|couldn't|must|might|may|can't|cannot|needn't|ought to)\\s+(not\\s+)?have|\\b(should|could|must|might|may)(n't)?'ve)\\s+\\w+[\\s\\S]*?(\\b(should|shouldn't|could|couldn't|must|might|may|can't|cannot|needn't|ought to)\\s+(not\\s+)?have|\\b(should|could|must|might|may)(n't)?'ve)\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ modal + have + V3 อย่างน้อย 2 ครั้ง เช่น You should have left earlier. / You must have been upset."
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\b(should|could|must|might|may|would)\\s+(of|has)\\b",
+          "flags": "i",
+          "msgTh": "หลัง modal ใช้ have เสมอ ไม่ใช่ of หรือ has"
+        }
+      ],
+      "sample": "You must have been so upset when you missed the flight. You should have left home a bit earlier. Don't worry, it could have been much worse.",
+      "explainTh": "modal + have + V3 ใช้พูดถึงสิ่งที่ผ่านไปแล้ว: must have been (คาดเดา) · should have left (ควรทำ) · could have been (อาจเกิดได้)"
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "c1-inversion",
+  "summaryTh": "ยกคำเชิงปฏิเสธ/จำกัดขึ้นต้นประโยค แล้วสลับกริยาช่วยมาไว้หน้าประธาน เพื่อเน้นและให้ภาษาเป็นทางการ",
+  "concept": {
+    "what": "Inversion คือการวางกริยาช่วย (do/does/did, have, be, can, should …) ไว้หน้าประธานเหมือนรูปคำถาม แต่ไม่ได้ถาม — เกิดขึ้นเมื่อเรายกคำหรือวลีที่มีความหมายปฏิเสธหรือจำกัด (Never, Little, Not until, Only after …) ขึ้นต้นประโยค หรือใช้แทน if ในประโยคเงื่อนไข (Should you …, Had I known …, Were it not for …)",
+    "when": [
+      "หลังคำ/วลีปฏิเสธที่ยกขึ้นต้นประโยค: Never, Rarely, Seldom, Little, At no time, Under no circumstances, Not only … but also",
+      "หลัง Not until … และ Only after / when / by / then / once … — สลับที่ประโยคหลัก ไม่ใช่ในวลีที่ขึ้นต้น (Not until I read it did I understand.)",
+      "เน้นระดับมาก ๆ: So + adj + be + S + that … / Such + be + noun + that …",
+      "เงื่อนไขแบบทางการโดยตัด if: Should you need … / Had I known … / Were it not for … / Were they to …",
+      "ลำดับเหตุการณ์ที่เกิดติดกัน: No sooner had … than … / Hardly / Scarcely had … when …"
+    ],
+    "why": "Inversion ทำให้ประโยคหนักแน่น ดูเป็นทางการ เหมาะกับสุนทรพจน์ รายงาน อีเมลธุรกิจ และงานเขียนสอบระดับสูง — ภาษาไทยเน้นด้วยการเปลี่ยนคำหรือน้ำเสียง (\"ไม่เคยเลยจริง ๆ\") แต่ภาษาอังกฤษต้องเปลี่ยนลำดับคำ ผู้เรียนไทยจึงมักลืมเติม do/does/did หรือสลับผิดประโยค"
+  },
+  "structure": {
+    "formula": "Negative / restrictive adverbial + auxiliary + Subject + main verb",
+    "rows": [
+      {
+        "label": "คำปฏิเสธขึ้นต้น (Negative adverbial)",
+        "formula": "Never / Rarely / At no time + aux + S + V",
+        "example": "Never [[have I seen]] such a well-organised event."
+      },
+      {
+        "label": "Not until … (สลับที่ประโยคหลัก)",
+        "formula": "Not until + time / clause + aux + S + V",
+        "example": "Not until the results were published [[did we realise]] the scale of the problem."
+      },
+      {
+        "label": "Only + time / way",
+        "formula": "Only after / when / by … + aux + S + V",
+        "example": "Only by working together [[can we meet]] the deadline."
+      },
+      {
+        "label": "Little (ไม่รู้เลยว่า …)",
+        "formula": "Little + did + S + know / realise / suspect …",
+        "example": "Little [[did she know]] that her life was about to change."
+      },
+      {
+        "label": "So / Such … that",
+        "formula": "So + adj + be + S + that … · Such + be + noun + that …",
+        "example": "So strong [[was the wind]] that all flights were cancelled. / Such [[was the demand]] that tickets sold out in minutes."
+      },
+      {
+        "label": "เงื่อนไขแบบตัด if (Conditional inversion)",
+        "formula": "Should + S + V1 · Were + S + to V / Were it not for … · Had + S + V3",
+        "example": "[[Should you need]] any help, please call me. / [[Had I known]], I would have come."
+      },
+      {
+        "label": "เหตุการณ์ติดกัน",
+        "formula": "No sooner had + S + V3 + than … · Hardly had + S + V3 + when …",
+        "example": "No sooner [[had we arrived]] than it started to rain."
+      }
+    ],
+    "notes": [
+      "Present / Past Simple ไม่มีกริยาช่วยให้สลับ ต้องเติม do / does / did แล้วตามด้วย V1: Never did I expect … (ไม่ใช่ Never I expected …)",
+      "กริยา be สลับได้เลย: So severe was the damage …",
+      "Not until / Only after …: ส่วนที่ขึ้นต้นเป็นประโยคธรรมดา — ประโยคหลักที่ตามมาเท่านั้นที่สลับ",
+      "Only + ประธาน ไม่ต้องสลับ: Only the manager can sign this. (Only ขยายคำนาม ไม่ใช่วลีบอกเวลา/วิธี)",
+      "เงื่อนไขรูปปฏิเสธใช้ not หลังประธาน: Had I not known … / Were it not for … (ไม่ใช้ Hadn't I known …)",
+      "No sooner คู่กับ than · Hardly / Scarcely คู่กับ when"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Rarely [[does the board approve]] a budget without changes.",
+      "th": "น้อยครั้งมากที่คณะกรรมการจะอนุมัติงบประมาณโดยไม่แก้ไขอะไรเลย"
+    },
+    {
+      "en": "Not until the auditors arrived [[did anyone notice]] the missing files.",
+      "th": "จนกระทั่งผู้ตรวจสอบบัญชีมาถึง จึงมีคนสังเกตเห็นว่าเอกสารหายไป"
+    },
+    {
+      "en": "Only after she had moved abroad [[did she appreciate]] her family's support.",
+      "th": "หลังจากย้ายไปอยู่ต่างประเทศแล้วเท่านั้น เธอจึงเห็นคุณค่าของการสนับสนุนจากครอบครัว"
+    },
+    {
+      "en": "Little [[did we suspect]] that the quiet new intern would become our CEO.",
+      "th": "พวกเราไม่ได้คาดคิดเลยว่าเด็กฝึกงานเงียบ ๆ คนนั้นจะได้เป็นซีอีโอ"
+    },
+    {
+      "en": "So convincing [[was her argument]] that the committee changed its decision.",
+      "th": "ข้อโต้แย้งของเธอน่าเชื่อถือมากจนคณะกรรมการเปลี่ยนการตัดสินใจ"
+    },
+    {
+      "en": "Under no circumstances [[should passwords be shared]] with third parties.",
+      "th": "ไม่ว่ากรณีใดก็ตาม ห้ามแชร์รหัสผ่านให้บุคคลภายนอกเด็ดขาด"
+    },
+    {
+      "en": "[[Had the researchers checked]] the data earlier, they would have avoided the error.",
+      "th": "ถ้านักวิจัยตรวจข้อมูลเร็วกว่านี้ ก็คงไม่เกิดความผิดพลาด"
+    },
+    {
+      "en": "[[Were it not for]] scholarships, many students could not afford university.",
+      "th": "ถ้าไม่มีทุนการศึกษา นักศึกษาหลายคนคงไม่มีเงินเรียนมหาวิทยาลัย"
+    },
+    {
+      "en": "Not only [[did the campaign raise]] money, but it also changed public attitudes.",
+      "th": "แคมเปญนี้ไม่เพียงแต่ระดมเงินได้ แต่ยังเปลี่ยนทัศนคติของสังคมด้วย"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Never I have seen such a beautiful sunset.",
+      "right": "Never have I seen such a beautiful sunset.",
+      "whyTh": "เมื่อยก Never ขึ้นต้น ต้องสลับกริยาช่วย have มาไว้หน้าประธาน I"
+    },
+    {
+      "wrong": "Little he knew that the police were watching him.",
+      "right": "Little did he know that the police were watching him.",
+      "whyTh": "know เป็น Past Simple ไม่มีกริยาช่วยให้สลับ จึงต้องเติม did แล้วกริยากลับเป็น V1 (know)"
+    },
+    {
+      "wrong": "Not until I read the report I understood the risk.",
+      "right": "Not until I read the report did I understand the risk.",
+      "whyTh": "ส่วน Not until I read the report เป็นประโยคธรรมดา — ประโยคหลักที่ตามมาต้องสลับ: did I understand"
+    },
+    {
+      "wrong": "Only after the meeting I realised my mistake.",
+      "right": "Only after the meeting did I realise my mistake.",
+      "whyTh": "Only after + เวลา ขึ้นต้นประโยค ต้องสลับกริยาช่วยในประโยคหลัก (did I realise)"
+    },
+    {
+      "wrong": "Hadn't I missed the train, I would have arrived on time.",
+      "right": "Had I not missed the train, I would have arrived on time.",
+      "whyTh": "เงื่อนไขแบบ inversion รูปปฏิเสธ ใช้ Had + ประธาน + not + V3 ไม่ใช้รูปย่อ Hadn't ขึ้นต้น"
+    },
+    {
+      "wrong": "No sooner had we sat down when the lights went out.",
+      "right": "No sooner had we sat down than the lights went out.",
+      "whyTh": "No sooner คู่กับ than เสมอ (Hardly / Scarcely จึงคู่กับ when)"
+    }
+  ],
+  "compare": {
+    "title": "Inversion เบื้องต้น (B2) vs Inversion ขั้นสูง (C1)",
+    "with": [
+      "b2-inversion-intro"
+    ],
+    "rows": [
+      {
+        "label": "คำที่ทำให้สลับ",
+        "a": "Never, Rarely, Seldom, Hardly … when, No sooner … than",
+        "b": "Not until, Only after/by/when, Little, Under no circumstances, So … that, Such … that"
+      },
+      {
+        "label": "ตำแหน่งที่สลับ",
+        "a": "สลับทันทีหลังคำขึ้นต้น: Never have I …",
+        "b": "บางแบบสลับในประโยคหลัก: Not until he left did I …"
+      },
+      {
+        "label": "เงื่อนไข",
+        "a": "ใช้ if ตามปกติ: If I had known …",
+        "b": "ตัด if แล้วสลับ: Had I known … / Should you … / Were it not for …"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "Rarely do we eat out.",
+        "b": "Such was the demand that tickets sold out in minutes."
+      }
+    ],
+    "tipTh": "ถามตัวเองว่าส่วนที่ขึ้นต้นจบที่ไหน แล้วสลับกริยาช่วยใน \"ประโยคหลัก\" ที่ตามมา — ถ้าเป็น Present/Past Simple อย่าลืมเติม do/does/did"
+  },
+  "contexts": [
+    {
+      "kind": "announcement",
+      "title": "Opening speech at a conference",
+      "lines": [
+        {
+          "speaker": "Director",
+          "text": "Good morning, everyone. Never before [[have we welcomed]] so many delegates from so many countries."
+        },
+        {
+          "speaker": "Director",
+          "text": "Not until we began planning this event [[did we realise]] how much interest there was in sustainable design."
+        },
+        {
+          "speaker": "Director",
+          "text": "Only by sharing ideas openly [[can we find]] solutions that work for everyone."
+        },
+        {
+          "speaker": "Director",
+          "text": "[[Should you have]] any questions during the conference, our staff at the information desk will be happy to help."
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "title": "News report: a lucky escape",
+      "lines": [
+        {
+          "text": "Mr Somchai was about to board the 7 a.m. ferry when his phone rang. Little [[did he know]] that the call would save his life. No sooner [[had the ferry left]] the pier than a violent storm hit the coast. So strong [[were the waves]] that the ferry had to turn back. \"[[Had I not answered]] that call,\" he said later, \"I would have been on board.\""
+        }
+      ]
+    },
+    {
+      "kind": "email",
+      "title": "Formal email to a client",
+      "lines": [
+        {
+          "text": "Dear Ms Carter, Thank you for your order. Under no circumstances [[will your personal data be shared]] with third parties. [[Should you wish]] to change your delivery address, please reply to this email. Kind regards, Customer Service"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Inversion",
+      "th": "การสลับกริยาช่วยมาไว้หน้าประธาน (เหมือนรูปคำถาม แต่ไม่ได้ถาม)"
+    },
+    {
+      "en": "Negative adverbial",
+      "th": "คำ/วลีที่มีความหมายปฏิเสธหรือจำกัด เช่น never, rarely, little, not until"
+    },
+    {
+      "en": "Auxiliary verb",
+      "th": "กริยาช่วย เช่น do, have, be, can, should — ตัวที่ถูกย้ายมาหน้าประธาน"
+    },
+    {
+      "en": "Conditional inversion",
+      "th": "ประโยคเงื่อนไขที่ตัด if แล้วสลับ (Had I known … / Should you …)"
+    },
+    {
+      "en": "Main clause",
+      "th": "ประโยคหลัก — ส่วนที่ต้องสลับเมื่อขึ้นต้นด้วย Not until / Only after …"
+    },
+    {
+      "en": "Formal register",
+      "th": "ระดับภาษาทางการ ใช้ในรายงาน สุนทรพจน์ จดหมายธุรกิจ"
+    }
+  ],
+  "practice": [
+    {
+      "id": "c1-inversion-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Never ___ such a well-organised conference.",
+      "choices": [
+        "I have attended",
+        "have I attended",
+        "I attended",
+        "did I attended"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "ยก Never ขึ้นต้นแล้วต้องสลับกริยาช่วยมาไว้หน้าประธาน ลำดับ I have จึงผิด",
+        "2": "ไม่มีกริยาช่วยให้สลับ ถ้าจะใช้อดีตต้องเป็น did I attend",
+        "3": "หลัง did ต้องใช้ V1 (attend) ไม่ใช่ attended"
+      },
+      "explainTh": "Never ขึ้นต้นประโยค → กริยาช่วย + ประธาน + กริยาหลัก: have I attended",
+      "structure": "Never + aux + S + V",
+      "example": "Never have I attended such a well-organised conference."
+    },
+    {
+      "id": "c1-inversion-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "Little ___ that the decision would change her whole career.",
+      "choices": [
+        "she knew",
+        "did she know",
+        "she did know",
+        "did she knew"
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "Little ขึ้นต้นแล้วต้องสลับ ใช้ลำดับประโยคบอกเล่าไม่ได้",
+        "2": "she did know เป็นรูปเน้นธรรมดา ยังไม่ได้สลับ did มาไว้หน้าประธาน",
+        "3": "หลัง did ต้องใช้ V1 (know) ไม่ใช่ knew"
+      },
+      "explainTh": "Little + did + S + V1 = ไม่รู้เลยว่า … เพราะ know เป็น Past Simple จึงต้องเติม did แล้ว know กลับเป็นรูปฐาน",
+      "structure": "Little + did + S + know",
+      "example": "Little did she know that the decision would change her career."
+    },
+    {
+      "id": "c1-inversion-03",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Not until the final results were released ___ (we / realise) how close the vote had been.",
+      "accepted": [
+        "did we realise",
+        "did we realize"
+      ],
+      "explainTh": "ส่วน Not until … were released เป็นประโยคธรรมดา ประโยคหลักที่ตามมาต้องสลับ: did + we + V1 (realise)",
+      "structure": "Not until + clause + did + S + V1",
+      "example": "Not until the results were released did we realise how close the vote had been."
+    },
+    {
+      "id": "c1-inversion-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "___ (it / not / be) for your support, the project would have failed. (ใช้ inversion ไม่มี if)",
+      "accepted": [
+        "Had it not been"
+      ],
+      "explainTh": "ผลเป็นอดีต (would have failed) จึงใช้เงื่อนไขแบบที่ 3 ตัด if: Had it not been for … = If it hadn't been for …",
+      "structure": "Had it not been for + noun, S + would have + V3",
+      "example": "Had it not been for your support, the project would have failed."
+    },
+    {
+      "id": "c1-inversion-05",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "Not until",
+        "the",
+        "end",
+        "of",
+        "the",
+        "meeting",
+        "did",
+        "she",
+        "mention",
+        "her",
+        "resignation"
+      ],
+      "accepted": [
+        "Not until the end of the meeting did she mention her resignation."
+      ],
+      "explainTh": "Not until + เวลา ขึ้นต้น แล้วตามด้วย did + ประธาน + V1: did she mention",
+      "structure": "Not until + time + did + S + V1"
+    },
+    {
+      "id": "c1-inversion-06",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Only when the data had been verified the team published its findings.",
+      "errorPart": "the team published",
+      "accepted": [
+        "Only when the data had been verified did the team publish its findings.",
+        "The team published its findings only when the data had been verified."
+      ],
+      "explainTh": "Only when + ประโยค ขึ้นต้น → ประโยคหลักต้องสลับ: did the team publish (เติม did และกริยากลับเป็น V1)",
+      "structure": "Only when + clause + did + S + V1"
+    },
+    {
+      "id": "c1-inversion-07",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Hadn't I checked the figures, we would have lost the contract.",
+      "errorPart": "Hadn't I checked",
+      "accepted": [
+        "Had I not checked the figures, we would have lost the contract.",
+        "If I hadn't checked the figures, we would have lost the contract."
+      ],
+      "explainTh": "Conditional inversion รูปปฏิเสธต้องเป็น Had + ประธาน + not + V3 (Had I not checked) — รูปย่อ Hadn't ขึ้นต้นใช้ไม่ได้ หรือกลับไปใช้ If I hadn't checked"
+    },
+    {
+      "id": "c1-inversion-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "The demand for tickets was so high that the website crashed.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Such",
+      "accepted": [
+        "Such was the demand for tickets that the website crashed."
+      ],
+      "explainTh": "Such + be + คำนาม (ประธาน) + that … = มากถึงขนาดที่ … → Such was the demand for tickets that …",
+      "structure": "Such + be + noun phrase + that …"
+    },
+    {
+      "id": "c1-inversion-09",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "If you should require further information, please contact our office.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Should (ตัด if ออก)",
+      "accepted": [
+        "Should you require further information, please contact our office."
+      ],
+      "explainTh": "If you should + V1 → ตัด if แล้วยก Should ขึ้นต้น: Should you require … (รูปทางการ ใช้บ่อยในอีเมลธุรกิจ)",
+      "structure": "Should + S + V1, imperative"
+    },
+    {
+      "id": "c1-inversion-10",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "I had no idea that the manager was listening.",
+      "instruction": "เขียนใหม่โดยขึ้นต้นด้วย Little did I",
+      "accepted": [
+        "Little did I know that the manager was listening.",
+        "Little did I know the manager was listening.",
+        "Little did I realise that the manager was listening.",
+        "Little did I realize that the manager was listening.",
+        "Little did I suspect that the manager was listening.",
+        "Little did I realise the manager was listening.",
+        "Little did I realize the manager was listening.",
+        "Little did I suspect the manager was listening.",
+        "Little did I think that the manager was listening.",
+        "Little did I think the manager was listening.",
+        "Little did I imagine that the manager was listening.",
+        "Little did I imagine the manager was listening."
+      ],
+      "explainTh": "had no idea = ไม่รู้เลย → Little did I know / realise … (did + I + V1) ส่วน that-clause คงเดิม",
+      "structure": "Little + did + S + know (that) …"
+    },
+    {
+      "id": "c1-inversion-11",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "Not only the policy reduced costs, but it also improved morale.",
+        "Not only did the policy reduce costs, but it also improved morale.",
+        "Not only did the policy reduced costs, but it also improved morale.",
+        "Not only did reduce the policy costs, but it also improved morale."
+      ],
+      "answer": 1,
+      "whyNot": {
+        "0": "Not only ขึ้นต้นประโยคต้องสลับ: did the policy reduce",
+        "2": "หลัง did ต้องใช้ V1 (reduce) ไม่ใช่ reduced",
+        "3": "กริยาช่วยต้องอยู่หน้าประธานและกริยาหลักตามหลังประธาน — ห้ามแยก did ออกจากประธานแบบนี้"
+      },
+      "explainTh": "Not only + did + S + V1 …, but + S + also … — สลับเฉพาะส่วนแรก ส่วน but it also improved เป็นลำดับปกติ"
+    },
+    {
+      "id": "c1-inversion-12",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ต้นประโยคกับท้ายประโยคให้ถูกต้อง",
+      "pairs": [
+        [
+          "No sooner had we sat down",
+          "than the lights went out."
+        ],
+        [
+          "Hardly had the speech begun",
+          "when protesters interrupted it."
+        ],
+        [
+          "Not only did she win the award,",
+          "but she also broke the record."
+        ],
+        [
+          "So convincing was his argument",
+          "that nobody objected."
+        ],
+        [
+          "Under no circumstances",
+          "should this door be left open."
+        ]
+      ],
+      "explainTh": "คู่คำที่ต้องจำ: No sooner … than · Hardly … when · Not only … but also · So + adj … that · Under no circumstances + aux + S"
+    },
+    {
+      "id": "c1-inversion-13",
+      "type": "dialogue",
+      "difficulty": 1,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Did you have any idea the company was in trouble?"
+          },
+          {
+            "speaker": "B",
+            "text": "None at all. ___ that it was about to go bankrupt."
+          }
+        ]
+      },
+      "choices": [
+        "Little did I suspect",
+        "Little I suspected",
+        "Little did I suspected",
+        "Little suspected I"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Little ขึ้นต้นต้องสลับและเติม did — ลำดับ I suspected ยังเป็นประโยคบอกเล่า",
+        "2": "หลัง did ต้องใช้ V1 (suspect)",
+        "3": "ภาษาอังกฤษปัจจุบันไม่สลับกริยาหลักกับประธานโดยตรง ต้องใช้กริยาช่วย did"
+      },
+      "explainTh": "B ตอบว่าไม่รู้เลย → Little + did + I + V1: Little did I suspect that … = ไม่ได้สงสัยเลยแม้แต่น้อย"
+    },
+    {
+      "id": "c1-inversion-14",
+      "type": "context",
+      "difficulty": 2,
+      "context": {
+        "kind": "announcement",
+        "title": "IT security notice",
+        "lines": [
+          {
+            "text": "Under no circumstances should staff share their passwords. Should you notice any suspicious activity, report it to the IT department immediately. Only by following these rules can we protect our clients' data."
+          }
+        ]
+      },
+      "question": "In the notice, \"Should you notice any suspicious activity\" means …",
+      "choices": [
+        "If you notice any suspicious activity",
+        "You are required to look for suspicious activity",
+        "You should have noticed suspicious activity",
+        "Do you notice any suspicious activity?"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "Should ที่ขึ้นต้นแบบนี้ไม่ได้แปลว่า \"ควร/ต้อง\" แต่เป็น if แบบทางการ",
+        "2": "should have + V3 คือการตำหนิเรื่องในอดีต ไม่ใช่โครงสร้างในประกาศนี้",
+        "3": "ดูเหมือนคำถามเพราะสลับคำ แต่จริง ๆ เป็นเงื่อนไข มีประโยคหลัก report it … ตามมา"
+      },
+      "explainTh": "Should + S + V1, … = If + S + V1, … (conditional inversion) ใช้บ่อยในประกาศและอีเมลทางการ"
+    },
+    {
+      "id": "c1-inversion-15",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "___ the support of local volunteers, the festival could not take place every year.",
+      "choices": [
+        "Were it not for",
+        "If it were not",
+        "Had it not for",
+        "Unless"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ขาด for — ต้องเป็น If it were not for + คำนาม",
+        "2": "Had it not ต้องตามด้วย been for (Had it not been for) และใช้กับผลในอดีต",
+        "3": "Unless ต้องตามด้วยประโยค (S + V) ตามด้วยคำนามเฉย ๆ ไม่ได้"
+      },
+      "explainTh": "ผลเป็นปัจจุบัน/ทั่วไป (could not take place every year) → Were it not for + คำนาม = ถ้าไม่มี … (= If it were not for …)",
+      "structure": "Were it not for + noun, S + would/could + V1",
+      "example": "Were it not for the volunteers, the festival could not take place."
+    },
+    {
+      "id": "c1-inversion-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคแบบทางการ (เช่น ส่วนหนึ่งของสุนทรพจน์หรืออีเมล) โดยใช้ inversion อย่างน้อย 1 แบบ เช่น Never have I …, Not until … did …, Only by … can …, Should you … (Write 3 formal sentences using inversion.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\b(never|rarely|seldom|little|not until|only (after|when|by|then|once|if)|under no circumstances|at no time|no sooner|hardly|scarcely|not only|so \\w+|such)\\b[^.!?]*?\\b(have|has|had|did|do|does|was|were|is|are|can|could|will|would|should|must|may|might)\\s+(i|you|we|they|he|she|it|the|our|this|these|their|its|my|your|his|her|there)\\b|(^|[.!?]\\s+)(should|had|were)\\s+(i|you|we|they|he|she|it|the|there)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ inversion อย่างน้อย 1 ครั้ง: คำขึ้นต้น (Never / Not until / Only by / Little …) + กริยาช่วย + ประธาน หรือ Should you … / Had I …"
+        }
+      ],
+      "sample": "Never have I worked with such a dedicated team. Not until the final week did we realise how much we had achieved. Should you need any further details, please contact me.",
+      "explainTh": "ตรวจว่าหลังคำขึ้นต้นมีกริยาช่วยมาก่อนประธาน และถ้าเป็น Present/Past Simple ต้องเติม do/does/did + V1"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "id": "b1-used-to",
+  "summaryTh": "เล่าว่า \"เมื่อก่อนเคย…\" (นิสัยหรือสภาพในอดีต) ที่ตอนนี้ไม่เป็นแบบนั้นแล้ว",
+  "concept": {
+    "what": "used to + V1 ใช้พูดถึงสิ่งที่ \"เมื่อก่อนเคยทำเป็นประจำ\" หรือ \"เมื่อก่อนเคยเป็น\" แต่ตอนนี้ไม่ทำหรือไม่เป็นแล้ว เช่น I used to live in Hat Yai. (ตอนนี้ไม่ได้อยู่แล้ว)",
+    "when": [
+      "นิสัย / กิจวัตรในอดีตที่เลิกไปแล้ว (I used to play football every evening.)",
+      "สภาพในอดีตที่เปลี่ยนไปแล้ว — กริยาสภาพ เช่น be, have, live, like, know (She used to have long hair.)",
+      "เปรียบเทียบอดีตกับปัจจุบัน (We used to walk to school, but now we take the bus.)",
+      "There used to be … = เมื่อก่อนเคยมี … (There used to be a cinema here.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"เมื่อก่อนเคย…\" แต่ภาษาอังกฤษใช้ used to คำเดียวก็สื่อได้ทั้ง \"เมื่อก่อน\" และ \"ตอนนี้ไม่แล้ว\" คนไทยมักสับสนกับ be used to + V-ing (คุ้นเคย) และมักลืม d ในประโยคบอกเล่า หรือเติม d ผิดที่หลัง did"
+  },
+  "structure": {
+    "formula": "Subject + used to + V1",
+    "rows": [
+      {
+        "label": "บอกเล่า (Positive)",
+        "formula": "Subject + used to + V1",
+        "example": "I [[used to live]] in Chiang Rai."
+      },
+      {
+        "label": "ปฏิเสธ (Negative)",
+        "formula": "Subject + didn't use to + V1",
+        "example": "He [[didn't use to like]] vegetables."
+      },
+      {
+        "label": "คำถาม (Question)",
+        "formula": "Did + Subject + use to + V1 …?",
+        "example": "[[Did]] you [[use to walk]] to school?"
+      },
+      {
+        "label": "เคยมี (There)",
+        "formula": "There used to be + noun",
+        "example": "[[There used to be]] a big tree here."
+      },
+      {
+        "label": "ตอบสั้น (Short answer)",
+        "formula": "Yes, Subject + did. / No, Subject + didn't.",
+        "example": "Yes, I [[did]]. / No, I [[didn't]]."
+      }
+    ],
+    "notes": [
+      "บอกเล่าเขียน used (มี d) · ปฏิเสธและคำถามที่มี did ใช้ use (ไม่มี d) เพราะ did บอกอดีตแล้ว",
+      "used to ใช้กับอดีตเท่านั้น ไม่มีรูปปัจจุบัน — นิสัยตอนนี้ใช้ Present Simple หรือ usually (I usually get up at six.)",
+      "ปฏิเสธพูดว่า never used to ได้ด้วย (I never used to eat spicy food.)",
+      "ระวัง be used to + V-ing = คุ้นเคย / ชิน (I'm used to getting up early.) คนละความหมายกับ used to + V1",
+      "used to ใช้ได้ทั้งการกระทำและสภาพ ส่วน would ใช้ได้กับการกระทำเท่านั้น (ดูหัวข้อ would for Past Habits)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I [[used to live]] in Chiang Rai, but now I live in Bangkok.",
+      "th": "เมื่อก่อนฉันเคยอยู่เชียงราย แต่ตอนนี้อยู่กรุงเทพฯ"
+    },
+    {
+      "en": "My dad [[used to smoke]], but he stopped five years ago.",
+      "th": "เมื่อก่อนพ่อเคยสูบบุหรี่ แต่เลิกไปเมื่อห้าปีก่อน"
+    },
+    {
+      "en": "She [[didn't use to like]] spicy food. Now she loves som tam!",
+      "th": "เมื่อก่อนเธอไม่ชอบอาหารเผ็ด ตอนนี้ชอบส้มตำมาก"
+    },
+    {
+      "en": "[[Did]] you [[use to wear]] a uniform at school?",
+      "th": "สมัยเรียนเธอต้องใส่ชุดนักเรียนไหม"
+    },
+    {
+      "en": "[[There used to be]] a cinema in our town, but it closed in 2015.",
+      "th": "เมื่อก่อนในเมืองเรามีโรงหนัง แต่ปิดไปตอนปี 2015"
+    },
+    {
+      "en": "We [[used to send]] letters. Now we just send messages on our phones.",
+      "th": "เมื่อก่อนเราเคยส่งจดหมาย ตอนนี้แค่ส่งข้อความทางโทรศัพท์"
+    },
+    {
+      "en": "This office [[used to be]] very quiet before the new team arrived.",
+      "th": "ออฟฟิศนี้เคยเงียบมากก่อนทีมใหม่จะมา"
+    },
+    {
+      "en": "I [[never used to read]] books, but now I read one a week.",
+      "th": "เมื่อก่อนฉันไม่เคยอ่านหนังสือเลย ตอนนี้อ่านสัปดาห์ละเล่ม"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I use to go swimming every weekend when I was young.",
+      "right": "I used to go swimming every weekend when I was young.",
+      "whyTh": "ประโยคบอกเล่าต้องเป็น used to (มี d) เพราะเป็นรูปอดีต — เวลาพูดเสียง d ไม่ค่อยได้ยิน คนไทยจึงลืมเขียนบ่อย"
+    },
+    {
+      "wrong": "Did she used to work in a hotel?",
+      "right": "Did she use to work in a hotel?",
+      "whyTh": "มี did บอกอดีตแล้ว จึงใช้ use (ไม่มี d) เหมือน did + V1"
+    },
+    {
+      "wrong": "I used to get up at six every day now.",
+      "right": "I usually get up at six every day now.",
+      "whyTh": "used to ใช้กับอดีตเท่านั้น นิสัยตอนนี้ใช้ Present Simple หรือ usually"
+    },
+    {
+      "wrong": "There used to have a big market here.",
+      "right": "There used to be a big market here.",
+      "whyTh": "\"มี\" ในความหมายว่ามีอยู่ที่ไหน ใช้ there + be → There used to be (ไม่ใช่ have ตามภาษาไทย)"
+    },
+    {
+      "wrong": "I used to living in a big city, so the noise doesn't bother me.",
+      "right": "I'm used to living in a big city, so the noise doesn't bother me.",
+      "whyTh": "\"ชิน / คุ้นเคย\" ใช้ be used to + V-ing ส่วน used to + V1 แปลว่า \"เมื่อก่อนเคย\" — ต้องมี be (am / is / are) ถ้าจะตามด้วย V-ing"
+    }
+  ],
+  "compare": {
+    "title": "used to + V1 vs be used to + V-ing",
+    "with": [],
+    "rows": [
+      {
+        "label": "ความหมาย",
+        "a": "เมื่อก่อนเคย… (ตอนนี้ไม่แล้ว)",
+        "b": "ชิน / คุ้นเคยกับ…"
+      },
+      {
+        "label": "โครงสร้าง",
+        "a": "used to + V1",
+        "b": "am / is / are / was + used to + V-ing หรือคำนาม"
+      },
+      {
+        "label": "เวลา",
+        "a": "อดีตเท่านั้น",
+        "b": "ปัจจุบัน อดีต หรืออนาคตก็ได้"
+      },
+      {
+        "label": "ตัวอย่าง",
+        "a": "I used to get up at five. (ตอนนี้ไม่ตื่นตีห้าแล้ว)",
+        "b": "I'm used to getting up at five. (ตื่นตีห้าจนชินแล้ว)"
+      }
+    ],
+    "tipTh": "ถ้ามี am / is / are / was หน้า used to → ตามด้วย V-ing และแปลว่า \"ชิน\" · ถ้าไม่มี be → ตามด้วย V1 และแปลว่า \"เมื่อก่อนเคย\""
+  },
+  "contexts": [
+    {
+      "kind": "social",
+      "title": "Throwback post",
+      "lines": [
+        {
+          "text": "Throwback! This is my grandma's house in 2010. We [[used to visit]] her every summer. [[There didn't use to be]] a road to the village, so we [[used to walk]] the last two kilometres. Now there's a new road and a café. I [[didn't use to like]] the long walk, but I miss it now! #memories"
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Old school friends",
+      "lines": [
+        {
+          "speaker": "Ploy",
+          "text": "Wow, you look so different! You [[used to have]] really long hair."
+        },
+        {
+          "speaker": "Ken",
+          "text": "I know! And you [[used to be]] so quiet in class. [[Did]] you [[use to sit]] at the back?"
+        },
+        {
+          "speaker": "Ploy",
+          "text": "Yes, I [[did]]. Now I'm a teacher, so I talk all day!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "used to",
+      "th": "เมื่อก่อนเคย… (ตอนนี้ไม่แล้ว)"
+    },
+    {
+      "en": "Past habit",
+      "th": "นิสัย / สิ่งที่ทำเป็นประจำในอดีต"
+    },
+    {
+      "en": "Past state",
+      "th": "สภาพในอดีต เช่น เคยอยู่ เคยมี เคยเป็น เคยชอบ"
+    },
+    {
+      "en": "be used to + V-ing",
+      "th": "ชิน / คุ้นเคยกับการทำบางอย่าง"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b1-used-to-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "When I was a child, I ___ in Chiang Rai. Now I live in Bangkok.",
+      "choices": [
+        "used to live",
+        "use to live",
+        "used to living",
+        "was used to live"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประโยคบอกเล่าในอดีตต้องเป็น used (มี d)",
+        "2": "used to ตามด้วยกริยาช่องที่ 1 (live) ไม่ใช่ V-ing",
+        "3": "was used to + V-ing แปลว่า \"ชิน\" และหลัง was used to ใช้ live ไม่ได้"
+      },
+      "explainTh": "เมื่อก่อนอยู่เชียงราย ตอนนี้ไม่อยู่แล้ว → used to + V1 → used to live",
+      "structure": "Subject + used to + V1",
+      "example": "I used to live in Chiang Rai."
+    },
+    {
+      "id": "b1-used-to-02",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "My father ___ coffee, but now he drinks three cups a day.",
+      "choices": [
+        "didn't use to drink",
+        "didn't used to drink",
+        "don't use to drink",
+        "wasn't used to drink"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "หลัง didn't ใช้ use (ไม่มี d) เพราะ did บอกอดีตแล้ว",
+        "2": "used to ไม่มีรูปปัจจุบัน จึงใช้ don't use to ไม่ได้",
+        "3": "wasn't used to แปลว่า \"ไม่ชิน\" และต้องตามด้วย V-ing"
+      },
+      "explainTh": "เมื่อก่อนไม่ดื่ม ตอนนี้ดื่ม → ปฏิเสธของ used to = didn't use to + V1",
+      "structure": "Subject + didn't use to + V1",
+      "example": "He didn't use to drink coffee."
+    },
+    {
+      "id": "b1-used-to-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "I ___ (used to / have) long hair, but now it's very short.",
+      "accepted": [
+        "used to have"
+      ],
+      "explainTh": "สภาพในอดีตที่เปลี่ยนไปแล้ว → used to + V1 → used to have",
+      "structure": "Subject + used to + V1",
+      "example": "I used to have long hair."
+    },
+    {
+      "id": "b1-used-to-04",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Did you ___ (use to / play) football at primary school?",
+      "accepted": [
+        "use to play"
+      ],
+      "explainTh": "คำถามที่มี Did → use to (ไม่มี d) + V1 → Did you use to play …?",
+      "structure": "Did + Subject + use to + V1?",
+      "example": "Did you use to play football?"
+    },
+    {
+      "id": "b1-used-to-05",
+      "type": "fill",
+      "difficulty": 2,
+      "question": "Somchai ___ (not / use to / like) vegetables, but now he eats salad every day.",
+      "accepted": [
+        "didn't use to like",
+        "did not use to like",
+        "never used to like"
+      ],
+      "explainTh": "ปฏิเสธของ used to → didn't use to + V1 (หลัง didn't ใช้ use ไม่มี d)",
+      "structure": "Subject + didn't use to + V1",
+      "example": "He didn't use to like vegetables."
+    },
+    {
+      "id": "b1-used-to-06",
+      "type": "error",
+      "difficulty": 1,
+      "sentence": "I use to go swimming every weekend when I lived in Phuket.",
+      "errorPart": "use to",
+      "accepted": [
+        "I used to go swimming every weekend when I lived in Phuket.",
+        "I would go swimming every weekend when I lived in Phuket.",
+        "I went swimming every weekend when I lived in Phuket."
+      ],
+      "explainTh": "ประโยคบอกเล่าเรื่องในอดีตต้องเป็น used to (มี d) → I used to go swimming …"
+    },
+    {
+      "id": "b1-used-to-07",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "Did she used to work in a hotel?",
+      "errorPart": "used to",
+      "accepted": [
+        "Did she use to work in a hotel?"
+      ],
+      "explainTh": "มี Did แล้ว จึงใช้ use to (ไม่มี d) เหมือน Did + V1"
+    },
+    {
+      "id": "b1-used-to-08",
+      "type": "error",
+      "difficulty": 3,
+      "sentence": "Now I used to cycle to work every day.",
+      "errorPart": "used to cycle",
+      "accepted": [
+        "Now I cycle to work every day.",
+        "Now I usually cycle to work.",
+        "Now I usually cycle to work every day.",
+        "Now I'm used to cycling to work every day."
+      ],
+      "explainTh": "Now = ปัจจุบัน แต่ used to ใช้กับอดีตเท่านั้น → นิสัยตอนนี้ใช้ Present Simple: Now I cycle to work every day."
+    },
+    {
+      "id": "b1-used-to-09",
+      "type": "order",
+      "difficulty": 2,
+      "tokens": [
+        "we",
+        "didn't",
+        "use",
+        "to",
+        "have",
+        "a",
+        "car"
+      ],
+      "accepted": [
+        "We didn't use to have a car.",
+        "Didn't we use to have a car?"
+      ],
+      "explainTh": "ปฏิเสธ: Subject + didn't + use to + V1 → We didn't use to have a car."
+    },
+    {
+      "id": "b1-used-to-10",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "where",
+        "did",
+        "you",
+        "use",
+        "to",
+        "live"
+      ],
+      "accepted": [
+        "Where did you use to live?"
+      ],
+      "explainTh": "คำถาม Wh-: Wh- + did + Subject + use to + V1 → Where did you use to live?"
+    },
+    {
+      "id": "b1-used-to-11",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "Ten years ago there was a cinema in our town. There isn't one now.",
+      "instruction": "เขียนใหม่เป็นประโยคเดียว เริ่มด้วย There used to …",
+      "accepted": [
+        "There used to be a cinema in our town.",
+        "There used to be a cinema in our town ten years ago.",
+        "There used to be a cinema in our town, but there isn't one now."
+      ],
+      "explainTh": "\"เมื่อก่อนเคยมี (ตอนนี้ไม่มีแล้ว)\" → There used to be + noun"
+    },
+    {
+      "id": "b1-used-to-12",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "He used to eat meat.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ",
+      "accepted": [
+        "He didn't use to eat meat.",
+        "He never used to eat meat."
+      ],
+      "explainTh": "ปฏิเสธ: didn't + use to + V1 (used เปลี่ยนเป็น use เพราะมี did แล้ว)"
+    },
+    {
+      "id": "b1-used-to-13",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "จับคู่ประโยคกับความหมาย",
+      "pairs": [
+        [
+          "I used to live in Krabi.",
+          "เมื่อก่อนฉันเคยอยู่กระบี่ (ตอนนี้ไม่ได้อยู่แล้ว)"
+        ],
+        [
+          "I'm used to living in Krabi.",
+          "ฉันชินกับการอยู่กระบี่แล้ว"
+        ],
+        [
+          "I usually go to Krabi in May.",
+          "ปกติฉันไปกระบี่ช่วงเดือนพฤษภาคม"
+        ],
+        [
+          "I didn't use to like Krabi.",
+          "เมื่อก่อนฉันไม่ชอบกระบี่ (ตอนนี้ชอบแล้ว)"
+        ],
+        [
+          "I'm getting used to living in Krabi.",
+          "ฉันกำลังเริ่มชินกับการอยู่กระบี่"
+        ]
+      ],
+      "explainTh": "used to + V1 = เมื่อก่อนเคย · be used to + V-ing = ชินแล้ว · get used to + V-ing = กำลังเริ่มชิน · usually = นิสัยตอนนี้"
+    },
+    {
+      "id": "b1-used-to-14",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": [
+        "There used to be a big tree in front of our school.",
+        "There use to be a big tree in front of our school.",
+        "There was used to be a big tree in front of our school.",
+        "There used to have a big tree in front of our school."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "บอกเล่าต้องเป็น used (มี d)",
+        "2": "ไม่ต้องมี was หน้า used to (was used to = ชิน)",
+        "3": "\"มี\" อยู่ที่ไหน ใช้ there + be ไม่ใช่ have (แปลตรงจากภาษาไทย)"
+      },
+      "explainTh": "เมื่อก่อนเคยมี → There used to be + noun"
+    },
+    {
+      "id": "b1-used-to-15",
+      "type": "dialogue",
+      "difficulty": 1,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Do you still play the guitar?"
+          },
+          {
+            "speaker": "B",
+            "text": "No, not really. I ___ play it a lot at university, but I don't have time now."
+          }
+        ]
+      },
+      "choices": [
+        "used to",
+        "use to",
+        "am used to",
+        "was used to"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ประโยคบอกเล่าในอดีตต้องเป็น used to (มี d)",
+        "2": "am used to = ชิน และต้องตามด้วย V-ing (playing)",
+        "3": "was used to = เคยชิน และต้องตามด้วย V-ing ไม่ใช่ V1"
+      },
+      "explainTh": "เมื่อก่อนเล่นบ่อย ตอนนี้ไม่มีเวลาแล้ว → used to + V1 → I used to play it a lot."
+    },
+    {
+      "id": "b1-used-to-16",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "social",
+        "title": "Throwback post",
+        "lines": [
+          {
+            "text": "Throwback! This is my grandma's house in 2010. We used to visit her every summer. There didn't use to be a road to the village, so we used to walk the last two kilometres. Now there's a new road and a café. I didn't use to like the long walk, but I miss it now!"
+          }
+        ]
+      },
+      "question": "What does \"There didn't use to be a road to the village\" tell us?",
+      "choices": [
+        "In the past there was no road, but now there is one.",
+        "There was a road in the past, but now there isn't.",
+        "There has never been a road to the village.",
+        "The writer is not used to the new road."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ความหมายกลับกัน — didn't use to be = เมื่อก่อนไม่มี และโพสต์บอกว่าตอนนี้มีถนนใหม่",
+        "2": "โพสต์บอกว่า Now there's a new road ตอนนี้จึงมีถนนแล้ว",
+        "3": "ไม่ได้ใช้ be used to (ชิน) และไม่ได้พูดว่าไม่ชินกับถนน"
+      },
+      "explainTh": "didn't use to be = เมื่อก่อนไม่มี (แต่ตอนนี้เปลี่ยนไปแล้ว) และโพสต์ยืนยันว่า Now there's a new road"
+    },
+    {
+      "id": "b1-used-to-17",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเปรียบเทียบตัวคุณตอนเด็กกับตอนนี้ โดยใช้ used to และ didn't use to อย่างละ 1 ครั้งขึ้นไป (Write 3 sentences comparing your childhood with now. Use used to and didn't use to.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "\\bused to\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ used to + V1 อย่างน้อย 1 ครั้ง (เช่น I used to be …)"
+        },
+        {
+          "re": "\\b(didn[’']t|did not)\\s+use\\s+to\\s+\\w+|\\bnever used to\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ didn't use to + V1 อย่างน้อย 1 ครั้ง (หลัง didn't ใช้ use ไม่มี d)"
+        }
+      ],
+      "forbid": [
+        {
+          "re": "\\b(didn[’']t|did not)\\s+used\\s+to\\b",
+          "flags": "i",
+          "msgTh": "หลัง didn't ใช้ use to (ไม่มี d)"
+        }
+      ],
+      "sample": "When I was a child, I used to be very shy. I didn't use to like vegetables, but now I eat them every day. My family used to live near the sea.",
+      "explainTh": "used to + V1 = เมื่อก่อนเคย · didn't use to + V1 = เมื่อก่อนไม่เคย (หลัง did ไม่มี d)"
+    }
+  ]
+}

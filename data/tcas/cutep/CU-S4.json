@@ -1,0 +1,2049 @@
+{
+  "exam": "cutep",
+  "setId": "CU-S4",
+  "title": "CU-TEP ชุดฝึกที่ 4",
+  "version": 1,
+  "original": true,
+  "level": 3,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 119,
+    "keyMatch": 120,
+    "total": 120,
+    "note": "ข้อ 025 ตัวเลือกที่ถูกถอดความจากบทฟังแบบหลวม ๆ แต่เป็นข้อเดียวที่ถูก"
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "groups": [
+        {
+          "id": "CU-S4-G01",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Reading for a seminar",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Did you manage to get through the whole methodology chapter last night?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I barely scratched the surface, to be honest. I kept getting sidetracked by the footnotes."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-001",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She found the chapter rather superficial.",
+                "She thought the footnotes were badly written.",
+                "She read only a small part of the chapter.",
+                "She finished the chapter but skipped the footnotes."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "\"barely scratched the surface\" แปลว่าเพิ่งทำไปได้นิดเดียว ยังไม่ลงลึก จึงหมายความว่าเธออ่านไปได้เพียงส่วนน้อยของบท ไม่ได้แปลว่าเนื้อหาตื้น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G02",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Asking for an extension",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I'm thinking of asking Dr. Halvorsen for an extension on the lab report."
+            },
+            {
+              "speaker": "Man",
+              "text": "I wouldn't hold my breath. She's turned down everyone who's asked this term."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-002",
+              "stem": "What does the man imply?",
+              "options": [
+                "Dr. Halvorsen will be away for the rest of term.",
+                "The woman should ask Dr. Halvorsen at once.",
+                "The woman is unlikely to be given more time.",
+                "The woman should wait a while before asking."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "\"I wouldn't hold my breath\" ใช้บอกว่าอย่าไปคาดหวังว่าจะเกิดขึ้น ประกอบกับที่อาจารย์ปฏิเสธทุกคนเทอมนี้ จึงสื่อว่าผู้หญิงคงไม่ได้ขยายเวลา"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G03",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "A double-booked room",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "The seminar room's been double-booked again. Should we just cancel today's study group?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Let's not throw the baby out with the bathwater. The café on the ground floor has a big table we could use."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-003",
+              "stem": "What does the woman suggest?",
+              "options": [
+                "Complaining about the room booking system.",
+                "Shortening the session to half an hour.",
+                "Waiting until the seminar room is free.",
+                "Meeting somewhere else instead of cancelling."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"throw the baby out with the bathwater\" คือทิ้งสิ่งดีไปพร้อมกับปัญหา เธอจึงไม่อยากยกเลิกทั้งกลุ่มเพราะห้องไม่ว่าง และเสนอให้ไปใช้โต๊ะที่คาเฟ่แทน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G04",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "After the presentation",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "How did your presentation go? You looked pretty nervous beforehand."
+            },
+            {
+              "speaker": "Man",
+              "text": "Honestly, it went off without a hitch. Even the projector cooperated for once."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-004",
+              "stem": "What does the man mean?",
+              "options": [
+                "He felt less nervous once it had started.",
+                "It went well once the projector was fixed.",
+                "It was shorter than he had planned.",
+                "It went smoothly from start to finish."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"went off without a hitch\" แปลว่าราบรื่นไม่มีปัญหาเลยตั้งแต่ต้นจนจบ และ \"Even the projector cooperated\" แปลว่าเครื่องฉายไม่ได้เสีย ส่วนเรื่องความประหม่าเป็นคำพูดของผู้หญิงที่พูดถึงก่อนเริ่ม ไม่ใช่สิ่งที่ผู้ชายบอก"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G05",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "A research assistant post",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Are you going to apply for the research assistant post in the Geography department?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'd jump at the chance, but the hours clash with my teaching practicum."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-005",
+              "stem": "What can be inferred about the woman?",
+              "options": [
+                "She has already accepted the post in Geography.",
+                "She is not interested in Geography.",
+                "She plans to reschedule her practicum.",
+                "She wants the job but probably cannot take it."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"I'd jump at the chance\" แสดงว่าอยากได้งานมาก แต่ \"the hours clash with my teaching practicum\" คือเวลาชนกับการฝึกสอน จึงอนุมานได้ว่าคงรับงานไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G06",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Help with statistics",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I can't make head or tail of these regression tables. Have you got a minute?"
+            },
+            {
+              "speaker": "Man",
+              "text": "I'm completely swamped this week, I'm afraid. But Kittipong runs a statistics clinic every Tuesday afternoon."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-006",
+              "stem": "What does the man suggest the woman do?",
+              "options": [
+                "Present her tables in a simpler format.",
+                "Get help from somebody else.",
+                "Postpone her analysis until next week.",
+                "Drop the statistics module altogether."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกว่างานล้นมือ (\"swamped\") ช่วยไม่ได้ แล้วแนะนำคลินิกสถิติของ Kittipong จึงเท่ากับแนะนำให้ไปขอความช่วยเหลือจากคนอื่น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G07",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Feedback on a proposal",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Professor Adeyemi described our proposal as 'ambitious'."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Hmm. Coming from her, that's not exactly a ringing endorsement."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-007",
+              "stem": "What does the woman imply?",
+              "options": [
+                "The professor rarely comments on students' proposals.",
+                "The proposal ought to be more ambitious.",
+                "The professor probably has doubts about the proposal.",
+                "The professor strongly supports the proposal."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "\"not exactly a ringing endorsement\" แปลว่าไม่ใช่คำชมสนับสนุนเต็มที่ ผู้หญิงจึงสื่อว่าคำว่า ambitious จากอาจารย์คนนี้น่าจะแฝงความไม่มั่นใจในข้อเสนอ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G08",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Library opening hours",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Do you think the library will really stay open until midnight during exams?"
+            },
+            {
+              "speaker": "Man",
+              "text": "They've been promising that for years. I'll believe it when I see it."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-008",
+              "stem": "What does the man mean?",
+              "options": [
+                "He has already seen the new opening hours.",
+                "He doubts the change will actually happen.",
+                "He will go to the library to find out.",
+                "He thinks the library should close earlier."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "\"I'll believe it when I see it\" ใช้แสดงความไม่เชื่อจนกว่าจะเห็นจริง ประกอบกับ \"promising that for years\" จึงหมายถึงเขาสงสัยว่าห้องสมุดจะขยายเวลาจริง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G09",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Rewriting a literature review",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "I've decided to rewrite my entire literature review from scratch."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Isn't that a bit drastic? Your supervisor only flagged two sections."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-009",
+              "stem": "What does the woman imply?",
+              "options": [
+                "The man only needs to revise part of his review.",
+                "The man should choose a new research topic.",
+                "The man ought to ask for more detailed feedback.",
+                "The man's supervisor has not read the review."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "เธอว่าการเขียนใหม่ทั้งหมด \"drastic\" (รุนแรงเกินไป) เพราะอาจารย์ติไว้แค่ \"two sections\" จึงสื่อว่าแก้เฉพาะบางส่วนก็พอ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G10",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้น แล้วเลือกคำตอบที่ถูกต้องที่สุด (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "A new grading rubric",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Have you seen the new grading rubric for the group project?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Yes, and frankly they've moved the goalposts. Half of what we've already done no longer counts."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-010",
+              "stem": "What does the man mean?",
+              "options": [
+                "The requirements changed after the work had begun.",
+                "The group has fallen behind schedule.",
+                "Half of the group did not contribute.",
+                "The new rubric makes the project much easier to finish."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "\"move the goalposts\" คือเปลี่ยนกติกาหรือเกณฑ์กลางทาง และ \"Half of what we've already done no longer counts\" ยืนยันว่าเกณฑ์เปลี่ยนหลังจากเริ่มทำงานไปแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G11",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนาต่อไปนี้ แล้วตอบคำถาม 5 ข้อ (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "A meeting with a thesis supervisor",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Come in, have a seat. I've had a chance to go through your second chapter."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Thanks for getting to it so quickly. I wasn't sure whether the structure was working."
+            },
+            {
+              "speaker": "Man",
+              "text": "The structure's mostly fine. My main concern is the sampling. You interviewed forty-two street vendors, but thirty of them work at a single night market."
+            },
+            {
+              "speaker": "Woman",
+              "text": "I know. The other markets were much harder to get access to, and I was running out of time before the rainy season."
+            },
+            {
+              "speaker": "Man",
+              "text": "That's understandable, but an examiner will pounce on it. You either need to widen the sample or narrow your claims."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Narrowing the claims feels like giving up on the comparative angle, though."
+            },
+            {
+              "speaker": "Man",
+              "text": "Not necessarily. You could present the night market as an in-depth case study and treat the other twelve interviews as a contrast group. That's a perfectly respectable design."
+            },
+            {
+              "speaker": "Woman",
+              "text": "So I'd reframe the research questions rather than go back and collect more data?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Exactly. More fieldwork now would push your submission back at least a semester, and your scholarship runs out in May."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Right. What about the literature review? I felt it was a bit thin."
+            },
+            {
+              "speaker": "Man",
+              "text": "Thin isn't really the problem. It reads like a catalogue. You summarise one study after another without showing how they relate to each other. Group them by argument, not by author."
+            },
+            {
+              "speaker": "Woman",
+              "text": "That makes sense. Should I send you the revised chapter before the progress committee meets?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Please do, but give me at least ten days. The committee meets on the fourteenth, so aim for the first few days of the month."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Okay. I'm also going to email Dr. Somsri to ask whether she'd join the committee as the external member."
+            },
+            {
+              "speaker": "Man",
+              "text": "Good idea. Just copy me in, so she knows I've approved the request."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Will do. Thanks, this was much less painful than I expected."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-011",
+              "stem": "What is the supervisor's main concern about the chapter?",
+              "options": [
+                "Most of the interviews come from one location.",
+                "The chapter is poorly organised.",
+                "The interviews were held during the rainy season.",
+                "Forty-two interviews are too few overall."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "อาจารย์บอกว่า \"My main concern is the sampling\" เพราะผู้ให้สัมภาษณ์ 30 จาก 42 คนอยู่ที่ตลาดกลางคืนแห่งเดียว ส่วนโครงสร้างนั้น \"mostly fine\""
+            },
+            {
+              "id": "CU-S4-012",
+              "stem": "What does the supervisor recommend the student do about her sample?",
+              "options": [
+                "Interview vendors at several more markets.",
+                "Treat it as a case study with a comparison group.",
+                "Remove the twelve interviews from other markets.",
+                "Delay her submission until next semester."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "อาจารย์เสนอให้ \"present the night market as an in-depth case study and treat the other twelve interviews as a contrast group\" คือปรับกรอบเป็นกรณีศึกษาพร้อมกลุ่มเปรียบเทียบ ไม่ต้องเก็บข้อมูลเพิ่ม"
+            },
+            {
+              "id": "CU-S4-013",
+              "stem": "Why does the supervisor advise against collecting more data?",
+              "options": [
+                "Fieldwork is not allowed during the rainy season.",
+                "It would delay her beyond the end of her funding.",
+                "The committee has already approved the design.",
+                "The new data could not be compared with the old."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "อาจารย์บอกว่าการเก็บข้อมูลเพิ่ม \"would push your submission back at least a semester\" และ \"your scholarship runs out in May\" แปลว่าจะเลยระยะเวลาทุน"
+            },
+            {
+              "id": "CU-S4-014",
+              "stem": "What does the supervisor say about the literature review?",
+              "options": [
+                "It should be cut to half its length.",
+                "It discusses far too few studies on the topic.",
+                "It lists studies without linking them together.",
+                "It relies too heavily on one author."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "อาจารย์บอกว่าปัญหาไม่ใช่ความบาง แต่ \"reads like a catalogue\" สรุปงานทีละชิ้น \"without showing how they relate to each other\""
+            },
+            {
+              "id": "CU-S4-015",
+              "stem": "What will the student most likely do about Dr. Somsri?",
+              "options": [
+                "Arrange to meet her before the fourteenth.",
+                "Email her and include the supervisor in the message.",
+                "Send her the revised second chapter.",
+                "Ask the supervisor to contact Dr. Somsri directly."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "นักศึกษาจะอีเมลถึง Dr. Somsri และอาจารย์ขอให้ \"copy me in\" ซึ่งเธอตอบว่า \"Will do\" จึงจะส่งอีเมลโดยสำเนาถึงอาจารย์ด้วย"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G12",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนาต่อไปนี้ แล้วตอบคำถาม 5 ข้อ (บทสนทนาจะเล่นเป็นเสียง)",
+          "title": "Booking a field station",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Good morning, Saen Khlong Field Station, bookings office."
+            },
+            {
+              "speaker": "Man",
+              "text": "Hello. I'm calling from the marine ecology course at Phrayathep University. We'd like to bring eighteen students for three nights in late January."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Late January is quite busy. Which dates exactly?"
+            },
+            {
+              "speaker": "Man",
+              "text": "We'd arrive on the twenty-second and leave on the twenty-fifth."
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'm afraid our dormitory only sleeps sixteen. We could put two people in the staff cottage, but that costs an extra four hundred baht per person per night."
+            },
+            {
+              "speaker": "Man",
+              "text": "That's fine. The department is covering accommodation anyway."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Good. Now, are you planning to go out onto the mudflats?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Yes, that's really the whole point. We're sampling crab burrows along fixed transects."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Then I should warn you that the low tides that week fall very early, around half past five in the morning. If you miss that window, the flats won't be safe again until the evening."
+            },
+            {
+              "speaker": "Man",
+              "text": "Half past five? Oh, my students will be thrilled."
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'm sure they will. Also, everyone who goes onto the flats has to attend our safety induction on the first evening. No exceptions, not even for teaching staff."
+            },
+            {
+              "speaker": "Man",
+              "text": "Understood. Do we need to bring our own boots?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "We lend boots, but the large sizes run out quickly. Anyone who takes a size forty-four or above should bring a pair."
+            },
+            {
+              "speaker": "Man",
+              "text": "Noted. And is there anywhere we can process samples?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "There's a wet lab with two microscopes. If you need more, you'll have to bring them, and the lab closes at nine sharp."
+            },
+            {
+              "speaker": "Man",
+              "text": "Perfect. Could you send me something in writing?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'll email you a provisional booking today. It only becomes confirmed once we receive a deposit, which needs to reach us within two weeks."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S4-016",
+              "stem": "Why is the man calling the field station?",
+              "options": [
+                "To arrange a safety induction for his staff.",
+                "To ask about the times of the low tides.",
+                "To reserve places for a class field trip.",
+                "To check whether the station lends boots."
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "จุดประสงค์หลักอยู่ที่ประโยคแรก \"We'd like to bring eighteen students for three nights\" คือโทรมาจองที่พักสำหรับทริปภาคสนาม ส่วนเรื่องน้ำลง การอบรม และรองเท้าบูทเป็นรายละเอียดที่ผู้หญิงแจ้งระหว่างคุย ไม่ใช่เหตุผลที่โทรมา"
+            },
+            {
+              "id": "CU-S4-017",
+              "stem": "What problem does the woman mention about the group?",
+              "options": [
+                "The department must pay for the cottage first.",
+                "The staff cottage has already been booked.",
+                "The group is too small for a group rate.",
+                "Not all of the students can sleep in the dormitory."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "หอพัก \"only sleeps sixteen\" แต่มานักศึกษา 18 คน จึงต้องให้ 2 คนไปพักที่บ้านพักเจ้าหน้าที่"
+            },
+            {
+              "id": "CU-S4-018",
+              "stem": "What does the man imply when he talks about his students and the early tide?",
+              "options": [
+                "The students are looking forward to the safety induction.",
+                "The students will not be pleased about getting up so early.",
+                "The students have asked to work in the mornings.",
+                "The early tide fits neatly into the students' timetable."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "\"my students will be thrilled\" เป็นการพูดประชด หลังได้ยินว่าต้องลงพื้นที่ตอนตีห้าครึ่ง จึงหมายความว่านักศึกษาคงไม่พอใจที่ต้องตื่นเช้ามาก"
+            },
+            {
+              "id": "CU-S4-019",
+              "stem": "What does the woman say about the safety induction?",
+              "options": [
+                "All who go onto the mudflats must attend, staff included.",
+                "Only the students are required to attend it.",
+                "It can be completed online before the visit.",
+                "It is held every morning before the low tide begins."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เธอบอกว่า \"everyone who goes onto the flats has to attend\" และ \"not even for teaching staff\" จึงต้องเข้าทุกคนรวมถึงอาจารย์ จัดในคืนแรก"
+            },
+            {
+              "id": "CU-S4-020",
+              "stem": "When will the booking be confirmed?",
+              "options": [
+                "As soon as the man replies to the email.",
+                "Once the department has approved the cost.",
+                "On the evening the group arrives.",
+                "After the station has received a deposit."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "เธอบอกว่าจะส่งการจองชั่วคราวก่อน และ \"It only becomes confirmed once we receive a deposit\" คือยืนยันเมื่อได้รับเงินมัดจำ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G13",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศต่อไปนี้ แล้วตอบคำถาม 5 ข้อ (เนื้อหาจะเล่นเป็นเสียง)",
+          "title": "Safety briefing: organic chemistry practicals",
+          "text": "Good morning, everyone, and welcome to the second-year organic chemistry practicals. Before anyone touches a flask, I need ten minutes of your undivided attention, because nothing I'm about to say is optional.\n\nFirst, the basics. Lab coats stay buttoned, goggles stay over your eyes, not on your forehead and not around your neck, and long hair is tied back. If I see goggles anywhere other than over your eyes, you'll be asked to leave for the day, and the session will be recorded as missed.\n\nSecond, the fume cupboards. Each bench has one, and the airflow indicator on the front should sit in the green zone. If it drops into amber, finish the step you're on and then stop. If it reaches red, step back, pull the sash down and tell a demonstrator. Please don't try to fix it yourself. Last year somebody taped over an alarm because they found it annoying, and the entire floor had to be evacuated.\n\nThird, waste. At the end of each row there are three containers: halogenated solvents, non-halogenated solvents and aqueous waste. Mixing them isn't just untidy. Certain combinations can heat up or give off gas. If you're not sure where something belongs, leave it in a labelled beaker and ask. A labelled beaker never hurt anybody.\n\nFourth, spills. Small spills on your own bench you can deal with using the kits under the sinks. Anything on the floor, anything on a person, or anything you can smell from more than a metre away is not a small spill. Call out, move away and let the staff handle it.\n\nFinally, phones. I know you like to photograph your results for your notebooks, and that's fine, but phones stay in the clear plastic sleeves by the door, and you take them out only at the write-up tables. Gloves and touchscreens don't mix, and I've seen what a phone looks like after a bath in acetone.\n\nRight. Any questions? No? Then find your bench number on the board and we'll begin.",
+          "items": [
+            {
+              "id": "CU-S4-021",
+              "stem": "What is the main purpose of the talk?",
+              "options": [
+                "To show students how to record their results.",
+                "To explain how to dispose of chemical waste.",
+                "To go over rules students must follow in the lab.",
+                "To describe an incident with a fume cupboard alarm."
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ทั้งการบรรยายไล่กฎทีละข้อ (แว่นตา ตู้ดูดควัน ของเสีย การหก โทรศัพท์) และบอกว่า \"nothing I'm about to say is optional\" เรื่องของเสียและเหตุการณ์สัญญาณเตือนเป็นเพียงส่วนย่อย ไม่ใช่จุดประสงค์หลัก"
+            },
+            {
+              "id": "CU-S4-022",
+              "stem": "What will happen to a student who wears goggles on the forehead?",
+              "options": [
+                "They will be given a formal verbal warning.",
+                "They will be sent out and marked as absent.",
+                "They will have to buy a new pair.",
+                "They will move to a different bench."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้พูดบอกว่าถ้าแว่นไม่อยู่บนตา \"you'll be asked to leave for the day, and the session will be recorded as missed\""
+            },
+            {
+              "id": "CU-S4-023",
+              "stem": "What should students do if the fume cupboard indicator reaches red?",
+              "options": [
+                "Try to reset the airflow themselves.",
+                "Close the sash and inform a demonstrator.",
+                "Leave the floor by the nearest exit.",
+                "Complete the current step and then stop."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "เมื่อถึงสีแดง ให้ \"step back, pull the sash down and tell a demonstrator\" ส่วน \"finish the step you're on\" เป็นวิธีปฏิบัติเมื่อเป็นสีเหลืองอำพัน (amber)"
+            },
+            {
+              "id": "CU-S4-024",
+              "stem": "Why does the speaker mention the alarm incident from last year?",
+              "options": [
+                "To show that the alarms are often faulty.",
+                "To praise a student for acting quickly.",
+                "To warn against interfering with safety equipment.",
+                "To explain why the alarms were later replaced."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "เรื่องคนเอาเทปปิดสัญญาณเตือนจนต้องอพยพทั้งชั้น ถูกยกมาหลัง \"Please don't try to fix it yourself\" เพื่อเตือนไม่ให้ยุ่งกับอุปกรณ์ความปลอดภัย"
+            },
+            {
+              "id": "CU-S4-025",
+              "stem": "According to the speaker, which spill may students clean up themselves?",
+              "options": [
+                "A spill on their own bench with no strong smell.",
+                "A small splash on a classmate's sleeve.",
+                "A spill on the floor close to a sink.",
+                "A spill that can be smelled from the doorway."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้พูดอนุญาตให้จัดการเองเฉพาะ \"Small spills on your own bench\" ส่วนที่หกบนพื้น บนตัวคน หรือได้กลิ่นจากระยะเกินหนึ่งเมตร ไม่ถือว่าเป็นการหกเล็กน้อย"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G14",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศต่อไปนี้ แล้วตอบคำถาม 5 ข้อ (เนื้อหาจะเล่นเป็นเสียง)",
+          "title": "Lecture: the Byzantine gold coin",
+          "text": "Last week we looked at how the late Roman state paid its soldiers. Today I'd like to follow a single coin, the gold solidus, across roughly seven centuries, because its story tells us a surprising amount about Byzantine power.\n\nThe solidus was introduced in the early fourth century, and what made it remarkable was not its beauty but its stability. For about seven hundred years, its weight and gold content barely changed. Merchants well beyond the empire's borders accepted it without weighing or testing it, which is the ancient equivalent of a currency that everyone trusts at face value. Historians sometimes call it the dollar of the Middle Ages, though I'd treat that phrase with caution. It exaggerates the coin's reach, and it ignores the fact that most ordinary people in the empire rarely, if ever, held one. Everyday life ran on copper.\n\nSo why did stability matter so much? Largely because the state collected its taxes in gold and paid its army and officials in gold. As long as the coin held its value, that cycle held the empire together. When the cycle broke, so did confidence.\n\nAnd break it did. In the eleventh century, under pressure from wars on several frontiers, emperors began quietly reducing the gold content. Within a few decades, a coin that had been almost pure was, in some issues, less than a quarter gold. What I find striking, and what I'd like you to think about for the seminar, is that this did not happen in a single desperate moment. The evidence from buried hoards suggests a gradual slide, each emperor issuing a slightly poorer coin than the last, perhaps assuming nobody would notice.\n\nPeople did notice. Hoards from this period show owners deliberately keeping older, purer coins and spending the newer ones, a pattern any economist would recognise immediately. Eventually, a reform at the end of the century introduced a new gold coin, and the old solidus disappeared.\n\nFor the seminar, please read the two chapters on the hoard evidence and come prepared to argue one question: was debasement a cause of the empire's decline, or merely a symptom of it?",
+          "items": [
+            {
+              "id": "CU-S4-026",
+              "stem": "What is the lecture mainly about?",
+              "options": [
+                "How coins were designed and struck by hand in mints.",
+                "How Roman soldiers were recruited and paid.",
+                "How copper replaced gold in everyday trade.",
+                "How one coin's story reflects the state's fortunes."
+              ],
+              "answer": 3,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้บรรยายบอกว่าจะติดตามเหรียญ solidus เพราะ \"its story tells us a surprising amount about Byzantine power\" เนื้อหาทั้งหมดจึงเชื่อมประวัติเหรียญกับความมั่นคงของจักรวรรดิ"
+            },
+            {
+              "id": "CU-S4-027",
+              "stem": "Why does the lecturer treat the phrase \"the dollar of the Middle Ages\" with caution?",
+              "options": [
+                "It confuses the solidus with a later gold coin.",
+                "It overstates how widely the coin was actually used.",
+                "It was invented by modern economists.",
+                "It wrongly suggests the coin was made of paper."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าวลีนี้ \"exaggerates the coin's reach\" และคนธรรมดาแทบไม่เคยถือเหรียญนี้ จึงพูดเกินจริงเรื่องการใช้อย่างแพร่หลาย"
+            },
+            {
+              "id": "CU-S4-028",
+              "stem": "According to the lecturer, what does the hoard evidence suggest about the debasement?",
+              "options": [
+                "It was reversed within a few years.",
+                "It was a single emergency decision.",
+                "It went entirely unnoticed at the time.",
+                "It took place gradually over several reigns."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "หลักฐานจากขุมทรัพย์ชี้ว่าเป็น \"a gradual slide, each emperor issuing a slightly poorer coin than the last\" ไม่ได้เกิดครั้งเดียวแบบฉุกเฉิน"
+            },
+            {
+              "id": "CU-S4-029",
+              "stem": "What can be inferred from the behaviour of the hoard owners?",
+              "options": [
+                "They trusted older coins more than newly issued ones.",
+                "They melted down old coins to make new ones.",
+                "They preferred copper coins to gold ones.",
+                "They buried coins in order to avoid paying taxes."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "เจ้าของขุมทรัพย์ \"deliberately keeping older, purer coins and spending the newer ones\" แสดงว่าเชื่อถือเหรียญเก่าที่มีทองมากกว่าเหรียญใหม่"
+            },
+            {
+              "id": "CU-S4-030",
+              "stem": "What are students asked to do for the seminar?",
+              "options": [
+                "Find examples of coins from a single hoard.",
+                "Debate whether debasement was a cause or a symptom.",
+                "Compare the solidus with several modern currencies.",
+                "Write a summary of last week's lecture."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายสั่งให้อ่านสองบทและเตรียมถกว่า \"was debasement a cause of the empire's decline, or merely a symptom of it?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "CU-S4-G15",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Beyond the genetic script",
+          "text": "For much of the twentieth century, the genome was pictured as a fixed instruction manual whose contents were ___1___ once and for all at conception. The sequence of DNA you inherited determined, more or less, what your cells could and could not do. Epigenetics ___2___ this picture considerably. The term refers to chemical modifications that alter how genes are expressed ___3___ changing the underlying sequence itself.\n\nOne of the best-studied of these modifications is DNA methylation, in which small chemical tags attach to particular sites and tend to ___4___ nearby genes, effectively switching them off. Crucially, such marks are not permanent. They can be added or removed in response to diet, stress and other environmental factors, ___5___ helps to explain why genetically identical twins often grow more different from each other as they age.\n\nThe most provocative claims in the field concern inheritance. Experiments on laboratory animals have suggested that some marks acquired by parents can be ___6___ to their offspring. ___7___, researchers urge caution in extending these findings to humans. Most marks are erased during the formation of egg and sperm cells, a process sometimes compared to wiping a whiteboard clean ___8___ a new lesson, and the few that appear to survive are extremely difficult to trace across human generations that may span several decades.\n\nPopular accounts have not always ___9___ these limits. Headlines announcing that our grandparents' habits are \"written into our genes\" tend to overstate evidence that remains, for now, suggestive ___10___ conclusive. The more defensible conclusion is modest but still striking: our genes are less a fixed script than a score that can be performed in more than one way.",
+          "items": [
+            {
+              "id": "CU-S4-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "loosened",
+                "settled",
+                "mistaken",
+                "borrowed"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคพูดถึงคู่มือที่ \"fixed\" (ตายตัว) เนื้อหาจึงถูก \"settled once and for all\" คือถูกกำหนดเด็ดขาดตั้งแต่ปฏิสนธิ คำอื่นไม่สอดคล้องกับความหมายว่าตายตัว"
+            },
+            {
+              "id": "CU-S4-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "confirms",
+                "simplifies",
+                "complicates",
+                "preserves"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ย่อหน้าถัดมาอธิบายว่ายีนเปลี่ยนการแสดงออกได้ ขัดกับภาพ \"fixed instruction manual\" Epigenetics จึง \"complicates\" (ทำให้ภาพเดิมซับซ้อนขึ้น) ไม่ใช่ยืนยันหรือทำให้ง่ายขึ้น"
+            },
+            {
+              "id": "CU-S4-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "despite",
+                "instead",
+                "unless",
+                "without"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องการความหมาย \"โดยไม่\" เปลี่ยนลำดับ DNA และหน้า V-ing ใช้ without ได้ ส่วน unless/instead ไม่ตามด้วย V-ing ในรูปนี้ และ despite ให้ความหมายผิด"
+            },
+            {
+              "id": "CU-S4-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "multiply",
+                "silence",
+                "activate",
+                "duplicate"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "วลีต่อท้าย \"effectively switching them off\" บอกว่ายีนถูกปิด จึงต้องเป็น silence (ทำให้เงียบ/ไม่ทำงาน) ซึ่งตรงข้ามกับ activate"
+            },
+            {
+              "id": "CU-S4-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "that",
+                "which",
+                "what",
+                "it"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลังจุลภาค ต้องใช้ relative pronoun \"which\" อ้างถึงทั้งประโยคข้างหน้า (non-defining) ใช้ that หลังจุลภาคไม่ได้ และ it จะทำให้เป็น comma splice"
+            },
+            {
+              "id": "CU-S4-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "brought up",
+                "taken after",
+                "passed on",
+                "handed out"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"pass on to offspring\" แปลว่าถ่ายทอดไปสู่ลูกหลาน ส่วน take after = หน้าตาเหมือน, hand out = แจก, bring up = เลี้ยงดู"
+            },
+            {
+              "id": "CU-S4-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Moreover",
+                "Consequently",
+                "Likewise",
+                "Nevertheless"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนเสนอผลที่น่าตื่นเต้น ประโยคนี้กลับเตือนให้ระวัง จึงต้องใช้คำเชื่อมแสดงความขัดแย้ง Nevertheless ไม่ใช่การเพิ่มเติมหรือผลลัพธ์"
+            },
+            {
+              "id": "CU-S4-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "in spite of",
+                "ahead of",
+                "on behalf of",
+                "instead of"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "การลบกระดานทำ \"ก่อน\" เริ่มบทเรียนใหม่ จึงใช้ ahead of (= before) ตัวเลือกอื่นให้ความหมายว่าแทนที่ ในนามของ หรือแม้ว่า ซึ่งไม่เข้ากับบริบท"
+            },
+            {
+              "id": "CU-S4-039",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "abandoned",
+                "exceeded",
+                "ignored",
+                "respected"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคต่อมาบอกว่าพาดหัวข่าว \"overstate evidence\" จึงหมายถึงสื่อไม่ได้ \"เคารพ\" ขอบเขตของหลักฐานเสมอไป ถ้าใช้ ignored หรือ abandoned กับ \"not always\" ความหมายจะกลับกัน"
+            },
+            {
+              "id": "CU-S4-040",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "as well as",
+                "rather than",
+                "so as",
+                "let alone"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ต้องการเปรียบว่าหลักฐาน \"ชี้แนะ มากกว่าจะเป็นข้อสรุป\" จึงใช้ rather than ส่วน let alone ต้องตามหลังประโยคปฏิเสธ และ as well as ให้ความหมายขัดกับคำว่า overstate"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G16",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "In defence of the semicolon",
+          "text": "Few punctuation marks provoke ___1___ disagreement as the semicolon. Some writers treat it as a sign of sophistication; others regard it as pretentious, a mark that ___2___ attention to the writer rather than to the idea being expressed.\n\nThe mark itself has a far longer ___3___ than many of its critics assume. It was popularised by a Venetian printer in the late fifteenth century, ___4___ wanted a pause longer than a comma but shorter than a full stop. For several centuries afterwards it was used generously, ___5___ in the long, carefully balanced sentences that were admired in essays and public speeches.\n\nIts decline began when influential style guides started to ___6___ shorter sentences and plainer prose. A writer who had once linked two related clauses with a semicolon was now advised to split them into separate sentences, ___7___ sacrificing some of the logical connection between them. Newspapers, with their narrow columns and impatient readers, accelerated the trend, and by the late twentieth century many students were leaving school without ever having been taught how to use the mark at all.\n\nDefenders argue that what was lost in this shift is precisely what made the semicolon valuable. A semicolon signals that two statements are grammatically independent ___8___ closely related in meaning, a nuance that neither a full stop nor the word \"and\" can quite ___9___. A full stop separates the ideas too sharply; \"and\" merely adds one to the other without saying how they are connected.\n\nWhether the semicolon survives may depend less on grammar than on fashion. ___10___ writers come to value precision over speed once again, the humble mark may yet enjoy a modest revival.",
+          "items": [
+            {
+              "id": "CU-S4-041",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "as much",
+                "so many",
+                "as many",
+                "too much"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"as much + นามนับไม่ได้ + as\" ใช้กับ disagreement ซึ่งนับไม่ได้ จึงไม่ใช้ many และ too much ไม่เข้าคู่กับ as"
+            },
+            {
+              "id": "CU-S4-042",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "draws",
+                "gives",
+                "takes",
+                "pays"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "collocation \"draw attention to\" = ดึงความสนใจไปที่ ส่วน pay attention to = ใส่ใจ ซึ่งผู้ทำคือคนอ่าน ไม่ใช่เครื่องหมาย"
+            },
+            {
+              "id": "CU-S4-043",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "proximity",
+                "tendency",
+                "sequence",
+                "pedigree"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"a long pedigree\" แปลว่ามีประวัติความเป็นมายาวนาน ประโยคถัดไปเล่าว่าเครื่องหมายนี้มีมาตั้งแต่ศตวรรษที่ 15 จึงต้องเป็น pedigree ส่วน tendency (แนวโน้ม) proximity (ความใกล้) sequence (ลำดับ) ไม่เข้ากับบริบท"
+            },
+            {
+              "id": "CU-S4-044",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "whom",
+                "which",
+                "whose",
+                "who"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ขยาย \"a Venetian printer\" ซึ่งเป็นคน และทำหน้าที่ประธานของ wanted จึงใช้ who ไม่ใช่ whom (กรรม) หรือ which (สิ่งของ)"
+            },
+            {
+              "id": "CU-S4-045",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "formerly",
+                "scarcely",
+                "accidentally",
+                "particularly"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ใช้ \"อย่างแพร่หลาย โดยเฉพาะ ในประโยคยาว ๆ\" จึงต้องใช้ particularly ส่วน scarcely ขัดกับ generously"
+            },
+            {
+              "id": "CU-S4-046",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "prevent",
+                "favour",
+                "postpone",
+                "withdraw"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "คู่มือการเขียนเริ่ม \"สนับสนุน\" ประโยคสั้น จึงทำให้ semicolon เสื่อมความนิยม คำว่า favour จึงเหมาะที่สุด"
+            },
+            {
+              "id": "CU-S4-047",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "unless",
+                "whereas",
+                "whereby",
+                "thereby"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "\"thereby + V-ing\" แปลว่า \"ด้วยเหตุนั้นจึง\" แสดงผลที่ตามมาจากการแยกประโยค ส่วน whereas/unless ต้องตามด้วยประโยค และ whereby ใช้ขยายคำนาม"
+            },
+            {
+              "id": "CU-S4-048",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "yet",
+                "so",
+                "or",
+                "nor"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ต้องการความหมายขัดแย้ง \"เป็นอิสระทางไวยากรณ์ แต่ เกี่ยวข้องกันทางความหมาย\" จึงใช้ yet"
+            },
+            {
+              "id": "CU-S4-049",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "confess",
+                "capture",
+                "release",
+                "suspend"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"capture a nuance\" = สื่อ/จับความหมายที่ละเอียดอ่อนได้ เป็น collocation ที่ถูกต้อง คำอื่นไม่เข้ากับ nuance"
+            },
+            {
+              "id": "CU-S4-050",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "Were",
+                "Should",
+                "Had",
+                "Would"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เป็นประโยคเงื่อนไขแบบสลับที่ \"Should writers come...\" (= If writers should come) เข้ากับ \"may yet enjoy\" ส่วน Had ต้องตามด้วย V3 และ Were ต้องเป็น \"were to come\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G17",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม 8 ข้อ",
+          "title": "The logic of cooperation",
+          "text": "Why do strangers cooperate? To an economist trained in classical game theory, the question is less trivial than it sounds. Consider the familiar scenario in which two players must each decide, without communicating, whether to cooperate or to defect. If both cooperate, both do reasonably well; if both defect, both do poorly; but a player who defects while the other cooperates does best of all, leaving the trusting partner with nothing. Analysed as a single encounter, the logic is bleak. Whatever the other player does, defecting yields a higher payoff, so rational players should defect, and both end up worse off than if they had trusted each other.\n\nThe picture changes, however, when the same players meet repeatedly. In a repeated game, today's choice casts a shadow over tomorrow. A player who defects now may gain in the short term but invites retaliation in every round that follows. Cooperation, in other words, can be sustained not by goodwill but by the prospect of future punishment. Theorists have shown that, provided players care sufficiently about future rounds, mutual cooperation can be an entirely rational outcome.\n\nThe economist Ingrid Solberg recently dramatised this insight in a classroom tournament at Harrowmere College. She invited her students to submit strategies, short computer programs that decided whether to cooperate or defect on the basis of the previous moves, and pitted each against every other over several hundred rounds. The winner was strikingly simple. It cooperated on the first move and thereafter copied whatever its opponent had done in the previous round. It never defected first, punished defection immediately, and forgave as soon as the opponent returned to cooperation. More elaborate entries, several of which tried to exploit naive opponents, tended to provoke cycles of retaliation that dragged down their own scores.\n\nIt would be easy to read too much into this result. Solberg herself cautioned that the winning strategy owed part of its success to the particular mix of entries; against a different population, it could well have been outscored. It is also vulnerable to error. If one player defects by mistake, through a misread signal or a slip of the finger, two copies of the strategy can become locked in an endless echo of mutual punishment. When Solberg reran the tournament with random errors added, a slightly more forgiving variant, which occasionally let a defection pass unanswered, came out on top.\n\nNonetheless, exercises of this kind have shifted the debate. They suggest that cooperation does not require altruism, central authority, or even much intelligence: it can emerge from simple rules applied consistently by agents who expect to meet again. That conclusion has since been applied, sometimes rather loosely, to subjects ranging from trade agreements to the behaviour of shoaling fish. The broader lesson is perhaps more modest. Whether cooperation flourishes depends less on the virtue of individuals than on the structure of their interactions, and above all on whether the future matters enough to discipline the present.",
+          "items": [
+            {
+              "id": "CU-S4-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How students can win computer programming contests",
+                "Why classical game theory has been largely abandoned",
+                "How repeated interaction can make cooperation rational",
+                "Why individuals who cooperate are more virtuous"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งบทอธิบายว่าในเกมครั้งเดียวการหักหลังดูสมเหตุสมผล แต่เมื่อพบกันซ้ำ ๆ ความร่วมมือกลายเป็นทางเลือกที่มีเหตุผล ซึ่งสรุปไว้ในย่อหน้าสุดท้ายว่าขึ้นกับ \"whether the future matters\""
+            },
+            {
+              "id": "CU-S4-052",
+              "stem": "According to paragraph 1, why should a rational player defect in a single encounter?",
+              "options": [
+                "Cooperating is forbidden by the rules of the game.",
+                "Defecting pays more whatever the other player chooses.",
+                "Defecting guarantees that both players do well.",
+                "The other player is known to be untrustworthy."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 1 ระบุว่า \"Whatever the other player does, defecting yields a higher payoff\" คือไม่ว่าอีกฝ่ายเลือกอะไร การหักหลังได้ผลตอบแทนสูงกว่า"
+            },
+            {
+              "id": "CU-S4-053",
+              "stem": "The phrase \"casts a shadow over\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "influences",
+                "conceals",
+                "postpones",
+                "brightens"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคถัดไปอธิบายว่าการหักหลังวันนี้ทำให้ถูกตอบโต้ในรอบต่อ ๆ ไป แปลว่าการเลือกวันนี้ \"ส่งผลต่อ\" วันพรุ่งนี้ จึงตรงกับ influences"
+            },
+            {
+              "id": "CU-S4-054",
+              "stem": "Which of the following best describes the winning strategy in Solberg's tournament?",
+              "options": [
+                "It cooperated in every round regardless of the opponent.",
+                "It defected first in order to test how its opponent would react.",
+                "It opened by cooperating and then repeated its opponent's last move.",
+                "It punished each defection for several rounds afterwards."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "กลยุทธ์ชนะ \"cooperated on the first move and thereafter copied whatever its opponent had done in the previous round\" และให้อภัยทันที จึงไม่ได้ลงโทษหลายรอบ"
+            },
+            {
+              "id": "CU-S4-055",
+              "stem": "What can be inferred about the more elaborate strategies?",
+              "options": [
+                "They were submitted mainly by experienced economists.",
+                "Their attempts at exploitation ended up hurting them.",
+                "They were removed from the tournament early on.",
+                "They performed best against forgiving opponents."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "กลยุทธ์ซับซ้อนที่พยายามเอาเปรียบ \"tended to provoke cycles of retaliation that dragged down their own scores\" แปลว่าการพยายามเอาเปรียบย้อนกลับมาทำร้ายตัวเอง"
+            },
+            {
+              "id": "CU-S4-056",
+              "stem": "The word \"It\" in \"It is also vulnerable to error\" (paragraph 4) refers to",
+              "options": [
+                "the winning strategy",
+                "the particular mix of entries",
+                "the tournament result",
+                "a different population"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดถึง \"the winning strategy\" ที่อาจถูกแซงได้ และประโยคถัดไปบอกว่า \"two copies of the strategy\" ติดวงจรลงโทษ จึงหมายถึงกลยุทธ์ที่ชนะ"
+            },
+            {
+              "id": "CU-S4-057",
+              "stem": "According to paragraph 4, what happened when random errors were introduced?",
+              "options": [
+                "The students were asked to rewrite their programs.",
+                "All strategies quickly stopped cooperating altogether.",
+                "The original winning strategy won by a wider margin.",
+                "A version that sometimes overlooked defection did best."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "เมื่อเพิ่มความผิดพลาดแบบสุ่ม \"a slightly more forgiving variant, which occasionally let a defection pass unanswered, came out on top\""
+            },
+            {
+              "id": "CU-S4-058",
+              "stem": "Which best describes the author's attitude towards applying the tournament findings to other fields?",
+              "options": [
+                "Cautious about stretching the results too far",
+                "Dismissive of the tournament as a whole",
+                "Uninterested in practical applications",
+                "Enthusiastic about their usefulness everywhere"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนใช้คำว่า \"sometimes rather loosely\" และ \"The broader lesson is perhaps more modest\" แสดงท่าทีระมัดระวังไม่ให้ขยายผลเกินจริง แต่ก็ยอมรับว่าการทดลอง \"shifted the debate\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G18",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม 8 ข้อ",
+          "title": "When frozen ground lets go",
+          "text": "Permafrost is defined not by what it contains but by its temperature: any ground that remains at or below zero degrees Celsius for at least two consecutive years qualifies, whether it consists of rock, sand or peat. Across the northern high latitudes, such ground underlies a large share of the land surface, in places to depths of several hundred metres. For most of human history it attracted little attention beyond the engineers who had to build on it. That has changed, because frozen ground turns out to be one of the largest stores of carbon on the planet.\n\nThe carbon consists of the remains of plants and animals that accumulated over tens of thousands of years and froze before microbes could break them down. As long as it stays frozen, it is effectively locked away. When it thaws, microbes resume their work, releasing carbon dioxide and, in waterlogged soils where oxygen is scarce, methane, a gas that traps far more heat over the short term. Because the Arctic is warming considerably faster than the global average, scientists worry about a feedback loop: thaw releases greenhouse gases, which cause further warming, which causes further thaw.\n\nFor years, most projections assumed that thaw would proceed gradually, creeping downward a few centimetres at a time as summers lengthened. Field researchers increasingly argue that this picture is incomplete. Where the ground contains large bodies of ice, thaw can be abrupt. As the ice melts, the surface collapses, forming pits, slumps and lakes in a process known as thermokarst. A hillside that looked stable one summer may, by the next, have slid away, exposing frozen soil several metres deep to the air at once. A team at the Tarvik Polar Institute estimates that, although abrupt thaw affects less than a fifth of the permafrost region, it could account for close to half of the carbon released from thawing ground this century. If so, models that treat thaw as a slow, even process may seriously understate the problem.\n\nThe uncertainty cuts both ways, however. Warmer conditions also allow shrubs and grasses to spread northward, and growing plants absorb carbon. Some of the lakes created by thermokarst eventually drain and fill with vegetation, which may partly offset earlier emissions. How these opposing processes balance out remains one of the most debated questions in climate research.\n\nFor the communities that live on permafrost, the debate is anything but abstract. Roads buckle, pipelines shift, and buildings whose foundations were designed for permanently frozen ground develop cracks as the soil beneath them softens. In one town surveyed by the Tarvik team, nearly a third of residential buildings showed structural damage linked to thaw. Engineers have responded with adaptations ranging from raised foundations to passive cooling pipes that draw winter cold down into the ground. These measures are effective but expensive, and they treat the symptoms rather than the cause. Ultimately, the fate of frozen ground, and of the people who depend on it, will be settled by decisions about emissions made far to the south.",
+          "items": [
+            {
+              "id": "CU-S4-059",
+              "stem": "According to the passage, what makes ground permafrost?",
+              "options": [
+                "Containing a high proportion of ice and peat",
+                "Staying at or below freezing for two or more years",
+                "Lying several hundred metres below the surface",
+                "Holding large amounts of frozen organic carbon"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่า permafrost \"is defined not by what it contains but by its temperature\" คือพื้นดินที่อยู่ที่ 0°C หรือต่ำกว่าอย่างน้อยสองปีติดต่อกัน"
+            },
+            {
+              "id": "CU-S4-060",
+              "stem": "Why does the author mention waterlogged soils in paragraph 2?",
+              "options": [
+                "They prevent microbes from breaking down any carbon.",
+                "They keep the ground frozen for longer than dry soils.",
+                "They release a gas with a stronger short-term warming effect.",
+                "They absorb the carbon dioxide released by thawing."
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ในดินแฉะที่ออกซิเจนน้อย การย่อยสลายปล่อย methane ซึ่ง \"traps far more heat over the short term\" ผู้เขียนจึงกล่าวถึงเพื่อชี้ว่าก๊าซนี้ทำให้โลกร้อนรุนแรงในระยะสั้น"
+            },
+            {
+              "id": "CU-S4-061",
+              "stem": "The word \"abrupt\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "partial",
+                "seasonal",
+                "sudden",
+                "shallow"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ตรงข้ามกับ \"gradually, creeping downward a few centimetres at a time\" และตัวอย่างเนินเขาที่ถล่มภายในปีเดียว abrupt จึงแปลว่า ฉับพลัน (sudden)"
+            },
+            {
+              "id": "CU-S4-062",
+              "stem": "What does the Tarvik estimate in paragraph 3 suggest?",
+              "options": [
+                "Thermokarst lakes store half of the carbon in frozen ground.",
+                "Abrupt thaw will soon affect most of the permafrost region.",
+                "A small part of the region may produce a large share of emissions.",
+                "Gradual thaw releases more carbon than scientists believed."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "การละลายฉับพลันเกิดใน \"less than a fifth\" ของพื้นที่ แต่อาจปล่อยคาร์บอน \"close to half\" จึงหมายถึงพื้นที่ส่วนน้อยอาจปล่อยก๊าซเป็นสัดส่วนสูงมาก"
+            },
+            {
+              "id": "CU-S4-063",
+              "stem": "What is the main purpose of paragraph 4?",
+              "options": [
+                "To explain why plants cannot grow in the Arctic",
+                "To point out processes that may partly offset emissions",
+                "To describe how thermokarst lakes are formed",
+                "To argue that thaw poses little real danger"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "ย่อหน้า 4 เปิดด้วย \"The uncertainty cuts both ways\" แล้วยกพืชที่ขยายขึ้นเหนือและทะเลสาบที่กลายเป็นพืชพรรณ ซึ่ง \"may partly offset earlier emissions\""
+            },
+            {
+              "id": "CU-S4-064",
+              "stem": "The word \"they\" in \"they treat the symptoms rather than the cause\" (paragraph 5) refers to",
+              "options": [
+                "the affected communities",
+                "the engineering adaptations",
+                "the cooling pipes only",
+                "the residential buildings"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "\"These measures are effective but expensive, and they treat the symptoms...\" คำว่า they จึงหมายถึง These measures คือวิธีปรับตัวทางวิศวกรรมทั้งหมด ทั้งฐานรากยกสูงและท่อระบายความเย็น"
+            },
+            {
+              "id": "CU-S4-065",
+              "stem": "What does the final sentence of the passage imply?",
+              "options": [
+                "Engineers in the south design better foundations.",
+                "Arctic communities should move further south.",
+                "Southern countries suffer most from permafrost thaw.",
+                "Global emission policies matter more than local engineering."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่าวิธีทางวิศวกรรมเป็นแค่การแก้ที่ปลายเหตุ และชะตาของพื้นดินจะถูกตัดสินโดย \"decisions about emissions made far to the south\" คือนโยบายการปล่อยก๊าซระดับโลก"
+            },
+            {
+              "id": "CU-S4-066",
+              "stem": "Which title best fits the passage?",
+              "options": [
+                "Engineering Advances in Arctic Towns",
+                "The History of Arctic Exploration",
+                "Thawing Ground: A Carbon Store at Risk",
+                "How Microbes Survive Extreme Cold"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความเน้นว่า permafrost เป็นแหล่งเก็บคาร์บอนขนาดใหญ่ที่กำลังละลาย พร้อมผลกระทบต่อภูมิอากาศและชุมชน ชื่ออื่นพูดถึงเพียงรายละเอียดย่อยหรือเรื่องที่ไม่มีในบท"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G19",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม 8 ข้อ",
+          "title": "Does language shape thought?",
+          "text": "Does the language you speak shape the way you think? Few questions in the study of mind have swung so dramatically in and out of fashion. In its strongest form, sometimes called linguistic determinism, the idea holds that language sets the limits of thought: if your language lacks a word for something, you cannot conceive of it. Hardly anyone defends that version today. Speakers routinely grasp concepts their languages do not name, and translation, however imperfect, would be impossible if languages sealed their users inside separate mental worlds.\n\nA weaker claim has proved far more durable. Linguistic relativity, as it is usually called, proposes not that language imprisons thought but that it nudges it, making certain distinctions habitual, easy and fast while leaving others available but effortful. The question then becomes an empirical one: can such effects be measured, and are they large enough to matter?\n\nColour has long been a favourite testing ground. Languages divide the spectrum differently; some use separate basic words for two shades of what English speakers simply call blue, much as English separates red from pink. In laboratory tasks, speakers of such languages are often slightly faster at telling apart two shades that straddle their linguistic boundary than two equally different shades that fall within the same category. The effect is real but small, measured in fractions of a second, and it tends to vanish when participants must repeat a string of numbers aloud while doing the task. This suggests that the advantage depends on silently naming the colours rather than on perceiving them differently.\n\nSpatial language offers more striking evidence. Many languages describe location mainly in relation to the speaker's body: the cup is to the left of the plate. Others rely instead on fixed directions, closer to north and south: the cup is to the east of the plate. Researchers working with speakers of Kelari, a language that uses the second system almost exclusively, found that they kept track of compass directions with remarkable accuracy, even indoors and after being turned around several times. When asked to rebuild a row of objects after rotating 180 degrees, Kelari speakers preserved the objects' compass orientation, whereas speakers of body-based languages preserved their left-to-right order.\n\nSceptics point out that such differences need not originate in language at all. Communities that live in open landscapes and travel long distances may develop both the habit of tracking direction and the vocabulary to express it; language could be a symptom of culture rather than its cause. Disentangling the two is notoriously difficult, since researchers cannot randomly assign children to grow up speaking different languages.\n\nWhat emerges is a more nuanced view than either the early enthusiasts or their later critics allowed. Language does not draw the boundaries of what we are able to think. It does, apparently, influence what we attend to, what we remember, and which distinctions we make without effort. Whether that amounts to a different way of seeing the world depends, perhaps, on how much weight one is prepared to give to habit.",
+          "items": [
+            {
+              "id": "CU-S4-067",
+              "stem": "Why does the author reject linguistic determinism?",
+              "options": [
+                "Translation between any two languages is always perfect.",
+                "People can understand ideas their language has no word for.",
+                "Researchers have never studied it experimentally.",
+                "Most languages contain words for every concept."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนให้เหตุผลว่า \"Speakers routinely grasp concepts their languages do not name\" และการแปลจะเป็นไปไม่ได้ถ้าภาษาจำกัดความคิดจริง ส่วนตัวเลือกเรื่องการแปลสมบูรณ์แบบขัดกับคำว่า \"however imperfect\""
+            },
+            {
+              "id": "CU-S4-068",
+              "stem": "The word \"durable\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "well-known",
+                "easily tested",
+                "long-lasting",
+                "widely disputed"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคเทียบกับแนวคิดแบบเข้มที่แทบไม่มีใครยึดถือแล้ว แนวคิดที่อ่อนกว่ากลับ \"has proved far more durable\" คือยังอยู่ได้ยาวนานกว่า"
+            },
+            {
+              "id": "CU-S4-069",
+              "stem": "How does the author characterise the colour effect?",
+              "options": [
+                "Too unreliable to be measured",
+                "Genuine but quite small in size",
+                "Limited to speakers of English",
+                "Large enough to alter perception"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนเขียนชัดว่า \"The effect is real but small, measured in fractions of a second\" คือมีจริงแต่ขนาดเล็ก"
+            },
+            {
+              "id": "CU-S4-070",
+              "stem": "What does the result of the number-repeating task suggest?",
+              "options": [
+                "Speakers of all languages name colours identically.",
+                "Some speakers literally see colours differently.",
+                "The colour advantage relies on using words internally.",
+                "Numbers and colours are processed in the same way."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "เมื่อให้ท่องตัวเลขไปด้วย ผลก็หายไป ผู้เขียนสรุปว่า \"the advantage depends on silently naming the colours rather than on perceiving them differently\""
+            },
+            {
+              "id": "CU-S4-071",
+              "stem": "According to paragraph 4, what did Kelari speakers do after being rotated?",
+              "options": [
+                "They kept the objects in the same left-to-right order.",
+                "They asked which way north was before starting.",
+                "They were unable to rebuild the row of objects.",
+                "They kept the objects in the same compass direction."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 4 ระบุว่า \"Kelari speakers preserved the objects' compass orientation\" ส่วนการรักษาลำดับซ้าย-ขวาเป็นพฤติกรรมของผู้พูดภาษาที่อ้างอิงร่างกาย"
+            },
+            {
+              "id": "CU-S4-072",
+              "stem": "Why does the author mention communities that live in open landscapes?",
+              "options": [
+                "To explain how the Kelari study was designed",
+                "To prove that language shapes spatial memory",
+                "To show that Kelari speakers travel more than others",
+                "To suggest culture might explain both language and habit"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ฝ่ายที่สงสัยเสนอว่าชุมชนเช่นนี้อาจพัฒนาทั้งนิสัยและคำศัพท์ไปพร้อมกัน \"language could be a symptom of culture rather than its cause\" จึงใช้ตัวอย่างนี้เพื่อชี้ว่าวัฒนธรรมอาจเป็นต้นเหตุ"
+            },
+            {
+              "id": "CU-S4-073",
+              "stem": "The phrase \"the two\" in paragraph 5 refers to",
+              "options": [
+                "children and researchers",
+                "language and culture",
+                "habit and vocabulary",
+                "direction and distance"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดว่า \"language could be a symptom of culture rather than its cause\" การแยก \"the two\" ออกจากกันจึงหมายถึงภาษาและวัฒนธรรม"
+            },
+            {
+              "id": "CU-S4-074",
+              "stem": "Which statement best summarises the author's conclusion?",
+              "options": [
+                "Language guides attention but does not limit thinking.",
+                "Language has no measurable effect on the mind.",
+                "Language determines what speakers can imagine.",
+                "Culture is the only cause of differences in thought."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"Language does not draw the boundaries of what we are able to think\" แต่ \"influence what we attend to, what we remember\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G20",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม 8 ข้อ",
+          "title": "Lean, fragile, resilient",
+          "text": "For roughly four decades, the dominant philosophy in manufacturing could be summed up in a single word: lean. Inventory was regarded as waste, money tied up in parts sitting idle on shelves. The ideal factory held almost no stock, receiving components from suppliers only hours before they were needed. This \"just-in-time\" approach cut storage costs, exposed inefficiencies and allowed firms to respond quickly to shifts in demand. It also stretched supply chains across continents, as companies sought the cheapest possible supplier for every part, wherever it happened to be.\n\nThe weakness of the model is that it works superbly until it does not. A lean system has, by design, very little slack, and slack is precisely what absorbs shocks. When a single factory producing a critical component is shut by a flood, a fire or a port closure, there is no buffer of stock to fall back on, and production downstream can stop within days. Managers at Norvane, a mid-sized electronics assembler, discovered this when a fire at a distant plant halted deliveries of a small, inexpensive sensor. Norvane had no idea that the sensor came from a single site; its direct supplier had obtained it from a subcontractor two tiers further down the chain. Assembly lines worth millions of dollars stood idle for six weeks for want of a part costing less than a dollar.\n\nA further complication is what analysts call the bullwhip effect. Small fluctuations in consumer demand tend to grow larger as they travel upstream. A retailer who notices a modest rise in sales orders a little extra to be safe; the wholesaler, seeing a larger order, adds its own margin; by the time the signal reaches the producer of raw materials, a ten per cent rise at the checkout may have become a fifty per cent surge in orders. When demand levels off, the whole chain is left holding surplus stock, and orders collapse just as dramatically. Notably, nobody in this sequence behaves foolishly. Each firm acts sensibly given what it can see; the trouble is that no one can see the whole chain.\n\nIn response, many firms now speak of resilience rather than efficiency. In practice this may mean holding larger stocks of critical parts, approving a second supplier for key components, or mapping the chain beyond the first tier so that hidden concentrations of risk come to light. Some companies now share sales data directly with their suppliers, reducing the guesswork that feeds the bullwhip.\n\nNone of these measures is free. Extra inventory ties up capital; second suppliers are often more expensive; mapping a network of thousands of firms demands time and a good deal of goodwill. The real challenge, therefore, is not to abandon lean thinking but to decide where its savings are worth the risk. A firm might happily run lean on generic parts that are available from many sources while keeping a deep buffer of anything that comes from a single site. Efficiency and resilience, in other words, are not so much opposites as competing priorities that must be weighed part by part.",
+          "items": [
+            {
+              "id": "CU-S4-075",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Holding large stocks is always the safest policy.",
+                "Lean manufacturing has been a complete and costly failure.",
+                "Firms must balance cost savings against the risk of disruption.",
+                "Global supply chains should be made much shorter."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าสุดท้ายสรุปว่าไม่ควรทิ้งแนวคิด lean แต่ต้องตัดสินใจว่า \"where its savings are worth the risk\" ประสิทธิภาพและความยืดหยุ่นจึงต้องชั่งน้ำหนักกัน"
+            },
+            {
+              "id": "CU-S4-076",
+              "stem": "Which of the following is mentioned as a benefit of the just-in-time approach?",
+              "options": [
+                "It encouraged firms to use local suppliers.",
+                "It made supply chains shorter and simpler.",
+                "It reduced the cost of storing parts.",
+                "It protected factories against sudden shocks."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 1 ระบุว่า just-in-time \"cut storage costs\" ส่วนตัวเลือกอื่นขัดกับบทความ เพราะห่วงโซ่ยาวข้ามทวีปและเปราะบางต่อเหตุไม่คาดคิด"
+            },
+            {
+              "id": "CU-S4-077",
+              "stem": "The word \"slack\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "spare capacity",
+                "careless work",
+                "hidden cost",
+                "falling demand"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "slack คือสิ่งที่ \"absorbs shocks\" และเทียบกับ \"buffer of stock\" จึงหมายถึงกำลังหรือของสำรองส่วนเกิน (spare capacity)"
+            },
+            {
+              "id": "CU-S4-078",
+              "stem": "Why does the author describe the experience of Norvane?",
+              "options": [
+                "To show that cheap parts are usually unreliable",
+                "To criticise Norvane's managers for poor planning",
+                "To show how an unseen single source can halt production",
+                "To explain how sensors are made and delivered"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่าง Norvane แสดงว่าเพียงเซนเซอร์ราคาไม่ถึงดอลลาร์จากโรงงานแห่งเดียวที่บริษัทไม่รู้มาก่อน ทำให้สายการผลิตหยุดหกสัปดาห์"
+            },
+            {
+              "id": "CU-S4-079",
+              "stem": "What can be inferred from the Norvane example?",
+              "options": [
+                "The sensor was the most expensive part Norvane used.",
+                "The danger lay beyond the firms Norvane dealt with directly.",
+                "Norvane's direct supplier caused the fire deliberately.",
+                "Norvane had kept a large stock of the sensor."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผู้ผลิตเซนเซอร์เป็น \"a subcontractor two tiers further down the chain\" ซึ่ง Norvane ไม่รู้จัก จึงอนุมานได้ว่าความเสี่ยงอยู่นอกคู่ค้าโดยตรง"
+            },
+            {
+              "id": "CU-S4-080",
+              "stem": "According to paragraph 3, what drives the bullwhip effect?",
+              "options": [
+                "Firms adding margins to orders with limited information",
+                "Producers raising prices when demand falls",
+                "Consumers buying far more than they need",
+                "Retailers deliberately hiding their sales figures"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "แต่ละบริษัท \"orders a little extra to be safe\" และ \"adds its own margin\" โดยมองเห็นเพียงส่วนของตน \"no one can see the whole chain\" ไม่ได้เกิดจากใครทำผิดโดยเจตนา"
+            },
+            {
+              "id": "CU-S4-081",
+              "stem": "The word \"its\" in \"decide where its savings are worth the risk\" (paragraph 5) refers to",
+              "options": [
+                "lean thinking",
+                "the real challenge",
+                "extra inventory",
+                "a second supplier"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "ประโยคเต็มคือ \"not to abandon lean thinking but to decide where its savings are worth the risk\" its จึงหมายถึงการประหยัดของแนวคิด lean"
+            },
+            {
+              "id": "CU-S4-082",
+              "stem": "Which approach would the author most likely recommend?",
+              "options": [
+                "Treating parts differently depending on how many sources they have",
+                "Choosing the cheapest supplier for every component",
+                "Returning to large warehouses for every single component",
+                "Refusing to share sales data with any supplier"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนยกตัวอย่างว่าบริษัทอาจ \"run lean on generic parts\" แต่ \"keeping a deep buffer of anything that comes from a single site\" และต้อง \"weighed part by part\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G21",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความต่อไปนี้ แล้วตอบคำถาม 8 ข้อ",
+          "title": "Can a theory always be rescued?",
+          "text": "Ask a scientist what distinguishes science from other ways of knowing, and a common answer is that scientific claims can be tested. The most influential version of this view holds that a theory earns the label \"scientific\" not because it can be proved true, since no finite number of observations could ever do that, but because it could, in principle, be proved false. The claim that all swans are white can never be confirmed by any number of white swans, yet a single black swan refutes it. On this account, a good theory sticks its neck out: it forbids certain observations and stands ready to be abandoned if they occur.\n\nThe appeal of this criterion, usually called falsifiability, is obvious. It explains why claims that are compatible with every possible outcome, such as a horoscope so vague that it fits any week, strike us as unscientific. It also gives scientists a clear duty: rather than seeking confirmation, they should hunt for the observations most likely to sink their own theories.\n\nYet the criterion runs into difficulties as soon as one looks closely at how testing actually works. No theory is ever tested in isolation. To derive a prediction from a theory of planetary motion, for instance, one must also assume that the telescope is working properly, that the light has not been distorted on its way, that no unknown body is exerting its own pull, and so on. When the prediction fails, logic alone cannot tell us which of these assumptions to blame. The theory may be wrong, but so may any of the auxiliary assumptions that accompanied it. Faced with an awkward result, a scientist can always rescue a favoured theory by adjusting something else.\n\nHistorians of science point out that this is not merely a logical loophole: scientists have often done exactly this, and sometimes wisely. When a planet was observed to drift from its predicted orbit, astronomers did not discard their theory of gravitation; they proposed an unseen planet, and in one celebrated case it was subsequently found. The same strategy, applied to a different anomaly, led to a long search for another hidden planet that was never located; that deviation was eventually explained only by an entirely new theory of gravity. At the time, no rule could have told astronomers which response was the right one.\n\nDoes this mean that the demand for testability is empty? Not quite. What it suggests is that testing is a matter of judgement rather than mechanical procedure. A theory that is repeatedly rescued by new assumptions with no independent support begins to look suspicious; one whose rescues lead to fresh discoveries earns credibility. The question is not whether a theory can be saved, because it almost always can, but what the saving costs and whether it opens new lines of inquiry or merely shields the theory from criticism.\n\nSome critics conclude that science is therefore less rational than its textbook image suggests. A more charitable reading is that rationality in science was never a matter of following an algorithm. It resembles the judgement of an experienced judge or engineer: constrained by evidence, answerable to colleagues and capable of error, yet far from arbitrary.",
+          "items": [
+            {
+              "id": "CU-S4-083",
+              "stem": "According to paragraph 1, why can the claim that all swans are white never be confirmed?",
+              "options": [
+                "The claim is too vague to be tested at all.",
+                "Black swans are too rare to be observed.",
+                "Scientists disagree about the colour of swans.",
+                "A future observation could always contradict it."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนบอกว่า \"no finite number of observations could ever\" พิสูจน์ว่าจริงได้ เพราะหงส์ดำเพียงตัวเดียวก็หักล้างได้เสมอ"
+            },
+            {
+              "id": "CU-S4-084",
+              "stem": "The expression \"sticks its neck out\" in paragraph 1 suggests that a good theory",
+              "options": [
+                "is defended firmly against all criticism",
+                "is supported by a large number of observations",
+                "avoids making any definite predictions",
+                "makes risky claims that could be shown wrong"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "สำนวน stick one's neck out = เสี่ยง ประโยคต่อมาอธิบายว่าทฤษฎีที่ดี \"forbids certain observations and stands ready to be abandoned\" คือกล้าทำนายสิ่งที่อาจถูกพิสูจน์ว่าผิด"
+            },
+            {
+              "id": "CU-S4-085",
+              "stem": "Why does the author consider a vague horoscope unscientific?",
+              "options": [
+                "It is written by people without scientific training.",
+                "It makes predictions only about a single week.",
+                "It has been proved false many times before.",
+                "No possible outcome could ever count against it."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้า 2 บอกว่าดูดวงเช่นนี้ \"compatible with every possible outcome\" และ \"fits any week\" จึงไม่มีผลลัพธ์ใดหักล้างได้"
+            },
+            {
+              "id": "CU-S4-086",
+              "stem": "What is the main point of paragraph 3?",
+              "options": [
+                "Scientists should never rescue a favoured theory.",
+                "Theories of planetary motion are rarely tested.",
+                "A failed prediction does not show which assumption is wrong.",
+                "Telescopes are too unreliable to be used for testing theories."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ใจความคือ \"No theory is ever tested in isolation\" และเมื่อการทำนายผิด \"logic alone cannot tell us which of these assumptions to blame\""
+            },
+            {
+              "id": "CU-S4-087",
+              "stem": "Why does the author describe the two searches for unseen planets?",
+              "options": [
+                "To prove that new theories of gravity were unnecessary",
+                "To criticise astronomers for ignoring their data",
+                "To show one strategy can succeed or fail unpredictably",
+                "To show that hidden planets are usually found in time"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "กลยุทธ์เดียวกันสำเร็จในกรณีหนึ่งแต่ล้มเหลวในอีกกรณี และ \"no rule could have told astronomers which response was the right one\""
+            },
+            {
+              "id": "CU-S4-088",
+              "stem": "According to the author, which kind of rescue makes a theory more credible?",
+              "options": [
+                "One that protects the theory from all criticism",
+                "One that adds several unsupported assumptions",
+                "One that is accepted quickly by most scientists",
+                "One that leads to new and independent discoveries"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้า 5 ระบุว่าทฤษฎีที่ \"rescues lead to fresh discoveries earns credibility\" ส่วนการกู้ด้วยสมมติฐานที่ไม่มีหลักฐานอิสระ \"begins to look suspicious\""
+            },
+            {
+              "id": "CU-S4-089",
+              "stem": "The word \"It\" in \"It resembles the judgement of an experienced judge or engineer\" (paragraph 6) refers to",
+              "options": [
+                "an algorithm",
+                "a charitable reading",
+                "the textbook image",
+                "rationality in science"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดถึง \"rationality in science was never a matter of following an algorithm\" แล้วต่อด้วย It resembles... จึงหมายถึงความเป็นเหตุเป็นผลในวิทยาศาสตร์"
+            },
+            {
+              "id": "CU-S4-090",
+              "stem": "Which best describes the author's view of falsifiability?",
+              "options": [
+                "A perfect rule for separating good theories from bad",
+                "Relevant only to the study of astronomy",
+                "Useful, but it cannot be applied mechanically",
+                "Worthless as a guide to scientific practice"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนถามว่าการทดสอบไร้ค่าหรือไม่ แล้วตอบว่า \"Not quite\" และ \"testing is a matter of judgement rather than mechanical procedure\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "CU-S4-G22",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (มีเพียงหนึ่งส่วนในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S4-091",
+              "stem": "The number of students [[who enrol]] in online courses [[have risen]] steadily [[over]] the past decade, [[particularly]] among adult learners.",
+              "options": [
+                "who enrol",
+                "have risen",
+                "over",
+                "particularly"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"The number\" (เอกพจน์) กริยาต้องเป็น has risen ไม่ใช่ have risen (ต่างจาก \"A number of students\" ที่ใช้พหูพจน์)"
+            },
+            {
+              "id": "CU-S4-092",
+              "stem": "[[Despite]] the committee's reservations, the proposal [[was approved]] after [[it's]] authors agreed [[to revise]] the budget.",
+              "options": [
+                "Despite",
+                "was approved",
+                "it's",
+                "to revise"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้ possessive \"its authors\" (ผู้เขียนของข้อเสนอ) ส่วน it's เป็นรูปย่อของ it is"
+            },
+            {
+              "id": "CU-S4-093",
+              "stem": "Neither the survey data nor the interview transcripts [[provides]] [[sufficient]] evidence [[to support]] the claim [[that]] attendance affects grades.",
+              "options": [
+                "provides",
+                "sufficient",
+                "to support",
+                "that"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง neither...nor กริยาผันตามประธานตัวที่อยู่ใกล้ คือ \"transcripts\" (พหูพจน์) จึงต้องเป็น provide"
+            },
+            {
+              "id": "CU-S4-094",
+              "stem": "The researchers [[were]] unable to replicate the effect, [[which]] led them to question [[whether]] the original sample had been [[enough large]].",
+              "options": [
+                "were",
+                "which",
+                "whether",
+                "enough large"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "enough ขยายคุณศัพท์ต้องวางหลังคุณศัพท์ จึงต้องเป็น \"large enough\""
+            },
+            {
+              "id": "CU-S4-095",
+              "stem": "The findings, [[together with]] the raw data, [[is]] available [[from]] the department's [[online]] repository.",
+              "options": [
+                "together with",
+                "is",
+                "from",
+                "online"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานหลักคือ \"The findings\" (พหูพจน์) วลี together with the raw data ไม่มีผลต่อการผันกริยา จึงต้องเป็น are ไม่ใช่ is"
+            },
+            {
+              "id": "CU-S4-096",
+              "stem": "Much of the [[informations]] presented in the report [[was drawn]] from [[previously]] published studies [[conducted]] in the region.",
+              "options": [
+                "informations",
+                "was drawn",
+                "previously",
+                "conducted"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "information เป็นนามนับไม่ได้ ไม่เติม -s จึงต้องเป็น \"information\" (สอดคล้องกับ Much และ was)"
+            },
+            {
+              "id": "CU-S4-097",
+              "stem": "The library's new archive allows researchers [[accessing]] manuscripts [[that]] were [[previously]] available only [[to]] visiting scholars.",
+              "options": [
+                "accessing",
+                "that",
+                "previously",
+                "to"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง allow + กรรม + to-infinitive จึงต้องเป็น \"allows researchers to access\""
+            },
+            {
+              "id": "CU-S4-098",
+              "stem": "Unlike [[most]] earlier studies, [[which]] relied on self-reported data, the present study [[measure]] physical activity [[directly]].",
+              "options": [
+                "most",
+                "which",
+                "measure",
+                "directly"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน \"the present study\" เป็นเอกพจน์ ปัจจุบันกาล กริยาต้องเติม -s เป็น measures"
+            },
+            {
+              "id": "CU-S4-099",
+              "stem": "So [[convincing]] [[the evidence was]] that the reviewers [[withdrew]] [[their]] objections.",
+              "options": [
+                "convincing",
+                "the evidence was",
+                "withdrew",
+                "their"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "เมื่อขึ้นต้นประโยคด้วย So + คุณศัพท์ ต้องสลับกริยาไว้หน้าประธาน คือ \"So convincing was the evidence that...\""
+            },
+            {
+              "id": "CU-S4-100",
+              "stem": "The reforms [[were designed]] to reduce costs, [[to improve]] transparency [[and]] [[strengthening]] public confidence in the agency.",
+              "options": [
+                "were designed",
+                "to improve",
+                "and",
+                "strengthening"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้โครงสร้างขนาน (parallel structure) to reduce, to improve และ (to) strengthen จึงใช้ strengthening ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G23",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (มีเพียงหนึ่งส่วนในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S4-101",
+              "stem": "If the committee [[had received]] the report [[earlier]], [[it]] [[would make]] a decision before the end of last term.",
+              "options": [
+                "had received",
+                "earlier",
+                "it",
+                "would make"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "เงื่อนไขแบบที่ 3 (If + had V3) ผลต้องเป็น would have + V3 จึงต้องเป็น \"would have made\" (ประโยคพูดถึงอดีต \"last term\" จึงต้องใช้ would have made)"
+            },
+            {
+              "id": "CU-S4-102",
+              "stem": "The new sampling method is [[considerably]] [[more cheaper]] than the conventional approach and [[requires]] [[less]] specialised equipment.",
+              "options": [
+                "considerably",
+                "more cheaper",
+                "requires",
+                "less"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "cheap เป็นคำพยางค์เดียว ขั้นกว่าคือ cheaper ห้ามใช้ more ซ้อน"
+            },
+            {
+              "id": "CU-S4-103",
+              "stem": "The students [[were]] [[responsible]] [[of]] collecting data [[from]] three provinces.",
+              "options": [
+                "were",
+                "responsible",
+                "of",
+                "from"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำคุณศัพท์ responsible ใช้คู่กับบุพบท for (responsible for) ไม่ใช่ of"
+            },
+            {
+              "id": "CU-S4-104",
+              "stem": "[[The]] honesty is [[widely]] regarded as [[an essential]] quality [[in]] researchers.",
+              "options": [
+                "The",
+                "widely",
+                "an essential",
+                "in"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "honesty เป็นนามนามธรรมที่ใช้ในความหมายทั่วไป จึงไม่ต้องมี The นำหน้า"
+            },
+            {
+              "id": "CU-S4-105",
+              "stem": "The experiment [[showed]] that the compound remained [[stable]] at high temperatures, [[contrary]] to what earlier studies had [[predict]].",
+              "options": [
+                "showed",
+                "stable",
+                "contrary",
+                "predict"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "past perfect ต้องเป็น had + V3 จึงต้องเป็น \"had predicted\""
+            },
+            {
+              "id": "CU-S4-106",
+              "stem": "The village [[where]] the anthropologist lived [[for]] two years [[has]] since been studied by scholars [[which]] work in several disciplines.",
+              "options": [
+                "where",
+                "for",
+                "has",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "scholars เป็นคน relative pronoun จึงต้องเป็น who ไม่ใช่ which"
+            },
+            {
+              "id": "CU-S4-107",
+              "stem": "The final results [[will announce]] at a meeting [[that]] is scheduled [[for]] early [[next]] month.",
+              "options": [
+                "will announce",
+                "that",
+                "for",
+                "next"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ผลการวิจัยไม่ได้ประกาศเอง ต้องใช้ passive voice \"will be announced\""
+            },
+            {
+              "id": "CU-S4-108",
+              "stem": "Instead of [[rely]] on a single source, historians [[are trained]] to compare [[accounts]] [[written]] by different observers.",
+              "options": [
+                "rely",
+                "are trained",
+                "accounts",
+                "written"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "หลังบุพบท (instead of) ต้องใช้ gerund จึงต้องเป็น \"relying\""
+            },
+            {
+              "id": "CU-S4-109",
+              "stem": "More than two hundred bird species [[have been]] [[recorded]] in the area [[since]] the station [[has opened]] in 2009.",
+              "options": [
+                "have been",
+                "recorded",
+                "since",
+                "has opened"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลัง since ที่บอกจุดเริ่มต้นในอดีตพร้อมปีที่ชัดเจน ต้องใช้ past simple \"opened\" ไม่ใช่ present perfect"
+            },
+            {
+              "id": "CU-S4-110",
+              "stem": "The committee members [[expressed]] [[its]] concern [[that]] the deadline was [[unrealistic]].",
+              "options": [
+                "expressed",
+                "its",
+                "that",
+                "unrealistic"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"The committee members\" (พหูพจน์) สรรพนามต้องเป็น their ไม่ใช่ its"
+            }
+          ]
+        },
+        {
+          "id": "CU-S4-G24",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งผิดหลักไวยากรณ์ (มีเพียงหนึ่งส่วนในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S4-111",
+              "stem": "The reviewers [[objected]] [[to]] the authors [[draw]] such broad conclusions [[from]] a small sample.",
+              "options": [
+                "objected",
+                "to",
+                "draw",
+                "from"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "object to มี to เป็นบุพบท จึงต้องตามด้วย gerund คือ \"objected to the authors drawing\" ไม่ใช่ draw"
+            },
+            {
+              "id": "CU-S4-112",
+              "stem": "Not only [[the study was]] poorly designed, but [[its]] conclusions were [[also]] overstated [[by]] the press.",
+              "options": [
+                "the study was",
+                "its",
+                "also",
+                "by"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "เมื่อขึ้นต้นด้วย Not only ต้องสลับกริยาช่วยไว้หน้าประธาน คือ \"Not only was the study...\""
+            },
+            {
+              "id": "CU-S4-113",
+              "stem": "The participants [[were]] reluctant to discuss income and [[generally]] [[avoided]] [[to answer]] such questions.",
+              "options": [
+                "were",
+                "generally",
+                "avoided",
+                "to answer"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "avoid ตามด้วย gerund เสมอ จึงต้องเป็น \"avoided answering\""
+            },
+            {
+              "id": "CU-S4-114",
+              "stem": "The two theories, [[though]] [[superficially]] similar, [[differ]] in the assumptions [[on which they rest on]].",
+              "options": [
+                "though",
+                "superficially",
+                "differ",
+                "on which they rest on"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "บุพบท on ถูกใช้ซ้ำ เมื่อย้าย on ไปไว้หน้า which แล้ว ต้องตัด on ท้ายประโยคออก เป็น \"on which they rest\""
+            },
+            {
+              "id": "CU-S4-115",
+              "stem": "Few laboratories [[were willing]] to attempt the technique, [[because of]] it was [[such]] a complicated procedure [[that]] training took months.",
+              "options": [
+                "were willing",
+                "because of",
+                "such",
+                "that"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "because of ตามด้วยคำนาม/วลีนาม แต่ที่นี่ตามด้วยประโยค (it was...) จึงต้องใช้ because"
+            },
+            {
+              "id": "CU-S4-116",
+              "stem": "The climate of the northern provinces [[is]] [[generally]] cooler than [[the southern provinces]], [[especially]] in December.",
+              "options": [
+                "is",
+                "generally",
+                "the southern provinces",
+                "especially"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ต้องเปรียบเทียบสิ่งเดียวกัน คือภูมิอากาศกับภูมิอากาศ จึงต้องเป็น \"that of the southern provinces\""
+            },
+            {
+              "id": "CU-S4-117",
+              "stem": "The museum [[has]] an [[impressive]] collection of coins, many of [[them]] date [[from]] the sixth century.",
+              "options": [
+                "has",
+                "impressive",
+                "them",
+                "from"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ประโยคหลังจุลภาคต้องเชื่อมด้วย relative pronoun \"many of which\" ถ้าใช้ them จะกลายเป็นสองประโยคเชื่อมกันด้วยจุลภาค (comma splice)"
+            },
+            {
+              "id": "CU-S4-118",
+              "stem": "Students [[interesting]] in the exchange programme [[should]] attend the briefing [[held]] [[on]] Thursday.",
+              "options": [
+                "interesting",
+                "should",
+                "held",
+                "on"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้ interested (รู้สึกสนใจ) เพื่อบรรยายความรู้สึกของนักศึกษา ส่วน interesting แปลว่าน่าสนใจ"
+            },
+            {
+              "id": "CU-S4-119",
+              "stem": "Hardly [[had]] the seminar [[begun]] [[than]] the power [[failed]].",
+              "options": [
+                "had",
+                "begun",
+                "than",
+                "failed"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง \"Hardly had ... when ...\" ใช้ when ส่วน than ใช้กับ \"No sooner had ... than ...\""
+            },
+            {
+              "id": "CU-S4-120",
+              "stem": "Researchers [[have long debated]] the extent [[which]] early experience [[shapes]] [[later]] behaviour.",
+              "options": [
+                "have long debated",
+                "which",
+                "shapes",
+                "later"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "สำนวน \"the extent to which\" ต้องมีบุพบท to หน้า which จึงต้องเป็น \"to which\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

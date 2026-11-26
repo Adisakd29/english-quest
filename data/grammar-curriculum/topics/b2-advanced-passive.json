@@ -1,0 +1,521 @@
+{
+  "id": "b2-advanced-passive",
+  "summaryTh": "ใช้ passive ได้ทุก tense กับ modal กับ to/-ing และโครงสร้าง It is said that …",
+  "concept": {
+    "what": "Advanced passive คือการใช้ประโยคถูกกระทำ (be + V3) ให้ครบทุก tense เช่น is being built, has been sold, had been stolen รวมถึงหลังกริยาช่วย (must be done, should have been done) รูป to be done / being done และโครงสร้างรายงานข่าว It is said that … / He is said to …",
+    "when": [
+      "สนใจสิ่งที่ถูกกระทำมากกว่าผู้ทำ หรือไม่รู้/ไม่สำคัญว่าใครทำ (The road is being repaired.)",
+      "ภาษาทางการ ข่าว รายงาน ประกาศ (Passengers are requested to …)",
+      "หลังกริยาช่วย: กฎ คำแนะนำ ความเป็นไปได้ (Phones must be switched off.)",
+      "หลังกริยาที่ตามด้วย to หรือ -ing (I want to be invited. / She hates being ignored.)",
+      "รายงานความเห็น/ข่าวลือที่คนทั่วไปพูด (It is believed that … / He is believed to have left.)"
+    ],
+    "why": "ภาษาไทยใช้ \"ถูก\" \"ได้รับ\" แค่บางครั้ง และมักพูดแบบไม่มีผู้ทำ เช่น \"ถนนกำลังซ่อม\" ผู้เรียนจึงมักพูดว่า The road is repairing ซึ่งแปลว่าถนนซ่อมตัวเอง ต้องมี be + V3 เสมอ และ be ต้องเปลี่ยนตาม tense"
+  },
+  "structure": {
+    "formula": "Object + be (ตาม tense / modal) + V3",
+    "rows": [
+      {
+        "label": "Present Continuous",
+        "formula": "am/is/are being + V3",
+        "example": "The bridge [[is being repaired]] this week."
+      },
+      {
+        "label": "Present Perfect",
+        "formula": "has/have been + V3",
+        "example": "All the tickets [[have been sold]]."
+      },
+      {
+        "label": "Past Perfect",
+        "formula": "had been + V3",
+        "example": "When we got home, the TV [[had been stolen]]."
+      },
+      {
+        "label": "Future / Modal",
+        "formula": "will / must / should + be + V3",
+        "example": "The results [[will be announced]] tomorrow."
+      },
+      {
+        "label": "Modal Perfect",
+        "formula": "should / could / must + have been + V3",
+        "example": "The email [[should have been sent]] yesterday."
+      },
+      {
+        "label": "Passive infinitive / gerund",
+        "formula": "to be + V3 · being + V3",
+        "example": "She wants [[to be chosen]]. / He hates [[being interrupted]]."
+      },
+      {
+        "label": "Reporting passive",
+        "formula": "It is said that … · S + is said to + V1 / to have + V3",
+        "example": "[[It is said that]] the castle is haunted. / The castle [[is said to be]] haunted."
+      }
+    ],
+    "notes": [
+      "ใส่ by + ผู้ทำ เฉพาะเมื่อข้อมูลนั้นสำคัญ (The song was written by a 15-year-old.)",
+      "กริยาที่ไม่มีกรรม (happen, arrive, die, disappear) ทำเป็น passive ไม่ได้: The accident happened. (ไม่ใช่ was happened)",
+      "He is said to + V1 = เรื่องตอนนี้ · He is said to have + V3 = เรื่องที่เกิดไปแล้ว",
+      "กริยาที่ใช้แบบนี้บ่อย: say, believe, think, report, expect, know, consider"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Our classroom [[is being painted]], so we're studying in the library.",
+      "th": "ห้องเรียนของเรากำลังถูกทาสี เลยเรียนที่ห้องสมุดแทน"
+    },
+    {
+      "en": "Your parcel [[has been delivered]] to the front desk.",
+      "th": "พัสดุของคุณถูกส่งไปที่เคาน์เตอร์หน้าแล้ว"
+    },
+    {
+      "en": "The flight [[had been cancelled]] before we reached the airport.",
+      "th": "เที่ยวบินถูกยกเลิกไปก่อนที่เราจะถึงสนามบิน"
+    },
+    {
+      "en": "Mobile phones [[must be switched]] off during the exam.",
+      "th": "ต้องปิดโทรศัพท์มือถือระหว่างสอบ"
+    },
+    {
+      "en": "This problem [[should have been reported]] last week.",
+      "th": "ปัญหานี้ควรถูกรายงานตั้งแต่สัปดาห์ที่แล้ว (แต่ไม่ได้รายงาน)"
+    },
+    {
+      "en": "Nobody likes [[being laughed at]] in public.",
+      "th": "ไม่มีใครชอบถูกหัวเราะเยาะต่อหน้าคนอื่น"
+    },
+    {
+      "en": "I'm hoping [[to be offered]] the job.",
+      "th": "ฉันหวังว่าจะได้รับข้อเสนองานนี้"
+    },
+    {
+      "en": "[[It is believed that]] the fire started in the kitchen.",
+      "th": "เชื่อกันว่าไฟเริ่มจากในครัว"
+    },
+    {
+      "en": "The singer [[is reported to have cancelled]] her world tour.",
+      "th": "มีรายงานว่านักร้องยกเลิกทัวร์รอบโลกไปแล้ว"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The road is repairing now.",
+      "right": "The road is being repaired now.",
+      "whyTh": "ถนนไม่ได้ซ่อมเอง แต่ \"ถูกซ่อม\" ต้องใช้ is being + V3 ภาษาไทยพูดว่า \"ถนนกำลังซ่อม\" จึงพลาดบ่อย"
+    },
+    {
+      "wrong": "The tickets have sold already.",
+      "right": "The tickets have already been sold.",
+      "whyTh": "ตั๋วถูกขาย ต้องมี been ใน Present Perfect passive: have been + V3"
+    },
+    {
+      "wrong": "The homework must be finish by Friday.",
+      "right": "The homework must be finished by Friday.",
+      "whyTh": "หลัง modal + be ต้องใช้ V3 (finished) ไม่ใช่ V1"
+    },
+    {
+      "wrong": "The accident was happened at night.",
+      "right": "The accident happened at night.",
+      "whyTh": "happen ไม่มีกรรม จึงทำเป็น passive ไม่ได้"
+    },
+    {
+      "wrong": "He is said to steal the money last year.",
+      "right": "He is said to have stolen the money last year.",
+      "whyTh": "เรื่องที่เกิดในอดีต (last year) หลัง is said ต้องใช้ to have + V3"
+    },
+    {
+      "wrong": "I don't like to be tell what to do.",
+      "right": "I don't like being told what to do.",
+      "whyTh": "passive infinitive/gerund ต้องใช้ V3 (told) — to be told ก็ถูก แต่ to be tell ผิด"
+    }
+  ],
+  "compare": {
+    "title": "Passive พื้นฐาน vs Passive ขั้นสูง",
+    "with": [
+      "b1-passive"
+    ],
+    "rows": [
+      {
+        "label": "Tense ที่ใช้",
+        "a": "Present / Past Simple: is made, was built",
+        "b": "ทุก tense: is being made, has been built, had been sold, will have been finished"
+      },
+      {
+        "label": "หลัง modal",
+        "a": "can be done, must be done",
+        "b": "should have been done, might have been lost"
+      },
+      {
+        "label": "รูป to / -ing",
+        "a": "—",
+        "b": "want to be invited, hate being ignored"
+      },
+      {
+        "label": "รายงานข่าว/ความเชื่อ",
+        "a": "People say he is rich.",
+        "b": "It is said that he is rich. / He is said to be rich."
+      }
+    ],
+    "tipTh": "สูตรเดียวใช้ได้ทุกแบบ: ทำ be ให้เป็นรูปที่ tense/modal ต้องการ (being, been, be) แล้วตามด้วย V3 เสมอ"
+  },
+  "contexts": [
+    {
+      "kind": "announcement",
+      "title": "Museum news",
+      "lines": [
+        {
+          "text": "The City Museum [[is being renovated]] and [[will be reopened]] in May. More than 200 paintings [[have been cleaned]], and a new lighting system [[is being installed]]. Visitors [[are asked]] to check the website before they come. The work [[is expected to be completed]] by the end of April."
+        }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "title": "Office problem",
+      "lines": [
+        {
+          "speaker": "Manager",
+          "text": "Why hasn't the client received the contract?"
+        },
+        {
+          "speaker": "Ben",
+          "text": "It [[should have been sent]] on Monday, but the file [[had been deleted]] by mistake."
+        },
+        {
+          "speaker": "Manager",
+          "text": "OK. It [[must be sent]] today. I don't want [[to be called]] by the client again!"
+        }
+      ]
+    },
+    {
+      "kind": "social",
+      "title": "Local legend",
+      "lines": [
+        {
+          "text": "Visited the old house on the hill today. [[It is said that]] a rich family lived there 100 years ago, and the house [[is believed to be]] haunted. The owner [[is thought to have disappeared]] one night and was never seen again!"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "en": "Passive voice",
+      "th": "ประโยคถูกกระทำ — เอาสิ่งที่ถูกกระทำขึ้นเป็นประธาน"
+    },
+    {
+      "en": "Agent",
+      "th": "ผู้กระทำ (ใส่หลัง by ถ้าจำเป็น)"
+    },
+    {
+      "en": "Modal passive",
+      "th": "passive หลังกริยาช่วย เช่น must be done"
+    },
+    {
+      "en": "Passive infinitive / gerund",
+      "th": "to be + V3 / being + V3 ใช้หลังกริยาบางตัว"
+    },
+    {
+      "en": "Reporting passive",
+      "th": "โครงสร้างบอกว่า \"มีคนพูด/เชื่อว่า\" เช่น It is said that …, He is believed to …"
+    }
+  ],
+  "practice": [
+    {
+      "id": "b2-advanced-passive-01",
+      "type": "mc",
+      "difficulty": 1,
+      "question": "The road ___ at the moment, so we have to take another route.",
+      "choices": [
+        "is being repaired",
+        "is repairing",
+        "has repaired",
+        "is repaired"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "is repairing เป็น active แปลว่าถนนซ่อมเอง ซึ่งเป็นไปไม่ได้",
+        "2": "has repaired เป็น active และไม่มีผู้ซ่อมเป็นประธาน",
+        "3": "is repaired เป็น Present Simple ไม่เข้ากับ at the moment ที่บอกว่ากำลังเกิดอยู่"
+      },
+      "explainTh": "at the moment = กำลังเกิดอยู่ + ถนนถูกซ่อม → Present Continuous passive: is being + V3",
+      "structure": "am/is/are being + V3",
+      "example": "The road is being repaired."
+    },
+    {
+      "id": "b2-advanced-passive-02",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "All the concert tickets have ___ (sell) — there are none left.",
+      "accepted": [
+        "been sold"
+      ],
+      "explainTh": "ตั๋วถูกขายหมดแล้ว (ผลถึงตอนนี้) → Present Perfect passive: have been + V3 (sold)",
+      "structure": "has/have been + V3",
+      "example": "All the tickets have been sold."
+    },
+    {
+      "id": "b2-advanced-passive-03",
+      "type": "fill",
+      "difficulty": 1,
+      "question": "This report must ___ (finish) by Friday.",
+      "accepted": [
+        "be finished"
+      ],
+      "explainTh": "รายงานต้อง \"ถูกทำ\" ให้เสร็จ → modal passive: must + be + V3",
+      "structure": "modal + be + V3",
+      "example": "This report must be finished by Friday."
+    },
+    {
+      "id": "b2-advanced-passive-04",
+      "type": "mc",
+      "difficulty": 2,
+      "question": "She hates ___ what to do by her older brother.",
+      "choices": [
+        "being told",
+        "to tell",
+        "telling",
+        "be told"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "to tell เป็น active แปลว่าเธอเป็นคนบอก แต่ by her older brother บอกว่าเธอถูกบอก",
+        "2": "telling เป็น active เธอเป็นผู้บอก ความหมายไม่ตรง",
+        "3": "หลัง hate ต้องใช้ -ing หรือ to (being told / to be told) ใช้ be เปล่า ๆ ไม่ได้"
+      },
+      "explainTh": "เธอเป็นผู้ \"ถูกบอก\" และ hate ตามด้วย -ing ได้ → passive gerund: being + V3 (to be told ก็ถูกแต่ไม่อยู่ในตัวเลือก)",
+      "structure": "hate + being + V3"
+    },
+    {
+      "id": "b2-advanced-passive-05",
+      "type": "error",
+      "difficulty": 2,
+      "sentence": "The new bridge will built next year.",
+      "errorPart": "will built",
+      "accepted": [
+        "The new bridge will be built next year.",
+        "The new bridge is going to be built next year."
+      ],
+      "explainTh": "สะพานถูกสร้าง และเป็นอนาคต → will + be + V3 ขาด be ไม่ได้ เพราะ will ต้องตามด้วยกริยารูปฐาน",
+      "structure": "will be + V3"
+    },
+    {
+      "id": "b2-advanced-passive-06",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "People say that the old house is haunted.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย The old house … (ใช้ is said to)",
+      "accepted": [
+        "The old house is said to be haunted."
+      ],
+      "explainTh": "เรื่องตอนนี้ (is haunted) → Subject + is said + to + V1 (be)",
+      "structure": "S + is said to + V1"
+    },
+    {
+      "id": "b2-advanced-passive-07",
+      "type": "transform",
+      "difficulty": 3,
+      "source": "People believe that the thief escaped through the window.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย The thief … (ใช้ is believed to)",
+      "accepted": [
+        "The thief is believed to have escaped through the window."
+      ],
+      "explainTh": "ความเชื่อเป็นปัจจุบัน (believe) แต่การหนีเกิดในอดีต (escaped) → is believed + to have + V3",
+      "structure": "S + is believed to have + V3"
+    },
+    {
+      "id": "b2-advanced-passive-08",
+      "type": "transform",
+      "difficulty": 2,
+      "source": "People think that the company will close next year.",
+      "instruction": "เขียนใหม่ ขึ้นต้นด้วย It …",
+      "accepted": [
+        "It is thought that the company will close next year.",
+        "It is thought the company will close next year."
+      ],
+      "explainTh": "People think that … → It is thought (that) … · ส่วนหลัง that คงเดิม",
+      "structure": "It + is + V3 + (that) + clause"
+    },
+    {
+      "id": "b2-advanced-passive-09",
+      "type": "order",
+      "difficulty": 1,
+      "tokens": [
+        "the",
+        "results",
+        "will",
+        "be",
+        "announced",
+        "tomorrow"
+      ],
+      "accepted": [
+        "The results will be announced tomorrow.",
+        "Tomorrow the results will be announced."
+      ],
+      "explainTh": "ผลถูกประกาศในอนาคต → Subject + will be + V3 (announced)"
+    },
+    {
+      "id": "b2-advanced-passive-10",
+      "type": "order",
+      "difficulty": 3,
+      "tokens": [
+        "he",
+        "is",
+        "reported",
+        "to",
+        "have",
+        "left",
+        "the",
+        "country"
+      ],
+      "accepted": [
+        "He is reported to have left the country."
+      ],
+      "explainTh": "รายงานตอนนี้ แต่การออกนอกประเทศเกิดไปแล้ว → S + is reported + to have + V3"
+    },
+    {
+      "id": "b2-advanced-passive-11",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "จับคู่ประโยค active กับ passive ที่ตรงกัน",
+      "pairs": [
+        [
+          "They are building it.",
+          "It is being built."
+        ],
+        [
+          "They have built it.",
+          "It has been built."
+        ],
+        [
+          "They had built it.",
+          "It had been built."
+        ],
+        [
+          "They will build it.",
+          "It will be built."
+        ],
+        [
+          "They should build it.",
+          "It should be built."
+        ]
+      ],
+      "explainTh": "tense เดิมอยู่ที่ be: are building → is being built · have built → has been built · had built → had been built · will build → will be built · should build → should be built"
+    },
+    {
+      "id": "b2-advanced-passive-12",
+      "type": "choose",
+      "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง (เอกสารควรถูกเซ็นตั้งแต่เมื่อวาน แต่ยังไม่ได้เซ็น)",
+      "choices": [
+        "The documents should have been signed yesterday.",
+        "The documents should have signed yesterday.",
+        "The documents should been signed yesterday.",
+        "The documents should be signed yesterday."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "ขาด been จึงกลายเป็น active แปลว่าเอกสารเซ็นเอง",
+        "2": "หลัง should ต้องใช้กริยารูปฐาน (have) ก่อน been",
+        "3": "should be signed ใช้กับปัจจุบัน/อนาคต ไม่เข้ากับ yesterday"
+      },
+      "explainTh": "ควรเกิดในอดีตแต่ไม่ได้เกิด + ถูกกระทำ → should + have been + V3"
+    },
+    {
+      "id": "b2-advanced-passive-13",
+      "type": "dialogue",
+      "difficulty": 2,
+      "context": {
+        "kind": "dialogue",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Why is your phone in a bag of rice?"
+          },
+          {
+            "speaker": "B",
+            "text": "It ___ into the swimming pool by my little brother yesterday."
+          }
+        ]
+      },
+      "choices": [
+        "was dropped",
+        "dropped",
+        "was dropping",
+        "has dropped"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "dropped เป็น active ถ้ามี by my little brother ต้องเป็น passive",
+        "2": "was dropping เป็น active continuous ไม่ใช่ถูกทำ",
+        "3": "has dropped เป็น active และใช้กับ yesterday ไม่ได้"
+      },
+      "explainTh": "โทรศัพท์ถูกน้องทำตก (by …) เมื่อวาน → Past Simple passive: was + V3"
+    },
+    {
+      "id": "b2-advanced-passive-14",
+      "type": "context",
+      "difficulty": 3,
+      "context": {
+        "kind": "announcement",
+        "title": "Museum news",
+        "lines": [
+          {
+            "text": "The City Museum, which is being renovated, will be reopened in May. More than 200 paintings have been cleaned, and new lights are being installed in every room. The work is expected to be completed by the end of April."
+          }
+        ]
+      },
+      "question": "Which work is still in progress now?",
+      "choices": [
+        "New lights are being installed.",
+        "The paintings are being cleaned.",
+        "The museum has been reopened.",
+        "The work was completed in April."
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "have been cleaned = ทำความสะอาดเสร็จแล้ว ไม่ใช่กำลังทำ",
+        "2": "will be reopened = จะเปิดในอนาคต (พฤษภาคม) ยังไม่ได้เปิด",
+        "3": "is expected to be completed = คาดว่าจะเสร็จ ยังไม่เสร็จจริง"
+      },
+      "explainTh": "are being installed = Present Continuous passive บอกว่ากำลังติดตั้งอยู่ตอนนี้"
+    },
+    {
+      "id": "b2-advanced-passive-15",
+      "type": "mc",
+      "difficulty": 3,
+      "question": "The suspect is believed ___ the country last week.",
+      "choices": [
+        "to have left",
+        "to leave",
+        "to be left",
+        "having left"
+      ],
+      "answer": 0,
+      "whyNot": {
+        "1": "to leave ใช้กับเรื่องปัจจุบัน/ทั่วไป แต่ last week เป็นอดีต",
+        "2": "to be left เป็น passive แปลว่าผู้ต้องสงสัยถูกทิ้งไว้ ความหมายไม่ตรง",
+        "3": "หลัง is believed ต้องใช้ to + กริยา ไม่ใช่ -ing"
+      },
+      "explainTh": "เชื่อตอนนี้ (is believed) เรื่องที่เกิดแล้ว (last week) → to have + V3"
+    },
+    {
+      "id": "b2-advanced-passive-16",
+      "type": "write",
+      "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับการเปลี่ยนแปลงในโรงเรียนหรือเมืองของคุณ ใช้ passive โดยต้องมี has/have been + V3 อย่างน้อย 1 ประโยค และ is/are being + V3 อย่างน้อย 1 ประโยค (Write 3 sentences about changes in your school or town. Use the passive, including has/have been + V3 and is/are being + V3.)",
+      "minSentences": 3,
+      "checks": [
+        {
+          "re": "(\\b(has|have|had)(n't)?|\\w's|\\w've)\\s+(not\\s+|just\\s+|already\\s+|recently\\s+|finally\\s+|completely\\s+)?been\\s+(\\w+(ed|en|wn|ut|ld|ght)|done|gone|made|paid|laid|built|sent|spent|lent|bent|kept|slept|left|dealt|felt|meant|hit|set|met|won|sung|hung|held|lost|found|told|sold|read|led|fed|shot|bound|ground|wound|dug|stuck|struck|spun|swept|wept|burnt|learnt|spelt|spoilt)\\b",
+          "flags": "i",
+          "msgTh": "ใช้ Present Perfect passive อย่างน้อย 1 ครั้ง (has/have been + V3) เช่น A new library has been built."
+        },
+        {
+          "re": "(\\b(am|is|are|was|were)(n't)?|\\w's|\\w're)\\s+(not\\s+|still\\s+|currently\\s+|now\\s+)?being\\s+\\w+",
+          "flags": "i",
+          "msgTh": "ใช้ passive แบบกำลังเกิด อย่างน้อย 1 ครั้ง (is/are being + V3) เช่น The road is being repaired."
+        }
+      ],
+      "sample": "A new library has been built near my school. The main road is being repaired this month, so traffic is terrible. A new park will be opened next year.",
+      "explainTh": "ทุกประโยคใช้ be ในรูปที่ tense ต้องการ + V3: has been built, is being repaired, will be opened"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+/* =====================================================================
+   TOEIC Reading Part 5 (public/js/toeic5.js) — ต่อยอดจาก toeic.css (.tq-*)
+   ===================================================================== */
+.t5-q { padding: 16px; }
+.t5-qhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 0 0 10px; font-weight: 800; font-size: 0.9rem; color: var(--color-primary); }
+.t5-qhead small { font-weight: 600; color: var(--color-text-muted); }
+.t5-qhead span:focus { outline: none; }
+.t5-sentence { margin: 0 0 14px; font-size: clamp(1.08rem, 3.8vw, 1.25rem); line-height: 1.75; overflow-wrap: break-word; }
+.t5-blank { display: inline-block; min-width: 5.5em; border-bottom: 2.5px solid var(--color-primary); margin: 0 2px; vertical-align: -0.1em; height: 1.15em; }
+.t5-fill { display: inline; padding: 1px 6px; border-radius: 6px; font-weight: 800; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.t5-fill.is-pick { background: var(--color-primary-soft); color: var(--color-primary); border-bottom: 2px dashed var(--color-primary); }
+.t5-fill.is-ok { background: var(--color-success-soft); color: var(--color-success); }
+.t5-opts { display: grid; gap: 8px; }
+@media (min-width: 640px) { .t5-opts { grid-template-columns: 1fr 1fr; } }
+.t5-opt { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 8px 14px; text-align: left; border-radius: 14px; border: 2px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font: inherit; font-size: 1.02rem; cursor: pointer; transition: border-color 0.15s, transform 0.1s; }
+.t5-opt:hover:not(:disabled) { border-color: var(--tq-accent); }
+.t5-opt:active:not(:disabled) { transform: scale(0.98); }
+.t5-opt:disabled { cursor: default; }
+.t5-l { flex: 0 0 auto; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--color-surface-2, var(--gl-card-2)); font-weight: 800; font-size: 0.9rem; }
+.t5-o { min-width: 0; overflow-wrap: anywhere; font-weight: 600; }
+.t5-opt.is-chosen { border-color: var(--tq-accent); background: var(--tq-soft); }
+.t5-opt.is-chosen .t5-l { background: var(--tq-accent); color: #fff; }
+.t5-opt.is-right { border-color: var(--color-success); background: var(--color-success-soft); }
+.t5-opt.is-right .t5-l { background: var(--color-success); color: #fff; }
+.t5-opt.is-wrongpick { border-color: var(--color-danger); background: var(--color-danger-soft, rgba(214, 69, 69, 0.1)); }
+.t5-opt.is-wrongpick .t5-l { background: var(--color-danger); color: #fff; }
+.t5-opt:disabled:not(.is-right):not(.is-wrongpick) { opacity: 0.6; }
+.t5-full { margin: 0 0 4px; line-height: 1.7; }
+
+.t5-timer { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px; background: var(--tq-soft); color: var(--tq-accent); font-weight: 800; font-variant-numeric: tabular-nums; min-height: 36px; }
+.t5-timer.is-warn { background: rgba(201, 138, 0, 0.16); color: #a86f00; }
+.t5-timer.is-crit { background: rgba(214, 69, 69, 0.16); color: var(--color-danger); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .t5-timer.is-warn { color: #f0b93a; } }
+:root[data-theme="dark"] .t5-timer.is-warn { color: #f0b93a; }
+
+.t5-mnav { display: grid; gap: 10px; margin: 6px 0 20px; }
+.t5-mnav-row { display: flex; gap: 8px; }
+.t5-mnav-row .btn { flex: 1 1 0; min-height: 48px; }
+.t5-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; }
+.t5-cell { width: 100%; min-height: 44px; border-radius: 10px; border: 1.5px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; font-weight: 700; font-size: 0.88rem; cursor: pointer; }
+.t5-cell.is-done { background: var(--tq-soft); border-color: var(--tq-accent); color: var(--tq-accent); }
+.t5-cell.is-cur { outline: 3px solid var(--tq-accent); outline-offset: 1px; }
+.t5-submit { min-height: 52px; }
+
+.t5-rv-sum { gap: 4px; }
+.t5-rv-s { font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+.t5-rv-s .t5-blank { min-width: 3em; height: 1em; }
+.tq-rv .t5-rv-sum + * { display: none; }
+#screen-toeic5-play .tq-rv summary, #screen-toeic5 .tq-rv summary { grid-template-columns: auto 1fr; }
+
+.t5-howto ol { margin: 0; padding-left: 1.3em; display: grid; gap: 6px; font-size: 0.94rem; }
+/* เป้าแตะ ≥ 44px สำหรับปุ่มกลางที่ใช้ร่วม (ช่วงเวลา · ออก) */
+.t5-screen .vd-seg-btn, .modal-overlay .tq-setup .vd-seg-btn { min-height: 44px; }
+.t5-screen .game-exit { min-width: 44px; min-height: 44px; }

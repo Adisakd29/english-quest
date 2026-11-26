@@ -1,0 +1,2036 @@
+{
+  "exam": "cutep",
+  "setId": "CU-S1",
+  "title": "CU-TEP ชุดฝึกที่ 1",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 120,
+    "keyMatch": 120,
+    "total": 120
+  },
+  "sections": [
+    {
+      "id": "listening",
+      "groups": [
+        {
+          "id": "CU-S1-G01",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Course registration",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Have you managed to get into Professor Nakorn's statistics course? I heard it fills up in minutes."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Tell me about it. By the time I logged in, every single section was full."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-001",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She registered for the course before the man.",
+                "She thinks the course will be too difficult.",
+                "She wants the man to describe the course.",
+                "She was unable to get a place in the course."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"Tell me about it\" ในที่นี้แปลว่า \"ใช่เลย/เห็นด้วย\" ไม่ได้ขอให้เล่า และเธอบอกว่า \"every single section was full\" แสดงว่าเธอลงทะเบียนวิชานี้ไม่ทัน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G02",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A library charge",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I can't believe the library charged me forty baht for being just one day late."
+            },
+            {
+              "speaker": "Man",
+              "text": "Well, rules are rules. Still, it might be worth asking at the front desk. They sometimes cancel a first fine."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-002",
+              "stem": "What does the man suggest the woman do?",
+              "options": [
+                "Return her books a day early next time.",
+                "Complain to the head of the university.",
+                "Ask the library staff to cancel the charge.",
+                "Pay the fine before it increases further."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่า \"it might be worth asking at the front desk. They sometimes cancel a first fine.\" คือแนะนำให้ไปขอเจ้าหน้าที่ยกเลิกค่าปรับ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G03",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Study group",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "A few of us are meeting in the library tonight to go over the chemistry problems. Are you coming?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "I'd love to, but I'm swamped with lab reports this week."
+            },
+            {
+              "speaker": "Man",
+              "text": "No worries. I'll send you the answers we work out."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-003",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She will join the group after the lab closes.",
+                "She has already finished all her lab reports.",
+                "She would rather study chemistry on her own.",
+                "She has too much work to join the group."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"swamped with\" แปลว่ามีงานล้นมือ เธอจึงปฏิเสธการไปติวด้วยกัน ไม่ใช่ทำรายงานเสร็จแล้วหรือจะตามไปทีหลัง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G04",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Before the seminar",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Did you finish the case study for tomorrow's economics seminar?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Sort of. I only skimmed it on the bus, so I'll have to go over it properly tonight."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-004",
+              "stem": "What will the man probably do tonight?",
+              "options": [
+                "Ask the woman to lend him her notes.",
+                "Skip the economics seminar tomorrow.",
+                "Read the case study more carefully.",
+                "Take the bus to the seminar room."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกว่าแค่อ่านผ่าน ๆ (skimmed) และ \"I'll have to go over it properly tonight\" คือจะอ่านทบทวนอย่างละเอียดคืนนี้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G05",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The midterm",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "The midterm is on Monday, and I haven't even opened the textbook yet."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Then you'd better hit the books this weekend instead of going to the beach with everyone."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-005",
+              "stem": "What does the woman mean?",
+              "options": [
+                "The man should spend the weekend studying.",
+                "The man should go to the beach after studying.",
+                "The midterm has been moved to the weekend.",
+                "The man should bring his textbook to the beach."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"hit the books\" แปลว่าตั้งใจอ่านหนังสือ และผู้หญิงพูดว่า \"instead of going to the beach\" คือให้อ่านหนังสือแทนการไปทะเล ไม่ใช่ไปทะเลหลังอ่านเสร็จ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G06",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "In the reading room",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Excuse me, is anyone sitting here?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Sorry, my friend just stepped out to take a phone call. She'll be back any minute."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-006",
+              "stem": "What does the man imply?",
+              "options": [
+                "He is waiting for an important call.",
+                "The seat is not available.",
+                "His friend has gone home for the day.",
+                "The woman can sit there for now."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกว่าเพื่อนเพิ่งออกไปคุยโทรศัพท์และจะกลับมาในไม่ช้า เป็นการบอกอ้อม ๆ ว่าที่นั่งนี้มีคนจองแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G07",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "A guest lecture",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "So, what did you think of the guest lecture on quantum computing?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Honestly? I couldn't make heads or tails of it."
+            },
+            {
+              "speaker": "Man",
+              "text": "Me neither. I was hoping you could explain it to me."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-007",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She found the lecture very hard to understand.",
+                "She enjoyed the lecture from start to finish.",
+                "She arrived too late to hear the whole lecture.",
+                "She thought the lecture was far too short."
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "สำนวน \"couldn't make heads or tails of it\" แปลว่าไม่เข้าใจเลย ผู้ชายตอบว่า \"Me neither\" ก็ยืนยันว่าทั้งคู่ไม่เข้าใจ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G08",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The scholarship office",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "I've been calling the scholarship office all morning, but nobody picks up."
+            },
+            {
+              "speaker": "Man",
+              "text": "Why don't you just drop by? It's right across from the cafeteria, and they're open until four."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-008",
+              "stem": "What does the man suggest the woman do?",
+              "options": [
+                "Send the office an email instead.",
+                "Meet him later at the cafeteria.",
+                "Go to the scholarship office in person.",
+                "Keep calling the office until four o'clock."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "\"drop by\" แปลว่าแวะไปหา ผู้ชายแนะนำให้ผู้หญิงเดินไปที่สำนักงานทุนด้วยตัวเอง ส่วนโรงอาหารเป็นแค่จุดบอกทาง"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G09",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "An invitation",
+          "dialogue": [
+            {
+              "speaker": "Man",
+              "text": "Some of us are going to the new science exhibition after class. Do you want to come along?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Can I take a rain check? I promised to help my sister move into her dorm today."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-009",
+              "stem": "What does the woman mean?",
+              "options": [
+                "She wants to check the weather forecast first.",
+                "She would like to go with them another time.",
+                "She will join them after helping her sister.",
+                "She has already visited the exhibition."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "\"take a rain check\" แปลว่าขอเลื่อนไปคราวหน้า เธอปฏิเสธวันนี้เพราะต้องช่วยน้องสาวย้ายของ แต่ยังอยากไปในโอกาสอื่น"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G10",
+          "type": "cu_short",
+          "instructionTh": "ฟังบทสนทนาสั้นระหว่างผู้พูดสองคน แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The new website",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "This new registration website is so much faster than the old one."
+            },
+            {
+              "speaker": "Man",
+              "text": "You can say that again. Last year the old system crashed three times on the first morning."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-010",
+              "stem": "What does the man mean?",
+              "options": [
+                "He did not hear what the woman said.",
+                "He completely agrees with the woman.",
+                "He wants the woman to repeat her comment.",
+                "He actually prefers the old system."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "\"You can say that again\" เป็นสำนวนแสดงการเห็นด้วยอย่างยิ่ง ไม่ได้ขอให้พูดซ้ำจริง ๆ และเขายกตัวอย่างว่าระบบเก่าล่มบ่อย"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G11",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถาม 5 ข้อ",
+          "title": "At the faculty registration desk",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "Good morning. Engineering registration desk. How can I help you?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Hi. I'm a second-year student, and I'm trying to add an elective, but the online system keeps saying I don't meet the prerequisite."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Which course is it?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Introduction to Urban Design. It's offered by the Faculty of Architecture."
+            },
+            {
+              "speaker": "Woman",
+              "text": "I see. Most of their courses require Basic Drawing first. Have you taken that?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Not here, but I did a drawing course at a summer program last year. I have a certificate."
+            },
+            {
+              "speaker": "Woman",
+              "text": "In that case, you can apply for a prerequisite waiver. You'll need two signatures: one from the course instructor and one from your own academic advisor."
+            },
+            {
+              "speaker": "Man",
+              "text": "Two signatures? My advisor, Dr. Siriporn, is away at a conference until Thursday. And the add-drop period ends on Friday, doesn't it?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Yes, at four o'clock. But if you hand in the waiver form before then, we'll hold a seat for you, even if the signatures come in later."
+            },
+            {
+              "speaker": "Man",
+              "text": "That's a relief. Where can I get the form?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "It's on the faculty website under Student Forms, or I can print one for you right now."
+            },
+            {
+              "speaker": "Man",
+              "text": "A printed copy would be great, thanks. Oh, and is there a fee for adding a course this late?"
+            },
+            {
+              "speaker": "Woman",
+              "text": "Not until the second week of term. You're still in the first week, so it's free."
+            },
+            {
+              "speaker": "Man",
+              "text": "Perfect. Then I'll email Dr. Siriporn right away and try to see the course instructor this afternoon."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-011",
+              "stem": "Why does the man go to the registration desk?",
+              "options": [
+                "He wants to drop a course from another faculty.",
+                "He has lost his summer program certificate.",
+                "He needs to pay a late registration fee.",
+                "He cannot add a course because of a requirement."
+              ],
+              "answer": 3,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้ชายบอกว่าระบบออนไลน์แจ้งว่า \"I don't meet the prerequisite\" จึงเพิ่มวิชาเลือกไม่ได้ เขาไม่ได้มาถอนวิชาหรือจ่ายค่าปรับ"
+            },
+            {
+              "id": "CU-S1-012",
+              "stem": "What does the man need in order to take Urban Design?",
+              "options": [
+                "A waiver form signed by two people",
+                "A passing grade in Basic Drawing this term",
+                "A letter from his summer program",
+                "An online request sent before four o'clock"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่าเขายื่นขอยกเว้นวิชาบังคับก่อนได้ โดยต้องมี \"two signatures\" จากอาจารย์ผู้สอนและอาจารย์ที่ปรึกษา"
+            },
+            {
+              "id": "CU-S1-013",
+              "stem": "According to the woman, what happens if the man submits the form before Friday?",
+              "options": [
+                "The signatures will no longer be necessary.",
+                "He will be charged only a small late fee.",
+                "A seat in the course will be kept for him.",
+                "His advisor will be contacted automatically."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่า \"if you hand in the waiver form before then, we'll hold a seat for you\" คือจะกันที่นั่งไว้ให้"
+            },
+            {
+              "id": "CU-S1-014",
+              "stem": "Why will the man not have to pay a fee?",
+              "options": [
+                "The course belongs to another faculty.",
+                "He already has a certificate in drawing.",
+                "It is still the first week of the term.",
+                "The woman agrees to make an exception."
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "เจ้าหน้าที่บอกว่าค่าธรรมเนียมเริ่มเก็บในสัปดาห์ที่สอง \"You're still in the first week, so it's free.\""
+            },
+            {
+              "id": "CU-S1-015",
+              "stem": "Who is Dr. Siriporn?",
+              "options": [
+                "The instructor of Urban Design",
+                "The teacher from his summer program",
+                "The man's academic advisor",
+                "The head of the registration office"
+              ],
+              "answer": 2,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกชัดเจนว่า \"My advisor, Dr. Siriporn, is away at a conference until Thursday\" ดังนั้น Dr. Siriporn คืออาจารย์ที่ปรึกษาของเขา ส่วนอาจารย์ผู้สอนวิชานี้เป็นอีกคนที่เขาจะไปพบบ่ายนี้"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G12",
+          "type": "cu_long",
+          "instructionTh": "ฟังบทสนทนา แล้วตอบคำถาม 5 ข้อ",
+          "title": "An unexpected email",
+          "dialogue": [
+            {
+              "speaker": "Woman",
+              "text": "You look worried. What's up?"
+            },
+            {
+              "speaker": "Man",
+              "text": "I just got an email from the library. Apparently I owe six hundred baht in fines."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Six hundred? What did you borrow, the entire history section?"
+            },
+            {
+              "speaker": "Man",
+              "text": "Very funny. It's only three books, but one of them was a reserve item, and those are charged by the hour, not by the day."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Oh no. I made exactly the same mistake in my first year. Reserve books are only supposed to leave the building for two hours."
+            },
+            {
+              "speaker": "Man",
+              "text": "I know that now. The worst part is that I can't register for next semester until the fine is paid. The system just blocks you."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Have you thought about appealing? The library has a form for that."
+            },
+            {
+              "speaker": "Man",
+              "text": "An appeal? On what grounds? It was my own fault."
+            },
+            {
+              "speaker": "Woman",
+              "text": "Not necessarily. Maybe the reserve label was missing, or maybe you were ill. They do reduce fines sometimes."
+            },
+            {
+              "speaker": "Man",
+              "text": "Actually, now that you mention it, the label was half torn off. I honestly thought it was a normal loan."
+            },
+            {
+              "speaker": "Woman",
+              "text": "There you go. Take a photo of it before you return the book, and attach it to the appeal."
+            },
+            {
+              "speaker": "Man",
+              "text": "Good thinking. But if they turn me down, I'll still have to pay before registration opens on the fifteenth."
+            },
+            {
+              "speaker": "Woman",
+              "text": "At least you'll have tried. And next time, set a reminder on your phone the moment you check something out."
+            },
+            {
+              "speaker": "Man",
+              "text": "Believe me, I've learned my lesson."
+            }
+          ],
+          "items": [
+            {
+              "id": "CU-S1-016",
+              "stem": "Why is the man's fine so large?",
+              "options": [
+                "He borrowed most of the history section.",
+                "One book was charged at an hourly rate.",
+                "He kept three books for a whole semester.",
+                "He returned the books to the wrong library."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่าหนึ่งในสามเล่มเป็นหนังสือสำรอง (reserve item) ซึ่ง \"charged by the hour, not by the day\" ค่าปรับจึงสูง ส่วนเรื่อง history section เป็นแค่คำล้อของผู้หญิง"
+            },
+            {
+              "id": "CU-S1-017",
+              "stem": "What problem does the fine cause for the man?",
+              "options": [
+                "He cannot register for next semester.",
+                "He will lose his library membership.",
+                "He must repeat a first-year course.",
+                "He cannot borrow books for a month."
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ชายบอกว่า \"I can't register for next semester until the fine is paid. The system just blocks you.\""
+            },
+            {
+              "id": "CU-S1-018",
+              "stem": "What does the woman advise the man to do?",
+              "options": [
+                "Ask the library to reduce the fine",
+                "Pay the fine in several small amounts",
+                "Borrow books using her account instead",
+                "Ask a librarian to extend the loan"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้หญิงแนะนำให้ยื่นอุทธรณ์ (\"Have you thought about appealing?\") และบอกว่าห้องสมุด \"do reduce fines sometimes\""
+            },
+            {
+              "id": "CU-S1-019",
+              "stem": "What evidence will the man probably include with his appeal?",
+              "options": [
+                "A photo of the damaged label",
+                "A letter from his doctor",
+                "A copy of the library's email",
+                "A record of his past loans"
+              ],
+              "answer": 0,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้ชายบอกว่าป้าย reserve \"was half torn off\" และผู้หญิงแนะนำให้ \"Take a photo of it ... and attach it to the appeal\""
+            },
+            {
+              "id": "CU-S1-020",
+              "stem": "What does the man mean when he says, \"I've learned my lesson\"?",
+              "options": [
+                "He has finished studying for his classes.",
+                "He has taught the woman something useful.",
+                "He does not want to hear any more advice.",
+                "He will be more careful in the future."
+              ],
+              "answer": 3,
+              "skill": "listening_inference",
+              "explanationTh": "\"I've learned my lesson\" แปลว่าได้รับบทเรียนแล้ว คือครั้งต่อไปจะระวังเรื่องกำหนดคืนหนังสือมากขึ้น ไม่ได้หมายถึงบทเรียนในห้องเรียน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G13",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศ แล้วตอบคำถาม 5 ข้อ",
+          "title": "Biology lecture: bees and pollination",
+          "text": "Good morning, everyone. Last week we looked at how some plants rely on the wind to carry their pollen. Today we're turning to a far more precise method, one that most flowering plants depend on: pollination by animals, and in particular, by bees.\n\nLet's start with a simple question. Why does a bee visit a flower at all? It isn't to help the plant, at least not on purpose. Bees are after food. Nectar gives them energy, and pollen gives them protein to feed their young. As a bee moves around inside a flower, pollen grains stick to the fine hairs that cover its body. When it lands on the next flower of the same kind, some of those grains rub off, and the plant can be fertilised.\n\nNow, here's the interesting part. Many bees show what biologists call flower constancy. On a single trip, a bee tends to visit only one type of flower, even when other types are blooming right next to it. From the plant's point of view, that's extremely valuable, because pollen delivered to the wrong species is simply wasted.\n\nPlants, in turn, have developed ways of attracting bees. Bees can't see red very well, but they can see ultraviolet light, which we can't. Many flowers that look plain to us actually carry ultraviolet patterns that guide bees toward the nectar, rather like the landing lights on an airport runway.\n\nFinally, a word about why all this matters outside the textbook. Around the farming town of Ban Rai Dok, growers of a local melon variety saw their harvests fall by almost a third over five years. When researchers from Northvale Agricultural College studied the fields, they found far fewer wild bees than before, mainly because the hedges where the bees nested had been cleared to make room for more crops.\n\nFor next week, please read chapter eight, and think about what those farmers might do differently.",
+          "items": [
+            {
+              "id": "CU-S1-021",
+              "stem": "What is the lecture mainly about?",
+              "options": [
+                "How farmers can grow larger melons",
+                "Why bees are unable to see red",
+                "How bees help flowering plants reproduce",
+                "Why wind pollination is more effective"
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้บรรยายบอกตั้งแต่ต้นว่าวันนี้จะพูดเรื่อง \"pollination by animals, and in particular, by bees\" ส่วนเรื่องลม แตงเมลอน และสีแดงเป็นเพียงรายละเอียดย่อย"
+            },
+            {
+              "id": "CU-S1-022",
+              "stem": "According to the speaker, why do bees visit flowers?",
+              "options": [
+                "To help the plants produce more seeds",
+                "To collect food for themselves and their young",
+                "To find safe places in which to build nests",
+                "To keep away from flowers of other species"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้บรรยายบอกว่าผึ้งไม่ได้ตั้งใจช่วยพืช \"Bees are after food\" โดยน้ำหวานให้พลังงานและเกสรให้โปรตีนแก่ตัวอ่อน"
+            },
+            {
+              "id": "CU-S1-023",
+              "stem": "Why is flower constancy useful to plants?",
+              "options": [
+                "Flowers are able to produce nectar more quickly.",
+                "Bees learn to recognise ultraviolet patterns.",
+                "Bees can visit many more flowers on each trip.",
+                "Pollen is more likely to reach the right species."
+              ],
+              "answer": 3,
+              "skill": "listening_detail",
+              "explanationTh": "ผึ้งที่บินไปหาดอกไม้ชนิดเดียวในแต่ละเที่ยวทำให้เกสรไปถึงพืชชนิดเดียวกัน เพราะ \"pollen delivered to the wrong species is simply wasted\""
+            },
+            {
+              "id": "CU-S1-024",
+              "stem": "Why does the speaker mention the landing lights on a runway?",
+              "options": [
+                "To show that bees find their way by sunlight",
+                "To compare the speed of bees with aeroplanes",
+                "To explain how flower patterns guide bees to nectar",
+                "To describe how bees see the colour red"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้บรรยายเปรียบลวดลายอัลตราไวโอเลตบนดอกไม้ที่ \"guide bees toward the nectar\" กับไฟนำทางบนรันเวย์ที่นำเครื่องบินลงจอด"
+            },
+            {
+              "id": "CU-S1-025",
+              "stem": "What can be inferred about the melon growers near Ban Rai Dok?",
+              "options": [
+                "Their melon variety needed fewer bees than others.",
+                "They brought in bees from other farming regions.",
+                "Clearing the hedges unintentionally reduced their harvests.",
+                "The hedges blocked sunlight from their melon fields."
+              ],
+              "answer": 2,
+              "skill": "listening_inference",
+              "explanationTh": "ผู้บรรยายไม่ได้สรุปตรง ๆ แต่บอกว่าแนวพุ่มไม้ที่ผึ้งทำรัง \"had been cleared to make room for more crops\" ทำให้ผึ้งลดลง และผลผลิตลดลงเกือบหนึ่งในสาม จึงอนุมานได้ว่าการถางพุ่มไม้ทำให้ผลผลิตลดลงโดยไม่ตั้งใจ"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G14",
+          "type": "cu_talk",
+          "instructionTh": "ฟังการบรรยาย/ประกาศ แล้วตอบคำถาม 5 ข้อ",
+          "title": "Campus radio: exam-week update",
+          "text": "Good afternoon, and welcome to Campus Update on Radio Kanchana, the student station of Kanchana University. With final exams starting next Monday, here's what you need to know about services on campus over the next two weeks.\n\nFirst, the main library will be open twenty-four hours a day throughout the exam period. Between midnight and six in the morning, however, only the ground floor and the second floor will be available, and after ten p.m. you'll need to show your student ID card at the entrance, so please don't leave it in your room.\n\nGroup study rooms can be booked online as usual, but there's a limit of three hours per group per day. And here's an important change: if your group hasn't checked in within fifteen minutes of the start of your booking, the room will be released to the next group on the waiting list.\n\nNext, transport. The free shuttle bus between the library and the dormitories will run much later than usual, right through until one o'clock in the morning. If you're planning a late night, check the timetable on the university app before you set off.\n\nThe main cafeteria will close at nine p.m. as usual, but the student union is setting up a snack corner on the library's ground floor, with free drinking water, fruit and sandwiches from eight until midnight.\n\nFinally, a reminder from the examinations office: bags are not allowed in any exam hall. Lockers are available in the lobby of Building Four, so arrive a little early to leave your things there.\n\nThat's all from Campus Update. Good luck with your exams, and remember: a few hours of sleep may do more for your grades than one more hour with your notes.",
+          "items": [
+            {
+              "id": "CU-S1-026",
+              "stem": "What is the main purpose of the announcement?",
+              "options": [
+                "To announce changes to the final exam timetable",
+                "To advertise a new cafeteria in the main library",
+                "To inform students about campus services during exams",
+                "To explain the rules of a student radio contest"
+              ],
+              "answer": 2,
+              "skill": "listening_gist",
+              "explanationTh": "ผู้ประกาศบอกตั้งแต่ต้นว่า \"here's what you need to know about services on campus over the next two weeks\" ซึ่งเป็นช่วงสอบ"
+            },
+            {
+              "id": "CU-S1-027",
+              "stem": "What must students do to enter the library late at night?",
+              "options": [
+                "Book a study room online",
+                "Show their student ID card",
+                "Leave their bags in Building Four",
+                "Arrive before midnight"
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ประกาศบอกว่า \"after ten p.m. you'll need to show your student ID card at the entrance\""
+            },
+            {
+              "id": "CU-S1-028",
+              "stem": "What happens if a group has not checked in fifteen minutes after its booking starts?",
+              "options": [
+                "It must pay a small penalty fee.",
+                "Its room is given to another group.",
+                "It cannot book a room for a week.",
+                "It may use the room for one hour."
+              ],
+              "answer": 1,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ประกาศบอกว่าถ้าไม่เช็กอินภายใน 15 นาที \"the room will be released to the next group on the waiting list\""
+            },
+            {
+              "id": "CU-S1-029",
+              "stem": "How late will the free shuttle bus run during the exam period?",
+              "options": [
+                "Until one in the morning",
+                "Until eleven at night",
+                "Until midnight",
+                "Until six in the morning"
+              ],
+              "answer": 0,
+              "skill": "listening_detail",
+              "explanationTh": "ผู้ประกาศบอกว่ารถรับส่งฟรีจะวิ่ง \"right through until one o'clock in the morning\" ส่วนเที่ยงคืนและหกโมงเช้าเป็นเวลาที่เกี่ยวกับการเปิดชั้นของห้องสมุด"
+            },
+            {
+              "id": "CU-S1-030",
+              "stem": "What does the speaker imply at the end of the announcement?",
+              "options": [
+                "Students should study for one more hour each night.",
+                "Getting enough rest can help students perform well.",
+                "The radio station will close during the exams.",
+                "Students who sleep in the library get better grades."
+              ],
+              "answer": 1,
+              "skill": "listening_inference",
+              "explanationTh": "ประโยคปิดท้าย \"a few hours of sleep may do more for your grades than one more hour with your notes\" สื่อว่าการนอนพักให้พอช่วยให้ทำข้อสอบได้ดี"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "CU-S1-G15",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "A short history of tea",
+          "text": "Tea is now so ordinary that it is easy to forget how unusual it once was. According to an old legend, the drink was ___1___ by accident when leaves from a wild bush blew into a pot of boiling water. Whether or not the story is true, historians agree that tea was first drunk in southwestern China, ___2___ early drinkers often boiled the leaves with salt, ginger or even onions. The light, clear drink that most people know today developed only ___3___, over many centuries.\n\nFor a long time, tea was traded in the form of hard bricks made of pressed leaves. These bricks were easy to carry and did not spoil quickly; ___4___, in some remote regions they were used as money. Merchants carried them on horseback along narrow mountain routes, a journey that ___5___ several months.\n\nTea reached Europe in the early seventeenth century. At first it was so expensive that only wealthy families could ___6___ it, and some households kept their supply in locked wooden boxes. ___7___ prices fell, tea spread from grand houses to ordinary kitchens. In Britain, the custom of a light afternoon meal with tea and small cakes became a social habit ___8___ survives in some form even now.\n\nThe worldwide demand for tea also had less pleasant ___9___. Large plantations were established in several countries, and the workers on them often laboured long hours for very low pay. Historians today stress that the story of tea is not only one of taste and tradition, ___10___ also one of trade, power and human cost.",
+          "items": [
+            {
+              "id": "CU-S1-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "discussed",
+                "discovered",
+                "recovered",
+                "disguised"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "เรื่องเล่าว่าใบไม้ปลิวตกลงหม้อน้ำเดือดโดยบังเอิญ จึงเป็นการ \"ค้นพบ\" (discovered) เครื่องดื่มนี้ คำอื่นแปลว่ากู้คืน อภิปราย และปลอมตัว ไม่เข้าความหมาย"
+            },
+            {
+              "id": "CU-S1-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "where",
+                "which",
+                "when",
+                "that"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างขยายสถานที่ southwestern China และตามด้วยประโยคสมบูรณ์ (early drinkers often boiled...) จึงต้องใช้ relative adverb \"where\""
+            },
+            {
+              "id": "CU-S1-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "rarely",
+                "suddenly",
+                "gradually",
+                "recently"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "วลี \"over many centuries\" บอกว่าเกิดขึ้นทีละน้อยเป็นเวลานาน จึงใช้ \"gradually\" ส่วน suddenly ขัดกับความหมาย"
+            },
+            {
+              "id": "CU-S1-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "instead",
+                "however",
+                "otherwise",
+                "in fact"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ข้อความหลังช่องว่างเสริมให้หนักแน่นขึ้นว่าก้อนชามีค่าจนใช้แทนเงินได้ จึงใช้ \"in fact\" ไม่ใช่คำเชื่อมแสดงความขัดแย้งอย่าง however"
+            },
+            {
+              "id": "CU-S1-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "could be taken",
+                "was taken",
+                "had been taking",
+                "could take"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"a journey that could take several months\" = การเดินทางที่อาจใช้เวลาหลายเดือน ต้องใช้ take ในรูป active ส่วนรูป passive ไม่เข้ากับกรรม several months"
+            },
+            {
+              "id": "CU-S1-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "allow",
+                "provide",
+                "afford",
+                "admit"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ชามีราคาแพงมากจนเฉพาะครอบครัวร่ำรวยเท่านั้นที่ \"มีเงินพอซื้อ\" ได้ จึงใช้ afford"
+            },
+            {
+              "id": "CU-S1-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "Unless",
+                "As",
+                "Although",
+                "Until"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "\"As prices fell\" = เมื่อราคาลดลง ชาจึงแพร่ไปสู่ครัวบ้านทั่วไป เป็นความสัมพันธ์ตามเวลา/เหตุผล ไม่ใช่เงื่อนไขหรือความขัดแย้ง"
+            },
+            {
+              "id": "CU-S1-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "what",
+                "that",
+                "whom",
+                "whose"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างเป็น relative pronoun ขยาย \"a social habit\" และทำหน้าที่ประธานของ survives จึงใช้ \"that\" ส่วน what ไม่ใช้ตามหลังคำนาม"
+            },
+            {
+              "id": "CU-S1-039",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "celebrations",
+                "instructions",
+                "consequences",
+                "ingredients"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคถัดไปพูดถึงคนงานที่ทำงานหนักแต่ค่าแรงต่ำ ซึ่งเป็น \"ผลที่ตามมา\" (consequences) ที่ไม่น่ายินดีของความต้องการชา"
+            },
+            {
+              "id": "CU-S1-040",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "so",
+                "and",
+                "or",
+                "but"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "โครงสร้าง \"not only ... but also ...\" ต้องใช้ but คู่กับ also"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G16",
+          "type": "cu_cloze",
+          "instructionTh": "อ่านบทความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "The surprising story of the pencil",
+          "text": "The ordinary pencil is so cheap and familiar that few people stop to think about how it is made. Yet its history is surprisingly ___1___. In the sixteenth century, shepherds in northern England noticed a soft black material in the ground that left dark marks ___2___ rubbed against stone. At first, they used it to mark their sheep. People believed the substance was a type of lead, and this mistaken idea explains ___3___ we still speak of pencil \"lead\" today, even though pencils have never contained any.\n\nThe material was in fact graphite, a form of carbon. Because pure graphite is soft and breaks easily, early users wrapped sticks of it in string or sheepskin. ___4___, someone had the idea of placing the graphite inside a hollow wooden holder, which kept the user's fingers clean and made the tool much stronger.\n\nA major problem remained: good graphite was ___5___, and the best deposits were controlled by a small number of owners. In the late eighteenth century, a French engineer found a way to ___6___ this shortage. He mixed powdered graphite with clay and baked the mixture in an oven. By changing the amount of clay, he could make the pencil harder or softer, an idea that ___7___ the basis of the grading system still printed on pencils.\n\nMass production in the nineteenth century made pencils available to almost everyone. Factories ___8___ thousands of them every day, and schools began to use them instead of slates. Today, even in an age of screens and keyboards, billions of pencils are sold each year, ___9___ they are reliable, need no power and can be erased. It seems that this simple tool, ___10___ humble origins lie in a field of sheep, is not ready to disappear.",
+          "items": [
+            {
+              "id": "CU-S1-041",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "eventful",
+                "obvious",
+                "identical",
+                "careless"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "คำว่า \"Yet\" บอกว่าแม้ดินสอจะดูธรรมดา แต่ประวัติกลับ \"มีเรื่องราวมากมาย\" (eventful) ซึ่งเนื้อเรื่องที่เหลือก็ยืนยัน"
+            },
+            {
+              "id": "CU-S1-042",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "unless",
+                "when",
+                "which",
+                "whether"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "\"left dark marks when rubbed against stone\" = ทิ้งรอยดำเมื่อถูกับหิน เป็นการลดรูปจาก when it was rubbed"
+            },
+            {
+              "id": "CU-S1-043",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "what",
+                "which",
+                "whose",
+                "why"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ความเชื่อผิด ๆ นี้อธิบาย \"เหตุผลที่\" เรายังเรียกไส้ดินสอว่า lead จึงใช้ why นำ noun clause"
+            },
+            {
+              "id": "CU-S1-044",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Similarly",
+                "Otherwise",
+                "Later",
+                "In contrast"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "เนื้อความเล่าตามลำดับเวลา จากการพันด้วยเชือกมาเป็นการใส่ในด้ามไม้ จึงใช้ \"Later\" ไม่ใช่การเปรียบเทียบหรือขัดแย้ง"
+            },
+            {
+              "id": "CU-S1-045",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "flexible",
+                "plentiful",
+                "generous",
+                "scarce"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "ประโยคต่อมาพูดถึง \"this shortage\" แสดงว่าแกรไฟต์คุณภาพดี \"หายาก\" (scarce) ไม่ใช่มีมาก"
+            },
+            {
+              "id": "CU-S1-046",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "overcome",
+                "overlook",
+                "overtake",
+                "overhear"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "วิศวกรหาวิธี \"เอาชนะ/แก้\" ปัญหาการขาดแคลน (overcome) โดยผสมแกรไฟต์กับดินเหนียว ส่วน overlook แปลว่ามองข้าม"
+            },
+            {
+              "id": "CU-S1-047",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "becoming",
+                "to become",
+                "have become",
+                "became"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างเป็นกริยาหลักของ relative clause ที่มีประธานเอกพจน์ \"an idea that\" และเล่าเหตุการณ์ในอดีต จึงใช้ became ส่วน have become ไม่สอดคล้องกับประธานเอกพจน์"
+            },
+            {
+              "id": "CU-S1-048",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "were produced",
+                "were producing",
+                "had been produced",
+                "was producing"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ประธาน Factories เป็นพหูพจน์และเป็นผู้กระทำ (ผลิตดินสอ) จึงใช้ active \"were producing\" รูป passive และ was ไม่ถูก"
+            },
+            {
+              "id": "CU-S1-049",
+              "blank": 9,
+              "stem": "",
+              "options": [
+                "because",
+                "although",
+                "unless",
+                "so that"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ส่วนหลังช่องว่างให้เหตุผลว่าทำไมดินสอยังขายได้มาก (เชื่อถือได้ ไม่ต้องใช้ไฟ ลบได้) จึงใช้ because"
+            },
+            {
+              "id": "CU-S1-050",
+              "blank": 10,
+              "stem": "",
+              "options": [
+                "which",
+                "where",
+                "that",
+                "whose"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"whose humble origins\" = ที่มาอันเรียบง่ายของมัน (ของดินสอ) ต้องใช้ whose แสดงความเป็นเจ้าของหน้าคำนาม origins"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G17",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Why teenagers struggle to wake up",
+          "text": "For generations, parents have complained that teenagers stay up too late and refuse to get out of bed in the morning. The usual explanation has been a moral one: young people are lazy, or they waste the evening on their phones. Research over the past few decades, however, suggests that the picture is more complicated. Part of the problem lies not in teenagers' habits but in their biology.\n\nEvery human being has an internal clock, a cycle of roughly twenty-four hours that tells the body when to feel alert and when to feel sleepy. One of the signals that controls this cycle is melatonin, a hormone released in the evening as daylight fades. In young children, melatonin rises early, which is why many of them are ready for bed soon after dinner. During adolescence, however, the release of melatonin shifts later, often by one to two hours. A fifteen-year-old who lies down at nine o'clock may simply stare at the ceiling, not because she is being difficult but because her body has not yet received the signal to sleep.\n\nThis shift would matter less if school timetables followed it. In many places, though, secondary schools start earlier than primary schools, partly because of bus schedules and the working hours of parents. The result is a mismatch: students are asked to concentrate at the very time their internal clocks tell them they should still be asleep. Teachers often notice the effect in the first lesson of the day, when classes are noticeably quieter and slower.\n\nSome school districts have experimented with later start times. In a three-year study of eleven secondary schools in the Westbrook Valley district, researchers from Calderwood University compared students before and after the morning bell was moved from 7:30 to 8:30. On average, students slept about forty minutes more per night, and attendance in first-period classes rose by six percent. Interestingly, students did not simply go to bed later to make up for the change; their bedtimes stayed roughly the same.\n\nCritics point out that later starts are not free. Bus routes have to be redesigned, after-school sports may finish in the dark, and parents who need to be at work early may find it harder to arrange care for younger children. These are real concerns, and the Calderwood researchers themselves admit that a change that works in one district will not necessarily suit another.\n\nEven so, the research has changed the conversation. Instead of asking only how to make teenagers more disciplined, educators are beginning to ask how schools might work with adolescent biology rather than against it. For the teenager who struggles to wake up, that change in thinking may be the most welcome news of all.",
+          "items": [
+            {
+              "id": "CU-S1-051",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How teenagers' body clocks conflict with early school hours",
+                "Why teenagers spend so much of the evening on their phones",
+                "How melatonin is produced in the bodies of young children",
+                "Why school buses should run later in the morning"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่านาฬิกาชีวภาพของวัยรุ่นเลื่อนช้าลง แต่โรงเรียนกลับเริ่มเช้า (\"The result is a mismatch\") และพูดถึงงานวิจัยเรื่องเลื่อนเวลาเข้าเรียน"
+            },
+            {
+              "id": "CU-S1-052",
+              "stem": "According to the passage, what happens to melatonin during adolescence?",
+              "options": [
+                "It is no longer produced by the body at all.",
+                "It rises soon after the evening meal.",
+                "It is released later in the evening than before.",
+                "It is released mainly in the early morning."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่า \"During adolescence, however, the release of melatonin shifts later, often by one to two hours.\" ส่วนการหลั่งหลังอาหารเย็นเป็นลักษณะของเด็กเล็ก"
+            },
+            {
+              "id": "CU-S1-053",
+              "stem": "Why does the author mention a fifteen-year-old staring at the ceiling?",
+              "options": [
+                "To show that her sleeplessness has a biological cause",
+                "To criticise parents who are too strict about bedtime",
+                "To suggest that teenagers ought to go to bed earlier",
+                "To prove that phones keep teenagers awake at night"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าเธอนอนไม่หลับ \"not because she is being difficult but because her body has not yet received the signal to sleep\" คือสาเหตุมาจากร่างกาย"
+            },
+            {
+              "id": "CU-S1-054",
+              "stem": "The word \"mismatch\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "fair exchange",
+                "close competition",
+                "lack of agreement",
+                "sudden increase"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "mismatch หมายถึงสองสิ่งที่ไม่สอดคล้องกัน ในที่นี้คือเวลาเรียนที่ไม่ตรงกับนาฬิกาชีวภาพของนักเรียน"
+            },
+            {
+              "id": "CU-S1-055",
+              "stem": "What did the Westbrook Valley study find?",
+              "options": [
+                "Students went to bed about forty minutes later.",
+                "Attendance in first-period classes went down.",
+                "Most schools returned to the earlier start time.",
+                "Students slept longer without going to bed later."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ผลการศึกษาคือนักเรียนนอนมากขึ้นราว 40 นาที และ \"their bedtimes stayed roughly the same\" คือไม่ได้เข้านอนช้าลง"
+            },
+            {
+              "id": "CU-S1-056",
+              "stem": "The word \"These\" in paragraph 5 refers to",
+              "options": [
+                "problems caused by later start times",
+                "parents who must be at work early",
+                "students who play sports after school",
+                "results of the Calderwood study"
+              ],
+              "answer": 0,
+              "skill": "reference",
+              "explanationTh": "These อ้างถึงสิ่งที่นักวิจารณ์ยกมาก่อนหน้า คือปัญหาจากการเลื่อนเวลาเข้าเรียน เช่น ต้องจัดเส้นทางรถใหม่และกีฬาเลิกค่ำ"
+            },
+            {
+              "id": "CU-S1-057",
+              "stem": "Which statement best describes the author's attitude toward later school start times?",
+              "options": [
+                "Strongly opposed because of the high costs",
+                "Uninterested in either side of the debate",
+                "Supportive, while recognising the difficulties",
+                "Doubtful that the research is reliable"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยอมรับว่าข้อกังวลของฝ่ายค้าน \"are real concerns\" แต่ปิดท้ายด้วย \"Even so, the research has changed the conversation\" และมองว่าเป็นข่าวดี จึงเห็นด้วยอย่างระมัดระวัง"
+            },
+            {
+              "id": "CU-S1-058",
+              "stem": "Which of the following would the author most likely agree with?",
+              "options": [
+                "Every secondary school should begin classes at 8:30 immediately.",
+                "Teenagers' sleep problems are caused mainly by a lack of discipline.",
+                "Schools should consider students' biology when planning timetables.",
+                "Primary schools should start their day earlier than they do now."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายชื่นชมแนวคิดที่ว่าโรงเรียนควร \"work with adolescent biology rather than against it\" แต่ผู้เขียนก็เตือนว่าวิธีเดียวกันอาจไม่เหมาะกับทุกที่ จึงไม่ใช่ให้ทุกโรงเรียนเปลี่ยนทันที"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G18",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Streets for people",
+          "text": "For most of the twentieth century, city planners asked one main question when they designed a street: how many cars can it carry? Wide roads, large intersections and generous parking were seen as signs of progress. Pedestrians were expected to fit into whatever space remained, often a narrow pavement squeezed between traffic and buildings.\n\nIn recent decades, a growing number of planners have begun to question this approach. Their argument is simple. A street is not only a channel for movement; it is also a public space where people meet, shop, rest and play. When a street is designed only for cars, it tends to become a place that people pass through as quickly as possible rather than a place where they wish to stay.\n\nThe coastal city of Port Selwyn offers a useful example. Ten years ago, its old market district was dominated by a four-lane road that cut the neighbourhood in two. Shop owners complained that customers rarely stopped, and the noise made outdoor seating impossible. After long public consultations, the city narrowed the road to two lanes, widened the pavements, planted rows of shade trees and added protected lanes for bicycles. Several side streets were closed to through traffic altogether.\n\nThe changes were controversial at first. Some drivers predicted endless traffic jams, and a few businesses feared that customers who arrived by car would stop coming. Neither prediction fully came true. Traffic on the main road did slow down, but much of it moved to a ring road built for that purpose, and journey times across the city rose only slightly. Meanwhile, a survey by the Port Selwyn Chamber of Commerce found that the number of people walking through the district at weekends nearly doubled within three years, and two-thirds of local shops reported higher sales.\n\nPlanners warn against treating such results as a universal recipe. Port Selwyn had advantages that not every city shares: a compact centre, a mild climate and a ring road that could absorb the displaced traffic. In a sprawling city where homes, schools and workplaces are far apart, simply removing lanes might create congestion without persuading anyone to walk.\n\nWhat the example does show is that the shape of a street influences how people behave on it. Wide, fast roads invite fast driving; narrow, shaded streets with places to sit invite people to slow down. The question for planners, then, is no longer only how many cars a street can carry, but what kind of life they want it to support.",
+          "items": [
+            {
+              "id": "CU-S1-059",
+              "stem": "What is the main point of the passage?",
+              "options": [
+                "Every city should copy Port Selwyn's market district.",
+                "Narrowing busy roads is the best way to help local shops.",
+                "Port Selwyn's redesign worked mainly because of its ring road.",
+                "The design of a street affects how people use it."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ใจความหลักอยู่ในย่อหน้าสุดท้าย \"the shape of a street influences how people behave on it\" ส่วนเรื่องร้านค้าและถนนวงแหวนเป็นเพียงรายละเอียดของตัวอย่าง และผู้เขียนเตือนว่าไม่ควรลอกแบบ Port Selwyn ไปใช้ทุกเมือง"
+            },
+            {
+              "id": "CU-S1-060",
+              "stem": "According to the passage, what did twentieth-century planners mainly focus on?",
+              "options": [
+                "How to bring more shoppers to markets",
+                "How to make pavements wide and shady",
+                "How to reduce noise in neighbourhoods",
+                "How much traffic a street could handle"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าแรกบอกว่านักผังเมืองในศตวรรษที่ 20 ถามคำถามหลักว่า \"how many cars can it carry?\""
+            },
+            {
+              "id": "CU-S1-061",
+              "stem": "Which change was NOT made in Port Selwyn's market district?",
+              "options": [
+                "Protected bicycle lanes were added.",
+                "Trees were planted along the main road.",
+                "A large parking building was constructed.",
+                "Some side streets were closed to through traffic."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 กล่าวถึงการลดช่องจราจร ขยายทางเท้า ปลูกต้นไม้ เพิ่มเลนจักรยาน และปิดซอยบางสาย แต่ไม่ได้พูดถึงการสร้างอาคารจอดรถ"
+            },
+            {
+              "id": "CU-S1-062",
+              "stem": "The word \"controversial\" in paragraph 4 is closest in meaning to",
+              "options": [
+                "widely ignored",
+                "quickly forgotten",
+                "causing disagreement",
+                "very expensive"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคต่อมาบอกว่าคนขับรถและร้านค้าบางส่วนคัดค้านและกังวล แสดงว่าการเปลี่ยนแปลงนั้น \"ก่อให้เกิดความเห็นแย้ง\""
+            },
+            {
+              "id": "CU-S1-063",
+              "stem": "Why did journey times across the city rise only slightly?",
+              "options": [
+                "Most drivers began cycling to work instead.",
+                "The main road was widened again later on.",
+                "Fewer people in the city owned private cars.",
+                "Much of the traffic used a ring road instead."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 บอกว่า \"much of it moved to a ring road built for that purpose\" เวลาเดินทางจึงเพิ่มขึ้นเพียงเล็กน้อย"
+            },
+            {
+              "id": "CU-S1-064",
+              "stem": "The word \"it\" in \"much of it moved to a ring road\" (paragraph 4) refers to",
+              "options": [
+                "the ring road",
+                "the city's survey",
+                "the market district",
+                "traffic on the main road"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "it อ้างถึง \"Traffic on the main road\" ที่อยู่ก่อนหน้าในประโยคเดียวกัน คือรถบนถนนสายหลักย้ายไปใช้ถนนวงแหวน"
+            },
+            {
+              "id": "CU-S1-065",
+              "stem": "What is the purpose of paragraph 5?",
+              "options": [
+                "To argue that sprawling cities are easier to plan",
+                "To describe the early history of Port Selwyn",
+                "To warn that the results may not apply everywhere",
+                "To question the accuracy of the shop survey"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "ย่อหน้าที่ 5 ขึ้นต้นว่า \"Planners warn against treating such results as a universal recipe\" และอธิบายว่าเมืองอื่นอาจไม่มีข้อได้เปรียบแบบเดียวกัน"
+            },
+            {
+              "id": "CU-S1-066",
+              "stem": "It can be inferred that the author believes planners should",
+              "options": [
+                "copy Port Selwyn's design in every large city",
+                "design every new street mainly for bicycles",
+                "avoid asking the public before changing streets",
+                "think about what activities a street should encourage"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ประโยคสุดท้ายบอกว่าคำถามของนักผังเมืองควรเป็น \"what kind of life they want it to support\" คือควรคิดว่าถนนจะส่งเสริมกิจกรรมแบบใด"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G19",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "The ocean's slow conveyor",
+          "text": "Seen from a beach, the ocean can look like a vast, still body of water that merely rises and falls with the tides. In reality, it is constantly on the move. Enormous currents carry water across entire ocean basins, transporting heat, nutrients and even floating objects thousands of kilometres from where they started.\n\nSurface currents are driven mainly by the wind. As steady winds blow across the sea, they drag the top layer of water along with them. Because the Earth is rotating, these currents do not travel in straight lines; they are turned to the right in the Northern Hemisphere and to the left in the Southern. The result is a series of huge circular patterns, known as gyres, that turn slowly in each of the major oceans.\n\nDeep currents work quite differently. They are driven not by wind but by differences in the density of seawater, which depends on its temperature and how much salt it contains. Cold, salty water is heavier than warm, fresher water. In parts of the far North Atlantic, surface water becomes so cold and salty in winter that it sinks to the ocean floor and begins to creep southward. Warmer water flows in at the surface to replace it. Scientists sometimes call this system the global conveyor belt, because it links all the world's oceans in one continuous loop. A single body of water may take a thousand years or more to complete the journey.\n\nThese movements have a powerful effect on climate. Warm currents carry heat from the tropics towards the poles, which helps to explain why some coastal regions are far milder than others at the same distance from the equator. Currents also bring nutrients up from the deep, supporting rich fishing grounds in places where cold water rises to the surface.\n\nOceanographers have used some unusual methods to trace these paths. When the cargo ship Meridian Star lost a container of plastic bath sponges in a storm in the North Pacific, a team led by researcher Halvard Eng began collecting reports of sponges washing ashore. Over the next six years, sponges turned up on beaches in four countries, and the pattern of where and when they appeared helped confirm computer models of the gyre. Today, scientists rely mostly on networks of floating instruments that send data by satellite, but accidental experiments of this kind still attract public interest.\n\nSome researchers are concerned that a warming climate could weaken the deep circulation. They point out that if melting ice adds large amounts of fresh water to the North Atlantic, the surface water there may no longer become heavy enough to sink. Exactly how quickly such a change could happen is still debated, but most scientists agree that the ocean's slow conveyor matters far more to life on land than its calm surface suggests.",
+          "items": [
+            {
+              "id": "CU-S1-067",
+              "stem": "The passage is mainly concerned with",
+              "options": [
+                "how scientists build models of the weather",
+                "how ocean currents move and why they matter",
+                "why the North Atlantic is becoming saltier",
+                "how cargo ships can avoid dangerous storms"
+              ],
+              "answer": 1,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายกลไกของกระแสน้ำผิวหน้าและกระแสน้ำลึก รวมถึงผลต่อภูมิอากาศและการประมง จึงพูดถึงการเคลื่อนที่และความสำคัญของกระแสน้ำ"
+            },
+            {
+              "id": "CU-S1-068",
+              "stem": "According to the passage, surface currents are caused mainly by",
+              "options": [
+                "differences in salt content",
+                "ice melting near the poles",
+                "the rise and fall of the tides",
+                "wind blowing across the sea"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุว่า \"Surface currents are driven mainly by the wind.\" ส่วนความเค็มเป็นปัจจัยของกระแสน้ำลึก"
+            },
+            {
+              "id": "CU-S1-069",
+              "stem": "Why do surface currents not travel in straight lines?",
+              "options": [
+                "The rotation of the Earth turns them.",
+                "The gyres block their movement.",
+                "Cold water sinks underneath them.",
+                "Coastlines force them to change course."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนบอกว่า \"Because the Earth is rotating, these currents do not travel in straight lines\""
+            },
+            {
+              "id": "CU-S1-070",
+              "stem": "The word \"creep\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "move slowly",
+                "freeze solid",
+                "spread widely",
+                "rise sharply"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "creep แปลว่าเคลื่อนไปอย่างช้า ๆ สอดคล้องกับข้อมูลว่าน้ำหนึ่งก้อนอาจใช้เวลา \"a thousand years or more\" ในการเดินทางครบรอบ"
+            },
+            {
+              "id": "CU-S1-071",
+              "stem": "According to paragraph 3, surface water in the far North Atlantic sinks because it",
+              "options": [
+                "becomes colder and saltier, and so heavier",
+                "is pushed downward by strong winter winds",
+                "is warmer than the water that surrounds it",
+                "mixes with fresh water from melting ice"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าน้ำ \"becomes so cold and salty in winter that it sinks\" และน้ำเย็นที่เค็มหนักกว่าน้ำอุ่นที่จืดกว่า"
+            },
+            {
+              "id": "CU-S1-072",
+              "stem": "Why does the author tell the story of the Meridian Star?",
+              "options": [
+                "To warn readers about pollution from cargo ships",
+                "To explain why satellites are no longer necessary",
+                "To show how an accident helped scientists study currents",
+                "To describe the dangers of storms in the Pacific"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "เรื่องฟองน้ำที่หลุดจากเรือถูกยกมาเป็นตัวอย่างของ \"unusual methods to trace these paths\" ซึ่ง \"helped confirm computer models of the gyre\""
+            },
+            {
+              "id": "CU-S1-073",
+              "stem": "The word \"They\" in paragraph 6 refers to",
+              "options": [
+                "the bath sponges",
+                "the floating instruments",
+                "the deep currents",
+                "some researchers"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "They เป็นประธานพหูพจน์ที่ \"point out\" ได้ จึงอ้างถึง \"Some researchers\" ในประโยคก่อนหน้า ซึ่งเป็นผู้ที่กังวลว่ากระแสน้ำลึกอาจอ่อนลง"
+            },
+            {
+              "id": "CU-S1-074",
+              "stem": "What can be inferred from paragraph 4?",
+              "options": [
+                "All coastal regions near the poles have mild winters.",
+                "Two places at the same latitude can have very different climates.",
+                "Fishing is poor wherever cold water rises to the surface.",
+                "Warm currents carry nutrients up from the ocean floor."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่ากระแสน้ำอุ่นช่วยอธิบายว่า \"why some coastal regions are far milder than others at the same distance from the equator\" จึงอนุมานได้ว่าที่ละติจูดเดียวกันอาจมีภูมิอากาศต่างกันมาก"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G20",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Before and after the printing press",
+          "text": "When people think of the invention of printing, they often picture a single moment: a workshop in fifteenth-century Germany and a press turning out the first printed books in Europe. The real story is longer and far more widely spread. Printing developed over many centuries, and several of its most important steps took place in Asia.\n\nThe earliest widely used method was woodblock printing. A craftsman carved an entire page of text, in reverse, into a flat block of wood. Ink was spread over the raised surface, paper was laid on top, and the back of the paper was rubbed to transfer the image. The technique was well established in China by the ninth century. Woodblocks had an obvious drawback, however: each block could print only one page, and a single mistake might ruin days of careful carving.\n\nThe solution was movable type, in which each character was made as a separate piece that could be arranged, used and then rearranged for the next page. Records describe an eleventh-century Chinese craftsman who made individual characters out of baked clay. Later printers experimented with wood and, in Korea, with metal. Yet movable type did not quickly replace woodblocks in East Asia. Written Chinese uses thousands of different characters, so a printer needed an enormous stock of type and a well-organised system for finding each piece. For many books, carving whole blocks remained the more practical choice.\n\nIn Europe, conditions were different. Alphabetic writing needed only a few dozen letters, plus numbers and punctuation marks, which made movable type far more economical. When metal type was combined with an oil-based ink and a screw press adapted from those used for squeezing olives, printing spread with remarkable speed, and within a few decades presses were operating in hundreds of towns.\n\nThe effects went far beyond the workshop. Books became cheaper, so more people could own them, and identical copies made it easier for scholars in different cities to discuss the same text. The historian Ingrid Vasel argues that this sameness was as important as the lower price: \"For the first time, a reader in one city could point to page forty and know that a colleague hundreds of kilometres away was looking at exactly the same words.\" Mistakes could be corrected in later editions instead of multiplying with every handwritten copy.\n\nNone of this means that one region \"won\" the history of printing. Rather, the technology developed differently in different places because it had to fit different writing systems, materials and markets. Seen this way, the story of printing is less about a single inventor than about how people in many places adapted a powerful idea to their own needs.",
+          "items": [
+            {
+              "id": "CU-S1-075",
+              "stem": "Which statement best expresses the main idea of the passage?",
+              "options": [
+                "Woodblocks remained more practical than movable type.",
+                "Movable type was invented in Asia long before Europe.",
+                "Europe adopted printing faster because its presses were better.",
+                "Printing developed gradually and in different ways in different regions."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนบอกตั้งแต่ต้นว่า \"The real story is longer and far more widely spread\" และสรุปว่าเทคโนโลยีพัฒนาต่างกันไปตามระบบการเขียนของแต่ละที่ ตัวเลือกอื่นเป็นเพียงรายละเอียดบางส่วนหรือขัดกับเนื้อเรื่อง"
+            },
+            {
+              "id": "CU-S1-076",
+              "stem": "According to the passage, what was a disadvantage of woodblock printing?",
+              "options": [
+                "Each block could be used to print only one page.",
+                "The ink dried too slowly on the wooden surface.",
+                "Paper could not be pressed firmly onto the block.",
+                "The blocks were far too heavy to transport."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 ระบุข้อเสียว่า \"each block could print only one page, and a single mistake might ruin days of careful carving\""
+            },
+            {
+              "id": "CU-S1-077",
+              "stem": "The word \"drawback\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "tradition",
+                "material",
+                "disadvantage",
+                "solution"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "drawback แปลว่าข้อเสีย ซึ่งตรงกับสิ่งที่ตามมา คือพิมพ์ได้แค่หน้าเดียวต่อแม่พิมพ์ และพลาดเพียงครั้งเดียวก็เสียงาน"
+            },
+            {
+              "id": "CU-S1-078",
+              "stem": "Why did woodblocks remain common in East Asia?",
+              "options": [
+                "Written Chinese uses a very large number of characters.",
+                "Most readers preferred books copied by hand.",
+                "Type made of baked clay broke far too easily.",
+                "Metal was too expensive for most printers to buy."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 อธิบายว่า \"Written Chinese uses thousands of different characters\" ผู้พิมพ์จึงต้องมีตัวพิมพ์จำนวนมหาศาล การแกะทั้งหน้าจึงสะดวกกว่า"
+            },
+            {
+              "id": "CU-S1-079",
+              "stem": "What can be inferred about a printer working with written Chinese?",
+              "options": [
+                "He usually preferred metal type to type made of clay.",
+                "He rarely needed to carve whole pages of text.",
+                "He needed far more pieces of type than a European printer.",
+                "He printed pages faster with movable type than with woodblocks."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่าภาษาจีนเขียนใช้ \"thousands of different characters\" ส่วนย่อหน้าที่ 4 บอกว่ายุโรปใช้เพียง \"a few dozen letters\" จึงอนุมานได้ว่าช่างพิมพ์ภาษาจีนต้องมีตัวพิมพ์มากกว่ามาก ส่วนการแกะทั้งหน้ายังเป็นทางเลือกที่นิยม"
+            },
+            {
+              "id": "CU-S1-080",
+              "stem": "Why does the author quote Ingrid Vasel?",
+              "options": [
+                "To prove that books became much cheaper",
+                "To stress the value of having identical copies",
+                "To describe how scholars travelled between cities",
+                "To criticise the errors in early printed books"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยกคำพูดนี้หลังประโยค \"this sameness was as important as the lower price\" เพื่อเน้นความสำคัญของการที่ทุกเล่มเหมือนกันทุกหน้า"
+            },
+            {
+              "id": "CU-S1-081",
+              "stem": "The word \"it\" in \"because it had to fit different writing systems\" (paragraph 6) refers to",
+              "options": [
+                "one region",
+                "the technology of printing",
+                "the history of printing",
+                "the market"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "it อ้างถึง \"the technology\" ที่อยู่ก่อนหน้าในประโยคเดียวกัน คือเทคโนโลยีการพิมพ์ต้องปรับให้เข้ากับระบบการเขียนที่ต่างกัน"
+            },
+            {
+              "id": "CU-S1-082",
+              "stem": "What is the author's purpose in the final paragraph?",
+              "options": [
+                "To reject the idea that printing history was a contest",
+                "To name the true inventor of the printing press",
+                "To predict the future of printed books in Asia",
+                "To compare the prices of books in different regions"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่า \"None of this means that one region 'won'\" และเรื่องการพิมพ์ \"is less about a single inventor\" จึงเป็นการปฏิเสธมุมมองแบบแข่งขัน"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G21",
+          "type": "cu_passage",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Why we buy the medium size",
+          "text": "Most shoppers like to think that they make decisions by carefully comparing price and quality. Consumer psychologists, however, have shown again and again that our choices are strongly shaped by the way options are presented. Two of the best-known examples are anchoring and the decoy effect.\n\nAnchoring describes our tendency to rely heavily on the first number we see. Imagine a jacket displayed with a label reading \"Was 4,000 baht, now 2,400 baht.\" The original price acts as an anchor; compared with it, 2,400 baht feels like a bargain, even if the jacket was never really worth 4,000. Shoppers who see the same jacket labelled simply \"2,400 baht\" typically judge it as less attractive, although the price is identical.\n\nThe decoy effect is more subtle. It occurs when a seller adds an option that few people are expected to choose, simply to make another option look better. In an experiment at a cinema, researchers from Lindqvist Business School offered customers small popcorn for 60 baht and large popcorn for 110 baht. Most people chose the small size. When the researchers added a medium size for 100 baht, sales of the large size rose sharply. The medium option was not really meant to be bought; it existed to make the large one seem like excellent value for only ten baht more. Indeed, very few customers chose it.\n\nRetailers use these techniques for an obvious reason: they work. Restaurants place one very expensive dish at the top of a menu so that everything below it looks reasonable. Online stores display a \"premium\" subscription that almost nobody needs, which makes the \"standard\" plan look sensible. None of these methods involves lying, and many shoppers would be surprised to learn that they had been influenced at all.\n\nDoes this mean consumers are helpless? Not necessarily. Researchers suggest a few simple habits. Before shopping, decide roughly how much you are willing to spend, so that your own figure, rather than the seller's, becomes the anchor. When you are faced with several options, ask whether you would still choose the same item if the most expensive or the cheapest option were removed. And be especially careful with phrases such as \"only ten baht more,\" which turn attention away from the total price and towards a small difference.\n\nUnderstanding these effects is not about becoming suspicious of every price tag. It is about recognising that the human mind takes shortcuts, and that sellers know this as well as psychologists do. A shopper who understands the shortcuts is in a far better position to decide when to take them.",
+          "items": [
+            {
+              "id": "CU-S1-083",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Retailers often mislead customers about their real prices.",
+                "Discounts make products seem better value than they are.",
+                "The way choices are presented can influence what people buy.",
+                "Shoppers usually compare price and quality very carefully."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่า \"our choices are strongly shaped by the way options are presented\" ส่วนส่วนลดเป็นเพียงตัวอย่างหนึ่งของ anchoring และผู้เขียนบอกว่าวิธีเหล่านี้ \"None ... involves lying\""
+            },
+            {
+              "id": "CU-S1-084",
+              "stem": "According to the passage, an \"anchor\" is",
+              "options": [
+                "a discount offered only to regular customers",
+                "a product placed near the entrance of a shop",
+                "the lowest price that a seller will accept",
+                "a first number that affects later judgements"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 2 นิยาม anchoring ว่า \"our tendency to rely heavily on the first number we see\" เช่น ราคาเดิม 4,000 บาทที่ทำให้ 2,400 ดูถูก"
+            },
+            {
+              "id": "CU-S1-085",
+              "stem": "The word \"subtle\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "very harmful",
+                "simple to explain",
+                "not easy to notice",
+                "openly dishonest"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "subtle แปลว่าแนบเนียน สังเกตได้ยาก สอดคล้องกับที่ผู้เขียนบอกว่าผู้ซื้อหลายคน \"would be surprised to learn that they had been influenced at all\""
+            },
+            {
+              "id": "CU-S1-086",
+              "stem": "What happened when the medium size was added?",
+              "options": [
+                "Sales of the small size rose sharply.",
+                "More customers bought the large size.",
+                "The price of the large size went down.",
+                "Most customers chose the medium size."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 บอกว่า \"sales of the large size rose sharply\" ขณะที่ขนาดกลาง \"very few customers chose it\""
+            },
+            {
+              "id": "CU-S1-087",
+              "stem": "The word \"it\" in \"it existed to make the large one seem like excellent value\" (paragraph 3) refers to",
+              "options": [
+                "the experiment",
+                "the medium option",
+                "the cinema",
+                "the large size"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "it อ้างถึง \"The medium option\" ที่เป็นประธานของประโยคก่อนหน้า ซึ่งมีไว้เพื่อให้ขนาดใหญ่ดูคุ้มค่า"
+            },
+            {
+              "id": "CU-S1-088",
+              "stem": "Why do some restaurants put a very expensive dish at the top of the menu?",
+              "options": [
+                "To show how skilled and famous the chef is",
+                "Because it is the dish most customers order",
+                "To make the other dishes seem reasonably priced",
+                "Because it is the cheapest dish to prepare"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนบอกว่าร้านอาหารทำเช่นนี้ \"so that everything below it looks reasonable\" คือให้เมนูอื่นดูราคาสมเหตุสมผล"
+            },
+            {
+              "id": "CU-S1-089",
+              "stem": "Which piece of advice is given in the passage?",
+              "options": [
+                "Avoid any shop that offers large discounts.",
+                "Buy the premium version to be on the safe side.",
+                "Always choose the cheapest option available.",
+                "Decide on a spending limit before shopping."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 5 แนะนำว่า \"Before shopping, decide roughly how much you are willing to spend\" เพื่อให้ตัวเลขของเราเป็นจุดยึดแทนของผู้ขาย"
+            },
+            {
+              "id": "CU-S1-090",
+              "stem": "The tone of the final paragraph can best be described as",
+              "options": [
+                "angry and accusing",
+                "humorous and mocking",
+                "balanced and practical",
+                "anxious and hopeless"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนบอกว่าไม่จำเป็นต้อง \"becoming suspicious of every price tag\" แต่ให้เข้าใจทางลัดของความคิดเพื่อตัดสินใจได้ดีขึ้น น้ำเสียงจึงเป็นกลางและนำไปใช้ได้จริง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "CU-S1-G22",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งไม่ถูกต้องตามหลักไวยากรณ์ (มีจุดผิดเพียงจุดเดียวในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S1-091",
+              "stem": "The number of students who apply for scholarships [[have increased]] steadily [[over]] the past five years, [[according to]] the [[latest]] report.",
+              "options": [
+                "have increased",
+                "over",
+                "according to",
+                "latest"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ประธานคือ \"The number of students\" ซึ่งเป็นเอกพจน์ จึงต้องใช้ \"has increased\" ไม่ใช่ have increased"
+            },
+            {
+              "id": "CU-S1-092",
+              "stem": "[[Despite]] the heavy rain, the field researchers [[managed]] to collect [[all of]] the samples [[they needed it]].",
+              "options": [
+                "Despite",
+                "managed",
+                "all of",
+                "they needed it"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "\"the samples they needed\" มีกรรมคือ the samples อยู่แล้ว การเติม it ซ้ำจึงผิด ต้องเป็น \"they needed\""
+            },
+            {
+              "id": "CU-S1-093",
+              "stem": "The committee [[has decided]] to postpone the conference [[until]] the new venue [[will be]] [[completely]] ready.",
+              "options": [
+                "has decided",
+                "until",
+                "will be",
+                "completely"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "อนุประโยคแสดงเวลาที่ขึ้นต้นด้วย until ใช้ present simple แทนอนาคต จึงต้องเป็น \"until the new venue is completely ready\""
+            },
+            {
+              "id": "CU-S1-094",
+              "stem": "Professor Lim's research focuses on [[how]] plants [[respond]] to changes in [[temperature]] and [[humid]].",
+              "options": [
+                "how",
+                "respond",
+                "temperature",
+                "humid"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "หลัง changes in ต้องเป็นคำนามคู่ขนานกับ temperature จึงต้องใช้คำนาม \"humidity\" ไม่ใช่คุณศัพท์ humid"
+            },
+            {
+              "id": "CU-S1-095",
+              "stem": "Each of the participants [[were asked]] to complete a [[short]] questionnaire [[before]] the experiment [[began]].",
+              "options": [
+                "were asked",
+                "short",
+                "before",
+                "began"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน \"Each of the participants\" เป็นเอกพจน์ จึงต้องใช้ \"was asked\""
+            },
+            {
+              "id": "CU-S1-096",
+              "stem": "[[Neither]] the lecturer nor the students [[was]] aware [[that]] the room had been [[double-booked]].",
+              "options": [
+                "Neither",
+                "was",
+                "that",
+                "double-booked"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง neither ... nor ... ให้กริยาสอดคล้องกับประธานตัวที่ใกล้ที่สุด คือ the students (พหูพจน์) จึงต้องใช้ \"were\""
+            },
+            {
+              "id": "CU-S1-097",
+              "stem": "Bees [[are able to]] recognise flowers [[by]] [[its]] colour, shape and [[scent]].",
+              "options": [
+                "are able to",
+                "by",
+                "its",
+                "scent"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำที่ถูกแทนคือ flowers ซึ่งเป็นพหูพจน์ จึงต้องใช้ \"their\" ไม่ใช่ its"
+            },
+            {
+              "id": "CU-S1-098",
+              "stem": "Most commuters would rather [[to take]] the train [[than]] drive, [[as]] the roads [[are]] often congested.",
+              "options": [
+                "to take",
+                "than",
+                "as",
+                "are"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "would rather ตามด้วย infinitive ไม่มี to จึงต้องเป็น \"would rather take ... than drive\""
+            },
+            {
+              "id": "CU-S1-099",
+              "stem": "[[In]] recent decades, the amount of [[informations]] available online [[has grown]] [[enormously]].",
+              "options": [
+                "In",
+                "informations",
+                "has grown",
+                "enormously"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "information เป็นคำนามนับไม่ได้ ไม่เติม s จึงต้องเป็น \"information\""
+            },
+            {
+              "id": "CU-S1-100",
+              "stem": "Although the experiment [[was]] carefully [[designed]], [[but]] the results [[were]] inconclusive.",
+              "options": [
+                "was",
+                "designed",
+                "but",
+                "were"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "ภาษาอังกฤษไม่ใช้ although คู่กับ but ในประโยคเดียวกัน ต้องตัด but ออก"
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G23",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งไม่ถูกต้องตามหลักไวยากรณ์ (มีจุดผิดเพียงจุดเดียวในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S1-101",
+              "stem": "Students [[who]] live on campus [[are]] [[less likely]] to arrive late [[then]] those who commute.",
+              "options": [
+                "who",
+                "are",
+                "less likely",
+                "then"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "การเปรียบเทียบขั้นกว่า (less likely) ต้องใช้ \"than\" ส่วน then แปลว่าจากนั้น"
+            },
+            {
+              "id": "CU-S1-102",
+              "stem": "The new policy, [[introduced]] last semester, [[requires]] all students [[submitting]] their work [[through]] the online portal.",
+              "options": [
+                "introduced",
+                "requires",
+                "submitting",
+                "through"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "require + กรรม + to-infinitive จึงต้องเป็น \"requires all students to submit\""
+            },
+            {
+              "id": "CU-S1-103",
+              "stem": "If the team [[would have started]] earlier, they [[would have finished]] the survey [[before]] the deadline [[last month]].",
+              "options": [
+                "would have started",
+                "would have finished",
+                "before",
+                "last month"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "conditional แบบที่ 3 ในอนุประโยค if ใช้ past perfect จึงต้องเป็น \"If the team had started earlier\""
+            },
+            {
+              "id": "CU-S1-104",
+              "stem": "By the time the shuttle bus [[arrived]] yesterday morning, most of the students [[have already left]] [[for]] the [[lecture hall]].",
+              "options": [
+                "arrived",
+                "have already left",
+                "for",
+                "lecture hall"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "yesterday morning ยืนยันว่า arrived เป็นอดีตที่ถูกต้อง เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีตต้องใช้ past perfect จึงต้องเป็น \"had already left\""
+            },
+            {
+              "id": "CU-S1-105",
+              "stem": "The research team [[is]] [[looking forward]] to [[present]] its findings [[at]] the conference.",
+              "options": [
+                "is",
+                "looking forward",
+                "present",
+                "at"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "look forward to ในที่นี้ to เป็นบุพบท จึงตามด้วย V-ing ต้องเป็น \"presenting\""
+            },
+            {
+              "id": "CU-S1-106",
+              "stem": "One of the most important [[discovery]] of the century [[was made]] [[by accident]] [[in]] a small laboratory.",
+              "options": [
+                "discovery",
+                "was made",
+                "by accident",
+                "in"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "โครงสร้าง one of the + superlative + คำนามพหูพจน์ จึงต้องเป็น \"discoveries\""
+            },
+            {
+              "id": "CU-S1-107",
+              "stem": "Warm ocean currents [[have]] a powerful effect [[on]] the climate of [[many]] coastal [[region]].",
+              "options": [
+                "have",
+                "on",
+                "many",
+                "region"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "many ต้องตามด้วยคำนามพหูพจน์ จึงต้องเป็น \"regions\" แก้เพียงจุดเดียว"
+            },
+            {
+              "id": "CU-S1-108",
+              "stem": "The university [[has]] recently [[build]] a new laboratory, [[which]] will open [[in]] January.",
+              "options": [
+                "has",
+                "build",
+                "which",
+                "in"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "present perfect ใช้ has + V3 จึงต้องเป็น \"has recently built\""
+            },
+            {
+              "id": "CU-S1-109",
+              "stem": "[[Interesting]] in the topic, most of the audience [[stayed]] [[behind]] to ask questions [[after]] the talk.",
+              "options": [
+                "Interesting",
+                "stayed",
+                "behind",
+                "after"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "ผู้ฟังเป็นฝ่ายรู้สึกสนใจ จึงต้องใช้ \"Interested in the topic\" ไม่ใช่ interesting ซึ่งหมายถึงสิ่งที่น่าสนใจ"
+            },
+            {
+              "id": "CU-S1-110",
+              "stem": "[[Few]] students realise [[how]] much time [[do they spend]] on social media [[each day]].",
+              "options": [
+                "Few",
+                "how",
+                "do they spend",
+                "each day"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำถามที่ซ้อนในประโยค (embedded question) ใช้ลำดับประธาน + กริยาแบบบอกเล่า จึงต้องเป็น \"they spend\""
+            }
+          ]
+        },
+        {
+          "id": "CU-S1-G24",
+          "type": "cu_error",
+          "instructionTh": "เลือกส่วนที่ขีดเส้นใต้ซึ่งไม่ถูกต้องตามหลักไวยากรณ์ (มีจุดผิดเพียงจุดเดียวในแต่ละประโยค)",
+          "items": [
+            {
+              "id": "CU-S1-111",
+              "stem": "Movable type made it [[possible]] [[for printers]] [[to produce]] books [[more quick]] than before.",
+              "options": [
+                "possible",
+                "for printers",
+                "to produce",
+                "more quick"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้คำกริยาวิเศษณ์ขยายกริยา produce จึงต้องเป็น \"more quickly\""
+            },
+            {
+              "id": "CU-S1-112",
+              "stem": "People [[who sleeps]] fewer than six hours [[a night]] often [[find]] it hard [[to concentrate]].",
+              "options": [
+                "who sleeps",
+                "a night",
+                "find",
+                "to concentrate"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "who แทน People ซึ่งเป็นพหูพจน์ กริยาจึงต้องเป็น \"who sleep\""
+            },
+            {
+              "id": "CU-S1-113",
+              "stem": "A number of students [[has]] complained [[about]] the new registration system [[since]] it was [[introduced]].",
+              "options": [
+                "has",
+                "about",
+                "since",
+                "introduced"
+              ],
+              "answer": 0,
+              "skill": "error_identification",
+              "explanationTh": "\"A number of + นามพหูพจน์\" หมายถึงหลายคน ใช้กริยาพหูพจน์ จึงต้องเป็น \"have complained\""
+            },
+            {
+              "id": "CU-S1-114",
+              "stem": "The city council [[plans]] to widen the pavements [[in order to]] [[encourage]] more people [[walking]] to work.",
+              "options": [
+                "plans",
+                "in order to",
+                "encourage",
+                "walking"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "encourage + กรรม + to-infinitive จึงต้องเป็น \"encourage more people to walk\""
+            },
+            {
+              "id": "CU-S1-115",
+              "stem": "Consumers [[tend]] to judge a product [[more favourable]] when it is [[displayed]] next to a [[more expensive]] one.",
+              "options": [
+                "tend",
+                "more favourable",
+                "displayed",
+                "more expensive"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ต้องใช้คำกริยาวิเศษณ์ขยายกริยา judge จึงต้องเป็น \"more favourably\""
+            },
+            {
+              "id": "CU-S1-116",
+              "stem": "The professor asked us [[to explain]] [[what did we think]] of the article [[that]] we [[had read]].",
+              "options": [
+                "to explain",
+                "what did we think",
+                "that",
+                "had read"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "คำถามซ้อนหลัง asked us ใช้ลำดับคำแบบบอกเล่า จึงต้องเป็น \"what we thought\""
+            },
+            {
+              "id": "CU-S1-117",
+              "stem": "During the nineteenth century, pencils [[became]] widely available, [[allowed]] schools [[to replace]] slates [[with]] paper.",
+              "options": [
+                "became",
+                "allowed",
+                "to replace",
+                "with"
+              ],
+              "answer": 1,
+              "skill": "error_identification",
+              "explanationTh": "ส่วนที่ขยายผลลัพธ์ของประโยคหลักต้องใช้รูป -ing คือ \"allowing schools to replace\""
+            },
+            {
+              "id": "CU-S1-118",
+              "stem": "The number of tea plantations [[increased]] rapidly, [[and]] working conditions on [[it]] were often [[harsh]].",
+              "options": [
+                "increased",
+                "and",
+                "it",
+                "harsh"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "คำที่ถูกแทนคือ plantations ซึ่งเป็นพหูพจน์ จึงต้องใช้ \"them\" ไม่ใช่ it"
+            },
+            {
+              "id": "CU-S1-119",
+              "stem": "Urban trees [[provide]] shade, [[reduce]] noise, and [[making]] streets [[more pleasant]] for pedestrians.",
+              "options": [
+                "provide",
+                "reduce",
+                "making",
+                "more pleasant"
+              ],
+              "answer": 2,
+              "skill": "error_identification",
+              "explanationTh": "กริยาสามตัวที่ขนานกัน (provide, reduce, make) ต้องอยู่ในรูปเดียวกัน จึงต้องเป็น \"make\""
+            },
+            {
+              "id": "CU-S1-120",
+              "stem": "[[Unlike]] wind-pollinated plants, [[which]] produce huge amounts of pollen, [[insect-pollinated]] plants [[needs]] far less.",
+              "options": [
+                "Unlike",
+                "which",
+                "insect-pollinated",
+                "needs"
+              ],
+              "answer": 3,
+              "skill": "error_identification",
+              "explanationTh": "ประธาน insect-pollinated plants เป็นพหูพจน์ กริยาจึงต้องเป็น \"need\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

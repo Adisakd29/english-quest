@@ -1,0 +1,56 @@
+{
+  "batch": "31",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0753",
+      "severity": "minor",
+      "problem": "exampleTH: for a death, Thai expresses condolence as 'แสดงความเสียใจ', not 'แสดงความเห็นใจ' (sounds like pity)",
+      "fix": {
+        "exampleTH": "เราส่งดอกไม้และการ์ดไปเพื่อแสดงความเสียใจตอนที่คุณตาของเธอเสียชีวิต"
+      }
+    },
+    {
+      "id": "B2-S0757",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'rip' (and 'damage') fit 'Be careful not to ___ the page' equally well",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0826",
+      "severity": "minor",
+      "problem": "'witnessed the beautiful lantern festival' is unnatural; witness is used for accidents, crimes or historic events, and the sentence does not prove the sense better than 'saw'",
+      "fix": {
+        "example": "Two students witnessed the accident outside the school and told the police what they saw.",
+        "form": "witnessed",
+        "exampleTH": "นักเรียนสองคนเห็นเหตุการณ์อุบัติเหตุหน้าโรงเรียนและเล่าให้ตำรวจฟังว่าเห็นอะไรบ้าง",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0840",
+      "severity": "minor",
+      "problem": "Collocations 'accommodate guests' (give lodging) and 'accommodate needs' (meet needs) belong to other senses, not 'have space for'",
+      "fix": {
+        "collocations": [
+          "accommodate up to",
+          "can accommodate",
+          "accommodate 200 people"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0842",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Our ___ helps us fill in our tax forms' fits mum/dad/son/neighbour; context does not force 'accountant'",
+      "fix": {
+        "example": "Our company pays an accountant to check its financial records and prepare its tax forms.",
+        "form": "accountant",
+        "exampleTH": "บริษัทของเราจ้างนักบัญชีให้ตรวจสอบบันทึกทางการเงินและเตรียมแบบฟอร์มภาษี",
+        "gapOk": true
+      }
+    }
+  ]
+}

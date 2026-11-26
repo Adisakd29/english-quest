@@ -1,0 +1,203 @@
+{
+  "id": "a1-prepositions",
+  "summaryTh": "บอกตำแหน่ง (in / on / under / next to / behind) และเวลา (at / on / in)",
+  "concept": {
+    "what": "Preposition (บุพบท) คือคำเล็ก ๆ ที่วางหน้าคำนาม เพื่อบอกว่าสิ่งของอยู่ \"ตรงไหน\" (in the box, on the table) หรือเกิด \"เมื่อไร\" (at 7 o'clock, on Monday, in May)",
+    "when": [
+      "บอกตำแหน่งของคนหรือสิ่งของ: in (ข้างใน), on (บนผิว), under (ใต้), next to (ข้าง ๆ), behind (ข้างหลัง), in front of (ข้างหน้า), between (ระหว่าง)",
+      "บอกเวลา: at + เวลาบนนาฬิกา (at 8:30), on + วัน/วันที่ (on Friday, on 5 May), in + เดือน/ปี/ฤดู/ช่วงของวัน (in June, in 2025, in the morning)",
+      "ตอบคำถาม Where …? และ When …? / What time …?"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"ใน\" \"ตอน\" \"เมื่อ\" กับเวลาแทบทุกแบบ แต่ภาษาอังกฤษแยกเป็น at / on / in ตามขนาดของเวลา — เล็กสุด (เวลา) ใช้ at, วันใช้ on, ช่วงใหญ่ (เดือน ปี) ใช้ in"
+  },
+  "structure": {
+    "formula": "preposition + noun (สถานที่ / เวลา)",
+    "rows": [
+      { "label": "ตำแหน่ง in / on / under", "formula": "in / on / under + the + noun", "example": "The keys are [[in]] my bag, [[on]] the table, [[under]] the bed." },
+      { "label": "ตำแหน่ง next to / behind / in front of", "formula": "next to / behind / in front of + noun", "example": "The bank is [[next to]] the school. The car is [[behind]] the house." },
+      { "label": "ตำแหน่ง between", "formula": "between + A + and + B", "example": "The café is [[between]] the bank and the bookshop." },
+      { "label": "เวลา at", "formula": "at + เวลา / at night / at noon", "example": "Class starts [[at]] 8:30." },
+      { "label": "เวลา on", "formula": "on + วัน / วันที่", "example": "We have a test [[on]] Friday." },
+      { "label": "เวลา in", "formula": "in + เดือน / ปี / ฤดู / ช่วงของวัน", "example": "My birthday is [[in]] June. I study [[in]] the evening." }
+    ],
+    "notes": [
+      "in the morning / in the afternoon / in the evening แต่ at night",
+      "on + วันที่มีช่วงเวลาต่อท้าย: on Monday morning, on Friday night",
+      "ไม่ใส่ at / on / in หน้า today, tomorrow, yesterday, this …, next …, last …, every … (See you next week. ไม่ใช่ on next week)",
+      "on = วางบนผิวหน้า (on the wall, on the table) · in = อยู่ข้างใน (in the box, in the room)"
+    ]
+  },
+  "examples": [
+    { "en": "Your keys are [[on]] the table.", "th": "กุญแจของคุณอยู่บนโต๊ะ" },
+    { "en": "My cat is sleeping [[under]] the bed.", "th": "แมวของฉันกำลังนอนอยู่ใต้เตียง" },
+    { "en": "The bank is [[next to]] the school.", "th": "ธนาคารอยู่ข้าง ๆ โรงเรียน" },
+    { "en": "Please park [[behind]] the house.", "th": "กรุณาจอดรถด้านหลังบ้าน" },
+    { "en": "The pharmacy is [[between]] the bank and the café.", "th": "ร้านขายยาอยู่ระหว่างธนาคารกับร้านกาแฟ" },
+    { "en": "I have English class [[at]] nine o'clock.", "th": "ฉันมีเรียนภาษาอังกฤษตอนเก้าโมง" },
+    { "en": "We have a test [[on]] Friday.", "th": "พวกเรามีสอบวันศุกร์" },
+    { "en": "My birthday is [[in]] May.", "th": "วันเกิดของฉันอยู่ในเดือนพฤษภาคม" },
+    { "en": "I go jogging [[in]] the morning, and I read [[at]] night.", "th": "ฉันไปวิ่งตอนเช้า และอ่านหนังสือตอนกลางคืน" }
+  ],
+  "mistakes": [
+    { "wrong": "I was born on 2010.", "right": "I was born in 2010.", "whyTh": "ปีใช้ in (in 2010) · on ใช้กับวันหรือวันที่" },
+    { "wrong": "See you in Monday!", "right": "See you on Monday!", "whyTh": "ชื่อวันใช้ on เสมอ" },
+    { "wrong": "The class starts on 8 o'clock.", "right": "The class starts at 8 o'clock.", "whyTh": "เวลาบนนาฬิกาใช้ at" },
+    { "wrong": "See you on next week.", "right": "See you next week.", "whyTh": "หน้า next / last / this / every ไม่ต้องมี preposition" },
+    { "wrong": "I study in night.", "right": "I study at night.", "whyTh": "in the morning / afternoon / evening แต่กลางคืนใช้ at night (ไม่มี the)" },
+    { "wrong": "The picture is in the wall.", "right": "The picture is on the wall.", "whyTh": "รูปติดอยู่บนผิวผนัง จึงใช้ on — in แปลว่าอยู่ข้างในเนื้อผนัง" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Where's my phone?",
+      "lines": [
+        { "speaker": "Kai", "text": "Mum, where's my phone? It isn't [[on]] my desk." },
+        { "speaker": "Mum", "text": "Look [[under]] your bed or [[in]] your school bag." },
+        { "speaker": "Kai", "text": "No… Oh! It's [[behind]] the TV. Thanks!" },
+        { "speaker": "Mum", "text": "And don't forget — your piano lesson is [[at]] four o'clock [[on]] Wednesday." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Meeting a friend",
+      "lines": [
+        { "text": "Hi Tom! Let's meet [[on]] Friday [[at]] 4 p.m. The café is [[between]] the bank and the bookshop. I can wait [[in front of]] the door. My bike is red, and I can park it [[next to]] the café. See you!" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Preposition", "th": "บุพบท — คำเล็ก ๆ หน้าคำนาม บอกตำแหน่งหรือเวลา" },
+    { "en": "Preposition of place", "th": "บุพบทบอกตำแหน่ง เช่น in, on, under" },
+    { "en": "Preposition of time", "th": "บุพบทบอกเวลา: at, on, in" },
+    { "en": "Time expression", "th": "คำหรือวลีบอกเวลา เช่น on Monday, in the morning" }
+  ],
+  "practice": [
+    {
+      "id": "a1-prepositions-01", "type": "mc", "difficulty": 1,
+      "question": "My phone is ___ my bag. The bag is closed, so I can't see it.",
+      "choices": ["in", "on", "at", "to"], "answer": 0,
+      "whyNot": { "1": "on = วางอยู่บนกระเป๋า จะมองเห็นได้ แต่โจทย์บอกว่ามองไม่เห็นเพราะกระเป๋าปิด", "2": "at ใช้กับจุดหรือสถานที่ (at the bus stop) ไม่ใช้บอกว่าอยู่ข้างในกระเป๋า", "3": "to บอกทิศทางการเคลื่อนที่ (go to school) ไม่ได้บอกตำแหน่ง" },
+      "explainTh": "อยู่ข้างในของที่ปิดอยู่ → in my bag",
+      "structure": "in + noun", "example": "My phone is in my bag."
+    },
+    {
+      "id": "a1-prepositions-02", "type": "mc", "difficulty": 1,
+      "question": "The class starts ___ 8:30.",
+      "choices": ["at", "on", "in", "to"], "answer": 0,
+      "whyNot": { "1": "on ใช้กับวันหรือวันที่ เช่น on Monday", "2": "in ใช้กับเดือน ปี หรือช่วงของวัน เช่น in May, in the morning", "3": "to ไม่ใช้บอกเวลาที่เริ่ม" },
+      "explainTh": "เวลาบนนาฬิกาใช้ at → at 8:30"
+    },
+    {
+      "id": "a1-prepositions-03", "type": "mc", "difficulty": 2,
+      "question": "My birthday is ___ June.",
+      "choices": ["in", "on", "at", "to"], "answer": 0,
+      "whyNot": { "1": "on ใช้กับวันหรือวันที่ (on 5 June) แต่โจทย์มีแค่ชื่อเดือน", "2": "at ใช้กับเวลาบนนาฬิกา", "3": "to ไม่ใช้บอกเวลา" },
+      "explainTh": "ชื่อเดือนใช้ in → in June (ถ้ามีวันที่ด้วยจะเปลี่ยนเป็น on 5 June)"
+    },
+    {
+      "id": "a1-prepositions-04", "type": "fill", "difficulty": 1,
+      "question": "We have P.E. ___ Tuesday. (at / on / in)",
+      "accepted": ["on"],
+      "explainTh": "ชื่อวันใช้ on → on Tuesday"
+    },
+    {
+      "id": "a1-prepositions-05", "type": "fill", "difficulty": 2,
+      "question": "I usually read a book ___ night. (at / on / in)",
+      "accepted": ["at"],
+      "explainTh": "กลางคืนใช้ at night (ต่างจาก in the morning / in the evening)"
+    },
+    {
+      "id": "a1-prepositions-06", "type": "fill", "difficulty": 2,
+      "question": "My family goes to the beach ___ the summer. (at / on / in)",
+      "accepted": ["in"],
+      "explainTh": "ฤดูกาลใช้ in → in the summer / in summer"
+    },
+    {
+      "id": "a1-prepositions-07", "type": "fill", "difficulty": 3,
+      "question": "The bank is ___ the school. (ติดกับ / อยู่ข้าง ๆ)",
+      "accepted": ["next to", "beside"],
+      "explainTh": "อยู่ข้าง ๆ ติดกัน → next to (หรือ beside) + noun"
+    },
+    {
+      "id": "a1-prepositions-08", "type": "error", "difficulty": 1,
+      "sentence": "See you in Monday!",
+      "errorPart": "in",
+      "accepted": ["See you on Monday!"],
+      "explainTh": "ชื่อวันใช้ on → on Monday"
+    },
+    {
+      "id": "a1-prepositions-09", "type": "error", "difficulty": 2,
+      "sentence": "My grandpa was born on 1955.",
+      "errorPart": "on",
+      "accepted": ["My grandpa was born in 1955."],
+      "explainTh": "ปีใช้ in → in 1955"
+    },
+    {
+      "id": "a1-prepositions-10", "type": "error", "difficulty": 3,
+      "sentence": "We have a test on next Monday.",
+      "errorPart": "on next",
+      "accepted": ["We have a test next Monday.", "We have a test on Monday."],
+      "explainTh": "หน้า next / last / this / every ไม่ต้องมี preposition → next Monday (หรือตัด next ออกแล้วใช้ on Monday)"
+    },
+    {
+      "id": "a1-prepositions-11", "type": "error", "difficulty": 3,
+      "sentence": "The picture is in the wall.",
+      "errorPart": "in",
+      "accepted": ["The picture is on the wall."],
+      "explainTh": "รูปติดอยู่บนผิวผนัง → on the wall (in the wall = อยู่ข้างในเนื้อผนัง)"
+    },
+    {
+      "id": "a1-prepositions-12", "type": "order", "difficulty": 1,
+      "tokens": ["the", "shoes", "are", "under", "the", "bed"],
+      "accepted": ["The shoes are under the bed.", "Are the shoes under the bed?"],
+      "explainTh": "Subject + be + preposition + noun → The shoes are under the bed."
+    },
+    {
+      "id": "a1-prepositions-13", "type": "order", "difficulty": 2,
+      "tokens": ["we", "Sunday", "on", "swimming", "go"],
+      "accepted": ["We go swimming on Sunday.", "On Sunday we go swimming."],
+      "explainTh": "on + ชื่อวัน วางท้ายหรือต้นประโยคก็ได้ → We go swimming on Sunday."
+    },
+    {
+      "id": "a1-prepositions-14", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่วลีกับความหมาย",
+      "pairs": [["in the box", "ในกล่อง"], ["on the box", "บนกล่อง"], ["under the box", "ใต้กล่อง"], ["behind the box", "ข้างหลังกล่อง"], ["next to the box", "ข้าง ๆ กล่อง"], ["in front of the box", "ข้างหน้ากล่อง"]],
+      "explainTh": "in = ข้างใน · on = บนผิว · under = ใต้ · behind = ข้างหลัง · next to = ข้าง ๆ · in front of = ข้างหน้า"
+    },
+    {
+      "id": "a1-prepositions-15", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I play football in Saturday afternoon.", "I play football on Saturday afternoon.", "I play football at Saturday afternoon.", "I play football in the Saturday afternoon."], "answer": 1,
+      "whyNot": { "0": "มีชื่อวัน (Saturday) นำหน้า จึงต้องใช้ on ไม่ใช่ in", "2": "at ใช้กับเวลาบนนาฬิกา ไม่ใช้กับวัน", "3": "in the afternoon ใช้เมื่อไม่มีชื่อวัน — มีชื่อวันต้องเป็น on Saturday afternoon" },
+      "explainTh": "วัน + ช่วงเวลา (Saturday afternoon) ยังคงใช้ on เพราะมีชื่อวัน → on Saturday afternoon"
+    },
+    {
+      "id": "a1-prepositions-16", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Where are my glasses? I can't find them!" },
+        { "speaker": "B", "text": "Ha ha! They're ___ your head!" }
+      ] },
+      "choices": ["on", "in", "at", "under"], "answer": 0,
+      "whyNot": { "1": "in your head = อยู่ในหัว (ความคิด) ไม่ใช่วางอยู่บนหัว", "2": "at ไม่ใช้บอกว่าของวางอยู่บนส่วนของร่างกาย", "3": "under your head = ใต้หัว (เช่น หมอน) ไม่ใช่ที่วางแว่น" },
+      "explainTh": "แว่นวางอยู่บนผิวด้านบนของหัว → on your head"
+    },
+    {
+      "id": "a1-prepositions-17", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Meeting a friend", "lines": [
+        { "text": "Hi Tom! Let's meet on Friday at 4 p.m. The café is between the bank and the bookshop. I can wait in front of the door. See you!" }
+      ] },
+      "question": "Where is the café?",
+      "choices": ["Between the bank and the bookshop.", "Behind the bank.", "In front of the bookshop.", "Next to the post office."], "answer": 0,
+      "whyNot": { "1": "ข้อความไม่ได้บอกว่าร้านอยู่ข้างหลังธนาคาร", "2": "ข้อความใช้ in front of กับประตูร้าน (ที่ที่เพื่อนจะรอ) ไม่ได้บอกว่าร้านอยู่หน้าร้านหนังสือ", "3": "ข้อความไม่ได้พูดถึงไปรษณีย์เลย" },
+      "explainTh": "The café is between the bank and the bookshop. — between A and B = อยู่ระหว่างสองที่"
+    },
+    {
+      "id": "a1-prepositions-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกว่าของในห้องของคุณอยู่ตรงไหน (Write 3 sentences about where things are in your room.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(in|on|under|next to|behind|in front of|between)\\s+(the|my|a|an|your|his|her|our)\\b", "flags": "i", "msgTh": "ใช้บุพบทบอกตำแหน่ง เช่น on the desk, under my bed, next to the window" }
+      ],
+      "sample": "My bed is next to the window. My books are on the desk. My cat often sleeps under my bed.",
+      "explainTh": "บอกตำแหน่ง: Subject + be + preposition + the/my + noun (next to the window, on the desk, under my bed)"
+    }
+  ]
+}

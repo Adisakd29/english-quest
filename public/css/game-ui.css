@@ -1,0 +1,288 @@
+/* =====================================================================
+   v1.26.0 Game UI Design System — Design Tokens + Components (ใช้ได้ทุกธีม)
+   โหลดหลังไฟล์ธีมทั้งหมด · ธีมเทศกาลปรับค่าได้ผ่านตัวแปร --g-* (ไม่ต้องเขียน component ใหม่)
+
+   Tokens:   ระยะห่าง --g-s1..s6 · มุมโค้ง --g-r-sm/md/lg/xl · ตัวอักษร --g-fs-* · เงา --g-shadow-* · ชั้นซ้อน --z-*
+   Components (คลาส):
+     GameCard         .g-card                 การ์ดพื้นแผ่นเกม (ขอบทอง/เรืองแสงอ่อน)
+     QuestCard        .gq (+ .gq-gem .gq-bar .gq-rw .gq-claim .gq-state)   lobby.js questCard()
+     RewardCard       .g-reward               แผ่นรางวัล (ไอคอน + จำนวน)
+     EventBanner      .g-banner               แบนเนอร์กิจกรรม/เทศกาล
+     GameButton       .g-btn (.is-primary .is-secondary .is-ghost)   กดแล้วยุบ · hover ยกขึ้น · ประกาย
+     ProgressBar      .g-progress > i         แถบไล่สี + ประกายวิ่ง
+     CurrencyBadge    .g-currency             Coin / Token
+     SeasonalBackground  .hl-bg / .hl-hero-*   ฉาก Hero ตามเทศกาล
+     GlobalSnowOverlay   #xm-snow (snow-fx.js) · SnowCapDecoration (snow-caps.css)
+     FloatingMusicControl #xm-player (audio.js · ฝังแถบบนบนมือถือ)
+     RewardClaimModal    .gq-fly + .is-celebrate (แอนิเมชันรับรางวัล lobby.js rewardBurst)
+   ลำดับชั้น (Overlay Priority):  หิมะพื้นหลัง -1 < เนื้อหา < หิมะหน้า 40 < แถบบน 50 < แถบแชทย่อ 55 < เมนูล่าง 60
+                                 < Popup (PWA/กิจกรรม) 900 < Modal 2000 < Toast 2100
+   ===================================================================== */
+:root {
+  --g-s1: 4px; --g-s2: 8px; --g-s3: 12px; --g-s4: 16px; --g-s5: 24px; --g-s6: 32px;
+  --g-r-sm: 10px; --g-r-md: 14px; --g-r-lg: 18px; --g-r-xl: 24px;
+  --g-fs-xs: .72rem; --g-fs-sm: .82rem; --g-fs-md: .92rem; --g-fs-lg: 1.08rem; --g-fs-xl: clamp(1.2rem, 2.2vw + .7rem, 1.65rem);
+  --g-ease: cubic-bezier(.2, .8, .2, 1); --g-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --z-snow-bg: -1; --z-snow-fg: 40; --z-hud: 50; --z-chatbar: 55; --z-nav: 60; --z-popup: 900; --z-modal: 2000; --z-toast: 2100;
+  /* แผ่นเกม (ธีมสว่าง) */
+  --g-plate: #ffffff; --g-plate-2: #f4f5fb; --g-edge: rgba(79, 70, 229, .16); --g-edge-hi: rgba(255, 255, 255, .9);
+  --g-ink: var(--color-text, #1f2340); --g-sub: var(--color-text-muted, #646a86);
+  --g-gold: #d9a43c; --g-gold-hi: #ffe7a3; --g-accent: var(--color-primary, #4f46e5);
+  --g-shadow-1: 0 2px 10px rgba(20, 24, 60, .07); --g-shadow-2: 0 10px 28px rgba(20, 24, 60, .14);
+  --g-track: rgba(79, 70, 229, .12);
+}
+:root[data-theme="dark"], :root[data-skin] {
+  --g-plate: rgba(28, 30, 58, .92); --g-plate-2: rgba(255, 255, 255, .04); --g-edge: rgba(255, 255, 255, .12); --g-edge-hi: rgba(255, 255, 255, .16);
+  --g-shadow-1: 0 4px 16px rgba(0, 0, 0, .28); --g-shadow-2: 0 14px 34px rgba(0, 0, 0, .42); --g-track: rgba(255, 255, 255, .1);
+}
+:root[data-skin="christmas"] { --g-plate: rgba(17, 36, 64, .94); --g-edge: rgba(230, 194, 106, .3); --g-gold: #e6c26a; --g-accent: #e0575a; }
+:root[data-skin="loykrathong"] { --g-edge: rgba(255, 210, 122, .3); --g-gold: #ffd27a; }
+:root[data-skin="halloween"] { --g-edge: rgba(255, 140, 60, .32); --g-gold: #ff9a3d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]):not([data-skin]) {
+  --g-plate: rgba(28, 30, 58, .92); --g-plate-2: rgba(255, 255, 255, .04); --g-edge: rgba(255, 255, 255, .12); --g-edge-hi: rgba(255, 255, 255, .16);
+  --g-shadow-1: 0 4px 16px rgba(0, 0, 0, .28); --g-shadow-2: 0 14px 34px rgba(0, 0, 0, .42); --g-track: rgba(255, 255, 255, .1); } }
+
+/* ---------- ชั้นซ้อน (ใช้ token เดียวกันทั้งแอป) ---------- */
+#hud { z-index: var(--z-hud); }
+#bottom-nav { z-index: var(--z-nav); }
+.xm-game { z-index: var(--z-modal); }
+#toast-container { z-index: var(--z-toast); }
+/* แชทโลกย่อ: v1.26.3 (เจ้าของสั่ง 25 พ.ย.) กลับเป็นแถบลอยเหนือเมนูล่างเหมือนเดิม (public/css/worldchat.css · ≤1023px)
+   ปุ่มเพลงคริสต์มาสอยู่ในแถบบนแล้ว จึงไม่ทับกันอีก */
+
+/* ---------- GameButton ---------- */
+.g-btn { --b1: #ffe08f; --b2: #ffbf3c; --b3: #c98a0b; --bi: #3a2400;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px;
+  font: inherit; font-weight: 800; color: var(--bi); cursor: pointer; position: relative; overflow: hidden; isolation: isolate;
+  background: linear-gradient(180deg, var(--b1), var(--b2)); box-shadow: 0 4px 0 var(--b3), 0 8px 16px rgba(0, 0, 0, .22);
+  transition: transform .14s var(--g-ease), box-shadow .14s var(--g-ease), filter .14s; }
+.g-btn:hover { transform: translateY(-1px); filter: brightness(1.04); }
+.g-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--b3), 0 3px 8px rgba(0, 0, 0, .2); }
+.g-btn::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, .55) 45%, transparent 60%); transform: translateX(-120%); }
+.g-btn:hover::after { animation: g-shine .8s var(--g-ease); }
+.g-btn.is-secondary { --b1: #7a6cff; --b2: #5b4ce6; --b3: #3b2fb0; --bi: #fff; }
+.g-btn.is-ghost { background: var(--g-plate-2); color: var(--g-ink); box-shadow: inset 0 0 0 1px var(--g-edge); }
+.g-btn:focus-visible { outline: 3px solid var(--g-gold-hi); outline-offset: 2px; }
+@keyframes g-shine { to { transform: translateX(120%); } }
+
+/* ---------- GameCard / RewardCard / EventBanner / Currency / Progress ---------- */
+.g-card { background: linear-gradient(180deg, var(--g-plate), var(--g-plate)); border: 1px solid var(--g-edge); border-radius: var(--g-r-lg); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+.g-reward { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--g-plate-2); border: 1px solid var(--g-edge); font-weight: 800; }
+.g-banner { border-radius: var(--g-r-xl); overflow: hidden; position: relative; box-shadow: var(--g-shadow-2); }
+.g-currency { display: inline-flex; align-items: center; gap: 6px; font-weight: 900; font-variant-numeric: tabular-nums; }
+.g-progress { display: block; height: 8px; border-radius: 99px; background: var(--g-track); overflow: hidden; position: relative; }
+.g-progress > i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--g-accent), #8b7bff); transition: width .6s var(--g-ease); }
+
+/* =====================================================================
+   หน้าแรก: แถบสถานะแบบ HUD เกม
+   ===================================================================== */
+.hl-chip { background: linear-gradient(180deg, var(--g-plate), var(--g-plate)); border-color: var(--g-edge); box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi);
+  transition: transform .14s var(--g-ease), border-color .14s, box-shadow .14s; }
+.hl-chip:hover { transform: translateY(-1px); border-color: var(--g-gold); }
+.hl-lvring { width: 50px; height: 50px; background: conic-gradient(var(--g-gold) calc(var(--p) * 1%), var(--g-track) 0); box-shadow: 0 0 0 2px var(--g-plate), 0 0 14px rgba(230, 180, 80, .25); }
+.hl-lvring > span { width: 40px; height: 40px; background: radial-gradient(circle at 35% 30%, #fff7dc, #f1cf78 55%, #c9952f); }
+.hl-lvring small { color: #6b4a07; }
+.hl-lvring b { color: #3a2400; font-size: 1.05rem; }
+.hl-exp { height: 8px; background: var(--g-track); }
+.hl-exp > span { background: linear-gradient(90deg, #ffcf5a, #ff9d3d 60%, #ff7a59); position: relative; overflow: hidden; }
+.hl-exp > span::after { content: ''; position: absolute; inset: 0; background: linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, .6) 45%, transparent 70%); animation: g-bar-shine 3.2s ease-in-out infinite; }
+@keyframes g-bar-shine { 0% { transform: translateX(-100%); } 60%, 100% { transform: translateX(140%); } }
+.hl-coin b { font-size: 1.05rem; }
+.hl-coin-plus { background: linear-gradient(180deg, #ffd56a, #f0a92a); color: #3a2400; box-shadow: 0 2px 0 #b9790b; }
+.hl-coin.is-bump, .hl-lvring.is-bump { animation: g-bump .5s var(--g-spring); }
+@keyframes g-bump { 0% { transform: scale(1); } 40% { transform: scale(1.16); } 100% { transform: scale(1); } }
+
+/* =====================================================================
+   Hero Scene (เวทีตัวละคร) — ฉากหมู่บ้านหิมะเรนเดอร์ 3D แทนพื้นไล่สีล้วน
+   ค่าเริ่มต้น/ธีมปกติ/คริสต์มาส: หมู่บ้าน · ธีมเทศกาลอื่น (ลอยกระทง/ฮาโลวีน/ดาราศาสตร์) คงฉากของธีมเดิม
+   ===================================================================== */
+.hl-center { --hero-h: 560px; }
+.hl-hero-scene, .hl-hero-glow, .hl-hero-floor, .hl-hero-garland, .hl-hero-wreath, .hl-hero-tree, .hl-hero-gifts { position: absolute; pointer-events: none; display: none; }
+:root:not([data-skin]) .hl-hero-scene, :root[data-skin="christmas"] .hl-hero-scene {
+  display: block; inset: 0; background: url("/img/hero/village.webp") center 58% / cover no-repeat;
+  filter: saturate(.95) brightness(.82);
+}
+:root:not([data-skin]) .hl-hero-scene::after, :root[data-skin="christmas"] .hl-hero-scene::after { content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(6, 10, 30, .55) 0%, rgba(6, 10, 30, .12) 32%, rgba(6, 10, 30, 0) 55%, rgba(6, 12, 34, .45) 100%),
+    radial-gradient(70% 55% at 50% 62%, transparent 40%, rgba(4, 8, 24, .45) 100%); }
+:root:not([data-skin]) .hl-bg-rays, :root[data-skin="christmas"] .hl-bg-rays { opacity: .35; }
+:root:not([data-skin]) .hl-hero-glow, :root[data-skin="christmas"] .hl-hero-glow { display: block; left: 50%; bottom: 6%; width: 120%; height: 55%; transform: translateX(-50%);
+  background: radial-gradient(closest-side, rgba(255, 196, 120, .38), rgba(255, 160, 80, .12) 55%, transparent 75%); mix-blend-mode: screen; }
+/* แสงตกกระทบพื้นหิมะ + เงาสะท้อนอ่อน */
+:root:not([data-skin]) .hl-hero-floor, :root[data-skin="christmas"] .hl-hero-floor { display: block; left: 0; right: 0; bottom: 0; height: 22%;
+  background: radial-gradient(60% 60% at 50% 20%, rgba(255, 214, 150, .28), transparent 70%), linear-gradient(180deg, transparent, rgba(8, 14, 40, .35)); }
+/* คริสต์มาส: ต้นสน 3D · ของขวัญ · พวงมาลัย · พวงหรีด */
+:root[data-skin="christmas"] .hl-hero-tree { display: block; bottom: 70px; width: 40%; max-width: 230px; height: auto; filter: drop-shadow(0 10px 14px rgba(0, 0, 0, .35)); }
+:root[data-skin="christmas"] .hl-hero-tree.is-l { left: -7%; }
+:root[data-skin="christmas"] .hl-hero-tree.is-r { right: -7%; }
+:root[data-skin="christmas"] .hl-hero-gifts { display: block; bottom: 2%; width: 30%; max-width: 190px; height: auto; filter: drop-shadow(0 6px 8px rgba(0, 0, 0, .3)); }
+:root[data-skin="christmas"] .hl-hero-gifts.is-l { left: -2%; }
+:root[data-skin="christmas"] .hl-hero-gifts.is-r { right: -2%; }
+:root[data-skin="christmas"] .hl-hero-garland { display: block; left: 0; right: 0; top: -4px; height: 64px; background: url("/img/snow/garland.svg") center top / auto 64px repeat-x; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .35)); }
+:root[data-skin="christmas"] .hl-hero-wreath { display: none; }
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-skin="christmas"] .hl-hero-garland { animation: g-garland 4s ease-in-out infinite; }
+  @keyframes g-garland { 0%, 100% { filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .35)) brightness(1); } 50% { filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .35)) brightness(1.12); } }
+}
+.hl-hello, .hl-stage, .hl-hint, .hl-stage-actions { position: relative; z-index: 1; }
+.hl-hello { padding-top: 6px; }
+:root[data-skin="christmas"] .hl-hello { padding-top: 34px; }
+.hl-greet { letter-spacing: .01em; text-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 6px 18px rgba(0, 0, 0, .45); }
+
+/* มาสคอตจิ้งจอก + กล่องคำพูด (มุมล่างซ้ายของฉาก) */
+.hl-hero-fox { position: absolute; left: 10px; bottom: 64px; z-index: 2; width: 74px; height: 74px; pointer-events: none; filter: drop-shadow(0 6px 10px rgba(0, 0, 0, .35)); }
+.hl-hero-fox .mascot, .hl-fox-art svg { width: 74px; height: 74px; display: block; }
+.hl-fox-hat { display: none; position: absolute; left: 14px; top: -14px; width: 46px; height: 34px; transform: rotate(-12deg); z-index: 1; }
+:root[data-skin="christmas"] .hl-fox-hat { display: block; }
+@media (prefers-reduced-motion: no-preference) { .hl-hero-fox { animation: g-bob 3.6s ease-in-out infinite; } @keyframes g-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } } }
+:root[data-skin="halloween"] .hl-hero-fox, :root[data-skin="astronomy"] .hl-hero-fox { display: none; }
+
+/* แท่นยืน: วงแสงอุ่นบนหิมะ */
+:root:not([data-skin]) .hl-stage::before, :root[data-skin="christmas"] .hl-stage::before { background: radial-gradient(closest-side, rgba(255, 226, 170, .55), rgba(255, 190, 110, .18) 60%, transparent 76%); }
+:root:not([data-skin]) .hl-stage::after, :root[data-skin="christmas"] .hl-stage::after { border-color: rgba(255, 236, 190, .5); box-shadow: 0 0 18px rgba(255, 210, 140, .35); }
+
+/* =====================================================================
+   QuestCard (RPG)
+   ===================================================================== */
+.gq-tabs { display: flex; gap: 6px; padding: 3px; border-radius: 999px; background: var(--g-plate-2); border: 1px solid var(--g-edge); }
+.gq-tabs[hidden] { display: none; }
+.gq-tab { flex: 1; min-height: 44px; border: 0; border-radius: 999px; background: transparent; color: var(--g-sub); font: inherit; font-size: var(--g-fs-sm); font-weight: 800; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; justify-content: center; }
+.gq-tab small { color: #ff6b6b; font-size: .7rem; }
+.gq-tab.active { background: linear-gradient(180deg, #ffe08f, #ffbf3c); color: #3a2400; box-shadow: 0 2px 0 #c98a0b; }
+.gq-tab .gq-flake { width: 14px; height: 14px; }
+.gq { list-style: none; position: relative; display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 10px; padding: 10px 10px 10px 10px; border-radius: var(--g-r-md);
+  background: linear-gradient(180deg, var(--g-plate-2), transparent 140%), var(--g-plate); border: 1px solid var(--g-edge); box-shadow: inset 0 1px 0 var(--g-edge-hi); overflow: hidden; }
+.gq.is-ready { border-color: var(--g-gold); box-shadow: 0 0 0 1px rgba(230, 194, 106, .35), 0 6px 18px rgba(230, 170, 60, .18), inset 0 1px 0 var(--g-edge-hi); }
+.gq.is-ready::before { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, transparent 35%, rgba(255, 236, 180, .22) 50%, transparent 65%); animation: g-card-shine 3s ease-in-out infinite; }
+@keyframes g-card-shine { 0% { transform: translateX(-100%); } 55%, 100% { transform: translateX(100%); } }
+.gq.is-claimed { opacity: .78; }
+.gq.is-claimed .gq-title { text-decoration: none; }
+.gq-gem { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; color: #fff; position: relative;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .45), inset 0 -3px 0 rgba(0, 0, 0, .18), 0 4px 10px rgba(0, 0, 0, .2); }
+.gq-gem::after { content: ''; position: absolute; left: 6px; top: 5px; width: 14px; height: 8px; border-radius: 50%; background: rgba(255, 255, 255, .45); filter: blur(.5px); }
+.gq-gem .icon { width: 24px; height: 24px; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .25)); }
+.gem-blue { background: linear-gradient(160deg, #6fb6ff, #3a6df0 60%, #2a48b8); }
+.gem-violet { background: linear-gradient(160deg, #c49bff, #7b5cf0 60%, #5338c0); }
+.gem-red { background: linear-gradient(160deg, #ff9a7a, #e8513b 60%, #b52d22); }
+.gem-xmas { background: linear-gradient(160deg, #ff8a8a, #d23a46 55%, #8e1f2a); }
+.gq.is-claimed .gq-gem { background: linear-gradient(160deg, #7fe0a8, #2fae68 60%, #1e7c4a); }
+.gq-body { display: grid; gap: 5px; min-width: 0; }
+.gq-head { display: flex; gap: 8px; align-items: flex-start; justify-content: space-between; }
+.gq-title { font-size: var(--g-fs-md); font-weight: 800; line-height: 1.3; color: var(--g-ink); overflow-wrap: anywhere; }
+.gq-desc { font-size: var(--g-fs-xs); color: var(--g-sub); line-height: 1.35; }
+.gq-state { flex: none; font-size: .7rem; font-weight: 800; padding: 2px 8px; border-radius: 999px; white-space: nowrap; display: inline-flex; gap: 4px; align-items: center; }
+.gq-state.is-progress { background: var(--g-track); color: var(--g-sub); }
+.gq-state.is-ready { background: rgba(255, 196, 70, .2); color: #b37400; }
+:root[data-theme="dark"] .gq-state.is-ready, :root[data-skin] .gq-state.is-ready { color: #ffd27a; }
+.gq-state.is-claimed { background: rgba(47, 174, 104, .16); color: #1e8a50; }
+:root[data-theme="dark"] .gq-state.is-claimed, :root[data-skin] .gq-state.is-claimed { color: #7fe0a8; }
+.gq-prog { display: flex; align-items: center; gap: 8px; }
+.gq-bar { flex: 1; height: 8px; border-radius: 99px; background: var(--g-track); overflow: hidden; }
+.gq-bar > i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #6fb6ff, #7b5cf0); transition: width .6s var(--g-ease); }
+.gq.is-ready .gq-bar > i, .gq.is-claimed .gq-bar > i { background: linear-gradient(90deg, #ffcf5a, #ff9d3d); }
+.gq-num { font-size: var(--g-fs-xs); font-weight: 800; color: var(--g-sub); font-variant-numeric: tabular-nums; min-width: 38px; text-align: right; }
+.gq-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.gq-rws { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+.gq-rw { display: inline-flex; align-items: center; gap: 3px; font-size: .74rem; font-weight: 700; padding: 2px 8px 2px 6px; border-radius: 999px; background: var(--g-plate-2); border: 1px solid var(--g-edge); color: var(--g-ink); }
+.gq-rw b { font-weight: 900; }
+.gq-rw-exp b { color: #e07a1f; }
+:root[data-theme="dark"] .gq-rw-exp b, :root[data-skin] .gq-rw-exp b { color: #ffcf5a; }
+.gq-coin { width: 15px; height: 15px; }
+.gq-flake { width: 14px; height: 14px; color: #7cc7ff; }
+.gq-claim { min-height: 44px; padding: 0 14px; border: 0; border-radius: 999px; font: inherit; font-size: var(--g-fs-sm); font-weight: 900; cursor: pointer; display: inline-flex; gap: 6px; align-items: center;
+  color: #3a2400; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 3px 0 #c98a0b, 0 6px 12px rgba(201, 138, 11, .3); transition: transform .12s var(--g-ease); }
+.gq-claim:active { transform: translateY(2px); box-shadow: 0 1px 0 #c98a0b; }
+.gq-claim[disabled] { opacity: .6; cursor: progress; }
+@media (prefers-reduced-motion: no-preference) { .gq.is-ready .gq-claim { animation: g-pulse 2s ease-in-out infinite; } @keyframes g-pulse { 0%, 100% { box-shadow: 0 3px 0 #c98a0b, 0 0 0 0 rgba(255, 191, 60, .45); } 50% { box-shadow: 0 3px 0 #c98a0b, 0 0 0 7px rgba(255, 191, 60, 0); } } }
+.gq-go { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--g-edge); background: var(--g-plate-2); color: var(--g-ink); display: grid; place-items: center; cursor: pointer; }
+.gq-claim:focus-visible, .gq-go:focus-visible, .gq-tab:focus-visible { outline: 3px solid var(--g-gold); outline-offset: 2px; }
+/* รับรางวัล: ประกาย + ยุบ-ขยาย */
+.gq.is-celebrate { animation: g-pop .6s var(--g-spring); }
+.gq.is-celebrate::after { content: ''; position: absolute; inset: -40%; pointer-events: none; background: conic-gradient(from 0deg, transparent 0 20deg, rgba(255, 220, 140, .35) 30deg, transparent 40deg 80deg, rgba(255, 220, 140, .3) 95deg, transparent 105deg 160deg, rgba(255, 220, 140, .3) 175deg, transparent 185deg 250deg, rgba(255, 220, 140, .3) 265deg, transparent 275deg);
+  animation: g-rays 1.2s ease-out forwards; }
+@keyframes g-pop { 0% { transform: scale(1); } 35% { transform: scale(1.035); } 100% { transform: scale(1); } }
+@keyframes g-rays { from { transform: rotate(0) scale(.6); opacity: 1; } to { transform: rotate(60deg) scale(1.2); opacity: 0; } }
+.gq-fly { position: fixed; left: 0; top: 0; z-index: var(--z-toast); pointer-events: none; width: 18px; height: 18px; margin: -9px 0 0 -9px; }
+.gq-fly.is-coin img { width: 18px; height: 18px; display: block; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .3)); }
+.gq-fly.is-exp { border-radius: 50%; background: radial-gradient(circle, #fff6d0, #ffcf5a 45%, rgba(255, 160, 60, 0) 72%); width: 16px; height: 16px; }
+@media (prefers-reduced-motion: reduce) { .gq.is-ready::before, .hl-exp > span::after { animation: none; } .gq.is-celebrate, .gq.is-celebrate::after { animation: none; } }
+
+/* =====================================================================
+   มือถือ: จัดลำดับใหม่ (ไม่ใช่ย่อจากเดสก์ท็อป) — สถานะ → แบนเนอร์กิจกรรม + World Raid (v1.27.1 กลับไว้ด้านบน) → ฉาก Hero → เควสต์ → เรียนต่อ/แข่ง
+   ===================================================================== */
+@media (max-width: 699px) {
+  .hl-main { grid-template-areas: "events" "center" "left" "right"; }
+  .hl-center { min-height: 0; padding: 12px 10px 12px; border-radius: 22px; }
+  .hl-stage { width: min(230px, 62vw); }
+  .hl-hero-fox { width: 56px; height: 56px; left: 6px; bottom: 58px; }
+  .hl-hero-fox .mascot, .hl-fox-art svg { width: 56px; height: 56px; }
+  .hl-fox-hat { width: 36px; height: 26px; left: 10px; top: -10px; }
+  :root[data-skin="christmas"] .hl-hero-tree { width: 46%; bottom: 64px; }
+  :root[data-skin="christmas"] .hl-hero-tree.is-l { left: -16%; }
+  :root[data-skin="christmas"] .hl-hero-tree.is-r { right: -16%; }
+  :root[data-skin="christmas"] .hl-hero-gifts { width: 34%; }
+  :root[data-skin="christmas"] .hl-hero-garland { height: 46px; background-size: auto 46px; }
+  :root[data-skin="christmas"] .hl-hello { padding-top: 22px; }
+  .hl-greet { font-size: 1.15rem; }
+  .hl-left { gap: 12px; }
+  .gq { grid-template-columns: 40px minmax(0, 1fr); padding: 9px; }
+  .gq-gem { width: 40px; height: 40px; border-radius: 12px; }
+  .gq-gem .icon { width: 21px; height: 21px; }
+}
+@media (min-width: 700px) and (max-width: 1099px) {
+  .hl-main { grid-template-areas: "events events" "center center" "left right"; }
+}
+/* มาสคอตในฉาก Hero: ใช้สีจิ้งจอกต้นฉบับเสมอ (ธีมเทศกาลบางธีมเปลี่ยนตัวแปรสีภาพประกอบ) */
+.hl-hero-fox { --il-coral: #FF7A3D; --il-coral-d: #D9541C; --il-paper: #FFFFFF; --il-ink: #1F2340; --il-amber: #FBBF24; --il-amber-d: #D99A0B; --il-indigo: #4F46E5; --il-teal: #14B8A6; --il-teal-d: #0E8C7E; --il-lilac-d: #A5B4FC; --il-ground: rgba(0, 0, 0, .25); }
+/* Card unlock / เปิดหน้าแรก: การ์ดค่อย ๆ ลอยขึ้นทีละใบ (ครั้งแรกเท่านั้น) */
+@media (prefers-reduced-motion: no-preference) {
+  .hl-intro .hl-bar > *, .hl-intro .hl-center, .hl-intro .hl-left > *, .hl-intro .hl-right > * { animation: g-rise .55s var(--g-ease) both; }
+  .hl-intro .hl-bar > :nth-child(2) { animation-delay: .04s; } .hl-intro .hl-bar > :nth-child(3) { animation-delay: .08s; } .hl-intro .hl-bar > :nth-child(4) { animation-delay: .12s; }
+  .hl-intro .hl-center { animation-delay: .1s; }
+  .hl-intro .hl-left > :nth-child(1), .hl-intro .hl-right > :nth-child(1) { animation-delay: .16s; }
+  .hl-intro .hl-left > :nth-child(2), .hl-intro .hl-right > :nth-child(2) { animation-delay: .22s; }
+  .hl-intro .hl-left > :nth-child(3), .hl-intro .hl-right > :nth-child(3) { animation-delay: .28s; }
+  .hl-intro .hl-left > :nth-child(n+4), .hl-intro .hl-right > :nth-child(n+4) { animation-delay: .34s; }
+  @keyframes g-rise { from { opacity: 0; transform: translateY(14px) scale(.985); } to { opacity: 1; transform: none; } }
+  /* ปุ่มหลัก: กดยุบ + ประกายเมื่อชี้ */
+  .hl-act, .hl-ranked, .hl-tile, .home-cta { transition: transform .14s var(--g-ease), box-shadow .14s var(--g-ease), filter .14s; }
+  .hl-act:hover, .hl-tile:hover, .hl-ranked:hover { transform: translateY(-2px); filter: brightness(1.04); }
+}
+
+/* กล่องยืนยันอีเมล: แผ่นเกมเดียวกับการ์ดอื่น (ไอคอนโล่ · ปุ่มทอง) แทนกล่องเหลืองแบบเว็บทั่วไป */
+.verify-banner { position: relative; border-radius: var(--g-r-lg) !important; padding: 12px 14px 12px 58px !important; color: var(--g-ink) !important;
+  background: linear-gradient(180deg, var(--g-plate), var(--g-plate)) !important; border: 1px solid var(--g-gold) !important; box-shadow: var(--g-shadow-1), inset 0 1px 0 var(--g-edge-hi); }
+.verify-banner::before { content: ''; position: absolute; left: 12px; top: 50%; width: 34px; height: 34px; margin-top: -17px; border-radius: 10px;
+  background: linear-gradient(160deg, #ffe08f, #f0a92a) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233a2400' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E") center / 20px no-repeat;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6), 0 3px 8px rgba(201, 138, 11, .3); }
+.verify-banner span { font-weight: 700; line-height: 1.4; text-wrap: pretty; }
+.verify-banner .mini-btn { border: 0; border-radius: 999px; padding: 0 16px; font-weight: 800; color: #3a2400; background: linear-gradient(180deg, #ffe08f, #ffbf3c); box-shadow: 0 3px 0 #c98a0b; cursor: pointer; }
+/* การตัดบรรทัดภาษาไทย/หัวข้อ: ไม่ทิ้งคำเดียวท้ายบรรทัด */
+.hl-greet, .hl-sub, .gq-title, .gq-desc, .home-card-title, .hl-panel-title { text-wrap: balance; }
+
+/* ประกายดาวบนยอดต้นสนในฉาก Hero (ตำแหน่งคำนวณจากขนาดต้นไม้จริงด้วย container units) */
+.hl-center { container-type: inline-size; }
+.hl-hero-star { display: none; position: absolute; width: 46px; height: 46px; margin: -23px 0 0 -23px; pointer-events: none; z-index: 0;
+  background: radial-gradient(circle, rgba(255, 244, 200, .95) 0 6%, rgba(255, 214, 120, .55) 14%, rgba(255, 190, 90, 0) 60%),
+    conic-gradient(from 0deg, transparent 0 40deg, rgba(255, 236, 180, .7) 45deg, transparent 50deg 130deg, rgba(255, 236, 180, .7) 135deg, transparent 140deg 220deg, rgba(255, 236, 180, .7) 225deg, transparent 230deg 310deg, rgba(255, 236, 180, .7) 315deg, transparent 320deg);
+  -webkit-mask: radial-gradient(circle, #000 30%, transparent 70%); mask: radial-gradient(circle, #000 30%, transparent 70%); mix-blend-mode: screen; }
+:root[data-skin="christmas"] .hl-hero-star { display: block; top: auto; bottom: calc(70px + min(40cqw, 230px) * 1.2); }
+:root[data-skin="christmas"] .hl-hero-star.is-l { left: calc(-7cqw + min(40cqw, 230px) * .5); }
+:root[data-skin="christmas"] .hl-hero-star.is-r { left: calc(107cqw - min(40cqw, 230px) * .5); }
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-skin="christmas"] .hl-hero-star { animation: g-star 2.8s ease-in-out infinite; }
+  :root[data-skin="christmas"] .hl-hero-star.is-r { animation-delay: -1.3s; }
+  @keyframes g-star { 0%, 100% { transform: scale(.85) rotate(0deg); opacity: .75; } 50% { transform: scale(1.15) rotate(20deg); opacity: 1; } }
+}
+@media (max-width: 699px) {
+  :root[data-skin="christmas"] .hl-hero-star { bottom: calc(64px + 46cqw * 1.2); }
+  :root[data-skin="christmas"] .hl-hero-star.is-l { left: calc(-16cqw + 46cqw * .5); }
+  :root[data-skin="christmas"] .hl-hero-star.is-r { left: calc(116cqw - 46cqw * .5); }
+}
+/* Seasonal Banner: การ์ดคริสต์มาสหน้าแรก + พวงหรีด + พวงมาลัย */
+:root[data-skin="christmas"] .xm-lobby { position: relative; overflow: visible; }
+:root[data-skin="christmas"] .xm-lobby::before { content: ''; position: absolute; left: 0; right: 0; top: -10px; height: 16px; pointer-events: none; border-radius: 18px 18px 0 0;
+  background: url("/img/snow/cap-pile-dark.svg") 0 0 / 1200px 16px repeat-x; filter: drop-shadow(0 -1px 1px rgba(2, 6, 16, .25)); }
+:root[data-skin="christmas"] .xm-lobby::after { content: ''; position: absolute; left: auto; right: -8px; top: -16px; width: 64px; height: 64px; pointer-events: none; z-index: 1;
+  background: url("/img/snow/wreath.svg") center / contain no-repeat; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .35)); }
+:root[data-skin="christmas"] .xm-lobby .xm-tok { margin-right: 50px; }

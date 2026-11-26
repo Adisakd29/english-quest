@@ -1,0 +1,1521 @@
+{
+  "exam": "onet6",
+  "setId": "ON6-S2",
+  "title": "O-NET ม.6 ชุดฝึกที่ 2",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "communication",
+      "groups": [
+        {
+          "id": "ON6-S2-G01",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Visiting Ton in hospital",
+          "dialogue": [
+            {
+              "speaker": "Waan",
+              "text": "Hi, Ton! ___1___"
+            },
+            {
+              "speaker": "Ton",
+              "text": "Much better, thanks. The doctor says I can go home on Friday."
+            },
+            {
+              "speaker": "Waan",
+              "text": "That's great news. I brought you some oranges and the notes from our chemistry class."
+            },
+            {
+              "speaker": "Ton",
+              "text": "Oh, you didn't have to. ___2___"
+            },
+            {
+              "speaker": "Waan",
+              "text": "It's nothing. You'd do the same for me."
+            },
+            {
+              "speaker": "Ton",
+              "text": "By the way, how long can you stay? Visiting hours end at seven."
+            },
+            {
+              "speaker": "Waan",
+              "text": "___3___ I'll come again on Wednesday, though."
+            },
+            {
+              "speaker": "Ton",
+              "text": "OK. See you then, and say hi to everyone at school."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S2-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "How are you feeling today?",
+                "How often do you come here?",
+                "Who is your doctor here?",
+                "When did you get here?",
+                "What did you have for lunch?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ton ตอบว่า \"Much better, thanks.\" (ดีขึ้นมากแล้ว) จึงต้องเป็นคำถามถามอาการ How are you feeling today? ตัวเลือกอื่นถามเรื่องอาหาร ความถี่ หมอ หรือเวลา ซึ่งไม่เข้ากับคำตอบ"
+            },
+            {
+              "id": "ON6-S2-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "How kind of you!",
+                "It doesn't matter.",
+                "Don't mention it.",
+                "I'm afraid I can't.",
+                "Help yourself."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Ton กำลังขอบคุณที่ Waan นำของมาเยี่ยม และ Waan ตอบรับคำขอบคุณว่า \"It's nothing.\" จึงต้องเป็นคำขอบคุณ How kind of you! ส่วน Don't mention it. เป็นคำตอบรับคำขอบคุณ ไม่ใช่คำขอบคุณเอง"
+            },
+            {
+              "id": "ON6-S2-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Since last Monday, I think.",
+                "Every day at seven o'clock.",
+                "By bus, because it's cheaper.",
+                "Not long, I'm afraid.",
+                "For two weeks last year."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "คำถาม how long can you stay? ถามว่าจะอยู่ได้นานเท่าไร และประโยคต่อมา \"I'll come again on Wednesday, though.\" แสดงว่าอยู่ได้ไม่นาน จึงตอบ Not long, I'm afraid. ส่วน Since... และ For two weeks last year เป็นเรื่องอดีต"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G02",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At a clothes shop",
+          "dialogue": [
+            {
+              "speaker": "Assistant",
+              "text": "Good afternoon. ___1___"
+            },
+            {
+              "speaker": "Nat",
+              "text": "Yes, please. I bought this shirt here yesterday, but it's too small for me."
+            },
+            {
+              "speaker": "Assistant",
+              "text": "I see. Have you got the receipt?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "___2___"
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Thank you. Would you like a bigger size or your money back?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "___3___ Do you have it in large?"
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Let me check. Yes, here you are. You can try it on over there."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S2-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Can I help you?",
+                "How much is this?",
+                "What's your name?",
+                "Are you ready to order?",
+                "Can you help me?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานร้านเสนอความช่วยเหลือลูกค้า และ Nat ตอบว่า \"Yes, please.\" จึงต้องเป็น Can I help you? ส่วน Can you help me? เป็นคำพูดของลูกค้า และ Are you ready to order? ใช้ในร้านอาหาร"
+            },
+            {
+              "id": "ON6-S2-005",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Never mind.",
+                "Yes, here it is.",
+                "No, thanks. I'm just looking.",
+                "Yes, I'd love to.",
+                "No, it isn't."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "พนักงานถามว่ามีใบเสร็จไหม แล้วตอบว่า \"Thank you.\" แสดงว่า Nat ยื่นใบเสร็จให้ จึงตอบ Yes, here it is. ตัวเลือกอื่นไม่ได้ตอบคำถามเรื่องใบเสร็จ"
+            },
+            {
+              "id": "ON6-S2-006",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'd like my money back, please.",
+                "I'll take both, thanks.",
+                "I'd rather change it, please.",
+                "I've already paid for it.",
+                "It's on sale, isn't it?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Nat ถามต่อว่า \"Do you have it in large?\" แสดงว่าต้องการเปลี่ยนเป็นไซซ์ใหญ่ขึ้น จึงตอบ I'd rather change it ส่วนการขอเงินคืนขัดกับประโยคถัดไป"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G03",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A phone call to a music school",
+          "dialogue": [
+            {
+              "speaker": "Receptionist",
+              "text": "Good morning, Melody House Music School. ___1___"
+            },
+            {
+              "speaker": "Fern",
+              "text": "Hello, this is Fern Suwannarat. I have a piano lesson at four this afternoon, but I need to move it."
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "No problem. ___2___"
+            },
+            {
+              "speaker": "Fern",
+              "text": "Is Thursday at the same time possible?"
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "Let me see... Sorry, Thursday is full. How about Friday at five?"
+            },
+            {
+              "speaker": "Fern",
+              "text": "___3___ Thank you so much."
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "You're welcome. See you on Friday, Fern."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S2-007",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "How may I help you?",
+                "Sorry, we're closed today.",
+                "Have you finished your homework?",
+                "May I take your order?",
+                "Can I speak to Fern, please?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานรับโทรศัพท์ทักทายแล้วถามว่าจะให้ช่วยอะไร Fern จึงบอกธุระของตน ส่วน May I take your order? ใช้ในร้านอาหาร และ Can I speak to Fern? ไม่สมเหตุผลเพราะ Fern เป็นผู้โทรมาเอง"
+            },
+            {
+              "id": "ON6-S2-008",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Why didn't you come last week?",
+                "How long have you played the piano?",
+                "What time is it now?",
+                "How much does a lesson cost?",
+                "When would you like to come instead?"
+              ],
+              "answer": 4,
+              "skill": "functional_language",
+              "explanationTh": "Fern ตอบว่า \"Is Thursday at the same time possible?\" ซึ่งเป็นการเสนอวันเวลาใหม่ คำถามจึงต้องถามว่าอยากมาวันไหนแทน"
+            },
+            {
+              "id": "ON6-S2-009",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'm busy on Friday.",
+                "I'm afraid not.",
+                "Friday at five is fine.",
+                "That's too bad.",
+                "Sorry, I can't make it."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Fern ขอบคุณ และพนักงานตอบว่า \"See you on Friday\" แสดงว่า Fern ตกลงวันศุกร์ห้าโมงเย็น จึงตอบ Friday at five is fine. ตัวเลือกอื่นเป็นการปฏิเสธหรือแสดงความเสียใจ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G04",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A favour from a neighbour",
+          "dialogue": [
+            {
+              "speaker": "Joe",
+              "text": "Excuse me, Mrs. Lim. ___1___"
+            },
+            {
+              "speaker": "Mrs. Lim",
+              "text": "Of course, Joe. What is it?"
+            },
+            {
+              "speaker": "Joe",
+              "text": "My family is going to Hua Hin this weekend. Could you feed our cat, Mochi, while we're away?"
+            },
+            {
+              "speaker": "Mrs. Lim",
+              "text": "___2___ I love cats. How often does she eat?"
+            },
+            {
+              "speaker": "Joe",
+              "text": "Twice a day, morning and evening. I'll leave her food and our spare key with you."
+            },
+            {
+              "speaker": "Mrs. Lim",
+              "text": "All right. ___3___"
+            },
+            {
+              "speaker": "Joe",
+              "text": "Thanks so much, Mrs. Lim. I owe you one."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S2-010",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Would you like some tea?",
+                "Could I ask you a favour?",
+                "Have we met before?",
+                "Could you say that again?",
+                "Do you need any help?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Mrs. Lim ตอบว่า \"Of course. What is it?\" และ Joe ขอให้ช่วยให้อาหารแมว จึงต้องเป็นการขอความช่วยเหลือ Could I ask you a favour?"
+            },
+            {
+              "id": "ON6-S2-011",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "I'd be happy to.",
+                "No, I don't think so.",
+                "You're welcome.",
+                "I'm afraid I can't.",
+                "That's a pity."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Mrs. Lim บอกต่อว่า \"I love cats.\" และถามว่าแมวกินบ่อยแค่ไหน แสดงว่ายินดีช่วย จึงตอบ I'd be happy to. ตัวเลือกปฏิเสธขัดกับบริบท"
+            },
+            {
+              "id": "ON6-S2-012",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Congratulations on your new cat.",
+                "Don't worry. Just enjoy your trip.",
+                "Please take her with you.",
+                "Sorry, I'm allergic to cats.",
+                "Sorry, I can't hear you."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Mrs. Lim ตกลงรับดูแลแมวแล้ว (All right.) จึงควรบอกให้ Joe สบายใจและเที่ยวให้สนุก ส่วนเรื่องแพ้แมวหรือให้พาแมวไปด้วยขัดกับที่เธอเพิ่งตกลง"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G05",
+          "type": "on_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Planning a group poster",
+          "dialogue": [
+            {
+              "speaker": "Oat",
+              "text": "OK, our poster on recycling is due next Tuesday. ___1___"
+            },
+            {
+              "speaker": "Kaew",
+              "text": "I can find the pictures and print them."
+            },
+            {
+              "speaker": "Oat",
+              "text": "Great. And Pete, can you write the text?"
+            },
+            {
+              "speaker": "Pete",
+              "text": "___2___ I have a football match on Saturday, so I'll do it on Sunday."
+            },
+            {
+              "speaker": "Oat",
+              "text": "That's fine. I'll put everything together on Monday."
+            },
+            {
+              "speaker": "Kaew",
+              "text": "Sorry, Oat, your voice is breaking up on my phone. ___3___"
+            },
+            {
+              "speaker": "Oat",
+              "text": "I said I'll put everything together on Monday."
+            }
+          ],
+          "items": [
+            {
+              "id": "ON6-S2-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Did you finish it yesterday?",
+                "Who wants to do which part?",
+                "How was the football match?",
+                "Why did you choose recycling?",
+                "Where did you buy the poster?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Kaew ตอบว่า \"I can find the pictures...\" ซึ่งเป็นการอาสารับงานส่วนหนึ่ง คำถามจึงต้องเป็นการแบ่งงาน Who wants to do which part?"
+            },
+            {
+              "id": "ON6-S2-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Sure, no problem.",
+                "I've already done it.",
+                "No, I can't write.",
+                "Yes, I did.",
+                "It's up to you."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "Pete รับปากและบอกว่าจะเขียนวันอาทิตย์ จึงตอบรับว่า Sure, no problem. ส่วน I've already done it. ขัดกับ \"I'll do it on Sunday\""
+            },
+            {
+              "id": "ON6-S2-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Who's speaking, please?",
+                "Shall we finish now?",
+                "Could you repeat that, please?",
+                "What does 'poster' mean?",
+                "Could you speak more quietly?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Kaew ได้ยินไม่ชัดเพราะเสียงขาด ๆ หาย ๆ และ Oat พูดซ้ำว่า \"I said...\" จึงต้องเป็นการขอให้พูดซ้ำ Could you repeat that, please?"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G06",
+          "type": "on_notice",
+          "instructionTh": "อ่านป้ายประกาศ แล้วตอบคำถาม",
+          "title": "Museum sign",
+          "text": "WELCOME TO THE BAN NAM SAI FOLK MUSEUM\nOpening hours: Tuesday–Sunday, 9:00 a.m. – 4:30 p.m. (last entry 4:00 p.m.). Closed on Mondays.\nTickets: Adults 60 baht · Students (with ID card) 30 baht · Children under 7 free\nPlease note:\n• Bags larger than a school backpack must be left in the lockers next to the ticket office. Lockers are free.\n• Photos are welcome, but please do not use a flash in the Textile Room. Bright light can damage the old cloth.\n• Do not touch the objects unless you see a green hand sign.\n• Food and drinks are only allowed in the garden café.\nFree guided tours in Thai and English start at 10:00 a.m. and 2:00 p.m. from the main hall.",
+          "items": [
+            {
+              "id": "ON6-S2-016",
+              "stem": "Which of the following can visitors do for free?",
+              "options": [
+                "Eat lunch in the main hall",
+                "Take flash photos of the cloth",
+                "Visit on a Monday morning",
+                "Join a guided tour",
+                "Buy an adult ticket"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ป้ายระบุ \"Free guided tours in Thai and English\" ทัวร์นำชมจึงฟรี ส่วนตั๋วผู้ใหญ่ราคา 60 บาท ห้ามใช้แฟลชในห้องผ้า วันจันทร์ปิด และกินอาหารได้เฉพาะในคาเฟ่"
+            },
+            {
+              "id": "ON6-S2-017",
+              "stem": "How much do two students with ID cards and their five-year-old brother pay in total?",
+              "options": [
+                "30 baht",
+                "90 baht",
+                "60 baht",
+                "120 baht",
+                "150 baht"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "นักเรียนที่มีบัตรคนละ 30 บาท 2 คน = 60 บาท และเด็กอายุต่ำกว่า 7 ปีเข้าฟรี (Children under 7 free) รวมเป็น 60 บาท"
+            },
+            {
+              "id": "ON6-S2-018",
+              "stem": "Why is flash photography not allowed in the Textile Room?",
+              "options": [
+                "The room is too dark.",
+                "It disturbs the tour guides.",
+                "The cloth is for sale.",
+                "Photos are not allowed anywhere.",
+                "It can harm the old fabric."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "ป้ายเขียนว่า \"Bright light can damage the old cloth.\" แสงแฟลชทำให้ผ้าเก่าเสียหาย ส่วน Photos are not allowed anywhere ผิดเพราะป้ายบอกว่า Photos are welcome"
+            },
+            {
+              "id": "ON6-S2-019",
+              "stem": "Which visitor is following the museum rules?",
+              "options": [
+                "Lek, who arrives at 4:15 p.m. to buy a ticket",
+                "Ann, who touches a vase with no sign near it",
+                "Dao, who eats her sandwich in the garden café",
+                "Max, who takes a large suitcase into the exhibition",
+                "Bo, who comes to see the museum on a Monday"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "อาหารและเครื่องดื่มอนุญาตเฉพาะใน garden café ดังนั้น Dao ทำถูกกฎ ส่วนคนอื่นผิด เช่น เข้าหลัง 4:00 น. จับวัตถุที่ไม่มีป้ายมือสีเขียว นำกระเป๋าใหญ่เข้าไป หรือมาวันจันทร์ที่ปิด"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G07",
+          "type": "on_notice",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A note on the kitchen table",
+          "text": "Hi Somchai,\nWelcome home! Sorry I'm not here — I had to take Grandma to the dentist, and we won't be back until about 7. Dinner is in the fridge: just heat the chicken soup for three minutes in the microwave. Please don't use the big pot on the stove; the handle is loose and I don't want you to get hurt. If you go out, take the spare key from the blue box by the door and lock up. Oh, and could you bring the washing in from the garden if it starts to rain?\nSee you later,\nHelen",
+          "items": [
+            {
+              "id": "ON6-S2-020",
+              "stem": "Why is Helen not at home?",
+              "options": [
+                "She has her own dental appointment.",
+                "She is at the doctor's with Somchai.",
+                "She is helping a family member.",
+                "She is working late at the office.",
+                "She went shopping for dinner."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Helen เขียนว่า \"I had to take Grandma to the dentist\" คือพาคุณยายไปหาหมอฟัน ไม่ใช่ไปหาหมอฟันเองหรือไปทำงาน"
+            },
+            {
+              "id": "ON6-S2-021",
+              "stem": "What does Helen want Somchai to do with the soup?",
+              "options": [
+                "Cook it in the big pot",
+                "Take it out to the garden",
+                "Warm it up in the microwave",
+                "Eat it cold from the fridge",
+                "Keep it for Grandma"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่า \"just heat the chicken soup for three minutes in the microwave\" และห้ามใช้หม้อใหญ่เพราะหูจับหลวม"
+            },
+            {
+              "id": "ON6-S2-022",
+              "stem": "The word \"loose\" in the note is closest in meaning to ____.",
+              "options": [
+                "not firmly fixed",
+                "very dirty",
+                "brand new",
+                "too heavy",
+                "too hot to hold"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"the handle is loose and I don't want you to get hurt\" หูจับหม้อหลวม คือยึดไม่แน่น จึงอาจทำให้บาดเจ็บได้"
+            },
+            {
+              "id": "ON6-S2-023",
+              "stem": "Which of the following is TRUE according to the note?",
+              "options": [
+                "The spare key is kept in the garden.",
+                "Somchai should lock the door if he goes out.",
+                "Helen and Grandma will be back at about 5.",
+                "Somchai must stay at home until Helen returns.",
+                "Somchai has to cook dinner for everyone."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "Helen เขียนว่า \"If you go out, take the spare key... and lock up.\" ส่วนกุญแจอยู่ในกล่องสีฟ้าข้างประตู และจะกลับประมาณ 1 ทุ่ม (about 7)"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G08",
+          "type": "on_reading",
+          "instructionTh": "อ่านเรื่อง แล้วตอบคำถาม",
+          "title": "Greetings from the farm!",
+          "text": "Hi Nam,\n\nI'm writing from my uncle's farm near Ashford Creek, where I'm spending the school holidays. There's no Wi-Fi in the house, so I'm sending this from the library in town, which we visit every Saturday.\n\nLife here is very different from the city. I get up at half past five every morning to help my uncle milk the cows. At first I hated it, but now I actually enjoy the quiet before sunrise. After breakfast, my cousin Libby and I feed the chickens and collect the eggs. Yesterday I found fourteen eggs — a new record!\n\nThe hardest job is fixing fences. The farm is so big that it takes us a whole day to check them all. My hands were sore for days afterwards, but my uncle says I'm getting stronger.\n\nIn the evenings we play board games because there is no TV signal. I've become really good at a game called Farmyard Rush, and I've beaten Libby five times in a row. She says it's just luck!\n\nI'll be back home on the 20th. Could you keep copies of the chemistry notes from the classes I'm missing? I'll buy you a mango smoothie as a thank-you.\n\nWrite back soon,\nJamie",
+          "items": [
+            {
+              "id": "ON6-S2-024",
+              "stem": "Which job on the farm does Jamie find the hardest?",
+              "options": [
+                "Collecting the eggs",
+                "Feeding the chickens",
+                "Playing board games",
+                "Milking the cows",
+                "Fixing fences"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "Jamie เขียนว่า \"The hardest job is fixing fences.\" เพราะฟาร์มใหญ่ ต้องตรวจรั้วทั้งวัน"
+            },
+            {
+              "id": "ON6-S2-025",
+              "stem": "Why does Jamie send the email from the library?",
+              "options": [
+                "The farmhouse has no Internet connection.",
+                "His uncle's computer is broken.",
+                "He works at the library on Saturdays.",
+                "The library is quieter than the farm.",
+                "Libby uses the house computer all day."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "Jamie เขียนว่า \"There's no Wi-Fi in the house, so I'm sending this from the library\" จึงเป็นเพราะที่บ้านไม่มีอินเทอร์เน็ต"
+            },
+            {
+              "id": "ON6-S2-026",
+              "stem": "How have Jamie's feelings about getting up early changed?",
+              "options": [
+                "He has always loved it.",
+                "He liked it at first but now hates it.",
+                "He still finds it very hard.",
+                "He never gets up early on the farm.",
+                "He disliked it at first but now enjoys it."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "\"At first I hated it, but now I actually enjoy the quiet before sunrise.\" แสดงว่าตอนแรกไม่ชอบ แต่ตอนนี้ชอบแล้ว"
+            },
+            {
+              "id": "ON6-S2-027",
+              "stem": "The word \"sore\" in paragraph 3 is closest in meaning to ____.",
+              "options": [
+                "clean",
+                "strong",
+                "painful",
+                "empty",
+                "cold"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "หลังซ่อมรั้วทั้งวัน มือของ Jamie \"sore for days\" หมายถึงเจ็บปวด คำว่า strong เป็นตัวลวงเพราะลุงบอกว่าเขาแข็งแรงขึ้น แต่ไม่ได้หมายถึงมือ sore"
+            },
+            {
+              "id": "ON6-S2-028",
+              "stem": "What will Jamie do for Nam when he gets home?",
+              "options": [
+                "Give Nam fourteen fresh eggs",
+                "Take Nam to his uncle's farm",
+                "Buy Nam a mango smoothie",
+                "Lend Nam his chemistry notes",
+                "Teach Nam a new board game"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Jamie เขียนว่า \"I'll buy you a mango smoothie as a thank-you.\" เพื่อขอบคุณที่ Nam เก็บโน้ตให้ ส่วนโน้ตเคมีเป็นของที่ Nam จะเก็บให้ Jamie ไม่ใช่กลับกัน"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G09",
+          "type": "on_reading",
+          "instructionTh": "อ่านเรื่อง แล้วตอบคำถาม",
+          "title": "Green Corner: my tiny plant business",
+          "text": "When our school announced a Business Week fair last term, most of my classmates decided to sell snacks. I wanted to try something different, so I sold plants.\n\nMy idea was simple. My grandmother has dozens of pothos and spider plants on her balcony, and they grow very quickly. With her permission, I cut small pieces from them and put them in glasses of water. After two weeks, each piece had grown roots. I planted them in old yoghurt cups that I collected from neighbours and decorated with paint.\n\nI sold each small plant for 25 baht. On the first day, I sold only six because people walked straight past me to the food stalls. Then my friend Pim suggested a sign that said \"Easy plants for busy students — water once a week!\" After that, sales grew quickly, and by the end of the week I had sold 58 plants.\n\nMy costs were very low: I spent about 200 baht on soil and paint. I gave part of the money to my grandmother, who refused at first, and I used the rest to buy a better pair of garden scissors.\n\nThe most important lesson? A good product is not enough. You also need to tell people why they need it.",
+          "items": [
+            {
+              "id": "ON6-S2-029",
+              "stem": "What is the blog mainly about?",
+              "options": [
+                "Why students should not sell snacks",
+                "How to look after spider plants at home",
+                "The history of the school's Business Week",
+                "Why the writer's grandmother loves gardening",
+                "How the writer ran a successful plant stall"
+              ],
+              "answer": 4,
+              "skill": "main_idea",
+              "explanationTh": "บล็อกเล่าตั้งแต่ไอเดีย การเตรียมต้นไม้ การขาย จนถึงบทเรียนที่ได้ จึงเป็นเรื่องการขายต้นไม้ในงานโรงเรียนจนประสบความสำเร็จ"
+            },
+            {
+              "id": "ON6-S2-030",
+              "stem": "Where did the plant cuttings come from?",
+              "options": [
+                "A garden shop near the school",
+                "Pim's family garden",
+                "The neighbours' gardens",
+                "The grandmother's balcony plants",
+                "The school's science room"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"My grandmother has dozens of pothos and spider plants on her balcony... I cut small pieces from them\" ส่วนเพื่อนบ้านให้แค่ถ้วยโยเกิร์ตเก่า ไม่ใช่ต้นไม้"
+            },
+            {
+              "id": "ON6-S2-031",
+              "stem": "Why did sales increase after the first day?",
+              "options": [
+                "The plants were moved into bigger cups.",
+                "The writer lowered the price.",
+                "A sign told students why the plants suited them.",
+                "The writer's grandmother helped sell them.",
+                "The food stalls closed early."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "หลังจาก Pim แนะนำป้าย \"Easy plants for busy students — water once a week!\" ยอดขายก็เพิ่มขึ้น ป้ายบอกว่าต้นไม้เหมาะกับนักเรียนที่ยุ่ง ส่วนราคายังคง 25 บาทเท่าเดิม"
+            },
+            {
+              "id": "ON6-S2-032",
+              "stem": "How much money did the writer get from plant sales during the week, before paying for costs?",
+              "options": [
+                "150 baht",
+                "1,650 baht",
+                "1,450 baht",
+                "200 baht",
+                "1,500 baht"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ขายได้ 58 ต้น ต้นละ 25 บาท = 58 × 25 = 1,450 บาท (ยังไม่หักต้นทุน) ส่วน 150 บาทคือยอดขายวันแรก (6 ต้น) และ 200 บาทคือค่าใช้จ่าย"
+            },
+            {
+              "id": "ON6-S2-033",
+              "stem": "What lesson does the writer want readers to learn?",
+              "options": [
+                "Plants are hard to grow from cuttings.",
+                "Cheap products always sell well.",
+                "Family members should not be paid.",
+                "Food is the best thing to sell.",
+                "Explaining a product's value is important."
+              ],
+              "answer": 4,
+              "skill": "main_idea",
+              "explanationTh": "ประโยคสุดท้าย \"A good product is not enough. You also need to tell people why they need it.\" คือต้องบอกให้คนรู้ว่าสินค้ามีประโยชน์อย่างไร"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G10",
+          "type": "on_reading",
+          "instructionTh": "อ่านเรื่อง แล้วตอบคำถาม",
+          "title": "Pond's Menu",
+          "text": "Every evening after school, Pond helped his aunt at her noodle stall in the Saphan Khao night market. Aunt Wan cooked, and Pond took orders and washed bowls.\n\nOne evening, Aunt Wan asked him to make a menu in English. \"More tourists come here now,\" she said. \"You study English at school, so you can do it.\" Pond felt proud, but also nervous. That night he wrote the menu carefully with a dictionary beside him, and the next day he hung it above the stall.\n\nFor a week, very few tourists ordered anything. Most of them read the menu, smiled strangely and walked away. Pond could not understand why.\n\nThen a young backpacker stopped and laughed, but kindly. \"Excuse me,\" she said, pointing at the sign. \"I think you mean 'fried noodles', not 'fired noodles'. Fired noodles sound like they've lost their job!\" Pond's face turned red, but he laughed too. The backpacker, whose name was Clara, helped him check the rest of the menu while she ate a bowl of noodles with pork.\n\nThe next evening, Pond hung up the new menu. By nine o'clock, Aunt Wan had sold out. Since then, Pond has always asked a customer to read every new sign before he puts it up.",
+          "items": [
+            {
+              "id": "ON6-S2-034",
+              "stem": "Why did Aunt Wan ask Pond to write the English menu?",
+              "options": [
+                "He wanted to earn some extra money.",
+                "He was the best cook in the family.",
+                "He was learning English at school.",
+                "The old menu had been lost.",
+                "A tourist had asked her to do it."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Aunt Wan บอกว่า \"You study English at school, so you can do it.\" จึงให้ Pond ทำเมนูเพราะเขาเรียนภาษาอังกฤษ"
+            },
+            {
+              "id": "ON6-S2-035",
+              "stem": "Why did most tourists probably walk away during the first week?",
+              "options": [
+                "The noodles were too expensive.",
+                "The stall closed too early.",
+                "Aunt Wan could not speak English.",
+                "The menu had an English mistake.",
+                "The market was too crowded."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "นักท่องเที่ยวอ่านเมนูแล้วยิ้มแปลก ๆ และเดินจากไป ต่อมา Clara ชี้ว่าเขียน 'fired noodles' ผิดแทน 'fried noodles' จึงอนุมานได้ว่าเพราะเมนูสะกดผิด"
+            },
+            {
+              "id": "ON6-S2-036",
+              "stem": "The phrase \"sold out\" in the last paragraph means that Aunt Wan ____.",
+              "options": [
+                "had lost a lot of money",
+                "had no food left to sell",
+                "had sold the stall to someone",
+                "had cooked the wrong dish",
+                "had closed the stall early"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "sold out หมายถึงขายหมด หลังเปลี่ยนเมนูใหม่ที่ถูกต้อง ร้านขายดีจนหมดภายในสามทุ่ม"
+            },
+            {
+              "id": "ON6-S2-037",
+              "stem": "In paragraph 4, who does \"she\" in \"while she ate a bowl of noodles\" refer to?",
+              "options": [
+                "Pond's teacher",
+                "a market worker",
+                "a tourist who walked away",
+                "Aunt Wan",
+                "Clara"
+              ],
+              "answer": 4,
+              "skill": "reference",
+              "explanationTh": "ประโยค \"The backpacker, whose name was Clara, helped him... while she ate a bowl of noodles\" คำว่า she หมายถึง Clara นักท่องเที่ยวที่ช่วยตรวจเมนู"
+            },
+            {
+              "id": "ON6-S2-038",
+              "stem": "What does Pond do now before he puts up a new sign?",
+              "options": [
+                "He sends a photo of it to Clara.",
+                "He checks it with his English teacher.",
+                "He asks a customer to read it.",
+                "He uses a translation app on his phone.",
+                "He asks Aunt Wan to translate it."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ประโยคสุดท้าย \"Pond has always asked a customer to read every new sign before he puts it up.\" เขาให้ลูกค้าอ่านป้ายก่อนติดทุกครั้ง"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G11",
+          "type": "on_reading",
+          "instructionTh": "อ่านเรื่อง แล้วตอบคำถาม",
+          "title": "The Library of Things",
+          "text": "In the town of Riverton, people can now borrow a drill as easily as a novel. Last year, the town library opened a \"Library of Things\" in a small room next to the children's section. Instead of books, its shelves hold more than 300 useful items, from ladders and sewing machines to camping tents and karaoke sets.\n\nThe idea came from a librarian named Marisa Kent. \"Many people buy a tool, use it once, and then keep it in a cupboard for years,\" she explains. \"Sharing is cheaper for families, and it means fewer things end up in rubbish bins.\"\n\nBorrowing works just like it does for books. Members show their library card, and they can take up to three items for one week. There is no fee, but borrowers must clean items before returning them. If something is broken, the library asks for a small amount of money to repair it.\n\nThe most popular item so far is a pressure washer, which has been borrowed 87 times. Board games and a bread-making machine are also in high demand. Volunteers check every item when it comes back and teach short workshops on Saturdays, such as how to use a sewing machine safely.\n\nNot everything has gone smoothly. In the first month, two tents came back wet and smelly. Now the library gives borrowers a simple checklist with each item.",
+          "items": [
+            {
+              "id": "ON6-S2-039",
+              "stem": "Where in the town library is the Library of Things?",
+              "options": [
+                "In a shop across the road",
+                "In a garden behind the library",
+                "In a room beside the children's section",
+                "On the shelves with the novels",
+                "In the main hall by the entrance"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่าเปิด \"Library of Things\" \"in a small room next to the children's section\""
+            },
+            {
+              "id": "ON6-S2-040",
+              "stem": "According to Marisa Kent, one benefit of the Library of Things is that ____.",
+              "options": [
+                "people can keep items for months",
+                "families can save money",
+                "volunteers can earn money",
+                "the library can sell old tools",
+                "children can read more novels"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "Marisa กล่าวว่า \"Sharing is cheaper for families\" การแบ่งกันใช้ช่วยให้ครอบครัวประหยัดเงิน ส่วนการยืมได้แค่ 1 สัปดาห์ ไม่ใช่หลายเดือน"
+            },
+            {
+              "id": "ON6-S2-041",
+              "stem": "Which of the following is a rule for borrowers?",
+              "options": [
+                "They must pay a fee for each item.",
+                "They can keep items for one month.",
+                "They must clean items before returning them.",
+                "They can borrow five items at a time.",
+                "They must attend a Saturday workshop."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "บทความระบุ \"There is no fee, but borrowers must clean items before returning them.\" ยืมได้สูงสุด 3 ชิ้น 1 สัปดาห์ และไม่มีค่าธรรมเนียม"
+            },
+            {
+              "id": "ON6-S2-042",
+              "stem": "The phrase \"in high demand\" in paragraph 4 is closest in meaning to ____.",
+              "options": [
+                "kept on high shelves",
+                "difficult to use",
+                "very expensive",
+                "wanted by many people",
+                "often broken"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ประโยคก่อนหน้าบอกว่าเครื่องฉีดน้ำแรงดันสูงเป็นของที่นิยมที่สุด และบอร์ดเกมกับเครื่องทำขนมปังก็ \"also in high demand\" จึงหมายถึงมีคนต้องการยืมมาก"
+            },
+            {
+              "id": "ON6-S2-043",
+              "stem": "Why did the library start giving borrowers a checklist?",
+              "options": [
+                "To count how many items were borrowed",
+                "To help them return items in good condition",
+                "To sell more library cards",
+                "To find new volunteers",
+                "To teach people how to put up tents"
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "หลังจากเต็นท์ถูกส่งคืนมาในสภาพเปียกและเหม็น ห้องสมุดจึงให้รายการตรวจสอบ เพื่อให้ผู้ยืมคืนของในสภาพดี"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "groups": [
+        {
+          "id": "ON6-S2-G12",
+          "type": "on_structure",
+          "instructionTh": "เลือกคำตอบที่ถูกต้องหรือเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "ON6-S2-044",
+              "stem": "Your sister works at the post office in Lampang, ____?",
+              "options": [
+                "isn't she",
+                "didn't she",
+                "does she",
+                "won't she",
+                "doesn't she"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "Question tag ของประโยคบอกเล่า Present Simple (works) ใช้รูปปฏิเสธ doesn't + สรรพนาม she"
+            },
+            {
+              "id": "ON6-S2-045",
+              "stem": "Nina asked me where ____ before the concert.",
+              "options": [
+                "did I park my bicycle",
+                "parked I my bicycle",
+                "I had parked my bicycle",
+                "had I parked my bicycle",
+                "I parking my bicycle"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ประโยคคำถามในรูป reported speech (asked me where...) ต้องเรียงแบบบอกเล่า ประธาน + กริยา จึงเป็น where I had parked my bicycle ไม่สลับเป็นรูปคำถาม"
+            },
+            {
+              "id": "ON6-S2-046",
+              "stem": "My grandfather enjoys ____ in his vegetable garden every morning.",
+              "options": [
+                "worked",
+                "works",
+                "to working",
+                "work",
+                "working"
+              ],
+              "answer": 4,
+              "skill": "grammar",
+              "explanationTh": "กริยา enjoy ตามด้วย V-ing เสมอ จึงใช้ enjoys working"
+            },
+            {
+              "id": "ON6-S2-047",
+              "stem": "The box of old books was ____ heavy for me to carry by myself.",
+              "options": [
+                "such",
+                "too",
+                "so",
+                "enough",
+                "very much"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง too + adj. + for someone + to V หมายถึง 'มากเกินไปจนทำไม่ได้' ส่วน so ต้องใช้กับ that และ enough ต้องวางหลังคุณศัพท์"
+            },
+            {
+              "id": "ON6-S2-048",
+              "stem": "A: \"Congratulations on winning the school poetry contest!\"  B: \"____\"",
+              "options": [
+                "Never mind.",
+                "Yes, please.",
+                "Same to you.",
+                "Thanks a lot!",
+                "That's a pity."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "เมื่อมีคนแสดงความยินดี ควรตอบขอบคุณ Thanks a lot! ส่วน Same to you ใช้ตอบคำอวยพร และ That's a pity ใช้แสดงความเสียใจ"
+            },
+            {
+              "id": "ON6-S2-049",
+              "stem": "\"Go ahead and tell me about your trip. I'm all ears.\" The phrase \"I'm all ears\" means ____.",
+              "options": [
+                "My ears hurt.",
+                "I'm listening carefully.",
+                "I can't hear you.",
+                "I'm very tired.",
+                "I don't want to listen."
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "สำนวน I'm all ears แปลว่า พร้อมฟังอย่างตั้งใจ ซึ่งเข้ากับ \"Go ahead and tell me\""
+            },
+            {
+              "id": "ON6-S2-050",
+              "stem": "The old wooden bridge over the Ping River ____ by local villagers in 1965.",
+              "options": [
+                "is built",
+                "was built",
+                "was building",
+                "has built",
+                "built"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "สะพานถูกสร้าง (ประธานเป็นผู้ถูกกระทำ) และเกิดในอดีตปี 1965 จึงใช้ Passive แบบ Past Simple: was built"
+            },
+            {
+              "id": "ON6-S2-051",
+              "stem": "Which of the following sentences is grammatically correct?",
+              "options": [
+                "Mali has already finished her science report.",
+                "Mali already has finishing her science report.",
+                "Mali has already finish her science report.",
+                "Mali have already finished her science report.",
+                "Mali has already finished her science report yesterday."
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "Present Perfect ใช้ has + V3 กับประธานเอกพจน์ ประโยคอื่นผิดรูปกริยา หรือใช้ Present Perfect คู่กับ yesterday ซึ่งเป็นเวลาในอดีตที่ระบุชัดไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G13",
+          "type": "on_culture",
+          "instructionTh": "อ่านบทความเกี่ยวกับวัฒนธรรม แล้วตอบคำถาม",
+          "title": "Afternoon Tea: More Than a Cup of Tea",
+          "text": "In Britain, \"afternoon tea\" is not just a drink. It is a light meal, usually served between three and five o'clock. The custom is often said to have started in the 1840s, when a nineteenth-century English duchess felt hungry during the long gap between lunch and a late dinner. She began asking for tea, bread and butter, and cake in her room, and soon she was inviting friends to join her. Before long, it became a fashionable social event.\n\nA traditional afternoon tea is served on a stand with three plates. Small sandwiches, such as cucumber or egg, are on the bottom plate. Scones are in the middle, and cakes and sweets are on top. Guests usually eat from the bottom to the top, so they finish with something sweet.\n\nThere are a few polite habits to remember. Stir your tea gently, without hitting the sides of the cup, and leave the spoon on the saucer, not in the cup. Contrary to a popular belief, raising your little finger when you hold the cup is not considered good manners. Break scones in half with your hands rather than cutting them with a knife.\n\nEven today, people still argue about scones. In Devon, many people spread cream first and put jam on top; in Cornwall, it is usually jam first. Both sides insist that their way is correct, and the friendly debate often makes people laugh.\n\nNowadays, most British families do not have afternoon tea every day. Instead, it is a special treat for birthdays and celebrations, or for a day out with friends at a hotel or tea room.",
+          "items": [
+            {
+              "id": "ON6-S2-052",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "The history and customs of British afternoon tea",
+                "How tea is grown and picked in Britain",
+                "The best tea rooms in Devon and Cornwall",
+                "Why British people now prefer coffee",
+                "A simple recipe for scones and jam"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าที่มาของ afternoon tea การจัดอาหาร มารยาท และการถกเถียงเรื่องสโคน จึงเป็นเรื่องประวัติและธรรมเนียมของ afternoon tea"
+            },
+            {
+              "id": "ON6-S2-053",
+              "stem": "According to the passage, why did the duchess begin having afternoon tea?",
+              "options": [
+                "Her friends were bored after lunch.",
+                "She could not sleep in the afternoon.",
+                "She felt hungry before her late dinner.",
+                "Her dinner was served too early.",
+                "She wanted to sell her cakes."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"felt hungry during the long gap between lunch and a late dinner\" ท่านดัชเชสหิวเพราะอาหารเย็นมื้อดึก ไม่ใช่มื้อเย็นเร็วเกินไป"
+            },
+            {
+              "id": "ON6-S2-054",
+              "stem": "When eating a traditional afternoon tea, which food do guests usually eat first?",
+              "options": [
+                "scones",
+                "cakes",
+                "sandwiches",
+                "sweets",
+                "jam"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "แซนด์วิชอยู่จานล่างสุด และ \"Guests usually eat from the bottom to the top\" จึงกินแซนด์วิชก่อน"
+            },
+            {
+              "id": "ON6-S2-055",
+              "stem": "Which of these is considered good manners at afternoon tea?",
+              "options": [
+                "Raising your little finger",
+                "Stirring the tea loudly",
+                "Cutting scones with a knife",
+                "Leaving the spoon in the cup",
+                "Leaving the spoon on the saucer"
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "บทความแนะนำ \"leave the spoon on the saucer, not in the cup\" ส่วนการยกนิ้วก้อย การใช้มีดตัดสโคน และการคนชาเสียงดังถือว่าไม่สุภาพ"
+            },
+            {
+              "id": "ON6-S2-056",
+              "stem": "The word \"insist\" in paragraph 4 is closest in meaning to ____.",
+              "options": [
+                "doubt",
+                "agree",
+                "forget",
+                "ask politely",
+                "say firmly"
+              ],
+              "answer": 4,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Both sides insist that their way is correct\" ทั้งสองฝ่ายยืนกรานว่าวิธีของตนถูก insist จึงหมายถึงพูดอย่างหนักแน่น ไม่ใช่สงสัย (doubt) หรือเห็นด้วย (agree)"
+            },
+            {
+              "id": "ON6-S2-057",
+              "stem": "How do people in Cornwall usually eat their scones?",
+              "options": [
+                "They put cream on before the jam.",
+                "They eat them without any jam.",
+                "They cut them in half with a knife.",
+                "They only eat them at breakfast.",
+                "They put jam on before the cream."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "\"in Cornwall, it is usually jam first\" คือทาแยมก่อนแล้วจึงใส่ครีม ส่วนครีมก่อนแยมคือแบบ Devon"
+            },
+            {
+              "id": "ON6-S2-058",
+              "stem": "What can be inferred about afternoon tea in Britain today?",
+              "options": [
+                "It is usually served at school lunches.",
+                "Most families still have it every afternoon.",
+                "It is usually eaten instead of dinner.",
+                "It is mostly enjoyed on special occasions.",
+                "It is mainly served at breakfast time."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าครอบครัวส่วนใหญ่ไม่ได้ทานทุกวัน แต่เป็น \"a special treat for birthdays and celebrations\" จึงอนุมานว่าทานในโอกาสพิเศษ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross_curricular",
+      "groups": [
+        {
+          "id": "ON6-S2-G14",
+          "type": "on_academic",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Where Does Rain Come From?",
+          "text": "The water you drink today may once have fallen as rain on a mountain, flowed down a river, or even been part of an ocean far away. This is because Earth's water is always moving in a never-ending journey called the water cycle.\n\nThe cycle is powered by the sun. When sunlight heats oceans, lakes and rivers, some water turns into an invisible gas called water vapour. This process is called evaporation. Plants also release water vapour through tiny holes in their leaves, which is known as transpiration.\n\nAs the warm, moist air rises, it cools. Cool air cannot hold as much water vapour as warm air, so the vapour changes back into tiny drops of liquid water. This is condensation. Millions of these drops gather together to form clouds. You can see the same process on a hot day, when drops appear on the outside of a glass of iced water.\n\nWhen the drops in a cloud join together and become too heavy, they fall to the ground as precipitation. Depending on the temperature, this may be rain, snow or hail.\n\nFinally, the water collects. Some runs over the land into rivers and back to the sea. Some soaks into the ground and becomes groundwater, which can stay underground for hundreds of years. Then the sun heats the water again, and the cycle continues.\n\nBecause of this cycle, the total amount of water on Earth stays almost the same. However, it is not always in the right place at the right time, which is why floods and droughts happen.",
+          "items": [
+            {
+              "id": "ON6-S2-059",
+              "stem": "According to the passage, what can happen to water that soaks into the ground?",
+              "options": [
+                "It disappears from Earth forever.",
+                "It changes into water vapour at once.",
+                "It can stay underground for a very long time.",
+                "It quickly flows back up the mountains.",
+                "It turns into snow under the ground."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"Some soaks into the ground and becomes groundwater, which can stay underground for hundreds of years.\" น้ำใต้ดินอยู่ใต้ดินได้นานหลายร้อยปี"
+            },
+            {
+              "id": "ON6-S2-060",
+              "stem": "According to the passage, what gives the water cycle its energy?",
+              "options": [
+                "the moon",
+                "plants",
+                "the wind",
+                "the sun",
+                "the ocean"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"The cycle is powered by the sun.\" ดวงอาทิตย์เป็นแหล่งพลังงานของวัฏจักรน้ำ"
+            },
+            {
+              "id": "ON6-S2-061",
+              "stem": "According to the passage, transpiration happens when ____.",
+              "options": [
+                "drops in a cloud grow too heavy and fall",
+                "water soaks into the ground",
+                "plants release vapour from their leaves",
+                "water falls from clouds as snow",
+                "rivers carry water back to the sea"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"Plants also release water vapour through tiny holes in their leaves, which is known as transpiration.\" คือการคายน้ำของพืช"
+            },
+            {
+              "id": "ON6-S2-062",
+              "stem": "The drops that form on the outside of a glass of iced water on a hot day are an example of ____.",
+              "options": [
+                "condensation",
+                "collection",
+                "transpiration",
+                "evaporation",
+                "precipitation"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "บทความยกตัวอย่างนี้ในย่อหน้าเรื่อง condensation (\"You can see the same process...\") ไอน้ำในอากาศเย็นตัวลงกลายเป็นหยดน้ำ"
+            },
+            {
+              "id": "ON6-S2-063",
+              "stem": "Why does water vapour change back into liquid as the air rises?",
+              "options": [
+                "The wind blows it away.",
+                "The sun shines more strongly.",
+                "The air becomes warmer.",
+                "Plants take in the vapour.",
+                "The air becomes cooler."
+              ],
+              "answer": 4,
+              "skill": "detail",
+              "explanationTh": "\"As the warm, moist air rises, it cools. Cool air cannot hold as much water vapour...\" อากาศเย็นลงจึงเกิดการควบแน่น"
+            },
+            {
+              "id": "ON6-S2-064",
+              "stem": "According to the last paragraph, why do floods and droughts happen?",
+              "options": [
+                "Water is not always in the right place.",
+                "Earth is slowly losing its water.",
+                "The sun is becoming hotter every year.",
+                "There is too much water underground.",
+                "Clouds no longer form over the land."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าสุดท้ายบอกว่าปริมาณน้ำคงที่ แต่ \"it is not always in the right place at the right time\" จึงเกิดน้ำท่วมและภัยแล้ง ไม่ใช่เพราะโลกสูญเสียน้ำ"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G15",
+          "type": "on_academic",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "Locking Your Digital Door",
+          "text": "Most of us would never leave our front door unlocked, yet many people protect their online accounts with passwords that are easy to guess. A recent survey by the computer club at Northgate College found that one in four of its students used their own birthday as a password, and almost half used the same password for every account.\n\nWhy is this dangerous? Criminals use computer programs that can try thousands of common passwords in a few seconds. Words like \"password\", \"123456\" or a pet's name are usually guessed first. And if you use one password everywhere, a thief who discovers it can open all of your accounts at once — your email, your games and even your bank app.\n\nExperts suggest a simple method: the passphrase. Instead of one short word, choose three or four random words and join them together, for example \"purple-kettle-river-jump\". A passphrase is long, which makes it hard for a computer to guess, but it is easy for a person to remember.\n\nIt also helps to turn on two-step verification. With this feature, you need both your password and a code sent to your phone to log in. Even if someone learns your password, they still cannot get in without your phone.\n\nFinally, never share your password with friends, even close ones. A password is like a toothbrush: use it only yourself, and change it from time to time.",
+          "items": [
+            {
+              "id": "ON6-S2-065",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "Ways to keep online accounts safe",
+                "How to choose a new computer",
+                "Why students forget their passwords",
+                "How computer programs are written",
+                "The history of the Internet"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายอันตรายของรหัสผ่านที่เดาง่าย และแนะนำ passphrase การยืนยันตัวตนสองขั้นตอน และการไม่แชร์รหัสผ่าน จึงเป็นเรื่องวิธีรักษาความปลอดภัยของบัญชีออนไลน์"
+            },
+            {
+              "id": "ON6-S2-066",
+              "stem": "According to the survey, how many Northgate students used their birthday as a password?",
+              "options": [
+                "almost half",
+                "three in four",
+                "one in four",
+                "one in ten",
+                "all of them"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"one in four of its students used their own birthday as a password\" ส่วน almost half คือจำนวนที่ใช้รหัสเดียวกันทุกบัญชี"
+            },
+            {
+              "id": "ON6-S2-067",
+              "stem": "Why is using one password for every account risky?",
+              "options": [
+                "It is too long to remember.",
+                "It changes automatically every week.",
+                "It makes the computer run slowly.",
+                "A thief who finds it can open them all.",
+                "Most websites do not accept it."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"a thief who discovers it can open all of your accounts at once\" ถ้ารหัสเดียวรั่ว ทุกบัญชีจะถูกเปิดได้หมด"
+            },
+            {
+              "id": "ON6-S2-068",
+              "stem": "Why is \"purple-kettle-river-jump\" a good passphrase?",
+              "options": [
+                "It contains the user's birthday.",
+                "It is a very common word.",
+                "It is short and quick to type.",
+                "It is long but easy to remember.",
+                "It uses numbers instead of words."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "\"A passphrase is long, which makes it hard for a computer to guess, but it is easy for a person to remember.\" จึงดีเพราะยาวแต่จำง่าย"
+            },
+            {
+              "id": "ON6-S2-069",
+              "stem": "Why does the writer compare a password to a toothbrush?",
+              "options": [
+                "To show that close friends may share it",
+                "To show it is personal and should be changed",
+                "To show it is cheap and easy to replace",
+                "To show it should be washed every day",
+                "To suggest it should be kept in the bathroom"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "\"use it only yourself, and change it from time to time\" รหัสผ่านเหมือนแปรงสีฟันคือใช้คนเดียวและเปลี่ยนเป็นระยะ ส่วนการแชร์กับเพื่อนขัดกับคำแนะนำ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community_world",
+      "groups": [
+        {
+          "id": "ON6-S2-G16",
+          "type": "on_visual",
+          "instructionTh": "อ่านตารางและข้อความ แล้วตอบคำถาม",
+          "title": "School survey: free-time activities",
+          "text": "Each student chose only one activity. The student council will use the results to plan new after-school clubs next term.",
+          "table": {
+            "caption": "Favourite free-time activities of Grade 12 students at Wiang Kaew School (200 students)",
+            "columns": [
+              "Activity",
+              "Boys",
+              "Girls",
+              "Total"
+            ],
+            "rows": [
+              [
+                "Playing online games",
+                "38",
+                "16",
+                "54"
+              ],
+              [
+                "Watching series and videos",
+                "20",
+                "30",
+                "50"
+              ],
+              [
+                "Sports and exercise",
+                "24",
+                "12",
+                "36"
+              ],
+              [
+                "Reading",
+                "6",
+                "20",
+                "26"
+              ],
+              [
+                "Music (playing or singing)",
+                "8",
+                "14",
+                "22"
+              ],
+              [
+                "Cooking and baking",
+                "4",
+                "8",
+                "12"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "ON6-S2-070",
+              "stem": "Which activity is the most popular among the girls?",
+              "options": [
+                "Playing online games",
+                "Sports and exercise",
+                "Reading",
+                "Watching series and videos",
+                "Music (playing or singing)"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ในคอลัมน์ Girls ตัวเลขสูงสุดคือ 30 ของ Watching series and videos ส่วน online games สูงสุดเฉพาะผู้ชายและยอดรวม"
+            },
+            {
+              "id": "ON6-S2-071",
+              "stem": "How many more boys than girls chose sports and exercise?",
+              "options": [
+                "6",
+                "10",
+                "24",
+                "36",
+                "12"
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "ผู้ชายเลือกกีฬา 24 คน ผู้หญิง 12 คน ต่างกัน 24 − 12 = 12 คน"
+            },
+            {
+              "id": "ON6-S2-072",
+              "stem": "Which activity was chosen by exactly 11% of all the students?",
+              "options": [
+                "Cooking and baking",
+                "Watching series and videos",
+                "Sports and exercise",
+                "Reading",
+                "Music (playing or singing)"
+              ],
+              "answer": 4,
+              "skill": "data_reading",
+              "explanationTh": "11% ของ 200 คน = 22 คน ซึ่งตรงกับ Music (Total = 22) ส่วน Reading = 26 คน (13%)"
+            },
+            {
+              "id": "ON6-S2-073",
+              "stem": "Which statement is TRUE according to the survey?",
+              "options": [
+                "More girls than boys chose reading.",
+                "Cooking is more popular than music.",
+                "Fewer boys than girls play online games.",
+                "Sports is the least popular activity.",
+                "Half of all students chose watching series."
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "Reading: ผู้หญิง 20 คน ผู้ชาย 6 คน จึงถูก ส่วนดูซีรีส์มี 50 คนจาก 200 คน คือหนึ่งในสี่ ไม่ใช่ครึ่งหนึ่ง และกิจกรรมที่น้อยที่สุดคือทำอาหาร"
+            },
+            {
+              "id": "ON6-S2-074",
+              "stem": "Based on the survey, which new club would probably interest the most students?",
+              "options": [
+                "An e-sports and gaming club",
+                "A cooking and baking club",
+                "A book club",
+                "A school choir",
+                "A football club"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "เล่นเกมออนไลน์มีผู้เลือกมากที่สุด (54 คน) ชมรมเกมจึงน่าจะดึงดูดนักเรียนได้มากที่สุด ส่วนกีฬามีเพียง 36 คน"
+            }
+          ]
+        },
+        {
+          "id": "ON6-S2-G17",
+          "type": "on_world",
+          "instructionTh": "อ่านบทความ แล้วตอบคำถาม",
+          "title": "The Blue Wave Club",
+          "text": "Every second Sunday of the month, while most teenagers are still asleep, about forty students from Laem Thong School are already on Hat Sai Ngam beach with gloves and rice sacks. They are members of the Blue Wave Club, which started three years ago with only five people.\n\nThe club was the idea of Kanya Rattana, then a Grade 10 student. \"I went swimming one morning and a plastic bag wrapped around my leg,\" she remembers. \"I thought, if I don't do something, who will?\" She put up posters around school, and her science teacher agreed to be the club's adviser.\n\nThe members do more than just pick up rubbish. They sort everything they collect and record it on a data sheet. Last year, they collected over 1,300 kilograms of waste. The most common items were plastic bottle caps, food wrappers and pieces of fishing net. \"The data is useful,\" explains Kanya. \"We sent our results to the local council, and they agreed to put more recycling bins near the food stalls.\"\n\nNot all the waste comes from beach visitors. Some is carried by the sea from places hundreds of kilometres away. This shows that ocean pollution is a global problem, not just a local one.\n\nThe club has also changed its members. \"Before, I never thought about how much plastic I used,\" says Ohm, a Grade 11 member. \"Now I bring my own bottle and bag everywhere.\"\n\nKanya will graduate next March, but she is not worried. The club now has a team of leaders from every grade, and three nearby schools have started similar clubs.",
+          "items": [
+            {
+              "id": "ON6-S2-075",
+              "stem": "How has the Blue Wave Club changed since it began?",
+              "options": [
+                "It has moved to a different beach.",
+                "It is now run by the local council.",
+                "It now meets on every Sunday of the month.",
+                "It has grown from five members to about forty.",
+                "It has stopped recording its data."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ชมรมเริ่ม \"three years ago with only five people\" และตอนนี้มีนักเรียนประมาณ 40 คน ส่วนการพบกันคือวันอาทิตย์ที่สองของเดือนเท่านั้น"
+            },
+            {
+              "id": "ON6-S2-076",
+              "stem": "What made Kanya decide to start the club?",
+              "options": [
+                "A plastic bag wrapped around her leg.",
+                "She lost her own bag on the beach.",
+                "The council asked students for help.",
+                "She saw a club poster at school.",
+                "Her teacher asked her to start it."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "\"I went swimming one morning and a plastic bag wrapped around my leg\" เหตุการณ์นี้ทำให้เธอตั้งชมรม ส่วนโปสเตอร์เป็นสิ่งที่เธอติดเองภายหลัง"
+            },
+            {
+              "id": "ON6-S2-077",
+              "stem": "What did the local council do after receiving the club's data?",
+              "options": [
+                "It closed the beach to all visitors.",
+                "It built new food stalls.",
+                "It banned all fishing nets.",
+                "It added recycling bins near food stalls.",
+                "It paid the club members."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "\"they agreed to put more recycling bins near the food stalls\" เทศบาลตกลงเพิ่มถังรีไซเคิลใกล้ร้านอาหาร"
+            },
+            {
+              "id": "ON6-S2-078",
+              "stem": "The fact that some waste travels hundreds of kilometres suggests that ____.",
+              "options": [
+                "the club should stop cleaning the beach",
+                "only beach visitors cause the pollution",
+                "people should not swim in the sea",
+                "many places need to work together",
+                "the beach is too dirty to visit"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ขยะบางส่วนลอยมาจากที่ไกล แสดงว่า \"ocean pollution is a global problem\" การแก้ปัญหาจึงต้องอาศัยความร่วมมือจากหลายพื้นที่"
+            },
+            {
+              "id": "ON6-S2-079",
+              "stem": "The word \"adviser\" in paragraph 2 refers to a person who ____.",
+              "options": [
+                "takes photos for the club",
+                "cleans the beach every day",
+                "puts up posters around school",
+                "gives help and suggestions",
+                "buys equipment for the club"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "ครูวิทยาศาสตร์ตกลงเป็น adviser ของชมรม คือที่ปรึกษาผู้ให้คำแนะนำและช่วยเหลือ"
+            },
+            {
+              "id": "ON6-S2-080",
+              "stem": "Why is Kanya not worried about graduating?",
+              "options": [
+                "The club will close next March.",
+                "The beach is now completely clean.",
+                "She will move to a nearby school.",
+                "Her teacher will run every activity.",
+                "The club has leaders who can continue it."
+              ],
+              "answer": 4,
+              "skill": "inference",
+              "explanationTh": "\"The club now has a team of leaders from every grade\" ชมรมจึงดำเนินต่อได้แม้เธอจบการศึกษา"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  }
+}

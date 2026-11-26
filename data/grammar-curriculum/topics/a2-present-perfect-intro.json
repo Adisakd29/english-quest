@@ -1,0 +1,223 @@
+{
+  "id": "a2-present-perfect-intro",
+  "summaryTh": "พูดถึงประสบการณ์ และเรื่องที่เกิดแล้วโดยไม่บอกเวลา (เคย / เพิ่ง / แล้ว / ยัง)",
+  "concept": {
+    "what": "Present Perfect (have / has + V3) ใช้พูดถึงเรื่องที่เกิดขึ้นแล้วในช่วงชีวิตจนถึงตอนนี้ โดยไม่สนใจว่าเกิด \"เมื่อไร\" แต่สนใจว่า \"เคย / ไม่เคย\" หรือ \"ผลที่เห็นตอนนี้\"",
+    "when": [
+      "ประสบการณ์ในชีวิต (เคย / ไม่เคย): Have you ever eaten durian? / I have never been to Europe.",
+      "เรื่องที่เพิ่งเกิด (just): I have just finished my homework.",
+      "เรื่องที่ทำแล้ว หรือยังไม่ได้ทำ จนถึงตอนนี้ (already / yet): She has already left. / Have you done it yet?",
+      "ผลของเรื่องยังอยู่ถึงตอนนี้: I have lost my keys. (ตอนนี้ยังหาไม่เจอ)"
+    ],
+    "why": "ภาษาไทยใช้คำว่า \"เคย\" \"แล้ว\" \"เพิ่ง\" \"ยัง\" โดยไม่เปลี่ยนกริยา แต่ภาษาอังกฤษต้องใช้ have / has + V3 — และถ้าบอกเวลาในอดีตชัด ๆ (yesterday, last year, in 2023) ต้องเปลี่ยนไปใช้ Past Simple"
+  },
+  "structure": {
+    "formula": "Subject + have / has + V3",
+    "rows": [
+      { "label": "บอกเล่า (Positive)", "formula": "Subject + have / has + V3", "example": "She [[has visited]] Korea three times." },
+      { "label": "ปฏิเสธ (Negative)", "formula": "Subject + haven't / hasn't + V3", "example": "I [[haven't seen]] that film." },
+      { "label": "คำถาม (Question)", "formula": "Have / Has + Subject + V3 …?", "example": "[[Have]] you [[finished]] your lunch?" },
+      { "label": "ever / never", "formula": "Have you ever + V3? · Subject + have never + V3", "example": "[[Have]] you [[ever tried]] som tam? — No, I [[have never tried]] it." },
+      { "label": "just / already / yet", "formula": "have just / already + V3 · haven't + V3 … yet", "example": "I [[have just eaten]]. / He [[hasn't called]] [[yet]]." },
+      { "label": "ตอบสั้น (Short answer)", "formula": "Yes, Subject + have / has. · No, Subject + haven't / hasn't.", "example": "Yes, I [[have]]. / No, she [[hasn't]]." }
+    ],
+    "notes": [
+      "I / you / we / they ใช้ have ('ve) · he / she / it ใช้ has ('s)",
+      "V3 (past participle): กริยาปกติเหมือน V2 (worked, visited) · กริยาอปกติต้องจำ (eat → eaten, see → seen, write → written)",
+      "been กับ gone: She has been to Japan. (เคยไปและกลับมาแล้ว) · She has gone to Japan. (ไปแล้ว ตอนนี้อยู่ที่นั่น)",
+      "ever / never / just / already วางระหว่าง have กับ V3 (already วางท้ายประโยคได้ด้วย) · yet วางท้ายประโยคปฏิเสธและคำถาม",
+      "ห้ามใช้กับเวลาในอดีตที่ระบุชัด (yesterday, last week, ago, in 2020) — ใช้ Past Simple แทน"
+    ]
+  },
+  "examples": [
+    { "en": "I [[have been]] to Chiang Mai twice.", "th": "ฉันเคยไปเชียงใหม่สองครั้ง" },
+    { "en": "[[Have]] you [[ever ridden]] an elephant?", "th": "คุณเคยขี่ช้างไหม" },
+    { "en": "My grandma [[has never used]] a smartphone.", "th": "คุณยายไม่เคยใช้สมาร์ทโฟนเลย" },
+    { "en": "We [[have just arrived]] at the hotel.", "th": "พวกเราเพิ่งมาถึงโรงแรม" },
+    { "en": "I [[have already sent]] the email to my boss.", "th": "ฉันส่งอีเมลถึงหัวหน้าไปแล้ว" },
+    { "en": "[[Has]] the bus [[left]] [[yet]]?", "th": "รถบัสออกไปหรือยัง" },
+    { "en": "Sorry, I [[haven't read]] your message [[yet]].", "th": "ขอโทษนะ ยังไม่ได้อ่านข้อความเลย" },
+    { "en": "Oh no! Someone [[has taken]] my umbrella.", "th": "แย่แล้ว มีคนเอาร่มของฉันไป (ตอนนี้ร่มไม่อยู่แล้ว)" }
+  ],
+  "mistakes": [
+    { "wrong": "I have went to Phuket.", "right": "I have been to Phuket.", "whyTh": "หลัง have ต้องใช้ V3 ไม่ใช่ V2 (went) — ถ้าหมายถึง \"เคยไปและกลับมาแล้ว\" ใช้ been" },
+    { "wrong": "She have finished her work.", "right": "She has finished her work.", "whyTh": "ประธาน she / he / it ใช้ has ไม่ใช่ have" },
+    { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "whyTh": "มีเวลาในอดีตที่ชัดเจน (yesterday) ต้องใช้ Past Simple ไม่ใช่ Present Perfect" },
+    { "wrong": "Have you ever ate sushi?", "right": "Have you ever eaten sushi?", "whyTh": "หลัง have ใช้ V3 — eat → ate (V2) → eaten (V3)" },
+    { "wrong": "I have finished already my homework.", "right": "I have already finished my homework.", "whyTh": "already วางระหว่าง have กับ V3 (หรือท้ายประโยค: I have finished my homework already.) ไม่วางคั่นระหว่างกริยากับกรรม" }
+  ],
+  "compare": {
+    "title": "Present Perfect vs Past Simple",
+    "with": ["a2-past-simple"],
+    "rows": [
+      { "label": "ใช้เมื่อ", "a": "เกิดแล้ว แต่ไม่บอกว่าเมื่อไร สนใจประสบการณ์หรือผลที่เห็นตอนนี้", "b": "เรื่องจบแล้ว และบอกเวลาในอดีตชัดเจน" },
+      { "label": "คำบอกเวลา", "a": "ever, never, just, already, yet", "b": "yesterday, last …, … ago, in 2020, when I was a child" },
+      { "label": "รูปกริยา", "a": "have / has + V3", "b": "V2 · did + V1" },
+      { "label": "ตัวอย่าง", "a": "I have been to Japan. (เคยไป)", "b": "I went to Japan last year. (ไปเมื่อปีที่แล้ว)" }
+    ],
+    "tipTh": "เปิดเรื่องด้วย Present Perfect (Have you ever …?) แล้วพอเล่ารายละเอียดว่าเมื่อไร ที่ไหน ให้เปลี่ยนเป็น Past Simple: Have you ever been to Japan? — Yes, I went there last year."
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "Have you ever …?",
+      "lines": [
+        { "speaker": "Ann", "text": "[[Have]] you [[ever been]] to Laos?" },
+        { "speaker": "Tim", "text": "Yes, I [[have]]. I went to Luang Prabang last year. It was beautiful." },
+        { "speaker": "Ann", "text": "Lucky you! I [[have never been]] there." },
+        { "speaker": "Tim", "text": "You should go! I [[have just booked]] my next trip there." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Moving day",
+      "lines": [
+        { "text": "Hi Mum, we [[have just moved]] into the new flat! Dad [[has already put]] the beds together, but we [[haven't unpacked]] the kitchen boxes [[yet]]. Oh, and I [[have lost]] the key to the balcony door — do you have one? Love, Bee" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Present Perfect", "th": "ปัจจุบันสมบูรณ์ — เชื่อมเรื่องที่เกิดแล้วกับตอนนี้" },
+    { "en": "Past participle (V3)", "th": "กริยาช่องที่ 3 เช่น eaten, seen, visited" },
+    { "en": "Experience", "th": "ประสบการณ์ (เคย / ไม่เคย)" },
+    { "en": "ever / never", "th": "เคย (ใช้ในคำถาม) / ไม่เคยเลย" },
+    { "en": "just / already / yet", "th": "เพิ่ง / ทำไปแล้ว / ยัง (ใช้ในคำถามและประโยคปฏิเสธ)" }
+  ],
+  "practice": [
+    {
+      "id": "a2-present-perfect-intro-01", "type": "mc", "difficulty": 1,
+      "question": "Have you ever ___ to Singapore?",
+      "choices": ["go", "went", "been", "going"], "answer": 2,
+      "whyNot": { "0": "หลัง have ต้องใช้ V3 ไม่ใช่ V1", "1": "went เป็น V2 ใช้หลัง have ไม่ได้", "3": "going ไม่ใช่ V3 ใช้หลัง have ไม่ได้" },
+      "explainTh": "Have you ever + V3? = เคย … ไหม · ถามว่าเคยไปที่ไหนใช้ been to → Have you ever been to Singapore?",
+      "structure": "Have + Subject + ever + V3?", "example": "Have you ever been to Singapore?"
+    },
+    {
+      "id": "a2-present-perfect-intro-02", "type": "fill", "difficulty": 1,
+      "question": "I have just ___ (finish) my homework.",
+      "accepted": ["finished"],
+      "explainTh": "have just + V3 = เพิ่งทำเสร็จ · finish เป็นกริยาปกติ V3 = finished",
+      "structure": "have just + V3", "example": "I have just finished my homework."
+    },
+    {
+      "id": "a2-present-perfect-intro-03", "type": "fill", "difficulty": 2,
+      "question": "Has Lisa ___ (write) the report yet?",
+      "accepted": ["written"],
+      "explainTh": "Has + Subject + V3 … yet? · write เป็นกริยาอปกติ: write – wrote – written",
+      "structure": "Has + Subject + V3 … yet?", "example": "Has Lisa written the report yet?"
+    },
+    {
+      "id": "a2-present-perfect-intro-04", "type": "fill", "difficulty": 2,
+      "question": "He has ___ (never / meet) a famous person.",
+      "accepted": ["never met"],
+      "explainTh": "never วางระหว่าง has กับ V3 · meet – met – met → has never met",
+      "structure": "has + never + V3", "example": "He has never met a famous person."
+    },
+    {
+      "id": "a2-present-perfect-intro-05", "type": "fill", "difficulty": 3,
+      "question": "This is the first time I ___ (be) on a plane. I'm so excited!",
+      "accepted": ["have been", "'ve been"],
+      "explainTh": "This is the first time + Present Perfect = นี่เป็นครั้งแรกที่เคย … → I have been (I've been)",
+      "structure": "This is the first time + Subject + have + V3", "example": "This is the first time I have been on a plane."
+    },
+    {
+      "id": "a2-present-perfect-intro-06", "type": "error", "difficulty": 1,
+      "sentence": "She have visited Japan many times.",
+      "errorPart": "have",
+      "accepted": ["She has visited Japan many times."],
+      "explainTh": "ประธาน she ใช้ has + V3 → She has visited …",
+      "structure": "he / she / it + has + V3"
+    },
+    {
+      "id": "a2-present-perfect-intro-07", "type": "error", "difficulty": 2,
+      "sentence": "I have seen this film last week.",
+      "errorPart": "have seen",
+      "accepted": ["I saw this film last week.", "I watched this film last week."],
+      "explainTh": "last week เป็นเวลาในอดีตที่ชัดเจน จึงใช้ Present Perfect ไม่ได้ ต้องใช้ Past Simple → I saw",
+      "structure": "Past Simple + เวลาในอดีต"
+    },
+    {
+      "id": "a2-present-perfect-intro-08", "type": "error", "difficulty": 2,
+      "sentence": "Have you ever ate Korean food?",
+      "errorPart": "ate",
+      "accepted": ["Have you ever eaten Korean food?"],
+      "explainTh": "หลัง Have ต้องใช้ V3 → eat – ate – eaten → Have you ever eaten …?",
+      "structure": "Have + Subject + ever + V3?"
+    },
+    {
+      "id": "a2-present-perfect-intro-09", "type": "order", "difficulty": 1,
+      "tokens": ["never", "I", "have", "snow", "seen"],
+      "accepted": ["I have never seen snow.", "Have I never seen snow?"],
+      "explainTh": "Subject + have + never + V3 → I have never seen snow. (never อยู่ระหว่าง have กับ V3)"
+    },
+    {
+      "id": "a2-present-perfect-intro-10", "type": "order", "difficulty": 2,
+      "tokens": ["you", "have", "yet", "the", "tickets", "bought"],
+      "accepted": ["Have you bought the tickets yet?"],
+      "explainTh": "คำถาม: Have + Subject + V3 + … + yet? — yet อยู่ท้ายประโยค"
+    },
+    {
+      "id": "a2-present-perfect-intro-11", "type": "transform", "difficulty": 3,
+      "source": "I have visited Hong Kong.",
+      "instruction": "ถามเพื่อนว่าเคยไปฮ่องกงไหม — เปลี่ยนเป็นคำถามด้วย ever (ใช้ประธาน you)",
+      "accepted": ["Have you ever visited Hong Kong?", "Have you ever been to Hong Kong?"],
+      "explainTh": "คำถามเรื่องประสบการณ์: Have + you + ever + V3? → Have you ever visited Hong Kong?"
+    },
+    {
+      "id": "a2-present-perfect-intro-12", "type": "transform", "difficulty": 3,
+      "source": "Ken has finished his lunch.",
+      "instruction": "เปลี่ยนเป็นประโยคปฏิเสธ โดยใช้ yet",
+      "accepted": ["Ken hasn't finished his lunch yet.", "Ken has not yet finished his lunch."],
+      "explainTh": "ปฏิเสธ: hasn't + V3 … yet (yet วางท้ายประโยค) → Ken hasn't finished his lunch yet."
+    },
+    {
+      "id": "a2-present-perfect-intro-13", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่กริยากับรูป V3 (past participle)",
+      "pairs": [["eat", "eaten"], ["see", "seen"], ["write", "written"], ["take", "taken"], ["buy", "bought"]],
+      "explainTh": "กริยาอปกติต้องจำรูป V3: eat – eaten, see – seen, write – written, take – taken, buy – bought"
+    },
+    {
+      "id": "a2-present-perfect-intro-14", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I have already done my homework.", "I have done already my homework.", "I already have did my homework.", "I have yet done my homework."], "answer": 0,
+      "whyNot": { "1": "already ต้องวางระหว่าง have กับ V3 (หรือท้ายประโยค) ไม่คั่นระหว่างกริยากับกรรม", "2": "หลัง have ต้องใช้ V3 (done) ไม่ใช่ V2 (did)", "3": "yet ใช้ในคำถามและประโยคปฏิเสธ ไม่ใช้ในประโยคบอกเล่าแบบนี้" },
+      "explainTh": "have + already + V3 → I have already done my homework. (do – did – done)"
+    },
+    {
+      "id": "a2-present-perfect-intro-15", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Where's Nok? I can't find her." },
+        { "speaker": "B", "text": "She ___ to the shop. She'll be back in ten minutes." }
+      ] },
+      "choices": ["has gone", "has been", "have gone", "is go"], "answer": 0,
+      "whyNot": { "1": "has been to = เคยไปแล้วกลับมาแล้ว แต่ Nok ยังไม่กลับ (She'll be back)", "2": "ประธาน she ใช้ has ไม่ใช่ have", "3": "is go ผิดโครงสร้าง (be + V1 ไม่มีในภาษาอังกฤษ)" },
+      "explainTh": "has gone to = ไปแล้วและยังอยู่ที่นั่น (ยังไม่กลับ) ซึ่งตรงกับ She'll be back in ten minutes"
+    },
+    {
+      "id": "a2-present-perfect-intro-16", "type": "context", "difficulty": 3,
+      "context": { "kind": "work", "title": "Message to a colleague", "lines": [
+        { "text": "Hi Joe, I've finished the slides for our presentation and I've sent them to Ms Park. I haven't printed the handouts yet — can you do that? Also, have you booked the meeting room? Thanks, Mia" }
+      ] },
+      "question": "What hasn't Mia done yet?",
+      "choices": ["Print the handouts.", "Finish the slides.", "Send the slides to Ms Park.", "Write to Joe."], "answer": 0,
+      "whyNot": { "1": "Mia เขียนว่า I've finished the slides = ทำสไลด์เสร็จแล้ว", "2": "Mia เขียนว่า I've sent them to Ms Park = ส่งแล้ว", "3": "Mia กำลังเขียนข้อความถึง Joe อยู่แล้ว" },
+      "explainTh": "\"I haven't printed the handouts yet\" = ยังไม่ได้พิมพ์เอกสารแจก (haven't + V3 + yet = ยังไม่ได้ทำ)"
+    },
+    {
+      "id": "a2-present-perfect-intro-17", "type": "mc", "difficulty": 3,
+      "question": "A: Have you ever been to Korea? B: Yes, I ___ there in 2023.",
+      "choices": ["went", "have gone", "have been", "go"], "answer": 0,
+      "whyNot": { "1": "have gone เป็น Present Perfect ใช้กับเวลาในอดีตที่ระบุชัด (in 2023) ไม่ได้ และ gone ยังแปลว่ายังไม่กลับมาด้วย", "2": "have been เป็น Present Perfect ใช้กับเวลาในอดีตที่ระบุชัด (in 2023) ไม่ได้", "3": "go เป็นปัจจุบัน แต่ in 2023 เป็นอดีต" },
+      "explainTh": "คำถามใช้ Present Perfect (เคยไหม) แต่พอบอกเวลาชัด (in 2023) ต้องเปลี่ยนเป็น Past Simple → I went there in 2023."
+    },
+    {
+      "id": "a2-present-perfect-intro-18", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับประสบการณ์ของคุณ (เคย / ไม่เคย) ใช้ Present Perfect โดยไม่บอกเวลาในอดีต (Write 3 sentences about your experiences.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(have|has|haven't|hasn't|'ve|'s)\\s+(never\\s+|ever\\s+|just\\s+|already\\s+|not\\s+)?([a-z]+ed|[a-z]+en|[a-z]+wn|been|gone|done|seen|met|made|had|read|bought|found|lost|won|left|heard|swum|run|come|sung|drunk|thought|taught|told|said|got|sent|spent|built|kept|slept|felt|caught|brought|sat|stood|understood|paid)\\b", "flags": "i", "msgTh": "ใช้ have / has + V3 อย่างน้อย 1 ครั้ง เช่น I have visited …, I have never eaten …" },
+        { "re": "\\b(ever|never|already|just|yet|before|once|twice|times)\\b", "flags": "i", "msgTh": "ใช้คำอย่างน้อย 1 คำ เช่น never, ever, already, just, twice, three times" }
+      ],
+      "sample": "I have been to Chiang Rai three times. I have never eaten insects. My best friend has visited Japan twice.",
+      "explainTh": "ประสบการณ์ใช้ have / has + V3 และไม่บอกเวลาในอดีต (ถ้าบอกว่าเมื่อไร เช่น last year ต้องใช้ Past Simple)"
+    }
+  ]
+}

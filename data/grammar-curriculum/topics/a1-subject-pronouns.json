@@ -1,0 +1,204 @@
+{
+  "id": "a1-subject-pronouns",
+  "summaryTh": "คำที่ใช้แทนคนหรือสิ่งของ เมื่อเป็นผู้ทำ (ประธาน) ของประโยค",
+  "concept": {
+    "what": "Subject pronoun คือคำที่ใช้แทนชื่อคนหรือสิ่งของ และอยู่หน้ากริยาในฐานะประธาน (ผู้ทำ) ได้แก่ I, you, he, she, it, we, they",
+    "when": [
+      "ใช้แทนคำนามที่พูดถึงไปแล้ว จะได้ไม่ต้องพูดชื่อซ้ำ (Tom is tall. He plays basketball.)",
+      "ใช้เป็นประธานของทุกประโยค — ภาษาอังกฤษต้องมีประธานเสมอ แม้ภาษาไทยจะละได้ (It is hot. ไม่ใช่ Is hot.)",
+      "he = ผู้ชาย 1 คน · she = ผู้หญิง 1 คน · it = สิ่งของ สัตว์ อากาศ เวลา · they = หลายคนหรือหลายสิ่ง"
+    ],
+    "why": "ภาษาไทยใช้ \"เขา\" ได้ทั้งผู้ชายและผู้หญิง และมักละประธาน แต่ภาษาอังกฤษต้องเลือก he หรือ she ให้ถูก และต้องมีประธานทุกประโยค ไม่อย่างนั้นผู้ฟังจะงงว่าใครทำ"
+  },
+  "structure": {
+    "formula": "Subject pronoun + Verb",
+    "rows": [
+      { "label": "เอกพจน์ (Singular)", "formula": "I / you / he / she / it + verb", "example": "[[She]] is my teacher." },
+      { "label": "พหูพจน์ (Plural)", "formula": "we / you / they + verb", "example": "[[They]] are my friends." },
+      { "label": "แทนคำนามที่พูดไปแล้ว", "formula": "Noun … → Pronoun …", "example": "My dad is a cook. [[He]] works in a hotel." },
+      { "label": "คำถาม (Question)", "formula": "Verb to be + Subject pronoun …?", "example": "Is [[it]] your bag?" }
+    ],
+    "notes": [
+      "I เขียนตัวพิมพ์ใหญ่เสมอ ไม่ว่าจะอยู่ตรงไหนของประโยค",
+      "you ใช้ได้ทั้งคนเดียว (คุณ) และหลายคน (พวกคุณ)",
+      "it ใช้กับสิ่งของ สัตว์ทั่วไป อากาศและเวลา (It is cold. It is 9 o'clock.)",
+      "ถ้ามีคำนามเป็นประธานแล้ว ห้ามใส่สรรพนามซ้ำ: My mum is a nurse. (ไม่ใช่ My mum she is …)",
+      "ประธานสองคนที่มีตัวเราด้วย ให้พูดถึงคนอื่นก่อน: Tom and I"
+    ]
+  },
+  "examples": [
+    { "en": "[[I]] am a student.", "th": "ฉันเป็นนักเรียน" },
+    { "en": "This is my mum. [[She]] is a nurse.", "th": "นี่คือแม่ของฉัน เธอเป็นพยาบาล" },
+    { "en": "Mr Chen is my teacher. [[He]] is from Taiwan.", "th": "คุณเฉินเป็นครูของฉัน เขามาจากไต้หวัน" },
+    { "en": "I have a new phone. [[It]] is black.", "th": "ฉันมีโทรศัพท์ใหม่ มันเป็นสีดำ" },
+    { "en": "[[We]] are in the same class.", "th": "พวกเราอยู่ห้องเดียวกัน" },
+    { "en": "Ploy and Nat are at the beach. [[They]] are very happy.", "th": "พลอยกับแนทอยู่ที่ชายหาด พวกเขามีความสุขมาก" },
+    { "en": "[[You]] are very kind.", "th": "คุณใจดีมาก" },
+    { "en": "[[It]] is very hot today.", "th": "วันนี้อากาศร้อนมาก (ต้องมี It เป็นประธาน)" }
+  ],
+  "mistakes": [
+    { "wrong": "My mother she is a nurse.", "right": "My mother is a nurse.", "whyTh": "My mother เป็นประธานอยู่แล้ว ไม่ต้องใส่ she ซ้ำ — ภาษาไทยพูด \"แม่ฉันเขาเป็นพยาบาล\" ได้ แต่ภาษาอังกฤษใช้ประธานเดียว" },
+    { "wrong": "Is very hot today.", "right": "It is very hot today.", "whyTh": "ภาษาไทยพูดว่า \"ร้อนมาก\" โดยไม่มีประธานได้ แต่ภาษาอังกฤษต้องมีประธานเสมอ เรื่องอากาศใช้ It" },
+    { "wrong": "My brother is a doctor. She works in a hospital.", "right": "My brother is a doctor. He works in a hospital.", "whyTh": "ภาษาไทยใช้ \"เขา\" ได้ทั้งชายและหญิง แต่ภาษาอังกฤษ brother เป็นผู้ชาย ต้องใช้ he" },
+    { "wrong": "Me and Tom are friends.", "right": "Tom and I are friends.", "whyTh": "ตรงตำแหน่งประธานต้องใช้ I (me ใช้หลังกริยา) และสุภาพกว่าถ้าพูดถึงคนอื่นก่อนตัวเอง" },
+    { "wrong": "The book is old. He is on the table.", "right": "The book is old. It is on the table.", "whyTh": "สิ่งของใช้ it ไม่ใช่ he — he ใช้กับผู้ชายเท่านั้น" },
+    { "wrong": "Where are my glasses? It is on the table.", "right": "Where are my glasses? They are on the table.", "whyTh": "glasses (แว่นตา) เป็นคำนามพหูพจน์ในภาษาอังกฤษ จึงแทนด้วย they ไม่ใช่ it — ภาษาไทยพูด \"มัน\" ได้หมด แต่ภาษาอังกฤษต้องดูว่าเป็นเอกพจน์หรือพหูพจน์" }
+  ],
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "A new classmate",
+      "lines": [
+        { "speaker": "Fah", "text": "Hi! [[I]] am Fah. Who is that boy?" },
+        { "speaker": "Max", "text": "That's Leo. [[He]] is new. [[He]] is from Australia." },
+        { "speaker": "Fah", "text": "Cool! And who are those girls?" },
+        { "speaker": "Max", "text": "They're Mina and Jane. [[They]] are in our class. [[We]] are all in the music club." }
+      ]
+    },
+    {
+      "kind": "social", "title": "Photo post",
+      "lines": [
+        { "text": "This is my family at the zoo! My dad is next to me. [[He]] is funny. My sister is in the red hat. [[She]] is ten. The elephant is behind us. [[It]] is really big! [[We]] are very happy today." }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Pronoun", "th": "สรรพนาม — คำที่ใช้แทนคำนาม" },
+    { "en": "Subject", "th": "ประธาน — คนหรือสิ่งที่ทำกริยา อยู่หน้ากริยา" },
+    { "en": "Singular", "th": "เอกพจน์ — หนึ่งคน/หนึ่งสิ่ง" },
+    { "en": "Plural", "th": "พหูพจน์ — มากกว่าหนึ่ง" }
+  ],
+  "practice": [
+    {
+      "id": "a1-subject-pronouns-01", "type": "mc", "difficulty": 1,
+      "question": "My sister is a nurse. ___ works in a hospital.",
+      "choices": ["He", "She", "It", "They"], "answer": 1,
+      "whyNot": { "0": "He ใช้กับผู้ชาย แต่ sister เป็นผู้หญิง", "2": "It ใช้กับสิ่งของหรือสัตว์ ไม่ใช้กับคน", "3": "They ใช้กับหลายคน แต่ my sister มีคนเดียว" },
+      "explainTh": "my sister = ผู้หญิง 1 คน จึงใช้ She แทน",
+      "structure": "she = ผู้หญิง 1 คน", "example": "My sister is a nurse. She works in a hospital."
+    },
+    {
+      "id": "a1-subject-pronouns-02", "type": "mc", "difficulty": 1,
+      "question": "Look at that bag. ___ is very nice.",
+      "choices": ["He", "It", "They", "We"], "answer": 1,
+      "whyNot": { "0": "He ใช้กับผู้ชาย ไม่ใช้กับสิ่งของ", "2": "They ใช้กับหลายสิ่ง แต่ bag มีใบเดียว", "3": "We หมายถึงพวกเรา ไม่ได้แทนกระเป๋า" },
+      "explainTh": "bag เป็นสิ่งของ 1 ชิ้น จึงใช้ It",
+      "structure": "it = สิ่งของ/สัตว์ 1 ตัว", "example": "Look at that bag. It is very nice."
+    },
+    {
+      "id": "a1-subject-pronouns-03", "type": "fill", "difficulty": 1,
+      "question": "Tom and I are friends. ___ are in the same class.",
+      "accepted": ["We"],
+      "explainTh": "Tom and I = ทอมกับฉัน (มีตัวเราอยู่ด้วย) แทนด้วย We",
+      "structure": "Someone + I → we", "example": "Tom and I are friends. We are in the same class."
+    },
+    {
+      "id": "a1-subject-pronouns-04", "type": "fill", "difficulty": 1,
+      "question": "Mr Lee is my teacher. ___ is from China.",
+      "accepted": ["He"],
+      "explainTh": "Mr Lee เป็นผู้ชาย 1 คน แทนด้วย He",
+      "structure": "he = ผู้ชาย 1 คน", "example": "Mr Lee is my teacher. He is from China."
+    },
+    {
+      "id": "a1-subject-pronouns-05", "type": "fill", "difficulty": 2,
+      "question": "My new shoes are very nice. ___ are white.",
+      "accepted": ["They"],
+      "explainTh": "shoes เป็นพหูพจน์ (หลายชิ้น) ใช้ They แทน — they ใช้ได้ทั้งคนและสิ่งของหลายสิ่ง",
+      "structure": "they = หลายคน/หลายสิ่ง", "example": "My new shoes are very nice. They are white."
+    },
+    {
+      "id": "a1-subject-pronouns-06", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่คำนามกับสรรพนามประธานที่ใช้แทน",
+      "pairs": [["my father", "he"], ["my aunt", "she"], ["the phone", "it"], ["Ann and Ben", "they"], ["my friends and I", "we"]],
+      "explainTh": "ผู้ชาย → he · ผู้หญิง → she · สิ่งของ → it · หลายคน → they · หลายคนที่มีตัวเรา → we"
+    },
+    {
+      "id": "a1-subject-pronouns-07", "type": "error", "difficulty": 2,
+      "sentence": "My brother he is twelve years old.",
+      "errorPart": "he is",
+      "accepted": ["My brother is twelve years old.", "He is twelve years old."],
+      "explainTh": "My brother เป็นประธานแล้ว ไม่ต้องมี he ซ้ำ — ประโยคหนึ่งมีประธานเดียว",
+      "structure": "Noun + verb (ไม่ต้องมีสรรพนามซ้ำ)"
+    },
+    {
+      "id": "a1-subject-pronouns-08", "type": "error", "difficulty": 2,
+      "sentence": "My grandmother is seventy. He lives with us.",
+      "errorPart": "He",
+      "accepted": ["My grandmother is seventy. She lives with us."],
+      "explainTh": "grandmother (ยาย/ย่า) เป็นผู้หญิง ต้องใช้ She — ภาษาไทยใช้ \"เขา\" ได้ทั้งชายหญิง จึงพลาดบ่อย",
+      "structure": "she = ผู้หญิง 1 คน"
+    },
+    {
+      "id": "a1-subject-pronouns-09", "type": "order", "difficulty": 1,
+      "tokens": ["we", "to", "school", "walk"],
+      "accepted": ["We walk to school."],
+      "explainTh": "ประธาน (We) อยู่หน้ากริยา (walk) → We walk to school."
+    },
+    {
+      "id": "a1-subject-pronouns-10", "type": "order", "difficulty": 2,
+      "tokens": ["he", "football", "plays", "every", "day"],
+      "accepted": ["He plays football every day.", "Every day he plays football.", "Every day, he plays football."],
+      "explainTh": "Subject (He) + verb (plays) + object (football) — คำบอกเวลา every day วางท้ายหรือต้นประโยคก็ได้"
+    },
+    {
+      "id": "a1-subject-pronouns-11", "type": "transform", "difficulty": 2,
+      "source": "Mary and Jack are at home.",
+      "instruction": "เขียนใหม่โดยใช้สรรพนามประธานแทน Mary and Jack",
+      "accepted": ["They are at home."],
+      "explainTh": "Mary and Jack = 2 คน (ไม่มีตัวเรา) แทนด้วย They",
+      "structure": "they = หลายคน", "example": "They are at home."
+    },
+    {
+      "id": "a1-subject-pronouns-12", "type": "transform", "difficulty": 3,
+      "source": "The children are in the garden. The children are happy.",
+      "instruction": "เขียนประโยคที่สองใหม่ โดยใช้สรรพนามแทน The children",
+      "accepted": ["They are happy.", "The children are in the garden. They are happy."],
+      "explainTh": "children (เด็ก ๆ) เป็นพหูพจน์ ใช้ They แทน จะได้ไม่ต้องพูดคำนามซ้ำ",
+      "structure": "they = หลายคน", "example": "The children are in the garden. They are happy."
+    },
+    {
+      "id": "a1-subject-pronouns-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["Me and my sister like music.", "My sister and I like music.", "My sister and me like music.", "I and my sister likes music."], "answer": 1,
+      "whyNot": { "0": "me เป็นรูปกรรม ใช้ตรงตำแหน่งประธานไม่ได้", "2": "ตรงตำแหน่งประธานต้องใช้ I ไม่ใช่ me", "3": "ควรพูดถึงคนอื่นก่อน (my sister and I) และประธาน 2 คนใช้ like ไม่ใช่ likes" },
+      "explainTh": "ประธานสองคนที่มีตัวเราด้วย ใช้รูป I และวางไว้หลัง: My sister and I + like",
+      "structure": "Other person + and I + verb", "example": "My sister and I like music."
+    },
+    {
+      "id": "a1-subject-pronouns-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Where is your dad?" },
+        { "speaker": "B", "text": "___ is at work. He comes home at six." }
+      ] },
+      "choices": ["He", "She", "It", "His"], "answer": 0,
+      "whyNot": { "1": "She ใช้กับผู้หญิง แต่ dad เป็นผู้ชาย", "2": "It ใช้กับสิ่งของหรือสัตว์ ไม่ใช้กับพ่อ", "3": "His แปลว่า \"ของเขา\" ต้องมีคำนามตาม เป็นประธานเองไม่ได้" },
+      "explainTh": "your dad = ผู้ชาย 1 คน เป็นประธานของประโยค จึงใช้ He",
+      "structure": "he = ผู้ชาย 1 คน", "example": "He is at work."
+    },
+    {
+      "id": "a1-subject-pronouns-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Message to a friend", "lines": [
+        { "text": "Hi! This is my new friend, Kai. He is from Japan. His sister, Yumi, is in my class. She is very funny. We are in the school band together." }
+      ] },
+      "question": "In the message, who is \"She\"?",
+      "choices": ["Kai", "Yumi", "the writer", "Kai and Yumi"], "answer": 1,
+      "whyNot": { "0": "Kai เป็นผู้ชาย ข้อความใช้ He แทน Kai", "2": "ผู้เขียนแทนตัวเองด้วย I/We ไม่ใช่ She", "3": "สองคนต้องใช้ They ไม่ใช่ She" },
+      "explainTh": "She แทนผู้หญิง 1 คนที่เพิ่งพูดถึงก่อนหน้า คือ Yumi (His sister, Yumi)"
+    },
+    {
+      "id": "a1-subject-pronouns-16", "type": "mc", "difficulty": 3,
+      "question": "Ben: \"Are you and Lisa hungry?\" Amy: \"Yes, ___ are.\"",
+      "choices": ["you", "we", "they", "us"], "answer": 1,
+      "whyNot": { "0": "Amy ตอบแทนตัวเองกับ Lisa จึงไม่ใช่ you", "2": "they หมายถึงคนอื่น ไม่รวมผู้พูด", "3": "us เป็นรูปกรรม ใช้เป็นประธานไม่ได้" },
+      "explainTh": "Ben ถาม Amy ว่า \"you and Lisa\" เมื่อ Amy ตอบ เธอพูดแทนตัวเองกับ Lisa (มีตัวเราด้วย) = we",
+      "structure": "you (คำถาม) → I / we (คำตอบ)", "example": "Yes, we are."
+    },
+    {
+      "id": "a1-subject-pronouns-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคแนะนำคนในครอบครัวหรือเพื่อน ใช้ he / she / they (Write 3 sentences about people in your family or your friends. Use he, she or they.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b(he|she|they)\\b", "flags": "i", "msgTh": "ใช้ he, she หรือ they อย่างน้อย 1 ครั้ง" } ],
+      "sample": "My mother is a teacher. She is very kind. My brothers are twins and they are ten.",
+      "explainTh": "แนะนำคนด้วยคำนามก่อน แล้วใช้สรรพนามแทนในประโยคถัดไป: ผู้ชาย he · ผู้หญิง she · หลายคน they"
+    }
+  ]
+}

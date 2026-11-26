@@ -1,0 +1,72 @@
+/* =====================================================================
+   v1.24.0 ป๊อปอัปติดตั้งแอป (PWA) — การ์ดเกมโทนคราม-ทอง ใช้ได้ทุกธีม (สีของการ์ดคงที่ ตรวจ contrast แล้ว)
+   ตัวอักษรหลัก #FFF4DB บน #1F1D52 ≈ 14:1 · ตัวรอง #D7D0F0 ≈ 10:1 · ปุ่มทอง ตัวอักษร #1A1204 ≈ 12:1
+   ===================================================================== */
+.pwa-install .modal-card.pi-card {
+  --pi-ink: #FFF4DB; --pi-sub: #D7D0F0; --pi-gold: #F4CC82; --pi-line: rgba(244, 204, 130, 0.38);
+  position: relative; overflow: hidden; text-align: left; width: min(440px, calc(100vw - 24px)); max-height: min(92vh, 760px); overflow-y: auto;
+  padding: 22px 20px 18px; border-radius: 24px; color: var(--pi-ink);
+  background: radial-gradient(120% 70% at 50% -10%, rgba(244, 204, 130, 0.2), transparent 60%),
+    radial-gradient(80% 50% at 100% 100%, rgba(231, 160, 199, 0.16), transparent 70%),
+    linear-gradient(165deg, #2B2766 0%, #1F1D52 48%, #141335 100%);
+  border: 1px solid var(--pi-line);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset, 0 0 40px rgba(244, 204, 130, 0.14), 0 24px 60px rgba(4, 4, 20, 0.55);
+}
+.pwa-install.is-sheet .modal-card.pi-card { width: 100%; border-radius: 24px 24px 0 0; padding-bottom: max(18px, env(safe-area-inset-bottom)); }
+.pwa-install .sheet-close { color: var(--pi-ink); background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.18); }
+.pi-glow { position: absolute; left: 50%; top: -120px; width: 320px; height: 220px; transform: translateX(-50%); pointer-events: none;
+  background: radial-gradient(closest-side, rgba(255, 172, 77, 0.28), transparent); }
+.pi-head { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; padding-right: 36px; }
+.pi-logo { display: grid; place-items: center; width: 76px; height: 76px; border-radius: 22px; padding: 3px;
+  background: conic-gradient(from 210deg, #F4CC82, #FFAC4D, #E7A0C7, #8E9CF0, #F4CC82); box-shadow: 0 8px 22px rgba(255, 172, 77, 0.35); }
+.pi-logo img { width: 70px; height: 70px; border-radius: 19px; background: #FFF4DB; display: block; }
+.pi-kicker { margin: 0 0 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: inline-flex; gap: 4px; align-items: center; font-size: 0.78rem; font-weight: 700; color: var(--pi-gold); }
+.pi-title { margin: 0; font-size: clamp(1.25rem, 5.4vw, 1.45rem); line-height: 1.2; color: var(--pi-ink); }
+.pi-sub { margin: 4px 0 0; color: var(--pi-sub); font-size: 0.92rem; }
+.pi-benefits { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 8px; position: relative; }
+.pi-benefits li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; padding: 9px 12px; border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.09); }
+.pi-benefits b { display: block; font-size: 0.95rem; color: var(--pi-ink); }
+.pi-benefits small { color: var(--pi-sub); font-size: 0.8rem; }
+.pi-bic { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 12px; color: #1A1204;
+  background: linear-gradient(180deg, #FFF0CC, #F4CC82 60%, #E8A851); box-shadow: 0 3px 10px rgba(255, 172, 77, 0.3); }
+.pi-guide { margin-top: 14px; padding: 12px 12px 10px; border-radius: 16px; background: rgba(11, 16, 40, 0.55); border: 1px dashed var(--pi-line); }
+.pi-gt { margin: 0 0 8px; font-size: 1rem; color: var(--pi-gold); }
+.pi-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.pi-steps li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: start; font-size: 0.95rem; line-height: 1.5; color: var(--pi-ink); }
+.pi-steps b { color: #FFE2A6; }
+.pi-steps small { color: var(--pi-sub); }
+.pi-num { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; font-weight: 800; font-size: 0.85rem; color: #1A1204;
+  background: linear-gradient(180deg, #FFF0CC, #F4CC82); }
+.pi-glyph { display: inline-block; width: 1.25em; height: 1.25em; vertical-align: -0.28em; padding: 2px; border-radius: 6px; color: #8FB2FF;
+  background: rgba(143, 178, 255, 0.14); border: 1px solid rgba(143, 178, 255, 0.35); }
+.pi-note { margin: 10px 0 0; display: flex; gap: 6px; align-items: flex-start; color: var(--pi-sub); font-size: 0.84rem; }
+.pi-note .icon { flex: 0 0 auto; margin-top: 2px; }
+.pi-status { margin: 12px 0 0; padding: 10px 12px; border-radius: 12px; display: flex; gap: 8px; align-items: center; font-weight: 600; font-size: 0.92rem; }
+.pi-status.is-ok { background: rgba(143, 224, 176, 0.16); color: #BFF2D3; border: 1px solid rgba(143, 224, 176, 0.4); }
+.pi-status.is-info, .pi-status.is-wait { background: rgba(143, 178, 255, 0.12); color: #DCE5FF; border: 1px solid rgba(143, 178, 255, 0.32); }
+.pi-status .spinner { width: 16px; height: 16px; }
+.pi-actions { display: grid; gap: 10px; margin-top: 16px; }
+.pi-actions .btn { min-height: 50px; display: inline-flex; gap: 8px; align-items: center; justify-content: center; text-decoration: none; }
+.pwa-install .pi-cta { color: #1A1204; border: 0; background: linear-gradient(180deg, #FFF0CC 0%, #F4CC82 50%, #E8A851 100%);
+  box-shadow: 0 3px 0 #A86E22, inset 0 0 0 1px rgba(255, 255, 255, 0.4), 0 8px 22px rgba(255, 172, 77, 0.32); font-weight: 800; font-size: 1.05rem; }
+.pwa-install .pi-cta:active { transform: translateY(2px); box-shadow: 0 1px 0 #A86E22, 0 4px 12px rgba(255, 172, 77, 0.25); }
+.pwa-install .pi-cta:disabled { opacity: 0.6; }
+.pwa-install .pi-later { background: rgba(255, 255, 255, 0.06); color: var(--pi-ink); border: 1px solid rgba(255, 255, 255, 0.2); }
+.pwa-install :is(.pi-cta, .pi-later):focus-visible { outline: 3px solid #FFF4DB; outline-offset: 2px; }
+@media (min-width: 420px) { .pi-actions { grid-template-columns: 1.4fr 1fr; } }
+@media (prefers-reduced-motion: no-preference) {
+  .pwa-install .pi-card { animation: pi-rise 0.32s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  @keyframes pi-rise { from { transform: translateY(18px) scale(0.98); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+
+/* ปุ่มเล็กในหน้าเข้าสู่ระบบ — ใต้ฟอร์ม ไม่บังการกรอก */
+.pwa-login-entry { display: inline-flex; gap: 8px; align-items: center; justify-content: center; align-self: center; margin-top: 14px; min-height: 44px; padding: 8px 14px;
+  border-radius: 999px; border: 1px dashed var(--color-border); background: transparent; color: var(--color-text-muted); font: inherit; font-size: 0.88rem; cursor: pointer; }
+.pwa-login-entry:hover { color: var(--color-text); border-color: var(--color-primary); }
+.pwa-login-entry:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.pwa-login-entry.hidden { display: none; }
+.pwa-set-ok { margin: 0; display: flex; gap: 8px; align-items: center; color: var(--color-success, #15803D); font-weight: 600; }
+/* เปิดขั้นตอนแล้ว: ซ่อนรายการประโยชน์ ให้ขั้นตอน + ปุ่มอยู่ในจอเดียว (มือถือ) */
+.pi-card.is-guide .pi-benefits { display: none; }
+.pi-card.is-guide .pi-sub { display: none; }

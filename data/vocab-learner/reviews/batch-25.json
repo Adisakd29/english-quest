@@ -1,0 +1,97 @@
+{
+  "batch": "25",
+  "reviewed": 121,
+  "issues": [
+    {
+      "id": "B2-S0046",
+      "severity": "minor",
+      "problem": "Example only uses the fixed compound 'armed forces' (= the military), so it does not prove the sense 'carrying a weapon'; gapOk true relies on a set phrase.",
+      "fix": {
+        "example": "Most police officers in Britain are not armed; they carry no guns while on duty.",
+        "form": "armed",
+        "exampleTH": "ตำรวจส่วนใหญ่ในอังกฤษไม่ได้พกอาวุธ และไม่มีปืนติดตัวขณะปฏิบัติหน้าที่",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0010",
+      "severity": "minor",
+      "problem": "'acquire excellent English' is an unnatural collocation, and the Thai 'ได้ภาษาอังกฤษที่ดีเยี่ยม' is awkward.",
+      "fix": {
+        "example": "Ploy acquired useful computer skills during her six-month internship at a tech company.",
+        "form": "acquired",
+        "exampleTH": "พลอยได้ทักษะคอมพิวเตอร์ที่มีประโยชน์ระหว่างฝึกงานหกเดือนที่บริษัทเทคโนโลยี"
+      }
+    },
+    {
+      "id": "B2-S0103",
+      "severity": "minor",
+      "problem": "For a football goalkeeper the natural word is 'save', not 'catch'; the context invites the wrong answer and is unidiomatic.",
+      "fix": {
+        "example": "Tom jumped high and made a great catch with one hand before the ball hit the ground.",
+        "form": "catch",
+        "exampleTH": "ทอมกระโดดสูงและรับลูกได้อย่างสวยงามด้วยมือข้างเดียวก่อนที่ลูกจะตกถึงพื้น"
+      }
+    },
+    {
+      "id": "B2-S0008",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'My brother ___ me of eating his cake' also fits 'suspected' equally well.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0023",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The first item on the ___ is the budget' also fits the common word 'list'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0089",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a ___ of flowers' also fits 'bouquet', a near-synonym known at B2.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0117",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a ___ servant who works for the Ministry' also fits 'public'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "B2-S0039",
+      "severity": "minor",
+      "problem": "Collocation 'appeal for help' belongs to the other sense (request), not 'be attractive to'.",
+      "fix": {
+        "collocations": [
+          "appeal to young people",
+          "appeal to a wide audience",
+          "the idea appeals to me"
+        ]
+      }
+    },
+    {
+      "id": "B2-S0071",
+      "severity": "minor",
+      "problem": "Thai 'เขาพลาดรถเมล์ประจำ' reads as 'he missed his regular bus', not 'he always misses the bus'; also 'พลาดรถเมล์' is less natural than 'ตกรถเมล์'.",
+      "fix": {
+        "exampleTH": "พนันได้เลยว่าเล็กต้องมาสายอีกแน่ เพราะเขาตกรถเมล์เป็นประจำ"
+      }
+    },
+    {
+      "id": "B2-S0118",
+      "severity": "minor",
+      "problem": "Thai 'ที่นักท่องเที่ยวต้องอยากลอง' is awkward ('must want to try').",
+      "fix": {
+        "exampleTH": "ข้าวเหนียวมะม่วงเป็นของหวานไทยสุดคลาสสิกที่นักท่องเที่ยวมักอยากลองชิม"
+      }
+    }
+  ]
+}

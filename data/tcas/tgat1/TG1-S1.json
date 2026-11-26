@@ -1,0 +1,1316 @@
+{
+  "exam": "tgat1",
+  "setId": "TG1-S1",
+  "title": "TGAT1 ชุดฝึกที่ 1",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "sections": [
+    {
+      "id": "speaking",
+      "groups": [
+        {
+          "id": "TG1-S1-G01",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Apologising for a missed call",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Sorry I forgot to call you back last night."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I'll call you back tonight, then.",
+                "Don't worry about it.",
+                "You called me at nine, didn't you?",
+                "Sorry, I'm not free tonight."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "ผู้พูดขอโทษที่ลืมโทรกลับ จึงตอบรับคำขอโทษว่า \"Don't worry about it.\" ส่วน \"I'll call you back\" สลับบทบาท เพราะคนที่ต้องโทรกลับคือผู้ถาม \"You called me at nine\" ขัดกับที่เขาบอกว่าลืมโทร และ \"I'm not free tonight\" เป็นการปฏิเสธคำชวน ไม่ใช่การตอบคำขอโทษ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G02",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Offering help",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Would you like me to carry one of those bags?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, I'd like one of those bags.",
+                "I bought them at the market.",
+                "Yes, I'd love to carry them.",
+                "That'd be great, thanks."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ประโยค \"Would you like me to…?\" เป็นการเสนอความช่วยเหลือ จึงตอบรับว่า \"That'd be great, thanks.\" ส่วน \"I'd like one of those bags\" เข้าใจผิดว่าถามว่าอยากได้กระเป๋า \"I bought them at the market\" ตอบคำถามว่าซื้อที่ไหน และ \"I'd love to carry them\" สลับคนช่วย เพราะผู้ถามเป็นคนเสนอจะถือให้"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G03",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Train times",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "What time does the next train to the airport leave?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "In about fifteen minutes, at 9:40.",
+                "From platform 3, on the left.",
+                "It takes about forty minutes to get there.",
+                "It left the airport at nine."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "คำถาม \"What time…leave?\" ถามเวลาออก จึงตอบว่าอีกประมาณสิบห้านาที ตอน 9:40 ส่วน \"From platform 3\" ตอบว่าที่ไหน \"It takes about forty minutes\" ตอบว่าใช้เวลานานเท่าไร และ \"It left the airport at nine\" ใช้อดีตและพูดถึงรถไฟที่ออกจากสนามบิน ไม่ใช่ขบวนถัดไปที่จะไปสนามบิน"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G04",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "A problem with the bill",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Excuse me, I think there's a mistake on my bill."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, we take cards as well.",
+                "You're welcome. Come again soon.",
+                "Oh, I'm sorry. Let me check it.",
+                "I'll have the same as her, please."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "ลูกค้าแจ้งว่าบิลผิด พนักงานควรขอโทษและตรวจสอบให้ \"Oh, I'm sorry. Let me check it.\" ส่วน \"we take cards\" พูดเรื่องการจ่ายเงินแต่ไม่ได้แก้ปัญหา \"You're welcome\" ใช้ตอบคำขอบคุณ และ \"I'll have the same as her\" เป็นคำพูดของลูกค้าตอนสั่งอาหาร ไม่ใช่ของพนักงาน"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G05",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "A picnic invitation",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "We're having a picnic in the park on Sunday. Want to come?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Sure! What should I bring?",
+                "Yes, I went there last Sunday.",
+                "The park closes at six.",
+                "It was a lovely day for it."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "เป็นการชวนไปปิกนิก จึงตอบรับและถามว่าควรเอาอะไรไป \"Sure! What should I bring?\" ส่วน \"I went there last Sunday\" ใช้อดีตและไม่ได้ตอบคำชวน \"The park closes at six\" แค่ให้ข้อมูลเรื่องสวน และ \"It was a lovely day\" ใช้อดีต ทั้งที่ปิกนิกยังไม่เกิดขึ้น"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G06",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Feeling unwell",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "You look pale. Are you feeling all right?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-006",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, it looks great on you.",
+                "Not really. I've got a headache.",
+                "He felt better after lunch.",
+                "Yes, all right. I'll do it now."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ผู้ถามเห็นว่าหน้าซีดและถามว่าสบายดีไหม จึงตอบว่าไม่ค่อยดี ปวดหัว ส่วน \"it looks great on you\" เป็นการชมเสื้อผ้า ใช้ look ผิดความหมาย \"He felt better\" ใช้ผิดบุคคลและผิดกาล และ \"all right. I'll do it now\" ตอบเหมือนถูกขอให้ทำอะไรบางอย่าง"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G07",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Asking the way",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Excuse me, how do I get to the post office from here?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-007",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I can post the letter for you tomorrow.",
+                "It opens at half past eight.",
+                "Yes, I got here by taxi.",
+                "Take the second left. It's just there."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "คำถาม \"How do I get to…?\" ขอทางไปที่ทำการไปรษณีย์ จึงบอกทางว่าเลี้ยวซ้ายที่สองแล้วก็ถึง ส่วน \"post the letter\" ใช้คำว่า post ผิดความหมายและเสนอช่วยแทนการบอกทาง \"It opens at…\" ตอบว่าเปิดกี่โมง และ \"I got here by taxi\" ตอบเรื่องตัวเองมาอย่างไร ไม่ใช่วิธีไปไปรษณีย์"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G08",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Borrowed notes",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Thanks for lending me your notes. They really helped."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-008",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Sorry, I lost your notes.",
+                "Yes, I'll lend them to you.",
+                "Glad they were useful!",
+                "I'll help you with them, then."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "ผู้พูดขอบคุณที่ให้ยืมสมุดจด จึงตอบรับคำขอบคุณว่า \"Glad they were useful!\" ส่วน \"I lost your notes\" สลับบทบาท เพราะสมุดเป็นของผู้ตอบเอง \"I'll lend them to you\" ใช้อนาคตทั้งที่ให้ยืมไปแล้ว และ \"I'll help you with them\" เสนอช่วยทั้งที่อีกฝ่ายบอกว่าสมุดช่วยได้มากแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G09",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "The school play",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "What did you think of the school play last night?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "In the main hall, I think.",
+                "I really enjoyed it, actually.",
+                "It starts at seven in the hall.",
+                "I'll think about it tonight."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "\"What did you think of…?\" ถามความคิดเห็นเรื่องที่ผ่านมาแล้ว จึงตอบว่าชอบมาก ส่วน \"In the main hall\" ตอบว่าที่ไหน \"It starts at seven\" ใช้ปัจจุบันและตอบเรื่องเวลา ทั้งที่ละครแสดงไปแล้วเมื่อคืน และ \"I'll think about it\" ใช้ think ผิดความหมาย เป็นการขอเวลาตัดสินใจ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G10",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "On the phone",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Hello, could I speak to Mr. Somsak, please?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-010",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Sorry, he's out at the moment.",
+                "Yes, he speaks three languages.",
+                "Yes, I spoke to him yesterday.",
+                "He's a teacher at my school."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "ผู้โทรขอสายคุณสมศักดิ์ ผู้รับสายจึงบอกว่าตอนนี้เขาไม่อยู่ ส่วน \"he speaks three languages\" ใช้ speak ผิดความหมาย \"I spoke to him yesterday\" ใช้อดีตและพูดถึงตัวผู้ตอบเอง และ \"He's a teacher\" ตอบว่าเขาเป็นใคร ไม่ได้ตอบคำขอสาย"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G11",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Joining a club",
+          "dialogue": [
+            {
+              "speaker": "Fah",
+              "text": "Hi! Are you interested in joining the Photography Club? We're looking for new members."
+            },
+            {
+              "speaker": "Daniel",
+              "text": "Maybe. ___1___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "We meet every Wednesday after school, from 3:30 to 5:00."
+            },
+            {
+              "speaker": "Daniel",
+              "text": "Hmm, I have basketball practice on Wednesdays. ___2___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Don't worry. You can still come on our weekend photo walks once a month."
+            },
+            {
+              "speaker": "Daniel",
+              "text": "That sounds great. ___3___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Just fill in this form and bring it to Room 214 by Friday."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-011",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Where did you buy your camera?",
+                "How long have you been a member?",
+                "When does the club usually meet?",
+                "How much does it cost to join?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Fah ตอบเรื่องวันและเวลาที่ชมรมพบกัน \"every Wednesday after school, from 3:30 to 5:00\" คำถามที่ถูกจึงต้องถามเรื่องเวลา"
+            },
+            {
+              "id": "TG1-S1-012",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Do you play basketball too?",
+                "Would you like to come and watch?",
+                "Did you win the match last week?",
+                "Is that going to be a problem?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Daniel มีซ้อมบาสวันพุธซึ่งชนกับเวลาชมรม จึงถามว่าจะเป็นปัญหาไหม และ Fah ตอบว่า \"Don't worry.\" พร้อมเสนอทางเลือก ตัวเลือกอื่นไม่เชื่อมกับคำตอบนี้"
+            },
+            {
+              "id": "TG1-S1-013",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "What time does the walk finish?",
+                "How can I sign up for the club?",
+                "How much is the membership fee?",
+                "Who is the club president?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Fah ตอบให้กรอกแบบฟอร์มแล้วนำไปส่งที่ห้อง 214 ซึ่งเป็นวิธีสมัครสมาชิก คำถามจึงต้องเป็นการถามวิธีสมัคร \"How can I sign up for the club?\""
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G12",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "An online order",
+          "dialogue": [
+            {
+              "speaker": "Nina",
+              "text": "Hello, this is Nina from BrightCart customer service. What can I do for you today?"
+            },
+            {
+              "speaker": "Chanon",
+              "text": "Hi. The running shoes I ordered arrived yesterday, but they're a size too small. ___1___"
+            },
+            {
+              "speaker": "Nina",
+              "text": "Of course. Do you still have the original box and receipt?"
+            },
+            {
+              "speaker": "Chanon",
+              "text": "Yes, I haven't even worn them outside. ___2___"
+            },
+            {
+              "speaker": "Nina",
+              "text": "No, you won't. Exchanges are free within 30 days. I'll email you a return label right away."
+            },
+            {
+              "speaker": "Chanon",
+              "text": "___3___"
+            },
+            {
+              "speaker": "Nina",
+              "text": "You're welcome. Have a nice day!"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-014",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Could I exchange them for a bigger size?",
+                "Could you tell me how to clean them properly?",
+                "Could you recommend some good running socks?",
+                "Could you check whether my order has been shipped yet?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "รองเท้าเล็กไปหนึ่งไซซ์ จึงต้องขอเปลี่ยนเป็นไซซ์ที่ใหญ่ขึ้น และ Nina ตอบรับว่า \"Of course.\" แล้วถามหากล่องและใบเสร็จ ซึ่งเกี่ยวกับการเปลี่ยนสินค้า ตัวเลือกอื่นไม่เกี่ยวกับกล่องและใบเสร็จ"
+            },
+            {
+              "id": "TG1-S1-015",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Can I keep the old pair as well?",
+                "Can I return them to a shop near me?",
+                "When will my order be shipped?",
+                "Will I have to pay for shipping?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"No, you won't. Exchanges are free…\" แสดงว่าคำถามคือต้องเสียค่าส่งหรือไม่ ต้องเป็นคำถามแบบ \"Will I…?\" จึงตอบ \"No, you won't\" ได้"
+            },
+            {
+              "id": "TG1-S1-016",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Could you send it by post instead?",
+                "I'll look forward to your call.",
+                "Great, thanks for your help.",
+                "Sorry, I didn't catch that."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Nina ตอบกลับว่า \"You're welcome.\" แสดงว่า Chanon เพิ่งกล่าวขอบคุณ ตัวเลือกอื่นเป็นคำขอร้องหรือการขอให้พูดซ้ำ ซึ่งไม่ควรตอบด้วย \"You're welcome.\" และ Nina บอกว่าจะส่งอีเมล ไม่ใช่โทรมา"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G13",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "At the train station",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "Good afternoon. How can I help you?"
+            },
+            {
+              "speaker": "Emma",
+              "text": "I'd like two tickets to Chiang Mai on tonight's overnight train, please."
+            },
+            {
+              "speaker": "Officer",
+              "text": "I'm sorry, ___1___ The next available train leaves tomorrow at 6 p.m."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Oh, that's a shame. ___2___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Yes, but only upper berths. They're a little cheaper, 650 baht each."
+            },
+            {
+              "speaker": "Emma",
+              "text": "___3___ We just want to get there."
+            },
+            {
+              "speaker": "Officer",
+              "text": "Great. ___4___"
+            },
+            {
+              "speaker": "Emma",
+              "text": "By card, if that's OK."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-017",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "tonight's train is already fully booked.",
+                "we don't sell tickets for that route.",
+                "you can buy tickets at this counter.",
+                "the train leaves on time tonight."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ขึ้นต้นด้วย \"I'm sorry\" แล้วเสนอรถไฟเที่ยวพรุ่งนี้แทน แสดงว่าเที่ยวคืนนี้เต็มแล้ว ตัวเลือกอื่นไม่ใช่เหตุผลที่ต้องขอโทษ"
+            },
+            {
+              "id": "TG1-S1-018",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "How long does the journey take, then?",
+                "Are there any seats left on that one?",
+                "Does the train have a dining car?",
+                "Can I pay for the tickets later?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่ตอบ \"Yes, but only upper berths.\" แสดงว่า Emma ถามว่ารถไฟเที่ยวพรุ่งนี้ยังมีที่ว่างไหม คำตอบนี้ไม่เข้ากับคำถามเรื่องระยะเวลา ตู้เสบียง หรือการจ่ายเงินทีหลัง"
+            },
+            {
+              "id": "TG1-S1-019",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "We'd prefer lower berths, then.",
+                "Then we'll take the bus instead.",
+                "Could you repeat the date, please?",
+                "That's absolutely fine with us."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Emma บอกต่อว่า \"We just want to get there.\" คือขอแค่ได้ไป จึงยอมรับเตียงชั้นบน และเจ้าหน้าที่ตอบว่า \"Great.\" ตัวเลือกอื่นเป็นการปฏิเสธหรือไม่สอดคล้อง"
+            },
+            {
+              "id": "TG1-S1-020",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Where would you like to go?",
+                "How many tickets do you need?",
+                "How would you like to pay for them?",
+                "What time would you like to leave?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Emma ตอบว่า \"By card\" จึงต้องเป็นคำถามเรื่องวิธีชำระเงิน ส่วนจุดหมายและจำนวนตั๋วรู้แล้วตั้งแต่ต้นบทสนทนา"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G14",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "A job interview at a café",
+          "dialogue": [
+            {
+              "speaker": "Mr. Wichai",
+              "text": "Hi, you must be Pang. Please have a seat."
+            },
+            {
+              "speaker": "Pang",
+              "text": "Thank you for inviting me to the interview."
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "So, why do you want to work at Bean Corner?"
+            },
+            {
+              "speaker": "Pang",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "That's great. Have you ever worked in a café before?"
+            },
+            {
+              "speaker": "Pang",
+              "text": "___2___"
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "Good, so you're used to dealing with customers. We need someone on Saturdays and Sundays. ___3___"
+            },
+            {
+              "speaker": "Pang",
+              "text": "Saturdays are fine, but I have a tutoring class on Sunday mornings."
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "___4___ You could start at 1 p.m. on Sundays."
+            },
+            {
+              "speaker": "Pang",
+              "text": "Thank you. That works perfectly for me."
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "Do you have any questions for me?"
+            },
+            {
+              "speaker": "Pang",
+              "text": "___5___"
+            },
+            {
+              "speaker": "Mr. Wichai",
+              "text": "Just black trousers and comfortable shoes. We'll give you an apron."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-021",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I love coffee and want some work experience.",
+                "I've worked at two cafés, so I know the job.",
+                "Because I'm free every Sunday morning.",
+                "I'm not sure. My mum found the advert for me."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "ผู้สัมภาษณ์ตอบว่า \"That's great.\" แล้วถามต่อว่าเคยทำงานร้านกาแฟไหม Pang จึงต้องให้เหตุผลเชิงบวกโดยยังไม่ได้บอกว่าเคยทำร้านกาแฟ ส่วนการบอกว่าทำมาแล้วสองร้านขัดกับคำถามถัดไป การบอกว่าว่างเช้าวันอาทิตย์ขัดกับที่ภายหลังบอกว่ามีเรียนพิเศษเช้าวันอาทิตย์ และคำตอบว่าไม่แน่ใจ แม่หาประกาศให้ ไม่ใช่สิ่งที่ผู้สัมภาษณ์จะตอบว่า \"That's great.\""
+            },
+            {
+              "id": "TG1-S1-022",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "No, I usually just study at home on weekends.",
+                "No, but I often make coffee for my family.",
+                "No, but I help at my aunt's noodle shop.",
+                "Yes, I'd really love to try it someday."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ผู้สัมภาษณ์ต่อด้วย \"so you're used to dealing with customers\" แสดงว่า Pang มีประสบการณ์ดูแลลูกค้าจากที่อื่น คือช่วยร้านก๋วยเตี๋ยวของป้า ส่วนการอยู่บ้านอ่านหนังสือหรือชงกาแฟให้ครอบครัวไม่ใช่การดูแลลูกค้า และ \"Yes, I'd love to try\" ไม่ได้ตอบคำถามเรื่องประสบการณ์"
+            },
+            {
+              "id": "TG1-S1-023",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "How did you hear about this job?",
+                "Would those days work for you?",
+                "Do you live near the café?",
+                "What do you usually do for fun?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Pang ตอบเรื่องความสะดวกในวันเสาร์และอาทิตย์ จึงต้องเป็นคำถามว่าเวลางานนั้นสะดวกหรือไม่ \"Would those days work for you?\""
+            },
+            {
+              "id": "TG1-S1-024",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'm sorry, but we need you all morning.",
+                "Then let's make it Saturdays only.",
+                "Oh, what subject do you study?",
+                "That's not a problem."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "ผู้สัมภาษณ์เสนอให้เริ่มงานบ่ายโมงในวันอาทิตย์ แสดงว่ายอมปรับเวลาให้ จึงต้องพูดว่า \"That's not a problem.\" ส่วนการบอกว่าต้องการให้มาทั้งช่วงเช้า หรือให้ทำเฉพาะวันเสาร์ ขัดกับข้อเสนอเรื่องวันอาทิตย์ และคำถามเรื่องวิชาเรียนไม่ได้รับคำตอบ"
+            },
+            {
+              "id": "TG1-S1-025",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Yes. How much will I be paid per hour?",
+                "Yes. What should I wear to work here?",
+                "Yes. When will I find out the result?",
+                "No, I think you've already told me."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"Just black trousers and comfortable shoes\" เป็นเรื่องการแต่งกาย คำถามจึงต้องถามว่าควรแต่งกายอย่างไร ตัวเลือกอื่นถามเรื่องค่าจ้างหรือผลสัมภาษณ์ ซึ่งคำตอบไม่ได้พูดถึง"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G15",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Green School Week",
+          "dialogue": [
+            {
+              "speaker": "Nicha",
+              "text": "Ryan, have you seen the poster about Green School Week?"
+            },
+            {
+              "speaker": "Ryan",
+              "text": "Yes, I have. Every class has to come up with a project, right?"
+            },
+            {
+              "speaker": "Nicha",
+              "text": "That's right. ___1___"
+            },
+            {
+              "speaker": "Ryan",
+              "text": "How about a campaign to save water? We could put up posters about the dripping taps in the toilets."
+            },
+            {
+              "speaker": "Nicha",
+              "text": "___2___ I notice those taps every day. But posters alone might not change much."
+            },
+            {
+              "speaker": "Ryan",
+              "text": "___3___ So let's also measure how much water the school uses before and after the campaign."
+            },
+            {
+              "speaker": "Nicha",
+              "text": "Measure it? ___4___"
+            },
+            {
+              "speaker": "Ryan",
+              "text": "Mr. Somsak, the caretaker, checks the water meter every Monday. We could ask him for the numbers each week."
+            },
+            {
+              "speaker": "Nicha",
+              "text": "That's a brilliant idea! Then we can show everyone the results at assembly."
+            },
+            {
+              "speaker": "Ryan",
+              "text": "Exactly. Shall we tell Ms. Carter about it tomorrow?"
+            },
+            {
+              "speaker": "Nicha",
+              "text": "___5___ She always leaves early on Fridays, and tomorrow's Friday."
+            },
+            {
+              "speaker": "Ryan",
+              "text": "OK, let's go to the staff room after lunch, then."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S1-026",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "What do you think we should do?",
+                "Are you entering the poster contest?",
+                "When did you first see it?",
+                "Who designed it? It looks really nice."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ryan ตอบด้วยการเสนอแนวคิด \"How about a campaign to save water?\" แสดงว่า Nicha ขอความเห็นว่าควรทำโครงการอะไร"
+            },
+            {
+              "id": "TG1-S1-027",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Really? I've never noticed any leaks.",
+                "It's up to you.",
+                "That's a nice idea.",
+                "I'd rather focus on food waste."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Nicha ตอบรับข้อเสนอของ Ryan ก่อน (\"That's a nice idea.\") แล้วจึงแสดงข้อกังวลด้วย \"But…\" ส่วนการบอกว่าไม่เคยเห็นน้ำรั่วขัดกับ \"I notice those taps every day\" การอยากทำเรื่องขยะอาหารแทนขัดกับที่เธอพูดต่อเรื่องก๊อกน้ำ และ \"It's up to you.\" ไม่เข้ากับที่เธอแสดงความเห็นของตัวเองต่อทันที"
+            },
+            {
+              "id": "TG1-S1-028",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I don't think so.",
+                "Posters are enough, though.",
+                "Let's forget about it, then.",
+                "You're probably right."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Nicha กังวลว่าโปสเตอร์อย่างเดียวอาจไม่ได้ผล Ryan จึงเห็นด้วย (\"You're probably right.\") แล้วเสนอสิ่งที่ทำเพิ่ม (\"So let's also measure…\") ส่วนการไม่เห็นด้วย การบอกว่าโปสเตอร์พอแล้ว หรือการล้มเลิก ขัดกับคำว่า \"also\" ที่ตามมา"
+            },
+            {
+              "id": "TG1-S1-029",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "How exactly would we do that?",
+                "When did you measure it?",
+                "What would we do with the posters?",
+                "How much water did you use?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ryan อธิบายวิธีวัดปริมาณน้ำด้วยการขอตัวเลขจากมิเตอร์น้ำ แสดงว่า Nicha ถามว่าจะวัดได้อย่างไร ส่วนคำถามที่ใช้ did (อดีต) ไม่เข้ากับสิ่งที่ยังไม่ได้ทำ และคำถามเรื่องโปสเตอร์ไม่ตรงกับคำตอบเรื่องมิเตอร์น้ำ"
+            },
+            {
+              "id": "TG1-S1-030",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Sure, let's ask her after school tomorrow.",
+                "Let's try to see her today instead.",
+                "Why don't we email her next week?",
+                "Let's just leave her a note instead."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Nicha ให้เหตุผลว่าครูกลับเร็ววันศุกร์ซึ่งก็คือพรุ่งนี้ จึงเสนอให้ไปพบครูวันนี้แทน และ Ryan ตอบรับว่าจะไปห้องพักครูหลังอาหารกลางวัน ส่วนการไปพบหลังเลิกเรียนพรุ่งนี้ขัดกับเหตุผลที่ Nicha ให้ และการส่งอีเมลสัปดาห์หน้าหรือฝากโน้ตไว้ไม่ต้องเร่งก่อนครูกลับ ทั้งไม่เข้ากับที่ Ryan ตอบว่าจะไปพบที่ห้องพักครู"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TG1-S1-G16",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Saturday Reading Friends",
+          "text": "Last semester, twenty students from Ban Suan Wittaya School joined a volunteer programme ___1___ helps children in a nearby community learn to read. Every Saturday morning, the volunteers ___2___ two hours reading stories, playing word games and helping with homework. At first, many of the children were shy and ___3___ to speak, especially in English. ___4___, after a few weeks, they began to ask questions and even tell their own stories. One volunteer, Kanokwan, said the experience completely changed her ___5___ of teaching. \"I used to believe teachers just give information,\" she explained. \"Now I know they also need patience and creativity.\" The programme was so ___6___ that the school plans to ___7___ it to two more communities next year. Students who are interested should ___8___ up at the student affairs office before the end of June.",
+          "items": [
+            {
+              "id": "TG1-S1-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "who",
+                "where",
+                "whose",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ relative pronoun แทนสิ่งของ (a volunteer programme) และทำหน้าที่ประธานของ \"helps\" จึงใช้ which ส่วน who ใช้กับคน"
+            },
+            {
+              "id": "TG1-S1-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "spend",
+                "spent",
+                "will spend",
+                "are spending"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "เหตุการณ์เกิดใน \"Last semester\" ซึ่งเป็นอดีต จึงใช้ past simple \"spent\""
+            },
+            {
+              "id": "TG1-S1-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "eager",
+                "delighted",
+                "reluctant",
+                "confident"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "เด็ก ๆ ขี้อาย (shy) จึงไม่ค่อยกล้าพูด ต้องใช้ reluctant (ไม่เต็มใจ ลังเล) ส่วน eager และ confident มีความหมายตรงข้าม"
+            },
+            {
+              "id": "TG1-S1-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "However",
+                "Therefore",
+                "Moreover",
+                "For example"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนหน้าบอกว่าเด็กขี้อาย ประโยคหลังบอกว่าเริ่มกล้าถาม เป็นความขัดแย้ง จึงใช้ However"
+            },
+            {
+              "id": "TG1-S1-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "sight",
+                "scene",
+                "view",
+                "glance"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"view of something\" หมายถึงมุมมองหรือความคิดต่อสิ่งนั้น ซึ่งเข้ากับคำพูดของ Kanokwan เรื่องความเชื่อเกี่ยวกับครู ส่วน sight, scene, glance หมายถึงการมองเห็นหรือฉาก"
+            },
+            {
+              "id": "TG1-S1-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "success",
+                "succeed",
+                "successfully",
+                "successful"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง \"so + adjective + that\" ต้องใช้คุณศัพท์ จึงใช้ successful"
+            },
+            {
+              "id": "TG1-S1-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "reduce",
+                "expand",
+                "cancel",
+                "borrow"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "โครงการประสบความสำเร็จ และจะเพิ่มไปอีก \"two more communities\" จึงต้องใช้ expand (ขยาย)"
+            },
+            {
+              "id": "TG1-S1-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "sign",
+                "give",
+                "take",
+                "look"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"sign up\" แปลว่าลงชื่อสมัคร เข้ากับบริบทที่ให้นักเรียนที่สนใจไปที่ห้องกิจการนักเรียน ส่วน give up = เลิก, take up = เริ่มทำงานอดิเรก, look up = ค้นหา"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G17",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Breakfast and Exercise",
+          "text": "Many teenagers believe that skipping breakfast is a good way to stay slim. ___1___, nutrition experts say the opposite is often true. Students who do not eat in the morning tend to feel hungry by ten o'clock and ___2___ up snacking on chips or sweets. A healthy breakfast does not have to be complicated. A bowl of rice porridge with an egg or a slice of whole-grain toast with some fruit ___3___ enough energy for the first half of the school day. Exercise is just as important. Experts ___4___ that young people be physically active for at least sixty minutes a day. This does not mean you have to join a sports team. Walking to school, ___5___, or dancing to music in your bedroom all count. The key is to choose an activity you enjoy so that you will ___6___ with it for a long time. Small changes, ___7___ made every day, can make a big difference.",
+          "items": [
+            {
+              "id": "TG1-S1-039",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Therefore",
+                "Likewise",
+                "For instance",
+                "However"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ประโยคหลังบอกว่า \"the opposite is often true\" ซึ่งขัดแย้งกับความเชื่อของวัยรุ่นในประโยคแรก จึงต้องใช้คำเชื่อมแสดงความขัดแย้ง However ส่วน Therefore บอกผล Likewise บอกความคล้ายกัน และ For instance ใช้ยกตัวอย่าง"
+            },
+            {
+              "id": "TG1-S1-040",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "give",
+                "look",
+                "end",
+                "make"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"end up + V-ing\" หมายถึงลงเอยด้วยการทำบางอย่าง คือหิวแล้วสุดท้ายก็กินขนม ส่วน give up = เลิก, look up = ค้นหา"
+            },
+            {
+              "id": "TG1-S1-041",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "provide",
+                "provides",
+                "providing",
+                "to provide"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ประธานคือ \"A bowl … or a slice …\" ซึ่งเชื่อมด้วย or และเป็นเอกพจน์ทั้งคู่ กริยาแท้จึงต้องเป็น provides"
+            },
+            {
+              "id": "TG1-S1-042",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "recommend",
+                "encourage",
+                "prevent",
+                "disagree"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ผู้เชี่ยวชาญ \"แนะนำ\" ให้ออกกำลังกายวันละ 60 นาที จึงใช้ recommend ซึ่งตามด้วย that + ประธาน + V1 (be) ได้ ส่วน encourage ต้องใช้โครงสร้าง encourage someone to do และไม่ตามด้วย that-clause ส่วน prevent และ disagree ให้ความหมายผิด"
+            },
+            {
+              "id": "TG1-S1-043",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "to cycle",
+                "cycled",
+                "cycling",
+                "cycles"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "เป็นรายการที่ขนานกัน \"Walking…, ___, or dancing…\" ทุกคำต้องเป็น V-ing จึงใช้ cycling"
+            },
+            {
+              "id": "TG1-S1-044",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "catch",
+                "carry",
+                "bring",
+                "stick"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "\"stick with something\" หมายถึงทำสิ่งนั้นต่อไปเรื่อย ๆ ไม่เลิก เข้ากับ \"for a long time\""
+            },
+            {
+              "id": "TG1-S1-045",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "unless",
+                "if",
+                "although",
+                "until"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ความหมายคือ \"ถ้าทำทุกวัน การเปลี่ยนแปลงเล็ก ๆ ก็สร้างความแตกต่างได้มาก\" จึงใช้ if ส่วน unless (ถ้าไม่) และ although (แม้ว่า) ให้ความหมายผิด"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G18",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A Day at the Old Rail Museum",
+          "text": "Last Sunday, my younger brother Win and I finally visited the Old Rail Museum in Nong Saeng, a small town about two hours from Bangkok. The museum is in the town's original station building, which was built over ninety years ago. Inside, there are old tickets, uniforms and a model of the railway line that once connected the town to the coast.\n\nThe highlight for Win was the steam engine parked behind the building. Visitors can climb into the driver's cabin and pull a cord to hear the whistle. He did it at least six times! I preferred the photo room, where black-and-white pictures show how busy the station used to be before the new highway was built.\n\nThe museum is small, so you can see everything in about ninety minutes. Entry is free for students, but donations are welcome. My only complaint is that most of the signs are in Thai only, which might be difficult for foreign tourists. Still, I would happily go back.",
+          "items": [
+            {
+              "id": "TG1-S1-046",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "A writer's visit to a small railway museum",
+                "The history of steam engines in Thailand",
+                "How to travel from Bangkok to Nong Saeng",
+                "Why a new highway was built near the coast"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ทั้งเรื่องเล่าประสบการณ์ของผู้เขียนและน้องชายที่ไปเที่ยวพิพิธภัณฑ์รถไฟเล็ก ๆ ใน Nong Saeng ตัวเลือกอื่นเป็นเพียงรายละเอียดย่อยหรือไม่ได้กล่าวถึง"
+            },
+            {
+              "id": "TG1-S1-047",
+              "stem": "Where is the museum located?",
+              "options": [
+                "In a new building next to a highway",
+                "In a shopping centre on the coast",
+                "In a former train station building",
+                "Inside an old steam engine"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"The museum is in the town's original station building\" คือตั้งอยู่ในอาคารสถานีรถไฟเดิม"
+            },
+            {
+              "id": "TG1-S1-048",
+              "stem": "It can be inferred from the passage that ___.",
+              "options": [
+                "the highway was built more than ninety years ago",
+                "Win was frightened by the loud whistle of the engine",
+                "trains still run every day between the town and the coast",
+                "the station became quieter after the highway opened"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ภาพถ่ายแสดง \"how busy the station used to be before the new highway was built\" แปลว่าหลังมีทางหลวงสถานีก็เงียบลง ส่วนเส้นทางรถไฟที่ \"once connected\" แสดงว่าปัจจุบันไม่มีแล้ว"
+            },
+            {
+              "id": "TG1-S1-049",
+              "stem": "The word \"highlight\" in paragraph 2 is closest in meaning to ___.",
+              "options": [
+                "the brightest light",
+                "the most enjoyable part",
+                "the first stop on the tour",
+                "the main entrance"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"The highlight for Win\" ตามด้วยการที่ Win ดึงหวูดรถไฟถึงหกครั้ง แสดงว่าเป็นส่วนที่เขาชอบที่สุด"
+            },
+            {
+              "id": "TG1-S1-050",
+              "stem": "Which best describes the writer's attitude towards the museum?",
+              "options": [
+                "Disappointed because the museum is too small",
+                "Angry about the price of the tickets",
+                "Uninterested in the history of the town",
+                "Mostly positive, with one small criticism"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนติเพียงเรื่องเดียวว่าป้ายส่วนใหญ่มีแต่ภาษาไทย (\"My only complaint\") แต่ก็บอกว่า \"I would happily go back\" จึงมีทัศนคติเชิงบวกโดยรวม"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G19",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "A Smart Garden for Grandma",
+          "text": "When Thanawat Srisuk, a Grade 11 student from Khon Kaen, noticed that the vegetables in his grandmother's garden kept dying during the hot season, he decided to do something about it. Using a cheap moisture sensor, a small computer board and some recycled plastic bottles, he built a device that checks how dry the soil is every hour. When the soil becomes too dry, the device sends a message to his grandmother's phone.\n\n\"She doesn't have to guess anymore,\" Thanawat said. \"She only waters the plants when they really need it.\" As a result, his family now uses about a third less water than before.\n\nThanawat entered the project in the Northeast Young Inventors Fair last month and won second prize. The judges praised it for being simple and cheap: the whole device cost less than 400 baht. He is now working on a version that can turn on a water pump automatically. \"It's not perfect yet,\" he admitted, \"but I'm learning a lot every day.\"",
+          "items": [
+            {
+              "id": "TG1-S1-051",
+              "stem": "Why did Thanawat build the device?",
+              "options": [
+                "His grandmother's vegetables kept dying in the heat.",
+                "His school asked every Grade 11 student to enter the fair.",
+                "He wanted to sell the device to farmers in Khon Kaen.",
+                "His grandmother kept forgetting to check her phone."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ประโยคแรกบอกว่าเขาเห็นผักในสวนของคุณยาย \"kept dying during the hot season\" จึงตัดสินใจลงมือทำ"
+            },
+            {
+              "id": "TG1-S1-052",
+              "stem": "The word \"She\" in paragraph 2 refers to ___.",
+              "options": [
+                "One of the judges at the fair",
+                "Thanawat's science teacher",
+                "Thanawat's grandmother",
+                "Thanawat's mother"
+              ],
+              "answer": 2,
+              "skill": "reference",
+              "explanationTh": "Thanawat พูดถึงคนที่รดน้ำต้นไม้และได้รับข้อความในโทรศัพท์ ซึ่งก็คือคุณยายของเขา"
+            },
+            {
+              "id": "TG1-S1-053",
+              "stem": "What happens when the soil becomes too dry?",
+              "options": [
+                "A water pump turns on automatically.",
+                "A message is sent to a phone.",
+                "An alarm rings in the garden.",
+                "The plastic bottles fill with water."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"the device sends a message to his grandmother's phone\" ส่วนการเปิดปั๊มน้ำอัตโนมัติเป็นรุ่นที่ยังพัฒนาอยู่"
+            },
+            {
+              "id": "TG1-S1-054",
+              "stem": "Which of the following is TRUE according to the passage?",
+              "options": [
+                "The device won first prize at the fair.",
+                "The device cost more than 400 baht.",
+                "The family now uses less water than before.",
+                "The version with a pump is already finished."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่าครอบครัว \"uses about a third less water than before\" ส่วนตัวเลือกอื่นผิด เพราะเขาได้รางวัลที่สอง อุปกรณ์ราคาไม่ถึง 400 บาท และรุ่นปั๊มน้ำยังทำไม่เสร็จ"
+            },
+            {
+              "id": "TG1-S1-055",
+              "stem": "Which best describes how Thanawat feels about his project?",
+              "options": [
+                "Modest and keen to keep improving",
+                "Satisfied and ready to stop working on it",
+                "Disappointed that he only came second",
+                "Worried that the device is too expensive"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "เขายอมรับว่า \"It's not perfect yet\" แต่ \"I'm learning a lot\" และกำลังพัฒนารุ่นใหม่ แสดงว่าถ่อมตัวและอยากพัฒนาต่อ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S1-G20",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "An email from Mai",
+          "text": "Hi Sophie,\n\nThanks for your message! Sorry I didn't reply sooner. My family has been busy preparing for my grandparents' 50th wedding anniversary in Nan. Since my parents don't like driving long distances, we're taking the overnight bus from Bangkok next Thursday. It leaves at 8 p.m. and arrives in Nan at around 6 the next morning. The seats lean back almost flat, so I'm hoping to get some sleep!\n\nThe party will be on Saturday at my uncle's house. More than sixty relatives are coming, including some cousins from Australia I've never met. My job is to make a slideshow of old family photos, which is harder than I expected. Grandma keeps finding more pictures in boxes under her bed!\n\nAnyway, I was wondering if you could help me. You're so good at editing videos. Could you show me how to add music to the slideshow before I leave? I'm free any afternoon this week.\n\nTalk soon,\nMai",
+          "items": [
+            {
+              "id": "TG1-S1-056",
+              "stem": "Why did Mai write this email?",
+              "options": [
+                "To invite Sophie to her grandparents' anniversary party",
+                "To complain about the long overnight bus trip to Nan",
+                "To describe her cousins from Australia",
+                "To share her news and ask for help with a project"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "Mai เล่าเรื่องการเตรียมงานครบรอบแต่งงานของปู่ย่าตายาย แล้วขอให้ Sophie ช่วยสอนใส่เพลงในสไลด์โชว์ (\"I was wondering if you could help me\") ไม่ได้เชิญ Sophie ไปงาน"
+            },
+            {
+              "id": "TG1-S1-057",
+              "stem": "How long does the bus journey to Nan take?",
+              "options": [
+                "About six hours",
+                "About ten hours",
+                "About eight hours",
+                "About twelve hours"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "รถออก 2 ทุ่ม (8 p.m.) และถึงประมาณ 6 โมงเช้า รวมประมาณ 10 ชั่วโมง"
+            },
+            {
+              "id": "TG1-S1-058",
+              "stem": "The word \"relatives\" in paragraph 2 is closest in meaning to ___.",
+              "options": [
+                "family members",
+                "close friends",
+                "next-door neighbours",
+                "party organisers"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"relatives\" หมายถึงญาติ ซึ่งในข้อความรวมถึง \"cousins from Australia\" จึงหมายถึงสมาชิกในครอบครัว"
+            },
+            {
+              "id": "TG1-S1-059",
+              "stem": "Why is the slideshow harder than Mai expected?",
+              "options": [
+                "She doesn't have a computer she can use at home.",
+                "Many of the old photos are badly damaged.",
+                "Her cousins refuse to send her any pictures.",
+                "Her grandmother keeps finding more old photos for it."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "Mai บอกว่างานยากกว่าที่คิด แล้วต่อด้วย \"Grandma keeps finding more pictures in boxes\" แสดงว่ามีรูปเพิ่มเข้ามาเรื่อย ๆ"
+            },
+            {
+              "id": "TG1-S1-060",
+              "stem": "What can be inferred about Sophie?",
+              "options": [
+                "She will travel to Nan with Mai.",
+                "She is one of Mai's cousins.",
+                "She is skilled at editing videos.",
+                "She is a professional photographer."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Mai เขียนว่า \"You're so good at editing videos.\" จึงสรุปได้ว่า Sophie มีทักษะตัดต่อวิดีโอ ไม่มีข้อมูลว่าจะไปน่านด้วยหรือเป็นญาติ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI) — ยังไม่ได้ตรวจโดยครู",
+    "date": "2026-11-10",
+    "agree": 60,
+    "total": 60,
+    "rounds": "รอบ 1 ตรงเฉลย 60/60 · แก้ความยาวตัวเลือก/ตัวลวง · รอบ 2 ตรง 60/60 · ข้อที่แก้หลังรอบ 2 ตรวจซ้ำตรง 3/3 · v1.19.1: แก้ตัวลวง 11 ข้อ — ตรวจแบบไม่เห็นเฉลย 8 กลุ่ม ตรง 16/16 · v1.19.2: เขียน Q-R 10 ข้อใหม่ตามรูปแบบข้อสอบจริง (คำถามสั้น + เลือกคำตอบ) — ตรวจแบบไม่เห็นเฉลย ตรง 10/10"
+  }
+}

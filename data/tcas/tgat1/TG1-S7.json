@@ -1,0 +1,1313 @@
+{
+  "exam": "tgat1",
+  "setId": "TG1-S7",
+  "title": "TGAT1 ชุดฝึกที่ 7",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 60,
+    "keyMatch": 60,
+    "total": 60
+  },
+  "sections": [
+    {
+      "id": "speaking",
+      "groups": [
+        {
+          "id": "TG1-S7-G01",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Asking permission",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Would you mind if I opened the window a little?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, I'd rather you did.",
+                "No, it was already open.",
+                "Not at all. It's stuffy in here.",
+                "I'd love to, but I'm busy."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "\"Would you mind if…?\" ถามว่ารังเกียจไหม การอนุญาตจึงต้องตอบปฏิเสธว่า \"Not at all\" (ไม่รังเกียจเลย) กับดักคือ \"Yes, I'd rather you did.\" ซึ่งคำว่า Yes แปลว่ารังเกียจ แต่กลับบอกให้ทำ จึงขัดกันเอง ส่วน \"I'd love to\" ตอบเหมือนถูกชวน และ \"it was already open\" ขัดกับที่ผู้ถามจะเปิดหน้าต่าง"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G02",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Another lost phone",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "I can't believe I left my phone on the bus again!"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Oh no! Have you tried ringing the bus company?",
+                "Really? That's not like you at all.",
+                "Oh no! Did you remember to bring it?",
+                "Lucky you! Has someone handed it in?"
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "ผู้พูดบ่นว่าลืมโทรศัพท์ไว้บนรถเมล์อีกแล้ว คำตอบที่เหมาะคือแสดงความเห็นใจและเสนอทางแก้ว่าลองโทรหาบริษัทรถเมล์หรือยัง กับดักคือ \"That's not like you at all\" (ไม่ใช่นิสัยเธอเลย) ซึ่งขัดกับคำว่า again ที่บอกว่าเคยเกิดขึ้นแล้ว \"Did you remember to bring it?\" ขัดกับที่เพิ่งบอกว่าลืมไว้บนรถ และ \"Lucky you!\" ใช้แสดงความยินดี ไม่เข้ากับเรื่องร้าย"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G03",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Missing practice",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "How come you weren't at football practice yesterday?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I had to look after my little brother.",
+                "It came at about four o'clock.",
+                "By bus, the same as always.",
+                "I'll be there tomorrow, I promise."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "\"How come…?\" มีความหมายเท่ากับ \"Why…?\" จึงต้องตอบเหตุผลว่าต้องดูแลน้องชาย กับดักคือ \"By bus\" ที่เข้าใจว่า how ถามวิธีการเดินทาง \"It came at four\" ใช้ come ตามตัวอักษร และ \"I'll be there tomorrow\" เป็นการรับปากเรื่องอนาคต ไม่ได้บอกเหตุผลที่ไม่มาเมื่อวาน"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G04",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Looking for a cash machine",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Do you happen to know where the nearest cash machine is?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "It's open twenty-four hours, I think.",
+                "Sorry, I'm not from around here.",
+                "Yes, it took me ages to find one.",
+                "Sure, I'll take some cash out for you."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "\"Do you happen to know…?\" เป็นการถามทางอย่างสุภาพ การตอบว่า \"Sorry, I'm not from around here.\" (ขอโทษ ไม่ใช่คนแถวนี้) จึงเหมาะสม กับดักคือ \"It's open twenty-four hours\" ซึ่งตอบเรื่องเวลาเปิด ไม่ใช่ที่ตั้ง \"it took me ages to find one\" ตอบ Yes แต่ไม่ได้บอกทาง และ \"I'll take some cash out for you\" เสนอช่วยถอนเงินแทนการบอกทาง"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G05",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Leaving the team",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "I'm thinking of dropping out of the debate team."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Really? What's made you decide that?",
+                "Great! When did you first join it?",
+                "Be careful not to drop anything.",
+                "Yes, the debate was on Friday."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "\"drop out of\" แปลว่าลาออกหรือเลิกเข้าร่วม ผู้ฟังจึงแสดงความแปลกใจและถามเหตุผล กับดักคือ \"Be careful not to drop anything\" ที่เข้าใจ drop ว่าทำของตก \"Great!\" แสดงความยินดีไม่เข้ากับข่าวลาออก และ \"the debate was on Friday\" พูดถึงการแข่งขันที่ผ่านมาแล้ว ไม่เกี่ยวกับการลาออก"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G06",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Paying for lunch",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Shall we split the bill this time?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-006",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Fair enough, I'll pay for both of us.",
+                "Good idea. That's 240 each, then.",
+                "Sorry, I didn't break anything.",
+                "No thanks, I'm already full."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "\"split the bill\" คือแบ่งกันจ่ายคนละครึ่ง คำตอบที่ตกลงและคำนวณให้ว่าคนละ 240 จึงถูก กับดักคือ \"I didn't break anything\" ที่เข้าใจ split ว่าทำแตก \"Fair enough, I'll pay for both of us\" ขึ้นต้นเหมือนตกลงแต่กลับจะจ่ายคนเดียว จึงขัดกันเอง และ \"I'm already full\" ตอบเหมือนถูกชวนให้กินเพิ่ม"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G07",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "After a long flight",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "You must be exhausted after such a long flight."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-007",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, I must. It boards at six.",
+                "Thanks, I'm sure it'll be a good one.",
+                "Yes, I must get some sleep before I fly.",
+                "Not too bad. I slept most of the way."
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "\"You must be exhausted\" ใช้ must แสดงการคาดเดาว่าอีกฝ่ายน่าจะเหนื่อยมาก จึงตอบว่าไม่เท่าไร เพราะหลับมาเกือบตลอดทาง กับดักคือ \"Yes, I must. It boards at six.\" ที่ใช้ must ในความหมาย \"ต้อง\" ส่วน \"before I fly\" และ \"it'll be a good one\" พูดถึงเที่ยวบินเหมือนยังไม่ได้บิน ทั้งที่บินมาถึงแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G08",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Dinner plans",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Would you rather cook at home tonight or get something delivered?"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-008",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "It was delivered an hour ago.",
+                "Let's order in. I'm too tired to cook.",
+                "Yes, I'd rather.",
+                "I cooked it at home myself."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "คำถาม \"Would you rather A or B?\" ให้เลือกระหว่างสองทาง จึงต้องเลือกทางใดทางหนึ่ง \"Let's order in\" คือสั่งอาหารมาส่ง พร้อมเหตุผลว่าเหนื่อยเกินกว่าจะทำอาหาร กับดักคือ \"Yes, I'd rather.\" ซึ่งตอบ yes กับคำถามแบบให้เลือกไม่ได้ ส่วน \"I cooked it\" และ \"It was delivered an hour ago\" ใช้อดีต ทั้งที่ถามถึงคืนนี้"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G09",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "At the cinema counter",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "I'm afraid the 6:15 show is fully booked."
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "What about the next one, then?",
+                "Great, two tickets for that one, please.",
+                "Then I'll book it straight away.",
+                "Don't be afraid. It's only a film."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานแจ้งว่ารอบ 6:15 ที่นั่งเต็มแล้ว ลูกค้าจึงถามถึงรอบถัดไป กับดักคือ \"Don't be afraid\" ที่เข้าใจ I'm afraid ว่ากลัว (จริง ๆ เป็นการบอกข่าวร้ายอย่างสุภาพ) ส่วน \"two tickets for that one\" และ \"I'll book it straight away\" ขอซื้อรอบที่เต็มแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G10",
+          "type": "qr",
+          "instructionTh": "เลือกคำตอบที่เหมาะสมที่สุดสำหรับคำถามหรือข้อความ (Q-R)",
+          "title": "Good news",
+          "dialogue": [
+            {
+              "speaker": "Q",
+              "text": "Congratulations on getting into the engineering faculty!"
+            },
+            {
+              "speaker": "R",
+              "text": "___1___"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-010",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Same to you! Good luck next year.",
+                "Thanks! I still can't quite believe it.",
+                "Well done! You must be thrilled.",
+                "Not at all. It was my pleasure."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "เมื่อได้รับคำแสดงความยินดี ควรขอบคุณ เช่น \"Thanks! I still can't quite believe it.\" กับดักคือ \"Same to you!\" ซึ่งใช้ตอบคำอวยพรที่ใช้ได้กับทั้งสองฝ่าย ไม่ใช่ความสำเร็จของผู้ตอบคนเดียว \"Well done! You must be thrilled.\" สลับบทบาทเป็นผู้แสดงความยินดีเอง และ \"Not at all. It was my pleasure.\" ใช้ตอบคำขอบคุณ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G11",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Booking a room at the community centre",
+          "dialogue": [
+            {
+              "speaker": "Receptionist",
+              "text": "Good afternoon, Ban Rim Khlong Community Centre. How can I help?"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Hi, I'm calling about your meeting rooms. ___1___"
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "We've got two this Saturday: a small one for up to twelve people and the main hall, which holds sixty."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "The small one should do. There'll only be eight of us. ___2___"
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "Not as such, but there's a whiteboard, and you're welcome to bring your own laptop and speaker."
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Perfect. ___3___"
+            },
+            {
+              "speaker": "Receptionist",
+              "text": "No problem. I'll put it down from ten till one under your name, then. You can pay on the day."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-011",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Do you have any free at the weekend?",
+                "How much did the main hall cost last time?",
+                "Can I cancel the room I booked for Saturday?",
+                "Could you tell me how to get to the centre?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบว่า \"We've got two this Saturday\" แล้วบอกขนาดห้อง แสดงว่า Ploy ถามว่ามีห้องว่างช่วงสุดสัปดาห์ไหม กับดักคือการถามราคาห้องโถงครั้งก่อนหรือถามทาง ซึ่งคำตอบไม่ได้พูดถึง และการขอยกเลิกห้องขัดกับที่ Ploy กำลังจะจองใหม่"
+            },
+            {
+              "id": "TG1-S7-012",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Is it all right if we bring some snacks?",
+                "Does it come with a projector, by any chance?",
+                "Is there anywhere to park nearby?",
+                "Could we have it for the whole weekend?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"Not as such, but there's a whiteboard, and you're welcome to bring your own laptop and speaker\" เป็นเรื่องอุปกรณ์ในห้อง จึงต้องถามว่ามีโปรเจกเตอร์ไหม (not as such = ไม่มีแบบนั้นโดยตรง) กับดักคือคำถามเรื่องของว่าง ระยะเวลา หรือที่จอดรถ ซึ่งไม่เข้ากับการพูดถึงไวท์บอร์ดและแล็ปท็อป"
+            },
+            {
+              "id": "TG1-S7-013",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Could you remind me what time you open?",
+                "Could I book the main hall instead, then?",
+                "Could I pay the whole amount online now?",
+                "Could I book it from ten until one?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบว่า \"I'll put it down from ten till one\" (จะลงชื่อจองให้ตั้งแต่สิบโมงถึงบ่ายโมง) Ploy จึงต้องขอจองห้องเล็กช่วงเวลานั้น กับดักคือการขอเปลี่ยนเป็นห้องโถงใหญ่ ซึ่งขัดกับที่บอกว่าห้องเล็กพอแล้ว และการขอจ่ายเงินออนไลน์ตอนนี้ขัดกับ \"You can pay on the day\""
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G12",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Lost property at the sports centre",
+          "dialogue": [
+            {
+              "speaker": "Staff",
+              "text": "Hi there. Is everything OK?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "I hope so. I think I left my water bottle in the changing room this morning. ___1___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Let me check the box behind the desk. What does it look like?"
+            },
+            {
+              "speaker": "Nat",
+              "text": "___2___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Hmm, there's a green one here, but it hasn't got any stickers on it."
+            },
+            {
+              "speaker": "Nat",
+              "text": "___3___ I peeled them off last week because they kept coming loose. Is there a name on the bottom?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Yes, it says \"Nat P.\" Here you go."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-014",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Has anyone handed one in, by any chance?",
+                "Could I buy a new one from the desk?",
+                "Is it OK if I leave it here till tomorrow?",
+                "Do you know when the changing room opens?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบว่า \"Let me check the box behind the desk\" คือจะดูกล่องของหาย Nat จึงถามว่ามีใครเอาขวดน้ำมาคืนไว้ไหม (hand in = ส่งมอบ) กับดักคือการขอซื้อใหม่หรือถามเวลาเปิดห้อง ซึ่งไม่ทำให้พนักงานไปค้นกล่อง และ \"leave it here\" ขัดกับที่ Nat ทำของหาย"
+            },
+            {
+              "id": "TG1-S7-015",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Dark green, with a few stickers on the side.",
+                "Just an ordinary plastic one, nothing special.",
+                "Exactly like the one I lost last month.",
+                "Like the one on that shelf over there."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบต่อว่า \"there's a green one here, but it hasn't got any stickers on it\" แสดงว่า Nat บอกไว้ว่าขวดสีเขียวและมีสติกเกอร์ กับดักคือคำบรรยายกว้าง ๆ ที่ไม่มีเรื่องสีและสติกเกอร์ และ \"the one on that shelf\" ซึ่งถ้าชี้ให้ดูได้ก็ไม่ต้องให้พนักงานค้น"
+            },
+            {
+              "id": "TG1-S7-016",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Then it definitely can't be mine.",
+                "Could you put some stickers on it?",
+                "Actually, that might still be mine.",
+                "Never mind, I'll buy another one."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Nat อธิบายต่อว่าแกะสติกเกอร์ออกเมื่อสัปดาห์ที่แล้ว และถามถึงชื่อใต้ขวด แสดงว่าคิดว่าขวดนั้นอาจเป็นของตัวเอง กับดักคือ \"it definitely can't be mine\" และ \"I'll buy another one\" ซึ่งขัดกับการถามหาชื่อต่อ ส่วนการขอให้ติดสติกเกอร์ไม่เกี่ยวกับการยืนยันเจ้าของ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G13",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Swapping a shift",
+          "dialogue": [
+            {
+              "speaker": "Ben",
+              "text": "Khun Orn, could I have a quick word about next week's rota?"
+            },
+            {
+              "speaker": "Khun Orn",
+              "text": "Sure. ___1___"
+            },
+            {
+              "speaker": "Ben",
+              "text": "I've been put down for Saturday morning, but that's the day of my university interview."
+            },
+            {
+              "speaker": "Khun Orn",
+              "text": "Ah, that's important. ___2___"
+            },
+            {
+              "speaker": "Ben",
+              "text": "I've already asked Mild, and she's happy to do Saturday if I take her Tuesday evening."
+            },
+            {
+              "speaker": "Khun Orn",
+              "text": "That works for me, as long as whoever is on Saturday can use the till. ___3___"
+            },
+            {
+              "speaker": "Ben",
+              "text": "She has — she's been doing it since March. ___4___"
+            },
+            {
+              "speaker": "Khun Orn",
+              "text": "Don't mention it. Good luck with the interview!"
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-017",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Haven't you collected it already?",
+                "Is there something wrong with it?",
+                "How long have you worked here now?",
+                "Who's going to write it this time?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Ben ตอบต่อว่าถูกจัดเวรเช้าวันเสาร์ซึ่งตรงกับวันสัมภาษณ์มหาวิทยาลัย ผู้จัดการจึงต้องถามว่าตารางเวรมีปัญหาอะไร กับดักคือการถามอายุงาน ถามว่ารับตารางไปแล้วหรือยัง หรือถามว่าใครจะเขียนตาราง ซึ่งคำตอบของ Ben ไม่ได้ตอบเรื่องเหล่านี้"
+            },
+            {
+              "id": "TG1-S7-018",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Have you found anyone to cover for you?",
+                "Would you like the whole week off, then?",
+                "Have you told the university you can't go?",
+                "Do you know what they'll ask you?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ben ตอบว่า \"I've already asked Mild, and she's happy to do Saturday\" ผู้จัดการจึงถามว่าหาคนมาทำแทนได้หรือยัง (cover for = ทำงานแทน) กับดักคือ \"the whole week off\" ซึ่ง Ben ขอแค่วันเดียว \"what they'll ask you\" ถามเรื่องสัมภาษณ์ และ \"you can't go\" ขัดกับที่ Ben จะไปสัมภาษณ์"
+            },
+            {
+              "id": "TG1-S7-019",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Mild doesn't work weekends, does she?",
+                "Mild's already been trained, hasn't she?",
+                "You'll train Mild yourself, won't you?",
+                "You haven't used the till yet, have you?"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "Ben ตอบว่า \"She has — she's been doing it since March.\" ต้องตอบคำถามที่มีประธาน she และกริยาช่วย has จึงเป็น \"Mild's already been trained, hasn't she?\" กับดักคือคำถามที่ประธานเป็น you ซึ่งตอบด้วย She has ไม่ได้ และ \"doesn't work weekends, does she?\" ต้องตอบด้วย does ไม่ใช่ has"
+            },
+            {
+              "id": "TG1-S7-020",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'll let you know the result next week.",
+                "Could I have Sunday off as well?",
+                "Thanks for being so flexible about it.",
+                "Sorry, but I've changed my mind again."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "ผู้จัดการตอบว่า \"Don't mention it.\" ซึ่งใช้ตอบคำขอบคุณ Ben จึงต้องขอบคุณที่ยืดหยุ่นให้ กับดักคือ \"I'll let you know the result\" ซึ่งเข้ากับ \"Good luck\" ได้บางส่วน แต่ Don't mention it ไม่ใช่คำตอบของประโยคนี้ ส่วนการขอหยุดวันอาทิตย์เพิ่มและการเปลี่ยนใจขัดกับคำอวยพรที่ตามมา"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G14",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Planning a beach clean-up",
+          "dialogue": [
+            {
+              "speaker": "Fern",
+              "text": "Krit, did you hear back from the town council about the beach clean-up?"
+            },
+            {
+              "speaker": "Krit",
+              "text": "I did, and it's good news, mostly. ___1___"
+            },
+            {
+              "speaker": "Fern",
+              "text": "Mostly? That doesn't sound very promising."
+            },
+            {
+              "speaker": "Krit",
+              "text": "Well, they want us to move it from the 9th to the 16th, because there's a boat race on the 9th."
+            },
+            {
+              "speaker": "Fern",
+              "text": "Oh, that's not too bad. ___2___"
+            },
+            {
+              "speaker": "Krit",
+              "text": "I already have. Only three of them can't make the new date, so we'll still have about twenty-five people."
+            },
+            {
+              "speaker": "Fern",
+              "text": "Great. What about equipment? Are we supposed to bring our own gloves and bags?"
+            },
+            {
+              "speaker": "Krit",
+              "text": "___3___ The council will lend us gloves, litter pickers and sacks, as long as we return them afterwards."
+            },
+            {
+              "speaker": "Fern",
+              "text": "That saves us a lot. ___4___"
+            },
+            {
+              "speaker": "Krit",
+              "text": "I was thinking we could hand out bottles of water, but we'd have to find money for those."
+            },
+            {
+              "speaker": "Fern",
+              "text": "Why don't we ask the café on the seafront? They might donate some in exchange for a mention on our poster."
+            },
+            {
+              "speaker": "Krit",
+              "text": "___5___ I'll drop by after school and ask them."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-021",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "They've turned us down, I'm afraid.",
+                "They're happy for us to use the beach.",
+                "They haven't replied to my email yet.",
+                "They want us to pay for everything."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Krit บอกว่าได้คำตอบแล้วและเป็น \"good news, mostly\" จึงต้องเป็นข่าวดีคืออนุญาตให้ใช้ชายหาด แต่ยังมีเงื่อนไข (ซึ่ง Krit อธิบายต่อทีหลัง) กับดักคือ \"turned us down\" ซึ่งไม่ใช่ข่าวดี \"pay for everything\" ขัดกับที่สภาให้ยืมอุปกรณ์ และ \"haven't replied\" ขัดกับ \"I did\""
+            },
+            {
+              "id": "TG1-S7-022",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Have you booked a boat for the race?",
+                "Shall we move it to the 9th instead, then?",
+                "Should we ask them to cancel the boat race?",
+                "You'd better let the volunteers know, though."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Krit ตอบว่า \"I already have. Only three of them can't make the new date\" แสดงว่า Fern แนะนำให้แจ้งอาสาสมัครเรื่องวันใหม่ กับดักคือการย้ายไปวันที่ 9 ซึ่งเป็นวันที่ต้องเลี่ยงเพราะมีแข่งเรือ ส่วนการขอยกเลิกการแข่งเรือหรือจองเรือไม่เข้ากับคำว่า \"them\" ที่หมายถึงคนที่มาร่วมงาน"
+            },
+            {
+              "id": "TG1-S7-023",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "No, the council has run out of them.",
+                "Yes, and we'll have to buy them ourselves.",
+                "Actually, we don't need to.",
+                "I'm not sure. Let me ask Fern later."
+              ],
+              "answer": 2,
+              "skill": "social_response",
+              "explanationTh": "Fern ถามว่าต้องเอาถุงมือกับถุงขยะมาเองหรือไม่ Krit ตอบต่อว่าสภาจะให้ยืมอุปกรณ์ จึงต้องเป็น \"Actually, we don't need to.\" กับดักคือ \"we'll have to buy them\" และ \"run out of them\" ซึ่งขัดกับการให้ยืมอุปกรณ์ ส่วน \"ask Fern\" ผิดเพราะ Fern คือคนที่กำลังคุยด้วย"
+            },
+            {
+              "id": "TG1-S7-024",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "How many sacks did we fill last year?",
+                "Who's going to take the gloves back?",
+                "Where should we leave all the rubbish?",
+                "Is there anything we'll still have to pay for?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Krit ตอบว่าอยากแจกน้ำดื่ม \"but we'd have to find money for those\" จึงเข้ากับคำถามว่ายังมีอะไรที่ต้องออกเงินเองอีกไหม กับดักคือคำถามเรื่องจำนวนถุงปีที่แล้ว คนคืนถุงมือ และที่ทิ้งขยะ ซึ่งคำตอบเรื่องน้ำดื่มไม่ได้ตอบ"
+            },
+            {
+              "id": "TG1-S7-025",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "We've already got enough water.",
+                "It's worth a shot.",
+                "They closed down last month.",
+                "There's no point asking them."
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Fern เสนอให้ไปขอน้ำจากร้านกาแฟ และ Krit พูดต่อว่า \"I'll drop by after school and ask them\" จึงต้องเห็นด้วยว่า \"It's worth a shot.\" (น่าลองดู) ตัวเลือกอื่นขัดกับการที่ Krit จะไปถามร้าน ทั้งบอกว่ามีน้ำพอแล้ว บอกว่าถามไปก็ไม่มีประโยชน์ และบอกว่าร้านปิดไปแล้ว"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G15",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Asking for more time",
+          "dialogue": [
+            {
+              "speaker": "Praew",
+              "text": "Excuse me, Mr. Lucas. Do you have a moment?"
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "Of course, Praew. ___1___"
+            },
+            {
+              "speaker": "Praew",
+              "text": "It's about the geography report that's due on Friday. I was wondering if I could have a few extra days."
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "Hmm. ___2___"
+            },
+            {
+              "speaker": "Praew",
+              "text": "My grandmother's been staying with us, and I've been helping to look after her in the evenings."
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "I'm sorry to hear that. How far have you got with it?"
+            },
+            {
+              "speaker": "Praew",
+              "text": "___3___ I've collected all the data; it's just the analysis I haven't started."
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "Right. Well, collecting the data is usually the hardest part, so you're in better shape than you think."
+            },
+            {
+              "speaker": "Praew",
+              "text": "I suppose so. Would next Monday be all right?"
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "___4___ Make it Wednesday, so you're not rushing over the weekend."
+            },
+            {
+              "speaker": "Praew",
+              "text": "That's really kind of you. ___5___"
+            },
+            {
+              "speaker": "Mr. Lucas",
+              "text": "Not at all. Just let me know if anything else comes up."
+            }
+          ],
+          "items": [
+            {
+              "id": "TG1-S7-026",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "What can I get for you today?",
+                "What did you have for lunch?",
+                "Where have you been all morning?",
+                "What's on your mind?"
+              ],
+              "answer": 3,
+              "skill": "social_response",
+              "explanationTh": "Praew ขอเวลาคุยกับครู ครูจึงเปิดโอกาสให้พูดว่า \"What's on your mind?\" (มีเรื่องอะไรหรือ) และ Praew ก็เล่าเรื่องรายงานต่อ กับดักคือคำถามเรื่องอาหารกลางวันหรือหายไปไหน ซึ่ง Praew ไม่ได้ตอบ และ \"What can I get for you?\" เป็นภาษาของพนักงานร้านค้า"
+            },
+            {
+              "id": "TG1-S7-027",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Have you finished it already?",
+                "Why didn't you hand it in last week?",
+                "Which report do you mean, exactly?",
+                "May I ask what the reason is?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Praew ตอบต่อว่าคุณยายมาพักด้วยและต้องช่วยดูแลตอนเย็น ซึ่งเป็นเหตุผลที่ขอเวลาเพิ่ม ครูจึงต้องถามเหตุผล กับดักคือ \"Which report do you mean?\" ซึ่ง Praew บอกไปแล้วว่าเป็นรายงานภูมิศาสตร์ \"finished it already\" ขัดกับการขอเวลาเพิ่ม และ \"last week\" ผิดเพราะกำหนดส่งคือวันศุกร์นี้"
+            },
+            {
+              "id": "TG1-S7-028",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I've reached chapter ten of the book.",
+                "About halfway, I'd say.",
+                "I finished it last night, actually.",
+                "I haven't even started, to be honest."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Praew อธิบายต่อว่าเก็บข้อมูลครบแล้ว เหลือแค่การวิเคราะห์ จึงตรงกับ \"About halfway\" (ประมาณครึ่งทาง) กับดักคือ \"haven't even started\" ซึ่งขัดกับการเก็บข้อมูลเสร็จแล้ว \"finished it last night\" ขัดกับที่ยังไม่ได้เริ่มวิเคราะห์ และ \"chapter ten of the book\" เป็นเรื่องการอ่านหนังสือ ไม่ใช่รายงาน"
+            },
+            {
+              "id": "TG1-S7-029",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "I'm afraid Friday is the latest I can allow.",
+                "Monday's fine, but not a day later.",
+                "Sorry, I can't give you any extra time.",
+                "Actually, I can give you a little longer than that."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ครูพูดต่อว่า \"Make it Wednesday\" ซึ่งช้ากว่าวันจันทร์ที่ Praew ขอ แสดงว่าครูให้เวลามากกว่าที่ขอ (\"I can give you a little longer than that\") กับดักคือ \"Monday's fine, but not a day later\" ซึ่งขัดกับการให้ถึงวันพุธ ส่วน \"Friday is the latest\" และ \"can't give you any extra time\" ปฏิเสธคำขอ ขัดกับการขยายเวลาที่ตามมา"
+            },
+            {
+              "id": "TG1-S7-030",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "I hope it hasn't caused you any trouble.",
+                "Could you tell me the deadline again?",
+                "I'll hand it in on Monday, then.",
+                "Will you be marking it yourself?"
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "ครูตอบว่า \"Not at all.\" ซึ่งใช้ตอบประโยคแบบ \"I hope it hasn't caused you any trouble\" (หวังว่าคงไม่ทำให้ครูลำบาก) กับดักคือ \"hand it in on Monday\" ซึ่งขัดกับกำหนดใหม่คือวันพุธ ส่วนการถามกำหนดส่งซ้ำหรือถามว่าครูจะตรวจเองไหม ไม่เข้ากับคำตอบ \"Not at all\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "TG1-S7-G16",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "Is the screen really to blame?",
+          "text": "For years, teenagers have been told that the blue light from their phones keeps them awake at night. A new study, ___1___ followed 640 secondary students in the fictional city of Norbridge for an entire school year, suggests the picture is more complicated. The students who slept least were not necessarily those who spent the most time on screens. ___2___, they were those who used their devices in bed with no fixed time to stop. ___3___ the light itself, it was the activity that seemed to matter: scrolling through endless messages kept the brain alert in a way that watching a single film did not. Students who ___4___ their phones outside the bedroom fell asleep, on average, twenty-two minutes sooner than those who did not. Interestingly, the researchers ___5___ that simply dimming the screen made almost no difference. \"Had we only measured screen time,\" said the lead researcher, Dr. Mira Calloway, \"we ___6___ the real pattern entirely.\" The team now hopes schools will ___7___ the findings into account when they advise families, ___8___ simply issuing blanket bans on devices.",
+          "items": [
+            {
+              "id": "TG1-S7-031",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "what",
+                "who",
+                "which",
+                "that"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างเป็นคำนำหน้า non-defining relative clause (มีจุลภาคคั่น) ที่ขยาย \"A new study\" ซึ่งเป็นสิ่งของ จึงใช้ which กับดักคือ that ซึ่งใช้หลังจุลภาคไม่ได้ ส่วน who ใช้กับคน และ what ไม่ใช้ขยายคำนามข้างหน้า"
+            },
+            {
+              "id": "TG1-S7-032",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Moreover",
+                "Likewise",
+                "Instead",
+                "Otherwise"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนบอกว่าคนที่นอนน้อยที่สุด \"ไม่ใช่\" คนที่ใช้จอนานที่สุด ประโยคหลังบอกว่า \"แต่เป็น\" คนที่ใช้เครื่องบนเตียง จึงใช้ Instead (แทนที่จะเป็นอย่างนั้น) กับดักคือ Moreover และ Likewise ซึ่งใช้เพิ่มข้อมูลหรือบอกความคล้าย ส่วน Otherwise แปลว่า มิฉะนั้น"
+            },
+            {
+              "id": "TG1-S7-033",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Along with",
+                "As well as",
+                "Thanks to",
+                "Rather than"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "ประโยคเน้นว่า \"it was the activity that seemed to matter\" คือกิจกรรมต่างหากที่สำคัญ ไม่ใช่แสง จึงใช้ Rather than (แทนที่จะเป็น) กับดักคือ Along with และ As well as ซึ่งแปลว่า \"รวมทั้ง\" ทำให้แสงสำคัญด้วย ขัดกับโครงสร้างเน้น it was … that และ Thanks to ทำให้แสงกลายเป็นสาเหตุ"
+            },
+            {
+              "id": "TG1-S7-034",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "kept on",
+                "let",
+                "left",
+                "stayed"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "\"left their phones outside the bedroom\" = วางโทรศัพท์ไว้นอกห้องนอน leave ต้องมีกรรมและบอกตำแหน่งได้ กับดักคือ stayed ซึ่งเป็นกริยาที่ไม่มีกรรม let ต้องตามด้วยกริยา (let somebody do) และ kept on หมายถึงทำต่อไปเรื่อย ๆ"
+            },
+            {
+              "id": "TG1-S7-035",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "pretended",
+                "hoped",
+                "found",
+                "denied"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "คำว่า \"Interestingly\" บอกว่าเป็นสิ่งที่นักวิจัยค้นพบแล้วน่าสนใจ จึงใช้ found (พบว่า) กับดักคือ hoped ซึ่งไม่เข้ากับผลการวิจัย denied (ปฏิเสธ) ขัดกับการรายงานผล และ pretended (แสร้งทำ) ไม่เข้ากับการรายงานผลวิจัย"
+            },
+            {
+              "id": "TG1-S7-036",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "would miss",
+                "would have missed",
+                "will have missed",
+                "had missed"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"Had we only measured…\" เป็น conditional แบบที่ 3 ที่ละ if แล้วกลับประธานกับ had ส่วนผลจึงต้องเป็น would have + V3 คือ \"would have missed\" กับดักคือ would miss (แบบที่ 2) had missed ซึ่งเป็นรูปของส่วน if และ will have missed ซึ่งเป็นอนาคตสมบูรณ์"
+            },
+            {
+              "id": "TG1-S7-037",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "bring",
+                "keep",
+                "take",
+                "make"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "สำนวน \"take something into account\" แปลว่า นำมาพิจารณา คำกริยาอื่นใช้กับ into account ในความหมายนี้ไม่ได้ ส่วน make, bring และ keep เป็นกับดักที่ผู้เรียนมักใช้สลับกัน"
+            },
+            {
+              "id": "TG1-S7-038",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "due to",
+                "in terms of",
+                "on behalf of",
+                "as opposed to"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "นักวิจัยหวังให้โรงเรียนใช้ผลวิจัยแนะนำครอบครัว \"แทนที่จะ\" แค่สั่งห้ามใช้เครื่องทั้งหมด จึงใช้ as opposed to (ซึ่งตรงข้ามกับ) กับดักคือ due to (เนื่องจาก) on behalf of (ในนามของ) และ in terms of (ในแง่ของ) ซึ่งไม่ได้แสดงการเปรียบเทียบสองทางเลือก"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G17",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่างแต่ละช่อง",
+          "title": "A second life for an old shophouse",
+          "text": "When Wanida Charoenkul inherited her grandfather's two-storey shophouse in the old quarter of the fictional river town of Ban Thakham, most of her friends advised her to sell it. The wooden shutters were rotting, the roof leaked whenever it rained, and the ground floor had stood empty ___1___ more than a decade. ___2___, she decided to restore it. Rather than replacing everything with modern materials, she hired craftsmen who still knew how to work with teak and lime plaster, ___3___ meant the work took nearly twice as long. \"It would have been cheaper to start from scratch,\" she admits, \"but then it wouldn't be the same building.\" The restoration ___4___ a turning point for the whole street. Neighbours who had been planning to knock down their own shophouses began asking for her advice, and the town council ___5___ a small fund to help owners repair their original front walls. Today the ground floor houses a bookshop and café, while Wanida lives upstairs, ___6___ her grandfather once did. Visitors often ask whether the building is a museum. \"Not at all,\" she laughs. \"It's ___7___ more useful than that. People actually live and work here.\"",
+          "items": [
+            {
+              "id": "TG1-S7-039",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "during",
+                "until",
+                "for",
+                "since"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "หลัง present/past perfect ถ้าตามด้วย \"ช่วงระยะเวลา\" (more than a decade) ต้องใช้ for กับดักคือ since ซึ่งต้องตามด้วยจุดเริ่มต้นของเวลา เช่น since 2010 ส่วน during ใช้กับช่วงเหตุการณ์ และ until บอกจุดสิ้นสุด"
+            },
+            {
+              "id": "TG1-S7-040",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Nevertheless",
+                "Therefore",
+                "Similarly",
+                "Furthermore"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "เพื่อน ๆ แนะนำให้ขายและบ้านก็ทรุดโทรม แต่เธอ \"decided to restore it\" ซึ่งขัดกับความคาดหมาย จึงใช้ Nevertheless (ถึงกระนั้น) กับดักคือ Therefore ซึ่งบอกผลที่สอดคล้อง ส่วน Furthermore และ Similarly ใช้เพิ่มเติมหรือเปรียบเทียบความคล้าย"
+            },
+            {
+              "id": "TG1-S7-041",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "that",
+                "it",
+                "what",
+                "which"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ช่องว่างหลังจุลภาคขยายทั้งประโยคข้างหน้า (การจ้างช่างฝีมือแบบดั้งเดิม) จึงใช้ which กับดักคือ that ซึ่งใช้หลังจุลภาคไม่ได้ it ทำให้เกิดสองประโยคเชื่อมกันด้วยจุลภาคเฉย ๆ ซึ่งผิด และ what ไม่ใช้ขยายสิ่งที่กล่าวมาแล้ว"
+            },
+            {
+              "id": "TG1-S7-042",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "did",
+                "marked",
+                "held",
+                "caught"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "\"mark a turning point\" เป็นคำที่ใช้คู่กัน (collocation) แปลว่า เป็นจุดเปลี่ยน กริยาอื่นไม่ใช้กับ turning point ในความหมายนี้ ส่วน held, did และ caught เป็นกับดักที่แปลตรงตัวจากภาษาไทยแล้วฟังดูเป็นไปได้"
+            },
+            {
+              "id": "TG1-S7-043",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "gave in",
+                "put off",
+                "turned down",
+                "set up"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "สภาเมือง \"set up a small fund\" คือตั้งกองทุนเพื่อช่วยเจ้าของบ้านซ่อมด้านหน้าอาคาร ซึ่งเข้ากับการที่ถนนทั้งสายเปลี่ยนไปในทางดี กับดักคือ turned down (ปฏิเสธ) และ put off (เลื่อนออกไป) ซึ่งขัดกับบริบทเชิงบวก ส่วน gave in (ยอมแพ้) ไม่มีกรรม"
+            },
+            {
+              "id": "TG1-S7-044",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "even as",
+                "as though",
+                "just as",
+                "so as"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "\"just as her grandfather once did\" = เหมือนกับที่คุณปู่เคยทำ ใช้เปรียบเทียบการกระทำที่เหมือนกันจริง กับดักคือ as though ซึ่งใช้กับสิ่งที่ไม่จริงหรือเพียงดูเหมือน so as ต้องตามด้วย to + V และ even as แปลว่า ในขณะที่ (แม้ว่า)"
+            },
+            {
+              "id": "TG1-S7-045",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "so",
+                "very",
+                "too",
+                "far"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "คำที่ใช้เน้นขั้นกว่า (more useful) ได้คือ far, much, a lot กับดักคือ very และ so ซึ่งใช้ขยายคุณศัพท์ขั้นปกติ ไม่ใช้หน้า more ส่วน too more ผิดไวยากรณ์"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G18",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Lost in automatic translation",
+          "text": "When the fictional Lindqvist Language Centre asked 300 international students how they had coped in their first month abroad, nearly nine in ten said they had relied on a translation app at least once a day. The apps, students reported, were excellent for reading menus, signs and bus timetables. Conversations were another matter. Many described an awkward delay as both speakers stared at a screen, and several said that local people became noticeably less chatty once a phone appeared between them.\n\nThe centre's director, Agnes Holm, does not believe the answer is to abandon the technology. \"An app can carry the words across,\" she says, \"but it rarely carries the warmth.\" Her centre now runs a short course called First Words, which teaches newcomers around fifty phrases for greetings, thanks and small talk. Students are encouraged to use the app for anything complicated, but to open every conversation themselves, however clumsily. Early feedback suggests the approach works: participants reported making local friends sooner than those who had relied on their phones alone.",
+          "items": [
+            {
+              "id": "TG1-S7-046",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "Why translation apps often get everyday words wrong abroad",
+                "Why students abroad should give up using their phones",
+                "A centre's response to the social limits of translation apps",
+                "Which apps international students rely on most heavily"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่าผลสำรวจว่าแอปแปลภาษาช่วยในการอ่านได้ดีแต่ทำให้การสนทนาห่างเหิน แล้วเล่าว่าศูนย์ภาษาแก้ปัญหาด้วยหลักสูตร First Words กับดักคือ \"get everyday words wrong\" ซึ่งขัดกับที่แอป \"excellent for reading\" และ \"give up using their phones\" ซึ่งผู้อำนวยการบอกชัดว่า \"does not believe the answer is to abandon the technology\""
+            },
+            {
+              "id": "TG1-S7-047",
+              "stem": "According to the survey, students found translation apps most useful for ___.",
+              "options": [
+                "making local friends quickly",
+                "understanding their lecturers",
+                "reading written information",
+                "chatting with local people"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่าแอป \"were excellent for reading menus, signs and bus timetables\" ซึ่งล้วนเป็นข้อมูลที่เป็นตัวหนังสือ กับดักคือ \"chatting with local people\" ซึ่งบทความบอกว่าเป็น \"another matter\" (ใช้ได้ไม่ดี) และ \"making local friends quickly\" ซึ่งเป็นผลของหลักสูตร First Words ไม่ใช่ของแอป"
+            },
+            {
+              "id": "TG1-S7-048",
+              "stem": "The phrase \"another matter\" in paragraph 1 suggests that conversations were ___.",
+              "options": [
+                "the main reason students used the apps",
+                "far less successful when apps were used",
+                "slightly easier than reading signs",
+                "a topic the survey did not ask about"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Conversations were another matter.\" ใช้หลังการชมว่าแอปดีมากสำหรับการอ่าน แล้วตามด้วยปัญหา \"awkward delay\" และคนท้องถิ่นคุยน้อยลง จึงหมายความว่าการสนทนาผ่านแอปไม่ได้ผลดีเท่า กับดักคือ \"a topic the survey did not ask about\" ซึ่งแปลตามตัวว่าเป็น \"อีกเรื่องหนึ่ง\" ทั้งที่นักเรียนตอบเรื่องนี้ในแบบสำรวจ"
+            },
+            {
+              "id": "TG1-S7-049",
+              "stem": "What does Agnes Holm mean when she says an app \"rarely carries the warmth\"?",
+              "options": [
+                "Local people distrust anyone who cannot speak their language.",
+                "Students should stop using apps after learning fifty phrases.",
+                "Machine translation tends to lose the friendliness of talking face to face.",
+                "Apps are too slow to be useful in a busy conversation."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Holm เปรียบว่าแอป \"carry the words across\" (ส่งคำได้) แต่ไม่ส่ง \"warmth\" คือความอบอุ่นเป็นกันเองของการคุยแบบเห็นหน้า กับดักคือ \"too slow\" ซึ่งหยิบเรื่อง delay มาแต่ไม่ใช่ความหมายของคำว่า warmth \"distrust anyone\" เหมารวมเกินจริง และ \"stop using apps\" ขัดกับที่ยังให้ใช้แอปกับเรื่องซับซ้อน"
+            },
+            {
+              "id": "TG1-S7-050",
+              "stem": "Students on the First Words course are advised to ___.",
+              "options": [
+                "learn enough phrases to discuss complicated topics alone",
+                "avoid translation apps completely during their first month",
+                "practise the fifty phrases with their phones before speaking",
+                "start conversations themselves and use the app when necessary"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"use the app for anything complicated, but to open every conversation themselves\" คือเริ่มบทสนทนาเองและใช้แอปเมื่อจำเป็น กับดักคือ \"avoid translation apps completely\" ซึ่งขัดกับที่ยังให้ใช้แอป และ \"discuss complicated topics alone\" ซึ่งเรื่องซับซ้อนให้ใช้แอปช่วย ไม่ใช่พูดเอง"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G19",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Parcels from the sky, for now",
+          "text": "For six weeks this summer, residents of Khao Noi, a hillside district in the fictional province of Sri Wanna, could order small items such as phone chargers, spices and school stationery from the town's main shopping street and have them dropped into their gardens by drone. The trial, run by a start-up called SkyCrate, was designed to test whether drones could serve homes at the end of steep, winding roads, where a motorbike courier can take forty minutes each way.\n\nBy most measures, it succeeded. The average delivery took eleven minutes, and fewer than two per cent of flights were cancelled, almost all of them because of strong winds. Yet SkyCrate has decided not to continue the service, at least for now. The problem was not the technology but the weight limit. Each drone could carry just 1.5 kilograms, so most orders had to be split across several flights, which made a typical delivery far more expensive than a single courier trip. The company says it will return to Khao Noi once a heavier-lifting model has been approved.",
+          "items": [
+            {
+              "id": "TG1-S7-051",
+              "stem": "Why was the trial held in Khao Noi in particular?",
+              "options": [
+                "Its shopping street had too few motorbike couriers.",
+                "It rarely has strong winds during the summer.",
+                "Its residents had asked for faster deliveries.",
+                "Some homes there take a long time to reach by road."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ข้อความบอกว่าการทดลองต้องการดูว่าโดรนส่งของให้บ้าน \"at the end of steep, winding roads, where a motorbike courier can take forty minutes each way\" ได้หรือไม่ กับดักคือ \"too few motorbike couriers\" ซึ่งบทความไม่ได้พูดถึงจำนวนคนส่งของ และ \"rarely has strong winds\" ขัดกับที่เที่ยวบินถูกยกเลิกเพราะลมแรง"
+            },
+            {
+              "id": "TG1-S7-052",
+              "stem": "The phrase \"By most measures\" in paragraph 2 is closest in meaning to ___.",
+              "options": [
+                "judged by nearly every standard",
+                "according to most local residents",
+                "after a long series of careful tests",
+                "in the largest number of homes"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"By most measures, it succeeded\" หมายถึงถ้าวัดด้วยเกณฑ์ส่วนใหญ่ (เวลาส่ง อัตรายกเลิก) ถือว่าสำเร็จ กับดักคือ \"according to most local residents\" ซึ่งบทความไม่ได้ถามความเห็นชาวบ้าน และ \"in the largest number of homes\" ที่ตีความ most ว่าจำนวนบ้าน"
+            },
+            {
+              "id": "TG1-S7-053",
+              "stem": "What caused almost all of the cancelled flights?",
+              "options": [
+                "Orders that were too heavy",
+                "Customers who were not at home",
+                "Faults in the drones' software",
+                "Poor weather conditions"
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่าเที่ยวบินที่ถูกยกเลิก \"almost all of them because of strong winds\" คือสภาพอากาศ กับดักคือ \"Orders that were too heavy\" เพราะน้ำหนักเป็นปัญหาจริงในบทความ แต่ทำให้ต้องแบ่งออร์เดอร์หลายเที่ยว ไม่ใช่ทำให้เที่ยวบินถูกยกเลิก"
+            },
+            {
+              "id": "TG1-S7-054",
+              "stem": "Why has SkyCrate stopped the service?",
+              "options": [
+                "The drones were slower than motorbike couriers.",
+                "Residents complained about the noisy flights.",
+                "Splitting orders made deliveries too costly.",
+                "The province refused to approve its drones."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "บทความบอกว่าปัญหาคือ \"the weight limit\" ทำให้ต้องแบ่งออร์เดอร์หลายเที่ยวและ \"far more expensive than a single courier trip\" กับดักคือ \"slower than motorbike couriers\" ซึ่งขัดกับเวลาส่งเฉลี่ย 11 นาที เทียบกับมอเตอร์ไซค์ 40 นาที และ \"refused to approve\" ซึ่งบทความบอกแค่ว่ากำลังรอให้อนุมัติโดรนรุ่นใหม่"
+            },
+            {
+              "id": "TG1-S7-055",
+              "stem": "It can be inferred from the passage that SkyCrate ___.",
+              "options": [
+                "intends to offer drone deliveries in Khao Noi again",
+                "plans to sell its drones to another company",
+                "has already found a cheaper courier service",
+                "believes the trial proved that drones are unsafe"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ประโยคสุดท้าย \"it will return to Khao Noi once a heavier-lifting model has been approved\" แสดงว่าบริษัทตั้งใจกลับมาให้บริการอีก กับดักคือ \"drones are unsafe\" ซึ่งขัดกับ \"The problem was not the technology\" ส่วนการหาบริษัทขนส่งราคาถูกและการขายโดรนไม่มีในบทความ"
+            }
+          ]
+        },
+        {
+          "id": "TG1-S7-G20",
+          "type": "reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "The night shift nobody pays for",
+          "text": "Every few weeks, Arthit Somboon's phone buzzes in the middle of the night, and within four minutes he is pulling on his boots at the small fire station in the fictional town of Ban Phrao. Arthit, 24, repairs air conditioners for a living. Like the other eighteen members of the town's volunteer fire crew, he receives no salary, only a modest allowance for fuel, and the crew's protective gear was handed down by a larger city brigade.\n\nVolunteer crews like his cover areas that are simply too far from a professional station to wait for help. In the dry season, most calls are for grass fires that threaten to spread towards farms; in the rainy season, the crew is more likely to be clearing fallen trees from roads.\n\nWhat keeps him going? Not the excitement, he insists. \"Most nights are tiring and dirty, and nobody claps afterwards,\" he says. \"But when the fire is out and a farmer can still harvest next month, you know the whole area is a little safer.\" The hardest part, he admits, is persuading younger residents to join. The crew's average age has now risen to forty-three.",
+          "items": [
+            {
+              "id": "TG1-S7-056",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How to train as a professional firefighter",
+                "The equipment used by large city fire brigades",
+                "The work of an unpaid firefighter and why he does it",
+                "Why grass fires are spreading in rural areas"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความเล่างานของ Arthit อาสาสมัครดับเพลิงที่ไม่ได้รับเงินเดือน และเหตุผลที่เขายังทำต่อ (\"What keeps him going?\") กับดักคือ \"grass fires are spreading\" ซึ่งเป็นเพียงรายละเอียดของงาน และ \"equipment used by city brigades\" ที่พูดถึงแค่ว่าอุปกรณ์ได้มาจากหน่วยในเมือง"
+            },
+            {
+              "id": "TG1-S7-057",
+              "stem": "Which of the following is true about the Ban Phrao crew?",
+              "options": [
+                "Its members are paid a small monthly salary.",
+                "It was set up by a larger city brigade.",
+                "Its protective equipment was not bought new.",
+                "It mainly fights fires in the rainy season."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่า \"the crew's protective gear was handed down by a larger city brigade\" คืออุปกรณ์เป็นของที่ได้ต่อมา ไม่ได้ซื้อใหม่ กับดักคือ \"small monthly salary\" ซึ่งขัดกับ \"receives no salary, only a modest allowance for fuel\" และ \"set up by a larger city brigade\" ซึ่งหน่วยในเมืองแค่ให้อุปกรณ์ ไม่ได้ก่อตั้งทีม"
+            },
+            {
+              "id": "TG1-S7-058",
+              "stem": "The word \"threaten\" in paragraph 2 is closest in meaning to ___.",
+              "options": [
+                "refuse to",
+                "are designed to",
+                "seem likely to",
+                "pretend to"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"grass fires that threaten to spread towards farms\" หมายถึงไฟที่ \"ส่อว่าจะ\" ลามไปยังไร่นา ไม่ใช่การข่มขู่ตามความหมายทั่วไป กับดักคือ refuse to (ปฏิเสธที่จะ) และ pretend to (แกล้งทำ) ซึ่งเป็นการกระทำโดยเจตนาของคน และ are designed to (ถูกออกแบบมาเพื่อ) ซึ่งไม่ใช้กับไฟ"
+            },
+            {
+              "id": "TG1-S7-059",
+              "stem": "When Arthit says \"nobody claps afterwards\", he suggests that ___.",
+              "options": [
+                "the crew's hard work often goes unrecognised",
+                "villagers dislike the noise of the fire engine",
+                "few people are awake to watch the crew",
+                "the crew prefers to work quietly at night"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "Arthit พูดประโยคนี้ต่อจาก \"Most nights are tiring and dirty\" เพื่อบอกว่างานหนักแต่ไม่มีใครชื่นชมหรือให้เครดิต กับดักคือ \"few people are awake to watch\" ซึ่งตีความ claps ตามตัวอักษรเพราะเป็นงานกลางคืน และ \"dislike the noise\" ซึ่งไม่มีในบทความ"
+            },
+            {
+              "id": "TG1-S7-060",
+              "stem": "The writer mentions the crew's average age most likely in order to ___.",
+              "options": [
+                "show how experienced the crew has now become",
+                "suggest that older people make better firefighters",
+                "explain why the crew only works late at night",
+                "point out a problem the crew may face in the future"
+              ],
+              "answer": 3,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวเลขอายุเฉลี่ย 43 ปีตามหลัง \"The hardest part… is persuading younger residents to join\" จึงชี้ว่าทีมอาจขาดคนรุ่นใหม่ในอนาคต กับดักคือ \"how experienced the crew has become\" ซึ่งฟังดูเป็นบวกแต่ไม่เข้ากับคำว่า hardest part และ \"older people make better firefighters\" ซึ่งไม่มีในบทความ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

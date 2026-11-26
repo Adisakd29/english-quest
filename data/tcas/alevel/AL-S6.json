@@ -1,0 +1,1568 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S6",
+  "title": "A-Level ชุดฝึกที่ 6",
+  "version": 1,
+  "original": true,
+  "level": 1,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 1,
+    "agree": 80,
+    "keyMatch": 80,
+    "total": 80
+  },
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S6-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Changing a train ticket",
+          "dialogue": [
+            {
+              "speaker": "Clerk",
+              "text": "Good afternoon. Where are you travelling to today?"
+            },
+            {
+              "speaker": "Nok",
+              "text": "Actually, I already have a ticket to Chiang Mai for tomorrow morning, but my plans have changed. ___1___"
+            },
+            {
+              "speaker": "Clerk",
+              "text": "That depends on the type of ticket. May I see it, please?"
+            },
+            {
+              "speaker": "Nok",
+              "text": "Here you are. I'd like to travel on Saturday instead, if there's space."
+            },
+            {
+              "speaker": "Clerk",
+              "text": "Let me check... The sleeper train on Saturday is fully booked, I'm afraid. ___2___"
+            },
+            {
+              "speaker": "Nok",
+              "text": "Hmm, that's twelve hours sitting up in a seat. ___3___"
+            },
+            {
+              "speaker": "Clerk",
+              "text": "Yes, Sunday's sleeper still has two lower berths. There's a 100-baht fee for changing the date, though."
+            },
+            {
+              "speaker": "Nok",
+              "text": "That's fine. ___4___"
+            },
+            {
+              "speaker": "Clerk",
+              "text": "Certainly. Just tap your card on the reader here, and I'll print your new ticket."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S6-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Can I get a seat by the window this time?",
+                "Is it possible to move it to a later date?",
+                "How long does the journey usually take?",
+                "Could you tell me which platform it leaves from?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Nok บอกว่าแผนเปลี่ยนแล้ว และพนักงานตอบว่า \"That depends on the type of ticket\" แสดงว่า Nok ถามว่าเลื่อนวันเดินทางได้หรือไม่ ส่วนคำถามเรื่องชานชาลา เวลาเดินทาง หรือที่นั่งริมหน้าต่างไม่ขึ้นกับประเภทตั๋ว"
+            },
+            {
+              "id": "AL-S6-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "But there are still seats on the day train.",
+                "Changes aren't allowed on this type of ticket.",
+                "The Sunday sleeper is completely full as well.",
+                "You could fly there instead, which is much faster."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Nok ตอบว่า \"that's twelve hours sitting up in a seat\" แสดงว่าพนักงานเสนอที่นั่งบนรถไฟกลางวัน ส่วนการบอกว่ารถนอนวันอาทิตย์เต็มขัดกับบรรทัดถัดไป การห้ามเปลี่ยนตั๋วขัดกับค่าธรรมเนียมเปลี่ยนวัน และการบินไม่ต้องนั่งสิบสองชั่วโมง"
+            },
+            {
+              "id": "AL-S6-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Then I'll take it, thanks.",
+                "Does the day train have a restaurant car?",
+                "Is there anything with a bed on Sunday?",
+                "Could I cancel it and get my money back?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบ \"Yes, Sunday's sleeper still has two lower berths\" จึงต้องเป็นคำถามเรื่องที่นอนในวันอาทิตย์ การตอบรับรถไฟกลางวันหรือถามเรื่องตู้เสบียงไม่สอดคล้องกับคำตอบนี้ และการขอคืนเงินขัดกับการเปลี่ยนวันที่ตามมา"
+            },
+            {
+              "id": "AL-S6-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Could you waive the fee this time?",
+                "Can I pay for it by card?",
+                "I'd rather keep my original ticket, then.",
+                "Which carriage is the restaurant in?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบ \"Certainly. Just tap your card on the reader\" จึงต้องเป็นการถามว่าจ่ายด้วยบัตรได้หรือไม่ ถ้าขอยกเว้นค่าธรรมเนียมหรือขอเก็บตั๋วเดิม คำตอบเรื่องแตะบัตรจะไม่เข้ากัน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Returning a rain jacket",
+          "dialogue": [
+            {
+              "speaker": "Assistant",
+              "text": "Good morning. How can I help you?"
+            },
+            {
+              "speaker": "Fah",
+              "text": "I bought this rain jacket here last Saturday, but the zip came apart the second time I wore it. ___1___"
+            },
+            {
+              "speaker": "Assistant",
+              "text": "I'm sorry to hear that. We can certainly sort it out for you. ___2___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "Yes, here it is. I paid by card."
+            },
+            {
+              "speaker": "Assistant",
+              "text": "Thank you. Unfortunately, that model is sold out in a medium at the moment. ___3___"
+            },
+            {
+              "speaker": "Fah",
+              "text": "A refund, I think. ___4___"
+            },
+            {
+              "speaker": "Assistant",
+              "text": "That's right. It'll go back onto the same card, which usually takes three to five working days."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S6-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "I'd like to buy some matching trousers as well.",
+                "Could you tell me how to wash it properly?",
+                "I'd like to exchange it or get my money back.",
+                "Is there a discount on jackets this week?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Fah นำเสื้อที่ซิปเสียมาคืน และพนักงานตอบว่า \"We can certainly sort it out\" จึงเป็นการขอเปลี่ยนหรือขอคืนเงิน ตัวเลือกอื่นไม่เกี่ยวกับปัญหาซิปที่เสีย"
+            },
+            {
+              "id": "AL-S6-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Would you like a bag for it?",
+                "Did you try it on before you bought it?",
+                "Have you washed it in hot water?",
+                "Have you got the receipt with you?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Fah ตอบว่า \"Yes, here it is. I paid by card.\" แสดงว่าพนักงานขอดูใบเสร็จ คำตอบ \"here it is\" ไม่เข้ากับคำถามเรื่องการซัก การรับถุง หรือการลองสวม"
+            },
+            {
+              "id": "AL-S6-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "So I'm afraid there's nothing we can do.",
+                "We can either refund you or order one in for you.",
+                "But I could repair the zip in five minutes.",
+                "Shall I put it in a gift box for you?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Fah ตอบว่า \"A refund, I think\" ซึ่งเป็นการเลือกระหว่างสองทาง พนักงานจึงต้องเสนอทางเลือกคืนเงินหรือสั่งสินค้า การบอกว่าช่วยอะไรไม่ได้ขัดกับ \"We can certainly sort it out\" และการซ่อมซิปหรือใส่กล่องของขวัญไม่เข้ากับคำตอบเรื่องคืนเงิน"
+            },
+            {
+              "id": "AL-S6-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Could you order a medium for me?",
+                "Will the money go back onto my card?",
+                "How long is the guarantee on the new one?",
+                "Can I have it in cash right now?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบ \"That's right. It'll go back onto the same card\" จึงเป็นการถามยืนยันว่าเงินจะคืนเข้าบัตร ถ้าขอเงินสดคำว่า \"That's right\" จะขัดกัน และ Fah เลือกคืนเงินแล้วจึงไม่ได้สั่งไซส์ใหม่หรือถามประกันสินค้าใหม่"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Buying a SIM card at the airport",
+          "dialogue": [
+            {
+              "speaker": "Staff",
+              "text": "Hi there, and welcome to Thailand! Are you looking for a tourist SIM?"
+            },
+            {
+              "speaker": "Lena",
+              "text": "Yes, please. I'm here for twelve days. ___1___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Well, we have an 8-day package for 299 baht and a 15-day one for 449. ___2___"
+            },
+            {
+              "speaker": "Lena",
+              "text": "That makes sense. ___3___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "It's unlimited, although the speed drops a little after the first 30 GB."
+            },
+            {
+              "speaker": "Lena",
+              "text": "Perfect, I'll take it. ___4___"
+            },
+            {
+              "speaker": "Staff",
+              "text": "Sure. I'll just need your passport to register the number, and then I'll put the card in for you."
+            },
+            {
+              "speaker": "Lena",
+              "text": "Great, here you go. Thanks so much."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S6-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Do I need to show my boarding pass?",
+                "Is the taxi rank far from here?",
+                "Which package would you suggest?",
+                "Can I charge my phone somewhere here?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบด้วยการบอกแพ็กเกจและราคา แสดงว่า Lena ขอคำแนะนำว่าควรเลือกแพ็กเกจใด คำถามเรื่องจุดขึ้นแท็กซี่ บัตรขึ้นเครื่อง หรือที่ชาร์จโทรศัพท์ไม่เข้ากับคำตอบนี้"
+            },
+            {
+              "id": "AL-S6-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "The 8-day one would be long enough for you.",
+                "Both of them are sold out today, sorry.",
+                "The 15-day one would cover your whole stay.",
+                "You'll need a passport photo for either one."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Lena อยู่สิบสองวัน แพ็กเกจ 15 วันจึงครอบคลุมทั้งทริป และเธอตอบว่า \"That makes sense\" แล้วตัดสินใจซื้อ ส่วนแพ็กเกจ 8 วันไม่พอ และถ้าขายหมดเธอก็ซื้อไม่ได้"
+            },
+            {
+              "id": "AL-S6-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "Is there enough data for maps and videos?",
+                "Can I pay for it in euros?",
+                "What time does this shop close?",
+                "Is there a 10-day package too?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบว่า \"It's unlimited, although the speed drops...\" ซึ่งเป็นเรื่องปริมาณอินเทอร์เน็ต จึงต้องเป็นคำถามเรื่องดาต้า ไม่ใช่สกุลเงิน เวลาปิดร้าน หรือแพ็กเกจ 10 วัน"
+            },
+            {
+              "id": "AL-S6-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Can I return it if I leave early?",
+                "Do you sell cases that fit my phone?",
+                "Could you set it up on my phone for me?",
+                "Could you recommend a hotel near here?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "พนักงานตอบ \"Sure... I'll put the card in for you\" แสดงว่า Lena ขอให้ช่วยติดตั้งซิมในโทรศัพท์ ตัวเลือกอื่นไม่เกี่ยวกับการลงทะเบียนเบอร์และใส่ซิม"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Booking a farm stay for a photography club",
+          "dialogue": [
+            {
+              "speaker": "Somchai",
+              "text": "Good afternoon, Phu Khram Farm Stay. Somchai speaking."
+            },
+            {
+              "speaker": "Ice",
+              "text": "Hi. I'm calling for my school's photography club. We're planning a weekend trip to Loei in December. ___1___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "Sure. We have wooden bungalows that sleep three people each, and there's also a tent area if you'd rather camp."
+            },
+            {
+              "speaker": "Ice",
+              "text": "There are six of us, including our teacher. ___2___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "That works. Each bungalow is 1,200 baht a night. Which dates were you thinking of?"
+            },
+            {
+              "speaker": "Ice",
+              "text": "The 12th and 13th, so two nights. ___3___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "You're in luck. Those are the last two we have that weekend."
+            },
+            {
+              "speaker": "Ice",
+              "text": "Great. ___4___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "Plenty. The sunflower fields are in full bloom in December, and on clear mornings the mist sits in the valley below us."
+            },
+            {
+              "speaker": "Ice",
+              "text": "That's exactly what we're after. ___5___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "At around half past six. If you want the mist, you'll need to be at the viewpoint by six."
+            },
+            {
+              "speaker": "Ice",
+              "text": "That's early, but it'll be worth it. ___6___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "It's a fifteen-minute walk up a steep path, so bring torches and good shoes."
+            },
+            {
+              "speaker": "Ice",
+              "text": "Will do. One more thing: ___7___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "I'm afraid not, but my wife runs a small kitchen on the farm. Meals are 80 baht each."
+            },
+            {
+              "speaker": "Ice",
+              "text": "That sounds reasonable. ___8___"
+            },
+            {
+              "speaker": "Somchai",
+              "text": "Half now by bank transfer and the rest when you arrive. Shall I email you the details?"
+            },
+            {
+              "speaker": "Ice",
+              "text": "Yes, please. Our teacher will transfer the money this afternoon. Thanks so much!"
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S6-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Could you tell me what kind of rooms you have?",
+                "Is the farm open to day visitors on weekdays?",
+                "How far is the farm from the centre of the town?",
+                "Do you sell tickets for the sunflower fields?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบด้วยการอธิบายบังกะโลและลานกางเต็นท์ จึงเป็นคำถามว่ามีห้องพักแบบใดบ้าง ตัวเลือกอื่นไม่เข้ากับคำตอบเรื่องที่พัก"
+            },
+            {
+              "id": "AL-S6-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "We'd all like to share a single large bungalow.",
+                "Is camping cheaper than staying in a bungalow?",
+                "Two bungalows would probably suit us best.",
+                "We've decided to bring our own tents."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "บังกะโลหนึ่งหลังนอนได้สามคน หกคนจึงต้องใช้สองหลัง และ Somchai ตอบ \"That works. Each bungalow is...\" ส่วนการนอนหลังเดียวเกินจำนวน การนำเต็นท์มาเองขัดกับการคิดราคาบังกะโล และคำถามเรื่องราคาไม่ได้รับคำตอบ"
+            },
+            {
+              "id": "AL-S6-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "How many people can camp in the tent area?",
+                "Could we stay for a whole week instead?",
+                "Are two still free on those nights?",
+                "Is breakfast included in that price?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบ \"You're in luck. Those are the last two\" แสดงว่า Ice ถามว่ายังมีบังกะโลว่างสองหลังหรือไม่ ส่วนการขอพักทั้งสัปดาห์ขัดกับ \"two nights\" และคำถามเรื่องอาหารเช้าหรือลานเต็นท์ไม่เข้ากับคำตอบ"
+            },
+            {
+              "id": "AL-S6-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Is there a bus from the town to the farm?",
+                "Is there a small fridge in each of the bungalows?",
+                "Are guests allowed to bring their pets?",
+                "What is there to photograph around the farm?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบ \"Plenty.\" แล้วเล่าถึงทุ่งทานตะวันและทะเลหมอก ซึ่งเป็นสิ่งที่ชมรมถ่ายภาพต้องการ จึงเป็นคำถามว่ามีอะไรให้ถ่ายภาพบ้าง"
+            },
+            {
+              "id": "AL-S6-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "Is it usually warm in the mornings then?",
+                "What time does the sun usually rise then?",
+                "How long do the flowers stay in bloom?",
+                "Do many photographers come in December?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"At around half past six\" เป็นการบอกเวลา จึงต้องเป็นคำถามว่าพระอาทิตย์ขึ้นกี่โมง ตัวเลือกอื่นไม่ได้ถามเวลา"
+            },
+            {
+              "id": "AL-S6-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "Will you be coming up there with us in the morning?",
+                "How far is the viewpoint from the bungalows?",
+                "Does the mist appear every single morning?",
+                "Is there an entry fee for the viewpoint?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบว่า \"It's a fifteen-minute walk up a steep path\" ซึ่งบอกระยะทาง จึงเป็นคำถามว่าจุดชมวิวไกลจากที่พักเท่าใด"
+            },
+            {
+              "id": "AL-S6-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "do all of the bungalows have hot running water?",
+                "is there a kitchen where we can buy meals?",
+                "is it possible for us to cook our own meals?",
+                "could we borrow some torches from you?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบ \"I'm afraid not, but my wife runs a small kitchen\" คือทำอาหารเองไม่ได้ แต่ซื้ออาหารได้ ถ้าถามว่ามีครัวขายอาหารไหม คำตอบ \"I'm afraid not\" จะขัดกับประโยคต่อมา"
+            },
+            {
+              "id": "AL-S6-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "How would you like us to pay?",
+                "Is there a discount for school groups?",
+                "Could we pay for everything when we leave?",
+                "Do we need to bring our own towels?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Somchai ตอบวิธีชำระเงิน \"Half now by bank transfer and the rest when you arrive\" จึงเป็นคำถามเรื่องการจ่ายเงิน การขอจ่ายทั้งหมดตอนออกขัดกับการจ่ายครึ่งหนึ่งตอนนี้"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S6-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Pinewell Language Studio",
+          "text": "PINEWELL LANGUAGE STUDIO\nSpeak with confidence this summer!\n\nOur six-week Summer Intensive runs from 6 April to 15 May and is open to students aged 15–19. Choose English, Japanese or Korean, with classes at three levels: Starter, Builder and Advanced.\n\n• Small groups: no more than eight learners per class\n• Three 90-minute lessons a week, on Monday, Wednesday and Friday evenings\n• A weekly speaking clinic with our native-speaker tutors\n• A free placement test, online or at our Siam branch\n\nCourse fee: 6,900 baht (all materials included). Register before 10 March and save 15%. Bring a friend who also signs up, and you will each receive a 500-baht book voucher.\n\nNot sure which level is right for you? Take the placement test first — there is no obligation to enrol.\n\nPlaces are limited. Visit our website or call 02 418 7730 to book a free trial lesson.",
+          "items": [
+            {
+              "id": "AL-S6-021",
+              "stem": "What is the main purpose of this advertisement?",
+              "options": [
+                "To recruit native speakers to teach evening classes",
+                "To explain how students can pass a national English exam",
+                "To attract teenagers to a short holiday language course",
+                "To announce that the studio has opened a new branch"
+              ],
+              "answer": 2,
+              "skill": "purpose_tone",
+              "explanationTh": "โฆษณาชวนนักเรียนอายุ 15–19 ปีมาเรียน \"Summer Intensive\" หกสัปดาห์ ไม่ได้รับสมัครครู ไม่ได้ประกาศเปิดสาขาใหม่ และไม่ได้พูดถึงการสอบระดับชาติ"
+            },
+            {
+              "id": "AL-S6-022",
+              "stem": "How much time does a student spend in regular lessons each week?",
+              "options": [
+                "Three hours",
+                "Ninety minutes",
+                "Four and a half hours",
+                "Six hours"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "เรียนสัปดาห์ละ 3 ครั้ง ครั้งละ 90 นาที รวม 270 นาที หรือ 4 ชั่วโมงครึ่ง"
+            },
+            {
+              "id": "AL-S6-023",
+              "stem": "Lek registers on 20 March together with a friend who also signs up. What will Lek receive?",
+              "options": [
+                "Neither a discount nor a book voucher",
+                "A 15% discount and a book voucher",
+                "A 15% discount but no book voucher",
+                "A book voucher but no discount on the fee"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ส่วนลด 15% ต้องสมัครก่อน 10 มีนาคม Lek สมัคร 20 มีนาคมจึงไม่ได้ส่วนลด แต่ยังได้บัตรกำนัลหนังสือ 500 บาทเพราะชวนเพื่อนที่สมัครด้วย"
+            },
+            {
+              "id": "AL-S6-024",
+              "stem": "The phrase \"there is no obligation to enrol\" means that students",
+              "options": [
+                "do not have to join a course after the test",
+                "are sure to get a place in the Advanced class",
+                "must pay the fee before taking the test",
+                "cannot join a course without taking the test"
+              ],
+              "answer": 0,
+              "skill": "vocab_in_context",
+              "explanationTh": "no obligation แปลว่าไม่มีข้อผูกมัด คือทำแบบทดสอบวัดระดับแล้วไม่จำเป็นต้องสมัครเรียน แบบทดสอบฟรีจึงไม่ต้องจ่ายก่อน"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Thursday Lates at the Siriwat Museum of Textiles",
+          "text": "SIRIWAT MUSEUM OF TEXTILES\nThursday Lates — starting 4 September\n\nFrom 4 September, the museum will stay open until 9 p.m. every Thursday. The galleries on the ground and first floors will remain open throughout the evening, but the Weaving Workshop on the second floor will close at 6 p.m. as usual for cleaning.\n\nAdmission after 5 p.m. is free for students with a valid student card; adults pay the normal price of 80 baht.\n\nEach Thursday Late includes a 30-minute talk by one of our curators, starting at 7 p.m. in the Lotus Room. Seats are limited to 40 and are handed out at the information desk from 6 p.m. on a first-come, first-served basis.\n\nPlease note that the café closes at 7.30 p.m. and that last entry to the museum is at 8.15 p.m. Large bags must be left in the lockers by the main entrance.\n\nWe look forward to seeing you after dark!",
+          "items": [
+            {
+              "id": "AL-S6-025",
+              "stem": "Which part of the museum will be closed at 8 p.m. on a Thursday Late?",
+              "options": [
+                "The main entrance",
+                "The Weaving Workshop",
+                "The ground-floor galleries",
+                "The first-floor galleries"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่า Weaving Workshop ชั้นสองปิดเวลา 6 โมงเย็นตามปกติ ส่วนห้องจัดแสดงชั้นล่างและชั้นหนึ่งเปิด \"throughout the evening\" และยังรับผู้เข้าชมจนถึง 20.15 น."
+            },
+            {
+              "id": "AL-S6-026",
+              "stem": "What must visitors do if they want to attend the curator's talk?",
+              "options": [
+                "Arrive at the Lotus Room before 6 p.m.",
+                "Collect a seat at the information desk",
+                "Pay an extra fee at the Lotus Room",
+                "Book a seat online before the evening"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ที่นั่งฟังบรรยายมีจำกัด 40 ที่ และแจก \"at the information desk from 6 p.m. on a first-come, first-served basis\" ไม่มีการจองออนไลน์หรือค่าธรรมเนียมเพิ่ม"
+            },
+            {
+              "id": "AL-S6-027",
+              "stem": "Mali, a student with her student card, visits with her father at 5.30 p.m. How much do they pay in total?",
+              "options": [
+                "40 baht",
+                "0 baht",
+                "160 baht",
+                "80 baht"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "หลัง 5 โมงเย็นนักเรียนที่มีบัตรเข้าฟรี ส่วนผู้ใหญ่จ่าย 80 บาทตามปกติ รวมจึงเป็น 80 บาท"
+            },
+            {
+              "id": "AL-S6-028",
+              "stem": "Which visitor would NOT be allowed into the museum on a Thursday Late?",
+              "options": [
+                "Someone who arrives at 8.30 p.m.",
+                "Someone who arrives at 7 p.m. for the café",
+                "Someone who is carrying a large backpack",
+                "An adult who does not have a student card"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "เวลาเข้าชมรอบสุดท้ายคือ 20.15 น. คนที่มาถึง 20.30 น. จึงเข้าไม่ได้ ส่วนคนถือกระเป๋าใบใหญ่เพียงต้องฝากไว้ในล็อกเกอร์ ผู้ใหญ่ที่ไม่มีบัตรนักเรียนเพียงต้องจ่าย 80 บาท และคาเฟ่ยังเปิดถึง 19.30 น."
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: the Calmvale AirLeaf 300 air purifier",
+          "text": "When the haze season arrived in Chiang Mai this year, I finally gave in and bought an air purifier for my bedroom. After weeks of comparing models, I chose the Calmvale AirLeaf 300, mainly because of its price: at 3,490 baht, it costs about half as much as the better-known brands.\n\nFirst, the good news. The AirLeaf is easy to set up — you simply take the plastic wrapping off the filter and switch it on — and a small light on the front shows the air quality in the room, changing from red to yellow to green. Within about twenty minutes of being turned on, the light usually changed to green, which was reassuring. On its lowest setting, the machine is so quiet that I could sleep with it right next to my bed.\n\nThe highest setting is a different story. It cleans the air much faster, but it sounds like a hairdryer, so I only used it while I was out. I was also disappointed to discover that replacement filters cost 890 baht each and need changing every four months, which makes the machine considerably less of a bargain than it first appears. Finally, the AirLeaf is designed for rooms of up to 20 square metres, so it would struggle in a large living room.\n\nOverall, the AirLeaf 300 does what it promises in a bedroom or a small study. If you have a bigger space to clean, however, you would be better off saving for a more powerful model.\n\nRating: 3.5/5",
+          "items": [
+            {
+              "id": "AL-S6-029",
+              "stem": "What is the writer's overall opinion of the AirLeaf 300?",
+              "options": [
+                "It is far too noisy to use in a bedroom.",
+                "It is the best purifier available at any price.",
+                "It is cheaper to run than the well-known brands.",
+                "It works well in small rooms but has some drawbacks."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนสรุปว่า \"does what it promises in a bedroom or a small study\" แต่ก็ชี้ข้อเสียเรื่องเสียงดังในระดับสูงสุด ค่าไส้กรอง และขนาดห้อง จึงเป็นความเห็นที่มีทั้งข้อดีและข้อเสีย"
+            },
+            {
+              "id": "AL-S6-030",
+              "stem": "Why did the writer choose this particular purifier?",
+              "options": [
+                "Its filters never need to be replaced.",
+                "It was designed for large living rooms.",
+                "A friend in Chiang Mai had recommended it.",
+                "It was much cheaper than better-known models."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ผู้เขียนบอกว่าเลือก \"mainly because of its price\" ซึ่งถูกกว่ายี่ห้อดังประมาณครึ่งหนึ่ง ส่วนเครื่องนี้เหมาะกับห้องไม่เกิน 20 ตารางเมตร และต้องเปลี่ยนไส้กรองทุกสี่เดือน"
+            },
+            {
+              "id": "AL-S6-031",
+              "stem": "Why does the writer say the machine is \"less of a bargain than it first appears\"?",
+              "options": [
+                "Its price went up when the haze season began.",
+                "It costs more than the better-known brands.",
+                "It usually breaks down after about four months.",
+                "Owners must keep buying fairly costly filters."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ไส้กรองราคา 890 บาทและต้องเปลี่ยนทุกสี่เดือน ค่าใช้จ่ายระยะยาวจึงสูงกว่าที่คิด ไม่ได้หมายความว่าเครื่องเสียทุกสี่เดือน"
+            },
+            {
+              "id": "AL-S6-032",
+              "stem": "The phrase \"a different story\" in paragraph 3 suggests that the highest setting",
+              "options": [
+                "is explained differently in the user manual",
+                "is much less pleasant to use than the lowest",
+                "works in a different way from other brands",
+                "is the writer's favourite feature of the machine"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "a different story ใช้บอกว่าสถานการณ์ตรงข้ามกับที่เพิ่งพูดถึง ระดับต่ำสุดเงียบมาก แต่ระดับสูงสุด \"sounds like a hairdryer\" จึงใช้งานได้ไม่สบายเท่า"
+            },
+            {
+              "id": "AL-S6-033",
+              "stem": "In paragraph 3, \"it\" in \"so it would struggle in a large living room\" refers to",
+              "options": [
+                "the bedroom",
+                "the AirLeaf",
+                "the light",
+                "the filter"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"the AirLeaf is designed for rooms of up to 20 square metres, so it would struggle...\" คำว่า it จึงหมายถึงเครื่อง AirLeaf"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Students' app gives Khuan Sai earlier flood warnings",
+          "text": "KHUAN SAI — Residents of Khuan Sai, a small town on the banks of the Lam Phra River, are now receiving flood warnings on their phones up to six hours earlier than before, thanks to a free app developed by students at the town's technical college.\n\nThe app, called RiverEye, collects readings from twelve water-level sensors that the students fixed to bridges and piers along a 40-kilometre stretch of the river. When the water at any sensor rises faster than a set rate, the app sends an alert to everyone who has registered an address in the area at risk.\n\nUntil this year, the town relied on a siren at the district office and on volunteers who drove through the streets with loudspeakers. \"The siren only gave us about an hour,\" said Wanida Phonsri, who runs a noodle shop near the market. \"Last month, the app warned me before lunch, so I had time to move my fridge and tables upstairs before the water came in that evening.\"\n\nThe project began two years ago as a class assignment. \"We wanted to solve a real problem in our own town,\" explained Chatchai Inkaew, one of the six students behind the app. The sensors cost about 4,000 baht each and were paid for by a grant from the provincial education office.\n\nNot everyone has been able to benefit, however. Many older residents do not own smartphones, and the district office estimates that around a quarter of households have still not registered. To close this gap, volunteers will continue to visit those homes in person whenever an alert is issued, while the students are testing a version that sends ordinary text messages.\n\nDistrict officials say they hope to extend the system to two neighbouring towns next year.",
+          "items": [
+            {
+              "id": "AL-S6-034",
+              "stem": "What is the news report mainly about?",
+              "options": [
+                "A flood that badly damaged the market in a riverside town",
+                "A contest between colleges to design useful apps",
+                "A student-made app that warns a town of floods sooner",
+                "A plan to replace the town's sirens with volunteers"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวทั้งหมดพูดถึงแอป RiverEye ที่นักศึกษาพัฒนาเพื่อเตือนน้ำท่วมได้เร็วขึ้นถึงหกชั่วโมง ไม่ได้รายงานความเสียหายของตลาดหรือการแข่งขัน"
+            },
+            {
+              "id": "AL-S6-035",
+              "stem": "According to the report, when does RiverEye send an alert?",
+              "options": [
+                "When water at a sensor rises faster than a set rate",
+                "When volunteers report rising water levels by telephone",
+                "When rain has fallen for more than six hours",
+                "When the siren at the district office is sounded"
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ข่าวระบุ \"When the water at any sensor rises faster than a set rate, the app sends an alert\""
+            },
+            {
+              "id": "AL-S6-036",
+              "stem": "Wanida Phonsri's experience shows that the app",
+              "options": [
+                "warned her too late to save her furniture",
+                "works only for people who live close to the market",
+                "gave her enough time to protect her belongings",
+                "is less reliable than the old siren system"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Wanida ได้รับการเตือนก่อนเที่ยง จึง \"had time to move my fridge and tables upstairs\" ก่อนน้ำมาตอนเย็น ต่างจากไซเรนที่เตือนล่วงหน้าเพียงราวหนึ่งชั่วโมง"
+            },
+            {
+              "id": "AL-S6-037",
+              "stem": "Why will volunteers continue to visit some homes?",
+              "options": [
+                "Some households cannot receive the app's alerts.",
+                "The app only covers half of the river.",
+                "Officials do not trust the students' readings.",
+                "The sensors often stop working during heavy storms."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ผู้สูงอายุหลายคนไม่มีสมาร์ตโฟน และราวหนึ่งในสี่ของครัวเรือนยังไม่ลงทะเบียน อาสาสมัครจึงยังต้องไปเตือนถึงบ้าน"
+            },
+            {
+              "id": "AL-S6-038",
+              "stem": "The phrase \"close this gap\" in paragraph 5 refers to",
+              "options": [
+                "shortening the time before the floodwater reaches homes",
+                "reaching residents who are not getting the alerts",
+                "repairing the sensors fixed to bridges and piers",
+                "lowering the cost of each water-level sensor"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "gap ในที่นี้คือช่องว่างระหว่างคนที่ได้รับการเตือนกับคนที่ไม่มีสมาร์ตโฟนหรือยังไม่ลงทะเบียน การปิดช่องว่างจึงหมายถึงทำให้คนกลุ่มนี้ได้รับการเตือนด้วย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Loans at a community library",
+          "text": "Ban Klang Community Library counted the number of items borrowed in each category during the first four months of 2026. Audiobooks became available through the library's app on 1 March. The school holidays began in the second week of April.",
+          "table": {
+            "caption": "Items borrowed by category, Ban Klang Community Library, January–April 2026",
+            "columns": [
+              "Category",
+              "January",
+              "February",
+              "March",
+              "April"
+            ],
+            "rows": [
+              [
+                "Novels",
+                "412",
+                "398",
+                "405",
+                "520"
+              ],
+              [
+                "Comics",
+                "236",
+                "251",
+                "240",
+                "388"
+              ],
+              [
+                "Travel guides",
+                "64",
+                "70",
+                "95",
+                "182"
+              ],
+              [
+                "Cookbooks",
+                "88",
+                "91",
+                "87",
+                "93"
+              ],
+              [
+                "Audiobooks (app)",
+                "—",
+                "—",
+                "145",
+                "216"
+              ],
+              [
+                "Study guides",
+                "310",
+                "342",
+                "365",
+                "120"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S6-039",
+              "stem": "Which category had the largest increase in loans from March to April?",
+              "options": [
+                "Audiobooks (app)",
+                "Comics",
+                "Novels",
+                "Travel guides"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "จากมีนาคมถึงเมษายน Comics เพิ่ม 148 (240 → 388) มากกว่า Novels (+115) Travel guides (+87) และ Audiobooks (+71)"
+            },
+            {
+              "id": "AL-S6-040",
+              "stem": "Which statement is best supported by the table and the text?",
+              "options": [
+                "Study guides were borrowed far less once the holidays began.",
+                "Audiobooks were the most borrowed category in April.",
+                "Cookbook loans rose sharply from month to month.",
+                "Travel guide loans fell after the holidays started."
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "Study guides ลดจาก 365 เหลือ 120 ในเดือนเมษายนซึ่งเป็นช่วงปิดเทอม ส่วน Audiobooks (216) น้อยกว่า Novels (520) Cookbooks แทบคงที่ และ Travel guides กลับเพิ่มขึ้น"
+            },
+            {
+              "id": "AL-S6-041",
+              "stem": "How many audiobooks were borrowed altogether during the period shown?",
+              "options": [
+                "361",
+                "216",
+                "145",
+                "371"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "หนังสือเสียงเริ่มให้ยืมเดือนมีนาคม จึงรวม 145 + 216 = 361 รายการ"
+            },
+            {
+              "id": "AL-S6-042",
+              "stem": "In January, how many more novels than comics were borrowed?",
+              "options": [
+                "186",
+                "166",
+                "176",
+                "148"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "เดือนมกราคม Novels 412 และ Comics 236 ต่างกัน 412 − 236 = 176"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Food waste in a school canteen",
+          "text": "For one week in June, the student council at Thung Rak School weighed the food left on plates in the canteen. On Tuesday and Thursday, the vegetable dish was stir-fried bitter gourd. On Wednesday, many students left at noon for an inter-school sports day. On Friday, the canteen tried a self-service rice station, where students could take as much rice as they wanted.",
+          "table": {
+            "caption": "Food left on plates (kg) and meals served, Thung Rak School canteen",
+            "columns": [
+              "Day",
+              "Rice",
+              "Curry and soup",
+              "Vegetables",
+              "Fruit",
+              "Meals served"
+            ],
+            "rows": [
+              [
+                "Monday",
+                "18.4",
+                "9.6",
+                "7.2",
+                "2.1",
+                "940"
+              ],
+              [
+                "Tuesday",
+                "15.0",
+                "8.8",
+                "11.5",
+                "1.8",
+                "955"
+              ],
+              [
+                "Wednesday",
+                "12.6",
+                "6.4",
+                "5.9",
+                "2.4",
+                "610"
+              ],
+              [
+                "Thursday",
+                "16.2",
+                "10.3",
+                "12.8",
+                "1.5",
+                "948"
+              ],
+              [
+                "Friday",
+                "9.8",
+                "5.1",
+                "6.0",
+                "3.0",
+                "932"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S6-043",
+              "stem": "On which day was the greatest total weight of food left on plates?",
+              "options": [
+                "Thursday",
+                "Wednesday",
+                "Tuesday",
+                "Monday"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "รวมน้ำหนักเศษอาหาร วันพฤหัสบดี 16.2 + 10.3 + 12.8 + 1.5 = 40.8 กก. มากกว่าวันจันทร์ (37.3) วันอังคาร (37.1) และวันพุธ (27.3)"
+            },
+            {
+              "id": "AL-S6-044",
+              "stem": "What most probably explains the high vegetable waste on Tuesday and Thursday?",
+              "options": [
+                "Many students did not finish the bitter gourd.",
+                "The self-service rice station was open.",
+                "Many students left early for a sports day.",
+                "Fewer meals were served on those two days."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "วันอังคารและพฤหัสบดีมีผัดมะระ และเศษผักสูงกว่าวันอื่นชัดเจน (11.5 และ 12.8 กก.) ส่วนจำนวนอาหารที่เสิร์ฟไม่ได้น้อยลง และกีฬากับจุดตักข้าวเองเป็นวันพุธและวันศุกร์"
+            },
+            {
+              "id": "AL-S6-045",
+              "stem": "Which statement about Friday is supported by the data?",
+              "options": [
+                "Fewer meals were served than on any other day.",
+                "Less rice was wasted than on any other day.",
+                "More food was wasted in total than on Wednesday.",
+                "Less fruit was wasted than on any other day."
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "วันศุกร์มีเศษข้าว 9.8 กก. น้อยที่สุดในสัปดาห์ แต่เศษผลไม้ (3.0) กลับมากที่สุด จำนวนอาหาร (932) มากกว่าวันพุธ และน้ำหนักรวม 23.9 กก. น้อยกว่าวันพุธ (27.3)"
+            },
+            {
+              "id": "AL-S6-046",
+              "stem": "Why should Wednesday's low figures be treated with caution?",
+              "options": [
+                "Far fewer meals were served that day.",
+                "The scales were not working properly.",
+                "No vegetables were served that day.",
+                "Only rice was weighed on that day."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "วันพุธนักเรียนจำนวนมากกลับตอนเที่ยงไปแข่งกีฬา จึงเสิร์ฟเพียง 610 มื้อ เทียบกับวันอื่นราว 930–955 มื้อ เศษอาหารที่น้อยจึงอาจไม่ได้แปลว่านักเรียนกินหมดมากขึ้น"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Growing Food Where the Concrete Is",
+          "text": "In most cities, the idea of growing your own vegetables sounds like a dream for people with large gardens and plenty of free time. Yet across the world, a growing number of city dwellers are proving that a balcony, a rooftop or even a sunny windowsill can produce a surprising amount of food. Urban gardening, as it is known, is no longer just a hobby for a few enthusiasts; in many places it has become part of how neighbourhoods think about food, space and community.\n\nThe appeal is easy to understand. Vegetables sold in supermarkets have often travelled hundreds of kilometres and spent days in storage before they reach the shelf. Herbs and leafy greens picked from a pot a few metres from the kitchen, by contrast, can go straight onto the plate. Many gardeners also say they simply enjoy the process: watering seedlings at the end of a long day gives them a sense of calm that is hard to find elsewhere in a busy city.\n\nSpace, of course, is the most obvious challenge, and city gardeners have responded with considerable creativity. Some grow plants in vertical frames fixed to walls, stacking pots one above another so that a single square metre of floor can hold dozens of plants. Others use old bathtubs, plastic bottles or rice sacks as containers. On flat roofs, which are often empty and receive sunlight all day, residents' groups have built raised beds filled with lightweight soil. Before doing so, however, they must check that the building can bear the extra load, since wet soil is far heavier than most people imagine.\n\nChoosing the right plants matters just as much as finding the space. Experienced urban gardeners tend to recommend fast-growing crops that do not need deep soil, such as morning glory, spring onions, basil and chillies. Fruit trees and root vegetables like cassava, which need room for their roots to spread, are generally less suitable. Water is another concern. To avoid wasting it, many gardeners collect rainwater from gutters in large containers, while others make simple drip systems from recycled bottles that release water slowly into the soil.\n\nPerhaps the most interesting effects of urban gardening are social rather than practical. In the Bang Phrom district of one large city, for instance, residents turned an unused car park behind their apartment block into a shared garden three years ago. What began with six families now involves more than forty, and the garden holds a small market every Sunday morning where surplus vegetables are swapped or sold cheaply. Neighbours who had lived on the same floor for years without speaking now meet regularly to exchange seeds and advice.\n\nCity authorities have started to take notice. Some now offer small grants for community gardens, and a few have changed their building rules so that new apartment blocks must include rooftop space that residents can plant. Critics point out that urban gardens cannot feed an entire city, and they are right: the amount of food produced is modest compared with what farms supply. Supporters argue, however, that this misses the point. Even a few pots on a balcony remind city dwellers where their food comes from, and that small reminder may change the way they shop, cook and throw food away.",
+          "items": [
+            {
+              "id": "AL-S6-047",
+              "stem": "What is the passage mainly about?",
+              "options": [
+                "How one district turned an old car park into a market",
+                "Why supermarket vegetables are less fresh than home-grown ones",
+                "How and why city residents grow food in small spaces",
+                "Why gardens in cities may soon replace farms in the countryside"
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "บทความพูดถึงเหตุผลที่คนเมืองปลูกผัก วิธีแก้ปัญหาพื้นที่ การเลือกพืช และผลทางสังคม ส่วนเรื่องผักในซูเปอร์มาร์เก็ตและลานจอดรถใน Bang Phrom เป็นเพียงรายละเอียด และผู้เขียนยอมรับว่าสวนในเมืองเลี้ยงคนทั้งเมืองไม่ได้"
+            },
+            {
+              "id": "AL-S6-048",
+              "stem": "According to paragraph 3, why must residents check a building before making rooftop beds?",
+              "options": [
+                "Wet soil can be much heavier than people expect.",
+                "Flat roofs often get too little sun for vegetables.",
+                "Lightweight soil is very expensive to buy.",
+                "Most buildings do not allow plants on their roofs."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่สามระบุว่าต้องตรวจว่าอาคารรับน้ำหนักได้ \"since wet soil is far heavier than most people imagine\" และหลังคาเรียบได้รับแดด \"all day\""
+            },
+            {
+              "id": "AL-S6-049",
+              "stem": "The word \"surplus\" in paragraph 5 is closest in meaning to",
+              "options": [
+                "damaged",
+                "rare",
+                "extra",
+                "fresh"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "surplus vegetables คือผักที่เหลือเกินความต้องการ จึงนำมาแลกหรือขายราคาถูกในตลาดวันอาทิตย์"
+            },
+            {
+              "id": "AL-S6-050",
+              "stem": "Which plant would the experienced gardeners in paragraph 4 be LEAST likely to suggest for a balcony pot?",
+              "options": [
+                "basil",
+                "spring onions",
+                "chillies",
+                "a mango tree"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่สี่บอกว่าไม้ผลและพืชหัว \"need room for their roots to spread\" จึงไม่ค่อยเหมาะ ต้นมะม่วงเป็นไม้ผล ส่วนต้นหอม โหระพา และพริกถูกแนะนำโดยตรง"
+            },
+            {
+              "id": "AL-S6-051",
+              "stem": "In the last paragraph, \"they\" in \"and they are right\" refers to",
+              "options": [
+                "city authorities",
+                "supporters",
+                "urban gardens",
+                "critics"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"Critics point out that urban gardens cannot feed an entire city, and they are right\" คำว่า they จึงหมายถึงผู้วิจารณ์ที่ชี้ข้อจำกัดนั้น"
+            },
+            {
+              "id": "AL-S6-052",
+              "stem": "Why does the writer mention the garden in the Bang Phrom district?",
+              "options": [
+                "To warn readers about the risks of empty car parks",
+                "To show how gardening can bring neighbours together",
+                "To prove that car parks are better than rooftops",
+                "To explain how to earn a living from vegetables"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ตัวอย่างนี้อยู่ในย่อหน้าที่เริ่มว่าผลที่น่าสนใจที่สุดคือ \"social rather than practical\" และจบด้วยเพื่อนบ้านที่ไม่เคยคุยกันมาพบกันเป็นประจำ"
+            },
+            {
+              "id": "AL-S6-053",
+              "stem": "Which statement best reflects the writer's view in the final paragraph?",
+              "options": [
+                "Critics are wrong to say that gardens produce little food.",
+                "Urban gardens matter even though they produce little food.",
+                "City authorities are spending too much money on gardens.",
+                "Urban gardens should not be allowed on new apartment blocks."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนยอมรับว่าผลผลิต \"modest\" แต่เห็นด้วยกับผู้สนับสนุนว่าสวนเล็ก ๆ ช่วยให้คนเมืองนึกถึงที่มาของอาหารและอาจเปลี่ยนพฤติกรรมการซื้อ ทำอาหาร และทิ้งอาหาร"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Drawing the World: A Short History of Maps",
+          "text": "Today, most of us carry a map of the entire planet in our pockets, and we rarely think twice about it. A few taps on a screen will show the quickest route to a friend's house, the nearest bus stop or a street on the other side of the world. Yet for almost all of human history, maps were rare, expensive and often wildly inaccurate. The story of how they became so precise is, in many ways, the story of how people learnt to measure the world.\n\nSome of the oldest objects that historians agree are maps were made thousands of years ago, scratched onto clay tablets in ancient Mesopotamia. They show fields, rivers and city walls. These early maps were not meant to represent the whole world. Instead, they served practical local purposes, such as recording who owned a piece of land or how to reach a nearby town.\n\nAs trade expanded, so did the need for maps covering larger areas. Sailors in the Mediterranean, for example, used charts covered in criss-crossing lines that showed compass directions between ports. These charts were remarkably accurate along coastlines, which sailors knew well, but they became much less reliable further inland, where few mapmakers had ever travelled. Large parts of the world were left blank or filled with guesses, and some maps even showed islands that did not exist. Once drawn, such mistakes could survive for centuries, because mapmakers frequently copied earlier maps rather than checking the land for themselves.\n\nA major turning point came with a method known as triangulation. Surveyors measured one straight line on the ground as carefully as possible and then used instruments to measure the angles from each end of that line to a distant point, such as a hilltop or a tower. With basic geometry, they could calculate the distance to that point without ever walking there. By repeating the process again and again, they built up a network of triangles that could stretch across an entire country. The work was slow — some national surveys took more than half a century to complete — but the results were far more accurate than anything produced before.\n\nThe twentieth century brought even greater changes. Photographs taken from aircraft allowed mapmakers to record large areas quickly, and later, satellites made it possible to observe the whole Earth from above. Today, satellite positioning can tell a phone its location to within a few metres, and digital maps can be updated within hours of a new road opening.\n\nInterestingly, ordinary people now play a part in this process. On several open mapping websites, volunteers add footpaths, shops and building entrances that official maps often ignore. After natural disasters, such volunteers have sometimes mapped damaged areas within days, helping rescue teams to find their way.\n\nDespite all this progress, maps are still not perfect copies of reality. Every map involves choices about what to include, what to leave out and how to show a round planet on a flat surface. A map designed for drivers looks very different from one made for hikers. Understanding this helps us to read maps more wisely: not as the world itself, but as a useful picture of it, drawn for a particular purpose.",
+          "items": [
+            {
+              "id": "AL-S6-054",
+              "stem": "Which of the following best expresses the main idea of the passage?",
+              "options": [
+                "Ancient maps were more useful to travellers than modern digital ones.",
+                "Volunteers now draw most of the world's official maps.",
+                "Maps grew more accurate as ways of measuring the world improved.",
+                "Triangulation is still the main way maps are made today."
+              ],
+              "answer": 2,
+              "skill": "main_idea",
+              "explanationTh": "ย่อหน้าแรกบอกว่าเรื่องราวของแผนที่คือ \"the story of how people learnt to measure the world\" แล้วเล่าพัฒนาการจากแผ่นดินเหนียว แผนที่เดินเรือ การสามเหลี่ยม จนถึงดาวเทียม"
+            },
+            {
+              "id": "AL-S6-055",
+              "stem": "According to paragraph 2, the early clay maps were mainly used to",
+              "options": [
+                "show sailors the routes between distant ports",
+                "deal with local matters such as land ownership",
+                "teach geometry to young surveyors",
+                "record the shape of the whole world as it was known"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่สองระบุว่าแผนที่ยุคแรก \"served practical local purposes, such as recording who owned a piece of land\" และ \"were not meant to represent the whole world\""
+            },
+            {
+              "id": "AL-S6-056",
+              "stem": "Why did mistakes on old maps often last for a long time?",
+              "options": [
+                "Sailors refused to use any maps that others had drawn.",
+                "Mapmakers tended to copy older maps without checking.",
+                "Islands kept appearing and disappearing at sea.",
+                "Charts were only accurate in areas far inland."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ข้อความระบุว่าข้อผิดพลาดอยู่ได้หลายศตวรรษ \"because mapmakers frequently copied earlier maps rather than checking the land for themselves\" และแผนที่แม่นยำตามชายฝั่ง ไม่ใช่ด้านใน"
+            },
+            {
+              "id": "AL-S6-057",
+              "stem": "The word \"reliable\" in paragraph 3 is closest in meaning to",
+              "options": [
+                "well-designed",
+                "detailed",
+                "trustworthy",
+                "colourful"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "reliable แปลว่าเชื่อถือได้ แผนที่เดินเรือแม่นยำตามชายฝั่ง แต่ \"much less reliable further inland\" คือเชื่อถือได้น้อยลงในพื้นที่ที่ไม่ค่อยมีใครสำรวจ"
+            },
+            {
+              "id": "AL-S6-058",
+              "stem": "What was the main advantage of triangulation described in paragraph 4?",
+              "options": [
+                "Distances could be worked out without travelling them.",
+                "National surveys could be completed within a few weeks.",
+                "Large areas could be photographed from the air.",
+                "Surveyors no longer needed instruments of any kind."
+              ],
+              "answer": 0,
+              "skill": "detail",
+              "explanationTh": "ผู้สำรวจคำนวณระยะทาง \"without ever walking there\" ด้วยเรขาคณิต ส่วนการสำรวจบางครั้งใช้เวลากว่าครึ่งศตวรรษ และยังต้องใช้เครื่องมือวัดมุม"
+            },
+            {
+              "id": "AL-S6-059",
+              "stem": "In paragraph 6, \"such volunteers\" refers to people who",
+              "options": [
+                "join rescue teams after natural disasters",
+                "work for official mapping agencies",
+                "take photographs from aircraft",
+                "add details to open mapping websites"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคก่อนหน้าพูดถึง \"volunteers add footpaths, shops and building entrances\" บนเว็บไซต์แผนที่แบบเปิด such volunteers จึงหมายถึงอาสาสมัครกลุ่มนี้ ซึ่งช่วยทีมกู้ภัย ไม่ใช่เป็นทีมกู้ภัยเอง"
+            },
+            {
+              "id": "AL-S6-060",
+              "stem": "What does the writer suggest in the final paragraph?",
+              "options": [
+                "Maps designed for hikers are more accurate than those for drivers.",
+                "Readers should never trust any of the maps they use.",
+                "Digital maps have finally become perfect copies of reality.",
+                "Every map reflects choices made by the people who draw it."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่า \"Every map involves choices about what to include, what to leave out\" และควรมองแผนที่เป็นภาพที่ทำขึ้นเพื่อจุดประสงค์หนึ่ง ไม่ได้บอกว่าไม่ควรเชื่อแผนที่เลย"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S6-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Why some birds fly in a V",
+          "text": "Anyone who has watched large birds such as geese crossing the sky will have noticed that they rarely travel in a messy crowd. ___1___, they form a neat V shape, with one bird at the front and the others spread out in two lines behind it.\n\nFor a long time, scientists could only guess why. The most popular explanation was that the shape saves energy, but this was difficult to prove ___2___ nobody could measure what was happening inside a flock in mid-air. Small tracking devices finally made it possible. Fitted to the birds, they recorded the position and timing of every wing beat.\n\nThe results showed that each bird flies slightly to the side of the one ahead, where the air ___3___ upwards by the wing in front gives it a little extra lift. The birds even time their wing beats to make the most of this rising air.\n\nThe leader, ___4___, gets no such help, and flying at the front is hard work. This is why the birds take turns, regularly dropping back and letting another bird lead. In this way, no single bird becomes exhausted, and the whole flock can travel much further than ___5___ bird could manage alone.",
+          "items": [
+            {
+              "id": "AL-S6-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Therefore",
+                "Moreover",
+                "Instead",
+                "Otherwise"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนบอกว่านกไม่ได้บินเป็นกลุ่มยุ่งเหยิง ประโยคนี้บอกสิ่งที่มันทำแทน คือเรียงเป็นรูปตัว V จึงใช้ Instead ส่วน Therefore บอกผล Moreover เพิ่มข้อมูล และ Otherwise แปลว่ามิฉะนั้น"
+            },
+            {
+              "id": "AL-S6-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "although",
+                "so that",
+                "unless",
+                "because"
+              ],
+              "answer": 3,
+              "skill": "connector",
+              "explanationTh": "การไม่มีใครวัดสิ่งที่เกิดขึ้นในฝูงกลางอากาศได้เป็นเหตุที่พิสูจน์ยาก จึงใช้ because ส่วน although แสดงความขัดแย้ง unless แสดงเงื่อนไข และ so that แสดงจุดประสงค์"
+            },
+            {
+              "id": "AL-S6-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "pushing",
+                "pushed",
+                "pushes",
+                "to push"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "อากาศ \"ถูกดัน\" ขึ้นโดยปีกของนกตัวหน้า (มี by the wing) จึงใช้ past participle แบบ passive คือ \"the air pushed upwards by the wing\" ส่วน pushing เป็นความหมาย active และ pushes ทำให้มีกริยาแท้ซ้อนกับ gives"
+            },
+            {
+              "id": "AL-S6-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "however",
+                "for example",
+                "in other words",
+                "as a result"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "นกตัวอื่นได้แรงยกจากตัวข้างหน้า แต่ตัวนำ \"gets no such help\" เป็นความขัดแย้ง จึงใช้ however ไม่ใช่การยกตัวอย่าง การบอกผล หรือการขยายความ"
+            },
+            {
+              "id": "AL-S6-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "all",
+                "either",
+                "any",
+                "both"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "\"further than any bird could manage alone\" หมายถึงไกลกว่าที่นกตัวใดตัวหนึ่งบินได้ลำพัง any ใช้กับนามเอกพจน์ในความหมายนี้ ส่วน all และ both ใช้กับพหูพจน์ และ either ใช้เมื่อมีเพียงสองตัว"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Ants that farm",
+          "text": "Humans began farming roughly ten thousand years ago, but some insects ___1___ crops for millions of years. Leafcutter ants, found in the forests of Central and South America, are among the best-known examples.\n\nDespite their name, leafcutter ants do not eat the leaves they carry. ___2___, they chew them into a soft paste and use it to feed a special fungus that grows inside their underground nests. The fungus, in turn, produces food for the whole colony. Neither partner could survive easily without ___3___.\n\nA large colony can contain several million ants, and each one has a particular job. The largest workers guard the nest, medium-sized ones cut and carry leaves, and the tiniest stay inside to look after the fungus gardens. Some small ants even ride on top of the leaf pieces ___4___ the carriers from flies that try to lay eggs on them.\n\nScientists find these ants fascinating because their gardens face many of the same problems as human farms, including pests and disease. The ants deal with these by keeping their gardens extremely clean and by carrying helpful bacteria that ___5___ harmful moulds from spreading.",
+          "items": [
+            {
+              "id": "AL-S6-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "will grow",
+                "are growing",
+                "had grown",
+                "have been growing"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"for millions of years\" แสดงการกระทำที่เริ่มในอดีตและยังดำเนินอยู่ จึงใช้ present perfect continuous ส่วน had grown ต้องมีเหตุการณ์ในอดีตอีกเหตุการณ์เป็นจุดอ้างอิง"
+            },
+            {
+              "id": "AL-S6-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Instead",
+                "Besides",
+                "As a result",
+                "Similarly"
+              ],
+              "answer": 0,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนบอกว่ามดไม่ได้กินใบไม้ ประโยคนี้บอกสิ่งที่มันทำแทน จึงใช้ Instead ส่วน Besides เพิ่มข้อมูล Similarly บอกความคล้าย และ As a result บอกผล"
+            },
+            {
+              "id": "AL-S6-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "themselves",
+                "the other",
+                "another",
+                "others"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "มีหุ้นส่วนสองฝ่าย คือมดกับเชื้อรา \"Neither partner could survive without the other\" หมายถึงอีกฝ่ายหนึ่งในสองฝ่าย another ใช้กับสิ่งที่มีมากกว่าสอง others เป็นพหูพจน์ และ themselves ไม่สมเหตุผล"
+            },
+            {
+              "id": "AL-S6-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "protected",
+                "being protected",
+                "to protect",
+                "protects"
+              ],
+              "answer": 2,
+              "skill": "grammar",
+              "explanationTh": "ต้องใช้ to-infinitive บอกจุดประสงค์ว่ามดขี่บนใบไม้เพื่อปกป้องตัวที่แบก ส่วน protects ทำให้มีกริยาแท้ซ้อน และ protected/being protected เป็นรูป passive ที่ตามด้วยกรรมไม่ได้"
+            },
+            {
+              "id": "AL-S6-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "prevent",
+                "remove",
+                "avoid",
+                "protect"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "โครงสร้าง prevent + something + from + V-ing แปลว่าป้องกันไม่ให้ ส่วน avoid และ remove ไม่ใช้กับ from + V-ing แบบนี้ และ protect moulds from spreading จะกลับความหมาย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Postcards in a digital age",
+          "text": "With instant messages and video calls costing ___1___ nothing, you might expect the postcard to have disappeared. Surprisingly, it has not. In fact, some post offices report that young travellers are sending more postcards than they did ten years ago.\n\nPart of the reason is that a postcard feels personal ___2___ a message on a screen rarely does. It has to be chosen, written by hand and carried to a postbox, and it often arrives days or even weeks after the sender has returned home. Rather than being a disadvantage, this delay is part of the charm: the card ___3___ as a small surprise in the middle of an ordinary week.\n\nOnline communities have also played a role. On one popular exchange website, members are matched with strangers in other countries and send each other cards at random. Members have exchanged millions of cards so far, and many ___4___ say they enjoy learning about places they would otherwise never have heard of.\n\nOf course, postcards will never match the speed of a smartphone. ___5___, for people who want something they can hold, keep in a drawer or pin to a wall, a few lines of handwriting still seem to matter.",
+          "items": [
+            {
+              "id": "AL-S6-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "nearby",
+                "next to",
+                "beside",
+                "apart from"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "สำนวน \"next to nothing\" แปลว่าแทบไม่เสียเงินเลย ส่วน beside nothing และ nearby nothing ไม่ใช่สำนวน และ apart from nothing ไม่มีความหมาย"
+            },
+            {
+              "id": "AL-S6-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "as long as",
+                "even if",
+                "in a way that",
+                "so that"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ประโยคเปรียบว่าโปสการ์ดให้ความรู้สึกเป็นส่วนตัว \"in a way that a message on a screen rarely does\" คือในแบบที่ข้อความบนจอไม่ค่อยให้ ส่วน as long as และ even if เป็นเงื่อนไข และ so that บอกจุดประสงค์"
+            },
+            {
+              "id": "AL-S6-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "arrives",
+                "has been arriving",
+                "arriving",
+                "is arrived"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "ข้อความเล่าสิ่งที่เกิดขึ้นทั่วไปด้วย present simple (this delay is part of the charm) จึงใช้ arrives ส่วน is arrived ผิดเพราะ arrive ไม่มีรูป passive และ arriving ไม่ใช่กริยาแท้"
+            },
+            {
+              "id": "AL-S6-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "of which",
+                "of them",
+                "whose",
+                "who"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "\"many of them say\" หมายถึงสมาชิกหลายคนบอกว่า ส่วน \"many of which\" ต้องอยู่ใน relative clause ต่อจากคำนามและไม่ใช้ตามหลัง and แบบนี้ \"many who say\" ทำให้ประโยคไม่มีกริยาแท้ และ whose ต้องตามด้วยคำนาม"
+            },
+            {
+              "id": "AL-S6-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "In addition",
+                "Even so",
+                "For instance",
+                "As a result"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ประโยคก่อนยอมรับว่าโปสการ์ดสู้ความเร็วของสมาร์ตโฟนไม่ได้ ประโยคนี้บอกว่าลายมือยังมีความหมาย จึงเป็นความขัดแย้งและใช้ Even so"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Why bread rises",
+          "text": "A. As it feeds, it gives off carbon dioxide gas, which forms thousands of tiny bubbles.\nB. When the loaf is finally baked, the heat kills the yeast and sets the bubbles in place, giving the bread its soft, airy texture.\nC. Most bread rises because of yeast, a tiny living fungus that is mixed into the dough.\nD. These bubbles are trapped by a stretchy network that forms in the dough, so the dough slowly swells.\nE. Once the dough has been kneaded and left somewhere warm, the yeast begins to feed on the sugars in the flour.",
+          "items": [
+            {
+              "id": "AL-S6-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – E – A – D – B",
+                "C – A – E – D – B",
+                "E – C – A – D – B",
+                "C – E – D – A – B"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "C แนะนำยีสต์ซึ่งเป็นหัวข้อ E ยีสต์เริ่มกินน้ำตาลในแป้ง A (\"As it feeds\") ปล่อยก๊าซเป็นฟอง D (\"These bubbles\") ฟองถูกกักไว้ทำให้แป้งฟู และ B (\"finally baked\") ขั้นสุดท้ายเมื่ออบ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Mending a torn book page",
+          "text": "A. First, lay the book flat and line up the two torn edges so that the words match exactly.\nB. After that, place a sheet of baking paper on each side of the page and close the book under something heavy.\nC. By the next morning, the tear should be almost invisible, and the page will be strong enough to turn again.\nD. Then brush a thin layer of book glue along the tear, taking care not to use too much.\nE. A torn page does not have to mean that a favourite book is ruined.",
+          "items": [
+            {
+              "id": "AL-S6-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "E – D – A – B – C",
+                "E – A – D – B – C",
+                "E – A – B – D – C",
+                "A – E – D – B – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "E ประโยคนำ A (\"First\") จัดขอบที่ขาดให้ตรงกัน D (\"Then\") ทากาว B (\"After that\") รองกระดาษและทับด้วยของหนัก และ C (\"By the next morning\") ผลลัพธ์"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Fixing a flat bicycle tyre",
+          "text": "A. Once you have found the hole, cover it with a patch and press down firmly for a minute.\nB. Start by taking off the wheel and carefully pulling the inner tube out of the tyre.\nC. Finally, put the tube back, refit the wheel and pump the tyre up to the correct pressure.\nD. A flat tyre is annoying, but repairing one yourself is easier than many cyclists think.\nE. Next, pump a little air into the tube and listen or feel for the place where it escapes.",
+          "items": [
+            {
+              "id": "AL-S6-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "D – E – B – A – C",
+                "D – B – E – A – C",
+                "B – D – E – A – C",
+                "D – B – A – E – C"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "D แนะนำหัวข้อ B (\"Start by\") ถอดล้อและยางใน E (\"Next\") หารูรั่ว A (\"Once you have found the hole\") ปะรู และ C (\"Finally\") ประกอบกลับและเติมลม"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "The truth about a camel's hump",
+          "text": "A. Its ability to go without drinking comes from other features instead.\nB. Thanks to these features, a camel can travel for a week or more without a drink.\nC. In fact, the hump is mostly fat, which the camel can use for energy when food is scarce.\nD. For example, it sweats very little, because its body temperature can rise by several degrees during the hot day.\nE. Many people believe that a camel stores water in its hump.",
+          "items": [
+            {
+              "id": "AL-S6-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – E – A – D – B",
+                "E – A – C – D – B",
+                "E – C – A – D – B",
+                "E – C – D – A – B"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "E ความเชื่อที่คนทั่วไปมี C (\"In fact\") แก้ความเชื่อว่าโหนกคือไขมัน A (\"other features instead\") บอกว่าความทนแล้งมาจากลักษณะอื่น D (\"For example\") ยกตัวอย่างลักษณะนั้น และ B (\"these features\") สรุปผล"
+            }
+          ]
+        },
+        {
+          "id": "AL-S6-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Learning to juggle",
+          "text": "A. The secret is to begin with just one ball, throwing it from hand to hand in a smooth arc at eye level.\nB. Only after mastering two balls should you try three, which will feel chaotic for several days.\nC. Juggling three balls looks impossible at first, but most people can learn it in a few weeks.\nD. With ten minutes of practice a day, however, the movements will gradually become automatic.\nE. When this feels natural, add a second ball, releasing it just as the first one reaches its highest point.",
+          "items": [
+            {
+              "id": "AL-S6-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – E – A – B – D",
+                "A – C – E – B – D",
+                "C – A – B – E – D",
+                "C – A – E – B – D"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "C ประโยคใจความหลัก A เริ่มจากลูกเดียว E (\"When this feels natural, add a second ball\") เพิ่มเป็นสองลูก B (\"Only after mastering two balls\") เพิ่มเป็นสามลูกซึ่งจะสับสน และ D (\"however\") บอกว่าฝึกทุกวันแล้วจะคล่อง"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

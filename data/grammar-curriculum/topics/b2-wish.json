@@ -1,0 +1,213 @@
+{
+  "id": "b2-wish",
+  "summaryTh": "อยากให้ความจริงเป็นอย่างอื่น: wish / if only + อดีต (ตอนนี้), past perfect (อดีต), would (อยากให้คนอื่นเปลี่ยน)",
+  "concept": {
+    "what": "wish และ if only ใช้บอกว่าเราอยากให้ความจริงเป็นอีกแบบหนึ่ง — สิ่งที่ตามหลังจะ \"ถอยไปหนึ่ง tense\" เพื่อบอกว่าไม่ใช่เรื่องจริง: อยากให้ตอนนี้ต่างไปใช้ past simple, เสียดายเรื่องในอดีตใช้ past perfect, และอยากให้คนอื่นหรือสถานการณ์เปลี่ยนใช้ would",
+    "when": [
+      "ตอนนี้ไม่เป็นแบบที่อยาก: wish + past simple / were / could (I wish I had a car. / I wish I could swim.)",
+      "เสียดายเรื่องที่ผ่านไปแล้ว: wish + past perfect (I wish I had studied harder.)",
+      "รำคาญ อยากให้คนอื่นหรือสถานการณ์เปลี่ยน: wish + someone + would (I wish you would stop talking.)",
+      "If only = wish แต่อารมณ์แรงกว่า (If only I hadn't said that!)",
+      "ถ้าเป็นเรื่องที่ยังเป็นไปได้จริง ใช้ hope ไม่ใช่ wish (I hope you pass the exam.)"
+    ],
+    "why": "ภาษาไทยพูดว่า \"อยากให้ … จัง\" \"รู้งี้ …\" โดยไม่เปลี่ยนรูปกริยา ผู้เรียนไทยจึงมักพูด I wish I have … หรือ I wish I can … — การถอย tense คือสัญญาณบอกผู้ฟังว่า \"นี่ไม่ใช่ความจริง\""
+  },
+  "structure": {
+    "formula": "Subject + wish / If only + Subject + past form",
+    "rows": [
+      { "label": "ปัจจุบัน (Present)", "formula": "wish + S + V2 / were / could + V1", "example": "I [[wish]] I [[had]] more free time." },
+      { "label": "อดีต (Past regret)", "formula": "wish + S + had + V3", "example": "I [[wish]] I [[had studied]] harder." },
+      { "label": "อยากให้เปลี่ยน / รำคาญ", "formula": "wish + other subject + would + V1", "example": "I [[wish]] you [[would stop]] using your phone at dinner." },
+      { "label": "If only (เน้นอารมณ์)", "formula": "If only + S + V2 / had + V3", "example": "[[If only]] we [[had left]] earlier!" },
+      { "label": "ปฏิเสธ (Negative)", "formula": "wish + S + didn't + V1 / hadn't + V3", "example": "I [[wish]] I [[hadn't eaten]] so much." }
+    ],
+    "notes": [
+      "be ใช้ were ได้กับทุกประธาน (I wish I were taller) — ภาษาพูดใช้ was ได้ (I wish I was taller) ถือว่าถูกทั้งคู่",
+      "ไม่ใช้ will / can หลัง wish → ใช้ would / could",
+      "wish + would ใช้กับประธานอื่นเท่านั้น ไม่ใช้กับตัวเอง (I wish I would … ✗)",
+      "hope + present / will = หวังว่า (เป็นไปได้จริง) · wish + past = อยากให้ (ไม่จริง)"
+    ]
+  },
+  "examples": [
+    { "en": "I [[wish]] I [[had]] more free time.", "th": "อยากมีเวลาว่างมากกว่านี้จัง (แต่ไม่มี)" },
+    { "en": "I [[wish]] I [[were]] taller.", "th": "อยากสูงกว่านี้ (ภาษาพูดใช้ was ได้)" },
+    { "en": "She [[wishes]] she [[could]] speak French.", "th": "เธออยากพูดภาษาฝรั่งเศสได้" },
+    { "en": "I [[wish]] I [[hadn't eaten]] so much last night.", "th": "รู้งี้เมื่อคืนไม่กินเยอะขนาดนั้นดีกว่า" },
+    { "en": "[[If only]] we [[had left]] earlier!", "th": "ถ้าเราออกมาเร็วกว่านี้ก็ดีสิ" },
+    { "en": "I [[wish]] you [[would stop]] using your phone at dinner.", "th": "อยากให้เธอเลิกเล่นโทรศัพท์ตอนกินข้าวสักที (รำคาญ)" },
+    { "en": "My parents [[wish]] they [[had travelled]] more when they were young.", "th": "พ่อแม่เสียดายที่ตอนหนุ่มสาวไม่ได้ไปเที่ยวให้มากกว่านี้" },
+    { "en": "[[If only]] it [[would stop]] raining!", "th": "อยากให้ฝนหยุดตกสักทีจริง ๆ" }
+  ],
+  "mistakes": [
+    { "wrong": "I wish I have a car.", "right": "I wish I had a car.", "whyTh": "wish เรื่องตอนนี้ต้องถอยเป็น past simple (had) เพื่อบอกว่าไม่ใช่ความจริง" },
+    { "wrong": "I wish I didn't go to that party yesterday.", "right": "I wish I hadn't gone to that party yesterday.", "whyTh": "เสียดายเรื่องในอดีต (yesterday) ต้องใช้ past perfect: hadn't + V3" },
+    { "wrong": "I wish I can drive.", "right": "I wish I could drive.", "whyTh": "หลัง wish ใช้ could แทน can" },
+    { "wrong": "I wish you will come to my birthday party.", "right": "I hope you will come to my birthday party.", "whyTh": "เรื่องที่ยังเป็นไปได้จริงในอนาคตใช้ hope — wish ไม่ตามด้วย will" },
+    { "wrong": "I wish I would be rich.", "right": "I wish I were rich.", "whyTh": "wish + would ไม่ใช้กับตัวเอง ใช้ past simple แทน (were หรือ was ในภาษาพูด)" }
+  ],
+  "compare": {
+    "title": "wish vs hope",
+    "with": [],
+    "rows": [
+      { "label": "ความหมาย", "a": "wish = อยากให้เป็น (แต่ไม่เป็น / เป็นไปได้ยาก)", "b": "hope = หวังว่า (อาจเป็นจริงได้)" },
+      { "label": "รูปกริยาที่ตาม", "a": "ถอย tense: past simple / had + V3 / would", "b": "present / will / past (ตามเวลาจริง)" },
+      { "label": "ตัวอย่าง", "a": "I wish I had more money. (แต่ไม่มี)", "b": "I hope I'll get a pay rise. (อาจได้)" },
+      { "label": "อดีต", "a": "I wish I had passed. (สอบตกแล้ว)", "b": "I hope I passed. (ยังไม่รู้ผล)" }
+    ],
+    "tipTh": "ถ้าผลยังเป็นไปได้ใช้ hope · ถ้ารู้อยู่แล้วว่าไม่จริงใช้ wish แล้วถอย tense"
+  },
+  "contexts": [
+    {
+      "kind": "social", "title": "Exam-day post",
+      "lines": [
+        { "text": "Ugh, I [[wish]] I [[hadn't stayed]] up so late watching series. I have an exam in an hour! [[If only]] I [[had started]] revising last week. And I [[wish]] my roommate [[would stop]] singing in the shower — I can't concentrate!" }
+      ]
+    },
+    {
+      "kind": "conversation", "title": "Talking about the future",
+      "lines": [
+        { "speaker": "Beam", "text": "Are you coming to the beach this weekend?" },
+        { "speaker": "Kate", "text": "I [[wish]] I [[could]], but I have to work. I really [[wish]] I [[didn't have]] a weekend job." },
+        { "speaker": "Beam", "text": "That's a shame. Well, I hope you have a quiet shift!" },
+        { "speaker": "Kate", "text": "Thanks. [[If only]] my boss [[were]] as nice as you!" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Wish", "th": "อยากให้ (สิ่งที่ไม่เป็นจริง) — ตามด้วยรูปที่ถอย tense" },
+    { "en": "If only", "th": "ถ้าเพียงแต่ … (เหมือน wish แต่อารมณ์แรงกว่า)" },
+    { "en": "Unreal past", "th": "การใช้รูปอดีตเพื่อบอกว่าไม่ใช่ความจริง ไม่ได้หมายถึงเวลาในอดีต" },
+    { "en": "Past perfect (had + V3)", "th": "ใช้หลัง wish เพื่อเสียดายเรื่องที่ผ่านไปแล้ว" },
+    { "en": "Regret", "th": "ความเสียดาย / รู้งี้ …" }
+  ],
+  "practice": [
+    {
+      "id": "b2-wish-01", "type": "mc", "difficulty": 1,
+      "question": "I wish I ___ a bigger room. Mine is so small.",
+      "choices": ["have", "had", "will have", "am having"], "answer": 1,
+      "whyNot": { "0": "หลัง wish เรื่องตอนนี้ต้องถอยเป็น past simple ใช้ have ไม่ได้", "2": "ไม่ใช้ will หลัง wish", "3": "have ที่แปลว่ามี ไม่ใช้รูป -ing และต้องถอย tense" },
+      "explainTh": "อยากให้ตอนนี้ต่างจากความจริง → wish + past simple: had",
+      "structure": "wish + S + V2", "example": "I wish I had a bigger room."
+    },
+    {
+      "id": "b2-wish-02", "type": "mc", "difficulty": 1,
+      "question": "Everyone is in the pool except me. I wish I ___ how to swim.",
+      "choices": ["know", "knew", "have known", "will know"], "answer": 1,
+      "whyNot": { "0": "ต้องถอยเป็น past simple (knew)", "2": "have known ไม่ใช่รูปที่ใช้หลัง wish (เรื่องตอนนี้ใช้ V2 · เรื่องอดีตใช้ had + V3)", "3": "ไม่ใช้ will หลัง wish" },
+      "explainTh": "ตอนนี้ว่ายน้ำไม่เป็น → wish + past simple: I wish I knew how to swim."
+    },
+    {
+      "id": "b2-wish-03", "type": "fill", "difficulty": 1,
+      "question": "I wish I ___ play the guitar like you. (can)",
+      "accepted": ["could"],
+      "explainTh": "หลัง wish เปลี่ยน can เป็น could",
+      "structure": "wish + S + could + V1", "example": "I wish I could play the guitar like you."
+    },
+    {
+      "id": "b2-wish-04", "type": "fill", "difficulty": 2,
+      "question": "I didn't bring my jacket and now I'm freezing. I wish I ___ it. (bring)",
+      "accepted": ["had brought"],
+      "explainTh": "เสียดายสิ่งที่ไม่ได้ทำในอดีต (ไม่ได้เอามา) → wish + had + V3: had brought",
+      "structure": "wish + S + had + V3"
+    },
+    {
+      "id": "b2-wish-05", "type": "error", "difficulty": 1,
+      "sentence": "I wish I am taller.",
+      "errorPart": "am",
+      "accepted": ["I wish I were taller.", "I wish I was taller."],
+      "explainTh": "หลัง wish ต้องถอย tense: am → were (ภาษาพูดใช้ was ได้)"
+    },
+    {
+      "id": "b2-wish-06", "type": "error", "difficulty": 2,
+      "sentence": "I wish I didn't say that to her yesterday.",
+      "errorPart": "didn't say",
+      "accepted": ["I wish I hadn't said that to her yesterday."],
+      "explainTh": "เสียดายเรื่องเมื่อวาน (อดีต) → wish + hadn't + V3: hadn't said"
+    },
+    {
+      "id": "b2-wish-07", "type": "order", "difficulty": 2,
+      "tokens": ["if", "only", "I", "had", "listened", "to", "my", "teacher"],
+      "accepted": ["If only I had listened to my teacher."],
+      "explainTh": "If only + S + had + V3 = เสียดายเรื่องในอดีตแบบอารมณ์แรง"
+    },
+    {
+      "id": "b2-wish-08", "type": "transform", "difficulty": 2,
+      "source": "I'm sorry I don't live near the sea.",
+      "instruction": "เขียนใหม่ด้วย I wish …",
+      "accepted": ["I wish I lived near the sea."],
+      "explainTh": "ตอนนี้ไม่ได้อยู่ใกล้ทะเล → wish + past simple: lived (ประโยคบอกเล่า เพราะอยากให้อยู่)"
+    },
+    {
+      "id": "b2-wish-09", "type": "transform", "difficulty": 3,
+      "source": "It's a pity we missed the last bus.",
+      "instruction": "เขียนใหม่ด้วย If only …",
+      "accepted": ["If only we hadn't missed the last bus."],
+      "explainTh": "เสียดายเรื่องที่เกิดแล้ว → If only + hadn't + V3 (อยากให้ไม่พลาด จึงเป็นปฏิเสธ)"
+    },
+    {
+      "id": "b2-wish-10", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่สถานการณ์กับประโยค wish ที่เหมาะสม",
+      "pairs": [
+        ["I don't have a car.", "I wish I had a car."],
+        ["I can't speak Japanese.", "I wish I could speak Japanese."],
+        ["I didn't study for the test.", "I wish I had studied for the test."],
+        ["My brother always plays loud music.", "I wish my brother would turn the music down."],
+        ["I'm not good at maths.", "I wish I were better at maths."]
+      ],
+      "explainTh": "don't have → had · can't → could · didn't study → had studied · คนอื่นทำให้รำคาญ → would · am not → were"
+    },
+    {
+      "id": "b2-wish-11", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["I wish you would stop interrupting me.", "I wish you will stop interrupting me.", "I wish you stop interrupting me.", "I wish you would stopped interrupting me."], "answer": 0,
+      "whyNot": { "1": "ไม่ใช้ will หลัง wish", "2": "ต้องถอย tense — อยากให้อีกฝ่ายเปลี่ยนพฤติกรรมใช้ would + V1", "3": "หลัง would ต้องใช้ V1 (stop)" },
+      "explainTh": "รำคาญและอยากให้คนอื่นเปลี่ยนพฤติกรรม → wish + you + would + V1"
+    },
+    {
+      "id": "b2-wish-12", "type": "dialogue", "difficulty": 2,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Are you coming to the beach this weekend?" },
+        { "speaker": "B", "text": "I wish I ___, but I have to work." }
+      ] },
+      "choices": ["could", "can", "will", "would"], "answer": 0,
+      "whyNot": { "1": "หลัง wish ไม่ใช้ can ต้องถอยเป็น could", "2": "ไม่ใช้ will หลัง wish", "3": "wish + would ไม่ใช้กับประธานตัวเอง (I wish I would ✗)" },
+      "explainTh": "ไปไม่ได้เพราะต้องทำงาน → wish + could: I wish I could (go)"
+    },
+    {
+      "id": "b2-wish-13", "type": "context", "difficulty": 3,
+      "context": { "kind": "social", "title": "Exam-day post", "lines": [
+        { "text": "Ugh, I wish I hadn't stayed up so late watching series. I have an exam in an hour! If only I'd started revising last week. And I wish my roommate would stop singing in the shower — I can't concentrate!" }
+      ] },
+      "question": "Which thing does the writer want ANOTHER PERSON to change?",
+      "choices": ["Her roommate's singing in the shower", "Staying up late watching series", "Not starting to revise last week", "Having an exam in an hour"], "answer": 0,
+      "whyNot": { "1": "การนอนดึกเป็นสิ่งที่ผู้เขียนทำเองและเสียดาย (wish + hadn't + V3)", "2": "การไม่เริ่มทบทวนเป็นความเสียดายของผู้เขียนเอง (If only I'd started)", "3": "ผู้เขียนแค่บอกข้อเท็จจริง ไม่ได้ใช้ wish กับเรื่องนี้" },
+      "explainTh": "wish + คนอื่น + would + V1 = อยากให้คนอื่นเปลี่ยนพฤติกรรม → I wish my roommate would stop singing"
+    },
+    {
+      "id": "b2-wish-14", "type": "mc", "difficulty": 3,
+      "question": "I ___ you'll have a great time in Japan!",
+      "choices": ["hope", "wish", "would wish", "wished"], "answer": 0,
+      "whyNot": { "1": "wish ไม่ตามด้วย will — และการเที่ยวญี่ปุ่นสนุกเป็นเรื่องที่เป็นไปได้จริง จึงใช้ hope", "2": "would wish ไม่ใช่โครงสร้างที่ใช้อวยพร", "3": "wished เป็นอดีต และก็ไม่ตามด้วย will" },
+      "explainTh": "เรื่องที่เป็นไปได้จริงในอนาคต → hope + will (I hope you'll have …)"
+    },
+    {
+      "id": "b2-wish-15", "type": "fill", "difficulty": 3,
+      "question": "If only I ___ all my money last weekend — now I can't afford the concert ticket. (not / spend)",
+      "accepted": ["hadn't spent", "had not spent"],
+      "explainTh": "เสียดายเรื่องสุดสัปดาห์ที่แล้ว → If only + hadn't + V3: hadn't spent",
+      "structure": "If only + S + hadn't + V3"
+    },
+    {
+      "id": "b2-wish-16", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคบอกสิ่งที่คุณอยากให้ต่างไปจากความจริง ใช้ wish / if only กับเรื่องตอนนี้อย่างน้อย 1 ประโยค และเรื่องในอดีต (had + V3) อย่างน้อย 1 ประโยค (Write 3 sentences about things you wish were different — at least one about now and one about the past.)",
+      "minSentences": 3,
+      "checks": [
+        { "re": "\\b(wish|wishes|if only)\\b", "flags": "i", "msgTh": "ใช้ wish หรือ if only" },
+        { "re": "\\b(had|hadn't|'d)\\s+(not\\s+)?(been|gone|done|seen|said|told|made|bought|left|spent|met|had|known|taken|eaten|got|gotten|lost|sent|thought|brought|kept|slept|felt|heard|read|won|chosen|written|given|come|become|begun|run|sold|paid|forgotten|\\w+ed)\\b", "flags": "i", "msgTh": "มีเรื่องในอดีตอย่างน้อย 1 ประโยค: wish / if only + had + V3 เช่น I wish I had studied harder." }
+      ],
+      "forbid": [ { "re": "\\b(wish|wishes|if only)\\s+(i|you|he|she|it|we|they)\\s+(will|can|am|have|has)\\b", "flags": "i", "msgTh": "หลัง wish / if only ต้องถอย tense: will → would, can → could, am → were/was, have → had" } ],
+      "sample": "I wish I lived closer to my school. If only I had saved more money last year. I wish my neighbours would stop parking in front of my house.",
+      "explainTh": "ตอนนี้ → past simple (lived) · อดีต → had + V3 (had saved) · อยากให้คนอื่นเปลี่ยน → would + V1 (would stop)"
+    }
+  ]
+}

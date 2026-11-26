@@ -1,0 +1,519 @@
+{
+  "exam": "kp",
+  "setId": "KP-S7",
+  "title": "ก.พ. ภาค ก ชุดฝึกที่ 7",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "sections": [
+    {
+      "id": "conversation",
+      "groups": [
+        {
+          "id": "KP-S7-G01",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the immigration counter",
+          "dialogue": [
+            {
+              "speaker": "Officer",
+              "text": "I'm afraid we can't process your visa extension yet. The bank letter you submitted is dated more than thirty days ago."
+            },
+            {
+              "speaker": "Applicant",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Officer",
+              "text": "Yes, any branch can issue one, but make sure it has the bank's official stamp on it."
+            },
+            {
+              "speaker": "Applicant",
+              "text": "Thank you. I'll bring it back this afternoon."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S7-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Does the letter have to be translated into Thai as well?",
+                "I see. Could I get an updated one from my bank today?",
+                "Could you tell me which bank you would recommend for me?",
+                "Is it possible to extend my stay without a bank letter?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "เจ้าหน้าที่บอกว่าหนังสือรับรองจากธนาคารออกเกิน 30 วันแล้ว และตอบว่า \"Yes, any branch can issue one\" แสดงว่าผู้ยื่นถามว่าขอฉบับใหม่จากธนาคารได้ไหม ตัวเลือกเรื่องแปลเอกสารหรือไม่ใช้หนังสือรับรองไม่เข้ากับคำตอบนี้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S7-G02",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Calling about a flood relief grant",
+          "dialogue": [
+            {
+              "speaker": "Caller",
+              "text": "Good morning. I applied for the flood relief grant three weeks ago, but I still haven't heard anything."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Caller",
+              "text": "It's FR-2087. I handed in the form at the subdistrict office."
+            },
+            {
+              "speaker": "Officer",
+              "text": "Thank you. Let me check its status for you."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S7-002",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "That's strange. Have you checked your bank account recently?",
+                "I see. How many people live in your household?",
+                "I'm sorry about that. May I have your reference number, please?",
+                "I'm sorry to hear that. How badly was your house damaged?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ผู้โทรตอบว่า \"It's FR-2087\" ซึ่งเป็นเลขอ้างอิงของคำขอ จึงต้องเป็นคำถามขอ reference number ส่วนคำถามเรื่องความเสียหาย จำนวนสมาชิกในบ้าน หรือบัญชีธนาคาร ไม่สามารถตอบด้วยเลข FR-2087 ได้"
+            }
+          ]
+        },
+        {
+          "id": "KP-S7-G03",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Evaluating the bids",
+          "dialogue": [
+            {
+              "speaker": "Supervisor",
+              "text": "I noticed the lowest bid came from a company owned by your cousin. Is that right?"
+            },
+            {
+              "speaker": "Staff",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Supervisor",
+              "text": "That's the right thing to do. I'll ask Khun Dara to take over the evaluation."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S7-003",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Yes, so I think I should step back from reviewing it.",
+                "No, my cousin left that company some years ago.",
+                "Yes, and that's why I'm sure their price is a fair one.",
+                "Yes, but I promise I won't tell anyone else about it."
+              ],
+              "answer": 0,
+              "skill": "social_response",
+              "explanationTh": "หัวหน้าตอบว่า \"That's the right thing to do\" และจะให้คนอื่นประเมินแทน แสดงว่าพนักงานขอถอนตัวจากการพิจารณาเพราะมีส่วนได้ส่วนเสีย ตัวเลือก No... ขัดกับการที่หัวหน้าให้คนอื่นรับงานแทน"
+            }
+          ]
+        },
+        {
+          "id": "KP-S7-G04",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "At the digital ID help desk",
+          "dialogue": [
+            {
+              "speaker": "Resident",
+              "text": "I've tried to activate the app three times, but it keeps asking me to scan my face again."
+            },
+            {
+              "speaker": "Officer",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Resident",
+              "text": "Oh, I didn't realise the light made such a difference. Let me try over by the window."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S7-004",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Your camera lens might be dirty. Could you wipe it first?",
+                "Don't worry. You can use your fingerprint instead.",
+                "Have you tried switching your phone off and on again?",
+                "It may be too dark in here. Could you try somewhere brighter?"
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "ผู้มาติดต่อตอบว่า \"I didn't realise the light made such a difference\" และจะลองไปใกล้หน้าต่าง แสดงว่าเจ้าหน้าที่แนะนำเรื่องแสงสว่าง ตัวเลือกเรื่องเลนส์กล้องสกปรกหรือปิดเปิดเครื่องใหม่ฟังดูเป็นไปได้ แต่ไม่เกี่ยวกับแสง"
+            }
+          ]
+        },
+        {
+          "id": "KP-S7-G05",
+          "type": "kp_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกข้อความที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A new filing system",
+          "dialogue": [
+            {
+              "speaker": "Ploy",
+              "text": "How are you getting on with the new filing system?"
+            },
+            {
+              "speaker": "Krit",
+              "text": "___1___"
+            },
+            {
+              "speaker": "Ploy",
+              "text": "Well, give it a couple of weeks. Everyone struggles at first."
+            }
+          ],
+          "items": [
+            {
+              "id": "KP-S7-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "It's been plain sailing so far, actually.",
+                "It's a piece of cake now I'm used to it.",
+                "To be honest, I'm still finding my feet.",
+                "I've already put my foot down about it."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "\"finding my feet\" เป็นสำนวน แปลว่า ยังปรับตัวอยู่/ยังไม่คล่อง ซึ่งเข้ากับคำปลอบว่า \"Everyone struggles at first\" ส่วน plain sailing และ a piece of cake แปลว่าราบรื่น/ง่าย ขัดกับบริบท"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "groups": [
+        {
+          "id": "KP-S7-G06",
+          "type": "kp_structure",
+          "instructionTh": "เลือกคำหรือวลีที่ถูกต้องตามหลักไวยากรณ์เติมในช่องว่าง",
+          "items": [
+            {
+              "id": "KP-S7-006",
+              "stem": "New staff will soon get used to ____ the online filing system.",
+              "options": [
+                "use",
+                "be used",
+                "have used",
+                "using"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "get used to (คุ้นเคยกับ) — to ในที่นี้เป็นบุพบท จึงตามด้วยคำนามหรือ V-ing \"using\" ไม่ใช่กริยาช่อง 1 แบบ used to do (เคยทำในอดีต)"
+            },
+            {
+              "id": "KP-S7-007",
+              "stem": "____ by heavy rain for three days, the district office was forced to close.",
+              "options": [
+                "Flooding",
+                "It was flooded",
+                "Having flooded",
+                "Having been flooded"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "สำนักงานเป็นผู้ถูกน้ำท่วม จึงต้องใช้ participle แบบ passive และเกิดก่อน \"Having been flooded\" ส่วน \"It was flooded\" ทำให้เกิดสองประโยคเชื่อมด้วย comma ซึ่งผิด"
+            },
+            {
+              "id": "KP-S7-008",
+              "stem": "The officer suggested ____ copies of all our documents before the interview.",
+              "options": [
+                "making",
+                "make",
+                "to making",
+                "to make"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "กริยา suggest ตามด้วย gerund (V-ing) จึงใช้ \"suggested making\" ไม่ใช้ suggest to do"
+            },
+            {
+              "id": "KP-S7-009",
+              "stem": "Applications will not be processed ____ all the required documents have been attached.",
+              "options": [
+                "if",
+                "unless",
+                "whether",
+                "despite"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "unless = ถ้าไม่ ใจความคือจะไม่ดำเนินการถ้าไม่แนบเอกสารครบ ส่วน if ทำให้ความหมายกลับกัน และ despite ต้องตามด้วยคำนาม"
+            },
+            {
+              "id": "KP-S7-010",
+              "stem": "It is high time the agency ____ its spending records available to the public.",
+              "options": [
+                "made",
+                "has made",
+                "makes",
+                "will make"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง It is high time + ประธาน + กริยาช่อง 2 ใช้บอกว่าควรทำได้แล้ว จึงใช้ \"made\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "groups": [
+        {
+          "id": "KP-S7-G07",
+          "type": "kp_vocab",
+          "instructionTh": "เลือกคำที่มีความหมายเหมาะสมที่สุด",
+          "items": [
+            {
+              "id": "KP-S7-011",
+              "stem": "Each division must ____ its budget request, showing the cost of every planned purchase.",
+              "options": [
+                "improvise",
+                "immunise",
+                "itemise",
+                "idealise"
+              ],
+              "answer": 2,
+              "skill": "vocabulary",
+              "explanationTh": "itemise = แจกแจงเป็นรายการ เข้ากับ \"showing the cost of every planned purchase\" ส่วน idealise = มองในแง่อุดมคติ, immunise = สร้างภูมิคุ้มกัน, improvise = ทำแบบด้นสด"
+            },
+            {
+              "id": "KP-S7-012",
+              "stem": "'The new scheme aims to alleviate hardship among flood-hit families.' The word 'alleviate' is closest in meaning to ____.",
+              "options": [
+                "record",
+                "ease",
+                "investigate",
+                "increase"
+              ],
+              "answer": 1,
+              "skill": "vocabulary",
+              "explanationTh": "alleviate = บรรเทา ใกล้เคียงกับ ease โครงการช่วยเหลือผู้ประสบอุทกภัยย่อมมุ่งบรรเทาความเดือดร้อน ไม่ใช่เพิ่ม (increase)"
+            },
+            {
+              "id": "KP-S7-013",
+              "stem": "The contractor will be paid in two ____: half on signing and half on completion.",
+              "options": [
+                "inspections",
+                "installations",
+                "instructions",
+                "instalments"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "instalments = งวดการชำระเงิน ประโยคบอกว่าจ่ายครึ่งหนึ่งตอนเซ็นสัญญาและอีกครึ่งเมื่อเสร็จงาน ส่วน installations = การติดตั้ง สะกดคล้ายแต่ความหมายต่าง"
+            },
+            {
+              "id": "KP-S7-014",
+              "stem": "The audit revealed several ____ in the way the contracts had been awarded.",
+              "options": [
+                "irregularities",
+                "initiatives",
+                "inquiries",
+                "incentives"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "irregularities = ความผิดปกติ/ความไม่ถูกต้อง ซึ่งเป็นสิ่งที่การตรวจสอบบัญชี (audit) ค้นพบ ส่วน incentives = สิ่งจูงใจ, initiatives = ความริเริ่ม"
+            },
+            {
+              "id": "KP-S7-015",
+              "stem": "The department will ____ the old paper forms by the end of the year and accept online applications only.",
+              "options": [
+                "carry on",
+                "turn up",
+                "phase in",
+                "phase out"
+              ],
+              "answer": 3,
+              "skill": "vocabulary",
+              "explanationTh": "phase out = ค่อย ๆ ยกเลิก เข้ากับ \"accept online applications only\" ส่วน phase in = ค่อย ๆ นำเข้ามาใช้ ซึ่งความหมายตรงข้าม"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "KP-S7-G08",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Digital Citizen ID rollout notice",
+          "text": "DEPARTMENT OF CIVIL REGISTRATION, PHU SAI PROVINCE\nRollout of the Digital Citizen ID (D-ID)\nResidents of Phu Sai Province will soon be able to carry a digital version of their national ID card on their smartphones through the official D-ID application. The rollout will take place in three phases. Residents of Mueang Phu Sai District may activate the D-ID from 3 February; those in Na Klang and Wang Hin Districts from 1 April; and residents of all remaining districts from 1 June.\nActivation requires a smartphone with an up-to-date operating system, a mobile number registered in the resident's own name, and a valid physical ID card. During activation, users record a short video of their face, which is compared with the photograph held in the civil registration database. Residents whose card photograph is more than eight years old are advised to have a new photograph taken at their district office first, as older images frequently cause the facial check to fail.\nThe D-ID may be shown at all provincial government offices, public hospitals and state banks in place of the physical card. However, it is not yet accepted at airports or by private companies; these will be added at a later stage.\nThe physical card remains valid and must still be renewed when it expires. Residents who do not own a smartphone are under no obligation to use the D-ID, and every service will remain available to holders of the physical card alone.\nEnquiries: D-ID Help Line, 8:00 a.m.–6:00 p.m. daily",
+          "items": [
+            {
+              "id": "KP-S7-016",
+              "stem": "What is the main purpose of this notice?",
+              "options": [
+                "To explain how and when a digital ID card will be introduced",
+                "To warn residents that the physical ID card will be cancelled",
+                "To persuade residents to replace their old smartphones",
+                "To announce new opening hours for district offices"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ประกาศอธิบายขั้นตอนการเปิดใช้และกำหนดการทยอยเปิดใช้ D-ID เป็นระยะ ๆ ส่วนบัตรแบบเดิมยังใช้ได้ (\"The physical card remains valid\") จึงไม่ได้ยกเลิก"
+            },
+            {
+              "id": "KP-S7-017",
+              "stem": "A resident of Wang Hin District wants to activate the D-ID as early as possible. When can she first do so?",
+              "options": [
+                "1 June",
+                "1 April",
+                "3 February",
+                "When her physical card expires"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่า \"those in Na Klang and Wang Hin Districts from 1 April\" ส่วน 3 กุมภาพันธ์เป็นของอำเภอเมืองภูทรายเท่านั้น"
+            },
+            {
+              "id": "KP-S7-018",
+              "stem": "Why are some residents advised to visit their district office before activating the D-ID?",
+              "options": [
+                "Their card photograph may no longer match their face well.",
+                "Their mobile number has to be registered there.",
+                "They have to collect an activation password in person.",
+                "Their smartphone has to be checked by an officer."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "ผู้ที่รูปในบัตรเก่าเกิน 8 ปีควรถ่ายรูปใหม่ก่อน เพราะ \"older images frequently cause the facial check to fail\" แสดงว่ารูปเก่าอาจไม่ตรงกับใบหน้าปัจจุบัน"
+            },
+            {
+              "id": "KP-S7-019",
+              "stem": "According to the notice, the D-ID can currently be used ____.",
+              "options": [
+                "to check in for a domestic flight",
+                "instead of renewing an expired physical card",
+                "at a public hospital in the province",
+                "to open an account with a private company"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 3 ระบุว่าใช้แทนบัตรได้ที่ \"public hospitals\" แต่ยังใช้ที่สนามบินและบริษัทเอกชนไม่ได้ และบัตรจริงยังต้องต่ออายุเมื่อหมดอายุ"
+            },
+            {
+              "id": "KP-S7-020",
+              "stem": "The phrase 'under no obligation' in the last paragraph is closest in meaning to ____.",
+              "options": [
+                "not permitted",
+                "not required",
+                "not encouraged",
+                "not informed"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "under no obligation = ไม่มีข้อบังคับ/ไม่จำเป็นต้อง ผู้ไม่มีสมาร์ตโฟนไม่ต้องใช้ D-ID และยังใช้บริการด้วยบัตรเดิมได้ ไม่ได้แปลว่า \"ห้ามใช้\" (not permitted)"
+            }
+          ]
+        },
+        {
+          "id": "KP-S7-G09",
+          "type": "kp_reading",
+          "instructionTh": "อ่านข้อความ แล้วตอบคำถาม",
+          "title": "Procurement transparency",
+          "text": "Open Contracts, Fewer Doubts\nWhen Nong Rua Municipality began publishing every contract worth more than 100,000 baht on its website four years ago, many officials expected little more than extra paperwork. Each entry lists what was purchased, the companies that submitted bids, the prices they offered and the reason the winning bid was chosen.\nThe results have surprised even the scheme's supporters. Within two years, the average number of bids per contract rose from two to five, as small local firms that had previously assumed the outcome was decided in advance began to compete. Greater competition in turn pushed prices down: the municipality estimates that it now pays around 12 percent less for road repairs and office equipment.\nOpenness has also changed behaviour inside the municipality. Because residents and journalists can now compare prices across contracts, officers say they prepare their cost estimates more carefully, knowing that any unusually high figure is likely to be questioned.\nNot everyone is convinced, however. Some suppliers complain that publishing their prices allows competitors to undercut them, while a few officers argue that the hours spent uploading documents would be better spent on other duties. The municipality has responded by publishing total prices only, rather than detailed breakdowns, and by training two staff members to handle all uploads.\nSupporters believe the scheme's greatest achievement cannot be measured in baht. As one resident put it, \"I may never read a contract, but knowing that I could makes me trust the people who sign them.\"",
+          "items": [
+            {
+              "id": "KP-S7-021",
+              "stem": "What is the article mainly about?",
+              "options": [
+                "Why small firms rarely win government contracts",
+                "How residents can register as municipal suppliers",
+                "The rising cost of road repairs in a municipality",
+                "The effects of making a town's contracts public"
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "บทความกล่าวถึงผลของการเปิดเผยสัญญาจัดซื้อจัดจ้างทางเว็บไซต์ ทั้งผลดี (ผู้เสนอราคามากขึ้น ราคาลดลง) และข้อโต้แย้ง ส่วนค่าซ่อมถนนกลับลดลง ไม่ได้เพิ่มขึ้น"
+            },
+            {
+              "id": "KP-S7-022",
+              "stem": "According to the article, why did the number of bids per contract increase?",
+              "options": [
+                "The municipality reduced the value of its contracts.",
+                "Officers personally invited local firms to compete.",
+                "Small firms began to believe they had a fair chance.",
+                "Large companies were no longer allowed to bid."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "บริษัทเล็กที่เคย \"assumed the outcome was decided in advance\" (คิดว่าผลถูกกำหนดไว้แล้ว) เริ่มเข้ามาแข่งขัน แสดงว่าเชื่อว่าตนมีโอกาสชนะอย่างเป็นธรรม"
+            },
+            {
+              "id": "KP-S7-023",
+              "stem": "In paragraph 3, the word 'they' in 'they prepare their cost estimates' refers to ____.",
+              "options": [
+                "competing suppliers",
+                "residents and journalists",
+                "the published contracts",
+                "municipal officers"
+              ],
+              "answer": 3,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"officers say they prepare their cost estimates more carefully\" they จึงหมายถึงเจ้าหน้าที่ (officers) ผู้จัดทำราคากลาง ไม่ใช่ประชาชนหรือนักข่าวที่เป็นผู้ตรวจสอบ"
+            },
+            {
+              "id": "KP-S7-024",
+              "stem": "How did the municipality respond to the criticism of the scheme?",
+              "options": [
+                "It asked journalists to help upload the documents.",
+                "It allowed suppliers to keep their names private.",
+                "It reduced the amount of price detail it publishes.",
+                "It stopped publishing contracts under 100,000 baht."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ย่อหน้าที่ 4 ระบุว่าเทศบาลเผยแพร่เฉพาะ \"total prices only, rather than detailed breakdowns\" คือลดรายละเอียดราคาลง และฝึกเจ้าหน้าที่ 2 คนให้ดูแลการอัปโหลด"
+            },
+            {
+              "id": "KP-S7-025",
+              "stem": "What does the resident's comment in the last paragraph suggest?",
+              "options": [
+                "Residents would like to sign contracts themselves.",
+                "The contracts are too difficult for residents.",
+                "Most residents read the contracts regularly.",
+                "Access to information can build public trust."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้อยู่อาศัยบอกว่าแม้จะไม่เคยอ่านสัญญา แต่การรู้ว่า \"อ่านได้\" ทำให้ไว้ใจผู้ลงนาม แสดงว่าการเข้าถึงข้อมูลสร้างความเชื่อมั่น ส่วนตัวเลือกแรกขัดกับ \"I may never read a contract\""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 2,
+    "agree": 25,
+    "keyMatch": 25,
+    "total": 25
+  }
+}

@@ -1,0 +1,1565 @@
+{
+  "exam": "alevel",
+  "setId": "AL-S7",
+  "title": "A-Level ชุดฝึกที่ 7",
+  "version": 1,
+  "original": true,
+  "level": 2,
+  "review": {
+    "passed": true,
+    "method": "validator + independent blind-solve (AI reviewer ไม่เห็นเฉลย) — ยังไม่ได้ตรวจโดยครูผู้สอน",
+    "date": "2026-11-26",
+    "rounds": 3,
+    "agree": 79,
+    "keyMatch": 80,
+    "total": 80,
+    "note": "ข้อ 071 ปรับบริบทหลังรอบสุดท้าย (เฉลยเดิม)"
+  },
+  "sections": [
+    {
+      "id": "listening_speaking",
+      "groups": [
+        {
+          "id": "AL-S7-G01",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "First morning at an internship",
+          "dialogue": [
+            {
+              "speaker": "Ms Pranee",
+              "text": "Morning, Tawan. Welcome to Lumen Fold Studio. Did you manage to find us all right?"
+            },
+            {
+              "speaker": "Tawan",
+              "text": "Yes, thanks, although I got off at the wrong bus stop and had to walk the last bit. ___1___"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "Not at all. We said nine, and it's only five to. Before anything else, though, could you sign this confidentiality form? Some of our clients' packaging hasn't been released yet."
+            },
+            {
+              "speaker": "Tawan",
+              "text": "Of course. ___2___"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "Not until the products are actually on the shelves, no. After that, you're welcome to include anything you've contributed to."
+            },
+            {
+              "speaker": "Tawan",
+              "text": "That's fair. So what will I be doing this week?"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "Mostly shadowing me. ___3___ You'll learn more from sitting in on one client meeting than from any textbook."
+            },
+            {
+              "speaker": "Tawan",
+              "text": "No, that sounds really useful. Is there anything I should prepare for tomorrow's meeting?"
+            },
+            {
+              "speaker": "Ms Pranee",
+              "text": "___4___ Just bring a notebook and save your questions for afterwards. This client can be a little sensitive about outsiders."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S7-001",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Did you get the email I sent last night?",
+                "I hope I haven't kept you waiting.",
+                "Would it be all right if I left early today?",
+                "Could you tell me which stop I should use?"
+              ],
+              "answer": 1,
+              "skill": "social_response",
+              "explanationTh": "Ms Pranee ตอบว่า \"Not at all. We said nine, and it's only five to.\" คือยืนยันว่า Tawan ไม่ได้มาสายและไม่ได้ทำให้ใครรอ ตัวลวงเรื่องป้ายรถเมล์หรืออีเมลไม่เข้ากับคำตอบเรื่องเวลา และการขอกลับก่อนไม่สอดคล้องกับ \"Not at all\" ที่ตามด้วยการบอกเวลานัด"
+            },
+            {
+              "id": "AL-S7-002",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Does that mean I can't show this work in my portfolio?",
+                "Is it all right if I post photos of the studio online?",
+                "Should I hand it in to the HR office by Friday?",
+                "Will I be designing packaging for these clients myself?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"Not until the products are actually on the shelves, no. After that, you're welcome to include anything you've contributed to.\" บอกว่าใส่ผลงานได้หลังสินค้าวางขาย จึงต้องเป็นคำถามเรื่องการนำงานไปใส่พอร์ตโฟลิโอ ตัวลวงเรื่องโพสต์รูปสตูดิโอดูใกล้เคียงแต่คำว่า include anything you've contributed to หมายถึงผลงาน ไม่ใช่รูปสถานที่"
+            },
+            {
+              "id": "AL-S7-003",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "I'm afraid I won't be in the studio at all this week.",
+                "I know that doesn't sound very exciting, but bear with me.",
+                "Most interns skip this part, so feel free to do the same.",
+                "You'll be running your own client project from day one."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Tawan ตอบว่า \"No, that sounds really useful.\" ซึ่งเป็นการปฏิเสธความคิดที่ว่างานนี้น่าเบื่อ ผู้พูดจึงต้องออกตัวว่าการติดตามดูงานอาจฟังไม่น่าตื่นเต้น ตัวลวงอื่นขัดกับ \"Mostly shadowing me\" ทั้งการคุมโปรเจกต์เอง การไม่อยู่สตูดิโอ และการข้ามขั้นตอนนี้"
+            },
+            {
+              "id": "AL-S7-004",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Make sure you ask the client plenty of questions.",
+                "Nothing beyond what you'd normally bring.",
+                "Yes, I'd like you to present our first draft.",
+                "You'd better prepare a short talk about yourself."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมา \"Just bring a notebook and save your questions for afterwards\" แสดงว่าไม่ต้องเตรียมอะไรพิเศษ ตัวลวงให้นำเสนองาน เตรียมแนะนำตัว หรือถามลูกค้าเยอะ ๆ ขัดกับคำว่า Just และการเก็บคำถามไว้ถามทีหลัง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G02",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "A problem the night before a deadline",
+          "dialogue": [
+            {
+              "speaker": "Fern",
+              "text": "Sorry to message so late, but I've just spotted something in our survey data. ___1___"
+            },
+            {
+              "speaker": "Oat",
+              "text": "Seriously? That would explain why our totals looked suspiciously high. How many are affected?"
+            },
+            {
+              "speaker": "Fern",
+              "text": "Around forty. If we take them out, our main finding doesn't really hold up any more."
+            },
+            {
+              "speaker": "Kaew",
+              "text": "___2___ The report's due at nine tomorrow morning."
+            },
+            {
+              "speaker": "Oat",
+              "text": "True. So why don't we ask Mr Lerd for a couple of extra days and explain exactly what happened?"
+            },
+            {
+              "speaker": "Fern",
+              "text": "___3___ He did tell us that mistakes are fine as long as we're open about them."
+            },
+            {
+              "speaker": "Kaew",
+              "text": "All right. ___4___"
+            },
+            {
+              "speaker": "Fern",
+              "text": "Thanks, Kaew. I'll start cleaning up the data in the meantime."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S7-005",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "Lots of the Year 11 responses seem to have been entered twice.",
+                "A few of the Year 11 responses seem to be missing completely.",
+                "The Year 11 forms were collected after the survey closed.",
+                "The spreadsheet won't open on my laptop for some reason."
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Oat บอกว่าข้อมูลนี้อธิบายได้ว่าทำไมยอดรวมสูงผิดปกติ จึงต้องเป็นคำตอบที่ถูกกรอกซ้ำ ตัวลวง \"missing\" ทำให้ยอดรวมต่ำ ไม่ใช่สูง ส่วนไฟล์เปิดไม่ได้หรือเก็บแบบสอบถามหลังปิดรับไม่ได้ทำให้ยอดรวมสูงขึ้น"
+            },
+            {
+              "id": "AL-S7-006",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "We can't possibly redo the whole analysis tonight.",
+                "Luckily, we've got the whole weekend to fix it.",
+                "Then let's just leave the figures as they are.",
+                "I'm sure Mr Lerd won't notice the difference."
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "Kaew พูดต่อว่ารายงานต้องส่งเก้าโมงเช้า และ Oat ตอบ \"True.\" แล้วเสนอขอเลื่อนส่ง แสดงว่า Kaew ชี้ปัญหาว่าทำใหม่ไม่ทันคืนนี้ ตัวลวง \"leave the figures\" และ \"won't notice\" ไม่ใช่สิ่งที่ Oat จะตอบรับว่า True แล้วเสนอให้บอกครู และ \"the whole weekend\" ขัดกับกำหนดส่งพรุ่งนี้"
+            },
+            {
+              "id": "AL-S7-007",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "He'll never agree to that, so let's not bother.",
+                "I think he'd be more understanding than you might expect.",
+                "We asked him for more time last week as well.",
+                "I'd rather we kept the mistake to ourselves."
+              ],
+              "answer": 1,
+              "skill": "inference",
+              "explanationTh": "Fern ให้เหตุผลสนับสนุนว่า \"He did tell us that mistakes are fine as long as we're open about them.\" จึงต้องเป็นความเห็นว่าครูน่าจะเข้าใจ ตัวลวงที่บอกว่าครูไม่ยอมหรือให้ปิดเรื่องไว้ขัดกับเหตุผลนี้ และการเคยขอเลื่อนมาแล้วไม่ได้รับการสนับสนุนจากประโยคต่อมา"
+            },
+            {
+              "id": "AL-S7-008",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "You'd better start cleaning the data, then.",
+                "I'll write to him now and copy you both in.",
+                "Could you write to him, Fern? I'm exhausted.",
+                "Let's tell him after we've handed it in."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "Fern ตอบว่า \"Thanks, Kaew. I'll start cleaning up the data in the meantime.\" แสดงว่า Kaew อาสาทำบางอย่างให้ (เขียนอีเมลถึงครู) ระหว่างนั้น Fern จึงไปทำความสะอาดข้อมูล ตัวลวงที่ขอให้ Fern เขียนเองทำให้คำขอบคุณไม่สมเหตุผล และการสั่งให้ Fern ทำความสะอาดข้อมูลไม่เข้ากับ \"in the meantime\" และ \"Thanks\""
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G03",
+          "type": "short_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "End-of-internship feedback",
+          "dialogue": [
+            {
+              "speaker": "Ms Rattana",
+              "text": "So, Pete, your six weeks with us are almost over. Before I write your report, ___1___"
+            },
+            {
+              "speaker": "Pete",
+              "text": "Overall, really well. The customer data project taught me a lot, though I struggled to manage my time in the first couple of weeks."
+            },
+            {
+              "speaker": "Ms Rattana",
+              "text": "___2___ You took on far more than we asked of you, and some of it slipped."
+            },
+            {
+              "speaker": "Pete",
+              "text": "That's true. I found it hard to say no whenever someone asked for help."
+            },
+            {
+              "speaker": "Ms Rattana",
+              "text": "It's a very common problem. Next time, ___3___ That way, people can see you're not simply refusing."
+            },
+            {
+              "speaker": "Pete",
+              "text": "That's really helpful advice. ___4___"
+            },
+            {
+              "speaker": "Ms Rattana",
+              "text": "I'd be happy to. Just send me a reminder nearer the time, as I'll probably need one!"
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S7-009",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "could you tell me where you're applying to study?",
+                "have you finished the customer data project yet?",
+                "I'd like to hear how you think it went.",
+                "would you mind signing the attendance sheet?"
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "Pete ตอบว่า \"Overall, really well.\" แล้วประเมินตัวเองทั้งข้อดีและข้อที่ต้องปรับ จึงต้องเป็นคำขอให้เล่าว่าการฝึกงานเป็นอย่างไร ตัวลวงถามว่าทำโปรเจกต์เสร็จหรือยังเป็นคำถาม yes/no ที่ \"really well\" ไม่ได้ตอบ ส่วนเรื่องที่เรียนต่อและการเซ็นชื่อไม่สอดคล้องกับคำตอบ"
+            },
+            {
+              "id": "AL-S7-010",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Time management isn't something interns need.",
+                "I hadn't noticed any problems with that at all.",
+                "That's why we've decided not to write a report.",
+                "I'd put that down to enthusiasm rather than carelessness."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ประโยคถัดมา \"You took on far more than we asked of you\" อธิบายว่าปัญหาเกิดจากความกระตือรือร้นรับงานมากเกินไป จึงต้องเป็น \"put that down to enthusiasm\" (มองว่าเกิดจากความกระตือรือร้น) ตัวลวง \"hadn't noticed any problems\" ขัดกับ \"some of it slipped\" และอีกสองตัวเลือกขัดกับบริบทที่กำลังจะเขียนรายงานและให้คำแนะนำ"
+            },
+            {
+              "id": "AL-S7-011",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "just agree to everything and stay a bit later.",
+                "ask your manager to say no on your behalf.",
+                "turn people down straight away without a reason.",
+                "try explaining what you're already working on before you decline."
+              ],
+              "answer": 3,
+              "skill": "functional_language",
+              "explanationTh": "\"That way, people can see you're not simply refusing\" แสดงว่าคำแนะนำคือให้อธิบายเหตุผล (งานที่ทำอยู่) ก่อนปฏิเสธ ตัวลวง \"without a reason\" ตรงข้ามกับใจความ การรับทุกงานขัดกับปัญหาที่เพิ่งพูด และการให้หัวหน้าปฏิเสธแทนไม่ได้ทำให้ผู้อื่นเห็นว่าเขาไม่ได้แค่ปฏิเสธเฉย ๆ"
+            },
+            {
+              "id": "AL-S7-012",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Would you act as a referee when I apply to university?",
+                "Will the report be sent to my school automatically?",
+                "Would you mind if I left a little early on Friday?",
+                "Could I possibly have a copy of the report today?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Ms Rattana ตอบว่า \"I'd be happy to. Just send me a reminder nearer the time\" แสดงว่าเป็นคำขอให้ช่วยในอนาคต จึงเป็นการขอให้เป็นผู้รับรอง (referee) ตอนสมัครมหาวิทยาลัย ตัวลวง \"today\" ขัดกับ \"nearer the time\" ส่วน \"Would you mind\" ตอบด้วย \"I'd be happy to\" ไม่ได้ และคำถามว่าส่งอัตโนมัติไหมไม่ใช่คำขอที่ต้องตอบว่ายินดี"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G04",
+          "type": "long_conv",
+          "instructionTh": "อ่านบทสนทนา แล้วเลือกคำตอบที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Checking sources for a group project",
+          "dialogue": [
+            {
+              "speaker": "Ms Orawan",
+              "text": "Come in, both of you. Your teacher mentioned you needed some help with the sources for your project on Khlong Saen Rak?"
+            },
+            {
+              "speaker": "Beam",
+              "text": "Yes, please. ___1___ but we're not sure which of it we can actually trust."
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Well, that's a good problem to have. Let's see what you've got."
+            },
+            {
+              "speaker": "Mai",
+              "text": "This blog says the canal was dug in 1840, but the district office website says 1868. ___2___"
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Neither, until you've checked them. Start by looking at where each writer got their information. Does either of them cite anything?"
+            },
+            {
+              "speaker": "Beam",
+              "text": "The district website mentions a book of land records. The blog doesn't give any sources at all."
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "___3___ A date with nothing to back it up is only a claim."
+            },
+            {
+              "speaker": "Mai",
+              "text": "But the blogger says his grandfather helped to dig it. Doesn't that count for something?"
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Family memories can be valuable, ___4___ If his grandfather had worked on the canal in 1840, he'd have been well over a hundred when the blogger was born."
+            },
+            {
+              "speaker": "Beam",
+              "text": "Oh, I hadn't thought of that. So should we just ignore the blog completely?"
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Not necessarily. ___5___ It shows how local people remember the canal, even if the date itself is wrong."
+            },
+            {
+              "speaker": "Mai",
+              "text": "That's a nice idea. ___6___ We found it on a social media page called 'Old Saen Rak'."
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "It's a lovely picture, but does the page say who took it, or when?"
+            },
+            {
+              "speaker": "Beam",
+              "text": "No. The caption just says 'the good old days'."
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Then it's hard to use it as evidence of anything specific. ___7___ The city archive has hundreds of dated photographs, and most of them can be used in school projects free of charge."
+            },
+            {
+              "speaker": "Mai",
+              "text": "Free? ___8___"
+            },
+            {
+              "speaker": "Ms Orawan",
+              "text": "Of course not. Pull up a chair and I'll show you how the online catalogue works."
+            },
+            {
+              "speaker": "Beam",
+              "text": "Thank you so much. This is going to make our project far more convincing."
+            }
+          ],
+          "items": [
+            {
+              "id": "AL-S7-013",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "We've decided to leave the sources section until last,",
+                "Our teacher has already checked every source for us,",
+                "We've only managed to find a couple of short articles,",
+                "We've got more material than we know what to do with,"
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "Ms Orawan ตอบว่า \"that's a good problem to have\" ซึ่งใช้กับปัญหาที่เกิดจากการมีมากเกินไป และ Beam พูดต่อว่า \"which of it\" แสดงว่ามีข้อมูลจำนวนมาก ตัวลวงที่มีบทความน้อยไม่ใช่ \"ปัญหาที่ดี\" ส่วนการที่ครูตรวจให้แล้วขัดกับการไม่แน่ใจว่าเชื่อถือได้ไหม"
+            },
+            {
+              "id": "AL-S7-014",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Could we simply take the average of the two dates?",
+                "Which of the two should we go with?",
+                "Why would a district office publish the wrong date?",
+                "Should we just use the blog, as it's more detailed?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "คำตอบ \"Neither, until you've checked them.\" ใช้ตอบคำถามที่ให้เลือกระหว่างสองสิ่ง จึงต้องเป็น \"Which of the two...\" ตัวลวงที่เป็นคำถาม yes/no หรือคำถาม Why ไม่สามารถตอบด้วย Neither ได้"
+            },
+            {
+              "id": "AL-S7-015",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "In that case, it doesn't matter which one you use.",
+                "Then the blog is probably the more reliable of the two.",
+                "Then you should cite the blog rather than the website.",
+                "Then I'd treat the blog with a good deal of caution."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ประโยคถัดมา \"A date with nothing to back it up is only a claim.\" แสดงว่าบล็อกที่ไม่มีแหล่งอ้างอิงควรระวัง ตัวลวงทั้งสามขัดกับเหตุผลนี้ เพราะยกให้บล็อกน่าเชื่อถือกว่า หรือบอกว่าใช้อันไหนก็ได้"
+            },
+            {
+              "id": "AL-S7-016",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "and this one fits perfectly with the land records.",
+                "so it's safer to trust them over written records.",
+                "but the numbers here don't quite add up.",
+                "which is why I'd use the blog as your main source."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Ms Orawan คำนวณให้เห็นว่าถ้าปู่ขุดคลองปี 1840 ปู่จะอายุเกินร้อยปีตอนผู้เขียนบล็อกเกิด แปลว่าตัวเลขไม่สมเหตุสมผล จึงต้องเป็น \"don't quite add up\" ตัวลวงอื่นสนับสนุนบล็อก ซึ่งขัดกับการคำนวณนี้"
+            },
+            {
+              "id": "AL-S7-017",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "You should delete it from your notes right away.",
+                "You'd better ask the blogger to correct it first.",
+                "You could still mention it as an example of local memory.",
+                "You could use its date if you add a footnote."
+              ],
+              "answer": 2,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมา \"It shows how local people remember the canal, even if the date itself is wrong\" บอกคุณค่าของบล็อกในฐานะความทรงจำของคนท้องถิ่น ตัวลวงเรื่องใช้วันที่ของบล็อกพร้อมเชิงอรรถขัดกับ \"the date itself is wrong\" และการลบทิ้งขัดกับ \"Not necessarily\""
+            },
+            {
+              "id": "AL-S7-018",
+              "blank": 6,
+              "stem": "",
+              "options": [
+                "What about this photo of boats on the canal?",
+                "Do we really need to include any photos at all?",
+                "Is it all right to copy text from social media?",
+                "Can we use photos that we've taken ourselves?"
+              ],
+              "answer": 0,
+              "skill": "functional_language",
+              "explanationTh": "Mai พูดต่อว่า \"We found it on a social media page\" และ Ms Orawan ตอบว่า \"It's a lovely picture\" คำถามจึงต้องพูดถึงภาพหนึ่งภาพที่พบออนไลน์ ตัวลวงเรื่องภาพที่ถ่ายเองขัดกับการพบบนโซเชียลมีเดีย และเรื่องการคัดลอกข้อความไม่ใช่ picture"
+            },
+            {
+              "id": "AL-S7-019",
+              "blank": 7,
+              "stem": "",
+              "options": [
+                "You'd better pay the page owner to use it instead.",
+                "You might have more luck elsewhere.",
+                "I'm afraid there are no other photos of the canal.",
+                "You could use it as your cover without a credit."
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "ประโยคต่อมาแนะนำหอจดหมายเหตุของเมืองที่มีภาพระบุวันที่หลายร้อยภาพ จึงเป็นการบอกให้ไปหาแหล่งอื่น ตัวลวง \"no other photos\" ขัดกับข้อมูลนี้ และการใช้ภาพโดยไม่ให้เครดิตหรือจ่ายเงินเจ้าของเพจไม่ได้นำไปสู่การแนะนำหอจดหมายเหตุ"
+            },
+            {
+              "id": "AL-S7-020",
+              "blank": 8,
+              "stem": "",
+              "options": [
+                "Then why did you say it was hard to use them?",
+                "Would you mind showing us how to find them?",
+                "Do you happen to know when the archive opens?",
+                "So we can't use them in our final report, then?"
+              ],
+              "answer": 1,
+              "skill": "functional_language",
+              "explanationTh": "\"Of course not. Pull up a chair and I'll show you...\" เป็นคำตอบรับแบบสุภาพของคำขอ \"Would you mind...?\" (ไม่รังเกียจ) แล้วสาธิตวิธีค้นให้ ตัวลวงเรื่องใช้ภาพไม่ได้ขัดกับ \"free of charge\" ส่วนคำถามเรื่องเวลาเปิดตอบด้วย \"Of course not\" ไม่ได้"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "groups": [
+        {
+          "id": "AL-S7-G05",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "The Loom Desk",
+          "text": "THE LOOM DESK — Co-working on Charoen Wiang Road\nQuiet focus downstairs. Friendly buzz upstairs.\n\nWhether you're a freelancer, a start-up team or a student with a thesis to finish, The Loom Desk gives you a professional place to work without the cost of renting an office.\n\nPlans (prices per month)\n• Hot Desk — 1,900 baht: any free seat on the upper floor, 8:00–20:00\n• Quiet Desk — 2,600 baht: your own fixed seat in the silent zone downstairs, open 24 hours\n• Team Room — 9,500 baht: a lockable room for up to four people, open 24 hours\n\nEvery plan includes high-speed Wi-Fi, unlimited coffee and tea, and six hours of meeting-room time per month. Additional meeting-room hours cost 150 baht each (student discounts do not apply to these).\n\nStudents with a valid university ID get 30% off the Hot Desk plan; the discounted plan can be used on weekdays only.\n\nNot ready to commit? Book a free trial day online — no credit card required.\nPlease note: phone calls are not permitted in the silent zone. Call booths are available on both floors.",
+          "items": [
+            {
+              "id": "AL-S7-021",
+              "stem": "Who would the Quiet Desk plan suit best?",
+              "options": [
+                "A freelancer who takes client calls at her desk",
+                "A student looking for the cheapest weekday seat",
+                "A writer who likes to work alone late at night",
+                "A team of four that needs a room it can lock"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Quiet Desk เป็นที่นั่งประจำในโซนเงียบและเปิด 24 ชั่วโมง จึงเหมาะกับนักเขียนที่ทำงานคนเดียวตอนดึก ตัวลวงเรื่องคุยโทรศัพท์ที่โต๊ะขัดกับ \"phone calls are not permitted in the silent zone\" ทีมสี่คนเหมาะกับ Team Room และนักศึกษาที่อยากได้ราคาถูกสุดควรใช้ Hot Desk ที่มีส่วนลด"
+            },
+            {
+              "id": "AL-S7-022",
+              "stem": "A university student takes the discounted Hot Desk plan and uses eight hours of meeting-room time in one month. How much does she pay?",
+              "options": [
+                "1,330 baht",
+                "2,200 baht",
+                "1,630 baht",
+                "2,530 baht"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "Hot Desk ลด 30% เหลือ 1,900 × 0.7 = 1,330 บาท ใช้ห้องประชุม 8 ชั่วโมง แต่รวมในแพ็กเกจแล้ว 6 ชั่วโมง จึงจ่ายเพิ่ม 2 × 150 = 300 บาท รวม 1,630 บาท กับดักคือ 1,330 (ลืมชั่วโมงเกิน) 2,200 (ลืมส่วนลด) และ 2,530 (คิดค่าห้องทั้ง 8 ชั่วโมง)"
+            },
+            {
+              "id": "AL-S7-023",
+              "stem": "Which statement is NOT supported by the advertisement?",
+              "options": [
+                "A trial day can be booked without giving card details.",
+                "Some meeting-room time is included in every plan.",
+                "Members on either floor have somewhere to make calls.",
+                "Hot Desk members can come in at any hour of the day or night."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "Hot Desk ใช้ได้เฉพาะ 8:00–20:00 มีเพียง Quiet Desk และ Team Room ที่เปิด 24 ชั่วโมง ข้ออื่นถูกต้องตามโฆษณา คือทดลองฟรีไม่ต้องใช้บัตรเครดิต ทุกแพ็กเกจมีห้องประชุม 6 ชั่วโมง และมีบูธโทรศัพท์ทั้งสองชั้น"
+            },
+            {
+              "id": "AL-S7-024",
+              "stem": "The word \"commit\" in \"Not ready to commit?\" is closest in meaning to",
+              "options": [
+                "promise to keep the silent zone quiet",
+                "pay for extra meeting-room hours",
+                "sign up for a longer arrangement",
+                "agree to work as part of a team"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"Not ready to commit?\" ตามด้วยการเสนอทดลองใช้ฟรีหนึ่งวัน จึงหมายถึงยังไม่พร้อมผูกมัดสมัครแพ็กเกจรายเดือน ตัวลวงอื่นใช้คำในโฆษณาแต่ไม่เกี่ยวกับการทดลองใช้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G06",
+          "type": "ad",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Bridge Scholarships 2027",
+          "text": "SAENG ARUN FOUNDATION\nBridge Scholarships 2027 — Call for Applications\n\nThe Saeng Arun Foundation invites applications from Grade 12 students who plan to study engineering, agriculture or public health at a Thai university from June 2027.\n\nEach scholarship covers full tuition for up to four years plus a monthly living allowance of 6,000 baht. Recipients must maintain a GPA of at least 2.75. Anyone who falls below this level for two consecutive semesters will lose the allowance, although tuition support will continue for one further semester while they receive academic coaching.\n\nEligibility\n• Current GPA of 3.00 or above\n• Household income below 30,000 baht per month\n• Not already holding another full scholarship\n\nHow to apply\nSubmit the online form, your transcript and a 500-word essay describing a problem in your home community by 15 January 2027. Shortlisted candidates will be interviewed in February. Late or incomplete applications will not be considered.\n\nIn return, recipients are asked to mentor two younger students from their former school during their second year of study.",
+          "items": [
+            {
+              "id": "AL-S7-025",
+              "stem": "Which applicant is eligible to apply?",
+              "options": [
+                "Nok: GPA 3.20, plans to study agriculture, family income 25,000 baht a month",
+                "Ton: GPA 2.90, plans to study public health, family income 20,000 baht a month",
+                "Fon: GPA 3.40, plans to study public health, already holds a full provincial scholarship",
+                "Ice: GPA 3.50, plans to study engineering, family income 32,000 baht a month"
+              ],
+              "answer": 0,
+              "skill": "inference",
+              "explanationTh": "Nok ผ่านทุกเงื่อนไข (GPA ≥ 3.00 รายได้ต่ำกว่า 30,000 สาขาที่กำหนด) กับดักคือ Ton ที่ GPA 2.90 ซึ่งสูงกว่า 2.75 (เกณฑ์รักษาทุน) แต่ต่ำกว่า 3.00 (เกณฑ์สมัคร) ส่วน Ice รายได้เกินเกณฑ์ และ Fon มีทุนเต็มจำนวนอยู่แล้ว"
+            },
+            {
+              "id": "AL-S7-026",
+              "stem": "What happens to a recipient whose GPA is 2.60 for two semesters in a row?",
+              "options": [
+                "Both tuition and allowance are withdrawn at once.",
+                "The allowance is reduced, but tuition continues.",
+                "They must pay back the allowance received so far.",
+                "The allowance stops, but tuition is still paid for a limited time."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่าถ้า GPA ต่ำกว่า 2.75 สองภาคเรียนติดกัน \"will lose the allowance, although tuition support will continue for one further semester\" คือเงินรายเดือนหยุดแต่ค่าเล่าเรียนยังจ่ายต่ออีกหนึ่งภาค ตัวลวงที่ตัดทันที ให้คืนเงิน หรือแค่ลดเงินรายเดือน ไม่ได้กล่าวไว้"
+            },
+            {
+              "id": "AL-S7-027",
+              "stem": "The word \"consecutive\" in the second paragraph is closest in meaning to",
+              "options": [
+                "final and most important",
+                "separate and unconnected",
+                "following one after the other",
+                "especially demanding"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"two consecutive semesters\" หมายถึงสองภาคเรียนติดต่อกัน ซึ่งตรงกับ \"in a row\" ในคำถามข้อก่อน ส่วน separate and unconnected มีความหมายตรงข้าม"
+            },
+            {
+              "id": "AL-S7-028",
+              "stem": "According to the notice, what are recipients expected to do in return?",
+              "options": [
+                "Volunteer every summer in their home province",
+                "Guide younger pupils from the school they used to attend",
+                "Write a 500-word essay about their community each year",
+                "Teach at their former school after they graduate"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "ประกาศระบุว่าผู้รับทุน \"mentor two younger students from their former school during their second year\" ตัวลวงเรียงความ 500 คำเป็นเงื่อนไขการสมัคร ไม่ใช่สิ่งที่ทำทุกปี และไม่มีการกล่าวถึงอาสาสมัครฤดูร้อนหรือการสอนหลังจบ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G07",
+          "type": "review",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Review: Hotel Tamarisk, Ban Pha Daeng",
+          "text": "I booked three nights at Hotel Tamarisk largely because of its photographs: whitewashed rooms, a rooftop terrace and a view across the rice fields to the hills. The view, I am pleased to report, is every bit as lovely in person. Almost everything else was a little less polished than the pictures had led me to expect.\n\nLet me start with the positives. The staff could hardly have been more welcoming. When my train arrived two hours late, the night manager not only waited up to check me in but had kept a bowl of noodle soup warm in the kitchen. Breakfast, served on the terrace, was another highlight, with fruit from the owners' own orchard and excellent coffee.\n\nThe rooms are another matter. Mine was clean and spacious, but the air conditioner rattled so loudly that I ended up switching it off and opening the window, only to be woken at five by a neighbouring farm's roosters. The \"high-speed\" Wi-Fi was anything but; after two failed attempts to join a video call, I gave up and worked from a café in town. When I mentioned these problems, the manager apologised and moved me to a quieter room, which I appreciated, although its shower took an age to run hot.\n\nAt 1,800 baht a night, the Tamarisk is not expensive for the area, and travellers who want peace, scenery and genuine hospitality will find plenty to like. Anyone who needs to work while travelling, however, should look elsewhere — or at least pack a pair of earplugs and some patience.\n\nRating: 3/5",
+          "items": [
+            {
+              "id": "AL-S7-029",
+              "stem": "Which best summarises the reviewer's opinion of the hotel?",
+              "options": [
+                "It is overpriced, given the number of problems the reviewer experienced.",
+                "It looks exactly like its photographs in almost every respect.",
+                "Its staff were friendly, but its view was a real disappointment.",
+                "Its setting and staff largely make up for its practical flaws, though it will not suit everyone."
+              ],
+              "answer": 3,
+              "skill": "main_idea",
+              "explanationTh": "ผู้เขียนชมวิวและพนักงาน แต่ติเรื่องแอร์ Wi-Fi และน้ำอุ่น สรุปว่าเหมาะกับคนที่ต้องการความสงบ แต่คนที่ต้องทำงานควรไปที่อื่น ตัวลวง overpriced ขัดกับ \"not expensive for the area\" และวิว \"every bit as lovely in person\" ส่วนอื่น ๆ \"less polished than the pictures\""
+            },
+            {
+              "id": "AL-S7-030",
+              "stem": "What did the night manager do for the reviewer?",
+              "options": [
+                "Lent her a pair of earplugs to block out the noise",
+                "Gave her a free upgrade to a room on the roof",
+                "Saved some food for her after her late arrival",
+                "Collected her from the station when her train was late"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "ผู้จัดการกะดึก \"waited up to check me in but had kept a bowl of noodle soup warm\" คือเก็บอาหารไว้ให้ ตัวลวงเรื่องรับที่สถานีและห้องบนดาดฟ้าไม่ได้กล่าวถึง ส่วน earplugs เป็นคำแนะนำของผู้เขียนในตอนท้าย"
+            },
+            {
+              "id": "AL-S7-031",
+              "stem": "What can be inferred from the reviewer's attempt to deal with the noisy air conditioner?",
+              "options": [
+                "She slept well until the Wi-Fi connection failed.",
+                "She was kept awake by guests on the terrace.",
+                "She changed rooms before she went to bed.",
+                "Her solution to one noise problem exposed her to another."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เธอปิดแอร์ที่เสียงดังแล้วเปิดหน้าต่าง \"only to be woken at five by a neighbouring farm's roosters\" การแก้ปัญหาเสียงหนึ่งจึงทำให้เจอเสียงอีกแบบ ตัวลวงเรื่องย้ายห้องเกิดขึ้นหลังจากเธอแจ้งปัญหา ไม่ใช่ก่อนนอนคืนแรก"
+            },
+            {
+              "id": "AL-S7-032",
+              "stem": "The phrase \"anything but\" in the third paragraph suggests that the Wi-Fi was",
+              "options": [
+                "provided free of charge",
+                "only available in some rooms",
+                "far from fast",
+                "faster than advertised"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"The 'high-speed' Wi-Fi was anything but\" หมายถึงไม่ได้เร็วเลย ซึ่งสอดคล้องกับที่เธอเข้าวิดีโอคอลไม่ได้สองครั้ง เครื่องหมายคำพูดรอบ high-speed ก็แสดงการประชด"
+            },
+            {
+              "id": "AL-S7-033",
+              "stem": "Which guest would the reviewer be most likely to recommend the hotel to?",
+              "options": [
+                "A businessperson who must join online meetings",
+                "A light sleeper who depends on air conditioning",
+                "A couple wanting a calm, scenic break with warm service",
+                "A backpacker looking for the cheapest bed in town"
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนบอกว่า \"travellers who want peace, scenery and genuine hospitality will find plenty to like\" ส่วนคนที่ต้องทำงานควรไปที่อื่น คนหลับยากที่พึ่งแอร์จะเจอแอร์เสียงดัง และโรงแรม \"not expensive for the area\" ไม่ได้แปลว่าถูกที่สุดในเมือง"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G08",
+          "type": "news",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Doi Kram to ration tap water as reservoir shrinks",
+          "text": "DOI KRAM — Residents of Doi Kram will receive tap water on a rotating schedule from 1 March, after the town's main reservoir fell to its lowest level in eleven years.\n\nUnder a plan announced by the municipal water authority on Tuesday, the town will be divided into three zones, each of which will receive water for sixteen hours a day. Hospitals, schools and the fire station will be exempt and will continue to have a constant supply. The authority expects the measure to cut daily consumption by about 18 percent, allowing the reservoir, now at 23 percent of its capacity, to last until the rains normally arrive in late May.\n\nAuthority director Supaporn Rakdee urged residents not to fill large containers just before their supply is switched off. \"If everyone stockpiles water at the same moment, pressure will drop across the whole network and the plan will fail,\" she warned.\n\nReaction has been mixed. Owners of small guesthouses in the old town fear that tourists will cancel their bookings, and the local business association has asked for hotels to be added to the exempt list. Farmers on the edge of town, on the other hand, say the plan does not go far enough. \"We were told to cut our irrigation by half last month. It's only fair that households share the burden,\" said rice grower Anan Kaewmanee.\n\nThe authority has also promised to repair leaking pipes, which it estimates lose nearly a quarter of all treated water before it reaches homes. Work in the central zone is due to begin next month.",
+          "items": [
+            {
+              "id": "AL-S7-034",
+              "stem": "What is the report mainly about?",
+              "options": [
+                "A plan to share a limited water supply and how people have reacted",
+                "A project to repair leaking pipes in the town's central zone",
+                "A dispute between farmers and officials over irrigation rights",
+                "The building of a new reservoir to replace an older one"
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "ข่าวรายงานแผนจ่ายน้ำแบบหมุนเวียนเพราะอ่างเก็บน้ำต่ำ และความเห็นของกลุ่มต่าง ๆ ทั้งเจ้าของเกสต์เฮาส์และเกษตรกร ส่วนการซ่อมท่อเป็นเพียงรายละเอียดตอนท้าย และไม่มีการสร้างอ่างเก็บน้ำใหม่"
+            },
+            {
+              "id": "AL-S7-035",
+              "stem": "Under the plan, which of the following will have water around the clock?",
+              "options": [
+                "Farms on the edge of town",
+                "Guesthouses in the old town",
+                "The fire station",
+                "Homes in the central zone"
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "\"Hospitals, schools and the fire station will be exempt and will continue to have a constant supply\" กับดักคือเกสต์เฮาส์ ซึ่งสมาคมธุรกิจเพียง \"ขอ\" ให้เพิ่มเข้ารายการยกเว้น ยังไม่ได้รับการยกเว้น"
+            },
+            {
+              "id": "AL-S7-036",
+              "stem": "Why does the director warn residents against filling large containers?",
+              "options": [
+                "Stored water quickly becomes unsafe to drink.",
+                "Residents who use too much water will be fined.",
+                "Sudden heavy demand could reduce pressure throughout the system.",
+                "The containers could block pipes when supply returns."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "เธอกล่าวว่า \"If everyone stockpiles water at the same moment, pressure will drop across the whole network\" คือการใช้น้ำพร้อมกันจำนวนมากทำให้แรงดันน้ำตกทั้งระบบ ตัวลวงอื่นไม่มีในข่าว"
+            },
+            {
+              "id": "AL-S7-037",
+              "stem": "What can be inferred about the farmers quoted in the report?",
+              "options": [
+                "They expect the rotation to reduce their irrigation further.",
+                "They believe the reservoir will last well beyond May.",
+                "They want hotels to be added to the list of exempt users.",
+                "They feel they have already sacrificed more than town residents."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "เกษตรกรถูกสั่งให้ลดน้ำชลประทานครึ่งหนึ่งแล้ว และบอกว่า \"It's only fair that households share the burden\" แสดงว่ารู้สึกว่าตนเสียสละมากกว่า ตัวลวงเรื่องโรงแรมเป็นข้อเรียกร้องของสมาคมธุรกิจ ไม่ใช่เกษตรกร"
+            },
+            {
+              "id": "AL-S7-038",
+              "stem": "The word \"stockpiles\" in the third paragraph is closest in meaning to",
+              "options": [
+                "reports a shortage of",
+                "sells at a higher price to",
+                "collects and stores large amounts of",
+                "wastes without thinking about"
+              ],
+              "answer": 2,
+              "skill": "vocab_in_context",
+              "explanationTh": "บริบทคือการเติมน้ำใส่ภาชนะใหญ่ก่อนน้ำถูกตัด \"stockpile\" จึงหมายถึงกักตุนไว้จำนวนมาก"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G09",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Household electricity in Nong Phai",
+          "text": "A housing cooperative in Nong Phai asked four member households to record their electricity use in April, the hottest month of the year. Net use is total use minus the electricity produced by the household's own solar panels. Members pay 4.2 baht for every kWh of net use.",
+          "table": {
+            "caption": "Electricity use in April by purpose (kWh), Nong Phai Housing Cooperative",
+            "columns": [
+              "Household",
+              "Cooling",
+              "Cooking & fridge",
+              "Water heating",
+              "Lighting & devices",
+              "Total use",
+              "Solar produced"
+            ],
+            "rows": [
+              [
+                "A (flat, 2 people)",
+                "180",
+                "60",
+                "20",
+                "40",
+                "300",
+                "0"
+              ],
+              [
+                "B (townhouse, 4 people)",
+                "260",
+                "90",
+                "45",
+                "85",
+                "480",
+                "120"
+              ],
+              [
+                "C (detached house, 5 people)",
+                "410",
+                "110",
+                "70",
+                "110",
+                "700",
+                "250"
+              ],
+              [
+                "D (flat, 3 people)",
+                "150",
+                "75",
+                "30",
+                "65",
+                "320",
+                "0"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S7-039",
+              "stem": "Which household used the most electricity for cooling per person?",
+              "options": [
+                "Household B",
+                "Household D",
+                "Household C",
+                "Household A"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "ต่อคน: A = 180 ÷ 2 = 90, B = 260 ÷ 4 = 65, C = 410 ÷ 5 = 82, D = 150 ÷ 3 = 50 กับดักคือ C ที่ใช้รวมมากที่สุด แต่เมื่อหารตามจำนวนคนแล้วน้อยกว่า A"
+            },
+            {
+              "id": "AL-S7-040",
+              "stem": "How much did Household B pay for electricity in April?",
+              "options": [
+                "504 baht",
+                "1,512 baht",
+                "2,016 baht",
+                "1,890 baht"
+              ],
+              "answer": 1,
+              "skill": "data_reading",
+              "explanationTh": "B ใช้ไฟรวม 480 kWh ผลิตเองจากโซลาร์ 120 kWh ใช้สุทธิ 360 kWh × 4.2 = 1,512 บาท กับดักคือ 2,016 (คิดจากยอดรวม 480) และ 504 (คิดจากโซลาร์)"
+            },
+            {
+              "id": "AL-S7-041",
+              "stem": "Which statement is supported by the table?",
+              "options": [
+                "Cooling made up more than half of every household's total use.",
+                "Household C paid more than twice as much as Household A.",
+                "Household B used more for lighting and devices than for cooking.",
+                "Household D used more electricity in total than Household A."
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "D ใช้รวม 320 kWh มากกว่า A ที่ 300 kWh ตัวลวง: D ใช้ทำความเย็น 150 จาก 320 ไม่ถึงครึ่ง, C จ่ายตามสุทธิ 450 kWh ซึ่งเป็น 1.5 เท่าของ A (300) ไม่ถึงสองเท่า, และ B ใช้แสงสว่าง 85 น้อยกว่าทำอาหาร 90"
+            },
+            {
+              "id": "AL-S7-042",
+              "stem": "Without its solar panels, how much more would Household C have paid in April?",
+              "options": [
+                "1,722 baht",
+                "2,940 baht",
+                "1,050 baht",
+                "1,890 baht"
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "แผงโซลาร์ของ C ผลิตไฟ 250 kWh ถ้าไม่มีต้องจ่ายเพิ่ม 250 × 4.2 = 1,050 บาท กับดักคือ 1,890 (ค่าไฟสุทธิ 450 kWh) และ 2,940 (ค่าไฟรวม 700 kWh) ซึ่งเป็นยอดทั้งหมด ไม่ใช่ส่วนที่เพิ่มขึ้น"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G10",
+          "type": "visual",
+          "instructionTh": "อ่านตารางและข้อความประกอบ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Summer internships by sector",
+          "text": "The careers office at Rattanaphum University surveyed 1,200 third-year students who completed summer internships in 2026. The table shows, for each sector, the number of interns, their average working hours and the percentage who answered \"yes\" to three questions.",
+          "table": {
+            "caption": "Summer internships 2026, Rattanaphum University",
+            "columns": [
+              "Sector",
+              "Interns",
+              "Average hours per week",
+              "Paid (%)",
+              "Would recommend (%)",
+              "Offered a job (%)"
+            ],
+            "rows": [
+              [
+                "Technology",
+                "320",
+                "38",
+                "85",
+                "72",
+                "18"
+              ],
+              [
+                "Hospitality",
+                "260",
+                "44",
+                "60",
+                "55",
+                "25"
+              ],
+              [
+                "Media & design",
+                "180",
+                "35",
+                "40",
+                "81",
+                "9"
+              ],
+              [
+                "Government",
+                "240",
+                "30",
+                "15",
+                "64",
+                "5"
+              ],
+              [
+                "Manufacturing",
+                "200",
+                "41",
+                "90",
+                "58",
+                "21"
+              ]
+            ]
+          },
+          "items": [
+            {
+              "id": "AL-S7-043",
+              "stem": "In which sector would the highest percentage of interns recommend their placement, even though fewer than half were paid?",
+              "options": [
+                "Media & design",
+                "Government",
+                "Technology",
+                "Hospitality"
+              ],
+              "answer": 0,
+              "skill": "data_reading",
+              "explanationTh": "ภาคที่ได้ค่าตอบแทนไม่ถึงครึ่งคือ Media & design (40%) และ Government (15%) ในสองภาคนี้ Media & design มีผู้แนะนำ 81% สูงกว่า Government (64%) ส่วน Technology ได้ค่าตอบแทน 85% จึงไม่เข้าเงื่อนไข"
+            },
+            {
+              "id": "AL-S7-044",
+              "stem": "Approximately how many hospitality interns were offered a job?",
+              "options": [
+                "52",
+                "80",
+                "25",
+                "65"
+              ],
+              "answer": 3,
+              "skill": "data_reading",
+              "explanationTh": "Hospitality มีนักศึกษา 260 คน ได้รับข้อเสนองาน 25% = 260 × 0.25 = 65 คน กับดักคือ 25 (ตัวเลขเปอร์เซ็นต์) และ 80 (ใช้จำนวนของ Technology 320 × 0.25)"
+            },
+            {
+              "id": "AL-S7-045",
+              "stem": "Which statement is NOT supported by the table?",
+              "options": [
+                "More technology interns than manufacturing interns were paid.",
+                "The sector with the longest working week also had the highest job-offer rate.",
+                "Manufacturing had both the highest share of paid interns and the highest recommendation rate.",
+                "Government interns worked the fewest hours per week on average."
+              ],
+              "answer": 2,
+              "skill": "data_reading",
+              "explanationTh": "Manufacturing ได้ค่าตอบแทนสูงสุด 90% แต่มีผู้แนะนำเพียง 58% ไม่ใช่สูงสุด (สูงสุดคือ Media & design 81%) ข้ออื่นถูกต้อง: Hospitality ทำงานนานสุด 44 ชม. และได้ข้อเสนองานสูงสุด 25%, Technology ได้ค่าตอบแทน 320 × 0.85 = 272 คน มากกว่า Manufacturing 200 × 0.9 = 180 คน แม้เปอร์เซ็นต์ต่ำกว่า"
+            },
+            {
+              "id": "AL-S7-046",
+              "stem": "Which conclusion is best supported by the data?",
+              "options": [
+                "Government placements were the least recommended of all.",
+                "Interns who worked longer hours were consistently more satisfied.",
+                "Being paid did not guarantee that interns would recommend their placement.",
+                "Most interns in every sector were offered a job afterwards."
+              ],
+              "answer": 2,
+              "skill": "inference",
+              "explanationTh": "Manufacturing ได้ค่าตอบแทน 90% แต่แนะนำเพียง 58% ขณะที่ Media & design ได้ค่าตอบแทน 40% แต่แนะนำ 81% แสดงว่าค่าตอบแทนไม่ได้รับประกันความพอใจ ตัวลวง: Hospitality ทำงานนานสุดแต่มีผู้แนะนำต่ำสุด (55%) จึงทั้งหักล้างข้อที่ว่าชั่วโมงมากแล้วพอใจกว่า และแสดงว่า Government (64%) ไม่ใช่ภาคที่ถูกแนะนำน้อยที่สุด ส่วนข้อเสนองานไม่มีภาคใดเกิน 25%"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G11",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Living Light",
+          "text": "On certain summer nights, swimmers off some tropical coasts notice something strange: every stroke they make leaves a trail of blue sparks in the water. The light is not reflected moonlight, nor is it a sign of pollution. It is produced by countless single-celled organisms called dinoflagellates, which glow briefly whenever the water around them is disturbed. They are among thousands of species capable of bioluminescence, the production of light by a living thing.\n\nThe chemistry behind this light is surprisingly similar across very different organisms. In most cases, a molecule known as a luciferin reacts with oxygen, a process speeded up by an enzyme called a luciferase. The reaction releases its energy almost entirely as light rather than heat, which is why bioluminescence is sometimes described as \"cold light\". An ordinary light bulb, by comparison, wastes much of its energy warming the air around it. Yet the details vary: the luciferins of fireflies, jellyfish and deep-sea shrimp are not all the same molecule, and biologists believe that the ability to glow has evolved independently dozens of times.\n\nThat repeated invention hints at how useful light can be, especially in the ocean. Below about 200 metres, sunlight fades to almost nothing, and in this vast darkness the majority of animals are thought to produce light of some kind. They use it in strikingly different ways. The anglerfish dangles a glowing lure in front of its mouth to tempt curious prey within reach. Some squid release clouds of luminous ink to confuse attackers, much as their shallow-water relatives use dark ink. Perhaps the cleverest strategy is counter-illumination: many fish and shrimp have light organs along their bellies that match the faint glow from above, so that a predator looking up sees no shadow to give them away.\n\nThe dinoflagellates' sparks may serve a defensive purpose too, though a less obvious one. According to what is known as the \"burglar alarm\" hypothesis, the flash does not frighten off the tiny animals that graze on these organisms. Instead, it makes the grazers themselves visible to larger fish, which may then eat them. A grazer that sets off the alarm, in other words, risks becoming a meal.\n\nOn land, bioluminescence is far rarer, and fireflies are its best-known example. Here, light serves mainly as a language. Each species flashes in its own pattern of timing and colour, allowing the insects to recognise members of their own kind in the dark. In a few places, thousands of fireflies gathered in riverside trees flash almost in unison, a display that has drawn growing numbers of visitors and raised concerns that boat traffic and bright lights may be disrupting the very signals the insects depend on.\n\nScientists, meanwhile, have found practical uses for these natural lamps. Because the luciferase reaction produces light only when certain molecules are present, researchers can insert the genes responsible into other cells and use the resulting glow to follow processes that would otherwise be invisible. In laboratories, glowing markers now reveal whether a particular gene has been switched on, or whether a water sample contains harmful bacteria. Some designers have even imagined trees that could light streets at night, although such ideas remain a long way from reality.\n\nWhat began as a chemical trick has, it seems, been reinvented again and again wherever darkness made light worth having.",
+          "items": [
+            {
+              "id": "AL-S7-047",
+              "stem": "What is the main idea of the passage?",
+              "options": [
+                "Light made by living things arises in similar ways but serves many purposes.",
+                "Most glowing organisms are close relatives that share one ancestor.",
+                "Scientists have copied firefly chemistry to replace city streetlights.",
+                "Bioluminescence is mainly a defence used by animals of the deep sea."
+              ],
+              "answer": 0,
+              "skill": "main_idea",
+              "explanationTh": "บทความอธิบายว่ากลไกเคมีของแสงคล้ายกันในสิ่งมีชีวิตหลายชนิด แล้วยกตัวอย่างการใช้แสงหลากหลาย ทั้งล่อเหยื่อ ป้องกันตัว สื่อสาร และใช้ในห้องแล็บ ตัวลวงเรื่องบรรพบุรุษเดียวกันขัดกับ \"evolved independently dozens of times\" และต้นไม้ให้แสงยัง \"a long way from reality\""
+            },
+            {
+              "id": "AL-S7-048",
+              "stem": "Why is bioluminescence sometimes called \"cold light\"?",
+              "options": [
+                "The reaction can only take place at low temperatures.",
+                "Very little of the reaction's energy is given off as heat.",
+                "Its blue colour makes it appear cool to the human eye.",
+                "It is produced mostly by animals living in cold, deep water."
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่า \"The reaction releases its energy almost entirely as light rather than heat, which is why... 'cold light'\" กับดักคือการเชื่อมคำว่า cold กับน้ำทะเลลึกที่เย็นหรือแสงสีฟ้า ซึ่งบทความไม่ได้ให้เป็นเหตุผล"
+            },
+            {
+              "id": "AL-S7-049",
+              "stem": "What does the writer suggest about the fact that the ability to glow evolved many separate times?",
+              "options": [
+                "It means scientists still cannot explain how the light is produced.",
+                "It proves that all glowing species use exactly the same luciferin.",
+                "It shows that bioluminescence first appeared on land, not at sea.",
+                "It indicates that producing light gives organisms real advantages."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ย่อหน้าที่ 3 เริ่มด้วย \"That repeated invention hints at how useful light can be\" แสดงว่าการเกิดซ้ำหลายครั้งบ่งชี้ว่าแสงมีประโยชน์ ตัวลวง \"exactly the same luciferin\" ขัดกับ \"are not all the same molecule\""
+            },
+            {
+              "id": "AL-S7-050",
+              "stem": "According to the passage, how does counter-illumination protect an animal?",
+              "options": [
+                "It makes the animal look bigger than it is.",
+                "It blinds predators that approach from above.",
+                "It hides the animal's outline from predators below it.",
+                "It draws prey towards the animal's mouth."
+              ],
+              "answer": 2,
+              "skill": "detail",
+              "explanationTh": "แสงที่ท้องสัตว์ \"match the faint glow from above, so that a predator looking up sees no shadow\" คือผู้ล่าที่อยู่ด้านล่างมองขึ้นมาไม่เห็นเงา ตัวลวงเรื่องล่อเหยื่อเป็นวิธีของปลาตกเบ็ด (anglerfish)"
+            },
+            {
+              "id": "AL-S7-051",
+              "stem": "According to the \"burglar alarm\" hypothesis, the dinoflagellates' flash mainly works by",
+              "options": [
+                "making the dinoflagellates taste unpleasant",
+                "attracting larger predators to the animals feeding on them",
+                "scaring small grazers away before they can feed",
+                "warning nearby dinoflagellates to move deeper"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "สมมติฐานนี้ระบุว่าแสง \"does not frighten off the tiny animals... Instead, it makes the grazers themselves visible to larger fish\" กับดักคือ \"scaring small grazers away\" ซึ่งบทความปฏิเสธไว้โดยตรง"
+            },
+            {
+              "id": "AL-S7-052",
+              "stem": "The phrase \"in unison\" in paragraph 5 is closest in meaning to",
+              "options": [
+                "one after another",
+                "in a circle",
+                "at random",
+                "at the same time"
+              ],
+              "answer": 3,
+              "skill": "vocab_in_context",
+              "explanationTh": "หิ่งห้อยนับพันตัว \"flash almost in unison\" จนเป็นการแสดงที่ดึงดูดนักท่องเที่ยว หมายถึงกะพริบพร้อมกัน ตัวลวง one after another และ at random มีความหมายตรงข้าม"
+            },
+            {
+              "id": "AL-S7-053",
+              "stem": "What is the main purpose of paragraph 6?",
+              "options": [
+                "To warn readers about the risks of genetic research",
+                "To show how people have put bioluminescence to practical use",
+                "To explain why bioluminescence is rare on land",
+                "To argue that glowing trees should replace streetlights"
+              ],
+              "answer": 1,
+              "skill": "purpose_tone",
+              "explanationTh": "ย่อหน้าที่ 6 เริ่มด้วย \"Scientists... have found practical uses\" แล้วยกตัวอย่างการใช้ในห้องแล็บ กับดักคือต้นไม้ให้แสง ซึ่งผู้เขียนกล่าวว่ายัง \"a long way from reality\" ไม่ได้สนับสนุน ส่วนเรื่องความหายากบนบกอยู่ในย่อหน้าที่ 5"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G12",
+          "type": "article",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำตอบที่ถูกต้องที่สุด",
+          "title": "Work by the Task",
+          "text": "Ten years ago, a student in need of extra money might have looked for a weekend job in a shop or restaurant. Today, many simply open an app. With a few taps, they can deliver meals, design logos, translate documents or assemble furniture for strangers, choosing when and how much to work. This way of earning a living, in which people are paid for individual tasks rather than holding a steady job, has become known as the gig economy, a term borrowed from musicians, who are traditionally hired one performance, or \"gig\", at a time.\n\nFor many workers, the main attraction is flexibility. A survey of 2,000 app-based workers in the city of Pran Nakhon found that nearly two thirds valued being able to set their own hours above any other feature of the work. Parents fit deliveries around the school run; students take on design projects between exams; retirees use the apps to stay active and add to their pensions. For people who struggle to get hired through traditional routes, such as those without formal qualifications, platforms can also offer a first foothold in paid work.\n\nCritics argue, however, that this freedom comes at a considerable cost. Because gig workers are usually classed as independent contractors rather than employees, they are generally not entitled to sick pay, paid holidays or employer contributions to a pension. Income can also be unpredictable. A delivery rider may earn well on a rainy evening when orders surge, then wait hours for a single job on a quiet afternoon. And since platforms can change their rates at any time, a worker's earnings may fall overnight without any negotiation.\n\nAnother concern is the role of algorithms. On most platforms, it is software, not a human manager, that decides who receives which task. Workers often say they do not understand why their share of jobs suddenly drops, and some feel pressured to accept every offer for fear that turning one down will lower their rating. In this sense, the flexibility that attracted them in the first place may be less real than it appears: a worker is technically free to log off, but doing so may come at a price.\n\nGovernments have begun to respond, though in different ways. Some have created a \"third category\" of worker, somewhere between employee and contractor, which guarantees a minimum level of protection without removing flexibility altogether. Others require platforms to explain in plain language how their algorithms hand out work. Platform companies, for their part, warn that heavy regulation could push up prices for customers and reduce the number of tasks available, ultimately harming the very workers it is meant to protect.\n\nWhat seems clear is that the gig economy is unlikely to disappear. For students considering it, the sensible approach may be to treat app-based work as one option among several: useful for building skills and earning money on their own terms, but not something to depend on without understanding the trade-offs. As one rider in the Pran Nakhon survey put it, \"I'm my own boss — until the app decides I'm not.\"",
+          "items": [
+            {
+              "id": "AL-S7-054",
+              "stem": "What is the writer's main purpose in the passage?",
+              "options": [
+                "To weigh up the advantages and drawbacks of task-based work",
+                "To explain how delivery apps set their prices",
+                "To argue that gig platforms ought to be banned",
+                "To persuade students to choose gig work over shop jobs"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "บทความเสนอทั้งข้อดี (ความยืดหยุ่น โอกาสสำหรับคนไม่มีวุฒิ) และข้อเสีย (ไม่มีสวัสดิการ รายได้ไม่แน่นอน อัลกอริทึม) แล้วแนะนำให้ชั่งน้ำหนัก ไม่ได้ชักชวนหรือเรียกร้องให้แบน"
+            },
+            {
+              "id": "AL-S7-055",
+              "stem": "According to the passage, where does the term \"gig economy\" come from?",
+              "options": [
+                "An old word for a small, one-off payment",
+                "The way musicians are booked for one performance at a time",
+                "A law describing independent contractors",
+                "The name of one of the first food delivery apps"
+              ],
+              "answer": 1,
+              "skill": "detail",
+              "explanationTh": "บทความระบุว่าเป็นคำ \"borrowed from musicians, who are traditionally hired one performance, or 'gig', at a time\" ตัวเลือกอื่นไม่ได้กล่าวถึง"
+            },
+            {
+              "id": "AL-S7-056",
+              "stem": "The word \"foothold\" in paragraph 2 is closest in meaning to",
+              "options": [
+                "a small but regular monthly salary",
+                "a starting point from which to make progress",
+                "a short training course for new staff",
+                "a permanent contract with one employer"
+              ],
+              "answer": 1,
+              "skill": "vocab_in_context",
+              "explanationTh": "\"a first foothold in paid work\" สำหรับคนที่หางานทางปกติได้ยาก หมายถึงจุดเริ่มต้นที่ช่วยให้ก้าวต่อไปได้ ไม่ได้หมายถึงสัญญาถาวรหรือเงินเดือนประจำ ซึ่งขัดกับลักษณะงานแบบ gig"
+            },
+            {
+              "id": "AL-S7-057",
+              "stem": "Why might a delivery rider's income vary from day to day?",
+              "options": [
+                "Riders have to pay a fee every time they refuse a job.",
+                "Platforms only pay riders for work done in bad weather.",
+                "Riders agree their rates with customers before each trip.",
+                "Demand changes with conditions such as the weather and time of day."
+              ],
+              "answer": 3,
+              "skill": "detail",
+              "explanationTh": "บทความยกตัวอย่างว่าไรเดอร์ \"may earn well on a rainy evening when orders surge, then wait hours... on a quiet afternoon\" คือรายได้ขึ้นกับความต้องการตามสภาพอากาศและช่วงเวลา และอัตรากำหนดโดยแพลตฟอร์ม \"without any negotiation\" ไม่ได้ตกลงกับลูกค้า"
+            },
+            {
+              "id": "AL-S7-058",
+              "stem": "What does the writer imply about the flexibility of gig work in paragraph 4?",
+              "options": [
+                "It is available only to workers with high ratings.",
+                "It is the main reason most workers dislike the apps.",
+                "Algorithms have made it greater than ever before.",
+                "Workers may be less free to refuse tasks than it first seems."
+              ],
+              "answer": 3,
+              "skill": "inference",
+              "explanationTh": "ผู้เขียนกล่าวว่าคนงานกลัวคะแนนลดถ้าปฏิเสธงาน และ \"the flexibility... may be less real than it appears... free to log off, but doing so may come at a price\" ตัวลวงที่บอกว่าเป็นเหตุผลที่คนงานไม่ชอบแอปขัดกับย่อหน้า 2 ที่ความยืดหยุ่นเป็นสิ่งดึงดูดหลัก"
+            },
+            {
+              "id": "AL-S7-059",
+              "stem": "In paragraph 5, \"it\" in \"the very workers it is meant to protect\" refers to",
+              "options": [
+                "the third category of worker",
+                "heavy regulation",
+                "the price paid by customers",
+                "each platform company"
+              ],
+              "answer": 1,
+              "skill": "reference",
+              "explanationTh": "ประโยคคือ \"heavy regulation could push up prices... ultimately harming the very workers it is meant to protect\" สิ่งที่ \"มีไว้เพื่อคุ้มครอง\" คนงานคือการควบคุมที่เข้มงวด (regulation) กับดักคือ third category ซึ่งอยู่ต้นย่อหน้าและก็มีไว้คุ้มครองคนงาน แต่ไม่ใช่ประธานของประโยคนี้"
+            },
+            {
+              "id": "AL-S7-060",
+              "stem": "Which best describes the writer's attitude towards gig work?",
+              "options": [
+                "Balanced but cautious",
+                "Wholly enthusiastic",
+                "Openly hostile",
+                "Completely indifferent"
+              ],
+              "answer": 0,
+              "skill": "purpose_tone",
+              "explanationTh": "ผู้เขียนยอมรับข้อดี แต่เตือนว่า \"not something to depend on without understanding the trade-offs\" จึงเป็นท่าทีที่สมดุลแต่ระมัดระวัง ไม่ได้ต่อต้านหรือสนับสนุนเต็มที่ และไม่ได้เพิกเฉย"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "groups": [
+        {
+          "id": "AL-S7-G13",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Paths nobody planned",
+          "text": "Walk through almost any city park and you will find them: narrow strips of bare earth cutting across the grass, worn smooth by thousands of feet. Planners call them \"desire paths\", and they usually appear wherever the official route forces people to take the long way round. They are, in effect, shortcuts that ___1___ the route the designers had in mind.\n\nTo some park managers, such paths are simply damage. They put up fences or plant thorny hedges, only to find a new path forming a few metres away. Part of the problem is that most people are not used to ___2___ where to walk, especially when the reason is not obvious. Had designers watched how people actually moved through the space, many of these paths ___3___ in the first place.\n\nOther planners treat desire paths as free information, since they reveal precisely where people want to go. ___4___, some universities now leave the grass around a new building unpaved for its first year. The students, ___5___ footsteps gradually trace the most natural routes, effectively design the network themselves. Only after that are the worn lines turned into proper paths.\n\nIt is a small idea, but a revealing one: sometimes the best plan is to wait and see what people do.",
+          "items": [
+            {
+              "id": "AL-S7-061",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "bypass",
+                "obey",
+                "pursue",
+                "extend"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "ทางลัดคือทางที่ \"เลี่ยง/ข้าม\" เส้นทางที่ผู้ออกแบบวางไว้ จึงใช้ bypass ส่วน obey (ทำตาม) และ pursue (ติดตาม) ให้ความหมายตรงข้าม และ extend (ขยายต่อ) ไม่ใช่ลักษณะของทางลัด"
+            },
+            {
+              "id": "AL-S7-062",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "have told",
+                "telling",
+                "be told",
+                "being told"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "be used to + V-ing (เคยชินกับ) และคนเป็นฝ่าย \"ถูกบอก\" จึงต้องเป็น passive gerund \"being told\" กับดักคือ \"be told\" ที่สับสนกับ used to + V1 และ \"telling\" ที่เป็นรูป active ผิดความหมาย"
+            },
+            {
+              "id": "AL-S7-063",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "will never appear",
+                "had never appeared",
+                "would never appear",
+                "would never have appeared"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "\"Had designers watched...\" เป็นเงื่อนไขแบบที่ 3 ที่ละ if แล้วกลับประธาน พูดถึงอดีตที่ไม่ได้เกิดขึ้น ผลจึงต้องเป็น would have + V3 และมี \"in the first place\" ชี้ไปที่อดีต กับดักคือ \"would never appear\" ซึ่งเป็นเงื่อนไขแบบที่ 2"
+            },
+            {
+              "id": "AL-S7-064",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "Meanwhile",
+                "Accordingly",
+                "Otherwise",
+                "Nevertheless"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ประโยคหลังเป็นผลที่ตามมาจากการมองว่าทางลัดเป็นข้อมูลที่มีประโยชน์ (จึงปล่อยหญ้าไว้ก่อนหนึ่งปี) จึงใช้ Accordingly (ดังนั้น) Nevertheless แสดงความขัดแย้ง Meanwhile บอกเวลาที่เกิดพร้อมกัน และ Otherwise หมายถึง \"มิฉะนั้น\""
+            },
+            {
+              "id": "AL-S7-065",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "who",
+                "which",
+                "whom",
+                "whose"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "ต้องการคำแสดงความเป็นเจ้าของหน้าคำนาม \"footsteps\" (รอยเท้าของนักศึกษา) จึงใช้ whose ส่วน who/whom/which ตามด้วยคำนามโดยตรงแบบนี้ไม่ได้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G14",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Reading the rings",
+          "text": "Cut across the trunk of a tree from a temperate forest and you will usually see a series of rings, one for each year of growth. Counting them reveals the tree's age, but the rings hold far more information than that. In a warm, wet year a tree grows quickly and lays down a wide ring; in a dry year, growth may slow to ___1___ an extent that the ring is barely visible.\n\nBy measuring thousands of rings, scientists can ___2___ the rainfall of periods long before anyone kept weather records. A single tree, of course, covers only its own lifetime, although one pine on a remote mountainside is thought ___3___ for more than four thousand years. To go further back, researchers match the patterns in living trees with those in old timber. ___4___ enough overlapping samples are available, the record can be stretched back thousands of years without a break.\n\nThe method has practical uses, too. When a village in the north wanted to know how old its meeting hall really was, the community had several of its roof beams ___5___ by a university team. The rings showed that the trees had been cut down more than a century earlier than local stories claimed.",
+          "items": [
+            {
+              "id": "AL-S7-066",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "too",
+                "such",
+                "very",
+                "so"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หน้าคำนาม \"an extent\" ใช้ such + a/an + noun + that ส่วน so/too/very ใช้ขยายคุณศัพท์หรือกริยาวิเศษณ์ ไม่ใช้หน้า a/an + noun แบบนี้"
+            },
+            {
+              "id": "AL-S7-067",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "reconstruct",
+                "prevent",
+                "measure out",
+                "forecast"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "การวัดวงปีทำให้นักวิทยาศาสตร์ \"สร้างภาพย้อนหลัง\" ปริมาณฝนในอดีตได้ จึงใช้ reconstruct กับดักคือ forecast ซึ่งเป็นการพยากรณ์อนาคต ขัดกับ \"long before anyone kept weather records\""
+            },
+            {
+              "id": "AL-S7-068",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "to have been growing",
+                "growing",
+                "to grow",
+                "to be grown"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "be thought + to have been V-ing ใช้กับการคาดว่าสิ่งหนึ่งดำเนินมาตั้งแต่อดีตจนถึงตอนนี้ (\"for more than four thousand years\") ส่วน \"to grow\" ไม่แสดงช่วงเวลาที่ผ่านมา \"growing\" ผิดโครงสร้างหลัง be thought และ \"to be grown\" เป็น passive ซึ่งหมายถึงมีคนปลูก"
+            },
+            {
+              "id": "AL-S7-069",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "In case",
+                "Even though",
+                "Provided that",
+                "Unless"
+              ],
+              "answer": 2,
+              "skill": "connector",
+              "explanationTh": "ความหมายคือ \"ตราบใดที่/หากว่า\" มีตัวอย่างซ้อนทับเพียงพอ ก็ขยายข้อมูลย้อนหลังได้ จึงใช้ Provided that ส่วน Unless ให้ความหมายตรงข้าม Even though แสดงความขัดแย้ง และ In case หมายถึงเผื่อไว้"
+            },
+            {
+              "id": "AL-S7-070",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "dated",
+                "having dated",
+                "to date",
+                "date"
+              ],
+              "answer": 0,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง causative แบบ passive คือ have + object + V3 (ให้ผู้อื่นทำให้) \"had several of its roof beams dated by a university team\" ทีมมหาวิทยาลัยเป็นผู้หาอายุ จึงต้องเป็น V3 ส่วน \"date\" ใช้กับ have + คน + V1 และ \"having dated\" หรือ \"to date\" ไม่ใช้ในโครงสร้างนี้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G15",
+          "type": "text_completion",
+          "instructionTh": "อ่านข้อความ แล้วเลือกคำหรือวลีที่เหมาะสมที่สุดเติมในช่องว่าง",
+          "title": "Behind the lost-property counter",
+          "text": "Every day, the lost-property office at Thanawat Central Station receives around two hundred forgotten items. Umbrellas and phone chargers make up most of the pile, but staff have also logged a box of live crabs, a set of drums and, on one memorable morning, a full-sized cello. Whoever left it on the 7:15 express ___1___ in a tremendous hurry, as the case was found lying open with the bow still on the seat.\n\nEach item is labelled with the date, the train and the carriage in which it was found. ___2___, it would be almost impossible to match objects with the descriptions that owners give. Staff say that speed matters: the longer an item sits on the shelves, ___3___ likely its owner is to come back for it. After three months, items that nobody comes forward to ___4___ are donated to charity or, in the case of documents, securely destroyed.\n\nAt present, passengers have to visit the office in person or phone during working hours. With the number of items rising every year, several members of staff feel it is high time the station ___5___ an online search system, so that owners could check from home before making a journey.",
+          "items": [
+            {
+              "id": "AL-S7-071",
+              "blank": 1,
+              "stem": "",
+              "options": [
+                "can't have been",
+                "must have been",
+                "must be",
+                "should have been"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "ผู้พูดสรุปอย่างมั่นใจเกี่ยวกับอดีตจากหลักฐาน (กล่องเปิดค้างและคันชักยังวางอยู่บนที่นั่ง) จึงใช้ must have been กับดักคือ \"must be\" ที่เป็นปัจจุบัน \"should have been\" ที่แปลว่าควรจะ และ \"can't have been\" ที่ขัดกับเหตุผล"
+            },
+            {
+              "id": "AL-S7-072",
+              "blank": 2,
+              "stem": "",
+              "options": [
+                "Consequently",
+                "Otherwise",
+                "Likewise",
+                "Moreover"
+              ],
+              "answer": 1,
+              "skill": "connector",
+              "explanationTh": "ความหมายคือ \"ถ้าไม่ติดป้าย\" จะจับคู่ของกับเจ้าของแทบไม่ได้ จึงใช้ Otherwise (มิฉะนั้น) กับดักคือ Consequently ซึ่งจะแปลว่าการติดป้ายทำให้จับคู่ไม่ได้ ผิดความหมาย"
+            },
+            {
+              "id": "AL-S7-073",
+              "blank": 3,
+              "stem": "",
+              "options": [
+                "less",
+                "so less",
+                "the least",
+                "the less"
+              ],
+              "answer": 3,
+              "skill": "grammar",
+              "explanationTh": "โครงสร้าง the + comparative ..., the + comparative ... (\"the longer..., the less likely...\") จึงต้องมี the หน้าทั้งสองส่วน \"less\" ขาด the และ \"the least\" เป็นขั้นสูงสุด"
+            },
+            {
+              "id": "AL-S7-074",
+              "blank": 4,
+              "stem": "",
+              "options": [
+                "claim",
+                "report",
+                "replace",
+                "return"
+              ],
+              "answer": 0,
+              "skill": "vocabulary",
+              "explanationTh": "\"come forward to claim\" หมายถึงมาแสดงตัวขอรับของคืนในฐานะเจ้าของ กับดักคือ return ซึ่งเจ้าของไม่ได้เป็นผู้ \"คืน\" ของ และ report/replace ไม่ตรงความหมาย"
+            },
+            {
+              "id": "AL-S7-075",
+              "blank": 5,
+              "stem": "",
+              "options": [
+                "introduces",
+                "introduced",
+                "will introduce",
+                "has introduced"
+              ],
+              "answer": 1,
+              "skill": "grammar",
+              "explanationTh": "หลัง \"it is high time + ประธาน\" ใช้กริยาช่อง 2 (past simple) เพื่อบอกว่าควรทำได้แล้ว ทั้งที่พูดถึงปัจจุบัน จึงใช้ introduced ตัวเลือกอื่นเป็นรูปปัจจุบัน อนาคต หรือ present perfect ซึ่งไม่ใช้กับโครงสร้างนี้"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G16",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "How a seed bank works",
+          "text": "A. Before they are stored, however, the seeds must be dried until they hold only a small fraction of their original moisture.\nB. A seed bank is a collection of seeds kept as insurance against the loss of crop varieties.\nC. Once dry, they are sealed in airtight packets and kept at around minus 18°C, where many can survive for decades.\nD. Samples are first gathered from farmers and wild plants, often in remote areas where unusual varieties still grow.\nE. Even so, staff take a few seeds out every few years and plant them to check that they can still germinate.",
+          "items": [
+            {
+              "id": "AL-S7-076",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – D – C – A – E",
+                "B – D – A – C – E",
+                "B – A – D – C – E",
+                "D – B – A – C – E"
+              ],
+              "answer": 1,
+              "skill": "coherence",
+              "explanationTh": "B นิยามธนาคารเมล็ดพันธุ์ D (\"first gathered\") ขั้นแรกคือการเก็บตัวอย่าง A (\"Before they are stored, however\") ต้องตากให้แห้งก่อนเก็บ C (\"Once dry\") บรรจุและแช่เย็น E (\"Even so\") แม้เก็บได้นานก็ยังต้องสุ่มนำมาปลูกทดสอบ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G17",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Why a hot-air balloon rises",
+          "text": "A. As a result, the air inside the envelope becomes lighter than the same volume of the cooler air around it.\nB. A hot-air balloon flies on a simple principle: warm air is less dense than cold air.\nC. To come down again, the pilot simply lets the air cool, or opens a vent at the top to release some of it.\nD. When the pilot fires the burner, the air inside the envelope heats up and its molecules spread further apart.\nE. This difference in weight creates an upward force, and once that force is greater than the weight of the balloon and its passengers, the balloon lifts off.",
+          "items": [
+            {
+              "id": "AL-S7-077",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – D – A – E – C",
+                "B – A – D – E – C",
+                "B – D – E – A – C",
+                "D – B – A – E – C"
+              ],
+              "answer": 0,
+              "skill": "coherence",
+              "explanationTh": "B บอกหลักการ D การจุดหัวเผาทำให้อากาศร้อนขยายตัว A (\"As a result\") อากาศในบอลลูนเบากว่า E (\"This difference in weight\") อ้างถึงความต่างใน A ทำให้เกิดแรงยก และ C การลงจอดเป็นขั้นตอนสุดท้าย"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G18",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Making oolong tea",
+          "text": "A. The leaves are then shaken or rolled gently so that their edges are bruised.\nB. Freshly picked tea leaves are first spread out in the sun to wilt and lose some of their water.\nC. Finally, the leaves are heated and dried, which halts oxidation and fixes the tea's flavour.\nD. This bruising exposes the juices inside the leaves to the air, starting a process called oxidation.\nE. Producers watch this stage closely, since stopping it early gives a lighter tea and letting it continue gives a darker, richer one.",
+          "items": [
+            {
+              "id": "AL-S7-078",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "B – A – E – D – C",
+                "B – D – A – E – C",
+                "A – B – D – E – C",
+                "B – A – D – E – C"
+              ],
+              "answer": 3,
+              "skill": "coherence",
+              "explanationTh": "B (\"first\") ขั้นแรกผึ่งใบชา A (\"then\") เขย่าให้ขอบใบช้ำ D (\"This bruising\") อ้างถึงการทำให้ช้ำใน A และเริ่ม oxidation E (\"this stage\") หมายถึง oxidation ที่เพิ่งกล่าวใน D และ C (\"Finally\") อบแห้งเพื่อหยุดกระบวนการ"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G19",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "A garden on the school roof",
+          "text": "A. Their first attempt failed, however, as most of the seedlings dried out during the March holidays.\nB. Last year, a group of Grade 11 students proposed turning the empty roof of their science building into a vegetable garden.\nC. The school agreed, on condition that an engineer first confirmed the roof could bear the weight of the soil.\nD. Having learnt from this, they installed a simple drip-watering system fed by a rain tank.\nE. Once the engineer had given his approval, the students planted their first beds of morning glory and chillies.",
+          "items": [
+            {
+              "id": "AL-S7-079",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – B – E – A – D",
+                "B – E – C – A – D",
+                "B – C – E – A – D",
+                "B – C – A – E – D"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "B นักเรียนเสนอโครงการ C โรงเรียนตกลงโดยมีเงื่อนไขให้วิศวกรตรวจก่อน E (\"Once the engineer had given his approval\") จึงปลูก A (\"Their first attempt failed\") ต้นกล้าแห้งตาย D (\"Having learnt from this\") จึงติดตั้งระบบน้ำหยด"
+            }
+          ]
+        },
+        {
+          "id": "AL-S7-G20",
+          "type": "paragraph_org",
+          "instructionTh": "เรียงประโยคต่อไปนี้ให้เป็นย่อหน้าที่ต่อเนื่องสมเหตุสมผลที่สุด",
+          "title": "Starting a book swap",
+          "text": "A. Each student brings along one book they have finished and takes home one that someone else has left.\nB. Moreover, because no money changes hands, students who cannot afford new books can take part on equal terms.\nC. A book swap is one of the simplest ways for a school to encourage reading.\nD. Not only does this keep books in circulation, but it also gives students a chance to recommend titles to one another.",
+          "items": [
+            {
+              "id": "AL-S7-080",
+              "stem": "Which is the most logical order of the sentences?",
+              "options": [
+                "C – D – A – B",
+                "C – A – B – D",
+                "C – A – D – B",
+                "A – C – D – B"
+              ],
+              "answer": 2,
+              "skill": "coherence",
+              "explanationTh": "C ประโยคใจความหลัก A อธิบายวิธีแลกหนังสือ D (\"this\") อ้างถึงการแลกใน A และบอกประโยชน์สองข้อ B (\"Moreover\") เพิ่มประโยชน์อีกข้อหนึ่ง ถ้า B มาก่อน D คำว่า this ใน D จะอ้างถึงเรื่องเงินซึ่งไม่สมเหตุผล"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

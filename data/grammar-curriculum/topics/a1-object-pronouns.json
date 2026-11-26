@@ -1,0 +1,212 @@
+{
+  "id": "a1-object-pronouns",
+  "summaryTh": "คำที่ใช้แทนคนหรือสิ่งของ เมื่ออยู่หลังกริยาหรือหลังบุพบท (ผู้ถูกกระทำ)",
+  "concept": {
+    "what": "Object pronoun คือคำแทนคนหรือสิ่งของที่อยู่หลังกริยาหรือหลังบุพบท (with, for, to, at …) ได้แก่ me, you, him, her, it, us, them",
+    "when": [
+      "หลังกริยา เมื่อคนหรือสิ่งนั้น \"ถูกกระทำ\" (I like him. Call me.)",
+      "หลังบุพบท เช่น with, for, to, at, from (This gift is for you. Come with us.)",
+      "แทนคำนามที่พูดไปแล้ว จะได้ไม่ต้องพูดซ้ำ (I have a new bike. I love it.)"
+    ],
+    "why": "ภาษาไทยใช้คำเดิมได้ทั้งประธานและกรรม (ฉันรักเขา / เขารักฉัน) แต่ภาษาอังกฤษเปลี่ยนรูปตามตำแหน่ง: I → me, he → him, she → her, we → us, they → them ถ้าใช้ผิดรูป ประโยคจะผิดทันที"
+  },
+  "structure": {
+    "formula": "Subject + Verb + Object pronoun",
+    "rows": [
+      { "label": "หลังกริยา (After a verb)", "formula": "Subject + verb + me / him / her …", "example": "Tom likes [[her]]." },
+      { "label": "หลังบุพบท (After a preposition)", "formula": "with / for / to / at + me / him / her …", "example": "Come with [[us]]!" },
+      { "label": "ประโยคขอร้อง (Request)", "formula": "Verb + object pronoun", "example": "Please help [[me]]." },
+      { "label": "เปลี่ยนจากประธานเป็นกรรม", "formula": "I → me · he → him · she → her · we → us · they → them", "example": "He knows [[them]]. They know [[him]]." }
+    ],
+    "notes": [
+      "you และ it ใช้รูปเดียวกันทั้งประธานและกรรม",
+      "her เป็นได้ทั้งกรรม (I see her.) และ \"ของเธอ\" (her bag)",
+      "ถ้ากริยาต้องมีกรรม ห้ามละ: I like this song. I listen to it every day. (ไม่ใช่ I listen to every day.)",
+      "สรรพนามกรรมห้ามใช้เป็นประธาน: He is my brother. (ไม่ใช่ Him is …)"
+    ]
+  },
+  "examples": [
+    { "en": "Can you help [[me]]?", "th": "คุณช่วยฉันได้ไหม" },
+    { "en": "I love my grandparents. I visit [[them]] every Sunday.", "th": "ฉันรักปู่ย่า ฉันไปเยี่ยมท่านทุกวันอาทิตย์" },
+    { "en": "This gift is for [[you]].", "th": "ของขวัญชิ้นนี้ให้คุณ" },
+    { "en": "Look at [[him]]! He is so funny.", "th": "ดูเขาสิ ตลกมากเลย" },
+    { "en": "My phone is very old. I don't like [[it]].", "th": "โทรศัพท์ของฉันเก่ามาก ฉันไม่ชอบมัน" },
+    { "en": "Please call [[us]] tonight.", "th": "คืนนี้โทรหาพวกเรานะ" },
+    { "en": "Nok is my best friend. I go to school with [[her]].", "th": "นกเป็นเพื่อนสนิทของฉัน ฉันไปโรงเรียนกับเธอ" },
+    { "en": "The students are noisy. The teacher talks to [[them]].", "th": "นักเรียนเสียงดัง ครูพูดกับพวกเขา" }
+  ],
+  "mistakes": [
+    { "wrong": "Please help I.", "right": "Please help me.", "whyTh": "หลังกริยา help ต้องใช้รูปกรรม me — ภาษาไทยใช้ \"ฉัน\" ได้ทั้งสองตำแหน่ง แต่ภาษาอังกฤษเปลี่ยนรูป" },
+    { "wrong": "She loves he.", "right": "She loves him.", "whyTh": "he เป็นรูปประธาน หลังกริยา loves ต้องใช้ him" },
+    { "wrong": "This cake is for they.", "right": "This cake is for them.", "whyTh": "หลังบุพบท for ต้องใช้รูปกรรม them" },
+    { "wrong": "Him is my brother.", "right": "He is my brother.", "whyTh": "หน้ากริยา is คือตำแหน่งประธาน ต้องใช้ He ไม่ใช่ Him" },
+    { "wrong": "I like this song. I listen to every day.", "right": "I like this song. I listen to it every day.", "whyTh": "ภาษาไทยละกรรมได้ (\"ฟังทุกวัน\") แต่ภาษาอังกฤษต้องมี it บอกว่าฟังอะไร" }
+  ],
+  "compare": {
+    "title": "Subject pronouns vs Object pronouns",
+    "with": ["a1-subject-pronouns"],
+    "rows": [
+      { "label": "ตำแหน่ง", "a": "หน้ากริยา (เป็นผู้ทำ)", "b": "หลังกริยา หรือหลัง with / for / to / at" },
+      { "label": "รูปคำ", "a": "I, he, she, we, they", "b": "me, him, her, us, them" },
+      { "label": "เหมือนกันทั้งสองแบบ", "a": "you, it", "b": "you, it" },
+      { "label": "ตัวอย่าง", "a": "She likes cats.", "b": "Cats like her." }
+    ],
+    "tipTh": "ดูตำแหน่ง: อยู่หน้ากริยา → I / he / she / we / they · อยู่หลังกริยาหรือบุพบท → me / him / her / us / them"
+  },
+  "contexts": [
+    {
+      "kind": "dialogue", "title": "At a party",
+      "lines": [
+        { "speaker": "Jay", "text": "Do you know that girl?" },
+        { "speaker": "Mint", "text": "Yes, I know [[her]]. She is in my class. Come with [[me]]. I can introduce you to [[her]]." },
+        { "speaker": "Jay", "text": "Thanks! And those boys?" },
+        { "speaker": "Mint", "text": "Sorry, I don't know [[them]]." }
+      ]
+    },
+    {
+      "kind": "message", "title": "Note from Mum",
+      "lines": [
+        { "text": "Hi kids, Grandma is coming at 5. Please clean your room and wait for [[her]]. Your dad is late today, so call [[him]] at 6. I love [[you]]! Mum" }
+      ]
+    }
+  ],
+  "terms": [
+    { "en": "Object", "th": "กรรม — คนหรือสิ่งที่ถูกกระทำ อยู่หลังกริยา" },
+    { "en": "Object pronoun", "th": "สรรพนามกรรม — me, him, her, us, them …" },
+    { "en": "Preposition", "th": "บุพบท — คำอย่าง with, for, to, at" }
+  ],
+  "practice": [
+    {
+      "id": "a1-object-pronouns-01", "type": "mc", "difficulty": 1,
+      "question": "This is my brother. I love ___.",
+      "choices": ["he", "him", "his", "it"], "answer": 1,
+      "whyNot": { "0": "he เป็นรูปประธาน ใช้หลังกริยา love ไม่ได้", "2": "his แปลว่า \"ของเขา\" ต้องมีคำนามตาม", "3": "it ใช้กับสิ่งของ ไม่ใช้กับพี่ชาย/น้องชาย" },
+      "explainTh": "หลังกริยา love ใช้สรรพนามกรรม — brother เป็นผู้ชาย → him",
+      "structure": "Verb + him", "example": "I love him."
+    },
+    {
+      "id": "a1-object-pronouns-02", "type": "mc", "difficulty": 1,
+      "question": "Where are my keys? I can't find ___.",
+      "choices": ["it", "them", "they", "its"], "answer": 1,
+      "whyNot": { "0": "keys เป็นพหูพจน์ (หลายดอก) ใช้ it ไม่ได้", "2": "they เป็นรูปประธาน หลังกริยา find ต้องใช้ them", "3": "its แปลว่า \"ของมัน\" ต้องมีคำนามตาม" },
+      "explainTh": "keys เป็นพหูพจน์ และอยู่หลังกริยา find → ใช้รูปกรรม them",
+      "structure": "Verb + them", "example": "I can't find them."
+    },
+    {
+      "id": "a1-object-pronouns-03", "type": "fill", "difficulty": 1,
+      "question": "Anna is very nice. I like ___. (สรรพนามแทน Anna)",
+      "accepted": ["her"],
+      "explainTh": "Anna เป็นผู้หญิง และอยู่หลังกริยา like → ใช้รูปกรรม her",
+      "structure": "Verb + her", "example": "I like her."
+    },
+    {
+      "id": "a1-object-pronouns-04", "type": "fill", "difficulty": 1,
+      "question": "My bag is very heavy. Can you help ___? (ฉัน)",
+      "accepted": ["me"],
+      "explainTh": "\"ฉัน\" อยู่หลังกริยา help เป็นกรรม → me (ไม่ใช่ I)",
+      "structure": "Verb + me", "example": "Can you help me?"
+    },
+    {
+      "id": "a1-object-pronouns-05", "type": "fill", "difficulty": 2,
+      "question": "My grandparents live in Chiang Rai. We visit ___ every summer.",
+      "accepted": ["them"],
+      "explainTh": "grandparents = หลายคน อยู่หลังกริยา visit → them",
+      "structure": "Verb + them", "example": "We visit them every summer."
+    },
+    {
+      "id": "a1-object-pronouns-06", "type": "match", "difficulty": 1,
+      "prompt": "จับคู่สรรพนามประธานกับสรรพนามกรรม",
+      "pairs": [["I", "me"], ["he", "him"], ["she", "her"], ["we", "us"], ["they", "them"]],
+      "explainTh": "ประธาน → กรรม: I → me, he → him, she → her, we → us, they → them (you และ it ไม่เปลี่ยน)"
+    },
+    {
+      "id": "a1-object-pronouns-07", "type": "error", "difficulty": 2,
+      "sentence": "Please call I tonight.",
+      "errorPart": "I",
+      "accepted": ["Please call me tonight."],
+      "explainTh": "หลังกริยา call ต้องใช้รูปกรรม me — I ใช้เป็นประธานเท่านั้น",
+      "structure": "Verb + me"
+    },
+    {
+      "id": "a1-object-pronouns-08", "type": "error", "difficulty": 2,
+      "sentence": "Tom and Jerry are my cats. I feed they every morning.",
+      "errorPart": "they",
+      "accepted": ["Tom and Jerry are my cats. I feed them every morning."],
+      "explainTh": "หลังกริยา feed ใช้รูปกรรม — แมว 2 ตัว → them",
+      "structure": "Verb + them"
+    },
+    {
+      "id": "a1-object-pronouns-09", "type": "order", "difficulty": 1,
+      "tokens": ["she", "me", "helps", "always"],
+      "accepted": ["She always helps me."],
+      "explainTh": "ประธาน She + always + กริยา helps + กรรม me"
+    },
+    {
+      "id": "a1-object-pronouns-10", "type": "order", "difficulty": 2,
+      "tokens": ["I", "with", "to", "go", "school", "them"],
+      "accepted": ["I go to school with them.", "I go with them to school."],
+      "explainTh": "หลังบุพบท with ใช้รูปกรรม them → I go to school with them."
+    },
+    {
+      "id": "a1-object-pronouns-11", "type": "transform", "difficulty": 2,
+      "source": "I see Mr Brown every day.",
+      "instruction": "เขียนใหม่โดยใช้สรรพนามกรรมแทน Mr Brown",
+      "accepted": ["I see him every day."],
+      "explainTh": "Mr Brown เป็นผู้ชาย อยู่หลังกริยา see → him",
+      "structure": "Verb + him", "example": "I see him every day."
+    },
+    {
+      "id": "a1-object-pronouns-12", "type": "transform", "difficulty": 3,
+      "source": "Lisa and I play with the ball.",
+      "instruction": "เขียนใหม่โดยใช้สรรพนามกรรมแทน the ball",
+      "accepted": ["Lisa and I play with it."],
+      "explainTh": "the ball เป็นสิ่งของ 1 ชิ้น อยู่หลังบุพบท with → it (it ใช้รูปเดียวกันทั้งประธานและกรรม)",
+      "structure": "Preposition + it", "example": "Lisa and I play with it."
+    },
+    {
+      "id": "a1-object-pronouns-13", "type": "choose", "difficulty": 2,
+      "question": "เลือกประโยคที่ถูกต้อง",
+      "choices": ["She is waiting for we.", "She is waiting for us.", "She is waiting for our.", "Her is waiting for us."], "answer": 1,
+      "whyNot": { "0": "หลังบุพบท for ต้องใช้รูปกรรม us ไม่ใช่ we", "2": "our แปลว่า \"ของพวกเรา\" ต้องมีคำนามตาม", "3": "หน้ากริยา is เป็นตำแหน่งประธาน ต้องใช้ She ไม่ใช่ Her" },
+      "explainTh": "ประธานใช้ She · หลังบุพบท for ใช้รูปกรรม us",
+      "structure": "Preposition + us", "example": "She is waiting for us."
+    },
+    {
+      "id": "a1-object-pronouns-14", "type": "dialogue", "difficulty": 3,
+      "context": { "kind": "dialogue", "lines": [
+        { "speaker": "A", "text": "Do you know Ken and Joy?" },
+        { "speaker": "B", "text": "Yes! I play badminton with ___ every Friday." }
+      ] },
+      "choices": ["they", "them", "their", "him"], "answer": 1,
+      "whyNot": { "0": "they เป็นรูปประธาน หลังบุพบท with ต้องใช้รูปกรรม", "2": "their แปลว่า \"ของพวกเขา\" ต้องมีคำนามตาม", "3": "him ใช้กับผู้ชาย 1 คน แต่ Ken and Joy มี 2 คน" },
+      "explainTh": "Ken and Joy = 2 คน อยู่หลังบุพบท with → them",
+      "structure": "with + them", "example": "I play badminton with them."
+    },
+    {
+      "id": "a1-object-pronouns-15", "type": "context", "difficulty": 3,
+      "context": { "kind": "message", "title": "Message from Mum", "lines": [
+        { "text": "Hi Pim, Grandma is at home today. Please buy some fruit for her after school. Dad is busy, so don't call him. Love you! Mum" }
+      ] },
+      "question": "Who is the fruit for?",
+      "choices": ["Pim", "Grandma", "Dad", "Mum"], "answer": 1,
+      "whyNot": { "0": "Pim เป็นคนซื้อ ไม่ใช่คนที่จะได้ผลไม้", "2": "him ในข้อความหมายถึง Dad (อย่าโทรหาพ่อ) ไม่ใช่คนที่จะได้ผลไม้", "3": "Mum เป็นคนเขียนข้อความ" },
+      "explainTh": "fruit for her — her แทน Grandma ที่พูดถึงในประโยคก่อนหน้า (ผู้หญิง 1 คน)"
+    },
+    {
+      "id": "a1-object-pronouns-16", "type": "mc", "difficulty": 3,
+      "question": "My friends and I are always busy. Our teacher gives ___ a lot of homework.",
+      "choices": ["we", "us", "our", "them"], "answer": 1,
+      "whyNot": { "0": "we เป็นรูปประธาน หลังกริยา gives ต้องใช้รูปกรรม", "2": "our แปลว่า \"ของพวกเรา\" ต้องมีคำนามตามทันที", "3": "them ไม่รวมผู้พูด แต่ my friends and I มีตัวผู้พูดด้วย" },
+      "explainTh": "my friends and I = พวกเรา อยู่หลังกริยา gives → รูปกรรม us",
+      "structure": "Verb + us", "example": "Our teacher gives us a lot of homework."
+    },
+    {
+      "id": "a1-object-pronouns-17", "type": "write", "difficulty": 3,
+      "task": "เขียน 3 ประโยคเกี่ยวกับคนที่คุณรักหรือชอบ ใช้ me / him / her / us / them อย่างน้อย 1 ครั้ง (Write 3 sentences about people you love or like. Use me, him, her, us or them.)",
+      "minSentences": 3,
+      "checks": [ { "re": "\\b(me|him|her|us|them)\\b", "flags": "i", "msgTh": "ใช้สรรพนามกรรม me, him, her, us หรือ them อย่างน้อย 1 ครั้ง" } ],
+      "sample": "I love my grandmother. I visit her every Sunday. She always helps me with my homework.",
+      "explainTh": "หลังกริยาหรือบุพบทใช้รูปกรรม: visit her, help me, play with them"
+    }
+  ]
+}

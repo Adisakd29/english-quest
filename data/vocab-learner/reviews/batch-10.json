@@ -1,0 +1,106 @@
+{
+  "batch": "10",
+  "reviewed": 125,
+  "issues": [
+    {
+      "id": "A2-S0058",
+      "severity": "minor",
+      "problem": "'Somchai is tall, but his sister is just as tall' uses an illogical contrast ('but'); noteTH also glosses as...as with เท่ากับ, contradicting the item's own Thai reasoning (เท่า).",
+      "fix": {
+        "example": "Somchai is tall, and his little sister is just as tall.",
+        "form": "as",
+        "exampleTH": "สมชายตัวสูง และน้องสาวของเขาก็สูงพอ ๆ กัน",
+        "noteTH": "รูป as + คุณศัพท์ + as = ...เท่า... เช่น as tall as me = สูงเท่าฉัน"
+      }
+    },
+    {
+      "id": "A2-S0069",
+      "severity": "minor",
+      "problem": "Thai 'น่าดึงดูด' alone sounds stiff for 'nice to look at' (the exampleTH itself uses สวย/น่ามอง).",
+      "fix": {
+        "thai": "สวยงาม, น่ามอง, น่าดึงดูด",
+        "shortTH": "สวยงาม, น่ามอง",
+        "thaiChangeReason": "น่าดึงดูด อย่างเดียวฟังแข็ง เมื่อพูดถึงรูปลักษณ์คนไทยมักใช้ สวยงาม/น่ามอง"
+      }
+    },
+    {
+      "id": "A2-S0078",
+      "severity": "minor",
+      "problem": "meaningEN uses 'rear', which is above A2 level.",
+      "fix": {
+        "meaningEN": "at the part of something that is behind, not the front"
+      }
+    },
+    {
+      "id": "A2-S0096",
+      "severity": "minor",
+      "problem": "With only two options (maths or art) standard English is 'better', so the example models a questionable use; 'most' also fits the gap.",
+      "fix": {
+        "example": "Which subject do you like best: maths, art or music?",
+        "form": "best",
+        "exampleTH": "คุณชอบวิชาไหนมากที่สุด คณิต ศิลปะ หรือดนตรี",
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0106",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Leave the last page ___' also accepts 'empty'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0111",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: '___ the eggs for ten minutes' also accepts 'Cook'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0149",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'a great ___ to practise your English' also accepts 'way'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0155",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'The ___ at this hotel makes amazing green curry' also accepts 'cook'.",
+      "fix": {
+        "gapOk": false
+      }
+    },
+    {
+      "id": "A2-S0159",
+      "severity": "minor",
+      "problem": "Thai 'โบสถ์' alone is ambiguous (also the ordination hall in a Buddhist temple); the meaning is a Christian church.",
+      "fix": {
+        "thai": "โบสถ์คริสต์, โบสถ์",
+        "shortTH": "โบสถ์คริสต์",
+        "thaiChangeReason": "คำว่า โบสถ์ อย่างเดียวหมายถึงโบสถ์ในวัดได้ด้วย จึงระบุให้ชัดว่าเป็นของศาสนาคริสต์"
+      }
+    },
+    {
+      "id": "A2-S0168",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Our school is ___ to the train station' accepts 'next' equally well.",
+      "fix": {
+        "example": "Our school is very close to the train station, so we walk.",
+        "form": "close",
+        "exampleTH": "โรงเรียนของเราอยู่ใกล้สถานีรถไฟมาก เราเลยเดินไป"
+      }
+    },
+    {
+      "id": "A2-S0174",
+      "severity": "minor",
+      "problem": "gapOk too optimistic: 'Type the secret ___' also accepts 'password/number'.",
+      "fix": {
+        "gapOk": false
+      }
+    }
+  ]
+}
